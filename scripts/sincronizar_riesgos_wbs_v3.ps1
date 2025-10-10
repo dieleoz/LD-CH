@@ -1,8 +1,8 @@
-# ═══════════════════════════════════════════════════════════════════════
+﻿# ═══════════════════════════════════════════════════════════════════════
 # SCRIPT: Sincronizar Riesgos WBS v3.0
 # ═══════════════════════════════════════════════════════════════════════
 # Propósito: Leer MATRIZ_RIESGOS_PMO_AMPLIADA y vincular riesgos a ítems WBS
-#            Genera riesgos_wbs.json y riesgos_wbs.js con exposición calculada
+#            Genera riesgos_wbs.json y riesgos_wbs.js con Exposicion calculada
 # ═══════════════════════════════════════════════════════════════════════
 
 param(
@@ -55,7 +55,7 @@ foreach ($linea in $lineas) {
         $campos = $linea -split "\|" | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" }
         
         if ($campos.Count -ge 10) {
-            # Calcular exposición (Probabilidad × Impacto)
+            # Calcular Exposicion (Probabilidad × Impacto)
             $probNum = switch ($campos[3]) {
                 "Muy Alta" { 0.9 }
                 "Alta" { 0.7 }
@@ -94,7 +94,9 @@ foreach ($linea in $lineas) {
                 fuente = $campos[8]
                 origen_decision = if ($campos.Count -ge 10) { $campos[9] } else { "N/A" }
                 hito_verificacion = if ($campos.Count -ge 11) { $campos[10] } else { "N/A" }
-                items_wbs = @()  # Se llenará después
+                items_wbs_manual = if ($campos.Count -ge 12) { $campos[11] } else { "" }
+                plan_accion = if ($campos.Count -ge 13) { $campos[12] } else { "No definido" }
+                items_wbs = @()  # Se llenará después con prioridad manual
             }
             
             $riesgos += $riesgo
@@ -109,9 +111,11 @@ foreach ($linea in $lineas) {
 
 Write-Host "Riesgos extraídos: $($riesgos.Count)" -ForegroundColor Green
 
-# Vincular riesgos a ítems WBS (por palabras clave)
+# Vincular riesgos a ítems WBS (PRIORIDAD: columna manual, luego palabras clave)
 Write-Host "`nVinculando riesgos a ítems WBS..." -ForegroundColor Yellow
 $vinculaciones = 0
+$vinculacionesManuales = 0
+$vinculacionesAutomaticas = 0
 
 foreach ($riesgo in $riesgos) {
     $id = $riesgo.id
@@ -119,6 +123,26 @@ foreach ($riesgo in $riesgos) {
     
     # Buscar ítems WBS relacionados
     $itemsRelacionados = @()
+    
+    # ========================================================
+    # PRIORIDAD 1: Usar Items_WBS de la matriz (manual)
+    # ========================================================
+    if ($riesgo.items_wbs_manual -and $riesgo.items_wbs_manual.Trim() -ne "" -and 
+        $riesgo.items_wbs_manual -notmatch "N/A|Transversal") {
+        $itemsManuales = $riesgo.items_wbs_manual -split ',\s*'
+        $itemsRelacionados += $itemsManuales
+        $vinculacionesManuales++
+        Write-Host "  ($id) ✅ Vinculación MANUAL: $($itemsManuales -join ', ')" -ForegroundColor Green
+        
+        # Asignar y pasar al siguiente riesgo
+        $riesgo.items_wbs = $itemsRelacionados | Select-Object -Unique
+        $vinculaciones += $itemsRelacionados.Count
+        continue
+    }
+    
+    # ========================================================
+    # PRIORIDAD 2: Búsqueda automática por palabras clave (fallback)
+    # ========================================================
     
     foreach ($item in $wbsData.items) {
         $codigo = $item.codigo
@@ -162,12 +186,16 @@ foreach ($riesgo in $riesgos) {
     }
     
     if ($itemsRelacionados.Count -gt 0) {
-        $riesgo.items_wbs = $itemsRelacionados
+        $riesgo.items_wbs = $itemsRelacionados | Select-Object -Unique
         $vinculaciones += $itemsRelacionados.Count
+        $vinculacionesAutomaticas++
+        Write-Host "  ($id) 🤖 Vinculación AUTOMÁTICA: $($itemsRelacionados -join ', ')" -ForegroundColor Yellow
     }
 }
 
-Write-Host "Vinculaciones creadas: $vinculaciones" -ForegroundColor Green
+Write-Host "`nVinculaciones creadas: $vinculaciones total" -ForegroundColor Green
+Write-Host "   Manuales desde columna: $vinculacionesManuales" -ForegroundColor Green
+Write-Host "   Automaticas por palabras clave: $vinculacionesAutomaticas" -ForegroundColor Yellow
 
 # Generar estructura JSON consolidada
 Write-Host "`nGenerando JSON consolidado..." -ForegroundColor Yellow
@@ -194,6 +222,7 @@ $riesgosWbs = @{
             fuente = $_.fuente
             origen_decision = $_.origen_decision
             hito_verificacion = $_.hito_verificacion
+            plan_accion = $_.plan_accion
             items_wbs = $_.items_wbs
         }
     }
@@ -214,24 +243,45 @@ $riesgosWbs = @{
 
 # Guardar JSON
 $riesgosWbs | ConvertTo-Json -Depth 100 | Out-File $OutputJsonPath -Encoding UTF8
-Write-Host "✅ JSON generado: $OutputJsonPath" -ForegroundColor Green
+Write-Host 'OK JSON generado: ' -NoNewline -ForegroundColor Green
+Write-Host $OutputJsonPath -ForegroundColor White
 
 # Generar archivo .js
-$jsPath = $OutputJsonPath -replace "\.json$", ".js"
-$jsContent = "window.riesgosWbs = " + ($riesgosWbs | ConvertTo-Json -Depth 100 -Compress) + ";"
+$jsPath = $OutputJsonPath -replace '\.json$', '.js'
+$jsContent = 'window.riesgosWbs = ' + ($riesgosWbs | ConvertTo-Json -Depth 100 -Compress) + ';'
 $jsContent | Out-File $jsPath -Encoding UTF8
-Write-Host "✅ JS generado: $jsPath" -ForegroundColor Green
+Write-Host 'OK JS generado: ' -NoNewline -ForegroundColor Green
+Write-Host $jsPath -ForegroundColor White
+
+# ================================================================
+# PASO FINAL: CACHE BUSTING EN HTML
+# ================================================================
+
+$htmlPath = "IX. WBS y Planificacion\WBS_Analisis_Riesgos.html"
+if (Test-Path $htmlPath) {
+    $htmlContent = Get-Content $htmlPath -Raw -Encoding UTF8
+    $timestamp = (Get-Date).Ticks
+    
+    # Reemplazar la versión en la etiqueta del script usando grupos de captura para mayor robustez
+    $newHtmlContent = $htmlContent -replace '(<script\s+src="riesgos_wbs\.js)\?v=[\d\.]*("></script>)', "`$1?v=$timestamp`$2"
+    
+    if ($htmlContent -ne $newHtmlContent) {
+        $newHtmlContent | Out-File $htmlPath -Encoding UTF8
+        Write-Host "OK Cache-busting aplicado: $htmlPath (v=$timestamp)" -ForegroundColor Cyan
+    }
+}
 
 # Resumen
 Write-Host "`n================================================================" -ForegroundColor Green
 Write-Host "  SINCRONIZACIÓN COMPLETADA" -ForegroundColor Green
 Write-Host "================================================================`n" -ForegroundColor Green
 
-Write-Host "📊 ESTADÍSTICAS:" -ForegroundColor Cyan
+Write-Host 'ESTADISTICAS:' -ForegroundColor Cyan
 Write-Host "  Total riesgos: $($riesgosWbs.total_riesgos)" -ForegroundColor White
 Write-Host "  Riesgos vinculados a WBS: $($riesgosWbs.riesgos_vinculados)" -ForegroundColor White
-Write-Host "  Exposición CRÍTICA: $($riesgosWbs.estadisticas.exposicion_critica)" -ForegroundColor Red
-Write-Host "  Exposición ALTA: $($riesgosWbs.estadisticas.exposicion_alta)" -ForegroundColor Yellow
-Write-Host "  Exposición MEDIA: $($riesgosWbs.estadisticas.exposicion_media)" -ForegroundColor Cyan
-Write-Host "  Exposición BAJA: $($riesgosWbs.estadisticas.exposicion_baja)" -ForegroundColor Green
-Write-Host ""
+Write-Host "  Exposicion CRITICA: $($riesgosWbs.estadisticas.exposicion_critica)" -ForegroundColor Red
+Write-Host "  Exposicion ALTA: $($riesgosWbs.estadisticas.exposicion_alta)" -ForegroundColor Yellow
+Write-Host "  Exposicion MEDIA: $($riesgosWbs.estadisticas.exposicion_media)" -ForegroundColor Cyan
+Write-Host "  Exposicion BAJA: $($riesgosWbs.estadisticas.exposicion_baja)" -ForegroundColor Green
+Write-Host ''
+

@@ -12,7 +12,7 @@
         "desglose": [
           "Cajas backbone: 1,980 unidades (cada 300m segÃºn diseÃ±o OSP)",
           "Cajas en torres TETRA/GSM-R: 37 unidades",
-          "Cajas en subestaciones elÃ©ctricas: 15 unidades",
+          "Cajas en subestaciones eléctricas: 15 unidades",
           "Cajas en cruces viales crÃ­ticos: 36 unidades"
         ],
         "fuente_normativa": "UIT-T G.652.D (establece mÃ¡ximo 500m entre puntos de empalme)",
@@ -101,7 +101,7 @@
         ],
         "restriccion": "MÃ­nimo 1 cÃ¡mara por punto crÃ­tico",
         "alternativas": [
-          "73 cÃ¡maras â†’ Cobertura bÃ¡sica (1 por punto)",
+          "73 cÃ¡maras â†’ Cobertura básica (1 por punto)",
           "120 cÃ¡maras â†’ Cobertura media (redundancia en crÃ­ticos)",
           "180 cÃ¡maras â†’ Cobertura completa (mÃºltiples Ã¡ngulos)"
         ]
@@ -112,15 +112,15 @@
       "item": "1.1.102",
       "nombre": "Workstations operadores CTC",
       "criterio_tecnico": {
-        "justificacion": "8 estaciones para operaciÃ³n 24/7 con redundancia",
-        "calculo_detallado": "3 turnos Ã— 2 operadores por turno = 6 estaciones + 2 redundancia/capacitaciÃ³n = 8 total",
+        "justificacion": "8 estaciones para Operación 24/7 con redundancia",
+        "calculo_detallado": "3 turnos Ã— 2 operadores por turno = 6 estaciones + 2 redundancia/capacitación = 8 total",
         "desglose": [
           "Estaciones turno diurno: 2 workstations",
           "Estaciones turno nocturno: 2 workstations",
           "Estaciones turno rotativo: 2 workstations",
-          "Estaciones backup/capacitaciÃ³n: 2 workstations"
+          "Estaciones backup/capacitación: 2 workstations"
         ],
-        "fuente_normativa": "EstÃ¡ndar operaciÃ³n ferroviaria 24/7",
+        "fuente_normativa": "EstÃ¡ndar Operación ferroviaria 24/7",
         "fuente_diseno": "Plan de Operaciones CCO",
         "documentos_referencia": [
           "VI/Plan_Operaciones_CCO.md (SecciÃ³n 2.3)",
@@ -140,3 +140,5 @@
 }
 
 ;
+
+

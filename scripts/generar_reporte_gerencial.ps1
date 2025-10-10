@@ -134,6 +134,24 @@ $jsContent | Out-File -FilePath $jsPath -Encoding UTF8
 Write-Host "`n[OK] Reporte Gerencial generado" -ForegroundColor Green
 Write-Host "Archivo: $jsPath" -ForegroundColor Cyan
 
+# ================================================================
+# CACHE BUSTING EN HTML
+# ================================================================
+
+$htmlPath = "IX. WBS y Planificacion\WBS_Reporte_Gerencial.html"
+if (Test-Path $htmlPath) {
+    $htmlContent = Get-Content $htmlPath -Raw -Encoding UTF8
+    $timestamp = (Get-Date).Ticks
+    
+    # Reemplazar la versión en la etiqueta del script usando grupos de captura para mayor robustez
+    $newHtmlContent = $htmlContent -replace '(<script\s+src="reporte_gerencial_data\.js)\?v=[\d\.]*("></script>)', "`$1?v=$timestamp`$2"
+    
+    if ($htmlContent -ne $newHtmlContent) {
+        $newHtmlContent | Out-File $htmlPath -Encoding UTF8
+        Write-Host "OK Cache-busting aplicado: WBS_Reporte_Gerencial.html (v=$timestamp)" -ForegroundColor Cyan
+    }
+}
+
 # Resumen
 Write-Host "`n========================================" -ForegroundColor Cyan
 Write-Host "         RESUMEN PARA GERENCIA" -ForegroundColor Yellow

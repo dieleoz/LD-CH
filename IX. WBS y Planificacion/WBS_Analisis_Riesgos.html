@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -413,408 +413,25 @@
             <input type="text" class="search-box" placeholder="🔍 Buscar riesgos..." onkeyup="searchRisks(this.value)">
             
             <div class="risk-matrix" id="riskMatrix">
-                <!-- Riesgos de Alto Impacto -->
-                <div class="risk-card high" data-category="high" data-keywords="interoperabilidad FENOCO coordinación">
-                    <div class="risk-header">
-                        <div class="risk-title">Complejidad Interoperabilidad FENOCO</div>
-                        <div class="risk-level high">ALTO</div>
-                    </div>
-                    <div class="risk-description">
-                        Integración de sistemas CTC propios con ITCS FENOCO requiere coordinación técnica compleja y acuerdos operacionales detallados.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value">+$15.2B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value">+6 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value">75%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value">CRÍTICO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Establecer acuerdos operacionales detallados antes del inicio</li>
-                            <li>Realizar pruebas conjuntas de interoperabilidad</li>
-                            <li>Implementar protocolos de comunicación estándar</li>
-                            <li>Designar coordinador técnico FENOCO dedicado</li>
-                            <li>Desarrollar procedimientos de contingencia</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card high" data-category="high" data-keywords="fibra óptica disponibilidad suministro">
-                    <div class="risk-header">
-                        <div class="risk-title">Disponibilidad de Fibra Óptica</div>
-                        <div class="risk-level high">ALTO</div>
-                    </div>
-                    <div class="risk-description">
-                        Dependencia de 594 km de fibra óptica en corredor con restricciones geográficas y posibles limitaciones de suministro.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value">+$2.8B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value">+4 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value">60%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value">CRÍTICO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Incluir 10% de repuesto en el presupuesto</li>
-                            <li>Identificar rutas alternativas de suministro</li>
-                            <li>Establecer acuerdos con múltiples proveedores</li>
-                            <li>Implementar plan de contingencia con cableado aéreo</li>
-                            <li>Gestionar licencias ambientales anticipadamente</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card high" data-category="high" data-keywords="licencias frecuencia espectro TETRA GSM-R">
-                    <div class="risk-header">
-                        <div class="risk-title">Asignación de Espectro Radioeléctrico</div>
-                        <div class="risk-level high">ALTO</div>
-                    </div>
-                    <div class="risk-description">
-                        Obtención de licencias de frecuencia para TETRA y GSM-R puede enfrentar restricciones regulatorias o interferencias.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value">+$1.5B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value">+3 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value">45%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value">CRÍTICO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Iniciar gestión de licencias en fase de diseño</li>
-                            <li>Realizar estudios de compatibilidad electromagnética</li>
-                            <li>Coordinación con ANE para asignación de frecuencias</li>
-                            <li>Implementar soluciones de espectro compartido</li>
-                            <li>Desarrollar alternativas tecnológicas de respaldo</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card high" data-category="high" data-keywords="integración TETRA GSM-R colocalización">
-                    <div class="risk-header">
-                        <div class="risk-title">Integración TETRA-GSM-R Colocalizada</div>
-                        <div class="risk-level high">ALTO</div>
-                    </div>
-                    <div class="risk-description">
-                        Colocalización de sistemas TETRA y GSM-R en 37 torres requiere coordinación de frecuencias y protocolos complejos.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value">+$3.2B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value">+2 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value">40%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value">CRÍTICO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Realizar estudios de compatibilidad electromagnética</li>
-                            <li>Implementar filtros y aisladores de frecuencia</li>
-                            <li>Pruebas de cobertura conjuntas</li>
-                            <li>Optimización de potencia y orientación de antenas</li>
-                            <li>Monitoreo continuo de interferencias</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Riesgos de Medio Impacto -->
-                <div class="risk-card medium" data-category="medium" data-keywords="locomotoras equipamiento ATP instalación">
-                    <div class="risk-header">
-                        <div class="risk-title">Disponibilidad de Locomotoras para Equipamiento</div>
-                        <div class="risk-level medium">MEDIO</div>
-                    </div>
-                    <div class="risk-description">
-                        Coordinación para equipamiento de 15 locomotoras existentes con sistemas ATP puede enfrentar restricciones operacionales.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value medium">+$800M COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value medium">+2 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value medium">30%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value medium">MEDIO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Plan de instalación escalonado</li>
-                            <li>Coordinación con operador ferroviario</li>
-                            <li>Mantenimiento de locomotoras de respaldo</li>
-                            <li>Procedimientos de instalación optimizados</li>
-                            <li>Capacitación de técnicos especializados</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card medium" data-category="medium" data-keywords="certificación seguridad ATP ENCE">
-                    <div class="risk-header">
-                        <div class="risk-title">Certificación de Sistemas de Seguridad</div>
-                        <div class="risk-level medium">MEDIO</div>
-                    </div>
-                    <div class="risk-description">
-                        Procesos de certificación de sistemas ATP y ENCE pueden enfrentar demoras en organismos reguladores.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value medium">+$1.2B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value medium">+3 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value medium">35%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value medium">MEDIO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Iniciar procesos de certificación anticipadamente</li>
-                            <li>Utilizar sistemas pre-certificados</li>
-                            <li>Establecer comunicación directa con organismos</li>
-                            <li>Desarrollar documentación técnica completa</li>
-                            <li>Implementar pruebas piloto para validación</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card medium" data-category="medium" data-keywords="condiciones climáticas geográficas instalación">
-                    <div class="risk-header">
-                        <div class="risk-title">Condiciones Climáticas y Geográficas</div>
-                        <div class="risk-level medium">MEDIO</div>
-                    </div>
-                    <div class="risk-description">
-                        Condiciones climáticas adversas y restricciones geográficas pueden afectar la instalación de infraestructura.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value medium">+$2.1B COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value medium">+2 meses</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value medium">50%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value medium">MEDIO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Planificar instalaciones en temporada seca</li>
-                            <li>Implementar medidas de protección temporal</li>
-                            <li>Utilizar equipos especializados para terreno difícil</li>
-                            <li>Desarrollar rutas alternativas de acceso</li>
-                            <li>Establecer reservas de tiempo por condiciones</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Riesgos de Bajo Impacto -->
-                <div class="risk-card low" data-category="low" data-keywords="personal capacitación recursos humanos">
-                    <div class="risk-header">
-                        <div class="risk-title">Disponibilidad de Personal Especializado</div>
-                        <div class="risk-level low">BAJO</div>
-                    </div>
-                    <div class="risk-description">
-                        Escasez de personal técnico especializado en sistemas ferroviarios puede afectar la ejecución del proyecto.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value low">+$400M COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value low">+1 mes</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value low">25%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value low">BAJO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Programa de capacitación especializada</li>
-                            <li>Contratación de consultores internacionales</li>
-                            <li>Transferencia de tecnología</li>
-                            <li>Desarrollo de competencias locales</li>
-                            <li>Incentivos para retención de personal</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="risk-card low" data-category="low" data-keywords="tecnología obsolescencia innovación">
-                    <div class="risk-header">
-                        <div class="risk-title">Obsolescencia Tecnológica</div>
-                        <div class="risk-level low">BAJO</div>
-                    </div>
-                    <div class="risk-description">
-                        Avances tecnológicos durante la ejecución del proyecto pueden requerir actualizaciones de sistemas.
-                    </div>
-                    <div class="impact-section">
-                        <div class="impact-title">📊 Análisis de Impacto</div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto Presupuestal</span>
-                            <span class="impact-value low">+$600M COP</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Impacto en Cronograma</span>
-                            <span class="impact-value low">+1 mes</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Probabilidad de Ocurrencia</span>
-                            <span class="impact-value low">20%</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Nivel de Criticidad</span>
-                            <span class="impact-value low">BAJO</span>
-                        </div>
-                    </div>
-                    <div class="mitigation">
-                        <h4>🛡️ Estrategias de Mitigación</h4>
-                        <ul>
-                            <li>Selección de tecnologías probadas y estables</li>
-                            <li>Arquitectura modular y escalable</li>
-                            <li>Contratos de soporte a largo plazo</li>
-                            <li>Plan de actualización gradual</li>
-                            <li>Monitoreo de tendencias tecnológicas</li>
-                        </ul>
-                    </div>
+                <!-- Tarjetas se generan dinámicamente desde riesgos_wbs.js -->
+                <div class="loading-message" style="text-align: center; padding: 40px; color: #666;">
+                    ⏳ Cargando riesgos...
                 </div>
             </div>
             
-            <div class="probability-matrix">
-                <h3>📊 Matriz de Probabilidad vs Impacto</h3>
-                <table class="matrix-table">
-                    <thead>
-                        <tr>
-                            <th>Probabilidad \ Impacto</th>
-                            <th>Bajo</th>
-                            <th>Medio</th>
-                            <th>Alto</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Alta (70-100%)</th>
-                            <td class="matrix-cell medium">Complejidad Interoperabilidad FENOCO</td>
-                            <td class="matrix-cell high">Disponibilidad Fibra Óptica</td>
-                            <td class="matrix-cell high">Condiciones Climáticas</td>
-                        </tr>
-                        <tr>
-                            <th>Media (40-69%)</th>
-                            <td class="matrix-cell low">Personal Especializado</td>
-                            <td class="matrix-cell medium">Certificación Seguridad</td>
-                            <td class="matrix-cell medium">Integración TETRA-GSM-R</td>
-                        </tr>
-                        <tr>
-                            <th>Baja (0-39%)</th>
-                            <td class="matrix-cell low">Obsolescencia Tecnológica</td>
-                            <td class="matrix-cell low">Locomotoras Equipamiento</td>
-                            <td class="matrix-cell low">Espectro Radioeléctrico</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <div class="risk-trend">
-                <h3>📈 Tendencias de Riesgos</h3>
+            <div class="trend-section">
+                <h3>📈 Tendencias y Monitoreo</h3>
                 <div class="trend-item">
-                    <span>Riesgos de Interoperabilidad FENOCO</span>
-                    <span><span class="trend-direction trend-up">↗️</span> Tendencia: Incrementando</span>
+                    <span>Estado General del Proyecto</span>
+                    <span><span class="trend-direction trend-up">↗️</span> Tendencia: Mejorando</span>
                 </div>
                 <div class="trend-item">
-                    <span>Disponibilidad de Recursos</span>
-                    <span><span class="trend-direction trend-stable">→</span> Tendencia: Estable</span>
+                    <span>Riesgos Nuevos Identificados</span>
+                    <span><span class="trend-direction">→</span> Tendencia: Estable</span>
                 </div>
                 <div class="trend-item">
-                    <span>Condiciones Regulatorias</span>
-                    <span><span class="trend-direction trend-down">↘️</span> Tendencia: Mejorando</span>
+                    <span>Efectividad de Mitigación</span>
+                    <span><span class="trend-direction trend-up">↗️</span> Tendencia: Mejorando</span>
                 </div>
                 <div class="trend-item">
                     <span>Avances Tecnológicos</span>
@@ -859,25 +476,10 @@
                 }
             });
         }
-        
-        // Animación de entrada para las tarjetas
-        document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.risk-card');
-            cards.forEach((card, index) => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
-                
-                setTimeout(() => {
-                    card.style.transition = 'all 0.5s ease';
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, index * 100);
-            });
-        });
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=1.0.9"></script>
+    <script src="riesgos_wbs.js?v=638956959267187565"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -903,6 +505,127 @@
             
             console.log(`📊 Estadísticas actualizadas: ${alta + critica} altos, ${media} medios, ${baja} bajos`);
             
+            // ============================================================
+            // RENDERIZADO DINÁMICO DE RIESGOS (v2.0 - Con Plan de Acción)
+            // ============================================================
+            
+            const riskMatrixContainer = document.getElementById('riskMatrix');
+            
+            if (riskMatrixContainer && riesgos.length > 0) {
+                // Limpiar tarjetas hardcodeadas
+                riskMatrixContainer.innerHTML = '';
+                
+                // Generar tarjetas dinámicamente
+                riesgos.forEach((r, index) => {
+                    // Determinar clase de categoría
+                    const categoryClass = r.nivel_exposicion === 'CRÍTICA' || r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'ALTA' ? 'high' :
+                                         r.nivel_exposicion === 'MEDIA' ? 'medium' : 'low';
+                    
+                    // Crear tarjeta
+                    const card = document.createElement('div');
+                    card.className = `risk-card ${categoryClass}`;
+                    card.setAttribute('data-category', categoryClass);
+                    card.setAttribute('data-keywords', `${r.id} ${r.categoria} ${r.descripcion}`.toLowerCase());
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    
+                    // Header
+                    const header = document.createElement('div');
+                    header.className = 'risk-header';
+                    header.innerHTML = `
+                        <div class="risk-title">${r.id}: ${r.descripcion.substring(0, 80)}${r.descripcion.length > 80 ? '...' : ''}</div>
+                        <div class="risk-level ${categoryClass}">${r.nivel_exposicion}</div>
+                    `;
+                    card.appendChild(header);
+                    
+                    // Descripción completa
+                    const description = document.createElement('div');
+                    description.className = 'risk-description';
+                    description.textContent = r.descripcion;
+                    card.appendChild(description);
+                    
+                    // Plan de Acción ⭐ NUEVO
+                    if (r.plan_accion && r.plan_accion !== 'No definido') {
+                        const planAccionDiv = document.createElement('div');
+                        planAccionDiv.className = 'risk-plan-accion';
+                        planAccionDiv.innerHTML = `
+                            <h5 style="margin: 0 0 8px 0; color: #1e90ff; font-size: 14px; font-weight: 600;">
+                                📋 Plan de Acción Inmediato
+                            </h5>
+                            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #333;">
+                                ${r.plan_accion}
+                            </p>
+                        `;
+                        planAccionDiv.style.cssText = `
+                            margin-top: 15px;
+                            padding: 12px;
+                            background-color: #f0f8ff;
+                            border-left: 4px solid #1e90ff;
+                            border-radius: 4px;
+                        `;
+                        card.appendChild(planAccionDiv);
+                    }
+                    
+                    // Impact section
+                    const impactSection = document.createElement('div');
+                    impactSection.className = 'impact-section';
+                    impactSection.innerHTML = `
+                        <div class="impact-title">📊 Análisis de Impacto</div>
+                        <div class="impact-item">
+                            <span class="impact-label">Probabilidad</span>
+                            <span class="impact-value">${r.probabilidad}</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-label">Impacto</span>
+                            <span class="impact-value">${r.impacto}</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-label">Exposición</span>
+                            <span class="impact-value">${r.exposicion.toFixed(2)}</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-label">Estrategia</span>
+                            <span class="impact-value">${r.estrategia}</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-label">Responsable</span>
+                            <span class="impact-value">${r.responsable}</span>
+                        </div>
+                        ${r.origen_decision !== 'N/A' ? `
+                        <div class="impact-item">
+                            <span class="impact-label">Origen DT</span>
+                            <span class="impact-value">${r.origen_decision}</span>
+                        </div>
+                        ` : ''}
+                        ${r.hito_verificacion !== 'N/A' ? `
+                        <div class="impact-item">
+                            <span class="impact-label">Hito Verificación</span>
+                            <span class="impact-value">${r.hito_verificacion}</span>
+                        </div>
+                        ` : ''}
+                        ${r.items_wbs.length > 0 ? `
+                        <div class="impact-item">
+                            <span class="impact-label">Ítems WBS Afectados</span>
+                            <span class="impact-value">${r.items_wbs.join(', ')}</span>
+                        </div>
+                        ` : ''}
+                    `;
+                    card.appendChild(impactSection);
+                    
+                    // Agregar al container
+                    riskMatrixContainer.appendChild(card);
+                    
+                    // Animación de entrada
+                    setTimeout(() => {
+                        card.style.transition = 'all 0.5s ease';
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 100);
+                });
+                
+                console.log(`✅ ${riesgos.length} tarjetas de riesgos generadas dinámicamente con planes de acción`);
+            }
+            
             // Los datos están disponibles para renderizado dinámico
             // Se pueden filtrar por ítem WBS usando:
             // window.riesgosWbs.riesgos.filter(r => r.items_wbs.includes('codigo_item'))
@@ -912,3 +635,8 @@
     </script>
 </body>
 </html>
+
+
+
+
+

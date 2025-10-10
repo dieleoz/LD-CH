@@ -1,8 +1,8 @@
 # 📘 LÉEME: Sistema WBS Interactivo Completo
 ## Una Fuente → 5 Vistas Dinámicas + DT + YAML + Riesgos + Cronograma
 
-**Fecha:** 7 de Octubre de 2025  
-**Estado:** ✅ SISTEMA 100% OPERATIVO  
+**Fecha:** 10 de Octubre de 2025  
+**Estado:** ✅ SISTEMA 100% DINÁMICO - v14.6 CON COMANDO ÚNICO  
 
 ---
 
@@ -28,9 +28,29 @@
 
 ---
 
+## ⚡ **COMANDO ÚNICO PARA SINCRONIZACIÓN**
+
+```powershell
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1
+```
+
+**¿Qué hace?**
+- ✅ Sincroniza 3 interfaces (Riesgos + Reporte + Cronograma)
+- ✅ Aplica cache-busting automático (datos frescos siempre)
+- ⏱️ Tiempo: ~6 segundos
+
+**Opciones:**
+```powershell
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1 -SoloRiesgos
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1 -SoloReporte
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1 -SoloCronograma
+```
+
+---
+
 ## 🚀 **INICIO RÁPIDO (5 PASOS)**
 
-### **1. Abre el Menú Principal:**
+### **1. Abre el Menú Principal (WBS Principal):**
 ```
 Archivo: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```

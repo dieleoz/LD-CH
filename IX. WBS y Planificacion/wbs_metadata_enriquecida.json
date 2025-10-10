@@ -1,11 +1,11 @@
-{
+﻿{
   "version": "1.0",
   "fecha_creacion": "2025-10-08",
   "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
-      "justificacion_tecnica": "Servidores redundantes para control centralizado del trÃ¡fico ferroviario segÃºn AT2 Â§5.3",
+      "justificacion_tecnica": "Servidores redundantes para control centralizado del Tráfico ferroviario segÃºn AT2 Â§5.3",
       "criterios_diseno": [
         "Redundancia N+1 para alta disponibilidad",
         "Capacidad procesamiento: 100 trenes simultÃ¡neos",
@@ -14,7 +14,7 @@
       "supuestos": [
         "2 servidores (1 principal + 1 respaldo)",
         "Arquitectura cliente-servidor",
-        "ComunicaciÃ³n redundante fibra Ã³ptica"
+        "ComunicaciÃ³n redundante fibra óptica"
       ],
       "decisiones_tecnicas": [],
       "feedback_especialista": "",
@@ -114,7 +114,7 @@
       "justificacion_tecnica": "Plataforma SCADA industrial de alta confiabilidad para supervisiÃ³n y control",
       "criterios_diseno": [
         "Compatibilidad con mÃºltiples protocolos: Modbus, DNP3, IEC 61850",
-        "HMI grÃ¡fico con sinÃ³pticos dinÃ¡micos",
+        "HMI grÃ¡fico con sinópticos dinÃ¡micos",
         "MÃ³dulo de alarmas inteligentes y trending"
       ],
       "supuestos": [
@@ -142,8 +142,8 @@
       ],
       "supuestos": [
         "1 set de equipos: core switch + distribution switches + access switches",
-        "Fibra Ã³ptica para backbone, cobre para edge",
-        "CertificaciÃ³n IEC 61850-3 para subestaciones"
+        "Fibra óptica para backbone, cobre para edge",
+        "certificación IEC 61850-3 para subestaciones"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-003-2025-10-07"
@@ -226,7 +226,7 @@
     ],
     "supuestos": [
       "2 servidores en configuraciÃ³n N+1",
-      "Enlace dedicado fibra Ã³ptica para sincronizaciÃ³n",
+      "Enlace dedicado fibra óptica para sincronizaciÃ³n",
       "UPS dimensionado para 4 horas autonomÃ­a"
     ],
     "decisiones_tecnicas": [],
@@ -244,7 +244,7 @@
     "criterios_diseno": [
       "CategorÃ­a 6A para 10 Gbps",
       "Blindaje STP para ambientes industriales",
-      "CertificaciÃ³n permanente segÃºn TIA-568.2-D"
+      "certificación permanente segÃºn TIA-568.2-D"
     ],
     "supuestos": [
       "1,000 metros total (5 estaciones Ã— 200m c/u)",
@@ -308,7 +308,7 @@
   },
   "3.1.100": {
     "descripcion": "Cable FO LPOC03120484ZC",
-    "justificacion_tecnica": "594 km de fibra Ã³ptica (526 km corredor + 10% reserva + 3% contingencia) segÃºn cÃ¡lculo tÃ©cnico validado",
+    "justificacion_tecnica": "594 km de fibra óptica (526 km corredor + 10% reserva + 3% contingencia) segÃºn cÃ¡lculo tÃ©cnico validado",
     "criterios_diseno": [
       "120 hilos para redundancia y crecimiento futuro",
       "Tipo LPOC (Low Profile Optical Cable) para instalaciÃ³n aÃ©rea",
@@ -359,10 +359,10 @@
     "supuestos": [
       "146 pasos a nivel totales en corredor",
       "Solo Tipo C con barreras automÃ¡ticas",
-      "Resto con seÃ±alizaciÃ³n pasiva"
+      "Resto con SeñalizaciÃ³n pasiva"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "ClasificaciÃ³n segÃºn trÃ¡fico vehicular: Tipo C >500 veh/dÃ­a, Tipo B 100-500 veh/dÃ­a, resto <100 veh/dÃ­a.",
+    "feedback_especialista": "ClasificaciÃ³n segÃºn Tráfico vehicular: Tipo C >500 veh/dÃ­a, Tipo B 100-500 veh/dÃ­a, resto <100 veh/dÃ­a.",
     "documentos_ingenieria": [
       "V.5_Seguridad_Detalle_v1.0.md"
     ],
@@ -381,5 +381,6 @@
     "actualizado_por": ""
   }
 }
+
 
 

@@ -1,7 +1,7 @@
 ﻿{
     "total_actividades":  0,
     "supuestos":  [
-                      "AprobaciÃ³n ANI Mes 12 sin observaciones mayores",
+                      "Aprobación ANI Mes 12 sin observaciones mayores",
                       "Edificio CCO entregado Mes 18 (ANI responsable)",
                       "Material Rodante certificado Mes 20 (Fenoco responsable)",
                       "Proveedores cumplen lead times exactos",
@@ -20,10 +20,10 @@
                           "NO ATP embarcado sin Material Rodante (EXT-02 M20)",
                           "NO Pruebas integradas sin FATs (M38)",
                           "NO SAT sin integraciÃ³n completa (M42)",
-                          "NO Ordenar compras sin aprobaciÃ³n ANI (M12)"
+                          "NO Ordenar compras sin Aprobación ANI (M12)"
                       ],
     "ruta_critica":  [
-                         "M12: AprobaciÃ³n ANI",
+                         "M12: Aprobación ANI",
                          "M13: Orden ATP/ITCS (12m) + Fibra (9m)",
                          "M18: Edificio CCO (EXT-01)",
                          "M20: Material Rodante (EXT-02)",
@@ -99,7 +99,7 @@
                                                 {
                                                     "meses_buffer":  2,
                                                     "probabilidad":  40,
-                                                    "riesgo":  "Retraso aprobaciÃ³n ANI"
+                                                    "riesgo":  "Retraso Aprobación ANI"
                                                 },
                                                 {
                                                     "meses_buffer":  3,
@@ -217,7 +217,7 @@
     "fases":  [
                   {
                       "id":  "F1",
-                      "descripcion":  "IngenierÃ­a conceptual, bÃ¡sica y de detalle. AprobaciÃ³n ANI Mes 12.",
+                      "descripcion":  "Ingeniería conceptual, básica y de detalle. Aprobación ANI Mes 12.",
                       "nombre":  "INGENIERÃA",
                       "mes_inicio":  0,
                       "duracion_meses":  12,
@@ -227,7 +227,7 @@
                   },
                   {
                       "id":  "F2",
-                      "descripcion":  "Compras paralelas post-aprobaciÃ³n ANI. Lead times 4-12 meses.",
+                      "descripcion":  "Compras paralelas post-Aprobación ANI. Lead times 4-12 meses.",
                       "nombre":  "ADQUISICIONES URGENTES",
                       "mes_inicio":  12,
                       "duracion_meses":  2,
@@ -267,7 +267,7 @@
                   },
                   {
                       "id":  "F6",
-                      "descripcion":  "FAT, SAT, pruebas integradas, certificaciÃ³n ANI.",
+                      "descripcion":  "FAT, SAT, pruebas integradas, certificación ANI.",
                       "nombre":  "INTEGRACION Y PRUEBAS",
                       "mes_inicio":  32,
                       "duracion_meses":  13,
@@ -277,7 +277,7 @@
                   },
                   {
                       "id":  "F7",
-                      "descripcion":  "OperaciÃ³n asistida, capacitaciÃ³n, entrega final.",
+                      "descripcion":  "Operación asistida, capacitación, entrega final.",
                       "nombre":  "PUESTA EN MARCHA",
                       "mes_inicio":  44,
                       "duracion_meses":  4,
@@ -325,10 +325,10 @@
                                   "id":  "EXT-03",
                                   "nota":  "SIN ENERGÃA NO SE PUEDE operar equipos electrÃ³nicos.",
                                   "orden_en_mes":  8,
-                                  "nombre":  "Subestaciones ElÃ©ctricas",
+                                  "nombre":  "Subestaciones eléctricas",
                                   "mes_requerido":  16,
                                   "lead_time_meses":  8,
-                                  "responsable":  "Operador Red ElÃ©ctrica",
+                                  "responsable":  "Operador Red eléctrica",
                                   "criticidad":  "ALTA"
                               },
                               {
@@ -351,5 +351,6 @@
                               }
                           ],
     "fecha_fin_plan":  "2029-05-31",
-    "estrategia":  "36 meses base + 12 meses buffer riesgos"
+    "estrategia":  "36 meses base + 12 meses buffer riesgos",
+    "fecha_actualizacion":  "2025-10-10"
 }

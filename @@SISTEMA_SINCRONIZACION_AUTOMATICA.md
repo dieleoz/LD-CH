@@ -1,13 +1,21 @@
 # 🔄 SISTEMA DE SINCRONIZACIÓN AUTOMÁTICA WBS
 **Proyecto:** APP La Dorada-Chiriguaná  
 **Fecha creación:** 8 de Octubre de 2025  
-**Versión:** 1.0  
+**Última actualización:** 10 de Octubre de 2025  
+**Versión:** 1.1 - **Comando Único v14.6**
 
 ---
 
 ## 📋 RESUMEN EJECUTIVO
 
 Este documento describe el sistema automático para sincronizar la WBS desde el **Excel como fuente de verdad** hacia todos los archivos del proyecto (JSON, JS, MD, HTML).
+
+### **⚡ COMANDO ÚNICO (v14.6 - 10-OCT-2025):**
+```powershell
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1
+```
+✅ **Sincroniza:** Riesgos + Reporte Gerencial + Cronograma en ~6 segundos  
+✅ **Cache-busting:** Automático (navegador carga datos frescos siempre)
 
 ---
 

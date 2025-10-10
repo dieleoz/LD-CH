@@ -15,13 +15,28 @@ Sistema integral que permite a especialistas (fibra, TETRA, civil, etc.) **revis
 
 ---
 
+## ⚡ **COMANDO ÚNICO PARA SINCRONIZACIÓN (v14.6)**
+
+```powershell
+.\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1
+```
+
+**Sincroniza TODO el sistema WBS:**
+- ✅ Análisis de Riesgos (17 riesgos + planes de acción)
+- ✅ Reporte Gerencial (Pareto + Ruta Crítica)
+- ✅ Cronograma (60 meses)
+- ✅ Cache-busting automático (datos frescos)
+- ⏱️ Tiempo: ~6 segundos
+
+---
+
 ## 🚀 **INICIO RÁPIDO (2 minutos)**
 
-### **PASO 1: Abrir WBS Interactiva**
+### **PASO 1: Abrir WBS Principal (Portal de Interfaces)**
 ```
 1. Navega a: IX. WBS y Planificacion/
 2. Abre: WBS_Menu_Principal.html
-3. Clic en tarjeta morada: "⭐ NUEVA: WBS INTERACTIVA COMPLETA v3.0"
+3. Accede a las 6 interfaces dinámicas disponibles
 ```
 
 ### **PASO 2: Explorar Ítems**

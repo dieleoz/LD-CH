@@ -39,29 +39,30 @@ Esta versión ampliada de la Matriz de Riesgos PMO agrega **dos campos críticos
 ### **Campos Nuevos:** ⭐
 - **Origen_Decisión:** ID de Decisión Técnica (DT-XXX-NNN) o "N/A" si es riesgo general
 - **Hito_Verificación:** ID de hito (H-XXX-NNN) donde se verifica, o "Continuo" si es monitoreo permanente
+- **Plan_Accion:** ⭐ **NUEVO (10-Oct-2025)** - Acción inmediata concreta que el responsable debe ejecutar (máx 200 caracteres)
 
 ---
 
 ## 📊 **MATRIZ AMPLIADA - RIESGOS OPERATIVOS**
 
-| ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | **Origen_Decisión** | **Hito_Verificación** |
-|:--:|:----------|:------------|:----:|:--------|:-----------|:------------|:-------|:-------|:-------------------|:---------------------|
-| R-AT3-01 | Técnico | Dependencia AT3 para ITCS ETCS L2 | Alta | Alto | Mitigar: ETCS L2 estándar | Ing. Sistemas | Activo | P42 / Docs ITCS | N/A | H-ITCS-001 |
-| R-INT-01 | Técnico | Interoperabilidad con FENOCO (UIC) | Media | Alto | Mitigar: Protocolos UIC | Comunicaciones | Activo | P42 / Interfaces | N/A | H-INT-002 |
-| R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 | Media | Alto | Mitigar: N+1, monitoreo | Ing. Sistemas | Activo | AT4 / P42 | N/A | Continuo |
-| R-CYB-01 | Técnico | Ciberseguridad IEC 62443 | Media | Alto | Mitigar: Defensa en profundidad | Ciberseguridad | Activo | VII.2.11 | N/A | H-CYB-001 |
-| R-IF-01 | Gestión | Desalineación en interfaces (ICD) | Alta | Alto | Mitigar: Plan Gestión Interfaces | PMO/Integración | Activo | 41. Interfaces | N/A | H-IF-003 |
-| R-PERM-01 | Contractual | Retrasos permisos ANE/ANLA | Media | Alto | Mitigar: Plan de permisos | Gestor Permisos | Activo | 40. Permisos | N/A | H-PERM-001 |
-| R-FIBRA-001 | Cronograma | Lead time crítico fibra 9m (pago 3m + fabric 4m + nac 2m) | Alta | Crítico | EVITAR - Ordenar 9m antes | PMO Adquisiciones | Activo | DT-FIBRA-003 | DT-FIBRA-003 | Orden Mes -9 |
-| R-FM-001 | Fuerza Mayor | Huelgas transporte, problemas FENOCO, paros sector | Media | Alto | MITIGAR - Plan contingencia, proveedores alternativos | PMO | Activo | Contrato | N/A | Continuo |
-| R-GES-004 | Gestión | Desfase aprobación diseños vs cronograma Plan Obras | Media | Alto | MITIGAR - Integrar cronograma entregables ingeniería con Plan Obras | PMO | Activo | A.1 Análisis | N/A | H-APROB-M12 |
-| R-CON-001 | Contractual | Ambigüedad medición disponibilidad PAN 100% (KPI inalcanzable) | Media | Alto | MITIGAR - Consulta Interventoría criterios medición | PMO Calidad | Activo | A.2 Análisis | N/A | Continuo |
-| R-OPE-001 | Operacional | Falla conmutación failover sistemas redundantes | Media | Alto | MITIGAR - Pruebas conmutación obligatorias FAT/SAT | Especialista Sistemas | Activo | A.2 Análisis | N/A | H-SAT-M44 |
-| R-CAL-001 | Gestión | Calidad materiales/mano obra no cumple estándares | Media | Alto | MITIGAR - Control calidad estricto, certificaciones | PMO Calidad | Activo | A.3 Análisis | N/A | Continuo |
-| R-ITCS-001 | Técnico | Indefinición sistema ITCS (ATP/ETCS L2/CBTC) - Bloqueador 58% proyecto | Alta | Crítico | EVITAR - Oficiar ANI, decisión Mes 6 | Gerencia Técnica + ANI | Activo | BLOCKER-001 | N/A | H-ITCS-DEF-M6 |
-| R-FENOCO-001 | Técnico | Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida | Alta | Crítico | MITIGAR - Reunión FENOCO Mes 5, gateway UIC Plan B | PMO + FENOCO | Activo | BLOCKER-002 | N/A | H-FENOCO-M6 |
-| R-PAN-001 | Contractual | Cantidades PAN NO confirmadas (regularización en curso) - Variación ±10% | Media | Medio | ACEPTAR - Diseño modular ±10%, contingencia $489M | PMO + Seguridad Vial | Activo | BLOCKER-003 | N/A | HG-PAN-04-M10 |
-| R-MR-001 | Gestión | Cronograma MR indefinido (15 locomotoras) - Secuencia pruebas NO definida | Media | Medio | MITIGAR - Plan adaptable, certificación en banco si no llega | PMO + Gerencia Operaciones | Activo | BLOCKER-004 | N/A | H-MR-M5 |
+| ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | **Origen_Decisión** | **Hito_Verificación** | **Items_WBS** | **Plan_Accion** |
+|:--:|:----------|:------------|:----:|:--------|:-----------|:------------|:-------|:-------|:-------------------|:---------------------|:-------------|:----------------|
+| R-AT3-01 | Técnico | Dependencia AT3 para ITCS ETCS L2 | Alta | Alto | Mitigar: ETCS L2 estándar | Ing. Sistemas | Activo | P42 / Docs ITCS | N/A | H-ITCS-001 | 1.1.100, 1.2.100 | Documentar supuestos de diseño y solicitar clarificación a Interventoría |
+| R-INT-01 | Técnico | Interoperabilidad con FENOCO (UIC) | Media | Alto | Mitigar: Protocolos UIC | Comunicaciones | Activo | P42 / Interfaces | N/A | H-INT-002 | 1.1.106, 4.1.100 | Coordinar reuniones técnicas mensuales con FENOCO para validar interfaces |
+| R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 | Media | Alto | Mitigar: N+1, monitoreo | Ing. Sistemas | Activo | AT4 / P42 | N/A | Continuo | Transversal | Realizar análisis RAMS detallado y asegurar redundancia N+1 en diseños críticos |
+| R-CYB-01 | Técnico | Ciberseguridad IEC 62443 | Media | Alto | Mitigar: Defensa en profundidad | Ciberseguridad | Activo | VII.2.11 | N/A | H-CYB-001 | Transversal | Contratar póliza de seguro contra ciberriesgos y realizar auditorías de seguridad periódicas |
+| R-IF-01 | Gestión | Desalineación en interfaces (ICD) | Alta | Alto | Mitigar: Plan Gestión Interfaces | PMO/Integración | Activo | 41. Interfaces | N/A | H-IF-003 | 1.1.106, 5.3.103 | Realizar workshops de integración y definir ICD para cada par de sistemas |
+| R-PERM-01 | Contractual | Retrasos permisos ANE/ANLA | Media | Alto | Mitigar: Plan de permisos | Gestor Permisos | Activo | 40. Permisos | N/A | H-PERM-001 | 1.0.100 | Iniciar gestión temprana de permisos y mantener comunicación constante con autoridad ambiental |
+| R-FIBRA-001 | Cronograma | Lead time crítico fibra 9m (pago 3m + fabric 4m + nac 2m) | Alta | Crítico | EVITAR - Ordenar 9m antes | PMO Adquisiciones | Activo | DT-FIBRA-003 | DT-FIBRA-003 | Orden Mes -9 | 2.3.100, 2.3.103 | Ordenar fibra óptica con 9 meses de anticipación (Mes -9 respecto a instalación) |
+| R-FM-001 | Fuerza Mayor | Huelgas transporte, problemas FENOCO, paros sector | Media | Alto | MITIGAR - Plan contingencia, proveedores alternativos | PMO | Activo | Contrato | N/A | Continuo | Transversal | Desarrollar plan de contingencia con proveedores alternativos y rutas de transporte backup |
+| R-GES-004 | Gestión | Desfase aprobación diseños vs cronograma Plan Obras | Media | Alto | MITIGAR - Integrar cronograma entregables ingeniería con Plan Obras | PMO | Activo | A.1 Análisis | N/A | H-APROB-M12 | Transversal | Crear y socializar matriz de aprobaciones con plazos claros para cada entregable |
+| R-CON-001 | Contractual | Ambigüedad medición disponibilidad PAN 100% (KPI inalcanzable) | Media | Alto | MITIGAR - Consulta Interventoría criterios medición | PMO Calidad | Activo | A.2 Análisis | N/A | Continuo | 3.2.100 | Solicitar a ANI clarificación formal sobre metodología de medición de disponibilidad para los PAN |
+| R-OPE-001 | Operacional | Falla conmutación failover sistemas redundantes | Media | Alto | MITIGAR - Pruebas conmutación obligatorias FAT/SAT | Especialista Sistemas | Activo | A.2 Análisis | N/A | H-SAT-M44 | 1.1.100, 2.1.100 | Incluir pruebas de conmutación por falla (failover) en protocolos de pruebas SAT |
+| R-CAL-001 | Gestión | Calidad materiales/mano obra no cumple estándares | Media | Alto | MITIGAR - Control calidad estricto, certificaciones | PMO Calidad | Activo | A.3 Análisis | N/A | Continuo | Transversal | Implementar plan de aseguramiento de calidad estricto con inspecciones en fábrica y en sitio |
+| R-ITCS-001 | Técnico | Indefinición sistema ITCS (ATP/ETCS L2/CBTC) - Bloqueador 58% proyecto | Alta | Crítico | EVITAR - Oficiar ANI, decisión Mes 6 | Gerencia Técnica + ANI | Activo | BLOCKER-001 | N/A | H-ITCS-DEF-M6 | 1.1.100, 1.1.103, 1.2.100 | **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición tecnológica. Preparar matriz de decisión técnica comparando PTC/ETCS/CBTC |
+| R-FENOCO-001 | Técnico | Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida | Alta | Crítico | MITIGAR - Reunión FENOCO Mes 5, gateway UIC Plan B | PMO + FENOCO | Activo | BLOCKER-002 | N/A | H-FENOCO-M6 | 1.1.106, 4.1.100 | **ACCIÓN HOY:** Enviar comunicación formal a FENOCO solicitando especificaciones Siemens Trainguard. Agendar reunión técnica (15 días) |
+| R-PAN-001 | Contractual | Cantidades PAN NO confirmadas (regularización en curso) - Variación ±10% | Media | Medio | ACEPTAR - Diseño modular ±10%, contingencia $489M | PMO + Seguridad Vial | Activo | BLOCKER-003 | N/A | HG-PAN-04-M10 | 3.2.100 | **ACCIÓN HOY:** Confirmar diseño modular de PANs. Validar asignación de contingencia $489M en presupuesto |
+| R-MR-001 | Gestión | Cronograma MR indefinido (15 locomotoras) - Secuencia pruebas NO definida | Media | Medio | MITIGAR - Plan adaptable, certificación en banco si no llega | PMO + Gerencia Operaciones | Activo | BLOCKER-004 | N/A | H-MR-M5 | 6.1.100 | **ACCIÓN HOY:** Enviar oficio a ANI solicitando cronograma detallado de entrega. Desarrollar 3 escenarios de planificación
 
 ---
 
@@ -69,13 +70,14 @@ Esta versión ampliada de la Matriz de Riesgos PMO agrega **dos campos críticos
 
 ### **Caso: Cambio de espaciamiento de cajas de fibra óptica**
 
-| ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | **Origen_Decisión** | **Hito_Verificación** |
-|:--:|:----------|:------------|:----:|:--------|:-----------|:------------|:-------|:-------|:-------------------|:---------------------|
-| R-FIBRA-006 | Económico | Ahorro CAPEX no realizado si cajas cada 1000m fallan | 20% | Medio | Aceptar: Beneficio supera riesgo | PMO | Activo | WBS / Análisis | **DT-FIBRA-001** | **H-FIBRA-005** |
+| ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | **Origen_Decisión** | **Hito_Verificación** | **Plan_Accion** |
+|:--:|:----------|:------------|:----:|:--------|:-----------|:------------|:-------|:-------|:-------------------|:---------------------|:----------------|
+| R-FIBRA-006 | Económico | Ahorro CAPEX no realizado si cajas cada 1000m fallan | 20% | Medio | Aceptar: Beneficio supera riesgo | PMO | Activo | WBS / Análisis | **DT-FIBRA-001** | **H-FIBRA-005** | Monitorear costo final de fibra para confirmar ahorro proyectado. Validar en H-FIBRA-005 |
 
 **Explicación:**
 - **Origen_Decisión = DT-FIBRA-001:** Este riesgo nace de la decisión de cambiar cajas de 500m a 1000m
 - **Hito_Verificación = H-FIBRA-005:** Se verificará en el hito de "Instalación y pruebas de fibra óptica completadas"
+- **Plan_Accion:** Acción concreta que el responsable debe ejecutar para gestionar el riesgo
 
 ---
 
@@ -111,6 +113,39 @@ Fecha hito: Mayo 2025
 Actividad: Pruebas de fibra completadas
 Acción: Verificar que cajas cada 1000m funcionan correctamente
 ```
+
+### **Campo: Plan_Accion** ⭐ **NUEVO**
+
+**Propósito:** Definir la **acción inmediata y concreta** que el responsable debe ejecutar para gestionar el riesgo.
+
+**Formato:**
+- **Texto claro y accionable** (máximo 200 caracteres)
+- **Verbo de acción al inicio:** "Enviar", "Desarrollar", "Confirmar", "Solicitar", etc.
+- **Si es crítico:** Prefijo "**ACCIÓN HOY:**" en negrita
+
+**Valores posibles:**
+- **Acción concreta:** "Enviar oficio a ANI solicitando definición tecnológica"
+- **Múltiples pasos:** "Confirmar diseño modular. Validar contingencia presupuestal"
+- **Plan B incluido:** "Reunión FENOCO (15 días). Plan B: Gateway UIC genérico"
+
+**Ejemplo de uso:**
+```
+Riesgo crítico con acción inmediata:
+
+ID: R-ITCS-001
+Plan_Accion: **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición 
+             tecnológica. Preparar matriz de decisión técnica comparando PTC/ETCS/CBTC
+```
+
+```
+Riesgo medio con acción de seguimiento:
+
+ID: R-FIBRA-006
+Plan_Accion: Monitorear costo final de fibra para confirmar ahorro proyectado. 
+             Validar en H-FIBRA-005
+```
+
+**Beneficio:** El usuario final ve inmediatamente **QUÉ HACER** sin tener que buscar en otros documentos.
 
 ---
 

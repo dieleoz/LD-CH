@@ -71,8 +71,12 @@ if ($cronogramaExistente) {
         }
     }
     
-    # Actualizar fecha de actualización
-    $cronogramaExistente.fecha_actualizacion = (Get-Date).ToString("yyyy-MM-dd")
+    # Actualizar fecha de actualización (agregar propiedad si no existe)
+    if ($cronogramaExistente.PSObject.Properties.Name -contains 'fecha_actualizacion') {
+        $cronogramaExistente.fecha_actualizacion = (Get-Date).ToString("yyyy-MM-dd")
+    } else {
+        $cronogramaExistente | Add-Member -MemberType NoteProperty -Name 'fecha_actualizacion' -Value (Get-Date).ToString("yyyy-MM-dd") -Force
+    }
     
     # Guardar cronograma actualizado
     $cronogramaExistente | ConvertTo-Json -Depth 100 | Out-File $CronogramaJsonPath -Encoding UTF8
@@ -99,11 +103,29 @@ if ($cronogramaExistente) {
     }
 }
 
+# ================================================================
+# CACHE BUSTING EN HTML
+# ================================================================
+
+$htmlPath = "IX. WBS y Planificacion\WBS_Cronograma_Propuesta.html"
+if (Test-Path $htmlPath) {
+    $htmlContent = Get-Content $htmlPath -Raw -Encoding UTF8
+    $timestamp = (Get-Date).Ticks
+    
+    # Reemplazar la versión en la etiqueta del script usando grupos de captura para mayor robustez
+    $newHtmlContent = $htmlContent -replace '(<script\s+src="cronograma_datos\.js)\?v=[\d\.]*("></script>)', "`$1?v=$timestamp`$2"
+    
+    if ($htmlContent -ne $newHtmlContent) {
+        $newHtmlContent | Out-File $htmlPath -Encoding UTF8
+        Write-Host "OK Cache-busting aplicado: WBS_Cronograma_Propuesta.html (v=$timestamp)" -ForegroundColor Cyan
+    }
+}
+
 Write-Host "`n================================================================" -ForegroundColor Green
 Write-Host "  SINCRONIZACION DE CRONOGRAMA COMPLETADA" -ForegroundColor Green
 Write-Host "================================================================`n" -ForegroundColor Green
 
 Write-Host "PROXIMO PASO:" -ForegroundColor Cyan
-Write-Host "  Modificar WBS_Cronograma_Propuesta.html para cargar cronograma_datos.js" -ForegroundColor White
+Write-Host "  Abrir WBS_Cronograma_Propuesta.html (datos actualizados automaticamente)" -ForegroundColor White
 Write-Host ""
 

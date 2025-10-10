@@ -1,8 +1,8 @@
 # 📁 VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA
 ## APP LA DORADA-CHIRIGUANÁ - Documentos de Referencia
 
-**Fecha:** Enero 2025  
-**Estado:** ✅ **DOCUMENTOS ORGANIZADOS Y DISPONIBLES**  
+**Fecha:** 10 de Octubre 2025  
+**Estado:** ✅ **DOCUMENTOS ORGANIZADOS Y AMPLIADOS (v14.6)**  
 **Propósito:** Documentos de referencia técnica y metodológica del proyecto
 
 ---
@@ -41,6 +41,27 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 |:---|:---:|:---:|:---|
 | **PLAN_GESTION_RIESGOS_MAESTRO_v1.0.md** | **METODOLOGÍA RIESGOS** - Plan maestro gestión riesgos | ✅ | Gestión de riesgos del proyecto |
 | **ARQUITECTURA_SISTEMA_COMPLETO_Integracion.md** | **ARQUITECTURA DT→TODO** - Diseño sistema completo (6 capas) | ✅ | Referencia arquitectónica |
+
+### **📁 ANÁLISIS CONTRACTUAL (Subcarpeta)** ⭐ NUEVO
+
+| Documento | Propósito | Estado | Líneas |
+|:---|:---|:---:|:---:|
+| **Analisis_Contractual/@@ANALISIS_CONTRACTUAL_COMPLETO_VALIDADO_v1.0.md** | Análisis completo ATs 1-10 | ✅ | 393 |
+| **Analisis_Contractual/@@HALLAZGOS_CONTRACTUALES_VALIDADOS_TODOS_ATs_v1.0.md** | Hallazgos consolidados | ✅ | 500 |
+| **Analisis_Contractual/@@ANALISIS_RIESGOS_CONTRACTUALES_INDEFINICIONES.md** | Riesgos e indefiniciones | ✅ | 446 |
+
+### **📅 CRONOGRAMAS MAESTROS (Subcarpeta)** ⭐ NUEVO
+
+| Documento | Propósito | Estado | Líneas |
+|:---|:---|:---:|:---:|
+| **Cronogramas/@@CRONOGRAMA_MAESTRO_PMO_v1.0.md** | Cronograma maestro 60m | ✅ | 337 |
+| **Cronogramas/@@CRONOGRAMA_AGRESIVO_36M_v1.0.md** | Plan agresivo 36m+12m buffer | ✅ | 359 |
+
+### **📋 PLANES DE IMPLEMENTACIÓN (Subcarpeta)** ⭐ NUEVO
+
+| Documento | Propósito | Estado |
+|:---|:---|:---:|
+| **Planes/@@PLAN_IMPLEMENTACION_Sistema_Integrado_Completo.md** | Plan maestro implementación sistema | ✅ |
 
 ### **📁 MATRICES DINÁMICAS (Subcarpeta)**
 
@@ -111,7 +132,13 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 
 ## 📊 **ESTADÍSTICAS DE LA CARPETA**
 
-- **Total documentos:** 16 (+ README)
+- **Total documentos:** 22 (+ README)
+  - 13 Documentos base
+  - 3 Análisis Contractual ⭐
+  - 2 Cronogramas ⭐
+  - 1 Plan Implementación ⭐
+  - 1 Arquitectura Integración
+  - 4 Matrices Dinámicas
 - **Documentos maestros:** 5
 - **Metodologías replicables:** 5
 - **Arquitecturas técnicas:** 2
