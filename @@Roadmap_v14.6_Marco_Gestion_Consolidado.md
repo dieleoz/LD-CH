@@ -5,7 +5,7 @@
 **Fecha:** 02 de Octubre, 2025  
 **Última Actualización:** 10 de Octubre de 2025 - Sistema 100% Dinámico + Comando Único v14.6  
 **Versión Actual:** v14.6 - Sistema WBS 100% Dinámico con Comando Único  
-**Próxima Actualización:** Mensual o por hitos importantes
+**Próxima Actualización:** Mensual o por hitos importantes  
 
 ### **⚡ COMANDO ÚNICO (v14.6 - 10-OCT-2025):**
 ```powershell

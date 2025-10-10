@@ -15,7 +15,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 10px;
             min-height: 100vh;
         }
         
@@ -26,6 +26,76 @@
             border-radius: 12px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .controls {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .controls button {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+            
+            table {
+                font-size: 11px;
+            }
+            
+            .budget-table th,
+            .budget-table td {
+                padding: 6px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .controls button {
+                padding: 8px 12px;
+                font-size: 12px;
+            }
+            
+            .budget-table {
+                font-size: 10px;
+            }
+            
+            .budget-table th,
+            .budget-table td {
+                padding: 4px 2px;
+            }
         }
         
         .header {

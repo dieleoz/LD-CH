@@ -14,7 +14,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 10px;
             min-height: 100vh;
         }
         
@@ -25,6 +25,83 @@
             border-radius: 12px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .wbs-tree {
+                font-size: 12px;
+            }
+            
+            .wbs-item {
+                margin: 8px 0;
+                padding: 10px;
+            }
+            
+            .wbs-item h3 {
+                font-size: 14px;
+            }
+            
+            table {
+                font-size: 11px;
+            }
+            
+            .wbs-table th,
+            .wbs-table td {
+                padding: 6px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .wbs-tree {
+                font-size: 11px;
+            }
+            
+            .wbs-item {
+                margin: 6px 0;
+                padding: 8px;
+            }
+            
+            .wbs-table {
+                font-size: 10px;
+            }
+            
+            .wbs-table th,
+            .wbs-table td {
+                padding: 4px 2px;
+            }
         }
         
         .header {
