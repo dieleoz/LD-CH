@@ -4,7 +4,7 @@
 **Fecha de actualización:** 10 de Octubre 2025  
 **Estado del proyecto:** ✅ **FASE DE VALIDACIÓN Y CORRECCIÓN - PMO ACTIVO (SISTEMA v14.6)**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos identificados, 17 riesgos validados, Cronograma 60m, Sistema WBS 100% dinámico, **Portal web publicado**
+**Hallazgos:** 4 Blockers críticos identificados, 17 riesgos validados, Cronograma 60m, Sistema WBS 100% dinámico, **Portal web publicado** 
 
 ---
 
