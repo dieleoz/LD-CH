@@ -4,7 +4,7 @@
 **Fecha de actualización:** 10 de Octubre 2025  
 **Estado del proyecto:** ✅ **FASE DE VALIDACIÓN Y CORRECCIÓN - PMO ACTIVO (SISTEMA v14.6)**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos identificados, 17 riesgos validados, Cronograma 60m, Sistema WBS 100% dinámico
+**Hallazgos:** 4 Blockers críticos identificados, 17 riesgos validados, Cronograma 60m, Sistema WBS 100% dinámico, **Portal web publicado**
 
 ---
 
@@ -37,6 +37,43 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **BLOCKER-004** | Cronograma Material Rodante indefinido | Riesgo planificación | Oficiar ANI - Cronograma entrega |
 
 **Ver detalle completo:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`
+
+---
+
+## 🌐 **ACCESO WEB - PORTAL EN GITHUB PAGES**
+
+### **🔐 Portal de Acceso Seguro:**
+
+**URL del Portal:** https://dieleoz.github.io/LD-CH/
+
+**Credenciales:**
+- **Usuario:** `0rt1z`
+- **Contraseña:** `0rt1z`
+
+**Características:**
+- ✅ Login con autenticación
+- ✅ Dashboard con métricas (181 docs, 17 riesgos, $307B)
+- ✅ 6 accesos directos a interfaces WBS
+- ✅ Diseño moderno y responsive
+- ✅ Session persistente
+
+**Configuración:** Ver `GUIA_CONFIGURACION_GITHUB_PAGES.md`
+
+### **📂 Repositorio GitHub:**
+
+**URL:** https://github.com/dieleoz/LD-CH
+
+**Contenido:**
+- ✅ Sistema WBS v14.6 completo
+- ✅ 181 documentos de ingeniería
+- ✅ 6 interfaces HTML dinámicas
+- ✅ 33 scripts PowerShell
+- ✅ Documentación completa
+
+**Excluido (.gitignore):**
+- `old/` - Históricos de sesiones
+- `backup_originales/` - Backups contrato
+- `02. Contrato Editables V1/` - Archivos grandes
 
 ---
 
