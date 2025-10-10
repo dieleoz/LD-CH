@@ -14,7 +14,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f8f9fa;
-            padding: 20px;
+            padding: 10px;
             line-height: 1.6;
         }
         
@@ -25,6 +25,91 @@
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+            
+            .header p {
+                font-size: 13px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .summary-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .summary-card {
+                padding: 15px;
+            }
+            
+            .summary-card h3 {
+                font-size: 16px;
+            }
+            
+            .summary-card .number {
+                font-size: 24px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            .risk-table th,
+            .risk-table td {
+                padding: 8px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .summary-grid {
+                gap: 10px;
+            }
+            
+            .summary-card {
+                padding: 12px;
+            }
+            
+            .risk-table {
+                font-size: 11px;
+            }
+            
+            .risk-table th,
+            .risk-table td {
+                padding: 6px 2px;
+            }
         }
         
         .header {
@@ -416,9 +501,9 @@
                 <!-- Tarjetas se generan dinámicamente desde riesgos_wbs.js -->
                 <div class="loading-message" style="text-align: center; padding: 40px; color: #666;">
                     ⏳ Cargando riesgos...
+                    </div>
                 </div>
-            </div>
-            
+                
             <div class="trend-section">
                 <h3>📈 Tendencias y Monitoreo</h3>
                 <div class="trend-item">

@@ -14,8 +14,72 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f8f9fa;
-            padding: 20px;
+            padding: 10px;
             line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .summary-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .summary-card {
+                padding: 15px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            .timeline-table th,
+            .timeline-table td {
+                padding: 8px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .timeline-table {
+                font-size: 11px;
+            }
+            
+            .timeline-table th,
+            .timeline-table td {
+                padding: 6px 2px;
+            }
         }
         
         .container {

@@ -14,7 +14,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f8f9fa;
-            padding: 20px;
+            padding: 10px;
             line-height: 1.6;
         }
         
@@ -25,6 +25,138 @@
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .back-btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+            
+            .wbs-tree {
+                font-size: 12px;
+            }
+            
+            .wbs-item {
+                margin: 8px 0;
+                padding: 10px;
+            }
+            
+            .wbs-item h3 {
+                font-size: 14px;
+            }
+            
+            .wbs-item .level-1 {
+                font-size: 16px;
+                margin-left: 0;
+            }
+            
+            .wbs-item .level-2 {
+                font-size: 14px;
+                margin-left: 20px;
+            }
+            
+            .wbs-item .level-3 {
+                font-size: 13px;
+                margin-left: 40px;
+            }
+            
+            .wbs-item .level-4 {
+                font-size: 12px;
+                margin-left: 60px;
+            }
+            
+            .wbs-item .level-5 {
+                font-size: 11px;
+                margin-left: 80px;
+            }
+            
+            table {
+                font-size: 11px;
+            }
+            
+            .details-table th,
+            .details-table td {
+                padding: 6px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .wbs-tree {
+                font-size: 11px;
+            }
+            
+            .wbs-item {
+                margin: 6px 0;
+                padding: 8px;
+            }
+            
+            .wbs-item .level-1 {
+                font-size: 14px;
+                margin-left: 0;
+            }
+            
+            .wbs-item .level-2 {
+                font-size: 13px;
+                margin-left: 15px;
+            }
+            
+            .wbs-item .level-3 {
+                font-size: 12px;
+                margin-left: 30px;
+            }
+            
+            .wbs-item .level-4 {
+                font-size: 11px;
+                margin-left: 45px;
+            }
+            
+            .wbs-item .level-5 {
+                font-size: 10px;
+                margin-left: 60px;
+            }
+            
+            .details-table {
+                font-size: 10px;
+            }
+            
+            .details-table th,
+            .details-table td {
+                padding: 4px 2px;
+            }
         }
         
         .header {
