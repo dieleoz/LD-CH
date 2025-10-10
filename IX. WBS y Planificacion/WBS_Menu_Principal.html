@@ -69,16 +69,21 @@
             
             .menu-card {
                 padding: 20px;
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
             }
             
             .menu-card h3 {
                 font-size: 18px;
                 word-wrap: break-word;
+                line-height: 1.3;
             }
             
             .menu-card p {
                 font-size: 14px;
                 word-wrap: break-word;
+                line-height: 1.5;
             }
             
             .menu-card .features li {
@@ -155,24 +160,36 @@
             
             .menu-card {
                 padding: 15px;
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+                overflow: hidden;
             }
             
             .menu-card h3 {
                 font-size: 16px;
                 word-wrap: break-word;
+                overflow-wrap: break-word;
                 line-height: 1.3;
             }
             
             .menu-card p {
                 font-size: 13px;
                 word-wrap: break-word;
+                overflow-wrap: break-word;
                 line-height: 1.4;
+            }
+            
+            .menu-card .features {
+                margin-bottom: 15px;
             }
             
             .menu-card .features li {
                 font-size: 12px;
                 word-wrap: break-word;
+                overflow-wrap: break-word;
                 margin-bottom: 6px;
+                line-height: 1.4;
             }
             
             .btn {
@@ -255,9 +272,15 @@
         
         .menu-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
             margin-bottom: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
         }
         
         .menu-card {

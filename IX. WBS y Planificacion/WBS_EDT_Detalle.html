@@ -606,8 +606,12 @@
         
         // Mostrar detalles del ítem
         function showDetails(codigo) {
+            event?.stopPropagation(); // Evitar propagación en móvil
+            
             const content = document.getElementById('detailsContent');
             const data = edtDataEnriquecida[codigo];
+            
+            console.log('📋 Mostrando detalles de:', codigo);
             
             if (!data) {
                 content.innerHTML = `
@@ -742,6 +746,14 @@
             );
             if (activeItem) {
                 activeItem.classList.add('active');
+            }
+            
+            // Scroll automático al contenedor de detalles en móvil
+            if (window.innerWidth <= 768) {
+                const detailsContainer = document.querySelector('.edt-details');
+                if (detailsContainer) {
+                    detailsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         }
         
