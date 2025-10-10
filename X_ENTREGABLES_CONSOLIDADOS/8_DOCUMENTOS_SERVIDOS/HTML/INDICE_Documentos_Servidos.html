@@ -14,7 +14,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 10px;
             min-height: 100vh;
         }
         
@@ -25,6 +25,110 @@
             border-radius: 16px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 24px;
+            }
+            
+            .header p {
+                font-size: 14px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .section {
+                margin-bottom: 20px;
+            }
+            
+            .section h2 {
+                font-size: 18px;
+            }
+            
+            .documents-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .document-card {
+                padding: 15px;
+            }
+            
+            .document-card h3 {
+                font-size: 16px;
+            }
+            
+            .document-card p {
+                font-size: 13px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            .table th,
+            .table td {
+                padding: 8px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 20px 15px;
+            }
+            
+            .header h1 {
+                font-size: 20px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .section h2 {
+                font-size: 16px;
+            }
+            
+            .documents-grid {
+                gap: 10px;
+            }
+            
+            .document-card {
+                padding: 12px;
+            }
+            
+            .document-card h3 {
+                font-size: 14px;
+            }
+            
+            .document-card p {
+                font-size: 12px;
+            }
+            
+            .table {
+                font-size: 11px;
+            }
+            
+            .table th,
+            .table td {
+                padding: 6px 2px;
+            }
         }
         
         .header {
