@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#interfaces-ctc-itcs---protocolo-fffis"
+id="toc-interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-ITCS -
+PROTOCOLO FFFIS</a>
+<ul>
+<li><a href="#app-la-dorada-chiriguaná---comunicación-entre-sistemas"
+id="toc-app-la-dorada-chiriguaná---comunicación-entre-sistemas">APP La
+Dorada-Chiriguaná - Comunicación entre Sistemas</a></li>
+<li><a href="#propósito-y-alcance" id="toc-propósito-y-alcance">🎯
+<strong>PROPÓSITO Y ALCANCE</strong></a>
+<ul>
+<li><a href="#propósito" id="toc-propósito"><strong>1.1
+PROPÓSITO</strong></a></li>
+<li><a href="#alcance" id="toc-alcance"><strong>1.2
+ALCANCE</strong></a></li>
+<li><a href="#referencias-normativas"
+id="toc-referencias-normativas"><strong>1.3 REFERENCIAS
+NORMATIVAS</strong></a></li>
+</ul></li>
+<li><a href="#arquitectura-de-comunicación"
+id="toc-arquitectura-de-comunicación">📡 <strong>ARQUITECTURA DE
+COMUNICACIÓN</strong></a>
+<ul>
+<li><a href="#arquitectura-general"
+id="toc-arquitectura-general"><strong>2.1 ARQUITECTURA
+GENERAL</strong></a></li>
+<li><a
+href="#gateway-interoperabilidad-ctc-fenoco-nuevo-dt-interfaces-001"
+id="toc-gateway-interoperabilidad-ctc-fenoco-nuevo-dt-interfaces-001"><strong>2.2
+GATEWAY INTEROPERABILIDAD CTC-FENOCO</strong> ⭐ <strong>NUEVO
+(DT-INTERFACES-001)</strong></a></li>
+</ul></li>
+<li><a href="#protocolo-fffis" id="toc-protocolo-fffis">🔧
+<strong>PROTOCOLO FFFIS</strong></a>
+<ul>
+<li><a href="#especificación-del-protocolo"
+id="toc-especificación-del-protocolo"><strong>3.1 ESPECIFICACIÓN DEL
+PROTOCOLO</strong></a></li>
+<li><a href="#procesamiento-de-mensajes"
+id="toc-procesamiento-de-mensajes"><strong>3.2 PROCESAMIENTO DE
+MENSAJES</strong></a></li>
+</ul></li>
+<li><a href="#seguridad-de-comunicación"
+id="toc-seguridad-de-comunicación">🔒 <strong>SEGURIDAD DE
+COMUNICACIÓN</strong></a>
+<ul>
+<li><a href="#autenticación-y-autorización"
+id="toc-autenticación-y-autorización"><strong>4.1 AUTENTICACIÓN Y
+AUTORIZACIÓN</strong></a></li>
+<li><a href="#cifrado-y-integridad"
+id="toc-cifrado-y-integridad"><strong>4.2 CIFRADO Y
+INTEGRIDAD</strong></a></li>
+</ul></li>
+<li><a href="#especificaciones-técnicas"
+id="toc-especificaciones-técnicas">📊 <strong>ESPECIFICACIONES
+TÉCNICAS</strong></a>
+<ul>
+<li><a href="#especificaciones-de-red"
+id="toc-especificaciones-de-red"><strong>5.1 ESPECIFICACIONES DE
+RED</strong></a></li>
+<li><a href="#especificaciones-de-rendimiento"
+id="toc-especificaciones-de-rendimiento"><strong>5.2 ESPECIFICACIONES DE
+RENDIMIENTO</strong></a></li>
+</ul></li>
+<li><a href="#plan-de-implementación" id="toc-plan-de-implementación">🔧
+<strong>PLAN DE IMPLEMENTACIÓN</strong></a>
+<ul>
+<li><a href="#fases-de-desarrollo"
+id="toc-fases-de-desarrollo"><strong>6.1 FASES DE
+DESARROLLO</strong></a></li>
+<li><a href="#cronograma-crítico"
+id="toc-cronograma-crítico"><strong>6.2 CRONOGRAMA
+CRÍTICO</strong></a></li>
+</ul></li>
+<li><a href="#métricas-y-monitoreo" id="toc-métricas-y-monitoreo">📊
+<strong>MÉTRICAS Y MONITOREO</strong></a>
+<ul>
+<li><a href="#métricas-de-comunicación"
+id="toc-métricas-de-comunicación"><strong>7.1 MÉTRICAS DE
+COMUNICACIÓN</strong></a></li>
+<li><a href="#métricas-de-seguridad"
+id="toc-métricas-de-seguridad"><strong>7.2 MÉTRICAS DE
+SEGURIDAD</strong></a></li>
+<li><a href="#sistema-de-monitoreo"
+id="toc-sistema-de-monitoreo"><strong>7.3 SISTEMA DE
+MONITOREO</strong></a></li>
+</ul></li>
+<li><a href="#control-de-versiones" id="toc-control-de-versiones">📋
+<strong>CONTROL DE VERSIONES</strong></a></li>
+<li><a href="#conclusiones-y-próximos-pasos"
+id="toc-conclusiones-y-próximos-pasos">✅ <strong>CONCLUSIONES Y
+PRÓXIMOS PASOS</strong></a>
+<ul>
+<li><a href="#estado-actual" id="toc-estado-actual"><strong>🎯 ESTADO
+ACTUAL</strong></a></li>
+<li><a href="#próximos-pasos-inmediatos"
+id="toc-próximos-pasos-inmediatos"><strong>🔄 PRÓXIMOS PASOS
+INMEDIATOS</strong></a></li>
+<li><a href="#contactos" id="toc-contactos"><strong>📞
+CONTACTOS</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-ITCS -
+PROTOCOLO FFFIS</h1>
+<h2 id="app-la-dorada-chiriguaná---comunicación-entre-sistemas">APP La
+Dorada-Chiriguaná - Comunicación entre Sistemas</h2>
+<p><strong>Estado:</strong> 🔄 <strong>EN DESARROLLO - FASE 1
+CRÍTICA</strong><br />
+<strong>Fecha:</strong> 27 de Enero, 2025<br />
+<strong>Responsable:</strong> Ing. Integración - EPC<br />
+<strong>Especialista:</strong> Especialista Senior en Control de
+Trenes<br />
+<strong>Estándar Base:</strong> CENELEC EN 50159, UIC 438, Protocolo
+FFFIS</p>
+<hr />
+<h2 id="propósito-y-alcance">🎯 <strong>PROPÓSITO Y
+ALCANCE</strong></h2>
+<h3 id="propósito"><strong>1.1 PROPÓSITO</strong></h3>
+<p>Este documento define las <strong>interfaces de comunicación entre
+CTC e ITCS</strong> usando el <strong>protocolo FFFIS (Form Fit Function
+Interface Specification)</strong> para garantizar interoperabilidad
+segura y confiable entre sistemas de control ferroviario.</p>
+<h3 id="alcance"><strong>1.2 ALCANCE</strong></h3>
+<p>Las interfaces CTC-ITCS cubrirán: - <strong>Comunicación
+bidireccional</strong> entre Centro de Control y Radio Block Center -
+<strong>Intercambio de información</strong> de autorizaciones de
+movimiento - <strong>Coordinación operacional</strong> en tiempo real -
+<strong>Gestión de alarmas</strong> y eventos críticos -
+<strong>Integración segura</strong> según estándares CENELEC</p>
+<h3 id="referencias-normativas"><strong>1.3 REFERENCIAS
+NORMATIVAS</strong></h3>
+<ul>
+<li><strong>CENELEC EN 50159:</strong> Comunicación segura en sistemas
+ferroviarios</li>
+<li><strong>UIC 438:</strong> Especificaciones técnicas ETCS Level
+2</li>
+<li><strong>IEC 62280:</strong> Seguridad en comunicaciones
+ferroviarias</li>
+<li><strong>EN 50128:</strong> Software para sistemas de control
+ferroviario</li>
+</ul>
+<hr />
+<h2 id="arquitectura-de-comunicación">📡 <strong>ARQUITECTURA DE
+COMUNICACIÓN</strong></h2>
+<h3 id="arquitectura-general"><strong>2.1 ARQUITECTURA
+GENERAL</strong></h3>
+<h4 id="diagrama-de-interfaces"><strong>2.1.1 DIAGRAMA DE
+INTERFACES</strong></h4>
+<pre><code>ARQUITECTURA CTC-ITCS INTERFACES
+┌─────────────────────────────────────────────────────────────────┐
+│                    CENTRO DE CONTROL CTC                        │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │              CTC APPLICATION LAYER                      │   │
+│  │                                                         │   │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
+│  │  │ Traffic │  │ Signal  │  │ Safety  │  │ Monitor │   │   │
+│  │  │ Control │  │ Control │  │ Control │  │ System  │   │   │
+│  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                              │                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │              CTC COMMUNICATION LAYER                    │   │
+│  │                                                         │   │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
+│  │  │ Protocol│  │Security │  │Message  │  │Network  │   │   │
+│  │  │ Handler │  │Manager  │  │Queue    │  │Manager  │   │   │
+│  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │   │
+│  └─────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              │ FFFIS Protocol
+                              │
+┌─────────────────────────────────────────────────────────────────┐
+│                    RADIO BLOCK CENTER RBC                       │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │              RBC COMMUNICATION LAYER                    │   │
+│  │                                                         │   │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
+│  │  │Network  │  │Message  │  │Security │  │Protocol │   │   │
+│  │  │Manager  │  │Queue    │  │Manager  │  │Handler  │   │   │
+│  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                              │                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │              RBC APPLICATION LAYER                      │   │
+│  │                                                         │   │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
+│  │  │Movement │  │Train    │  │Safety   │  │System   │   │   │
+│  │  │Auth.    │  │Superv.  │  │Monitor  │  │Monitor  │   │   │
+│  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │   │
+│  └─────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘</code></pre>
+<h4 id="componentes-principales"><strong>2.1.2 COMPONENTES
+PRINCIPALES</strong></h4>
+<pre><code>COMPONENTES DE INTERFACE:
+
+1. CTC SIDE:
+   - Protocol Handler: Gestión de protocolo FFFIS
+   - Security Manager: Autenticación y cifrado
+   - Message Queue: Cola de mensajes
+   - Network Manager: Gestión de red
+
+2. RBC SIDE:
+   - Network Manager: Gestión de red
+   - Message Queue: Cola de mensajes
+   - Security Manager: Autenticación y cifrado
+   - Protocol Handler: Gestión de protocolo FFFIS
+
+3. COMMUNICATION CHANNEL:
+   - Red Ethernet redundante
+   - Protocolo TCP/IP
+   - Cifrado AES-256
+   - Autenticación mutua</code></pre>
+<h3
+id="gateway-interoperabilidad-ctc-fenoco-nuevo-dt-interfaces-001"><strong>2.2
+GATEWAY INTEROPERABILIDAD CTC-FENOCO</strong> ⭐ <strong>NUEVO
+(DT-INTERFACES-001)</strong></h3>
+<h4 id="protocolo-uic-918-4"><strong>2.2.1 PROTOCOLO UIC
+918-4</strong></h4>
+<p>El Gateway de interoperabilidad con FENOCO implementa el protocolo
+UIC 918-4, estándar europeo para intercambio de información operativa
+entre sistemas ferroviarios.</p>
+<p><strong>Características técnicas:</strong> -
+<strong>Estándar:</strong> UIC 918-4 (Interface for Operational
+Information) - <strong>Tipo de Gateway:</strong> Industrial con
+capacidad multi-protocolo - <strong>Medio físico:</strong> Ethernet
+redundante sobre fibra óptica - <strong>Seguridad:</strong> IEC 62443
+Security Level SL-3 - <strong>Redundancia:</strong> N+1 (Gateway activo
++ Gateway standby)</p>
+<h4 id="funciones-del-gateway"><strong>2.2.2 FUNCIONES DEL
+GATEWAY</strong></h4>
+<ol type="1">
+<li><strong>Conversión de Protocolos:</strong>
+<ul>
+<li>CTC nativo (interno) ↔︎ UIC 918-4 (externo FENOCO)</li>
+<li>Mapeo de mensajes operativos</li>
+<li>Normalización de datos de estado de vía</li>
+</ul></li>
+<li><strong>Intercambio de Información Operativa:</strong>
+<ul>
+<li>Estado de ocupación de vías compartidas</li>
+<li>Programación de trenes en puntos de interoperabilidad</li>
+<li>Avisos operativos y restricciones</li>
+<li>Sincronización de horarios</li>
+</ul></li>
+<li><strong>Gestión de Interfaz:</strong>
+<ul>
+<li>Autenticación mutua CTC-FENOCO</li>
+<li>Cifrado de comunicaciones operativas</li>
+<li>Monitoreo de salud del enlace</li>
+<li>Log de todas las transacciones</li>
+</ul></li>
+</ol>
+<h4 id="arquitectura-del-gateway"><strong>2.2.3 ARQUITECTURA DEL
+GATEWAY</strong></h4>
+<pre><code>CTC APP LA DORADA-CHIRIGUANÁ        FENOCO (Red existente)
+┌──────────────────────────┐        ┌──────────────────────┐
+│                          │        │                      │
+│  CTC Virtual             │        │  CTC FENOCO          │
+│  (Protocolo propietario) │        │  (Protocolo UIC)     │
+│                          │        │                      │
+└────────────┬─────────────┘        └────────┬─────────────┘
+             │                               │
+             │                               │
+        ┌────▼───────────────────────────────▼────┐
+        │                                         │
+        │    GATEWAY UIC 918-4 (Ítem 1.1.106)    │
+        │    Bloque Lógico de Integración        │
+        │                                         │
+        │  ┌─────────────────────────────────┐   │
+        │  │ Middleware Interoperabilidad    │   │
+        │  │  - Conversión protocolos        │   │
+        │  │  - Mapeo de mensajes            │   │
+        │  │  - Normalización datos          │   │
+        │  └─────────────────────────────────┘   │
+        │                                         │
+        │  ┌─────────────────────────────────┐   │
+        │  │ Firewall IEC 62443 (SL-3)       │   │
+        │  │  - Inspección paquetes          │   │
+        │  │  - Control acceso               │   │
+        │  └─────────────────────────────────┘   │
+        │                                         │
+        └─────────────────────────────────────────┘
+                          │
+                    Fibra Óptica N+1</code></pre>
+<h4 id="mensajes-uic-918-4-soportados"><strong>2.2.4 MENSAJES UIC 918-4
+SOPORTADOS</strong></h4>
+<table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 28%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Tipo Mensaje</th>
+<th style="text-align: left;">Dirección</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>OPR-001</strong></td>
+<td style="text-align: left;">CTC → FENOCO</td>
+<td style="text-align: left;">Solicitud de autorización operativa</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>OPR-002</strong></td>
+<td style="text-align: left;">FENOCO → CTC</td>
+<td style="text-align: left;">Confirmación/rechazo autorización</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>STA-001</strong></td>
+<td style="text-align: left;">CTC ↔︎ FENOCO</td>
+<td style="text-align: left;">Estado de ocupación de vía compartida</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TRN-001</strong></td>
+<td style="text-align: left;">CTC → FENOCO</td>
+<td style="text-align: left;">Programación de tren en punto
+interoperabilidad</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ALR-001</strong></td>
+<td style="text-align: left;">CTC ↔︎ FENOCO</td>
+<td style="text-align: left;">Alertas operativas y restricciones</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>HRT-001</strong></td>
+<td style="text-align: left;">CTC ↔︎ FENOCO</td>
+<td style="text-align: left;">Heartbeat / Keep-alive</td>
+</tr>
+</tbody>
+</table>
+<h4 id="requisitos-de-rendimiento"><strong>2.2.5 REQUISITOS DE
+RENDIMIENTO</strong></h4>
+<ul>
+<li><strong>Latencia máxima:</strong> &lt;200ms end-to-end</li>
+<li><strong>Disponibilidad:</strong> 99.9% (con redundancia N+1)</li>
+<li><strong>Throughput:</strong> Mínimo 100 mensajes/minuto</li>
+<li><strong>Failover automático:</strong> &lt;2 segundos</li>
+<li><strong>Retención de logs:</strong> 180 días (requisito
+regulatorio)</li>
+</ul>
+<p><strong>Presupuesto:</strong> Incluido en ítem 1.1.106 - $150.000.000
+COP<br />
+<strong>Decisión Técnica:</strong> DT-INTERFACES-001-2025-10-09</p>
+<hr />
+<h2 id="protocolo-fffis">🔧 <strong>PROTOCOLO FFFIS</strong></h2>
+<h3 id="especificación-del-protocolo"><strong>3.1 ESPECIFICACIÓN DEL
+PROTOCOLO</strong></h3>
+<h4 id="estructura-de-mensajes"><strong>3.1.1 ESTRUCTURA DE
+MENSAJES</strong></h4>
+<pre><code>ESTRUCTURA MENSAJE FFFIS:
+
+┌─────────────────────────────────────────────────────────┐
+│                    HEADER (16 bytes)                    │
+│                                                         │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐     │
+│  │Version  │ │Type     │ │Length   │ │Sequence │     │
+│  │(2 bytes)│ │(2 bytes)│ │(4 bytes)│ │(4 bytes)│     │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘     │
+│                                                         │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐     │
+│  │Source   │ │Dest     │ │Flags    │ │Reserved │     │
+│  │(2 bytes)│ │(2 bytes)│ │(2 bytes)│ │(2 bytes)│     │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘     │
+└─────────────────────────────────────────────────────────┘
+                              │
+┌─────────────────────────────────────────────────────────┐
+│                    PAYLOAD (Variable)                   │
+│                                                         │
+│  ┌─────────────────────────────────────────────────────┐│
+│  │              APPLICATION DATA                       ││
+│  │                                                     ││
+│  │  - Movement Authority Data                          ││
+│  │  - Train Status Information                         ││
+│  │  - Safety Alerts                                   ││
+│  │  - System Status                                    ││
+│  └─────────────────────────────────────────────────────┘│
+└─────────────────────────────────────────────────────────┘
+                              │
+┌─────────────────────────────────────────────────────────┐
+│                    TRAILER (8 bytes)                     │
+│                                                         │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐     │
+│  │Checksum │ │CRC32    │ │Timestamp│ │Reserved │     │
+│  │(2 bytes)│ │(4 bytes)│ │(2 bytes)│ │(2 bytes)│     │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘     │
+└─────────────────────────────────────────────────────────┘</code></pre>
+<h4 id="tipos-de-mensajes"><strong>3.1.2 TIPOS DE MENSAJES</strong></h4>
+<pre><code>TIPOS DE MENSAJES FFFIS:
+
+1. MOVEMENT AUTHORITY (MA):
+   - Tipo: 0x0001
+   - Dirección: CTC → RBC
+   - Contenido: Autorización de movimiento
+   - Frecuencia: Por cada autorización
+   - Prioridad: Alta
+
+2. TRAIN STATUS (TS):
+   - Tipo: 0x0002
+   - Dirección: RBC → CTC
+   - Contenido: Estado del tren
+   - Frecuencia: Cada 10 segundos
+   - Prioridad: Media
+
+3. SAFETY ALERT (SA):
+   - Tipo: 0x0003
+   - Dirección: Bidireccional
+   - Contenido: Alerta de seguridad
+   - Frecuencia: Por evento
+   - Prioridad: Crítica
+
+4. SYSTEM STATUS (SS):
+   - Tipo: 0x0004
+   - Dirección: Bidireccional
+   - Contenido: Estado del sistema
+   - Frecuencia: Cada 30 segundos
+   - Prioridad: Baja
+
+5. EMERGENCY STOP (ES):
+   - Tipo: 0x0005
+   - Dirección: CTC → RBC
+   - Contenido: Comando de parada
+   - Frecuencia: Por evento
+   - Prioridad: Crítica
+
+6. CONFIGURATION (CF):
+   - Tipo: 0x0006
+   - Dirección: CTC → RBC
+   - Contenido: Configuración
+   - Frecuencia: Por cambio
+   - Prioridad: Media</code></pre>
+<h3 id="procesamiento-de-mensajes"><strong>3.2 PROCESAMIENTO DE
+MENSAJES</strong></h3>
+<h4 id="flujo-de-comunicación"><strong>3.2.1 FLUJO DE
+COMUNICACIÓN</strong></h4>
+<pre><code>FLUJO DE COMUNICACIÓN CTC-ITCS:
+
+1. ENVÍO DE MENSAJE (CTC → RBC):
+   - Aplicación CTC genera mensaje
+   - Protocol Handler encapsula en FFFIS
+   - Security Manager cifra y autentica
+   - Network Manager envía por TCP/IP
+   - RBC recibe y valida mensaje
+
+2. PROCESAMIENTO EN RBC:
+   - Network Manager recibe mensaje
+   - Security Manager valida y descifra
+   - Protocol Handler extrae datos
+   - Aplicación RBC procesa información
+   - RBC genera respuesta si es necesaria
+
+3. RESPUESTA (RBC → CTC):
+   - Aplicación RBC genera respuesta
+   - Protocol Handler encapsula en FFFIS
+   - Security Manager cifra y autentica
+   - Network Manager envía por TCP/IP
+   - CTC recibe y procesa respuesta</code></pre>
+<h4 id="gestión-de-errores"><strong>3.2.2 GESTIÓN DE
+ERRORES</strong></h4>
+<pre><code>GESTIÓN DE ERRORES:
+
+1. ERRORES DE COMUNICACIÓN:
+   - Timeout: 5 segundos
+   - Reintentos: 3 intentos
+   - Escalación: Alerta al operador
+   - Recuperación: Reconexión automática
+
+2. ERRORES DE PROTOCOLO:
+   - Mensaje corrupto: Descarte y solicitud de retransmisión
+   - Secuencia incorrecta: Reordenamiento de mensajes
+   - Checksum inválido: Validación y retransmisión
+   - CRC32 inválido: Descarte y alerta
+
+3. ERRORES DE SEGURIDAD:
+   - Autenticación fallida: Bloqueo temporal
+   - Cifrado inválido: Descarte de mensaje
+   - Timestamp incorrecto: Validación de tiempo
+   - Certificado expirado: Renovación automática</code></pre>
+<hr />
+<h2 id="seguridad-de-comunicación">🔒 <strong>SEGURIDAD DE
+COMUNICACIÓN</strong></h2>
+<h3 id="autenticación-y-autorización"><strong>4.1 AUTENTICACIÓN Y
+AUTORIZACIÓN</strong></h3>
+<h4 id="autenticación-mutua"><strong>4.1.1 AUTENTICACIÓN
+MUTUA</strong></h4>
+<pre><code>AUTENTICACIÓN MUTUA:
+
+1. INTERCAMBIO DE CERTIFICADOS:
+   - CTC envía certificado digital
+   - RBC valida certificado CTC
+   - RBC envía certificado digital
+   - CTC valida certificado RBC
+   - Establecimiento de sesión segura
+
+2. ALGORITMO DE AUTENTICACIÓN:
+   - Algoritmo: RSA-2048
+   - Hash: SHA-256
+   - Firma digital: PKCS#1 v1.5
+   - Validez: 1 año
+   - Renovación: Automática
+
+3. GESTIÓN DE CERTIFICADOS:
+   - Autoridad certificadora: ICA (Internal CA)
+   - Almacenamiento: HSM (Hardware Security Module)
+   - Backup: Redundante en 3 ubicaciones
+   - Revocación: Lista de certificados revocados</code></pre>
+<h4 id="autorización-de-acceso"><strong>4.1.2 AUTORIZACIÓN DE
+ACCESO</strong></h4>
+<pre><code>AUTORIZACIÓN DE ACCESO:
+
+1. ROLES Y PERMISOS:
+   - CTC Operator: Lectura/escritura completa
+   - RBC Operator: Lectura/escritura limitada
+   - Maintenance: Solo lectura
+   - Administrator: Acceso completo
+
+2. CONTROL DE ACCESO:
+   - Lista de control de acceso (ACL)
+   - Validación de permisos por mensaje
+   - Logging de accesos
+   - Auditoría de cambios
+
+3. GESTIÓN DE SESIONES:
+   - Timeout: 30 minutos de inactividad
+   - Renovación: Automática cada 15 minutos
+   - Cierre: Automático al finalizar
+   - Monitoreo: Continuo de sesiones activas</code></pre>
+<h3 id="cifrado-y-integridad"><strong>4.2 CIFRADO Y
+INTEGRIDAD</strong></h3>
+<h4 id="cifrado-de-datos"><strong>4.2.1 CIFRADO DE DATOS</strong></h4>
+<pre><code>CIFRADO DE DATOS:
+
+1. ALGORITMO DE CIFRADO:
+   - Algoritmo: AES-256-GCM
+   - Modo: Galois/Counter Mode (GCM)
+   - Longitud de clave: 256 bits
+   - Vector de inicialización: 96 bits
+   - Tag de autenticación: 128 bits
+
+2. GESTIÓN DE CLAVES:
+   - Generación: HSM (Hardware Security Module)
+   - Distribución: Protocolo seguro
+   - Rotación: Cada 24 horas
+   - Almacenamiento: HSM cifrado
+   - Backup: Redundante y cifrado
+
+3. IMPLEMENTACIÓN:
+   - Hardware: Aceleración por CPU
+   - Software: OpenSSL 3.0
+   - Validación: FIPS 140-2 Level 3
+   - Rendimiento: &lt; 1ms por mensaje</code></pre>
+<h4 id="integridad-de-datos"><strong>4.2.2 INTEGRIDAD DE
+DATOS</strong></h4>
+<pre><code>INTEGRIDAD DE DATOS:
+
+1. ALGORITMO DE INTEGRIDAD:
+   - Hash: SHA-256
+   - HMAC: HMAC-SHA256
+   - Checksum: CRC32
+   - Firma: RSA-2048
+
+2. VALIDACIÓN DE INTEGRIDAD:
+   - Checksum: Validación rápida
+   - CRC32: Detección de errores
+   - HMAC: Autenticación de mensaje
+   - Firma digital: No repudio
+
+3. PROTECCIÓN CONTRA ATAQUES:
+   - Replay attacks: Timestamp y nonce
+   - Man-in-the-middle: Certificados mutuos
+   - Tampering: Múltiples validaciones
+   - Denial of service: Rate limiting</code></pre>
+<hr />
+<h2 id="especificaciones-técnicas">📊 <strong>ESPECIFICACIONES
+TÉCNICAS</strong></h2>
+<h3 id="especificaciones-de-red"><strong>5.1 ESPECIFICACIONES DE
+RED</strong></h3>
+<h4 id="configuración-de-red"><strong>5.1.1 CONFIGURACIÓN DE
+RED</strong></h4>
+<pre><code>CONFIGURACIÓN DE RED:
+
+1. TOPOLOGÍA:
+   - Tipo: Red Ethernet redundante
+   - Protocolo: TCP/IP
+   - Velocidad: 1 Gbps
+   - Latencia: &lt; 10 ms
+   - Jitter: &lt; 1 ms
+
+2. DIRECCIONAMIENTO:
+   - CTC: 192.168.100.10/24
+   - RBC: 192.168.100.20/24
+   - Gateway: 192.168.100.1/24
+   - DNS: 192.168.100.2/24
+
+3. REDUNDANCIA:
+   - Enlaces: 2 enlaces redundantes
+   - Switches: 2 switches en stack
+   - Conmutación: Automática &lt; 1 segundo
+   - Monitoreo: Continuo de enlaces</code></pre>
+<h4 id="protocolo-tcpip"><strong>5.1.2 PROTOCOLO TCP/IP</strong></h4>
+<pre><code>CONFIGURACIÓN TCP/IP:
+
+1. PARÁMETROS TCP:
+   - Puerto: 50000 (configurable)
+   - Buffer size: 64 KB
+   - Keep-alive: 60 segundos
+   - Timeout: 30 segundos
+   - Retransmisión: 3 intentos
+
+2. PARÁMETROS IP:
+   - TTL: 64
+   - TOS: 0x10 (precedencia)
+   - Fragmentación: Deshabilitada
+   - ICMP: Habilitado para diagnóstico
+
+3. OPTIMIZACIÓN:
+   - TCP_NODELAY: Habilitado
+   - SO_KEEPALIVE: Habilitado
+   - SO_REUSEADDR: Habilitado
+   - Buffer tuning: Optimizado</code></pre>
+<h3 id="especificaciones-de-rendimiento"><strong>5.2 ESPECIFICACIONES DE
+RENDIMIENTO</strong></h3>
+<h4 id="métricas-de-rendimiento"><strong>5.2.1 MÉTRICAS DE
+RENDIMIENTO</strong></h4>
+<pre><code>MÉTRICAS DE RENDIMIENTO:
+
+1. LATENCIA:
+   - Objetivo: &lt; 100 ms
+   - Medición: Tiempo de ida y vuelta
+   - Frecuencia: Cada mensaje
+   - Alerta: &gt; 200 ms
+
+2. THROUGHPUT:
+   - Objetivo: &gt; 1000 mensajes/segundo
+   - Medición: Mensajes por segundo
+   - Frecuencia: Cada minuto
+   - Alerta: &lt; 500 mensajes/segundo
+
+3. DISPONIBILIDAD:
+   - Objetivo: &gt; 99.9%
+   - Medición: Uptime/tiempo total
+   - Frecuencia: Diaria
+   - Alerta: &lt; 99.5%
+
+4. ERROR RATE:
+   - Objetivo: &lt; 0.1%
+   - Medición: Errores/mensajes totales
+   - Frecuencia: Cada hora
+   - Alerta: &gt; 0.5%</code></pre>
+<h4 id="optimización-de-rendimiento"><strong>5.2.2 OPTIMIZACIÓN DE
+RENDIMIENTO</strong></h4>
+<pre><code>OPTIMIZACIÓN DE RENDIMIENTO:
+
+1. BUFFER MANAGEMENT:
+   - Buffer size: 64 KB
+   - Pool de buffers: 100 buffers
+   - Reutilización: Automática
+   - Limpieza: Periódica
+
+2. THREADING:
+   - Threads de red: 4 threads
+   - Threads de procesamiento: 8 threads
+   - Thread pool: Dinámico
+   - Prioridad: SCHED_FIFO
+
+3. MEMORY MANAGEMENT:
+   - Memory pool: Pre-allocated
+   - Garbage collection: Manual
+   - Memory mapping: mmap()
+   - Cache: LRU algorithm</code></pre>
+<hr />
+<h2 id="plan-de-implementación">🔧 <strong>PLAN DE
+IMPLEMENTACIÓN</strong></h2>
+<h3 id="fases-de-desarrollo"><strong>6.1 FASES DE
+DESARROLLO</strong></h3>
+<h4 id="fase-1-especificación-2-semanas"><strong>6.1.1 FASE 1:
+ESPECIFICACIÓN (2 semanas)</strong></h4>
+<pre><code>TAREA                    RESPONSABLE           PLAZO
+Especificación protocolo Ing. Integración     1 semana
+Especificación seguridad Ing. Seguridad       1 semana
+Especificación red       Ing. Redes           1 semana</code></pre>
+<h4 id="fase-2-diseño-3-semanas"><strong>6.1.2 FASE 2: DISEÑO (3
+semanas)</strong></h4>
+<pre><code>TAREA                    RESPONSABLE           PLAZO
+Diseño software          Ing. Software        2 semanas
+Diseño hardware          Ing. Hardware        1 semana
+Diseño de pruebas        Ing. Calidad         1 semana</code></pre>
+<h4 id="fase-3-implementación-6-semanas"><strong>6.1.3 FASE 3:
+IMPLEMENTACIÓN (6 semanas)</strong></h4>
+<pre><code>TAREA                    RESPONSABLE           PLAZO
+Desarrollo software      Proveedor SW         4 semanas
+Integración hardware     Proveedor HW         2 semanas
+Integración sistemas     Ing. Integración     2 semanas</code></pre>
+<h3 id="cronograma-crítico"><strong>6.2 CRONOGRAMA CRÍTICO</strong></h3>
+<pre><code>SEMANA 1-2:  Especificación detallada
+SEMANA 3-5:  Diseño arquitectural
+SEMANA 6-11: Implementación
+SEMANA 12-14: Pruebas FAT
+SEMANA 15-17: Pruebas SAT
+SEMANA 18-19: Puesta en servicio</code></pre>
+<hr />
+<h2 id="métricas-y-monitoreo">📊 <strong>MÉTRICAS Y
+MONITOREO</strong></h2>
+<h3 id="métricas-de-comunicación"><strong>7.1 MÉTRICAS DE
+COMUNICACIÓN</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: center;">Objetivo</th>
+<th style="text-align: center;">Medición</th>
+<th style="text-align: center;">Frecuencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Latencia</strong></td>
+<td style="text-align: center;">≤ 100ms</td>
+<td style="text-align: center;">Tiempo ida y vuelta</td>
+<td style="text-align: center;">Por mensaje</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Throughput</strong></td>
+<td style="text-align: center;">≥ 1000 msg/s</td>
+<td style="text-align: center;">Mensajes por segundo</td>
+<td style="text-align: center;">Cada minuto</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Disponibilidad</strong></td>
+<td style="text-align: center;">≥ 99.9%</td>
+<td style="text-align: center;">Uptime/Tiempo total</td>
+<td style="text-align: center;">Diaria</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Error rate</strong></td>
+<td style="text-align: center;">≤ 0.1%</td>
+<td style="text-align: center;">Errores/Mensajes totales</td>
+<td style="text-align: center;">Cada hora</td>
+</tr>
+</tbody>
+</table>
+<h3 id="métricas-de-seguridad"><strong>7.2 MÉTRICAS DE
+SEGURIDAD</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: center;">Objetivo</th>
+<th style="text-align: center;">Medición</th>
+<th style="text-align: center;">Frecuencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Autenticación</strong></td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">Intentos exitosos</td>
+<td style="text-align: center;">Cada hora</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Cifrado</strong></td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">Mensajes cifrados</td>
+<td style="text-align: center;">Cada hora</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Integridad</strong></td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">Validaciones exitosas</td>
+<td style="text-align: center;">Cada hora</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Certificados</strong></td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">Certificados válidos</td>
+<td style="text-align: center;">Diaria</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sistema-de-monitoreo"><strong>7.3 SISTEMA DE
+MONITOREO</strong></h3>
+<h4 id="herramientas-de-monitoreo"><strong>7.3.1 HERRAMIENTAS DE
+MONITOREO</strong></h4>
+<pre><code>HERRAMIENTAS IMPLEMENTADAS:
+
+1. PROMETHEUS + GRAFANA:
+   - Métricas de rendimiento
+   - Dashboards personalizados
+   - Alertas automáticas
+   - Análisis de tendencias
+
+2. ELK STACK:
+   - Logging centralizado
+   - Análisis de logs
+   - Búsqueda avanzada
+   - Correlación de eventos
+
+3. ZABBIX:
+   - Monitoreo de infraestructura
+   - Alertas de hardware
+   - Monitoreo de red
+   - Disponibilidad de servicios</code></pre>
+<h4 id="alertas-críticas"><strong>7.3.2 ALERTAS CRÍTICAS</strong></h4>
+<pre><code>CONFIGURACIÓN DE ALERTAS:
+
+CRÍTICAS (INMEDIATAS):
+- Pérdida de comunicación
+- Fallo de autenticación
+- Error de cifrado
+- Pérdida de integridad
+
+ALTAS (5 MINUTOS):
+- Latencia &gt; 200ms
+- Throughput &lt; 500 msg/s
+- Error rate &gt; 0.5%
+- Disponibilidad &lt; 99.5%
+
+MEDIAS (15 MINUTOS):
+- Uso CPU &gt; 80%
+- Uso memoria &gt; 85%
+- Conexiones &gt; 90%
+- Buffer usage &gt; 90%</code></pre>
+<hr />
+<h2 id="control-de-versiones">📋 <strong>CONTROL DE
+VERSIONES</strong></h2>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 27%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Versión</th>
+<th style="text-align: center;">Fecha</th>
+<th style="text-align: left;">Responsable</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>v1.1</strong></td>
+<td style="text-align: center;">27/01/2025</td>
+<td style="text-align: left;">Ing. Integración EPC</td>
+<td style="text-align: left;"><strong>Interfaces CTC-ITCS FFFIS</strong>
+- Fase 1 crítica en desarrollo</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v1.0</strong></td>
+<td style="text-align: center;">27/01/2025</td>
+<td style="text-align: left;">Ing. Integración EPC</td>
+<td style="text-align: left;"><strong>Interfaces CTC-ITCS
+inicial</strong> - Protocolo FFFIS especificado</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v0.1</strong></td>
+<td style="text-align: center;">27/01/2025</td>
+<td style="text-align: left;">Admin. Contractual EPC</td>
+<td style="text-align: left;"><strong>Especificaciones
+provisionales</strong> - Desarrollo inicial</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusiones-y-próximos-pasos">✅ <strong>CONCLUSIONES Y
+PRÓXIMOS PASOS</strong></h2>
+<h3 id="estado-actual"><strong>🎯 ESTADO ACTUAL</strong></h3>
+<ul>
+<li>✅ <strong>Interfaces CTC-ITCS especificadas</strong> con protocolo
+FFFIS</li>
+<li>✅ <strong>Protocolo de comunicación detallado</strong> con
+seguridad completa</li>
+<li>✅ <strong>Especificaciones técnicas</strong> de red y
+rendimiento</li>
+<li>✅ <strong>Plan de implementación</strong> con cronograma de 19
+semanas</li>
+</ul>
+<h3 id="próximos-pasos-inmediatos"><strong>🔄 PRÓXIMOS PASOS
+INMEDIATOS</strong></h3>
+<ol type="1">
+<li><strong>Validación técnica</strong> de las interfaces con
+especialistas</li>
+<li><strong>Desarrollo de especificaciones detalladas</strong> de
+software</li>
+<li><strong>Plan de pruebas</strong> para validar comunicación</li>
+<li><strong>Implementación de seguridad</strong> y cifrado</li>
+</ol>
+<h3 id="contactos"><strong>📞 CONTACTOS</strong></h3>
+<ul>
+<li><strong>Responsable Técnico:</strong> Ing. Integración EPC</li>
+<li><strong>Especialista Senior:</strong> Control de Trenes</li>
+<li><strong>Revisión:</strong> Cada 2 semanas durante desarrollo</li>
+</ul>
+<hr />
+<p><strong>Documento desarrollado según estándares CENELEC EN 50159 y
+UIC 438</strong><br />
+<strong>Fecha:</strong> 27 de Enero, 2025<br />
+<strong>Estado:</strong> 🔄 <strong>EN DESARROLLO - FASE 1
+CRÍTICA</strong><br />
+<strong>Próxima actualización:</strong> 3 de Febrero, 2025</p>
+</body>
+</html>

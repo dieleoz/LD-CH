@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDT Detallado - WBS APP La Dorada-Chiriguaná</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .back-btn {
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .back-btn:hover {
+            background: #5568d3;
+        }
+        
+        .search-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f8ff;
+            border-radius: 8px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #667eea;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .edt-container {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .edt-tree {
+            flex: 1;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-height: 800px;
+            overflow-y: auto;
+        }
+        
+        .edt-details {
+            flex: 1;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            max-height: 800px;
+            overflow-y: auto;
+        }
+        
+        .tree-level-1 {
+            padding: 12px;
+            margin: 8px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-level-1:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #654091 100%);
+        }
+        
+        .tree-level-2 {
+            padding: 10px;
+            margin: 5px 0 5px 20px;
+            background: #e3f2fd;
+            border-left: 3px solid #2196f3;
+            border-radius: 4px;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-level-2:hover {
+            background: #bbdefb;
+        }
+        
+        .tree-item {
+            padding: 8px;
+            margin: 3px 0 3px 40px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-left: 3px solid #4caf50;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .tree-item:hover {
+            background: #f1f8e9;
+            border-left-color: #2e7d32;
+            transform: translateX(5px);
+        }
+        
+        .tree-item.active {
+            background: #c8e6c9;
+            border-left-color: #1b5e20;
+        }
+        
+        .detail-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .detail-section h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+        
+        .badge {
+            background: #ff9800;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗂️ EDT Detallado - Estructura de Desglose del Trabajo</h1>
+            <p>Proyecto APP La Dorada-Chiriguaná | Con Metadata Enriquecida</p>
+        </div>
+        
+        <div class="content">
+            <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar ítem por código o descripción..." onkeyup="filterEDT(this.value)">
+            </div>
+            
+            <div class="edt-container">
+                <div class="edt-tree" id="edtTree">
+                    <div style="padding:20px;text-align:center;color:#999;">
+                        <p>⏳ Cargando estructura EDT...</p>
+                    </div>
+                </div>
+                
+                <div class="edt-details">
+                    <div id="detailsContent" class="detail-section">
+                        <h3>🎯 Seleccione un ítem del EDT</h3>
+                        <p>Haga clic en cualquier elemento de la estructura para ver la justificación técnica, criterios de diseño, supuestos y decisiones técnicas relacionadas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cargar datos dinámicos -->
+    <script src="datos_wbs_TODOS_items.js?v=1.0.3"></script>
+    <script src="wbs_metadata_enriquecida.js?v=1.0.4"></script>
+    
+    <script>
+        let edtDataEnriquecida = {};
+        
+        // Inicializar EDT con datos combinados
+        function inicializarEDT() {
+            console.log('🔄 Inicializando EDT...');
+            
+            const metadata = window.wbsMetadataEnriquecida;
+            const wbsData = window.datos_wbs;
+            
+            if (!wbsData || !wbsData.items) {
+                console.error('❌ datos_wbs no disponible');
+                mostrarError('No se encontraron datos WBS');
+                return;
+            }
+            
+            if (!metadata || !metadata.items) {
+                console.error('❌ wbsMetadataEnriquecida no disponible');
+                mostrarError('No se encontró metadata enriquecida');
+                return;
+            }
+            
+            console.log('✅ WBS items:', wbsData.items.length);
+            console.log('✅ Metadata items:', Object.keys(metadata.items).length);
+            
+            // Combinar datos
+            wbsData.items.forEach(item => {
+                const codigo = item.codigo;
+                const meta = metadata.items[codigo] || {};
+                
+                edtDataEnriquecida[codigo] = {
+                    codigo: codigo,
+                    descripcion: item.descripcion,
+                    tipo: item.tipo,
+                    cantidad: item.cantidad,
+                    unidad: item.unidad,
+                    vu_cop: item.vu_cop,
+                    total_cop: item.total_cop,
+                    capitulo: item.capitulo,
+                    subcapitulo: item.subcapitulo || '',
+                    // Metadata enriquecida
+                    justificacion_tecnica: meta.justificacion_tecnica || 'Por definir',
+                    criterios_diseno: meta.criterios_diseno || [],
+                    supuestos: meta.supuestos || [],
+                    decisiones_tecnicas: meta.decisiones_tecnicas || [],
+                    feedback_especialista: meta.feedback_especialista || 'Sin feedback registrado',
+                    documentos_ingenieria: meta.documentos_ingenieria || [],
+                    referencias_contractuales: meta.referencias_contractuales || [],
+                    ultima_actualizacion: meta.ultima_actualizacion || '2025-10-08',
+                    actualizado_por: meta.actualizado_por || 'Sistema WBS'
+                };
+            });
+            
+            console.log('✅ EDT combinado:', Object.keys(edtDataEnriquecida).length, 'items');
+            renderEDT();
+        }
+        
+        function mostrarError(mensaje) {
+            const treeContainer = document.getElementById('edtTree');
+            if (treeContainer) {
+                treeContainer.innerHTML = `
+                    <div style="padding:20px;background:#fff3cd;border-radius:8px;border-left:4px solid #ffc107;">
+                        <h3 style="color:#856404;">⚠️ Error de carga</h3>
+                        <p>${mensaje}</p>
+                        <button onclick="location.reload()" style="background:#667eea;color:white;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;margin-top:10px;">
+                            🔄 Recargar Página
+                        </button>
+                    </div>
+                `;
+            }
+        }
+        
+        // Renderizar árbol EDT con estructura expandible
+        function renderEDT() {
+            const treeContainer = document.getElementById('edtTree');
+            if (!treeContainer) return;
+            
+            console.log('🎨 Renderizando EDT con', Object.keys(edtDataEnriquecida).length, 'items');
+            
+            // Agrupar por capítulo y subcapítulo
+            const porCapitulo = {};
+            Object.keys(edtDataEnriquecida).forEach(codigo => {
+                const partes = codigo.split('.');
+                const cap = partes[0];
+                const subcap = partes.length > 1 ? partes[0] + '.' + partes[1] : cap;
+                
+                if (!porCapitulo[cap]) porCapitulo[cap] = {};
+                if (!porCapitulo[cap][subcap]) porCapitulo[cap][subcap] = [];
+                porCapitulo[cap][subcap].push(codigo);
+            });
+            
+            // Renderizar con estructura expandible
+            let html = '<h3 style="margin-bottom: 20px; color: #1e3c72;">🌳 Estructura EDT Dinámica</h3>';
+            html += '<p style="font-size:12px;color:#666;margin-bottom:20px;">Click en capítulos/subcapítulos para expandir. Items con DT tienen badge naranja.</p>';
+            
+            Object.keys(porCapitulo).sort().forEach(cap => {
+                const capId = 'cap-' + cap;
+                const itemsEnCap = Object.values(porCapitulo[cap]).flat().length;
+                
+                // Encabezado de capítulo
+                html += `
+                    <div class="tree-level-1" onclick="toggleCapitulo('${capId}')">
+                        <span id="${capId}-icon">▶</span> Capítulo ${cap} <span style="opacity:0.7;font-size:12px;">(${itemsEnCap} items)</span>
+                    </div>
+                    <div id="${capId}" style="display:none;">
+                `;
+                
+                // Subcapítulos
+                Object.keys(porCapitulo[cap]).sort().forEach(subcap => {
+                    const subcapId = 'subcap-' + subcap.replace(/\./g, '-');
+                    const items = porCapitulo[cap][subcap];
+                    const nombreSubcap = edtDataEnriquecida[items[0]]?.subcapitulo || '';
+                    
+                    html += `
+                        <div class="tree-level-2" onclick="toggleSubcapitulo('${subcapId}')">
+                            <span id="${subcapId}-icon">▶</span> ${subcap}${nombreSubcap ? ' - ' + nombreSubcap : ''} <span style="opacity:0.7;font-size:11px;">(${items.length})</span>
+                        </div>
+                        <div id="${subcapId}" style="display:none;">
+                    `;
+                    
+                    // Ítems del subcapítulo
+                    items.sort().forEach(codigo => {
+                        const item = edtDataEnriquecida[codigo];
+                        const tieneDTs = item.decisiones_tecnicas && item.decisiones_tecnicas.length > 0;
+                        html += `
+                            <div class="tree-item" onclick="showDetails('${codigo}')">
+                                <strong style="color:#1e3c72;">${codigo}</strong> - ${item.descripcion}
+                                ${tieneDTs ? '<span class="badge">📋 ' + item.decisiones_tecnicas.length + ' DT</span>' : ''}
+                            </div>
+                        `;
+                    });
+                    
+                    html += '</div>'; // Cierre subcapítulo
+                });
+                
+                html += '</div>'; // Cierre capítulo
+            });
+            
+            treeContainer.innerHTML = html;
+            console.log('✅ EDT renderizado correctamente');
+        }
+        
+        // Expandir/contraer capítulos
+        function toggleCapitulo(capId) {
+            const elemento = document.getElementById(capId);
+            const icono = document.getElementById(capId + '-icon');
+            
+            if (elemento.style.display === 'none') {
+                elemento.style.display = 'block';
+                icono.textContent = '▼';
+            } else {
+                elemento.style.display = 'none';
+                icono.textContent = '▶';
+            }
+        }
+        
+        // Expandir/contraer subcapítulos
+        function toggleSubcapitulo(subcapId) {
+            event.stopPropagation();
+            const elemento = document.getElementById(subcapId);
+            const icono = document.getElementById(subcapId + '-icon');
+            
+            if (elemento.style.display === 'none') {
+                elemento.style.display = 'block';
+                icono.textContent = '▼';
+            } else {
+                elemento.style.display = 'none';
+                icono.textContent = '▶';
+            }
+        }
+        
+        // Mostrar detalles del ítem
+        function showDetails(codigo) {
+            const content = document.getElementById('detailsContent');
+            const data = edtDataEnriquecida[codigo];
+            
+            if (!data) {
+                content.innerHTML = `
+                    <div class="detail-section">
+                        <h3>📋 ${codigo}</h3>
+                        <p style="color: #e74c3c;">⚠️ Información no disponible</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Formatear números
+            const formatCOP = (val) => {
+                if (!val) return 'N/A';
+                return new Intl.NumberFormat('es-CO', {style: 'currency', currency: 'COP', maximumFractionDigits: 0}).format(val);
+            };
+            
+            content.innerHTML = `
+                <div class="detail-section">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 20px;">
+                        <div>
+                            <h3 style="color: #1e3c72; margin-bottom: 5px;">📋 ${data.codigo} - ${data.descripcion}</h3>
+                            <p style="color: #666; font-size: 12px; margin: 0;">
+                                <strong>Tipo:</strong> ${data.tipo} | 
+                                <strong>Cantidad:</strong> ${data.cantidad} ${data.unidad} | 
+                                <strong>VU:</strong> ${formatCOP(data.vu_cop)}
+                            </p>
+                        </div>
+                        <div style="text-align: right;">
+                            <p style="font-size: 20px; font-weight: bold; color: #28a745; margin: 0;">
+                                ${formatCOP(data.total_cop)}
+                            </p>
+                            <p style="font-size: 12px; color: #666; margin: 0;">Total COP</p>
+                        </div>
+                    </div>
+                    
+                    ${data.justificacion_tecnica && data.justificacion_tecnica !== 'Por definir' ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            🔬 Justificación Técnica
+                        </h4>
+                        <p style="background: #f0f8ff; padding: 15px; border-left: 4px solid #2196f3; border-radius: 4px;">
+                            ${data.justificacion_tecnica}
+                        </p>
+                    ` : ''}
+                    
+                    ${data.criterios_diseno && data.criterios_diseno.length > 0 ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            ⚙️ Criterios de Diseño
+                        </h4>
+                        <ul style="background: #f9fbe7; padding: 15px 15px 15px 35px; border-left: 4px solid #cddc39; border-radius: 4px;">
+                            ${data.criterios_diseno.map(criterio => `
+                                <li style="margin: 8px 0; color: #333;">${criterio}</li>
+                            `).join('')}
+                        </ul>
+                    ` : ''}
+                    
+                    ${data.supuestos && data.supuestos.length > 0 ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            📐 Supuestos del Especialista
+                        </h4>
+                        <ul style="background: #fff3e0; padding: 15px 15px 15px 35px; border-left: 4px solid #ff9800; border-radius: 4px;">
+                            ${data.supuestos.map(supuesto => `
+                                <li style="margin: 8px 0; color: #333;">${supuesto}</li>
+                            `).join('')}
+                        </ul>
+                    ` : ''}
+                    
+                    ${data.feedback_especialista && data.feedback_especialista !== 'Sin feedback registrado' ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            💡 Feedback del Especialista
+                        </h4>
+                        <p style="background: #e8f5e9; padding: 15px; border-left: 4px solid #4caf50; border-radius: 4px; font-style: italic;">
+                            ${data.feedback_especialista}
+                        </p>
+                    ` : ''}
+                    
+                    ${data.decisiones_tecnicas && data.decisiones_tecnicas.length > 0 ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            📄 Decisiones Técnicas Relacionadas
+                        </h4>
+                        <div style="background: #fff3cd; padding: 15px; border-radius: 4px;">
+                            ${data.decisiones_tecnicas.map(dt => `
+                                <div style="background: white; padding: 12px; margin: 8px 0; border-radius: 4px; border-left: 3px solid #ff9800;">
+                                    <strong style="color:#e65100;">🔗 ${dt}</strong>
+                                    <p style="font-size:11px;color:#666;margin:5px 0 0 0;">Decisión técnica aplicada a este ítem</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                    
+                    ${data.documentos_ingenieria && data.documentos_ingenieria.length > 0 ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            📚 Documentos de Ingeniería
+                        </h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; margin-top: 10px;">
+                            ${data.documentos_ingenieria.map(doc => `
+                                <div style="background: #e3f2fd; padding: 12px; border-radius: 6px; border-left: 3px solid #2196f3;">
+                                    <div style="font-size: 12px; font-weight: 600; color: #1e3c72;">📄 ${doc}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                    
+                    ${data.referencias_contractuales && data.referencias_contractuales.length > 0 ? `
+                        <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
+                            ⚖️ Referencias Contractuales
+                        </h4>
+                        <div style="background: #fff9e6; padding: 15px; border-radius: 4px; border-left: 4px solid #ffc107;">
+                            <ul style="margin: 0; padding-left: 20px;">
+                                ${data.referencias_contractuales.map(ref => `
+                                    <li style="margin: 5px 0; color: #333;">${ref}</li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+                    
+                    <div style="margin-top: 30px; padding-top: 20px; border-top: 2px dashed #dee2e6; font-size: 11px; color: #999;">
+                        <strong>📅 Última actualización:</strong> ${data.ultima_actualizacion} | 
+                        <strong>👤 Por:</strong> ${data.actualizado_por}
+                    </div>
+                </div>
+            `;
+            
+            // Actualizar clase activa
+            document.querySelectorAll('.tree-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Encontrar y marcar como activo
+            const activeItem = Array.from(document.querySelectorAll('.tree-item')).find(el => 
+                el.getAttribute('onclick')?.includes(codigo)
+            );
+            if (activeItem) {
+                activeItem.classList.add('active');
+            }
+        }
+        
+        // Filtrar EDT
+        function filterEDT(searchTerm) {
+            const term = searchTerm.toLowerCase();
+            
+            Object.keys(edtDataEnriquecida).forEach(codigo => {
+                const item = edtDataEnriquecida[codigo];
+                const texto = (codigo + ' ' + item.descripcion).toLowerCase();
+                const match = texto.includes(term) || term === '';
+                
+                // Buscar el elemento en el DOM
+                const elementos = document.querySelectorAll('.tree-item');
+                elementos.forEach(el => {
+                    if (el.textContent.includes(codigo)) {
+                        el.style.display = match ? 'block' : 'none';
+                    }
+                });
+            });
+            
+            // Si hay búsqueda, expandir todos
+            if (term !== '') {
+                document.querySelectorAll('[id^="cap-"]').forEach(el => {
+                    if (!el.id.includes('-icon')) {
+                        el.style.display = 'block';
+                        const icono = document.getElementById(el.id + '-icon');
+                        if (icono) icono.textContent = '▼';
+                    }
+                });
+                document.querySelectorAll('[id^="subcap-"]').forEach(el => {
+                    if (!el.id.includes('-icon')) {
+                        el.style.display = 'block';
+                        const icono = document.getElementById(el.id + '-icon');
+                        if (icono) icono.textContent = '▼';
+                    }
+                });
+            }
+        }
+        
+        // Inicializar al cargar
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('📄 Página cargada, inicializando EDT...');
+            inicializarEDT();
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Trabajo - WBS APP La Dorada-Chiriguaná</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .back-btn {
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .back-btn:hover {
+            background: #5568d3;
+        }
+        
+        .timeline-container {
+            position: relative;
+            margin: 40px 0;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #667eea;
+        }
+        
+        .phase {
+            position: relative;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-left: 20px;
+        }
+        
+        .phase::before {
+            content: '';
+            position: absolute;
+            left: -25px;
+            top: 20px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #667eea;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
+        }
+        
+        .phase-header {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .phase-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .phase-duration {
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .phase-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .milestones {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .milestone {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #28a745;
+        }
+        
+        .milestone.critical {
+            border-left-color: #dc3545;
+            background: #fff5f5;
+        }
+        
+        .milestone-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .milestone-date {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .gantt-container {
+            margin: 40px 0;
+            overflow-x: auto;
+        }
+        
+        .gantt-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-width: 800px;
+        }
+        
+        .gantt-table th {
+            background: #343a40;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .gantt-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .gantt-bar {
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gantt-bar.fase1 { background: linear-gradient(90deg, #667eea, #764ba2); }
+        .gantt-bar.fase2 { background: linear-gradient(90deg, #f093fb, #f5576c); }
+        .gantt-bar.fase3 { background: linear-gradient(90deg, #4facfe, #00f2fe); }
+        .gantt-bar.fase4 { background: linear-gradient(90deg, #43e97b, #38f9d7); }
+        .gantt-bar.fase5 { background: linear-gradient(90deg, #fa709a, #fee140); }
+        
+        .progress-indicator {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: rgba(255,255,255,0.3);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+        
+        .resource-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        
+        .resource-section h3 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .resource-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .resource-card h4 {
+            color: #2a5298;
+            margin-bottom: 10px;
+        }
+        
+        .resource-list {
+            list-style: none;
+        }
+        
+        .resource-list li {
+            padding: 5px 0;
+            color: #666;
+        }
+        
+        .critical-path {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .critical-path h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+        
+        .critical-path ul {
+            list-style: none;
+        }
+        
+        .critical-path li {
+            padding: 5px 0;
+            color: #856404;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .critical-path li:before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .metric-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 4px solid #667eea;
+        }
+        
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .metric-label {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        /* Estilos para impresión */
+        @media print {
+            .back-btn, .btn-print {
+                display: none !important;
+            }
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📅 CRONOGRAMA DE TRABAJO</h1>
+            <p>APP La Dorada-Chiriguaná | Sistema de Comunicaciones y Control | Propuesta de Ejecución</p>
+        </div>
+        
+        <div class="content">
+            <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
+            <button onclick="window.print()" class="btn-print" style="float: right; padding: 12px 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">📄 Imprimir PDF</button>
+            <div style="clear: both;"></div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">24</div>
+                    <div class="metric-label">Meses Duración Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">5</div>
+                    <div class="metric-label">Fases Principales</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">18</div>
+                    <div class="metric-label">Hitos Críticos</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">120+</div>
+                    <div class="metric-label">Actividades</div>
+                </div>
+            </div>
+            
+            <div class="timeline-container">
+                <h2>📊 Cronograma Maestro por Fases</h2>
+                <div class="timeline">
+                    <div class="phase">
+                        <div class="phase-header">
+                            <div class="phase-title">FASE 1: PREPARACIÓN Y DISEÑO (Meses 1-4)</div>
+                            <div class="phase-duration">4 meses</div>
+                        </div>
+                        <div class="phase-description">
+                            Preparación del terreno, finalización de diseños detallados, contratación de suministros principales y coordinación con FENOCO.
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 1: Aprobación Diseños Finales</div>
+                                <div class="milestone-date">Mes 2</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 2: Acuerdos Operacionales FENOCO</div>
+                                <div class="milestone-date">Mes 3</div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-title">Hito 3: Contratación Suministros</div>
+                                <div class="milestone-date">Mes 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="phase">
+                        <div class="phase-header">
+                            <div class="phase-title">FASE 2: INFRAESTRUCTURA BÁSICA (Meses 5-10)</div>
+                            <div class="phase-duration">6 meses</div>
+                        </div>
+                        <div class="phase-description">
+                            Construcción de infraestructura civil, instalación de fibra óptica, construcción de torres TETRA y sistemas de energía.
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 4: Fibra Óptica Instalada</div>
+                                <div class="milestone-date">Mes 8</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 5: Torres TETRA Completadas</div>
+                                <div class="milestone-date">Mes 9</div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-title">Hito 6: Sistemas de Energía</div>
+                                <div class="milestone-date">Mes 10</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="phase">
+                        <div class="phase-header">
+                            <div class="phase-title">FASE 3: SISTEMAS DE COMUNICACIÓN (Meses 11-16)</div>
+                            <div class="phase-duration">6 meses</div>
+                        </div>
+                        <div class="phase-description">
+                            Instalación de equipos TETRA, GSM-R, CCTV y sistemas de seguridad en toda la infraestructura.
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 7: Red TETRA Operativa</div>
+                                <div class="milestone-date">Mes 13</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 8: Sistema CCTV Completado</div>
+                                <div class="milestone-date">Mes 15</div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-title">Hito 9: Sistemas de Seguridad</div>
+                                <div class="milestone-date">Mes 16</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="phase">
+                        <div class="phase-header">
+                            <div class="phase-title">FASE 4: SEÑALIZACIÓN Y CONTROL (Meses 17-22)</div>
+                            <div class="phase-duration">6 meses</div>
+                        </div>
+                        <div class="phase-description">
+                            Instalación de sistemas CTC, ENCE, equipamiento de locomotoras y pasos a nivel activos.
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 10: CTC Centralizado Operativo</div>
+                                <div class="milestone-date">Mes 19</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 11: ENCE Completados</div>
+                                <div class="milestone-date">Mes 20</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 12: Locomotoras Equipadas</div>
+                                <div class="milestone-date">Mes 22</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="phase">
+                        <div class="phase-header">
+                            <div class="phase-title">FASE 5: PRUEBAS Y COMISIONAMIENTO (Meses 23-24)</div>
+                            <div class="phase-duration">2 meses</div>
+                        </div>
+                        <div class="phase-description">
+                            Pruebas integrales del sistema, validación de interoperabilidad con FENOCO y puesta en servicio.
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 13: Pruebas Integradas Completadas</div>
+                                <div class="milestone-date">Mes 23</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 14: Interoperabilidad FENOCO Validada</div>
+                                <div class="milestone-date">Mes 24</div>
+                            </div>
+                            <div class="milestone critical">
+                                <div class="milestone-title">Hito 15: Sistema en Servicio</div>
+                                <div class="milestone-date">Mes 24</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gantt-container">
+                <h2>📈 Diagrama de Gantt - Vista Consolidada (60 Meses)</h2>
+                <div id="ganttChartContainer" style="overflow-x: auto;">
+                    <table class="gantt-table" id="ganttTable">
+                        <thead id="ganttHeader">
+                            <tr>
+                                <th style="min-width: 250px;">Fase</th>
+                                <th style="min-width: 100px;">Duración</th>
+                                <th style="min-width: 120px;">Inicio → Fin</th>
+                                <th style="min-width: 100px;">Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ganttBody">
+                            <!-- Se genera dinámicamente desde cronograma_datos.js -->
+                        </tbody>
+                    </table>
+                </div>
+                <div style="margin-top: 20px; padding: 15px; background: #e8f5e9; border-radius: 8px; border-left: 5px solid #4caf50;">
+                    <p style="color: #2e7d32; margin: 0;"><strong>📊 Escala Visual:</strong> Cada fase se muestra con su duración en meses y rango temporal. Total proyecto: <strong id="totalMesesGantt">60 meses</strong> (36 meses ejecución + 12 meses buffer).</p>
+                </div>
+            </div>
+            
+            <div class="critical-path">
+                <h3>⚠️ Ruta Crítica del Proyecto</h3>
+                <ul>
+                    <li>Aprobación de diseños finales (Mes 2)</li>
+                    <li>Acuerdos operacionales FENOCO (Mes 3)</li>
+                    <li>Instalación de fibra óptica (Mes 8)</li>
+                    <li>Red TETRA operativa (Mes 13)</li>
+                    <li>CTC centralizado operativo (Mes 19)</li>
+                    <li>Equipamiento de locomotoras (Mes 22)</li>
+                    <li>Interoperabilidad FENOCO validada (Mes 24)</li>
+                </ul>
+            </div>
+            
+            <div class="resource-section">
+                <h3>👥 Plan de Recursos y Capacidades</h3>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <h4>Ingeniería de Diseño</h4>
+                        <ul class="resource-list">
+                            <li>Ingeniero Jefe de Proyecto</li>
+                            <li>Ingenieros de Señalización (3)</li>
+                            <li>Ingenieros de Comunicaciones (2)</li>
+                            <li>Ingenieros de Potencia (2)</li>
+                            <li>Ingenieros Civiles (2)</li>
+                        </ul>
+                    </div>
+                    <div class="resource-card">
+                        <h4>Construcción e Instalación</h4>
+                        <ul class="resource-list">
+                            <li>Supervisor General de Obra</li>
+                            <li>Supervisores por especialidad (5)</li>
+                            <li>Técnicos de Fibra Óptica (8)</li>
+                            <li>Técnicos de Telecomunicaciones (12)</li>
+                            <li>Electricistas (6)</li>
+                            <li>Obreros especializados (20)</li>
+                        </ul>
+                    </div>
+                    <div class="resource-card">
+                        <h4>Pruebas y Comisionamiento</h4>
+                        <ul class="resource-list">
+                            <li>Ingeniero de Pruebas</li>
+                            <li>Técnicos de Pruebas (4)</li>
+                            <li>Coordinador FENOCO</li>
+                            <li>Especialistas en ATP (2)</li>
+                            <li>Operadores de Pruebas (3)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carga de datos dinámicos -->
+    <script src="cronograma_datos.js?v=2.0.3"></script>
+    <script>
+        // Verificar que los datos se cargaron correctamente
+        if (typeof window.cronogramaData !== 'undefined') {
+            console.log('✅ Cronograma PMO cargado:', window.cronogramaData.proyecto);
+            console.log('📅 Estrategia:', window.cronogramaData.estrategia);
+            console.log('📊 Fases:', window.cronogramaData.fases.length);
+            console.log('🎯 Hitos:', window.cronogramaData.hitos.length);
+            console.log('📦 Entregas Externas:', window.cronogramaData.entregas_externas.length);
+            
+            // LIMPIAR CONTENIDO HARDCODED Y RENDERIZAR DINÁMICAMENTE
+            const timelineContainer = document.querySelector('.timeline');
+            
+            if (timelineContainer && window.cronogramaData.fases) {
+                // Limpiar contenido antiguo
+                timelineContainer.innerHTML = '';
+                
+                // Renderizar cada fase dinámicamente
+                window.cronogramaData.fases.forEach((fase, index) => {
+                    const faseDiv = document.createElement('div');
+                    faseDiv.className = 'phase';
+                    
+                    // Color especial para buffer
+                    if (fase.estado === 'RESERVA') {
+                        faseDiv.style.borderLeft = '4px solid #95a5a6';
+                        faseDiv.style.opacity = '0.7';
+                    }
+                    
+                    faseDiv.innerHTML = `
+                        <div class="phase-header">
+                            <div class="phase-title">${fase.nombre} (Mes ${fase.mes_inicio}-${fase.mes_fin})</div>
+                            <div class="phase-duration">${fase.duracion_meses} meses</div>
+                        </div>
+                        <div class="phase-description">
+                            ${fase.descripcion}
+                            ${fase.estado === 'EN CURSO' ? '<br><strong style="color: #27ae60;">⚡ EN CURSO - ' + fase.avance_pct + '% completado</strong>' : ''}
+                        </div>
+                    `;
+                    
+                    timelineContainer.appendChild(faseDiv);
+                });
+                
+                console.log(`✅ ${window.cronogramaData.fases.length} fases renderizadas`);
+            }
+            
+            // Renderizar HITOS CRÍTICOS
+            const rutaCriticaDiv = document.querySelector('.critical-path ul');
+            if (rutaCriticaDiv && window.cronogramaData.hitos) {
+                rutaCriticaDiv.innerHTML = '';
+                window.cronogramaData.hitos.forEach(h => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<strong>${h.id} (M${h.mes}):</strong> ${h.nombre} - <em>${h.responsable}</em> ${h.tipo === 'Externo' ? '🔴 EXTERNO' : ''}`;
+                    rutaCriticaDiv.appendChild(li);
+                });
+                console.log(`✅ ${window.cronogramaData.hitos.length} hitos renderizados`);
+            }
+            
+            // Renderizar ENTREGAS EXTERNAS
+            const entregasDiv = document.querySelector('.resource-section');
+            if (entregasDiv && window.cronogramaData.entregas_externas) {
+                const entDiv = document.createElement('div');
+                entDiv.style.background = '#ffebee';
+                entDiv.style.border = '2px solid #e74c3c';
+                entDiv.style.padding = '20px';
+                entDiv.style.borderRadius = '8px';
+                entDiv.style.marginTop = '20px';
+                
+                let entHTML = '<h4 style="color: #c0392b; margin-bottom: 15px;">🏢 ENTREGAS EXTERNAS CRÍTICAS</h4>';
+                entHTML += '<p style="color: #666; margin-bottom: 15px;"><strong>⚠️ SIN ESTAS ENTREGAS NO SE PUEDE AVANZAR</strong></p>';
+                entHTML += '<ul style="list-style: none;">';
+                
+                window.cronogramaData.entregas_externas.forEach(ent => {
+                    entHTML += `<li style="padding: 10px; border-left: 4px solid ${ent.criticidad === 'CRITICA' ? '#e74c3c' : '#f39c12'}; margin: 8px 0; background: white; border-radius: 4px;">
+                        <strong>${ent.id}</strong> (M${ent.mes_requerido}): ${ent.nombre}<br>
+                        <span style="color: #7f8c8d;">Responsable: ${ent.responsable}</span><br>
+                        <span style="color: #c0392b; font-size: 0.9em;">${ent.nota}</span>
+                    </li>`;
+                });
+                
+                entHTML += '</ul>';
+                entDiv.innerHTML = entHTML;
+                entregasDiv.appendChild(entDiv);
+                
+                console.log(`✅ ${window.cronogramaData.entregas_externas.length} entregas externas renderizadas`);
+            }
+            
+            // ========================================
+            // RENDERIZAR GANTT DINÁMICO
+            // ========================================
+            const ganttBody = document.getElementById('ganttBody');
+            if (ganttBody && window.cronogramaData.fases) {
+                ganttBody.innerHTML = '';
+                
+                // Colores por fase
+                const coloresFase = [
+                    '#3498db', '#2ecc71', '#f39c12', '#e74c3c',
+                    '#9b59b6', '#1abc9c', '#34495e', '#95a5a6'
+                ];
+                
+                window.cronogramaData.fases.forEach((fase, index) => {
+                    const tr = document.createElement('tr');
+                    const color = coloresFase[index % coloresFase.length];
+                    
+                    // Determinar ícono de estado
+                    let estadoHTML = '';
+                    let estadoColor = '';
+                    if (fase.estado === 'EN CURSO') {
+                        estadoHTML = `<span style="color: #27ae60; font-weight: bold;">⚡ ${fase.avance_pct}%</span>`;
+                        estadoColor = '#d4edda';
+                    } else if (fase.estado === 'PENDIENTE') {
+                        estadoHTML = `<span style="color: #f39c12;">⏳ Pendiente</span>`;
+                        estadoColor = '#fff3cd';
+                    } else if (fase.estado === 'RESERVA') {
+                        estadoHTML = `<span style="color: #95a5a6;">🛡️ Buffer</span>`;
+                        estadoColor = '#f8f9fa';
+                    } else {
+                        estadoHTML = `<span style="color: #7f8c8d;">⏸️ ${fase.estado}</span>`;
+                        estadoColor = '#ffffff';
+                    }
+                    
+                    tr.innerHTML = `
+                        <td style="font-weight: 600; color: #2c3e50;">
+                            <div style="display: flex; align-items: center;">
+                                <div style="width: 8px; height: 40px; background: ${color}; border-radius: 4px; margin-right: 10px;"></div>
+                                <div>
+                                    <div style="font-size: 14px;">${fase.nombre}</div>
+                                    <div style="font-size: 11px; color: #7f8c8d; margin-top: 3px;">${fase.descripcion}</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: ${color};">${fase.duracion_meses} meses</td>
+                        <td style="text-align: center;">
+                            <span style="background: ${color}; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 600;">
+                                M${fase.mes_inicio} → M${fase.mes_fin}
+                            </span>
+                        </td>
+                        <td style="text-align: center; background: ${estadoColor}; border-radius: 6px;">
+                            ${estadoHTML}
+                        </td>
+                    `;
+                    
+                    ganttBody.appendChild(tr);
+                });
+                
+                // Actualizar total de meses
+                document.getElementById('totalMesesGantt').textContent = 
+                    `${window.cronogramaData.duracion_total_meses} meses (${window.cronogramaData.estrategia})`;
+                
+                console.log(`✅ Gantt renderizado: ${window.cronogramaData.fases.length} fases`);
+            }
+            
+        } else {
+            console.error('❌ Error: cronograma_datos.js no se cargó correctamente');
+        }
+    </script>
+</body>
+</html>

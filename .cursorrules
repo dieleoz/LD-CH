@@ -1,0 +1,464 @@
+# REGLAS DE CURSOR PARA SISTEMA WBS INTERACTIVO
+# Proyecto: APP La Dorada-Chiriguaná
+# Versión: 2.0 | Fecha: 8 de Octubre de 2025
+
+## 🎯 CONTEXTO DEL PROYECTO
+
+Este es un proyecto de ingeniería EPC (Engineering, Procurement, Construction) para una concesión ferroviaria.
+El sistema WBS Interactivo permite a especialistas proponer cambios técnicos que se documentan como Decisiones Técnicas (DT)
+y se ejecutan automáticamente mediante Cursor siguiendo instrucciones YAML embebidas.
+
+**IMPORTANTE:** Las DTs deben propagar cambios en **6 NIVELES** de documentación para mantener coherencia técnica completa.
+
+---
+
+## 🔄 FLUJO DE PROPAGACIÓN (6 NIVELES)
+
+### **NIVEL 1: IX. WBS Y PLANIFICACIÓN** ✅ OBLIGATORIO
+```
+├─ WBS_Presupuestal_v2.0.md (cantidades, VU, totales)
+├─ datos_wbs_TODOS_items.json (datos completos)
+├─ wbs_metadata_enriquecida.json (metadata técnica)
+└─ Interfaces HTML (visualización)
+```
+
+### **NIVEL 2: V. INGENIERÍA DE DETALLE** ⚠️ CONDICIONAL
+```
+└─ V.X_Sistema_Detalle_vX.md (sección técnica específica)
+    Ejemplo: DT-CTC-002 → V.2 CTC §3.2 "Arquitectura"
+    
+    Script automático: scripts/actualizar_documentos_detalle.ps1
+    - Busca archivos V.X mencionados en DTs
+    - Versiona automáticamente (v5.0 → v5.1)
+    - Agrega historial de actualizaciones con ID de DT
+    - Trazabilidad completa DT → V.X
+```
+
+### **NIVEL 3: III. INGENIERÍA CONCEPTUAL** ⚠️ SI APLICA
+```
+└─ Documentos Integrados (criterios/cantidades)
+    Ejemplo: 26_Sistema_CTC_Integrado.md
+```
+
+### **NIVEL 4: VIII. DOCUMENTOS MAESTROS** ✅ OBLIGATORIO
+```
+├─ CRITERIOS_TECNICOS_MAESTRO_v1.0.md (agrega criterio)
+├─ MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md (enlaza DT → Docs)
+├─ MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md (agrega fila)
+└─ MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md (si aplica riesgo)
+
+Script automático: scripts/actualizar_documentos_maestros.ps1
+- Extrae metadata de DTs (Sistema, Item WBS, Tipo cambio)
+- Inserta filas en MATRIZ_DEPENDENCIAS_DOCUMENTALES
+- Agrega entradas a MATRIZ_TRAZABILIDAD_TECNICA
+- Verifica duplicados antes de insertar
+- 18 DTs ya registradas en matrices
+```
+
+### **NIVEL 5: X. ENTREGABLES CONSOLIDADOS** ⚠️ SI EXISTE
+```
+└─ SISTEMA_XX_Master.md (actualiza si ya consolidado)
+```
+
+### **NIVEL 6: ÍNDICES** ✅ OBLIGATORIO
+```
+└─ Indice_Maestro_Consolidado_v1.0.md (referencias cruzadas)
+```
+
+**NOTA:** Niveles ✅ OBLIGATORIOS siempre se actualizan. Niveles ⚠️ CONDICIONALES solo si aplica según MATRIZ_DEPENDENCIAS.
+
+---
+
+## 📋 EJECUCIÓN DE DECISIONES TÉCNICAS (DT)
+
+### DETECCIÓN AUTOMÁTICA
+
+Cuando el usuario abre o menciona un archivo `DT-*.md` ubicado en `II. Apendices Tecnicos/Decisiones_Tecnicas/`:
+
+1. **Reconocer como Decisión Técnica**
+   - Archivos con patrón: `DT-[SISTEMA]-[NUMERO]-[FECHA].md`
+   - Ejemplos: `DT-FIBRA-042-2025-10-07.md`, `DT-TETRA-015-2025-10-08.md`
+
+2. **Buscar sección de instrucciones**
+   - Sección: `## 10. INSTRUCCIONES PARA CURSOR ⚙️`
+   - Contiene bloque YAML entre ` ```yaml ` y ` ``` `
+
+3. **Ofrecer ejecución**
+   - Preguntar al usuario: "He detectado una Decisión Técnica. ¿Quieres que la ejecute?"
+   - Si usuario dice "Sí", "Ejecuta", "Procede" o similar → Iniciar ejecución
+
+---
+
+### PROCESO DE EJECUCIÓN
+
+#### **PASO 1: LEER Y PARSEAR YAML**
+
+```markdown
+1. Extraer el bloque YAML de la sección 10
+2. Parsear estructura completa
+3. Identificar:
+   - dt_metadata (metadatos)
+   - archivos_actualizar (lista de archivos y cambios)
+   - items_dependientes (si aplica)
+   - validaciones (checks pre-ejecución)
+   - manejo_errores (estrategias)
+```
+
+#### **PASO 2: VALIDACIONES PRE-EJECUCIÓN**
+
+Según el campo `validaciones` en YAML:
+
+```yaml
+validaciones:
+  - verificar_archivos_existen: true
+  - backup_antes_modificar: true
+  - validar_formato_numeros: true
+  - confirmar_con_usuario: true
+```
+
+**Ejecutar validaciones:**
+- ✅ `verificar_archivos_existen`: Confirmar que todos los archivos en `archivos_actualizar` existen
+- ✅ `backup_antes_modificar`: Crear backup mental de contenido original (para poder revertir)
+- ✅ `validar_formato_numeros`: Verificar que números son parseables
+- ✅ `confirmar_con_usuario`: Mostrar resumen y pedir confirmación
+
+#### **PASO 3: MOSTRAR RESUMEN Y CONFIRMAR**
+
+Mostrar al usuario:
+
+```
+📋 DECISIÓN TÉCNICA: [DT-ID]
+Ítem WBS: [codigo]
+Tipo de cambio: [tipo]
+
+Archivos a actualizar ([N]):
+✓ [archivo1] → [acción]
+✓ [archivo2] → [acción]
+✓ ...
+
+Ítems dependientes a recalcular ([N]):
+- [item1]
+- [item2]
+
+Validaciones:
+✓ Todos los archivos existen
+✓ Backup creado
+✓ Formato de números validado
+
+¿Ejecutar cambios? (Sí/No)
+```
+
+Si usuario dice "Sí" → Continuar al Paso 4
+Si usuario dice "No" → Cancelar y reportar
+
+#### **PASO 4: EJECUTAR CAMBIOS**
+
+Para cada elemento en `archivos_actualizar`:
+
+```yaml
+- file: "ruta/archivo.md"
+  accion: "actualizar_y_versionar"
+  seccion: "Item 1.1.3"
+  cambios:
+    - campo: "cantidad"
+      buscar: "2068"
+      reemplazar: "1697"
+```
+
+**Proceso por archivo:**
+
+1. **Abrir archivo** (usar herramienta `read_file`)
+
+2. **Buscar sección** especificada en `seccion`
+   - Si no se encuentra → Seguir estrategia en `manejo_errores.seccion_no_encontrada`
+
+3. **Aplicar cambios** según array `cambios`:
+   - Para cada cambio:
+     - Buscar valor en `buscar`
+     - Reemplazar con valor en `reemplazar`
+     - Si `validar_contexto: true` → Verificar que sea el contexto correcto antes de reemplazar
+
+4. **Versionamiento** (si aplica):
+   ```yaml
+   versionamiento:
+     version_actual: "v3.0"
+     version_nueva: "v3.1"
+     razon: "DT-FIBRA-042 - cantidad"
+     agregar_nota: "Origen: DT-FIBRA-042 | Fecha: 2025-10-07"
+   ```
+   - Actualizar versión en header del archivo
+   - Agregar nota de origen al final o en sección de cambios
+
+5. **Guardar archivo** (usar herramienta `search_replace` o `write`)
+
+6. **Notificar progreso**:
+   ```
+   ✓ [archivo] actualizado ([N] cambios aplicados)
+   ```
+
+#### **PASO 5: RECALCULAR ÍTEMS DEPENDIENTES**
+
+Si `items_dependientes.recalcular: true`:
+
+```yaml
+items_dependientes:
+  recalcular: true
+  items:
+    - "1.1.5"
+    - "1.1.10"
+  formula_base: "proporcional_a_item_principal"
+```
+
+**Para cada ítem dependiente:**
+1. Identificar en WBS
+2. Aplicar fórmula según `formula_base`
+   - `proporcional_a_item_principal`: Ajustar proporcionalmente al cambio del ítem principal
+   - `fixed_percentage`: Usar porcentaje fijo
+3. Actualizar valores en archivo WBS
+4. Reportar cambios
+
+#### **PASO 6: ACTUALIZAR MATRIZ DE DEPENDENCIAS**
+
+Si hay entrada para actualizar `MATRIZ_DEPENDENCIAS_DOCUMENTALES`:
+
+```yaml
+- file: "VIII.../MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md"
+  accion: "agregar_fila"
+  nueva_fila:
+    sistema: "fibra"
+    decision_tecnica: "DT-FIBRA-042"
+    archivos_afectados: "WBS_Presupuestal, 2 archivos"
+    tipo_impacto: "Cantidades"
+```
+
+**Proceso:**
+1. Abrir archivo de matriz
+2. Buscar tabla principal
+3. Agregar nueva fila con formato Markdown:
+   ```markdown
+   | fibra | DT-FIBRA-042 | WBS_Presupuestal, 2 archivos | Cantidades |
+   ```
+4. Guardar archivo
+
+#### **PASO 7: ACTUALIZAR DT CON LOG DE EJECUCIÓN**
+
+En el archivo DT original:
+
+1. **Marcar checkbox de "Ejecutado"** en sección 11:
+   ```markdown
+   - [x] 🔧 Ejecutado por Cursor: [fecha-hora]
+   ```
+
+2. **Completar sección 12 "LOG DE EJECUCIÓN"**:
+   ```markdown
+   ## 12. LOG DE EJECUCIÓN
+
+   ```
+   Fecha ejecución: 2025-10-07 15:45:30
+   Usuario Cursor: [tu nombre]
+   Archivos modificados: 3 (WBS_Presupuestal_v3.1.md, V.3_Comunicacion.md, MATRIZ_DEPENDENCIAS.md)
+   Ítems recalculados: 2 (1.1.5, 1.1.10)
+   Errores encontrados: 0
+   Tiempo ejecución: 12 segundos
+   ```
+   ```
+
+#### **PASO 8: REPORTE FINAL**
+
+Mostrar al usuario:
+
+```
+✅ DT-[ID] EJECUTADA EXITOSAMENTE
+
+📊 RESUMEN:
+- Archivos actualizados: [N]
+  ✓ WBS_Presupuestal v3.0 → v3.1 (2 cambios)
+  ✓ V.3_Sistemas_Comunicacion_Detalle.md (1 cambio)
+  ✓ MATRIZ_DEPENDENCIAS_DOCUMENTALES (nueva fila)
+
+- Ítems dependientes recalculados: [N]
+  ✓ 1.1.5 - Uniones rápidas
+  ✓ 1.1.10 - Insumos fusionado
+
+- Matrices actualizadas:
+  ✓ MATRIZ_DEPENDENCIAS_DOCUMENTALES
+
+- Log completado en: DT-[ID].md (Sección 12)
+
+🎉 Todos los cambios aplicados correctamente.
+```
+
+---
+
+### MANEJO DE ERRORES
+
+Según el campo `manejo_errores` en YAML:
+
+```yaml
+manejo_errores:
+  - archivo_no_existe: "reportar_y_continuar"
+  - seccion_no_encontrada: "pedir_confirmacion_manual"
+  - validacion_falla: "detener_y_reportar"
+  - backup_falla: "detener_ejecucion"
+```
+
+**Estrategias:**
+
+1. **`reportar_y_continuar`**
+   - Reportar error al usuario
+   - Continuar con siguiente archivo
+   - Ejemplo: "⚠️ Archivo X no encontrado. Continuando con siguiente..."
+
+2. **`pedir_confirmacion_manual`**
+   - Reportar situación al usuario
+   - Pedir confirmación antes de continuar
+   - Ejemplo: "⚠️ Sección Y no encontrada en archivo X. ¿Buscar manualmente? (Sí/No)"
+
+3. **`detener_y_reportar`**
+   - Detener ejecución inmediatamente
+   - Reportar error detallado
+   - No aplicar más cambios
+   - Ejemplo: "❌ Validación falló: [razón]. Ejecución detenida. No se aplicaron cambios."
+
+4. **`detener_ejecucion`**
+   - Detener sin preguntar
+   - Revertir cambios si es posible
+   - Reportar estado
+
+---
+
+## 🔍 COMANDOS ESPECIALES
+
+### Cuando usuario escribe:
+
+- **"Ejecuta DT-[ID]"** o **"Ejecuta esta DT"**
+  → Buscar archivo DT con ese ID y ejecutarlo
+
+- **"Simula DT-[ID]"** o **"Modo dry-run"**
+  → Hacer toda la lectura y análisis pero NO aplicar cambios
+  → Reportar qué se haría
+
+- **"Valida DT-[ID]"**
+  → Solo ejecutar validaciones (Paso 2)
+  → Reportar si es ejecutable
+
+- **"Revierte DT-[ID]"**
+  → Si hay backup, revertir cambios
+  → Marcar DT como "Revertida"
+
+---
+
+## 📝 FORMATO DE ARCHIVOS
+
+### WBS Presupuestal
+- Formato: Markdown con tablas
+- Versionamiento: vX.Y en header
+- Ítems con formato: `## [codigo] - [descripcion]`
+
+### Documentos Técnicos
+- Formatos: Markdown (.md)
+- Secciones numeradas
+- Referencias cruzadas con formato: `[doc] (Sección X.Y)`
+
+### Matrices
+- Tablas Markdown
+- Headers fijos
+- Nueva fila al final de tabla
+
+---
+
+## ⚙️ CONFIGURACIÓN DE COMPORTAMIENTO
+
+### Siempre:
+- ✅ Pedir confirmación antes de modificar archivos
+- ✅ Crear backup mental del contenido original
+- ✅ Reportar cada cambio aplicado
+- ✅ Actualizar log en DT
+- ✅ Ser explícito sobre qué se está haciendo
+
+### Nunca:
+- ❌ Modificar archivos sin confirmación
+- ❌ Omitir validaciones
+- ❌ Ejecutar sin parsear YAML completo
+- ❌ Aplicar cambios si validación falla
+- ❌ Modificar archivos fuera de los especificados en YAML
+
+---
+
+## 🎯 PRIORIDADES
+
+1. **SEGURIDAD**: No aplicar cambios sin confirmación
+2. **TRAZABILIDAD**: Documentar todo en log
+3. **INTEGRIDAD**: Validar antes de ejecutar
+4. **CLARIDAD**: Reportar qué se está haciendo
+5. **REVERSIBILIDAD**: Mantener forma de revertir
+
+---
+
+## 📚 EJEMPLOS
+
+### Ejemplo 1: Usuario abre DT-FIBRA-042-2025-10-07.md
+
+```
+CURSOR:
+📋 He detectado una Decisión Técnica: DT-FIBRA-042
+
+Ítem WBS: 1.1.3 - Cajas de empalme
+Tipo de cambio: Ajuste de cantidad
+Archivos a actualizar: 3
+Ítems dependientes: 2
+
+¿Quieres que ejecute esta DT? (Sí/No)
+
+USUARIO:
+Sí
+
+CURSOR:
+✅ Validaciones completadas
+- Todos los archivos existen
+- Backup creado
+- Formato validado
+
+Iniciando ejecución...
+
+✓ WBS_Presupuestal_v3.0.md → v3.1 (2 cambios)
+✓ V.3_Comunicacion.md (1 cambio)
+✓ MATRIZ_DEPENDENCIAS.md (nueva fila)
+✓ Recalculado: 1.1.5, 1.1.10
+
+✅ DT-FIBRA-042 ejecutada exitosamente
+Log completado en DT-FIBRA-042-2025-10-07.md
+```
+
+### Ejemplo 2: Usuario pide simulación
+
+```
+USUARIO:
+Simula DT-TETRA-015
+
+CURSOR:
+🔍 SIMULACIÓN DT-TETRA-015 (Dry-run mode)
+
+Archivos que se modificarían (2):
+- WBS_Presupuestal_v4.0.md
+  → Cambio: cantidad "37" → "42" en item 2.1.100
+  → Versión: v4.0 → v4.1
+
+- III/29_Sistema_TETRA.md
+  → Cambio: "37 estaciones" → "42 estaciones" en Sección 3.1
+
+Ítems que se recalcularían (1):
+- 2.1.101: Antenas (proporcional)
+
+Matrices que se actualizarían:
+- MATRIZ_DEPENDENCIAS: Nueva fila
+
+✓ Simulación completa. No se aplicaron cambios.
+```
+
+---
+
+**Última actualización:** 7 de Octubre de 2025  
+**Versión:** 1.0  
+**Compatibilidad:** WBS Interactiva v3.0+  
+

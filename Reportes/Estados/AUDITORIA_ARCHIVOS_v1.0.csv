@@ -1,0 +1,139 @@
+FilePath,FileName,VersionDetected,CategoryGuess,ProposedStandardName,TemaSistema,Estado
+Organizacion_Documental.md,Organizacion_Documental.md,,DOC,DOC_Organizacion-Documental_Maestro_v1.0.md,Organización Documental,COMPLETO
+Indice_Maestro_Consolidado_v1.0.md,Indice_Maestro_Consolidado_v1.0.md,1.0,DOC,DOC_Indice-Maestro_Maestro_v1.0.md,Índice Maestro,COMPLETO
+README.md,README.md,,DOC,DOC_README_Maestro_v1.0.md,Guía de Navegación,COMPLETO
+0.1 Fases de Desarrollo de Ingeniería - 02-10-2025.md,0.1 Fases de Desarrollo de Ingeniería - 02-10-2025.md,2025-10-02,DOC,DOC_Fases-Desarrollo-Ingenieria_Maestro_v1.0.md,Metodología,COMPLETO
+I. Contrato General/1. Cl_2_14_LicenciasPermisos_MEJORADO.md,1. Cl_2_14_LicenciasPermisos_MEJORADO.md,,BASE,BASE_Cl_2_14_Licencias-Permisos_Definitivo_v1.0.md,Licencias y Permisos,COMPLETO
+@@Roadmap_v12.0_Marco_Gestion_Consolidado.md,@@Roadmap_v12.0_Marco_Gestion_Consolidado.md,12.0,DOC,DOC_Roadmap_Maestro_v12.0.md,Plan de Gestión,COMPLETO
+00. Gobernanza PMO/Matriz_Riesgos_PMO_Consolidada_v1.0.md,Matriz_Riesgos_PMO_Consolidada_v1.0.md,1.0,DOC,DOC_Matriz-Riesgos-PMO_Maestro_v1.0.md,Riesgos PMO,COMPLETO
+III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md,36.1_Analisis_Riesgos_y_Supuestos_PMI.md,,DOC,DOC_Analisis-Riesgos-Supuestos-PMI_Maestro_v1.0.md,Riesgos y Supuestos,COMPLETO
+old/Reportes_Historicos/ANALISIS_PMI_RIESGOS_190_Identificados.md,ANALISIS_PMI_RIESGOS_190_Identificados.md,190,DOC,DOC_Analisis-Riesgos_Previo_v190.md,Riesgos (Histórico),ARCHIVADO
+old/Reportes_Historicos/ANALISIS_PMI_RIESGOS_134_Identificados.md,ANALISIS_PMI_RIESGOS_134_Identificados.md,134,DOC,DOC_Analisis-Riesgos_Previo_v134.md,Riesgos (Histórico),ARCHIVADO
+old/Reportes_Historicos/PROPUESTA_ORGANIZACION_REPORTES_v1.0.md,PROPUESTA_ORGANIZACION_REPORTES_v1.0.md,1.0,DOC,DOC_Propuesta-Organizacion-Reportes_Historico_v1.0.md,Organización de Reportes,ARCHIVADO
+Reportes/Estados/REPORTE_ACTUALIZACION_README_v1.0.md,REPORTE_ACTUALIZACION_README_v1.0.md,1.0,DOC,DOC_Reporte-Actualizacion-README_v1.0.md,Estado,COMPLETO
+promp para generar documentacion.md,promp para generar documentacion.md,,DOC,DOC_Prompt-Generar-Documentacion_Maestro_v1.0.md,Guías/Prompts,COMPLETO
+PROMPT_Metodologia_Punto_42_Iteracion_MultiAgente_v1.1.md,PROMPT_Metodologia_Punto_42_Iteracion_MultiAgente_v1.1.md,1.1,DOC,DOC_Prompt-Metodologia-Punto-42_Maestro_v1.1.md,Metodología,COMPLETO
+Reportes/Metodologia_Punto_42/P42_V1-V5_Diagnostico_y_Propuesta_v1.1_2025-10-03.md,P42_V1-V5_Diagnostico_y_Propuesta_v1.1_2025-10-03.md,1.1,DOC,DOC_P42_Diagnostico-Propuesta_Maestro_v1.1.md,Metodología,COMPLETO
+III. Ingenieria conceptual/26.1_Anexo_Electrico_CTC.md,26.1_Anexo_Electrico_CTC.md,,SIS,SIS_Anexo-Electrico-CTC_Definitivo_v1.0.md,CTC/Eléctrico,COMPLETO
+III. Ingenieria conceptual/25.2_Plantilla_Interfaz_Electrica.md,25.2_Plantilla_Interfaz_Electrica.md,,SIS,SIS_Plantilla-Interfaz-Electrica_Definitivo_v1.0.md,Interfaces Eléctricas,COMPLETO
+III. Ingenieria conceptual/25.1_Matriz_Alcance_Electrico.md,25.1_Matriz_Alcance_Electrico.md,,SIS,SIS_Matriz-Alcance-Electrico_Definitivo_v1.0.md,Alcance Eléctrico,COMPLETO
+old/@@Roadmap_v1.0_Marco_Gestion_Consolidado.md,@@Roadmap_v1.0_Marco_Gestion_Consolidado.md,1.0,DOC,DOC_Roadmap_Historico_v1.0.md,Plan de Gestión (Histórico),ARCHIVADO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.11_Cybersecurity_IEC62443.md,VII.2.11_Cybersecurity_IEC62443.md,,TRA,TRA_Cybersecurity-IEC62443_Definitivo_v1.0.md,Ciberseguridad,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.10_Plan_Verificacion_Validacion_Completo.md,VII.2.10_Plan_Verificacion_Validacion_Completo.md,,TRA,TRA_Plan-Verificacion-Validacion_Definitivo_v1.0.md,Pruebas/V&V,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.9_Analisis_RAMS_EN50126.md,VII.2.9_Analisis_RAMS_EN50126.md,,TRA,TRA_Analisis-RAMS-EN50126_Definitivo_v1.0.md,RAMS,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.8_Arquitectura_Software_CTC.md,VII.2.8_Arquitectura_Software_CTC.md,,TRA,TRA_Arquitectura-Software-CTC_Definitivo_v1.0.md,Arquitectura Software CTC,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.7_Especificaciones_STM_Embarcadas.md,VII.2.7_Especificaciones_STM_Embarcadas.md,,TRA,TRA_Especificaciones-STM-Embarcadas_Definitivo_v1.0.md,STM Embarcadas,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.6_Interlocking_Tables_5_Estaciones.md,VII.2.6_Interlocking_Tables_5_Estaciones.md,,TRA,TRA_Interlocking-Tables-5-Estaciones_Definitivo_v1.0.md,Señalización/Interlocking,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md,VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md,,TRA,TRA_Revision-Disponibilidad-9995_Definitivo_v1.0.md,Disponibilidad,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md,VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md,,TRA,TRA_Interfaces-CTC-ITCS-FFFIS_Definitivo_v1.0.md,Interfaces CTC/ITCS,COMPLETO
+Reportes/Estados/REPORTE_ACTUALIZACION_README_ROADMAP_COMPLETADA_v1.0.md,REPORTE_ACTUALIZACION_README_ROADMAP_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Actualizacion-README-Roadmap_v1.0.md,Estado,COMPLETO
+Reportes/Estados/REPORTE_CONSOLIDACION_INDICES_COMPLETADA_v1.0.md,REPORTE_CONSOLIDACION_INDICES_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Consolidacion-Indices_v1.0.md,Estado,COMPLETO
+Reportes/Estados/REPORTE_REORGANIZACION_COMPLETADA_v1.0.md,REPORTE_REORGANIZACION_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Reorganizacion_v1.0.md,Estado,COMPLETO
+Reportes/Referencias/REFERENCIAS_CRUZADAS_CONSOLIDADAS_v1.0.md,REFERENCIAS_CRUZADAS_CONSOLIDADAS_v1.0.md,1.0,DOC,DOC_Referencias-Cruzadas_Maestro_v1.0.md,Referencias Cruzadas,COMPLETO
+Reportes/Metodologia_Punto_42/VALIDACION_FINAL_V1-V5_METODOLOGIA_PUNTO_42.md,VALIDACION_FINAL_V1-V5_METODOLOGIA_PUNTO_42.md,,DOC,DOC_P42_Validacion-Final_Maestro_v1.0.md,Metodología,COMPLETO
+Reportes/Metodologia_Punto_42/REPORTE_HALLAZGOS_V1-V5_METODOLOGIA_PUNTO_42.md,REPORTE_HALLAZGOS_V1-V5_METODOLOGIA_PUNTO_42.md,,DOC,DOC_P42_Reporte-Hallazgos_Maestro_v1.0.md,Metodología,COMPLETO
+Reportes/Metodologia_Punto_42/REPORTE_ACTUALIZACION_ROADMAP_METODOLOGIA_PUNTO_42.md,REPORTE_ACTUALIZACION_ROADMAP_METODOLOGIA_PUNTO_42.md,,DOC,DOC_P42_Reporte-Actualizacion-Roadmap_Maestro_v1.0.md,Metodología,COMPLETO
+Reportes/Metodologia_Punto_42/REPORTE_VALIDACION_TECNICA_CONTRACTUAL_v1.0.md,REPORTE_VALIDACION_TECNICA_CONTRACTUAL_v1.0.md,1.0,DOC,DOC_P42_Validacion-Tecnica-Contractual_v1.0.md,Metodología,COMPLETO
+
+# I. Contrato General (adicionales)
+I. Contrato General/Contrato_general_indice_MEJORADO.md,Contrato_general_indice_MEJORADO.md,,BASE,BASE_Contrato-General_Indice_Maestro_v1.0.md,Índice Contractual,COMPLETO
+I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md,8. Cl_15_1_Reversion_Bienes_MEJORADO.md,,BASE,BASE_Cl_15_1_Reversion-Bienes_Definitivo_v1.0.md,Reversión,COMPLETO
+I. Contrato General/9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO.md,9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO.md,,BASE,BASE_Cl_16_1_Penalidades_Definitivo_v1.0.md,Penalidades,COMPLETO
+I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md,6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md,,BASE,BASE_Cl_13_1_Material-Rodante_Definitivo_v1.0.md,Material Rodante,COMPLETO
+I. Contrato General/7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md,7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md,,BASE,BASE_Cl_14_1_OM-Sistemas_Definitivo_v1.0.md,O&M,COMPLETO
+I. Contrato General/5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md,5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md,,BASE,BASE_Cl_12_1_Reversion_Definitivo_v1.0.md,Reversión,COMPLETO
+I. Contrato General/4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md,4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md,,BASE,BASE_Cl_9_1_OM_Definitivo_v1.0.md,O&M,COMPLETO
+I. Contrato General/3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md,3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md,,BASE,BASE_Cl_8_2_Construccion_Definitivo_v1.0.md,Construcción,COMPLETO
+I. Contrato General/2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md,2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md,,BASE,BASE_Cl_8_1_Preconstruccion_Definitivo_v1.0.md,Preconstrucción,COMPLETO
+I. Contrato General/10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO.md,10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO.md,,BASE,BASE_Cl_I_2d_Jerarquia-Documental_Definitivo_v1.0.md,Jerarquía Documental,COMPLETO
+I. Contrato General/2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.md,2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.md,,BASE,BASE_Cl_8_1_Preconstruccion_Vista-Docx_v1.0.md,Preconstrucción,COMPLETO
+
+# II. Apendices Tecnicos (complemento)
+II. Apendices Tecnicos/II. Apendices tecnicos a detallar.md,II. Apendices tecnicos a detallar.md,,BASE,BASE_ATs_A-detallar_En-Progreso_v1.0.md,Resumen ATs,EN PROGRESO
+
+# III. Ingeniería Conceptual (ampliación)
+III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md,25.1_WBS_COMPLETA_ESPECIALIDADES.md,,DOC,DOC_WBS_Completa-Especialidades_Maestro_v1.0.md,WBS,COMPLETO
+III. Ingenieria conceptual/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,,DOC,DOC_Planos-Preliminares_Torres-Fibra-Nodos_v1.0.md,Planos Preliminares,COMPLETO
+III. Ingenieria conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md,34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md,,TRA,TRA_Criterios-Interoperabilidad_FENOCO-ANI_v1.0.md,Interoperabilidad,COMPLETO
+III. Ingenieria conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md,36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md,,TRA,TRA_Criterios-Ciberseguridad_Sistemas-Control_v1.0.md,Ciberseguridad,COMPLETO
+III. Ingenieria conceptual/35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md,35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md,,TRA,TRA_Criterios-Redundancia_Disponibilidad_v1.0.md,Redundancia,COMPLETO
+III. Ingenieria conceptual/33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md,33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md,,TRA,TRA_Criterios-Normatividad_AREMA-UIC-RETIE_v1.0.md,Normatividad,COMPLETO
+III. Ingenieria conceptual/32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md,32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md,,SIS,SIS_Material-Rodante_Integrado_Definitivo_v1.0.md,Material Rodante,EN PROGRESO
+III. Ingenieria conceptual/31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md,31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md,,SIS,SIS_CCTV_Integrado_Definitivo_v1.0.md,CCTV,EN PROGRESO
+III. Ingenieria conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md,30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md,,SIS,SIS_ITS_Integrado_Definitivo_v1.0.md,ITS,EN PROGRESO
+III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md,29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md,,SIS,SIS_Senalizacion_Integrado_Definitivo_v1.0.md,Señalización,EN PROGRESO
+III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md,28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md,,SIS,SIS_Fibra-Optica_Integrado_Definitivo_v1.0.md,Fibra Óptica,EN PROGRESO
+III. Ingenieria conceptual/27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres.md,27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres.md,,SIS,SIS_TETRA_Integrado_Definitivo_v1.0.md,TETRA,EN PROGRESO
+III. Ingenieria conceptual/26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md,26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md,,SIS,SIS_CTC_Integrado_Definitivo_v1.0.md,CTC,EN PROGRESO
+III. Ingenieria conceptual/25_WBS_IngenieriaConceptual_docx.md,25_WBS_IngenieriaConceptual_docx.md,,DOC,DOC_WBS_Ingenieria-Conceptual_v1.0.md,WBS,EN PROGRESO
+III. Ingenieria conceptual/24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md,24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md,,DOC,DOC_Matriz-Trazabilidad-Contractual_v1.0.md,Trazabilidad,EN PROGRESO
+III. Ingenieria conceptual/23_ListadoMaestro_Sistemas_docx_Consolidado_de_equipossistemas_AT1_AT10_contrato.md,23_ListadoMaestro_Sistemas_docx_Consolidado_de_equipossistemas_AT1_AT10_contrato.md,,DOC,DOC_Listado-Maestro-Sistemas_v1.0.md,Listado Sistemas,EN PROGRESO
+III. Ingenieria conceptual/22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md,22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md,,DOC,DOC_Hoja-de-Ruta-Conceptual_v1.0.md,Hoja de Ruta,EN PROGRESO
+III. Ingenieria conceptual/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md,0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md,,DOC,DOC_Hoja-de-Ruta-Tecnica-Conceptual_v1.0.md,Hoja de Ruta,EN PROGRESO
+III. Ingenieria conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md,0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md,,DOC,DOC_Relacion-Apendices-Tecnicos_v1.0.md,Resumen ATs,EN PROGRESO
+III. Ingenieria conceptual/III_Ingenieria_conceptual_a_detallar.md,III_Ingenieria_conceptual_a_detallar.md,,DOC,DOC_Ingenieria-Conceptual_A-Detallar_v1.0.md,Metodología,EN PROGRESO
+III. Ingenieria conceptual/ITCS_Interlocking_Tables_5_Estaciones_v1.0.md,ITCS_Interlocking_Tables_5_Estaciones_v1.0.md,1.0,SIS,SIS_ITCS_Interlocking-Tables_5-Estaciones_v1.0.md,ITCS/Interlocking,EN PROGRESO
+III. Ingenieria conceptual/ITCS_STM_Embarcado_v1.0.md,ITCS_STM_Embarcado_v1.0.md,1.0,SIS,SIS_ITCS_STM-Embarcado_v1.0.md,ITCS/STM,EN PROGRESO
+III. Ingenieria conceptual/ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md,ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md,1.0,SIS,SIS_ITCS_Interfaces-FFFIS_v1.0.md,ITCS/Interfaces,EN PROGRESO
+III. Ingenieria conceptual/ITCS_Arquitectura_RBC_2oo3_v1.0.md,ITCS_Arquitectura_RBC_2oo3_v1.0.md,1.0,SIS,SIS_ITCS_Arquitectura-RBC-2oo3_v1.0.md,ITCS/Arquitectura,EN PROGRESO
+III. Ingenieria conceptual/ITCS_SRS_Indice_v1.0.md,ITCS_SRS_Indice_v1.0.md,1.0,SIS,SIS_ITCS_SRS_Indice_v1.0.md,ITCS/SRS,EN PROGRESO
+
+# IV. Ingeniería Básica
+IV. Ingenieria básica/37. MemoriasDiseño_Basico_v1.0.md,37. MemoriasDiseño_Basico_v1.0.md,1.0,DOC,DOC_Memorias-Diseno-Basico_Maestro_v1.0.md,Memorias Básicas,COMPLETO
+IV. Ingenieria básica/42. Plan_Pruebas_MEJORADO.md,42. Plan_Pruebas_MEJORADO.md,,DOC,DOC_Plan-de-Pruebas_Maestro_v1.0.md,Plan de Pruebas,COMPLETO
+IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md,41. Interfaces_Sistemas_MEJORADO.md,,DOC,DOC_Interfaces-de-Sistemas_Maestro_v1.0.md,Interfaces,COMPLETO
+IV. Ingenieria básica/40. Plan_GestionPermisos_MEJORADO.md,40. Plan_GestionPermisos_MEJORADO.md,,DOC,DOC_Plan-Gestion-Permisos_Maestro_v1.0.md,Permisos,COMPLETO
+IV. Ingenieria básica/38. DiagramasArquitectura_sist_ctc-telco.md,38. DiagramasArquitectura_sist_ctc-telco.md,,DOC,DOC_Diagramas-Arquitectura_Sistemas_Maestro_v1.0.md,Arquitectura,COMPLETO
+IV. Ingenieria básica/IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,,DOC,DOC_Ingenieria-Basica_Resumen_Maestro_v1.0.md,Resumen Básica,COMPLETO
+IV. Ingenieria básica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,,DOC,DOC_Planos-Preliminares_Torres-Fibra-Nodos_v1.0.md,Planos Preliminares,COMPLETO
+IV. Ingenieria básica/37. MemoriasDiseño_Basico_just tec.md,37. MemoriasDiseño_Basico_just tec.md,,DOC,DOC_Memorias-Diseno-Basico_Justificacion_v1.0.md,Memorias Básicas,COMPLETO
+
+# V. Ingeniería de Detalle
+V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md,V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md,1.0,SIS,SIS_Senalizacion_Detalle_v1.0.md,Señalización,EN PROGRESO
+V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v1.0.md,V.5_Sistemas_Seguridad_Detalle_v1.0.md,1.0,SIS,SIS_Sistemas-Seguridad_Detalle_v1.0.md,Seguridad,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md,V.4_Sistemas_Potencia_Detalle_v1.0.md,1.0,SIS,SIS_Sistemas-Potencia_Detalle_v1.0.md,Potencia,EN PROGRESO
+V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md,V.3_Sistemas_Comunicacion_Detalle_v1.0.md,1.0,SIS,SIS_Sistemas-Comunicacion_Detalle_v1.0.md,Comunicaciones,EN PROGRESO
+V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md,V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md,1.0,SIS,SIS_CTC_Detalle_v1.0.md,CTC,EN PROGRESO
+V. Ingenieria de detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md,V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md,,DOC,DOC_Plan-Integracion-de-Sistemas_v1.0.md,Integración,COMPLETO
+V. Ingenieria de detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md,V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md,,DOC,DOC_Sistemas-Ferroviarios_Integrados_Detallado_v1.0.md,Sistemas Integrados,EN PROGRESO
+V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md,V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md,,SIS,SIS_Material-Rodante_Detallado_v1.0.md,Material Rodante,EN PROGRESO
+V. Ingenieria de detalle/V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md,V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md,,SIS,SIS_Electrico_Sistema-Alimentacion_Principal_v1.0.md,Eléctrico,EN PROGRESO
+V. Ingenieria de detalle/V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md,V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md,,SIS,SIS_Civil_Obras-Infraestructura_v1.0.md,Civil,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/3_Pasos_a_nivel_Contrato_8_3.md,V.4_Sistemas/3_Pasos_a_nivel_Contrato_8_3.md,,SIS,SIS_Pasos-a-Nivel_Contrato-8_3_v1.0.md,Señalización,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md,V.4_Sistemas/2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md,,SIS,SIS_CTC_Contrato-8_2_v1.0.md,CTC,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md,V.4_Sistemas/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md,,SIS,SIS_Senalizacion_Contrato-8_1_v1.0.md,Señalización,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/8_CCTV_Contrato_8_8_1.md,V.4_Sistemas/8_CCTV_Contrato_8_8_1.md,,SIS,SIS_CCTV_Contrato-8_8_1_v1.0.md,CCTV,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/12_Comunicaciones_embarcadas_Contrato_8_10.md,V.4_Sistemas/12_Comunicaciones_embarcadas_Contrato_8_10.md,,SIS,SIS_Comunicaciones-Embarcadas_Contrato-8_10_v1.0.md,Comunicaciones,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/11_Sistema_contra_incendio_Contrato_8_9_copia.md,V.4_Sistemas/11_Sistema_contra_incendio_Contrato_8_9_copia.md,,SIS,SIS_Contra-Incendio_Contrato-8_9_v1.0.md,Seguridad,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/10_Red_de_datos_Contrato_8_8_3.md,V.4_Sistemas/10_Red_de_datos_Contrato_8_8_3.md,,SIS,SIS_Red-de-Datos_Contrato-8_8_3_v1.0.md,Datos,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/9_Interfon_a_Contrato_8_8_2.md,V.4_Sistemas/9_Interfon_a_Contrato_8_8_2.md,,SIS,SIS_Interfonia_Contrato-8_8_2_v1.0.md,Interfonía,EN PROGRESO
+V. Ingenieria de detalle/V.2_Electrica/7_Instalaciones_el_ctricas_Contrato_8_7.md,V.2_Electrica/7_Instalaciones_el_ctricas_Contrato_8_7.md,,SIS,SIS_Instalaciones-Electricas_Contrato-8_7_v1.0.md,Eléctrico,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/6_Fibra_ptica_Contrato_8_6.md,V.4_Sistemas/6_Fibra_ptica_Contrato_8_6.md,,SIS,SIS_Fibra-Optica_Contrato-8_6_v1.0.md,Fibra Óptica,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/5_Radio_TETRA_Contrato_8_5.md,V.4_Sistemas/5_Radio_TETRA_Contrato_8_5.md,,SIS,SIS_Radio-TETRA_Contrato-8_5_v1.0.md,TETRA,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/4_Comunicaciones_generales_Contrato_8_4.md,V.4_Sistemas/4_Comunicaciones_generales_Contrato_8_4.md,,SIS,SIS_Comunicaciones-Generales_Contrato-8_4_v1.0.md,Comunicaciones,EN PROGRESO
+V. Ingenieria de detalle/V_Ingeneiria_de_detalle.md,V_Ingeneiria_de_detalle.md,,DOC,DOC_Ingenieria-de-Detalle_Maestro_v1.0.md,Resumen Detalle,EN PROGRESO
+V. Ingenieria de detalle/V.4_Sistemas/8_10_Sistema_de_comunicaciones_embarcados.md,V.4_Sistemas/8_10_Sistema_de_comunicaciones_embarcados.md,,SIS,SIS_Comunicaciones-Embarcadas_v1.0.md,Comunicaciones,EN PROGRESO
+
+# VI. Operación y Mantenimiento y Reversión
+VI. operacion y mantenimiento y reversion/6.4_Manual_OM_Seguridad_v1.0.md,6.4_Manual_OM_Seguridad_v1.0.md,1.0,DOC,DOC_Manual-OM-Seguridad_v1.0.md,O&M Seguridad,COMPLETO
+VI. operacion y mantenimiento y reversion/6.3_Manual_OM_Telecom_v1.0.md,6.3_Manual_OM_Telecom_v1.0.md,1.0,DOC,DOC_Manual-OM-Telecom_v1.0.md,O&M Telecom,COMPLETO
+VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0.md,6.2_Manual_OM_Senalizacion_v1.0.md,1.0,DOC,DOC_Manual-OM-Senalizacion_v1.0.md,O&M Señalización,COMPLETO
+VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0.md,6.1_Manual_OM_CTC_v1.0.md,1.0,DOC,DOC_Manual-OM-CTC_v1.0.md,O&M CTC,COMPLETO
+VI. operacion y mantenimiento y reversion/VI_Operacion_Mantenimiento_y_reversion.md,VI_Operacion_Mantenimiento_y_reversion.md,,DOC,DOC_Operacion-Mantenimiento-Reversion_Maestro_v1.0.md,O&M/Reversión,EN PROGRESO
+
+# VII. Soporte Especializado (complemento)
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md,VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md,1.0,TRA,TRA_SRS_ITCS_ETCS_Level2_v1.0.md,ITCS/SRS,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,,TRA,TRA_Plan-Eurobalise_Ubicacion-150m_v1.0.md,Señalización,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,,TRA,TRA_Arquitectura-RBC_2oo3_v1.0.md,ITCS/Arquitectura,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md,VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md,,TRA,TRA_Protocolos-UIC_Interoperabilidad-FENOCO_v1.0.md,Interoperabilidad,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,,TRA,TRA_Simulaciones-Capacidad-Surcos_Basicas_v1.0.md,Capacidad/Surcos,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md,VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md,,TRA,TRA_Especificaciones-Tecnicas_ITCS_Provisionales_v1.0.md,ITCS,EN PROGRESO
+
+# Reportes (complemento)
+Reportes/Estados/REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,,DOC,DOC_Reporte-Integridad-Documentacion_v1.0.md,Estado,COMPLETO
+Reportes/Estados/VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,,DOC,DOC_Validacion-Final_Actualizaciones_v1.0.md,Estado,COMPLETO
+Reportes/Estados/VALIDACION_FINAL_TODAS_OPCIONES_COMPLETADAS.md,VALIDACION_FINAL_TODAS_OPCIONES_COMPLETADAS.md,,DOC,DOC_Validacion-Final_Todo_Completado_v1.0.md,Estado,COMPLETO
+
+# Gobernanza PMO (complemento)
+00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md,0.1_MATRIZ_ROLES_PMO_EPC_RACI.md,,DOC,DOC_Matriz-Roles_PMO-EPC_RACI_v1.0.md,RACI,COMPLETO
+

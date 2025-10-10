@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SISTEMA_04_Material_Rodante_EJECUTIVO</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="sistema-04-material-rodante">SISTEMA 04: MATERIAL RODANTE</h1>
+<h2 id="documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
+Ingeniería</h2>
+<hr />
+<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+<h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
+qué importa</h3>
+<p>El Sistema de Material Rodante es la <strong>“flota de
+vehículos”</strong> del ferrocarril que transporta la carga a lo largo
+del corredor. Es como el parque automotor del ferrocarril, compuesto por
+locomotoras, vagones y equipos especializados que garantizan el
+transporte eficiente y seguro de mercancías.</p>
+<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
+JUSTIFICACIÓN TÉCNICA</h3>
+<ul>
+<li><strong>Inversión estimada:</strong> $85,000 millones COP</li>
+<li><strong>15 locomotoras:</strong> Puesta a punto de 2 GR12 + 2 U10 +
+11 locomotoras adicionales</li>
+<li><strong>51 vagones:</strong> 40 plataformas operativas + 11 no
+operativas (según AT1)</li>
+<li><strong>8 carromotores:</strong> Equipos especializados para
+mantenimiento de vía</li>
+<li><strong>15 dispositivos EOT:</strong> 1 por locomotora para
+seguridad crítica (End of Train)</li>
+<li><strong>3 talleres:</strong> Principal La Dorada + secundario
+Chiriguaná + taller de línea</li>
+<li><strong>Sistemas embarcados:</strong> ITCS ETCS Level 2, TETRA +
+GSM-R, GPS/GNSS, CCTV</li>
+<li><strong>Cobertura:</strong> 100% del corredor La
+Dorada-Chiriguaná</li>
+<li><strong>Disponibilidad requerida:</strong> 99.95% (sistema crítico
+según AT4)</li>
+</ul>
+<h3 id="hitos-críticos">Hitos críticos</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Fase</th>
+<th style="text-align: left;">Fecha</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Diseño Conceptual</td>
+<td style="text-align: left;">Enero 2025</td>
+<td style="text-align: left;">✅ Completado</td>
+</tr>
+<tr>
+<td style="text-align: left;">Adquisición Locomotoras</td>
+<td style="text-align: left;">Marzo 2025</td>
+<td style="text-align: left;">⏳ En progreso</td>
+</tr>
+<tr>
+<td style="text-align: left;">Adquisición Vagones</td>
+<td style="text-align: left;">Abril 2025</td>
+<td style="text-align: left;">⏳ En progreso</td>
+</tr>
+<tr>
+<td style="text-align: left;">Comisionamiento</td>
+<td style="text-align: left;">Mayo 2025</td>
+<td style="text-align: left;">❌ Pendiente</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
+DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+<h3 id="por-qué-15-locomotoras-específicamente">¿Por qué 15 locomotoras
+específicamente?</h3>
+<p><strong>Desglose del Parque Rodante (según AT1):</strong> - <strong>2
+locomotoras GR12:</strong> Locomotoras existentes para puesta a punto -
+<strong>2 locomotoras U10:</strong> Locomotoras existentes para puesta a
+punto - <strong>11 locomotoras adicionales:</strong> Nuevas locomotoras
+para completar flota - <strong>Total:</strong> 15 locomotoras para
+operación del corredor - <strong>Justificación:</strong> Capacidad de
+transporte requerida para 594 km de corredor</p>
+<h3 id="por-qué-51-vagones-40-operativas-11-no-operativas">¿Por qué 51
+vagones (40 operativas + 11 no operativas)?</h3>
+<p><strong>Justificación Contractual (AT1):</strong> - <strong>40
+plataformas operativas:</strong> Vagones en condiciones de operación -
+<strong>11 plataformas no operativas:</strong> Vagones para puesta a
+punto - <strong>Total:</strong> 51 vagones para flota completa -
+<strong>Criterio:</strong> Inventario existente + requerimientos de
+capacidad</p>
+<h3 id="por-qué-8-carromotores">¿Por qué 8 carromotores?</h3>
+<p><strong>Justificación Técnica:</strong> - <strong>Mantenimiento de
+vía:</strong> Equipos especializados para mantenimiento -
+<strong>Capacidad requerida:</strong> 8 equipos para cobertura de 594 km
+- <strong>Distribución:</strong> 1 carromotor por cada 75 km
+aproximadamente - <strong>Especialización:</strong> Equipos para
+diferentes tipos de mantenimiento</p>
+<h3 id="por-qué-15-dispositivos-eot-end-of-train">¿Por qué 15
+dispositivos EOT (End of Train)?</h3>
+<p><strong>Justificación de Seguridad:</strong> - <strong>1 EOT por
+locomotora:</strong> Cada tren debe tener dispositivo de fin de tren -
+<strong>Seguridad crítica:</strong> Detección de separación de vagones -
+<strong>Regulaciones:</strong> Cumplimiento de normas de seguridad
+ferroviaria - <strong>Cálculo:</strong> 15 locomotoras = 15 dispositivos
+EOT</p>
+<h3 id="por-qué-3-talleres-específicamente">¿Por qué 3 talleres
+específicamente?</h3>
+<p><strong>Justificación de Ubicación:</strong> - <strong>Taller
+Principal La Dorada:</strong> 150m × 30m - mantenimiento mayor -
+<strong>Taller Secundario Chiriguaná:</strong> 100m × 25m -
+mantenimiento básico - <strong>Taller de Línea:</strong> Mantenimiento
+menor en ruta - <strong>Criterio:</strong> Cobertura geográfica para 594
+km de corredor</p>
+<h3 id="por-qué-sistemas-embarcados-específicos">¿Por qué sistemas
+embarcados específicos?</h3>
+<p><strong>Justificación Técnica por Sistema:</strong> | Sistema |
+Justificación | Cantidad | Ubicación | |:——–|:————–|:———|:———-| |
+<strong>ITCS ETCS Level 2</strong> | Control automático de trenes | 15 |
+Locomotoras | | <strong>TETRA + GSM-R</strong> | Comunicaciones
+redundantes | 15 | Locomotoras | | <strong>GPS/GNSS</strong> |
+Posicionamiento en tiempo real | 15 | Locomotoras | | <strong>CCTV
+Embarcado</strong> | Seguridad operacional | 15 | Locomotoras | |
+<strong>Event Recorder</strong> | Caja negra para eventos | 15 |
+Locomotoras |</p>
+<h3 id="por-qué-disponibilidad-99.95">¿Por qué disponibilidad
+99.95%?</h3>
+<p><strong>Justificación Contractual:</strong> - <strong>AT4 Tablas
+1-4:</strong> Disponibilidad material rodante 99.95% - <strong>Sistema
+crítico:</strong> Material rodante es crítico para operación -
+<strong>Estándares:</strong> Cumplimiento con normas ferroviarias
+internacionales - <strong>Mantenimiento:</strong> Ciclos RL, R1, R2, R3
+según AT2</p>
+<hr />
+<h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
+SISTEMA</h2>
+<h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
+<p>El Sistema de Material Rodante proporciona <strong>capacidad de
+transporte</strong> para el corredor ferroviario: - <strong>Transporte
+de carga:</strong> Movimiento de mercancías a lo largo del corredor -
+<strong>Tractación:</strong> Locomotoras que proporcionan la fuerza
+motriz - <strong>Capacidad de carga:</strong> Vagones que transportan
+las mercancías - <strong>Monitoreo de trenes:</strong> Dispositivos EOT
+para integridad del tren</p>
+<h3 id="por-qué-lo-necesitamos">¿Por qué lo necesitamos?</h3>
+<ul>
+<li><strong>Capacidad:</strong> Transporte eficiente de mercancías</li>
+<li><strong>Seguridad:</strong> Sistemas de monitoreo y control
+automático</li>
+<li><strong>Eficiencia:</strong> Optimización del consumo
+energético</li>
+<li><strong>Mantenimiento:</strong> Talleres para mantenimiento de la
+flota</li>
+</ul>
+<h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
+sistemas?</h3>
+<pre><code>[Control y Señalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
+                                    ↓
+[Infraestructura] ←→ [Material Rodante] ←→ [Talleres]
+                                    ↓
+[Monitoreo] ←→ [Material Rodante] ←→ [Sistemas Embarcados]</code></pre>
+<hr />
+<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
+<h3 id="locomotoras---fuerza-motriz">1. Locomotoras - Fuerza Motriz</h3>
+<p><strong>Propósito:</strong> Tractación de trenes de carga a lo largo
+del corredor</p>
+<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
+Especificación | Estado | |:———–|:———|:—————|:——-| | Locomotoras
+principales | 15 unidades | 3,000 kW, ETCS Level 2 | ⏳ En adquisición |
+| Sistemas ATP embarcados | 15 unidades | Control automático | ⏳ En
+adquisición | | Sistemas TETRA embarcados | 15 unidades | Comunicación
+principal | ⏳ En adquisición | | Sistemas GSM-R embarcados | 15
+unidades | Comunicación redundante | ⏳ En adquisición | | Sistemas
+GPS/GNSS | 15 unidades | Posicionamiento | ⏳ En adquisición |</p>
+<p><strong>Estado general:</strong> 🟡 En progreso</p>
+<h3 id="vagones-de-carga---capacidad-de-transporte">2. Vagones de Carga
+- Capacidad de Transporte</h3>
+<p><strong>Propósito:</strong> Transporte de mercancías con capacidad
+optimizada</p>
+<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
+Especificación | Estado | |:———–|:———|:—————|:——-| | Plataformas
+operativas | 40 unidades | 50 ton carga, 14m longitud | ⏳ En
+adquisición | | Plataformas rehabilitación | 11 unidades | Requieren
+rehabilitación | ❌ Pendiente | | Carromotores | 8 unidades |
+Mantenimiento de vía | ✅ Disponibles | | Bateadoras | 2 unidades |
+Mantenimiento de vía | ✅ Disponibles | | Retroexcavadoras | 3 unidades
+| Mantenimiento de vía | ✅ Disponibles |</p>
+<p><strong>Estado general:</strong> 🟡 En progreso</p>
+<h3 id="sistema-eot---monitoreo-de-trenes">3. Sistema EOT - Monitoreo de
+Trenes</h3>
+<p><strong>Propósito:</strong> Monitoreo de integridad del tren en
+tiempo real</p>
+<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
+Especificación | Estado | |:———–|:———|:—————|:——-| | Dispositivos EOT |
+15 unidades | End of Train | ✅ Disponibles | | Sensores de presión | 15
+unidades | Monitoreo de cola | ✅ Disponibles | | Sensores de integridad
+| 15 unidades | Detección de separación | ✅ Disponibles | | Sistemas
+GPS | 15 unidades | Posicionamiento | ✅ Disponibles | | Radios de
+comunicación | 15 unidades | Comunicación con locomotora | ✅
+Disponibles |</p>
+<p><strong>Estado general:</strong> 🟢 En cronograma</p>
+<h3 id="talleres-de-mantenimiento">4. Talleres de Mantenimiento</h3>
+<p><strong>Propósito:</strong> Mantenimiento y reparación de la flota de
+material rodante</p>
+<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
+Ubicación | Estado | |:———–|:———|:———-|:——-| | Taller principal | 1
+unidad | La Dorada | ✅ Operativo | | Taller secundario | 1 unidad |
+Chiriguaná | ✅ Operativo | | Talleres de línea | 3 unidades | Puerto
+Berrío, Barrancabermeja, Bucaramanga | ✅ Operativos | | Equipos de
+mantenimiento | 50 unidades | Todos los talleres | ✅ Disponibles |</p>
+<p><strong>Estado general:</strong> 🟢 En cronograma</p>
+<hr />
+<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
+CLAVE</h2>
+<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
+especificaciones</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parámetro</th>
+<th style="text-align: left;">Valor</th>
+<th style="text-align: left;">Estándar Aplicable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Potencia locomotoras</td>
+<td style="text-align: left;">3,000 kW</td>
+<td style="text-align: left;">UIC</td>
+</tr>
+<tr>
+<td style="text-align: left;">Velocidad máxima</td>
+<td style="text-align: left;">120 km/h</td>
+<td style="text-align: left;">UIC</td>
+</tr>
+<tr>
+<td style="text-align: left;">Velocidad comercial</td>
+<td style="text-align: left;">80 km/h</td>
+<td style="text-align: left;">UIC</td>
+</tr>
+<tr>
+<td style="text-align: left;">Capacidad de carga</td>
+<td style="text-align: left;">50 toneladas</td>
+<td style="text-align: left;">UIC</td>
+</tr>
+<tr>
+<td style="text-align: left;">Disponibilidad flota</td>
+<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">EN 50126</td>
+</tr>
+<tr>
+<td style="text-align: left;">Peso por locomotora</td>
+<td style="text-align: left;">120 toneladas</td>
+<td style="text-align: left;">UIC</td>
+</tr>
+</tbody>
+</table>
+<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
+<ul>
+<li>✅ 15 locomotoras con ATP embarcado ETCS Level 2</li>
+<li>✅ 51 vagones con capacidad total de 2,550 toneladas</li>
+<li>✅ 15 dispositivos EOT para monitoreo de trenes</li>
+<li>✅ 3 talleres operativos para mantenimiento</li>
+<li>✅ Disponibilidad 99.95% de la flota</li>
+</ul>
+<hr />
+<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
+<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+<p>El material rodante opera a lo largo del corredor de 594 km, con
+talleres ubicados estratégicamente en La Dorada (principal), Chiriguaná
+(secundario) y estaciones intermedias.</p>
+<h3 id="tabla-de-sitios-principales">Tabla de sitios principales</h3>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 32%" />
+<col style="width: 30%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Sitio</th>
+<th style="text-align: left;">Componentes</th>
+<th style="text-align: left;">Capacidad</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Taller La Dorada</td>
+<td style="text-align: left;">Mantenimiento principal</td>
+<td style="text-align: left;">150m x 30m</td>
+<td style="text-align: left;">✅ Operativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Taller Chiriguaná</td>
+<td style="text-align: left;">Mantenimiento secundario</td>
+<td style="text-align: left;">100m x 25m</td>
+<td style="text-align: left;">✅ Operativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Puerto Berrío</td>
+<td style="text-align: left;">Taller de línea</td>
+<td style="text-align: left;">Herramientas básicas</td>
+<td style="text-align: left;">✅ Operativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Barrancabermeja</td>
+<td style="text-align: left;">Taller de línea</td>
+<td style="text-align: left;">Herramientas básicas</td>
+<td style="text-align: left;">✅ Operativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bucaramanga</td>
+<td style="text-align: left;">Taller de línea</td>
+<td style="text-align: left;">Herramientas básicas</td>
+<td style="text-align: left;">✅ Operativo</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
+<h3 id="operación-normal">Operación normal</h3>
+<p>El material rodante opera 24/7 transportando mercancías a lo largo
+del corredor, con monitoreo continuo de la disponibilidad y rendimiento
+de la flota.</p>
+<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
+<ul>
+<li><strong>Diario:</strong> Verificación de estado de locomotoras y
+vagones</li>
+<li><strong>Semanal:</strong> Inspección detallada de sistemas
+embarcados</li>
+<li><strong>Mensual:</strong> Mantenimiento preventivo según ciclos R1,
+R2, R3</li>
+<li><strong>Trimestral:</strong> Mantenimiento mayor en talleres
+principales</li>
+</ul>
+<h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
+<ol type="1">
+<li><strong>Detección automática</strong> de fallas por sistemas
+embarcados</li>
+<li><strong>Notificación inmediata</strong> al personal de
+mantenimiento</li>
+<li><strong>Reparación en línea</strong> para fallas menores</li>
+<li><strong>Traslado a taller</strong> para fallas mayores</li>
+<li><strong>Verificación</strong> de funcionamiento normal</li>
+</ol>
+<hr />
+<h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
+SISTEMAS</h2>
+<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+<pre><code>[Control y Señalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
+                                    ↓
+[Infraestructura] ←→ [Material Rodante] ←→ [Talleres]
+                                    ↓
+[Monitoreo] ←→ [Material Rodante] ←→ [Sistemas Embarcados]</code></pre>
+<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 34%" />
+<col style="width: 23%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Sistema</th>
+<th style="text-align: left;">Tipo de Interfaz</th>
+<th style="text-align: left;">Criticidad</th>
+<th style="text-align: left;">Responsable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Control y Señalización</td>
+<td style="text-align: left;">ATP Embarcado</td>
+<td style="text-align: left;">Alta</td>
+<td style="text-align: left;">EPC Sistemas</td>
+</tr>
+<tr>
+<td style="text-align: left;">Telecomunicaciones</td>
+<td style="text-align: left;">TETRA + GSM-R Embarcado</td>
+<td style="text-align: left;">Alta</td>
+<td style="text-align: left;">EPC Telecomunicaciones</td>
+</tr>
+<tr>
+<td style="text-align: left;">Infraestructura</td>
+<td style="text-align: left;">Vías y estaciones</td>
+<td style="text-align: left;">Alta</td>
+<td style="text-align: left;">EPC Civil</td>
+</tr>
+<tr>
+<td style="text-align: left;">Talleres</td>
+<td style="text-align: left;">Equipos de mantenimiento</td>
+<td style="text-align: left;">Media</td>
+<td style="text-align: left;">EPC Mecánico</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 26%" />
+<col style="width: 19%" />
+<col style="width: 23%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Riesgo</th>
+<th style="text-align: left;">Probabilidad</th>
+<th style="text-align: left;">Impacto</th>
+<th style="text-align: left;">Mitigación</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Retraso en entrega locomotoras</td>
+<td style="text-align: left;">Media</td>
+<td style="text-align: left;">Alto</td>
+<td style="text-align: left;">Contratos de suministro a largo plazo</td>
+<td style="text-align: left;">✅ Mitigado</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fallo de sistemas embarcados</td>
+<td style="text-align: left;">Baja</td>
+<td style="text-align: left;">Alto</td>
+<td style="text-align: left;">Sistemas de respaldo</td>
+<td style="text-align: left;">✅ Mitigado</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fallo de talleres</td>
+<td style="text-align: left;">Baja</td>
+<td style="text-align: left;">Medio</td>
+<td style="text-align: left;">Talleres redundantes</td>
+<td style="text-align: left;">✅ Mitigado</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fallo de dispositivos EOT</td>
+<td style="text-align: left;">Baja</td>
+<td style="text-align: left;">Medio</td>
+<td style="text-align: left;">Dispositivos de respaldo</td>
+<td style="text-align: left;">✅ Mitigado</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
+<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
+contrato</h3>
+<ul>
+<li>✅ <strong>AT1 - Material Rodante:</strong> 15 locomotoras con ATP
+embarcado - Cumplida</li>
+<li>✅ <strong>AT2 - Operación:</strong> Operación con disponibilidad
+99.95% - Cumplida</li>
+<li>✅ <strong>AT3 - Especificaciones:</strong> Especificaciones
+técnicas de material rodante - Cumplida</li>
+<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.95% -
+Cumplida</li>
+<li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos operacionales
+- En progreso</li>
+<li>❌ <strong>AT9 - Cronograma:</strong> Plan de implementación por
+fases - Pendiente</li>
+</ul>
+<h3 id="referencias-contractuales">Referencias contractuales</h3>
+<ul>
+<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto - Material
+rodante</li>
+<li><strong>Apéndice Técnico 2:</strong> Operación y mantenimiento -
+Disponibilidad 99.95%</li>
+<li><strong>Apéndice Técnico 3:</strong> Especificaciones generales -
+Material rodante</li>
+<li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
+Disponibilidad 99.95%</li>
+</ul>
+<hr />
+<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
+<h3 id="documentos-técnicos-disponibles">Documentos técnicos
+disponibles</h3>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Documento</th>
+<th style="text-align: left;">Fase</th>
+<th style="text-align: left;">Versión</th>
+<th style="text-align: left;">Ubicación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">SISTEMA_04_Material_Rodante_Master.md</td>
+<td style="text-align: left;">Consolidado</td>
+<td style="text-align: left;">v1.0</td>
+<td style="text-align: left;">Carpeta X</td>
+</tr>
+<tr>
+<td style="text-align: left;">V.3.1_Material_Rodante_Detallado.md</td>
+<td style="text-align: left;">Detalle</td>
+<td style="text-align: left;">v5.0</td>
+<td style="text-align: left;">V. Ingeniería</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.5_Manual_OM_Integrado_v5.0.md</td>
+<td style="text-align: left;">Operación</td>
+<td style="text-align: left;">v5.0</td>
+<td style="text-align: left;">VI. Operación</td>
+</tr>
+<tr>
+<td style="text-align: left;">32_Material_Rodante_Integrado_v5.0.md</td>
+<td style="text-align: left;">Conceptual</td>
+<td style="text-align: left;">v5.0</td>
+<td style="text-align: left;">III. Ingeniería</td>
+</tr>
+</tbody>
+</table>
+<h3 id="para-más-información-técnica">Para más información técnica</h3>
+<p>Los documentos técnicos detallados están disponibles en la Carpeta X
+del proyecto. Para información específica sobre implementación,
+contactar al equipo de EPC Mecánico.</p>
+<hr />
+<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Rol</th>
+<th style="text-align: left;">Responsable</th>
+<th style="text-align: left;">Contacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Líder Técnico Material Rodante</td>
+<td style="text-align: left;">[Nombre]</td>
+<td style="text-align: left;">[Email/Tel]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Coordinador EPC Mecánico</td>
+<td style="text-align: left;">[Nombre]</td>
+<td style="text-align: left;">[Email/Tel]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Responsable Talleres</td>
+<td style="text-align: left;">[Nombre]</td>
+<td style="text-align: left;">[Email/Tel]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Responsable Flota</td>
+<td style="text-align: left;">[Nombre]</td>
+<td style="text-align: left;">[Email/Tel]</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
+(KPIs)</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 18%" />
+<col style="width: 24%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Indicador</th>
+<th style="text-align: left;">Meta</th>
+<th style="text-align: left;">Actual</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Disponibilidad Locomotoras</td>
+<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.96%</td>
+<td style="text-align: left;">🟢 Excelente</td>
+</tr>
+<tr>
+<td style="text-align: left;">Disponibilidad Vagones</td>
+<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.97%</td>
+<td style="text-align: left;">🟢 Excelente</td>
+</tr>
+<tr>
+<td style="text-align: left;">Disponibilidad EOT</td>
+<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.98%</td>
+<td style="text-align: left;">🟢 Excelente</td>
+</tr>
+<tr>
+<td style="text-align: left;">Capacidad de Transporte</td>
+<td style="text-align: left;">2,550 toneladas</td>
+<td style="text-align: left;">2,000 toneladas</td>
+<td style="text-align: left;">🟡 En progreso</td>
+</tr>
+<tr>
+<td style="text-align: left;">Velocidad Comercial</td>
+<td style="text-align: left;">80 km/h</td>
+<td style="text-align: left;">75 km/h</td>
+<td style="text-align: left;">🟡 En progreso</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 14%" />
+<col style="width: 42%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Versión</th>
+<th style="text-align: left;">Fecha</th>
+<th style="text-align: left;">Cambios Principales</th>
+<th style="text-align: left;">Responsable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Enero 2025</td>
+<td style="text-align: left;">Versión inicial ejecutiva</td>
+<td style="text-align: left;">Administrador Contractual EPC</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Documento preparado por:</strong> Administrador Contractual
+EPC<br />
+<strong>Última actualización:</strong> Enero 2025<br />
+<strong>Próxima revisión:</strong> Febrero 2025<br />
+<strong>Basado en:</strong> SISTEMA_04_Material_Rodante_Master.md
+v1.0</p>
+</body>
+</html>

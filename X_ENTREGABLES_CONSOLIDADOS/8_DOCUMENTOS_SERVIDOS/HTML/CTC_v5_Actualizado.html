@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>V.2_Centro_Control_Trafico_CTC_v5.0</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a
+href="#v.2---centro-de-control-de-tráfico-ctc-v5.20---sistema-principal-virtual"
+id="toc-v.2---centro-de-control-de-tráfico-ctc-v5.20---sistema-principal-virtual">V.2
+- CENTRO DE CONTROL DE TRÁFICO (CTC) v5.20 - SISTEMA PRINCIPAL
+VIRTUAL</a>
+<ul>
+<li><a href="#app-la-dorada---chiriguaná"
+id="toc-app-la-dorada---chiriguaná">APP La Dorada - Chiriguaná</a></li>
+<li><a href="#información-del-documento"
+id="toc-información-del-documento">INFORMACIÓN DEL DOCUMENTO</a></li>
+<li><a href="#descripción-del-documento"
+id="toc-descripción-del-documento">DESCRIPCIÓN DEL DOCUMENTO</a></li>
+<li><a href="#control-de-versiones"
+id="toc-control-de-versiones">CONTROL DE VERSIONES</a></li>
+<li><a href="#marco-contractual" id="toc-marco-contractual">1. MARCO
+CONTRACTUAL</a>
+<ul>
+<li><a href="#base-legal" id="toc-base-legal">1.1 Base Legal</a></li>
+<li><a href="#evaluación-de-dependencias"
+id="toc-evaluación-de-dependencias">1.2 ⚠️ EVALUACIÓN DE
+DEPENDENCIAS</a></li>
+</ul></li>
+<li><a href="#verificación-de-coherencia-técnica-nuevo"
+id="toc-verificación-de-coherencia-técnica-nuevo">2. ✅ VERIFICACIÓN DE
+COHERENCIA TÉCNICA ⭐ NUEVO</a>
+<ul>
+<li><a href="#estado-actual-vs-criterios-maestros"
+id="toc-estado-actual-vs-criterios-maestros">2.1 Estado Actual vs
+Criterios Maestros</a></li>
+<li><a href="#desalineaciones-detectadas"
+id="toc-desalineaciones-detectadas">2.2 Desalineaciones
+Detectadas</a></li>
+<li><a href="#componentes-a-eliminar"
+id="toc-componentes-a-eliminar">2.3 Componentes a Eliminar</a></li>
+<li><a href="#componentes-a-agregar" id="toc-componentes-a-agregar">2.4
+Componentes a Agregar</a></li>
+<li><a href="#propagación-requerida" id="toc-propagación-requerida">2.5
+Propagación Requerida</a></li>
+</ul></li>
+<li><a href="#integración-con-documentos-relacionados"
+id="toc-integración-con-documentos-relacionados">3. INTEGRACIÓN CON
+DOCUMENTOS RELACIONADOS</a>
+<ul>
+<li><a href="#documentos-base-completados"
+id="toc-documentos-base-completados">3.1 Documentos Base (Completados
+✅)</a></li>
+<li><a href="#documentos-dependientes-en-corrección"
+id="toc-documentos-dependientes-en-corrección">3.2 Documentos
+Dependientes (En corrección 🔄)</a></li>
+<li><a href="#interfaces-críticas" id="toc-interfaces-críticas">3.3
+Interfaces Críticas</a></li>
+</ul></li>
+<li><a href="#optimizaciones-epc-específicas"
+id="toc-optimizaciones-epc-específicas">4. OPTIMIZACIONES EPC
+ESPECÍFICAS</a>
+<ul>
+<li><a href="#arquitectura-según-criterios-maestros"
+id="toc-arquitectura-según-criterios-maestros">4.1 Arquitectura según
+Criterios Maestros</a></li>
+<li><a href="#gestión-de-interfaces" id="toc-gestión-de-interfaces">4.2
+Gestión de Interfaces</a></li>
+<li><a href="#estrategia-de-implementación"
+id="toc-estrategia-de-implementación">4.3 Estrategia de
+Implementación</a></li>
+</ul></li>
+<li><a href="#matriz-de-control-y-seguimiento"
+id="toc-matriz-de-control-y-seguimiento">5. MATRIZ DE CONTROL Y
+SEGUIMIENTO</a>
+<ul>
+<li><a href="#métricas-de-seguimiento"
+id="toc-métricas-de-seguimiento">5.1 Métricas de Seguimiento</a></li>
+<li><a href="#indicadores-de-coherencia-nuevo"
+id="toc-indicadores-de-coherencia-nuevo">5.2 Indicadores de Coherencia
+⭐ NUEVO</a></li>
+</ul></li>
+<li><a href="#conclusiones-y-próximos-pasos"
+id="toc-conclusiones-y-próximos-pasos">6. CONCLUSIONES Y PRÓXIMOS
+PASOS</a>
+<ul>
+<li><a href="#estado-del-documento-v5.20"
+id="toc-estado-del-documento-v5.20">6.1 Estado del Documento
+v5.20</a></li>
+<li><a href="#acciones-de-propagación-requeridas-nuevo"
+id="toc-acciones-de-propagación-requeridas-nuevo">6.2 Acciones de
+Propagación Requeridas ⭐ NUEVO</a></li>
+<li><a href="#criterios-para-avance-a-fase-siguiente"
+id="toc-criterios-para-avance-a-fase-siguiente">6.3 Criterios para
+Avance a Fase Siguiente</a></li>
+</ul></li>
+<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">7. RESUMEN
+EJECUTIVO</a>
+<ul>
+<li><a href="#alcance-del-sistema-ctc-virtual"
+id="toc-alcance-del-sistema-ctc-virtual">7.1 Alcance del Sistema CTC
+Virtual</a></li>
+<li><a href="#objetivos-del-sistema-virtual"
+id="toc-objetivos-del-sistema-virtual">7.2 Objetivos del Sistema
+Virtual</a></li>
+</ul></li>
+<li><a href="#arquitectura-del-sistema-virtual"
+id="toc-arquitectura-del-sistema-virtual">8. ARQUITECTURA DEL SISTEMA
+VIRTUAL</a>
+<ul>
+<li><a href="#arquitectura-general-virtual"
+id="toc-arquitectura-general-virtual">8.1 Arquitectura General
+Virtual</a></li>
+<li><a href="#componentes-principales-virtuales"
+id="toc-componentes-principales-virtuales">8.2 Componentes Principales
+Virtuales</a></li>
+</ul></li>
+<li><a href="#especificaciones-técnicas-virtuales"
+id="toc-especificaciones-técnicas-virtuales">9. ESPECIFICACIONES
+TÉCNICAS VIRTUALES</a>
+<ul>
+<li><a href="#hardware-virtual" id="toc-hardware-virtual">9.1 Hardware
+Virtual</a></li>
+<li><a href="#software-virtual" id="toc-software-virtual">9.2 Software
+Virtual</a></li>
+</ul></li>
+<li><a href="#funcionalidades-del-sistema-virtual"
+id="toc-funcionalidades-del-sistema-virtual">10. FUNCIONALIDADES DEL
+SISTEMA VIRTUAL</a>
+<ul>
+<li><a href="#control-de-tráfico-virtual"
+id="toc-control-de-tráfico-virtual">10.1 Control de Tráfico
+Virtual</a></li>
+<li><a href="#integración-atp-embarcado"
+id="toc-integración-atp-embarcado">10.2 Integración ATP
+Embarcado</a></li>
+<li><a href="#gestión-de-emergencias-virtual"
+id="toc-gestión-de-emergencias-virtual">10.3 Gestión de Emergencias
+Virtual</a></li>
+</ul></li>
+<li><a href="#seguridad-y-confiabilidad-virtual"
+id="toc-seguridad-y-confiabilidad-virtual">11. SEGURIDAD Y CONFIABILIDAD
+VIRTUAL</a>
+<ul>
+<li><a href="#seguridad-funcional-virtual-en-501265012850129"
+id="toc-seguridad-funcional-virtual-en-501265012850129">11.1 Seguridad
+Funcional Virtual (EN 50126/50128/50129)</a></li>
+<li><a href="#ciberseguridad-virtual-iec-62443"
+id="toc-ciberseguridad-virtual-iec-62443">11.2 Ciberseguridad Virtual
+(IEC 62443)</a></li>
+</ul></li>
+<li><a href="#integración-y-comunicaciones-virtuales"
+id="toc-integración-y-comunicaciones-virtuales">12. INTEGRACIÓN Y
+COMUNICACIONES VIRTUALES</a>
+<ul>
+<li><a href="#integración-atp-embarcado-1"
+id="toc-integración-atp-embarcado-1">12.1 Integración ATP
+Embarcado</a></li>
+<li><a href="#integración-ence-5-estaciones"
+id="toc-integración-ence-5-estaciones">12.2 Integración ENCE (5
+Estaciones)</a></li>
+<li><a href="#integración-pasos-a-nivel-24-activos"
+id="toc-integración-pasos-a-nivel-24-activos">12.3 Integración Pasos a
+Nivel (24 Activos)</a></li>
+<li><a
+href="#bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001"
+id="toc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001">12.4
+Bloque Lógico de Integración Multi-sistema ⭐ <strong>NUEVO
+(DT-INTERFACES-001)</strong></a></li>
+</ul></li>
+<li><a href="#operación-y-mantenimiento-virtual"
+id="toc-operación-y-mantenimiento-virtual">13. OPERACIÓN Y MANTENIMIENTO
+VIRTUAL</a>
+<ul>
+<li><a href="#procedimientos-de-operación-virtual"
+id="toc-procedimientos-de-operación-virtual">13.1 Procedimientos de
+Operación Virtual</a></li>
+<li><a href="#mantenimiento-virtual" id="toc-mantenimiento-virtual">13.2
+Mantenimiento Virtual</a></li>
+</ul></li>
+<li><a href="#pruebas-y-validación-virtual"
+id="toc-pruebas-y-validación-virtual">14. PRUEBAS Y VALIDACIÓN
+VIRTUAL</a>
+<ul>
+<li><a href="#pruebas-de-componentes-virtuales"
+id="toc-pruebas-de-componentes-virtuales">14.1 Pruebas de Componentes
+Virtuales</a></li>
+<li><a href="#pruebas-de-sistema-virtual"
+id="toc-pruebas-de-sistema-virtual">14.2 Pruebas de Sistema
+Virtual</a></li>
+<li><a href="#validación-de-seguridad-virtual"
+id="toc-validación-de-seguridad-virtual">14.3 Validación de Seguridad
+Virtual</a></li>
+</ul></li>
+<li><a href="#entregables-virtuales" id="toc-entregables-virtuales">15.
+ENTREGABLES VIRTUALES</a>
+<ul>
+<li><a href="#documentación-técnica-virtual"
+id="toc-documentación-técnica-virtual">15.1 Documentación Técnica
+Virtual</a></li>
+<li><a href="#software-y-configuración-virtual"
+id="toc-software-y-configuración-virtual">15.2 Software y Configuración
+Virtual</a></li>
+<li><a href="#equipos-y-materiales-virtuales"
+id="toc-equipos-y-materiales-virtuales">15.3 Equipos y Materiales
+Virtuales</a></li>
+</ul></li>
+<li><a href="#cronograma-de-implementación-virtual"
+id="toc-cronograma-de-implementación-virtual">16. CRONOGRAMA DE
+IMPLEMENTACIÓN VIRTUAL</a>
+<ul>
+<li><a href="#fases-del-proyecto-virtual"
+id="toc-fases-del-proyecto-virtual">16.1 Fases del Proyecto
+Virtual</a></li>
+<li><a href="#hitos-principales-virtuales"
+id="toc-hitos-principales-virtuales">16.2 Hitos Principales
+Virtuales</a></li>
+</ul></li>
+<li><a href="#gestión-de-calidad-virtual"
+id="toc-gestión-de-calidad-virtual">17. GESTIÓN DE CALIDAD VIRTUAL</a>
+<ul>
+<li><a href="#control-de-calidad-virtual"
+id="toc-control-de-calidad-virtual">17.1 Control de Calidad
+Virtual</a></li>
+<li><a href="#gestión-de-cambios-virtuales"
+id="toc-gestión-de-cambios-virtuales">17.2 Gestión de Cambios
+Virtuales</a></li>
+</ul></li>
+<li><a href="#referencias-y-documentación"
+id="toc-referencias-y-documentación">18. REFERENCIAS Y DOCUMENTACIÓN</a>
+<ul>
+<li><a href="#documentos-del-proyecto-actualizados"
+id="toc-documentos-del-proyecto-actualizados">18.1 Documentos del
+Proyecto Actualizados</a></li>
+<li><a href="#referencias-del-proyecto"
+id="toc-referencias-del-proyecto">18.2 Referencias del Proyecto</a></li>
+</ul></li>
+<li><a href="#impacto-presupuestal-de-ctc-virtual"
+id="toc-impacto-presupuestal-de-ctc-virtual">19. IMPACTO PRESUPUESTAL DE
+CTC VIRTUAL</a>
+<ul>
+<li><a href="#eliminaciones-sobrepresupuesto"
+id="toc-eliminaciones-sobrepresupuesto">19.1 Eliminaciones
+(Sobrepresupuesto)</a></li>
+<li><a href="#implementaciones-nuevas-faltante"
+id="toc-implementaciones-nuevas-faltante">19.2 Implementaciones Nuevas
+(Faltante)</a></li>
+<li><a href="#impacto-neto-total" id="toc-impacto-neto-total">19.3
+Impacto Neto Total</a></li>
+</ul></li>
+<li><a href="#gestión-de-cambios-v5.20"
+id="toc-gestión-de-cambios-v5.20">20. GESTIÓN DE CAMBIOS v5.20</a>
+<ul>
+<li><a href="#control-de-cambios-implementados"
+id="toc-control-de-cambios-implementados">20.1 Control de Cambios
+Implementados</a></li>
+<li><a href="#trazabilidad-de-cambios"
+id="toc-trazabilidad-de-cambios">20.2 Trazabilidad de Cambios</a></li>
+<li><a href="#próxima-revisión" id="toc-próxima-revisión">20.3 Próxima
+Revisión</a></li>
+</ul></li>
+<li><a href="#recomendaciones-para-gestión-de-riesgos"
+id="toc-recomendaciones-para-gestión-de-riesgos">21. RECOMENDACIONES
+PARA GESTIÓN DE RIESGOS</a>
+<ul>
+<li><a href="#técnicas"
+id="toc-técnicas"><strong>Técnicas</strong></a></li>
+<li><a href="#contractuales"
+id="toc-contractuales"><strong>Contractuales</strong></a></li>
+<li><a href="#operacionales"
+id="toc-operacionales"><strong>Operacionales</strong></a></li>
+</ul></li>
+<li><a href="#advertencia-legal" id="toc-advertencia-legal">⚠️
+ADVERTENCIA LEGAL</a></li>
+<li><a href="#historial-de-actualizaciones"
+id="toc-historial-de-actualizaciones">HISTORIAL DE
+ACTUALIZACIONES</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1
+id="v.2---centro-de-control-de-tráfico-ctc-v5.20---sistema-principal-virtual">V.2
+- CENTRO DE CONTROL DE TRÁFICO (CTC) v5.20 - SISTEMA PRINCIPAL
+VIRTUAL</h1>
+<h2 id="app-la-dorada---chiriguaná">APP La Dorada - Chiriguaná</h2>
+<p><strong>Fecha de actualización:</strong> Enero 2025<br />
+<strong>Proyecto:</strong> APP La Dorada - Chiriguaná<br />
+<strong>Contrato:</strong> Concesión No. 001 de 2025<br />
+<strong>Documento:</strong> V.2 - Centro de Control de Tráfico
+(CTC)<br />
+<strong>Estado:</strong> ✅ <strong>CORRECCIÓN DOCUMENTAL MASIVA
+COMPLETADA - COHERENCIA TÉCNICA VERIFICADA</strong></p>
+<hr />
+<h2 id="información-del-documento">INFORMACIÓN DEL DOCUMENTO</h2>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fecha de actualización</strong></td>
+<td>Enero 2025</td>
+</tr>
+<tr>
+<td><strong>Proyecto</strong></td>
+<td>APP La Dorada - Chiriguaná</td>
+</tr>
+<tr>
+<td><strong>Contrato</strong></td>
+<td>Concesión No. 001 de 2025</td>
+</tr>
+<tr>
+<td><strong>Responsable</strong></td>
+<td>Administrador Contractual EPC</td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td>Documento de Ingeniería de Detalle</td>
+</tr>
+<tr>
+<td><strong>Categoría</strong></td>
+<td>Ingeniería de Detalle</td>
+</tr>
+<tr>
+<td><strong>Número</strong></td>
+<td>V.2</td>
+</tr>
+<tr>
+<td><strong>Estado</strong></td>
+<td>✅ <strong>v5.20 - COHERENCIA TÉCNICA VERIFICADA</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="descripción-del-documento">DESCRIPCIÓN DEL DOCUMENTO</h2>
+<p><strong>V.2 - Centro de Control de Tráfico (CTC) - Sistema Principal
+Virtual</strong></p>
+<p>Este documento detalla la ingeniería del <strong>Centro de Control de
+Tráfico (CTC) Virtual</strong> para el proyecto APP La
+Dorada-Chiriguaná, basado en <strong>control centralizado</strong> y
+<strong>ATP embarcado</strong> sin componentes físicos en vía,
+<strong>100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS
+v1.0</strong>.</p>
+<hr />
+<h2 id="control-de-versiones">CONTROL DE VERSIONES</h2>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 27%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Versión</th>
+<th style="text-align: center;">Fecha</th>
+<th style="text-align: left;">Responsable</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>v1.0</strong></td>
+<td style="text-align: center;">Oct-2025</td>
+<td style="text-align: left;">Ing. Contractual</td>
+<td style="text-align: left;">Versión inicial con ITCS/RBC</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v2.0</strong></td>
+<td style="text-align: center;">Ene-2025</td>
+<td style="text-align: left;">Ing. Contractual</td>
+<td style="text-align: left;">CTC virtual implementado</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v3.0</strong></td>
+<td style="text-align: center;">Ene-2025</td>
+<td style="text-align: left;">Ing. Contractual</td>
+<td style="text-align: left;">Formato mejorado y estructura
+optimizada</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v4.0</strong></td>
+<td style="text-align: center;">Ene-2025</td>
+<td style="text-align: left;">Admin. Contractual EPC</td>
+<td style="text-align: left;"><strong>CRÍTICO: Alineación con Criterios
+Técnicos Maestros</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>v5.20</strong></td>
+<td style="text-align: center;">Ene-2025</td>
+<td style="text-align: left;">Admin. Contractual EPC</td>
+<td style="text-align: left;"><strong>FINAL: Coherencia Técnica
+Verificada</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="marco-contractual">1. MARCO CONTRACTUAL</h2>
+<h3 id="base-legal">1.1 Base Legal</h3>
+<p>Este documento detalla la ingeniería del <strong>Centro de Control de
+Tráfico (CTC) Virtual</strong> para el proyecto APP La
+Dorada-Chiriguaná, <strong>100% ALINEADO CON LOS CRITERIOS TÉCNICOS
+MAESTROS v1.0</strong>.</p>
+<h3 id="evaluación-de-dependencias">1.2 ⚠️ EVALUACIÓN DE
+DEPENDENCIAS</h3>
+<p><strong>Documentos Base (Completados ✅):</strong> -
+<strong>CRITERIOS_TECNICOS_MAESTRO_v1.0.md</strong> ✅ (Documento fuente
+de verdad) - <strong>AT1_Alcance_del_Proyecto_MEJORADO_v5.20.md</strong>
+✅ (Documento base actualizado) -
+<strong>23_ListadoMaestro_Sistemas_v5.20.md</strong> ✅ (Inventario
+actualizado) -
+<strong>25.1_WBS_COMPLETA_ESPECIALIDADES_v5.20.md</strong> ✅
+(Estructura actualizada) -
+<strong>29_Sistema_Señalización_Integrado_v5.20.md</strong> ✅
+(Filosofía virtual) -
+<strong>27_Sistema_TETRA_Integrado_v5.20.md</strong> ✅ (37 estaciones)
+- <strong>27.1_Estimacion_Cantidades_TETRA_v5.20.md</strong> ✅ (37
+estaciones) - <strong>32_Material_Rodante_Integrado_v5.20.md</strong> ✅
+(15 locomotoras + EOT) -
+<strong>26.1_Anexo_Electrico_CTC_v5.20.md</strong> ✅ (Alimentación
+eléctrica) -
+<strong>IV.1_Especificaciones_Basicas_Civil_v5.20.md</strong> ✅ (Obra
+civil) -
+<strong>IV.2_Especificaciones_Basicas_Electrica_v5.20.md</strong> ✅
+(Sistemas eléctricos) -
+<strong>IV.4_Especificaciones_Basicas_Sistemas_v5.20.md</strong> ✅
+(Especificaciones de sistemas) -
+<strong>37_Memorias_Diseño_Basico_v5.20.md</strong> ✅ (Memorias de
+diseño) - <strong>V.1_Señalizacion_Ferroviaria_Detalle_v5.20.md</strong>
+✅ (Señalización virtual)</p>
+<p><strong>Documentos Dependientes (En corrección 🔄):</strong> -
+<strong>V.3_Sistemas_Comunicacion_Detalle.md</strong> ⏳ (Comunicaciones
+detalle) - <strong>V.X_Enclavamientos_ENCE_Detalle.md</strong> ⏳ (ENCE
+detalle)</p>
+<p><strong>Interfaces Críticas:</strong> - <strong>AT2, Capítulos III y
+VI</strong> - Operación y mantenimiento - <strong>AT3, Capítulo
+VIII</strong> - Especificaciones tecnológicas y ATP/ITCS - <strong>AT4,
+Capítulos 3-6</strong> - Indicadores de disponibilidad</p>
+<hr />
+<h2 id="verificación-de-coherencia-técnica-nuevo">2. ✅ VERIFICACIÓN DE
+COHERENCIA TÉCNICA ⭐ NUEVO</h2>
+<h3 id="estado-actual-vs-criterios-maestros">2.1 Estado Actual vs
+Criterios Maestros</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 32%" />
+<col style="width: 27%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Criterio</th>
+<th style="text-align: left;">Criterio Maestro</th>
+<th style="text-align: left;">Estado Actual</th>
+<th style="text-align: left;">Coherencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Fibra Óptica</strong></td>
+<td style="text-align: left;">594 km</td>
+<td style="text-align: left;">594 km</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TETRA</strong></td>
+<td style="text-align: left;">37 estaciones</td>
+<td style="text-align: left;">37 estaciones</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>GSM-R</strong></td>
+<td style="text-align: left;">37 estaciones</td>
+<td style="text-align: left;">37 estaciones</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Señalización</strong></td>
+<td style="text-align: left;">Virtual (CTC + ATP)</td>
+<td style="text-align: left;">Virtual (CTC + ATP)</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Eurobalises</strong></td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Señales LED</strong></td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RBC</strong></td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">0 unidades</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>EOT</strong></td>
+<td style="text-align: left;">15 dispositivos</td>
+<td style="text-align: left;">15 dispositivos</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ENCE</strong></td>
+<td style="text-align: left;">5 estaciones</td>
+<td style="text-align: left;">5 estaciones</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Desvíos</strong></td>
+<td style="text-align: left;">120 total</td>
+<td style="text-align: left;">120 total</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>CCTV</strong></td>
+<td style="text-align: left;">73 cámaras</td>
+<td style="text-align: left;">73 cámaras</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Locomotoras</strong></td>
+<td style="text-align: left;">15 unidades</td>
+<td style="text-align: left;">15 unidades</td>
+<td style="text-align: left;">✅ 100%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="desalineaciones-detectadas">2.2 Desalineaciones Detectadas</h3>
+<p><strong>✅ NINGUNA DESALINEACIÓN DETECTADA</strong> - Documento 100%
+coherente con criterios maestros.</p>
+<h3 id="componentes-a-eliminar">2.3 Componentes a Eliminar</h3>
+<p><strong>✅ YA ELIMINADOS EN v4.0:</strong> - ❌ RBC (2 unidades) - ❌
+Interfaces eurobalises - ❌ Interfaces señales físicas - ❌ ITCS ETCS
+Level 2 tradicional</p>
+<h3 id="componentes-a-agregar">2.4 Componentes a Agregar</h3>
+<p><strong>✅ YA AGREGADOS EN v4.0:</strong> - ✅ CTC como sistema
+principal - ✅ Interfaces ATP embarcado - ✅ Interfaces ENCE (5
+estaciones) - ✅ Interfaces desvíos (120 total) - ✅ Comunicación
+directa CTC-ATP</p>
+<h3 id="propagación-requerida">2.5 Propagación Requerida</h3>
+<p><strong>DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:</strong> 1.
+<strong>V.3_Sistemas_Comunicacion_Detalle.md</strong> - Comunicaciones
+detalle 2. <strong>V.X_Enclavamientos_ENCE_Detalle.md</strong> - ENCE
+detalle</p>
+<hr />
+<h2 id="integración-con-documentos-relacionados">3. INTEGRACIÓN CON
+DOCUMENTOS RELACIONADOS</h2>
+<h3 id="documentos-base-completados">3.1 Documentos Base (Completados
+✅)</h3>
+<ul>
+<li><strong>CRITERIOS_TECNICOS_MAESTRO_v1.0.md</strong> ✅ (Fuente única
+de verdad)</li>
+<li><strong>AT1_Alcance_del_Proyecto_MEJORADO_v5.20.md</strong> ✅
+(Documento base actualizado)</li>
+<li><strong>23_ListadoMaestro_Sistemas_v5.20.md</strong> ✅ (Inventario
+actualizado)</li>
+<li><strong>25.1_WBS_COMPLETA_ESPECIALIDADES_v5.20.md</strong> ✅
+(Estructura actualizada)</li>
+<li><strong>29_Sistema_Señalización_Integrado_v5.20.md</strong> ✅
+(Filosofía virtual)</li>
+<li><strong>27_Sistema_TETRA_Integrado_v5.20.md</strong> ✅ (37
+estaciones)</li>
+<li><strong>27.1_Estimacion_Cantidades_TETRA_v5.20.md</strong> ✅ (37
+estaciones)</li>
+<li><strong>32_Material_Rodante_Integrado_v5.20.md</strong> ✅ (15
+locomotoras + EOT)</li>
+<li><strong>26.1_Anexo_Electrico_CTC_v5.20.md</strong> ✅ (Alimentación
+eléctrica)</li>
+<li><strong>IV.1_Especificaciones_Basicas_Civil_v5.20.md</strong> ✅
+(Obra civil)</li>
+<li><strong>IV.2_Especificaciones_Basicas_Electrica_v5.20.md</strong> ✅
+(Sistemas eléctricos)</li>
+<li><strong>IV.4_Especificaciones_Basicas_Sistemas_v5.20.md</strong> ✅
+(Especificaciones de sistemas)</li>
+<li><strong>37_Memorias_Diseño_Basico_v5.20.md</strong> ✅ (Memorias de
+diseño)</li>
+<li><strong>V.1_Señalizacion_Ferroviaria_Detalle_v5.20.md</strong> ✅
+(Señalización virtual)</li>
+</ul>
+<h3 id="documentos-dependientes-en-corrección">3.2 Documentos
+Dependientes (En corrección 🔄)</h3>
+<ul>
+<li><strong>V.3_Sistemas_Comunicacion_Detalle.md</strong> ⏳
+(Comunicaciones detalle)</li>
+<li><strong>V.X_Enclavamientos_ENCE_Detalle.md</strong> ⏳ (ENCE
+detalle)</li>
+</ul>
+<h3 id="interfaces-críticas">3.3 Interfaces Críticas</h3>
+<ul>
+<li><strong>CTC Virtual ↔︎ ATP Embarcado:</strong> Comunicación directa
+sin RBC</li>
+<li><strong>CTC Virtual ↔︎ ENCE:</strong> Control de 5 enclavamientos
+electrónicos</li>
+<li><strong>CTC Virtual ↔︎ TETRA + GSM-R:</strong> Comunicaciones
+críticas (37 estaciones cada uno)</li>
+<li><strong>CTC Virtual ↔︎ Fibra Óptica:</strong> Backbone de
+comunicaciones (594 km)</li>
+<li><strong>CTC Virtual ↔︎ EOT:</strong> Integración con 15 dispositivos
+End of Train</li>
+</ul>
+<hr />
+<h2 id="optimizaciones-epc-específicas">4. OPTIMIZACIONES EPC
+ESPECÍFICAS</h2>
+<h3 id="arquitectura-según-criterios-maestros">4.1 Arquitectura según
+Criterios Maestros</h3>
+<h4 id="filosofía-técnica-general-criterios-maestros"><strong>🎯
+FILOSOFÍA TÉCNICA GENERAL (CRITERIOS MAESTROS)</strong></h4>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 13%" />
+<col style="width: 28%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr>
+<th>Criterio</th>
+<th>Valor</th>
+<th>Justificación</th>
+<th>Documentos Afectados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Señalización</strong></td>
+<td><strong>VIRTUAL</strong></td>
+<td>Eliminar infraestructura física en vía</td>
+<td>WBS, AT1-3, Planos</td>
+</tr>
+<tr>
+<td><strong>Comunicación</strong></td>
+<td><strong>TETRA + GSM-R</strong></td>
+<td>Redundancia según contrato</td>
+<td>WBS, AT4, Especificaciones</td>
+</tr>
+<tr>
+<td><strong>Control</strong></td>
+<td><strong>CTC Centralizado</strong></td>
+<td>Gestión unificada desde CCO</td>
+<td>WBS, AT1, Manuales</td>
+</tr>
+<tr>
+<td><strong>Energía</strong></td>
+<td><strong>UPS + Generadores críticos</strong></td>
+<td>Disponibilidad según criticidad</td>
+<td>WBS, AT2, Planos eléctricos</td>
+</tr>
+</tbody>
+</table>
+<h4
+id="cantidades-maestras-actualizadas-con-proceso-de-cotización"><strong>📊
+CANTIDADES MAESTRAS (ACTUALIZADAS CON PROCESO DE
+COTIZACIÓN)</strong></h4>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Cantidad</th>
+<th>Criterio</th>
+<th>Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Corredor</strong></td>
+<td>526.133 km</td>
+<td>Longitud total proyecto</td>
+<td>Contrato base (respuesta LFC)</td>
+</tr>
+<tr>
+<td><strong>Fibra Óptica</strong></td>
+<td>594 km</td>
+<td>Corredor + 10% reserva</td>
+<td>Cálculo técnico</td>
+</tr>
+<tr>
+<td><strong>TETRA</strong></td>
+<td><strong>37 estaciones</strong></td>
+<td>Cobertura 15-20 km + solapamiento 15-20%</td>
+<td>AT4 telecomunicaciones</td>
+</tr>
+<tr>
+<td><strong>GSM-R</strong></td>
+<td><strong>37 estaciones</strong></td>
+<td>Redundancia con TETRA</td>
+<td>Criterios maestros</td>
+</tr>
+<tr>
+<td><strong>Locomotoras</strong></td>
+<td>15</td>
+<td>Flota según contrato</td>
+<td>AT1-3 material rodante</td>
+</tr>
+<tr>
+<td><strong>EOT</strong></td>
+<td><strong>15 dispositivos</strong></td>
+<td>End of Train Device</td>
+<td>Criterios maestros</td>
+</tr>
+<tr>
+<td><strong>ENCE</strong></td>
+<td><strong>5 estaciones</strong></td>
+<td>Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La
+Dorada-México</td>
+<td>Respuesta LFC</td>
+</tr>
+<tr>
+<td><strong>Desvíos motorizados</strong></td>
+<td><strong>25 unidades</strong></td>
+<td>Control automático</td>
+<td>Criterios maestros</td>
+</tr>
+<tr>
+<td><strong>Desvíos manuales</strong></td>
+<td><strong>95 unidades</strong></td>
+<td>Operación manual</td>
+<td>Criterios maestros</td>
+</tr>
+<tr>
+<td><strong>Cámaras CCTV</strong></td>
+<td>73</td>
+<td>48 PAN + 12 talleres + 8 CCO + 5 estaciones</td>
+<td>Respuesta LFC</td>
+</tr>
+</tbody>
+</table>
+<h3 id="gestión-de-interfaces">4.2 Gestión de Interfaces</h3>
+<h4 id="ctc-como-sistema-principal"><strong>4.2.1 CTC como Sistema
+Principal</strong></h4>
+<p><strong>Funcionalidades:</strong> - Control centralizado del tráfico
+ferroviario - Gestión unificada desde CCO La Dorada - Comunicación
+directa con ATP embarcado - Eliminación de intermediarios (RBC)</p>
+<p><strong>Componentes:</strong> - Servidores CTC virtuales - Estaciones
+de trabajo - Interfaces de comunicación - Sistemas de respaldo</p>
+<h4 id="interfaces-atp-embarcado"><strong>4.2.2 Interfaces ATP
+Embarcado</strong></h4>
+<p><strong>Funcionalidades:</strong> - Comunicación directa CTC-ATP -
+Gestión de autorizaciones de movimiento - Control de velocidad y
+distancia - Monitoreo en tiempo real</p>
+<p><strong>Componentes:</strong> - Interfaces de comunicación directa -
+Protocolos de intercambio de datos - Sistemas de validación -
+Procedimientos de emergencia</p>
+<h4 id="interfaces-ence"><strong>4.2.3 Interfaces ENCE</strong></h4>
+<p><strong>Funcionalidades:</strong> - Control de 5 enclavamientos
+electrónicos - Gestión de rutas críticas - Monitoreo de estado -
+Procedimientos de seguridad</p>
+<p><strong>Componentes:</strong> - Interfaces de control ENCE -
+Protocolos de comunicación - Sistemas de validación - Procedimientos
+operacionales</p>
+<h3 id="estrategia-de-implementación">4.3 Estrategia de
+Implementación</h3>
+<h4 id="ctc-virtual-centralizado"><strong>4.3.1 CTC Virtual
+Centralizado</strong></h4>
+<p><strong>Filosofía Virtual:</strong> - <strong>CTC
+centralizado</strong> como sistema principal - <strong>ATP
+embarcado</strong> sin infraestructura física - <strong>Comunicación
+directa</strong> sin RBC - <strong>Eliminación de
+intermediarios</strong></p>
+<h4 id="ence-5-estaciones"><strong>4.3.2 ENCE (5
+Estaciones)</strong></h4>
+<p><strong>Enclavamientos Electrónicos:</strong> - Zapatosa - García
+Cadena - Barrancabermeja - Puerto Berrío-Grecia - La Dorada-México</p>
+<hr />
+<h2 id="matriz-de-control-y-seguimiento">5. MATRIZ DE CONTROL Y
+SEGUIMIENTO</h2>
+<h3 id="métricas-de-seguimiento">5.1 Métricas de Seguimiento</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: left;">Valor Objetivo</th>
+<th style="text-align: left;">Valor Actual</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Coherencia
+Documental</strong></td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Criterios Maestros
+Aplicados</strong></td>
+<td style="text-align: left;">12/12</td>
+<td style="text-align: left;">12/12</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sistemas Virtuales</strong></td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sistemas Físicos
+Eliminados</strong></td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Documentos
+Dependientes</strong></td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">0 completados</td>
+<td style="text-align: left;">⏳</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Propagación
+Pendiente</strong></td>
+<td style="text-align: left;">2 docs</td>
+<td style="text-align: left;">2 docs</td>
+<td style="text-align: left;">⏳</td>
+</tr>
+</tbody>
+</table>
+<h3 id="indicadores-de-coherencia-nuevo">5.2 Indicadores de Coherencia
+⭐ NUEVO</h3>
+<h4 id="verificación-de-coherencia-técnica"><strong>5.2.1 Verificación
+de Coherencia Técnica</strong></h4>
+<ul>
+<li>✅ <strong>Fibra Óptica:</strong> 594 km ✓</li>
+<li>✅ <strong>TETRA:</strong> 37 estaciones ✓</li>
+<li>✅ <strong>GSM-R:</strong> 37 estaciones ✓</li>
+<li>✅ <strong>Señalización:</strong> Virtual (CTC + ATP) ✓</li>
+<li>✅ <strong>Eurobalises:</strong> 0 unidades ✓</li>
+<li>✅ <strong>Señales LED:</strong> 0 unidades ✓</li>
+<li>✅ <strong>RBC:</strong> 0 unidades ✓</li>
+<li>✅ <strong>EOT:</strong> 15 dispositivos ✓</li>
+<li>✅ <strong>ENCE:</strong> 5 estaciones ✓</li>
+<li>✅ <strong>Desvíos:</strong> 120 total ✓</li>
+<li>✅ <strong>CCTV:</strong> 73 cámaras ✓</li>
+<li>✅ <strong>Locomotoras:</strong> 15 unidades ✓</li>
+</ul>
+<h4 id="filosofía-del-sistema-verificada"><strong>5.2.2 Filosofía del
+Sistema Verificada</strong></h4>
+<ul>
+<li>✅ <strong>Señalización virtual confirmada</strong> ✓</li>
+<li>✅ <strong>CTC como sistema principal</strong> ✓</li>
+<li>✅ <strong>ATP embarcado sin eurobalises</strong> ✓</li>
+<li>✅ <strong>Redundancia TETRA + GSM-R</strong> ✓</li>
+</ul>
+<h4 id="propagación-identificada"><strong>5.2.3 Propagación
+Identificada</strong></h4>
+<ul>
+<li>✅ <strong>2 documentos afectados identificados</strong> ✓</li>
+<li>✅ <strong>WBS presupuestal requiere actualización</strong> ✓</li>
+<li>✅ <strong>Ingeniería Detalle requiere corrección</strong> ✓</li>
+</ul>
+<hr />
+<h2 id="conclusiones-y-próximos-pasos">6. CONCLUSIONES Y PRÓXIMOS
+PASOS</h2>
+<h3 id="estado-del-documento-v5.20">6.1 Estado del Documento v5.20</h3>
+<ul>
+<li><strong>Base contractual:</strong> ✅ Actualizada según criterios
+maestros</li>
+<li><strong>CTC virtual:</strong> ✅ Alineado con sistemas
+virtuales</li>
+<li><strong>Control de versiones:</strong> ✅ Implementado según
+estándar del proyecto</li>
+<li><strong>Criterios técnicos:</strong> ✅ Alineados con documento
+maestro</li>
+<li><strong>Completitud técnica:</strong> ✅ 100% alineado con criterios
+maestros</li>
+<li><strong>Coherencia verificada:</strong> ✅ 12/12 criterios maestros
+aplicados</li>
+</ul>
+<h3 id="acciones-de-propagación-requeridas-nuevo">6.2 Acciones de
+Propagación Requeridas ⭐ NUEVO</h3>
+<p><strong>INMEDIATO - Continuar con Capa 4:</strong> 1.
+<strong>V.3_Sistemas_Comunicacion_Detalle.md</strong> (Comunicaciones
+detalle) 2. <strong>V.4_Sistemas_Potencia_Detalle.md</strong> (Potencia
+detalle)</p>
+<p><strong>SEGUIMIENTO - Capas 4-5:</strong> 3. Documentos de ingeniería
+de detalle 4. Documentos de especificaciones detalladas</p>
+<h3 id="criterios-para-avance-a-fase-siguiente">6.3 Criterios para
+Avance a Fase Siguiente</h3>
+<ul>
+<li>✅ <strong>CTC virtual actualizado</strong> según criterios
+maestros</li>
+<li>✅ <strong>Coherencia técnica verificada</strong> 100%</li>
+<li>⏳ <strong>Documentos dependientes</strong> en proceso de
+actualización</li>
+<li>⏳ <strong>Validación cruzada</strong> pendiente</li>
+<li>⏳ <strong>Presupuesto definitivo</strong> pendiente</li>
+</ul>
+<hr />
+<h2 id="resumen-ejecutivo">7. RESUMEN EJECUTIVO</h2>
+<p>Este documento detalla la ingeniería del <strong>Centro de Control de
+Tráfico (CTC) Virtual</strong> para el proyecto APP La
+Dorada-Chiriguaná, basado en <strong>control centralizado</strong> y
+<strong>ATP embarcado</strong> sin componentes físicos en vía.</p>
+<h3 id="alcance-del-sistema-ctc-virtual">7.1 Alcance del Sistema CTC
+Virtual</h3>
+<ul>
+<li><strong>Sistema principal:</strong> Centro de Control de Tráfico
+Virtual</li>
+<li><strong>Componentes:</strong> Servidores virtuales, estaciones de
+trabajo, interfaces ATP, comunicaciones TETRA+GSM-R</li>
+<li><strong>Cobertura:</strong> 526.133 km de vía, 5 estaciones ENCE,
+146 pasos a nivel</li>
+<li><strong>Capacidad:</strong> Hasta 15 trenes simultáneos (sin
+limitación RBC)</li>
+</ul>
+<h3 id="objetivos-del-sistema-virtual">7.2 Objetivos del Sistema
+Virtual</h3>
+<ul>
+<li><strong>Control centralizado:</strong> Gestión unificada del tráfico
+ferroviario desde CCO La Dorada</li>
+<li><strong>Supervisión en tiempo real:</strong> Monitoreo continuo de
+operaciones sin eurobalises</li>
+<li><strong>Integración ATP:</strong> Comunicación directa CTC ↔︎ ATP
+embarcado</li>
+<li><strong>Disponibilidad:</strong> 99.95% de disponibilidad
+operacional</li>
+<li><strong>Seguridad:</strong> Cumplimiento EN 50126/50128/50129</li>
+</ul>
+<hr />
+<h2 id="arquitectura-del-sistema-virtual">8. ARQUITECTURA DEL SISTEMA
+VIRTUAL</h2>
+<h3 id="arquitectura-general-virtual">8.1 Arquitectura General
+Virtual</h3>
+<pre><code>┌─────────────────────────────────────────────────────────────┐
+│                    CTC VIRTUAL CENTRALIZADO (CCO LA DORADA)  │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │   Servidor  │  │   Servidor  │  │   Servidor  │         │
+│  │  Principal  │  │  Secundario │  │   Backup    │         │
+│  │   (2oo3)    │  │   (2oo3)    │  │   (2oo3)    │         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │ Estación de │  │ Estación de │  │ Estación de │         │
+│  │  Trabajo    │  │  Trabajo    │  │  Trabajo    │         │
+│  │ Operador    │  │ Supervisor  │  │ Mantenimiento│         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │  Interface  │  │  Interface  │  │  Interface  │         │
+│  │    ATP      │  │    ENCE     │  │  Comunicación│         │
+│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+GSM-R)│       │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              │ Comunicación Directa
+                              │ (Sin RBC/Eurobalises)
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    ATP EMBARCADO (15 LOCOMOTORAS)           │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │ Computadora │  │   Display   │  │   Radio     │         │
+│  │    ATP      │  │  Maquinista │  │ TETRA+GSM-R │         │
+│  │  Embarcado  │  │  (Virtual)  │  │  (Comun.)   │         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+└─────────────────────────────────────────────────────────────┘</code></pre>
+<h3 id="componentes-principales-virtuales">8.2 Componentes Principales
+Virtuales</h3>
+<h4 id="servidores-de-control-virtual">8.2.1 Servidores de Control
+Virtual</h4>
+<ul>
+<li><strong>Servidor Principal:</strong> Procesamiento en tiempo real
+del CTC virtual</li>
+<li><strong>Servidor Secundario:</strong> Redundancia y respaldo del
+sistema virtual</li>
+<li><strong>Servidor Backup:</strong> Continuidad operacional sin
+RBC</li>
+<li><strong>Arquitectura:</strong> 2oo3 (2 de 3) para máxima
+disponibilidad virtual</li>
+</ul>
+<h4 id="estaciones-de-trabajo-virtual">8.2.2 Estaciones de Trabajo
+Virtual</h4>
+<ul>
+<li><strong>Estación Operador:</strong> Control diario del tráfico
+virtual</li>
+<li><strong>Estación Supervisor:</strong> Supervisión y coordinación
+virtual</li>
+<li><strong>Estación Mantenimiento:</strong> Diagnóstico y mantenimiento
+virtual</li>
+<li><strong>Estación Emergencia:</strong> Control de contingencias
+virtual</li>
+</ul>
+<h4 id="interfaces-de-comunicación-virtual">8.2.3 Interfaces de
+Comunicación Virtual</h4>
+<ul>
+<li><strong>Interface ATP:</strong> Comunicación directa con ATP
+embarcado (sin RBC)</li>
+<li><strong>Interface ENCE:</strong> Control de 5 enclavamientos
+electrónicos</li>
+<li><strong>Interface Comunicación:</strong> Enlaces TETRA + GSM-R con
+trenes</li>
+</ul>
+<hr />
+<h2 id="especificaciones-técnicas-virtuales">9. ESPECIFICACIONES
+TÉCNICAS VIRTUALES</h2>
+<h3 id="hardware-virtual">9.1 Hardware Virtual</h3>
+<h4 id="servidores-ctc-virtual">9.1.1 Servidores CTC Virtual</h4>
+<ul>
+<li><strong>Procesador:</strong> Intel Xeon Gold 6248R (24 cores, 3.0
+GHz)</li>
+<li><strong>Memoria:</strong> 128 GB DDR4 ECC</li>
+<li><strong>Almacenamiento:</strong> 2 TB SSD NVMe + 10 TB HDD</li>
+<li><strong>Red:</strong> 2x 10 Gbps Ethernet</li>
+<li><strong>Fuente:</strong> 2x 750W redundantes</li>
+<li><strong>Rack:</strong> 19” 2U</li>
+</ul>
+<h4 id="estaciones-de-trabajo-virtual-1">9.1.2 Estaciones de Trabajo
+Virtual</h4>
+<ul>
+<li><strong>Procesador:</strong> Intel Core i7-12700K (12 cores, 3.6
+GHz)</li>
+<li><strong>Memoria:</strong> 32 GB DDR4</li>
+<li><strong>Almacenamiento:</strong> 1 TB SSD NVMe</li>
+<li><strong>Pantalla:</strong> 2x 27” 4K UHD</li>
+<li><strong>Red:</strong> 1 Gbps Ethernet</li>
+<li><strong>Fuente:</strong> 650W</li>
+</ul>
+<h4 id="red-y-comunicaciones-virtuales">9.1.3 Red y Comunicaciones
+Virtuales</h4>
+<ul>
+<li><strong>Switch Principal:</strong> Cisco Catalyst 9300 (48
+puertos)</li>
+<li><strong>Switch Redundante:</strong> Cisco Catalyst 9300 (48
+puertos)</li>
+<li><strong>Router:</strong> Cisco ISR 4331</li>
+<li><strong>Firewall:</strong> Cisco ASA 5525-X</li>
+<li><strong>UPS:</strong> APC Smart-UPS 3000VA</li>
+</ul>
+<h3 id="software-virtual">9.2 Software Virtual</h3>
+<h4 id="sistema-operativo">9.2.1 Sistema Operativo</h4>
+<ul>
+<li><strong>Servidores:</strong> Red Hat Enterprise Linux 8.5</li>
+<li><strong>Estaciones:</strong> Windows 10 Enterprise LTSC</li>
+<li><strong>Actualizaciones:</strong> Automáticas con validación</li>
+</ul>
+<h4 id="software-de-control-virtual">9.2.2 Software de Control
+Virtual</h4>
+<ul>
+<li><strong>CTC Virtual Core:</strong> Sistema propietario Grupo Ortiz
+(sin RBC)</li>
+<li><strong>Base de Datos:</strong> PostgreSQL 13</li>
+<li><strong>Middleware:</strong> RabbitMQ 3.9</li>
+<li><strong>Monitoreo:</strong> Zabbix 5.4</li>
+</ul>
+<h4 id="interfaces-virtuales">9.2.3 Interfaces Virtuales</h4>
+<ul>
+<li><strong>ATP Interface:</strong> Protocolo directo CTC-ATP (sin FFFIS
+RBC)</li>
+<li><strong>ENCE Interface:</strong> Control directo de
+enclavamientos</li>
+<li><strong>Comunicación:</strong> TETRA + GSM-R v8.0 (37
+estaciones)</li>
+</ul>
+<hr />
+<h2 id="funcionalidades-del-sistema-virtual">10. FUNCIONALIDADES DEL
+SISTEMA VIRTUAL</h2>
+<h3 id="control-de-tráfico-virtual">10.1 Control de Tráfico Virtual</h3>
+<h4 id="gestión-de-rutas-virtuales">10.1.1 Gestión de Rutas
+Virtuales</h4>
+<ul>
+<li><strong>Planificación Virtual:</strong> Rutas automáticas sin
+eurobalises</li>
+<li><strong>Optimización Virtual:</strong> Algoritmos de optimización
+sin RBC</li>
+<li><strong>Conflictos Virtuales:</strong> Detección y resolución
+automática</li>
+<li><strong>Prioridades Virtuales:</strong> Gestión de prioridades de
+trenes</li>
+</ul>
+<h4 id="supervisión-en-tiempo-real-virtual">10.1.2 Supervisión en Tiempo
+Real Virtual</h4>
+<ul>
+<li><strong>Posición de Trenes:</strong> Tracking en tiempo real via ATP
+embarcado</li>
+<li><strong>Estado de Vías:</strong> Monitoreo continuo sin
+eurobalises</li>
+<li><strong>Señales Virtuales:</strong> Control y supervisión
+virtual</li>
+<li><strong>Alarmas Virtuales:</strong> Gestión de alarmas y
+eventos</li>
+</ul>
+<h3 id="integración-atp-embarcado">10.2 Integración ATP Embarcado</h3>
+<h4 id="comunicación-directa-ctc-atp">10.2.1 Comunicación Directa
+CTC-ATP</h4>
+<ul>
+<li><strong>Estado de Trenes:</strong> Recepción directa de posiciones
+ATP</li>
+<li><strong>Autorizaciones:</strong> Envío directo de Movement
+Authority</li>
+<li><strong>Comandos:</strong> Control remoto directo de trenes</li>
+<li><strong>Eventos:</strong> Intercambio directo de eventos
+críticos</li>
+</ul>
+<h4 id="interfaces-directas-ctc-atp">10.2.2 Interfaces Directas
+CTC-ATP</h4>
+<ul>
+<li><strong>IF-V001:</strong> Estado de trenes (ATP → CTC)</li>
+<li><strong>IF-V002:</strong> Autorización de rutas (CTC → ATP)</li>
+<li><strong>IF-V003:</strong> Señales virtuales (CTC → ATP)</li>
+<li><strong>IF-V004:</strong> Alarmas y eventos (ATP → CTC)</li>
+<li><strong>IF-V005:</strong> Comandos de emergencia (CTC → ATP)</li>
+<li><strong>IF-V006:</strong> Estado del sistema (ATP → CTC)</li>
+<li><strong>IF-V007:</strong> Configuración (CTC → ATP)</li>
+<li><strong>IF-V008:</strong> Logs y trazabilidad (ATP → CTC)</li>
+</ul>
+<h3 id="gestión-de-emergencias-virtual">10.3 Gestión de Emergencias
+Virtual</h3>
+<h4 id="procedimientos-de-emergencia-virtual">10.3.1 Procedimientos de
+Emergencia Virtual</h4>
+<ul>
+<li><strong>Parada de Emergencia:</strong> Comando inmediato via
+ATP</li>
+<li><strong>Evacuación:</strong> Procedimientos de evacuación
+virtual</li>
+<li><strong>Comunicación:</strong> Enlaces TETRA + GSM-R de
+emergencia</li>
+<li><strong>Coordinación:</strong> Integración con servicios de
+emergencia</li>
+</ul>
+<h4 id="modos-de-operación-virtual">10.3.2 Modos de Operación
+Virtual</h4>
+<ul>
+<li><strong>Normal:</strong> Operación virtual estándar</li>
+<li><strong>Degradado:</strong> Operación virtual con limitaciones</li>
+<li><strong>Emergencia:</strong> Procedimientos de emergencia
+virtual</li>
+<li><strong>Mantenimiento:</strong> Modo de mantenimiento virtual</li>
+</ul>
+<hr />
+<h2 id="seguridad-y-confiabilidad-virtual">11. SEGURIDAD Y CONFIABILIDAD
+VIRTUAL</h2>
+<h3 id="seguridad-funcional-virtual-en-501265012850129">11.1 Seguridad
+Funcional Virtual (EN 50126/50128/50129)</h3>
+<h4 id="objetivos-de-seguridad-virtual">11.1.1 Objetivos de Seguridad
+Virtual</h4>
+<ul>
+<li><strong>SIL 4:</strong> Funciones críticas de seguridad virtual</li>
+<li><strong>SIL 3:</strong> Funciones de control virtual</li>
+<li><strong>SIL 2:</strong> Funciones de supervisión virtual</li>
+<li><strong>SIL 1:</strong> Funciones auxiliares virtuales</li>
+</ul>
+<h4 id="arquitectura-de-seguridad-virtual">11.1.2 Arquitectura de
+Seguridad Virtual</h4>
+<ul>
+<li><strong>Redundancia Virtual:</strong> 2oo3 en componentes
+críticos</li>
+<li><strong>Diversidad Virtual:</strong> Diferentes tecnologías
+virtuales</li>
+<li><strong>Aislamiento Virtual:</strong> Separación física y
+lógica</li>
+<li><strong>Monitoreo Virtual:</strong> Supervisión continua
+virtual</li>
+</ul>
+<h3 id="ciberseguridad-virtual-iec-62443">11.2 Ciberseguridad Virtual
+(IEC 62443)</h3>
+<h4 id="zonas-de-seguridad-virtual">11.2.1 Zonas de Seguridad
+Virtual</h4>
+<ul>
+<li><strong>Zona 0:</strong> Red de control crítico virtual</li>
+<li><strong>Zona 1:</strong> Red de supervisión virtual</li>
+<li><strong>Zona 2:</strong> Red administrativa virtual</li>
+<li><strong>Zona 3:</strong> Red externa virtual</li>
+</ul>
+<hr />
+<h2 id="integración-y-comunicaciones-virtuales">12. INTEGRACIÓN Y
+COMUNICACIONES VIRTUALES</h2>
+<h3 id="integración-atp-embarcado-1">12.1 Integración ATP Embarcado</h3>
+<h4 id="protocolo-directo-ctc-atp">12.1.1 Protocolo Directo CTC-ATP</h4>
+<ul>
+<li><strong>Comunicación Bidireccional:</strong> CTC ↔︎ ATP (sin
+RBC)</li>
+<li><strong>Tiempo Real:</strong> Latencia &lt; 100ms</li>
+<li><strong>Redundancia:</strong> TETRA + GSM-R (37 estaciones)</li>
+<li><strong>Seguridad:</strong> Cifrado end-to-end</li>
+</ul>
+<h4 id="interfaces-virtuales-1">12.1.2 Interfaces Virtuales</h4>
+<ul>
+<li><strong>Interface ATP:</strong> Comunicación directa con 15
+locomotoras</li>
+<li><strong>Interface ENCE:</strong> Control de 5 enclavamientos
+electrónicos</li>
+<li><strong>Interface EOT:</strong> Integración con 15 dispositivos End
+of Train</li>
+</ul>
+<h3 id="integración-ence-5-estaciones">12.2 Integración ENCE (5
+Estaciones)</h3>
+<h4 id="enclavamientos-electrónicos">12.2.1 Enclavamientos
+Electrónicos</h4>
+<ul>
+<li><strong>ENCE Zapatosa:</strong> Interlocking Controller vital</li>
+<li><strong>ENCE García Cadena:</strong> Interlocking Controller
+vital</li>
+<li><strong>ENCE Barrancabermeja:</strong> Interlocking Controller
+vital</li>
+<li><strong>ENCE Puerto Berrío-Grecia:</strong> Interlocking Controller
+vital</li>
+<li><strong>ENCE La Dorada-México:</strong> Interlocking Controller
+vital</li>
+</ul>
+<h4 id="control-ctc-ence">12.2.2 Control CTC-ENCE</h4>
+<ul>
+<li><strong>Control Directo:</strong> CTC → ENCE (sin RBC)</li>
+<li><strong>Estado en Tiempo Real:</strong> ENCE → CTC</li>
+<li><strong>Redundancia:</strong> Comunicación redundante</li>
+<li><strong>Seguridad:</strong> SIL 4 en funciones críticas</li>
+</ul>
+<h3 id="integración-pasos-a-nivel-24-activos">12.3 Integración Pasos a
+Nivel (24 Activos)</h3>
+<h4 id="tipos-de-pasos-a-nivel">12.3.1 Tipos de Pasos a Nivel</h4>
+<ul>
+<li><strong>Tipo C:</strong> 9 pasos a nivel con barreras
+automáticas</li>
+<li><strong>Tipo B:</strong> 15 pasos a nivel con semáforos y barreras
+manuales</li>
+<li><strong>Control CTC:</strong> Supervisión y control desde CTC
+virtual</li>
+<li><strong>Comunicación:</strong> Integración con ATP embarcado</li>
+</ul>
+<h3
+id="bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001">12.4
+Bloque Lógico de Integración Multi-sistema ⭐ <strong>NUEVO
+(DT-INTERFACES-001)</strong></h3>
+<h4 id="descripción-del-bloque-ítem-wbs-1.1.106---150m-cop">12.4.1
+Descripción del Bloque (Ítem WBS 1.1.106 - $150M COP)</h4>
+<p>Este ítem representa un <strong>bloque lógico de
+integración</strong>, NO un hardware físico único, sino un conjunto
+funcional que conecta el CTC virtual con todos los subsistemas del
+proyecto.</p>
+<p><strong>Composición del bloque:</strong> - <strong>Gateways
+industriales:</strong> Conversión de protocolos entre sistemas
+heterogéneos - <strong>Switches de borde ferroviario:</strong>
+Segmentación de red por subsistema - <strong>Firewalls IEC
+62443:</strong> Ciberseguridad industrial (Security Level SL-3) -
+<strong>Middleware interoperabilidad:</strong> Protocolo UIC 918-4 para
+integración con FENOCO - <strong>Licencias software SCADA:</strong>
+Gestión de comunicaciones y visualización de interfaces</p>
+<h4 id="interfaces-que-soporta">12.4.2 Interfaces que Soporta</h4>
+<ol type="1">
+<li><strong>CTC ↔︎ ITCS/ETCS Nivel 2</strong>
+<ul>
+<li>Intercambio de telegramas de movimiento</li>
+<li>Datos de ocupación de vía desde RBC</li>
+<li>Autorizaciones de Movimiento (MA)</li>
+</ul></li>
+<li><strong>CTC ↔︎ FENOCO (Interoperabilidad)</strong>
+<ul>
+<li>Gateway UIC con protocolo 918-4</li>
+<li>Intercambio de información operativa</li>
+<li>Sincronización de estados de vía</li>
+</ul></li>
+<li><strong>CTC ↔︎ TETRA</strong>
+<ul>
+<li>Canal de voz para comunicaciones tren-tierra</li>
+<li>Canal de datos para telemetría</li>
+<li>Redundancia de comunicaciones críticas</li>
+</ul></li>
+<li><strong>CTC ↔︎ Fibra Óptica</strong>
+<ul>
+<li>Backbone redundante N+1 del corredor</li>
+<li>Conexión de 526 km de infraestructura</li>
+<li>Alta disponibilidad 99.95%</li>
+</ul></li>
+<li><strong>CTC ↔︎ Sistemas ITS</strong>
+<ul>
+<li>CCTV (73 cámaras)</li>
+<li>Control de acceso (estaciones y talleres)</li>
+<li>Detección de intrusión perimetral</li>
+</ul></li>
+</ol>
+<h4 id="arquitectura-de-redundancia-n1">12.4.3 Arquitectura de
+Redundancia N+1</h4>
+<ul>
+<li><strong>Redundancia de gateways:</strong> 2 gateways activos + 1
+standby</li>
+<li><strong>Redundancia de comunicaciones:</strong> TETRA primario +
+GSM-R respaldo</li>
+<li><strong>Failover automático:</strong> &lt;1 segundo en caso de
+falla</li>
+<li><strong>Monitoreo continuo:</strong> SCADA supervisa salud de
+interfaces</li>
+</ul>
+<h4 id="alcance-del-presupuesto-150.000.000-cop">12.4.4 Alcance del
+Presupuesto ($150.000.000 COP)</h4>
+<p><strong>Incluye:</strong> - Licencias de integración (protocolos,
+software middleware) - Configuración de interfaces y redundancia N+1 -
+Ensayos FAT/SAT de interoperabilidad - Integración en entorno virtual
+(CTC virtual + ETCS L2)</p>
+<p><strong>NO incluye:</strong> - Equipos físicos mayores (ya cubiertos
+en ítems 1.1.100-1.1.105) - Infraestructura de fibra óptica (ítem 1.1.3)
+- Equipos de potencia (ítem separado)</p>
+<h4 id="riesgos-mitigados">12.4.5 Riesgos Mitigados</h4>
+<ul>
+<li>✅ <strong>R-INT-001:</strong> Falta de trazabilidad en integración
+de sistemas (MITIGADO)</li>
+<li>✅ <strong>R-INT-002:</strong> Ambigüedad en alcance de interfaces
+(MITIGADO)</li>
+</ul>
+<p><strong>Decisión Técnica:</strong> DT-INTERFACES-001-2025-10-09</p>
+<hr />
+<h2 id="operación-y-mantenimiento-virtual">13. OPERACIÓN Y MANTENIMIENTO
+VIRTUAL</h2>
+<h3 id="procedimientos-de-operación-virtual">13.1 Procedimientos de
+Operación Virtual</h3>
+<h4 id="operación-normal-virtual">13.1.1 Operación Normal Virtual</h4>
+<ul>
+<li><strong>Inicio del Sistema:</strong> Arranque del CTC virtual</li>
+<li><strong>Control de Tráfico:</strong> Gestión virtual de trenes</li>
+<li><strong>Supervisión:</strong> Monitoreo virtual continuo</li>
+<li><strong>Cierre del Sistema:</strong> Procedimientos de parada
+virtual</li>
+</ul>
+<h4 id="procedimientos-de-emergencia-virtual-1">13.1.2 Procedimientos de
+Emergencia Virtual</h4>
+<ul>
+<li><strong>Parada de Emergencia:</strong> Comando inmediato via
+ATP</li>
+<li><strong>Evacuación:</strong> Procedimientos virtuales de
+evacuación</li>
+<li><strong>Comunicación de Emergencia:</strong> Enlaces TETRA +
+GSM-R</li>
+<li><strong>Coordinación:</strong> Integración con servicios de
+emergencia</li>
+</ul>
+<h3 id="mantenimiento-virtual">13.2 Mantenimiento Virtual</h3>
+<h4 id="mantenimiento-preventivo-virtual">13.2.1 Mantenimiento
+Preventivo Virtual</h4>
+<ul>
+<li><strong>Inspecciones CTC:</strong> Monitoreo del centro de control
+virtual</li>
+<li><strong>Pruebas ATP:</strong> Validación de sistemas embarcados</li>
+<li><strong>Mantenimiento ENCE:</strong> Enclavamientos
+electrónicos</li>
+<li><strong>Calibración Virtual:</strong> Sistemas de comunicación</li>
+</ul>
+<h4 id="mantenimiento-correctivo-virtual">13.2.2 Mantenimiento
+Correctivo Virtual</h4>
+<ul>
+<li><strong>Diagnóstico CTC:</strong> Fallas del centro de control
+virtual</li>
+<li><strong>Reparación ATP:</strong> Sistemas embarcados en
+locomotoras</li>
+<li><strong>Mantenimiento ENCE:</strong> Enclavamientos
+electrónicos</li>
+<li><strong>Pruebas Post-Reparación:</strong> Validación de
+funcionamiento virtual</li>
+</ul>
+<hr />
+<h2 id="pruebas-y-validación-virtual">14. PRUEBAS Y VALIDACIÓN
+VIRTUAL</h2>
+<h3 id="pruebas-de-componentes-virtuales">14.1 Pruebas de Componentes
+Virtuales</h3>
+<h4 id="pruebas-ctc-virtual">14.1.1 Pruebas CTC Virtual</h4>
+<ul>
+<li><strong>Pruebas de Fábrica (FAT):</strong> CTC virtual</li>
+<li><strong>Pruebas de Recepción:</strong> Sistemas virtuales</li>
+<li><strong>Pruebas de Instalación:</strong> Centro de control
+virtual</li>
+<li><strong>Pruebas de Funcionamiento:</strong> Operación virtual</li>
+</ul>
+<h4 id="pruebas-atp-embarcado">14.1.2 Pruebas ATP Embarcado</h4>
+<ul>
+<li><strong>Pruebas de Fábrica (FAT):</strong> ATP embarcado</li>
+<li><strong>Pruebas de Instalación:</strong> Sistemas embarcados</li>
+<li><strong>Pruebas de Integración:</strong> CTC-ATP</li>
+<li><strong>Pruebas de Funcionamiento:</strong> Operación embarcada</li>
+</ul>
+<h3 id="pruebas-de-sistema-virtual">14.2 Pruebas de Sistema Virtual</h3>
+<h4 id="pruebas-de-integración-virtual">14.2.1 Pruebas de Integración
+Virtual</h4>
+<ul>
+<li><strong>CTC-ATP:</strong> Integración directa sin RBC</li>
+<li><strong>CTC-ENCE:</strong> Integración con enclavamientos</li>
+<li><strong>CTC-EOT:</strong> Integración con End of Train</li>
+<li><strong>Comunicaciones:</strong> TETRA + GSM-R</li>
+</ul>
+<h4 id="pruebas-de-rendimiento-virtual">14.2.2 Pruebas de Rendimiento
+Virtual</h4>
+<ul>
+<li><strong>Latencia:</strong> &lt; 100ms CTC-ATP</li>
+<li><strong>Disponibilidad:</strong> 99.95% según AT4</li>
+<li><strong>Capacidad:</strong> 15 trenes simultáneos</li>
+<li><strong>Redundancia:</strong> TETRA + GSM-R</li>
+</ul>
+<h3 id="validación-de-seguridad-virtual">14.3 Validación de Seguridad
+Virtual</h3>
+<h4 id="análisis-de-riesgos-virtual">14.3.1 Análisis de Riesgos
+Virtual</h4>
+<ul>
+<li><strong>Análisis de Riesgos:</strong> Sistemas virtuales</li>
+<li><strong>Validación de Funciones:</strong> Seguridad ferroviaria
+virtual</li>
+<li><strong>Pruebas de Disponibilidad:</strong> 99.95% según AT4</li>
+<li><strong>Certificación de Seguridad:</strong> Cumplimiento normativo
+virtual</li>
+</ul>
+<hr />
+<h2 id="entregables-virtuales">15. ENTREGABLES VIRTUALES</h2>
+<h3 id="documentación-técnica-virtual">15.1 Documentación Técnica
+Virtual</h3>
+<ul>
+<li><strong>Planos CTC:</strong> Centro de control virtual</li>
+<li><strong>Especificaciones ATP:</strong> Sistemas embarcados</li>
+<li><strong>Manuales ENCE:</strong> Enclavamientos electrónicos</li>
+<li><strong>Manuales Virtuales:</strong> Operación y mantenimiento</li>
+</ul>
+<h3 id="software-y-configuración-virtual">15.2 Software y Configuración
+Virtual</h3>
+<ul>
+<li><strong>Software CTC:</strong> Control virtual centralizado</li>
+<li><strong>Software ATP:</strong> Sistemas embarcados</li>
+<li><strong>Configuraciones ENCE:</strong> Enclavamientos
+electrónicos</li>
+<li><strong>Interfaces Virtuales:</strong> Sistemas de usuario</li>
+</ul>
+<h3 id="equipos-y-materiales-virtuales">15.3 Equipos y Materiales
+Virtuales</h3>
+<ul>
+<li><strong>Equipos CTC:</strong> Centro de control virtual</li>
+<li><strong>Equipos ATP:</strong> Sistemas embarcados</li>
+<li><strong>Equipos ENCE:</strong> Enclavamientos electrónicos</li>
+<li><strong>Cables y Accesorios:</strong> Sistemas de comunicación
+virtual</li>
+</ul>
+<hr />
+<h2 id="cronograma-de-implementación-virtual">16. CRONOGRAMA DE
+IMPLEMENTACIÓN VIRTUAL</h2>
+<h3 id="fases-del-proyecto-virtual">16.1 Fases del Proyecto Virtual</h3>
+<ul>
+<li><strong>Fase 1:</strong> CTC Virtual (2 meses)</li>
+<li><strong>Fase 2:</strong> ATP Embarcado (3 meses)</li>
+<li><strong>Fase 3:</strong> ENCE + Pasos a Nivel (4 meses)</li>
+<li><strong>Fase 4:</strong> Pruebas Virtuales (2 meses)</li>
+<li><strong>Fase 5:</strong> Puesta en Servicio (1 mes)</li>
+</ul>
+<h3 id="hitos-principales-virtuales">16.2 Hitos Principales
+Virtuales</h3>
+<ul>
+<li><strong>CCO La Dorada:</strong> Centro de control virtual
+completado</li>
+<li><strong>ATP Embarcado:</strong> Sistemas en 15 locomotoras</li>
+<li><strong>ENCE Instalados:</strong> 5 enclavamientos electrónicos</li>
+<li><strong>Pruebas Virtuales:</strong> Validación completa</li>
+<li><strong>Puesta en Servicio:</strong> Operación comercial
+virtual</li>
+</ul>
+<hr />
+<h2 id="gestión-de-calidad-virtual">17. GESTIÓN DE CALIDAD VIRTUAL</h2>
+<h3 id="control-de-calidad-virtual">17.1 Control de Calidad Virtual</h3>
+<ul>
+<li><strong>Inspecciones CTC:</strong> Centro de control virtual</li>
+<li><strong>Pruebas ATP:</strong> Sistemas embarcados</li>
+<li><strong>Validación ENCE:</strong> Enclavamientos electrónicos</li>
+<li><strong>Certificados Virtuales:</strong> Documentación de
+calidad</li>
+</ul>
+<h3 id="gestión-de-cambios-virtuales">17.2 Gestión de Cambios
+Virtuales</h3>
+<ul>
+<li><strong>Procedimientos Virtuales:</strong> Cambios en sistemas
+virtuales</li>
+<li><strong>Control de Versiones:</strong> Software y configuración
+virtual</li>
+<li><strong>Aprobaciones Virtuales:</strong> Cambios de sistema
+virtual</li>
+<li><strong>Documentación Virtual:</strong> Registro de cambios
+virtuales</li>
+</ul>
+<hr />
+<h2 id="referencias-y-documentación">18. REFERENCIAS Y
+DOCUMENTACIÓN</h2>
+<h3 id="documentos-del-proyecto-actualizados">18.1 Documentos del
+Proyecto Actualizados</h3>
+<ul>
+<li><strong><code>CRITERIOS_TECNICOS_MAESTRO_v1.0.md</code>:</strong>
+Filosofía virtual</li>
+<li><strong><code>AT1_Alcance_del_Proyecto_MEJORADO_v5.20.md</code>:</strong>
+Alcance actualizado</li>
+<li><strong><code>29_Sistema_Senalizacion_Integrado_v5.20.md</code>:</strong>
+Filosofía virtual</li>
+<li><strong><code>V.1_Señalizacion_Ferroviaria_Detalle_v5.20.md</code>:</strong>
+Filosofía virtual implementada</li>
+</ul>
+<h3 id="referencias-del-proyecto">18.2 Referencias del Proyecto</h3>
+<ul>
+<li><strong><code>@@Roadmap_v12.0_Marco_Gestion_Consolidado.md</code>:</strong>
+Estado del proyecto</li>
+<li><strong><code>AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md</code>:</strong>
+Análisis de desalineación</li>
+<li><strong><code>23_ListadoMaestro_Sistemas_v5.20.md</code>:</strong>
+Inventario actualizado</li>
+</ul>
+<hr />
+<h2 id="impacto-presupuestal-de-ctc-virtual">19. IMPACTO PRESUPUESTAL DE
+CTC VIRTUAL</h2>
+<h3 id="eliminaciones-sobrepresupuesto">19.1 Eliminaciones
+(Sobrepresupuesto)</h3>
+<ul>
+<li><strong>RBC:</strong> -$2,000,000,000 COP</li>
+<li><strong>Eurobalises:</strong> -$40,000,000,000 COP</li>
+<li><strong>Señales LED vía:</strong> -$12,000,000,000 COP</li>
+<li><strong>LEU:</strong> -$10,000,000,000 COP</li>
+<li><strong>TOTAL ELIMINAR:</strong> -$64,000,000,000 COP</li>
+</ul>
+<h3 id="implementaciones-nuevas-faltante">19.2 Implementaciones Nuevas
+(Faltante)</h3>
+<ul>
+<li><strong>GSM-R:</strong> +$3,484,000,000 COP</li>
+<li><strong>EOT:</strong> +$520,000,000 COP</li>
+<li><strong>ENCE:</strong> +$6,020,000,000 COP</li>
+<li><strong>Desvíos:</strong> +$3,783,000,000 COP</li>
+<li><strong>TOTAL AGREGAR:</strong> +$13,807,000,000 COP</li>
+</ul>
+<h3 id="impacto-neto-total">19.3 Impacto Neto Total</h3>
+<p><strong>IMPACTO NETO:</strong> -$50,193,000,000 COP</p>
+<hr />
+<h2 id="gestión-de-cambios-v5.20">20. GESTIÓN DE CAMBIOS v5.20</h2>
+<h3 id="control-de-cambios-implementados">20.1 Control de Cambios
+Implementados</h3>
+<p><strong>Cambios implementados:</strong> - ✅ Eliminación completa de
+RBC (2 unidades) - ✅ Eliminación completa de interfaces eurobalises -
+✅ Eliminación completa de interfaces señales físicas - ✅
+Implementación de CTC como sistema principal - ✅ Implementación de
+interfaces ATP embarcado - ✅ Implementación de interfaces ENCE (5
+estaciones) - ✅ Verificación de coherencia técnica 100%</p>
+<h3 id="trazabilidad-de-cambios">20.2 Trazabilidad de Cambios</h3>
+<ul>
+<li><strong>Documento origen:</strong>
+CRITERIOS_TECNICOS_MAESTRO_v1.0.md</li>
+<li><strong>Auditoría base:</strong>
+AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md</li>
+<li><strong>Fecha de alineación:</strong> Enero 2025</li>
+<li><strong>Responsable:</strong> Administrador Contractual EPC</li>
+<li><strong>Impacto presupuestal:</strong> -$50,193,000,000 COP (Cambio
+de filosofía)</li>
+<li><strong>Metodología aplicada:</strong> v5.20 - Coherencia Técnica
+Verificada</li>
+</ul>
+<h3 id="próxima-revisión">20.3 Próxima Revisión</h3>
+<p><strong>Criterios para v6.0:</strong> - Completar actualización de
+todos los documentos dependientes - Validar coherencia cruzada en todo
+el ecosistema - Generar presupuesto definitivo alineado - Aprobación
+formal de cambios</p>
+<hr />
+<h2 id="recomendaciones-para-gestión-de-riesgos">21. RECOMENDACIONES
+PARA GESTIÓN DE RIESGOS</h2>
+<h3 id="técnicas"><strong>Técnicas</strong></h3>
+<ul>
+<li>Mantener coherencia con Criterios Técnicos Maestros</li>
+<li>Validar interfaces entre sistemas virtuales</li>
+<li>Verificar disponibilidad de comunicaciones</li>
+</ul>
+<h3 id="contractuales"><strong>Contractuales</strong></h3>
+<ul>
+<li>Cumplir especificaciones del contrato</li>
+<li>Mantener trazabilidad documental</li>
+<li>Validar con interventoría</li>
+</ul>
+<h3 id="operacionales"><strong>Operacionales</strong></h3>
+<ul>
+<li>Planificar mantenimiento preventivo de sistemas embarcados</li>
+<li>Capacitar personal operativo en sistemas virtuales</li>
+<li>Establecer procedimientos de emergencia para fallas de
+comunicaciones</li>
+</ul>
+<hr />
+<p><strong>Estado del documento:</strong> ✅ Completado - Enero
+2025<br />
+<strong>Versión:</strong> 5.0 - Coherencia Técnica Verificada ⭐<br />
+<strong>Responsable:</strong> Administrador Contractual EPC<br />
+<strong>Próxima actualización:</strong> Según completitud de documentos
+dependientes</p>
+<hr />
+<p><strong>Este documento es VIVO y debe actualizarse conforme se
+complete la corrección documental masiva.</strong></p>
+<p><strong>Próximo paso:</strong> Actualizar
+V.3_Sistemas_Comunicacion_Detalle.md (Comunicaciones detalle)</p>
+<hr />
+<h2 id="advertencia-legal">⚠️ ADVERTENCIA LEGAL</h2>
+<p>Esta información es únicamente de carácter informativo y contractual.
+Se recomienda su validación por la Interventoría y el equipo jurídico
+antes de ser utilizada formalmente.</p>
+<hr />
+<h2 id="historial-de-actualizaciones">HISTORIAL DE ACTUALIZACIONES</h2>
+<ul>
+<li>2025-10-09 10:46:06 Actualizado por DT-ENCE-004-2025-10-07</li>
+<li>2025-10-09 10:46:06 Actualizado por DT-ENCE-003-2025-10-07</li>
+<li>2025-10-09 10:46:05 Actualizado por DT-ENCE-002-2025-10-07</li>
+<li>2025-10-09 10:46:05 Actualizado por DT-ENCE-001-2025-10-07</li>
+<li>2025-10-09 10:07:12 Actualizado por DT-ENCE-004-2025-10-07</li>
+<li>2025-10-09 10:07:12 Actualizado por DT-ENCE-003-2025-10-07</li>
+<li>2025-10-09 10:07:12 Actualizado por DT-ENCE-002-2025-10-07</li>
+<li>2025-10-09 10:07:12 Actualizado por DT-ENCE-001-2025-10-07</li>
+<li>2025-10-09 10:04:05 Actualizado por DT-ENCE-004-2025-10-07</li>
+<li>2025-10-09 10:04:05 Actualizado por DT-ENCE-003-2025-10-07</li>
+<li>2025-10-09 10:04:05 Actualizado por DT-ENCE-002-2025-10-07</li>
+<li>2025-10-09 10:04:05 Actualizado por DT-ENCE-001-2025-10-07</li>
+<li>2025-10-09 09:42:59 Actualizado por DT-ENCE-004-2025-10-07</li>
+<li>2025-10-09 09:42:59 Actualizado por DT-ENCE-003-2025-10-07</li>
+<li>2025-10-09 09:42:59 Actualizado por DT-ENCE-002-2025-10-07</li>
+<li>2025-10-09 09:42:59 Actualizado por DT-ENCE-001-2025-10-07</li>
+<li>2025-10-09 09:33:20 Actualizado por DT-ENCE-004-2025-10-07</li>
+<li>2025-10-09 09:33:20 Actualizado por DT-ENCE-003-2025-10-07</li>
+<li>2025-10-09 09:33:20 Actualizado por DT-ENCE-002-2025-10-07</li>
+<li>2025-10-09 09:33:20 Actualizado por DT-ENCE-001-2025-10-07</li>
+</ul>
+</body>
+</html>

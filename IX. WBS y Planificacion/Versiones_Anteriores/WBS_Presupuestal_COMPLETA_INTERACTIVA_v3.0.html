@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBS Presupuestal COMPLETA Interactiva v3.0 - APP La Dorada-Chiriguaná</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .filtros {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .filtro-btn {
+            padding: 8px 16px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .filtro-btn:hover {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+        
+        .filtro-btn.activo {
+            background: #28a745;
+            color: white;
+            border-color: #28a745;
+        }
+        
+        .item-card {
+            margin: 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            transition: all 0.3s;
+        }
+        
+        .item-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+        
+        .item-header {
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .item-codigo {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .item-modificable {
+            background: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        .item-no-modificable {
+            background: #6c757d;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        .item-body {
+            padding: 20px;
+        }
+        
+        .item-descripcion {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .item-valores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        
+        .valor-box {
+            text-align: center;
+        }
+        
+        .valor-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        
+        .valor-dato {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .seccion {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f1f3f5;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        
+        .seccion-titulo {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .seccion-contenido {
+            color: #495057;
+            line-height: 1.6;
+        }
+        
+        .seccion-contenido ul {
+            list-style-position: inside;
+            margin-top: 8px;
+        }
+        
+        .riesgo-badge {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        
+        .riesgo-item {
+            background: white;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border-left: 4px solid #dc3545;
+        }
+        
+        .riesgo-id {
+            font-weight: bold;
+            color: #dc3545;
+        }
+        
+        .botones-accion {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-ajustar {
+            background: #28a745;
+            color: white;
+        }
+        
+        .btn-ajustar:hover {
+            background: #218838;
+        }
+        
+        .btn-precio {
+            background: #ffc107;
+            color: #212529;
+        }
+        
+        .btn-precio:hover {
+            background: #e0a800;
+        }
+        
+        .btn-desglose {
+            background: #17a2b8;
+            color: white;
+        }
+        
+        .btn-desglose:hover {
+            background: #138496;
+        }
+        
+        .btn-dt {
+            background: #6610f2;
+            color: white;
+        }
+        
+        .btn-dt:hover {
+            background: #520dc2;
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 0;
+            border: none;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .modal-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #f8f9fa;
+        }
+        
+        .modal-body {
+            padding: 30px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        
+        textarea.form-control {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .nivel-1 { margin-left: 0; }
+        .nivel-2 { margin-left: 20px; }
+        .nivel-3 { margin-left: 40px; }
+        
+        .stats-bar {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        
+        .sugerencia-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 10px;
+        }
+        
+        .sugerencia-titulo {
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 WBS PRESUPUESTAL COMPLETA INTERACTIVA v3.0</h1>
+            <p>APP La Dorada-Chiriguaná | Todos los ítems con Criterios Técnicos y Gestión de Cambios</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-value" id="total-items">0</div>
+                <div class="stat-label">ÍTEMS TOTALES</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-modificables">0</div>
+                <div class="stat-label">MODIFICABLES</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-riesgos">0</div>
+                <div class="stat-label">RIESGOS ASOCIADOS</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-presupuesto">$0</div>
+                <div class="stat-label">PRESUPUESTO TOTAL</div>
+            </div>
+        </div>
+
+        <div class="filtros">
+            <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
+            <button class="filtro-btn" onclick="filtrarItems('modificables')">✅ Modificables</button>
+            <button class="filtro-btn" onclick="filtrarItems('no-modificables')">🔒 No Modificables</button>
+            <button class="filtro-btn" onclick="filtrarItems('con-riesgos')">⚠️ Con Riesgos</button>
+            <button class="filtro-btn" onclick="filtrarItems('fibra')">🌐 Fibra Óptica</button>
+            <button class="filtro-btn" onclick="filtrarItems('tetra')">📡 TETRA</button>
+            <button class="filtro-btn" onclick="filtrarItems('gsm')">📱 GSM-R</button>
+        </div>
+
+        <div id="wbs-container">
+            <!-- Los ítems se cargan aquí dinámicamente -->
+        </div>
+    </div>
+
+    <!-- Modal Universal de Ajuste -->
+    <div id="modalAjuste" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="cerrarModal()">&times;</span>
+                <h2 id="modal-titulo">Ajustar Ítem</h2>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // BASE DE DATOS WBS (Integrada directamente)
+        const wbsData = {
+            items: [
+                {
+                    codigo: "1.1.1",
+                    nivel: 3,
+                    descripcion: "Cable FO LPOC03120484ZC - 48 fibras G.652D",
+                    unidad: "km",
+                    cantidad: 594,
+                    vu_cop: 9811013,
+                    total_cop: 5827741722,
+                    tipo: "SUMINISTRO",
+                    modificable: false,
+                    categoria: "fibra",
+                    criterio_tecnico: {
+                        justificacion: "Longitud corredor La Dorada-Chiriguaná según AT1",
+                        fuente: "AT1 - Alcance del Proyecto, Sección 2.1",
+                        normas: ["UIT-T G.652.D"],
+                        calculo: "594 km corredor + 0% reserva (valor contractual)",
+                        restriccion: "No modificable - Obligación contractual AT1"
+                    },
+                    riesgos_asociados: [
+                        {
+                            id: "R-FIBRA-001",
+                            descripcion: "Longitud insuficiente si hay cambios de ruta",
+                            probabilidad: "Baja",
+                            impacto: "Alto"
+                        }
+                    ],
+                    archivos_relacionados: [
+                        "III/28_Sistema_FibraOptica_Integrado.md (Sección 2.1)",
+                        "V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.1)"
+                    ]
+                },
+                {
+                    codigo: "1.1.2",
+                    nivel: 3,
+                    descripcion: "Empalmes y conectores",
+                    unidad: "GL",
+                    cantidad: 1,
+                    vu_cop: 150000000,
+                    total_cop: 150000000,
+                    tipo: "SUMINISTRO",
+                    modificable: true,
+                    categoria: "fibra",
+                    criterio_tecnico: {
+                        justificacion: "Global estimado para conectores, splitters y empalmes de campo",
+                        fuente: "Estimación técnica basada en 594 km",
+                        normas: ["UIT-T L.50"],
+                        calculo: "Estimación: $150M para ~6,000 fusiones de campo + conectores + splitters",
+                        desglose: [
+                            "Conectores SC/APC: ~500 unidades × $50,000 = $25M",
+                            "Splitters 1:8: ~100 unidades × $200,000 = $20M",
+                            "Empalmes campo: ~6,000 × $15,000 = $90M",
+                            "Accesorios varios: $15M"
+                        ],
+                        restriccion: "Modificable si se ajusta desglose"
+                    },
+                    riesgos_asociados: [
+                        {
+                            id: "R-FIBRA-010",
+                            descripcion: "Estimación global puede ser insuficiente si aumentan fusiones de campo",
+                            probabilidad: "Media",
+                            impacto: "Medio"
+                        },
+                        {
+                            id: "R-FIBRA-011",
+                            descripcion: "Falta detalle técnico puede generar confusión en compras",
+                            probabilidad: "Alta",
+                            impacto: "Medio"
+                        }
+                    ],
+                    archivos_relacionados: [
+                        "V.3_Sistemas_Comunicacion_Detalle.md (Sección 5.4)",
+                        "IV/37_Memorias_Diseno_Basico.md (Anexo C)"
+                    ],
+                    sugerencias_mejora: [
+                        "Desglosar en ítems específicos (conectores, splitters, empalmes)",
+                        "Validar cantidad con diseño detallado de fusiones",
+                        "Agregar reserva 10% para imprevistos"
+                    ]
+                },
+                {
+                    codigo: "1.1.3",
+                    nivel: 3,
+                    descripcion: "Cajas de empalme y distribución 80x80",
+                    unidad: "UND",
+                    cantidad: 2068,
+                    vu_cop: 1350000,
+                    total_cop: 2791800000,
+                    tipo: "SUMINISTRO",
+                    modificable: true,
+                    categoria: "fibra",
+                    criterio_tecnico: {
+                        justificacion: "Espaciamiento 300m según UIT-T + 88 nodos críticos",
+                        fuente: "UIT-T G.652.D + Diseño OSP",
+                        normas: ["UIT-T G.652.D (máx 500m)"],
+                        calculo: "594,000m ÷ 300m = 1,980 base + 88 nodos críticos = 2,068 total",
+                        desglose: [
+                            "Cajas backbone: 1,980 unidades (cada 300m)",
+                            "Cajas en estaciones: 37 unidades (Torres TETRA/GSM-R)",
+                            "Cajas en subestaciones: 15 unidades",
+                            "Cajas en cruces críticos: 36 unidades"
+                        ],
+                        restriccion: "Modificable si espaciamiento cambia (límite UIT-T: 500m)"
+                    },
+                    riesgos_asociados: [
+                        {
+                            id: "R-FIBRA-003",
+                            descripcion: "Espaciamiento muy corto aumenta CAPEX",
+                            probabilidad: "Alta",
+                            impacto: "Alto"
+                        },
+                        {
+                            id: "R-FIBRA-006",
+                            descripcion: "Si se reduce espaciamiento, aumenta tiempo localización fallas",
+                            probabilidad: "Baja",
+                            impacto: "Medio"
+                        }
+                    ],
+                    items_dependientes: ["1.1.5", "1.1.10", "1.1.13"],
+                    archivos_relacionados: [
+                        "V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.3)",
+                        "III/28_Sistema_FibraOptica_Integrado.md (Sección 2.2)"
+                    ]
+                }
+            ]
+        };
+
+        // CARGAR WBS
+        function cargarWBS() {
+            const container = document.getElementById('wbs-container');
+            container.innerHTML = '';
+            
+            let totalModificables = 0;
+            let totalRiesgos = 0;
+            let totalPresupuesto = 0;
+            
+            wbsData.items.forEach(item => {
+                const card = crearCardItem(item);
+                container.appendChild(card);
+                
+                if (item.modificable) totalModificables++;
+                totalRiesgos += item.riesgos_asociados?.length || 0;
+                totalPresupuesto += item.total_cop || 0;
+            });
+            
+            // Actualizar stats
+            document.getElementById('total-items').textContent = wbsData.items.length;
+            document.getElementById('total-modificables').textContent = totalModificables;
+            document.getElementById('total-riesgos').textContent = totalRiesgos;
+            document.getElementById('total-presupuesto').textContent = formatearPeso(totalPresupuesto);
+        }
+
+        function crearCardItem(item) {
+            const card = document.createElement('div');
+            card.className = `item-card nivel-${item.nivel}`;
+            card.dataset.modificable = item.modificable;
+            card.dataset.categoria = item.categoria;
+            card.dataset.tieneRiesgos = (item.riesgos_asociados?.length || 0) > 0;
+            
+            const criterio = item.criterio_tecnico || {};
+            const riesgos = item.riesgos_asociados || [];
+            const sugerencias = item.sugerencias_mejora || [];
+            
+            card.innerHTML = `
+                <div class="item-header">
+                    <div>
+                        <span class="item-codigo">${item.codigo}</span>
+                    </div>
+                    <div>
+                        ${item.modificable 
+                            ? '<span class="item-modificable">✅ MODIFICABLE</span>' 
+                            : '<span class="item-no-modificable">🔒 NO MODIFICABLE</span>'}
+                    </div>
+                </div>
+                
+                <div class="item-body">
+                    <div class="item-descripcion">${item.descripcion}</div>
+                    
+                    <div class="item-valores">
+                        <div class="valor-box">
+                            <div class="valor-label">Unidad</div>
+                            <div class="valor-dato">${item.unidad}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Cantidad</div>
+                            <div class="valor-dato">${formatearNumero(item.cantidad)}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">V/U (COP)</div>
+                            <div class="valor-dato">${formatearPeso(item.vu_cop)}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Total (COP)</div>
+                            <div class="valor-dato">${formatearPeso(item.total_cop)}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Tipo</div>
+                            <div class="valor-dato">${item.tipo}</div>
+                        </div>
+                    </div>
+                    
+                    ${criterio.justificacion ? `
+                        <div class="seccion">
+                            <div class="seccion-titulo">🎯 CRITERIO TÉCNICO</div>
+                            <div class="seccion-contenido">
+                                <strong>Justificación:</strong> ${criterio.justificacion}<br>
+                                <strong>Fuente:</strong> ${criterio.fuente}<br>
+                                ${criterio.normas ? `<strong>Normas:</strong> ${criterio.normas.join(', ')}<br>` : ''}
+                                <strong>Cálculo:</strong> ${criterio.calculo}<br>
+                                ${criterio.desglose ? `
+                                    <strong>Desglose:</strong>
+                                    <ul>
+                                        ${criterio.desglose.map(d => `<li>${d}</li>`).join('')}
+                                    </ul>
+                                ` : ''}
+                                ${criterio.restriccion ? `<strong>⚠️ Restricción:</strong> ${criterio.restriccion}` : ''}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    ${riesgos.length > 0 ? `
+                        <div class="seccion">
+                            <div class="seccion-titulo">
+                                ⚠️ RIESGOS ASOCIADOS
+                                <span class="riesgo-badge">${riesgos.length}</span>
+                            </div>
+                            <div class="seccion-contenido">
+                                ${riesgos.map(r => `
+                                    <div class="riesgo-item">
+                                        <span class="riesgo-id">${r.id}</span>: ${r.descripcion}<br>
+                                        <small>Probabilidad: ${r.probabilidad} | Impacto: ${r.impacto}</small>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    ${sugerencias.length > 0 ? `
+                        <div class="sugerencia-box">
+                            <div class="sugerencia-titulo">💡 SUGERENCIAS DE MEJORA</div>
+                            <ul>
+                                ${sugerencias.map(s => `<li>${s}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+                    
+                    ${item.modificable ? `
+                        <div class="botones-accion">
+                            <button class="btn btn-ajustar" onclick='abrirModalAjuste(${JSON.stringify(item)})'>
+                                📝 Ajustar Cantidad
+                            </button>
+                            <button class="btn btn-precio" onclick='abrirModalPrecio(${JSON.stringify(item)})'>
+                                💰 Ajustar Precio
+                            </button>
+                            ${criterio.desglose ? `
+                                <button class="btn btn-desglose" onclick='abrirModalDesglose(${JSON.stringify(item)})'>
+                                    📊 Proponer Desglose
+                                </button>
+                            ` : ''}
+                            <button class="btn btn-dt" onclick='abrirModalDT(${JSON.stringify(item)})'>
+                                📋 Crear Decisión Técnica
+                            </button>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function formatearPeso(valor) {
+            if (!valor) return '$0';
+            return '$' + valor.toLocaleString('es-CO');
+        }
+
+        function formatearNumero(valor) {
+            if (!valor) return '0';
+            return valor.toLocaleString('es-CO');
+        }
+
+        function filtrarItems(filtro) {
+            const cards = document.querySelectorAll('.item-card');
+            const botones = document.querySelectorAll('.filtro-btn');
+            
+            // Actualizar botones
+            botones.forEach(btn => btn.classList.remove('activo'));
+            event.target.classList.add('activo');
+            
+            cards.forEach(card => {
+                let mostrar = true;
+                
+                switch(filtro) {
+                    case 'todos':
+                        mostrar = true;
+                        break;
+                    case 'modificables':
+                        mostrar = card.dataset.modificable === 'true';
+                        break;
+                    case 'no-modificables':
+                        mostrar = card.dataset.modificable === 'false';
+                        break;
+                    case 'con-riesgos':
+                        mostrar = card.dataset.tieneRiesgos === 'true';
+                        break;
+                    case 'fibra':
+                        mostrar = card.dataset.categoria === 'fibra';
+                        break;
+                    case 'tetra':
+                        mostrar = card.dataset.categoria === 'tetra';
+                        break;
+                    case 'gsm':
+                        mostrar = card.dataset.categoria === 'gsm';
+                        break;
+                }
+                
+                card.style.display = mostrar ? 'block' : 'none';
+            });
+        }
+
+        function abrirModalAjuste(item) {
+            const modal = document.getElementById('modalAjuste');
+            const titulo = document.getElementById('modal-titulo');
+            const body = document.getElementById('modal-body');
+            
+            titulo.textContent = `Ajustar Cantidad: ${item.codigo} - ${item.descripcion}`;
+            
+            body.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Cantidad Actual: ${formatearNumero(item.cantidad)} ${item.unidad}</label>
+                    <input type="number" id="nueva-cantidad" class="form-control" value="${item.cantidad}" placeholder="Nueva cantidad">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación del Cambio:</label>
+                    <textarea id="justificacion-cambio" class="form-control" placeholder="Explica por qué propones este cambio..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Análisis de Impacto:</label>
+                    <div id="analisis-impacto" style="background: #f8f9fa; padding: 15px; border-radius: 6px;">
+                        <em>Ingresa nueva cantidad y justificación para ver el análisis...</em>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-ajustar" onclick="analizarCambio('${item.codigo}')">🔍 Analizar Impacto</button>
+                    <button class="btn btn-dt" onclick="generarDT('${item.codigo}')">📋 Generar DT</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function abrirModalPrecio(item) {
+            const modal = document.getElementById('modalAjuste');
+            const titulo = document.getElementById('modal-titulo');
+            const body = document.getElementById('modal-body');
+            
+            titulo.textContent = `Ajustar Precio: ${item.codigo} - ${item.descripcion}`;
+            
+            body.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Precio Unitario Actual: ${formatearPeso(item.vu_cop)} COP</label>
+                    <input type="number" id="nuevo-precio" class="form-control" value="${item.vu_cop}" placeholder="Nuevo precio unitario">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación del Cambio:</label>
+                    <textarea id="justificacion-precio" class="form-control" placeholder="Explica por qué propones este cambio de precio..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Nuevo Total Estimado:</label>
+                    <div id="nuevo-total" style="font-size: 24px; font-weight: bold; color: #007bff;">
+                        ${formatearPeso(item.total_cop)}
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-ajustar" onclick="calcularNuevoTotal('${item.codigo}', ${item.cantidad})">💰 Calcular Total</button>
+                    <button class="btn btn-dt" onclick="generarDTPrecio('${item.codigo}')">📋 Generar DT</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+            
+            // Listener para actualizar total en tiempo real
+            document.getElementById('nuevo-precio').addEventListener('input', function() {
+                const nuevoPrecio = parseFloat(this.value) || 0;
+                const nuevoTotal = nuevoPrecio * item.cantidad;
+                document.getElementById('nuevo-total').textContent = formatearPeso(nuevoTotal);
+            });
+        }
+
+        function abrirModalDesglose(item) {
+            const modal = document.getElementById('modalAjuste');
+            const titulo = document.getElementById('modal-titulo');
+            const body = document.getElementById('modal-body');
+            
+            titulo.textContent = `Proponer Desglose: ${item.codigo} - ${item.descripcion}`;
+            
+            body.innerHTML = `
+                <p><strong>Desglose Actual (Estimado):</strong></p>
+                <ul>
+                    ${item.criterio_tecnico.desglose.map(d => `<li>${d}</li>`).join('')}
+                </ul>
+                
+                <div class="form-group">
+                    <label class="form-label">Propuesta de Ítems Específicos:</label>
+                    <textarea id="desglose-propuesto" class="form-control" rows="8" placeholder="Ejemplo:&#10;1.1.2.1 - Conectores SC/APC x 500 @ $50,000 = $25,000,000&#10;1.1.2.2 - Splitters 1:8 x 100 @ $200,000 = $20,000,000&#10;..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación:</label>
+                    <textarea id="justificacion-desglose" class="form-control" placeholder="Por qué es necesario este desglose..."></textarea>
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-desglose" onclick="validarDesglose()">✅ Validar Desglose</button>
+                    <button class="btn btn-dt" onclick="generarDTDesglose('${item.codigo}')">📋 Generar DT</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function abrirModalDT(item) {
+            const modal = document.getElementById('modalAjuste');
+            const titulo = document.getElementById('modal-titulo');
+            const body = document.getElementById('modal-body');
+            
+            titulo.textContent = `Crear Decisión Técnica: ${item.codigo}`;
+            
+            body.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Tipo de Cambio:</label>
+                    <select id="tipo-cambio" class="form-control">
+                        <option value="cantidad">Ajuste de Cantidad</option>
+                        <option value="precio">Ajuste de Precio</option>
+                        <option value="desglose">Propuesta de Desglose</option>
+                        <option value="eliminacion">Eliminación de Ítem</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Observación Técnica:</label>
+                    <textarea id="observacion-dt" class="form-control" rows="6" placeholder="Describe tu observación técnica detallada..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación:</label>
+                    <textarea id="justificacion-dt" class="form-control" rows="4" placeholder="Justifica técnicamente el cambio propuesto..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Impacto en Otros Ítems:</label>
+                    <input type="text" id="items-impactados" class="form-control" placeholder="Ej: 1.1.5, 1.1.10, 1.1.13">
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-dt" onclick="generarDTCompleto('${item.codigo}')">📋 Generar DT Completo</button>
+                    <button class="btn btn-ajustar" onclick="previsualizarDT('${item.codigo}')">👁️ Previsualizar</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function cerrarModal() {
+            document.getElementById('modalAjuste').style.display = 'none';
+        }
+
+        function analizarCambio(codigo) {
+            const nuevaCantidad = parseFloat(document.getElementById('nueva-cantidad').value);
+            const justificacion = document.getElementById('justificacion-cambio').value;
+            
+            if (!justificacion) {
+                alert('❌ Debes proporcionar una justificación');
+                return;
+            }
+            
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const cambio = nuevaCantidad - item.cantidad;
+            const cambioTotal = cambio * item.vu_cop;
+            
+            const analisisHTML = `
+                <h4>📊 ANÁLISIS DE IMPACTO</h4>
+                <p><strong>Cambio en Cantidad:</strong> ${formatearNumero(cambio)} ${item.unidad} (${cambio > 0 ? '+' : ''}${((cambio/item.cantidad)*100).toFixed(1)}%)</p>
+                <p><strong>Impacto Económico:</strong> ${formatearPeso(Math.abs(cambioTotal))} COP ${cambioTotal > 0 ? '(incremento)' : '(ahorro)'}</p>
+                <p><strong>Nuevo Total:</strong> ${formatearPeso(item.total_cop + cambioTotal)} COP</p>
+                
+                ${item.items_dependientes ? `
+                    <hr style="margin: 15px 0;">
+                    <p><strong>⚠️ Ítems Dependientes Afectados:</strong></p>
+                    <ul>
+                        ${item.items_dependientes.map(dep => `<li>${dep}</li>`).join('')}
+                    </ul>
+                ` : ''}
+                
+                <hr style="margin: 15px 0;">
+                <p><strong>🎯 Recomendación del Sistema:</strong></p>
+                <p style="background: #e7f3ff; padding: 10px; border-radius: 4px;">
+                    ${cambio > 0 ? '⚠️ El aumento requiere validación técnica y aprobación PMO' : '✅ La reducción puede generar ahorros pero requiere validar que no comprometa objetivos'}
+                </p>
+            `;
+            
+            document.getElementById('analisis-impacto').innerHTML = analisisHTML;
+        }
+
+        function generarDTCompleto(codigo) {
+            const tipoCambio = document.getElementById('tipo-cambio').value;
+            const observacion = document.getElementById('observacion-dt').value;
+            const justificacion = document.getElementById('justificacion-dt').value;
+            const itemsImpactados = document.getElementById('items-impactados').value;
+            
+            if (!observacion || !justificacion) {
+                alert('❌ Debes completar observación y justificación');
+                return;
+            }
+            
+            // Generar DT Markdown completo con YAML
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const dtMarkdown = generarDTMarkdown(item, {
+                tipo: tipoCambio,
+                observacion: observacion,
+                justificacion: justificacion,
+                items_impactados: itemsImpactados
+            });
+            
+            // Descargar archivo .md
+            const fecha = new Date().toISOString().split('T')[0];
+            const dtID = `DT-${item.categoria.toUpperCase()}-${String(Math.floor(Math.random()*1000)).padStart(3, '0')}-${fecha}`;
+            const blob = new Blob([dtMarkdown], {type: 'text/markdown;charset=utf-8'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${dtID}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            // Mostrar instrucciones
+            alert(`✅ DECISIÓN TÉCNICA GENERADA
+
+Archivo: ${dtID}.md
+
+📋 PRÓXIMOS PASOS:
+1. El archivo se descargó en tu carpeta Downloads
+2. Muévelo a: II. Apendices Tecnicos/Decisiones_Tecnicas/
+3. Ábrelo en Cursor IDE
+4. En Cursor, escribe: "Ejecuta ${dtID}"
+5. Cursor leerá el YAML y ejecutará los cambios
+
+El archivo contiene:
+✓ Análisis completo
+✓ Valores actuales vs propuestos
+✓ Riesgos asociados
+✓ Archivos afectados
+✓ Instrucciones YAML para Cursor`);
+            
+            cerrarModal();
+        }
+
+        function generarDTMarkdown(item, cambios) {
+            const fecha = new Date().toISOString().split('T')[0];
+            const timestamp = new Date().toISOString();
+            const dtID = `DT-${item.categoria.toUpperCase()}-${String(Math.floor(Math.random()*1000)).padStart(3, '0')}`;
+            
+            // Valores propuestos (se pueden obtener del modal si hay cambios de cantidad/precio)
+            let nuevaCantidad = item.cantidad;
+            let nuevoVU = item.vu_cop;
+            
+            // Intentar obtener valores del modal si existen
+            const inputCantidad = document.getElementById('nueva-cantidad');
+            const inputPrecio = document.getElementById('nuevo-precio');
+            if (inputCantidad && inputCantidad.value) {
+                nuevaCantidad = parseFloat(inputCantidad.value);
+            }
+            if (inputPrecio && inputPrecio.value) {
+                nuevoVU = parseFloat(inputPrecio.value);
+            }
+            
+            const nuevoTotal = nuevaCantidad * nuevoVU;
+            const deltaCantidad = nuevaCantidad - item.cantidad;
+            const deltaTotal = nuevoTotal - item.total_cop;
+            const porcentajeCantidad = ((deltaCantidad / item.cantidad) * 100).toFixed(1);
+            const porcentajeTotal = ((deltaTotal / item.total_cop) * 100).toFixed(1);
+            
+            return `# DECISIÓN TÉCNICA - ${dtID}
+**Sistema:** ${item.categoria} | **Fecha:** ${fecha} | **Estado:** ⏳ Pendiente Aprobación
+
+---
+
+## 1. CONTEXTO AUTO-GENERADO
+
+| Campo | Valor |
+|-------|-------|
+| Ítem WBS | ${item.codigo} |
+| Descripción | ${item.descripcion} |
+| Unidad | ${item.unidad} |
+| Tipo | ${item.tipo} |
+| Modificable | ${item.modificable ? 'Sí' : 'No'} |
+| Fecha generación | ${fecha} |
+| Tipo de cambio | ${cambios.tipo} |
+
+---
+
+## 2. OBSERVACIÓN DEL USUARIO
+
+${cambios.observacion}
+
+---
+
+## 3. JUSTIFICACIÓN TÉCNICA
+
+${cambios.justificacion}
+
+---
+
+## 4. VALORES: ACTUAL vs PROPUESTO
+
+| Campo | Actual | Propuesto | Δ | Δ % |
+|-------|--------|-----------|---|-----|
+| Cantidad | ${formatearNumero(item.cantidad)} ${item.unidad} | ${formatearNumero(nuevaCantidad)} ${item.unidad} | ${formatearNumero(deltaCantidad)} | ${porcentajeCantidad}% |
+| V/U (COP) | ${formatearPeso(item.vu_cop)} | ${formatearPeso(nuevoVU)} | ${formatearPeso(nuevoVU - item.vu_cop)} | ${(((nuevoVU - item.vu_cop)/item.vu_cop)*100).toFixed(1)}% |
+| Total (COP) | ${formatearPeso(item.total_cop)} | ${formatearPeso(nuevoTotal)} | ${formatearPeso(deltaTotal)} | ${porcentajeTotal}% |
+
+**Impacto Económico:** ${deltaTotal < 0 ? 'AHORRO' : 'INCREMENTO'} de ${formatearPeso(Math.abs(deltaTotal))} COP
+
+---
+
+## 5. CRITERIO TÉCNICO ACTUAL
+
+${item.criterio_tecnico ? `
+**Justificación:** ${item.criterio_tecnico.justificacion}
+
+**Fuente:** ${item.criterio_tecnico.fuente}
+
+**Normas aplicables:** ${item.criterio_tecnico.normas ? item.criterio_tecnico.normas.join(', ') : 'N/A'}
+
+**Cálculo base:** ${item.criterio_tecnico.calculo}
+
+${item.criterio_tecnico.desglose ? `
+**Desglose:**
+${item.criterio_tecnico.desglose.map(d => `- ${d}`).join('\n')}
+` : ''}
+
+**Restricción:** ${item.criterio_tecnico.restriccion}
+` : '_No documentado_'}
+
+---
+
+## 6. IMPACTO EN OTROS ÍTEMS WBS
+
+${item.items_dependientes ? `
+**Ítems que requieren recálculo:**
+${item.items_dependientes.map(dep => `- ${dep}`).join('\n')}
+` : '_No hay ítems dependientes identificados_'}
+
+${cambios.items_impactados ? `
+**Ítems adicionales mencionados:**
+${cambios.items_impactados.split(',').map(i => `- ${i.trim()}`).join('\n')}
+` : ''}
+
+---
+
+## 7. ARCHIVOS AFECTADOS
+
+${item.archivos_relacionados ? item.archivos_relacionados.map(arch => `- [ ] \`${arch}\``).join('\n') : '_No documentado_'}
+
+**Archivos principales a actualizar:**
+- [ ] \`WBS_Presupuestal_v3.0.md\` → Recalcular totales
+- [ ] \`MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md\` → Agregar nueva fila
+${deltaTotal !== 0 ? '- [ ] `MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md` → Actualizar riesgos si aplica' : ''}
+
+---
+
+## 8. ANÁLISIS DE RIESGOS
+
+### Riesgos Actuales:
+${item.riesgos_asociados && item.riesgos_asociados.length > 0 ? item.riesgos_asociados.map(r => `
+- **${r.id}**: ${r.descripcion}
+  - Probabilidad: ${r.probabilidad}
+  - Impacto: ${r.impacto}
+`).join('\n') : '_Sin riesgos identificados en base de datos_'}
+
+### Nuevos Riesgos Potenciales:
+${deltaCantidad < 0 ? '- ⚠️ Riesgo de insuficiencia si estimación es conservadora' : ''}
+${deltaCantidad > 0 ? '- ⚠️ Riesgo de sobrecosto si cantidad excesiva' : ''}
+${Math.abs(porcentajeTotal) > 10 ? '- ⚠️ Impacto económico significativo (>10%) requiere validación PMO' : ''}
+
+_A completar por especialista/PMO tras revisión_
+
+---
+
+## 9. RECOMENDACIÓN DEL SISTEMA
+
+${deltaTotal < 0 ? `
+✅ **RECOMENDACIÓN: ANALIZAR PARA APROBACIÓN**
+
+**PROS:**
+- Ahorro CAPEX: ${formatearPeso(Math.abs(deltaTotal))} (${Math.abs(porcentajeTotal)}%)
+- Optimización de recursos
+- Mejora en relación costo-beneficio
+
+**CONTRAS:**
+- Requiere validación que no comprometa objetivos técnicos
+- Posible impacto en ${item.items_dependientes ? item.items_dependientes.length : 0} ítems dependientes
+- Necesita aprobación PMO
+
+**DECISIÓN SUGERIDA:** Revisar criterios técnicos y aprobar si cumple requisitos mínimos
+` : deltaTotal > 0 ? `
+⚠️ **RECOMENDACIÓN: VALIDAR NECESIDAD**
+
+**PROS:**
+- Puede mejorar calidad/capacidad
+- Posible reducción de riesgos técnicos
+
+**CONTRAS:**
+- Incremento CAPEX: ${formatearPeso(Math.abs(deltaTotal))} (${Math.abs(porcentajeTotal)}%)
+- Requiere justificación sólida
+- Necesita aprobación PMO
+
+**DECISIÓN SUGERIDA:** Validar que incremento esté justificado técnicamente
+` : `
+ℹ️ **SIN IMPACTO ECONÓMICO**
+
+Cambio no afecta costo total. Validar solo aspectos técnicos.
+`}
+
+---
+
+## 10. INSTRUCCIONES PARA CURSOR ⚙️
+
+\`\`\`yaml
+# Configuración de ejecución automatizada
+dt_metadata:
+  id: "${dtID}"
+  fecha: "${fecha}"
+  timestamp: "${timestamp}"
+  item_wbs: "${item.codigo}"
+  tipo_cambio: "${cambios.tipo}"
+  estado: "pendiente_ejecucion"
+
+archivos_actualizar:
+  - file: "IX. WBS y Planificacion/WBS_Presupuestal_v3.0.md"
+    accion: "actualizar_y_versionar"
+    seccion: "Item ${item.codigo}"
+    cambios:
+      - campo: "cantidad"
+        buscar: "${item.cantidad}"
+        reemplazar: "${nuevaCantidad}"
+        tipo: "numero"
+      - campo: "total_cop"
+        buscar: "${item.total_cop}"
+        reemplazar: "${nuevoTotal}"
+        tipo: "numero"
+        recalcular: true
+    versionamiento:
+      version_actual: "v3.0"
+      version_nueva: "v3.1"
+      razon: "${dtID} - ${cambios.tipo}"
+      agregar_nota: "Origen: ${dtID} | Fecha: ${fecha}"
+
+${item.archivos_relacionados ? item.archivos_relacionados.map((arch, idx) => `
+  - file: "${arch.split('(')[0].trim()}"
+    accion: "validar_y_actualizar"
+    seccion: "${arch.includes('(') ? arch.match(/\(([^)]+)\)/)[1] : 'Buscar contexto'}"
+    cambios:
+      - campo: "cantidad_item_${item.codigo}"
+        buscar: "${item.cantidad}"
+        reemplazar: "${nuevaCantidad}"
+        validar_contexto: true
+        notas: "Verificar que sea el ítem correcto antes de aplicar"
+`).join('') : ''}
+  - file: "VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md"
+    accion: "agregar_fila"
+    seccion: "Tabla principal"
+    nueva_fila:
+      sistema: "${item.categoria}"
+      decision_tecnica: "${dtID}"
+      archivos_afectados: "WBS_Presupuestal, ${item.archivos_relacionados ? item.archivos_relacionados.length : 0} archivos técnicos"
+      tipo_impacto: "${cambios.tipo === 'cantidad' ? 'Cantidades' : cambios.tipo === 'precio' ? 'Costos' : 'Especificaciones'}"
+
+${item.items_dependientes && item.items_dependientes.length > 0 ? `
+items_dependientes:
+  recalcular: true
+  items:
+${item.items_dependientes.map(dep => `    - "${dep}"`).join('\n')}
+  formula_base: "proporcional_a_item_principal"
+` : ''}
+
+validaciones:
+  - verificar_archivos_existen: true
+  - backup_antes_modificar: true
+  - validar_formato_numeros: true
+  - validar_normas_aplicables: ${item.criterio_tecnico?.normas ? JSON.stringify(item.criterio_tecnico.normas) : '[]'}
+  - confirmar_con_usuario: true
+
+notificaciones:
+  - tipo: "inicio"
+    mensaje: "Iniciando ejecución de ${dtID}"
+  - tipo: "progreso"
+    mensaje: "Actualizando archivo {nombre_archivo}..."
+  - tipo: "completado"
+    mensaje: "✅ ${dtID} ejecutado exitosamente - {cantidad_archivos} archivos actualizados"
+  - tipo: "error"
+    mensaje: "❌ Error en {archivo}: {descripcion_error}"
+
+manejo_errores:
+  - archivo_no_existe: "reportar_y_continuar"
+  - seccion_no_encontrada: "pedir_confirmacion_manual"
+  - validacion_falla: "detener_y_reportar"
+  - backup_falla: "detener_ejecucion"
+\`\`\`
+
+---
+
+## 11. ESTADO Y APROBACIONES
+
+- [x] ⏳ Generado automáticamente (${fecha})
+- [ ] 📋 Revisado por especialista: ________________ Fecha: _______
+- [ ] ✅ Aprobado PMO: ________________ Fecha: _______
+- [ ] 🔧 Ejecutado por Cursor: ________________ Fecha: _______
+- [ ] ✅ Validado en campo: ________________ Fecha: _______
+
+---
+
+## 12. LOG DE EJECUCIÓN
+
+_Se completará automáticamente al ejecutar desde Cursor_
+
+\`\`\`
+Fecha ejecución: 
+Usuario Cursor: 
+Archivos modificados: 
+Errores encontrados: 
+Tiempo ejecución: 
+\`\`\`
+
+---
+
+**ID DT:** \`${dtID}\`  
+**Versión:** 1.0  
+**Generado desde:** WBS Interactiva v3.0  
+**Timestamp:** ${timestamp}  
+**Formato:** Markdown con YAML embebido  
+`;
+        }
+
+        // Cerrar modal al hacer clic fuera
+        window.onclick = function(event) {
+            const modal = document.getElementById('modalAjuste');
+            if (event.target == modal) {
+                cerrarModal();
+            }
+        }
+
+        // Cargar WBS al iniciar
+        document.addEventListener('DOMContentLoaded', cargarWBS);
+    </script>
+</body>
+</html>
+

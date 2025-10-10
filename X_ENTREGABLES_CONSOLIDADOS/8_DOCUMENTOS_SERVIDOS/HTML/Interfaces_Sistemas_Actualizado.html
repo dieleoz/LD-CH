@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>41. Interfaces_Sistemas_MEJORADO</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#documento-de-control-de-interfaces-icd-v1.0"
+id="toc-documento-de-control-de-interfaces-icd-v1.0">DOCUMENTO DE
+CONTROL DE INTERFACES (ICD) v1.0</a>
+<ul>
+<li><a href="#app-la-dorada---chiriguaná"
+id="toc-app-la-dorada---chiriguaná">APP La Dorada - Chiriguaná</a></li>
+<li><a href="#objetivo-y-alcance" id="toc-objetivo-y-alcance">1.
+OBJETIVO Y ALCANCE</a>
+<ul>
+<li><a href="#objetivo" id="toc-objetivo">1.1 Objetivo</a></li>
+<li><a href="#alcance" id="toc-alcance">1.2 Alcance</a></li>
+<li><a href="#evaluación-de-dependencias-documentales"
+id="toc-evaluación-de-dependencias-documentales">1.3 ⚠️ EVALUACIÓN DE
+DEPENDENCIAS DOCUMENTALES</a></li>
+</ul></li>
+<li><a href="#matriz-de-interfaces-de-alto-nivel"
+id="toc-matriz-de-interfaces-de-alto-nivel">2. MATRIZ DE INTERFACES DE
+ALTO NIVEL</a></li>
+<li><a href="#especificación-de-interfaces-críticas"
+id="toc-especificación-de-interfaces-críticas">3. ESPECIFICACIÓN DE
+INTERFACES CRÍTICAS</a>
+<ul>
+<li><a href="#interfaz-if-01-ctc-enclavamiento"
+id="toc-interfaz-if-01-ctc-enclavamiento">3.1 Interfaz IF-01: CTC ↔︎
+Enclavamiento</a></li>
+<li><a href="#interfaz-if-02-ctc-itcs-material-rodante"
+id="toc-interfaz-if-02-ctc-itcs-material-rodante">3.2 Interfaz IF-02:
+CTC ↔︎ ITCS (Material Rodante)</a></li>
+<li><a
+href="#interfaz-if-07-ctc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001"
+id="toc-interfaz-if-07-ctc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001">3.3
+Interfaz IF-07: CTC ↔︎ Bloque Lógico de Integración Multi-sistema ⭐
+<strong>NUEVO (DT-INTERFACES-001)</strong></a></li>
+</ul></li>
+<li><a href="#gobernanza-y-proceso-de-gestión-de-interfaces"
+id="toc-gobernanza-y-proceso-de-gestión-de-interfaces">4. GOBERNANZA Y
+PROCESO DE GESTIÓN DE INTERFACES</a>
+<ul>
+<li><a href="#interface-control-working-group-icwg"
+id="toc-interface-control-working-group-icwg">4.1 Interface Control
+Working Group (ICWG)</a></li>
+<li><a
+href="#proceso-de-control-de-cambios-interface-change-request---icr"
+id="toc-proceso-de-control-de-cambios-interface-change-request---icr">4.2
+Proceso de Control de Cambios (Interface Change Request - ICR)</a></li>
+</ul></li>
+<li><a href="#riesgos-asociados-a-la-gestión-de-interfaces"
+id="toc-riesgos-asociados-a-la-gestión-de-interfaces">5. ⚠️ RIESGOS
+ASOCIADOS A LA GESTIÓN DE INTERFACES</a></li>
+<li><a href="#conclusiones" id="toc-conclusiones">6.
+CONCLUSIONES</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="documento-de-control-de-interfaces-icd-v1.0">DOCUMENTO DE
+CONTROL DE INTERFACES (ICD) v1.0</h1>
+<h2 id="app-la-dorada---chiriguaná">APP La Dorada - Chiriguaná</h2>
+<hr />
+<h2 id="objetivo-y-alcance">1. OBJETIVO Y ALCANCE</h2>
+<h3 id="objetivo">1.1 Objetivo</h3>
+<p>El objetivo de este documento es definir, controlar y gestionar todas
+las interfaces (físicas, lógicas, de datos y operativas) entre los
+diferentes subsistemas del proyecto. Este ICD es la única fuente de
+verdad para la integración de sistemas, asegurando la compatibilidad y
+la coherencia técnica durante todo el ciclo de vida del proyecto.</p>
+<h3 id="alcance">1.2 Alcance</h3>
+<p>Este documento cubre las interfaces entre todos los sistemas
+definidos en la WBS, incluyendo pero no limitándose a: -
+<strong>Sistemas de Control:</strong> CTC, Señalización, Enclavamientos.
+- <strong>Sistemas de Telecomunicaciones:</strong> Fibra Óptica, Radio
+TETRA, Red de Datos. - <strong>Sistemas de Seguridad:</strong> CCTV,
+Control de Accesos. - <strong>Material Rodante:</strong> Equipos
+embarcados (ITCS, Radio). - <strong>Sistemas de Energía:</strong>
+Alimentación principal y de respaldo (UPS).</p>
+<h3 id="evaluación-de-dependencias-documentales">1.3 ⚠️ EVALUACIÓN DE
+DEPENDENCIAS DOCUMENTALES</h3>
+<ul>
+<li><strong>Depende de:</strong>
+<ul>
+<li><code>38. DiagramasArquitectura...md</code>: Proporciona la visión
+de alto nivel de las interconexiones.</li>
+<li><code>37. MemoriasDiseño_Basico...md</code>: Justifica las
+tecnologías y protocolos a ser utilizados en las interfaces.</li>
+</ul></li>
+<li><strong>Gobierna a:</strong>
+<ul>
+<li><code>42. Plan_Pruebas...md</code>: Las pruebas de integración (SIT)
+deben validar el correcto funcionamiento de cada interfaz definida
+aquí.</li>
+<li><code>V. Ingenieria de detalle</code>: Todos los diseños detallados
+deben implementar las interfaces conforme a lo especificado en este
+ICD.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="matriz-de-interfaces-de-alto-nivel">2. MATRIZ DE INTERFACES DE
+ALTO NIVEL</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">ID Interfaz</th>
+<th style="text-align: left;">Sistema A</th>
+<th style="text-align: left;">Sistema B</th>
+<th style="text-align: left;">Tipo de Interfaz</th>
+<th style="text-align: left;">Protocolo / Estándar</th>
+<th style="text-align: left;">Responsable de Interfaz</th>
+<th style="text-align: left;">Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>IF-01</strong></td>
+<td style="text-align: left;">CTC</td>
+<td style="text-align: left;">Enclavamiento</td>
+<td style="text-align: left;">Datos / Control</td>
+<td style="text-align: left;">SCI-CC-A (NAS 830)</td>
+<td style="text-align: left;">Líder de Señalización</td>
+<td style="text-align: left;">⏳ <strong>Definida</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-02</strong></td>
+<td style="text-align: left;">CTC</td>
+<td style="text-align: left;">ITCS (Material Rodante)</td>
+<td style="text-align: left;">Datos / Control</td>
+<td style="text-align: left;">ETCS Nivel 2 (Supuesto)</td>
+<td style="text-align: left;">Líder de Material Rodante</td>
+<td style="text-align: left;">🔴 <strong>Bloqueada (AT3)</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-03</strong></td>
+<td style="text-align: left;">Estación Base TETRA</td>
+<td style="text-align: left;">Backbone Fibra Óptica</td>
+<td style="text-align: left;">Física / Lógica</td>
+<td style="text-align: left;">IP/MPLS</td>
+<td style="text-align: left;">Líder de Telecom</td>
+<td style="text-align: left;">⏳ <strong>Definida</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-04</strong></td>
+<td style="text-align: left;">Cámara CCTV</td>
+<td style="text-align: left;">Red de Datos</td>
+<td style="text-align: left;">Física / Datos</td>
+<td style="text-align: left;">ONVIF sobre IP</td>
+<td style="text-align: left;">Líder de Seguridad</td>
+<td style="text-align: left;">⏳ <strong>Definida</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-05</strong></td>
+<td style="text-align: left;">Enclavamiento</td>
+<td style="text-align: left;">Sistema de Energía</td>
+<td style="text-align: left;">Física</td>
+<td style="text-align: left;">24V DC Redundante</td>
+<td style="text-align: left;">Líder de Señalización</td>
+<td style="text-align: left;">⏳ <strong>Definida</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-06</strong></td>
+<td style="text-align: left;">CTC</td>
+<td style="text-align: left;">CTC FENOCO</td>
+<td style="text-align: left;">Datos / Operativa</td>
+<td style="text-align: left;">EULYNX (Propuesto)</td>
+<td style="text-align: left;">Líder de Integración</td>
+<td style="text-align: left;">🟡 <strong>Por Validar</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IF-07</strong></td>
+<td style="text-align: left;">CTC</td>
+<td style="text-align: left;">Bloque Integración Multi-sistema</td>
+<td style="text-align: left;">Lógica / Datos</td>
+<td style="text-align: left;">UIC 918-4, IEC 62443</td>
+<td style="text-align: left;">Líder de Integración</td>
+<td style="text-align: left;">✅ <strong>Especificado
+(DT-INTERFACES-001)</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="especificación-de-interfaces-críticas">3. ESPECIFICACIÓN DE
+INTERFACES CRÍTICAS</h2>
+<h3 id="interfaz-if-01-ctc-enclavamiento">3.1 Interfaz IF-01: CTC ↔︎
+Enclavamiento</h3>
+<ul>
+<li><strong>Descripción:</strong> Interfaz para el envío de comandos de
+ruta desde el CTC y la recepción del estado de los elementos de
+señalización en campo.</li>
+<li><strong>Medio Físico:</strong> Conexión Ethernet a través de la red
+de Fibra Óptica.</li>
+<li><strong>Protocolo Lógico:</strong> SCI-CC-A (NAS 830) sobre
+TCP/IP.</li>
+<li><strong>Formato de Datos:</strong> Mensajería binaria según
+especificación ADIF.</li>
+<li><strong>Requisitos de Rendimiento:</strong> Latencia máxima
+end-to-end &lt; 100 ms.</li>
+<li><strong>Requisitos de Disponibilidad:</strong> 99.99% (requiere
+redundancia de enlace y de procesadores en el enclavamiento).</li>
+</ul>
+<h3 id="interfaz-if-02-ctc-itcs-material-rodante">3.2 Interfaz IF-02:
+CTC ↔︎ ITCS (Material Rodante)</h3>
+<ul>
+<li><strong>Descripción:</strong> Interfaz para el envío de
+Autorizaciones de Movimiento (MA) y la recepción de la posición exacta
+del tren.</li>
+<li><strong>Medio Físico:</strong> Red de Radio TETRA (canal de datos)
+y/o GSM-R.</li>
+<li><strong>Protocolo Lógico:</strong> <strong>(Supuesto
+Técnico)</strong> Se asume ETCS Nivel 2. La definición final está
+bloqueada por el Apéndice Técnico 3.</li>
+<li><strong>Riesgo Asociado:</strong> <strong>R-TEC-001</strong>. La
+indefinición del estándar ITCS es un riesgo crítico. Se diseña una
+interfaz modular para mitigar el impacto.</li>
+</ul>
+<h3
+id="interfaz-if-07-ctc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001">3.3
+Interfaz IF-07: CTC ↔︎ Bloque Lógico de Integración Multi-sistema ⭐
+<strong>NUEVO (DT-INTERFACES-001)</strong></h3>
+<ul>
+<li><strong>Descripción:</strong> Bloque lógico de integración que NO es
+hardware físico único, sino un conjunto funcional que conecta el CTC con
+múltiples subsistemas.</li>
+<li><strong>Ítem WBS:</strong> 1.1.106 - Interfaces comunicación
+($150.000.000 COP)</li>
+<li><strong>Composición del Bloque:</strong>
+<ul>
+<li><strong>Gateways industriales:</strong> Conversión de protocolos CTC
+↔︎ ITCS/ETCS L2 ↔︎ FENOCO</li>
+<li><strong>Switches de borde ferroviario:</strong> Segmentación de red
+para subsistemas</li>
+<li><strong>Firewalls IEC 62443:</strong> Ciberseguridad industrial
+(nivel SL-3)</li>
+<li><strong>Middleware interoperabilidad:</strong> Protocolo UIC 918-4
+para FENOCO</li>
+<li><strong>Licencias software comunicación:</strong> SCADA, gestión de
+interfaces</li>
+</ul></li>
+<li><strong>Interfaces que soporta:</strong>
+<ul>
+<li>CTC ↔︎ ITCS/ETCS Nivel 2 (intercambio telegramas, datos ocupación vía
+RBC)</li>
+<li>CTC ↔︎ FENOCO (Gateway UIC, protocolo 918-4)</li>
+<li>CTC ↔︎ TETRA (canal voz/datos comunicaciones tren-tierra)</li>
+<li>CTC ↔︎ Fibra Óptica (backbone redundante N+1 del corredor)</li>
+<li>CTC ↔︎ Sistemas ITS (CCTV, acceso, detección intrusión)</li>
+</ul></li>
+<li><strong>Arquitectura:</strong> Redundancia N+1 en comunicaciones
+críticas</li>
+<li><strong>Alcance $150M incluye:</strong>
+<ul>
+<li>Licencias integración (protocolos, middleware)</li>
+<li>Configuración interfaces y redundancia N+1</li>
+<li>Ensayos FAT/SAT interoperabilidad</li>
+<li>Integración en entorno virtual (CTC virtual + ETCS L2)</li>
+</ul></li>
+<li><strong>NOTA IMPORTANTE:</strong> Equipos físicos mayores cubiertos
+en ítems 1.1.100-1.1.105</li>
+<li><strong>Decisión Técnica:</strong> DT-INTERFACES-001-2025-10-09</li>
+<li><strong>Riesgos Mitigados:</strong>
+<ul>
+<li>R-INT-001: Falta de trazabilidad en integración de sistemas ✅
+MITIGADO</li>
+<li>R-INT-002: Ambigüedad en alcance de interfaces ✅ MITIGADO</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="gobernanza-y-proceso-de-gestión-de-interfaces">4. GOBERNANZA Y
+PROCESO DE GESTIÓN DE INTERFACES</h2>
+<h3 id="interface-control-working-group-icwg">4.1 Interface Control
+Working Group (ICWG)</h3>
+<p>Se establece un comité de control de interfaces (ICWG) conformado por
+los líderes técnicos de cada disciplina (Señalización, Telecom, Energía,
+etc.) y presidido por el Arquitecto de Sistemas del EPC. Su función es
+revisar y aprobar cualquier cambio en las interfaces.</p>
+<h3
+id="proceso-de-control-de-cambios-interface-change-request---icr">4.2
+Proceso de Control de Cambios (Interface Change Request - ICR)</h3>
+<p>Cualquier cambio propuesto a una interfaz definida en este ICD debe
+seguir un proceso formal: 1. <strong>Solicitud (ICR):</strong> El líder
+de sistema que propone el cambio completa un formato de ICR, detallando
+la justificación técnica y el impacto en otros sistemas. 2.
+<strong>Revisión (ICWG):</strong> El ICWG revisa la solicitud en su
+reunión semanal. 3. <strong>Aprobación/Rechazo:</strong> La decisión se
+documenta y se comunica a todos los equipos. 4. <strong>Actualización
+del ICD:</strong> Si se aprueba, este documento se actualiza a una nueva
+versión y se redistribuye.</p>
+<hr />
+<h2 id="riesgos-asociados-a-la-gestión-de-interfaces">5. ⚠️ RIESGOS
+ASOCIADOS A LA GESTIÓN DE INTERFACES</h2>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">ID Riesgo</th>
+<th style="text-align: left;">Riesgo</th>
+<th style="text-align: center;">Probabilidad</th>
+<th style="text-align: center;">Impacto</th>
+<th style="text-align: left;">Plan de Mitigación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>R-GES-003</strong></td>
+<td style="text-align: left;"><strong>Desalineación en
+Interfaces:</strong> Cambios no comunicados que generan incompatibilidad
+en la integración.</td>
+<td style="text-align: center;"><strong>Alta</strong></td>
+<td style="text-align: center;"><strong>Crítico</strong></td>
+<td style="text-align: left;">Implementación estricta del proceso de ICR
+y el ICWG. Ningún cambio es válido sin un ICR aprobado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>R-TEC-010</strong></td>
+<td style="text-align: left;"><strong>Incompatibilidad de
+Protocolos:</strong> Sistemas de diferentes proveedores no logran
+comunicarse.</td>
+<td style="text-align: center;"><strong>Media</strong></td>
+<td style="text-align: center;"><strong>Alto</strong></td>
+<td style="text-align: left;">Priorizar estándares abiertos (IP, ONVIF,
+etc.). Realizar pruebas de concepto (PoC) en laboratorio antes de la
+compra.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>R-TEC-011</strong></td>
+<td style="text-align: left;"><strong>Degradación de
+Rendimiento:</strong> Interfaces mal diseñadas que crean cuellos de
+botella y afectan la operación.</td>
+<td style="text-align: center;"><strong>Media</strong></td>
+<td style="text-align: center;"><strong>Medio</strong></td>
+<td style="text-align: left;">Incluir requisitos de rendimiento
+(latencia, ancho de banda) en cada especificación de interfaz y
+validarlos en las pruebas SIT.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusiones">6. CONCLUSIONES</h2>
+<p>Este Documento de Control de Interfaces (ICD) es la piedra angular
+para la integración exitosa del proyecto. Su estricto cumplimiento y el
+proceso de gobernanza asociado son mandatorios para todos los equipos de
+ingeniería del EPC.</p>
+<hr />
+<p><strong>Estado del documento:</strong> ✅ <strong>Completado</strong>
+<strong>Versión:</strong> 1.0 <strong>Responsable:</strong> Arquitecto
+de Sistemas EPC <strong>Fecha de Cierre:</strong> 19 de septiembre de
+2025</p>
+</body>
+</html>

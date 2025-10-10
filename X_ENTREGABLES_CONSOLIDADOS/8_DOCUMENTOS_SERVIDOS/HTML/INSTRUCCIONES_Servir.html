@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servir Ingeniería - Instrucciones</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        
+        .step h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        
+        .code-box {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Consolas', monospace;
+            font-size: 14px;
+            margin: 15px 0;
+            position: relative;
+        }
+        
+        .code-box::before {
+            content: 'PowerShell';
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+        }
+        
+        .alert {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .alert h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .option {
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍳 SERVIR INGENIERÍA</h1>
+            <p>Preparar y servir documentos desde la cocina</p>
+        </div>
+        
+        <div class="content">
+            <div class="alert">
+                <h4>⚠️ Los navegadores no pueden ejecutar scripts por seguridad</h4>
+                <p style="color: #666; line-height: 1.6;">
+                    Necesitas ejecutar los scripts manualmente en PowerShell para actualizar los documentos.
+                    <br><strong>Solo toma 10-15 segundos.</strong>
+                </p>
+            </div>
+            
+            <div class="step">
+                <h3>
+                    <div class="step-number">1</div>
+                    Abrir PowerShell
+                </h3>
+                <p style="color: #666; margin-bottom: 10px;">
+                    Presiona <kbd style="background: #455a64; color: white; padding: 3px 8px; border-radius: 4px;">Win</kbd> + <kbd style="background: #455a64; color: white; padding: 3px 8px; border-radius: 4px;">X</kbd> y selecciona <strong>Windows PowerShell</strong>
+                </p>
+            </div>
+            
+            <div class="step">
+                <h3>
+                    <div class="step-number">2</div>
+                    Navegar al proyecto
+                </h3>
+                <div class="code-box">
+cd "D:\one drive grupo ortiz 2025\OneDrive - Grupo Ortiz\LFC\02. Ingenieria\02. Ingenieria Conceptual\0.0 Formatos para IA"
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3>
+                    <div class="step-number">3</div>
+                    Ejecutar: Cocinar + Servir
+                </h3>
+                
+                <p style="color: #666; margin-bottom: 15px; font-weight: 600;">Elige una opción:</p>
+                
+                <div class="option">
+                    <p style="color: #2e7d32; font-weight: 600; margin-bottom: 8px;">✅ OPCIÓN 1: Rápido (Solo DTs recientes - últimos 7 días)</p>
+                    <div class="code-box">
+.\scripts\cocinar.ps1; .\scripts\servir.ps1
+                    </div>
+                    <p style="color: #666; font-size: 14px; margin-top: 8px;">
+                        ⚡ Toma ~10 segundos | Regenera solo lo que cambió
+                    </p>
+                </div>
+                
+                <div class="option" style="border-left-color: #ff9800; background: #fff3e0;">
+                    <p style="color: #e65100; font-weight: 600; margin-bottom: 8px;">🔄 OPCIÓN 2: Completo (Todos los sistemas)</p>
+                    <div class="code-box">
+.\scripts\cocinar.ps1 -Todo; .\scripts\servir.ps1 -Todo
+                    </div>
+                    <p style="color: #666; font-size: 14px; margin-top: 8px;">
+                        ⏱️ Toma ~30-60 segundos | Regenera todo desde cocina (entrega formal)
+                    </p>
+                </div>
+                
+                <div class="option" style="border-left-color: #2196f3; background: #e3f2fd;">
+                    <p style="color: #1565c0; font-weight: 600; margin-bottom: 8px;">🎯 OPCIÓN 3: Específico (Solo un sistema)</p>
+                    <div class="code-box">
+.\scripts\cocinar.ps1 -Sistema 02; .\scripts\servir.ps1 -Sistema 02
+                    </div>
+                    <p style="color: #666; font-size: 14px; margin-top: 8px;">
+                        ⚡ Toma ~5 segundos | Solo para un sistema (ej: 02 = Telecomunicaciones)
+                    </p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3>
+                    <div class="step-number">4</div>
+                    Abrir el menú servido
+                </h3>
+                <p style="color: #666; margin-bottom: 15px;">
+                    Después de ejecutar los scripts, haz clic aquí:
+                </p>
+                <a href="INDICE_Documentos_Servidos.html" class="btn" target="_blank">
+                    🍽️ ABRIR MENÚ DE PLATOS SERVIDOS
+                </a>
+            </div>
+            
+            <div style="margin-top: 40px; padding: 25px; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #4caf50;">
+                <h4 style="color: #2e7d32; margin-bottom: 15px;">💡 ¿Cuándo ejecutar cada opción?</h4>
+                <ul style="color: #666; line-height: 2; margin-left: 20px;">
+                    <li><strong>Opción 1 (Rápido):</strong> Después de ejecutar 1-5 DTs | Trabajo diario</li>
+                    <li><strong>Opción 2 (Completo):</strong> Entregas mensuales | Auditorías | Presentaciones formales</li>
+                    <li><strong>Opción 3 (Específico):</strong> Solo cambiaste un sistema y quieres verificarlo rápido</li>
+                </ul>
+            </div>
+            
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="../../IX. WBS y Planificacion/WBS_Menu_Principal.html" class="btn btn-secondary">
+                    ← Volver al Menú Principal
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        console.log('✅ Instrucciones de servir ingeniería cargadas');
+        console.log('💡 Usa cocinar.ps1 + servir.ps1 para actualizar documentos');
+    </script>
+</body>
+</html>
+

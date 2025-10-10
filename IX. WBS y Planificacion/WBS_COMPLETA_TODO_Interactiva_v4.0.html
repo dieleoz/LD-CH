@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBS COMPLETA - Todos los Ítems Interactivos v4.0</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .stats-bar {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        
+        .filtros {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filtro-btn {
+            padding: 8px 16px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        
+        .filtro-btn:hover {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+        
+        .filtro-btn.activo {
+            background: #28a745;
+            color: white;
+            border-color: #28a745;
+        }
+        
+        .btn-nuevo-capitulo {
+            padding: 10px 20px;
+            background: #6610f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: auto;
+        }
+        
+        .btn-nuevo-capitulo:hover {
+            background: #520dc2;
+        }
+        
+        .capitulo-seccion {
+            margin: 20px;
+        }
+        
+        .capitulo-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .capitulo-header:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .capitulo-titulo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .capitulo-count {
+            background: white;
+            color: #667eea;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .item-card {
+            margin: 10px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            transition: all 0.3s;
+        }
+        
+        .item-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+        
+        .item-header {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .item-codigo {
+            font-weight: bold;
+            font-size: 16px;
+            color: #007bff;
+        }
+        
+        .item-modificable {
+            background: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        .item-body {
+            padding: 15px 20px;
+        }
+        
+        .item-descripcion {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .item-valores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        
+        .valor-box {
+            text-align: center;
+        }
+        
+        .valor-label {
+            font-size: 11px;
+            color: #6c757d;
+            margin-bottom: 3px;
+        }
+        
+        .valor-dato {
+            font-size: 15px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .botones-accion {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 13px;
+        }
+        
+        .btn-dt {
+            background: #6610f2;
+            color: white;
+        }
+        
+        .btn-dt:hover {
+            background: #520dc2;
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 0;
+            border: none;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .modal-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #f8f9fa;
+        }
+        
+        .modal-body {
+            padding: 30px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        
+        textarea.form-control {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .oculto {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 WBS PRESUPUESTAL COMPLETA v4.0</h1>
+            <p>APP La Dorada-Chiriguaná | TODOS los Ítems (124) + Proponer Nuevos Capítulos</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-value" id="total-items">0</div>
+                <div class="stat-label">ÍTEMS TOTALES</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-capitulos">6</div>
+                <div class="stat-label">CAPÍTULOS</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-modificables">0</div>
+                <div class="stat-label">MODIFICABLES</div>
+            </div>
+        </div>
+
+        <div class="filtros">
+            <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-1')">Cap 1: Control</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-2')">Cap 2: Telecom</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-3')">Cap 3: Seguridad</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4: Pasos Nivel</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5: Centro Control</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6: Material Rodante</button>
+            <button class="btn-nuevo-capitulo" onclick="abrirModalNuevoCapitulo()">➕ Proponer Nuevo Capítulo</button>
+        </div>
+
+        <div id="wbs-container">
+            <!-- Los capítulos e ítems se cargan aquí dinámicamente -->
+        </div>
+    </div>
+
+    <!-- Modal DT -->
+    <div id="modalDT" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="cerrarModal('modalDT')">&times;</span>
+                <h2 id="modal-dt-titulo">Crear Decisión Técnica</h2>
+            </div>
+            <div class="modal-body" id="modal-dt-body">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Nuevo Capítulo -->
+    <div id="modalNuevoCapitulo" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="cerrarModal('modalNuevoCapitulo')">&times;</span>
+                <h2>➕ Proponer Nuevo Capítulo</h2>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Número de Capítulo:</label>
+                    <input type="number" id="nuevo-cap-numero" class="form-control" value="7" min="7" max="20">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Nombre del Capítulo:</label>
+                    <input type="text" id="nuevo-cap-nombre" class="form-control" placeholder="Ej: SISTEMAS DE ENERGÍA">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Descripción del Capítulo:</label>
+                    <textarea id="nuevo-cap-descripcion" class="form-control" rows="4" placeholder="Describe el alcance y contenido del nuevo capítulo..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación Técnica:</label>
+                    <textarea id="nuevo-cap-justificacion" class="form-control" rows="4" placeholder="Por qué se necesita este nuevo capítulo..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Presupuesto Estimado (COP):</label>
+                    <input type="number" id="nuevo-cap-presupuesto" class="form-control" placeholder="Estimación inicial">
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-dt" onclick="generarDTNuevoCapitulo()">📋 Generar DT de Nuevo Capítulo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cargar datos desde archivos JS -->
+    <script src="datos_wbs_TODOS_items.js?v=1.0.1"></script>
+    <script src="criterios_tecnicos_base.js?v=1.0.0"></script>
+    
+    <script>
+        let wbsData = { items: [] };
+        let itemsPorCapitulo = {};
+        let criteriosTecnicos = {};
+
+        // Cargar criterios técnicos desde JS
+        if (typeof criteriosTecnicosBase !== 'undefined') {
+            criteriosTecnicos = criteriosTecnicosBase.criterios;
+            console.log('✅ Criterios técnicos cargados:', Object.keys(criteriosTecnicos).length, 'ítems con criterios');
+        } else {
+            console.warn('⚠️ No se cargó criterios_tecnicos_base.js');
+            criteriosTecnicos = {};
+        }
+
+        // Usar datos cargados desde el archivo JS
+        if (typeof wbsDataGlobal !== 'undefined') {
+            wbsData = wbsDataGlobal;
+            procesarYCargarWBS();
+        } else {
+            console.error('Error: No se pudo cargar wbsDataGlobal');
+            alert('No se pudo cargar los datos. Usando datos demo.');
+            cargarDatosDemo();
+        }
+
+        function procesarYCargarWBS() {
+            // Agrupar por capítulo
+            itemsPorCapitulo = {};
+            
+            wbsData.items.forEach(item => {
+                // Extraer capítulo del código (primer dígito)
+                const capitulo = item.codigo.split('.')[0];
+                if (!itemsPorCapitulo[capitulo]) {
+                    itemsPorCapitulo[capitulo] = [];
+                }
+                item.capitulo = capitulo; // Asegurar que tenga capítulo
+                itemsPorCapitulo[capitulo].push(item);
+            });
+            
+            cargarWBS();
+        }
+
+        function cargarWBS() {
+            const container = document.getElementById('wbs-container');
+            container.innerHTML = '';
+            
+            let totalModificables = 0;
+            
+            // Crear secciones por capítulo
+            Object.keys(itemsPorCapitulo).sort().forEach(capitulo => {
+                const items = itemsPorCapitulo[capitulo];
+                const capSeccion = crearSeccionCapitulo(capitulo, items);
+                container.appendChild(capSeccion);
+                
+                totalModificables += items.filter(i => i.modificable).length;
+            });
+            
+            // Actualizar stats
+            document.getElementById('total-items').textContent = wbsData.items.length;
+            document.getElementById('total-capitulos').textContent = Object.keys(itemsPorCapitulo).length;
+            document.getElementById('total-modificables').textContent = totalModificables;
+        }
+
+        function crearSeccionCapitulo(capitulo, items) {
+            const seccion = document.createElement('div');
+            seccion.className = 'capitulo-seccion';
+            seccion.dataset.capitulo = capitulo;
+            
+            const nombresCap = {
+                '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
+                '2': 'TELECOMUNICACIONES',
+                '3': 'SISTEMAS ITS Y SEGURIDAD',
+                '4': 'PASOS A NIVEL',
+                '5': 'CENTRO DE CONTROL OPERACIONAL',
+                '6': 'MATERIAL RODANTE'
+            };
+            
+            const header = document.createElement('div');
+            header.className = 'capitulo-header';
+            header.onclick = () => toggleCapitulo(capitulo);
+            header.innerHTML = `
+                <div class="capitulo-titulo">CAPÍTULO ${capitulo}: ${nombresCap[capitulo] || 'NUEVO CAPÍTULO'}</div>
+                <div class="capitulo-count">${items.length} ítems</div>
+            `;
+            
+            seccion.appendChild(header);
+            
+            const itemsContainer = document.createElement('div');
+            itemsContainer.id = `items-capitulo-${capitulo}`;
+            
+            items.forEach(item => {
+                const card = crearCardItem(item);
+                itemsContainer.appendChild(card);
+            });
+            
+            seccion.appendChild(itemsContainer);
+            
+            return seccion;
+        }
+
+        function crearCardItem(item) {
+            const card = document.createElement('div');
+            card.className = 'item-card';
+            card.dataset.codigo = item.codigo;
+            card.dataset.capitulo = item.capitulo;
+            
+            // Buscar criterio técnico para este ítem
+            const criterio = criteriosTecnicos[item.codigo];
+            
+            card.innerHTML = `
+                <div class="item-header">
+                    <div class="item-codigo">${item.codigo}</div>
+                    ${item.modificable ? '<div class="item-modificable">✅ MODIFICABLE</div>' : ''}
+                </div>
+                
+                <div class="item-body">
+                    <div class="item-descripcion">${item.descripcion}</div>
+                    
+                    <div class="item-valores">
+                        <div class="valor-box">
+                            <div class="valor-label">Cantidad</div>
+                            <div class="valor-dato">${item.cantidad || 'N/A'}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Unidad</div>
+                            <div class="valor-dato">${item.unidad || 'N/A'}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Tipo</div>
+                            <div class="valor-dato" style="color: ${item.tipo === 'SUMINISTRO' ? '#28a745' : item.tipo === 'OBRA' ? '#ffc107' : '#17a2b8'}">
+                                ${item.tipo || 'N/A'}
+                            </div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">V/U (COP)</div>
+                            <div class="valor-dato">${formatearPeso(item.vu_cop)}</div>
+                        </div>
+                        <div class="valor-box">
+                            <div class="valor-label">Total (COP)</div>
+                            <div class="valor-dato">${formatearPeso(item.total_cop)}</div>
+                        </div>
+                    </div>
+                    
+                    ${criterio ? `
+                        <div style="background: #e7f3ff; border-left: 4px solid #007bff; padding: 15px; margin: 15px 0; border-radius: 6px;">
+                            <div style="font-weight: bold; color: #007bff; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                                🎯 CRITERIO TÉCNICO
+                                <button onclick='descargarCriterioDetallado("${item.codigo}")' style="margin-left: auto; padding: 5px 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                                    📥 Descargar Detalle
+                                </button>
+                            </div>
+                            <div style="color: #495057; font-size: 14px; line-height: 1.6;">
+                                <strong>Justificación:</strong> ${criterio.criterio_tecnico.justificacion}<br>
+                                <strong>Cálculo:</strong> ${criterio.criterio_tecnico.calculo_detallado}<br>
+                                ${criterio.criterio_tecnico.desglose ? `
+                                    <strong>Desglose:</strong>
+                                    <ul style="margin: 8px 0; padding-left: 20px;">
+                                        ${criterio.criterio_tecnico.desglose.map(d => `<li>${d}</li>`).join('')}
+                                    </ul>
+                                ` : ''}
+                                <strong>Fuente normativa:</strong> ${criterio.criterio_tecnico.fuente_normativa}<br>
+                                <strong>Restricción:</strong> <span style="color: #dc3545; font-weight: 600;">${criterio.criterio_tecnico.restriccion}</span>
+                            </div>
+                        </div>
+                        
+                        ${criterio.criterio_tecnico.alternativas && criterio.criterio_tecnico.alternativas.length > 0 ? `
+                            <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 15px 0; border-radius: 6px;">
+                                <div style="font-weight: bold; color: #856404; margin-bottom: 10px;">💡 ALTERNATIVAS TÉCNICAS</div>
+                                <ul style="color: #856404; font-size: 13px; margin: 0; padding-left: 20px; line-height: 1.8;">
+                                    ${criterio.criterio_tecnico.alternativas.map(alt => `<li>${alt}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                        
+                        ${criterio.riesgos_asociados && criterio.riesgos_asociados.length > 0 ? `
+                            <div style="background: #f8d7da; border-left: 4px solid #dc3545; padding: 15px; margin: 15px 0; border-radius: 6px;">
+                                <div style="font-weight: bold; color: #dc3545; margin-bottom: 10px;">⚠️ RIESGOS ASOCIADOS (${criterio.riesgos_asociados.length})</div>
+                                ${criterio.riesgos_asociados.map(r => `
+                                    <div style="background: white; padding: 10px; margin: 8px 0; border-radius: 4px;">
+                                        <strong style="color: #dc3545;">${r.id}:</strong> ${r.descripcion}<br>
+                                        <small style="color: #6c757d;">
+                                            Probabilidad: ${r.probabilidad} | Impacto: ${r.impacto}<br>
+                                            Estrategia: ${r.estrategia}
+                                        </small>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    ` : `
+                        <div style="background: #fff3cd; border: 1px solid #ffc107; padding: 12px; margin: 15px 0; border-radius: 6px; text-align: center;">
+                            <span style="color: #856404;">⚠️ Criterio técnico no documentado para este ítem</span>
+                            <button onclick='solicitarCriterioTecnico("${item.codigo}")' style="margin-left: 10px; padding: 5px 10px; background: #ffc107; border: none; border-radius: 4px; cursor: pointer;">
+                                📝 Solicitar Documentación
+                            </button>
+                        </div>
+                    `}
+                    
+                    <div class="botones-accion">
+                        <button class="btn btn-dt" onclick='abrirModalDT("${item.codigo}")'>📋 Crear DT</button>
+                        ${criterio && criterio.criterio_tecnico.documentos_referencia ? `
+                            <button class="btn" style="background: #17a2b8; color: white;" onclick='mostrarDocumentosReferencia("${item.codigo}")'>
+                                📚 Ver Documentos
+                            </button>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function formatearPeso(valor) {
+            if (!valor) return '$0';
+            return '$' + valor.toLocaleString('es-CO');
+        }
+
+        function toggleCapitulo(capitulo) {
+            const container = document.getElementById(`items-capitulo-${capitulo}`);
+            container.classList.toggle('oculto');
+        }
+
+        function filtrarItems(filtro) {
+            const secciones = document.querySelectorAll('.capitulo-seccion');
+            const botones = document.querySelectorAll('.filtro-btn');
+            
+            // Actualizar botones
+            botones.forEach(btn => btn.classList.remove('activo'));
+            event.target.classList.add('activo');
+            
+            secciones.forEach(seccion => {
+                if (filtro === 'todos') {
+                    seccion.style.display = 'block';
+                } else if (filtro.startsWith('capitulo-')) {
+                    const cap = filtro.split('-')[1];
+                    seccion.style.display = seccion.dataset.capitulo === cap ? 'block' : 'none';
+                }
+            });
+        }
+
+        function abrirModalDT(codigo) {
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const modal = document.getElementById('modalDT');
+            const titulo = document.getElementById('modal-dt-titulo');
+            const body = document.getElementById('modal-dt-body');
+            
+            titulo.textContent = `Crear DT: ${codigo} - ${item.descripcion}`;
+            
+            body.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Tipo de Cambio:</label>
+                    <select id="dt-tipo-cambio" class="form-control">
+                        <option value="cantidad">Ajuste de Cantidad</option>
+                        <option value="precio">Ajuste de Precio</option>
+                        <option value="eliminacion">Eliminación de Ítem</option>
+                        <option value="criterio_tecnico">Ajuste Criterio Técnico (Justificación)</option>
+                        <option value="riesgo">Identificación de Riesgo</option>
+                        <option value="cronograma">Ajuste de Cronograma</option>
+                        <option value="riesgo_cronograma">Riesgo + Ajuste Cronograma</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Observación Técnica:</label>
+                    <textarea id="dt-observacion" class="form-control" rows="4" placeholder="Describe tu propuesta..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Justificación:</label>
+                    <textarea id="dt-justificacion" class="form-control" rows="4" placeholder="Justifica técnicamente el cambio..."></textarea>
+                </div>
+                
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    <button class="btn btn-dt" onclick="generarDTItem('${codigo}')">📋 Generar DT</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function abrirModalNuevoCapitulo() {
+            document.getElementById('modalNuevoCapitulo').style.display = 'block';
+        }
+
+        function cerrarModal(idModal) {
+            document.getElementById(idModal).style.display = 'none';
+        }
+
+        function generarDTItem(codigo) {
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const tipo = document.getElementById('dt-tipo-cambio').value;
+            const observacion = document.getElementById('dt-observacion').value;
+            const justificacion = document.getElementById('dt-justificacion').value;
+            
+            if (!observacion || !justificacion) {
+                alert('❌ Debes completar observación y justificación');
+                return;
+            }
+            
+            const fecha = new Date().toISOString().split('T')[0];
+            const sistema = item.capitulo === '1' ? 'FIBRA' : 
+                           item.capitulo === '2' ? 'TETRA' : 
+                           item.capitulo === '3' ? 'CCTV' : 
+                           item.capitulo === '4' ? 'SAI' : 
+                           item.capitulo === '5' ? 'SEÑALIZACION' : 
+                           item.capitulo === '6' ? 'CTC' : 'SISTEMA';
+            const dtID = `DT-${sistema}-${String(Math.floor(Math.random()*1000)).padStart(3, '0')}-${fecha}`;
+            
+            const dtContent = `# DECISIÓN TÉCNICA: ${dtID}
+**Ítem WBS:** ${codigo} - ${item.descripcion}  
+**Tipo de cambio:** ${tipo}  
+**Fecha:** ${fecha}  
+**Especialista:** [Nombre del especialista]  
+
+---
+
+## 1. DESCRIPCIÓN DEL ÍTEM ACTUAL
+
+**Código WBS:** ${codigo}  
+**Descripción:** ${item.descripcion}  
+**Cantidad actual:** ${item.cantidad} ${item.unidad}  
+**Valor unitario:** $${parseInt(item.valor_unitario).toLocaleString('es-CO')} COP  
+**Valor total:** $${parseInt(item.total).toLocaleString('es-CO')} COP  
+**Tipo:** ${item.tipo}  
+**Capítulo:** ${item.capitulo}  
+
+---
+
+## 2. OBSERVACIÓN DEL ESPECIALISTA
+
+${observacion}
+
+---
+
+## 3. JUSTIFICACIÓN TÉCNICA
+
+${justificacion}
+
+---
+
+## 4. TIPO DE CAMBIO PROPUESTO
+
+**Categoría:** ${tipo}
+
+---
+
+## 5. PROPUESTA DE CAMBIO
+
+### Valores propuestos:
+- **Cantidad nueva:** [Especificar] ${item.unidad}
+- **Valor unitario nuevo:** [Especificar] COP
+- **Justificación del cambio:** ${justificacion}
+
+---
+
+## 6. IMPACTO ESPERADO
+
+### Impacto presupuestal:
+- **Valor actual:** $${parseInt(item.total).toLocaleString('es-CO')} COP
+- **Valor propuesto:** [Calcular]
+- **Variación:** [+/- %]
+
+### Impacto en cronograma:
+- [Especificar días de impacto]
+
+### Impacto en riesgos:
+- [Identificar nuevos riesgos o mitigados]
+
+---
+
+## 7. ARCHIVOS AFECTADOS
+
+- IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md (Item ${codigo})
+- [Otros archivos según aplique]
+
+---
+
+## 8. ÍTEMS DEPENDIENTES
+
+- [Listar ítems WBS que se ven afectados]
+
+---
+
+## 9. ALTERNATIVAS CONSIDERADAS
+
+1. **Alternativa 1:** [Descripción]
+2. **Alternativa 2:** [Descripción]
+3. **Alternativa seleccionada:** [Descripción y justificación]
+
+---
+
+## 10. INSTRUCCIONES PARA CURSOR ⚙️
+
+\`\`\`yaml
+dt_metadata:
+  dt_id: "${dtID}"
+  item_wbs: "${codigo}"
+  tipo_cambio: "${tipo}"
+  fecha: "${fecha}"
+  especialista: "[Nombre]"
+  
+archivos_actualizar:
+  - file: "IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md"
+    accion: "actualizar_y_versionar"
+    seccion: "Item ${codigo}"
+    cambios:
+      - campo: "cantidad"
+        buscar: "${item.cantidad}"
+        reemplazar: "[NUEVA_CANTIDAD]"
+      - campo: "valor_unitario"
+        buscar: "${item.valor_unitario}"
+        reemplazar: "[NUEVO_VALOR]"
+    versionamiento:
+      version_actual: "v2.0"
+      version_nueva: "v2.1"
+      razon: "${dtID} - ${tipo}"
+      agregar_nota: "Origen: ${dtID} | Fecha: ${fecha}"
+
+items_dependientes:
+  recalcular: false
+  items: []
+  formula_base: "proporcional_a_item_principal"
+
+validaciones:
+  - verificar_archivos_existen: true
+  - backup_antes_modificar: true
+  - validar_formato_numeros: true
+  - confirmar_con_usuario: true
+
+manejo_errores:
+  - archivo_no_existe: "reportar_y_continuar"
+  - seccion_no_encontrada: "pedir_confirmacion_manual"
+  - validacion_falla: "detener_y_reportar"
+  - backup_falla: "detener_ejecucion"
+\`\`\`
+
+---
+
+## 11. ESTADO DE EJECUCIÓN
+
+- [ ] 📝 Revisado por PMO
+- [ ] ✅ Aprobado para ejecución
+- [ ] 🔧 Ejecutado por Cursor: [fecha-hora]
+- [ ] 📊 Validado: Cambios aplicados correctamente
+
+---
+
+## 12. LOG DE EJECUCIÓN
+
+\`\`\`
+[Pendiente de ejecución]
+
+Fecha ejecución: 
+Usuario Cursor: 
+Archivos modificados: 
+Ítems recalculados: 
+Errores encontrados: 
+Tiempo ejecución: 
+\`\`\`
+
+---
+
+**Generado desde:** WBS Interactiva v4.0  
+**Fecha generación:** ${fecha}  
+**Sistema:** ${sistema}  
+**Especialista:** [Nombre]  
+`;
+            
+            // Descargar archivo
+            const blob = new Blob([dtContent], {type: 'text/markdown;charset=utf-8'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${dtID}.md`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            alert(`✅ DT GENERADA Y DESCARGADA\\n\\nArchivo: ${dtID}.md\\n\\nPróximos pasos:\\n1. Completa los campos [NUEVA_CANTIDAD] y [NUEVO_VALOR] en el YAML\\n2. Mueve a: II/Decisiones_Tecnicas/\\n3. Abre en Cursor\\n4. Cursor preguntará si ejecutar\\n5. Confirma y revisa cambios`);
+            
+            cerrarModal('modalDT');
+        }
+
+        function generarDTNuevoCapitulo() {
+            const numero = document.getElementById('nuevo-cap-numero').value;
+            const nombre = document.getElementById('nuevo-cap-nombre').value;
+            const descripcion = document.getElementById('nuevo-cap-descripcion').value;
+            const justificacion = document.getElementById('nuevo-cap-justificacion').value;
+            const presupuesto = document.getElementById('nuevo-cap-presupuesto').value;
+            
+            if (!nombre || !descripcion || !justificacion) {
+                alert('❌ Debes completar todos los campos');
+                return;
+            }
+            
+            const dtID = `DT-CAP${numero}-${String(Math.floor(Math.random()*1000)).padStart(3, '0')}`;
+            const fecha = new Date().toISOString().split('T')[0];
+            
+            const dtContent = `# DECISIÓN TÉCNICA - ${dtID}
+**Tipo:** Propuesta Nuevo Capítulo | **Fecha:** ${fecha}
+
+## 1. PROPUESTA DE NUEVO CAPÍTULO
+
+**Capítulo:** ${numero}
+**Nombre:** ${nombre}
+
+## 2. DESCRIPCIÓN
+
+${descripcion}
+
+## 3. JUSTIFICACIÓN TÉCNICA
+
+${justificacion}
+
+## 4. PRESUPUESTO ESTIMADO
+
+Total estimado: $${parseInt(presupuesto).toLocaleString('es-CO')} COP
+
+## 5. PRÓXIMOS PASOS
+
+- [ ] Aprobación PMO
+- [ ] Desarrollo de estructura detallada
+- [ ] Definición de ítems y sub-ítems
+- [ ] Integración en WBS oficial
+
+---
+
+**Generado desde:** WBS Interactiva v4.0
+`;
+            
+            // Descargar archivo
+            const blob = new Blob([dtContent], {type: 'text/markdown;charset=utf-8'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${dtID}-${fecha}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            alert(`✅ DT DE NUEVO CAPÍTULO GENERADA\\n\\nArchivo: ${dtID}-${fecha}.md\\n\\nPróximos pasos:\\n1. Mueve a: II/Decisiones_Tecnicas/\\n2. Revisa con PMO\\n3. Si se aprueba, se agregará al WBS oficial`);
+            
+            cerrarModal('modalNuevoCapitulo');
+        }
+
+        function descargarCriterioDetallado(codigo) {
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const criterio = criteriosTecnicos[codigo];
+            
+            if (!criterio) {
+                alert('⚠️ No hay criterio técnico documentado para este ítem');
+                return;
+            }
+            
+            const fecha = new Date().toISOString().split('T')[0];
+            const contenidoMD = `# CRITERIO TÉCNICO DETALLADO
+## Ítem ${codigo} - ${item.descripcion}
+
+**Fecha:** ${fecha}  
+**Documento:** Criterio Técnico  
+**Estado:** Vigente  
+
+---
+
+## 1. IDENTIFICACIÓN DEL ÍTEM
+
+| Campo | Valor |
+|-------|-------|
+| Código WBS | ${codigo} |
+| Descripción | ${item.descripcion} |
+| Cantidad | ${item.cantidad} ${item.unidad} |
+| Valor Unitario | ${formatearPeso(item.vu_cop)} COP |
+| Valor Total | ${formatearPeso(item.total_cop)} COP |
+| Tipo | ${item.tipo} |
+| Capítulo | ${item.capitulo} |
+
+---
+
+## 2. CRITERIO TÉCNICO
+
+### Justificación:
+${criterio.criterio_tecnico.justificacion}
+
+### Cálculo Detallado:
+${criterio.criterio_tecnico.calculo_detallado}
+
+### Desglose:
+${criterio.criterio_tecnico.desglose ? criterio.criterio_tecnico.desglose.map((d, i) => `${i + 1}. ${d}`).join('\n') : '_No aplica_'}
+
+---
+
+## 3. FUENTES Y REFERENCIAS
+
+### Normativa Aplicable:
+${criterio.criterio_tecnico.fuente_normativa}
+
+### Fuente de Diseño:
+${criterio.criterio_tecnico.fuente_diseno}
+
+### Documentos de Referencia:
+${criterio.criterio_tecnico.documentos_referencia ? criterio.criterio_tecnico.documentos_referencia.map(d => `- ${d}`).join('\n') : '_No documentado_'}
+
+---
+
+## 4. RESTRICCIONES Y LÍMITES
+
+${criterio.criterio_tecnico.restriccion}
+
+---
+
+## 5. ALTERNATIVAS TÉCNICAS
+
+${criterio.criterio_tecnico.alternativas ? criterio.criterio_tecnico.alternativas.map((alt, i) => `
+### Alternativa ${i + 1}:
+${alt}
+`).join('\n') : '_No se han evaluado alternativas_'}
+
+---
+
+## 6. RIESGOS ASOCIADOS
+
+${criterio.riesgos_asociados && criterio.riesgos_asociados.length > 0 ? criterio.riesgos_asociados.map(r => `
+### ${r.id}
+**Descripción:** ${r.descripcion}  
+**Probabilidad:** ${r.probabilidad}  
+**Impacto:** ${r.impacto}  
+**Estrategia de mitigación:** ${r.estrategia}  
+`).join('\n') : '_No se han identificado riesgos específicos para este ítem_'}
+
+---
+
+**Generado desde:** WBS Interactiva v4.0  
+**Fecha generación:** ${fecha}  
+**Formato:** Markdown  
+`;
+            
+            // Descargar archivo
+            const blob = new Blob([contenidoMD], {type: 'text/markdown;charset=utf-8'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `CRITERIO_TECNICO_${codigo.replace(/\./g, '-')}_${fecha}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            alert(`✅ Criterio técnico descargado\\n\\nArchivo: CRITERIO_TECNICO_${codigo.replace(/\\./g, '-')}_${fecha}.md\\n\\nContiene:\\n- Justificación completa\\n- Cálculo detallado\\n- Desglose\\n- Fuentes normativas\\n- Documentos de referencia\\n- Alternativas\\n- Riesgos`);
+        }
+
+        function solicitarCriterioTecnico(codigo) {
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            
+            if (confirm(`Solicitar documentación de criterio técnico para:\\n\\n${codigo} - ${item.descripcion}\\n\\n¿Generar solicitud?`)) {
+                const fecha = new Date().toISOString().split('T')[0];
+                const solicitudMD = `# SOLICITUD DE DOCUMENTACIÓN - CRITERIO TÉCNICO
+## Ítem ${codigo} - ${item.descripcion}
+
+**Fecha solicitud:** ${fecha}  
+**Solicitante:** Usuario WBS Interactiva  
+
+---
+
+## ÍTEM SOLICITADO
+
+- **Código WBS:** ${codigo}
+- **Descripción:** ${item.descripcion}
+- **Cantidad actual:** ${item.cantidad} ${item.unidad}
+- **Total:** ${formatearPeso(item.total_cop)} COP
+
+---
+
+## INFORMACIÓN REQUERIDA
+
+### 1. Justificación técnica:
+¿Por qué se estableció esta cantidad específica (${item.cantidad} ${item.unidad})?
+
+### 2. Cálculo detallado:
+¿Cómo se calculó este valor? (Fórmula, criterios, normas)
+
+### 3. Desglose (si aplica):
+¿Cuál es la composición detallada?
+
+### 4. Fuentes normativas:
+¿Qué normas o estándares aplican?
+
+### 5. Documentos de referencia:
+¿En qué documentos se encuentra el detalle?
+
+### 6. Restricciones:
+¿Cuáles son los límites mínimos/máximos permitidos?
+
+### 7. Alternativas:
+¿Se evaluaron otras opciones?
+
+---
+
+## PRÓXIMOS PASOS
+
+- [ ] Especialista completa información
+- [ ] PMO revisa y aprueba
+- [ ] Se agrega a: criterios_tecnicos_base.json
+- [ ] Se actualiza WBS Interactiva
+
+---
+
+**Generado desde:** WBS Interactiva v4.0  
+**Archivo:** SOLICITUD_CRITERIO_${codigo.replace(/\./g, '-')}_${fecha}.md  
+`;
+                
+                // Descargar solicitud
+                const blob = new Blob([solicitudMD], {type: 'text/markdown;charset=utf-8'});
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `SOLICITUD_CRITERIO_${codigo.replace(/\./g, '-')}_${fecha}.md`;
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                alert(`✅ Solicitud generada\\n\\nEnviar a especialista para que documente el criterio técnico.`);
+            }
+        }
+
+        function mostrarDocumentosReferencia(codigo) {
+            const criterio = criteriosTecnicos[codigo];
+            
+            if (!criterio || !criterio.criterio_tecnico.documentos_referencia) {
+                alert('⚠️ No hay documentos de referencia disponibles');
+                return;
+            }
+            
+            const docs = criterio.criterio_tecnico.documentos_referencia;
+            let mensaje = `📚 DOCUMENTOS DE REFERENCIA\\n\\nÍtem ${codigo}:\\n\\n`;
+            docs.forEach((doc, i) => {
+                mensaje += `${i + 1}. ${doc}\\n`;
+            });
+            mensaje += `\\n💡 Consulta estos documentos para mayor detalle.`;
+            
+            alert(mensaje);
+        }
+
+        function cargarDatosDemo() {
+            // Fallback si no se carga el JSON
+            wbsData = {
+                items: [
+                    {codigo: "1.1.100", descripcion: "Servidores CTC principales", cantidad: 2, vu_cop: 180000000, total_cop: 360000000, modificable: true, capitulo: "1", unidad: "UND", tipo: "SUMINISTRO"}
+                ]
+            };
+            procesarYCargarWBS();
+        }
+
+        // Cerrar modal al hacer clic fuera
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+

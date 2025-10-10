@@ -1,0 +1,17 @@
+﻿# REPORTE: SISTEMAS QUE NECESITAN REGENERACION
+
+Fecha: 09/10/2025 17:02
+
+
+## SISTEMA_001 - 0 DTs ejecutadas
+
+## SISTEMA_002 - 0 DTs ejecutadas
+
+## SISTEMA_003 - 0 DTs ejecutadas
+
+## SISTEMA_004 - 0 DTs ejecutadas
+
+## SISTEMA_005 - 0 DTs ejecutadas
+
+## SISTEMA_006 - 0 DTs ejecutadas
+

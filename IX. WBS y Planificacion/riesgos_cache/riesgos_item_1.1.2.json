@@ -1,0 +1,29 @@
+﻿{
+  "item_wbs": "1.1.2",
+  "ultima_actualizacion": "2025-10-07T15:30:00",
+  "total_riesgos": 2,
+  "riesgos": [
+    {
+      "id": "R-FIBRA-010",
+      "descripcion": "Estimacion global puede ser insuficiente si aumentan fusiones de campo",
+      "probabilidad": "Media",
+      "impacto": "Medio",
+      "estrategia": "Mitigar: Desglosar en items especificos",
+      "responsable": "Especialista Fibra",
+      "estado": "Activo",
+      "origen_decision": "N/A",
+      "hito_verificacion": "Ingenieria Detalle"
+    },
+    {
+      "id": "R-FIBRA-011",
+      "descripcion": "Falta detalle tecnico puede generar confusion en compras",
+      "probabilidad": "Alta",
+      "impacto": "Medio",
+      "estrategia": "Proponer DT: Desglosar item en componentes",
+      "responsable": "PMO",
+      "estado": "Activo",
+      "origen_decision": "N/A",
+      "hito_verificacion": "Compras"
+    }
+  ]
+}

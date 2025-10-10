@@ -1,0 +1,29 @@
+﻿{
+  "item_wbs": "1.1.3",
+  "ultima_actualizacion": "2025-10-07T15:30:00",
+  "total_riesgos": 2,
+  "riesgos": [
+    {
+      "id": "R-FIBRA-003",
+      "descripcion": "Espaciamiento muy corto aumenta CAPEX",
+      "probabilidad": "Alta",
+      "impacto": "Alto",
+      "estrategia": "Analizar alternativas 350m-500m",
+      "responsable": "Especialista Fibra",
+      "estado": "Activo",
+      "origen_decision": "N/A",
+      "hito_verificacion": "Aprobacion PMO"
+    },
+    {
+      "id": "R-FIBRA-006",
+      "descripcion": "Si se reduce espaciamiento, aumenta tiempo localizacion fallas",
+      "probabilidad": "Baja",
+      "impacto": "Medio",
+      "estrategia": "Aceptar si >350m",
+      "responsable": "Operaciones",
+      "estado": "Activo",
+      "origen_decision": "N/A",
+      "hito_verificacion": "Plan Mantenimiento"
+    }
+  ]
+}
