@@ -43,41 +43,105 @@
             
             .header h1 {
                 font-size: 22px;
+                word-wrap: break-word;
             }
             
             .header p {
                 font-size: 13px;
+                word-wrap: break-word;
             }
             
             .content {
                 padding: 20px;
             }
             
-            .summary-grid {
-                grid-template-columns: 1fr;
+            .risk-summary {
+                grid-template-columns: repeat(2, 1fr);
                 gap: 15px;
-                margin-bottom: 20px;
+                margin: 20px 0;
             }
             
-            .summary-card {
+            .risk-metric {
                 padding: 15px;
             }
             
-            .summary-card h3 {
-                font-size: 16px;
+            .metric-value {
+                font-size: 20px;
             }
             
-            .summary-card .number {
-                font-size: 24px;
+            .metric-label {
+                font-size: 12px;
+            }
+            
+            .risk-matrix {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .risk-card {
+                padding: 20px;
+                margin: 10px 0;
+            }
+            
+            .risk-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .risk-title {
+                font-size: 16px;
+                word-wrap: break-word;
+            }
+            
+            .risk-level {
+                margin-left: 0;
+                align-self: flex-start;
+            }
+            
+            .risk-description {
+                font-size: 14px;
+                word-wrap: break-word;
+            }
+            
+            .impact-section {
+                padding: 12px;
+            }
+            
+            .impact-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+            
+            .filter-buttons {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .filter-btn {
+                width: 100%;
+                text-align: center;
+            }
+            
+            .search-box {
+                font-size: 16px;
             }
             
             table {
                 font-size: 12px;
+                overflow-x: auto;
+                display: block;
+                white-space: nowrap;
             }
             
-            .risk-table th,
-            .risk-table td {
-                padding: 8px 4px;
+            .matrix-table {
+                font-size: 11px;
+            }
+            
+            .matrix-table th,
+            .matrix-table td {
+                padding: 6px 4px;
             }
         }
 
@@ -88,27 +152,115 @@
             
             .header h1 {
                 font-size: 18px;
+                word-wrap: break-word;
             }
             
             .content {
                 padding: 15px;
             }
             
-            .summary-grid {
+            .risk-summary {
+                grid-template-columns: 1fr;
                 gap: 10px;
+                margin: 15px 0;
             }
             
-            .summary-card {
+            .risk-metric {
                 padding: 12px;
             }
             
-            .risk-table {
+            .metric-value {
+                font-size: 18px;
+            }
+            
+            .metric-label {
                 font-size: 11px;
             }
             
-            .risk-table th,
-            .risk-table td {
-                padding: 6px 2px;
+            .risk-card {
+                padding: 15px;
+                margin: 8px 0;
+            }
+            
+            .risk-title {
+                font-size: 14px;
+                word-wrap: break-word;
+            }
+            
+            .risk-description {
+                font-size: 13px;
+                word-wrap: break-word;
+            }
+            
+            .impact-section {
+                padding: 12px;
+                margin: 15px 0;
+            }
+            
+            .impact-title {
+                font-size: 15px;
+                margin-bottom: 12px;
+                word-wrap: break-word;
+            }
+            
+            .impact-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 8px 0;
+                gap: 4px;
+                border-bottom: 1px solid #dee2e6;
+            }
+            
+            .impact-item:last-child {
+                border-bottom: none;
+            }
+            
+            .impact-label {
+                font-size: 12px;
+                color: #555;
+                font-weight: 600;
+            }
+            
+            .impact-value {
+                font-size: 13px;
+                font-weight: 600;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                width: 100%;
+            }
+            
+            .filter-btn {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .search-box {
+                font-size: 16px;
+                padding: 10px;
+            }
+            
+            .matrix-table {
+                font-size: 10px;
+            }
+            
+            .matrix-table th,
+            .matrix-table td {
+                padding: 4px 2px;
+            }
+            
+            .matrix-cell {
+                font-size: 10px;
+            }
+            
+            .trend-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+            
+            .trend-direction {
+                font-size: 16px;
             }
         }
         
