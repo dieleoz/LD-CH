@@ -1,0 +1,29 @@
+# ================================================================
+# .gitignore - Proyecto APP La Dorada-Chiriguaná
+# ================================================================
+
+# Archivos de contrato editables (Word/PDF/TXT)
+02. Contrato Editables V1/
+
+# Backups originales
+backup_originales/
+
+# Carpeta de archivos históricos
+old/
+
+# Node modules (si se usan)
+node_modules/
+
+# Archivos temporales de Windows
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# Archivos temporales de Office
+*.docx~
+*.xlsx~
+
+# Logs de PowerShell
+*.log
+
