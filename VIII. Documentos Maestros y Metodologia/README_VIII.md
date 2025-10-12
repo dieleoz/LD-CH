@@ -1,8 +1,9 @@
-# 📁 VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA
+# 📁 VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA v14.7.1
 ## APP LA DORADA-CHIRIGUANÁ - Documentos de Referencia
 
-**Fecha:** 10 de Octubre 2025  
-**Estado:** ✅ **DOCUMENTOS ORGANIZADOS Y AMPLIADOS (v14.6)**  
+**Fecha:** 11 de Octubre 2025  
+**Versión:** v2.0 - Organización v14.7.1  
+**Estado:** ✅ **CARPETA ORGANIZADA - 12 Documentos Maestros + 5 Subcarpetas**  
 **Propósito:** Documentos de referencia técnica y metodológica del proyecto
 
 ---
@@ -130,21 +131,35 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 
 ---
 
-## 📊 **ESTADÍSTICAS DE LA CARPETA**
+### **🆕 DATOS DE LAYOUT Y ANÁLISIS (Subcarpeta)** ⭐ NUEVO v14.7.1
 
-- **Total documentos:** 22 (+ README)
-  - 13 Documentos base
-  - 3 Análisis Contractual ⭐
-  - 2 Cronogramas ⭐
-  - 1 Plan Implementación ⭐
-  - 1 Arquitectura Integración
+| Categoría | Archivos | Propósito |
+|:----------|:--------:|:----------|
+| **Datos_Layout_Temporales/** | 19 archivos | Datos de sesión Layout Maestro (11-Oct-2025) |
+| - Layout JSONs | 4 | LAYOUT_INTEGRAL, LAYOUT_JERARQUICO, etc. |
+| - Recetas/Ingredientes | 8 | Datos sistema cocinar/servir |
+| - Análisis específicos | 7 | TETRA, Fibra, Escuelas, Estaciones |
+
+**Nota:** Datos de sesión de desarrollo del Layout Maestro v14.7, preservados para referencia.
+
+---
+
+## 📊 **ESTADÍSTICAS DE LA CARPETA v14.7.1**
+
+- **Total documentos:** 31 (+ README)
+  - **12 Documentos maestros en raíz** ⭐ (LIMPIO, -61%)
+  - 3 Análisis Contractual
+  - 2 Cronogramas
+  - 1 Plan Implementación
   - 4 Matrices Dinámicas
-- **Documentos maestros:** 5
+  - **19 Datos Layout Temporales** 🆕 (organizados en subcarpeta)
+- **Documentos maestros esenciales:** 8
 - **Metodologías replicables:** 5
 - **Arquitecturas técnicas:** 2
 - **Matrices dinámicas:** 4 (subcarpeta)
+- **Subcarpetas:** 5 (4 + 1 nueva)
 - **Estado:** 100% organizados y disponibles
-- **Última actualización:** 10 de Octubre 2025
+- **Última actualización:** 11 de Octubre 2025 (v14.7.1)
 
 ---
 
@@ -156,6 +171,41 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 
 ---
 
-**Carpeta organizada según estándares del proyecto**  
-**Fecha:** Enero 2025  
-**Responsable:** Administrador Contractual EPC
+---
+
+## 🎯 **ACTUALIZACIÓN v14.7.1 (11-OCT-2025)**
+
+### **Organización Completada:**
+
+**Cambios realizados:**
+- ✅ **Raíz limpia:** 31 → 12 archivos maestros (-61%)
+- ✅ **Nueva subcarpeta:** `Datos_Layout_Temporales/` creada
+- ✅ **19 archivos organizados:** Datos de sesión Layout movidos
+- ✅ **5 subcarpetas totales:** Estructura clara y navegable
+
+**Archivos en raíz (solo esenciales):**
+1. Criterios Técnicos Maestro
+2. Matriz Trazabilidad Técnica
+3. Procedimientos Coherencia
+4. Plan Gestión Riesgos
+5. Arquitectura Sistema Completo
+6. PROMPT Admin EPC v5.0
+7. PROMPT Punto 42 v1.1
+8. Organización Documental
+9. Metodología Gestión Supuestos
+10. Estado Final Proyecto
+11. Próximos Pasos
+12. README_VIII.md
+
+**Beneficios:**
+- 📂 Raíz limpia con solo documentos maestros
+- 🗂️ Datos temporales organizados en subcarpeta
+- 🔍 Fácil navegación y búsqueda
+- ✅ Coherente con limpieza v14.7.1
+
+---
+
+**Carpeta organizada según estándares del proyecto v14.7.1**  
+**Fecha:** 11 de Octubre 2025  
+**Versión:** v2.0  
+**Responsable:** Administrador Contractual EPC + PMO
