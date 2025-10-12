@@ -1,10 +1,10 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 11 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.1 - LAYOUT MAESTRO + WORKFLOW AUTOMÁTICO + PROYECTO LIMPIO**  
+**Fecha de actualización:** 12 de Octubre 2025  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.2 - LAYOUT SINCRONIZADO CON CONTRATO**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,182 equipos**, **Workflow DT automático**, **Proyecto organizado (-72% archivos)**, Portal web publicado 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,186 equipos (UFVF)**, **Puente Sogamoso agregado**, **Proyecto organizado (-72% archivos)**, Portal web publicado 
 
 ---
 
@@ -15,12 +15,12 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.1 (11-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.2 (12-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
 | **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
-| **Layout Maestro** | ✅ Operativo | 2,182 equipos con filtros inteligentes |
+| **Layout Maestro** | ✅ Sincronizado | 2,186 equipos con nomenclatura UFVF |
 | **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
 | **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
 | **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
@@ -30,6 +30,7 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
 | **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
 | **Commits Git** | ✅ Actualizados | 18 commits v14.7.1 |
+| Commits Git | ✅ Actualizados | 20+ commits v14.7.2 |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -1499,18 +1500,54 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 ## 🎯 **ACTUALIZACIÓN v14.7.1 (11-OCT-2025)**
 
-### **Limpieza y Organización Documental Completada:**
+### **Limpieza y Organización Documental Completada (v14.7.1):**
 
-**Logros de organización:**
-- ✅ **78 archivos movidos:** 59 a `old/`, 23 scripts a `legacy_scripts/`, 19 datos a `Datos_Layout_Temporales/`
-- ✅ **9 carpetas organizadas:** Raíz, @@Doc, Indices, IX, Reportes, scripts, VII transversales, VII Especializado, VIII Maestros
-- ✅ **15 documentos actualizados:** Todos reflejan estado v14.7.1
-- ✅ **18 commits exitosos:** Todos subidos a GitHub
-- ✅ **Reducción 72%:** De 125 archivos dispersos a 35 esenciales organizados
+#### CARPETAS REVISADAS Y ORGANIZADAS (9/9 - 100%):
+| # | Carpeta | Antes | Después | Reducción | Acción |
+|:--|:--------|:------|:--------|:----------|:---------------|
+| 1 | Raíz | 43 @@ | 8 @@ | -81% | 18 movidos |
+| 2 | @@Doc | 22 | 5 | -77% | 18 movidos |
+| 3 | Indices | 2 | 0 | -100% | Carpeta movida |
+| 4 | IX | 34 | 29 | -15% | 5 movidos |
+| 5 | Reportes | 20 | 7 | -65% | 13 movidos |
+| 6 | scripts | 81 | 58 | -28% | 23 a legacy |
+| 7 | VII trans | 7 | 7 | 0% | 1 actualizado |
+| 8 | VII Esp | 22 | 22 | 0% | Sin cambios |
+| 9 | VIII | 31 raíz | 12 raíz | -61% | 19 organizados |
 
-**Carpetas con mayor impacto:**
-- Raíz: 43 → 8 archivos @@ (-81%)
-- @@Doc: 22 → 5 archivos (-77%)
-- Reportes: 20 → 7 archivos (-65%)
-- VIII/: 31 → 12 archivos en raíz (-61%)
-- scripts: 81 → 58 activos + 23 legacy (-28%)
+#### 📦 ARCHIVOS MOVIDOS (78 TOTALES):
+| Destino | Cantidad | Detalles |
+|:--------------------------|:---------|:----------------------------------------------------|
+| `old/` | 59 | Históricos de sesiones 7-11 Oct, índices, validaciones |
+| `legacy_scripts/` | 23 | Scripts obsoletos, duplicados, experimentales |
+| `Datos_Layout_Temporales/` | 19 | JSONs layout, recetas, ingredientes, análisis |
+| `Versiones_Anteriores/` | 4 | Backups HTML, layout_datos.json |
+
+#### 📝 DOCUMENTOS ACTUALIZADOS (15):
+| # | Archivo | Versión | Cambio Principal |
+|:--|:----------------|:--------------|:---------------------------------------|
+| 1 | @@Roadmap | v14.6→v14.7.1 | Sección v14.7.1, métricas 9 carpetas |
+| 2 | Indice_Maestro | v1.0 | Métricas 78 archivos, 9 carpetas |
+| 3 | README.md | v14.7.1 | Tabla estado, sección v14.7.1 |
+| 4 | LEEME_PRIMERO.md | v14.7 | 7 interfaces, Layout Maestro |
+| 5 | @@SISTEMA_SINCRO | v1.2 | Layout Maestro integrado |
+| 6 | @@Doc/README | v2.0 | 22→5 archivos |
+| 7 | @@Doc/PROBAR | v14.7 | 4 opciones, Layout #1 |
+| 8 | IX/README | v2.0 | 8 interfaces, 2,182 equipos |
+| 9 | Reportes/ANI | v14.7 | Datos presupuestales |
+| 10 | scripts/README | v2.0 | 58 activos + 23 legacy |
+| 11 | scripts/COCINAR | v14.7 | Workflow automático |
+| 12 | scripts/LAYOUT | v3.0 | Layout Maestro |
+| 13 | VII/transvers | v4.1 | Referencias v14.7 |
+| 14 | VIII/README | v2.0 | Organización v14.7.1 |
+| 15 | IX/GUIA_GITHUB | - | Movido a old/ |
+
+#### 📦 GIT - TRAZABILIDAD COMPLETA:
+| Métrica | Valor |
+|:--------------|:----------------------|
+| Total commits | 19 ✅ |
+| Todos subidos | ✅ GitHub |
+| Último commit | 778412a |
+| Estado | Clean (sin pendientes) |
+
+Con esta actualización, el proyecto alcanza un nuevo nivel de madurez, con una estructura documental limpia, flujos de trabajo automatizados y una trazabilidad completa. ¡Excelente trabajo!

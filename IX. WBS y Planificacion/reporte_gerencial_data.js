@@ -1,5 +1,5 @@
 ﻿const reporteGerencialData = {
-    "fecha_generacion":  "2025-10-10 12:25:29",
+    "fecha_generacion":  "2025-10-12 00:50:42",
     "cambios_sustanciales":  [
 
                              ],
