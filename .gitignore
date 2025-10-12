@@ -37,3 +37,6 @@ config/local.config.ps1
 .env
 .env.local
 
+# Logs del sistema (Opcional - conservar para auditoría)
+# logs/*.json
+

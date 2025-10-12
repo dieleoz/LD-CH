@@ -1,0 +1,33 @@
+﻿{
+    "timestamp":  "2025-10-12T15:27:50",
+    "accion":  "TEST",
+    "estado":  "COMPLETADO",
+    "parametros":  {
+                       "sistema":  "FIBRA"
+                   },
+    "inicio":  "2025-10-12T15:27:50",
+    "fin":  "2025-10-12T15:27:50",
+    "duracion_segundos":  0.11,
+    "resultado":  {
+                      "exitoso":  true,
+                      "detalles":  {
+
+                                   },
+                      "mensaje":  "Test OK"
+                  },
+    "archivos_procesados":  [
+
+                            ],
+    "archivos_modificados":  [
+
+                             ],
+    "errores":  [
+
+                ],
+    "advertencias":  [
+
+                     ],
+    "metricas":  {
+                     "test":  100
+                 }
+}

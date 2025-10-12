@@ -1,0 +1,84 @@
+﻿{
+    "timestamp":  "2025-10-12T15:32:24",
+    "accion":  "COCINAR",
+    "estado":  "COMPLETADO",
+    "parametros":  {
+                       "con_logs":  {
+                                        "IsPresent":  true
+                                    },
+                       "sistema":  "",
+                       "todo":  {
+                                    "IsPresent":  false
+                                }
+                   },
+    "inicio":  "2025-10-12T15:32:24",
+    "fin":  "2025-10-12T15:32:30",
+    "duracion_segundos":  6,
+    "resultado":  {
+                      "exitoso":  true,
+                      "detalles":  {
+
+                                   },
+                      "mensaje":  "Cocina completada: 6 sistemas"
+                  },
+    "archivos_procesados":  [
+                                {
+                                    "archivo":  "DT-FIBRA-641-2025-10-11.md",
+                                    "estado":  "DT_EJECUTADA",
+                                    "timestamp":  "2025-10-12T15:32:29"
+                                }
+                            ],
+    "archivos_modificados":  [
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:29"
+                                 },
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:29"
+                                 },
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_02_Telecomunicaciones_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:29"
+                                 },
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_03_ITS_y_Seguridad_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:30"
+                                 },
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_04_Material_Rodante_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:30"
+                                 },
+                                 {
+                                     "archivo":  "D:\\one drive grupo ortiz 2025\\OneDrive - Grupo Ortiz\\LFC\\02. Ingenieria\\02. Ingenieria Conceptual\\0.0 Formatos para IA\\X_ENTREGABLES_CONSOLIDADOS\\7_SISTEMAS_EJECUTIVOS\\SISTEMA_05_Infraestructura_Operativa_EJECUTIVO.md",
+                                     "tipo_cambio":  "COCINADO",
+                                     "timestamp":  "2025-10-12T15:32:30"
+                                 }
+                             ],
+    "errores":  [
+
+                ],
+    "advertencias":  [
+
+                     ],
+    "metricas":  {
+                     "sistema_03_fuentes":  2,
+                     "sistema_02_dts":  1,
+                     "sistemas_cocinados":  6,
+                     "sistema_05_dts":  0,
+                     "sistema_04_dts":  0,
+                     "sistema_04_fuentes":  1,
+                     "sistema_06_dts":  1,
+                     "sistema_01_fuentes":  2,
+                     "sistema_06_fuentes":  1,
+                     "sistema_03_dts":  1,
+                     "sistema_02_fuentes":  2,
+                     "sistema_05_fuentes":  1,
+                     "sistema_01_dts":  0
+                 }
+}

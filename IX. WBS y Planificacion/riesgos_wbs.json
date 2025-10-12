@@ -1,5 +1,5 @@
 ﻿{
-    "fecha_actualizacion":  "2025-10-10",
+    "fecha_actualizacion":  "2025-10-12",
     "riesgos":  [
                     {
                         "items_wbs":  [
@@ -47,7 +47,12 @@
                     },
                     {
                         "items_wbs":  [
-
+                                          "1.1.100",
+                                          "1.1.101",
+                                          "1.1.106",
+                                          "2.1.100",
+                                          "3.1.100",
+                                          "5.1.100"
                                       ],
                         "fuente":  "AT4 / P42",
                         "nivel_exposicion":  "MEDIA",
@@ -68,7 +73,13 @@
                     },
                     {
                         "items_wbs":  [
-
+                                          "1.1.100",
+                                          "1.1.105",
+                                          "1.1.106",
+                                          "1.1.108",
+                                          "2.1.100",
+                                          "3.1.100",
+                                          "5.1.100"
                                       ],
                         "fuente":  "VII.2.11",
                         "nivel_exposicion":  "MEDIA",
@@ -152,7 +163,12 @@
                     },
                     {
                         "items_wbs":  [
-
+                                          "2.3.100",
+                                          "2.3.103",
+                                          "2.1.100",
+                                          "3.2.100",
+                                          "4.1.100",
+                                          "6.1.100"
                                       ],
                         "fuente":  "Contrato",
                         "nivel_exposicion":  "MEDIA",
@@ -173,7 +189,13 @@
                     },
                     {
                         "items_wbs":  [
-
+                                          "1.1.100",
+                                          "1.1.103",
+                                          "1.2.100",
+                                          "2.1.100",
+                                          "2.3.100",
+                                          "3.1.100",
+                                          "5.1.100"
                                       ],
                         "fuente":  "A.1 Análisis",
                         "nivel_exposicion":  "MEDIA",
@@ -235,7 +257,14 @@
                     },
                     {
                         "items_wbs":  [
-
+                                          "1.1.100",
+                                          "1.1.103",
+                                          "1.2.100",
+                                          "2.3.100",
+                                          "2.3.103",
+                                          "3.2.100",
+                                          "4.1.100",
+                                          "6.1.100"
                                       ],
                         "fuente":  "A.3 Análisis",
                         "nivel_exposicion":  "MEDIA",
@@ -371,6 +400,6 @@
                          "exposicion_baja":  3
                      },
     "proyecto":  "APP La Dorada-Chiriguaná",
-    "riesgos_vinculados":  12,
+    "riesgos_vinculados":  17,
     "total_riesgos":  17
 }
