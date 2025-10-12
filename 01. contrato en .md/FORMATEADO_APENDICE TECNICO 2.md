@@ -1,6 +1,5 @@
 ﻿# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -9,30 +8,23 @@
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT2 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Condiciones para la Operación y el Mantenimiento** Este apéndice técnico establece las condiciones, procedimientos y estándares para la operación y mantenimiento del Corredor Férreo La Dorada-Chiriguaná durante el período de concesión.
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
 
 ---
 
  libertad y Orden
 
-
 # REPÚBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
-
 
 ## AGENCIA
 
@@ -42,31 +34,23 @@ CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No. 001 DE 2025 Entre: Concedente:
 
-
 ## AGENCIA
 
 NACIONAL DE INFRAESTRUCTURA Concesionario: CONCESIÓN LINEA FÉRREA CENTRAL S.A.S APÉNDICE TÉCNICO 2 CONDICIONES PARA LA OPERACIÓN Y EL MANTENIMIENTO Página ft]de 6(f1 TABLA DE CONTENIDO . CAPÍTULO! CAPÍTULO 11 INTRODUCCIÓN 5 OBLIGACIONES A CARGO DEL CONCESIONARIO 6
 
-
 #### 2.1 Servicios de carácter obligatorio ; 6
-
 
 #### 2.2 Servicios Adicionales 8
 
-
 #### 2.3 Obligaciones sobre el ramal Cabañas 8
 
-
 #### 2.4 Obligaciones sobre las estaciones férreas ; 9
-
 
 #### 2.5 Obligaciones sobre el nuevo puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
 ramales de conexión 11
 
-
 ### CAPÍTULO III - OPERACIÓN DEL PROYECTO 12
-
 
 #### 3.1 Principios de la Operación del Proyecto 12 3.1.1 Continuidad del servicio 13 3.1.2 Seguridad en la Vía Férrea y en la Operación del Material Rodante 14 3.1.3 Medidas para la transitabilidad ante emergencias 15 3.1.4 Integridad de la Infraestructura del Proyecto 18 3.1.5 Regularidad 18 3.1.6 Calidad del Servicio Técnico y de la Atención al Operador 19 3.1.7 Cobertura 19 3.1.8 Información Permanente 19 3.1.9 Supervisión de las Obras 20 3 .2 Obligaciones Generales 20 3.2.1 Prestación del Servicio Público de Transporte
 
@@ -80,35 +64,25 @@ Ocurrencia de Eventos 26 3.3.5 Derrumbes 26 3.3.6 Operación del Material Rodant
 
 ramales de conexión , 28
 
-
 ### CAPÍTULO IV - INFORMES GESTIÓN GENERAL, PREPARACIÓN Y ENTREGA DE 29
-
 
 #### 4.1 Sistema de Gestión 29
 
-
 #### 4.2 Preparación de Informes 30 4.2.1 Reportes semanales 30 4.2.2 Informes Mensuales 30 4.2.3 Informes Anuales 32 4.2.4 Documentación de Emisión Puntual 33
-
 
 #### 4.3 Archivo .' 34
 
-
 ### CAPÍTULO V - REVERSIÓN 39
-
 
 #### 5.1 Indicadores 39 5 .2 Infraestructura 40 5 .3 Pavimentos 40
 
-
 #### 5.4 Equipos 40
-
 
 #### 5.5 Puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
 ramales de conexión 40
 
-
 ### CAPÍTULO VI - MANTENIMIENTO 41
-
 
 #### 6.1 Alcance
 
@@ -116,14 +90,11 @@ General de las
 
 Obras de Mantenimiento .41
 
-
 #### 6.2 Tipos de
 
 Obras de Mantenimiento .42
 
-
 #### 6.3 Obras de Mantenimiento Generales .43
-
 
 #### 6.4 Actividades Particulares del Mantenimiento 44 6.4.1 Rieles 45 6.4.2 Grietas, desgaste del hongo, aplastamiento, patinaduras 45 6.4.3 Fisuras : 46 6.4.4 Inspección de las uniones soldaduras 47 6.4.5 Desnivel en la parte
 
@@ -139,14 +110,11 @@ zanjas de coronación 53 6.4.16 Limpieza de Infraestructura 53 6.4.16.1 Rocería
 
 Centros de Transferencia y demás edificaciones 58 6.4.21 Reparación de Baches 58 6.4.22 Sellado de Fisuras 58 6.4.23 Reparación de pavimento rígido 58 6.4.24 Mantenimiento preventivo y correctivo del Material Rodante 59 6.4.25 Mantenimiento preventivo y correctivo del Material Rodante Remolcado 61
 
-
 #### 6.5 Directrices
 
 Generales de Mantenimiento 61 6.5.1 Inspecciones periódicas 62 6.5.2 Cuadro de periodicidades 64
 
-
 #### 6.6 Mantenimiento de Patios 65 6.6.1 Mantenimiento de Edificaciones 65 Página {jjde ,;:1;
-
 
 ### CAPÍTULO I - INTRODUCCIÓN (a) De conformidad con lo previsto en el Contrato, el presente Apéndice desarrolla las obligaciones que el Concesionario deberá cumplir en
 
@@ -185,7 +153,6 @@ repostaje de combustible para terceros operadores, la explotación
 comercial de las estaciones férreas mediante actividades tales como la
 
 venta de alimentos, restaurante.
-
 
 #### 2.1 Servicios de carácter obligatorio A continuación, se
 
@@ -273,11 +240,9 @@ desarrollo de los servicios obligatorios anteriormente mencionados o de las obli
 
 particulares de operación a que hace referencia el numeral 3.3 de este Apéndice.
 
-
 #### 2.2 Servicios Adicionales En adición a los servicios señalados en el numeral anterior, y siempre que éstos no constituyan una obligación expresamente señalada en el Contrato y sus Apéndices, el Concesionario podrá prestar cualquier otro Servicio Adicional a los usuarios del Proyecto. El Concesionario prestará los Servicios Adicionales, cumpliendo con las normas aplicables a los mismos y, particularmente, con las normas relativas a la protección de la competencia y al consumidor. El Concesionario podrá cobrar por la prestación de los Servicios Adicionales. Dichos cobros constituirán Ingresos por Explotación Comercial que formarán
 
 parte de la Retribución del Concesionario, tal y como se describe en el Contrato.
-
 
 #### 2.3 Obligaciones sobre el ramal Cabañas El ramal Cabañas que no hace parte del Corredor del Proyecto, cuya longitud es de 33.04 km, será entregado al
 
@@ -299,7 +264,6 @@ eje de la vía férrea) conforme al
 
 Instrumento de Manejo y Control Ambiental, Una vez este sea reversado al INVIAS, las obligaciones mencionadas en este numeral no seguirán a cargo del Concesionario.
 
-
 #### 2.4 Obligaciones sobre las estaciones férreas El
 
 Concesionario de obliga a la custodia, seguridad, vigilancia, Operación y Mantenimiento sobre las estaciones férreas existentes en el Corredor del Proyecto relacionadas en el AT-1 y según como se describe en la siguiente tabla: Tabla 1 - Estaciones del Corredor del Proyecto MÉXICO PK201470 OPERATIVA Mantenimiento, Seguridad, Custodia y Vi ilancia LA AGUSTINA PK223810 Mantenimiento, Seguridad, Custodia y Vigilancia LA MIEL PK236409 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia PUERTO TRIUNFO PK250183 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia COCORNÁ PK269400 INVADIDA Mantenimiento, Seguridad, Custodia y EN MAL ESTADO Vigilancia LA ARGELIA PK282154 INVADIDA Mantenimiento, Seguridad, Custodia y EN MAL ESTADO Vigilancia NAPOLES PK3!3434 ENRUINA Seguridad, Custodia, Vigilancia, sobrecubierta y cerramiento GRECIA PK327675 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia CABAÑAS PK360650 (tramo OPERATIVA Mantenimiento, Seguridad, Custodia y Grecia - Bello) Vigilancia PUERTO OLAYA PK 338250 INVADIDA Mantenimiento, Seguridad, Custodia y Vigilancia SAN JUAN PK354148 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia CARARE PK 376571 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia LAS MONTOYAS PK 390050 INVADIDA Mantenimiento, Seguridad, Custodia y EN MAL ESTADO Vigilancia PULLPAPEL PK406864 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia LA VIZCAINA PK418000 EN RUINA Seguridad, Custodia, Vigilancia, sobrecubierta y cerramiento BARRANCABERMEJA PK441932 OPERATIVA Mantenimiento, Seguridad, Custodia y Vigilancia PUENTE SOGANIOSO PK465530 Mantenimiento, Seguridad, Custodia y Vigilancia Página ]]de 6j GARCIACADENA PK 472225 OPERATIVA Mantenimiento, Seguridad, Custodia y INVADIDA Seguridad, Custodia, Vigilancia, ENRUINA sobrecubierta y cerramiento SAN
@@ -309,7 +273,6 @@ RAFAEL DE PK 516490 LEBRIJA SANJOSEDE PK552750 TORCOROMA OPERATIVA ENRUINA Mante
 cerramiento De igual forma al ser las estaciones férreas
 
 Bienes de Interés Cultural (BIC), al Concesionario le obligan las consideraciones descritas en el numeral 1.16.4.19 6.4.19 de este Apéndice. Página l, deÍ
-
 
 #### 2.5 Obligaciones sobre el nuevo puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
@@ -343,7 +306,6 @@ Niveles de Servicio e Indicadores descritos en el Apéndice Técnico 4 durante e
 
 plazo de Operación y Mantenimiento. Página !Í deft
 
-
 ### CAPÍTULO III - OPERACIÓN DEL PROYECTO En este capítulo se definen las obligaciones del Concesionario en relación con la Operación del Proyecto, desde el
 
 momento de la
@@ -351,7 +313,6 @@ momento de la
 Fecha de Inicio y hasta la suscripción del
 
 Acta de Reversión.
-
 
 #### 3.1 Principios de la Operación del Proyecto La Operación de la Infraestructura y del Material Rodante se regirá por los
 
@@ -719,7 +680,6 @@ calidad de las UFVF. Las comunicaciones que efectúe el Interventor o la ANI en 
 
 Etapa de Operación y Mantenimiento se realizarán a través del Sistema Informático de Contabilización y Control (SICC) descrito en el Apéndice Técnico 4.
 
-
 #### 3.2 Obligaciones Generales Las
 
 actividades de Operación y Mantenimiento en Etapa Preoperativa comenzarán a
@@ -964,7 +924,6 @@ Concesionario de su obligación de garantizar la Prestación del Servicio Públi
 
 Ferroviario de Carga en los términos del Contrato.
 
-
 #### 3.3 Obligaciones
 
 Particulares de Operación 3.3.1 Operación de la Vía Férrea durante la Etapa Preoperativa. Desde la suscripción del
@@ -1133,11 +1092,9 @@ ramales de conexión, cesarán una vez se dé la Reversión Especial en los tér
 
 Contrato de Concesión.
 
-
 ### CAPÍTULO IV - GESTIÓN GENERAL, PREPARACIÓN Y
 
 ENTREGA DE INFORMES
-
 
 #### 4.1 Sistema de Gestión El Concesionario deberá realizar periódicamente
 
@@ -1186,7 +1143,6 @@ actualizaciones de este sistema tendrán en cuenta las sugerencias del Intervent
 credenciales de acceso respectivas (usuario y contraseña) desde cualquier lugar requerido. Página 2 deI El Concesionario deberá gestionar en todo momento el archivo en el software y Memoria Técnica de cada UFVF, estableciendo un procedimiento para actualizarlos cada vez que una
 
 Obra de Mantenimiento, Rehabilitación yo Mejoramiento los modifique.
-
 
 #### 4.2 Preparación de Informes El Concesionario deberá elaborar y presentar informes, programas, planes y estudios, con
 
@@ -1410,7 +1366,6 @@ permiso de cierre temporal o las acciones pertinentes que la Autoridad Estatal d
 
 cumplimiento de los surcos.
 
-
 #### 4.3 Archivo Todos los archivos que se produzcan con ocasión del Contrato deben dar cumplimiento a la Ley 594 de 2000 (Ley
 
 General de Archivo), Acuerdos reglamentarios y demás normatividad archivística en Colombia, y demás disposiciones vigentes, durante la ejecución del Contrato. Por lo anterior, en la
@@ -1533,7 +1488,6 @@ atender de forma adecuada el
 
 proceso de organización, almacenamiento y entrega del archivo.
 
-
 ### CAPÍTULO V - REVERSIÓN De acuerdo con lo previsto en el Contrato, cuando se concluya la
 
 Etapa de Operación y Mantenimiento o cuando el Contrato se termine anticipadamente, todas las obras, bienes e Intervenciones del Contrato, según el
@@ -1555,7 +1509,6 @@ libres de todo gravamen o perturbación de la propiedad. El
 estado de las obras, bienes e Intervenciones al
 
 momento de la Reversión deberá ser el siguiente:
-
 
 #### 5.1 Indicadores Al
 
@@ -1585,7 +1538,6 @@ Valor de Aceptación mínimo del Indicador correspondiente, se procederá a la a
 
 Plazo de Cura. Página t de'
 
-
 #### 5.2 Infraestructura Serán
 
 objeto de Reversión todas las Intervenciones y obras realizadas en cada
@@ -1595,7 +1547,6 @@ una de las Unidades Funcionales, lo que incluye, sin limitarse a: la Infraestruc
 control de trenes, estaciones, puentes, centros logísticos, talleres y todos los equipos mecánicos requeridos para la Operación de la Infraestructura. Para la Reversión del Corredor del Proyecto toda la Infraestructura se deberá encontrar en funcionamiento y cumpliendo la
 
 totalidad de los Indicadores.
-
 
 #### 5.3 Pavimentos Sin perjuicio del
 
@@ -1608,7 +1559,6 @@ patio de contenedores y carga suelta del CTC, así como en vías vehiculares del
 Valor de Aceptación mínimo para los
 
 Indicadores de ahuellamiento, baches, escalonamiento y fisuras.
-
 
 #### 5.4 Equipos Todos los equipos entregados, incluyendo el Material Rodante del Proyecto tanto tractivo como remolcado, deberán contar con una vida
 
@@ -1640,7 +1590,6 @@ momento de Reversión, el Concesionario deberá haber ejercido la opción de
 
 compra de tales bienes para efectuar su Reversión a la ANI.
 
-
 #### 5.5 Puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
 ramales de conexión Para el caso del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
@@ -1649,9 +1598,7 @@ ramales de conexión, aplican las obligaciones anteriores (en especial las relac
 
 momento de su Reversión Especial según lo establecido en este Apéndice Técnico y la Sección 9.16 del Contrato. Página 4 del.
 
-
 ### CAPÍTULO VI - MANTENIMIENTO
-
 
 #### 6.1 Alcance
 
@@ -1723,7 +1670,6 @@ Obras de Mantenimiento realizadas, incluyendo sus respectivas cantidades y
 
 memorias de cálculo, así como el diseño de la obra construida, en concordancia con lo establecido en Apéndice Técnico 4.
 
-
 #### 6.2 Tipos de
 
 Obras de Mantenimiento El Mantenimiento comprende el
@@ -1772,7 +1718,6 @@ Mantenimiento de emergencia, el cual deberá adoptar las medidas necesarias para
 
 funcionamiento de todos los componentes del Proyecto. Igualmente, el Concesionario deberá apoyar a las Autoridades Estatales en temas como la respuesta a accidentes.
 
-
 #### 6.3 Obras de Mantenimiento Generales Acorde con la implementación de las obras que hacen parte del Proyecto, se deben tener en cuenta las siguientes actividades. Esta enumeración no es taxativa y, por tanto, es responsabilidad del Concesionario la realización del Mantenimiento sobre lo que
 
 emane de la
@@ -1806,7 +1751,6 @@ Sistemas de automatización y CCTV (xi) Cerramientos (xii) Pondajes (xiii) Siste
 Facilidades de combustibles y lubricantes e) Inspecciones periódicas de
 
 disponibilidad de Infraestructura f) Mantenimiento preventivo y rutinario yo reparación de: (i) Material Rodante tractivo (ii) Material Rodante remolcado
-
 
 #### 6.4 Actividades Particulares del Mantenimiento En este numeral se describen regulaciones aplicables a los Mantenimientos, se aclara que la
 
@@ -2570,7 +2514,6 @@ fuera de norma y volverlo a sus condiciones
 
 originales de diseño.
 
-
 #### 6.5 Directrices
 
 Generales de Mantenimiento El Concesionario deberá mantener y reparar todos los
@@ -2713,7 +2656,6 @@ Obras de Mantenimiento se efectuarán por demanda, para garantizar con lo especi
 
 cumplimiento de los Indicadores del Apéndice Técnico 4 y con las condiciones del Contrato.
 
-
 #### 6.6 Mantenimiento de Patios 6. 6.1 Mantenimiento de Edifzcaciones El Concesionario, sin
 
 perjuicio de la obligación de Mantenimiento definida en el Contrato, cumplirá con los Mantenimientos que se mencionan a continuación para conservar las estructuras y evitar su deterioro: Mantenimiento preventivo: Se centra en reducir las averías en los equipos e instalaciones eliminando las causas. Se deben realizar por inspecciones, verificaciones y pequeñas revisiones.
@@ -2746,18 +2688,14 @@ instrumentos de diagnóstico, aparatos y pruebas no destructivas. VoBo: Adriana 
 
 ---
 
-
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
-
-
 

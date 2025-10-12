@@ -2,7 +2,6 @@
 
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná **Fecha de actualización:** 02 de octubre de 2025 **Proyecto:** APP La Dorada - Chiriguaná **Contrato:** Concesión No. 001 de 2025 **Apéndice:** AT3 
 ---
- 
 
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor 
 |
@@ -22,11 +21,9 @@
 | **Número** | AT3 
 | **Estado** | ✅ Contenido completo | 
 ---
- 
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 3** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 3 del proyecto Corredor Férreo La Dorada-Chiriguaná. 
 ---
- 
 
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción 
 |:
@@ -45,7 +42,6 @@
 | **v
 3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada | 
 ---
- 
 
 Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE 
 
@@ -431,7 +427,6 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 802.3af: Power over Ethernet (PoE). (g) IEEE 
 802. lx: autenticación de acceso a la red. International Electro Technical Commission (IEC) (a) IEC-62381 Automation systems in the process industry - Factory acceptance test (FAT), site acceptance test (SAT), and site integration test (SIT). (b) IEC 60529 Degrees of protection provided by enclosures (IP Code). (c) IEC 61000 Electromagnetic compatibility (EMC) (d) Norma ICONTEC NTC-2050: Código Eléctrico Nacional. (e) RETIE: Reglamento Técnico de Instalaciones Eléctricas - Normas ICONTEC, para la construcción y fabricación de materiales y equipos. (f) CISPR22 Limits and methods of measurement ofradio interference characteristics field requirements. 
 ---
- 
 
 ##
 
@@ -700,7 +695,6 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 3.
 4.14 del Decreto 1076 del 2015, modificado por el Artículo séptimo del Decreto 050 del 16 de enero de 2018, o de la norma que lo modifique o sustituya. (iii) El Concesionario actualizará el PGRD de acuerdo con las disposiciones de la normativa vigente a fin de que cuente con la "no objeción" de la Interventoría. (iv) El Concesionario deberá dar cumplimiento a las disposiciones de la Autoridad Competente en cuanto a reporte en tiempo de las contingencias que se puedan presentar y en general reporte de la información que esta requiera, de lo cual deben enviar copia a la Interventoría y a al ANI. (a) El Concesionario deberá implementar el PGRD de manera tal que dé respuesta a cualquier emergencia yo contingencia de origen natural, socio natural y antrópico que se pueda presentar en el área de influencia determinada dentro del citado PGRD. Para tal efecto el Concesionario deberá contar con el personal capacitado y con los recursos adecuados para responder de manera efectiva ante la materialización de una contingencia yo una emergencia, cumpliendo con lo establecido en la Ley Aplicable (b) El incumplimiento de esta obligación se regirá de acuerdo a las disposiciones contenidas el Capítulo "Sanciones y Esquemas de Apremio" del Contrato. VoBo ( Jase Alian Hoyos Hernandez - VPRE Fabian Augusto Jimenez Franco - VPRE Adriana Maria Montañez Saenz - VE 5 Fredy Leandro Espejo Fandiño - VE ft Página 5 de 5 
 ---
- 
 
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto antes de ser utilizada formalmente. 
 ---

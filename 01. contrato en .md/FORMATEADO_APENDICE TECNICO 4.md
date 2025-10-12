@@ -1,6 +1,5 @@
 ﻿# APÉNDICE TÉCNICO 4
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -9,30 +8,23 @@
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT4 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 4** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 4 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
 
 ---
 
  Ubertud yOrden
 
-
 # REPÚBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
-
 
 ## AGENCIA
 
@@ -52,36 +44,27 @@ MODELO DE INDICADORES 4 3. INDICADORES 5 4. VERIFICACIÓN DE LOS INDICADORES: EV
 
 FACULTADES DE LA INTERVENTORÍA 70
 
-
 #### 4.1 EVALUACIÓN DE LOS INDICADORES 70
 
-
 #### 4.2 AUTOEVALUACIÓN 71 4.2.1 Discrepancia en las Mediciones 71
-
 
 #### 4.3 OBLIGACIÓN DE INFORMACIÓN 72 4.3.1 Declaración de resultado 72 4.3.2 Declaración de acción correctiva 72 4.3.3 Declaración de inicio y
 
 fin de acción preventiva 73
 
-
 #### 4.4 Equipos de Medición: Características y Calibración 73 5. Registro y
 
 Procesamiento de Resultados: SICC 74
 
-
 #### 5.1 5.2
 
-
 #### 5.3 5.3.1 5.3.2
-
 
 #### 5.4 5.4.1 5.4.2 Registro de las Declaraciones del Concesionario, de la Interventoría y la ANI.. 74 Mesa de Trabajo 74 Características del Sistema Informático de Contabilización y Control (SICC) 74 Ámbito de las Funciones del Sistema 75 Código y Documentación de Desarrollo del SICC 75 Operación del SICC : 76 Obligaciones Generales 76 Condiciones de Operación del SICC 76 5.4.3 Tiempos de Respuesta 77 5.4.4 Pérdidas de Información 77 5.4.5 Entrega de Información a la Interventoría 77 5.4.6 Acceso de la Interventoría y la ANI al SICC 78 5 .4. 7 Inicio de la Operación del SICC 78 5.4.8 Obligaciones del Concesionario respecto del SICC 79 6. CÁLCULO DEL ÍNDICE DE CUMPLIMIENTO 80 7. INDICADORES, EVENTOS
 
 EXIMENTES DE RESPONSABILIDAD, y mantenimiento programado 89
 
-
 #### 7.1 Eventos Eximentes 89
-
 
 #### 7.2 Mantenimiento Programado 90 Página 2 de 90 Apéndice Técnico 4 - Indicadores ÍNDICE DE TABLAS Tabla 1 - Indicadores aplicables a la Prestación del Servicio Público
 
@@ -1461,7 +1444,6 @@ alguno de los dos valores (CAMIONES o TRENES) sea mayor al valor referenciado, s
 
 ---
 
-
 ---
 
 --
@@ -1714,7 +1696,6 @@ resultados de la auscultación se presentarán siguiendo el manual para la inspe
 
 capas de la estructura y
 
-
 #### 1.4 Daños superficiales Si se produjeran en una misma área unitaria incumplimientos en los umbrales: puntual y promedio, se considerará un único incumplimiento sobre el área unitaria. El
 
 incumplimiento de los valores puntuales generará un incumplimiento del segmento. PAVl (AUlAUT) 100 95 Donde: AUI: Número total de área unitaria donde se cumple el
@@ -1744,7 +1725,6 @@ piel de cocodrilo la medición se realizará directamente en área. No se medir�
 resultados de la auscultación se presentarán s!guiendo el manual para la mspección de pavimentos flexibles del INVIAS como indica su numeral 1.3 Pérdida de las
 
 capas de la estructura y
-
 
 #### 1.4 Daños superficiales Cada área unitaria debe cumplir con las siguientes condiciones: 1) Etapa Preoperativa: Valor Puntual: Área afectada menor O igual a [15] del área pavimentada. 2)
 
@@ -1872,7 +1852,6 @@ Esquema de Vigilancia, verificará y validará mensualmente su cum limiento. Pá
 
 FACULTADES DE LA INTERVENTORÍA
 
-
 #### 4.1 EVALUACIÓN DE LOS INDICADORES Los Indicadores contenidos en el presente Apéndice serán evaluados por la Interventoría, considerando la periodicidad mínima señalada para cada Indicador en el numeral 3 del presente Apéndice Técnico. El mismo Día en el que se realice la medición de
 
 cualquiera de los Indicadores, la Interventoría registrará en el SICC el
@@ -1928,7 +1907,6 @@ reconocimiento de la Retribución, se procederá de conformidad con lo estableci
 Acta de Cálculo de la Retribución Mensual y
 
 Acta de Cálculo de la Retribución Semestral será suscrita por el Concesionario y la Interventoría.
-
 
 #### 4.2 AUTOEVALUACIÓN El Concesionario deberá elaborar su propio
 
@@ -1989,7 +1967,6 @@ Acta de Cálculo de la Retribución, según corresponda, se procederá a recalcu
 dentro de los cinco (5) Días Hábiles siguientes a la Notificación de la decisión del Amigable Componedor. En el caso en que ya se hubiere transferido el
 
 valor de la Retribución a la Cuenta Proyecto, la ANI pagará al Concesionario la diferencia junto con la Retribución correspondiente al Mes siguiente.
-
 
 #### 4.3 OBLIGACIÓN DE INFORMACIÓN Sin
 
@@ -2065,7 +2042,6 @@ fin de acción preventiva cada vez que dé término a
 
 una de las acciones preventivas descritas en el Apéndice Técnico 2.
 
-
 #### 4.4 Equipos de Medición: Características y Calibración Para los Indicadores del
 
 estado de las vías que conforman los sitios para el CTC proyectado se medirá ahuellamiento, escalonamientos, baches, fisuras y señalización horizontal y vertical, y se deben emplear
@@ -2114,13 +2090,11 @@ PROCESAMIENTO DE RESULTADOS: SICC El SICC corresponde al Sistema Informático de
 
 registro de la información relacionada con la evaluación de los Indicadores.
 
-
 #### 5.1 Registro de las Declaraciones del Concesionario, de la Interventoría y la ANI Todas las comunicaciones entre el Concesionario, la Interventoría, y la ANI relacionadas con la evaluación de los Indicadores, así como las comunicaciones a que se refiere el numeral 4.3 del presente Apéndice Técnico deberán registrarse en el SICC. Las comunicaciones remitidas por el Concesionario deberán contar con firma digital emitida por una
 
 entidad de certificación reconocida en Colombia. Adicionalmente, el Concesionario deberá proveer el
 
 servicio de estampado de tiempo (Time-Stamp Protocol (TSP)) para la recepción de comunicaciones del Interventor y la ANI. Las declaraciones, al igual que todos los registros realizados en el SICC, estarán permanentemente a disposición de todas las partes.
-
 
 #### 5.2 Mesa de Trabajo A partir del inicio del
 
@@ -2143,7 +2117,6 @@ plan de trabajo, que contendrá las
 fechas de las reuniones y la forma en que se registrará el
 
 contenido de las mismas, el que será definido de común acuerdo en la primera reunión citada por la Interventoría.
-
 
 #### 5.3 Características del Sistema Informático de Contabilización y Control (SICC) El Concesionario deberá diseñar y construir un Sistema Informático de Contabilización y Control (SICC) que será parte del sistema
 
@@ -2242,7 +2215,6 @@ casos de uso, los
 formatos de ingreso de información, pantallas y formato y
 
 contenido de reportes deben ser especificados.
-
 
 #### 5.4 Operación del SICC 5.4.1 Obligaciones Generales Todas las operaciones sobre el SICC deberán realizarse exclusivamente vía Internet, con las medidas y
 
@@ -2510,9 +2482,7 @@ despeje de la Vía Férrea por atención de accidentes yo incidentes 2,45 operac
 
 Tiempo de atención de eventos no operacionales que ocurran en el Corredor 0,31 Férreo Atención de Querellas (Q) en etapa preoperativa IQo
 
-
 #### 0.3 11 11
-
 
 #### 0.3 !seguridad del tráfico (ST) llsT 11 1,23 11 1,23 Disponibilidad de la Infraestructura Férrea y el Puente Vehicular y Peatonal sobre el río Sogamoso y sus
 
@@ -2768,7 +2738,6 @@ Fecha de Inicio del Contrato 7. INDICADORES, EVENTOS
 
 EXIMENTES DE RESPONSABILIDAD, Y MANTENIMIENTO PROGRAMADO
 
-
 #### 7.1 Eventos Eximentes Los Indicadores se calcularán en los plazos previstos en el
 
 Contrato de Concesión, teniendo en consideración las mediciones
@@ -2805,13 +2774,11 @@ dentro de los cinco (5) Días Hábiles siguientes a la Notificación de la decis
 
 valor de la Retribución a la Cuenta Proyecto, la ANI pagará al Concesionario la diferencia junto con la Retribución correspondiente al Mes siguiente.
 
-
 #### 7.2 Mantenimiento Programado Los Indicadores no serán afectados en ningún caso por la realización de
 
 rutinas de Mantenimiento Programado que sean reportadas por el Concesionario mediante una declaración de acciónpreventiva, tal como se establece en el numeral 4.3.3 de este Apéndice Técnico. VoBo: Adriana María Montañez Saenz - VEA.:'G"'.:) Fredy Leandro Espejo Fandiño - VE Página 90 de 90
 
 ---
-
 
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
@@ -2819,11 +2786,8 @@ antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
-
-
 

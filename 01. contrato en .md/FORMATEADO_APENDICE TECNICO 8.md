@@ -40,8 +40,6 @@ Este apéndice técnico contiene las especificaciones técnicas y procedimientos
 
 ---
 
-
-
 Libertad y Orden
 
 # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
@@ -1939,7 +1937,6 @@ Página 78 de 79
 VoBo: liana Restrepo Brand - Gerente de proyectos VPRE
 
 Página 79 de 79
-
 
 ---
 

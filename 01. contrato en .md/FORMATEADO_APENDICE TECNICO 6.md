@@ -1,6 +1,5 @@
 ﻿# APÉNDICE TÉCNICO 6
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -9,30 +8,23 @@
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT6 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 6** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 6 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
 
 ---
 
  Libertad y Orden
 
-
 # REPÚBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
-
 
 ## AGENCIA
 
@@ -48,15 +40,11 @@ Nacional de Infraestructura Concesionario: CONCESIÓN LINEA FÉRREA CENTRAL S.A.
 
  TABLA DE CONTENIDO
 
-
 ### CAPÍTULO I - CAPÍTULO II DEFINICIONES INTRODUCCIÓN . 4 . 8
-
 
 ### CAPÍTULO III - OBLIGACIONES GENERALES 11 3 .1 Obligaciones Generales del Concesionario 11
 
-
 #### 3.2 Obligaciones generales del Concesionario relacionadas con la Autoridad Ambiental. 15
-
 
 #### 3.3 De los
 
@@ -64,31 +52,23 @@ Instrumentos de Manejo y Control Ambiental del Proyecto y de los
 
 Permisos de Carácter Ambiental 17
 
-
 #### 3.4 Obligaciones del Concesionario relacionadas con la Interventoría y la ANI 19
-
 
 #### 3.5 Informes sobre el componente ambiental 21 3. 6 Gestión del
 
 Riesgo de Desastres 23
 
-
 #### 3.7 Incumplimiento 23
-
 
 #### 3.8 Indemnidad 23
 
-
 #### 3.9 Reporte NDC (Contribuciones Nacionalmente Determinadas) 23
 
-
 ### CAPÍTULO IV - COMPENSACIONES SOCIOAMBIENTALES 27
-
 
 #### 4.1 Ítems que serán
 
 objeto de reconocimiento con cargo a la Subcuenta Compensaciones Socioambientales 27
-
 
 #### 4.2 Ítems que no serán
 
@@ -96,14 +76,11 @@ objeto de reconocimiento con cargo a la
 
 Subcuenta de Compensaciones Socioambientales 27
 
-
 #### 4.3 Aspectos Generales 28
-
 
 #### 4.4 Pagos que
 
 requieren de la aprobación de la ANI.. 29
-
 
 #### 4.5 Requisitos para el
 
@@ -111,42 +88,33 @@ desembolso de la
 
 Subcuenta de Compensaciones Socioambientales30
 
-
 #### 4.6 Informe de
 
 Subcuenta de Compensaciones Socioambientales 30
-
 
 ### CAPÍTULO V - OBLIGACIONES DURANTE LA
 
 FASE DE PRECONSTRUCCIÓN 33
 
-
 #### 5.1 Obligaciones generales durante la
 
 Fase de Preconstrucción 33
-
 
 #### 5.2 Plan de
 
 Cierre de Pendientes Ambientales Existentes 33
 
-
 #### 5.3 Plan de
 
 Cierre de Pendientes Ambientales - Obligaciones Nuevas 34
 
-
 #### 5.4 Plan de Trámites Ambientales 3 5
 
-
 #### 5.5 Conceptos de Cambio Menor 36
-
 
 #### 5.6 Intervenciones que no
 
 requieran de Licencia Ambiental.. 37 Página 2 de 55
-
 
 #### 5.7 Intervenciones que
 
@@ -156,33 +124,25 @@ alguno de los
 
 Instrumentos de Manejo y Control Ambiental del Proyecto 38
 
-
 #### 5.8 Manejo de fauna 40
 
-
 #### 5.9 Programa de aporte sostenible - Mitigación del cambio climático 40
-
 
 #### 5.1 O
 
 Plan de gestión integral. 41
 
-
 ### CAPÍTULO VI - OBLIGACIONES DURANTE LA
 
 FASE DE CONSTRUCCIÓN 42
-
 
 #### 6.1 Obligaciones generales durante la
 
 Fase de Construcción 42
 
-
 #### 6.2 Manejo de fauna 43
 
-
 #### 6.3 Programa de Aporte Sostenible - Mitigación del Cambio Climático 43
-
 
 #### 6.4 Cierre
 
@@ -192,11 +152,9 @@ fase de la
 
 Etapa de Preoperación 45
 
-
 ### CAPÍTULO VII - OBLIGACIONES DURANTE LA
 
 ETAPA DE OPERACIÓN Y MANTENIMIENTO 49
-
 
 #### 7.1 Obligaciones relacionadas con los
 
@@ -204,26 +162,19 @@ Instrumentos de Manejo y Control Ambiental del Proyecto y en los
 
 Permisos de Carácter Ambiental 49
 
-
 #### 7.2 Cierre de expedientes ambientales 50
-
 
 #### 7.3 Manejo de fauna 50
 
-
 #### 7.4 Programa de aporte sostenible - Mitigación al cambio climático 51
-
 
 ### CAPÍTULO VIII - OBLIGACIONES DURANTE LA
 
 ETAPA DE REVERSIÓN 53
 
-
 #### 8.1 Obligaciones generales 53
 
-
 ### CAPÍTULO IX - CONSIDERACIONES ESPECÍFICAS 55 Página 3 de 5 5
-
 
 ### CAPÍTULO I - DEFINICIONES (a) Amenaza: Peligro
 
@@ -447,7 +398,6 @@ ocurrencias de fenómenos extremos, como el Niño y la Niña, etc.), más allá 
 
 ---
 
-
 ### CAPÍTULO II - INTRODUCCIÓN (a) De conformidad con lo previsto en el Contrato, el presente Apéndice contiene las obligaciones del Concesionario en lo relacionado con la Gestión Ambiental del Proyecto. (b) Las obligaciones contenidas en el presente Apéndice no excusan al
 
 Concesionario de cumplir con la ley
@@ -529,7 +479,6 @@ gases de efecto invernadero - GEI del
 Ministerio de Transporte. (xxiv) Desarrollar un
 
 programa de aporte sostenible, destinado a contrarrestar el cambio climático y gestión del riesgo en el cual involucre las comunidades asentadas en el Área de Influencia del Proyecto. (xxv) La prevención, control, mitigación, corrección o compensación de los impactos ambientales del Proyecto. Página 10 de 55 CAPÍTULO 111 OBLIGACIONES GENERALES
-
 
 #### 3.1 Obligaciones Generales del Concesionario (a) Sin
 
@@ -779,7 +728,6 @@ emisiones de gases de efecto invernadero, para el Monitoreo, Reporte y Verificac
 
 indicadores de sostenibilidad.
 
-
 #### 3.2 Obligaciones generales del Concesionario relacionadas con la Autoridad Ambiental (a) Sin
 
 perjuicio de las demás obligaciones establecidas sobre lamateria en el presente Apéndice, el Concesionario se obliga a: (i) El Concesionario deberá gestionar a su costo y riesgo todos los trámites administrativos ante la Autoridad Ambiental que se requieran para el desarrollo del Proyecto. En este sentido, el Concesionario asume entera
@@ -875,7 +823,6 @@ Permisos de Carácter Ambiental, incluyendo la logística, suministro de informa
 labores de la Autoridad Ambiental, así como a pagar a su cuenta y riesgo las tasas yo tarifas fijadas en los actos administrativos
 
 que de estas se deriven.
-
 
 #### 3.3 De los
 
@@ -1005,7 +952,6 @@ administrativo de cesión
 
 total de la licencia ambiental a la Gobernación de Santander, o a quien esta designe.
 
-
 #### 3.4 Obligaciones del Concesionario relacionadas con la Interventoría y la ANI ( a) Sin
 
 perjuicio de las demás obligaciones establecidas sobre la materia en el presente Apéndice, el Concesionario se obliga a: (i) El Concesionario se hará responsable, desde la
@@ -1097,7 +1043,6 @@ Permisos de Carácter Ambiental que considere pertinentes; los restantes, o la
 totalidad de los mismos, si es que laANI no considera pertinente la cesión, deberán ser
 
 objeto de archivo en los términos y condiciones que establezca la Autoridad Ambiental Competente. Página 20 de 55
-
 
 #### 3.5 Informes sobre el componente ambiental (a) Sin
 
@@ -1201,7 +1146,6 @@ Riesgo de Desastres. I 9.Soportes de la información antes señalada. Página 22
 
 estado de cumplimiento de la meta fijada por el país para el Proyecto, de acuerdo con las disposiciones descritas en los literales c y d del numeral 3.9 de este apéndice. (b) En este sentido, una vez el Concesionario presente el respectivo informe, la Interventoría tendrá diez (10) Días para verificar las gestiones ejecutadas por el Concesionario y realizar comentarios al mismo. En el caso en que se hicieren observaciones o comentarios al contenido del informe, el Concesionario tendrá diez (10) Días para complementar el documento. En todo caso, la ANI podrá realizar observaciones a dichos informes una vez estos sean no objetados por la Interventoría.
 
-
 #### 3.6 Gestión del
 
 Riesgo de Desastres (a) El Concesionario, como
@@ -1222,7 +1166,6 @@ Ministerio de Transporte emitan al respecto, de acuerdo con los lineamientos y o
 
 Riesgo de Desastres" del Apéndice Técnico 3 que regula lo relacionado con este aspecto.
 
-
 #### 3.7 Incumplimiento (a) El
 
 incumplimiento de las obligaciones relacionadas con el componente
@@ -1231,7 +1174,6 @@ ambiental de la Gestión Ambiental, dará lugar, además de las previstas por la
 
 Contrato de Concesión.
 
-
 #### 3.8 Indemnidad (a) Sin
 
 perjuicio de las reglas específicas del Contrato, el Concesionario deberá mantener indemne a la ANI por (i) las obligaciones ambientales que adquiere en
@@ -1239,7 +1181,6 @@ perjuicio de las reglas específicas del Contrato, el Concesionario deberá mant
 virtud de la celebración del Contrato y de los demás
 
 instrumentos de Gestión Ambiental aplicables, ante la Autoridad Ambiental; y (ii) de cualquier sanción que llegare a imponer la Autoridad Ambiental a la ANI durante la ejecución del presente Contrato por causas imputables al Concesionario.
-
 
 #### 3.9 Reporte NDC {Contribuciones Nacionalmente Determinadas) Los reportes NDC (La Contribución Determinada a Nivel Nacional por sus siglas en inglés) es el compromiso que cada país que ha ratificado el
 
@@ -1371,9 +1312,7 @@ gases de efecto invernadero.
 
  Página 26 de 55
 
-
 ### CAPÍTULO IV - COMPENSACIONES SOCIOAMBIENTALES
-
 
 #### 4.1 Ítems que serán
 
@@ -1400,7 +1339,6 @@ recursos de la Subcuenta Compensaciones Socioambientales serán destinados exclu
 producto de licencias, permisos, autorizaciones, planes, instrumentos de manejo ambiental que se deban tramitar yo modificar para el desarrollo del Proyecto, y a lo establecido en la Sección 9 .l 6(b) del Contrato con respecto al
 
 traslado de las instituciones educativas, salvo lo descrito en el numeral 4.2 siguiente de este Apéndice Técnico.
-
 
 #### 4.2 Ítems que no serán
 
@@ -1504,7 +1442,6 @@ traslado de las instituciones educativas y la construcción del puente vehicular
 
 ramales de conexión, según esta Intervención se describe en la Sección 9. l 6(b) del Contrato.
 
-
 #### 4.3 Aspectos Generales (a) El Concesionario podrá contemplar para la ejecución de las Compensaciones Socioambientales la implementación de
 
 bancos de hábitat constituidos y avalados por la Autoridad Ambiental competente, para la conservación a través de
@@ -1571,7 +1508,6 @@ medidas de manejo con una duración superior a la fecha en la que opera la Rever
 
 parte de la ANI, adicionalmente el Concesionario se sujetará a los efectos contractuales que sobre él recaigan por este hecho.
 
-
 #### 4.4 Pagos que
 
 requieren de la aprobación de la ANI (a) Las compensaciones que se relacionen
@@ -1604,7 +1540,6 @@ previa de la ANI, la cual estará sujeta a la validación de la Interventoría d
 
 monto de las respectivas intervenciones.
 
-
 #### 4.5 Requisitos para el
 
 desembolso de la
@@ -1614,7 +1549,6 @@ Subcuenta de Compensaciones Socioambientales Para el desembolsó de la Subcuenta
 cargo de la
 
 Vicepresidencia de Gestión Contractual con los mecanismos, requerimientos y procedimientos que le fije al Concesionario para los fines.
-
 
 #### 4.6 Informe de
 
@@ -1714,11 +1648,9 @@ dentro de los
 
 plazos de su Contrato. Página 32 de 55
 
-
 ### CAPÍTULO V - OBLIGACIONES DURANTE LA
 
 FASE DE PRECONSTRUCCIÓN
-
 
 #### 5.1 Obligaciones generales durante la
 
@@ -1759,7 +1691,6 @@ responsabilidad de asumir los recursos técnicos, logísticos y económicos nece
 derivados de dicho seguimiento. (d) El Concesionario deberá por su cuenta y riesgo, contar con la Licencia y Permisos necesarios para la Construcción del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
 ramales de conexión.
-
 
 #### 5.2 Plan de
 
@@ -1808,7 +1739,6 @@ caso de que las Autoridades Ambientales Competentes demanden mayores tiempos a l
 fines de obtención del concepto de "No Objeción" por
 
 parte de la Interventoría, se deberá surtir el procedimiento establecido en el Literal g del Numeral 5.6 del presente Apéndice.
-
 
 #### 5.3 Plan de
 
@@ -1871,7 +1801,6 @@ caso de que las Autoridades Ambientales Competentes demanden mayores tiempos a l
 fines de obtención del concepto de "No Objeción" por
 
 parte de la Interventoría, se deberá surtir el procedimiento establecido en el Literal g del Numeral 5.6 del presente Apéndice.
-
 
 #### 5.4 Plan de Trámites Ambientales (a) Es el documento que el Concesionario elaborará y presentará al Interventor y la ANI a los dos (2) meses siguientes a la
 
@@ -1959,7 +1888,6 @@ necesidad de actualizarlos, renovarlos o
 
 tramitarlos de nuevo.
 
-
 #### 5.5 Conceptos de Cambio Menor (a) Para el
 
 desarrollo de todas las Intervenciones del Proyecto que, de acuerdo con la Ley Aplicable, no
@@ -1991,7 +1919,6 @@ caso de desacuerdo entre el Concesionario y el Interventor en cualquier
 momento de la
 
 etapa de revisión del documento al que hace referencia el artículo 2.2.2.6.1.7 del Decreto 1076 se acudirá al Amigable Componedor.
-
 
 #### 5.6 Intervenciones que no
 
@@ -2075,7 +2002,6 @@ plazo de cinco (5) Días emitirá observaciones o en caso contrario determinará
 
 caso de observaciones, el Concesionario contará con cinco (5) días para subsanarlas.
 
-
 #### 5.7 Intervenciones que
 
 requieran de Licencia Ambiental o modificación de
@@ -2142,7 +2068,6 @@ etapa de revisión del
 
 Estudio de Impacto Ambiental el Concesionario podrá acudir al Amigable Componedor.
 
-
 #### 5.8 Manejo de fauna (a) En la
 
 Fase de Preconstrucción le corresponde al Concesionario realizar las siguientes actividades relacionadas con el medio biótico, componente fauna. (i) Diseñar el
@@ -2185,7 +2110,6 @@ indicadores de manejo de fauna aplicables para la
 
 fase de construcción del proyecto.
 
-
 #### 5.9 Programa de aporte sostenible- Mitigación del cambio climático (a) El Concesionario deberá presentar a la Interventoría
 
 dentro de los seis (6) meses siguientes a la
@@ -2212,7 +2136,6 @@ parte de la Interventoría. (iii) Dicha
 
 mesa de trabajo no podrá tener una duración superior a cinco (5) días, dentro de los cuales como resultado se procurará la obtención de la no objeción del documento. (d) Este programa deberá entregarse a través de un documento escrito radicado en la ANI una vez cuente con la no objeción de la Interventoría.
 
-
 #### 5.10 Plan de gestión integral (a) Dentro del
 
 plan de gestión integral del cual trata el Apéndice Técnico 2, se deberán prever los
@@ -2221,11 +2144,9 @@ mecanismos de cumplimiento de la normatividad ambiental vigente en
 
 temas de medio ambiente y comunidad. Así mismo, éste deberá obligar a garantizar que todos los profesionales, contratistas yo subcontratistas del Concesionario cuenten con la experiencia, idoneidad y capacidad para realizar las diversas actividades del Proyecto, cumpliendo la normatividad y estándares antes mencionados, así como las buenas prácticas nacionales e internacionales del subsector vial. Página 41 de 55
 
-
 ### CAPÍTULO VI - OBLIGACIONES DURANTE LA
 
 FASE DE CONSTRUCCIÓN
-
 
 #### 6.1 Obligaciones generales durante la
 
@@ -2307,7 +2228,6 @@ Instrumentos de Manejo y Control Ambiental del Proyecto, en los PAGA's de constr
 
 Permisos de Carácter Ambiental.
 
-
 #### 6.2 Manejo de fauna (a) Sin
 
 perjuicio de las demás obligaciones establecidas sobre la materia en el presente Apéndice, el Concesionario se obliga a: (i) Implementar las
@@ -2343,7 +2263,6 @@ efectividad de medidas de prevención de
 atropellamiento de fauna silvestre en
 
 Etapa de Operación y Mantenimiento. (viii) Reportar y gestionar los incidentes asociados con fauna silvestre durante la construcción acorde a los lineamientos establecidos por el sector transporte y la normativa ambiental vigente.
-
 
 #### 6.3 Programa de Aporte Sostenible - Mitigación del Cambio Climático (a) El Concesionario deberá realizar a su cuenta y riesgo las siguientes actividades dentro del
 
@@ -2444,7 +2363,6 @@ acerca de dicha gestión. o Establecer una meta en
 toneladas de residuos aprovechados (porcentaje de disminución de residuos para disposición final). o Demostrar la debida gestión
 
 integral de los residuos generados en el Proyecto.
-
 
 #### 6.4 Cierre
 
@@ -2598,11 +2516,9 @@ dentro de los tres (3) días siguientes a su comunicación, lo cual deberá ser 
 
 dentro de los dos (2) días siguientes al vencimiento del plazo anterior. Página 48 de 55
 
-
 ### CAPÍTULO VII - OBLIGACIONES DURANTE LA
 
 ETAPA DE OPERACIÓN Y MANTENIMIENTO
-
 
 #### 7.1 Obligaciones relacionadas con los
 
@@ -2682,7 +2598,6 @@ informe de cumplimento ambiental ICA. (x) Es responsabilidad del Concesionario h
 
 Instrumentos de Manejo y Control Ambiental del Proyecto.
 
-
 #### 7.2 Cierre de expedientes ambientales (a) Sin
 
 perjuicio de las demás obligaciones establecidas sobre la materia en el presente apéndice, el Concesionario se obliga a: (i) El Concesionario deberá cerrar los expedientes
@@ -2696,7 +2611,6 @@ archivo de los
 expedientes de los
 
 Instrumentos de Manejo y Control Ambiental, en especial si las actualizaciones normativas imponen el trámite de licencia ambiental para la operación del corredor férreo.
-
 
 #### 7.3 Manejo de fauna (a) Corresponde al Concesionario realizar el monitoreo constante, el reporte y análisis de
 
@@ -2723,7 +2637,6 @@ operarios de la concesión sobre la gestión asociada a fauna silvestre. (g) Des
 atropellamiento de fauna silvestre en
 
 sectores de mayor impacto y sobre la gestión del Proyecto y la agencia están implementando para su manejo.
-
 
 #### 7.4 Programa de aporte sostenible - Mitigación al cambio climático (a) El Concesionario deberá realizar a su cuenta y riesgo las siguientes actividades dentro del
 
@@ -2773,11 +2686,9 @@ parte de la Interventoría. (iii) Dicha
 
 mesa de trabajo no podrá tener una duración superior a cinco (5) días, dentro de los cuales como resultado se procurará la obtención de la no objeción del Documento. Página 52 de 55
 
-
 ### CAPÍTULO VIII - OBLIGACIONES DURANTE LA
 
 ETAPA DE REVERSIÓN
-
 
 #### 8.1 Obligaciones generales (a) Sin
 
@@ -2833,7 +2744,6 @@ parte de la Interventoría y de laANI. Página 53 de 55
 
  (ix) Las medidas propuestas en el documento al que hace referencia el literal a de este apartado será de obligatorio cumplimiento por parte del Concesionario, y su incumplimiento dará lugar las multas y sanciones previstas en el Contrato. (x) Las regulaciones relacionadas con la Reversión Especial a la que hace referencia el Contrato. Página 54 de 55
 
-
 ### CAPÍTULO IX - CONSIDERACIONES ESPECÍFICAS (a) En virtud del artículo 2.2.2.3.8.4. del Decreto 1076 de 2015 o la norma que lo sustituya, modifique, adicione o complemente, el Concesionario suscribirá y remitirá los documentos y
 
 soportes de pago a la ANI, de acuerdo con la regulación contenidas en la minuta del
@@ -2885,7 +2795,6 @@ incumplimiento de las obligaciones ambientales contractuales a su cargo. VoBo: J
  Libertad y Orden REPúBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
-
 
 ## AGENCIA
 
@@ -4029,18 +3938,14 @@ Nacional de Infraestructura -ANI El CESIO ARIO CARLOS BUENO MORALES Representant
 
 ---
 
-
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
-
-
 

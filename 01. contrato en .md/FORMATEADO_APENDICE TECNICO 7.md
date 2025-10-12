@@ -1,6 +1,5 @@
 ﻿# APÉNDICE TÉCNICO 7
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -9,20 +8,15 @@
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT7 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 7** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 7 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
 
 ---
 
@@ -32,7 +26,6 @@ REPUBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
 
-
 ## AGENCIA
 
 NACIONAL DE INFRAESTRUCTURA
@@ -41,115 +34,81 @@ CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No. 001 DE 2025 Concedente:
 
-
 ## AGENCIA
 
 NACIONAL DE INFRAESTRUCTURA Concesionario: CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S APÉNDICE TÉCNICO 7 GESTIÓN PREDIAL Página 1 de 59 TABLA DE CONTENIDO
 
-
 ### CAPÍTULO I - INTRODUCCIÓN 5 CAPÍTULO 11 DEFINICIONES 6
-
 
 #### 2.1 "Área Remanente No Desarrollable" 6
 
-
 #### 2.2 "Área Requerida" 6
-
 
 #### 2.3 "Área Sobrante" : 6
 
-
 #### 2.4 "Avalúo Comercial" 6
-
 
 #### 2.5 "Avalúo Comercial con Comité Técnico" 6
 
-
 #### 2.6 "Baldíos" 6 2. 7 "Construcción" 6
-
 
 #### 2.8 "Construcciones Anexas" 7 2. 9 "Comité Predial Especial" 7
 
-
 #### 2.10 "Cronograma de Adquisición de Predios" 7
-
 
 #### 2.11 "Cronograma de Trabajo Predial" 8
 
-
 #### 2.12 "Ejidos" 8
-
 
 #### 2.13 "Empresa Avaluadora" ; 8
 
-
 #### 2.14 "Expropiación Administrativa" 8
-
 
 #### 2.15 "Expropiación Judicial" 8
 
-
 #### 2.16 "Ficha Predial" 9
 
-
 #### 2.17 "Gestión Predial" 9 2.18. "Inventario Predial" 9 2.19. "Investigación Catastral" 9 2.20. "Levantamiento Topográfico" 1 O 2.21. "Lindero" 10 2.22. "Longitud Efectiva Predial" 11 2.23. "Lonja de Propiedad Raíz o Lonja" 11 2.24. "Mejora en Predio Ajeno" 11 2.25. "Metodología de Adquisición de Predios" 11 2.26. "Mojón" 11 2.27. "Plano Predial" 11 2.28. "Ronda Hídrica" 11 2.29. "Sábana Predial" 12 2.30. "Sábana de Compensaciones Económicas" 12 2.31. "Semáforo" 12 Página 2 de 59 2.32. "Tira Topográfica" 12 2.33. "Título Minero" .' 12 2.34. "Título Traslaticio" 13 2.35. "Tradición" 13 2.36. "Unidad de Construcción" 13
-
 
 ### CAPÍTULO III - OBLIGACIONES
 
 GENERALES DE LA GESTIÓN PREDIAL 13
 
-
 #### 3.1 Obligaciones generales del Concesionario 13
-
 
 #### 3.2 Obligaciones de la ANI 16
 
-
 #### 3.3 Normatividad Vigente 17
-
 
 ### CAPÍTULO IV - OBLIGACIONES ESPECIALES EN
 
 MATERIA DE GESTIÓN PREDIAL 19
 
-
 #### 4.1 Cronograma de Trabajo Predial : 19
-
 
 #### 4.2 Plan de Adquisición de Predios 19
 
-
 #### 4.3 Elaboración de la documentación de Gestión Predial 20
-
 
 #### 4.4 Ficha Predial. 20
 
-
 #### 4.5 Plano de requerimiento predial... : 31
-
 
 #### 4.6 Plan de Compensaciones Socioeconómicas 34
 
-
 #### 4.7 Avalúos Comerciales con Comité Técnico 35
 
-
 ### CAPÍTULO V - ENAJENACIÓN VOLUNTARIA 39
-
 
 #### 5.1 Generalidades de la
 
 Etapa de Enajenación Voluntaria 39
 
-
 #### 5.2 Expedientes Prediales 39
-
 
 #### 5.3 Verificaciones Previas a la Oferta
 
 Formal de Compra de Predios 42
-
 
 #### 5.4 Definición del
 
@@ -157,89 +116,65 @@ Procedimiento de Expropiación 44 5 .5 Elaboración de la Oferta
 
 Formal de Compra de Predios 44
 
-
 #### 5.6 Notificación de la Oferta
 
 Formal de Compra de Predios 45
 
-
 #### 5.7 Inscripción de la Oferta 46
 
-
 #### 5.8 Aceptación de la Oferta, Escrituración e Inscripción de la Compraventa 46
-
 
 #### 5.9 Entrega de Predios 48 5 .1 O
 
 Imposibilidad de la Enajenación Voluntaria 49
 
-
 #### 5.11 Informes de Adquisición Predial 49
-
 
 #### 5.12 Informes de Avance en la Adquisición 50
 
-
 ### CAPÍTULO VI - EXPROPIACIÓN JUDICIAL 51
-
 
 #### 6.1 Inicio del
 
 Proceso de Expropiación Judicial 51
 
-
 #### 6.2 Interposición de Recursos 52
-
 
 #### 6.3 Presentación de la
 
 Demanda de Expropiación 52 Página 3 de 59
 
-
 ### CAPÍTULO VII - EXPROPIACIÓN POR VÍA ADMINISTRATIVA 54
-
 
 #### 7.1 Inicio del
 
 Proceso de Expropiación por Vía Administrativa 54
 
-
 #### 7.2 Interposición de Recursos 55
-
 
 #### 7.3 Ejecutoria del
 
 Acto de Expropiación 55
 
-
 ### CAPÍTULO VIII - VARIOS 56
-
 
 #### 8.1 Restitución de
 
 Bienes de Uso Público 56
 
-
 #### 8.2 Predios de Beneficio Comunitario 56
-
 
 #### 8.3 Reconocimiento de Compensaciones Económicas 56
 
-
 #### 8.4 Costos de la Gestión Predial y la Adquisición de los Predios 56
-
 
 #### 8.5 Indemnidad 57
 
-
 #### 8.6 Imposición de servidumbres 57
-
 
 #### 8.7 Personal 58
 
-
 ### CAPÍTULO IX - LISTADO DE ANEXOS : 59 Página 4 de 59
-
 
 ### CAPÍTULO I - INTRODUCCIÓN (a) De conformidad con lo previsto en el Contrato, el presente Apéndice se refiere a las obligaciones y procedimientos relacionados con la Gestión Predial del Proyecto. Las obligaciones contenidas en el presente Apéndice no exoneran al
 
@@ -251,11 +186,9 @@ actividades de Gestión Predial referidas en este Apéndice aplican para los
 
 procesos de Gestión Predial que se requieran adelantar para garantizar la disponibilidad y adquisición de Predios Requeridos para la ejecución del Proyecto en concordancia con las disposiciones establecidas en el Apéndice Técnico 1 y el Contrato. Página 5 de 59
 
-
 ### CAPÍTULO II - DEFINICIONES A menos
 
 que de manera expresa se señale lo contrario en el presente Apéndice, serán aplicables las definiciones contenidas en el Contrato. Adicionalmente, serán aplicables las siguientes:
-
 
 #### 2.1 "Área Remanente No Desarrollable" Se refiere a aquella área de un Predio, adicional al Área Requerida, que por sus
 
@@ -269,16 +202,13 @@ partir de los
 
 Estudios de Detalle y estará relacionada en la ficha y el Plano Predial, y que será objeto de adquisición a través del procedimiento establecido en la norrnatividad legal vigente y en el presente Apéndice.
 
-
 #### 2.3 "Área Sobrante" Se refiere a la porción de un Predio
 
 resultante de la diferencia entre el área total del Predio y el Área Requerida para el Proyecto.
 
-
 #### 2.4 "Avalúo Comercial" Es aquel que incorpora el valor comercial del inmueble (terreno, Construcciones yo cultivos) yo el
 
 valor de las indemnizaciones o compensaciones, de ser procedente. (artículo 3, definiciones. Resolución IGAC 898 de 2014).
-
 
 #### 2.5 "Avalúo Comercial con Comité Técnico" El Avalúo Comercial con Comité Técnico es el que se realiza con la participación de un grupo conformado por mínimo 4 personas y
 
@@ -292,7 +222,6 @@ uno de los avalúas, en contexto con la normatividad que rige la materia valuato
 
 memorias de cálculo que sean del caso, siendo acordes además con la realidad inmobiliaria.
 
-
 #### 2.6 "Baldíos" Son terrenos situados
 
 dentro de los límites rurales del territorio Nacional que
@@ -303,9 +232,7 @@ dominio de la Nación conforme a lo que dispone la Ley Aplicable. 2. 7 "Construc
 
 efectos de este Apéndice, se refiere a la unión de materiales adheridos al terreno con carácter permanente, cualesquiera sean los elementos que la constituyen. (Resolución 070 de 2011 IGAC). Página 6 de 59
 
-
 #### 2.8 "Construcciones Anexas" Son aquellas Construcciones no convencionales en su uso o destino diferente al habitacional y relacionado en la mayoría de los casos con las actividades agropecuarias.
-
 
 #### 2.9 "Comité Predial Especial" Es una reunión en la que participa: 1) el
 
@@ -336,7 +263,6 @@ equipo de seguimiento se requerirá su participación.
 Dependiendo de la situación a tratar, se podrá convocar al Coordinador del GIT Social o al Coordinador del GIT Ambiental, cuando se
 
 trate de temas relacionados con sus áreas.
-
 
 #### 2.1 O "Cronograma de Adquisición de Predios" Corresponde al cronograma que, en armonía con el
 
@@ -394,7 +320,6 @@ disponibilidad de Predios de las Unidades Funcionales 2 y 3, que presentan algú
 
 tipo de situación especial que dificulte o haga más compleja su adquisición.
 
-
 #### 2.11 "Cronograma de Trabajo Predial" Corresponde al cronograma que, en armonía con el
 
 Plan de Obras, deberá presentar el Concesionario para obtener la titularidad y disponibilidad, en
@@ -407,7 +332,6 @@ Proyectos de Infraestructura); (iv) actividades para la Adjudicación de Predios
 
 titularidad de los Predios Requeridos para la ejecución del Proyecto.
 
-
 #### 2.12 "Eiidos" Son Ejidos, y en tal concepto pertenecen a los Municipios, los terrenos situados
 
 dentro de los límites
@@ -415,7 +339,6 @@ dentro de los límites
 urbanos de los Municipios que
 
 carecen de otro dueño, o los que habiendo sido adjudicados con ese carácter deben volver al dominio del Municipio conforme a lo que dispone la Ley.
-
 
 #### 2.13 "Empresa Avaluadora" Es la organización comercial o compañía legalmente constituida del sector inmobiliario, que
 
@@ -426,7 +349,6 @@ asocio de un
 grupo de personas naturales que acreditan la formación debidamente reconocida para llevar a cabo la actividad valuatoria e inscritas ante el Registro
 
 Abierto de Avaluadores conforme a lo estipulado en la Ley 1673 del 2013.
-
 
 #### 2.14 "Expropiación Administrativa" Es la actuación administrativa mediante la cual el Estado adquiere la
 
@@ -439,7 +361,6 @@ luego de fracasada la negociación entre la administración y el propietario, pe
 alguno de los fines previstos expresamente en la ley (utilidad pública e interés social). Dicha declaratoria se debe dar con anterioridad al inicio del trámite de adquisición predial, de conformidad con lo dispuesto en los artículos 63 y
 
 siguiente de la Ley 388 de 1997.
-
 
 #### 2.15 "Expropiación Judicial" Es una operación de derecho público por la cual el Estado obliga a un particular a cumplir la tradición del dominio privado al dominio público de un bien, en
 
@@ -455,13 +376,11 @@ siguientes de la Ley 388 de 1997). Se adelanta mediante resolución que admite
 
 recurso de reposición, trámite después del cual la administración demanda civilmente al propietario atendiendo a las leyes 9ª de 1989, 388 de 1997, 1564 de 2012, 1682 de 2013, 1742 de 2014 y 1882 de 2018.
 
-
 #### 2.16 "Ficha Predial" Es el documento en el que se registra la información técnica y jurídica del Predio, identificando plenamente, entre otros, el propietario, el área
 
 objeto de adquisición para el Proyecto y los
 
 Linderos de la misma, con todas sus Construcciones Permanentes, Construcciones Anexas, cultivos y especies vegetales.
-
 
 #### 2.17 "Gestión Predial" Es el proceso conducente a obtener la titularidad y disponibilidad del Predio a
 
@@ -653,7 +572,6 @@ dentro de un Predio, que tiene las características específicas en cuanto a uso
 
 constitutivos de la misma.
 
-
 ### CAPÍTULO III - OBLIGACIONES
 
 GENERALES DE LA GESTIÓN PREDIAL 3 .1 Obligaciones generales del
@@ -798,7 +716,6 @@ colectivos de comunidades indígenas o afrodescendientes, las
 
 necesidades de saneamiento de los Predios, entre otros, de manera que la Gestión Predial se pueda adelantar según lo programado, y los Predios estén disponibles y adquiridos cuando las obras lo requieran y el Contrato así lo establezca. (aa)
 
-
 #### 3.2 Una vez la ANI entregue al Concesionario el Área Disponible del Corredor del Proyecto, éste se encargará de custodiarla y mantenerla
 
 libre de invasiones, hacer la defensa física y jurídica; realizar la Gestión Predial y demás gestiones y actividades necesarias para garantizar la disponibilidad del Corredor del Proyecto definido en el Apéndice Técnico 1.
@@ -847,7 +764,6 @@ Contrato de Concesión, y de las facultades que tiene el
 
 Concesionario de actuar en nombre y representación de la ANI. Página 16 de 59
 
-
 #### 3.3 Normatividad Vigente Sin
 
 perjuicio de las normas que sean expedidas durante la vigencia del
@@ -868,11 +784,9 @@ Nacional de Concesiones y se establecen criterios para la aplicación del
 
 Plan de Compensaciones Socioeconómicas". (ff) Resolución IGAC 620 de 2008 -Avalos Comerciales. (gg) Resolución IGAC 070 de 2011. (hh) Resolución ANI 077 de 2012, modificada parcialmente por la No. CCRAD_S de 2024. (ii) Resoluciones IGAC 898 y 1044 de 2014 y 316 de 2015-Dafio Emergente y Lucro Cesante. (jj) Resolución IGAC 0193 de 2014- cabida y Linderos. Página 18 de 59
 
-
 ### CAPÍTULO IV - OBLIGACIONES ESPECIALES EN
 
 MATERIA DE GESTIÓN PREDIAL
-
 
 #### 4.1 Cronograma de Trabajo Predial A los dos (2)
 
@@ -887,7 +801,6 @@ titularidad de los Predios Requeridos para la ejecución del Proyecto, como mín
 Actividades de investigación técnica, jurídica, física y socio-económica, en la cual se identifique la relación existente entre los inmuebles requeridos para la ejecución del Proyecto y sus propietarios y o terceros; (ii) Actividades necesarias para iniciar y culminar la adquisición de los Predios Requeridos para la ejecución de cada Unidad Funcional, sea a través de enajenación voluntaria o expropiación; (iii) Actividades para lograr la restitución del espacio público (lo cual incluye la restitución de los bienes inmuebles adquiridos con anterioridad por el Estado, para la ejecución de
 
 proyectos de infraestructura); (iv) Actividades para la Adjudicación de Predios Baldíos y Ejidos; y (v) las demás actividades a que haya lugar,
-
 
 #### 4.2 Plan de Adquisición de Predios (a) En los mismos plazos previstos en el
 
@@ -923,7 +836,6 @@ disponibilidad de los Predios Requeridos para el proyecto, en los términos y pl
 
 Contrato de Concesión.
 
-
 #### 4.3 Elaboración de la documentación de Gestión Predial (a) En la medida en que el Concesionario vaya elaborando los
 
 estudios de títulos, las Fichas Prediales y los Planos Prediales y los Avalúos Comerciales con Comité Técnico hará entrega de éstos a la Interventoría, junto con todos los documentos soporte, para su revisión y aprobación y así poder avanzar en el
@@ -933,7 +845,6 @@ Procedimiento de Gestión Predial que le permita obtener la disponibilidad o adq
 Fase de Construcción. Los Avalúas Comerciales con Comité Técnico se deben presentar una vez hayan sido aprobados la Ficha Predial y el
 
 estudio de títulos por la Interventoría.
-
 
 #### 4.4 Ficha Predial (a) Será obligación del Concesionario elaborar las Fichas Prediales, verificando que la información contenida en éstas corresponda con la realidad
 
@@ -1381,7 +1292,6 @@ Procedimiento de Gestión Predial, de acuerdo con los
 
 lineamientos de la ANI.
 
-
 #### 4.5 Plano de requerimiento predial (a) Corresponde al plano en planta del área por adquirir, con el siguiente contenido: Página 31 de 59 Formato Tabla 3 - Plano de requerimiento predial Los
 
 planos de intervenciones prediales deben hacerse en un
@@ -1478,7 +1388,6 @@ caso de los Ejidos, el Concesionario adelantará la gestión ante las entidades 
 
 tipo de bienes.
 
-
 #### 4.6 Plan de Compensaciones Socioeconómicas (a) Para formular el
 
 Plan de Compensaciones Socioeconómicas el Concesionario deberá levantar la información socioeconómica de cada
@@ -1516,7 +1425,6 @@ municipio de la jurisdicción del Predio, certificación de construcción de mej
 tiempo de residencia o actividad productiva, certificación de ingresos familiares y demás documentos que sean requeridos, de acuerdo con los formatos establecidos por la Agencia
 
 Nacional de Infraestructura.
-
 
 #### 4.7 Avalúos Comerciales con Comité Técnico (a) El Concesionario deberá obtener los Avalúos
 
@@ -1676,7 +1584,6 @@ procedimiento de revisión e impugnación de los Avalúos Comerciales con Comit�
 
 requiere de conformidad con lo dispuesto en el Código General del Proceso.
 
-
 ### CAPÍTULO V - ENAJENACIÓN VOLUNTARIA 5 .1 Generalidades de la
 
 Etapa de Enajenación Voluntaria En desarrollo del
@@ -1684,7 +1591,6 @@ Etapa de Enajenación Voluntaria En desarrollo del
 proceso de enajenación voluntaria, el Concesionario deberá adelantar todas las gestiones tendientes a lograr la efectiva adquisición de los inmuebles requeridos, de conformidad con el
 
 procedimiento de enajenación voluntaria establecido en la Ley 9ª de 1989, modificada por la Ley 388 de 1997, en la Ley 1682 de 2013, la Ley 1742 de 2014, Ley 1882 de 2018, y demás normas aplicables.
-
 
 #### 5.2 Expedientes Prediales (a) Para cada
 
@@ -1940,7 +1846,6 @@ proceso de clarificación se establezca un titular privado, el valor del depósi
 
 tipo de inmuebles, ya sea solicitando la Cesión de Predios a título gratuito, la enajenación del mismo o la Adjudicación de Predios.
 
-
 #### 5.4 Definición del
 
 Procedimiento de Expropiación (a) Antes del
@@ -1958,7 +1863,6 @@ proceso de expropiación por vía administrativa o judicial en el caso en que no
 precisa de la ANI al vencimiento del plazo al que se refiere el numeral 5.4(b) anterior, el Concesionario deberá aplicar el
 
 procedimiento de la expropiación por vía judicial.
-
 
 #### 5.5 Elaboración de la Oferta
 
@@ -2014,7 +1918,6 @@ Fotocopia de la Ficha Predial y Plano Predial (ii) Fotocopia del Avalúo Comerci
 
 Concepto de uso del suelo.
 
-
 #### 5.6 Notificación de la Oferta
 
 Formal de Compra de Predios (a) La Oferta
@@ -2053,7 +1956,6 @@ web de la ANI o en la página web del Concesionario. (f) En el
 
 acto de notificación se debe incluir los datos del notificador: nombre, cédula, cargo que ocupa en el Concesionario y firma.
 
-
 #### 5.7 Inscripción de la Oferta (a)
 
 Dentro de los cinco (5) Días Hábiles siguientes a la notificación de la Oferta
@@ -2077,7 +1979,6 @@ Concesionario de un informe técnico yojurídico en el que se expongan las razon
 alcance de la Oferta
 
 Formal de Compra de Predios.
-
 
 #### 5.8 Aceptación de la Oferta, Escrituración e Inscripción.de la Compraventa (a) Aceptada la Oferta
 
@@ -2171,7 +2072,6 @@ Nacional de Infraestructura
 
 libre de limitaciones y gravámenes.
 
-
 #### 5.9 Entrega de Predios (a) La
 
 entrega de Predios será efectuada por el propietario, poseedor inscrito del Predio yo herederos determinados e indeterminados, al
@@ -2236,7 +2136,6 @@ proceso de Adjudicación de Predios Ejidos o Baldíos entre entes territoriales 
 
 Nacional de Infraestructura con los documentos soporte que el Concesionario remita para tal fin.
 
-
 #### 5.10 Imposibilidad de la Enajenación Voluntaria (a) En cumplimiento a lo establecido en el artículo 61 de la Ley 388 de 1997 y el artículo 25 de la Ley 1682 de 2013,, modificado por el artículo 4 de la Ley 1742 de 2014, modificado por el artículo 10 de la Ley 1882 de 2018, se deberá iniciar
 
 proceso de expropiación si transcurridos treinta (30) Días Hábiles después de la notificación de la Oferta
@@ -2281,7 +2180,6 @@ promesa de compraventa por parte del prometiente vendedor, deberá iniciar de in
 
 proceso de expropiación.
 
-
 #### 5.11 Informes de Adquisición Predial (a)
 
 Dentro de los quince (15) Días hábiles siguientes a la culminación del
@@ -2324,9 +2222,7 @@ procesos de Expropiación Judicial, la Sábana de Compensaciones Económicas, y 
 
 Nacional de Infraestructura. Página 50 de 59
 
-
 ### CAPÍTULO VI - EXPROPIACIÓN JUDICIAL
-
 
 #### 6.1 Inicio del
 
@@ -2390,7 +2286,6 @@ es de aplicación inmediata y
 
 goza de fuerza ejecutoria y ejecutiva, una vez agotado el trámite de notificación, según el artículo 31 de la Ley 1682 de 2013.
 
-
 #### 6.2 Inter:posición de Recursos (a) En el caso en que el titular del derecho real, el poseedor inscrito yo herederos determinados e indeterminados, interpusieren el
 
 recurso de reposición, se concederá en el efecto devolutivo, y el Concesionario proyectará los documentos necesarios para resolver el recurso interpuesto, el cual será objeto de revisión técnica, jurídica y
@@ -2404,7 +2299,6 @@ ANI de manera inmediata. (d) La proyección de la resolución de los recursos ef
 respuesta de fondo a cada
 
 una de las consideraciones expuestas por los recurrentes.
-
 
 #### 6.3 Presentación de la
 
@@ -2438,9 +2332,7 @@ folio de matrícula inmobiliaria, Página 52 de 59 previa cancelación de todos 
 
 juzgado de conocimiento del proceso. Página 53 de 59
 
-
 ### CAPÍTULO VII - EXPROPIACIÓN POR VÍA ADMINISTRATIVA
-
 
 #### 7.1 Inicio del
 
@@ -2496,7 +2388,6 @@ oficio de manera directa o a través de su
 
 sistema de correspondencia). (c) Enviadas las comunicaciones, procederá a realizarse la notificación personal del acto administrativo, en los términos señalados en el numeral 5 .6 de este Apéndice.
 
-
 #### 7.2 Interposición de Recursos (a) En el caso en que el titular del derecho real yo el poseedor inscrito interpusieren el
 
 recurso de reposición, el Concesionario proyectará los documentos necesarios para resolver el recurso, lo cual será objeto de la revisión técnica, jurídica y
@@ -2513,7 +2404,6 @@ respuesta de fondo a cada
 
 una de las consideraciones expuestas por los recurrentes.
 
-
 #### 7.3 Eiecutoria del
 
 Acto de Expropiación (a) Ejecutoriado el acto administrativo mediante el cual se declara la expropiación por vía administrativa, el Concesionario procederá a su inscripción en el
@@ -2524,9 +2414,7 @@ solicitud de Intervención de las
 
 autoridades de policía. Página 55 de 59
 
-
 ### CAPÍTULO VIII - VARIOS
-
 
 #### 8.1 Restitución de
 
@@ -2539,7 +2427,6 @@ Nacional de Infraestructura de tal situación, para coadyuvar conjuntamente en l
 policivas de restitución de los
 
 bienes de uso público.
-
 
 #### 8.2 Predios de Beneficio Comunitario Los
 
@@ -2557,13 +2444,11 @@ Social de la ANI. En cuanto a este particular, el Concesionario dará aplicació
 
 Manejo de Equipamiento Comunitario, al que se refiere el Apéndice Técnico 8.
 
-
 #### 8.3 Reconocimiento de Compensaciones Económicas Para las unidades sociales identificadas en los Predios Requeridos por el Proyecto a las que aplique el
 
 reconocimiento de compensaciones económicas, el procedimiento y condiciones para su aplicación se encuentra reglamentado en la Resolución 545 de 2008 o la norma aplicable. En cuanto a este particular, el Concesionario dará aplicación a lo previsto en el
 
 Plan de Compensaciones Socioeconómicas al que se refiere el Apéndice Técnico 8.
-
 
 #### 8.4 Costos de la Gestión Predial y la Adquisición de los Predios (a) Todos los costos relacionados con los aspectos administrativos, técnicos y
 
@@ -2597,7 +2482,6 @@ Formal de Compra de Predios, y que tales valores corresponden al Avalúo Comerci
 
 acuerdo de reconocimiento o al valor decretado en la Expropiación Administrativa, la ANI reconocerá al Concesionario los valores adicionales en los términos descritos en el Contrato.
 
-
 #### 8.5 Indemnidad (a) El Concesionario mantendrá indemne a la ANI por las reclamaciones judiciales o
 
 acciones de terceros relacionadas con la Gestión Predial que asume, en especial en lo que tiene que ver con el
@@ -2620,7 +2504,6 @@ falta de verificación de gravámenes o limitaciones, o por inclusión de elemen
 
 parte de la Interventoría. Así mismo, en estos casos se adelantarán las sanciones a que haya lugar.
 
-
 #### 8.6 Imposición de servidumbres El Concesionario podrá solicitar a la Entidad la imposición de servidumbres por vía administrativa durante la
 
 Fase de Construcción de los
@@ -2634,7 +2517,6 @@ real de dominio o al poseedor o poseedores inscritos en un plazo máximo de trei
 caso de no lograrse acuerdo con el titular o titulares del derecho
 
 real de dominio o al poseedor o poseedores inscritos, la Entidad procederá a la imposición de la servidumbre por vía administrativa, de conformidad con el artículo 38 de la Ley 1682 de 2013 y el Decreto 738 de 2014, compilado en el Decreto 1079 de 2015.
-
 
 #### 8.7 Personal Para la ejecución de las
 
@@ -2665,7 +2547,6 @@ proyectos de infraestructura, además del
 equipo de profesionales de apoyo que considere necesario para el
 
 cumplimiento de las obligaciones a su cargo, los cuales también deben ser profesionales con experiencia en Gestión Predial. Página 58 de 59
-
 
 ### CAPÍTULO IX - LISTADO DE ANEXOS (a) Anexo 1: Formato de Ficha Predial (b) Anexo 2: Formato de Plano Predial (e) Anexo 3: Formato Sábana de avalúas (d) Anexo 4: Formato Semáforo (e) Anexo 5: Formato seguimiento y Control a la Gestión Predial del Concesionario (Sábana Predial) (f) Anexo 6: Formato seguimiento y
 
@@ -2721,18 +2602,14 @@ Nacional de Infraestructura Dirección: Calle 24A 59 - 42, Bogotá D.C., Colombi
 
 ---
 
-
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
-
-
 

@@ -2,7 +2,6 @@
 
 ESQUEMA DE APP No. 001 DE 2025
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 27 de enero de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -11,12 +10,9 @@ ESQUEMA DE APP No. 001 DE 2025
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 27 de enero de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Contrato Principal | | **Número** | 001 de 2025 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Contrato de Concesión bajo el
 
@@ -28,9 +24,7 @@ esquema de Asociación Público-Privada (APP) para el proyecto Corredor Férreo 
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
 
 ---
 
@@ -38,11 +32,9 @@ esquema de Asociación Público-Privada (APP) para el proyecto Corredor Férreo 
 
 Nacional de Infraestructura . :"el''" ª
 
-
 # REPÚBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
-
 
 ## AGENCIA
 
@@ -58,26 +50,19 @@ Nacional de Infraestructura
 
 TABLA DE CONTENIDO
 
-
 ### CAPÍTULO I - REGLAS DE INTERPRETACIÓN DEL CONTRATO 18
-
 
 #### 1.1 Documentos que conforman el Contrato 18
 
-
 #### 1.2 Reglas de Interpretación 18 CAPÍTULO 11 DEFINICIONES 20
-
 
 #### 2.1 "Acta de Cálculo de Retribución Mensual" 20
 
-
 #### 2.2 "Acta de Cálculo de la Retribución Semestral" 20
-
 
 #### 2.3 "Acta de
 
 Inicio de Ejecución del Contrato" o "Acta de Inicio" 20
-
 
 #### 2.4 "Acta de
 
@@ -85,44 +70,33 @@ Inicio de la
 
 Fase de Construcción" 20
 
-
 #### 2.5 "Acta de Liquidación del Contrato" 20
-
 
 #### 2.6 "Acta
 
 Mensual de Avance de Obra" 20
 
-
 #### 2.7 "Acta de Plan Remedia!" 20
-
 
 #### 2.8 "Acta de
 
 Reconocimiento de EER" 20
 
-
 #### 2.9 "Acta de Reversión" 20
-
 
 #### 2.10 "Acta de Terminación de Construcción de las Instituciones Educativas" 21
 
-
 #### 2.11 "Acta de Terminación de Construcción del Puente Vehicular" 21
 
-
 #### 2.12 "Acta de Terminación de Unidad Funcional" 21
-
 
 #### 2.13 "Acta de Terminación de Unidad
 
 Funcional de Vía Férrea" 21
 
-
 #### 2.14 "Acta de Terminación
 
 Parcial de Unidad Funcional" 21
-
 
 #### 2.15 "Acta de Terminación
 
@@ -130,45 +104,31 @@ Parcial de Unidad
 
 Funcional de Vía Férrea" 21
 
-
 #### 2.16 "Acuerdo de Garantía" ; 21
-
 
 #### 2.17 "Acuerdo de Operación" 21
 
-
 #### 2.18 "Acuerdo de Permanencia" 21
-
 
 #### 2.19 "Adjudicación de Predios" 21
 
-
 #### 2.20 "Amigable Componedor" 21
-
 
 #### 2.21 "Anexos" 22
 
-
 #### 2.22 "ANl" 22
-
 
 #### 2.23 "Apéndices" 22
 
-
 #### 2.24 "Apéndices Financieros" 22
-
 
 #### 2.25 "Apéndices Técnicos" 22
 
-
 #### 2.26 "Aportes ANI" 23
-
 
 #### 2.27 "Área de Influencia" 23
 
-
 #### 2.28 "Área Disponible" : 23
-
 
 #### 2.29 "Asignación de Surcos" 23 Página 2 de 332 i
 
@@ -176,318 +136,219 @@ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.30 "Autoridad Ambiental" 24
-
 
 #### 2.31 "Autoridad Estatal" ...................................................................................." 24
 
-
 #### 2.32 "Avalúo Comercial con Comité Técnico" 24
-
 
 #### 2.33 "Beneficiario Real" ......................................................................................... 24
 
-
 #### 2.34 "Bienes Revertibles" ................................................................... 24
-
 
 #### 2.35 "Biodiversidad" 24
 
-
 #### 2.36 "Cambio de Ley Tributaria" 24
-
 
 #### 2.37 "Capacidad Asignada" 25
 
-
 #### 2.38 "Capacidad Ferroviaria" 25
-
 
 #### 2.39 "Capacidad
 
 Disponible de la Vía Férrea,, 25
 
-
 #### 2.40 "Capacidad
 
 Disponible de la Infraestructura Logística" : 25
-
 
 #### 2.41 "Capacidad Máxima
 
 Instalada de la Infraestructura Logística" 25
 
-
 #### 2.42 "Cesión de Predios" 25
-
 
 #### 2.43 "Cierre Financiero" 25
 
-
 #### 2.44 "Circulación" 25
-
 
 #### 2.45 "Cláusula Penal" 25
 
-
 #### 2.46 "Comisión de Éxito" 25
-
 
 #### 2.47 "Comisión Fiduciaria" 25
 
-
 #### 2.48 "Comité Fiduciario" 26
-
 
 #### 2.49 "Compensación Especial" 26
 
-
 #### 2.50 "Compensación Especial UFVF" ,. 26
-
 
 #### 2.51 "Compensaciones Socioambientales" 26
 
-
 #### 2.52 "Compensaciones Socioeconómicas" 26
-
 
 #### 2.53 "Componente A" 26
 
-
 #### 2.54 "Componente B" 26
-
 
 #### 2.55 "Componente C" 26
 
-
 #### 2.56 "Componente D" 27
-
 
 #### 2.57 "Concesionario" 27
 
-
 #### 2.58 "Construcción" 27
-
 
 #### 2.59 "Contraprestación" 27
 
-
 #### 2.60 "Contratistas" 27
-
 
 #### 2.61 "Contratista(s) de Diseño" 27
 
-
 #### 2.62 "Contratista(s) de Construcción" 27
-
 
 #### 2.63 "Contratista(s) de Operación y Mantenimiento del Material Rodante del Proyecto" 27
 
-
 #### 2.64 "Contrato de Concesión" o "Contrato" 27
-
 
 #### 2.65 "Contrato de Construcción" 27 Página 3 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.66 "Contrato de Diseño" 27
-
 
 #### 2.67 "Contrato de Operación y Mantenimiento del Material Rodante" 28
 
-
 #### 2.68 "Contrato de Fiducia Mercantil" 28
-
 
 #### 2.69 "Contrato de lnterventoría" 28
 
-
 #### 2.70 "Corredor del Proyecto" 28
-
 
 #### 2.71 "Cronograma de Adquisición de Predios" 28
 
-
 #### 2.72 "Cronograma de Trabajo Predial" 28
-
 
 #### 2.73 "Cuenta ANl" 28
 
-
 #### 2.74 "Cuenta Proyecto" 28
-
 
 #### 2.75 "Deducciones" 28
 
-
 #### 2.76 "Derecho de Recaudo" 28
-
 
 #### 2.77 "Descuentos" 28
 
-
 #### 2.78 "Día" 29
-
 
 #### 2.79 "Día Hábil" 29
 
-
 #### 2.80 "Director del Proyeco" 29
-
 
 #### 2.81 "Disponibilidad" 29
 
-
 #### 2.82 "Dólares" o "US" 29
-
 
 #### 2.83 "DTF" 29
 
-
 #### 2.84 "Ecosistema" 29
-
 
 #### 2.85 "Emergencia" 29
 
-
 #### 2.86 "Entrega de la Infraestructura" 29
-
 
 #### 2.87 "Entrega del Material Rodante" 30
 
-
 #### 2.88 "Equipamiento Fijo" 30
-
 
 #### 2.89 "Equipamiento Móvil" 30
 
-
 #### 2.90 "Equipo Amarillo" 30
-
 
 #### 2.91 "Equipo de Coordinación y Seguimiento" 30
 
-
 #### 2.92 "Especificaciones Técnicas" 30
-
 
 #### 2.93 "Estructuradores" 30 2.94. "Estructuradores Financiero y Legal" 31
 
-
 #### 2.95 "Estructurador Técnico" 31
-
 
 #### 2.96 "Estudios y Diseños de Detalle" o "Estudios de Detalle" 31
 
-
 #### 2.97 "Etapa de Operación y Mantenimiento" 31
-
 
 #### 2.98 "Etapa de Reversión" 31
 
-
 #### 2.99 "Etapa Preoperativa" 31
-
 
 #### 2.100 "Evento
 
 Eximente de Responsabilidad" o "EER" 31
 
-
 #### 2.101 "Factor de Calidad" 32 Página 4 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.102 "Fase de Construcción" 32
-
 
 #### 2.103 "Fase de Preconstrucción" 32
 
-
 #### 2.104 "Fecha de Inicio" 32
-
 
 #### 2.105 "Fecha de Terminación de la
 
 Etapa de Operación y Mantenimiento" 32
 
-
 #### 2.106 "Fiduciaria" 32
-
 
 #### 2.107 "Fondo de Capital Privado" 32
 
-
 #### 2.108 "Fondo de Contingencias" 32
-
 
 #### 2.109 "Franja Operacional" 33
 
-
 #### 2.110 "Fuerza Mayor o Caso Fortuito" 33
-
 
 #### 2.111 "Fuerza Mayor Ambiental" 33
 
-
 #### 2.112 "Fuerza Mayor por Redes" 33
-
 
 #### 2.113 "Fuerza Mayor Predial" 33
 
-
 #### 2.114 "Fuerza Mayor Social" 33
-
 
 #### 2.115 "Fuerza Mayor por el Hallazgo
 
 Fortuito de Cuerpos de Víctimas del Conflicto Armado" 33
 
-
 #### 2.116 "Garantía de
 
 Seriedad de la Propuesta" 33
 
-
 #### 2.117 "Garantía Única de Cumplimiento" 33
-
 
 #### 2.118 "Gestión Predial" 33
 
-
 #### 2.119 "Gestión de Redes" 33
-
 
 #### 2.120 Gestión Social y Ambiental" 34
 
-
 #### 2.121 "Giro de Equity" 34
-
 
 #### 2.122 "Indicadores" 34
 
-
 #### 2.123 "Índice de Cumplimiento" 34
-
 
 #### 2.124 "Índice de Cumplimiento Predial" 34
 
-
 #### 2.125 "Informe de lnterventoría" 34
-
 
 #### 2.126 "Infraestructura" : 34
 
-
 #### 2.127 "Infraestructura Férrea" 34
 
-
 #### 2.128 "Infraestructura Logística" 34
-
 
 #### 2.129 "Ingresos por
 
@@ -495,378 +356,263 @@ Recaudo de la Tarifa por
 
 Uso de la Infraestructura Férrea" 35
 
-
 #### 2.130 "Ingresos por Prestación de Servicios Logísticos" 35
 
-
 #### 2.131 "Ingresos por Explotación Comercial" 35
-
 
 #### 2.132 "Ingresos por Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga" 35
 
-
 #### 2.133 "Intervención" 35
 
-
 #### 2.135 "lnterventoría" o "Interventor" 35
-
 
 #### 2.136 "Inventario de
 
 Activos de la Concesión" 35
 
-
 #### 2.137 "Inventario de Redes" 36
-
 
 #### 2.138 "Índice de Precios al Consumidor" o "IPC" , 36 Página 5 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.139 "Ley Aplicable" 36
-
 
 #### 2.140 "Licencia Ambiental" 36
 
-
 #### 2.141 "Licencias y Permisos" 36
-
 
 #### 2.142 "Líder" 36
 
-
 #### 2.143 "Longitud Efectiva Predial" 36
 
-
 #### 2.144 "Mantenimiento" u "Obras de Mantenimiento" 36
-
 
 #### 2.145 "Manual de Operación y
 
 Mantenimiento de la Infraestructura Férrea" 37
 
-
 #### 2.146 "Manual de Operación y
 
 Mantenimiento de la Infraestructura Logística" 37
 
-
 #### 2.147 "Manual de Operación y Mantenimiento del Material Rodante del Proyecto" 37
-
 
 #### 2.148 "Material Rodante" 37
 
-
 #### 2.149 "Material Rodante Adicional" 37
-
 
 #### 2.150 "Material Rodante del Proyecto" 37
 
-
 #### 2.151 "Mejoramiento" 37
-
 
 #### 2.152 "Memoria Técnica" 37
 
-
 #### 2.153 "Mes" 37
-
 
 #### 2.154 "Mes de Referencia" 37
 
-
 #### 2.155 "Multas" 37
 
-
 #### 2.156 "Notificación" 38
-
 
 #### 2.157 "Notificación
 
 Derecho de Toma" 38
 
-
 #### 2.158 "Notificación Para Toma" 38
-
 
 #### 2.159 "Obras y Equipos Complementarios" 38
 
-
 #### 2.160 "Obras Menores" 38
-
 
 #### 2.161 "Obras Sociales" 38
 
-
 #### 2.162 "Obras Voluntarias" 39
 
-
 #### 2.163 "Oferta" u "Oferta del Concesionario" 39
-
 
 #### 2.164 "Oferta
 
 Formal de Compra de Predios" 39
 
-
 #### 2.165 "Operación" 39
-
 
 #### 2.166 "Parte" o "Partes" 39
 
-
 #### 2.167 "Parte Afectada" 39
-
 
 #### 2.168 "Parte Receptora" 39
 
-
 #### 2.169 "Patrimonio Autónomo" .- 39
-
 
 #### 2.170 "Período de Exclusión 1" 40
 
-
 #### 2.171 "Período de Exclusión 2" 40
-
 
 #### 2.172 "Período de Exclusión 3" , 40
 
-
 #### 2.173 "Periodo Especial" 40
-
 
 #### 2.174 "Pesos" o "COP" 40 Página 6 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.175 "Plan de Adquisición de Predios" .41
-
 
 #### 2.176 "Plan de Compensaciones Socioeconómicas" 41
 
-
 #### 2.177 "Plan de Contingencia y Emergencia" 41
-
 
 #### 2.178 "Plan de Manejo Ambiental" 41
 
-
 #### 2.179 "Plan de Mantenimiento" 41
-
 
 #### 2.180 "Plan de Obras" 41
 
-
 #### 2.181 "Plan de Reactivación" 41
-
 
 #### 2.182 "Plan de Reasentamientos" 41
 
-
 #### 2.183 "Plan de Redes" 42
-
 
 #### 2.184 "Plan Remedía!" 42
 
-
 #### 2.185 "Plazo de Cura" .42
-
 
 #### 2.186 "Plazo Máximo de la
 
 Etapa de Reversión" 42
 
-
 #### 2.187 "Pliego de Condiciones" 42
 
-
 #### 2.188 "Política de Buen Gobierno Corporativo" 42
-
 
 #### 2.189 "Política Contra el
 
 Lavado de Activos y Financiación del Terrorismo" 42
 
-
 #### 2.190 "Predio" o "Predio Requerido" 42
-
 
 #### 2.191 "Predios Adquiridos" 43
 
-
 #### 2.192 "Predios Faltantes" 43
-
 
 #### 2.193 "Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga" 43
 
-
 #### 2.194 "Prestamistas" 43
-
 
 #### 2.195 "Principios del Ecuador" 43
 
-
 #### 2.196 "Proceso de Selección" 43
-
 
 #### 2.197 Procedimiento de Revisión General" 43
 
-
 #### 2.198 "Procedimiento de Revisión Abreviado" 43
-
 
 #### 2.199 "Programa de Operación y Mantenimiento" 43
 
-
 #### 2.200 "Proyecto" 44
 
-
 #### 2.201 "Puesta a Punto" 44
-
 
 #### 2.202 "Recaudo de Tarifa por
 
 Uso de la Infraestructura Férrea" 44
 
-
 #### 2.203 "Recursos de Deuda" 44
-
 
 #### 2.204 "Recursos de Patrimonio" 44
 
-
 #### 2.205 "Redes" 44
-
 
 #### 2.206 "Reglamento de Operación de Trenes" o "ROT" 45
 
-
 #### 2.207 "Rehabilitación" 45
-
 
 #### 2.208 "Requisitos Habilitantes" 45
 
-
 #### 2.209 "Resolución de Surcos" 45
-
 
 #### 2.210 "Retención" 45 Página 7 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.211 "Retribución" 45
-
 
 #### 2.212 "Reversión" 45
 
-
 #### 2.213 "Reversión Especial" 45
-
 
 #### 2.214 "Sanción" 45
 
-
 #### 2.215 "Sección" 45
-
 
 #### 2.216 "Seguridad" 46
 
-
 #### 2.217 "Señalización" 46
-
 
 #### 2.218 "Semestre Calendario" 46
 
-
 #### 2.219 "Servicios Adicionales" 46
-
 
 #### 2.220 "Servicios Logísticos" 46
 
-
 #### 2.221 "SICC" 46
-
 
 #### 2.222 "Sistema de Atención al Usuario" 46
 
-
 #### 2.223 "Subcuenta Aportes ANI" , 47
-
 
 #### 2.224 "Subcuenta Cambio Climático" 47
 
-
 #### 2.225 "Subcuenta Compensación Especial" 47
-
 
 #### 2.226 "Subcuenta Compensaciones Socioambientales" 47
 
-
 #### 2.227 "Subcuenta Contraprestación" 47
-
 
 #### 2.228 "Subcuenta Excedentes ANI" 47
 
-
 #### 2.229 "Subcuenta Indemnizaciones y Giros Aseguradoras" 47
 
-
 #### 2.230 "Subcuenta Ingresos por Explotación Comercial" 47
-
 
 #### 2.231 "Subcuenta Ingresos por Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga" 47
 
-
 #### 2.232 "Subcuenta lnterventoría y Coordinación" 47
-
 
 #### 2.233 "Subcuenta MASC" 47
 
-
 #### 2.234 "Subcuenta Material Rodante" 48
-
 
 #### 2.235 "Subcuenta Obras Sociales" 48
 
-
 #### 2.236 "Subcuenta Predios" 48
-
 
 #### 2.237 "Subcuenta Recaudo Tarifa por
 
 Uso de la Infraestructura Férrea" 48
 
-
 #### 2.238 "Subcuenta Redes" 48
-
 
 #### 2.239 "Subcuenta de Retenciones" 48
 
-
 #### 2.240 "Subcuenta Servicios Logísticos" 48
-
 
 #### 2.241 "Subcuenta de Soporte Contractual" 48
 
-
 #### 2.242 "Subsistema Ferroviario" 48
-
 
 #### 2.243 "Surcos de Movilización" o "Surcos" 48
 
-
 #### 2.244 "Take or Pay" 48
-
 
 #### 2.245 ''Tarifa por
 
@@ -874,158 +620,113 @@ Uso de la Infraestructura Férrea" 48 Página 8 de 332 Contrato de APP del Proye
 
 Nacional de Infraestructura
 
-
 #### 2.246 ''Tarifa por Prestación de Servicios Logísticos" 49
-
 
 #### 2.247 "TDl" 49
 
-
 #### 2.248 "Tercero Interesado" 49
-
 
 #### 2.249 "Tercero Operador" 49
 
-
 #### 2.250 "Terminación Anticipada del Contrato" o ''Terminación Anticipada" 49
-
 
 #### 2.251 ''Trámite de Compatibilidad del Material Rodante" 49
 
-
 #### 2.252 "Tribunal de Arbitramento" 49
-
 
 #### 2.253 ''TRM" 49
 
-
 #### 2.254 "Unidad Funcional" o "UF" 50
-
 
 #### 2.255 "Unidad
 
 Funcional de Vía Férrea" o "UFVF" 50
 
-
 #### 2.256 "Usuarios" 50
-
 
 #### 2.257 "Usuarios Finales" 50
 
-
 #### 2.258 ''Valor del Contrato" 50
-
 
 #### 2.259 ''Valor
 
 Estimado de Compensaciones Socioambientales" 50
 
-
 #### 2.260 Valor
 
 Estimado de Nuevas Consultas Previas" 50
-
 
 #### 2.261 ''Valor
 
 Estimado de Predios y Compensaciones Socioeconómicas" 51
 
-
 #### 2.262 "Valor
 
 Estimado de Redes" 51
 
-
 #### 2.263 "Valor Máximo de Pago Acumulado Durante la Etapa Preoperativa" 51
-
 
 #### 2.264 "Valor Máximo Semestral del Componente A" o ''VMCA" 51
 
-
 #### 2.265 "Valor Máximo Semestral del Componente D" o ''VMCD" 51
-
 
 #### 2.266 "Valor Máximo Semestral Ofertado del Componente C" o "VMSC" 52
 
-
 #### 2.267 "Valor Ofertado Semestral del Componente B" o ''VOSB" 52
-
 
 #### 2.268 "Valor Total del Componente B" o "VCB" 53
 
-
 #### 2.269 "Vía Férrea" 53
-
 
 ### CAPÍTULO III - ASPECTOS GENERALES DEL CONTRATO 54
 
-
 #### 3.1 Objeto 54
-
 
 #### 3.2 División del Proyecto 54
 
-
 #### 3.3 Bienes de la Concesión .- 56
-
 
 #### 3.4 Valor del Contrato 57
 
-
 #### 3.5 Aportes Presupuestales 57
-
 
 #### 3.6 Perfeccionamiento e
 
 Inicio de Ejecución del Contrato 58 3. 7 Plazo del Contrato 59
 
-
 #### 3.8 Etapas de Ejecución Contractual 60
-
 
 #### 3.9 Declaraciones y Garantías de las Partes 61
 
-
 #### 3.10 Entrega de la lnfraestructura 67
-
 
 #### 3.11 Principales Obligaciones Transversales del Concesionario 67 Página 9 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 3.12 Principales Obligaciones
 
 Transversales de la ANI 73
 
-
 ### CAPÍTULO IV - RETRIBUCIÓN Y OTROS ASPECTOS ECONÓMICOS DEL CONTRATO 76
 
-
 #### 4.1 Generalidades de la Retribución 76
-
 
 #### 4.2 Procedimiento para la Elaboración del
 
 Acta de Cálculo de Retribución Semestral 79
 
-
 #### 4.3 Procedimiento para la Elaboración del
 
 Acta de Cálculo de Retribución Mensual 81
 
-
 #### 4.4 Componentes de la Retribución Semestral 83
-
 
 #### 4.5 Componentes de la Retribución Mensual 90
 
-
 #### 4.6 Deducciones por Desempeño 93
 
-
 #### 4.7 Descuentos 94
-
 
 #### 4.8 Tarifa por
 
@@ -1033,53 +734,37 @@ Uso de la Infraestructura Férrea, Derecho de Recaudo, Ingresos por Explotación
 
 Ferroviario de Carga 94
 
-
 #### 4.9 Porcentaje de Participación de las Unidades
 
 Funcionales de Vía Férrea 95
 
-
 #### 4.10 Porcentaje de Participación de las Unidades Funcionales 97
-
 
 #### 4.11 Comisiones de Éxito 97
 
-
 #### 4.12 Intereses Remuneratorios y de Mora 98
-
 
 #### 4.13 Actualización de Valores 99
 
-
 ### CAPÍTULO V - FINANCIACIÓN DEL PROYECTO 100
-
 
 #### 5.1 Obligación de Financiación 100
 
-
 #### 5.2 Cierre Financiero 100
-
 
 #### 5.3 Giros de Equity .. 104
 
-
 #### 5.4 Registro de los Prestamistas 106
-
 
 #### 5.5 Desarrollo de Estructuras Financieras 106
 
-
 #### 5.6 Toma de Posesión de los Prestamistas : 107
-
 
 ### CAPÍTULO VI - PATRIMONIO AUTÓNOMO 115
 
-
 #### 6.1 Generalidades 115
 
-
 #### 6.2 Cuentas y Subcuentas del Patrimonio Autónomo 116
-
 
 #### 6.3 Términos y
 
@@ -1087,178 +772,127 @@ condiciones de obligatoria inclusión en el
 
 Contrato de Fiducia Mercantil 144
 
-
 ### CAPÍTULO VII - CONTRATISTAS 148
-
 
 #### 7.1 Generalidades 148
 
-
 #### 7.2 Contratista de Diseño 148
-
 
 #### 7.3 Contratista de Construcción 149
 
-
 #### 7.4 Contratista de Operación y Mantenimiento del Material Rodante del Proyecto 150
 
-
 #### 7.5 Certificación y Verificación , 151
-
 
 #### 7.6 Reemplazo 151 Página 1 O de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 7.7 Otros contratistas 152
-
 
 ### CAPÍTULO VIII - PROCESOS DE VERIFICACIÓN DOCUMENTAL 153
 
-
 #### 8.1 Procedimiento de Revisión General 153
-
 
 #### 8.2 Procedimiento de Revisión Abreviado 155
 
-
 ### CAPÍTULO IX - ETAPA PREOPERATIVA 158
-
 
 #### 9.1 Fase de Preconstrucción 158
 
-
 #### 9.2 Presentación de los Estudios y Diseños de Detalle 164
-
 
 #### 9.3 Modificaciones y Adecuaciones a los Estudios y Diseños de Detalle 165
 
-
 #### 9.4 Plan de Obras 166
 
-
 #### 9.5 Fase de Construcción 167
-
 
 #### 9.6 Avance del
 
 Plan de Obras 171
 
-
 #### 9.7 Desplazamiento del
 
 Plan de Obras , 173
-
 
 #### 9.8 Procedimiento para Solicitar la Ampliación del Plazo del
 
 Plan de Obras por Causas Imputables a laANI 173
 
-
 #### 9.9 Plazo Adicional sin Sanciones para el Concesionario 174
-
 
 #### 9.10 Especificaciones Técnicas , 176
 
-
 #### 9.11 Ajuste de las Especificaciones Técnicas 177
-
 
 #### 9.12 Modificación de las Especificaciones Técnicas 179
 
-
 #### 9.13 Fuentes de Materiales 180
-
 
 #### 9.14 Memoria Técnica 180
 
-
 #### 9.15 Procedimiento de Verificación 181
-
 
 #### 9.16 Reversión Especial 187
 
-
 ### CAPÍTULO X - PREDIOS 192
-
 
 #### 10.1 División de las actividades a
 
 cargo de las Partes 192
 
-
 #### 10.2 Actividades relativas al Área Disponible 192
-
 
 #### 10.3 Actividades sobre los Predios Requeridos 192
 
-
 #### 10.4 Recursos para la Adquisición de Predios y Compensaciones Socioeconómicas 199
-
 
 #### 10.5 Disposiciones especiales para el
 
 Procedimiento de Adquisición Predial 202
 
-
 #### 10.6 Fuerza Mayor Predial 202
-
 
 ### CAPÍTULO XI - GESTIÓN SOCIAL, AMBIENTAL Y REDES 204
 
-
 #### 11.1 Gestión Social y Ambíental 204
-
 
 #### 11.2 Redes 209
 
-
 ### CAPÍTULO XII - ADMINISTRACIÓN DE LA INFRAESTRUCTURA FÉRREA Y LA INFRAESTRUCTURA LOGÍSTICA 212
 
-
 #### 12.1 Función de Administración que debe cumplir el Concesionario 212
-
 
 #### 12.2 Capacidad de la Vía Férrea 212 Página 11 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 12.3 12.4 ! 12.5
 
-
 #### 12.6 12.7
-
 
 #### 12.8 12.9 Trámite de Compatibilidad entre la Infraestructura Férrea y el Material Rodante 212 Asignación de Surcos 212 Acuerdos de Operación 213 Uso de la Vía 214 Tarifa por
 
 Uso de la Infraestructura Férrea 215 Administración de la Infraestructura Logística y Prestación de Servicios Logísticos 215 Tarifa por Prestación de Servicios Logísticos 216
 
-
 ### CAPÍTULO XIII - PUESTA A PUNTO, OPERACIÓN DEL MATERIAL RODANTE DEL PROYECTO Y PRESTACIÓN DEL SERVICIO PÚBLICO DE TRANSPORTE
 
 FERROVIARIO DE CARGA 218
 
-
 #### 13.1 Entrega del Material Rodante 218
 
-
 #### 13.2 Puesta a Punto 218
-
 
 #### 13.3 Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga 218
 
-
 #### 13.4 Pago de la Tarifa por
 
 Uso de la Infraestructura Férrea 220
 
-
 ### CAPÍTULO XIV - ETAPA DE OPERACIÓN Y MANTENIMIENTO 222
-
 
 #### 14.1 Condiciones Precedentes para el
 
@@ -1266,11 +900,9 @@ Inicio de la
 
 Etapa de Operación y Mantenimiento 222
 
-
 #### 14.2 Obligaciones Principales del Concesionario durante la
 
 Etapa de Operación y Mantenimiento 222
-
 
 #### 14.3 Obligaciones
 
@@ -1278,117 +910,85 @@ principales de la ANI durante la
 
 Etapa de Operación y Mantenimiento 223
 
-
 #### 14.4 Mantenimiento de Intervenciones e lndicadores 224
 
-
 #### 14.5 Manuales de Operación y Mantenimiento 225
-
 
 #### 14.6 Alcance de las
 
 Obras de Mantenimiento 225
 
-
 ### CAPÍTULO XV - ETAPA DE REVERSIÓN 226
-
 
 #### 15.1 Inicio de la
 
 Etapa de Reversión 226
 
-
 #### 15.2 Obligaciones en
 
 Etapa de Reversión por terminación del plazo del Contrato 226
-
 
 #### 15.3 Obligaciones en
 
 Etapa de Reversión por Terminación Anticipada del Contrato 226
 
-
 #### 15.4 Alcance de la Reversión 226
 
-
 #### 15.5 Procedimiento para la Reversión 227
-
 
 ### CAPÍTULO XVI - SANCIONES Y
 
 ESQUEMAS DE APREMIO 229
 
-
 #### 16.1 Multas y Sanciones 229
-
 
 #### 16.2 Plazo de Cura 230
 
-
 #### 16.3 Pago de las Multas y Sanciones 230
-
 
 #### 16.4 Procedimiento para la imposición de Multas y Sanciones 231
 
-
 #### 16.5 Actualización de las Multas y Sanciones 231
 
-
 #### 16.6 Cláusula Penal 231
-
 
 #### 16.7 Valor de la Cláusula Penal 232 Página 12 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 16.8 Eventos
 
 generadores de Multas : 232
-
 
 #### 16.9 Eventos
 
 generadores de Sanciones 236
 
-
 ### CAPÍTULO XVII - CLÁUSULAS EXCEPCIONALES AL DERECHO COMÚN 238 17 .1 Caducidad ............................................................ ; 238
-
 
 #### 17.2 Terminación Unilateral 240
 
-
 #### 17.3 Otras Cláusulas Excepcionales al Derecho Común 240
 
-
 ### CAPÍTULO XVIII - GARANTÍAS Y SEGUROS 241
-
 
 #### 18.1 Garantías como
 
 Requisito de Inicio del Contrato 241
 
-
 #### 18.2 Clases de Garantías 241
-
 
 #### 18.3 Reglas Generales Aplicables a las Garantías y los Seguros 242
 
-
 #### 18.4 Aprobación de las Garantías 244
-
 
 #### 18.5 División de las Garantías 245
 
-
 #### 18.6 Garantía Única de Cumplimiento 246
-
 
 #### 18.7 Seguro de Responsabilidad Extracontractual 249
 
-
 #### 18.8 Seguros de Daños Contra Todo Riesgo Obras Civiles 252
-
 
 #### 18.9 En caso
 
@@ -1402,34 +1002,25 @@ Seguro de Obras
 
 Civiles de la ANI.Seguro de Vehículos, Equipos y Maquinaria 253
 
-
 #### 18.10 Seguro de
 
 transporte de mercancías yo personas 253
 
-
 #### 18.11 Otros ; 253
-
 
 #### 18.12 Actualización de los
 
 Valores de las Garantías yo Seguros 254
 
-
 ### CAPÍTULO XIX - ECUACIÓN CONTRACTUAL Y ASIGNACIÓN DE RIESGOS 255
-
 
 #### 19.1 Ecuación Contractual 255
 
-
 #### 19.2 Riesgos Asignados al Concesionario 256
-
 
 #### 19.3 Riesgos Asignados a la ANI 262
 
-
 #### 19.4 Atención de los Riesgos Asignados a la ANl. 263
-
 
 ### CAPÍTULO XX - TERMINACIÓN
 
@@ -1437,28 +1028,23 @@ PARCIAL DE UNIDAD FUNCIONAL, EVENTO
 
 EXIMENTE DE RESPONSABILIDAD E INDEMNIDADES 265
 
-
 #### 20.1 Imposibilidad de Terminación de Unidad
 
 Funcional de Vía Férrea por Eventos
 
 Eximentes de Responsabilidad o por razones imputables a la ANI 265
 
-
 #### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos
 
 Eximentes de Responsabilidad o por Razones Imputables a la ANI 266
-
 
 #### 20.3 Evento
 
 Eximente de Responsabilidad 269
 
-
 #### 20.4 Suspensión contractual por Evento
 
 Eximente de Responsabilidad 274
-
 
 #### 20.5 Compensaciones por Eventos
 
@@ -1466,50 +1052,35 @@ Eximentes de Responsabilidad 275 Página 13 de 332 Contrato de APP del Proyecto 
 
 Nacional de Infraestructura
 
-
 #### 20.6 Reparaciones Necesarias por Evento
 
 Eximente de Responsabilidad 276
 
-
 #### 20.7 lndemnidad ...................................................................... 277
-
 
 ### CAPÍTULO XXI - SOLUCIÓN DE CONTROVERSIAS 279
 
-
 #### 21.1 . Amigable Composición 279
-
 
 #### 21.2 Arbitraje Nacional 285
 
-
 #### 21.3 Arbitraje Internacional 287
-
 
 #### 21.4 Continuidad en la ejecución 288
 
-
 ### CAPÍTULO XXII - ASUNTOS LABORALES Y DE SEGURIDAD Y SALUD EN EL TRABAJO 289
-
 
 #### 22.1 Personal del Concesionario 289
 
-
 #### 22.2 Seguridad e Higiene lndustrial 290
-
 
 #### 22.3 Relación entre las Partes 290
 
-
 ### CAPÍTULO XXIII - TERMINACIÓN DEL CONTRATO 291
-
 
 #### 23.1 Ocurrencia , 291
 
-
 #### 23.2 Causales de Terminación Anticipada del Contrato 291
-
 
 #### 23.3 Efectos de la
 
@@ -1517,96 +1088,67 @@ Ocurrencia de una
 
 Causal de Terminación Anticipada por Causas Imputables al Concesionario 292
 
-
 ### CAPÍTULO XXIV - LIQUIDACIÓN DEL CONTRATO 293
-
 
 #### 24.1 Término 293
 
-
 #### 24.2 Obligaciones de la Fiduciaria en la Liquidación 293
 
-
 #### 24.3 Fórmulas de Liquidación del Contrato 295
-
 
 #### 24.4 Pago de las Sumas por
 
 Concepto de Liquidación 318
 
-
 #### 24.5 Pagos en
 
 Caso de Controversia 319
 
-
 ### CAPÍTULO XXV - VARIOS 320
-
 
 #### 25.1 Cambio de Ley Tributaria 320
 
-
 #### 25.2 Obras Menores 321
-
 
 #### 25.3 Obras Sociales 323
 
-
 #### 25.4 Obras y Equipos Complementarios 323
-
 
 #### 25.5 Obras Voluntarias 324
 
-
 #### 25.6 Cesión 325
-
 
 #### 25.7 Renuncia a la reclamación diplomática 327
 
-
 #### 25.8 Relación Entre las Partes 327
-
 
 #### 25.9 Inhabilidades e lncompatibilidades 328
 
-
 #### 25.10 Información de Terceros 328
-
 
 #### 25.11 Producciones del Concesionario y Propiedad Intelectual 328 25.12 Idioma del Contrato 328 Página 14 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 25.13 Impuestos 328
-
 
 #### 25.14 Modificación del Contrato 329
 
-
 #### 25.15 Subsistencia de Obligaciones 329
-
 
 #### 25.16 No Renuncia a Derechos 329
 
-
 #### 25.17 Ajustes por solicitud del Interventor 329
-
 
 #### 25.18 Directrices Ambientales y Sociales 329
 
-
 #### 25.19 Representación de la ANI 329
-
 
 #### 25.20 Notificaciones 330
 
-
 #### 25.21 Información Estadística 330
 
-
 #### 25.22 Manejo de lnformación 331
-
 
 #### 25.23 Reincorporación 331 Página 15 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -1662,13 +1204,11 @@ Pliego de Condiciones, se constituyó el Concesionario, en los términos previst
 
 Nacional de Infraestructura CAPÍTULO! REGLAS DE INTERPRETACIÓN DEL CONTRATO
 
-
 #### 1.1 Documentos que confonnan el Contrato (a) Hacen parte del presente Contrato: (i) El
 
 Contrato de Concesión, el cual corresponde al presente documento. (ii) Los Apéndices Técnicos. (iii) Los Apéndices Financieros. (iv) El
 
 Pliego de Condiciones con sus adendas y anexos. (v) La Oferta presentada por el Concesionario. (vi) Los Anexos.
-
 
 #### 1.2 Reglas de Interpretación (a) Este Contrato será interpretado según las reglas que se establecen a continuación, de conformidad con lo previsto en los artículos 1618 a 1624 del Código Civil y las demás normas que resulten aplicables. (b) El presente Contrato debe
 
@@ -1726,14 +1266,11 @@ falta de definición en este Contrato, los términos utilizados serán interpret
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO II - DEFINICIONES
-
 
 #### 2.1 "Acta de Cálculo de Retribución Mensual" Es el documento que suscribirán el Interventor y el Concesionario, en los términos señalados en la Sección 4.3 de este Contrato, en la cual se consignarán las bases del cálculo de la Retribución del Concesionario que se haya causado en el Mes Calendario inmediatamente anterior y los
 
 resultados de dicho cálculo.
-
 
 #### 2.2 "Acta de Cálculo de la Retribución Semestral" Es el documento que suscribirán el Interventor y el Concesionario, en los términos señalados en la Sección 4.2 de este Contrato, en la cual se consignarán las bases del cálculo de la Retribución del
 
@@ -1743,13 +1280,11 @@ resultados de dicho cálculo. En el
 
 Acta de Cálculo de la Retribución se incluirá también el cálculo de la Compensación Especial.
 
-
 #### 2.3 "Acta de
 
 Inicio de Ejecución del Contrato" o "Acta de Inicio" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para
 
 efectos de dar inicio a la ejecución del Contrato al Día siguiente a su suscripción, previa verificación de los requisitos establecidos en la Sección 3.6(b) de este Contrato.
-
 
 #### 2.4 "Acta de
 
@@ -1763,9 +1298,7 @@ Fase de Preconstrucción e inicio a la
 
 Fase de Construcción, previa verificación de los requisitos establecidos para ello en este Contrato, en especial en la Sección 9.5(a).
 
-
 #### 2.5 "Acta de Liquidación del Contrato" Es el documento que suscribirán la ANI, el Interventor y el Concesionario, de acuerdo con lo señalado en este Contrato, en especial en el CAPÍTULO XXIV, para los efectos previstos en el artículo 60 de la Ley 80 de 1993 (modificado por el Artículo 217 del Decreto 19 de 2012) y en el Artículo 11 de la Ley 1150 de 2007.
-
 
 #### 2.6 "Acta
 
@@ -1775,11 +1308,9 @@ mensual de las
 
 obras de Construcción ejecutadas por el Concesionario.
 
-
 #### 2.7 "Acta de Plan Remedia]" Es el documento que suscribirán la ANI, el Interventor y el Concesionario, en el cual se consignará el Plan Remedia! aceptado para enervar una
 
 causal de Caducidad, de conformidad con lo señalado en la Sección 17.1 de este Contrato.
-
 
 #### 2.8 "Acta de
 
@@ -1791,13 +1322,11 @@ Eximente de Responsabilidad y se indicarán las obligaciones afectadas, el Perí
 
 Plan de Obras y los demás elementos inherentes a dicha declaratoria, aplicando el procedimiento descrito en la Sección 20.3 de este Contrato.
 
-
 #### 2.9 "Acta de Reversión" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para hacer constar, la Reversión Especial yo la Reversión de los Bienes Revertibles y la consecuente terminación del presente Contrato. En esta acta se verificará el
 
 cumplimiento de las condiciones técnicas exigidas para la Reversión en los Apéndices Técnicos 1 y 2. Página 20 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.10 "Acta de Terminación de Construcción de las Instituciones Educativas" Se refiere al documento que suscribirán la ANI, el Interventor y el Concesionario a la terminación de la construcción de cada
 
@@ -1805,18 +1334,15 @@ una de las instituciones
 
 educativas de que trata la Sección 9 .16.
 
-
 #### 2.11 "Acta de Terminación de Construcción del Puente Vehicular" Se refiere al documento que suscribirán la ANI, el Interventor y el Concesionario a la terminación de la construcción del puente vehicular y
 
 peatonal de que trata la Sección 9. 16.
-
 
 #### 2.12 "Acta de Terminación de Unidad Funcional" Es cada
 
 uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario para dar cuenta del
 
 cumplimiento de las actividades correspondientes a cada Unidad Funcional, de conformidad con el procedimiento a que se refiere la Sección 9.15(a).
-
 
 #### 2.13 "Acta de Terminación de Unidad
 
@@ -1834,13 +1360,11 @@ Funcional de Vía Férrea se suscribirá para cada Unidad
 
 Funcional de Vía Férrea, por una única vez durante la vigencia del Contrato.
 
-
 #### 2.14 "Acta de Terminación
 
 Parcial de Unidad Funcional" Es cada
 
 uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario en los eventos previstos en la Sección 20.2 de este Contrato.
-
 
 #### 2.15 "Acta de Terminación
 
@@ -1850,21 +1374,17 @@ Funcional de Vía Férrea" Es cada
 
 uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario en los eventos previstos en la Sección 20.1 de este Contrato.
 
-
 #### 2.16 "Acuerdo de Garantía" Es el documento identificado como tal en el
 
 Pliego de Condiciones, debidamente suscrito, y que se incorpora al presente Contrato como Anexo 1.
-
 
 #### 2.17 "Acuerdo de Operación" Es el acuerdo entre privados que deberá suscribir el Concesionario con cada Tercero Interesado para hacer
 
 uso de la Infraestructura del Proyecto en los términos descritos en la Sección 12.5 de este Contrato.
 
-
 #### 2.18 "Acuerdo de Permanencia" Es el contrato atípico que suscribieron y entregaron el (los) integrante(s) del oferente adjudicatario dentro del
 
 Proceso de Selección y que tiene como objeto comprometer su permanencia como accionistas del Concesionario por el tiempo mínimo establecido en el presente Contrato y que se incorpora al presente Contrato como Anexo 2.
-
 
 #### 2.19 "Adjudicación de Predios" Es el acto administrativo por medio del cual la entidad pública, se
 
@@ -1876,7 +1396,6 @@ favor de la ANI cuando se acreditan los respectivos
 
 requisitos de Ley, a través de un acto administrativo denominado "Resolución de Adjudicación" y dando cumplimiento a las diferentes disposiciones sobre adjudicación de terrenos baldíos o ejidos, según sea el caso.
 
-
 #### 2.20 "Amigable Componedor" Se refiere a la instancia permanente y
 
 obligatoria de solución
@@ -1885,9 +1404,7 @@ definitiva de las controversias expresamente contempladas en el presente Contrat
 
 Nacional de Infraestructura
 
-
 #### 2.21 "Anexos" Se refiere a los siguientes documentos que hacen parte integrante del presente Contrato: Anexo 1: Anexo 2: Anexo 3:
-
 
 #### 2.22 "ANI" Acuerdo de Garantía.
 
@@ -1903,14 +1420,11 @@ descentralizado de la rama ejecutiva del orden nacional, con personeríajurídic
 
 Ministerio de Transporte. La ANI actúa en este Contrato como entidad pública contratante.
 
-
 #### 2.23 "Apéndices" Se refiere a los Apéndices Técnicos, conjuntamente con los Apéndices Financieros.
-
 
 #### 2.24 "Apéndices Financieros" Son los
 
 documentos de carácter financiero adjuntos al Contrato. Cualquier modificación a un Apéndice Financiero implicará la modificación del presente Contrato. Los Apéndices Financieros son los siguientes: Apéndice Financiero 1: Apéndice Financiero 2: Apéndice Financiero 3: Apéndice Financiero 4:
-
 
 #### 2.25 "Apéndices Técnicos" Garantías y Seguros Información Financiera Aportes ANI Amortización Material Rodante del Proyecto Son los documentos adjuntos al
 
@@ -1925,7 +1439,6 @@ Nivel de Servicio Apéndice Técnico 5: Interferencias con Redes Apéndice Técn
 Nacional de Infraestructura Apéndice Técnico 7: Gestión Predial Anexo Apéndice Técnico 7: Formato de Ficha Predial Anexo Apéndice Técnico 7: Formato de Plano Predial Anexo Apéndice Técnico 7: Formato Sábana de Avalúos Anexo Apéndice Técnico 7: Formato Semáforo Anexo Apéndice Técnico 7: Formato Seguimiento y Control a la Gestión Predial Anexo Apéndice Técnico 7: Formato Seguimiento y Control Compensaciones Socioeconómicas Apéndice Técnico 8: Gestión Social Apéndice Técnico 9: Plan de Obras Apéndice Técnico 10: Cálculo de la Capacidad
 
 Disponible de la Vía Férrea
-
 
 #### 2.26 "Aportes ANT' Son los montos correspondientes al
 
@@ -1945,9 +1458,7 @@ valor de los Aportes ANI para compensar el
 
 efecto de dichos tributos. Esta estipulación no aplicará a tributos del orden departamental o municipal, los cuales se regirán por lo dispuesto en la Sección 25.1 de este Contrato.
 
-
 #### 2.27 "Área de Influencia" Se refiere al área que es impactada por la ejecución de las Intervenciones del Proyecto tal y como la misma se define en el Apéndice Técnico 8.
-
 
 #### 2.28 "Área Disponible" Son aquellas áreas que hacen parte del Corredor del Proyecto que se entienden entregadas en la
 
@@ -1957,13 +1468,11 @@ Acta de Inicio, de acuerdo con lo establecido en el Apéndice Técnico 1. El pla
 
 Fecha de Inicio en los términos de la Sección 2.86.
 
-
 #### 2.29 "Asignación de Surcos" Es el procedimiento mediante el cual se le asigna al Concesionario y a los Terceros Operadores un
 
 Surco de Movilización, en los términos de la Ley Aplicable. Página 23 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.30 "Autoridad Ambiental" Es cualquier
 
@@ -1974,7 +1483,6 @@ Ministerio de Ambiente y Desarrollo Sostenible, la Autoridad
 Nacional de Licencias Ambientales, las Corporaciones Autónomas Regionales competentes y Parques Nacionales
 
 Naturales de Colombia.
-
 
 #### 2.31 "Autoridad Estatal" Es cualquier
 
@@ -1992,9 +1500,7 @@ Ministerio de Hacienda y Crédito Público, la Dirección de Impuestos y Aduanas
 
 Nacional de Licencias Ambientales, la Policía Nacional, cualquier Autoridad Ambiental, cualquier autoridad judicial colombiana competente, entre otras, del nivel nacional, regional, departamental, distrital o municipal, que tengan autoridad sobre asuntos relacionados con la ejecución del presente Contrato.
 
-
 #### 2.32 "Avalúo Comercial con Comité Técnico" Tendrá el significado descrito en el Apéndice Técnico 7.
-
 
 #### 2.33 "Beneficiario Real" Es cualquier persona o
 
@@ -2022,20 +1528,17 @@ civil de cualquiera de los accionistas del Concesionario. Igualmente, constituye
 
 yo de sus accionistas, así como sus subordinadas o subsidiarias.
 
-
 #### 2.34 "Bienes Revertibles" Es el
 
 grupo de activos que, como mínimo, serán
 
 objeto de Reversión. Los Bienes Revertibles son los que se definen, como mínimo, en la Sección 3.3(a) y en los Apéndices Técnicos 1 y 2.
 
-
 #### 2.35 "Biodiversidad" Se refiere a la
 
 variedad de seres vivos en un área determinada, estos pueden
 
 ser de carácter vegetal yo animal.
-
 
 #### 2.36 "Cambio de Ley Tributaria" Se refiere a la imposición de nuevos tributos o la eliminación o variación de los existentes, respecto de los vigentes al
 
@@ -2047,11 +1550,9 @@ Cambio de Ley Tributaria se regulan en la Sección 25 .1. Página 24 de 332 Cont
 
 Nacional de Infraestructura
 
-
 #### 2.37 "Capacidad Asignada" Es el número de
 
 Surcos de Movilización asignados al Concesionario y al Tercero Operador establecidos para la utilización de la Vía Férrea.
-
 
 #### 2.38 "Capacidad Ferroviaria" Corresponde a la máxima
 
@@ -2075,7 +1576,6 @@ seguridad de la Vía Férrea, los períodos de Mantenimiento y el
 
 plan de transportes adoptado por el Concesionario, entre otros.
 
-
 #### 2.39 "Capacidad
 
 Disponible de la Vía Férrea" Corresponde al número total
@@ -2084,13 +1584,11 @@ disponible de trenes que pueden ser atendidos y a los cuales se les puede asigna
 
 Surco de Movilización.
 
-
 #### 2.40 "Capacidad
 
 Disponible de la Infraestructura Logística" Corresponde número total
 
 disponible de trenes que pueden ser atendidos en la Infraestructura Logística.
-
 
 #### 2.41 "Capacidad Máxima
 
@@ -2102,7 +1600,6 @@ total de almacenamiento la componen: la capacidad nominal estática del
 
 patio de contenedores para contenedores llenos y vacíos, medido en TEUs, y la capacidad nominal estática de las áreas para carga suelta incluyendo bodegas, medido en toneladas métricas.
 
-
 #### 2.42 "Cesión de Predios" Es el acto jurídico por medio del cual se transfiere el derecho
 
 real de dominio de un Predio
@@ -2111,17 +1608,13 @@ Requerido de propiedad del Estado a cualquier título, ya sea oneroso o gratuito
 
 favor de la ANI, como entidad adquiriente, en beneficio del Proyecto.
 
-
 #### 2.43 "Cierre Financiero" Es la consecución de un monto mínimo de
 
 Recursos de Deuda para el Proyecto, en los términos y condiciones señalados en el presente Contrato, especialmente en la Sección 5.2 de este Contrato.
 
-
 #### 2.44 "Circulación" Corresponde a la situación en la cual cualquier Material Rodante puede transitar o movilizarse sobre la Vía Férrea.
 
-
 #### 2.45 "Cláusula Penal" Es la pena pecuniaria que se causará a cargo del Concesionario, de acuerdo con lo previsto en la Sección 16.6 de este Contrato.
-
 
 #### 2.46 "Comisión de Éxito" Es la suma correspondiente a la
 
@@ -2131,16 +1624,13 @@ honorarios de los Estructuradores Financiero y Legal y Estructurador Técnico qu
 
 Concesionario de acuerdo con la Sección
 
-
 #### 4.11 del presente Contrato y que hará parte del costo del Proyecto a cargo del Concesionario como
 
 parte de sus obligaciones.
 
-
 #### 2.47 "Comisión Fiduciaria" Es la remuneración que recibe la Fiduciaria por la administración del Patrimonio Autónomo, de acuerdo con los términos y condiciones que se establecen en la Sección 6.1 de este Contrato. Página 25 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.48 "Comité Fiduciario" Es el organismo
 
@@ -2152,7 +1642,6 @@ perjuicio de las facultades atribuidas a la
 
 ANI de conformidad con lo previsto en el presente Contrato.
 
-
 #### 2.49 "Compensación Especial" Corresponde a los pagos que serán hechos al Concesionario en el caso previsto en la Sección 20.2 de este Contrato. El
 
 reconocimiento de la Compensación Especial se verificará en los mismos plazos y mediante los mismos mecanismos previstos en el este Contrato para el reconocimiento del Componente C de la Retribución. Para todos los efectos previstos en este Contrato, la Compensación Especial corresponde a un derecho económico a favor del Concesionario, que puede ser cedido a los Prestamistas y, en general, del que puede disponer el
@@ -2160,7 +1649,6 @@ reconocimiento de la Compensación Especial se verificará en los mismos plazos 
 Concesionario de la misma forma en que puede
 
 disponer de la Retribución.
-
 
 #### 2.50 "Compensación Especial UFVF" Corresponde a los pagos que la ANI hará al Concesionario en el caso previsto en la Sección 20.1 de este Contrato. El
 
@@ -2174,7 +1662,6 @@ Concesionario de la misma forma en que puede
 
 disponer de la Retribución.
 
-
 #### 2.51 "Compensaciones Socioambientales" Son los (a) requerimientos incluidos
 
 dentro de los actos administrativos específicos al Proyecto proferidos por las Autoridades Ambientales, correspondientes a (i) pérdida de Biodiversidad, (ii) uso y
@@ -2185,20 +1672,17 @@ traslado de las instituciones
 
 educativas de trata la Sección 9. l 6(b) de este Contrato.
 
-
 #### 2.52 "Compensaciones Socioeconómicas" Son los reconocimientos a ciertas personas que se otorgarán de conformidad con la Resolución 545 de 2008 expedida por el INCO (hoy ANI) para mitigar los impactos socioeconómicos específicos, causados en el
 
 marco de la Gestión Predial del Proyecto, de conformidad con lo establecido en el presente Contrato y, en particular, con lo dispuesto en el Apéndice Técnico 7, así como las compensaciones derivadas del
 
 Plan de Reasentamientos. El Concesionario deberá realizar estas Compensaciones Socioeconómicas en los términos de la Sección 10.4.
 
-
 #### 2.53 "Componente A" Es el
 
 componente de la Retribución del Concesionario que corresponde al pago asociado a las
 
 actividades de Operación y Mantenimiento durante la Etapa Preoperativa, regulado en la Sección 4.4(a) del presente Contrato.
-
 
 #### 2.54 "Componente B" Es el
 
@@ -2207,7 +1691,6 @@ componente de la Retribución del Concesionario que corresponde al pago asociado
 actividades de Construcción de la Unidades
 
 Funcionales de Vía Férrea, regulado en la Sección 4.4(b) del presente Contrato.
-
 
 #### 2.55 "Componente C" Es el
 
@@ -2219,7 +1702,6 @@ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.56 "Componente D" Es el
 
 componente de la Retribución del Concesionario que corresponde al pago asociado a las
@@ -2227,7 +1709,6 @@ componente de la Retribución del Concesionario que corresponde al pago asociado
 actividades de Operación y Mantenimiento en
 
 Etapa de Operación y Mantenimiento, regulado en la Sección 4.4(d) del presente Contrato.
-
 
 #### 2.57 "Concesionario" Es la
 
@@ -2237,18 +1718,15 @@ Proceso de Selección y quien suscribió el
 
 Contrato de Concesión.
 
-
 #### 2.58 "Construcción" Son todas las acciones necesarias para edificar o materializar cualquier
 
 tipo de Infraestructura e Intervenciones requeridas para el Proyecto según el Apéndice Técnico 1, en
 
 cumplimiento de los Estudios y Diseños de Detalle no objetados, con la calidad y los estándares aplicables según se establece en el Apéndice Técnico 3 y a satisfacción de la Interventoría.
 
-
 #### 2.59 "Contraprestación" Es el monto que el Concesionario se obliga a pagar a la ANI en los plazos y cantidades que se determinan en las Secciones 6.2(h)(v)(3) y 6.2(h)(vi)(3), en
 
 virtud de los derechos que adquiere como consecuencia del Contrato.
-
 
 #### 2.60 "Contratistas" Son las personas jurídicas, naturales, estructuras plurales o cualquier figura asociativa permitida por la Ley Aplicable, con quienes el Concesionario suscribe el
 
@@ -2258,33 +1736,25 @@ Contrato de Operación y Mantenimiento del Material Rodante del Proyecto en los 
 
 Contrato de Concesión.
 
-
 #### 2.61 "Contratísta(s) de Diseño" Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Diseño.
-
 
 #### 2.62 "Contratista(s) de Construcción" Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Construcción.
 
-
 #### 2.63 "Contratista(s) de Operación y Mantenimiento del Material Rodante del Proyecto" Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Operación y Mantenimiento del Material Rodante del Proyecto.
-
 
 #### 2.64 "Contrato de Concesión" o "Contrato" Será el presente documento, así corno sus Apéndices y Anexos, el
 
 Pliego de Condiciones con sus adendas y anexos y la Oferta presentada por el Concesionario. Todos los anteriores documentos se entienden incorporados al Contrato, por lo que su contenido será de obligatorio cumplimiento para las Partes.
 
-
 #### 2.65 "Contrato de Construcción" Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Construcción para la ejecución de las Intervenciones. No podrá existir de manera simultánea más de un (1)
 
 Contrato de Construcción por Unidad Funcional.
-
 
 #### 2.66 "Contrato de Diseño" Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Diseño para la ejecución de los Estudios y Diseños de Detalle del Proyecto. Página 27 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.67 "Contrato de Operación y Mantenimiento del Material Rodante" Es el(los) contrato(s) que podrá celebrar el Concesionario con el(los) Contratista(s) de Operación y Mantenimiento del Material Rodante del Proyecto.
-
 
 #### 2.68 "Contrato de Fiducia Mercantil" Es el
 
@@ -2292,11 +1762,9 @@ contrato de fiducia mercantil que, de conformidad con lo previsto en el artícul
 
 cumplimiento de lo previsto en el CAPÍTULO V1 de este Contrato.
 
-
 #### 2.69 "Contrato de Interventoría" Es el contrato que celebrará la ANI con el Interventor, que tendrá por objeto el control y vigilancia sobre la ejecución del Contrato por parte del Concesionario en cada
 
 una de sus Etapas.
-
 
 #### 2.70 "Corredor del Proyecto" Corresponde al corredor físico dentro del cual se ubica el
 
@@ -2306,19 +1774,15 @@ dentro de los 30 metros al lado y lado del
 
 eje de la Vía Férrea.
 
-
 #### 2.71 "Cronograma de Adquisición de Predios" Se refiere al
 
 Cronograma de Adquisición Predial definido en el Apéndice Técnico 7.
-
 
 #### 2.72 "Cronograma de Trabajo Predial" Se refiere al
 
 Cronograma de Trabajo Predial definido en el Apéndice Técnico 7.
 
-
 #### 2.73 "Cuenta ANI" Es la cuenta del Patrimonio Autónomo que se constituirá de conformidad con lo previsto en la Sección 6.2(h) de este Contrato y cuyo beneficiario único junto con las respectivas subcuentas que la conforman, será la ANI.
-
 
 #### 2.74 "Cuenta Proyecto" Es la cuenta del Patrimonio Autónomo que se constituirá de conformidad con lo previsto en la Sección 6.2(a)(i) de este Contrato, cuyos recursos disponibles se destinarán, entre otros, a la atención de todos los pagos, costos y gastos a cargo del Concesionario que se
 
@@ -2328,11 +1792,9 @@ otra de las cuentas o
 
 subcuentas de acuerdo con lo previsto en este Contrato.
 
-
 #### 2.75 "Deducciones" Corresponde a los valores que serán restados a la Retribución -:--o a la Compensación Especial, cuando sea aplicable- como
 
 resultado de la medición del Índice de Cumplimiento o Índice de Cumplimiento Predial, de acuerdo con lo previsto en el presente Contrato.
-
 
 #### 2.76 "Derecho de Recaudo" Es el
 
@@ -2350,19 +1812,15 @@ Nacional de Infraestructura 2. 78 "Día" Es cualquier día calendario que compre
 
 cumplimiento de una obligación y este plazo no venza en un Día Hábil, el vencimiento ocurrirá el Día Hábil inmediatamente siguiente.
 
-
 #### 2.79 "Día Hábil" Es cualquier Día en la semana, de lunes a viernes (inclusive), sin incluir los Días feriados en la República de Colombia.
-
 
 #### 2.80 "Director del Proyecto" Es la persona natural designada por el Concesionario como su representante ante la ANI y el Interventor y que será su interlocutor durante la ejecución del presente Contrato y que además tendrá la capacidad para tomar decisiones por cuenta del Concesionario. Esta persona deberá tener: (i) un poder otorgado por el representante legal del Concesionario; o (ii) ser representante legal del Concesionario. 2. 81 "Disponibilidad" Se refiere a la Infraestructura cuando está en uso y cumple con los
 
 niveles de servicio y estándares de calidad establecidos en el presente Contrato y sus Apéndices Técnicos.
 
-
 #### 2.82 "Dólares" o "US" Se entenderá como la moneda con poder liberatorio y curso forzoso en los Estados
 
 Unidos de América.
-
 
 #### 2.83 "DTF" Es la
 
@@ -2382,14 +1840,11 @@ dejare de ser certificada o se llegare a modificar, se aplicará la tasa equival
 
 Banco de la República, o la entidad que asuma sus funciones. Todos los cálculos de intereses a que haga referencia el presente Contrato y que impliquen la utilización de la DTF, serán efectuados diariamente aplicando la DTF certificada para cada Día.
 
-
 #### 2.84 "Ecosistema" Corresponde al sistema biológico constituido por una
 
 comunidad de seres vivos.
 
-
 #### 2.85 "Emergencia" Corresponde al escenario o situación de afectación a un Ecosistema, una comunidad, sus bienes, medios de subsistencia, servicios y su entorno, causado por un evento natural y antrópico, que puede ser resuelto con los recursos locales.
-
 
 #### 2.86 "Entrega de la Infraestructura" La
 
@@ -2423,16 +1878,13 @@ parte de la
 
 ANI de entregar los Predios correspondientes al Corredor del Proyecto, de acuerdo con la Sección 3. lO(e) del Contrato.
 
-
 #### 2.87 "Entrega del Material Rodante" Consiste en la entrega al Concesionario del Material Rodante del Proyecto en el estado en que se encuentre, tal como se describe en el Apéndice Técnico l y en los términos de la Sección 13.1. Ni al
 
 momento de la Entrega del Material Rodante ni en momento
 
 alguno de la ejecución del Contrato, el Concesionario podrá incluir reserva, condicionamiento, objeción u observación alguna relacionada con el estado del Material Rodante entregado, en tanto es obligación del Concesionario recibirla en el estado en que se encuentre.
 
-
 #### 2.88 "Equipamiento Fijo" Se refiere a la Construcción yo Rehabilitación de obras civiles yo la provisión e instalación de equipos y componentes asociados a esas obras necesarias para la ejecución del Proyecto, definidas en el Contrato y específicamente en el Apéndice Técnico 1, tales como estaciones, apartaderos, y, en general, cualquier edificación yo equipo que haga parte del respectivo proyecto.
-
 
 #### 2.89 "Equipamiento Móvil" Se refiere a todo
 
@@ -2446,7 +1898,6 @@ objeto de Reversión a la Nación, diferente al Material Rodante del Proyecto. E
 
 abastecimiento de locomotoras.
 
-
 #### 2.90 "Equipo Amarillo" Se refiere a todo
 
 tipo de maquinaria, también llamada maquinaria pesada, a cargo del Concesionario requerida para prestar los
@@ -2454,7 +1905,6 @@ tipo de maquinaria, también llamada maquinaria pesada, a cargo del Concesionari
 servicios de Construcción, Rehabilitación y
 
 Mantenimiento de la Vía Férrea. En general se refiere pero no se limita a: tractores, cargadores, excavadoras, motoconfonnadoras, equipos de acarreos, compactadores, compresores, entre otras.
-
 
 #### 2.91 "Equipo de Coordinación y Seguimiento" Es el
 
@@ -2466,20 +1916,17 @@ cumplimiento de las funciones establecidas en el
 
 Manual de Interventoría y Supervisión expedido por la ANI, así como en las modificaciones, adiciones y complementaciones que éste tenga.
 
-
 #### 2.92 "Especificaciones Técnicas" Son las normas y parámetros contenidos en los Apéndices Técnicos, los cuales establecen los resultados y parámetros mínimos exigibles al Concesionario respecto a las Intervenciones y las
 
 obligaciones de Operación y Mantenimiento. Las normas y parámetros que se establecen en los Apéndices Técnicos corresponden a criterios mínimos cuyo cumplimiento o incumplimiento no excusa al
 
 Concesionario de la obtención de los resultados establecidos en dichos Apéndices Técnicos y en el presente Contrato, particularmente en cuanto a los Indicadores.
 
-
 #### 2.93 "Estructuradores" Corresponde, conjuntamente, a los Estructuradores Financiero y Legal y al Estructurador Técnico, contratados por la FON con el
 
 objeto de apoyar la asesoría que ésta le brinda a la ANI en sus distintas especialidades. Página 30 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.94 "Estructuradores Financiero y Legal" Corresponde la Unión Temporal Deloitte - Durán Osorio contratada por la
 
@@ -2488,7 +1935,6 @@ Financiera de Desarrollo Nacional S.A. identificada con NIT 860.509.022-9, quien
 actividades de estructuración legal y financiera del
 
 Proyecto de acuerdo con lo establecido en el convenio interadministrativo No. 24 de 2017 suscrito entre la FDN y la ANI.
-
 
 #### 2.95 "Estructurador Técnico" Corresponde al Consorcio Gómez Cajiao - SETEC contratado por la
 
@@ -2500,13 +1946,11 @@ Proyecto de acuerdo con lo establecido en el convenio interadministrativo No. 24
 
 Financiera de Desarrollo Nacional - FDN y la ANI.
 
-
 #### 2.96 "Estudios y Diseños de Detalle" o "Estudios de Detalle" Corresponden a los estudios y diseños necesarios para la ejecución de las Intervenciones y que tendrán el alcance y deberán cumplir, especialmente, con lo señalado en el Apéndice Técnico 1 y Apéndice Técnico 3. Comprenden todas las
 
 actividades de diseño detallado en todas y cada
 
 una de las áreas técnicas de ingeniería; consideraciones ambientales, sociales, prediales y de tráfico, y demás necesarias para la ejecución de las Intervenciones.
-
 
 #### 2.97 "Etapa de Operación y Mantenimiento" Es la segunda
 
@@ -2521,7 +1965,6 @@ Etapa de Operación y Mantenimiento. Una vez terminada la
 Etapa de Operación y Mantenimiento se iniciará la
 
 Etapa de Reversión del Contrato.
-
 
 #### 2.98 "Etapa de Reversión" Se refiere a la tercera etapa del Contrato durante la cual se adelantarán todas las actividades necesarias para la Reversión de, como mínimo, los Bienes Revertibles, en las condiciones previstas en este Contrato, sin
 
@@ -2545,7 +1988,6 @@ Etapa de Reversión el Concesionario deberá continuar con las
 
 actividades de Operación y Mantenimiento del Proyecto.
 
-
 #### 2.99 "Etapa Preoperativa" Se refiere a la primera etapa del Contrato que comprende la
 
 Fase de Preconstrucción y la
@@ -2555,7 +1997,6 @@ Fase de Construcción. Esta etapa correrá desde la
 Fecha de Inicio hasta la suscripción de la última
 
 Acta de Terminación de Unidad Funcional, según se define en la Sección 3.8 de este Contrato.
-
 
 #### 2.100 "Evento
 
@@ -2575,7 +2016,6 @@ Fortuito de Cuerpos de Víctimas del Conflicto Armado. Página 31 de 332 Contrat
 
 Nacional de Infraestructura
 
-
 #### 2.101 "Factor de Calidad" Se refiere al
 
 criterio de asignación de puntaje del
@@ -2594,7 +2034,6 @@ reacondicionada de condiciones técnicas equivalentes a la locomotora UI 8 que s
 
 custodia de la ANI, de habérsele realizado la Puesta a Punto. Adicionalmente, se deben suministrar treinta (30) plataformas nuevas, aptas para vía de 914 mm, de longitud 12.34m, distancia máxima entre ejes 8.72m y mínima 7.30m. Sobre estas plataformas, el Concesionario deberá realizar, a su cuenta y riesgo, el mantenimiento y adquisición de repuestos que sean necesarios durante el plazo del Contrato. Se deberá garantizar que la locomotora Ul 8 y las plataformas ofrecidas, cumplirán con las Especificaciones Técnicas mínimas requeridas en el numeral 5.2 del Apéndice Técnico No.1, así como los plazos para la entrada en operación de los equipos.
 
-
 #### 2.102 "Fase de Construcción" Es la segunda
 
 fase de la Etapa Preoperativa, durante la cual el Concesionario, principalmente, debe realizar las Intervenciones. La
@@ -2609,7 +2048,6 @@ Fase de Construcción hasta la suscripción de la última
 
 Acta de Terminación de Unidad Funcional.
 
-
 #### 2.103 "Fase de Preconstrucción" Es la primera
 
 fase de la Etapa Preoperativa que se extenderá desde la
@@ -2622,18 +2060,15 @@ Acta de Inicio de la
 
 Fase de Construcción.
 
-
 #### 2.104 "Fecha de Inicio" Es el Día siguiente a la fecha en la que las Partes suscriban el
 
 Acta de Inicio de Ejecución del Contrato, o el Día siguiente al
 
 vencimiento de los cinco Días de que trata la Sección 3.6(b), habiéndose cumplido con los requisitos previstos en la Sección 3.6(b) del Contrato.
 
-
 #### 2.105 "Fecha de Terminación de la
 
 Etapa de Operación y Mantenimiento" Se entenderá de conformidad con lo establecido en la Sección 3.8 de este Contrato.
-
 
 #### 2.106 "Fiduciaria" Es la
 
@@ -2647,11 +2082,9 @@ calificadora de riesgo autorizada por la Superintendencia
 
 Financiera de Colombia.
 
-
 #### 2.107 "Fondo de Capital Privado" Son (i) aquellas carteras colectivas cerradas constituidas en Colombia en los términos y condiciones previstos en los numerales 3 .3 .2.1.1 y siguientes del Decreto 2555 de 2010, y (íi) aquellos fondos constituidos en jurisdicciones diferentes a la colombiana que cumplan con los
 
 requisitos de admisibilidad de inversiones señalados en el Decreto 2555 de 2010.
-
 
 #### 2.108 "Fondo de Contingencias" Es el
 
@@ -2659,11 +2092,9 @@ Fondo de Contingencias de las Entidades Estatales creado mediante la Ley 448 de 
 
 Nacional de Infraestructura
 
-
 #### 2.109 "Franja Operacional" Se define como la
 
 faja de terreno del Corredor del Proyecto, que se requiere para garantizar una operación segura, confiable y eficiente y que se define en el Apéndice Técnico 1.
-
 
 #### 2.11 O "Fuerza Mayor o Caso Fortuito" Se entenderá por Fuerza Mayor lo estipulado en la Ley Aplicable y la jurisprudencia. Además, se considerará una Fuerza Mayor si transcurriere más del ciento cincuenta por ciento (150) adicional del tiempo máximo establecido por la Ley Aplicable
 
@@ -2673,31 +2104,25 @@ partir de la radicación del trámite (o de la última complementación de dicho
 
 Fortuito de Cuerpos de Víctimas del Conflicto Armado se regularán por lo establecido en las Secciones 10.6, 11.1 (h), 11.1 (i), 1 l.2(i) y 11.1(1) de este Contrato, respectivamente.
 
-
 #### 2.111 "Fuerza Mayor Ambiental" Se refiere a la
 
 ocurrencia de uno de los eventos descritos en la Sección 11.1 (h) de este Contrato.
-
 
 #### 2.112 "Fuerza Mayor por Redes" Se refiere a la
 
 ocurrencia de uno de los eventos descritos en la Sección l 1.2(i) de este Contrato.
 
-
 #### 2.113 "Fuerza Mayor Predial" Se refiere a la
 
 ocurrencia de uno de los eventos descritos en la Sección 10.6 de este Contrato.
-
 
 #### 2.114 "Fuerza Mayor Social" Se refiere a la
 
 ocurrencia de uno de los eventos descritos en la Sección 11.1 (i) de este Contrato.
 
-
 #### 2.115 "Fuerza Mayor por el Hallazgo
 
 Fortuito de Cuerpos de Víctimas del Conflicto Armado" Se refiere a la ocurrencia del evento descrito en la Sección 11.1(1) de este Contrato.
-
 
 #### 2.116 "Garantía de
 
@@ -2709,24 +2134,19 @@ Proceso de Selección, para garantizar la
 
 seriedad de dicha Oferta.
 
-
 #### 2.117 "Garantía Única de Cumplimiento" Se refiere a la garantía que deberá constituir el Concesionario en los términos y
 
 condiciones de la Sección 18.6 de este Contrato.
-
 
 #### 2.118 "Gestión Predial" Son las obligaciones a cargo del Concesionario relacionadas con la adquisición de Predios para el Proyecto, la recuperación de las áreas necesarias para el Proyecto y con la implementación del
 
 Plan de Compensaciones Socioeconómicas, tal y como se definen en la Sección 10.3 este Contrato y en el Apéndice Técnico 7.
 
-
 #### 2.119 "Gestión de Redes" Son todas las acciones necesarias para regularizar el estatus jurídico y técnico de todas aquellas Redes existentes en el Corredor del Proyecto, en los términos de la Sección 11.2 del presente Contrato y en el Apéndice Técnico 5. Página 33 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 #### 2.120 Gestión Social y Ambiental" Son las obligaciones a cargo del Concesionario relacionadas con el cumplimiento oportuno y eficaz del marco legal ambiental y social y aplicable al desarrollo del Proyecto, así como de la aplicación de las mejores prácticas que garanticen un adecuado desempeño en dichos aspectos. Estas obligaciones están descritas en el presente Contrato, principalmente en la Sección 11.1 de este Contrato y en los Apéndices Técnicos 6 y 8.
-
 
 #### 2.121 "Giro de Equity" Es el valor mínimo correspondiente a los
 
@@ -2748,20 +2168,17 @@ pago de la deuda del Proyecto tomada con los Prestamistas, excepto si media acue
 
 Giros de Equity podrán ser aportes en especie.
 
-
 #### 2.122 "Indicadores" Son los
 
 indicadores de Disponibilidad, calidad y
 
 nivel de servicio según se definen en el Apéndice Técnico 4.
 
-
 #### 2.123 "Índice de Cumplimiento" Es el
 
 producto de la aplicación de los Indicadores que
 
 resulta de la metodología dispuesta en el Apéndice Técnico 4.
-
 
 #### 2.124 "Índice de Cumplimiento Predial" Es el
 
@@ -2771,13 +2188,11 @@ Indicador de adquisición predial que
 
 resulta de la metodología dispuesta en la Sección 10.3(i) de este Contrato.
 
-
 #### 2.125 "Informe de Interventoría" Es el informe que entregará mensualmente el Interventor a la ANI, con copia al Concesionario, donde se reportará de manera detallada el
 
 estado de la ejecución del Proyecto y en general el
 
 cumplimiento de las obligaciones del Concesionario contenidas en el presente Contrato.
-
 
 #### 2.126 "Infraestructura" Corresponde en conjunto a la Infraestructura Férrea y la Infraestructura Logística. 2 .127 "Infraestructura Férrea" Es el
 
@@ -2788,7 +2203,6 @@ modo de transporte, tales como la construcción o adecuación del terreno natura
 sistema de control de tráfico, canales cercas y
 
 equipo de protección contra el ruido, con cualquier ancho, tipología yo sistema férreo, y en general cualquier subsistema férreo necesario para la ejecución del Proyecto, y que se detallan en el Apéndice Técnico 1.
-
 
 #### 2.128 "Infraestructura Logística" Se refiere a la infraestructura logística especializada, a saber, aquellas instalaciones que se dedican exclusivamente a la prestación de servicios logísticos relacionados con la manipulación y
 
@@ -2804,7 +2218,6 @@ Nacional de Infraestructura mercancía. Pueden comprender otras instalaciones co
 
 naves de almacenamiento, viales, edificios de oficinas, entre otros. La Infraestructura Logística hace parte del Proyecto y se detalla en el Apéndice Técnico 1.
 
-
 #### 2.129 ''Ingresos por
 
 Recaudo de la Tarifa por
@@ -2814,7 +2227,6 @@ Uso de la Infraestructura Férrea" Se refiere a los Ingresos derivados del
 Recaudo de la Tarifa por
 
 Uso de la Infraestructura Férrea, en los términos de la Sección 12.7 del Contrato.
-
 
 #### 2.130 "Ingresos por Prestación de Servicios Logísticos" Se refiere a los ingresos brutos causados como
 
@@ -2826,7 +2238,6 @@ compartan de cualquier manera los
 
 resultados de su actividad económica.
 
-
 #### 2.131 "Ingresos por Explotación Comercial" Se refiere a los ingresos brutos causados como
 
 consecuencia de la prestación de los Servicios Adicionales. Se tendrán como Ingresos por Explotación Comercial, para todos los
@@ -2836,7 +2247,6 @@ efectos de este Contrato, no sólo los que reciba directamente el Concesionario,
 compartan de cualquier manera los
 
 resultados de su actividad económica.
-
 
 #### 2.132 "Ingresos por Prestación del Servicio Público de Transporte
 
@@ -2848,25 +2258,21 @@ Ferroviario de Carga dentro y
 
 fuera de la Vía Férrea del Proyecto en los términos de la Sección l3.3(a).
 
-
 #### 2.133 "Intervención" Se refiere a la Construcción, Puesta a Punto, Rehabilitación, así como la provisión e instalación del Equipamiento Fijo e Instalaciones del Proyecto y las demás actividades necesarias para el
 
 cumplimiento de las obligaciones del
 
 Concesionario de acuerdo con lo previsto en el presente Contrato y Apéndice Técnico 1.
 
-
 #### 2.13 4 Intervención Prioritaria" Corresponde a las Intervenciones que el Concesionario deberá ejecutar de manera prioritaria y que se detallan en el Apéndice Técnico 1. Dichas Intervenciones Prioritarias deberán incluirse en el
 
 Plan de Obras y, posteriormente, desarrollarse, cumpliendo con lo establecido en el presente Contrato.
-
 
 #### 2.135 "Interventoría" o "Interventor" Será la persona natural o jurídica, consorcio o unión temporal o cualquier
 
 otraforma de asociación permitida por la Ley Aplicable, escogida por la ANI para cumplir las
 
 funciones de interventoría previstas en el presente Contrato.
-
 
 #### 2.136 "Inventario de
 
@@ -2904,9 +2310,7 @@ ocurrencia de la
 
 Fecha de Inicio del Contrato.
 
-
 #### 2.137 "Inventario de Redes" Es el inventario sobre las Redes al que se refiere la Sección 11.2 del presente Contrato.
-
 
 #### 2.138 "Índice de Precios al Consumidor" o "IPC" Es el valor del índice de precios al consumidor con base diciembre de 2018 100, para el total nacional publicado oficialmente por el Departamento Administrativo
 
@@ -2918,17 +2322,13 @@ perjuicio de que el dominio o la
 
 forma de publicación sea actualizada o modificada por el DANE (o la entidad que lo reemplace), el IPC suele ser publicado en la página https :www.dane.gov.coindex.phpestadisticas-por-temapreci os-y-costosindice-de-precios-al- consumidor-ipcipc-historico.
 
-
 #### 2.139 "Ley Aplicable" Se refiere a la ley, reglamentos, actos administrativos y demás normas vigentes en la República de Colombia.
-
 
 #### 2.140 "Licencia Ambiental" Es el acto administrativo emitido por la Autoridad Ambiental mediante el cual se autoriza la ejecución de obras del Proyecto, de una Unidad Funcional o Intervención, en el caso en que dicha Licencia sea exigida conforme a la Ley Aplicable y cuyo trámite, obtención, cesión o modificación si es del caso, e implementación y costo estará a cargo del Concesionario, por su cuenta y riesgo, incluidas las
 
 acciones de seguimiento a la misma.
 
-
 #### 2.141 "Licencias y Permisos" Son los permisos, concesiones, autorizaciones yo licencias que deban ser otorgados por cualquier Autoridad Estatal, necesarios para la ejecución del Proyecto por parte del Concesionario cuyo trámite y costo estará a cargo del Concesionario, por su cuenta y riesgo.
-
 
 #### 2.142 "Líder" Se entenderá de conformidad con lo previsto en el
 
@@ -2936,9 +2336,7 @@ Pliego de Condiciones del
 
 Proceso de Selección.
 
-
 #### 2.143 "Longitud Efectiva Predial" Es aquella definida en el Apéndice Técnico 7.
-
 
 #### 2.144 "Mantenimiento" u "Obras de Mantenimiento" Es el
 
@@ -2948,13 +2346,11 @@ especial de acuerdo con lo previsto en el Apéndice Técnico 2. Página 36 de 33
 
 Nacional de Infraestructura
 
-
 #### 2.14 5 "Manual de Operación y
 
 Mantenimiento de la Infraestructura Férrea" Es el documento que elaborará el Concesionario con base en los lineamientos señalados en los Apéndices Técnicos 1 y 2, que contendrá, pero sin limitarse a, los procedimientos para la Operación y para el
 
 Mantenimiento de la Infraestructura Férrea.
-
 
 #### 2.146 "Manual de Operación y
 
@@ -2962,14 +2358,11 @@ Mantenimiento de la Infraestructura Logística" Es el documento que elaborará e
 
 Mantenimiento de la Infraestructura Logística.
 
-
 #### 2.147 "Manual de Operación y Mantenimiento del Material Rodante del Proyecto" Es el documento que elaborará el Concesionario con base en los lineamientos señalados en los Apéndices Técnicos 1 y 2, que contendrá, pero sin limitarse a, los procedimientos para la Operación y para el Mantenimiento del Material Rodante del Proyecto.
-
 
 #### 2.148 "Material Rodante" Corresponde al
 
 conjunto de vehículos ferroviarios con o sin motor. Se clasifican en material tractivo (locomotoras, automotores, tractores, vagonetas, entre otros) y material remolcado.
-
 
 #### 2.149 "Material Rodante Adicional" Se refiere al Material Rodante adicional al Material Rodante del Proyecto que el Concesionario puede aportar para la Prestación del Servicio Público de Transporte
 
@@ -2979,17 +2372,13 @@ propiedad de la Nación entregado al Concesionario en los términos de la Secci�
 
 Factor de Calidad, de ser aplicable.
 
-
 #### 2.151 "Meíoramiento" Tendrá el sentido que le otorga el Apéndice Técnico 1.
 
-
 #### 2.152 "Memoria Técnica" Es el documento que elaborará el Concesionario en el cual consignará toda la información necesaria para que el Interventor y la ANI evalúen que las Intervenciones así como la Operación y el Mantenimiento del Proyecto cumplen con los resultados exigidos en este Contrato. En la Memoria Técnica se anotará, por lo menos, la información a que hace referencia la Sección 9.14 de este Contrato.
-
 
 #### 2.153 "Mes" Cualquiera de los doce (12) meses del año calendario. 2. 154 "Mes de Referencia" Es el Mes en el cual se expresan los valores en Pesos constantes. Para efectos del presente Contrato el
 
 Mes de Referencia es diciembre de 2023.
-
 
 #### 2.155 "Multas" Son las sanciones pecuniarias por incumplimientos subsanables del Contrato, cuya finalidad es
 
@@ -3001,9 +2390,7 @@ respeto de lo previsto en la Ley Aplicable. Página 37 de 332 Contrato de APP de
 
 Nacional de Infraestructura
 
-
 #### 2.156 "Notificación" Es la comunicación escrita remitida por medio flsico o electrónico de conformidad con la Sección
-
 
 #### 25.20 de este Contrato, que enviará cualquiera de las Partes, la Interventoría o la Fiduciaria, para informar o comunicar situaciones relacionadas con el Proyecto y la ejecución del Contrato. Las Notificaciones deberán ser radicadas en las
 
@@ -3025,7 +2412,6 @@ servidor de la parte receptora. Cualquier otro
 
 medio de comunicación escrito entre las Partes yo la Fiduciaria será válido para fines informativos, pero no será vinculante para las mismas ni generará los efectos señalados en este Contrato.
 
-
 #### 2.157 "Notificación
 
 Derecho de Toma" Corresponde a la Notificación a la que se refiere la Sección 5.6(d)(iii) de este Contrato, mediante la cual la ANI comunica a los Prestamistas el
@@ -3040,7 +2426,6 @@ toma de posesión del Proyecto y que, de no ejercer tal derecho, la ANI podrá p
 
 virtud de lo previsto en este Contrato, ejercen su derecho a tomar posesión del Proyecto.
 
-
 #### 2.159 "Obras y Equipos Complementarios" Son aquellas obras -incluyendo además de obras civiles, el Equipamiento Fijo e Instalaciones entre otros, la adquisición y
 
 montaje de equipos de Señalización y control y cualquier otro elemento asociado con el Proyecto- que no estén contempladas en el alcance a ser ejecutado por el Concesionario como
@@ -3049,7 +2434,6 @@ parte de sus
 
 obligaciones de conformidad con lo previsto en este Contrato y en las Especificaciones Técnicas, en los términos de la Sección 25.4 del presente Contrato.
 
-
 #### 2.160 "Obras Menores" Se refiere a las obras o actividades no previstas en las Especificaciones Técnicas ni en la Licencia Ambiental yu otros permisos o concesiones ambientales, que tengan una relación directa con el objeto del mismo y que sean solicitadas por las Autoridades Estatales del orden nacional, departamental o municipal dentro del Área de Influencia del Proyecto, incluyendo las
 
 derivadas de los acuerdos protocolizados en
@@ -3057,7 +2441,6 @@ derivadas de los acuerdos protocolizados en
 desarrollo de la(s) nueva(s) consulta(s) previas) que sean certificadas por Autoridad Estatal competente o reconocidas mediante fallo judicial en firme en el área del Proyecto con posterioridad a la apertura del
 
 Proceso de Selección. Dichas obras deberán resultar indispensables para la normal ejecución del Proyecto.
-
 
 #### 2.161 "Obras Sociales" Son aquellas obras yo iniciativas, diferentes a las Obras Menores, que tienen como fin atender las
 
@@ -3069,16 +2452,13 @@ aspectos de movilidad, recreacion, productividad, emprendimiento, educación, ha
 
 condiciones de vida de dichas comunidades.
 
-
 #### 2.162 "Obras Voluntarias" Son aquellas obras a las que se refiere la Sección 25.5 del presente Contrato, ejecutadas a entera cuenta y riesgo del Concesionario, sin que su aprobación o ejecución implique una modificación de las condiciones del Contrato y, especialmente, de Retribución del Concesionario.
-
 
 #### 2.163 "Oferta" u "Oferta del Concesionario" Se entenderá como la propuesta entregada por el oferente que resultó adjudicatario en el
 
 Proceso de Selección y que le otorgó el
 
 derecho de constituir la sociedad -vehículo de propósito especial- que suscribe el presente Contrato como Concesionario.
-
 
 #### 2.164 "Oferta
 
@@ -3094,18 +2474,15 @@ proceso de adquisición predial. En todo caso, la oferta deberá estar debidamen
 
 folio de matrícula del Predio.
 
-
 #### 2.165 "Operación" Son las
 
 actividades de operación que deberá desarrollar el Concesionario sobre la Infraestructura Férrea, la Infraestructura Logística y el Material Rodante del Proyecto. Todo lo anterior con sujeción a los términos de este Contrato, incluyendo pero sin limitarse a lo previsto en el Apéndice Técnico 2. Para claridad, estas actividades no incluyen la Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga.
 
-
 #### 2.166 "Parte" o "Partes" Son individual o conjuntamente, el Concesionario y la ANI, tal y como se identifican en el encabezado del presente Contrato. 2 .167 "Parte Afectada" Se refiere a la Parte afectada por un Evento
 
 Eximente de Responsabilidad, en los términos de la Sección 20.3 de este Contrato.
-
 
 #### 2.168 "Parte Receptora" Se refiere a la Parte que recibe una Notificación de la otra Parte, en la cual se comunica la
 
@@ -3113,9 +2490,7 @@ ocurrencia de un Evento
 
 Eximente de Responsabilidad, de acuerdo con lo previsto en la Sección
 
-
 #### 20.3 de este Contrato.
-
 
 #### 2.169 "Patrimonio Autónomo" Es el patrimonio autónomo que deberá constituir el Concesionario mediante la celebración del
 
@@ -3125,13 +2500,11 @@ centro de imputación contable del Proyecto y por lo tanto todos los hechos econ
 
 Nacional de Infraestructura
 
-
 #### 2.170 "Período de Exclusión 1" En el marco del
 
 proceso de expropiación judicial, corresponde al periodo comprendido entre el vencimiento del tercer Mes posterior a la solicitud realizada por el Concesionario a la ANI para la emisión de la resolución de expropiación del(os) Predio(s) Requerido(s) y la fecha en la que la ANI profiere la respectiva resolución de expropiación. Durante el Período de Exclusión 1 el Concesionario quedará relevado de dar cumplimiento a la obligación de acreditar la adquisición del(os) Predio(s) Requerido(s) para la Unidad Funcional respectiva que se encuentra(n) cobijado(s) por el Período de Exclusión l. El plazo previsto en este Contrato para el
 
 cumplimiento de esta obligación se entenderá prorrogado por un término igual a aquel del Período de Exclusión l.
-
 
 #### 2.171 "Período de Exclusión 2" En el marco del
 
@@ -3146,7 +2519,6 @@ admisorio de la
 demanda de expropiación. Durante el Período de Exclusión 2 el Concesionario quedará relevado de dar cumplimiento a la obligación de acreditar la adquisición del(os) Predio(s) Requerido(s) para la Unidad Funcional respectiva que se encuentra(n) cobijado(s) por el Período de Exclusión 2. El plazo previsto en este Contrato para el
 
 cumplimiento de esta obligación se entenderá prorrogado por un término igual a aquel del Período de Exclusión 2.
-
 
 #### 2.172 "Período de Exclusión 3" En el marco del
 
@@ -3182,7 +2554,6 @@ Estimado de Predios y Compensaciones Socioeconómicas. Durante el Período de Ex
 
 cumplimiento de esta obligación se entenderá prorrogado por un término igual a aquel del Período de Exclusión 3.
 
-
 #### 2.173 "Periodo Especial" Corresponde al período que se inicia a
 
 partir de la
@@ -3191,13 +2562,11 @@ fecha de ocurrencia de un Evento
 
 Eximente de Responsabilidad y que transcurre hasta que dicho EER se supere, en los términos regulados en la Sección 20.3 de este Contrato y demás apartes contractuales aplicables.
 
-
 #### 2.174 "Pesos" o "COP" Corresponde a la unidad
 
 monetaria de curso legal y poder liberatorio en Colombia, de conformidad con la Ley 31 de 1992. Página 40 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.175 "Plan de Adquisición de Predios" Es el documento que preparará el Concesionario y entregará a la ANI donde establecerá un
 
@@ -3207,16 +2576,13 @@ cumplimiento de las obligaciones previstas en este Contrato relacionadas con la 
 
 Plan de Adquisición de Predios se sujetará a lo previsto en el Apéndice Técnico 7.
 
-
 #### 2.176 "Plan de Compensaciones Socioeconómicas" Es un
 
 instrumento de Gestión Social que se encuentra regulado en la Resolución 545 de 2008 o la norma que la modifique, complemente o sustituya. Una vez no objetado por la Interventoría y la ANI, dicho plan servirá de base para el
 
 cumplimiento de las obligaciones previstas en este Contrato relacionadas con las Compensaciones Socioeconómicas.
 
-
 #### 2.177 "Plan de Contingencia y Emergencia" Es el plan al que se refiere la Sección 9. l(b)(xix) del presente Contrato.
-
 
 #### 2.178 "Plan de Manejo Ambiental" Es el conjunto
 
@@ -3228,11 +2594,9 @@ Plan de Manejo Ambiental incluirá los
 
 planes de seguimiento, monitoreo, contingencia, y abandono según la naturaleza del Proyecto y contemplará las obligaciones descritas en el Apéndice Técnico 6.
 
-
 #### 2.179 "Plan de Mantenimiento" Es el documento en el que el Concesionario deberá definir los elementos relevantes para generar el Mantenimiento preventivo y
 
 predictivo de toda la Infraestructura, Equipamiento Móvil y Material Rodante del Proyecto a su cargo. Dicho plan deberá incluir, como mínimo, frecuencia, insumos y recursos para su ejecución. Una vez no objetado por la Interventoría, este plan tendrá carácter obligatorio para el Concesionario.
-
 
 #### 2.180 "Plan de Obras" Es el documento que entregará el Concesionario al Interventor que contendrá el
 
@@ -3248,11 +2612,9 @@ Plan de Obras será de obligatorio cumplimiento para el Concesionario. El despla
 
 Plan de Obras se someterá a lo estipulado en la Sección 9.7 presente Contrato.
 
-
 #### 2.181 "Plan de Reactivación" Es el documento que describe el plan y cronograma presentado por los Prestamistas paraviabilizar el
 
 Plan de Obras y dar cumplimiento a las obligaciones derivadas del Contrato en los términos de la Sección 5.6 del presente Contrato.
-
 
 #### 2.182 "Plan de Reasentamíentos" Es el plan para la relocalización de las personas que
 
@@ -3263,7 +2625,6 @@ lugar de residencia yo su
 lugar de desarrollo de actividad económica, en aplicación de la Resolución 077 de 2012 expedida por la ANI, o la norma que la modifique, complemente o sustituya. Este plan puede, pero no será requisito para su desarrollo, ser requerido o exigido por Página 41 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura la Autoridad Ambiental o quien haga sus veces, en el marco del seguimiento al instrumento ambiental aplicable al Proyecto ..
-
 
 #### 2.183 "Plan de Redes" Es el documento que contendrá la planeación de las
 
@@ -3283,12 +2644,9 @@ ocurrencia de un Evento
 
 Eximente de Responsabilidad.
 
-
 #### 2.184 "Plan Remedia!'' Es el documento que describe el plan y cronograma presentado por el Concesionario para corregir el incumplimiento en los términos de la Sección 17.1 del presente Contrato.
 
-
 #### 2.185 "Plazo de Cura" Es el período durante el cual el Concesionario podrá subsanar los incumplimientos detectados por la ANI yo el Interventor, sin que se causen Multas. Si después de su vencimiento persistiere el incumplimiento del Concesionario, se dará inicio a la actuación sancionatoria en la cual procederán las Multas que se tasarán desde el Día siguiente en que inició el incumplimiento.
-
 
 #### 2.186 "Plazo Máximo de la
 
@@ -3316,7 +2674,6 @@ causal de Terminación Anticipada del Contrato en
 
 cualquiera de las Etapas.
 
-
 #### 2.187 "Pliego de Condiciones" Es el documento, sus Anexos, y los demás documentos puestos a disposición de los Proponentes dentro del
 
 Proceso de Selección, en los que se señalan las condiciones, plazos y procedimientos
@@ -3327,21 +2684,17 @@ posibilidad de obtener la
 
 calidad de Adjudicatario.
 
-
 #### 2.188 "Política de Buen Gobierno Corporativo" Es el documento a la que hace referencia la Sección 9. l(b)(xvii) del presente Contrato.
-
 
 #### 2.189 "Política Contra el
 
 Lavado de Activos y Financiación del Terrorismo" Es el documento a la que hace referencia la Sección 19 .1 (b)(xviii) del presente Contrato.
-
 
 #### 2.190 "Predio" o "Predio Requerido" Es la unidad física y jurídica constituida por terreno, construcciones, construcciones anexas, cultivos y especies, necesaria para la completa disposición del Corredor del Proyecto, la cual debe ser adquirida, cedida, recuperada o adjudicada, con ocasión de las gestiones a cargo del Concesionario, a
 
 nombre de la ANI, o puesta a disposición del Concesionario por la ANI o por un tercero, para la ejecución de las obligaciones a cargo del Concesionario derivadas del presente Contrato y con sujeción a lo previsto en el Apéndice Técnico 7. Los Predios Requeridos incluyen tanto los Predios Adquiridos como los Predios Faltantes. Página 42 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.191 "Predios Adquiridos" Son los Predios que cumplen las siguientes condiciones: (i) en el
 
@@ -3355,7 +2708,6 @@ Cesiones de Predios a título gratuito y, (iv) en los casos que resulte proceden
 
 valor de las Compensaciones Socioeconómicas, en las condiciones establecidas en el Apéndice Técnico 7.
 
-
 #### 2.192 "Predios Faltantes" Son los predios que, siendo requeridos para completar el Corredor del Proyecto, no han sido adquiridos cedidos o adjudicados a
 
 nombre de la Agencia
@@ -3366,13 +2718,11 @@ procedimiento de enajenación voluntaria directa yo expropiación judicial o adm
 
 transferencia de dominio se encuentra sometida a un trámite ante cualquier Autoridad Estatal.
 
-
 #### 2.193 "Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga" Se refiere a la prestación del servicio público de transporte
 
 ferroviario de carga en los términos del Título 4 de la Parte 2 del Libro 2 del Decreto 1079 de 2015.
-
 
 #### 2.194 "Prestamistas" Serán las personas -diferentes del Concesionario o sus accionistas (respecto de sus
 
@@ -3386,7 +2736,6 @@ colocaciones de títulos en el
 
 mercado de capitales.
 
-
 #### 2.195 "Principios del Ecuador" Corresponde al
 
 conjunto de normas, directrices y recomendaciones relacionadas con el manejo del riesgo social y ambiental en
@@ -3395,19 +2744,15 @@ proyectos de participación privada adoptadas por la
 
 Sociedad de los Principios del Ecuador, los cuales se pueden consultar en el siguiente link: http:www.equator-principles.comresourcesequator principies III.pdf.
 
-
 #### 2.196 "Proceso de Selección" Corresponde a la Licitación Pública No. VJ-VE-APP-IPB-001-2023, mediante la cual se seleccionó al Concesionario.
-
 
 #### 2.197 Procedimiento de Revisión General" Es el
 
 procedimiento de revisión de documentos al que se refiere la Sección 8.1.
 
-
 #### 2.198 "Procedimiento de Revisión Abreviado" Es el
 
 procedimiento de revisión de documentos al que se refiere la Sección 8.2.
-
 
 #### 2.199 "Programa de Operación y Mantenimiento" Es el documento que deberá desarrollar el Concesionario y ser no objetado por la Interventoría, donde se describen las
 
@@ -3415,14 +2760,11 @@ actividades de Operación y Mantenimiento a realizar sobre el Corredor del Proye
 
 Nacional de Infraestructura
 
-
 #### 2.200 "Proyecto" Se entenderá como el conjunto compuesto, entre otras, por todas las actividades, servicios, bienes, obligaciones y derechos necesarios para la ejecución del presente Contrato.
-
 
 #### 2.201 "Puesta a Punto" Corresponde al
 
 suministro de repuestos, instalación, reparación, pruebas y actuaciones que deberá realizar el Concesionario para que el Material Rodante del Proyecto cumpla con las condiciones establecidas en el Apéndice Técnico 1.
-
 
 #### 2.202 "Recaudo de Tarifa por
 
@@ -3442,11 +2784,9 @@ pago de la Tarifa por
 
 Uso de la Infraestructura se podrá pactar una periodicidad mayor a mensual.
 
-
 #### 2.203 "Recursos de Deuda" Son los recursos destinados al Proyecto que tienen como fuente los Prestamistas, los cuales serán entregados al Patrimonio Autónomo (Cuenta Proyecto) cuyo repago prevalecerá sobre la recuperación de los
 
 Recursos de Patrimonio, salvo que los Prestamistas consientan en un esquema diferente.
-
 
 #### 2.204 "Recursos de Patrimonio" Son los recursos destinados al Proyecto aportados por los socios del Concesionario. Los
 
@@ -3486,7 +2826,6 @@ Recursos de Deuda y solamente podrá efectuarse en la
 
 Etapa de Operación y Mantenimiento, excepto si media acuerdo expreso en contrario con los Prestamistas.
 
-
 #### 2.205 "Redes" Se refiere a las infraestructuras para el transporte y
 
 suministro de servicios públicos, infraestructura de la industria del petróleo y la
@@ -3497,16 +2836,13 @@ concepto de Redes se entienden incluidas las "redes y activos" definidos por la 
 
 Nacional de Infraestructura
 
-
 #### 2.206 "Reglamento de Operación de Trenes" o "ROT" Este documento especificará protocolos e instrucciones tanto para las operaciones rutinarias como para aquellas que se requieran ante cualquier emergencia, incidencia, accidente o situación extraordinaria. El
 
 Reglamento de Operación de Trenes debe contener capítulos dedicados a las principales áreas de Operación: (i)
 
 Control de Tráfico Férreo: Implantar una metodología para ejecutar la gestión de ocupación, control y regulación del tráfico férreo para una operación segura y eficiente; y (ii) Señalización: Se realiza para facilitar la operación de los trenes primando la mayor seguridad posible, tanto para el personal como para los bienes materiales. Todo el personal que intervenga en la operación de trenes deberá conocer, implementar e interpretar correctamente las señales y respetar las órdenes que por su intermedio se impartan.
 
-
 #### 2.207 "Rehabilitación" Para efectos del presente Contrato tendrá el significado que le atribuye el Apéndice Técnico 1.
-
 
 #### 2.208 "Requisitos Habilitantes" Son aquellos requisitos mínimos de capacidad jurídica, experiencia en inversión y capacidad financiera que fueron
 
@@ -3514,27 +2850,21 @@ verificados de acuerdo con lo establecido en el
 
 Pliego de Condiciones.
 
-
 #### 2.209 "Resolución de Surcos" Es la Resolución 20243040046045 del 24 de septiembre de 2024 expedida por el
 
 Ministerio de Transporte "Por la cual se fijan los requisitos y se establece el trámite para asignar Surcos Ferroviarios en la Red Férrea Nacional, y se dictan otras disposiciones" o aquella que la modifique, adicione o reemplace.
 
-
 #### 2.21 O "Retención" Corresponde a los valores retenidos por suspensión de la Retribución o Compensación Especial, según el caso, en los eventos descritos en las Secciones 20.1, 20.2, 9 .15 y 10.3(j) de este Contrato.
 
-
 #### 2.211 "Retribución" Se refiere a la contraprestación económica a la que tiene derecho el Concesionario en los términos de la Sección 4.1 del presente Contrato.
-
 
 #### 2.212 "Reversión" Corresponde al procedimiento señalado en el CAPÍTULO
 
 XV de este Contrato, mediante el cual el Concesionario revierte, como mínimo, los Bienes Revertibles a la ANI para dar por terminado el Contrato.
 
-
 #### 2.213 "Reversión Especial" Es
 
 procedimiento de reversión al que se refiere la Sección 9.16 del Contrato.
-
 
 #### 2.214 "Sanción" Son las penas pecuniarias por incumplimientos definitivos e insubsanables del Contrato, cuya finalidad es
 
@@ -3542,20 +2872,17 @@ la de sancionar al Concesionario por tales incumplimientos, las cuales podrán s
 
 respeto de lo previsto en la Ley Aplicable.
 
-
 #### 2.215 "Sección" Corresponde a una referencia específica de este Contrato la cual muestra el contexto completo en el que se encuentra ubicada la parte referenciada. Las Secciones se presentan en
 
 orden de jerarquía, iniciando por el número del capítulo del Contrato e indicando las subsecuentes numeraciones, hasta la ubicación específica de la parte referenciada, bajo la forma x.y(a)(i)(l), donde: Página 45 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura x: Número del capítulo y: Numeral al interior del capítulo (a): Literal al interior del numeral (i): Numeral romano al interior del literal (1) Numeral arábigo al interior del numeral romano
 
-
 #### 2.216 "Seguridad" Son todas las acciones a cargo del Concesionario encaminadas a minimizar las pérdidas humanas, materiales, operativas y de producción, por medio del
 
 cumplimiento de todas las regulaciones y normatividad aplicable al Proyecto.
 
 Dentro de la Seguridad se contempla la seguridad física, seguridad vial, seguridad de la Operación, seguridad industrial y salud en el trabajo.
-
 
 #### 2.217 "Señalización" Corresponde a todas las señales requeridas para el
 
@@ -3567,16 +2894,13 @@ partes de la Operación para movilizar los
 
 trenes de origen a destino con la Seguridad como consideración principal.
 
-
 #### 2.218 "Semestre Calendario" Es cada
 
 uno de dos semestres en que se divide un año calendario: (i) del 1 de enero al 30 de junio; y (íi) del 1 de julio al 31 de diciembre.
 
-
 #### 2.219 "Servicios Adicionales" Se entenderán por tales la publicidad en la zona del Proyecto, la
 
 venta de bienes y servicios a los usuarios del Proyecto y todos los demás servicios que, de acuerdo con la Ley Aplicable, puedan ser prestados a dichos usuarios por el Concesionario. Los Servicios Adicionales que regula este Contrato son, exclusivamente, los que se presten dentro del Corredor del Proyecto. El cobro que el Concesionario haga por la prestación de los Servicios Adicionales se ajustará en todo caso a las regulaciones que estén vigentes bajo la Ley Aplicable. En ningún caso se considerarán Servicios Adicionales los servicios cuya prestación es una obligación del Concesionario, según ellos se describen en Apéndice Técnico 2.
-
 
 #### 2.220 "Servicios Logísticos" Se entenderán por tales los servicios asociados a la Infraestructura Logística tales como, la recepción de carga intermodal, solicitud y verificación de
 
@@ -3588,16 +2912,13 @@ custodia de carga contenerizada, carga suelta, carga a granel, porteo, consolida
 
 almacenamiento de contenedores vacíos, y todos los demás que, de acuerdo con la Ley Aplicable, puedan ser prestados en dicha infraestructura por el Concesionario. Los Servicios Logísticos que regula este contrato son, exclusivamente los que se presenten en la Infraestructura Logística del Proyecto. El cobro que el Concesionario haga por la prestación de los Servicios Logísticos se ajustará en todo caso a las regulaciones que estén vigentes en la Ley Aplicable.
 
-
 #### 2.221 "SICC" Corresponde al Sistema Informático de Contabilización y Control que se describe en el Apéndice Técnico 4.
-
 
 #### 2.222 "Sistema de Atención al Usuario" Tiene por finalidad brindar orientación a los usuarios sobre donde solicitar información del Proyecto, sus avances, contratación de
 
 mano de obra calificada y no calificada, contratación de bienes y servicios locales, recepción de preguntas, quejas y reclamos (PQRs), entre otros. Página 46 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 2.223 "Subcuenta Aportes ANI" Es la
 
@@ -3607,11 +2928,9 @@ presupuesto de la ANI, que serán aportados para el
 
 pago de la Retribución del Concesionario conforme a lo previsto en la Sección 6.2(h)(iv) del presente Contrato.
 
-
 #### 2.224 "Subcuenta Cambio Climático" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas descritas en la Sección 6.2(g)(x) de este Contrato, en el evento en que estas existan.
-
 
 #### 2.225 "Subcuenta Compensación Especial" Es la
 
@@ -3625,16 +2944,13 @@ resultado de haberse calculado el
 
 valor de la Retribución para dicha Unidad Funcional.
 
-
 #### 2.226 "Subcuenta Compensaciones Socioambientales" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(g)(viii) del presente Contrato.
 
-
 #### 2.227 "Subcuenta Contraprestación" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario se obliga a pagar en los plazos y cantidades que se determinen en las Secciones 6.2(h)(v)(3) y 6.2(h)(vi)(3) del presente Contrato.
-
 
 #### 2.228 "Subcuenta Excedentes ANI" Es la
 
@@ -3644,16 +2960,13 @@ favor de la ANI conforme a lo previsto en la Sección 6.2(h)(x) de este Contrato
 
 ANI de conformidad con lo previsto en el presente Contrato.
 
-
 #### 2.229 "Subcuenta Indemnizaciones y Giros Aseguradoras" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán los valores a los que se refiere la Sección 6.2(g)(xi) del presente Contrato.
 
-
 #### 2.230 "Subcuenta Ingresos por Explotación Comercial" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán los Ingresos por Explotación Comercial, conforme a lo previsto en la Sección 6.2(h)(vii) y de este Contrato.
-
 
 #### 2.231 "Subcuenta Ingresos por Prestación del Servicio Público de Transporte
 
@@ -3663,11 +2976,9 @@ subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesion
 
 Ferroviario de Carga en los términos de la Sección 6.2(h)(víii) del Contrato.
 
-
 #### 2.232 "Subcuenta Interventoría y Coordinación'' Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(h)(xi) del presente Contrato.
-
 
 #### 2.233 "Subcuenta MASC" Es la
 
@@ -3675,21 +2986,17 @@ subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesion
 
 Nacional de Infraestructura
 
-
 #### 2.234 "Subcuenta Material Rodante" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(g)(xii).
-
 
 #### 2.235 "Subcuenta Obras Sociales" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(h)(xii) del presente Contrato.
 
-
 #### 2.236 "Subcuenta Predios" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(g)(vii) del presente Contrato.
-
 
 #### 2.237 "Subcuenta Recaudo Tarifa por
 
@@ -3701,33 +3008,27 @@ recursos de Recaudo de la Tarifa por
 
 Uso de la Infraestructura Férrea que se produzca durante la vigencia del Contrato conforme a lo previsto en la Sección 6.2(h)(v) del presente Contrato.
 
-
 #### 2.238 "Subcuenta Redes" Es la
 
 subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(g)(ix) del presente Contrato.
-
 
 #### 2.239 "Subcuenta de Retenciones" Es la
 
 subcuenta de la Cuenta ANI cuyos recursos se fondearán de acuerdo con la Sección 6.2(h)(xv) del presente Contrato.
 
-
 #### 2.240 "Subcuenta Servicios Logísticos" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán los Ingresos por Prestación de Servicios Logísticos, conforme a lo previsto en la Sección 6.2(h)(vi) y de este Contrato.
 
-
 #### 2.241 "Subcuenta de Soporte Contractual" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(h)(xiii) de este Contrato.
-
 
 #### 2.242 "Subsistema Ferroviario" Se refiere al
 
 conjunto de elementos de Infraestructura Férrea, de Equipamiento Fijo, de instalaciones, de Señalización, de control, de electrificación, de comunicación
 
 yo de otros sistemas electromecánicos, definidos de acuerdo con lo previsto en este Contrato, así como de otros elementos que se consideren necesarios para la Construcción, Rehabilitación, Mejoramiento, equipamiento, Mantenimiento yu Operación del Proyecto
-
 
 #### 2.243 "Surcos de Movilización" o "Surcos" Capacidad de la Infraestructura Férrea necesaria para que un tren
 
@@ -3737,11 +3038,9 @@ puntos de la Vía Férrea en un determinado
 
 periodo de tiempo.
 
-
 #### 2.244 "Tak.e or Pay" Corresponde a la multiplicación de la Tarifa por
 
 Uso de la infraestructura Férrea por las toneladaskilómetro descritas en la Sección 13.4(b).
-
 
 #### 2.245 "Tarifa por
 
@@ -3763,14 +3062,11 @@ Uso de la infraestructura Férrea se fijará según lo regulado en las Resolucio
 
 Ministerio de Transporte, o las que hagan sus veces, y lo previsto en la Sección 13.4.
 
-
 #### 2.246 "Tarifa por Prestación de Servicios Logísticos" Corresponde a la tarifa que pagan el Concesionario y los Terceros Operadores por la prestación de los Servicios Logísticos
 
 dentro de la Infraestructura Logística en los términos de la Sección
 
-
 #### 12.7 del Contrato.
-
 
 #### 2.247 "TDI" Corresponde a la
 
@@ -3778,18 +3074,15 @@ tasa de descuento real expresada en términos efectivos mensuales, para
 
 efectos de este Proyecto, será de CERO PUNTO SEIS CINCO CUATRO UNO (0.6541) por ciento.
 
-
 #### 2.248 "Tercero Interesado" Es cualquier persona que manifieste al Concesionario yo a la ANI su interés en utilizar la Infraestructura del Proyecto para la Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga yo prestación del
 
 servicio de transporte de pasajeros sobre la Vía Férrea.
 
-
 #### 2.249 "Tercero Operador" Es cualquier persona, independiente del Concesionario que, además de tener los permisos y autorizaciones exigidos por la Ley Aplicable, haya suscrito con el Concesionario un
 
 Acuerdo de Operación en los términos de este Contrato y se le haya asignado un Surco.
-
 
 #### 2.250 "Terminación Anticipada del Contrato" o "Terminación Anticipada" La Terminación Anticipada del Contrato, en
 
@@ -3807,11 +3100,9 @@ proveniente de un Autoridad Estatal que tenga competencia para
 
 ello de acuerdo con la Ley Aplicable.
 
-
 #### 2.251 "Trámite de Compatibilidad del Material Rodante" Es el procedimiento que debe surtir la
 
 solicitud de compatibilidad del Material Rodante que pretende ser operado por un Tercero Operador sobre la Vía Férrea, de conformidad con la Ley Aplicable y en especial la Resolución de Surcos.
-
 
 #### 2.252 "Tribunal de Arbitramento" Es el organismo colegiado correspondiente al
 
@@ -3824,7 +3115,6 @@ revocatoria de dichas decisiones por exceder o no ajustarse a los límites del m
 decidan de mutuo acuerdo sustraer del conocimiento del Amigable Componedor y
 
 someterlas de manera directa al arbitramento. Todo lo anterior, de conformidad con lo previsto en la Sección 21.2 y 21.3 del presente Contrato.
-
 
 #### 2.253 "TRM" Tasa de Cambio Representativa del Mercado
 
@@ -3844,7 +3134,6 @@ forma de publicación sea actualizada o modificada por la Superintendencia
 
 Financiera de Colombia (o la entidad que lo reemplace), la TRM suele ser publicada en la página https:www.superfinanciera.gov.copublicacion60819.
 
-
 #### 2.254 "Unidad Funcional" o "UF" Se refiere a cada
 
 una de las divisiones del Proyecto tal como se presentan en la Sección 9.4 del presente Contrato, que corresponden -cada una- a un
@@ -3852,7 +3141,6 @@ una de las divisiones del Proyecto tal como se presentan en la Sección 9.4 del 
 conjunto de estructuras de ingeniería e instalaciones indispensables para la prestación de servicios con independencia funcional, la cual le permitirá funcionar y
 
 operar de forma individual cumpliendo con lo establecido en los Apéndices Técnicos.
-
 
 #### 2.255 "Unidad
 
@@ -3862,11 +3150,9 @@ partes de Subsistemas Ferroviarios, y demás elementos señalados en el artícul
 
 efectos de la Retribución.
 
-
 #### 2.256 "Usuarios" Se refiere a todas las personas naturales y jurídicas que hacen uso del servicio suministrado por el Proyecto, así como los
 
 miembros de las comunidades y autoridades regionales y locales que hacen uso del territorio y de los recursos naturales que potencialmente podrían ser impactados por las actividades del Proyecto.
-
 
 #### 2.257 "Usuarios Finales" Son los
 
@@ -3876,9 +3162,7 @@ Ferroviario de Carga yo usarán el
 
 servicio de transporte de pasajeros.
 
-
 #### 2.258 "Valor del Contrato" Se entenderá de conformidad con lo establecido en la Sección 3.4 de este Contrato.
-
 
 #### 2.259 "Valor
 
@@ -3897,7 +3181,6 @@ producto de las licencias, permisos, autorizaciones, planes, instrumentos de man
 fecha de apertura del
 
 Proceso de Selección estarán a cargo del Concesionario.
-
 
 #### 2.260 Valor
 
@@ -3919,7 +3202,6 @@ valor de referencia corresponde a TRES MIL DOSCIENTOS SETENTA Y OCHO MILLONES CU
 
 Mes de Referencia. Este valor se utilizará única y exclusivamente para los efectos previstos en la Sección 11.1 (d) y no deberá entenderse como un monto a fondear en alguna Subcuenta.
 
-
 #### 2.261 "Valor
 
 Estimado de Predios y Compensaciones Socioeconómicas" Corresponde al cien por ciento (100) del valor que deberá ser aportado por el Concesionario en la Subcuenta Predios. El
@@ -3932,7 +3214,6 @@ derivado de la ejecución del
 
 Plan de Compensaciones Socioeconómicas, de acuerdo con lo previsto en este Contrato, en especial en el CAPÍTULO X del presente Contrato. En ningún caso las sumas depositadas en la Subcuenta Predios podrán ser utilizadas para la realización de estudios, avalúas, servicios legales o cualquier otra actividad relacionada o no con la Gestión Predial, distinta del pago por la adquisición de Predios y las Compensaciones Socioeconómicas.
 
-
 #### 2.262 "Valor
 
 Estimado de Redes" Corresponde al cien por ciento (100) del valor que deberá ser aportado por el Concesionario en la Subcuenta Redes. El
@@ -3941,9 +3222,7 @@ valor de la referencia corresponderá a VEINTINUEVE MIL CIENTO TREINTA Y NUEVE M
 
 Mes de Referencia y que se destinará al traslado, intervención, protección yo reubicación de las Redes, de acuerdo con lo previsto en este Contrato, en especial en la Sección 11.2 del presente Contrato.
 
-
 #### 2.263 "Valor Máximo de Pago Acumulado Durante la Etapa Preoperativa" Corresponde a las sumas que se establecen en el Apéndice Financiero 3 para cada Semestre Calendario en lo que respecta al Componente B.
-
 
 #### 2.264 "Valor Máximo Semestral del Componente A" o "VMCA" Corresponde al valor incluido en el Apéndice Financiero 3, el cual deberá ser consignado por la ANI en la Subcuenta Aportes ANI siguiendo lo establecido en la Sección 6.2(h)(iv)(6) de este Contrato y el Apéndice Financiero 3, con el
 
@@ -3954,7 +3233,6 @@ resulten de la aplicación de las fórmulas contenidas en la Sección 4.4(a) del
 marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en un Semestre Calendario por concepto del Componente A será superior al VMCA actualizado hasta el
 
 momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(6) del Contrato.
-
 
 #### 2.265 "Valor Máximo Semestral del Componente D" o "VMCD" Corresponde al valor incluido en el Apéndice Financiero 3, el cual deberá ser consignado por la ANI en la Subcuenta Aportes ANI siguiendo lo establecido en la Sección 6.2(h)(iv)(9) de este Página 51 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -3968,7 +3246,6 @@ marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en 
 
 momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(9) del Contrato.
 
-
 #### 2.266 "Valor Máximo Semestral Ofertado del Componente C" o "VMSC' Corresponde a los valores máximos semestrales incluidos en la Oferta del Concesionario, los cuales deber ser consignados por la ANI en la Subcuenta Aportes ANI siguiendo lo establecido en la Sección 6.2(h)(iv)(8) de este Contrato y el Apéndice Financiero 3, con el
 
 fin de fondear el pago del Componente C de la Retribución en cada Semestre Calendario señalado en el Apéndice Financiero 3. El VMSC no debe ser interpretado como un derecho del Concesionario a percibir dicha suma. Los valores a ser pagados efectivamente por concepto del Componente C serán exclusivamente los que
@@ -3978,7 +3255,6 @@ resulten de la aplicación de las fórmulas contenidas en la Sección 4.4(c) del
 marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en un Semestre Calendario por concepto del Componente C será superior al VMSC actualizado hasta el
 
 momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(8) del Contrato.
-
 
 #### 2.267 "Valor Ofertado Semestral del Componente B" o "VOSB" Corresponde a los valores incluidos en la Oferta del Concesionario referente al Componente B, consignados en el Apéndice Financiero 3, con el
 
@@ -3992,7 +3268,6 @@ momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración d
 
 Nacional de Infraestructura
 
-
 #### 2.268 "Valor Total del Componente B" o "VCB" Corresponde al valor incluido en el Apéndice Financiero 3, el cual deberá ser consignado por la ANI en la Subcuenta Aportes ANI siguiendo lo establecido en la Sección 6.2(h)(iv)(7) de este Contrato y el Apéndice Financiero 3, con el
 
 fin de fondear el pago del Componente B de la Retribución en cada Semestre Calendario señalado en el Apéndice Financiero 3. El VCB no debe ser interpretado como un derecho del Concesionario a percibir dicha suma. Los valores a ser pagados efectivamente por concepto del Componente B serán exclusivamente los que
@@ -4003,13 +3278,11 @@ marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en 
 
 momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(7) del Contrato.
 
-
 #### 2.269 "Vía Férrea" Es la vía diseñada para el tránsito de vehículos sobre rieles, que hace
 
 parte de la Infraestructura Férrea, de conformidad con lo previsto en el Apéndice Técnico 1. Página 53 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO 111 ASPECTOS GENERALES DEL CONTRATO
-
 
 #### 3.1 Objeto (a) El presente Contrato tiene por objeto el
 
@@ -4026,7 +3299,6 @@ Ferroviario de Carga. El alcance físico del Proyecto se describe en el Apéndic
 esquema de asociación público
 
 privada de iniciativa pública, previsto por la Ley 1508 de 2012 y de conformidad con las obligaciones, derechos y riesgos asumidos por las Partes con ocasión del presente Contrato.
-
 
 #### 3.2 División del Proyecto (a) El Proyecto se divide en tres (3) Unidades Funcionales, las cuales se describen en la siguiente tabla y se detallan en el Apéndice Técnico 1: Es el corredor férreo comprendido entre los
 
@@ -4057,7 +3329,6 @@ Acta de Terminación de la Unidad Funcional 1. Descripción Longitud (Metros) UF
 Nacional de Infraestructura UFVF2 La Argelia - La Sierra Sector 1 12.846 UFVF3 La Sierra - Grecia Sector 1 10.892 UFVF4 La Sierra - Grecia Sector 2 10.891 UFVF5 La Sierra - Grecia Sector 3 10.892 UFVF6 Ramal Capulco 4.648 UFVF7 Gamarra - La Gloria Sector 1 7.932 UFVF8 Gamarra - La Gloria Sector 2 7.931 UFVF9 Gamarra - La Gloria Sector 3 7.932 UFVFlO Gamarra - La Gloria Sector 4 7.931 UFVFll San Rafael - San Alberto Sector 1 5.595 UFVF12 San Rafael - San Alberto Sector 2 5.595 UFVF13 San Rafael - San Alberto Sector 3 5.595 UFVF14 San Alberto - San Jose Sector 1 9.738 UFVF15 San Alberto - San Jose Sector 2 9.737 UFVF16 La Gloria - Zapatosa Sector 1 8.708 UFVF17 La Gloria - Zapatosa Sector 2 8.708 UFVF18 La Gloria - Zapatosa Sector 3 8.708 UFVF19 La Gloria - Zapatosa Sector 4 8.708 UFVF20 La Gloria - Zapatosa Sector 5 8.708 UFVF21 Zapatosa - Champan Sector 1 10.823 UFVF22 Zapatosa - Champan Sector 2 10.823 UFVF23 Champan - Chiriguana Sector 1 7.025 UFVF24 Champan - Chiriguana Sector 2 7.025 UFVF25 Champan - Chiriguana Sector 3 7.025 UFVF26 Mexico - La Agustina Sector 1 7.447 UFVF27 Mexico - La Agustina Sector 2 7.447 UFVF28 Mexico - La Agustina Sector 3 7.447 UFVF29 La Agustina - La Miel 12.599 UFVF30 La Miel - Puerto Triunfo 13.749 UFVF31 Puerto Triunfo - Cocoma Sector 1 9.421 UFVF32 Puerto Triunfo - Cocorna Sector 2 9.421 UFVF33 Grecia- San Juan Sector 1 13.237 UFVF34 Grecia - San Juan Sector 2 13.236 UFVF35 San Juan - Carare Sector 1 7.474 UFVF36 San Juan - Carare Sector 2 7.474 UFVF37 San Juan - Carare Sector 3 7.474 UFVF38 Carare - Pull Papel Sector 1 15.147 UFVF39 Carare - Pull Papel Sector 2 15.146 UFVF40 Pull Papel - Cuatro Bocas Sector 1 11.817 UFVF41 Pull Papel - Cuatro Bocas Sector 2 11.817 UFVF42 Cuatro Bocas - Barrancabermeja 11.434 UFVF43 Barrancabermeja - Garcia Cadena Sector 1 10.098 Página 55 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura UFVF44 Barrancabermeja - García Cadena Sector 2 10.097 UFVF45 Barrancabermeja - García Cadena Sector 3 10.098 UFVF46 García Cadena - San Rafael Sector 1 11.067 UFVF47 García Cadena - San Rafael Sector 2 11.066 UFVF48 García Cadena - San Rafael Sector 3 11.066 UFVF49 Garcia Cadena - San Rafael Sector 4 11.066 UFVF50 San Jose - Santa Lucia Sector 1 7.250 UFVF51 San Jose - Santa Lucia Sector 2 9.800 UFVF52 Santa Lucia - Gamarra Sector 1 17.233 UFVF53 Santa Lucia - Gamarra Sector 2 17.232
-
 
 #### 3.3 Bienes de la Concesión (a) Los
 
@@ -4129,7 +3400,6 @@ diferentes de los Predios sean adquiridos por el
 
 sistema de leasing o similares, y sean revertidos al finalizar el Contrato, en los términos de la Sección 15.5(f).
 
-
 #### 3.4 Valor del Contrato (a) De conformidad con lo señalado en el artículo 2.2.2.1.4.3. del Decreto 1082 de 2015, el Valor del Contrato será de TRES BILLONES TRESCIENTOS NOVENTA Y NUEVE MIL MILLONES CIENTO CINCUENTA Y DOS MIL (3.399.000.152.000.oo) expresados en Pesos del
 
 Mes de Referencia, que corresponde al presupuesto
@@ -4152,7 +3422,6 @@ concepto de Valor del Contrato para sustentar reclamación alguna que pretenda u
 
 IV de este Contrato.
 
-
 #### 3.5 Aportes Presupuestales (a) El
 
 valor de los Aportes ANI corresponde a las sumas que se detallan en el Apéndice Financiero 3 de este Contrato, las cuales se enmarcan
@@ -4162,7 +3431,6 @@ dentro de la autorización de
 compromiso de vigencias futuras otorgada por el CONFIS mediante oficio 2-2024- 040003 de fecha del 25 de julio de 2024. Página 57 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 3.6 Perfeccionamiento e
 
@@ -4286,7 +3554,6 @@ cumplimiento de las condiciones precedentes descritas en las Secciones 3.6(b)(vi
 
 cumplimiento de dichas condiciones precedentes.
 
-
 #### 3.7 Plazo del Contrato (a) El plazo del Contrato transcurrirá entre la
 
 Fecha de Inicio y la fecha en que termine la
@@ -4302,7 +3569,6 @@ perjuicio de lo anterior, la duración máxima del Contrato será de ciento vein
 partir de la
 
 Fecha de Inicio.
-
 
 #### 3.8 Etapas de Ejecución Contractual (a) La ejecución del Contrato se hará en las Etapas que se señalan a continuación. (i) Etapa Preoperativa (1) Esta etapa estará a su vez compuesta por la: (i)
 
@@ -4401,7 +3667,6 @@ perjuicio de la
 posibilidad de imponer Multas en los términos establecidos en la Sección 16.8 de este Contrato, ante el retraso en el
 
 cumplimiento de los requisitos establecidos en este Contrato para la terminación de cada Etapa por causas imputables al Concesionario.
-
 
 #### 3.9 Declaraciones y Garantías de las Partes (a) Del Concesionario En la
 
@@ -4745,7 +4010,6 @@ ANI de entregar la
 
 totalidad de los predios correspondientes a la Franja Operacional ni el Corredor del Proyecto, ni de entregar las obras existentes o predios en un estado material o jurídico determinado.
 
-
 #### 3.11 Principales Obligaciones Transversales del Concesionario Sin
 
 perjuicio de las demás obligaciones previstas en otros
@@ -4753,7 +4017,6 @@ perjuicio de las demás obligaciones previstas en otros
 apartes de este Contrato o en sus Apéndices, incluyendo las obligaciones
 
 principales de cada Etapa señaladas en las Secciones 9.l(b), 9.5(b), 14.2, CAPÍTULO XI, CAPÍTULO XII, CAPÍTULO XIII, CAPÍTULO XIV y
-
 
 ### CAPÍTULO XV - del Contrato, el Concesionario tendrá las obligaciones que a continuación se enumeran durante todas las Etapas del Proyecto. El Interventor consignará en los
 
@@ -5109,7 +4372,6 @@ entrega de manera oportuna y con calidad cuando la ANI así lo requiera a travé
 
 sistemas de información, ITS, herramientas tecnológicas y demás relacionadas que tengan las Partes, el Interventor, la Fiduciaria yo el Amigable Componedor mediante los estándares definidos por la ANI.
 
-
 #### 3.12 Principales Obligaciones
 
 Transversales de la ANI Sin
@@ -5173,7 +4435,6 @@ Etapa de Reversión, la
 totalidad de los bienes muebles o inmuebles por destinación o adhesión, con todas sus anexidades, y los demás activos que hacen parte del Proyecto y que se definan como sujetos a Reversión en el Contrato. (n) En general, cumplir con lo previsto en el Contrato y sus Apéndices. Página 75 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO N RETRIBUCIÓN Y OTROS ASPECTOS ECONÓMICOS DEL CONTRATO
-
 
 #### 4.1 Generalidades de la Retribución (a) La Retribución del Concesionario está compuesta por un elemento semestral y un elemento mensual. El elemento mensual se causará incluso en los
 
@@ -5377,7 +4638,6 @@ Especial de UFVF yo la Compensación Especial (de ser aplicable), correspondient
 
 Funcional de Vía Férrea o Unidad Funcional, según corresponda, se calculará conforme a la metodología definida en las siguientes Secciones.
 
-
 #### 4.2 Procedimiento para la Elaboración del
 
 Acta de Cálculo de Retribución Semestral (a) En cada
@@ -5476,7 +4736,6 @@ correspondiente de la Subcuenta Aportes ANI, la cual será expresada en Pesos de
 
 Cualquiera de las Partes podrá remitir la decisión del Amigable Componedor a la Fiduciaria, mediante una Notificación.
 
-
 #### 4.3 Procedimiento para la Elaboración del
 
 Acta de Cálculo de Retribución Mensual (a) El Interventor y el Concesionario consignarán las
@@ -5574,7 +4833,6 @@ dentro de los cinco (5) Días siguientes a la decisión del Amigable Componedor,
 traslado de la suma que permaneció en la subcuenta correspondiente la Subcuenta Aportes ANI, la cual será expresada en Pesos del mes anterior al cual se efectúa el pago, mediante la aplicación del mecanismo al que se refiere la Sección 4. 13.
 
 Cualquiera de las Partes podrá remitir la decisión del Amigable Componedor a la Fiduciaria, mediante una Notificación.
-
 
 #### 4.4 Componentes de la Retribución Semestral (a) Componente A (i) El Componente A de la Retribución semestral se consignará en el
 
@@ -5912,7 +5170,6 @@ Mes de Referencia (iv) El Componente D se pagará mediante
 
 desembolso de recursos líquidos en Pesos, a través de los mecanismos previstos en las Secciones 4.1 (i)(l) y 4.1 (i)(2).
 
-
 #### 4.5 Componentes de la Retribución Mensual (a) Ingresos por
 
 Recaudo de la Tarifa por
@@ -6063,7 +5320,6 @@ Cumplimiento de Indicadores previstos para la Prestación del Servicio Público
 
 Ferroviario de Carga para el Mes j.
 
-
 #### 4.6 Deducciones por Desempeño (a) La Retribución semestral del Concesionario (o Compensación Especial del Concesionario) correspondiente a los Componentes A, C, D, y los incluidos en las
 
 Actas de Cálculo de la Retribución mensual serán
@@ -6091,7 +5347,6 @@ acumulado de la Retribución que se hubiese causadapara el mismo periodo, de no 
 consecutivo de cuatro (4) Semestres Calendario, el Índice de Cumplimiento promedio ponderado (calculado teniendo en cuenta el
 
 Porcentaje de Participación de las Unidades Funcionales definido en la Sección
-
 
 #### 4.9 del Contrato) de las Unidades Funcionales cuya
 
@@ -6123,7 +5378,6 @@ parte de su
 
 estructura de financiación, según corresponda.
 
-
 #### 4.7 Descuentos (a) El Concesionario autoriza a la ANI a descontar y pagarse los siguientes montos, de los valores a trasladar a la Cuenta Proyecto (o a los Prestamistas o a cualquier patrimonio autónomo constituido por el Concesionario para instrumentar
 
 esquemas de financiación destinados al Proyecto, cuando el Concesionario haya solicitado que estos pagos sean hechos directamente a ellos) o de la liquidación del Contrato, según corresponda, siempre que el Concesionario no haya efectuado los pagos correspondientes: (i) Todas las deducciones y retenciones previstas en las normas tributarias que sean aplicables durante la vigencia del Contrato. (ii) El
@@ -6147,7 +5401,6 @@ Actas de Retribución Semestral yo
 Actas de Cálculo de Retribución Mensual, y el traslado deberá hacerse en los plazos establecidos en las Secciones 4.2(c)(iv) y 4.3(c)(iv), según corresponda. (c) En
 
 caso de que exista controversia sobre los Descuentos a los que se refiere la Sección 4.7(a) anterior, se aplicará lo previsto en la Sección 4.2 de este Contrato, en tanto dichos Descuentos afectan la Retribución.
-
 
 #### 4.8 Tarifa por
 
@@ -6205,7 +5458,6 @@ abusar de la posición de dominio en la prestación de los servicios, y a no ado
 
 Ferroviario de Carga, la prestación de los Servicios Adicionales y los Servicios Logísticos.
 
-
 #### 4.9 Porcentaje de Participación de las Unidades
 
 Funcionales de Vía Férrea (a) Como se describe en Apéndice Técnico 1, el Proyecto contará con cincuenta y tres (53) Unidades
@@ -6230,7 +5482,6 @@ disposiciones de este Contrato relativas a las Unidades
 
 Funcionales de Vía Férrea perderán su efecto.
 
-
 #### 4.1 O
 
 Porcentaje de Participación de las Unidades Funcionales (a) Como se describe en Apéndice Técnico 1, el Proyecto está dividido en tres (3) Unidades Funcionales a las cuales se les asigna un
@@ -6238,7 +5489,6 @@ Porcentaje de Participación de las Unidades Funcionales (a) Como se describe en
 porcentaje de participación en el Proyecto.
 
 UF de participación UFl 76,54 UF2 13,54 UF3 9,92 ,' Total 100,00
-
 
 #### 4.11 Comisiones de Éxito (a) El
 
@@ -6263,7 +5513,6 @@ Dentro de los treinta (30) Días siguientes a la
 fecha de la suscripción del Contrato y en todo caso una vez constituido el Patrimonio Autónomo, el setenta por ciento (70) de la Comisión de Éxito descrita en las Secciones 4.1 l(a) y 4.1 l(b). (ii)
 
 Dentro de los cinco (5) Días siguientes a la aprobación del Cierre Financiero, el treinta por ciento (30) de la Comisión de éxito descrita en las Secciones 4.1 l(a) y4.ll(b).
-
 
 #### 4.12 Intereses Remuneratorios y de Mora (a) La
 
@@ -6357,7 +5606,6 @@ plazos de pago de
 
 sumas de dinero e intereses contenida en otros apartes del Contrato.
 
-
 #### 4.13 Actualización de Valores (a) Siempre que en este Contrato se requiera actualizar una suma expresada en Pesos del
 
 Mes de Referencia, distinta de los Aportes ANI (los cuales se deben actualizar siguiendo lo señalado en la Sección 6.2(h)(iv) de este Contrato), se utilizará la siguiente fórmula. IPCr Dónde, vi Valor exnresado en Pesos del Mes i Vr Valor, expresado en Pesos constantes del
@@ -6376,9 +5624,7 @@ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO V - FINANCIACIÓN DEL PROYECTO
-
 
 #### 5.1 Obligación de Financiación (a) El Concesionario tendrá la obligación de gestionar y obtener la financiación y los
 
@@ -6411,7 +5657,6 @@ mercado de capitales (iii)
 Recursos de Deuda de
 
 Fondos de Capital Privado (iv) Combinación de las anteriores modalidades
-
 
 #### 5.2 Cierre Financiero (a) El Cierre Financiero del Proyecto se acreditará por un monto mínimo de OCHOCIENTOS QUINCE MIL SETECIENTOS NUEVE MILLONES (815.709.000.000) Pesos del
 
@@ -6749,7 +5994,6 @@ Mes de Referencia- sea mayor o igual al 70 de la suma
 
 total de los montos mínimos establecidos en esta Sección.
 
-
 #### 5.4 Registro de los Prestamistas (a) El Concesionario deberá enviar una Notificación a la ANI cuando se acredite el Cierre Financiero, en la cual identificará a todos y cada
 
 uno de los Prestamistas, los
@@ -6784,7 +6028,6 @@ momento de suscribir los
 
 documentos de crédito, con las características exigidas en la Sección 5.2(f). Adicionalmente, con la Notificación de la que trata la Sección anterior, el Concesionario deberá aportar los documentos solicitados en la Sección 5.2(a) de este Contrato.
 
-
 #### 5.5 Desarrollo de Estructuras Financieras (a) El Concesionario podrá estructurar o utilizar para su financiamiento las estructuras financieras que considere adecuadas, para lo cual podrá ceder cualquier derecho económico a su favor
 
 que de este Contrato se derive. Página 106 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
@@ -6800,7 +6043,6 @@ flujos de la Retribución a que tenga derecho. (c) Con el
 fin de facilitar la consecución de los recursos necesarios para el Proyecto, el Concesionario o la Fiduciaria podrán desarrollar cualesquiera otros esquemas financieros, tales como titularización, emisión de bonos y sindicaciones, entre otros. Para estos efectos, los derechos económicos a favor del Concesionario, derivados de este Contrato, podrán ser incondicionalmente cedidos a los Prestamistas. (d) En todo caso, aun en los
 
 casos de cesión de derechos económicos, la obligación de financiación se mantendrá en cabeza del Concesionario.
-
 
 #### 5.6 Toma de Posesión de los Prestamistas (a) Los Prestamistas tendrán derecho a tomar posesión del Proyecto cuando: (i) Se presente, por cualquier motivo, la aceleración del crédito respectivo; o (ii) La ANI les notifique a los Prestamistas que pueden ejercer tal derecho
 
@@ -7256,9 +6498,7 @@ toma de posesión. Página 114 de 332 Contrato de APP del Proyecto Corredor Fér
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO VI - PATRIMONIO AUTÓNOMO
-
 
 #### 6.1 Generalidades (a) El Concesionario, actuando como fideicomitente, deberá incorporar, a su cuenta y riesgo, un Patrimonio Autónomo a través del cual se canalicen todos los activos y pasivos y en general se administren todos los recursos del Proyecto como requisito para la suscripción del
 
@@ -7319,7 +6559,6 @@ pronunciamiento de la ANI. (iii) Los comentarios y
 solicitudes de modificación de la ANI tendrán por objeto únicamente que la minuta del
 
 Contrato de Fiducia Mercantil se ajuste a los términos y condiciones mínimos previstos en el presente Contrato. (iv) Durante la vigencia del Contrato, la ANI podrá solicitar la remoción de la Fiduciaria por incumplimiento, en las condiciones señaladas en la Sección 6.3(n).
-
 
 #### 6.2 Cuentas y Subcuentas del Patrimonio Autónomo (a) El Patrimonio Autónomo deberá tener al menos las siguientes Cuentas y Subcuentas: (i) Cuenta Proyecto: (1) Subcuenta Cambio Climático (2) Subcuenta Predios (3) Subcuenta Compensaciones Socioambientales (4) Subcuenta Redes (5) Subcuenta Indemnizaciones y
 
@@ -8593,7 +7832,6 @@ caso de liquidación los recursos disponibles en esta subcuenta pertenecerán a 
 
 Nacional de Infraestructura
 
-
 #### 6.3 Términos y
 
 condiciones de obligatoria inclusión en el
@@ -8802,9 +8040,7 @@ otras de sus obligaciones a su cargo descritas en el Contrato. Página 147 de 33
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO VII - CONTRATISTAS
-
 
 #### 7.1 Generalidades (a) El Concesionario podrá unificar las actividades que componen los
 
@@ -8864,7 +8100,6 @@ centros de transferencia
 
 intermodal de carga, cada uno con área total superior a 2 ha. (3) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y diseños de los siguientes componentes: redes húmedas y secas; vías vehiculares; patios pavimentados; paisajismo y urbanismo; edificios industriales como bodegas, oficinas, talleres, portería.
 
-
 #### 7.3 Contratista de Construcción (a) En cualquier momento desde la suscripción del Contrato y a más tardar
 
 dentro de los doscientos cuarenta (240) Días contados desde la
@@ -8890,7 +8125,6 @@ nueva de tres (3) puentes férreos para trenes con carga mínima de 15 Toneje, y
 ellos de más de sesenta (60)
 
 metros de longitud.
-
 
 #### 7.4 Contratista de Operación y Mantenimiento del Material Rodante del Proyecto (a) El Concesionario podrá contratar las
 
@@ -8956,7 +8190,6 @@ correctivo de una flota férrea compuesta por, al menos, (i) dos locomotoras ele
 
 capacidad de carga por vagón de al menos 34 toneladas.
 
-
 #### 7.5 Certificación y Verificación (a)
 
 Antes de proceder a su contratación, el Concesionario acreditará que los Contratistas (o él mismo, en el caso descrito en la Sección 7.4(b)) cumplen con los requisitos previstos en las Secciones 7.2, 7.2(a), 7.3(a) y 7.4 anteriores, mediante la remisión de una declaración juramentada en la que tanto el Concesionario como el respectivo Contratista declaren que dicho Contratista cumple con los requisitos respectivos y relacionen los proyectos ejecutados que le permite cumplir con ese perfil. (b) La ANI aplicará el
@@ -8966,7 +8199,6 @@ principio de la buena fe en cuanto a la información contenida en la declaració
 fecha de entrega de la declaración por parte del Concesionario. (d) La corrección de la declaración deberá hacerse
 
 dentro de los cinco (5) Días Hábiles siguientes a la Notificación del Interventor en tal sentido. (e) Si la declaración contiene información incorrecta o si no se presenta dentro del plazo señalado en el presente numeral, se aplicarán al Concesionario las sanciones por incumplimiento previstas en este Contrato.
-
 
 #### 7.6 Reemplazo (a) Reemplazo por Decisión del Concesionario (i) Durante la ejecución del Contrato, el Concesionario podrá reemplazar a cualquier Contratista siempre que con anterioridad a dicho reemplazo el Concesionario acredite a satisfacción de la ANI el
 
@@ -8999,7 +8231,6 @@ ninguna de las obligaciones contraídas por el Concesionario con sus contratista
 Nacional de Infraestructura CAPÍTULO VTII
 
 PROCESOS DE VERIFICACIÓN DOCUMENTAL
-
 
 #### 8.1 Procedimiento de Revisión General (a) El
 
@@ -9101,7 +8332,6 @@ cumplimiento de las
 
 obligaciones de resultado previstas en el Contrato y sus Apéndices.
 
-
 #### 8.2 Procedimiento de Revisión Abreviado (a) Los siguientes documentos serán verificados conforme se establece en la presente sección: (i) El acta del
 
 Inventario de Redes de que trata la Sección 11.2 de este Contrato. (ii) Política de Buen Gobierno Corporativo (iii) Política Contra el
@@ -9183,7 +8413,6 @@ cumplimiento de las
 obligaciones de resultado previstas en el Contrato y sus Apéndices. Página 157 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 ### CAPÍTULO IX - ETAPA PREOPERATIVA 9 .1 Fase de Preconstrucción (a) Condiciones Precedentes para el
 
@@ -9561,7 +8790,6 @@ dentro de los cinco (5) Días Hábiles siguientes a la
 
 Fecha de Inicio. (x) Las demás previstas en este Contrato, sus Anexos y Apéndices.
 
-
 #### 9.2 Presentación de los Estudios y Diseños de Detalle (a) El Concesionario deberá elaborar y entregar al Interventor los Estudios y Diseños de Detalle cumpliendo con las Especificaciones Técnicas. (b) El plazo para la
 
 entrega de los Estudios y Diseños de Detalle expirará el Día trescientos sesenta y cinco (365) contado desde la
@@ -9585,7 +8813,6 @@ mecanismo de seguimiento de los
 avances de los Estudios y Diseños, para lo cual el Concesionario e Interventoría presentarán a la ANI un documento que permita llevar el
 
 control de avances parciales durante el término establecido en el literal b) de la presente sección.
-
 
 #### 9.3 Modificaciones y Adecuaciones a los Estudios y Diseños de Detalle (a) Las adecuaciones yo modificaciones que deba hacer el Concesionario durante la ejecución del Proyecto a los Estudios y Diseños de Detalle con el
 
@@ -9674,7 +8901,6 @@ menos de treinta (30) Días de antelación a la primera actividad que haya sido 
 alguno de estos instrumentos. Página 166 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 9.5 Fase de Construcción (a) Condiciones Precedentes para el
 
@@ -9854,7 +9080,6 @@ monitoreo de los sitios previamente definidos en la
 
 Fase de Preconstrucción, de acuerdo con lo previsto en la Sección
 
-
 #### 9.1 del presente Contrato, e iniciar el
 
 reporte de la información (cuya
@@ -9966,7 +9191,6 @@ Equipo de Coordinación y Seguimiento del Contrato, para que lidere y acompañe 
 riesgo de Gestión Social y Ambiental se convierta en un riesgo compartido o a
 
 cargo de la ANI. (xi) Las demás previstas en este Contrato, sus Anexos y Apéndices.
-
 
 #### 9.6 Avance del
 
@@ -10108,7 +9332,6 @@ Plan de Obras se fundamente en la
 
 ocurrencia de un hecho que el Concesionario considera imputable a la ANI, se seguirá el procedimiento previsto en la Sección 9.8 siguiente.
 
-
 #### 9.8 Procedimiento para Solicitar la Ampliación del Plazo del
 
 Plan de Obras por Causas Imputables a la ANI (a) Cuando ocurra una situación que afecte su
@@ -10158,7 +9381,6 @@ solicitud de modificación del
 Plan de Obras hecha por el Concesionario se entenderá como una respuesta negativa que podrá ser sometida, por el Concesionario, a la decisión del Amigable Componedor. (g) Si el Amigable Componedor llegare a la conclusión que no existe hecho imputable a la ANI que dé lugar a la modificación del
 
 Plan de Obras, procederán las Multas desde el momento en que la obligación debió cumplirse por parte del Concesionario.
-
 
 #### 9.9 Plazo Adicional sin Sanciones para el Concesionario (a) El Concesionario podrá solicitar una extensión del plazo previsto en el
 
@@ -10261,7 +9483,6 @@ favor de la ANI, para lo cual el Concesionario deberá calcular dichos ahorros y
 cambio de Especificaciones Técnicas referido en el presente literal, será sometida a la decisión de los Amigables Componedores. (g) Es responsabilidad del Concesionario detectar y corregir los errores que pudieran contener los Apéndices Técnicos, relativos tanto al
 
 cumplimiento de la normativa aplicable, como en relación con la prestación de los servicios a cargo del Concesionario. (h) Las controversias que surjan relacionadas con lo previsto en la presente Sección serán resueltas por el Amigable Componedor.
-
 
 #### 9.11 Ajuste de las Especificaciones Técnicas (a) El Concesionario deberá proponer a la ANI -con copia al Interventor- los ajustes necesarios a las Especificaciones Técnicas, siempre que éste encuentre que: (i) Existe incompatibilidad o contradicción entre dos o más Especificaciones Técnicas, o (ii)
 
@@ -10400,7 +9621,6 @@ lugar de producirlos directamente, en cuyo caso deberá verificar que el tercero
 perjuicio de la obligación que tiene el
 
 Concesionario de responder directamente por dichos terceros.
-
 
 #### 9.14 Memoria Técnica (a) Durante la ejecución del Contrato, el Concesionario deberá mantener actualizada y a disposición del Interventor y de la ANI en todo momento una Memoria Técnica publicada en Internet o disponible en medio electrónico, en la que se incluya por lo menos la siguiente información relacionada con las Intervenciones: (i)
 
@@ -11020,7 +10240,6 @@ deriven de los incumplimientos del Concesionario. Página 191 de 332 Contrato de
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO X - PREDIOS 10. l División de las actividades a
 
 cargo de las Partes (a) Las actividades relacionadas con el
@@ -11036,7 +10255,6 @@ Contrato de Concesión. El Concesionario desarrollará las actividades previstas
 Plan de Obras. (c) Adicionalmente, sobre la Franja Operacional el Concesionario deberá adoptar una solución técnica que permita la Circulación en la Vía Férrea en
 
 condiciones de Seguridad, en los términos del Apéndice Técnico 2.
-
 
 #### 10.3 Actividades sobre los Predios Requeridos (a) El Concesionario tendrá a su cargo la Gestión Predial sobre los Predios Requeridos, actividad que estará conformada por: (i) La adquisición de los Predios Requeridos. El Concesionario desarrollará dicha labor en
 
@@ -11300,7 +10518,6 @@ Predios de los Predios Requeridos, excluyendo los Predios que hayan sido afectad
 
 Eximentes de Responsabilidad o Fuerza Mayor, por cada Unidad Funcional I vencido el plazo previsto en la Sección
 
-
 #### 10.3 (i)(i) anterior. (ii) Transcurridos veinticuatro (24) Meses posteriores al vencimiento del plazo señalado en la Sección 10.3(i) del presente Contrato, sin que el Concesionario demuestre la adquisición, cesión o adjudicación de la
 
 totalidad de los Predios Requeridos para la Unidad Funcional 1, se aplicará de manera escalonada y por el plazo definido para el efecto, el porcentaje señalado a continuación, excluyendo los Predios que hayan sido afectados por los Eventos
@@ -11394,7 +10611,6 @@ dentro de los diez (10) Días Hábiles siguientes al vencimiento del plazo seña
 Plan de Adquisición de Predios y el
 
 Cronograma de Adquisición de Predios actualizados, previo envío de la respectiva Notificación en la que se indicará el plazo otorgado para su entrega.
-
 
 #### 10.4 Recursos para la Adquisición de Predios y Compensaciones Socioeconómicas (a) El Concesionario aportará los recursos para la adquisición de los Predios, el
 
@@ -11534,13 +10750,11 @@ recursos de la Subcuenta Predios ni aplicarán los
 
 mecanismos de asunción de costos descritos en la presente Sección 10.4 y deberán ser asumidos por su cuenta y riesgo.
 
-
 #### 10.5 Disposiciones especiales para el
 
 Procedimiento de Adquisición Predial (a) Los
 
 procedimientos de adquisición predial son los que se estipulan en el Apéndice Técnico 7.
-
 
 #### 10.6 Fuerza Mayor Predial (a) Se entenderá que ha ocurrido un Evento
 
@@ -11605,7 +10819,6 @@ necesidad de adquirir Predios adicionales, dicha adquisición y el
 riesgo de los costos asociados a la misma se manejará de conformidad con lo previsto en la Sección 10.4 del presente Contrato. (d) Cuando ocurra una Fuerza Mayor Predial se aplicará lo previsto en la Sección 20.3 del presente Contrato. Página 203 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 ### CAPÍTULO XI - GESTIÓN SOCIAL, AMBIENTAL Y REDES 11. l Gestión Social y Ambiental (a) La
 
@@ -11777,7 +10990,6 @@ Intervenciones de la Unidad Funcional respectiva y culminarlas dentro del plazo 
 
 Plan de Obras a que se refiere la Sección 9.4(a) y
 
-
 #### 9.7 y una vez concluidas se empezará a causar la Retribución asociada a la Unidad Funcional correspondiente en los términos y condiciones previstos en el presente Contrato. (v) Si la Fuerza Mayor
 
 Ambiental de que trata la Sección 11.l(h) anterior genera la
@@ -11815,7 +11027,6 @@ Colombiano de Antropología e Historia -ICANH- y (ii) demostrado el cumplimiento
 Intervenciones de la Unidad Funcional respectiva y culminarlas dentro del plazo acordado, según la revisión del
 
 Plan de Obras a que se refiere la Sección 9.4(a),
-
 
 #### 9.6 y 9.7 y una vez concluidas se empezará a causar la Retribución asociada a la Unidad Funcional correspondiente en los términos y condiciones previstos en el presente Contrato. G) Si la Autoridad Ambiental sujeta al trámite yo el
 
@@ -11888,7 +11099,6 @@ caso de comprobarse la
 existencia de la Fuerza Mayor por el Hallazgo
 
 Fortuito de Cuerpos se aplicará mutatis mutandi el mismo procedimiento previsto en la Sección 20.3 del presente Contrato.
-
 
 #### 11.2 Redes (a) Conforme a lo señalado en el presente Contrato y numeral 3.2.1 del Apéndice Técnico 5, con anterioridad a la presentación a la Interventoría de los
 
@@ -11996,7 +11206,6 @@ riesgo de dichos costos, se manejará de conformidad con lo previsto en el CAPÍ
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XII - ADMINISTRACIÓN DE LA INFRAESTRUCTURA FÉRREA Y LA INFRAESTRUCTURA LOGÍSTICA 12. l Función de Administración que debe cumplir el Concesionario (a) De acuerdo con la Sección 3.l(a) del presente Contrato, dentro de las obligaciones a cargo del Concesionario se encuentra la administrar, operar y mantener la Infraestructura del Proyecto desde el
 
 momento de la
@@ -12011,7 +11220,6 @@ condiciones de open access, garantizando la libre competencia, la
 
 igualdad de condiciones, la transparencia y la no discriminación en el ingreso y la Circulación en la Vía Férrea.
 
-
 #### 12.2 Capacidad de la Vía Férrea (a) El Concesionario deberá llevar a cabo, de manera objetiva y no discriminatoria, las actividades que
 
 sean de su competencia y prestar toda la colaboración requerida a la entidad competente para calcular periódicamente la Capacidad
@@ -12023,7 +11231,6 @@ Disponible de la Vía Férrea debe ser
 publicada de forma periódica en la página web del Concesionario y de la ANI, tal como se estipula en el Apéndice Técnico 10. (c) El Concesionario no podrá disminuir la Capacidad
 
 Ferroviaria de la Vía Férrea durante la vigencia del Contrato.
-
 
 #### 12.3 Trámite de Compatibilidad entre la Infraestructura Férrea y el Material Rodante (a) El Concesionario deberá llevar a cabo, de manera objetiva y no discriminatoria, las actividades que
 
@@ -12037,7 +11244,6 @@ decisiones de la ANI relacionadas con la compatibilidad entre el Material
 
 Rodante de Terceros Operadores y la Infraestructura Férrea la Vía Férrea.
 
-
 #### 12.4 Asignación de Surcos (a) El Concesionario deberá llevar a cabo, de manera objetiva y no discriminatoria, las actividades que
 
 sean de su competencia y prestar toda la colaboración requerida a la entidad competente durante el
@@ -12047,7 +11253,6 @@ proceso de Asignación de Surcos a los Terceros Interesados, incluyendo, pero si
 Nacional de Infraestructura en la Vía Férrea, en los términos y de acuerdo con lo establecido en la Ley Aplicable, particularmente en la Resolución de Surcos. (b) El Concesionario estará obligado a acatar las
 
 decisiones de la ANI relacionadas con la Asignación de Surcos a Terceros Operadores en la Vía Férrea.
-
 
 #### 12.5 Acuerdos de Operación (a) La relación del Concesionario con los Terceros Operadores se regirá mediante un
 
@@ -12110,7 +11315,6 @@ Acuerdos de Operación que celebre con los Terceros Operadores. (g) Estos
 Acuerdos de Operación y cualquier modificación de los mismos deberán remitirse a la ANI
 
 dentro de los tres (3) Días siguientes a la suscripción de los mismos.
-
 
 #### 12.6 Uso de la Vía (a) El Concesionario deberá entregar a los Terceros Operadores que cuenten con la Asignación de Surcos el
 
@@ -12188,7 +11392,6 @@ tipo de compensación para las Partes: (i) modificar dicha tarifa, (ii) crear ex
 
 fecha de celebración del Contrato.
 
-
 #### 12.8 Administración de la Infraestructura Logística y Prestación de Servicios Logísticos (a) Siempre que el Tercero Operador haya manifestado en el
 
 Acuerdo de Operación que requerirá de la prestación de Servicios Logísticos
@@ -12218,7 +11421,6 @@ Acta de Inicio, el Concesionario deberá presentar el
 listado de precios para la Tarifa por Prestación de Servicios Logísticos, desagregada por los servicios a prestar. Dicho listado deberá contar con la no objeción de la lnterventoría previo al
 
 inicio de la prestación de dichos servicios.
-
 
 #### 12.9 Tarifa por Prestación de Servicios Logísticos (a) Todo Tercero Operador que manifieste en el
 
@@ -12256,7 +11458,6 @@ tipo de indexación ni intereses. Página 217 de 332 Contrato de APP del Proyect
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XIII - PUESTA A PUNTO, OPERACIÓN DEL MATERIAL RODANTE DEL PROYECTO Y PRESTACIÓN DEL SERVICIO PÚBLICO DE TRANSPORTE
 
 FERROVIARIO DE CARGA 13 .1 Entrega del Material Rodante (a) En la
@@ -12269,7 +11470,6 @@ momento de la Entrega del Material Rodante del Proyecto ni en momento
 
 alguno de la ejecución del Contrato, relacionada con el estado del Material Rodante entregado, en tanto es obligación del Concesionario recibirlo en el estado en que se encuentre.
 
-
 #### 13.2 Puesta a Punto (a) Sin que en ningún momento se vean afectadas las
 
 condiciones de la Prestación del Servicio Público de Transporte
@@ -12281,7 +11481,6 @@ caso de que el Concesionario no utilice el Material Rodante del Proyecto sino ot
 Ferroviario de Carga, la puesta en
 
 servicio de dicho Material Rodante se sujetará a los plazos establecidos para realizar la Puesta a Punto en el Apéndice Técnico 1.
-
 
 #### 13.3 Prestación del Servicio Público de Transporte
 
@@ -12365,7 +11564,6 @@ perjuicio de las obligaciones relativas al Material Rodante del Proyecto, el Con
 
 Ferroviario de Carga, el cual no será objeto de Reversión.
 
-
 #### 13.4 Pago de la Tarifa por
 
 Uso de la Infraestructura Férrea (a) El Concesionario pagará la Tarifa por
@@ -12428,9 +11626,7 @@ objeto de cálculo no existen Terceros Operadores en el Proyecto, se aplicará l
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XIV - ETAPA DE OPERACIÓN Y MANTENIMIENTO
-
 
 #### 14.1 Condiciones Precedentes para el
 
@@ -12445,7 +11641,6 @@ Acta de Terminación de Unidad Funcional. (b) Sin
 perjuicio de lo anterior, y en los términos del Apéndice Técnico 2, desde la entrega del Proyecto en la Etapa Preoperativa, el Concesionario deberá cumplir con las
 
 obligaciones de Operación y Mantenimiento sobre la Infraestructura del Proyecto, en los términos de los Apéndices Técnicos 1 y 2.
-
 
 #### 14.2 Obligaciones Principales del Concesionario durante la
 
@@ -12525,7 +11720,6 @@ entrega de manera oportuna y con calidad cuando la ANI así lo requiera a travé
 
 sistemas de información, ITS, herramientas tecnológicas y demás relacionadas que tengan las Partes, el Interventor, la Fiduciaria yo el Amigable Componedor mediante los estándares definidos por la ANI.
 
-
 #### 14.3 Obligaciones
 
 principales de la ANI durante la
@@ -12557,7 +11751,6 @@ Fondo de Contingencias en los términos y condiciones aprobados por el
 Ministerio de Hacienda y Crédito Público. (e) Controlar directamente o a través del Interventor el
 
 cumplimiento de las obligaciones derivadas del Contrato.
-
 
 #### 14.4 Mantenimiento de Intervenciones e Indicadores (a) Durante la
 
@@ -12615,7 +11808,6 @@ cambio de especificaciones técnicas. (g) Cualquier controversia
 
 derivada de los dispuesto en esta Sección será resuelta por el Amigable Componedor.
 
-
 #### 14.5 Manuales de Operación y Mantenimiento (a) Durante la
 
 Fase de Preconstrucción, el Concesionario deberá entregar al Interventor el
@@ -12658,7 +11850,6 @@ Abreviado de la Sección 8.2. El Concesionario podrá acoger o no las recomendac
 
 antes de que la respectiva actualización, revisión o modificación, inicie su aplicación en el Proyecto.
 
-
 #### 14.6 Alcance de las
 
 Obras de Mantenimiento (a) Durante la
@@ -12683,9 +11874,7 @@ cambio de especificaciones técnicas. Página 225 de 332 Contrato de APP del Pro
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XV - ETAPA DE REVERSIÓN
-
 
 #### 15.1 Inicio de la
 
@@ -12703,7 +11892,6 @@ siguiente de la
 
 declaratoria de Terminación Anticipada del Contrato.
 
-
 #### 15.2 Obligaciones en
 
 Etapa de Reversión por terminación del plazo del Contrato (a) Si la terminación del Contrato ocurre por el supuesto descrito en la Sección 15. l(a)(i), durante la
@@ -12714,7 +11902,6 @@ actividades de Operación y Mantenimiento en los términos previstos en el Contr
 
 Etapa de Operación y Mantenimiento. (ii) Se causará el Componente D de la Retribución en los términos establecidos en la Sección 4.4(d) de este Contrato.
 
-
 #### 15.3 Obligaciones en
 
 Etapa de Reversión por Terminación Anticipada del Contrato a) Si se declara la Terminación Anticipada del Contrato y es posible continuar con las
@@ -12724,7 +11911,6 @@ actividades de Operación y Mantenimiento o si la ANI así lo determina, aplicar
 actividades de Operación y Mantenimiento, o si la ANI así lo determina, el Concesionario únicamente tendrá a su cargo las
 
 labores de custodia del Corredor del Proyecto.
-
 
 #### 15.4 Alcance de la Reversión (a) Los Bienes Revertibles corresponden, como mínimo, a aquellos que se enuncian en la Sección 3.3(a), en el Apéndice Técnico 1 y Apéndice Técnico 2. En todo caso, serán
 
@@ -12743,7 +11929,6 @@ tenencia de estos bienes para efectos del cumplimiento del Contrato y será resp
 momento de la terminación de la
 
 Etapa de Reversión.
-
 
 #### 15.5 Procedimiento para la Reversión (a) Una vez iniciada la
 
@@ -12835,11 +12020,9 @@ Acta de Liquidación del Contrato. Página 228 de 332 Contrato de APP del Proyec
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XVI - SANCIONES Y
 
 ESQUEMAS DE APREMIO
-
 
 #### 16.1 Multas y Sanciones (a) Si durante la ejecución del Contrato se generaran incumplimientos del Concesionario, se causarán las Multas o Sanciones que se detallan en la Sección 16.8 y 16.9 cuya imposición se realizará de acuerdo con el procedimiento previsto en la Sección 16.4 siguiente. En aplicación del principio "non bis in idem", en ningún caso se podrá imponer una Sanción al Concesionario por unos mismos hechos sobre los cuales ya se hubiese impuesto una Multa. (b) Las Multas o Sanciones a las que se refiere la presente Sección no tienen el carácter de estimación
 
@@ -12874,7 +12057,6 @@ susceptible de valoración económica. (f) El límite máximo total del
 valor de las Multas y Sanciones que pueden ser impuestas al Concesionario, para
 
 efectos de este Proyecto, será de Tres coma ochenta y tres por ciento (3,83) del Valor del Contrato.
-
 
 #### 16.2 Plazo de Cura (a) El Concesionario contará con un
 
@@ -12914,7 +12096,6 @@ derechos de los Prestamistas, en aplicación de lo previsto en el presente Contr
 
 Plazo de Cura, conforme a lo señalado en la Sección 16.2(a) anterior, no se impondrá la Multa correspondiente.
 
-
 #### 16.3 Pago de las Multas y Sanciones (a) Las Multas y las Sanciones deberán ser pagadas por el Concesionario
 
 dentro de los Diez (10) Días siguientes a la firmeza del acto administrativo mediante el cual se imponen. (b) Vencido el
@@ -12935,7 +12116,6 @@ perjuicio de los
 
 derechos de los Prestamistas.
 
-
 #### 16.4 Procedimiento para la imposición de Multas y Sanciones (a) El procedimiento para la imposición de Multas y Sanciones corresponderá al señalado en el artículo 86 de la Ley 1474 de 2011. (b) Este procedimiento se iniciará cuando la ANI o el Interventor verifiquen que existe un incumplimiento que puede llegar a ser
 
 generador de una
@@ -12947,7 +12127,6 @@ Plazo de Cura sin que el Concesionario haya remediado el incumplimiento. En los
 eventos de incumplimientos no
 
 susceptibles de subsanar, se dará inicio al procedimiento para imponer la Sanción, cuando la ANI o el Interventor verifique la existencia del mismo.
-
 
 #### 16.5 Actualización de las Multas y Sanciones Los
 
@@ -12962,7 +12141,6 @@ generador de la Multa y Sanción y el Mes anterior a la fecha en que se profiera
 momento de la
 
 exigibilidad de la Multa o Sanción hasta el momento efectivo del pago, en los montos establecidos en la 4.12.
-
 
 #### 16.6 Cláusula Penal (a) En
 
@@ -12979,7 +12157,6 @@ directamente de cualquier saldo adeudado al Concesionario. (c) La Cláusula Pena
 principio de proporcionalidad de que trata el artículo 1596 del Código Civil. Página 231 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 16.7 Valor de la Cláusula Penal (a) El
 
@@ -13012,7 +12189,6 @@ fecha de suscripción de la última
 Acta de Terminación de Unidad Funcional y el
 
 Acta de Reversión. Dicho valor deberá ser actualizado conforme a la fórmula definida en la Sección 4. 13.
-
 
 #### 16.8 Eventos
 
@@ -13452,7 +12628,6 @@ perjuicio de las consecuencias que se
 
 deriven de los mismos documentos.
 
-
 #### 16.9 Eventos
 
 generadores de Sanciones (a) Para
@@ -13477,9 +12652,7 @@ Plazo de Cura previsto en este Contrato. Página 237 de 332 Contrato de APP del 
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XVII - CLÁUSULAS EXCEPCIONALES AL DERECHO COMÚN
-
 
 #### 17.1 Caducidad (a) Si se presenta algún
 
@@ -13559,7 +12732,6 @@ Etapas de ejecución del presente Contrato. (b) En el caso que se presente
 
 cualquiera de las causales previstas en el artículo 17 de la Ley 80 de 1993 se podrá aplicar, en lo pertinente, lo previsto en el Contrato para continuar la ejecución del Proyecto con los Prestamistas o la entidad que ellos designen.
 
-
 #### 17.3 Otras Cláusulas Excepcionales al Derecho Común (a) Modificación unilateral: si fuere necesario introducir variaciones en el Contrato para evitar la paralización o la afectación grave del servicio y previamente las Partes no llegaran al acuerdo respectivo, la ANI mediante acto administrativo debidamente motivado, previo
 
 cumplimiento de los requisitos establecidos en la Ley Aplicable, lo podrá modificar mediante la supresión o adición de obras, trabajos, suministros o servicios. Si las modificaciones alteran el Valor del Contrato en un veinte por ciento (20), o más, el Concesionario podrá renunciar a la continuación de su ejecución en los términos de la Ley Aplicable. En este evento, la ANI ordenará la liquidación del Contrato y ordenará las medidas del caso para garantizar la terminación de su objeto. Las modificaciones efectuadas por ANI deberán respetar los límites establecidos en la Ley Aplicable para
@@ -13576,9 +12748,7 @@ objeto de la diferencia. Página 240 de 332 Contrato de APP del Proyecto Corredo
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XVIII - GARANTÍAS Y SEGUROS
-
 
 #### 18.1 Garantías como
 
@@ -13604,7 +12774,6 @@ cualquiera de estas garantías. (c) Como requisito para la iniciación de cada
 
 una de las etapas yo fases en las que se divide el Contrato, el Concesionario deberá renovar yo constituir los amparos y garantías que sean requeridos para la Etapa correspondiente, de acuerdo con lo previsto en este Contrato y en el Artículo 2.2.1.2.3.1.3 del Decreto 1082 de 2015. (d) Las garantías y' seguros que hagan parte del Apéndice Financiero 1 deberán ser presentadas en los mismos términos allí señalados. No serán admisibles condicionamientos adicionales a los contenidos en el mencionado Apéndice Financiero l.
 
-
 #### 18.2 Clases de Garantías (a) La Garantía Única de Cumplimiento podrá revestir
 
 cualquiera de las modalidades admisibles conforme a lo señalado por el artículo 2.2.1.2.3.1.2. del Decreto 1082 de 2015, siendo estas: (i) Póliza de seguros (ii) Fiducia mercantil en garantía (iii) Garantía bancaria a primer requerimiento (b) Para
@@ -13628,7 +12797,6 @@ tratarse de garantías
 diferentes de la póliza de seguro, estas incorporarán las mismas coberturas previstas para las pólizas de seguros en este Contrato, sin que sea posible añadir exclusiones, condicionamientos o requisitos adicionales para que las mismas se hagan efectivas. En todo caso, las garantías bancarias deberán permitir su cobro a primer
 
 requerimiento de la ANI una vez cobre firmeza el acto administrativo que declara o constituye el siniestro.
-
 
 #### 18.3 Reglas Generales Aplicables a las Garantías y los Seguros (a) El Concesionario deberá reponer el
 
@@ -13728,7 +12896,6 @@ tipos de garantías en ningún caso podrán ofrecer condiciones menos favorables
 
 tipos de garantías, de usarse, deberán cumplir estrictamente con lo previsto para ellos en el Decreto 1082 de 2015.
 
-
 #### 18.4 Aprobación de las Garantías (a)
 
 Dentro de los quince (15) Días Hábiles contados desde la
@@ -13762,7 +12929,6 @@ Nacional de Infraestructura (h) La ANI devolverá al Concesionario la Garantía 
 Seriedad de la Propuesta
 
 dentro de los diez (10) Días Hábiles siguientes a la fecha en que se haya aprobado la Garantía Única de Cumplimiento.
-
 
 #### 18.5 División de las Garantías (a) Como excepción al
 
@@ -13823,7 +12989,6 @@ Derivado de lo anterior, en el evento en que se haya dado la Notificación de la
 cualquiera de las garantías, el Concesionario deberá sustituir a su costo y riesgo la garantía para la Etapa o Fase subsiguiente y presentarla a la ANI, cumpliendo con los requisitos establecidos para el efecto en este
 
 Contrato de Concesión.
-
 
 #### 18.6 Garantía Única de Cumplimiento La Garantía Única de Cumplimiento contendrá los siguientes amparos: (a) Cumplimiento: el
 
@@ -14079,7 +13244,6 @@ caso de no incluirse inicialmente, la Garantía Única de Cumplimiento deberá s
 
 Acta de Reversión.
 
-
 #### 18.7 Seguro de Responsabilidad Extracontractual (a) El Concesionario deberá obtener un
 
 seguro de responsabilidad extracontractual, conforme lo indicado en el artículo 2.2.1.2.3.2.2.9. del Decreto 1082 de 2015 en el cual ninguna cobertura podrá ser inferior al valor asegurado mínimo requerido, excepto para los
@@ -14188,7 +13352,6 @@ sucesivos de un (1) año. Esta prórroga deberá hacerse con una anticipación n
 
 Nacional de Infraestructura
 
-
 #### 18.8 Seguros de Daños Contra Todo Riesgo Obras Civiles (a)
 
 Seguro de Obras Civiles ANI: (i) Este seguro se tomará de manera integral para toda la vigencia del Contrato y cubrirá los daños que pueda llegar a sufrir la Infraestructura y los otros bienes existentes que no hacen
@@ -14255,7 +13418,6 @@ NACIONAL DE INFRAESTRUCTURA ANI PÓLIZA DE
 
 SEGURO DE OBRAS CIVILES.
 
-
 #### 18.9 En caso
 
 eventual de ser compleja la consecución en el
@@ -14273,7 +13435,6 @@ Inicio de la
 Fase de Preconstrucción y hasta la terminación del Contrato, el Concesionario deberá contar con pólizas de seguros individuales o colectivas todo riesgo en las que conste el
 
 aseguramiento de todos los vehículos automotores y Material Rodante propios yo ajenos que estén autorizados para transitar como vehículos del Proyecto o en la Infraestructura Férrea y de los que estén relacionados directa o indirectamente con la ejecución del Contrato, incluyendo los que no transiten con placas o que se consideren Maquinaria Amarilla. (b) El Concesionario presentará copia de estas pólizas a la ANI junto con la Garantía Única de Cumplimiento y sus prórrogas.
-
 
 #### 18.10 Seguro de
 
@@ -14299,13 +13460,11 @@ perjuicio de la responsabilidad del Concesionario frente a la ANI por el
 
 cumplimiento de sus obligaciones.
 
-
 #### 18.11 Otros El Concesionario deberá obtener y mantener vigentes todos aquellos seguros, pólizas yo depósitos que se requieran bajo la Ley Aplicable para la ejecución de todas sus obligaciones bajo este Contrato, incluyendo pero sin limitación, las actividades aduaneras, seguros
 
 contractuales de transporte de mercancía, de ser el caso debiendo ser entregados a las Autoridades Estatales en cada caso para su aprobación. Página 253 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chíriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 18.12 Actualización de los
 
@@ -14325,9 +13484,7 @@ totalidad de las garantías, para lo cual se aplicará la fórmula señalada en 
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XIX - ECUACIÓN CONTRACTUAL Y ASIGNACIÓN DE RIESGOS
-
 
 #### 19.1 Ecuación Contractual La ecuación contractual del presente Contrato estará conformada por los siguientes factores: (a) El Concesionario asume: (i) El
 
@@ -14368,7 +13525,6 @@ parte de la ANI, cuando la Ley Aplicable así lo indique. (f) Por su parte, la A
 costo de los riesgos expresamente asignados a la ANI, y del
 
 cumplimiento de las obligaciones a su cargo, así como los riesgos asociados a la ejecución de esas obligaciones.
-
 
 #### 19.2 Riesgos Asignados al Concesionario (a) Los siguientes son los riesgos asignados al Concesionario, además de los que le sean asignados en otras partes del Contrato (incluyendo sus Apéndices) o de los que por su naturaleza deban ser asumidos por el Concesionario. El documento denominado
 
@@ -14742,7 +13898,6 @@ derivados de las tarifas por
 
 uso de la Infraestructura Férrea.
 
-
 #### 19.3 Riesgos Asignados a la ANI (a) Los siguientes son los riesgos asignados a la ANI, además de los que le sean asignados en otras partes del Contrato (incluyendo sus Apéndices y Anexos). El documento denominado
 
 matriz de riesgos del Proyecto, publicado en el SECOP, no hace parte del
@@ -14865,7 +14020,6 @@ ANI de cumplir con las condiciones y plazos previstos expresamente en este
 
 Contrato de lo que corresponda al porcentaje en que la ANI asume dicho riesgo.
 
-
 #### 19.4 Atención de los Riesgos Asignados a la ANI (a) Siempre que, de acuerdo con lo previsto en este Contrato, la configuración de un riesgo asumido por la ANI genere una obligación de
 
 pago de dinero a favor del Concesionario, ésta deberá utilizar las fuentes previstas en este Contrato para atender dicha obligación, así: Página 263 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
@@ -14900,13 +14054,11 @@ Fondo de Contingencias o no-, la ANI deberá incluir en su presupuesto los recur
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XX - TERMINACIÓN
 
 PARCIAL DE UNIDAD FUNCIONAL, EVENTO
 
 EXIMENTE DE RESPONSABILIDAD E INDEMNIDADES
-
 
 #### 20.1 Imposibilidad de Terminación de Unidad
 
@@ -15013,7 +14165,6 @@ Funcional de Vía Férrea con
 Acta de Terminación
 
 Parcial de Vía Férrea, no habrá terminación de la Unidad Funcional 1.
-
 
 #### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos
 
@@ -15220,7 +14371,6 @@ ocurrencia de dicha
 causal de terminación sea declarada por el Amigable Componedor. En todo caso, la Unidad Funcional 1 no podrá ser
 
 objeto de desafectación.
-
 
 #### 20.3 Evento
 
@@ -15534,7 +14684,6 @@ Acta de Reconocimiento de Evento
 
 Eximente de Responsabilidad de que trata la Sección 20.3(d)(xvi)(l) de este Contrato, ésta se regirá por lo previsto en la Sección 9.8 o la Sección 9.9 del presente Contrato, según corresponda.
 
-
 #### 20.4 Suspensión contractual por Evento
 
 Eximente de Responsabilidad (a) Mientras subsistan las
@@ -15570,7 +14719,6 @@ vigencia de las garantías y
 mecanismos de cobertura del presente Contrato sean
 
 extendidos de conformidad con el período de suspensión.
-
 
 #### 20.5 Compensaciones por Eventos
 
@@ -15623,7 +14771,6 @@ Nacional de Infraestructura (c) Tales compensaciones, cuando a ellas hubiere lug
 Informes de lnterventoría correspondientes a los periodos en que se presenten los Eventos
 
 Eximentes de Responsabilidad ya referidos.
-
 
 #### 20.6 Reparaciones Necesarias por Evento
 
@@ -15759,11 +14906,9 @@ cualquiera de las Partes. Página 278 de 332 Contrato de APP del Proyecto Corred
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XXI - SOLUCIÓN DE CONTROVERSIAS Lo establecido en el presente Capítulo no obsta para que las Partes puedan resolver directamente y en cualquier tiempo toda controversia patrimonial y conciliable entre ellas, surgida del presente Contrato. A los
 
 mecanismos de solución de controversias se les aplicará lo previsto en la Ley 1563 de 2012 y el artículo 14 de la Ley 1682 de 2013.
-
 
 #### 21.1 Amigable Composición (a) Las Partes acuerdan acudir a un
 
@@ -16137,7 +15282,6 @@ conocimiento de la jurisdicción arbitral, sólo en los casos que se refieran a 
 
 causal de nulidad o rescisión de la decisión, de conformidad con lo establecido en la Ley Aplicable.
 
-
 #### 21.2 Arbitraie Nacional (a) Las controversias que surjan entre las Partes con ocasión del presente Contrato, que no
 
 sean de conocimiento del
@@ -16191,7 +15335,6 @@ Nacional de Infraestructura (e) Los
 honorarios de los árbitros se limitarán según el
 
 valor de las pretensiones, conforme se establece en la tabla incluida a continuación, y en todo caso no superarán un máximo de QUINIENTOS SALARIOS MÍNIMOS MENSUALES LEGALES VIGENTES (500 SMMLV) por cada árbitro. CUANTIA DEL PROCESO (Salarios HONORARIOS MÁXIMOS POR Mínimos Legales Mensuales Vigentes - ÁRBITRO smlmv) Menos de 10 1 O Salarios Mínimos Legales Diarios Vigentes Entre 10 e igual a 176 3.25 de la cuantía Más de 176 e igual a 529 2.25 de la cuantía Más de 529 e igual a 882 2 de la cuantía Más de 882 e igual a 1764 1.75 de la cuantía ., Mayor a 1764
-
 
 #### 1.5 de la cuantía En todo caso, respecto del
 
@@ -16271,7 +15414,6 @@ efectos de la cláusula compromisoria serán extensivos a aquellas empresas, soc
 
 momento de la presentación de la Oferta. (j) El inicio del trámite arbitral no faculta a las Partes para suspender unilateralmente la ejecución de las obligaciones del Contrato.
 
-
 #### 21.3 Arbitraje Internacional (a) Toda controversia que surja entre las Partes con ocasión del presente Contrato, cuando se configure
 
 alguno de los presupuestos señalados en el artículo 62 de la ley 1563 de 2012, que no
@@ -16340,7 +15482,6 @@ cualquiera de las Partes, el trámite arbitral gozará de confidencialidad, sin
 
 perjuicio de una orden judicial o disposición legal que la limite o restrinja.
 
-
 #### 21.4 Continuidad en la ejecución La intervención del
 
 panel de Amigables Componedores o del
@@ -16353,9 +15494,7 @@ que de mutuo acuerdo las Partes consideren necesario suspender su ejecución par
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XXII - ASUNTOS LABORALES Y DE SEGURIDAD Y SALUD EN EL TRABAJO
-
 
 #### 22.1 Personal del Concesionario (a) El Concesionario se compromete a que sus empleados, agentes, proveedores y Contratistas posean la experiencia, conocimientos y capacidad para ejecutar los deberes específicos a ellos asignados para la debida y cabal ejecución del Contrato, además de que el personal asignado a los mismos
 
@@ -16401,7 +15540,6 @@ Nacional de Infraestructura que dichos contratistas independientes han efectuado
 
 pagos de que trata el presente literal que les correspondan.
 
-
 #### 22.2 Seguridad e Higiene Industrial (a) Será responsabilidad del Concesionario el diseño del
 
 programa de higiene y seguridad industrial e implementación del
@@ -16417,7 +15555,6 @@ reponer de acuerdo con la
 polftica de cambio del
 
 Sistema de SST del Concesionario.
-
 
 #### 22.3 Relación entre las Partes (a) El Contrato no crea relación
 
@@ -16436,7 +15573,6 @@ sentido de crear una relación distinta entre las Partes a
 la de la vinculación negocial en los términos del Contrato y de la Ley Aplicable, en particular, lo reglado sobre asociaciones público privadas en la Ley 1508 de 2012. Las Partes no pretenden crear ningún derecho ni otorgar ninguna acción a ningún tercer beneficiario del Contrato. Página 290 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 ### CAPÍTULO XXIII - TERMINACIÓN DEL CONTRATO 23.l Ocurrencia El presente Contrato terminará cuando finalice la
 
@@ -16510,7 +15646,6 @@ mora de la ANI sólo desde cuando, de conformidad con este Contrato, procedan
 
 intereses de mora, de acuerdo con lo previsto en la Sección
 
-
 #### 4.12 de este Contrato. (ii) Cuando se profiera cualquier decisión en firme que declare la terminación anticipada del Contrato
 
 proveniente de una Autoridad Estatal que tenga competencia para
@@ -16545,9 +15680,7 @@ declaratoria de la Terminación Anticipada del Contrato. Página 292 de 332 Cont
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XXIV - LIQUIDACIÓN DEL CONTRATO
-
 
 #### 24.1 Término El Contrato se liquidará en un plazo máximo de ciento ochenta (180) Días contados a
 
@@ -16558,7 +15691,6 @@ fecha de suscripción del
 Acta de Reversión, o al vencimiento del Plazo Máximo de la
 
 Etapa de Reversión -lo que ocurra primero-, de acuerdo con lo previsto en el artículo 60 de la Ley 80 de 1993 (modificado por el artículo 217 del Decreto 19 de 2012). De no lograrse la liquidación por mutuo acuerdo, se procederá a hacerse la liquidación unilateral, en los términos y condiciones previstos en el artículo 11 de la Ley 1150 de 2007.
-
 
 #### 24.2 Obligaciones de la Fiduciaria en la Liquidación Para determinar la destinación de los
 
@@ -16665,7 +15797,6 @@ totalidad de los pagos señalados en el
 Acta de Liquidación del Contrato, ésta deberá seguir ejerciendo los derechos y
 
 prerrogativas de los que trata la Sección 6.3(a) de este Contrato.
-
 
 #### 24.3 Fórmulas de Liquidación del Contrato (a) En el caso en que ocurra la Terminación Anticipada del Contrato, se causarán los pagos entre las Partes que
 
@@ -17569,7 +16700,6 @@ una de las causales establecidas en el parágrafo 1 del artículo 32 de la Ley 1
 
 valor de la liquidación.
 
-
 #### 24.4 Pago de las Sumas por
 
 Concepto de Liquidación (a) Si el resultado del cálculo de
@@ -17644,7 +16774,6 @@ caso de la Garantía Única de Cumplimiento, su exigibilidad estará sujeta a qu
 
 asegurados de acuerdo con lo previsto en la Ley Aplicable para tales efectos.
 
-
 #### 24.5 Pagos en
 
 Caso de Controversia (a) En el evento en que no haya acuerdo entre la ANI y el Concesionario en relación con los
@@ -17657,9 +16786,7 @@ producto de la decisión del Amigable Componedor serán cancelados en los mismos
 
 Nacional de Infraestructura
 
-
 ### CAPÍTULO XXV - VARIOS
-
 
 #### 25.1 Cambio de Ley Tributaria (a) El impacto económico generado por un
 
@@ -17696,7 +16823,6 @@ diferencia de que trata la Sección 25.l(a)(ii) anterior deberá ser consignada 
 recursos de que trata la Sección 19.4. Página 320 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
-
 
 #### 25.2 Obras Menores (a) Durante la ejecución del presente Contrato la ANI podrá decidir que se ejecuten obras menores no previstas en el Apéndice Técnico 1, en las Especificaciones Técnicas de este Contrato, ni en la Licencia Ambiental yu otros permisos o concesiones ambientales, solicitadas por las Autoridades Estatales del orden nacional, departamental o municipal, incluyendo las
 
@@ -17812,7 +16938,6 @@ Proceso de Selección, se dará aplicación a lo previsto en la Sección 11.l(d)
 
 pago de los nuevos acuerdos protocolizados y se aplicará, mutatis mutandis, el procedimiento establecido en la Sección 25.2(b).
 
-
 #### 25.3 Obras Sociales (a) Durante la ejecución del presente Contrato la ANI podrá decidir que se ejecuten Obras Sociales no previstas ni en las Especificaciones Técnicas de este Contrato ni en la Licencia Ambiental yu otros permisos o concesiones ambientales, solicitadas por las comunidades ubicadas dentro del Área de Influencia del Proyecto. (b) Las Obras Sociales deberán ser solicitadas por escrito por las autoridades territoriales yo representantes legítimos de las comunidades ante el Concesionario o la ANI y se pondrán en consideración de las instancias que determine la ANI para su estudio, priorización y aprobación previo
 
 concepto de la Interventoría. Los aspectos inherentes al
@@ -17824,7 +16949,6 @@ procedimiento de gestión de
 calidad de la ANI establecido para tal fin. (c) Las Obras Sociales serán implementadas siguiendo las mismas reglas aplicables a las Obras Menores descritas en la Sección 25.2, con excepción de la
 
 fuente de pago de los costos generados con ocasión de su ejecución, la cual será tomada de la Subcuenta Obras Sociales.
-
 
 #### 25.4 Obras y Equipos Complementarios (a) Para los
 
@@ -17861,7 +16985,6 @@ Etapa de Operación y Mantenimiento. Por lo tanto, durante la Etapa Preoperativa
 recursos de la Subcuenta Excedentes ANI para estos efectos, por lo que la
 
 forma de pago de las Obras Complementarias se determinará conforme a lo establecido en la Sección 25.4(c) del presente Contrato.
-
 
 #### 25.5 Obras Voluntarias (a) Sin
 
@@ -17912,7 +17035,6 @@ control de la Obra Voluntaria aprobada. (e) El Concesionario deberá cubrir en t
 valor de los riesgos asignados a la ANI que sean generados por la realización de cualquier Obra Voluntaria. Por consiguiente, deberá fondear en las subcuentas correspondientes los valores que sean necesarios para la realización de la Obra Voluntaria. (f) Las Obras Voluntarias serán
 
 objeto de Reversión.
-
 
 #### 25.6 Cesión (a) Cesión del Contrato. Salvo autorización previa expresa y
 
@@ -18032,13 +17154,11 @@ cualquiera de los derechos u obligaciones derivados del mismo, sin el previo con
 
 resultado de políticas de reestructuración o modernización del Estado colombiano y se mantengan las mismas garantías y coberturas del Contrato.
 
-
 #### 25.7 Renuncia a la reclamación diplomática (a) El Concesionario y la(s) persona(s) o entidad( es) que resulte(n) subcontratista(s) o cesionaria(s) del Contrato se somete(n) a lajurisdicción de los tribunales colombianos y renuncia(n) a intentar reclamación diplomática en lo referente a las obligaciones y derechos originados en el Contrato, salvo en el
 
 caso de denegación dejusticia, entendida de conformidad con las
 
 definiciones de la Ley Aplicable.
-
 
 #### 25.8 Relación Entre las Partes (a) El Contrato no crea relación
 
@@ -18062,11 +17182,9 @@ logos de propiedad de la ANI, sin previa autorización de ésta. Página 327 de 
 
 Nacional de Infraestructura
 
-
 #### 25.9 Inhabilidades e Incompatibilidades (a) Con la suscripción del Contrato, el Concesionario declara bajo la gravedad del juramento que no se halla incurso en
 
 ninguna de las inhabilidades, incompatibilidades o prohibiciones previstas en la Ley Aplicable, que le impidan la celebración del Contrato.
-
 
 #### 25.10 Información de Terceros (a) En el evento en que, en cualquier
 
@@ -18085,7 +17203,6 @@ variable de reemplazo
 dentro de los treinta (30) Días siguientes a que la misma
 
 dejara de ser certificada, el Amigable Componedor determinará la variable respectiva.
-
 
 #### 25.11 Producciones del Concesionario y Propiedad Intelectual (a) Sin
 
@@ -18123,7 +17240,6 @@ normas de propiedad industrial o
 
 derecho de autor, y, asimismo, asignar dicha explotación o uso a terceros, a su conveniencia, de acuerdo con la Ley Aplicable.
 
-
 #### 25.12 Idioma del Contrato (a) Para todos los efectos el idioma oficial del presente Contrato es el Castellano. En
 
 caso de existir traducciones a otro idioma, para
@@ -18132,7 +17248,6 @@ efectos de interpretación de
 
 cualquiera de los Capítulos o Secciones, prevalecerá el documento en idioma Castellano.
 
-
 #### 25.13 Impuestos Página 328 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (a) Cada Parte asumirá los impuestos que les sean aplicables conforme a la Ley Aplicable. Lo anterior sin
@@ -18140,7 +17255,6 @@ Nacional de Infraestructura (a) Cada Parte asumirá los impuestos que les sean a
 perjuicio de las eventuales compensaciones entre las Partes, que
 
 surjan de la aplicación de lo previsto en la Sección 28.1 de este Contrato.
-
 
 #### 25.14 Modificación del Contrato (a) El Contrato junto con sus Apéndices no podrán ser modificado sino por acuerdo escrito debidamente firmado por representantes
 
@@ -18151,7 +17265,6 @@ cumplimiento de los requisitos que impone la Ley Aplicable, sin
 perjuicio de lo dispuesto en cuanto a la modificación unilateral del mismo por
 
 parte de la ANI en los términos de este Contrato y la Ley Aplicable.
-
 
 #### 25.15 Subsistencia de Obligaciones (a) La terminación del Contrato por cualquier causa no extinguirá las obligaciones que por su naturaleza subsistan a tal evento, incluyendo, entre otras, las
 
@@ -18165,7 +17278,6 @@ derecho de la respectiva
 
 parte de ejercer posteriormente tales facultades o derechos, salvo disposición legal en contrario.
 
-
 #### 25.17 Ajustes por solicitud del Interventor (a) Salvo que se indiquen plazos o procedimientos distintos en otros apartes del presente
 
 Contrato de Concesión, cuando éste señale que el Interventor solicita correcciones o ajustes a documentos y como
@@ -18176,7 +17288,6 @@ funcionarios de la ANI y los Amigables Componedores, de manera que al
 
 cabo de máximo quince (15) Días Hábiles el documento quede concluido a satisfacción del Concesionario y el Interventor. De persistir el desacuerdo, cualquiera de las Partes podrá acudir al Amigable Componedor para que solucione la controversia.
 
-
 #### 25.18 Directrices Ambientales y Sociales (a) Sin
 
 perjuicio de lo previsto en el CAPÍTULO
@@ -18184,7 +17295,6 @@ perjuicio de lo previsto en el CAPÍTULO
 XI de este Contrato, el
 
 cumplimiento de las obligaciones del Concesionario debe ser consistentes con los estándares y directrices ambientales y sociales a los cuales se refieren los Principios del Ecuador (Exhibit III) en tanto no controviertan la Ley Aplicable. Los estándares y directrices se pueden consultar en el siguiente link: http:www.eguator- principles.comresourcesequator principies III.pdf.
-
 
 #### 25.19 Representación de la ANI Página 329 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -18212,7 +17322,6 @@ mecanismos de solución de controversias señalados en el CAPÍTULO
 
 XXI de este Contrato.
 
-
 #### 25.20 Notificaciones (a) Las Notificaciones a cada
 
 una de las Partes se realizarán en los siguientes lugares: (i) Por
@@ -18224,7 +17333,6 @@ Contrato de Fiducia Mercantil. (iv) Con anterioridad a la
 Fecha de Inicio, la ANI le comunicará al Concesionario la dirección fisica y electrónica a la cual deberán enviarse todos los documentos que este Contrato prevé que deben ser remitidos a la Interventoría. Toda comunicación a la Interventoría deberá adelantarse como una Notificación. Para
 
 efectos de las comunicaciones que el Interventor esté obligado a remitir al Concesionario yo a la ANI, las mismas también deberán hacerse cumpliendo los requisitos contenidos en la Sección 2.156 de este Contrato.
-
 
 #### 25.21 Información Estadistica (a) El Concesionario se obliga a entregar reportes trimestrales con información estadística de los costos en que efectivamente incurra en cada trimestre, así como los acumulados por Fase, Etapa y
 
@@ -18244,13 +17352,11 @@ futura de otros proyectos a
 
 cargo de la ANI.
 
-
 #### 25.22 Manejo de Información (a) Sin
 
 perjuicio de lo establecido en otros
 
 apartes de este Contrato, toda la información relacionada con el Proyecto deberá ser intercambiada entre las Partes, el Interventor, la Fiduciaria yo el Amigable Componedor, también, a través del SICC en los términos y condiciones previstos en el Apéndice Técnico 4.
-
 
 #### 25.23 Reincorporación (a) Para la acreditación de la condición de mujer
 
@@ -18302,18 +17408,14 @@ mes de abril de 2025 CARLOS BUENO MORALES Representante Legal Concesión Línea 
 
 ---
 
-
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 27/01/2025 
 **Versión:** 3.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 27/02/2025 
-
-
 

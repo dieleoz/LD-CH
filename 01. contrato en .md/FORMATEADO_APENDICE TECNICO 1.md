@@ -1,6 +1,5 @@
 ﻿# APÉNDICE TÉCNICO 1 - ALCANCE DEL PROYECTO
 
-
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
 **Proyecto:** APP La Dorada - Chiriguaná 
@@ -9,23 +8,17 @@
 
 ---
 
-
 ## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT1 | | **Estado** | ✅ Contenido completo |
 
-
 ---
-
 
 ## DESCRIPCIÓN DEL DOCUMENTO **Alcance del Proyecto - Infraestructura Férrea** Este apéndice técnico define el alcance completo del proyecto Corredor Férreo La Dorada-Chiriguaná, incluyendo la infraestructura férrea, logística y anexidades requeridas.
 
 ---
 
-
 ## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
 
-
 ---
-
 
 # REPÚBLICA DE COLOMBIA
 
@@ -39,35 +32,25 @@ ESQUEMA DE APP No 001 DE 2025 Entre: Concedente: Agencia
 
 Nacional de Infraestructura Concesionario: CONCESIÓN LÍNEA FERREA CENTRAL S.A.S APÉNDICE TÉCNICO 1 ALCANCE DEL PROYECTO Página 1 de 70 TABLA DE CONTENIDO
 
-
 ### CAPÍTULO I - INTRODUCCIÓN 4
-
 
 ### CAPÍTULO II - DESCRIPCIÓN DEL PROYECTO 6 2.1. Descripción General 6 2.2. Localización 6
 
-
 ### CAPÍTULO III - INFRAESTRUCTURA FÉRREA 10 3 .1 Infraestructura Férrea, Infraestructura Logística y anexidades 1 O 3 .2 Ramal Cabañas 16
-
 
 ### CAPÍTULO IV - INFRAESTRUCTURA FÉRREA PROYECTADA 18
 
-
 #### 4.1 UFVFlaUFVF53 18
-
 
 #### 4.2 Intervenciones Prioritarias 31
 
-
 #### 4.3 Unidades Funcionales - UF 33 4.3.l Unidad Funcional - UF 1 33 4.3.2 Unidad Funcional- UF 2 34 4.3.3 Unidad Funcional - UF 3 51
-
 
 #### 4.4 Instituciones educativas
 
 objeto de Reversión Especial : 56
 
-
 #### 4.5 Pasos a nivel 59
-
 
 ### CAPÍTULO V - MATERIAL RODANTE 64 5.1. Material Rodante del Proyecto 64 5 .2. Maquinaria para
 
@@ -75,36 +58,27 @@ Mantenimiento de Vía por adquirir 66 5.3. Material
 
 Rodante de Factor de Calidad: 68
 
-
 ### CAPÍTULO VI - FRANJA OPERACIONAL 70
-
 
 ### CAPÍTULO VII - OBLIGACIONES DURANTE LA ETAPA PREOPERATIVA 71
 
-
 #### 7.1 Alcance de las Intervenciones 71
 
-
 #### 7.2 Alcance de las obligaciones en la Etapa Preoperativa 73
-
 
 #### 7.3 Alcance de las obligaciones en la
 
 Fase de Construcción 74
 
-
 #### 7.4 Implementación de la gestión de proyectos bajo el enfoque PMI.. 77
-
 
 ### CAPÍTULO VIII - ALCANCE DE OBLIGACIONES TÉCNICAS PARTICULARES Y ESPECÍFICAS ADICIONALES DEL CONCESIONARIO EN LA REALIZACIÓN DE LOS
 
 ESTUDIOS DE DETALLE 78
 
-
 #### 8.1 Bases y
 
 Criterios de diseño 78
-
 
 #### 8.2 Alcance de los
 
@@ -246,7 +220,6 @@ Departamento de Santander y Gamarra en el
 
 Departamento de Cesar.
 
-
 #### 3.1 Infraestructura Férrea, Infraestructura Logística y anexidades Sin limitarse a lo siguiente, hace
 
 parte de la Infraestructura Férrea: a) El Área Disponible. b) La
@@ -317,7 +290,6 @@ cargo de la ANI, lo cual tendrá un Plazo máximo de Treinta (30) meses desde la
 
 Fecha de Inicio. Figura 3- Localización Ramal Cabañas 1 g 1 Eje Vía Férrea Eje Ramal Caballas Estación Férrea Fuente: Setec - Gómez Cajiao Página i,,( de ijá
 
-
 ### CAPÍTULO IV - INFRAESTRUCTURA FÉRREA PROYECTADA El Proyecto se ha sectorizado por Unidades
 
 Funcionales de Vía Férrea y por Unidades Funcionales. Durante la Etapa Preoperativa y la
@@ -343,7 +315,6 @@ una de las Unidades
 Funcionales de Vía Férrea y de las Unidades Funcionales objeto del Contrato cuentan con los siguientes alcances, los cuales deben realizarse para dar cumplimiento al objeto del mismo. El Corredor del Proyecto estará dividido en Unidades
 
 Funcionales de Vía Férrea (UFVF) según se describe a continuación.
-
 
 #### 4.1 UFVF 1 a UFVF 53
 
@@ -385,13 +356,11 @@ Funcionales de Vía Férrea del Proyecto: Página 19 de 70 Tabla 6 - Unidades
 
 Funcionales de Vía Férrea - UFVF UFVF1 Cocorná - La Argelia 1,158,766.46 937,725.97 269+000 1,170,460.54 940,451.10 282+154 13.154 R. Cocorná UFVF2 La Argelia - La Sierra 1,170,460.54 940,451.10 282+154 1,180,738.06 944,945.47 295+000 12.846 R. San Pablo, R. Nare UFVF3 La Sierra - Grecia 1 1,180,738.06 944,945.47 295+000 1,188,114.26 951,737.88 305+892 10.892 UFVF4 La Sierra - Grecia 2 1,188,114.26 951,737.88 305+892 1,196,224.53 958,214.78 316+783 10.891 C. San Pablo UFVF5 La Sierra - Grecia 3 1,196,224.53 958,214.78 316+783 1,205,805.13 961,699.73 327+675 10.892 C.Negro UFVF6 Ramal Capulco 1,407,248.13 1,040,059.13 597+652 1,407,676.04 1,035,865.84 602+300 4.648 Q. Sinaí UFVF7 Gamarra - La Gloria -Iderna 1 1,413,618.63 1,039,420.87 604+265 1,421,500.96 1,040,101.23 612+197 8.232 Noriam UFVF8 Gamarra - La Gloria 2 1,421,500.96 1,040,101.23 612+197 1,429,388.83 1,040,927.21 620+128 7.931 Pallares UFVF9 Gamarra - La Gloria 3 1,429,388.83 1,040,927.21 620+128 1,437,218.33 1,041,336.61 628+060 7.932 San Marcos UFVF10 Gamarra - La Gloria 4 1,437,218.33 1,041,336.61 628+060 1,444,977.31 1,042,954.10 635+991 7.931 UFVF11 San Rafael - San Alberto 1 1332232.16 1055224.03 516+490 1336857.03 1058305.28 522+085 5.595 Q. Doradas La Palma Q. Cachira UFVF12 San Rafael - San Alberto 2 1336857.D3 1058305.28 522085 1341214.09 1061743.18 527680 5.595 C. Pato El Tropezón El Hoyo San Rafael - San Alberto 1341214.09 1061743.18 527680 1346511.22 1061002.98 533275 5595 C. Picho Uno C. Picho Dos C. Yucatá . La Llana San Alberto UFVF14 San Alberto - San José 1346511.22 1061002.98 533+275 1355915.35 1058475.07 543+013 9.738 Guaduas Minas Dos Agua Blanca UFVF15 San Alberto - San José 2 1355915.35 1058475.07 543+013 1365299.55 1055877.95 552+750 9.737 C. San Juan Minas Uno Simaña UFVF16 La Gloria - Zapatosa
 
-
 #### 1444977.31 1042954.1 635991 1453626.89 1042876.51 644699 8.708 C. Alonso C. Sucio
 
 ---
 
  UFVF17 La Gloria - Zapatosa 2
-
 
 #### 1453626.89 1042876.51 644699 1462304.84 1042153.73 653407 8.708 C. Raíces Q. Espanta Muchacho
 
@@ -795,7 +764,6 @@ que de acuerdo con los Estudios y Diseños de Detalle deban ser intervenidos yo 
 
 parte de la UFVF del tramo correspondiente.
 
-
 #### 4.2 Intervenciones Prioritarias Corresponde a las Intervenciones que el Concesionario deberá ejecutar de manera prioritaria, las cuales deben incluirse en el
 
 Plan de Obras y, posteriormente, ejecutarse, cumpliendo con lo establecido en el Contrato.
@@ -866,7 +834,6 @@ ramales de conexión. A continuación, se listan los puentes prioritarios: Tabla
 
 actual de su estructura. Puente vehicular y peatonal PK 000000, y los ramales hasta la Nuevo eje vial PK 000850, Diseño, Construcción, y conexión con la vía existente Barrancabermeja - Puerto Río Sogamoso NIA (correspondiente al Nuevo eje vial Operación y PK 464+860 del Mantenimiento Wilches en ambos costados Corredor Férreo) del puente
 
-
 #### 4.3 Unidades Funcionales - UF Las Unidades Funcionales deberán cumplir con los
 
 niveles de servicio y los Indicadores establecidos en el Apéndice Técnico 4. 4.3.1 Unidad Funcional - UF 1 Una vez terminadas las
@@ -883,20 +850,15 @@ Acta de Terminación de la Unidad
 
 Funcional de Vía Férrea, estas conformarán la Unidad Funcional 1. Tabla 10 - Unidad Funcional - UF 1 Corredor del Proyecto comprendido
 
-
 #### 1096983.5 934549,28 PK 201+470
-
 
 #### 1526511.5 1056255.8 PK 722+683 521.2 Vía principal entre los 7 3 municipios de Condicione La Dorada, en el
 
 Departamento de Caldas, y 1407248.1 1040059.1 3 3 PK597+652
 
-
 #### 1407676.0 1035865.8 4 4 s de vía PK 602+300 4.6 segura Ramal Capulco Clase 3 - Chiriguaná, en FRA el Departamento 1413728.2 1039380.2 1413447.2 1039374.4 del Cesar con 2 o PK0+000 1 1 PK 0+300 0.3 Ramalldema sus respectivos ramales Puente vehicular y peatonal y los ramales hasta la PK 000000, Construcci conexión con la Nuevo eje vial PK dónde vía existente 1292391.3 1032002.1 (correspondiente al
 
-
 #### 1292955.2 1031471.1 000+850,
-
 
 #### 0.85 puente y Puente priorizado Barrancabermej o 2 PK 464+860 del 4 5 Nuevo eje
 
@@ -1070,63 +1032,43 @@ cantidad de posiciones que requiera según su
 
 estudio de demanda de servicios, y su estrategia y planificación de recursos para atender dicha demanda. A continuación, en la Tabla 12 y Tabla 13 se describen las características y equipamiento mínimos con el que debe contar el taller pesado, respectivamente. Tabla 12 - Características mínimas taller pesado o Aréa Total 16512 1 Porterías 26
 
-
 #### 1.1 Portería Taller 13 1.1.1 Zona vigilancia 8 1.1.2 Baño 2 1.1.3 Cocineta 3
-
 
 #### 1.1 Portería Oficinas 13 1.2.1 Zona vigilancia 8 1.2.2 Baño 2 1.2.3 Cocineta 3 2 Edificio Oficinas y servicios 467
 
-
 #### 2.1 Recepción 65
-
 
 #### 2.2 oficinas 55
 
-
 #### 2.3 Enfermería 21
-
 
 #### 2.4 Cuarto. CCTV 21
 
-
 #### 2.5 Lockers 10 Página 38 de 70
-
 
 #### 2.6 2.7
 
-
 #### 2.8 2.9
-
 
 #### 2.10 2.11 3
 
-
 #### 3.1 3.2
-
 
 #### 3.3 3.4
 
-
 #### 3.5 3.6
-
 
 #### 3.7 3.8
 
-
 #### 3.9 3.10
-
 
 #### 3.11 3.12 4
 
-
 #### 4.1 4.2
-
 
 #### 4.3 4.4
 
-
 #### 4.5 4.6
-
 
 #### 4.7 4.8 Baños Vestier
 
@@ -1156,47 +1098,33 @@ Patio de trenes Vías vehiculares, maniobras y ar ueo Zonas verdes y andenes Tab
 
 ijij de IJ 2429 13590 13 13 51 46 27 145 150 150 142 8 54 46 8 21 300 1500 33 17 750 613 247 13 780 4686 2457 4044
 
-
 #### 1.1 1.2
-
 
 #### 1.3 1.4 Puente grúa Capacidad 25 Toneladas o Mayor, para Área Locomotoras, DIN 15020 FEM 1.001DIN 15018DIN EN 1993 - 6 Puente grúa 6,3 Toneladas, o Mayor Capacidad, Área Material remolcado y
 
 taller de mecanizado.DIN 15020FEM 1.001DIN 15018DINEN 1993-6 2 Montacargas eléctrico 5 Toneladas. Gatos Eléctricos, Elevación de Locomotoras, 35 Toneladas, Marca Whiting, PFAFF O Similar.
 
-
 #### 1.5 Gatos Hidráulicos Portátiles, Accionamiento Neumático. 40-60 Toneladas de Capacidad 2 SISTEMA DE AIRE COMPRIMIDO
-
 
 #### 2.1 Compresor Aire comprimido tornillos, Mínimo 150 SCFM 150 PSI. 2
 
-
 #### 2.2 Paquete de filtración (Prefiltro y Posfiltro) 300 SCFM.
-
 
 #### 2.3 2.4 3
 
-
 #### 3.1 3.2
-
 
 #### 3.3 4
 
-
 #### 4.1 4.2
-
 
 #### 4.3 4.4
 
-
 #### 4.5 4.6 5
-
 
 #### 5.1 5.2
 
-
 #### 5.3 5.4
-
 
 #### 5.5 Secador de Aire Refrigerativo 300 SCFM
 
@@ -1276,66 +1204,45 @@ abastecimiento de combustible y arena, entre otros. Desde este edificio se debe 
 
 detallados de la operación del mismo a la administración del taller pesado. Tabla 14 - Características mínimas taller liviano o Area Total 3431 1 Portería 54
 
-
 #### 1.1 Caseta vigilancia 31
-
 
 #### 1.2 Cuarto de basuras 23 2 Edificio Operación, Oficinas y Servicios 651
 
-
 #### 2.1 Puestos de trabajo 47
-
 
 #### 2.2 Rack 10
 
-
 #### 2.3 Cuarto técnico 10
-
 
 #### 2.4 Cocineta 10
 
-
 #### 2.5 Comedor 43
-
 
 #### 2.6 Baños 26
 
-
 #### 2.7 Compresor 26
-
 
 #### 2.8 Herramientas -Almacenamiento 47
 
-
 #### 2.9 Taller soldadura 21
-
 
 #### 2.10 Taller de mantenimiento (una posición plana) 397
 
-
 #### 2.11 Hall acceso y pasillos 14 3 Áreas exteriores 2726
-
 
 #### 3.1 Patio de trenes 833 Cargue de combustible y arena, planta emergencia y
 
-
 #### 3.2 tanque industrial 333 Vías vehiculares, parq ueaderos, andénes y patio
-
 
 #### 3.3 maniobras 1560 Tabla 15 - Equipamiento mínimo taller liviano Página 42 de 70 1
 
-
 #### 1.1 1.2 2
-
 
 #### 2.1 2.2 3
 
-
 #### 3.1 3.2
 
-
 #### 3.3 4
-
 
 #### 4.1 4.2 SISTEMAS DE
 
@@ -1463,40 +1370,29 @@ cuarto de crisis. Además, deberá contar con
 
 salida de emergencia y un sistema contra incendios. Tabla 16 - Características mínimas edificio administrativo y ceo o 1
 
-
 #### 1.1 1.2 Aréa Total Porterías Zona vi ilancia Baño Página OC de [ 5800 13 8 2
-
 
 #### 1.3 Cocineta 3 Edificio Administrativo y
 
 Centro de Control de 2 O eraciones 2222
 
-
 #### 2.1 Blo ue Administrativo 2.1.1 Planta Baja 450 2.1.2 Planta Alta 450 Bloque
 
 Centro de Control
 
-
 #### 2.2 de O eraciones 450
-
 
 #### 2.3 Patio Central 450
 
-
 #### 2.4 Pasillos Pérgolas 422 3 Áreas exteriores 3565
-
 
 #### 3.1 Vía vehicular parqueadero 855 Area de subestación
 
-
 #### 3.2 eléctrica 72
-
 
 #### 3.3 Área de tanque bombas 233
 
-
 #### 3.4 Área antena comunicaciones 90
-
 
 #### 3.5 Zonas verdes andenes 2315 e) Sistema Señalización, Control de Tráfico y Comunicaciones El Concesionario deberá llevar a cabo los
 
@@ -1878,7 +1774,6 @@ seguridad de las instalaciones administrativas (accesos), y en general la vigila
 
 Transferencia de Carga - CTC CTC - Operación Temprana Municipio La Dorada, Estación México
 
-
 #### 4.5 Construcción de la Infraestructura Logística donde se pueda ofrecer un manejo eficiente, confiable y
 
 seguro de la carga transportada, enfocado a la transferencia
@@ -1929,244 +1824,165 @@ almacenamiento de contenedores, carga suelta, granel líquido y sólido, que per
 
 patio de contenedores y carga suelta). Se estima que este CTC Operación Temprana podrá atender una operación aproximada de 850 mil toneladas año. El CTC - Operación Temprana deberá contar con las áreas mínimas descritas en la siguiente tabla. Tabla 19 - Características mínimas CTC Operación Temprana o Aréa Total 1 Porterías
 
-
 #### 1.1 Portería Acceso 1.1.1 Zona vigilancia 1.1.2 Baño 1.1.3 Cocineta
-
 
 #### 1.1 Portería Salida 1.2.1 Zona vigilancia 1.2.2 Baño 1.2.3 Cocineta 2 Edificio Documentación
 
-
 #### 2.1 Acceso
-
 
 #### 2.2 Atención-documentación Página de rij 44958 26 13 8 2 3 13 8 2 3 294 19 22
 
-
 #### 2.3 Sala de espera 54
-
 
 #### 2.4 Archivo 6
 
-
 #### 2.5 Rack 9
-
 
 #### 2.6 Sala de descanso 18
 
-
 #### 2.7 Baños 2
-
 
 #### 2.8 Comedor 18
 
-
 #### 2.9 Cocineta 3
-
 
 #### 2.10 Fotocopia dora 5
 
-
 #### 2.11 local de envíos 5
-
 
 #### 2.12 Cafetería 22
 
-
 #### 2.13 Comedor 88
-
 
 #### 2.14 Baños 19
 
-
 #### 2.15 Cuarto de aseo 4 3 Edificio Oficinas 560
-
 
 #### 3.1 Recepción 60
 
-
 #### 3.2 Cuarto técnico 25
-
 
 #### 3.3 Cuarto CCTV 25
 
-
 #### 3.4 Sala de reuniones 50 3'.5 Puestos de trabajo 180
-
 
 #### 3.6 Archivo 10
 
-
 #### 3.7 Depósito 10
-
 
 #### 3.8 Baños 20
 
-
 #### 3.9 Rack 15
-
 
 #### 3.10 Cuarto de aseo 5
 
-
 #### 3.11 Sala de descanso 80
-
 
 #### 3.12 Comedor 60
 
-
 #### 3.13 Cocineta 16
-
 
 #### 3.14 Cuarto de aseo 4 4 Edificio Supervisión y control 399
 
-
 #### 4.1 Recepción 34
-
 
 #### 4.2 Sala de descanso 40
 
-
 #### 4.3 Sala de reuniones 30
-
 
 #### 4.4 Cuarto técnico 6
 
-
 #### 4.5 Baño 6
-
 
 #### 4.6 INVIMA 25
 
-
 #### 4.7 Laboratorio 5
-
 
 #### 4.8 ICA 25
 
-
 #### 4.9 Laboratorio 5
-
 
 #### 4.10 DIAN 25
 
-
 #### 4.11 Laboratorio 5
-
 
 #### 4.12 ANTI NARCÓTICOS 25
 
-
 #### 4.13 Laboratorio 5
-
 
 #### 4.14 Zona de caniles 12 Página S de f:í8
 
-
 #### 4.15 Cuarto de vigilancia 12
-
 
 #### 4.16 Rack 12
 
-
 #### 4.17 Baños 23
-
 
 #### 4.18 Cuarto de aseo 5
 
-
 #### 4.19 Comedor 49
-
 
 #### 4.20 Cocineta 9
 
-
 #### 4.21 Hall 41 5 Bodega IDEMA 3300 6 Edifcio Servicios Operarios 243
-
 
 #### 6.1 Sala de descanso SS
 
-
 #### 6.2 Oficina de Servicios 12
-
 
 #### 6.3 Cuarto técnico 12
 
-
 #### 6.4 Baños - Lockers - Vestier 56
-
 
 #### 6.5 Comedor 45
 
-
 #### 6.6 Cocineta 7
-
 
 #### 6.7 Cuarto de aseo 4
 
-
 #### 6.8 Bebederos 11
-
 
 #### 6.9 Hall 41 7 Edificio Mantenimiento 800
 
-
 #### 7.1 Taller de mantenimiento 600 ÁreaContenedor de almacenamiento y
-
 
 #### 7.2 despacho de lubricantes 40
 
-
 #### 7.3 ÁreaContenedor de herramientas 40
-
 
 #### 7.4 Oficina de mantenimiento 60
 
-
 #### 7.5 Baños 18
-
 
 #### 7.6 Almacenamiento 18
 
-
 #### 7.7 Hall 24 8 Áreas exteriores 39336
-
 
 #### 8.1 Vías vehiculares y parqueaderos 4885
 
-
 #### 8.2 Patios de contenedores 22396
-
 
 #### 8.3 Bahía maniobras carga suelta 3155
 
-
 #### 8.4 Bahía taller 1400
-
 
 #### 8.5 Zonas verdes y andenes 7500 Tabla 20 - Equipamiento mínimo CTC operación temprana 1 EQUIPOS LOGÍSTICOS
 
-
 #### 1.1 Reach Stacker 45t Diesel (Para contenedores de 20' y 40' a 5 niveles en altura)
-
 
 #### 1.2 Reach Stacker 45t Diesel (Para contenedores de 20' y 40' a 6 niveles en altura) Página 55 de 70
 
-
 #### 1.3 Montacargas de ruedas 1 0t Diesel (De horquillas, con cabina cerrada) 1
 
-
 #### 1.4 Montacargas de ruedas 2,5t Diesel (De horquillas, con cabina cerrada) 1
-
 
 #### 1.5 Mini
 
 Cargador de ruedas Capacidad: 1850Kg Diesel (Con cuchara para granos. Cabina cerrada 2 TALLER EQUIPOS LOGÍSTICOS
 
-
 #### 2.1 TALLER CONTENEDOR Contenedor metálico 7,2 x 2,55 x 2,93 incluye
 
 aislamiento de paredes, techo y 2.1.1 adecuaciones generales en puerta y ventana, incluye patín y polipasto manual de 1 cadena 1 tonelada, acometidas eléctricas, tomacorrientes e iluminación. N/A - N/A 2.1.2 Aire acondicionado montado en el techo del contenedor, 13500 btu, Eléctricos 220-60/ 1,625Kwatt 2.1.3 Generador eléctrico diesel, 4-tiempos, Turbo, Diesel 220-60/ 45 Kwatt 2.1.4 Taladro de árbol eléctrico 220-60/ 0,9 kwatt 2.1.5 Hidrolavadora de agua fría eléctrico 220-60 7,5 kwatt 1
-
 
 #### 2.2 CONTENEDOR DE LUBRICANTES Contenedor metálico 7,2 x 2,55 x 2,93 incluye
 
@@ -2203,7 +2019,6 @@ control de tráfico y de estaciones, la seguridad vial férrea y vehicular - pas
 seguridad de la carga y de las instalaciones logísticas, la
 
 seguridad de las instalaciones administrativas (accesos), y en general la vigilancia y el monitoreo (con video) de la infraestructura relevante. Página 56 de 70
-
 
 #### 4.4 Instituciones educativas
 
@@ -2321,7 +2136,6 @@ calidad de los servicios educativos, todo de conformidad con la NTC 4595. Asimis
 
 son de carácter vinculante para el Concesionario; así las cosas, dichas obligaciones se consideran transcritas y espejo en el Contrato. Nota 2: La asignación de riesgos para las instituciones educativas sigue las mismas reglas establecidas en el Contrato hasta su Reversión. Página 59 de 70
 
-
 #### 4.5 Pasos a nivel El Concesionario deberá llevar a cabo los Estudios y Diseños de Detalle los cuales deben incluir
 
 dentro de otras cosas, la evaluación de cada
@@ -2359,7 +2173,6 @@ clase de la tabla anterior: Tabla 24 - Relación de pasos a nivel identificados 
 ---
 
  Página 64 de 70
-
 
 ### CAPÍTULO V - MATERIAL RODANTE 5 .1. Material Rodante del Proyecto . El Concesionario tiene la obligación de realizar la Puesta a Punto a todo el Material Rodante del Proyecto. Dichas actuaciones corresponden a todas aquellas actividades que incluyen y sin limitarse, al completo desmontaje, limpieza, inspección, diagnóstico, reacondicionamiento, reparación o
 
@@ -2446,7 +2259,6 @@ regulador de inclinación lateral. Carromotor: Trocha yárdica, dos bogies con u
 plataforma de carga mínimo 2 Tn y
 
 carro de pasajeros min 6 personas. Grúa ferroviaria: Capacidad de 25 Tn, longitud de brazo 5 m. Equipo menor especializado: Gato: Capacidad 15 Tns, carrera 13.3 cms, altura mínima al talón 5 cm, altura mínima cabeza,
-
 
 #### 17.7 cm Sierras circulares para
 
@@ -2584,13 +2396,11 @@ suministro de las 30 plataformas, que constituyen la
 
 oferta de Factor de Calidad, cumpliendo con los especificado en el Contrato y en los Apéndices Técnicos. Estas especificaciones detalladas deben ser no objetadas por la Interventoría.
 
-
 ### CAPÍTULO VI - FRANJA OPERACIONAL A continuación, se define las
 
 velocidades de la Franja Operacional para el Corredor del Proyecto. El Concesionario estará obligado a realizar todas las gestiones necesarias que le permitan asegurar, conformar y materializar la Franja Operacional requerida para garantizar una operación segura, confiable y eficiente. Tabla 25 - Velocidades máximas en la Franja Operacional Estación México PK201470 PK202450 0.98 5 Urbana La Dorada PK 202+450 PK.204+500 2.05 5 Zona rural PK 204+500 PK268+500 64.00 50 Urbana Cocomá PK268+500 PK269+500 1.00 5 Zona rural PK269+500 PK 327+000 57.50 50 Sub Urbana Grecia - Pta. Berrío PK327+000 PK329+000 2.00 20 Zona rural PK329+000 PK331+000 2.00 50 Urbana Puerto Berrío PK331+000 PK 332+500 1.50 5 Sub Urbana Puerto Olaya PK332+500 PK 333+500 1.00 5 Zona rural PK333+500 PK 440+000 106.50 50 Urbana Barrancabermeja PK440+000 PK444+800 4.80 5 Zona rural PK444+800 PK 465+400 20.60 50 Página 71 de 70 Urbana Río Sogamoso PK 465+400 PK465+900 0.50 5 Zona rural PK465+900 PK 516+900 51.00 50 Sub Urbana San
 
 Rafael de Lebrija PK 516+900 PK 517+600 0.70 20 Zona rural PK 517+600 PK 552+500 34.90 50 Sub Urbana San José PK 552+500 PK 552+800 0.30 20 Zona rural PK 552+800 PK 557+300 4.50 50 Sub Urbana Torcoroma PK 557+300 PK 557+500 0.20 20 Zona rural PK 557+500 PK 562+900 5.40 50 Sub Urbana Cuatro Bocas PK 562+900 PK 563+300 0.40 20 Zona rural PK 563+300 PK 569+900 6.60 50 Sub Urbana Santa Lucía PK 569+900 PK 571+500 1.60 20 Zona rural PK 571+500 PK 664+000 92.50 50 Sub Urbana Palestina La Nueva PK 664+000 PK 665+000 1.00 20 Zona rural PK 665+000 PK 722+683 57.68 50 Zona rural Ramal Capulco PK 597+652 PK 602+300 4.65 50
-
 
 ### CAPÍTULO VII - OBLIGACIONES DURANTE LA ETAPA PREOPERATIVA Durante la Etapa Preoperativa, el Concesionario deberá adelantar todas las Intervenciones y actividades necesarias para el
 
@@ -2674,7 +2484,6 @@ ruinas de tal forma que se garantice la protección de ellas. Esta sobrecubierta
 
 condiciones de vientos y sismos entre otros.
 
-
 #### 7.2 Alcance de las obligaciones en la Etapa Preoperativa a) Además de lo establecido en el Contrato y en las Especificaciones Técnicas, así como de la obligación del
 
 Concesionario de adelantar todas las actividades requeridas por la Ley Aplicable para el
@@ -2702,7 +2511,6 @@ requieran de acuerdo con los estudios hidráulicos, hidrológicos y de socavaci�
 funcionamiento de cada Unidad Funcional yo Unidad
 
 Funcional de Vía Férrea.
-
 
 #### 7.3 Alcance de las obligaciones en la
 
@@ -2806,7 +2614,6 @@ bocina de los vehículos ferroviarios, silbato del personal o cualquier otra se�
 
 responsable de los métodos, la forma y programación en que adelante las Intervenciones del Proyecto, pero siempre se debe cumplir como mínimo las Especificaciones Técnicas, de acuerdo con las normas vigentes y que le permitan obtener los resultados previstos en este Apéndice Técnico, el Apéndice Técnico 4 y demás Especificaciones Técnicas. Igualmente, el Concesionario en sus distintas Intervenciones debe dar cumplimiento a las obligaciones impuestas en los trámites y permisos. El Concesionario deberá ejecutar las Intervenciones dando cumplimiento a los plazos y condiciones señalados en el Contrato y cumpliendo con lo establecido en el Apéndice Técnico 3. Página 77 de 70
 
-
 #### 7.4 Implementación de la gestión de proyectos bajo el enfoque PMI El concesionario deberá aplicar e implementar la Gestión de Proyectos bajo las buenas prácticas del Project Management Institute (PMI). Y deberá atender otros documentos, registros o acciones que requiera la ANI para verificar la ejecución, monitoreo y control del proyecto bajo lineamientos del PMI. El concesionario deberá entregar su
 
 Plan de gestión de Proyectos incluyendo cronograma y
@@ -2815,11 +2622,9 @@ matriz de riesgos bajo las buenas prácticas del Project Management Institute (P
 
 Plan de Conservación del activo. El Concesionario deberá incluir como mrmmo un profesional certificado PMP (Con certificación vigente otorgada por el Project Management Institute- PMI. Página 'f'ijj de
 
-
 ### CAPÍTULO VIII - ALCANCE DE OBLIGACIONES TÉCNICAS PARTICULARES Y ESPECÍFICAS ADICIONALES DEL CONCESIONARIO EN LA REALIZACIÓN DE LOS
 
 ESTUDIOS DE DETALLE
-
 
 #### 8.1 Bases y
 
@@ -2842,7 +2647,6 @@ plan de ejecución BIM (BEP) y como parte de él establecer el
 entorno de datos comunes (CDE) o entorno colaborativo (CDE), estándares y demás elementos
 
 necesarios de acuerdo con lo establecido en el Anexo ATl-2 BIM y de conformidad con la normativa vigente.
-
 
 #### 8.2 Alcance de los
 
@@ -2880,7 +2684,6 @@ REPUBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
 
-
 ## AGENCIA
 
 NACIONAL DE INFRAESTRUCTURA
@@ -2888,7 +2691,6 @@ NACIONAL DE INFRAESTRUCTURA
 CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No. 001 DE 2025 Concedente:
-
 
 ## AGENCIA
 
@@ -2908,49 +2710,37 @@ morales de autor le corresponden a TDC Lab S.A.S. Esta obra está distribuida ba
 
 TABLA DE CONTENIDO
 
-
 #### 1.0 CONCEPTOS GENERALES 5
-
 
 #### 1.1 Jerarquía y progresión de
 
 requisitos de información 9
 
-
 #### 2.0 REQUERIMIENTOS DE IMPLEMENTACIÓN E INTERCAMBIO 11 ANEXO TÉCNICO No. 7 ANEXO TÉCNICO BIM (ATB-F2) 2023 4 . AgOflda Nac;i;;;;,-- lnfraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. a ni. gov. co NIT. 830125996-9. Código Postal ANI 110221 Página 2 de 78
-
 
 #### 2.1 Información General 11 2.1.1 Alcance BIM del Proyecto 12 2.1.2 Estructura de Segregación de Proyecto 13 2.1.3 Estructura de
 
 desglose de paquetes de trabajo 13
 
-
 #### 2.2 Aplicabilidad y propósito 14 2.2.1 Protocolo de
 
 intercambio de información BIM 15
-
 
 #### 2.3 Requerimientos de respuesta al Anexo Técnico BIM para Factibilidad (ATB-F3) 19 2.3.1 Entregables BIM en el marco del
 
 desarrollo de los diseños de detalle y estudios definitivos 19
 
-
 #### 3.0 REQUERIMIENTOS DE INFORMACIÓN DEL PROYECTO 21
-
 
 #### 3.1 Metas generales BIM 21
 
-
 #### 3.2 Objetivos específicos BIM 22
-
 
 #### 3.3 Estado de
 
 Avance de Información de los Modelos (EAIM) 23 3.3.1 Propósito de la información y Usos BIM aplicables al Proyecto 24 3.3.2 Aplicación de usos BIM 24
 
-
 #### 3.4 Indicadores aplicables a la implementación de procesos BIM 28
-
 
 #### 3.5 Estándar de información 29 3.5.1 Nivel de
 
@@ -2964,14 +2754,11 @@ entrega de información 35 3.5.5 Categorías o
 
 tipos de información (COI - TDI) 35 3.5.6 Tipos de modelos 36 3.5.7 Entidades Elementos mínimos requeridos 37
 
-
 #### 3.6 Sistemas de clasificación de información 37
-
 
 #### 3.7 Formato de
 
 intercambio de datos para interoperabilidad (IFCMVD) 38 3.7.1 Estructura de representación IFC , 39
-
 
 #### 3.8 Requerimientos para gestión de activos 41 Información de referencia y recursos compartidos 42 Procesos de
 
@@ -2981,11 +2768,9 @@ ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 Agencia
 
 Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Pis 2 PBX: 4848850 - www.a ni .gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 3 de 78 Matriz de asignación de la gestión de información 43 Roles y responsabilidades BIM 43 Personal recomendado 46
 
-
 #### 4.0 ESTRATEGIA DE PRODUCCIÓN Y
 
 ENTREGA DE INFORMACIÓN 47
-
 
 #### 4.1 Estrategia de gestión de información 48 4.1.1 Estructura de carpetas 49 4.1.2 Nomenclatura 51 4.1.3 Campos de
 
@@ -2993,11 +2778,9 @@ nomenclatura de documentos 52 4.1.4 Metadatos requeridos para gestión de inform
 
 confidencialidad de archivos 57
 
-
 #### 4.2 Estrategia de colaboración 57 4.2.1 Programa
 
 detallado de equipos de proyecto 57 4.2.2 Estrategia de resolución de conflictos 58 4.2.3 Flujo de gestión de información 58 4.2.4 Procesos de recibo y aceptación de entrega bles 61
-
 
 #### 4.3 Estrategia de control y
 
@@ -3007,17 +2790,13 @@ cumplimiento de gestión y
 
 calidad de información (KPI} 63 4.3.3 Estrategia de coordinación 64 4.3.4 Estrategia de detección de interferencias 64
 
-
 #### 5.0 ESTÁNDARES PARA PRODUCCIÓN DE INFORMACIÓN BIM 64
 
-
 #### 6.0 MÉTODOS Y PROCEDIMIENTOS PARA PRODUCCIÓN DE INFORMACIÓN BIM 66
-
 
 #### 6.1 Plataformas de trabajo 66 6.1.1 Herramienta de
 
 intercambio de información 67 6.1.2 Requerimientos de software 71 6.1.3 Requerimientos de hardware 71 6.1.4 Rendimiento de sistema 71
-
 
 #### 6.2 Seguridad : 72 ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
@@ -3025,28 +2804,21 @@ ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Agencia
 
 Nackloai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX, 4S48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 4 de 78
 
-
 #### 6.3 Formato de
 
 intercambio de datos 72
 
-
 #### 6.4 Sistema de coordenadas 73
-
 
 #### 6.5 Estrategia de federación de modelos 73
 
-
 #### 6.6 Estrategia de modelación 74 6.6.1 Granularidad 74 6.6.2 Espacialidad y funcionalidad 74 6.6.3 Precisión en las dimensiones 75
 
-
 #### 7.0 FORMATOS Error! Bookmark not defined.
-
 
 #### 8.0 BIBLIOGRAFÍA 77 ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
 ESTUDIOS DE DETALLE IPubV1.0 (ATB-F3) 2024 Agencia Naclonai do Infraestructura
-
 
 #### 1.0 CONCEPTOS GENERALES Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 5 de 78 La Agencia
 
@@ -3316,7 +3088,6 @@ grado de implementación de la metodología BIM en Colombia y la
 
 disponibilidad de los recursos o herramientas que esta requiere.
 
-
 #### 1.1 Jerarquía y progresión de
 
 requisitos de información ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
@@ -3365,7 +3136,6 @@ requisitos de Información para la contratación a nivel proyecto Según NTC-1S0
 
 requerimientos de información definidos por la NTC- 1S0 19650-1. Elaboración propia TDC lAB basada en NTC-I5O19650-1.
 
-
 #### 2.0 REQUERIMIENTOS DE IMPLEMENTACIÓN E INTERCAMBIO Esta sección define el marco colaborativo, junto con los principios generales para la realización de la implementación del enfoque BIM y la realización del
 
 Protocolo de intercambio de información según NTC-1S0 19650-1, NTC-JSO 19650-2., durante el
@@ -3375,7 +3145,6 @@ desarrollo de la
 etapa de estudios y diseños de detalle del
 
 proyecto de APP iniciativa pública presentado en el siguiente numeral.
-
 
 #### 2.1 Información General A continuación, se presenta la información resumen del proyecto objeto del presente
 
@@ -3478,7 +3247,6 @@ fase de pre-construcción. El desglose que se presentará en el BEP deberá ser 
 logro de los objetivos que se persiguen con la implementación de BIM. Este aspecto será sujeto de aceptación por
 
 parte de la ANI.
-
 
 #### 2.2 Aplicabilidad y propósito El presente Anexo Técnico
 
@@ -3752,7 +3520,6 @@ ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Avenida Calle 24A Nro. 59-42 Torre 4
 
 partir de elementos 3D.
 
-
 #### 2.3 Requerimientos de respuesta al Anexo Técnico BIM para Factibilidad {ATB-F3) El Concesionario deberá presentar los siguientes entregables para dar respuesta a los requerimientos establecidos en el presente Anexo Técnico BIM para diseños de detalle (ATB-F3), los cuales están alineados a la norma NTC-1S0 19650-2:2021, 5.2.1, A continuación, se describe cada
 
 uno de los entrega bles. 2.3.1 Entregables BIM en el marco del
@@ -3863,7 +3630,6 @@ Plan de Ejecución BIM (BEP) Formato sub-anexo
 
 Plan de Movilización de Recursos (PDM) Formato sub-anexo Evaluación de Capacidad y Competencias BIM (CCA)
 
-
 #### 3.0 REQUERIMIENTOS DE INFORMACIÓN DEL PROYECTO En esta sección se describen los requerimientos BIM que dan cumplimento a los objetivos del proyecto, los estándares BIM aplicables y los demás
 
 requerimientos de información para la
@@ -3871,7 +3637,6 @@ requerimientos de información para la
 etapa de diseños definitivos y
 
 estudios de detalle.
-
 
 #### 3.1 Metas generales BIM A continuación, se definen las
 
@@ -3918,7 +3683,6 @@ etapa de construcción y posterior operación
 ---
 
 ------
-
 
 #### 3.2 Objetivos específicos BIM Para asegurar un enfoque
 
@@ -3969,7 +3733,6 @@ modelos de información y datos estandarizados que faciliten la revisión y la
 toma de decisiones. Generar diseños mejor coordinados, cumpliendo normativa, reduciendo los
 
 tiempos de producción, revisión y aprobación de diseños, reduciendo la aparición de problemas en la construcción y operación del proyecto. Análisis de programa espacial (programa arquitectónico), Planeación de fases, validación de normativa y Revisión de Diseño Coordinación 3D, diseño de especialidades y revisión de diseño Aumentar la precisión del presupuesto a través de obtención de cantidades más exactas. Estimación de cantidades y costos Asegurar la sostenibilidad del proyecto, satisfaciendo las necesidades del presente sin comprometer la capacidad en el futuro, garantizando el equilibrio entre el crecimiento económico, el cuidado del medio ambiente y el bienestar social. Evaluación de Sustentabilidad
-
 
 #### 3.3 Estado de
 
@@ -4181,7 +3944,6 @@ reporte de Validación de norma
 
 Reporte de Evaluación de sustentabilidad
 
-
 #### 3.4 Indicadores aplicables a la implementación de procesos BIM El Concesionario dentro del
 
 Plan de Ejecución BIM (BEP) de
@@ -4211,7 +3973,6 @@ etapa de pre-construcción. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DE
 ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 4 . Agoncla
 
 Nacional de Infraestructura
-
 
 #### 3.5 Estándar de información Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Pax: 4B48B6o -www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 29 de 78 El estándar de información permite definir el contenido requerido y las métricas de aplicación de los
 
@@ -4597,7 +4358,6 @@ tipo de modelo, ajustar yo adicionar o eliminar todo elemento que considere nece
 
 especialidad de diseño, orientado a dar cumplimiento al alcance del proyecto.
 
-
 #### 3.6 Sistemas de clasificación de información Un
 
 sistema de clasificación de elementos es una
@@ -4661,7 +4421,6 @@ obra de construcción vial. Para facilitar la aplicación de las especificacione
 sistema de clasificación de elementos basado en los artículos de dichas especificaciones, que permite identificar, codificar y nombrar los elementos que conforman un
 
 proyecto de infraestructura vial, de acuerdo con su función, ubicación, composición y características
-
 
 #### 3.7 Formato de
 
@@ -4780,7 +4539,6 @@ Nivel de Control Piso 9 1-------------"-- ......_.
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . Agenda
 
 Nacional de Infraestructura lfcElement Caisson 2.Sm d Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4848B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 41 de 78 Muro cortafuego 1hr
-
 
 #### 3.8 Requerimientos para gestión de activos Para la Agencia
 
@@ -5058,7 +4816,6 @@ contratos de consultoría, u obra, o interventoría para
 
 proyectos de infraestructura o edificación.
 
-
 #### 4.0 ESTRATEGIA DE PRODUCCIÓN Y
 
 ENTREGA DE INFORMACIÓN En este capítulo se especifican los requerimientos para la
@@ -5092,7 +4849,6 @@ ciclo de vida del proyecto. Este CDE debe estar configurado para cumplir con el
 flujo de la información descrito en la NTC-15O 19650-1. Ambiente Común de Datos (CDE) -- .... 1 1 1 l ll i,I J s"' l .,ol 1 2 1 1 i I- ,-,,,l '"r l.; l 1 . 1 1 1'1 l I Figura 5.
 
 Flujo de estados de la información según ISO 19650-1. Elaboración TDC LAB.
-
 
 #### 4.1 Estrategia de gestión de información A continuación, se describen los
 
@@ -5412,7 +5168,6 @@ intercambio de información y sus equivalentes). CF Confidencial La información
 
 negocios de la parte designada, sin limitarse a daños financieros o de reputación.
 
-
 #### 4.2 Estrategia de colaboración El Concesionario deberá gestionar la información dentro del Ambiente Común de Datos (CDE) del proyecto. En los numerales que a continuación se exponen, se establecen los requerimientos mínimos respecto al programa
 
 detallado de equipos de proyecto, la
@@ -5602,7 +5357,6 @@ proyecto de la ANI (delegado para tal fin) y deberá notificarle su entrega por 
 ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Agencia Nacional da Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 62 de 78 Toda entrega debe ser subida a través del CDE junto con el MIDP que se debe emplear para validar la
 
 completitud de los documentos.
-
 
 #### 4.3 Estrategia de control y
 
@@ -5794,7 +5548,6 @@ tipos de colisiones y los
 
 niveles de tolerancia de estas.
 
-
 #### 5.0 ESTÁNDARES PARA PRODUCCIÓN DE INFORMACIÓN BIM ANEXO TÉCNICO No. lA ANEXO TÉCN!CO BIM DISEÑOS DEFINITIVOS Y
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 lgllfltla
@@ -5829,9 +5582,7 @@ definido de acuerdo con el contenido del presente documento o superior en la
 
 etapa de factibilidad. Proyectos Públicos - Versión 1.1. para la gestión y los PlanBim Chile - requerimientos de Vigente información BIM en proyectos públicos.
 
-
 #### 6.0 MÉTODOS Y PROCEDIMIENTOS PARA PRODUCCIÓN DE INFORMACIÓN BIM En este capítulo se especifican los métodos y procedimientos mínimos que debe implementar el Concesionario, para llevar a cabo la producción de información BIM, siguiendo a su vez, los estándares mínimos establecidos en los capítulos anteriores.
-
 
 #### 6.1 Plataformas de trabajo ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
@@ -6033,7 +5784,6 @@ necesidades de cada programa a utilizar y con ello, garantizar la adecuada produ
 
 ESTUDIOS DE DETALLE IPub.V1.0 (ATB-F3) 2024 Agencia N.Jcionat 00 Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 72 de 78 cronograma general del proyecto. Sin embargo, se solicita que los modelos individuales no superen las 200 MB para que su manipulación sea fácil.
 
-
 #### 6.2 Seguridad El Concesionario debe garantizar técnicamente la confidencialidad y
 
 seguridad de la información según los términos de la ley 1508 de 2012, y cumplir con las medidas requeridas por la Agencia
@@ -6060,7 +5810,6 @@ acuerdo de confidencialidad y siempre que no se
 
 trate de secretos industriales o de información que la Ley prohíba revelar.
 
-
 #### 6.3 Formato de
 
 intercambio de datos El Concesionario deberá entregar los
@@ -6072,7 +5821,6 @@ ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencia Nacloool rle lnfraestmcl
 origen de la
 
 herramienta de producción. Entregables digitales no modificables: Formato de interoperabilidad no modificable IFC, PDFa.
-
 
 #### 6.4 Sistema de coordenadas El Concesionario deberá usar el
 
@@ -6089,7 +5837,6 @@ requerida de levantamiento
 Sistema de Importación del Modelo Coordenadas
 
 Base de los Modelos "Punto de Amarre" Topográfico Base del Proyecto Coordenadas del "Punto de Amarre" del Proyecto Rotación del Proyecto (Norte Real) Nivel Cero (O) del Proyecto Punto Base Unidades Constructivas
-
 
 #### 6.5 Estrategia de federación de modelos En la siguiente tabla se presenta la
 
@@ -6142,7 +5889,6 @@ desarrollo de la
 etapa de diseños definitivos y
 
 estudios de detalle.
-
 
 #### 6.6 Estrategia de modelación El Concesionario deberá establecer en el
 
@@ -6238,7 +5984,6 @@ inicio de las actividades BIM
 
 anexado de manera preliminar en el PRE-BEP. Contiene los 6 REQUERIMIENTO DE INFORMACIÓN DEL ACTIVO requerimientos de (AIR) información de los activos. Guía con las abreviaturas propuestas que deberán ser empleadas por el 11102023 7 GUÍA DE NOMENCLATURA BIM 8 REQUERIMIENTO DE INFORMACIÓN ALFANUMÉRICA (LOI) 9 FICHAS DE USOS BIM
 
-
 #### 8.0 BIBLIOGRAFÍA Concesionario para la definición de la
 
 nomenclatura de los archivos a entregar en el proyecto.
@@ -6299,18 +6044,14 @@ ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 LooomctoraGR-12 1201 2 motoraGR_-1,2
 
 ---
 
-
 ## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
 ---
 
- 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
-
-
 
