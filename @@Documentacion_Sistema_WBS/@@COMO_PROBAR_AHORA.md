@@ -1,11 +1,49 @@
 # 🚀 CÓMO PROBAR EL SISTEMA AHORA MISMO
-## 3 Formas de Probar (Elige la más fácil)
+## 4 Formas de Probar (Elige la más fácil)
+
+**Última actualización:** 11 de Octubre 2025 (v14.7)  
+**Novedades:** Layout Maestro Interactivo + Workflow Automático  
 
 ---
 
-## ⭐ **OPCIÓN 1: PRUEBA RÁPIDA (2 minutos)** - Recomendado
+## 🗺️ **OPCIÓN 1: LAYOUT MAESTRO INTERACTIVO (v14.7 - NUEVO)** ⭐⭐
 
-### **Con archivo de ejemplo (Sin riesgo)**
+### **La forma más visual y práctica:**
+
+1. **Abre el Layout Maestro:**
+   ```
+   IX. WBS y Planificacion/WBS_Layout_Maestro.html
+   ```
+
+2. **Prueba los filtros inteligentes:**
+   - Selecciona: "Tipo de Equipo: TELECOMUNICACIONES"
+   - Observa cómo el filtro "Sistema" se actualiza automáticamente
+   - Selecciona: "Sistema: Fibra"
+   - Verás: 1,823 cajas de empalme + 130 domos de fusión
+
+3. **Genera una DT desde el filtro:**
+   - Con los filtros aplicados (Fibra)
+   - Clic: [📋 Crear DT desde Filtro]
+   - Completa observación y justificación
+   - Descarga: `DT-FIBRA-XXX-2025-10-11.md`
+
+4. **Ejecuta la DT (Workflow automático):**
+   ```powershell
+   # Guarda el archivo DT en: II. Apendices Tecnicos/Decisiones_Tecnicas/
+   # Luego ejecuta:
+   .\scripts\servir_ingenieria_completo.ps1 -Sistema 02
+   
+   # El sistema hace TODO automáticamente:
+   # ✅ Detecta DT con impacto_layout: true
+   # ✅ Ejecuta script especializado (regenerar_fibra_1824_cajas.ps1)
+   # ✅ Regenera layout, consolida ingeniería, sirve documentos
+   ```
+
+---
+
+## ⭐ **OPCIÓN 2: PRUEBA RÁPIDA DT (2 minutos)** - Sin riesgo
+
+### **Con archivo de ejemplo:**
 
 1. **Abre el archivo de ejemplo en Cursor:**
    ```bash
@@ -31,9 +69,9 @@
 
 ---
 
-## 🌐 **OPCIÓN 2: DESDE WBS INTERACTIVA (Flujo completo)**
+## 🌐 **OPCIÓN 3: DESDE WBS INTERACTIVA (Flujo completo)**
 
-### **Genera tu propia DT**
+### **Genera tu propia DT:**
 
 1. **Abre WBS Interactiva:**
    - Navega a: `IX. WBS y Planificacion/`
@@ -72,9 +110,9 @@
 
 ---
 
-## 📖 **OPCIÓN 3: LEE LA DOCUMENTACIÓN PRIMERO**
+## 📖 **OPCIÓN 4: LEE LA DOCUMENTACIÓN PRIMERO**
 
-### **Para entender el flujo completo**
+### **Para entender el flujo completo:**
 
 1. **Lee la guía de ejecución:**
    ```
@@ -223,6 +261,18 @@ Simula DT-FIBRA-999
 
 ---
 
-**Fecha:** 7 de Octubre de 2025  
-**Sistema:** WBS Interactivo v3.0  
+## 📊 **RESUMEN DE OPCIONES**
+
+| Opción | Qué Prueba | Tiempo | Riesgo | Recomendado |
+|:-------|:-----------|:-------|:-------|:------------|
+| **1. Layout Maestro** | Interfaz visual, filtros, DT desde layout | 5 min | Ninguno | ⭐⭐⭐⭐⭐ |
+| **2. DT Ejemplo** | Comandos Cursor (Simula/Ejecuta) | 2 min | Ninguno | ⭐⭐⭐⭐ |
+| **3. WBS Interactiva** | Flujo completo DT desde WBS | 10 min | Bajo | ⭐⭐⭐ |
+| **4. Documentación** | Entender antes de probar | 15 min | Ninguno | ⭐⭐ |
+
+---
+
+**Última actualización:** 11 de Octubre de 2025  
+**Sistema:** WBS Interactivo v14.7 + Layout Maestro  
+**Estado:** ✅ ACTUALIZADO A v14.7  
 

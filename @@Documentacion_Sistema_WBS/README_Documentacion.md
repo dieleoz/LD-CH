@@ -1,76 +1,73 @@
-# 📚 DOCUMENTACIÓN: Sistema WBS Interactivo v4.0
-## Toda la documentación del sistema implementado 7 Oct 2025
+# 📚 DOCUMENTACIÓN: Sistema WBS Interactivo v14.7
+## Documentación Esencial del Sistema WBS + Layout Maestro
 
 **Ubicación:** `@@Documentacion_Sistema_WBS/`  
-**Total archivos:** 21 documentos  
-**Estado:** ✅ COMPLETO Y ORGANIZADO  
+**Total archivos:** 5 documentos (18 históricos movidos a `old/`)  
+**Última actualización:** 11 de Octubre 2025  
+**Estado:** ✅ DOCUMENTACIÓN ESENCIAL ACTUALIZADA  
 
 ---
 
 ## 🎯 **CONTENIDO DE ESTA CARPETA**
 
-Esta carpeta contiene **toda la documentación** del **Sistema WBS Interactivo v4.0** implementado el 7 de Octubre de 2025.
+Esta carpeta contiene la **documentación esencial** del **Sistema WBS Interactivo v14.7** (Layout Maestro + DT + Riesgos).
+
+**Nota:** 18 documentos históricos de sesiones anteriores (7-Oct) fueron movidos a `old/` para mantener la carpeta limpia.
 
 ---
 
-## 📖 **DOCUMENTOS POR CATEGORÍA**
+## 📖 **DOCUMENTOS ESENCIALES (5 archivos)**
 
-### **🚀 INICIO RÁPIDO (3 docs):**
-1. ⭐ **@@LEEME_SISTEMA_COMPLETO.md** - Inicio en 5 pasos (EN RAÍZ)
-2. **@@COMO_PROBAR_AHORA.md** - Cómo probar ahora mismo
-3. **@@GUIA_COMPLETA_Sistema_WBS_Interactivo.md** - Guía completa (EN RAÍZ)
+### **1. @@SISTEMA_DT_YAML_IMPLEMENTADO.md** (11 KB) ⭐
+- **Propósito:** Documenta el sistema de Decisiones Técnicas con YAML
+- **Contenido:** Flujo completo DT, ejecución Cursor, comandos
+- **Estado:** ✅ VIGENTE - Base del sistema DT
+- **Actualizado:** 7-Oct-2025
 
-### **📊 SISTEMA COMPLETO (6 docs):**
-4. ⭐⭐ **@@SISTEMA_COMPLETO_FINAL_7Oct2025.md** - Resumen completo sesión
-5. **@@SISTEMA_DT_YAML_IMPLEMENTADO.md** - Sistema DT + YAML
-6. **@@SISTEMA_RIESGOS_DINAMICO_Integrado.md** - Gestión riesgos
-7. **@@SISTEMA_COMPLETO_WBS_Sincronizado.md** - Sincronización WBS
-8. **@@INTEGRACION_5_Interfaces_WBS.md** - 5 vistas integradas
-9. **@@SINCRONIZACION_WBS_Operativa_Presupuestal.md** - Detalle sync
+### **2. @@SISTEMA_RIESGOS_DINAMICO_Integrado.md** (25 KB) ⭐
+- **Propósito:** Sistema de gestión de riesgos dinámico
+- **Contenido:** 5 estrategias, vinculación contractual, terminal
+- **Estado:** ✅ VIGENTE - Gestión riesgos activa
+- **Actualizado:** 7-Oct-2025
 
-### **🔧 IMPLEMENTACIÓN (4 docs):**
-10. **@@WBS_v4_TODOS_Items_y_Nuevos_Capitulos.md** - WBS v4.0 (124 items)
-11. **@@CRITERIOS_TECNICOS_en_WBS.md** - Criterios técnicos
-12. **@@SOLUCION_Problema_Carga_WBS_v4.md** - Solución CORS
-13. **SISTEMA_BIDIRECCIONAL_WBS_Riesgos.md** - Flujo bidireccional
+### **3. @@INTEGRACION_5_Interfaces_WBS.md** (18 KB) ⭐
+- **Propósito:** Arquitectura de 5 vistas sincronizadas
+- **Contenido:** WBS Operativa, Presupuestal, Gerencial, Cronograma, Riesgos
+- **Estado:** ✅ VIGENTE - Arquitectura del sistema
+- **Actualizado:** 7-Oct-2025
 
-### **📋 GESTIÓN DEL PROYECTO (4 docs):**
-14. **@@PLAN_WBS_Interactiva_Completa.md** - Plan de implementación
-15. **@@CHECKLIST_Sistema_Completo.md** - Checklist validación
-16. **@@RESUMEN_EJECUTIVO_Sistema_WBS_7Oct2025.md** - Resumen ejecutivo
-17. **@@INDICE_SISTEMA_WBS_Interactivo_7Oct2025.md** - Índice maestro
+### **4. @@COMO_PROBAR_AHORA.md** (5 KB)
+- **Propósito:** Guía rápida para probar el sistema
+- **Contenido:** Comandos Cursor (Simula/Ejecuta/Valida)
+- **Estado:** ⚠️ ACTUALIZAR A v14.7 - Agregar Layout Maestro
+- **Actualizado:** 7-Oct-2025
 
-### **💡 EJEMPLOS (1 doc):**
-18. **SIMULACION_Cajas_350m_Flujo_Completo.md** - Ejemplo práctico completo
-19. **@@ARCHIVOS_CREADOS_7Oct2025_FINAL.md** - Lista de archivos creados
-
-### **🗂️ ORGANIZACIÓN DEL PROYECTO (3 docs):**
-20. **@@PLAN_ORGANIZACION_Completo.md** - Plan de organización ejecutado
-21. **@@GUIA_ORGANIZACION_Archivos.md** - Guía de organización
-22. **@@ORGANIZACION_COMPLETADA_7Oct2025.md** - Resumen de organización
+### **5. README_Documentacion.md** (5 KB)
+- **Propósito:** Índice de esta carpeta
+- **Contenido:** Navegación y organización
+- **Estado:** ✅ ACTUALIZADO A v14.7
+- **Actualizado:** 11-Oct-2025
 
 ---
 
 ## 🗺️ **POR DÓNDE EMPEZAR**
 
-### **Si es tu primera vez:**
-1. Lee: `@@SISTEMA_COMPLETO_FINAL_7Oct2025.md` (Resumen completo)
-2. Prueba: `@@COMO_PROBAR_AHORA.md` (Test rápido)
+### **Si eres NUEVO en el sistema WBS:**
+1. Lee: `README.md` (en raíz) - Visión general completa
+2. Lee: `@@LEEME_SISTEMA_COMPLETO.md` (en raíz) - Inicio rápido
+3. Prueba: `IX. WBS y Planificacion/WBS_Menu_Principal.html`
 
-### **Si quieres entender el sistema:**
-1. Lee: `@@INTEGRACION_5_Interfaces_WBS.md` (5 vistas)
-2. Lee: `@@SISTEMA_RIESGOS_DINAMICO_Integrado.md` (Riesgos)
-3. Lee: `@@SINCRONIZACION_WBS_Operativa_Presupuestal.md` (Sync)
+### **Si quieres entender cómo funcionan las Decisiones Técnicas:**
+1. Lee: `@@SISTEMA_DT_YAML_IMPLEMENTADO.md` ⭐ (Este directorio)
+2. Prueba: Comandos en `@@COMO_PROBAR_AHORA.md`
 
-### **Si vas a usar el sistema:**
-1. Lee: Archivo en raíz `@@LEEME_SISTEMA_COMPLETO.md`
-2. Lee: Archivo en raíz `@@GUIA_COMPLETA_Sistema_WBS_Interactivo.md`
-3. Prueba: `SIMULACION_Cajas_350m_Flujo_Completo.md`
+### **Si quieres entender la gestión de riesgos:**
+1. Lee: `@@SISTEMA_RIESGOS_DINAMICO_Integrado.md` ⭐ (Este directorio)
+2. Ejecuta: `scripts/gestionar_riesgos.ps1`
 
-### **Si necesitas referencia técnica:**
-1. @@WBS_v4_TODOS_Items_y_Nuevos_Capitulos.md
-2. @@CRITERIOS_TECNICOS_en_WBS.md
-3. @@SISTEMA_DT_YAML_IMPLEMENTADO.md
+### **Si quieres entender la arquitectura del sistema:**
+1. Lee: `@@INTEGRACION_5_Interfaces_WBS.md` ⭐ (Este directorio)
+2. Revisa: `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` (en raíz)
 
 ---
 
@@ -101,27 +98,41 @@ Esta carpeta contiene **toda la documentación** del **Sistema WBS Interactivo v
 
 ## 📊 **ESTADÍSTICAS**
 
-- **Documentos en esta carpeta:** 21 (+ 1 README)
-- **Tamaño total:** ~350 KB
-- **Fecha creación:** 7 de Octubre de 2025
-- **Última actualización:** 7 de Octubre de 2025 (Organización)
-- **Sistema documentado:** WBS Interactivo v4.0
-- **Estado:** ✅ Sistema operativo 100% + Proyecto organizado
+- **Documentos esenciales:** 5 (4 técnicos + 1 README)
+- **Documentos históricos movidos:** 18 archivos → `old/`
+- **Tamaño carpeta:** ~63 KB (limpia)
+- **Última limpieza:** 11 de Octubre de 2025
+- **Sistema documentado:** WBS Interactivo v14.7 (Layout Maestro + DT + Riesgos)
+- **Estado:** ✅ Carpeta limpia y organizada
+
+---
+
+## 📁 **ARCHIVOS HISTÓRICOS (Movidos a `old/`)**
+
+Los siguientes 18 documentos fueron archivados por ser históricos de la sesión del 7-Oct-2025:
+- Resúmenes de sesión (5 docs)
+- Checklists y planes ya ejecutados (6 docs)
+- Soluciones a problemas ya resueltos (3 docs)
+- Simulaciones y ejemplos antiguos (4 docs)
+
+**Ubicación:** `old/` (raíz del proyecto)
 
 ---
 
 ## 🔄 **MANTENIMIENTO**
 
-Esta carpeta contiene documentación **de referencia**. No requiere actualización frecuente.
+**Actualizar cuando:**
+- Se implementen nuevas funcionalidades mayores
+- Se agreguen nuevas interfaces (8va, 9na vista)
+- Evolucione el sistema de DT o Riesgos
 
-**Actualizar solo si:**
-- Se implementa WBS v5.0
-- Se agregan funcionalidades mayores
-- Se corrigen errores críticos
+**Limpiar cuando:**
+- Se acumulen documentos obsoletos
+- Versiones antiguas no referenciadas
 
 ---
 
-**Elaborado por:** Sistema WBS Interactivo  
-**Fecha:** 7 de Octubre de 2025  
-**Versión:** 1.0  
+**Última actualización:** 11 de Octubre de 2025  
+**Versión:** 2.0 (Limpieza v14.7)  
+**Estado:** ✅ CARPETA LIMPIA Y ORGANIZADA  
 
