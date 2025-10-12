@@ -30,3 +30,10 @@ desktop.ini
 # Logs de PowerShell
 *.log
 
+# Credenciales y archivos sensibles (Mejora de Seguridad - 12-Oct-2025)
+CREDENCIALES_PORTAL.md
+config/local.config.ps1
+*.credentials.json
+.env
+.env.local
+

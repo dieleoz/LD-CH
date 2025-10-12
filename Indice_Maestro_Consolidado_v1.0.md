@@ -4,7 +4,7 @@
 **Fecha de consolidación:** 11 de Octubre 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7.1 - Proyecto Limpio y Organizado)**
+**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7.3 - Proyecto Limpio + Seguridad Mejorada)**
 
 ---
 
@@ -26,10 +26,11 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ✅ Sincroniza 3 interfaces (Riesgos, Reporte, Cronograma) en ~6 segundos
 
 ### **📊 ESTADÍSTICAS GENERALES:**
-- **Total de documentos:** 173 documentos
+- **Total de documentos:** 179 documentos (+6 mejoras v14.7.3)
 - **Documentos estandarizados:** 173/173 (100%)
 - **Referencias cruzadas:** 175+ menciones actualizadas
 - **Metodología aplicada:** Punto 42 con protocolo de 5 pasos
+- **Seguridad mejorada:** ✅ Credenciales protegidas, límites login, timeout sesión
 - **Estado general:** ✅ **PROYECTO 100% COMPLETADO - LISTO PARA CONSTRUCCIÓN**
 
 ---
@@ -624,6 +625,31 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 
 ---
 
-**Última actualización del índice:** 11 de Octubre 2025  
-**Versión:** v1.0 - Actualizado para v14.7.1  
-**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.7.1 COMPLETADO (Layout Maestro + Workflow Automático + Proyecto Limpio)
+**Última actualización del índice:** 12 de Octubre 2025  
+**Versión:** v1.0 - Actualizado para v14.7.3  
+**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.7.3 COMPLETADO (Layout Maestro + Workflow Automático + Proyecto Limpio + Mejoras de Seguridad)
+
+---
+
+## 🆕 **NOVEDADES v14.7.3 (12-Oct-2025)**
+
+### **Mejoras de Seguridad y Mantenibilidad Implementadas:**
+
+| # | Mejora | Archivo | Impacto |
+|:--|:-------|:--------|:--------|
+| 1 | **Credenciales protegidas** | `CREDENCIALES_PORTAL.md` | 🔴 CRÍTICO |
+| 2 | **Documentación de variables** | `VARIABLES_ENTORNO_PORTAL.md` | 🟡 Alta |
+| 3 | **Requisitos del sistema** | `scripts/REQUISITOS_SISTEMA.md` | 🟡 Alta |
+| 4 | **Análisis de mejoras** | `MEJORAS_PROPUESTAS.md` | 🟡 Alta |
+| 5 | **CSS externo** | `assets/css/portal-login.css` | 🟢 Media |
+| 6 | **Changelog completo** | `CHANGELOG_v14.7.3_MEJORAS.md` | 🟢 Media |
+
+**Beneficios:**
+- 🔒 Credenciales NO expuestas en repositorio público
+- ⏱️ Límite de 5 intentos de login + bloqueo 5 minutos
+- 🕐 Timeout de sesión automático (30 minutos inactividad)
+- 📄 Reducción 70% tamaño HTML (CSS externo)
+- 📚 Documentación de requisitos completa (PowerShell 7.2+, Pandoc, módulos)
+- 🛠️ Script de validación automática de entorno
+
+**Ver documentación completa:** `CHANGELOG_v14.7.3_MEJORAS.md`

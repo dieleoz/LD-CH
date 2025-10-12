@@ -29,8 +29,7 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
 | **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
-| **Commits Git** | ✅ Actualizados | 18 commits v14.7.1 |
-| Commits Git | ✅ Actualizados | 20+ commits v14.7.2 |
+| **Commits Git** | ✅ Actualizados | 20+ commits v14.7.2 |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -64,15 +63,22 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 **URL del Portal:** https://dieleoz.github.io/LD-CH/
 
 **Credenciales:**
-- **Usuario:** `0rt1z`
-- **Contraseña:** `0rt1z`
+- 🔒 **Confidenciales** - Ver documento `CREDENCIALES_PORTAL.md` (solo local, no en git)
+- 📋 **Solicitar acceso:** Contactar a PMO del proyecto
+- ⚠️ **Seguridad:** Credenciales rotadas cada 90 días
+
+**Documentación de Seguridad:**
+- `CREDENCIALES_PORTAL.md` - Credenciales actuales (confidencial, excluido de git)
+- `VARIABLES_ENTORNO_PORTAL.md` - Guía de configuración de variables de entorno
+- `MEJORAS_PROPUESTAS.md` - Análisis de seguridad y mejoras implementadas
 
 **Características:**
 - ✅ Login con autenticación
 - ✅ Dashboard con métricas (181 docs, 17 riesgos, $307B)
 - ✅ 6 accesos directos a interfaces WBS
 - ✅ Diseño moderno y responsive
-- ✅ Session persistente
+- ✅ Sesión persistente
+- ✅ Límite de intentos de login (protección fuerza bruta)
 
 **Configuración:** Ver `GUIA_CONFIGURACION_GITHUB_PAGES.md`
 

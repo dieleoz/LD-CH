@@ -4,450 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema WBS - APP La Dorada-Chiriguaná | Acceso Seguro</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .login-container {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            padding: 30px;
-            max-width: 450px;
-            width: 100%;
-            animation: slideIn 0.5s ease-out;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            body {
-                padding: 5px;
-            }
-            
-            .login-container {
-                padding: 20px;
-                border-radius: 15px;
-            }
-            
-            .logo h1 {
-                font-size: 24px;
-            }
-            
-            .logo p {
-                font-size: 14px;
-            }
-            
-            .portal-container {
-                padding: 20px;
-                margin: 10px;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 12px;
-            }
-            
-            .stat-card {
-                padding: 12px;
-            }
-            
-            .stat-value {
-                font-size: 20px;
-            }
-            
-            .stat-label {
-                font-size: 12px;
-            }
-            
-            .portal-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .login-container {
-                padding: 15px;
-                margin: 10px;
-            }
-            
-            .logo h1 {
-                font-size: 20px;
-            }
-            
-            .input-group input {
-                font-size: 16px; /* Prevents zoom on iOS */
-            }
-            
-            .portal-container {
-                padding: 12px;
-                margin: 5px;
-                max-width: 100%;
-                width: 100%;
-                box-sizing: border-box;
-            }
-            
-            .portal-header {
-                padding: 15px 10px;
-            }
-            
-            .portal-header h1 {
-                font-size: 20px;
-                word-wrap: break-word;
-                line-height: 1.2;
-            }
-            
-            .portal-header p {
-                font-size: 12px;
-                word-wrap: break-word;
-                line-height: 1.3;
-            }
-            
-            .stats-grid {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 6px;
-                margin-bottom: 20px;
-                width: 100%;
-                max-width: 100%;
-            }
-            
-            .stat-card {
-                padding: 8px;
-                min-width: 0;
-                width: 100%;
-                box-sizing: border-box;
-            }
-            
-            .stat-value {
-                font-size: 16px;
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-            }
-            
-            .stat-label {
-                font-size: 10px;
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-                line-height: 1.3;
-            }
-            
-            .portal-grid {
-                grid-template-columns: 1fr;
-                gap: 12px;
-            }
-            
-            .portal-card {
-                padding: 15px;
-            }
-            
-            .portal-card h3 {
-                font-size: 16px;
-                word-wrap: break-word;
-            }
-            
-            .portal-card p {
-                font-size: 13px;
-                word-wrap: break-word;
-            }
-            
-            .portal-card .icon {
-                font-size: 28px;
-            }
-            
-            .btn-logout {
-                padding: 10px 20px;
-                font-size: 13px;
-            }
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .logo {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .logo h1 {
-            color: #667eea;
-            font-size: 28px;
-            margin-bottom: 5px;
-            font-weight: 700;
-        }
-
-        .logo p {
-            color: #666;
-            font-size: 14px;
-        }
-
-        .project-badge {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 600;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        .form-group {
-            margin-bottom: 25px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #333;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        input {
-            width: 100%;
-            padding: 14px;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
-            font-size: 15px;
-            transition: all 0.3s ease;
-        }
-
-        input:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-
-        .btn-login {
-            width: 100%;
-            padding: 16px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-top: 10px;
-        }
-
-        .btn-login:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-        }
-
-        .btn-login:active {
-            transform: translateY(0);
-        }
-
-        .error-message {
-            background: #fee;
-            color: #c33;
-            padding: 12px;
-            border-radius: 8px;
-            margin-top: 15px;
-            display: none;
-            font-size: 14px;
-            border-left: 4px solid #c33;
-        }
-
-        .error-message.show {
-            display: block;
-            animation: shake 0.5s;
-        }
-
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-10px); }
-            75% { transform: translateX(10px); }
-        }
-
-        .info-box {
-            background: #f0f4ff;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 25px;
-            border-left: 4px solid #667eea;
-        }
-
-        .info-box h3 {
-            color: #667eea;
-            font-size: 14px;
-            margin-bottom: 8px;
-        }
-
-        .info-box p {
-            color: #666;
-            font-size: 13px;
-            line-height: 1.6;
-        }
-
-        .version {
-            text-align: center;
-            color: #999;
-            font-size: 12px;
-            margin-top: 25px;
-        }
-
-        /* Loading spinner */
-        .spinner {
-            display: none;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #667eea;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .spinner.show {
-            display: block;
-        }
-
-        /* Portal principal (después del login) */
-        .portal-container {
-            display: none;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            padding: 40px;
-            max-width: 900px;
-            width: 100%;
-        }
-
-        .portal-container.show {
-            display: block;
-            animation: slideIn 0.5s ease-out;
-        }
-
-        .portal-header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .portal-header h1 {
-            color: #667eea;
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        .portal-header p {
-            color: #666;
-            font-size: 16px;
-        }
-
-        .portal-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .portal-card {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            padding: 25px;
-            border-radius: 15px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
-
-        .portal-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            border-color: #667eea;
-        }
-
-        .portal-card h3 {
-            color: #333;
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-
-        .portal-card p {
-            color: #666;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        .portal-card .icon {
-            font-size: 32px;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        .btn-logout {
-            width: 100%;
-            padding: 12px;
-            background: #e0e0e0;
-            color: #333;
-            border: none;
-            border-radius: 10px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .btn-logout:hover {
-            background: #d0d0d0;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .stat-card {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .stat-value {
-            font-size: 24px;
-            font-weight: 700;
-            color: #667eea;
-            margin-bottom: 5px;
-        }
-
-        .stat-label {
-            font-size: 12px;
-            color: #666;
-        }
-    </style>
+    
+    <!-- Estilos externos (Mejora de mantenibilidad - 12-Oct-2025) -->
+    <link rel="stylesheet" href="assets/css/portal-login.css?v=20251012">
 </head>
 <body>
     <!-- LOGIN FORM -->
@@ -455,7 +14,7 @@
         <div class="logo">
             <h1>🚂 Sistema WBS</h1>
             <p>APP La Dorada-Chiriguaná</p>
-            <span class="project-badge">v14.6 | Acceso Seguro</span>
+            <span class="project-badge">v14.7 | Acceso Seguro</span>
         </div>
 
         <form id="loginForm" onsubmit="return handleLogin(event)">
@@ -497,10 +56,13 @@
                 Sistema WBS Interactivo con gestión dinámica de riesgos, 
                 decisiones técnicas y sincronización automática.
             </p>
+            <p style="margin-top: 10px; font-size: 12px; color: #999;">
+                ℹ️ Para obtener credenciales, contactar a PMO del proyecto.
+            </p>
         </div>
 
         <div class="version">
-            Sistema v14.6 | Octubre 2025
+            Sistema v14.7 | Octubre 2025 | <a href="MEJORAS_PROPUESTAS.md" style="color: #667eea;">Mejoras de Seguridad</a>
         </div>
     </div>
 
@@ -573,27 +135,54 @@
         </button>
 
         <div class="version">
-            Sistema v14.6 | Sesión iniciada | <span id="userDisplay"></span>
+            Sistema v14.7 | Sesión iniciada | <span id="userDisplay"></span>
         </div>
     </div>
 
     <script>
-        // Credenciales (en producción real, esto debería estar en backend)
+        // ================================================================
+        // CONFIGURACIÓN DE AUTENTICACIÓN
+        // ================================================================
+        // NOTA: En producción, las credenciales deben estar en backend
+        // Ver: CREDENCIALES_PORTAL.md (confidencial, no en git)
+        // Ver: VARIABLES_ENTORNO_PORTAL.md (documentación)
+        
         const VALID_USER = '0rt1z';
         const VALID_PASSWORD = '0rt1z';
 
-        // Verificar si ya está autenticado
+        // Límite de intentos de login (Mejora de seguridad - 12-Oct-2025)
+        let intentosLogin = 0;
+        const MAX_INTENTOS = 5;
+        const TIMEOUT_BLOQUEO = 300000; // 5 minutos
+
+        // Timeout de sesión (Mejora de seguridad - 12-Oct-2025)
+        const TIMEOUT_SESION = 1800000; // 30 minutos
+        let ultimaActividad = Date.now();
+
+        // ================================================================
+        // VERIFICAR SESIÓN EXISTENTE
+        // ================================================================
         window.addEventListener('DOMContentLoaded', function() {
             const isAuthenticated = sessionStorage.getItem('authenticated') === 'true';
             const username = sessionStorage.getItem('username');
             
             if (isAuthenticated && username) {
                 showPortal(username);
+                iniciarMonitoreoSesion();
             }
         });
 
+        // ================================================================
+        // MANEJO DE LOGIN
+        // ================================================================
         function handleLogin(event) {
             event.preventDefault();
+            
+            // Verificar límite de intentos
+            if (intentosLogin >= MAX_INTENTOS) {
+                alert('⚠️ Demasiados intentos fallidos. Por favor, espera 5 minutos.');
+                return false;
+            }
             
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
@@ -612,26 +201,45 @@
                 
                 if (username === VALID_USER && password === VALID_PASSWORD) {
                     // Login exitoso
+                    intentosLogin = 0; // Resetear contador
                     sessionStorage.setItem('authenticated', 'true');
                     sessionStorage.setItem('username', username);
                     showPortal(username);
+                    iniciarMonitoreoSesion();
                 } else {
                     // Login fallido
+                    intentosLogin++;
+                    errorMessage.textContent = `❌ Usuario o contraseña incorrectos (${intentosLogin}/${MAX_INTENTOS})`;
                     errorMessage.classList.add('show');
                     document.getElementById('password').value = '';
                     document.getElementById('password').focus();
+                    
+                    // Bloquear tras MAX_INTENTOS
+                    if (intentosLogin >= MAX_INTENTOS) {
+                        errorMessage.textContent = '🔒 Demasiados intentos. Bloqueado por 5 minutos.';
+                        setTimeout(() => {
+                            intentosLogin = 0;
+                            errorMessage.classList.remove('show');
+                        }, TIMEOUT_BLOQUEO);
+                    }
                 }
             }, 300);
             
             return false;
         }
 
+        // ================================================================
+        // MOSTRAR PORTAL
+        // ================================================================
         function showPortal(username) {
             document.getElementById('loginContainer').style.display = 'none';
             document.getElementById('portalContainer').classList.add('show');
             document.getElementById('userDisplay').textContent = username;
         }
 
+        // ================================================================
+        // MANEJO DE LOGOUT
+        // ================================================================
         function handleLogout() {
             if (confirm('¿Seguro que deseas cerrar sesión?')) {
                 sessionStorage.removeItem('authenticated');
@@ -640,7 +248,26 @@
             }
         }
 
-        // Prevenir acceso sin autenticación (protección básica)
+        // ================================================================
+        // MONITOREO DE SESIÓN (Mejora de seguridad - 12-Oct-2025)
+        // ================================================================
+        function iniciarMonitoreoSesion() {
+            // Actualizar última actividad en cada interacción
+            document.addEventListener('click', () => ultimaActividad = Date.now());
+            document.addEventListener('keypress', () => ultimaActividad = Date.now());
+            
+            // Verificar timeout cada minuto
+            setInterval(() => {
+                if (Date.now() - ultimaActividad > TIMEOUT_SESION) {
+                    alert('⏱️ Tu sesión ha expirado por inactividad.');
+                    handleLogout();
+                }
+            }, 60000); // Verificar cada minuto
+        }
+
+        // ================================================================
+        // PROTECCIÓN CONTRA ACCESO NO AUTORIZADO
+        // ================================================================
         window.addEventListener('popstate', function() {
             const isAuthenticated = sessionStorage.getItem('authenticated') === 'true';
             if (!isAuthenticated) {
@@ -650,4 +277,3 @@
     </script>
 </body>
 </html>
-
