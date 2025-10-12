@@ -1,28 +1,43 @@
-# 🗺️ INTEGRACIÓN DE LAYOUT EN SISTEMA "COCINAR → SERVIR"
+# 🗺️ INTEGRACIÓN DE LAYOUT EN SISTEMA "COCINAR → SERVIR" v14.7
 
-**Versión:** 2.0  
-**Fecha:** 11 de Octubre 2025  
+**Versión:** 3.0  
+**Fecha creación:** 11 de Octubre 2025  
+**Última actualización:** 11 de Octubre 2025 (v14.7.1)  
 **Tipo:** Documentación Técnica  
-**Estado:** ✅ OPERATIVO
+**Estado:** ✅ LAYOUT MAESTRO INTERACTIVO OPERATIVO (2,182 equipos)
 
 ---
 
 ## 📋 RESUMEN EJECUTIVO
 
-La **integración de Layout** permite que los documentos ejecutivos incluyan automáticamente tablas con el inventario de equipos físicos ubicados por PK (Punto Kilométrico) y UFV (Unidad Funcional de Vía), extraídos del **Layout Maestro** del proyecto.
+La **integración de Layout v14.7** permite que los documentos ejecutivos incluyan automáticamente tablas con el inventario de **2,182 equipos** físicos ubicados por PK (Punto Kilométrico) y UFV (Unidad Funcional de Vía), extraídos del **Layout Maestro Interactivo**.
+
+### ✨ Novedades v14.7:
+
+**AHORA (v14.7):**
+- ✅ **WBS_Layout_Maestro.html:** Interfaz interactiva con 2,182 equipos
+- ✅ **Filtros inteligentes en cascada:** Tipo → Sistema → UFV → PK
+- ✅ **Generación DT desde Layout:** Individual o masiva desde filtros
+- ✅ **Workflow automático:** `servir_ingenieria_completo.ps1` detecta DTs y ejecuta scripts especializados
+- ✅ **1,823 cajas empalme FO** generadas automáticamente (cada 300m + 88 en puentes)
+- ✅ **130 domos fusión** (cada 4km)
+- ✅ **Idempotencia:** Scripts sin duplicación
+- ✅ **Fuente única:** `layout.md` (329 KB, 2,839 líneas)
 
 ### ¿Qué problema resuelve?
 
-**ANTES:**
-- Documentos técnicos describían sistemas pero NO mostraban dónde estaban físicamente
-- Layout separado del resto de documentación
-- Cliente tenía que consultar múltiples archivos para ubicar equipos
+**ANTES (pre-v14.7):**
+- Layout estático en Markdown
+- Sin interfaz para visualizar/filtrar
+- Generación manual de elementos
+- Sin integración con DTs
 
-**DESPUÉS:**
-- Documentos ejecutivos incluyen **automáticamente** el layout relevante
-- Filtrado inteligente por tipo de equipo (CONTROL, TELECOMUNICACIONES, etc.)
-- Una sola fuente de verdad: `LAYOUT_MAESTRO_EQUIPOS_v1.0.md`
-- Cliente ve QUÉ hay y DÓNDE está en un solo documento
+**DESPUÉS (v14.7):**
+- ✅ **Layout interactivo** con filtros y búsqueda
+- ✅ **Generación automática** desde DTs
+- ✅ **Propagación 6 niveles:** Layout → WBS → Ingeniería → Matrices → Índices → Entregables
+- ✅ **Workflow automático:** 1 comando actualiza todo
+- ✅ Cliente ve QUÉ hay y DÓNDE está en interfaz dinámica
 
 ---
 

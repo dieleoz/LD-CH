@@ -1,35 +1,45 @@
-# GUÍA: FUNCIONES cocinar() y servir()
+# GUÍA: FUNCIONES cocinar() y servir() v14.7
 
-**Fecha:** 9 de Octubre 2025  
-**Propósito:** Flujo iterativo para actualizar documentos servidos
+**Fecha creación:** 9 de Octubre 2025  
+**Última actualización:** 11 de Octubre 2025 (v14.7.1)  
+**Propósito:** Workflow automático para actualizar documentos servidos  
+**Estado:** ✅ WORKFLOW AUTOMÁTICO IMPLEMENTADO
 
 ---
 
-## 🔄 FLUJO COMPLETO
+## 🔄 FLUJO COMPLETO v14.7 (AUTOMATIZADO)
 
 ```
-1. ESPECIALISTA → Crea DTs
+1. ESPECIALISTA → Crea DT desde Layout o WBS
+        ├─ WBS_Layout_Maestro.html (2,182 equipos)
+        └─ WBS_COMPLETA_TODO_Interactiva_v4.0.html (124 ítems)
         ↓
-2. CURSOR → Ejecuta DTs (actualiza cocina I-VI)
+2. ESPECIALISTA → Guarda DT
+        └─ II. Apendices Tecnicos/Decisiones_Tecnicas/
         ↓
-3. TÚ → Ejecutas cocinar() 🍳
-        ├─ Lee cocina actualizada
-        ├─ Lee DTs ejecutadas  
-        ├─ Regenera X/7_SISTEMAS_EJECUTIVOS/
-        └─ Actualiza versiones (v1.1, v1.2, etc.)
+3. PMO → Ejecuta UN COMANDO 🚀
+        .\scripts\servir_ingenieria_completo.ps1 -Sistema 02
         ↓
-4. TÚ → Ejecutas servir() 🍽️
-        ├─ Lee X/7_SISTEMAS_EJECUTIVOS/
-        ├─ Pandoc → Word (.docx)
-        ├─ Pandoc → HTML (.html)
-        └─ Guarda en X/8_DOCUMENTOS_SERVIDOS/
+        ├─ [AUTOMÁTICO] cocinar.ps1 detecta DT con impacto_layout
+        ├─ [AUTOMÁTICO] Ejecuta script especializado (regenerar_fibra, TETRA)
+        ├─ [AUTOMÁTICO] Regenera layout.md y layout_datos.js
+        ├─ [AUTOMÁTICO] Consolida ingeniería (I-VI → X/7_EJECUTIVOS/)
+        ├─ [AUTOMÁTICO] servir.ps1 genera Word + HTML
+        └─ [AUTOMÁTICO] Guarda en X/8_DOCUMENTOS_SERVIDOS/
         ↓
-5. CLIENTE → Revisa documentos
-        ├─ Encuentra errores/mejoras
+4. PMO → Refresh navegador (Ctrl+Shift+F5)
+        └─ Verifica Layout actualizado (2,182 equipos)
+        ↓
+5. CLIENTE → Revisa documentos Word/HTML
+        ├─ Encuentra mejoras
         └─ Genera nuevo DT
         ↓
 6. VUELVE AL PASO 1 (iteración continua)
 ```
+
+**⏱️ Tiempo total:** ~30 segundos  
+**🎯 Intervención manual:** Solo 1 comando  
+**✅ Resultado:** Layout + WBS + Ingeniería + Documentos cliente actualizados  
 
 ---
 
