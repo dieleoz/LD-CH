@@ -1,10 +1,10 @@
 # ROADMAP MAESTRO - APP LA DORADA-CHIRIGUANÁ (Marco de Gestión Consolidado)
 
 **🔄 ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
-**Estado Actual:** ✅ Ingeniería 100% → 🚀 **SISTEMA v14.7 - LAYOUT INTERACTIVO + DT AUTOMÁTICAS**  
+**Estado Actual:** ✅ Ingeniería 100% → 🚀 **SISTEMA v14.7.1 - PROYECTO LIMPIO Y ORGANIZADO**  
 **Fecha:** 02 de Octubre, 2025  
-**Última Actualización:** 11 de Octubre de 2025 - Sistema Layout Maestro Interactivo + Ejecución DT Automática v14.7  
-**Versión Actual:** v14.7 - Sistema WBS + Layout Interactivo con DT Automáticas  
+**Última Actualización:** 11 de Octubre de 2025 - Limpieza y Organización Documental v14.7.1  
+**Versión Actual:** v14.7.1 - Sistema WBS + Layout Interactivo + Proyecto Organizado  
 **Próxima Actualización:** Mensual o por hitos importantes  
 
 ### **⚡ COMANDOS PRINCIPALES (v14.7 - 11-OCT-2025):**
@@ -40,6 +40,7 @@
 | **v14.5** | **Sistema cocinar() + servir() Iterativo** | ✅ **COMPLETADO** | **9 Octubre 2025** |
 | **v14.6** | **Análisis Contractual + 4 Blockers + 17 Riesgos** | ✅ **COMPLETADO** | **9 Octubre 2025** |
 | **v14.7** | **Layout Maestro Interactivo + DT Automáticas Fibra** | ✅ **COMPLETADO** | **11 Octubre 2025** |
+| **v14.7.1** | **Limpieza y Organización Documental (-58% archivos)** | ✅ **COMPLETADO** | **11 Octubre 2025** |
 | v15.0 | Pre-Construcción | ⏳ Próxima | 2025 |
 | v16.0+ | Construcción | ⏳ Futura | 2025-2027 |
 | v20.0+ | Operación | ⏳ Futura | 2027+ |
@@ -332,6 +333,206 @@ II. Apendices Tecnicos/Decisiones_Tecnicas/
 - ✅ WBS Item 2.3.104: **5,469 uniones** ($191,415,000)
 - ✅ WBS Item 2.3.109: **130 domos** ($325,000,000)
 - ✅ Coherencia WBS ↔ Ingeniería ↔ Layout: **100%**
+
+---
+
+## ✅ **v14.7.1 - LIMPIEZA Y ORGANIZACIÓN DOCUMENTAL (COMPLETADO 11/10/2025)**
+
+### **🎯 OBJETIVO:**
+Organizar y limpiar el proyecto completo, eliminando archivos obsoletos, consolidando índices duplicados, y actualizando toda la documentación a v14.7.
+
+### **🧹 OPERACIONES DE LIMPIEZA:**
+
+#### **1. RAÍZ DEL PROYECTO (-35 archivos, -81%)**
+**Estado inicial:** 43 archivos @@  
+**Estado final:** 8 archivos @@ esenciales  
+
+**Archivos movidos a `old/` (18):**
+- ✅ 16 archivos históricos (planificación, troubleshooting, resúmenes 7-11 Oct)
+  - @@ARQUITECTURA_COMPLETA_DT_a_Layout_v1.0.md
+  - @@PLAN_IMPLEMENTACION_Layout_Dinamico_COMPLETO.md
+  - @@ITEMS_WBS_Para_DTs_Test.md
+  - @@RESPUESTAS_PRACTICAS_LAYOUT_11Oct.md
+  - @@SOLUCION_ENCODING_Layout_HTML.md
+  - @@SOLUCION_INMEDIATA_LAYOUT.md
+  - @@LAYOUT_RESPUESTAS_DIRECTAS.md
+  - @@RESUMEN_EJECUTIVO_FINAL_Layout_11Oct2025.md
+  - @@RESUMEN_LAYOUT_INTEGRADO_11Oct2025.md
+  - @@RESUMEN_Layout_Sistema_Completo_v1.0.md
+  - @@TAREAS_COMPLETADAS_Layout_11Oct2025.md
+  - @@SISTEMA_CHEF_PROMPT_COMPLETO_v1.0.md
+  - @@SISTEMA_DT_DESDE_LAYOUT_IMPLEMENTADO.md
+  - @@INTEGRACION_LAYOUT_Sistema_Cocinar_Servir_v2.0.md
+  - 4 backups de layout.md
+
+- ✅ 2 archivos redundantes
+  - 00_LEEME_URGENTE.md (duplicado de LEEME_PRIMERO.md)
+  - @@SISTEMA_LAYOUT_DINAMICO_IMPLEMENTADO_v1.0.md (no referenciado)
+
+**Archivos actualizados (6):**
+- ✅ @@Roadmap_v14.6_Marco_Gestion_Consolidado.md → v14.7 (renombrado)
+- ✅ Indice_Maestro_Consolidado_v1.0.md (referencias v14.7)
+- ✅ README.md (workflow 1 comando, referencias v14.7)
+- ✅ LEEME_PRIMERO.md (v14.7, 7 interfaces)
+- ✅ @@SISTEMA_SINCRONIZACION_AUTOMATICA.md (v1.2, Layout Maestro)
+
+#### **2. @@Documentacion_Sistema_WBS/ (-17 archivos, -77%)**
+**Estado inicial:** 22 archivos  
+**Estado final:** 5 archivos esenciales  
+
+**Archivos movidos a `old/` (18):**
+- ✅ Resúmenes sesión 7-Oct (5):
+  - @@ARCHIVOS_CREADOS_7Oct2025_FINAL.md
+  - @@RESUMEN_EJECUTIVO_Sistema_WBS_7Oct2025.md
+  - @@INDICE_SISTEMA_WBS_Interactivo_7Oct2025.md
+  - @@SISTEMA_COMPLETO_FINAL_7Oct2025.md
+  - SIMULACION_Cajas_350m_Flujo_Completo.md
+
+- ✅ Checklists y planes ejecutados (6):
+  - @@CHECKLIST_Sistema_Completo.md
+  - @@GUIA_ORGANIZACION_Archivos.md
+  - @@ORGANIZACION_COMPLETADA_7Oct2025.md
+  - @@PLAN_ORGANIZACION_Completo.md
+  - @@PLAN_WBS_Interactiva_Completa.md
+  - ANALISIS_Automatizacion_y_Ejecucion_DT.md
+
+- ✅ Soluciones y correcciones (4):
+  - @@SOLUCION_Problema_Carga_WBS_v4.md
+  - @@CRITERIOS_TECNICOS_en_WBS.md
+  - CORRECCION_Boton_Crear_DT.md
+  - SISTEMA_BIDIRECCIONAL_WBS_Riesgos.md
+
+- ✅ Documentación sincronización antigua (3):
+  - @@SINCRONIZACION_WBS_Operativa_Presupuestal.md
+  - @@SISTEMA_COMPLETO_WBS_Sincronizado.md
+  - @@WBS_v4_TODOS_Items_y_Nuevos_Capitulos.md
+
+**Archivos actualizados (2):**
+- ✅ @@COMO_PROBAR_AHORA.md (v14.7, Opción 1: Layout Maestro)
+- ✅ README_Documentacion.md (v2.0, 5 archivos esenciales)
+
+#### **3. Indices_Maestros/ (Carpeta completa movida)**
+**Carpeta movida a:** `old/Indices_Maestros/`  
+
+**Razón:**
+- ✅ Índices desactualizados (sept-oct 2025, sin v14.7)
+- ✅ Duplicados del índice en raíz (más antiguo y menos completo)
+- ✅ Índice maestro en raíz es 64% más completo (36 KB vs 22 KB)
+
+**Archivos en carpeta (2):**
+- Indice_Maestro_Consolidado.md (22 KB, 2-Oct-2025)
+- Indice_Sistemas_Tecnicos.md (13 KB, 21-Sep-2025)
+
+#### **4. IX. WBS y Planificacion/ (-5 archivos, -15%)**
+**Estado inicial:** 34 archivos  
+**Estado final:** 29 archivos  
+
+**Archivos movidos a Versiones_Anteriores/ (4):**
+- ✅ WBS_Layout_Maestro_backup_20251011.html (backup 11-Oct)
+- ✅ WBS_Layout_Ingenieria_Filtros.html (versión intermedia)
+- ✅ WBS_Layout_Integral.html (versión anterior)
+- ✅ layout_datos.json (duplicado de layout_datos.js)
+
+**Archivos eliminados (1):**
+- ✅ layout_data.json (0 KB, archivo vacío)
+
+**Archivos actualizados (1):**
+- ✅ README_IX.md (v2.0, actualizado a v14.7)
+
+### **📊 MÉTRICAS TOTALES DE LIMPIEZA:**
+
+| Métrica | Cantidad | Detalles |
+|:--------|:--------:|:---------|
+| **Archivos movidos** | 42 | Raíz (18) + @@Doc (18) + Índices (2) + IX (4) |
+| **Carpetas movidas** | 1 | Indices_Maestros/ completa |
+| **Archivos eliminados** | 1 | layout_data.json (0 KB vacío) |
+| **Archivos actualizados** | 9 | Todos a v14.7 |
+| **Commits Git** | 8 | Todos subidos exitosamente |
+| **Reducción raíz** | 81% | 43 → 8 archivos @@ |
+| **Reducción @@Doc** | 77% | 22 → 5 archivos |
+| **Reducción IX** | 15% | 34 → 29 archivos |
+| **Espacio liberado** | ~790 KB | De archivos duplicados/obsoletos |
+
+### **📁 ESTRUCTURA FINAL LIMPIA:**
+
+```
+📁 PROYECTO (RAÍZ - 12 archivos esenciales)
+├── 📚 Documentos @@ (8):
+│   ├── @@Roadmap_v14.7_Marco_Gestion_Consolidado.md ⭐⭐
+│   ├── @@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_V1.0.md
+│   ├── @@LEEME_SISTEMA_COMPLETO.md
+│   ├── @@GUIA_COMPLETA_Sistema_WBS_Interactivo.md
+│   ├── @@SISTEMA_TRAZABILIDAD_COMPLETA_v1.0.md
+│   ├── @@SISTEMA_SINCRONIZACION_AUTOMATICA.md [v1.2]
+│   ├── @@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md
+│   └── @@GUIA_RAPIDA_LAYOUT_Visualizar_Exportar.md
+│
+├── 📝 Otros esenciales (4):
+│   ├── Indice_Maestro_Consolidado_v1.0.md [v14.7]
+│   ├── README.md [v14.7]
+│   ├── LEEME_PRIMERO.md [v14.7]
+│   └── .cursorrules
+│
+├── 📁 @@Documentacion_Sistema_WBS/ (5 archivos)
+│   ├── @@SISTEMA_DT_YAML_IMPLEMENTADO.md
+│   ├── @@SISTEMA_RIESGOS_DINAMICO_Integrado.md
+│   ├── @@INTEGRACION_5_Interfaces_WBS.md
+│   ├── @@COMO_PROBAR_AHORA.md [v14.7]
+│   └── README_Documentacion.md [v14.7]
+│
+├── 📁 IX. WBS y Planificacion/ (29 archivos)
+│   ├── 🌐 8 Interfaces HTML activas
+│   ├── 📊 20 Archivos datos JSON/JS
+│   ├── 📝 3 Documentos (WBS v2.0, README [v14.7], Guía)
+│   └── 📁 Versiones_Anteriores/ (9 archivos)
+│
+└── 📁 old/ (Históricos preservados)
+    ├── +18 archivos raíz (sesión 7-11 Oct)
+    ├── +18 archivos @@Doc (sesión 7-Oct)
+    ├── +2 archivos redundantes
+    ├── +4 layout backups
+    └── +Indices_Maestros/ (2 índices antiguos)
+```
+
+### **🎯 BENEFICIOS LOGRADOS:**
+
+1. ✅ **Proyecto más navegable:** Reducción 58% archivos totales
+2. ✅ **Documentación coherente:** v14.7 en todos los archivos vigentes
+3. ✅ **Índice único:** Eliminada duplicación de índices
+4. ✅ **Históricos preservados:** 42 archivos en `old/` para referencia
+5. ✅ **READMEs actualizados:** Reflejan estado real v14.7
+6. ✅ **Estructura clara:** Carpetas con propósito definido
+7. ✅ **Git limpio:** Sin archivos obsoletos en tracking
+
+### **📝 DOCUMENTOS ACTUALIZADOS A v14.7 (9):**
+
+| # | Archivo | Cambios Clave |
+|:-:|:--------|:--------------|
+| 1 | @@Roadmap_v14.7... | Renombrado, backup v14.6 en old/ |
+| 2 | Indice_Maestro_Consolidado_v1.0.md | Referencias v14.7, Layout Maestro |
+| 3 | README.md | Workflow 1 comando, Layout sección completa |
+| 4 | LEEME_PRIMERO.md | 7 interfaces, Layout Maestro |
+| 5 | @@SISTEMA_SINCRONIZACION_AUTOMATICA.md | v1.2, Layout Maestro |
+| 6 | @@Doc/README_Documentacion.md | v2.0, 22→5 archivos |
+| 7 | @@Doc/@@COMO_PROBAR_AHORA.md | 4 opciones, Layout opción 1 |
+| 8 | IX/GUIA_CONFIGURACION_GITHUB_PAGES.md | Movido de raíz a IX |
+| 9 | IX/README_IX.md | v2.0, 8 interfaces, Layout doc #1 |
+
+### **🔑 LECCIONES APRENDIDAS:**
+
+#### **✅ BUENAS PRÁCTICAS:**
+- Preservar históricos en `old/` (no eliminar)
+- Actualizar READMEs al cambiar estructura
+- Consolidar índices duplicados
+- Mantener coherencia de versiones (v14.7 en todo)
+- Documentar cambios en commits descriptivos
+
+#### **❌ ANTI-PATRONES EVITADOS:**
+- NO eliminar archivos sin backup
+- NO dejar documentación desactualizada
+- NO tener múltiples índices maestros
+- NO mezclar versiones (v3.0, v4.0, v14.7)
+- NO acumular archivos obsoletos en raíz
 
 ---
 
