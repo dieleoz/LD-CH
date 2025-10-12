@@ -1,10 +1,11 @@
-﻿# DOCUMENTOS TRANSVERSALES - METODOLOGÍAS Y GESTIÓN
+﻿# DOCUMENTOS TRANSVERSALES - METODOLOGÍAS Y GESTIÓN v14.7
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 02 de octubre de 2025  
+**Fecha de actualización:** 11 de Octubre 2025 (v14.7.1)  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** VII - Documentos Transversales  
+**Estado:** ✅ TEMPLATES METODOLÓGICOS VIGENTES + Sistema WBS v14.7 Implementado  
 
 ---
 
@@ -12,13 +13,13 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 02 de octubre de 2025 |
+| **Fecha de actualización** | 11 de Octubre 2025 (v14.7.1) |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Documento Transversal |
 | **Categoría** | Metodologías y Gestión |
-| **Estado** | ✅ Contenido completo |
+| **Estado** | ✅ Templates vigentes + Sistema WBS v14.7 operativo |
 
 ---
 
@@ -38,6 +39,7 @@ Este documento contiene las metodologías transversales aplicables a todo el pro
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v4.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada - COMPLETADO |
+| **v4.1** | 11-Oct-2025 | Ing. Contractual + PMO | Actualizado para reflejar Sistema WBS v14.7 + Layout Maestro |
 
 ---
 
@@ -191,7 +193,34 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ✅ **Integración documental** con todos los documentos del proyecto
 ✅ **Optimizaciones EPC** implementadas y documentadas
 
-Estado del documento: Completado - 27/01/2025  
-Version: 4.0  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+Estado del documento: Actualizado - 11/10/2025  
+Version: 4.1 (Referencia Sistema WBS v14.7)  
+Responsable: Administrador Contractual EPC + PMO  
+Próxima actualización: Por hitos del proyecto
+
+---
+
+## 🎯 **ACTUALIZACIÓN v14.7.1 (11-OCT-2025)**
+
+### **Contexto del Proyecto:**
+
+Esta carpeta **VII. documentos transversales/** contiene templates metodológicos (T01-T05) que fueron **probados y validados** durante el desarrollo de este proyecto APP La Dorada-Chiriguaná.
+
+### **Metodología Implementada en el Proyecto:**
+
+**Sistema WBS Interactivo v14.7** implementado exitosamente usando estos templates:
+- ✅ **8 interfaces HTML dinámicas** (WBS, Layout Maestro, Presupuesto, Riesgos, etc.)
+- ✅ **Layout Maestro:** 2,182 equipos con filtros inteligentes
+- ✅ **Generación automática de DTs** desde interfaces
+- ✅ **Workflow automático:** Cocinar → Servir (1 comando)
+- ✅ **124 ítems WBS** con criterios técnicos completos
+- ✅ **Presupuesto:** $307,533,941,332 COP
+
+### **Templates Disponibles para Replicación:**
+
+Los 5 templates (T01-T05) en esta carpeta pueden usarse para **replicar esta metodología** en nuevos proyectos EPC ferroviarios.
+
+**Referencia del sistema implementado:**
+- Roadmap: `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md`
+- Arquitectura: `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_V1.0.md`
+- Guía completa: `@@GUIA_COMPLETA_Sistema_WBS_Interactivo.md`
