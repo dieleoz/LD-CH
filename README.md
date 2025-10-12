@@ -383,7 +383,7 @@ if (cajasFiltradas > 0 || domosFiltrados > 0) {
 
 #### **✅ MEJORES PRÁCTICAS (Sí hacer):**
 1. ✅ **UN sistema a la vez** (ej: solo FIBRA, luego TETRA)
-2. ✅ **Seguir workflow:** Generar DT → Ejecutar script → Cocinar → Servir
+2. ✅ **Seguir workflow:** Generar DT → Ejecutar `servir_ingenieria_completo.ps1`
 3. ✅ **Usar scripts especializados** por sistema (regenerar_fibra_*.ps1)
 4. ✅ **Validar en cada paso** (verificar conteos, PKs, UFVs)
 5. ✅ **Documentar en roadmap** cada cambio importante
@@ -398,32 +398,26 @@ Usuario → WBS_Layout_Maestro.html
    ├─ Descarga: DT-FIBRA-641-2025-10-11.md
    └─ Guarda en: II. Apendices Tecnicos/Decisiones_Tecnicas/
    ↓
-Usuario ejecuta SOLO 2 comandos:
+Usuario ejecuta SOLO 1 comando:
    ↓
-.\scripts\cocinar.ps1 -Sistema 02
-   ├─ [PRE-COCINA] Detecta DT-FIBRA-641 con impacto_layout: true ✅
-   ├─ [PRE-COCINA] Ejecuta regenerar_fibra_1824_cajas.ps1 automáticamente ✅
-   │   ├─ Limpia 3,778 elementos antiguos
-   │   ├─ Genera 1,735 cajas lineales (cada 300m)
-   │   ├─ Genera 88 cajas en puentes (22 × 4)
-   │   ├─ Genera 130 domos de fusión (cada 4km)
-   │   ├─ Actualiza layout.md → 2,839 líneas
-   │   ├─ Regenera layout_datos.js → 2,182 elementos
+.\scripts\servir_ingenieria_completo.ps1 -Sistema 02
+   ├─ [COCINAR] Detecta DT-FIBRA-641 con impacto_layout: true ✅
+   ├─ [COCINAR] Ejecuta regenerar_fibra_1824_cajas.ps1 automáticamente ✅
+   │   ├─ Limpia elementos antiguos del layout
+   │   ├─ Genera 1,953 elementos nuevos (cajas + domos)
+   │   ├─ Actualiza layout.md y layout_datos.js
    │   └─ Actualiza LAYOUT_INTEGRAL_COMPLETO_v1.0.json
-   ├─ [COCINA] Lee III/28_Sistema_FibraOptica_Integrado.md
-   └─ [COCINA] Consolida → X/7_SISTEMAS_EJECUTIVOS/SISTEMA_02.md ✅
-   ↓
-.\scripts\servir.ps1 -Sistema 02
-   ├─ Lee X/7_SISTEMAS_EJECUTIVOS/SISTEMA_02.md
-   ├─ Genera Word: SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx ✅
-   └─ Genera HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html ✅
+   ├─ [COCINAR] Consolida la ingeniería del Sistema 02 (I-VI → X/7/) ✅
+   ├─ [SERVIR] Lee el ejecutivo SISTEMA_02.md actualizado
+   ├─ [SERVIR] Genera Word: SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx ✅
+   └─ [SERVIR] Genera HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html ✅
    ↓
 Usuario → Refresh WBS_Layout_Maestro.html (Ctrl+Shift+F5)
    └─ Verifica: 2,182 elementos, 1,823 cajas, 130 domos ✅
 ```
 
 **⏱️ Tiempo total:** ~30 segundos  
-**🎯 Intervención manual:** Solo 2 comandos (cocinar + servir)  
+**🎯 Intervención manual:** Solo 1 comando (servir_ingenieria_completo.ps1)  
 **✅ Resultado:** Layout + WBS + Ingeniería + Documentos cliente actualizados
 
 ### **🍳 Chef Prompt Integral - Layout Dinámico:**
