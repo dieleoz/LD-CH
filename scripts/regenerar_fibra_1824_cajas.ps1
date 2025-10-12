@@ -21,8 +21,19 @@ $layoutContent = Get-Content $layoutPath -Encoding UTF8
 # Filtrar líneas que NO sean cajas o domos antiguos
 $layoutLimpio = @()
 foreach ($linea in $layoutContent) {
-    # Saltar líneas de cajas/domos antiguos
-    if ($linea -match 'EMPALME_FO_' -or $linea -match 'DOMO_FO_') {
+    # Saltar líneas de cajas/domos antiguos (EMPALME_FO_, CAJA_FO_, CAJA_PUENTE_, DOMO_FO_)
+    if ($linea -match 'EMPALME_FO_' -or 
+        $linea -match 'CAJA_FO_' -or 
+        $linea -match 'CAJA_PUENTE_' -or 
+        $linea -match 'DOMO_FO_' -or
+        ($linea -match 'Caja Empalme' -and $linea -match '^UFV')) {
+        continue
+    }
+    # Saltar también la sección de comentarios de fibra
+    if ($linea -match '# ELEMENTOS FIBRA OPTICA') {
+        continue
+    }
+    if ($linea -match 'Generado automaticamente por DT-FIBRA') {
         continue
     }
     $layoutLimpio += $linea

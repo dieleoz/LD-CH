@@ -78,6 +78,62 @@ Write-Host "Sistemas a cocinar: $($sistemasACocinar.Count)" -ForegroundColor Gre
 Write-Host ""
 
 # ================================================================
+# PRE-COCINA: EJECUTAR SCRIPTS DE LAYOUT SI HAY DTs CON IMPACTO
+# ================================================================
+
+Write-Host "PRE-COCINA: Verificando DTs con impacto en layout..." -ForegroundColor Yellow
+Write-Host ""
+
+$fechaLimite = (Get-Date).AddDays(-7)
+$carpetaDTs = "II. Apendices Tecnicos\Decisiones_Tecnicas"
+
+$dtsConImpactoLayout = Get-ChildItem -Path $carpetaDTs -Filter "DT-*.md" | Where-Object {
+    $_.LastWriteTime -gt $fechaLimite -and 
+    $_.Name -notmatch 'TEMPLATE|EJEMPLO|GUIA|README'
+} | ForEach-Object {
+    $contenido = Get-Content $_.FullName -Raw -Encoding UTF8
+    if ($contenido -match 'impacto_layout:\s*true') {
+        $_
+    }
+}
+
+if ($dtsConImpactoLayout) {
+    Write-Host "  Encontradas $($dtsConImpactoLayout.Count) DTs con impacto en layout:" -ForegroundColor Green
+    
+    foreach ($dt in $dtsConImpactoLayout) {
+        $contenido = Get-Content $dt.FullName -Raw -Encoding UTF8
+        
+        Write-Host "    - $($dt.Name)" -ForegroundColor White
+        
+        # Detectar sistema de la DT
+        if ($contenido -match 'sistema:\s*"([^"]+)"') {
+            $sistemaDT = $matches[1].ToUpper()
+            
+            # Ejecutar script especializado según sistema
+            switch ($sistemaDT) {
+                "FIBRA" {
+                    Write-Host "      Ejecutando script de fibra..." -ForegroundColor Gray
+                    & "$PSScriptRoot\regenerar_fibra_1824_cajas.ps1" 2>&1 | Out-Null
+                    Write-Host "      Script fibra completado" -ForegroundColor Green
+                }
+                "TETRA" {
+                    Write-Host "      Ejecutando script de TETRA..." -ForegroundColor Gray
+                    & "$PSScriptRoot\completar_37_estaciones_TETRA.ps1" 2>&1 | Out-Null
+                    Write-Host "      Script TETRA completado" -ForegroundColor Green
+                }
+                default {
+                    Write-Host "      Sin script especializado para $sistemaDT" -ForegroundColor Gray
+                }
+            }
+        }
+    }
+    Write-Host ""
+} else {
+    Write-Host "  No hay DTs con impacto en layout" -ForegroundColor Gray
+    Write-Host ""
+}
+
+# ================================================================
 # COCINAR CADA SISTEMA
 # ================================================================
 
