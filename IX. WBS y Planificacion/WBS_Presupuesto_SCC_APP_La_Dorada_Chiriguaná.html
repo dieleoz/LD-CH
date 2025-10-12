@@ -432,18 +432,35 @@
         </div>
     </div>
 
-    <!-- Cargar datos sincronizados desde fuente única -->
-    <script src="wbs_presupuestal_datos.js?v=1.0.0"></script>
+    <!-- Cargar datos sincronizados desde fuente única (Mejora v14.7.4) -->
+    <script src="datos_wbs_TODOS_items.js?v=20251012"></script>
     
     <script>
-        // Convertir datos de WBS Operativa a formato WBS Presupuestal
+        // Convertir datos de WBS Completa a formato WBS Presupuestal
         let wbsData = [];
         
-        if (typeof wbsDataPresupuestal !== 'undefined') {
-            wbsData = wbsDataPresupuestal;
-            console.log('✅ Datos cargados desde fuente sincronizada:', wbsData.length, 'items');
+        if (typeof window.datos_wbs !== 'undefined' && window.datos_wbs.items) {
+            // Transformar formato de datos_wbs_TODOS_items.js a formato presupuestal
+            wbsData = window.datos_wbs.items.map(item => {
+                // Determinar nivel basado en el código (ej: "1.1.100" = nivel 3)
+                const nivel = item.codigo.split('.').length;
+                
+                return {
+                    nivel: nivel,
+                    item: item.codigo,
+                    descripcion: item.descripcion,
+                    unidad: item.unidad || "",
+                    cantidad: item.cantidad || "",
+                    vu: item.vu_cop ? item.vu_cop.toLocaleString('es-CO') : "",
+                    total: item.total_cop ? item.total_cop.toLocaleString('es-CO') : "",
+                    tipo: item.tipo || ""
+                };
+            });
+            
+            console.log('✅ Datos cargados desde datos_wbs_TODOS_items.js:', wbsData.length, 'items');
+            console.log('📅 Última actualización WBS:', window.datos_wbs.fecha_actualizacion);
         } else {
-            console.warn('⚠️ No se pudo cargar wbs_presupuestal_datos.js, usando datos hardcoded');
+            console.warn('⚠️ No se pudo cargar datos_wbs_TODOS_items.js, usando datos hardcoded');
             wbsData = [
             // CAPÍTULO 1: FIBRA ÓPTICA (Datos de respaldo)
             {nivel: 1, item: "1", descripcion: "FIBRA ÓPTICA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
