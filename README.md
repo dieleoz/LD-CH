@@ -124,35 +124,33 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 #### **2. Cocinar y Servir Documentos (Workflow completo):**
 ```powershell
-# Opción A: Todo automático
+# Opción A: Todo automático (RECOMENDADO)
+# Este comando ejecuta el workflow completo:
+# 1. Detecta DTs recientes y consolida la "cocina" (I-VI).
+# 2. Exporta los documentos actualizados a Word (.docx) y HTML (.html).
 .\scripts\servir_ingenieria_completo.ps1
 
-# Opción B: Paso a paso (recomendado para cambios grandes)
-.\scripts\cocinar.ps1                # Consolida I-VI → X/7/
-.\scripts\servir.ps1                 # Exporta X/7/ → X/8/ (Word + HTML)
-
-# Opción C: Solo un sistema específico
-.\scripts\cocinar.ps1 -Sistema 02    # Solo Telecomunicaciones
-.\scripts\servir.ps1 -Sistema 02     # Solo Telecomunicaciones
-```
-- ✅ Consolida documentación técnica → Entregables cliente
-- ⏱️ Tiempo: ~30 segundos (todo) / ~5 segundos (un sistema)
-
-#### **3. Layout Maestro (Workflow Automático - v14.7):**
-```powershell
-# Usuario genera DT desde WBS_Layout_Maestro.html
-# Usuario guarda DT en: II. Apendices Tecnicos/Decisiones_Tecnicas/
-
-# Usuario ejecuta SOLO:
+# Opción B: Solo un sistema específico
 .\scripts\cocinar.ps1 -Sistema 02
 .\scripts\servir.ps1 -Sistema 02
 
-# TODO se actualiza automáticamente:
-#   ✅ cocinar.ps1 detecta DT con impacto_layout: true
-#   ✅ Ejecuta script especializado (regenerar_fibra_1824_cajas.ps1)
-#   ✅ Regenera layout (1,823 cajas + 130 domos)
-#   ✅ Consolida ingeniería
-#   ✅ Sirve documentos al cliente
+# Para un sistema específico (ej: Telecomunicaciones)
+.\scripts\servir_ingenieria_completo.ps1 -Sistema 02
+```
+- ✅ Consolida la documentación técnica y la convierte en entregables para el cliente.
+- ⏱️ Tiempo: ~30 segundos (completo) / ~5 segundos (un sistema).
+
+#### **3. Layout Maestro (Workflow Automático - v14.7):**
+```powershell
+# 1. El especialista genera una DT desde la interfaz del Layout Maestro.
+# 2. Guarda el archivo .md en la carpeta: II. Apendices Tecnicos/Decisiones_Tecnicas/
+# 3. Ejecuta el comando para servir el sistema afectado (ej: Sistema 02 para Fibra).
+.\scripts\servir_ingenieria_completo.ps1 -Sistema 02
+
+# El sistema se encarga de TODO automáticamente:
+#   ✅ Detecta la DT con `impacto_layout: true`.
+#   ✅ Ejecuta el script especializado (ej: regenerar_fibra_1824_cajas.ps1).
+#   ✅ Regenera el layout, consolida la ingeniería y sirve los documentos finales.
 ```
 - ✅ **Completamente automático** - sin scripts manuales intermedios
 - ✅ **Sin duplicación** - limpieza inteligente de elementos antiguos
@@ -610,7 +608,7 @@ II. Apendices Tecnicos/
 └── AT10_CapacidadSurcos_MEJORADO.md ✅ **COMPLETO**
 ```
 
-### **📁 II.A. Analisis Contractual** - Fase A
+### **📁 II.A. Analisis Contractual** - Fase A: Análisis de requisitos contractuales
 ```
 II.A. Analisis Contractual/
 ├── A.1_Analisis_Cl8-1_y_AT1.md ✅ **COMPLETO**
@@ -618,7 +616,7 @@ II.A. Analisis Contractual/
 └── A.3_Analisis_AT3_y_AT9.md ✅ **COMPLETO**
 ```
 
-### **📁 III. Ingenieria conceptual** - Fase B
+### **📁 III. Ingenieria conceptual** - Fase B: Propuestas de soluciones, identificación de riesgos y supuestos
 ```
 III. Ingenieria conceptual/
 ├── 36.1_Analisis_Riesgos_y_Supuestos_PMI.md ✅ **COMPLETO**
@@ -631,7 +629,7 @@ III. Ingenieria conceptual/
 └── [Otros 20+ documentos conceptuales] ✅ **COMPLETOS**
 ```
 
-### **📁 IV. Ingenieria básica** - Fase C
+### **📁 IV. Ingenieria básica** - Fase C: Desarrollo de especificaciones y diagramas de arquitectura
 ```
 IV. Ingenieria básica/
 ├── IV.1_Especificaciones_Basicas_Civil.md ✅ **COMPLETO**
@@ -641,7 +639,7 @@ IV. Ingenieria básica/
 └── [Otros 4 documentos básicos] ✅ **COMPLETOS**
 ```
 
-### **📁 V. INGENIERÍA DE DETALLE** - Fase D ✅ **COMPLETADA**
+### **📁 V. INGENIERÍA DE DETALLE** - Fase D: Especificaciones constructivas completas
 ```
 V. Ingenieria de detalle/
 ├── V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md ✅ **COMPLETO**
@@ -652,7 +650,7 @@ V. Ingenieria de detalle/
 └── [Otros 19 documentos de detalle] ✅ **COMPLETOS**
 ```
 
-### **📁 VI. OPERACIÓN Y MANTENIMIENTO** - Fase E ✅ **COMPLETADA**
+### **📁 VI. OPERACIÓN Y MANTENIMIENTO** - Fase E: Manuales y procedimientos para O&M
 ```
 VI. operacion y mantenimiento y reversion/
 ├── 6.1_Manual_OM_CTC_v1.0.md ✅ **COMPLETO**
