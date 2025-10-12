@@ -1,10 +1,10 @@
 # ÍNDICE MAESTRO CONSOLIDADO v1.0
 ## APP LA DORADA - CHIRIGUANÁ - DOCUMENTACIÓN COMPLETA
 
-**Fecha de consolidación:** 10 de Octubre 2025  
+**Fecha de consolidación:** 11 de Octubre 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7 - Layout Maestro Interactivo)**
+**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7.1 - Proyecto Limpio y Organizado)**
 
 ---
 
@@ -569,9 +569,9 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 
 ---
 
-## 🎉 **ACTUALIZACIÓN v14.7 - 11 OCTUBRE 2025**
+## 🎉 **ACTUALIZACIÓN v14.7.1 - 11 OCTUBRE 2025**
 
-### **Layout Maestro Interactivo + Workflow Automático Implementado:**
+### **Layout Maestro Interactivo + Workflow Automático + Limpieza Documental:**
 
 **Logros principales v14.7:**
 - ✅ **Layout Maestro HTML:** 2,182 equipos con filtros inteligentes
@@ -580,6 +580,14 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 - ✅ **Fibra óptica completada:** 1,823 cajas + 130 domos generados automáticamente
 - ✅ **Idempotencia garantizada:** Scripts sin duplicación
 - ✅ **Documentación actualizada:** README + Roadmap v14.7
+
+**Logros adicionales v14.7.1 (Limpieza y Organización):**
+- ✅ **Proyecto limpio:** 72% reducción de archivos (125 → 35 esenciales)
+- ✅ **Archivos movidos:** 59 a `old/`, 23 scripts a `legacy_scripts/`
+- ✅ **Carpetas organizadas:** 8 carpetas revisadas y limpiadas
+- ✅ **Documentación coherente:** 14 archivos actualizados a v14.7.1
+- ✅ **Commits exitosos:** 16 commits, todos subidos a Git
+- ✅ **READMEs actualizados:** Reflejan estado real del proyecto
 
 ### **Sistema WBS 100% Dinámico - Comando Único Implementado (v14.6):**
 
@@ -616,5 +624,5 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 ---
 
 **Última actualización del índice:** 11 de Octubre 2025  
-**Versión:** v1.0 - Actualizado para v14.7  
-**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.7 COMPLETADO (Layout Maestro + Workflow Automático)
+**Versión:** v1.0 - Actualizado para v14.7.1  
+**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.7.1 COMPLETADO (Layout Maestro + Workflow Automático + Proyecto Limpio)
