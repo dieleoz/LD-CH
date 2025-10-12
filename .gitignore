@@ -11,6 +11,9 @@ backup_originales/
 # Carpeta de archivos históricos
 old/
 
+# Backups de layout
+backup_layout_*/
+
 # Node modules (si se usan)
 node_modules/
 
