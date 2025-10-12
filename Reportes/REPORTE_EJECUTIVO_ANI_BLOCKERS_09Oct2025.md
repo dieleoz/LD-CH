@@ -5,17 +5,18 @@
 **De:** PMO / Gestión de Riesgos  
 **Para:** ANI - Agencia Nacional de Infraestructura  
 **Fecha:** 9 de Octubre 2025 (Mes 4/12 Ingeniería)  
+**Actualizado:** 11 de Octubre 2025 (Datos presupuestales v14.7)  
 **Prioridad:** 🔴 URGENTE - BLOCKERS CRÍTICOS IDENTIFICADOS
 
 ---
 
 ## 🎯 **RESUMEN EJECUTIVO**
 
-### **Estado del Proyecto:**
+### **Estado del Proyecto (Actualizado 11-Oct-2025):**
 - ✅ Ingeniería: Mes 4/12 (33% completado)
-- ✅ WBS: 123 ítems, $264,901M COP validados
-- ❌ **3 BLOCKERS identificados** requieren resolución urgente
-- ⚠️ **$153,098M COP en riesgo** (58% del proyecto)
+- ✅ WBS: **124 ítems, $307,533M COP** validados (actualizado v14.7)
+- ❌ **4 BLOCKERS identificados** requieren resolución urgente
+- ⚠️ **$153,098M COP en riesgo** (50% del proyecto actualizado)
 
 ### **Análisis Realizado:**
 - ✅ Revisión completa Apéndices Técnicos AT1-AT10
