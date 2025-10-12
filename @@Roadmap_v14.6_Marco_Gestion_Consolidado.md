@@ -7,11 +7,20 @@
 **Versión Actual:** v14.7 - Sistema WBS + Layout Interactivo con DT Automáticas  
 **Próxima Actualización:** Mensual o por hitos importantes  
 
-### **⚡ COMANDO ÚNICO (v14.6 - 10-OCT-2025):**
+### **⚡ COMANDOS PRINCIPALES (v14.7 - 11-OCT-2025):**
+
+#### **Para actualizar WBS (Riesgos, Reporte, Cronograma):**
 ```powershell
 .\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1
 ```
-✅ **Un comando sincroniza TODO:** Riesgos + Reporte + Cronograma (~6 segundos)  
+✅ **Sincroniza interfaces WBS:** Riesgos + Reporte + Cronograma (~6 segundos)
+
+#### **Para actualizar documentos técnicos (Workflow completo):**
+```powershell
+.\scripts\cocinar.ps1    # Detecta DTs, ejecuta scripts layout, consolida ingeniería
+.\scripts\servir.ps1     # Exporta a Word/HTML para cliente
+```
+✅ **Workflow automático:** Detecta DTs con impacto_layout y ejecuta scripts especializados (~30 segundos)  
 
 ---
 
@@ -222,14 +231,38 @@ II. Apendices Tecnicos/Decisiones_Tecnicas/
 └── DT-FIBRA-641-2025-10-11.md ✅ EJECUTADA - Log completo
 ```
 
+### **🔧 FIX FINAL v14.7 (11-Oct-2025 - COMPLETADO):**
+
+#### **AUTOMATIZACIÓN COMPLETA DE WORKFLOW:**
+- ✅ **cocinar.ps1 mejorado** con fase PRE-COCINA automática
+  - Detecta DTs con `impacto_layout: true`
+  - Ejecuta script especializado según sistema (FIBRA, TETRA, etc.)
+  - Todo automático - usuario solo ejecuta `cocinar.ps1` + `servir.ps1`
+
+- ✅ **regenerar_fibra_1824_cajas.ps1 mejorado** sin duplicación
+  - Limpieza inteligente de elementos antiguos
+  - Elimina: EMPALME_FO_, CAJA_FO_, CAJA_PUENTE_, DOMO_FO_
+  - Previene duplicación en ejecuciones múltiples
+  - Genera exactamente 2,182 elementos (sin importar cuántas veces se ejecute)
+
+#### **WORKFLOW USUARIO FINAL (SIMPLIFICADO):**
+```powershell
+# Usuario genera DT desde HTML → Guarda en carpeta DTs
+
+# Usuario ejecuta SOLO:
+.\scripts\cocinar.ps1
+.\scripts\servir.ps1
+
+# TODO se actualiza automáticamente ✅
+```
+
 ### **🎯 PRÓXIMOS PASOS (v14.8):**
 
 #### **Pendiente de implementar:**
-- ⏳ **Ejecutor DT universal mejorado** que lea YAML completo y aplique cambios sin intervención manual
-- ⏳ **Sistema de subsistemas** (FIBRA, TETRA como entidades separadas)
 - ⏳ **Validación pre-ejecución** de DTs (verificar archivos, valores, etc.)
 - ⏳ **Modo dry-run** para simular ejecución de DT
 - ⏳ **Integración Layout → WBS bidireccional** (cambios en layout actualizan WBS automáticamente)
+- ⏳ **Scripts especializados** para otros sistemas (CTC, CCTV, etc.)
 
 ### **📊 MÉTRICAS v14.7:**
 
@@ -250,6 +283,55 @@ II. Apendices Tecnicos/Decisiones_Tecnicas/
 3. **Estadísticas Contextuales:** Se muestran/ocultan según relevancia del filtro
 4. **Cache-Busting Automático:** Timestamp en query string para forzar recarga
 5. **Generación DT desde Filtro:** Permite crear DTs para cambios masivos
+6. **PRE-COCINA Automática:** `cocinar.ps1` ejecuta scripts de layout automáticamente
+7. **Limpieza Idempotente:** Scripts pueden ejecutarse múltiples veces sin duplicar
+
+### **✅ VALIDACIÓN v14.7:**
+
+#### **Sistema probado y funcional:**
+```powershell
+# Test 1: Generar DT desde HTML ✅
+#   - Filtro aplicado: TELECOMUNICACIONES / Fibra
+#   - Elementos filtrados: 1,953
+#   - DT generada: DT-FIBRA-641-2025-10-11.md
+#   - Modal funcionó correctamente
+#   - Descarga exitosa
+
+# Test 2: Ejecutar workflow completo ✅
+.\scripts\cocinar.ps1 -Sistema 02
+#   - Detectó DT-FIBRA-641 con impacto_layout: true
+#   - Ejecutó regenerar_fibra_1824_cajas.ps1 automáticamente
+#   - Limpió 3,778 elementos duplicados
+#   - Generó 1,953 elementos nuevos
+#   - Total final: 2,182 elementos ✅
+#   - Consolidó SISTEMA_02 ✅
+
+.\scripts\servir.ps1 -Sistema 02
+#   - Generó Word: SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx ✅
+#   - Generó HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html ✅
+
+# Test 3: Verificar HTML ✅
+#   - WBS_Layout_Maestro.html carga 2,182 elementos
+#   - Filtro "Fibra" muestra 1,953 elementos
+#   - Estadísticas dinámicas funcionando
+#   - No duplicación de cajas/domos
+#   - Cache-busting efectivo (Ctrl+Shift+F5)
+
+# Test 4: Ejecutar 2 veces (idempotencia) ✅
+.\scripts\cocinar.ps1 -Sistema 02
+#   - Ejecutó regenerar_fibra_1824_cajas.ps1 nuevamente
+#   - Limpió elementos anteriores correctamente
+#   - Generó exactamente 2,182 elementos (sin duplicar) ✅
+```
+
+#### **Números validados:**
+- ✅ Cajas de empalme: **1,823** (1,735 lineales + 88 puentes)
+- ✅ Domos de fusión: **130** (cada 4km)
+- ✅ Total elementos layout: **2,182**
+- ✅ WBS Item 2.3.103: **1,823 cajas** ($2,461,050,000)
+- ✅ WBS Item 2.3.104: **5,469 uniones** ($191,415,000)
+- ✅ WBS Item 2.3.109: **130 domos** ($325,000,000)
+- ✅ Coherencia WBS ↔ Ingeniería ↔ Layout: **100%**
 
 ---
 
