@@ -1,10 +1,10 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 10 de Octubre 2025  
-**Estado del proyecto:** ✅ **FASE DE VALIDACIÓN Y CORRECCIÓN - PMO ACTIVO (SISTEMA v14.6)**  
+**Fecha de actualización:** 11 de Octubre 2025  
+**Estado del proyecto:** ✅ **SISTEMA v14.7 - LAYOUT MAESTRO INTERACTIVO + WORKFLOW AUTOMÁTICO**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos identificados, 17 riesgos validados, Cronograma 60m, Sistema WBS 100% dinámico, **Portal web publicado** 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,182 equipos**, **Workflow DT automático**, Portal web publicado 
 
 ---
 
@@ -14,6 +14,19 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
+
+### **📊 ESTADO DEL SISTEMA v14.7 (11-Oct-2025):**
+
+| Componente | Estado | Métricas |
+|:-----------|:-------|:---------|
+| **Interfaces WBS** | ✅ Operativas | 7 interfaces HTML dinámicas |
+| **Layout Maestro** | ✅ Operativo | 2,182 equipos con filtros inteligentes |
+| **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
+| **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
+| **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
+| **Documentos Servidos** | ✅ Actualizados | 28 archivos (14 Word + 14 HTML) |
+| **Presupuesto Total** | ✅ Validado | $307,533,941,332 COP |
+| **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -125,18 +138,26 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 - ✅ Consolida documentación técnica → Entregables cliente
 - ⏱️ Tiempo: ~30 segundos (todo) / ~5 segundos (un sistema)
 
-#### **3. Layout Maestro (Ejecución de DT de Fibra):**
+#### **3. Layout Maestro (Workflow Automático - v14.7):**
 ```powershell
-# Script especializado para fibra óptica
-.\scripts\regenerar_fibra_1824_cajas.ps1
+# Usuario genera DT desde WBS_Layout_Maestro.html
+# Usuario guarda DT en: II. Apendices Tecnicos/Decisiones_Tecnicas/
 
-# Luego actualizar documentos
+# Usuario ejecuta SOLO:
 .\scripts\cocinar.ps1 -Sistema 02
 .\scripts\servir.ps1 -Sistema 02
+
+# TODO se actualiza automáticamente:
+#   ✅ cocinar.ps1 detecta DT con impacto_layout: true
+#   ✅ Ejecuta script especializado (regenerar_fibra_1824_cajas.ps1)
+#   ✅ Regenera layout (1,823 cajas + 130 domos)
+#   ✅ Consolida ingeniería
+#   ✅ Sirve documentos al cliente
 ```
-- ✅ Regenera 1,823 cajas + 130 domos en layout
-- ✅ Actualiza WBS, ingeniería y matrices
-- ⏱️ Tiempo: ~45 segundos (regeneración + cocinar + servir)
+- ✅ **Completamente automático** - sin scripts manuales intermedios
+- ✅ **Sin duplicación** - limpieza inteligente de elementos antiguos
+- ✅ **Idempotente** - puede ejecutarse múltiples veces sin errores
+- ⏱️ Tiempo: ~30 segundos (detección + regeneración + cocinar + servir)
 
 ### **🍽️ Servir Documentos al Cliente:**
 ```powershell
@@ -370,25 +391,42 @@ if (cajasFiltradas > 0 || domosFiltrados > 0) {
 5. ✅ **Documentar en roadmap** cada cambio importante
 6. ✅ **Cache-busting** en HTML (?v=timestamp) para forzar recarga
 
-#### **🎯 WORKFLOW CORRECTO (ejemplo FIBRA):**
+#### **🎯 WORKFLOW AUTOMÁTICO v14.7 (ejemplo FIBRA):**
 ```
-Usuario → HTML (filtro Fibra) → Crear DT → Descargar DT
+Usuario → WBS_Layout_Maestro.html
+   ├─ Filtra por: TELECOMUNICACIONES / Fibra
+   ├─ Click: "📋 Crear DT desde Filtro"
+   ├─ Completa: Observación + Justificación
+   ├─ Descarga: DT-FIBRA-641-2025-10-11.md
+   └─ Guarda en: II. Apendices Tecnicos/Decisiones_Tecnicas/
    ↓
-Mover DT a carpeta II. Apendices Tecnicos/Decisiones_Tecnicas/
+Usuario ejecuta SOLO 2 comandos:
    ↓
-Ejecutar: .\scripts\regenerar_fibra_1824_cajas.ps1
-   ├─ Actualiza layout.md
-   ├─ Regenera layout_datos.js
-   └─ Actualiza layout integral
+.\scripts\cocinar.ps1 -Sistema 02
+   ├─ [PRE-COCINA] Detecta DT-FIBRA-641 con impacto_layout: true ✅
+   ├─ [PRE-COCINA] Ejecuta regenerar_fibra_1824_cajas.ps1 automáticamente ✅
+   │   ├─ Limpia 3,778 elementos antiguos
+   │   ├─ Genera 1,735 cajas lineales (cada 300m)
+   │   ├─ Genera 88 cajas en puentes (22 × 4)
+   │   ├─ Genera 130 domos de fusión (cada 4km)
+   │   ├─ Actualiza layout.md → 2,839 líneas
+   │   ├─ Regenera layout_datos.js → 2,182 elementos
+   │   └─ Actualiza LAYOUT_INTEGRAL_COMPLETO_v1.0.json
+   ├─ [COCINA] Lee III/28_Sistema_FibraOptica_Integrado.md
+   └─ [COCINA] Consolida → X/7_SISTEMAS_EJECUTIVOS/SISTEMA_02.md ✅
    ↓
-Cocinar: .\scripts\cocinar.ps1 -Sistema 02
-   └─ Consolida III/ → X/7_SISTEMAS_EJECUTIVOS/
+.\scripts\servir.ps1 -Sistema 02
+   ├─ Lee X/7_SISTEMAS_EJECUTIVOS/SISTEMA_02.md
+   ├─ Genera Word: SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx ✅
+   └─ Genera HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html ✅
    ↓
-Servir: .\scripts\servir.ps1 -Sistema 02
-   └─ Exporta X/7/ → X/8_DOCUMENTOS_SERVIDOS/ (Word + HTML)
-   ↓
-Usuario → Refresh HTML (Ctrl+Shift+F5) → Verifica cambios
+Usuario → Refresh WBS_Layout_Maestro.html (Ctrl+Shift+F5)
+   └─ Verifica: 2,182 elementos, 1,823 cajas, 130 domos ✅
 ```
+
+**⏱️ Tiempo total:** ~30 segundos  
+**🎯 Intervención manual:** Solo 2 comandos (cocinar + servir)  
+**✅ Resultado:** Layout + WBS + Ingeniería + Documentos cliente actualizados
 
 ### **🍳 Chef Prompt Integral - Layout Dinámico:**
 ```powershell
