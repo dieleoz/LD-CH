@@ -693,7 +693,7 @@ La gestión del proyecto se rige por el **Marco de Gestión de Proyectos (MGP)**
 |:---|:---|:---|
 | `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | **Matriz RACI completa** con roles por especialidad (PMO, EPC, Interventoría) | ✅ **COMPLETO** |
 | `00. Gobernanza PMO/Matriz_Riesgos_PMO_Consolidada_v1.0.md` | **Registro operativo de riesgos (PMO)** con KPIs y seguimiento | ✅ **COMPLETO** |
-| `@@Roadmap_v12.0_Marco_Gestion_Consolidado.md` | **Roadmap principal** del proyecto con estado actual y próximos pasos | ✅ **ACTUALIZADO** |
+| `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` | **Roadmap principal** v14.7 - Layout Maestro + Workflow Automático | ✅ **ACTUALIZADO** |
 | `III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` | **Herramienta central de la PMO** - Registra todas las indefiniciones, supuestos y riesgos | ✅ **COMPLETO** |
 | `III. Ingenieria conceptual/36.2_Metodologia_Gestion_Supuestos.md` | Define el **ciclo de vida** para la gestión de supuestos del proyecto | ✅ **COMPLETO** |
 
@@ -731,7 +731,7 @@ El desarrollo de la ingeniería sigue una secuencia lógica de fases, enmarcada 
 
 | Documento | Propósito | Referencias |
 |:---|:---|:---|
-| `@@Roadmap_v12.0_Marco_Gestion_Consolidado.md` | **Roadmap principal** - Estado actual y próximos pasos | Todas las fases y documentos |
+| `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` | **Roadmap principal** - Estado v14.7 y próximos pasos | Todas las fases y documentos |
 | `Indice_Maestro_Consolidado_v1.0.md` | **Índice completo** de todos los documentos de ingeniería | 173 documentos |
 | `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | **Matriz RACI** - Roles y responsabilidades | Todas las especialidades |
 | `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | **WBS integral** - Estructura de trabajo completa | Todas las especialidades |
@@ -1384,7 +1384,7 @@ Los otros 15 riesgos son **transversales** (afectan todo el proyecto).
 ### **Si eres NUEVO en el proyecto:**
 1. Lee: `@@LEEME_SISTEMA_COMPLETO.md` - Introducción general
 2. Lee: `README.md` (este documento) - Arquitectura completa
-3. Revisa: `@@Roadmap_v14.6_Marco_Gestion_Consolidado.md` - Estado actual
+3. Revisa: `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` - Estado actual ⭐
 
 ### **Si necesitas USAR el sistema WBS:**
 1. Abre: `IX. WBS y Planificacion/WBS_Menu_Principal.html`
@@ -1472,25 +1472,21 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```
 **Acceso a:** 6 interfaces dinámicas con cache-busting automático
 
-### **📚 Documentación creada hoy:**
-- **Scripts:** 9 creados/modificados
-- **Documentos técnicos:** 17 documentos (~8,000 líneas)
-- **Archivos guía:** `00_LEEME_URGENTE.md`, `LEEME_PRIMERO.md`
+### **📚 Documentación esencial v14.7:**
+- **Roadmap actualizado:** `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` ⭐
+- **Arquitectura Cocinar→Servir:** `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md`
+- **Sistema de Trazabilidad:** `@@SISTEMA_TRAZABILIDAD_COMPLETA_v1.0.md`
+- **Guías de usuario:** `@@LEEME_SISTEMA_COMPLETO.md`, `00_LEEME_URGENTE.md`
+- **Plan de acción activo:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`
 
-**Documentos clave de la sesión:**
-- `@@CIERRE_SESION_10Oct2025_v14.6.md` - Cierre oficial
-- `@@CONSOLIDADO_SESION_10Oct2025_v14.6_FINAL.md` - Consolidado completo
-- `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md` - Arquitectura técnica (1,457 líneas)
-- `@@INTEGRACION_LAYOUT_Sistema_Cocinar_Servir_v2.0.md` - **🆕 Sistema v2.0 con Layout** (11 Oct 2025)
-- `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md` - Plan de acción detallado
-- `@@MEJORAS_CACHE_BUSTING_AUTOMATICO_10Oct2025.md` - Cache-busting técnico
-- `@@MEJORAS_FINALES_SISTEMA_v14.6.md` - Optimizaciones finales
-- `@@SISTEMA_CHEF_PROMPT_COMPLETO_v1.0.md` - **🆕 Chef Prompt completo documentado** (10-11 Oct 2025)
-- `@@RESUMEN_Layout_Sistema_Completo_v1.0.md` - **🆕 Layout dinámico completo** (11 Oct 2025)
+**Documentos movidos a old/ (históricos):**
+- 14 documentos de planificación y troubleshooting de sesiones anteriores
+- 4 backups de layout (layout_backup_*.md)
+- Resúmenes de implementación ya completada
 
 ---
 
 **Documento actualizado según Metodología Punto 42**  
-**Fecha de actualización:** 10 de Octubre 2025  
+**Fecha de actualización:** 11 de Octubre 2025  
 **Responsable:** Administrador Contractual EPC + PMO + Equipo Técnico  
-**Estado:** ✅ **SISTEMA v14.6 + CHEF PROMPT COMPLETADO - 100% DINÁMICO + LAYOUT INTEGRAL + TRAZABILIDAD COMPLETA**
+**Estado:** ✅ **SISTEMA v14.7 COMPLETADO - Layout Maestro Interactivo (2,182 equipos) + Workflow Automático DT**

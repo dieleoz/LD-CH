@@ -4,7 +4,7 @@
 **Fecha de consolidación:** 10 de Octubre 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.6)**
+**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7 - Layout Maestro Interactivo)**
 
 ---
 
@@ -453,7 +453,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ## 📋 NAVEGACIÓN RÁPIDA
 
 ### **DOCUMENTOS PRINCIPALES:**
-- **Estado del proyecto:** `@@Roadmap_v12.0_Marco_Gestion_Consolidado.md`
+- **Estado del proyecto:** `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` ⭐ **ACTUALIZADO**
 - **Navegación principal:** `README.md`
 - **Fases del proyecto:** `0.1 Fases de Desarrollo de Ingeniería - 02-10-2025.md`
 - **Índice completo:** `Indice_Maestro_Consolidado_v1.0.md` (este documento)
@@ -569,9 +569,19 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 
 ---
 
-## 🎉 **ACTUALIZACIÓN v14.6 - 10 OCTUBRE 2025**
+## 🎉 **ACTUALIZACIÓN v14.7 - 11 OCTUBRE 2025**
 
-### **Sistema WBS 100% Dinámico - Comando Único Implementado:**
+### **Layout Maestro Interactivo + Workflow Automático Implementado:**
+
+**Logros principales v14.7:**
+- ✅ **Layout Maestro HTML:** 2,182 equipos con filtros inteligentes
+- ✅ **Generación DT desde Layout:** Botones individuales y desde filtros
+- ✅ **Workflow automático:** cocinar.ps1 detecta y ejecuta scripts especializados
+- ✅ **Fibra óptica completada:** 1,823 cajas + 130 domos generados automáticamente
+- ✅ **Idempotencia garantizada:** Scripts sin duplicación
+- ✅ **Documentación actualizada:** README + Roadmap v14.7
+
+### **Sistema WBS 100% Dinámico - Comando Único Implementado (v14.6):**
 
 **Comando Único de Sincronización:**
 ```powershell
@@ -605,6 +615,6 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 
 ---
 
-**Última actualización del índice:** 10 de Octubre 2025  
-**Versión:** v1.0 - Actualizado para v14.6  
-**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.6 COMPLETADO
+**Última actualización del índice:** 11 de Octubre 2025  
+**Versión:** v1.0 - Actualizado para v14.7  
+**Estado:** ✅ ÍNDICE MAESTRO ACTUALIZADO - SISTEMA v14.7 COMPLETADO (Layout Maestro + Workflow Automático)

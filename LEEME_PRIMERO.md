@@ -1,7 +1,7 @@
-# 🎯 LÉEME PRIMERO - SISTEMA WBS v14.6
+# 🎯 LÉEME PRIMERO - SISTEMA WBS v14.7
 
-**Última actualización:** 10 de Octubre 2025  
-**Estado:** ✅ SISTEMA 100% DINÁMICO Y OPERATIVO
+**Última actualización:** 11 de Octubre 2025  
+**Estado:** ✅ SISTEMA 100% DINÁMICO + LAYOUT MAESTRO INTERACTIVO
 
 ---
 
@@ -11,7 +11,7 @@
 ```
 Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```
-**Acceso a 6 interfaces dinámicas** (Presupuesto, Riesgos, Reporte, Cronograma, EDT, Documentos)
+**Acceso a 7 interfaces dinámicas** (Presupuesto, Riesgos, Reporte, Cronograma, EDT, Documentos, Layout Maestro) ⭐ NUEVO v14.7
 
 ### **2. Comando Único para Sincronizar TODO:**
 ```powershell
@@ -32,7 +32,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 | Documento | Propósito |
 |-----------|-----------|
 | `README.md` | **Portal principal** - Arquitectura completa |
-| `@@Roadmap_v14.6_Marco_Gestion_Consolidado.md` | Estado actual del proyecto |
+| `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` | Estado actual v14.7 ⭐ **ACTUALIZADO** |
 | `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md` | Qué hacer con los 4 blockers |
 | `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md` | Arquitectura técnica (1,457 líneas) |
 | `Indice_Maestro_Consolidado_v1.0.md` | Índice de 181 documentos |
@@ -60,6 +60,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 - **Presupuesto:** $307,533,941,332 COP
 - **Validación:** 🔴 NO APTO PARA CONSTRUCCIÓN (4 blockers)
 - **Sistema WBS:** ✅ 100% dinámico
+- **Layout Maestro:** ✅ 2,182 equipos con filtros + DT ⭐ NUEVO v14.7
 
 ---
 
