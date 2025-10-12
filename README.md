@@ -868,17 +868,20 @@ Estos documentos están diseñados para ser presentados a **especialistas de cad
 ## 🗺️ NAVEGACIÓN RÁPIDA
 
 ### **🚀 INICIO RÁPIDO:**
-- **Sistema WBS Interactivo:** `@@LEEME_SISTEMA_COMPLETO.md` ⭐⭐ (Empieza aquí)
-- **Usar WBS:** `IX. WBS y Planificacion/WBS_Menu_Principal.html` ⭐⭐
+- **Manual de Uso:** `MANUAL_DE_USO_COMPLETO.md` ⭐⭐⭐ **NUEVO** (Empieza aquí - Para usuarios)
+- **Guía de DTs:** `GUIA_DECISIONES_TECNICAS.md` ⭐⭐⭐ **NUEVO** (Cómo proponer cambios)
+- **Sistema WBS Interactivo:** `@@LEEME_SISTEMA_COMPLETO.md` ⭐⭐ (Documentación técnica)
+- **Usar WBS:** `IX. WBS y Planificacion/WBS_Menu_Principal.html` ⭐⭐ (Interfaz web)
 
 ### **📋 DOCUMENTOS PRINCIPALES:**
-- **Estado del proyecto:** `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` (v14.7.1 - Documento VIVO)
+- **Arquitectura del Sistema:** `ARCHITECTURE.md` ⭐ **NUEVO** (v14.7.5 - Arquitectura técnica completa)
+- **Manual de Uso:** `MANUAL_DE_USO_COMPLETO.md` ⭐ **NUEVO** (Guía práctica para usuarios)
+- **Guía de DTs:** `GUIA_DECISIONES_TECNICAS.md` ⭐ **NUEVO** (Cómo proponer cambios técnicos)
+- **Estado del proyecto:** `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` (v14.7.5 - Documento VIVO)
 - **Lista completa de documentos:** `Indice_Maestro_Consolidado_v1.0.md`
+- **Análisis de mejoras:** `RESUMEN_FINAL_MEJORAS_12_OCT_2025.md` ⭐ **NUEVO** (Mejoras v14.7.3-v14.7.5)
 - **Roles y responsabilidades:** `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`
 - **WBS completa:** `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`
-- **Validación técnica:** `Reportes/Metodologia_Punto_42/VALIDACION_FINAL_V1-V5_METODOLOGIA_PUNTO_42.md`
-- **Diagnóstico y Propuesta:** `Reportes/Metodologia_Punto_42/P42_V1-V5_Diagnostico_y_Propuesta_v1.1_2025-10-03.md`
-- **Referencias cruzadas:** `Reportes/Referencias/REFERENCIAS_CRUZADAS_CONSOLIDADAS_v1.0.md`
 
 ### **📚 DOCUMENTACIÓN SISTEMA WBS:**
 - **Índice completo:** `@@Documentacion_Sistema_WBS/README_Documentacion.md` ⭐
