@@ -608,17 +608,17 @@ II. Apendices Tecnicos/
 └── AT10_CapacidadSurcos_MEJORADO.md ✅ **COMPLETO**
 ```
 
-### **📁 II.A. Analisis Contractual** - Fase A: Análisis de requisitos contractuales
+### **📁 II.A. Analisis Contractual** - Fase A
 ```
-II.A. Analisis Contractual/
+II.A. Analisis Contractual/ # Fase A: Análisis de requisitos contractuales
 ├── A.1_Analisis_Cl8-1_y_AT1.md ✅ **COMPLETO**
 ├── A.2_Analisis_AT2_y_AT4.md ✅ **COMPLETO**
 └── A.3_Analisis_AT3_y_AT9.md ✅ **COMPLETO**
 ```
 
-### **📁 III. Ingenieria conceptual** - Fase B: Propuestas de soluciones, identificación de riesgos y supuestos
+### **📁 III. Ingenieria conceptual** - Fase B
 ```
-III. Ingenieria conceptual/
+III. Ingenieria conceptual/ # Fase B: Propuestas de soluciones, identificación de riesgos y supuestos
 ├── 36.1_Analisis_Riesgos_y_Supuestos_PMI.md ✅ **COMPLETO**
 ├── 25.1_WBS_COMPLETA_ESPECIALIDADES.md ✅ **COMPLETO**
 ├── 25.1_Matriz_Alcance_Electrico.md ✅ **COMPLETO**
@@ -629,9 +629,9 @@ III. Ingenieria conceptual/
 └── [Otros 20+ documentos conceptuales] ✅ **COMPLETOS**
 ```
 
-### **📁 IV. Ingenieria básica** - Fase C: Desarrollo de especificaciones y diagramas de arquitectura
+### **📁 IV. Ingenieria básica** - Fase C
 ```
-IV. Ingenieria básica/
+IV. Ingenieria básica/ # Fase C: Desarrollo de especificaciones y diagramas de arquitectura
 ├── IV.1_Especificaciones_Basicas_Civil.md ✅ **COMPLETO**
 ├── IV.2_Especificaciones_Basicas_Electrica.md ✅ **COMPLETO**
 ├── IV.3_Especificaciones_Basicas_Mecanica.md ✅ **COMPLETO**
@@ -639,9 +639,9 @@ IV. Ingenieria básica/
 └── [Otros 4 documentos básicos] ✅ **COMPLETOS**
 ```
 
-### **📁 V. INGENIERÍA DE DETALLE** - Fase D: Especificaciones constructivas completas
+### **📁 V. INGENIERÍA DE DETALLE** - Fase D
 ```
-V. Ingenieria de detalle/
+V. Ingenieria de detalle/ # Fase D: Especificaciones constructivas completas
 ├── V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md ✅ **COMPLETO**
 ├── V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md ✅ **COMPLETO**
 ├── V.3_Sistemas_Comunicacion_Detalle_v1.0.md ✅ **COMPLETO**
@@ -650,9 +650,9 @@ V. Ingenieria de detalle/
 └── [Otros 19 documentos de detalle] ✅ **COMPLETOS**
 ```
 
-### **📁 VI. OPERACIÓN Y MANTENIMIENTO** - Fase E: Manuales y procedimientos para O&M
+### **📁 VI. OPERACIÓN Y MANTENIMIENTO** - Fase E
 ```
-VI. operacion y mantenimiento y reversion/
+VI. operacion y mantenimiento y reversion/ # Fase E: Manuales y procedimientos para O&M
 ├── 6.1_Manual_OM_CTC_v1.0.md ✅ **COMPLETO**
 ├── 6.2_Manual_OM_Senalizacion_v1.0.md ✅ **COMPLETO**
 ├── 6.3_Manual_OM_Telecom_v1.0.md ✅ **COMPLETO**
