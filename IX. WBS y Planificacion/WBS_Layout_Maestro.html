@@ -220,9 +220,7 @@
         </div>
     </div>
     
-    <!-- Cargar datos del layout -->
-    <script src="layout_datos.js?v=20251011_1745"></script>
-    
+    <!-- Cargar datos del layout con fetch (método robusto para archivos grandes) -->
     <script>
         let allData = [];
         let filteredData = [];
@@ -241,20 +239,68 @@
             'INFRAESTRUCTURA': ['Puente', 'Viaducto', 'Patio']
         };
         
-        // Inicializar
-        window.addEventListener('DOMContentLoaded', function() {
-            if (typeof LAYOUT_DATOS !== 'undefined') {
-                allData = LAYOUT_DATOS;
-                console.log('✅ Datos cargados:', allData.length, 'elementos');
+        // Inicializar - Cargar datos con fetch (mejor para archivos grandes)
+        window.addEventListener('DOMContentLoaded', async function() {
+            try {
+                console.log('🔄 Cargando datos del layout...');
+                
+                // Cargar layout_datos.json con fetch (más robusto que <script>)
+                const response = await fetch('layout_datos.json?v=' + Date.now());
+                
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar layout_datos.json (HTTP ' + response.status + ')');
+                }
+                
+                const data = await response.json();
+                allData = Array.isArray(data) ? data : (data.elementos || []);
+                
+                console.log('✅ Datos cargados:', allData.length, 'elementos desde JSON');
                 
                 poblarFiltros();
                 applyFilters();
                 actualizarEstadisticas();
-            } else {
-                console.error('❌ No se pudieron cargar los datos');
-                document.getElementById('layout-tbody').innerHTML = '<tr><td colspan="8" class="empty-state"><div class="empty-state-icon">❌</div><div>Error al cargar los datos del layout</div></td></tr>';
+                
+            } catch (error) {
+                console.error('❌ Error cargando datos:', error);
+                
+                // Fallback: intentar cargar desde layout_datos.js (script clásico)
+                const script = document.createElement('script');
+                script.src = 'layout_datos.js?v=20251012';
+                script.onload = function() {
+                    if (typeof LAYOUT_DATOS !== 'undefined') {
+                        allData = LAYOUT_DATOS;
+                        console.log('✅ Datos cargados desde fallback JS:', allData.length, 'elementos');
+                        poblarFiltros();
+                        applyFilters();
+                        actualizarEstadisticas();
+                    } else {
+                        mostrarErrorCarga();
+                    }
+                };
+                script.onerror = function() {
+                    mostrarErrorCarga();
+                };
+                document.head.appendChild(script);
             }
         });
+        
+        function mostrarErrorCarga() {
+            console.error('❌ No se pudieron cargar los datos del layout');
+            document.getElementById('stats-content').innerHTML = 
+                '<div style="background: #ffebee; color: #c62828; padding: 20px; border-radius: 8px; border-left: 4px solid #c62828;">' +
+                '<h3 style="margin-top:0;">⚠️ Error al Cargar Datos</h3>' +
+                '<p>El Layout Maestro no pudo cargar los datos.</p>' +
+                '<p><strong>Soluciones:</strong></p>' +
+                '<ul>' +
+                '<li>Presionar <strong>Ctrl + Shift + R</strong> para forzar recarga</li>' +
+                '<li>Abrir en ventana incógnita (<strong>Ctrl + Shift + N</strong>)</li>' +
+                '<li>Esperar 2-3 minutos si acabas de actualizar GitHub Pages</li>' +
+                '<li>Abrir archivo LOCAL: <code>IX. WBS y Planificacion/WBS_Layout_Maestro.html</code></li>' +
+                '</ul>' +
+                '<p style="margin-top: 15px;"><a href="../help.html" style="color: #1976d2; font-weight: 600;">📚 Ver Centro de Ayuda</a></p>' +
+                '</div>';
+            document.getElementById('layout-tbody').innerHTML = '<tr><td colspan="8" class="empty-state"><div class="empty-state-icon">❌</div><div>Error al cargar los datos del layout</div></td></tr>';
+        }
         
         function poblarFiltros() {
             // Poblar Tipos
