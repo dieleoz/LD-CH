@@ -1,0 +1,3602 @@
+﻿[
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_ORE_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "327+675",
+        "ubicacion":  "PK327+675 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_ORE_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "327+675",
+        "ubicacion":  "PK327+675 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_330",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "330+000",
+        "ubicacion":  "PK330+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "EMPALME_FO_10",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "330+000",
+        "ubicacion":  "PK330+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "SEÑAL_PROT_MAG_01",
+        "nombre":  "Señal Protección Puente",
+        "descripcion":  "Derecha",
+        "dispositivo":  "332+000",
+        "ubicacion":  "PK332+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_PROT_MAG_01",
+        "nombre":  "Baliza Protección",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+000",
+        "ubicacion":  "PK332+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "PUENTE_RIO_MAGDALENA_INICIO",
+        "nombre":  "Puente Río Magdalena - Inicio",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+230",
+        "ubicacion":  "PK332+230 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_MAG_01",
+        "nombre":  "Cámara Puente Entrada Norte",
+        "descripcion":  "Derecha",
+        "dispositivo":  "332+230",
+        "ubicacion":  "PK332+230 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_MAG_02",
+        "nombre":  "Cámara Puente Lateral Este",
+        "descripcion":  "Derecha",
+        "dispositivo":  "332+280",
+        "ubicacion":  "PK332+280 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_MAG_ENTRADA",
+        "nombre":  "Baliza Entrada Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+230",
+        "ubicacion":  "PK332+230 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "DETECTOR_SISMICO_MAG_01",
+        "nombre":  "Detector Sísmico",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+400",
+        "ubicacion":  "PK332+400 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_MAG_03",
+        "nombre":  "Cámara Puente Centro",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "332+500",
+        "ubicacion":  "PK332+500 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "DETECTOR_SOCAVACION_MAG",
+        "nombre":  "Detector Socavación",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+500",
+        "ubicacion":  "PK332+500 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_MAG_04",
+        "nombre":  "Cámara Puente Lateral Oeste",
+        "descripcion":  "Derecha",
+        "dispositivo":  "332+700",
+        "ubicacion":  "PK332+700 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_MAG_SALIDA",
+        "nombre":  "Baliza Salida Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+817",
+        "ubicacion":  "PK332+817 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "PUENTE_RIO_MAGDALENA_FIN",
+        "nombre":  "Puente Río Magdalena - Fin",
+        "descripcion":  "Centro",
+        "dispositivo":  "332+817",
+        "ubicacion":  "PK332+817 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "CCTV_MAG_05",
+        "nombre":  "Cámara Puente Salida Sur",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "332+817",
+        "ubicacion":  "PK332+817 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "SEÑAL_PROT_MAG_02",
+        "nombre":  "Señal Protección Puente",
+        "descripcion":  "Derecha",
+        "dispositivo":  "333+000",
+        "ubicacion":  "PK333+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "HBD_03_PRE_OLAYA",
+        "nombre":  "Detector Caja Caliente 03",
+        "descripcion":  "Centro",
+        "dispositivo":  "335+000",
+        "ubicacion":  "PK335+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV02",
+        "tipo":  "BALIZA_335",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "335+000",
+        "ubicacion":  "PK335+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "ESTACION_PUERTO_OLAYA",
+        "nombre":  "Estación Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "SE_PUERTO_OLAYA",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "CTC_PUERTO_OLAYA",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "RBC_02_PUERTO_OLAYA",
+        "nombre":  "Radio Block Center 02",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "EBT_07_PUERTO_OLAYA",
+        "nombre":  "Estación Base TETRA 07",
+        "descripcion":  "Derecha",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "CCTV_OLA_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "338+300",
+        "ubicacion":  "PK338+300 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "CCTV_OLA_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "338+350",
+        "ubicacion":  "PK338+350 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "SAI_PUERTO_OLAYA",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "NODO_FO_PUERTO_OLAYA",
+        "nombre":  "Nodo Fibra Óptica Distribución",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "BALIZA_OLA_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "338+250",
+        "ubicacion":  "PK338+250 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "DESVIO_OLA_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "338+400",
+        "ubicacion":  "PK338+400 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "BALIZA_340",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "340+000",
+        "ubicacion":  "PK340+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "EMPALME_FO_11",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "342+000",
+        "ubicacion":  "PK342+000 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "BALIZA_345",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "345+000",
+        "ubicacion":  "PK345+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "SEÑAL_INT_08",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "348+000",
+        "ubicacion":  "PK348+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "BALIZA_348",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "348+000",
+        "ubicacion":  "PK348+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV03",
+        "tipo":  "BALIZA_350",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "350+000",
+        "ubicacion":  "PK350+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "SEÑAL_PROT_CAR_01",
+        "nombre":  "Señal Protección Puente Carare",
+        "descripcion":  "Derecha",
+        "dispositivo":  "354+000",
+        "ubicacion":  "PK354+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "ESTACION_SAN_JUAN_COBARIAS",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "354+148",
+        "ubicacion":  "PK354+148 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "EBT_08_SAN_JUAN",
+        "nombre":  "Estación Base TETRA 08",
+        "descripcion":  "Derecha",
+        "dispositivo":  "354+148",
+        "ubicacion":  "PK354+148 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "CCTV_SJC_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "354+148",
+        "ubicacion":  "PK354+148 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_SJC_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "354+148",
+        "ubicacion":  "PK354+148 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_PROT_CAR_01",
+        "nombre":  "Baliza Protección",
+        "descripcion":  "Centro",
+        "dispositivo":  "354+200",
+        "ubicacion":  "PK354+200 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "PUENTE_RIO_CARARE_INICIO",
+        "nombre":  "Puente/Viaducto Río Carare - Inicio",
+        "descripcion":  "Centro",
+        "dispositivo":  "354+348",
+        "ubicacion":  "PK354+348 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "CCTV_CAR_01",
+        "nombre":  "Cámara Entrada Norte",
+        "descripcion":  "Derecha",
+        "dispositivo":  "354+348",
+        "ubicacion":  "PK354+348 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_CAR_ENTRADA",
+        "nombre":  "Baliza Entrada Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "354+348",
+        "ubicacion":  "PK354+348 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "EMPALME_FO_12",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "355+000",
+        "ubicacion":  "PK355+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_355",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "355+000",
+        "ubicacion":  "PK355+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_360",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "360+000",
+        "ubicacion":  "PK360+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "CCTV_CAR_02",
+        "nombre":  "Cámara Tramo Medio Viaducto",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "365+000",
+        "ubicacion":  "PK365+000 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "DETECTOR_SISMICO_CAR_01",
+        "nombre":  "Detector Sísmico",
+        "descripcion":  "Centro",
+        "dispositivo":  "365+000",
+        "ubicacion":  "PK365+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_365",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "365+000",
+        "ubicacion":  "PK365+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_370",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "370+000",
+        "ubicacion":  "PK370+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "CCTV_CAR_03",
+        "nombre":  "Cámara Tramo Final Viaducto",
+        "descripcion":  "Derecha",
+        "dispositivo":  "375+000",
+        "ubicacion":  "PK375+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_375",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "375+000",
+        "ubicacion":  "PK375+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "BALIZA_CAR_SALIDA",
+        "nombre":  "Baliza Salida Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "375+928",
+        "ubicacion":  "PK375+928 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "PUENTE_RIO_CARARE_FIN",
+        "nombre":  "Puente/Viaducto Río Carare - Fin",
+        "descripcion":  "Centro",
+        "dispositivo":  "375+928",
+        "ubicacion":  "PK375+928 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV34",
+        "tipo":  "CCTV_CAR_04",
+        "nombre":  "Cámara Salida Sur",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "375+928",
+        "ubicacion":  "PK375+928 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "SEÑAL_PROT_CAR_02",
+        "nombre":  "Señal Protección Puente Carare",
+        "descripcion":  "Derecha",
+        "dispositivo":  "376+000",
+        "ubicacion":  "PK376+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "ESTACION_CORARE",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "376+571",
+        "ubicacion":  "PK376+571 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "EBT_09_CORARE",
+        "nombre":  "Estación Base TETRA 09",
+        "descripcion":  "Derecha",
+        "dispositivo":  "376+571",
+        "ubicacion":  "PK376+571 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "CCTV_COR_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "376+571",
+        "ubicacion":  "PK376+571 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "BALIZA_COR_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "376+571",
+        "ubicacion":  "PK376+571 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "BALIZA_380",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "380+000",
+        "ubicacion":  "PK380+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "EMPALME_FO_13",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "382+000",
+        "ubicacion":  "PK382+000 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "BALIZA_385",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "385+000",
+        "ubicacion":  "PK385+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "SEÑAL_INT_09",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "387+000",
+        "ubicacion":  "PK387+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV35",
+        "tipo":  "BALIZA_387",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "387+000",
+        "ubicacion":  "PK387+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "BALIZA_390",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "390+000",
+        "ubicacion":  "PK390+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "ESTACION_LAS_MONTOYA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "390+050",
+        "ubicacion":  "PK390+050 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "EBT_10_LAS_MONTOYA",
+        "nombre":  "Estación Base TETRA 10",
+        "descripcion":  "Derecha",
+        "dispositivo":  "390+050",
+        "ubicacion":  "PK390+050 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "CCTV_MON_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "390+050",
+        "ubicacion":  "PK390+050 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "BALIZA_MON_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "390+050",
+        "ubicacion":  "PK390+050 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "EMPALME_FO_14",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "393+000",
+        "ubicacion":  "PK393+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "BALIZA_395",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "395+000",
+        "ubicacion":  "PK395+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "BALIZA_400",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "400+000",
+        "ubicacion":  "PK400+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "SEÑAL_INT_10",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "403+000",
+        "ubicacion":  "PK403+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV36",
+        "tipo":  "BALIZA_403",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "403+000",
+        "ubicacion":  "PK403+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "BALIZA_405",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "405+000",
+        "ubicacion":  "PK405+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "ESTACION_FUL_PAPAL",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "406+184",
+        "ubicacion":  "PK406+184 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "EBT_11_FUL_PAPAL",
+        "nombre":  "Estación Base TETRA 11",
+        "descripcion":  "Derecha",
+        "dispositivo":  "406+184",
+        "ubicacion":  "PK406+184 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "CCTV_FUL_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "406+184",
+        "ubicacion":  "PK406+184 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "BALIZA_FUL_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "406+184",
+        "ubicacion":  "PK406+184 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "EMPALME_FO_15",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "408+000",
+        "ubicacion":  "PK408+000 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "BALIZA_410",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "410+000",
+        "ubicacion":  "PK410+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV37",
+        "tipo":  "BALIZA_415",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "415+000",
+        "ubicacion":  "PK415+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "ESTACION_LA_VIZCAINA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "418+000",
+        "ubicacion":  "PK418+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "CCTV_VIZ_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "418+000",
+        "ubicacion":  "PK418+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "BALIZA_VIZ_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "418+000",
+        "ubicacion":  "PK418+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "BALIZA_420",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "420+000",
+        "ubicacion":  "PK420+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "EMPALME_FO_16",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "422+000",
+        "ubicacion":  "PK422+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "BALIZA_425",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "425+000",
+        "ubicacion":  "PK425+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "SEÑAL_INT_11",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "428+000",
+        "ubicacion":  "PK428+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV38",
+        "tipo":  "BALIZA_428",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "428+000",
+        "ubicacion":  "PK428+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_430",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "430+000",
+        "ubicacion":  "PK430+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "ESTACION_BOCAS",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "430+498",
+        "ubicacion":  "PK430+498 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "EBT_12_BOCAS",
+        "nombre":  "Estación Base TETRA 12",
+        "descripcion":  "Derecha",
+        "dispositivo":  "430+498",
+        "ubicacion":  "PK430+498 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "CCTV_BOC_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "430+498",
+        "ubicacion":  "PK430+498 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_BOC_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "430+498",
+        "ubicacion":  "PK430+498 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "SEÑAL_PROT_CB_01",
+        "nombre":  "Señal Protección Puente Cuatro Bocas",
+        "descripcion":  "Derecha",
+        "dispositivo":  "432+000",
+        "ubicacion":  "PK432+000 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_PROT_CB_01",
+        "nombre":  "Baliza Protección",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+100",
+        "ubicacion":  "PK432+100 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "PUENTE_RIO_CUATRO_BOCAS_INICIO",
+        "nombre":  "Puente Río Cuatro Bocas - Inicio",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+178",
+        "ubicacion":  "PK432+178 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "CCTV_CB_01",
+        "nombre":  "Cámara Puente Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "432+178",
+        "ubicacion":  "PK432+178 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_CB_ENTRADA",
+        "nombre":  "Baliza Entrada Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+178",
+        "ubicacion":  "PK432+178 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "DETECTOR_SISMICO_CB_01",
+        "nombre":  "Detector Sísmico",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+200",
+        "ubicacion":  "PK432+200 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "CCTV_CB_02",
+        "nombre":  "Cámara Puente Centro",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "432+200",
+        "ubicacion":  "PK432+200 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_CB_SALIDA",
+        "nombre":  "Baliza Salida Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+223",
+        "ubicacion":  "PK432+223 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "PUENTE_RIO_CUATRO_BOCAS_FIN",
+        "nombre":  "Puente Río Cuatro Bocas - Fin",
+        "descripcion":  "Centro",
+        "dispositivo":  "432+223",
+        "ubicacion":  "PK432+223 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "CCTV_CB_03",
+        "nombre":  "Cámara Puente Salida",
+        "descripcion":  "Derecha",
+        "dispositivo":  "432+223",
+        "ubicacion":  "PK432+223 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "SEÑAL_PROT_CB_02",
+        "nombre":  "Señal Protección Puente",
+        "descripcion":  "Derecha",
+        "dispositivo":  "432+300",
+        "ubicacion":  "PK432+300 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "EMPALME_FO_17",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "435+000",
+        "ubicacion":  "PK435+000 Izquierda",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_435",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "435+000",
+        "ubicacion":  "PK435+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "WILD_02_PRE_BERMEJO",
+        "nombre":  "Detector Impactos Rueda 02",
+        "descripcion":  "Centro",
+        "dispositivo":  "438+000",
+        "ubicacion":  "PK438+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_438",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "438+000",
+        "ubicacion":  "PK438+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_440",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "440+000",
+        "ubicacion":  "PK440+000 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "SEÑAL_ENTRADA_BERMEJO",
+        "nombre":  "Señal Entrada B/Bermejo",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+500",
+        "ubicacion":  "PK441+500 Derecha",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV39",
+        "tipo":  "BALIZA_ENTRADA_BERMEJO",
+        "nombre":  "Baliza Entrada Complejo",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+700",
+        "ubicacion":  "PK441+700 Centro",
+        "pk":  "2.1"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "COMPLEJO_BERMEJO_INICIO",
+        "nombre":  "B/Bermejo - Límite Lotes",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "ESTACION_BERMEJO",
+        "nombre":  "Estación Principal B/Bermejo",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCO_PRINCIPAL",
+        "nombre":  "Centro Control Operacional",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "TALLER_PESADO",
+        "nombre":  "Taller Mantenimiento Pesado",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "SE_BERMEJO_PRINCIPAL",
+        "nombre":  "Subestación Eléctrica Principal",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "SE_BERMEJO_RESPALDO",
+        "nombre":  "Subestación Eléctrica Respaldo",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "442+000",
+        "ubicacion":  "PK442+000 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CTC_BERMEJO_MAESTRO",
+        "nombre":  "Centro Control CTC Maestro",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CTC_BERMEJO_RESPALDO",
+        "nombre":  "Centro Control CTC Respaldo",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "RBC_03_BERMEJO_MAESTRO",
+        "nombre":  "Radio Block Center 03 Maestro",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "RBC_03_BERMEJO_RESPALDO",
+        "nombre":  "Radio Block Center 03 Respaldo",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "EBT_13_BERMEJO",
+        "nombre":  "Estación Base TETRA 13",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "NODO_FO_BERMEJO_CORE",
+        "nombre":  "Nodo Core Fibra Óptica",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DATACENTER_CCO",
+        "nombre":  "Centro de Datos CCO",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "SAI_BERMEJO_PRINCIPAL",
+        "nombre":  "UPS Principal CCO",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "SAI_BERMEJO_TALLER",
+        "nombre":  "UPS Taller Pesado",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "GENERADOR_BERMEJO_01",
+        "nombre":  "Grupo Electrógeno Principal",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "GENERADOR_BERMEJO_02",
+        "nombre":  "Grupo Electrógeno Respaldo",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_01",
+        "nombre":  "Cámara Perímetro Norte",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+850",
+        "ubicacion":  "PK441+850 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_02",
+        "nombre":  "Cámara Acceso Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+900",
+        "ubicacion":  "PK441+900 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_03",
+        "nombre":  "Cámara Andén Estación",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_04",
+        "nombre":  "Cámara Patio Maniobras",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+950",
+        "ubicacion":  "PK441+950 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_05",
+        "nombre":  "Cámara Acceso Taller",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+970",
+        "ubicacion":  "PK441+970 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_06",
+        "nombre":  "Cámara Interior Taller 01",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+990",
+        "ubicacion":  "PK441+990 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_07",
+        "nombre":  "Cámara Interior Taller 02",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+010",
+        "ubicacion":  "PK442+010 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_08",
+        "nombre":  "Cámara CCO Sala Control",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_09",
+        "nombre":  "Cámara CCO Datacenter",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_10",
+        "nombre":  "Cámara Perímetro Este",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+050",
+        "ubicacion":  "PK442+050 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_11",
+        "nombre":  "Cámara Perímetro Sur",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "442+080",
+        "ubicacion":  "PK442+080 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_12",
+        "nombre":  "Cámara Perímetro Oeste",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "441+880",
+        "ubicacion":  "PK441+880 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CCTV_BER_TERMICA_01",
+        "nombre":  "Cámara Térmica Perímetro",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CONTROL_ACCESO_BER_01",
+        "nombre":  "Control Acceso Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+900",
+        "ubicacion":  "PK441+900 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CONTROL_ACCESO_BER_02",
+        "nombre":  "Control Acceso CCO",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CONTROL_ACCESO_BER_03",
+        "nombre":  "Control Acceso Taller",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+970",
+        "ubicacion":  "PK441+970 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "CONTROL_ACCESO_BER_04",
+        "nombre":  "Control Acceso Datacenter",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DETECCION_INCENDIO_BER_01",
+        "nombre":  "Sistema Detección CCO",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DETECCION_INCENDIO_BER_02",
+        "nombre":  "Sistema Detección Datacenter",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DETECCION_INCENDIO_BER_03",
+        "nombre":  "Sistema Detección Taller",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+970",
+        "ubicacion":  "PK441+970 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "BALIZA_BER_01",
+        "nombre":  "Baliza Entrada Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "441+932",
+        "ubicacion":  "PK441+932 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DESVIO_BER_01",
+        "nombre":  "Desvío Acceso Taller 01",
+        "descripcion":  "Derecha",
+        "dispositivo":  "441+980",
+        "ubicacion":  "PK441+980 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DESVIO_BER_02",
+        "nombre":  "Desvío Acceso Taller 02",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+020",
+        "ubicacion":  "PK442+020 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DESVIO_BER_03",
+        "nombre":  "Desvío Apartadero Norte",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "442+050",
+        "ubicacion":  "PK442+050 Izquierda",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "DESVIO_BER_04",
+        "nombre":  "Desvío Apartadero Sur",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+100",
+        "ubicacion":  "PK442+100 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "SEÑAL_BER_01",
+        "nombre":  "Señal Salida Norte",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+150",
+        "ubicacion":  "PK442+150 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "BALIZA_BER_SALIDA",
+        "nombre":  "Baliza Salida Complejo",
+        "descripcion":  "Centro",
+        "dispositivo":  "442+150",
+        "ubicacion":  "PK442+150 Centro",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV40/41",
+        "tipo":  "ESTACIONAMIENTO_MATERIAL_RODANTE",
+        "nombre":  "Zona Estacionamiento Trenes",
+        "descripcion":  "Derecha",
+        "dispositivo":  "442+000",
+        "ubicacion":  "PK442+000 Derecha",
+        "pk":  "2.1/2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "BALIZA_445",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "445+000",
+        "ubicacion":  "PK445+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "WILD_03_POST_BERMEJO",
+        "nombre":  "Detector Impactos Rueda 03",
+        "descripcion":  "Centro",
+        "dispositivo":  "445+000",
+        "ubicacion":  "PK445+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "EMPALME_FO_18",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "448+000",
+        "ubicacion":  "PK448+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "BALIZA_450",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "450+000",
+        "ubicacion":  "PK450+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "HBD_04_POST_BERMEJO",
+        "nombre":  "Detector Caja Caliente 04",
+        "descripcion":  "Centro",
+        "dispositivo":  "450+000",
+        "ubicacion":  "PK450+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "BALIZA_455",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "455+000",
+        "ubicacion":  "PK455+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "SEÑAL_INT_12",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "458+000",
+        "ubicacion":  "PK458+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV41",
+        "tipo":  "BALIZA_458",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "458+000",
+        "ubicacion":  "PK458+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_460",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "460+000",
+        "ubicacion":  "PK460+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "EMPALME_FO_19",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "460+000",
+        "ubicacion":  "PK460+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "ESTACION_PUERTO_SOGAMOSO",
+        "nombre":  "Estación Principal Pto. Sogamoso",
+        "descripcion":  "Centro",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SE_PUERTO_SOGAMOSO",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CTC_PUERTO_SOGAMOSO",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "EBT_14_PUERTO_SOGAMOSO",
+        "nombre":  "Estación Base TETRA 14",
+        "descripcion":  "Derecha",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CCTV_PSO_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "462+550",
+        "ubicacion":  "PK462+550 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CCTV_PSO_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "462+600",
+        "ubicacion":  "PK462+600 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SAI_PUERTO_SOGAMOSO",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "NODO_FO_PUERTO_SOGAMOSO",
+        "nombre":  "Nodo Fibra Óptica Distribución",
+        "descripcion":  "Centro",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_PSO_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "462+520",
+        "ubicacion":  "PK462+520 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "DESVIO_PSO_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "462+650",
+        "ubicacion":  "PK462+650 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SEÑAL_PROT_SOG_01",
+        "nombre":  "Señal Protección Puente Sogamoso",
+        "descripcion":  "Derecha",
+        "dispositivo":  "465+000",
+        "ubicacion":  "PK465+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_465",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+000",
+        "ubicacion":  "PK465+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_PROT_SOG_01",
+        "nombre":  "Baliza Protección",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+150",
+        "ubicacion":  "PK465+150 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "PUENTE_RIO_SOGAMOSO_INICIO",
+        "nombre":  "Puente Río Sogamoso - Inicio",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+200",
+        "ubicacion":  "PK465+200 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CCTV_SOG_01",
+        "nombre":  "Cámara Puente Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "465+200",
+        "ubicacion":  "PK465+200 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_SOG_ENTRADA",
+        "nombre":  "Baliza Entrada Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+200",
+        "ubicacion":  "PK465+200 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "DETECTOR_SISMICO_SOG_01",
+        "nombre":  "Detector Sísmico",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+250",
+        "ubicacion":  "PK465+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CCTV_SOG_02",
+        "nombre":  "Cámara Puente Centro",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "465+280",
+        "ubicacion":  "PK465+280 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "DETECTOR_SOCAVACION_SOG",
+        "nombre":  "Detector Socavación",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+300",
+        "ubicacion":  "PK465+300 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_SOG_SALIDA",
+        "nombre":  "Baliza Salida Puente",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+353",
+        "ubicacion":  "PK465+353 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "PUENTE_RIO_SOGAMOSO_FIN",
+        "nombre":  "Puente Río Sogamoso - Fin",
+        "descripcion":  "Centro",
+        "dispositivo":  "465+353",
+        "ubicacion":  "PK465+353 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "CCTV_SOG_03",
+        "nombre":  "Cámara Puente Salida",
+        "descripcion":  "Derecha",
+        "dispositivo":  "465+353",
+        "ubicacion":  "PK465+353 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SEÑAL_PROT_SOG_02",
+        "nombre":  "Señal Protección Puente",
+        "descripcion":  "Derecha",
+        "dispositivo":  "465+450",
+        "ubicacion":  "PK465+450 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_470",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "470+000",
+        "ubicacion":  "PK470+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "EMPALME_FO_20",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "472+000",
+        "ubicacion":  "PK472+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_475",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "475+000",
+        "ubicacion":  "PK475+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SEÑAL_INT_13",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "478+000",
+        "ubicacion":  "PK478+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_478",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "478+000",
+        "ubicacion":  "PK478+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_480",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "480+000",
+        "ubicacion":  "PK480+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "EMPALME_FO_21",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "485+000",
+        "ubicacion":  "PK485+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_485",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "485+000",
+        "ubicacion":  "PK485+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_490",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "490+000",
+        "ubicacion":  "PK490+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "SEÑAL_INT_14",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "493+000",
+        "ubicacion":  "PK493+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_493",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "493+000",
+        "ubicacion":  "PK493+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "BALIZA_495",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "495+000",
+        "ubicacion":  "PK495+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV44",
+        "tipo":  "EMPALME_FO_22",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "498+000",
+        "ubicacion":  "PK498+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "BALIZA_500",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "500+000",
+        "ubicacion":  "PK500+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "ESTACION_ELOY_VALENZUELA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "501+933",
+        "ubicacion":  "PK501+933 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "EBT_15_ELOY_VALENZUELA",
+        "nombre":  "Estación Base TETRA 15",
+        "descripcion":  "Derecha",
+        "dispositivo":  "501+933",
+        "ubicacion":  "PK501+933 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "CCTV_ELO_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "501+933",
+        "ubicacion":  "PK501+933 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "BALIZA_ELO_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "501+933",
+        "ubicacion":  "PK501+933 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "BALIZA_505",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "505+000",
+        "ubicacion":  "PK505+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "BALIZA_510",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "510+000",
+        "ubicacion":  "PK510+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "EMPALME_FO_23",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "510+000",
+        "ubicacion":  "PK510+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "SEÑAL_INT_15",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "513+000",
+        "ubicacion":  "PK513+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV45",
+        "tipo":  "BALIZA_513",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "513+000",
+        "ubicacion":  "PK513+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_515",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "515+000",
+        "ubicacion":  "PK515+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "ESTACION_SAN_RAFAEL",
+        "nombre":  "Estación Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "SE_SAN_RAFAEL",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "CTC_SAN_RAFAEL",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "EBT_16_SAN_RAFAEL",
+        "nombre":  "Estación Base TETRA 16",
+        "descripcion":  "Derecha",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "CCTV_SRA_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "516+520",
+        "ubicacion":  "PK516+520 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "CCTV_SRA_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "516+570",
+        "ubicacion":  "PK516+570 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "SAI_SAN_RAFAEL",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "NODO_FO_SAN_RAFAEL",
+        "nombre":  "Nodo Fibra Óptica",
+        "descripcion":  "Centro",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_SRA_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "516+490",
+        "ubicacion":  "PK516+490 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "DESVIO_SRA_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "516+600",
+        "ubicacion":  "PK516+600 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_520",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "520+000",
+        "ubicacion":  "PK520+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "EMPALME_FO_24",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "522+000",
+        "ubicacion":  "PK522+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_525",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "525+000",
+        "ubicacion":  "PK525+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "SEÑAL_INT_16",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "528+000",
+        "ubicacion":  "PK528+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_528",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "528+000",
+        "ubicacion":  "PK528+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV46",
+        "tipo":  "BALIZA_530",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "530+000",
+        "ubicacion":  "PK530+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "ESTACION_SAN_ALBERTO",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "533+275",
+        "ubicacion":  "PK533+275 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "EBT_17_SAN_ALBERTO",
+        "nombre":  "Estación Base TETRA 17",
+        "descripcion":  "Derecha",
+        "dispositivo":  "533+275",
+        "ubicacion":  "PK533+275 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "CCTV_SAL_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "533+275",
+        "ubicacion":  "PK533+275 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "BALIZA_SAL_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "533+275",
+        "ubicacion":  "PK533+275 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "EMPALME_FO_25",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "535+000",
+        "ubicacion":  "PK535+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "BALIZA_535",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "535+000",
+        "ubicacion":  "PK535+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "BALIZA_540",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "540+000",
+        "ubicacion":  "PK540+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "SEÑAL_INT_17",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "543+000",
+        "ubicacion":  "PK543+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "BALIZA_543",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "543+000",
+        "ubicacion":  "PK543+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "BALIZA_545",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "545+000",
+        "ubicacion":  "PK545+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV47",
+        "tipo":  "EMPALME_FO_26",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "548+000",
+        "ubicacion":  "PK548+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_550",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "550+000",
+        "ubicacion":  "PK550+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "ESTACION_SAN_JOSE",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "552+750",
+        "ubicacion":  "PK552+750 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "EBT_18_SAN_JOSE",
+        "nombre":  "Estación Base TETRA 18",
+        "descripcion":  "Derecha",
+        "dispositivo":  "552+750",
+        "ubicacion":  "PK552+750 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "CCTV_SJO_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "552+750",
+        "ubicacion":  "PK552+750 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_SJO_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "552+750",
+        "ubicacion":  "PK552+750 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_555",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "555+000",
+        "ubicacion":  "PK555+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_560",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "560+000",
+        "ubicacion":  "PK560+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "EMPALME_FO_27",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "560+000",
+        "ubicacion":  "PK560+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "SEÑAL_INT_18",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "563+000",
+        "ubicacion":  "PK563+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_563",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "563+000",
+        "ubicacion":  "PK563+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "HBD_05_PRE_LUCIA",
+        "nombre":  "Detector Caja Caliente 05",
+        "descripcion":  "Centro",
+        "dispositivo":  "565+000",
+        "ubicacion":  "PK565+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV48",
+        "tipo":  "BALIZA_565",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "565+000",
+        "ubicacion":  "PK565+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "ESTACION_SANTA_LUCIA",
+        "nombre":  "Estación Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "SE_SANTA_LUCIA",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "CTC_SANTA_LUCIA",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "RBC_04_SANTA_LUCIA",
+        "nombre":  "Radio Block Center 04",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "EBT_19_SANTA_LUCIA",
+        "nombre":  "Estación Base TETRA 19",
+        "descripcion":  "Derecha",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "CCTV_SLU_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "569+850",
+        "ubicacion":  "PK569+850 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "CCTV_SLU_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "569+900",
+        "ubicacion":  "PK569+900 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "SAI_SANTA_LUCIA",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "NODO_FO_SANTA_LUCIA",
+        "nombre":  "Nodo Fibra Óptica Distribución",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_SLU_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "569+800",
+        "ubicacion":  "PK569+800 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "DESVIO_SLU_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "569+950",
+        "ubicacion":  "PK569+950 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_570",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "570+000",
+        "ubicacion":  "PK570+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "EMPALME_FO_28",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "572+000",
+        "ubicacion":  "PK572+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_575",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "575+000",
+        "ubicacion":  "PK575+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_580",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "580+000",
+        "ubicacion":  "PK580+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "SEÑAL_INT_19",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "583+000",
+        "ubicacion":  "PK583+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_583",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "583+000",
+        "ubicacion":  "PK583+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "EMPALME_FO_29",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "585+000",
+        "ubicacion":  "PK585+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_585",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "585+000",
+        "ubicacion":  "PK585+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_590",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "590+000",
+        "ubicacion":  "PK590+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_595",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "595+000",
+        "ubicacion":  "PK595+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "SEÑAL_INT_20",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "598+000",
+        "ubicacion":  "PK598+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "BALIZA_598",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "598+000",
+        "ubicacion":  "PK598+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV49",
+        "tipo":  "EMPALME_FO_30",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "600+000",
+        "ubicacion":  "PK600+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_600",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "600+000",
+        "ubicacion":  "PK600+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "ESTACION_GAMARRA",
+        "nombre":  "Estación Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "SE_GAMARRA",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "CTC_GAMARRA",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "EBT_20_GAMARRA",
+        "nombre":  "Estación Base TETRA 20",
+        "descripcion":  "Derecha",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "CCTV_GAM_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "604+300",
+        "ubicacion":  "PK604+300 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "CCTV_GAM_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "604+350",
+        "ubicacion":  "PK604+350 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "SAI_GAMARRA",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "NODO_FO_GAMARRA",
+        "nombre":  "Nodo Fibra Óptica",
+        "descripcion":  "Centro",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_GAM_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "604+265",
+        "ubicacion":  "PK604+265 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "DESVIO_GAM_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "604+400",
+        "ubicacion":  "PK604+400 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_605",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "605+000",
+        "ubicacion":  "PK605+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_610",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "610+000",
+        "ubicacion":  "PK610+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "EMPALME_FO_31",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "612+000",
+        "ubicacion":  "PK612+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "SEÑAL_INT_21",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "613+000",
+        "ubicacion":  "PK613+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_613",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "613+000",
+        "ubicacion":  "PK613+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV52",
+        "tipo":  "BALIZA_615",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "615+000",
+        "ubicacion":  "PK615+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "ESTACION_PATEQUILLO",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "618+000",
+        "ubicacion":  "PK618+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "EBT_21_PATEQUILLO",
+        "nombre":  "Estación Base TETRA 21",
+        "descripcion":  "Derecha",
+        "dispositivo":  "618+000",
+        "ubicacion":  "PK618+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "CCTV_PAT_ReintentarDZContinuar01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "618+000",
+        "ubicacion":  "PK618+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "BALIZA_PAT_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "618+000",
+        "ubicacion":  "PK618+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "BALIZA_620",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "620+000",
+        "ubicacion":  "PK620+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "EMPALME_FO_32",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "622+000",
+        "ubicacion":  "PK622+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "BALIZA_625",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "625+000",
+        "ubicacion":  "PK625+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "SEÑAL_INT_22",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "628+000",
+        "ubicacion":  "PK628+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "BALIZA_628",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "628+000",
+        "ubicacion":  "PK628+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "BALIZA_630",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "630+000",
+        "ubicacion":  "PK630+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "HBD_06_PRE_GLORIA",
+        "nombre":  "Detector Caja Caliente 06",
+        "descripcion":  "Centro",
+        "dispositivo":  "632+000",
+        "ubicacion":  "PK632+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV53",
+        "tipo":  "EMPALME_FO_33",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "632+000",
+        "ubicacion":  "PK632+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_635",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+000",
+        "ubicacion":  "PK635+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "ESTACION_LA_GLORIA",
+        "nombre":  "Estación Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "SE_LA_GLORIA",
+        "nombre":  "Subestación Eléctrica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "CTC_LA_GLORIA",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "EBT_22_LA_GLORIA",
+        "nombre":  "Estación Base TETRA 22",
+        "descripcion":  "Derecha",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "CCTV_GLO_01",
+        "nombre":  "Cámara Entrada",
+        "descripcion":  "Derecha",
+        "dispositivo":  "636+020",
+        "ubicacion":  "PK636+020 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "CCTV_GLO_02",
+        "nombre":  "Cámara Andén",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "636+070",
+        "ubicacion":  "PK636+070 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "SAI_LA_GLORIA",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "NODO_FO_LA_GLORIA",
+        "nombre":  "Nodo Fibra Óptica",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_GLO_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "635+991",
+        "ubicacion":  "PK635+991 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "DESVIO_GLO_01",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "636+100",
+        "ubicacion":  "PK636+100 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_640",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "640+000",
+        "ubicacion":  "PK640+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "EMPALME_FO_34",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "642+000",
+        "ubicacion":  "PK642+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_645",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "645+000",
+        "ubicacion":  "PK645+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_650",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "650+000",
+        "ubicacion":  "PK650+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "SEÑAL_INT_23",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "653+000",
+        "ubicacion":  "PK653+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_653",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "653+000",
+        "ubicacion":  "PK653+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "EMPALME_FO_35",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "655+000",
+        "ubicacion":  "PK655+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_655",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "655+000",
+        "ubicacion":  "PK655+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV54",
+        "tipo":  "BALIZA_660",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "660+000",
+        "ubicacion":  "PK660+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "ESTACION_PALESTINA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "663+805",
+        "ubicacion":  "PK663+805 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "EBT_23_PALESTINA",
+        "nombre":  "Estación Base TETRA 23",
+        "descripcion":  "Derecha",
+        "dispositivo":  "663+805",
+        "ubicacion":  "PK663+805 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "CCTV_PAL_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "663+805",
+        "ubicacion":  "PK663+805 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "BALIZA_PAL_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "663+805",
+        "ubicacion":  "PK663+805 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "BALIZA_665",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "665+000",
+        "ubicacion":  "PK665+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "EMPALME_FO_36",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "668+000",
+        "ubicacion":  "PK668+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "BALIZA_670",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "670+000",
+        "ubicacion":  "PK670+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "SEÑAL_INT_24",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "673+000",
+        "ubicacion":  "PK673+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "BALIZA_673",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "673+000",
+        "ubicacion":  "PK673+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV55",
+        "tipo":  "BALIZA_675",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "675+000",
+        "ubicacion":  "PK675+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "ESTACION_ZAPATOSA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "679+530",
+        "ubicacion":  "PK679+530 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "EBT_24_ZAPATOSA",
+        "nombre":  "Estación Base TETRA 24",
+        "descripcion":  "Derecha",
+        "dispositivo":  "679+530",
+        "ubicacion":  "PK679+530 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "CCTV_ZAP_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "679+530",
+        "ubicacion":  "PK679+530 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_ZAP_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "679+530",
+        "ubicacion":  "PK679+530 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_680",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "680+000",
+        "ubicacion":  "PK680+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "EMPALME_FO_37",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "682+000",
+        "ubicacion":  "PK682+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_685",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "685+000",
+        "ubicacion":  "PK685+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_690",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "690+000",
+        "ubicacion":  "PK690+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "SEÑAL_INT_25",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "693+000",
+        "ubicacion":  "PK693+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_693",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "693+000",
+        "ubicacion":  "PK693+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "EMPALME_FO_38",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "695+000",
+        "ubicacion":  "PK695+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_695",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "695+000",
+        "ubicacion":  "PK695+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV56",
+        "tipo":  "BALIZA_700",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "700+000",
+        "ubicacion":  "PK700+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "ESTACION_CHIMICHAGUA",
+        "nombre":  "Estación Menor",
+        "descripcion":  "Centro",
+        "dispositivo":  "701+176",
+        "ubicacion":  "PK701+176 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "EBT_25_CHIMICHAGUA",
+        "nombre":  "Estación Base TETRA 25",
+        "descripcion":  "Derecha",
+        "dispositivo":  "701+176",
+        "ubicacion":  "PK701+176 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "CCTV_CHI_01",
+        "nombre":  "Cámara Estación",
+        "descripcion":  "Derecha",
+        "dispositivo":  "701+176",
+        "ubicacion":  "PK701+176 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_CHI_01",
+        "nombre":  "Baliza Entrada",
+        "descripcion":  "Centro",
+        "dispositivo":  "701+176",
+        "ubicacion":  "PK701+176 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_705",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "705+000",
+        "ubicacion":  "PK705+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "EMPALME_FO_39",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "708+000",
+        "ubicacion":  "PK708+000 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_710",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "710+000",
+        "ubicacion":  "PK710+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "SEÑAL_INT_26",
+        "nombre":  "Señal Intermedia",
+        "descripcion":  "Derecha",
+        "dispositivo":  "713+000",
+        "ubicacion":  "PK713+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_713",
+        "nombre":  "Baliza Señal",
+        "descripcion":  "Centro",
+        "dispositivo":  "713+000",
+        "ubicacion":  "PK713+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_715",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "715+000",
+        "ubicacion":  "PK715+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "BALIZA_720",
+        "nombre":  "Baliza Kilometraje",
+        "descripcion":  "Centro",
+        "dispositivo":  "720+000",
+        "ubicacion":  "PK720+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV21",
+        "tipo":  "EMPALME_FO_40",
+        "nombre":  "Empalme Fibra Óptica",
+        "descripcion":  "Derecha",
+        "dispositivo":  "720+000",
+        "ubicacion":  "PK720+000 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "SEÑAL_ENTRADA_CHIRIGUANA",
+        "nombre":  "Señal Entrada Chiriguaná",
+        "descripcion":  "Derecha",
+        "dispositivo":  "721+800",
+        "ubicacion":  "PK721+800 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "BALIZA_ENTRADA_CHIRIGUANA",
+        "nombre":  "Baliza Entrada Terminal",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+000",
+        "ubicacion":  "PK722+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "WILD_04_CHIRIGUANA",
+        "nombre":  "Detector Impactos Rueda 04",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+000",
+        "ubicacion":  "PK722+000 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "ESTACION_CHIRIGUANA",
+        "nombre":  "Estación Terminal Chiriguaná",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "TALLER_LIVIANO",
+        "nombre":  "Taller Mantenimiento Liviano",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "SE_CHIRIGUANA",
+        "nombre":  "Subestación Eléctrica Principal",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CTC_CHIRIGUANA",
+        "nombre":  "Puesto Control CTC",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "RBC_05_CHIRIGUANA",
+        "nombre":  "Radio Block Center 05",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "EBT_26_CHIRIGUANA",
+        "nombre":  "Estación Base TETRA 26",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_01",
+        "nombre":  "Cámara Entrada Terminal",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_02",
+        "nombre":  "Cámara Andén Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+230",
+        "ubicacion":  "PK722+230 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_03",
+        "nombre":  "Cámara Patio Maniobras",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_04",
+        "nombre":  "Cámara Acceso Taller Liviano",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_05",
+        "nombre":  "Cámara Interior Taller 01",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+210",
+        "ubicacion":  "PK722+210 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_06",
+        "nombre":  "Cámara Interior Taller 02",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+220",
+        "ubicacion":  "PK722+220 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_07",
+        "nombre":  "Cámara Perímetro Este",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+280",
+        "ubicacion":  "PK722+280 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CCTV_CHR_08",
+        "nombre":  "Cámara Perímetro Sur",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+300",
+        "ubicacion":  "PK722+300 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "SAI_CHIRIGUANA",
+        "nombre":  "UPS Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "SAI_TALLER_LIVIANO",
+        "nombre":  "UPS Taller Liviano",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "NODO_FO_CHIRIGUANA",
+        "nombre":  "Nodo Fibra Óptica Distribución",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CONTROL_ACCESO_CHR_01",
+        "nombre":  "Control Acceso Principal",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "CONTROL_ACCESO_CHR_02",
+        "nombre":  "Control Acceso Taller",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "DETECCION_INCENDIO_CHR_01",
+        "nombre":  "Sistema Detección Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "DETECCION_INCENDIO_CHR_02",
+        "nombre":  "Sistema Detección Taller",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+200",
+        "ubicacion":  "PK722+200 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "BALIZA_CHR_01",
+        "nombre":  "Baliza Entrada Estación",
+        "descripcion":  "Centro",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Centro",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "DESVIO_CHR_01",
+        "nombre":  "Desvío Acceso Taller 01",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+280",
+        "ubicacion":  "PK722+280 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "DESVIO_CHR_02",
+        "nombre":  "Desvío Acceso Taller 02",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+300",
+        "ubicacion":  "PK722+300 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "DESVIO_CHR_03",
+        "nombre":  "Desvío Apartadero",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+320",
+        "ubicacion":  "PK722+320 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "ESTACIONAMIENTO_MATERIAL_RODANTE_CHR",
+        "nombre":  "Zona Estacionamiento Trenes",
+        "descripcion":  "Izquierda",
+        "dispositivo":  "722+280",
+        "ubicacion":  "PK722+280 Izquierda",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "UFV22",
+        "tipo":  "GENERADOR_CHIRIGUANA",
+        "nombre":  "Grupo Electrógeno",
+        "descripcion":  "Derecha",
+        "dispositivo":  "722+250",
+        "ubicacion":  "PK722+250 Derecha",
+        "pk":  "2.2"
+    },
+    {
+        "ufv":  "ID",
+        "tipo":  "Municipio",
+        "nombre":  "PK",
+        "descripcion":  "Tipo Obra",
+        "dispositivo":  "UFVF",
+        "ubicacion":  "Estado",
+        "pk":  "Nombre"
+    },
+    {
+        "ufv":  ":---",
+        "tipo":  ":----------",
+        "nombre":  ":---",
+        "descripcion":  ":----------",
+        "dispositivo":  ":-----",
+        "ubicacion":  ":-------",
+        "pk":  ":-------"
+    },
+    {
+        "ufv":  "**ESC-01**",
+        "tipo":  "Puerto Wilches (Santander)",
+        "nombre":  "âš ï¸ Pendiente",
+        "descripcion":  "RehabilitaciÃ³n integral",
+        "dispositivo":  "âš ï¸ Pendiente",
+        "ubicacion":  "VerificaciÃ³n predial pendiente",
+        "pk":  "IE Santo Domingo"
+    },
+    {
+        "ufv":  "**ESC-02**",
+        "tipo":  "La Dorada (Caldas)",
+        "nombre":  "PK 201+470 (aprox.)",
+        "descripcion":  "Rehab. arq/est/elec",
+        "dispositivo":  "UFV 23 (UFVF 1)",
+        "ubicacion":  "Ubicada en zona La Dorada",
+        "pk":  "Escuela San JosÃ© Primavera"
+    }
+]

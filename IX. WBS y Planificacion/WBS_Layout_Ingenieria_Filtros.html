@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Ingeniería - Filtros y Agrupaciones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .stat-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .stat-box .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-box .label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .controls {
+            padding: 20px;
+            background: white;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .control-group select,
+        .control-group input {
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        .control-group select:focus,
+        .control-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            color: #667eea;
+        }
+
+        .tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #667eea;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: #5568d3;
+        }
+
+        th.sortable::after {
+            content: ' ↕';
+            opacity: 0.5;
+        }
+
+        th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .badge-primary { background: #667eea; color: white; }
+        .badge-success { background: #28a745; color: white; }
+        .badge-warning { background: #ffc107; color: #333; }
+        .badge-info { background: #17a2b8; color: white; }
+        .badge-danger { background: #dc3545; color: white; }
+
+        .grouped-section {
+            margin-bottom: 30px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .group-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .group-header:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #6a3f8f 100%);
+        }
+
+        .group-content {
+            padding: 20px;
+            background: white;
+        }
+
+        .summary-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .summary-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .summary-item {
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .summary-item .value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .summary-item .label {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .controls-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Layout de Ingeniería - Sistema de Análisis</h1>
+            <p>Filtros y Agrupaciones Dinámicas | APP La Dorada-Chiriguaná</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-box">
+                <div class="number" id="stat-total">-</div>
+                <div class="label">Total Elementos</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="stat-filtered">-</div>
+                <div class="label">Filtrados</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="stat-estaciones">11</div>
+                <div class="label">Estaciones</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="stat-sistemas">-</div>
+                <div class="label">Sistemas</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="stat-ufvs">56</div>
+                <div class="label">UFVFs</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label>🎯 Tipo de Equipo:</label>
+                    <select id="filter-tipo">
+                        <option value="">Todos</option>
+                        <option value="CONTROL">Control</option>
+                        <option value="ENERGIA">Energía</option>
+                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
+                        <option value="EQUIPO ITS">Equipo ITS</option>
+                        <option value="SEÑALIZACION">Señalización</option>
+                        <option value="EDIFICACION">Edificación</option>
+                        <option value="VIA">Vía</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>🏗️ Sistema:</label>
+                    <select id="filter-sistema">
+                        <option value="">Todos</option>
+                        <option value="CTC">CTC</option>
+                        <option value="TETRA">TETRA</option>
+                        <option value="CCTV">CCTV</option>
+                        <option value="Baliza">Balizas</option>
+                        <option value="Señal">Señalización</option>
+                        <option value="Desvío">Desvíos</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>📍 UFV:</label>
+                    <select id="filter-ufv">
+                        <option value="">Todas</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>🔍 Buscar PK:</label>
+                    <input type="text" id="filter-pk" placeholder="Ej: 201+470">
+                </div>
+
+                <div class="control-group">
+                    <label>📊 Agrupar por:</label>
+                    <select id="group-by">
+                        <option value="none">Sin agrupar</option>
+                        <option value="estacion">Estación</option>
+                        <option value="sistema">Sistema</option>
+                        <option value="tipo">Tipo de Equipo</option>
+                        <option value="ufv">UFV</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="applyFilters()">🔍 Aplicar Filtros</button>
+                <button class="btn btn-secondary" onclick="clearFilters()">🔄 Limpiar</button>
+                <button class="btn btn-success" onclick="exportToExcel()">📊 Exportar Excel</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('table')">📋 Tabla Detallada</button>
+                <button class="tab" onclick="showTab('grouped')">📊 Vista Agrupada</button>
+                <button class="tab" onclick="showTab('summary')">📈 Resumen Ejecutivo</button>
+                <button class="tab" onclick="showTab('estaciones')">🚉 Por Estación</button>
+            </div>
+
+            <div id="table" class="tab-content active">
+                <div class="table-container">
+                    <table id="data-table">
+                        <thead>
+                            <tr>
+                                <th class="sortable" onclick="sortTable(0)">UFV</th>
+                                <th class="sortable" onclick="sortTable(1)">PK</th>
+                                <th class="sortable" onclick="sortTable(2)">Tipo Equipo</th>
+                                <th class="sortable" onclick="sortTable(3)">Dispositivo</th>
+                                <th class="sortable" onclick="sortTable(4)">Nombre</th>
+                                <th>Descripción</th>
+                                <th>Ubicación</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                            <tr><td colspan="7" class="no-results">Cargando datos...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="grouped" class="tab-content">
+                <div id="grouped-content">
+                    <div class="no-results">Selecciona una agrupación y aplica los filtros</div>
+                </div>
+            </div>
+
+            <div id="summary" class="tab-content">
+                <div id="summary-content">
+                    <div class="no-results">Cargando resumen...</div>
+                </div>
+            </div>
+
+            <div id="estaciones" class="tab-content">
+                <div id="estaciones-content">
+                    <div class="no-results">Cargando información de estaciones...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentSort = { column: -1, ascending: true };
+
+        // Cargar datos del layout
+        async function loadData() {
+            try {
+                const response = await fetch('../layout.md');
+                const text = await response.text();
+                parseLayoutData(text);
+                populateFilters();
+                applyFilters();
+                loadSummary();
+                loadEstaciones();
+            } catch (error) {
+                console.error('Error cargando datos:', error);
+                document.getElementById('table-body').innerHTML = 
+                    '<tr><td colspan="7" class="no-results">Error cargando datos del layout</td></tr>';
+            }
+        }
+
+        function parseLayoutData(text) {
+            const lines = text.split('\n');
+            allData = [];
+            
+            lines.forEach(line => {
+                const cells = line.split('|').map(c => c.trim()).filter(c => c);
+                if (cells.length >= 5 && !line.includes('UFV') && !line.includes('---')) {
+                    allData.push({
+                        ufv: cells[0] || '',
+                        pk: cells[1] || '',
+                        tipo: cells[2] || '',
+                        dispositivo: cells[3] || '',
+                        nombre: cells[4] || '',
+                        descripcion: cells[5] || '',
+                        ubicacion: cells[6] || ''
+                    });
+                }
+            });
+
+            document.getElementById('stat-total').textContent = allData.length;
+        }
+
+        function populateFilters() {
+            // Poblar UFVs
+            const ufvs = [...new Set(allData.map(d => d.ufv))].filter(u => u).sort();
+            const ufvSelect = document.getElementById('filter-ufv');
+            ufvs.forEach(ufv => {
+                const option = document.createElement('option');
+                option.value = ufv;
+                option.textContent = ufv;
+                ufvSelect.appendChild(option);
+            });
+
+            // Contar sistemas
+            const sistemas = new Set(allData.map(d => d.dispositivo).filter(d => d));
+            document.getElementById('stat-sistemas').textContent = sistemas.size;
+        }
+
+        function applyFilters() {
+            const tipoFilter = document.getElementById('filter-tipo').value;
+            const sistemaFilter = document.getElementById('filter-sistema').value;
+            const ufvFilter = document.getElementById('filter-ufv').value;
+            const pkFilter = document.getElementById('filter-pk').value;
+
+            filteredData = allData.filter(item => {
+                if (tipoFilter && !item.tipo.includes(tipoFilter)) return false;
+                if (sistemaFilter && !item.nombre.includes(sistemaFilter) && 
+                    !item.dispositivo.includes(sistemaFilter)) return false;
+                if (ufvFilter && item.ufv !== ufvFilter) return false;
+                if (pkFilter && !item.pk.includes(pkFilter)) return false;
+                return true;
+            });
+
+            document.getElementById('stat-filtered').textContent = filteredData.length;
+
+            const groupBy = document.getElementById('group-by').value;
+            if (groupBy !== 'none') {
+                displayGrouped(groupBy);
+            } else {
+                displayTable(filteredData);
+            }
+        }
+
+        function displayTable(data) {
+            const tbody = document.getElementById('table-body');
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="no-results">No se encontraron resultados</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.map(item => `
+                <tr>
+                    <td><span class="badge badge-info">${item.ufv}</span></td>
+                    <td><span class="badge badge-primary">${item.pk}</span></td>
+                    <td>${item.tipo}</td>
+                    <td>${item.dispositivo}</td>
+                    <td><strong>${item.nombre}</strong></td>
+                    <td>${item.descripcion}</td>
+                    <td>${item.ubicacion}</td>
+                </tr>
+            `).join('');
+        }
+
+        function displayGrouped(groupBy) {
+            const grouped = {};
+            
+            filteredData.forEach(item => {
+                const key = item[groupBy === 'estacion' ? 'pk' : groupBy === 'tipo' ? 'tipo' : 
+                              groupBy === 'sistema' ? 'dispositivo' : 'ufv'] || 'Sin clasificar';
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(item);
+            });
+
+            const groupedContent = document.getElementById('grouped-content');
+            groupedContent.innerHTML = Object.keys(grouped).sort().map(key => `
+                <div class="grouped-section">
+                    <div class="group-header" onclick="toggleGroup(this)">
+                        <span><strong>${key}</strong> (${grouped[key].length} elementos)</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="group-content">
+                        <div class="summary-card">
+                            <h4>Resumen</h4>
+                            <div class="summary-grid">
+                                <div class="summary-item">
+                                    <div class="value">${grouped[key].length}</div>
+                                    <div class="label">Elementos</div>
+                                </div>
+                                <div class="summary-item">
+                                    <div class="value">${[...new Set(grouped[key].map(i => i.tipo))].length}</div>
+                                    <div class="label">Tipos</div>
+                                </div>
+                                <div class="summary-item">
+                                    <div class="value">${[...new Set(grouped[key].map(i => i.ufv))].length}</div>
+                                    <div class="label">UFVs</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>UFV</th>
+                                        <th>PK</th>
+                                        <th>Tipo</th>
+                                        <th>Dispositivo</th>
+                                        <th>Nombre</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${grouped[key].map(item => `
+                                        <tr>
+                                            <td><span class="badge badge-info">${item.ufv}</span></td>
+                                            <td><span class="badge badge-primary">${item.pk}</span></td>
+                                            <td>${item.tipo}</td>
+                                            <td>${item.dispositivo}</td>
+                                            <td>${item.nombre}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            showTab('grouped');
+        }
+
+        function toggleGroup(header) {
+            const content = header.nextElementSibling;
+            const arrow = header.querySelector('span:last-child');
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            arrow.textContent = content.style.display === 'none' ? '▶' : '▼';
+        }
+
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.ascending = !currentSort.ascending;
+            } else {
+                currentSort.column = column;
+                currentSort.ascending = true;
+            }
+
+            const headers = document.querySelectorAll('th');
+            headers.forEach((h, i) => {
+                h.classList.remove('sort-asc', 'sort-desc');
+                if (i === column) {
+                    h.classList.add(currentSort.ascending ? 'sort-asc' : 'sort-desc');
+                }
+            });
+
+            filteredData.sort((a, b) => {
+                const keys = ['ufv', 'pk', 'tipo', 'dispositivo', 'nombre'];
+                const aVal = a[keys[column]] || '';
+                const bVal = b[keys[column]] || '';
+                return currentSort.ascending ? 
+                    aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+            });
+
+            displayTable(filteredData);
+        }
+
+        function loadSummary() {
+            // Implementar resumen ejecutivo
+            const summaryContent = document.getElementById('summary-content');
+            summaryContent.innerHTML = `
+                <div class="summary-card">
+                    <h4>📊 Totales por Sistema</h4>
+                    <p>Resumen de cantidades por tipo de sistema...</p>
+                </div>
+            `;
+        }
+
+        function loadEstaciones() {
+            const estaciones = [
+                { nombre: 'México', pk: '201+470', ufv: 'UFV 23' },
+                { nombre: 'Puerto Triunfo', pk: '250+133', ufv: 'UFV 30' },
+                { nombre: 'La Argelia', pk: '282+154', ufv: 'UFV 31' },
+                { nombre: 'Puerto Olaya', pk: '338+250', ufv: 'UFV 03' },
+                { nombre: 'B/Bermejo (CCO)', pk: '441+932', ufv: 'UFV 40/41' },
+                { nombre: 'García Cadena', pk: '462+520', ufv: 'UFV 44' },
+                { nombre: 'San Rafael', pk: '516+490', ufv: 'UFV 46' },
+                { nombre: 'Santa Lucía', pk: '569+800', ufv: 'UFV 49' },
+                { nombre: 'Gamarra', pk: '604+265', ufv: 'UFV 52' },
+                { nombre: 'La Gloria', pk: '635+991', ufv: 'UFV 54' },
+                { nombre: 'Chiriguaná', pk: '722+250', ufv: 'UFV 22' }
+            ];
+
+            const estacionesContent = document.getElementById('estaciones-content');
+            estacionesContent.innerHTML = estaciones.map(est => `
+                <div class="grouped-section">
+                    <div class="group-header" onclick="filterByEstacion('${est.pk}')">
+                        <span><strong>🚉 ${est.nombre}</strong> - PK ${est.pk} (${est.ufv})</span>
+                        <span>Ver equipos ▶</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterByEstacion(pk) {
+            document.getElementById('filter-pk').value = pk;
+            applyFilters();
+            showTab('table');
+        }
+
+        function clearFilters() {
+            document.getElementById('filter-tipo').value = '';
+            document.getElementById('filter-sistema').value = '';
+            document.getElementById('filter-ufv').value = '';
+            document.getElementById('filter-pk').value = '';
+            document.getElementById('group-by').value = 'none';
+            applyFilters();
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function exportToExcel() {
+            // Crear CSV
+            const headers = ['UFV', 'PK', 'Tipo Equipo', 'Dispositivo', 'Nombre', 'Descripción', 'Ubicación'];
+            const csv = [
+                headers.join(','),
+                ...filteredData.map(item => 
+                    [item.ufv, item.pk, item.tipo, item.dispositivo, item.nombre, item.descripcion, item.ubicacion]
+                        .map(v => `"${v}"`)
+                        .join(',')
+                )
+            ].join('\n');
+
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = `layout_ingenieria_${new Date().toISOString().split('T')[0]}.csv`;
+            link.click();
+        }
+
+        // Cargar datos al iniciar
+        loadData();
+    </script>
+</body>
+</html>
+

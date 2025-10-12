@@ -274,10 +274,17 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
+## 📋 ANEXO: Layout Completo del Proyecto
+
+<!-- INJECT_LAYOUT: ALL -->
+
+---
+
 **Documento preparado por:** Administrador Contractual EPC  
 **Última actualización:** Enero 2025  
 **Próxima revisión:** Febrero 2025  
 **Basado en:** ESPECIALIDAD_04_Ingenieria_Sistemas_Master.md v1.0
+
 
 
 

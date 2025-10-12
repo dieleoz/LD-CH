@@ -1,0 +1,80 @@
+﻿{
+    "redes":  [
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "Red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "Red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red",
+                  "red"
+              ],
+    "tetra":  [
+
+              ],
+    "telecomunicaciones":  [
+                               "Comunicacion",
+                               "Comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "Comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "comunicacion",
+                               "Comunicacion",
+                               "Comunicacion"
+                           ],
+    "antenas":  [
+
+                ],
+    "patrones_encontrados":  [
+
+                             ],
+    "radio":  [
+
+              ],
+    "fibra_optica":  [
+
+                     ],
+    "nodos":  [
+
+              ],
+    "estaciones_base":  [
+
+                        ]
+}

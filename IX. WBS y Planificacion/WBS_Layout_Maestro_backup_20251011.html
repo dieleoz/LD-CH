@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT JERARQUICO - APP La Dorada-Chiriguana</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%); padding: 20px; }
+        
+        .container { max-width: 1800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        
+        .header { background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%); color: white; padding: 30px; text-align: center; border-radius: 12px 12px 0 0; }
+        .header h1 { font-size: 32px; margin-bottom: 10px; }
+        .header p { font-size: 16px; opacity: 0.95; }
+        
+        .tabs { display: flex; background: #f5f5f5; border-bottom: 3px solid #00bcd4; }
+        .tab { flex: 1; padding: 15px; text-align: center; cursor: pointer; font-weight: 600; transition: all 0.3s; border: none; background: #f5f5f5; }
+        .tab:hover { background: #e0e0e0; }
+        .tab.active { background: white; color: #00bcd4; border-bottom: 3px solid #00bcd4; }
+        
+        .tab-content { padding: 20px; min-height: 70vh; display: none; }
+        .tab-content.active { display: block; }
+        
+        .stats { padding: 15px 30px; background: #fff3cd; border-bottom: 2px solid #ffc107; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 28px; font-weight: 700; color: #00bcd4; }
+        .stat-label { font-size: 12px; color: #666; }
+        
+        .instalacion { background: #f9f9f9; border-left: 4px solid #00bcd4; padding: 15px; margin-bottom: 15px; border-radius: 4px; cursor: pointer; transition: all 0.3s; }
+        .instalacion:hover { background: #e3f2fd; transform: translateX(5px); }
+        .instalacion-header { display: flex; justify-content: space-between; align-items: center; }
+        .instalacion-header h3 { color: #00bcd4; font-size: 18px; }
+        .instalacion-info { font-size: 14px; color: #666; margin-top: 5px; }
+        .instalacion-equipos { display: none; margin-top: 15px; padding-top: 15px; border-top: 1px solid #ddd; }
+        .instalacion-equipos.expanded { display: block; }
+        
+        .equipo-item { padding: 8px 12px; background: white; border-radius: 4px; margin-bottom: 8px; display: flex; justify-content: space-between; }
+        .equipo-categoria { display: inline-block; padding: 3px 8px; background: rgba(0,188,212,0.1); color: #00bcd4; border-radius: 3px; font-size: 11px; font-weight: 600; }
+        
+        .timeline { position: relative; height: 100px; background: #f0f0f0; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .timeline-marker { position: absolute; width: 12px; height: 12px; background: #00bcd4; border-radius: 50%; cursor: pointer; transform: translateX(-50%); }
+        .timeline-marker:hover { width: 16px; height: 16px; background: #ff5722; }
+        
+        .btn { padding: 12px 24px; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; color: white; transition: all 0.3s; }
+        .btn-excel { background: linear-gradient(135deg, #28a745 0%, #218838 100%); }
+        .btn-pdf { background: linear-gradient(135deg, #dc3545 0%, #c82333 100%); }
+        
+        .footer { background: #1e3c72; color: white; padding: 20px; text-align: center; font-size: 14px; border-radius: 0 0 12px 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LAYOUT JERARQUICO DE EQUIPOS</h1>
+            <p>Vista Integral por Instalaciones, Sistemas y UFV</p>
+            <p><strong>Proyecto:</strong> APP La Dorada-Chiriguana | <strong>Version:</strong> 1.0 Jerarquico</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number" id="totalEquipos">0</div>
+                <div class="stat-label">Total Equipos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="totalEdificaciones">0</div>
+                <div class="stat-label">Edificaciones</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="totalPuentes">0</div>
+                <div class="stat-label">Puentes</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="totalTetra">0</div>
+                <div class="stat-label">Nodos TETRA</div>
+            </div>
+        </div>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="cambiarTab(0)">Por Instalacion</button>
+            <button class="tab" onclick="cambiarTab(1)">Por Sistema</button>
+            <button class="tab" onclick="cambiarTab(2)">Por UFV</button>
+        </div>
+        
+        <!-- VISTA 1: POR INSTALACION -->
+        <div id="tab0" class="tab-content active">
+            <h2 style="margin-bottom:20px; color:#00bcd4;">Vista por Instalacion</h2>
+            
+            <h3 style="margin:20px 0 10px 0; color:#333;">EDIFICACIONES</h3>
+            <div id="edificaciones-container"></div>
+            
+            <h3 style="margin:20px 0 10px 0; color:#333;">INFRAESTRUCTURA</h3>
+            <div id="infraestructura-container"></div>
+            
+            <button class="btn btn-excel" onclick="exportarExcel()" style="margin-top:20px;">Exportar Excel</button>
+        </div>
+        
+        <!-- VISTA 2: POR SISTEMA -->
+        <div id="tab1" class="tab-content">
+            <h2 style="margin-bottom:20px; color:#00bcd4;">Vista por Sistema Distribuido</h2>
+            <div id="sistemas-container"></div>
+        </div>
+        
+        <!-- VISTA 3: POR UFV -->
+        <div id="tab2" class="tab-content">
+            <h2 style="margin-bottom:20px; color:#00bcd4;">Vista por UFV (Geografica)</h2>
+            <div id="ufv-container"></div>
+        </div>
+        
+        <div class="footer">
+            <p>2025 APP La Dorada-Chiriguana | Sistema WBS Interactivo v15.0</p>
+            <p>Layout Jerarquico v1.0 | Generado: 11/10/2025 17:18</p>
+        </div>
+    </div>
+
+    <script>
+        const layoutData = {"instalaciones":{"infraestructura":[{"id":"PUENTE_RIO_MAGDALENA_INICIO","subtipo":"Puente_Prioritario","nombre":"Puente Río Magdalena - Inicio","pk_inicio":"332+230","ufv":"UFV02","tipo":"INFRAESTRUCTURA","total_equipos":9,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Magdalena - Inicio","pk":"332+230","id":"PUENTE_RIO_MAGDALENA_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada Norte","pk":"332+230","id":"CCTV_MAG_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Lateral Este","pk":"332+280","id":"CCTV_MAG_02","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"332+400","id":"DETECTOR_SISMICO_MAG_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"332+500","id":"CCTV_MAG_03","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Socavación","pk":"332+500","id":"DETECTOR_SOCAVACION_MAG","dispositivo":"Detector Socavación"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Lateral Oeste","pk":"332+700","id":"CCTV_MAG_04","dispositivo":"CCTV PTZ"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Magdalena - Fin","pk":"332+817","id":"PUENTE_RIO_MAGDALENA_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida Sur","pk":"332+817","id":"CCTV_MAG_05","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_MAGDALENA_FIN","subtipo":"Puente_Prioritario","nombre":"Puente Río Magdalena - Fin","pk_inicio":"332+817","ufv":"UFV02","tipo":"INFRAESTRUCTURA","total_equipos":9,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Magdalena - Inicio","pk":"332+230","id":"PUENTE_RIO_MAGDALENA_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada Norte","pk":"332+230","id":"CCTV_MAG_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Lateral Este","pk":"332+280","id":"CCTV_MAG_02","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"332+400","id":"DETECTOR_SISMICO_MAG_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"332+500","id":"CCTV_MAG_03","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Socavación","pk":"332+500","id":"DETECTOR_SOCAVACION_MAG","dispositivo":"Detector Socavación"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Lateral Oeste","pk":"332+700","id":"CCTV_MAG_04","dispositivo":"CCTV PTZ"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Magdalena - Fin","pk":"332+817","id":"PUENTE_RIO_MAGDALENA_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida Sur","pk":"332+817","id":"CCTV_MAG_05","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_CARARE_INICIO","subtipo":"Puente_Prioritario","nombre":"Puente/Viaducto Río Carare - Inicio","pk_inicio":"354+348","ufv":"UFV34","tipo":"INFRAESTRUCTURA","total_equipos":3,"equipos":[{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","pk":"354+148","id":"CCTV_SJC_01","dispositivo":"CCTV Fija"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente/Viaducto Río Carare - Inicio","pk":"354+348","id":"PUENTE_RIO_CARARE_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Entrada Norte","pk":"354+348","id":"CCTV_CAR_01","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_CARARE_FIN","subtipo":"Puente_Prioritario","nombre":"Puente/Viaducto Río Carare - Fin","pk_inicio":"375+928","ufv":"UFV34","tipo":"INFRAESTRUCTURA","total_equipos":3,"equipos":[{"categoria":"EQUIPO ITS","descripcion":"Cámara Tramo Final Viaducto","pk":"375+000","id":"CCTV_CAR_03","dispositivo":"CCTV PTZ"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente/Viaducto Río Carare - Fin","pk":"375+928","id":"PUENTE_RIO_CARARE_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Salida Sur","pk":"375+928","id":"CCTV_CAR_04","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_CUATRO_BOCAS_INICIO","subtipo":"Puente_Prioritario","nombre":"Puente Río Cuatro Bocas - Inicio","pk_inicio":"432+178","ufv":"UFV39","tipo":"INFRAESTRUCTURA","total_equipos":6,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Cuatro Bocas - Inicio","pk":"432+178","id":"PUENTE_RIO_CUATRO_BOCAS_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada","pk":"432+178","id":"CCTV_CB_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"432+200","id":"DETECTOR_SISMICO_CB_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"432+200","id":"CCTV_CB_02","dispositivo":"CCTV PTZ"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Cuatro Bocas - Fin","pk":"432+223","id":"PUENTE_RIO_CUATRO_BOCAS_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida","pk":"432+223","id":"CCTV_CB_03","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_CUATRO_BOCAS_FIN","subtipo":"Puente_Prioritario","nombre":"Puente Río Cuatro Bocas - Fin","pk_inicio":"432+223","ufv":"UFV39","tipo":"INFRAESTRUCTURA","total_equipos":6,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Cuatro Bocas - Inicio","pk":"432+178","id":"PUENTE_RIO_CUATRO_BOCAS_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada","pk":"432+178","id":"CCTV_CB_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"432+200","id":"DETECTOR_SISMICO_CB_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"432+200","id":"CCTV_CB_02","dispositivo":"CCTV PTZ"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Cuatro Bocas - Fin","pk":"432+223","id":"PUENTE_RIO_CUATRO_BOCAS_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida","pk":"432+223","id":"CCTV_CB_03","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_SOGAMOSO_INICIO","subtipo":"Puente_Prioritario","nombre":"Puente Río Sogamoso - Inicio","pk_inicio":"465+200","ufv":"UFV44","tipo":"INFRAESTRUCTURA","total_equipos":7,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Sogamoso - Inicio","pk":"465+200","id":"PUENTE_RIO_SOGAMOSO_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada","pk":"465+200","id":"CCTV_SOG_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"465+250","id":"DETECTOR_SISMICO_SOG_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"465+280","id":"CCTV_SOG_02","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Socavación","pk":"465+300","id":"DETECTOR_SOCAVACION_SOG","dispositivo":"Detector Socavación"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Sogamoso - Fin","pk":"465+353","id":"PUENTE_RIO_SOGAMOSO_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida","pk":"465+353","id":"CCTV_SOG_03","dispositivo":"CCTV PTZ"}]},{"id":"PUENTE_RIO_SOGAMOSO_FIN","subtipo":"Puente_Prioritario","nombre":"Puente Río Sogamoso - Fin","pk_inicio":"465+353","ufv":"UFV44","tipo":"INFRAESTRUCTURA","total_equipos":7,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Sogamoso - Inicio","pk":"465+200","id":"PUENTE_RIO_SOGAMOSO_INICIO","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Entrada","pk":"465+200","id":"CCTV_SOG_01","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Sísmico","pk":"465+250","id":"DETECTOR_SISMICO_SOG_01","dispositivo":"Detector Sísmico"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Centro","pk":"465+280","id":"CCTV_SOG_02","dispositivo":"CCTV PTZ"},{"categoria":"EQUIPO ITS","descripcion":"Detector Socavación","pk":"465+300","id":"DETECTOR_SOCAVACION_SOG","dispositivo":"Detector Socavación"},{"categoria":"INFRAESTRUCTURA","descripcion":"Puente Río Sogamoso - Fin","pk":"465+353","id":"PUENTE_RIO_SOGAMOSO_FIN","dispositivo":"Puente Prioritario"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Puente Salida","pk":"465+353","id":"CCTV_SOG_03","dispositivo":"CCTV PTZ"}]}],"edificaciones":[{"id":"ESTACION_PUERTO_OLAYA","subtipo":"Estacion_Principal","nombre":"Estación Principal","pk":"338+250","ufv":"UFV03","tipo":"EDIFICACION","total_equipos":8,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal","id":"ESTACION_PUERTO_OLAYA","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_PUERTO_OLAYA","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_PUERTO_OLAYA","dispositivo":"CTC Local"},{"categoria":"CONTROL","descripcion":"Radio Block Center 02","id":"RBC_02_PUERTO_OLAYA","dispositivo":"RBC ETCS L2"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 07","id":"EBT_07_PUERTO_OLAYA","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_PUERTO_OLAYA","dispositivo":"UPS 40kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica Distribución","id":"NODO_FO_PUERTO_OLAYA","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_OLA_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_SAN_JUAN_COBARIAS","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"354+148","ufv":"UFV34","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_SAN_JUAN_COBARIAS","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 08","id":"EBT_08_SAN_JUAN","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_SJC_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_SJC_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_CORARE","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"376+571","ufv":"UFV35","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_CORARE","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 09","id":"EBT_09_CORARE","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_COR_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_COR_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_LAS_MONTOYA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"390+050","ufv":"UFV36","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_LAS_MONTOYA","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 10","id":"EBT_10_LAS_MONTOYA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_MON_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_MON_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_FUL_PAPAL","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"406+184","ufv":"UFV37","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_FUL_PAPAL","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 11","id":"EBT_11_FUL_PAPAL","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_FUL_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_FUL_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_LA_VIZCAINA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"418+000","ufv":"UFV38","tipo":"EDIFICACION","total_equipos":3,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_LA_VIZCAINA","dispositivo":"Apeadero"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_VIZ_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_VIZ_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_BOCAS","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"430+498","ufv":"UFV39","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_BOCAS","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 12","id":"EBT_12_BOCAS","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_BOC_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_BOC_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_BERMEJO","subtipo":"Estacion_Principal","nombre":"Estación Principal B/Bermejo","pk":"441+932","ufv":"UFV40/41","tipo":"EDIFICACION","total_equipos":25,"equipos":[{"categoria":"INFRAESTRUCTURA","descripcion":"B/Bermejo - Límite Lotes","id":"COMPLEJO_BERMEJO_INICIO","dispositivo":"Complejo Principal"},{"categoria":"EDIFICACION","descripcion":"Estación Principal B/Bermejo","id":"ESTACION_BERMEJO","dispositivo":"Estación Clase A+"},{"categoria":"EDIFICACION","descripcion":"Centro Control Operacional","id":"CCO_PRINCIPAL","dispositivo":"CCO Master"},{"categoria":"EDIFICACION","descripcion":"Taller Mantenimiento Pesado","id":"TALLER_PESADO","dispositivo":"Taller Mayor"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica Principal","id":"SE_BERMEJO_PRINCIPAL","dispositivo":"Subestación AT/MT"},{"categoria":"CONTROL","descripcion":"Centro Control CTC Maestro","id":"CTC_BERMEJO_MAESTRO","dispositivo":"CTC Regional"},{"categoria":"CONTROL","descripcion":"Centro Control CTC Respaldo","id":"CTC_BERMEJO_RESPALDO","dispositivo":"CTC Hot-Standby"},{"categoria":"CONTROL","descripcion":"Radio Block Center 03 Maestro","id":"RBC_03_BERMEJO_MAESTRO","dispositivo":"RBC ETCS L2"},{"categoria":"CONTROL","descripcion":"Radio Block Center 03 Respaldo","id":"RBC_03_BERMEJO_RESPALDO","dispositivo":"RBC ETCS L2 Hot-Standby"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 13","id":"EBT_13_BERMEJO","dispositivo":"TETRA BS"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Core Fibra Óptica","id":"NODO_FO_BERMEJO_CORE","dispositivo":"ODF 96 hilos + DWDM"},{"categoria":"TELECOMUNICACIONES","descripcion":"Centro de Datos CCO","id":"DATACENTER_CCO","dispositivo":"Datacenter Tier III"},{"categoria":"ENERGIA","descripcion":"UPS Principal CCO","id":"SAI_BERMEJO_PRINCIPAL","dispositivo":"UPS 200kVA N+1"},{"categoria":"ENERGIA","descripcion":"UPS Taller Pesado","id":"SAI_BERMEJO_TALLER","dispositivo":"UPS 60kVA"},{"categoria":"ENERGIA","descripcion":"Grupo Electrógeno Principal","id":"GENERADOR_BERMEJO_01","dispositivo":"Generador 500kVA"},{"categoria":"ENERGIA","descripcion":"Grupo Electrógeno Respaldo","id":"GENERADOR_BERMEJO_02","dispositivo":"Generador 500kVA"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Andén Estación","id":"CCTV_BER_03","dispositivo":"CCTV Fija"},{"categoria":"EQUIPO ITS","descripcion":"Cámara CCO Sala Control","id":"CCTV_BER_08","dispositivo":"CCTV Fija"},{"categoria":"EQUIPO ITS","descripcion":"Cámara CCO Datacenter","id":"CCTV_BER_09","dispositivo":"CCTV Fija"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Térmica Perímetro","id":"CCTV_BER_TERMICA_01","dispositivo":"CCTV Térmica"},{"categoria":"SEGURIDAD","descripcion":"Control Acceso CCO","id":"CONTROL_ACCESO_BER_02","dispositivo":"Biométrico"},{"categoria":"SEGURIDAD","descripcion":"Control Acceso Datacenter","id":"CONTROL_ACCESO_BER_04","dispositivo":"Biométrico"},{"categoria":"SEGURIDAD","descripcion":"Sistema Detección CCO","id":"DETECCION_INCENDIO_BER_01","dispositivo":"Det. Incendio + Supresión"},{"categoria":"SEGURIDAD","descripcion":"Sistema Detección Datacenter","id":"DETECCION_INCENDIO_BER_02","dispositivo":"Det. Incendio + FM-200"},{"categoria":"CONTROL","descripcion":"Baliza Entrada Estación","id":"BALIZA_BER_01","dispositivo":"Eurobalise"}]},{"id":"ESTACIONAMIENTO_MATERIAL_RODANTE","subtipo":"Estacion_Menor","nombre":"Zona Estacionamiento Trenes","pk":"442+000","ufv":"UFV40/41","tipo":"EDIFICACION","total_equipos":2,"equipos":[{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica Respaldo","id":"SE_BERMEJO_RESPALDO","dispositivo":"Subestación MT/BT"},{"categoria":"INFRAESTRUCTURA","descripcion":"Zona Estacionamiento Trenes","id":"ESTACIONAMIENTO_MATERIAL_RODANTE","dispositivo":"Patio Estacionamiento"}]},{"id":"ESTACION_PUERTO_SOGAMOSO","subtipo":"Estacion_Principal","nombre":"Estación Principal Pto. Sogamoso","pk":"462+520","ufv":"UFV44","tipo":"EDIFICACION","total_equipos":7,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal Pto. Sogamoso","id":"ESTACION_PUERTO_SOGAMOSO","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_PUERTO_SOGAMOSO","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_PUERTO_SOGAMOSO","dispositivo":"CTC Local"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 14","id":"EBT_14_PUERTO_SOGAMOSO","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_PUERTO_SOGAMOSO","dispositivo":"UPS 30kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica Distribución","id":"NODO_FO_PUERTO_SOGAMOSO","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_PSO_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_ELOY_VALENZUELA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"501+933","ufv":"UFV45","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_ELOY_VALENZUELA","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 15","id":"EBT_15_ELOY_VALENZUELA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_ELO_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_ELO_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_SAN_RAFAEL","subtipo":"Estacion_Principal","nombre":"Estación Principal","pk":"516+490","ufv":"UFV46","tipo":"EDIFICACION","total_equipos":7,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal","id":"ESTACION_SAN_RAFAEL","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_SAN_RAFAEL","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_SAN_RAFAEL","dispositivo":"CTC Local"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 16","id":"EBT_16_SAN_RAFAEL","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_SAN_RAFAEL","dispositivo":"UPS 30kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica","id":"NODO_FO_SAN_RAFAEL","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_SRA_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_SAN_ALBERTO","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"533+275","ufv":"UFV47","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_SAN_ALBERTO","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 17","id":"EBT_17_SAN_ALBERTO","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_SAL_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_SAL_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_SAN_JOSE","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"552+750","ufv":"UFV48","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_SAN_JOSE","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 18","id":"EBT_18_SAN_JOSE","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_SJO_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_SJO_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_SANTA_LUCIA","subtipo":"Estacion_Principal","nombre":"Estación Principal","pk":"569+800","ufv":"UFV49","tipo":"EDIFICACION","total_equipos":8,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal","id":"ESTACION_SANTA_LUCIA","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_SANTA_LUCIA","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_SANTA_LUCIA","dispositivo":"CTC Local"},{"categoria":"CONTROL","descripcion":"Radio Block Center 04","id":"RBC_04_SANTA_LUCIA","dispositivo":"RBC ETCS L2"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 19","id":"EBT_19_SANTA_LUCIA","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_SANTA_LUCIA","dispositivo":"UPS 40kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica Distribución","id":"NODO_FO_SANTA_LUCIA","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_SLU_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_GAMARRA","subtipo":"Estacion_Principal","nombre":"Estación Principal","pk":"604+265","ufv":"UFV52","tipo":"EDIFICACION","total_equipos":7,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal","id":"ESTACION_GAMARRA","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_GAMARRA","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_GAMARRA","dispositivo":"CTC Local"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 20","id":"EBT_20_GAMARRA","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_GAMARRA","dispositivo":"UPS 30kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica","id":"NODO_FO_GAMARRA","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_GAM_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_PATEQUILLO","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"618+000","ufv":"UFV53","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_PATEQUILLO","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 21","id":"EBT_21_PATEQUILLO","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_PAT_ReintentarDZContinuar01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_PAT_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_LA_GLORIA","subtipo":"Estacion_Principal","nombre":"Estación Principal","pk":"635+991","ufv":"UFV54","tipo":"EDIFICACION","total_equipos":7,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Principal","id":"ESTACION_LA_GLORIA","dispositivo":"Estación Clase A"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica","id":"SE_LA_GLORIA","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_LA_GLORIA","dispositivo":"CTC Local"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 22","id":"EBT_22_LA_GLORIA","dispositivo":"TETRA BS"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_LA_GLORIA","dispositivo":"UPS 30kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica","id":"NODO_FO_LA_GLORIA","dispositivo":"ODF 48 hilos"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_GLO_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_PALESTINA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"663+805","ufv":"UFV55","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_PALESTINA","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 23","id":"EBT_23_PALESTINA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_PAL_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_PAL_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_ZAPATOSA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"679+530","ufv":"UFV56","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_ZAPATOSA","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 24","id":"EBT_24_ZAPATOSA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_ZAP_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_ZAP_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_CHIMICHAGUA","subtipo":"Estacion_Menor","nombre":"Estación Menor","pk":"701+176","ufv":"UFV21","tipo":"EDIFICACION","total_equipos":4,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Menor","id":"ESTACION_CHIMICHAGUA","dispositivo":"Apeadero"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 25","id":"EBT_25_CHIMICHAGUA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Estación","id":"CCTV_CHI_01","dispositivo":"CCTV Fija"},{"categoria":"CONTROL","descripcion":"Baliza Entrada","id":"BALIZA_CHI_01","dispositivo":"Eurobalise"}]},{"id":"ESTACION_CHIRIGUANA","subtipo":"Estacion_Menor","nombre":"Estación Terminal Chiriguaná","pk":"722+250","ufv":"UFV22","tipo":"EDIFICACION","total_equipos":11,"equipos":[{"categoria":"EDIFICACION","descripcion":"Estación Terminal Chiriguaná","id":"ESTACION_CHIRIGUANA","dispositivo":"Estación Clase A+"},{"categoria":"ENERGIA","descripcion":"Subestación Eléctrica Principal","id":"SE_CHIRIGUANA","dispositivo":"Subestación MT/BT"},{"categoria":"CONTROL","descripcion":"Puesto Control CTC","id":"CTC_CHIRIGUANA","dispositivo":"CTC Local"},{"categoria":"CONTROL","descripcion":"Radio Block Center 05","id":"RBC_05_CHIRIGUANA","dispositivo":"RBC ETCS L2"},{"categoria":"TELECOMUNICACIONES","descripcion":"Estación Base TETRA 26","id":"EBT_26_CHIRIGUANA","dispositivo":"TETRA BS"},{"categoria":"EQUIPO ITS","descripcion":"Cámara Patio Maniobras","id":"CCTV_CHR_03","dispositivo":"CCTV PTZ"},{"categoria":"ENERGIA","descripcion":"UPS Estación","id":"SAI_CHIRIGUANA","dispositivo":"UPS 40kVA"},{"categoria":"TELECOMUNICACIONES","descripcion":"Nodo Fibra Óptica Distribución","id":"NODO_FO_CHIRIGUANA","dispositivo":"ODF 48 hilos"},{"categoria":"SEGURIDAD","descripcion":"Sistema Detección Estación","id":"DETECCION_INCENDIO_CHR_01","dispositivo":"Det. Incendio + Supresión"},{"categoria":"CONTROL","descripcion":"Baliza Entrada Estación","id":"BALIZA_CHR_01","dispositivo":"Eurobalise"},{"categoria":"ENERGIA","descripcion":"Grupo Electrógeno","id":"GENERADOR_CHIRIGUANA","dispositivo":"Generador 200kVA"}]},{"id":"ESTACIONAMIENTO_MATERIAL_RODANTE_CHR","subtipo":"Estacion_Menor","nombre":"Zona Estacionamiento Trenes","pk":"722+280","ufv":"UFV22","tipo":"EDIFICACION","total_equipos":3,"equipos":[{"categoria":"EQUIPO ITS","descripcion":"Cámara Perímetro Este","id":"CCTV_CHR_07","dispositivo":"CCTV PTZ"},{"categoria":"VIA","descripcion":"Desvío Acceso Taller 01","id":"DESVIO_CHR_01","dispositivo":"Desvío Motorizado"},{"categoria":"INFRAESTRUCTURA","descripcion":"Zona Estacionamiento Trenes","id":"ESTACIONAMIENTO_MATERIAL_RODANTE_CHR","dispositivo":"Patio Estacionamiento"}]}]},"sistemas_distribuidos":{"red_fibra_optica":{"empalmes":[],"cantidad_empalmes":31},"red_tetra":{"nodos":[{"pk":"201+470","ufv":"UFV23","id":"EBT_01"},{"pk":"210+606","ufv":"UFV23","id":"EBT_02"},{"pk":"219+743","ufv":"UFV23","id":"EBT_03"},{"pk":"228+879","ufv":"UFV30","id":"EBT_04"},{"pk":"238+016","ufv":"UFV30","id":"EBT_05"},{"pk":"247+152","ufv":"UFV30","id":"EBT_06"},{"pk":"256+289","ufv":"UFV31","id":"EBT_07"},{"pk":"265+425","ufv":"UFV31","id":"EBT_08"},{"pk":"274+562","ufv":"UFV31","id":"EBT_09"},{"pk":"283+698","ufv":"UFV31","id":"EBT_10"},{"pk":"292+835","ufv":"UFV31","id":"EBT_11"},{"pk":"301+971","ufv":"UFV31","id":"EBT_12"},{"pk":"311+108","ufv":"UFV31","id":"EBT_13"},{"pk":"320+244","ufv":"UFV01","id":"EBT_14"},{"pk":"329+381","ufv":"UFV02","id":"EBT_15"},{"pk":"338+517","ufv":"UFV02","id":"EBT_16"},{"pk":"347+654","ufv":"UFV02","id":"EBT_17"},{"pk":"356+790","ufv":"UFV34","id":"EBT_18"},{"pk":"365+927","ufv":"UFV34","id":"EBT_19"},{"pk":"375+063","ufv":"UFV34","id":"EBT_20"},{"pk":"384+200","ufv":"UFV35","id":"EBT_21"},{"pk":"393+336","ufv":"UFV35","id":"EBT_22"},{"pk":"402+473","ufv":"UFV35","id":"EBT_23"},{"pk":"411+609","ufv":"UFV36","id":"EBT_24"},{"pk":"420+746","ufv":"UFV36","id":"EBT_25"},{"pk":"429+882","ufv":"UFV36","id":"EBT_26"},{"pk":"439+019","ufv":"UFV39","id":"EBT_27"},{"pk":"448+155","ufv":"UFV39","id":"EBT_28"},{"pk":"457+292","ufv":"UFV39","id":"EBT_29"},{"pk":"466+428","ufv":"UFV44","id":"EBT_30"},{"pk":"475+565","ufv":"UFV44","id":"EBT_31"},{"pk":"484+701","ufv":"UFV44","id":"EBT_32"},{"pk":"493+838","ufv":"UFV44","id":"EBT_33"},{"pk":"502+974","ufv":"UFV45","id":"EBT_34"},{"pk":"512+111","ufv":"UFV45","id":"EBT_35"},{"pk":"521+247","ufv":"UFV45","id":"EBT_36"},{"pk":"530+384","ufv":"UFV45","id":"EBT_37"},{"pk":"539+520","ufv":"UFV46","id":"EBT_38"},{"pk":"548+657","ufv":"UFV46","id":"EBT_39"},{"pk":"557+793","ufv":"UFV47","id":"EBT_40"},{"pk":"566+930","ufv":"UFV47","id":"EBT_41"},{"pk":"576+066","ufv":"UFV49","id":"EBT_42"},{"pk":"585+203","ufv":"UFV49","id":"EBT_43"},{"pk":"594+339","ufv":"UFV49","id":"EBT_44"},{"pk":"603+476","ufv":"UFV49","id":"EBT_45"},{"pk":"612+612","ufv":"UFV49","id":"EBT_46"},{"pk":"621+749","ufv":"UFV49","id":"EBT_47"},{"pk":"630+885","ufv":"UFV49","id":"EBT_48"},{"pk":"640+022","ufv":"UFV49","id":"EBT_49"},{"pk":"649+158","ufv":"UFV49","id":"EBT_50"},{"pk":"658+295","ufv":"UFV49","id":"EBT_51"},{"pk":"667+431","ufv":"UFV49","id":"EBT_52"},{"pk":"676+568","ufv":"UFV49","id":"EBT_53"},{"pk":"685+704","ufv":"UFV49","id":"EBT_54"},{"pk":"694+841","ufv":"UFV49","id":"EBT_55"},{"pk":"703+977","ufv":"UFV49","id":"EBT_56"},{"pk":"713+114","ufv":"UFV49","id":"EBT_57"}],"cantidad_nodos":57}},"plantillas_equipos":{"KIT_ESTACION_PRINCIPAL":["Edificio_Estacion","Torre_TETRA","Subestacion_Electrica","UPS","CTC_Local","Nodo_Fibra_Optica","Camaras_CCTV_x3","Desvios_Motorizados"],"KIT_PUENTE_PRIORITARIO":["Camaras_CCTV_PTZ_x4-6","Detector_Sismico","Detector_Socavacion","Senalizacion_Proteccion"],"KIT_NODO_TETRA_INTERMEDIO":["Torre_TETRA","UPS_10kVA","Switch_Acceso","Camara_CCTV"]},"metadata":{"fecha_generacion":"2025-10-11 14:05:24","version":"1.1","origen":"layout.md parseado","proyecto":"APP La Dorada-ChiriguanÃ¡","total_equipos":396,"total_instalaciones":31}};
+        
+        console.log('Layout jerarquico cargado:', layoutData.metadata.total_equipos, 'equipos');
+        
+        function init() {
+            actualizarEstadisticas();
+            renderizarEdificaciones();
+            renderizarInfraestructura();
+            renderizarSistemas();
+            renderizarPorUFV();
+        }
+        
+        function actualizarEstadisticas() {
+            document.getElementById('totalEquipos').textContent = layoutData.metadata.total_equipos;
+            document.getElementById('totalEdificaciones').textContent = layoutData.instalaciones.edificaciones.length;
+            document.getElementById('totalPuentes').textContent = layoutData.instalaciones.infraestructura.length;
+            document.getElementById('totalTetra').textContent = layoutData.sistemas_distribuidos.red_tetra.cantidad_nodos;
+        }
+        
+        function renderizarEdificaciones() {
+            const container = document.getElementById('edificaciones-container');
+            let html = '';
+            
+            layoutData.instalaciones.edificaciones.forEach((est, idx) => {
+                html += '<div class="instalacion" onclick="toggleEquipos(' + idx + ', \'edif\')">';
+                html += '<div class="instalacion-header">';
+                html += '<h3>' + est.nombre + '</h3>';
+                html += '<span style="color:#666;">' + est.total_equipos + ' equipos</span>';
+                html += '</div>';
+                html += '<div class="instalacion-info">PK ' + est.pk + ' | UFV ' + est.ufv + ' | ' + est.subtipo + '</div>';
+                html += '<div class="instalacion-equipos" id="edif-' + idx + '">';
+                
+                if (est.equipos && est.equipos.length > 0) {
+                    est.equipos.forEach(eq => {
+                        html += '<div class="equipo-item">';
+                        html += '<div><strong>' + eq.id + '</strong><br><span style="font-size:12px; color:#666;">' + eq.descripcion + '</span></div>';
+                        html += '<span class="equipo-categoria">' + eq.categoria + '</span>';
+                        html += '</div>';
+                    });
+                } else {
+                    html += '<div style="color:#999; font-style:italic;">Sin equipos asignados</div>';
+                }
+                
+                html += '</div></div>';
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderizarInfraestructura() {
+            const container = document.getElementById('infraestructura-container');
+            let html = '';
+            
+            layoutData.instalaciones.infraestructura.forEach((puente, idx) => {
+                html += '<div class="instalacion" onclick="toggleEquipos(' + idx + ', \'infra\')" style="border-left-color:#ff5722;">';
+                html += '<div class="instalacion-header">';
+                html += '<h3>' + puente.nombre + '</h3>';
+                html += '<span style="color:#666;">' + puente.total_equipos + ' equipos</span>';
+                html += '</div>';
+                html += '<div class="instalacion-info">PK ' + puente.pk_inicio + ' | UFV ' + puente.ufv + ' | Infraestructura Prioritaria</div>';
+                html += '<div class="instalacion-equipos" id="infra-' + idx + '">';
+                
+                if (puente.equipos && puente.equipos.length > 0) {
+                    puente.equipos.forEach(eq => {
+                        html += '<div class="equipo-item">';
+                        html += '<div><strong>' + eq.id + '</strong><br><span style="font-size:12px; color:#666;">' + eq.descripcion + ' (PK ' + eq.pk + ')</span></div>';
+                        html += '<span class="equipo-categoria">' + eq.categoria + '</span>';
+                        html += '</div>';
+                    });
+                } else {
+                    html += '<div style="color:#999; font-style:italic;">Sin equipos asignados</div>';
+                }
+                
+                html += '</div></div>';
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderizarSistemas() {
+            const container = document.getElementById('sistemas-container');
+            let html = '<h3>Red TETRA (' + layoutData.sistemas_distribuidos.red_tetra.cantidad_nodos + ' nodos)</h3>';
+            html += '<div class="timeline" style="margin-bottom:30px;">';
+            
+            // Timeline visual (simplificado)
+            layoutData.sistemas_distribuidos.red_tetra.nodos.forEach((nodo, idx) => {
+                const pos = (idx / layoutData.sistemas_distribuidos.red_tetra.cantidad_nodos) * 100;
+                html += '<div class="timeline-marker" style="left:' + pos + '%; top:50%;" title="' + nodo.id + ' (PK ' + nodo.pk + ')"></div>';
+            });
+            
+            html += '</div>';
+            
+            html += '<h4>Listado de Nodos:</h4>';
+            html += '<div style="columns:3; column-gap:20px; margin-top:15px;">';
+            layoutData.sistemas_distribuidos.red_tetra.nodos.forEach(nodo => {
+                html += '<div style="break-inside:avoid; padding:8px; background:#f9f9f9; border-radius:4px; margin-bottom:8px;">';
+                html += '<strong>' + nodo.id + '</strong><br>';
+                html += '<span style="font-size:12px; color:#666;">PK ' + nodo.pk + ' | UFV ' + nodo.ufv + '</span>';
+                html += '</div>';
+            });
+            html += '</div>';
+            
+            container.innerHTML = html;
+        }
+        
+        function renderizarPorUFV() {
+            const container = document.getElementById('ufv-container');
+            
+            // Agrupar por UFV
+            const porUFV = {};
+            
+            layoutData.instalaciones.edificaciones.forEach(est => {
+                if (!porUFV[est.ufv]) porUFV[est.ufv] = { edificaciones: 0, equipos: 0 };
+                porUFV[est.ufv].edificaciones++;
+                porUFV[est.ufv].equipos += est.total_equipos;
+            });
+            
+            let html = '';
+            Object.keys(porUFV).sort().forEach(ufv => {
+                html += '<div class="instalacion" style="border-left-color:#4caf50;">';
+                html += '<div class="instalacion-header">';
+                html += '<h3>' + ufv + '</h3>';
+                html += '<span style="color:#666;">' + porUFV[ufv].equipos + ' equipos</span>';
+                html += '</div>';
+                html += '<div class="instalacion-info">' + porUFV[ufv].edificaciones + ' instalaciones</div>';
+                html += '</div>';
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function toggleEquipos(idx, tipo) {
+            const elem = document.getElementById(tipo + '-' + idx);
+            elem.classList.toggle('expanded');
+        }
+        
+        function cambiarTab(idx) {
+            document.querySelectorAll('.tab').forEach((t, i) => {
+                t.classList.toggle('active', i === idx);
+            });
+            document.querySelectorAll('.tab-content').forEach((c, i) => {
+                c.classList.toggle('active', i === idx);
+            });
+        }
+        
+        function exportarExcel() {
+            alert('Exportacion Excel: Funcionalidad en desarrollo');
+        }
+        
+        window.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

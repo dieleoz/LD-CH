@@ -1,10 +1,10 @@
 # ROADMAP MAESTRO - APP LA DORADA-CHIRIGUANÁ (Marco de Gestión Consolidado)
 
 **🔄 ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
-**Estado Actual:** ✅ Ingeniería 100% → 🚀 **SISTEMA v14.6 - 100% DINÁMICO + COMANDO ÚNICO**  
+**Estado Actual:** ✅ Ingeniería 100% → 🚀 **SISTEMA v14.7 - LAYOUT INTERACTIVO + DT AUTOMÁTICAS**  
 **Fecha:** 02 de Octubre, 2025  
-**Última Actualización:** 10 de Octubre de 2025 - Sistema 100% Dinámico + Comando Único v14.6  
-**Versión Actual:** v14.6 - Sistema WBS 100% Dinámico con Comando Único  
+**Última Actualización:** 11 de Octubre de 2025 - Sistema Layout Maestro Interactivo + Ejecución DT Automática v14.7  
+**Versión Actual:** v14.7 - Sistema WBS + Layout Interactivo con DT Automáticas  
 **Próxima Actualización:** Mensual o por hitos importantes  
 
 ### **⚡ COMANDO ÚNICO (v14.6 - 10-OCT-2025):**
@@ -30,6 +30,7 @@
 | **v14.4** | **PMO + Cronograma 60m Agresivo** | ✅ **COMPLETADO** | **9 Octubre 2025** |
 | **v14.5** | **Sistema cocinar() + servir() Iterativo** | ✅ **COMPLETADO** | **9 Octubre 2025** |
 | **v14.6** | **Análisis Contractual + 4 Blockers + 17 Riesgos** | ✅ **COMPLETADO** | **9 Octubre 2025** |
+| **v14.7** | **Layout Maestro Interactivo + DT Automáticas Fibra** | ✅ **COMPLETADO** | **11 Octubre 2025** |
 | v15.0 | Pre-Construcción | ⏳ Próxima | 2025 |
 | v16.0+ | Construcción | ⏳ Futura | 2025-2027 |
 | v20.0+ | Operación | ⏳ Futura | 2027+ |
@@ -44,6 +45,211 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 **Estado Actual:** ✅ **PROYECTO 100% COMPLETADO Y WBS PRESUPUESTAL VALIDADA**. 🎉 **TODAS LAS FASES FINALIZADAS** - Presupuesto definitivo: **$307,533,941,332 COP TOTAL**. **WBS presupuestal validada contra 181 documentos v5.0.** 
 
 🚀 **NUEVO (9-Oct-2025):** Sistema PMO activo - 4 Blockers críticos identificados, 17 riesgos validados, botones PDF operativos.
+
+---
+
+## ✅ **v14.7 - LAYOUT MAESTRO INTERACTIVO + DT AUTOMÁTICAS (COMPLETADO 11/10/2025)**
+
+### **🎯 OBJETIVO:**
+Integrar el **Layout de Equipamiento** al sistema WBS Interactivo con capacidad de generar y ejecutar DTs automáticamente desde la interfaz HTML, propagando cambios a través de 6 niveles de documentación.
+
+### **🚀 LOGROS PRINCIPALES:**
+
+#### **1. LAYOUT MAESTRO INTERACTIVO**
+- ✅ **WBS_Layout_Maestro.html** creado con filtros inteligentes
+- ✅ **2,182 elementos totales** de equipamiento cargados desde `layout_datos.js`
+- ✅ **Filtros en cascada:** Tipo → Sistema (dinámico)
+- ✅ **Búsqueda por:** Tipo, Sistema, UFV, PK
+- ✅ **Estadísticas dinámicas:** Se actualizan según filtros aplicados
+- ✅ **Estadísticas inteligentes:** Se ocultan/muestran según tipo de elemento filtrado
+
+#### **2. GENERACIÓN DE DT DESDE LAYOUT**
+- ✅ **Botón "📋 DT"** en cada elemento individual
+- ✅ **Botón "📋 Crear DT desde Filtro"** para cambios masivos
+- ✅ **Modal interactivo** para capturar observaciones del especialista
+- ✅ **DT generada con YAML completo** para ejecución automática
+- ✅ **Ejemplo:** DT-FIBRA-641 generada desde filtro de fibra óptica
+
+#### **3. EJECUCIÓN AUTOMÁTICA DE DT-FIBRA-641**
+- ✅ **Criterio técnico aplicado:**
+  - Longitud contractual: 520.78 km (PK 201+470 a PK 722+250)
+  - Cajas lineales: 1,735 unidades (cada 300m)
+  - Cajas en 22 puentes: 88 unidades (4 por puente)
+  - **Total cajas: 1,823 unidades**
+  - Domos de fusión: 130 unidades (cada 4km)
+  - Cable fibra: 594 km (520.78 km + 10% reserva para enrollado)
+
+#### **4. PROPAGACIÓN EN 6 NIVELES:**
+- ✅ **NIVEL 1:** WBS Presupuestal (Items 2.3.103, 2.3.104, 2.3.109)
+- ✅ **NIVEL 2:** Ingeniería Conceptual (III/28_Sistema_FibraOptica_Integrado.md)
+- ✅ **NIVEL 3:** Criterios Técnicos (criterios_tecnicos_base.json)
+- ✅ **NIVEL 4:** Layout (layout.md → 1,953 elementos fibra agregados)
+- ✅ **NIVEL 5:** Matrices (MATRIZ_DEPENDENCIAS_DOCUMENTALES)
+- ✅ **NIVEL 6:** Entregables Cliente (28 documentos Word/HTML)
+
+#### **5. SCRIPTS CREADOS/MODIFICADOS:**
+- ✅ `scripts/regenerar_fibra_1824_cajas.ps1` - Regeneración completa fibra
+- ✅ `scripts/convertir_layout_a_js.ps1` - Parser mejorado (tabs + pipes, 2,182 elementos)
+- ✅ `scripts/ejecutar_DT_universal.ps1` - Ejecutor universal de DTs (cualquier sistema)
+- ✅ `scripts/recalcular_fibra_layout.ps1` - Recálculo específico fibra
+- ✅ `scripts/test_layout_parse.ps1` - Testing del parser
+- ✅ `scripts/test_full_parse.ps1` - Testing completo
+
+#### **6. ARCHIVOS HTML ACTUALIZADOS:**
+- ✅ `WBS_Layout_Maestro.html` - Interfaz completa con:
+  - Filtros inteligentes en cascada
+  - Generación de DT interactiva
+  - Estadísticas dinámicas por filtro
+  - Modal para crear DTs desde elementos o filtros
+  - Botón de exportación a Excel
+  - Carga de 2,182 elementos vía `layout_datos.js`
+
+### **📊 IMPACTO EN DOCUMENTACIÓN:**
+
+| Documento | Cambio Aplicado | Estado |
+|:----------|:----------------|:-------|
+| **WBS_Presupuestal_v2.0.md** | Item 2.3.103: 2,068 → 1,823 cajas (-245 UND, -$330M) | ✅ |
+| **WBS_Presupuestal_v2.0.md** | Item 2.3.104: 6,204 → 5,469 uniones (-735 UND, -$25M) | ✅ |
+| **WBS_Presupuestal_v2.0.md** | Item 2.3.109: Domos fusión 4km (NUEVO, 130 UND, +$325M) | ✅ |
+| **III/28_Sistema_FibraOptica...md** | Criterio técnico actualizado con cálculo correcto | ✅ |
+| **layout.md** | 1,953 elementos fibra agregados (1,735 cajas + 88 puentes + 130 domos) | ✅ |
+| **layout_datos.js** | 2,182 elementos totales parseados | ✅ |
+| **MATRIZ_DEPENDENCIAS** | 4 filas agregadas para DT-FIBRA-641 | ✅ |
+
+### **🔑 CONCEPTOS CLAVE IMPLEMENTADOS:**
+
+#### **A. DISTINCIÓN LONGITUD CONTRACTUAL vs CABLE:**
+```
+Longitud contractual: 520.78 km
+  → Base para calcular CAJAS (1,735 cajas c/300m)
+
+Cable fibra óptica: 594 km  
+  → Longitud contractual + 10% reserva para enrollado en cajas
+  → Se compra 594 km de cable
+  → Se instalan 1,823 cajas
+```
+
+#### **B. FILTROS INTELIGENTES EN CASCADA:**
+```javascript
+1. Usuario selecciona "Tipo: TELECOMUNICACIONES"
+   → Sistema automáticamente filtra opciones en "Sistema"
+   → Solo muestra: TETRA, Fibra, ODF, Nodo, etc.
+
+2. Usuario selecciona "Sistema: Fibra"
+   → Búsqueda inteligente en: nombre, dispositivo, descripción
+   → Engloba: EMPALME, ODF, FUSION, FIBRA, OPTICA
+   → Resultado: 1,953 elementos (1,823 cajas + 130 domos)
+```
+
+#### **C. ESTADÍSTICAS CONTEXTUALES:**
+```javascript
+// Solo muestra estadísticas relevantes según filtro aplicado
+if (hayFibraEnFiltro) {
+  → Muestra: Cajas Filtradas, Domos Filtrados
+} else {
+  → Oculta estadísticas de fibra (evita confusión)
+}
+```
+
+### **⚠️ LECCIONES APRENDIDAS:**
+
+#### **❌ LO QUE NO FUNCIONÓ:**
+1. **Modificar múltiples archivos manualmente** sin seguir workflow cocinar→servir
+2. **Hacer cambios a "todo a la vez"** (se pierde contexto fácilmente)
+3. **No validar números** antes de propagar (error: 594 km para cajas en lugar de 520.78 km)
+4. **Hardcodear valores** en scripts sin leer del YAML de la DT
+
+#### **✅ LO QUE SÍ FUNCIONÓ:**
+1. **Workflow cocinar→servir** mantiene trazabilidad completa
+2. **Scripts individuales especializados** (regenerar_fibra_1824_cajas.ps1)
+3. **Parser flexible** que detecta tabs o pipes automáticamente
+4. **Validaciones en el script** (verificar que EMPALME_FO_0001 está en array/JSON)
+5. **Cache-busting automático** en HTML (?v=timestamp)
+
+### **🔄 WORKFLOW CORRECTO DOCUMENTADO:**
+
+```powershell
+# PASO 1: Especialista genera DT desde HTML
+#   - Abre WBS_Layout_Maestro.html
+#   - Filtra elementos (ej: Sistema = Fibra)
+#   - Click "📋 Crear DT desde Filtro"
+#   - Completa observación y justificación
+#   - Descarga DT-FIBRA-641-2025-10-11.md
+
+# PASO 2: Especialista completa valores [ESPECIFICAR] en YAML
+#   - cantidad_nueva: 1823
+#   - espaciamiento_km: 0.3
+#   - domos_fusion: 130
+#   - etc.
+
+# PASO 3: Guardar DT en carpeta correcta
+#   - II. Apendices Tecnicos/Decisiones_Tecnicas/
+
+# PASO 4: Ejecutar script de DT (automático)
+.\scripts\ejecutar_DT_universal.ps1 -DT_Path "II.../DT-FIBRA-641.md"
+#   O usar script especializado:
+.\scripts\regenerar_fibra_1824_cajas.ps1
+
+# PASO 5: Cocinar solo el sistema afectado
+.\scripts\cocinar.ps1 -Sistema 02
+
+# PASO 6: Servir solo el sistema afectado
+.\scripts\servir.ps1 -Sistema 02
+
+# PASO 7: Verificar en HTML
+#   - WBS_Layout_Maestro.html (actualizado automáticamente)
+#   - Ctrl+Shift+F5 para limpiar cache
+```
+
+### **📁 ESTRUCTURA DE ARCHIVOS v14.7:**
+
+```
+IX. WBS y Planificacion/
+├── WBS_Layout_Maestro.html ✅ NUEVO - Layout interactivo con DT
+├── layout.md ✅ ACTUALIZADO - 2,182 elementos (antes: 300)
+├── layout_datos.js ✅ ACTUALIZADO - 531 KB, 2,182 elementos
+└── layout_backup_*.md ✅ Backups automáticos
+
+scripts/
+├── regenerar_fibra_1824_cajas.ps1 ✅ NUEVO - Script especializado fibra
+├── ejecutar_DT_universal.ps1 ✅ NUEVO - Ejecutor universal de DTs
+├── recalcular_fibra_layout.ps1 ✅ NUEVO - Recálculo fibra
+├── convertir_layout_a_js.ps1 ✅ MEJORADO - Parser tabs + pipes
+├── cocinar.ps1 ✅ EXISTENTE - Sin cambios
+└── servir.ps1 ✅ EXISTENTE - Sin cambios
+
+II. Apendices Tecnicos/Decisiones_Tecnicas/
+└── DT-FIBRA-641-2025-10-11.md ✅ EJECUTADA - Log completo
+```
+
+### **🎯 PRÓXIMOS PASOS (v14.8):**
+
+#### **Pendiente de implementar:**
+- ⏳ **Ejecutor DT universal mejorado** que lea YAML completo y aplique cambios sin intervención manual
+- ⏳ **Sistema de subsistemas** (FIBRA, TETRA como entidades separadas)
+- ⏳ **Validación pre-ejecución** de DTs (verificar archivos, valores, etc.)
+- ⏳ **Modo dry-run** para simular ejecución de DT
+- ⏳ **Integración Layout → WBS bidireccional** (cambios en layout actualizan WBS automáticamente)
+
+### **📊 MÉTRICAS v14.7:**
+
+| Métrica | Valor | Cambio vs v14.6 |
+|:--------|:------|:----------------|
+| Elementos en layout | 2,182 | +1,882 |
+| Cajas fibra óptica | 1,823 | +1,792 |
+| Domos de fusión | 130 | +130 (nuevo) |
+| Scripts creados | 6 nuevos | +6 |
+| Interfaces HTML | 7 totales | +1 (Layout Maestro) |
+| DTs ejecutadas | 25 totales | +1 (FIBRA-641) |
+| Tamaño layout_datos.js | 531 KB | +430 KB |
+
+### **💡 INNOVACIONES TÉCNICAS:**
+
+1. **Parser Híbrido:** Detecta automáticamente formato tabs o pipes
+2. **Filtro "Fibra" Inteligente:** Engloba cajas, ODF, fusiones, empalmes
+3. **Estadísticas Contextuales:** Se muestran/ocultan según relevancia del filtro
+4. **Cache-Busting Automático:** Timestamp en query string para forzar recarga
+5. **Generación DT desde Filtro:** Permite crear DTs para cambios masivos
 
 ---
 

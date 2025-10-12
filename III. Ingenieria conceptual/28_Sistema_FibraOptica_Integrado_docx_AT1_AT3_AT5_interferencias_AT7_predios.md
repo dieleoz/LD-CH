@@ -66,13 +66,14 @@ El diseño de los sistemas de telecomunicaciones y control no puede finalizarse 
 | **Rollos fibra 4km** | **149 rollos** | Rollos de 4km | Cálculo técnico |
 | **Código fibra** | **LPOC03120484ZC** | Cable FO 48 fibras G.652D | Especificación técnica |
 | **Costo fibra** | **$580,000 USD** | Por rollo de 4km | Cotización específica |
-| **Cajas 80x80** | **1,980 unidades** | Cada 300m (costado derecho) | Especificación técnica |
+| **Cajas 80x80** | **1,823 unidades** | Cada 300m sobre corredor 520.78 km | Especificación técnica |
 | **Puentes** | **22 puentes** | Según AT1 Tabla 2 | Apéndice Técnico 1 |
 | **Cajas por puente** | **4 cajas 80x80** | Por puente | Especificación técnica |
-| **Cajas lineales** | **1,980 unidades** | Cada 300m (costado derecho) | Cálculo técnico |
-| **Total cajas** | **2,068 unidades** | 1,980 + (22×4) | Suma total |
+| **Cajas lineales** | **1,735 unidades** | Cada 300m (520.78 km ÷ 0.3 km) | Cálculo técnico |
+| **Cajas en puentes** | **88 unidades** | 22 puentes × 4 cajas | Cálculo técnico |
+| **Total cajas** | **1,823 unidades** | 1,735 + 88 | Suma total |
 | **Tritubo 40mm** | **1,485 rollos** | Rollos de 400m | Cálculo técnico |
-| **Uniones rápidas** | **6,204 unidades** | 3 por caja (2,068×3) | Cálculo técnico |
+| **Uniones rápidas** | **5,469 unidades** | 3 por caja (1,823×3) | Cálculo técnico |
 | **Fusionadora** | 1 unidad | Equipo principal fusionado | Especificación técnica |
 | **OTDR** | 1 unidad | Equipo medición certificación | Especificación técnica |
 | **Insumos Fusionado** | 200 equipos | Global para red TETRA | Cálculo fusiones |
@@ -85,13 +86,14 @@ FIBRA ÓPTICA: 594 KM
 - Total fibra: 526.133 + 52.613 = 578.746 km
 - Redondeo técnico: 594 km
 
-CAJAS 80x80: 2,068 UNIDADES
-- Fibra total: 594 km = 594,000 m
+CAJAS 80x80: 1,823 UNIDADES
+- Corredor contractual: 520.78 km = 520,780 m (PK 201+470 a PK 722+250)
 - Separación: 300 m
-- Cajas lineales: 594,000 ÷ 300 = 1,980 unidades
+- Cajas lineales: 520,780 ÷ 300 = 1,735 unidades (redondeado)
 - Ubicación: Costado derecho del corredor
 - Puentes: 22 puentes × 4 cajas = 88 unidades
-- Total: 1,980 + 88 = 2,068 unidades
+- Total: 1,735 + 88 = 1,823 unidades
+- Nota: Cable de 594 km incluye 10% reserva para enrollado en cajas
 
 TRITUBO 40MM (11/4") RDE 13.6 RÍGIDO: 1,485 ROLLOS
 - Fibra total: 594 km = 594,000 m
@@ -99,12 +101,12 @@ TRITUBO 40MM (11/4") RDE 13.6 RÍGIDO: 1,485 ROLLOS
 - Costo por rollo: $15,845
 - Costo total: 1,485 × $15,845 = $23,529,825
 
-UNIONES RÁPIDAS 40MM: 6,204 UNIDADES
-- Total cajas: 2,068 unidades
+UNIONES RÁPIDAS 40MM: 5,469 UNIDADES
+- Total cajas: 1,823 unidades
 - Uniones por caja: 3 unidades (3 vías)
-- Total uniones: 2,068 × 3 = 6,204 unidades
+- Total uniones: 1,823 × 3 = 5,469 unidades
 - Costo por unión: $35,000
-- Costo total: 6,204 × $35,000 = $217,140,000
+- Costo total: 5,469 × $35,000 = $191,415,000
 
 FUSIONES ESTIMADAS: ~5,169 FUSIONES
 - Empalmes principales: 594 km ÷ 2 km = 297 empalmes

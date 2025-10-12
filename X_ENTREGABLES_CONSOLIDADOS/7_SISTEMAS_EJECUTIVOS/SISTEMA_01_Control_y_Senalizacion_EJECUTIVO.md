@@ -418,6 +418,12 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
+## 📋 ANEXO: Layout de Equipos de Control y Señalización
+
+<!-- INJECT_LAYOUT: Tipo_Equipo=CONTROL,SEÑALIZACION -->
+
+---
+
 **Documento preparado por:** Administrador Contractual EPC  
 **Última actualización:** Enero 2025  
 **Próxima revisión:** Febrero 2025  

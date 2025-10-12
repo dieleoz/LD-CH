@@ -1,0 +1,308 @@
+﻿{
+    "fecha_generacion":  "2025-10-11 15:54:38",
+    "parametros":  {
+                       "longitud_km":  520.78,
+                       "num_estaciones":  37,
+                       "espaciamiento_km":  14.466111111111111,
+                       "pk_fin":  722.25,
+                       "pk_inicio":  201.47
+                   },
+    "estaciones":  [
+                       {
+                           "id":  "EBT_01",
+                           "numero":  1,
+                           "nombre":  "Estacion Base TETRA 01",
+                           "pk_formato":  "201+470",
+                           "pk_numerico":  201.47,
+                           "ubicacion":  "PK201+470 Derecha"
+                       },
+                       {
+                           "id":  "EBT_02",
+                           "numero":  2,
+                           "nombre":  "Estacion Base TETRA 02",
+                           "pk_formato":  "215+936",
+                           "pk_numerico":  215.9361111111111,
+                           "ubicacion":  "PK215+936 Derecha"
+                       },
+                       {
+                           "id":  "EBT_03",
+                           "numero":  3,
+                           "nombre":  "Estacion Base TETRA 03",
+                           "pk_formato":  "230+402",
+                           "pk_numerico":  230.40222222222224,
+                           "ubicacion":  "PK230+402 Derecha"
+                       },
+                       {
+                           "id":  "EBT_04",
+                           "numero":  4,
+                           "nombre":  "Estacion Base TETRA 04",
+                           "pk_formato":  "244+868",
+                           "pk_numerico":  244.86833333333334,
+                           "ubicacion":  "PK244+868 Derecha"
+                       },
+                       {
+                           "id":  "EBT_05",
+                           "numero":  5,
+                           "nombre":  "Estacion Base TETRA 05",
+                           "pk_formato":  "259+334",
+                           "pk_numerico":  259.33444444444444,
+                           "ubicacion":  "PK259+334 Derecha"
+                       },
+                       {
+                           "id":  "EBT_06",
+                           "numero":  6,
+                           "nombre":  "Estacion Base TETRA 06",
+                           "pk_formato":  "273+801",
+                           "pk_numerico":  273.80055555555555,
+                           "ubicacion":  "PK273+801 Derecha"
+                       },
+                       {
+                           "id":  "EBT_07",
+                           "numero":  7,
+                           "nombre":  "Estacion Base TETRA 07",
+                           "pk_formato":  "288+267",
+                           "pk_numerico":  288.26666666666665,
+                           "ubicacion":  "PK288+267 Derecha"
+                       },
+                       {
+                           "id":  "EBT_08",
+                           "numero":  8,
+                           "nombre":  "Estacion Base TETRA 08",
+                           "pk_formato":  "302+733",
+                           "pk_numerico":  302.73277777777776,
+                           "ubicacion":  "PK302+733 Derecha"
+                       },
+                       {
+                           "id":  "EBT_09",
+                           "numero":  9,
+                           "nombre":  "Estacion Base TETRA 09",
+                           "pk_formato":  "317+199",
+                           "pk_numerico":  317.19888888888886,
+                           "ubicacion":  "PK317+199 Derecha"
+                       },
+                       {
+                           "id":  "EBT_10",
+                           "numero":  10,
+                           "nombre":  "Estacion Base TETRA 10",
+                           "pk_formato":  "331+665",
+                           "pk_numerico":  331.66499999999996,
+                           "ubicacion":  "PK331+665 Derecha"
+                       },
+                       {
+                           "id":  "EBT_11",
+                           "numero":  11,
+                           "nombre":  "Estacion Base TETRA 11",
+                           "pk_formato":  "346+131",
+                           "pk_numerico":  346.13111111111107,
+                           "ubicacion":  "PK346+131 Derecha"
+                       },
+                       {
+                           "id":  "EBT_12",
+                           "numero":  12,
+                           "nombre":  "Estacion Base TETRA 12",
+                           "pk_formato":  "360+597",
+                           "pk_numerico":  360.59722222222223,
+                           "ubicacion":  "PK360+597 Derecha"
+                       },
+                       {
+                           "id":  "EBT_13",
+                           "numero":  13,
+                           "nombre":  "Estacion Base TETRA 13",
+                           "pk_formato":  "375+63",
+                           "pk_numerico":  375.06333333333333,
+                           "ubicacion":  "PK375+63 Derecha"
+                       },
+                       {
+                           "id":  "EBT_14",
+                           "numero":  14,
+                           "nombre":  "Estacion Base TETRA 14",
+                           "pk_formato":  "389+529",
+                           "pk_numerico":  389.52944444444444,
+                           "ubicacion":  "PK389+529 Derecha"
+                       },
+                       {
+                           "id":  "EBT_15",
+                           "numero":  15,
+                           "nombre":  "Estacion Base TETRA 15",
+                           "pk_formato":  "403+996",
+                           "pk_numerico":  403.9955555555556,
+                           "ubicacion":  "PK403+996 Derecha"
+                       },
+                       {
+                           "id":  "EBT_16",
+                           "numero":  16,
+                           "nombre":  "Estacion Base TETRA 16",
+                           "pk_formato":  "418+462",
+                           "pk_numerico":  418.4616666666667,
+                           "ubicacion":  "PK418+462 Derecha"
+                       },
+                       {
+                           "id":  "EBT_17",
+                           "numero":  17,
+                           "nombre":  "Estacion Base TETRA 17",
+                           "pk_formato":  "432+928",
+                           "pk_numerico":  432.92777777777781,
+                           "ubicacion":  "PK432+928 Derecha"
+                       },
+                       {
+                           "id":  "EBT_18",
+                           "numero":  18,
+                           "nombre":  "Estacion Base TETRA 18",
+                           "pk_formato":  "447+394",
+                           "pk_numerico":  447.39388888888891,
+                           "ubicacion":  "PK447+394 Derecha"
+                       },
+                       {
+                           "id":  "EBT_19",
+                           "numero":  19,
+                           "nombre":  "Estacion Base TETRA 19",
+                           "pk_formato":  "461+860",
+                           "pk_numerico":  461.86,
+                           "ubicacion":  "PK461+860 Derecha"
+                       },
+                       {
+                           "id":  "EBT_20",
+                           "numero":  20,
+                           "nombre":  "Estacion Base TETRA 20",
+                           "pk_formato":  "476+326",
+                           "pk_numerico":  476.32611111111112,
+                           "ubicacion":  "PK476+326 Derecha"
+                       },
+                       {
+                           "id":  "EBT_21",
+                           "numero":  21,
+                           "nombre":  "Estacion Base TETRA 21",
+                           "pk_formato":  "490+792",
+                           "pk_numerico":  490.79222222222222,
+                           "ubicacion":  "PK490+792 Derecha"
+                       },
+                       {
+                           "id":  "EBT_22",
+                           "numero":  22,
+                           "nombre":  "Estacion Base TETRA 22",
+                           "pk_formato":  "505+258",
+                           "pk_numerico":  505.25833333333333,
+                           "ubicacion":  "PK505+258 Derecha"
+                       },
+                       {
+                           "id":  "EBT_23",
+                           "numero":  23,
+                           "nombre":  "Estacion Base TETRA 23",
+                           "pk_formato":  "519+724",
+                           "pk_numerico":  519.72444444444443,
+                           "ubicacion":  "PK519+724 Derecha"
+                       },
+                       {
+                           "id":  "EBT_24",
+                           "numero":  24,
+                           "nombre":  "Estacion Base TETRA 24",
+                           "pk_formato":  "534+191",
+                           "pk_numerico":  534.19055555555553,
+                           "ubicacion":  "PK534+191 Derecha"
+                       },
+                       {
+                           "id":  "EBT_25",
+                           "numero":  25,
+                           "nombre":  "Estacion Base TETRA 25",
+                           "pk_formato":  "548+657",
+                           "pk_numerico":  548.65666666666664,
+                           "ubicacion":  "PK548+657 Derecha"
+                       },
+                       {
+                           "id":  "EBT_26",
+                           "numero":  26,
+                           "nombre":  "Estacion Base TETRA 26",
+                           "pk_formato":  "563+123",
+                           "pk_numerico":  563.12277777777774,
+                           "ubicacion":  "PK563+123 Derecha"
+                       },
+                       {
+                           "id":  "EBT_27",
+                           "numero":  27,
+                           "nombre":  "Estacion Base TETRA 27",
+                           "pk_formato":  "577+589",
+                           "pk_numerico":  577.58888888888885,
+                           "ubicacion":  "PK577+589 Derecha"
+                       },
+                       {
+                           "id":  "EBT_28",
+                           "numero":  28,
+                           "nombre":  "Estacion Base TETRA 28",
+                           "pk_formato":  "592+55",
+                           "pk_numerico":  592.055,
+                           "ubicacion":  "PK592+55 Derecha"
+                       },
+                       {
+                           "id":  "EBT_29",
+                           "numero":  29,
+                           "nombre":  "Estacion Base TETRA 29",
+                           "pk_formato":  "606+521",
+                           "pk_numerico":  606.52111111111117,
+                           "ubicacion":  "PK606+521 Derecha"
+                       },
+                       {
+                           "id":  "EBT_30",
+                           "numero":  30,
+                           "nombre":  "Estacion Base TETRA 30",
+                           "pk_formato":  "620+987",
+                           "pk_numerico":  620.98722222222227,
+                           "ubicacion":  "PK620+987 Derecha"
+                       },
+                       {
+                           "id":  "EBT_31",
+                           "numero":  31,
+                           "nombre":  "Estacion Base TETRA 31",
+                           "pk_formato":  "635+453",
+                           "pk_numerico":  635.45333333333338,
+                           "ubicacion":  "PK635+453 Derecha"
+                       },
+                       {
+                           "id":  "EBT_32",
+                           "numero":  32,
+                           "nombre":  "Estacion Base TETRA 32",
+                           "pk_formato":  "649+919",
+                           "pk_numerico":  649.91944444444448,
+                           "ubicacion":  "PK649+919 Derecha"
+                       },
+                       {
+                           "id":  "EBT_33",
+                           "numero":  33,
+                           "nombre":  "Estacion Base TETRA 33",
+                           "pk_formato":  "664+386",
+                           "pk_numerico":  664.38555555555558,
+                           "ubicacion":  "PK664+386 Derecha"
+                       },
+                       {
+                           "id":  "EBT_34",
+                           "numero":  34,
+                           "nombre":  "Estacion Base TETRA 34",
+                           "pk_formato":  "678+852",
+                           "pk_numerico":  678.85166666666669,
+                           "ubicacion":  "PK678+852 Derecha"
+                       },
+                       {
+                           "id":  "EBT_35",
+                           "numero":  35,
+                           "nombre":  "Estacion Base TETRA 35",
+                           "pk_formato":  "693+318",
+                           "pk_numerico":  693.31777777777779,
+                           "ubicacion":  "PK693+318 Derecha"
+                       },
+                       {
+                           "id":  "EBT_36",
+                           "numero":  36,
+                           "nombre":  "Estacion Base TETRA 36",
+                           "pk_formato":  "707+784",
+                           "pk_numerico":  707.7838888888889,
+                           "ubicacion":  "PK707+784 Derecha"
+                       },
+                       {
+                           "id":  "EBT_37",
+                           "numero":  37,
+                           "nombre":  "Estacion Base TETRA 37",
+                           "pk_formato":  "722+250",
+                           "pk_numerico":  722.25,
+                           "ubicacion":  "PK722+250 Derecha"
+                       }
+                   ]
+}

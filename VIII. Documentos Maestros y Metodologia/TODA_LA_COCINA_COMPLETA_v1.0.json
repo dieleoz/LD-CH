@@ -1,0 +1,1038 @@
+﻿{
+    "contratos":  {
+                      "archivos":  {
+                                       "FORMATEADO_APENDICE TECNICO 8.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  179.1
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 6.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  217.3
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 7.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  156.2
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 2.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  155.4
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 9.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  7.3
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 3.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  102.7
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 10.md":  {
+                                                                                 "categoria":  "apendices_tecnicos",
+                                                                                 "tamano_kb":  19.3
+                                                                             },
+                                       "FORMATEADO_APENDICE TECNICO 4.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  141.4
+                                                                            },
+                                       "FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md":  {
+                                                                                                                  "categoria":  "contrato_general",
+                                                                                                                  "tamano_kb":  932.8
+                                                                                                              },
+                                       "FORMATEADO_APENDICE TECNICO 5.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  96.8
+                                                                            },
+                                       "FORMATEADO_APENDICE TECNICO 1.md":  {
+                                                                                "categoria":  "apendices_tecnicos",
+                                                                                "tamano_kb":  355.8
+                                                                            }
+                                   },
+                      "tamano_total_kb":  2364.1,
+                      "categorias":  {
+                                         "apendices_tecnicos":  [
+                                                                    "FORMATEADO_APENDICE TECNICO 1.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 10.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 2.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 3.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 4.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 5.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 6.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 7.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 8.md",
+                                                                    "FORMATEADO_APENDICE TECNICO 9.md"
+                                                                ],
+                                         "contrato_general":  [
+                                                                  "FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md"
+                                                              ]
+                                     }
+                  },
+    "ingenieria_conceptual":  {
+                                  "archivos":  {
+                                                   "35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md":  {
+                                                                                                                                           "palabras_clave":  [
+                                                                                                                                                                  "TETRA",
+                                                                                                                                                                  "CTC",
+                                                                                                                                                                  "ETCS",
+                                                                                                                                                                  "fibra"
+                                                                                                                                                              ],
+                                                                                                                                           "lineas":  190,
+                                                                                                                                           "referencias_ATs":  [
+                                                                                                                                                                   "AT1",
+                                                                                                                                                                   "AT2",
+                                                                                                                                                                   "AT3",
+                                                                                                                                                                   "AT4"
+                                                                                                                                                               ],
+                                                                                                                                           "caracteres":  11809,
+                                                                                                                                           "tamano_kb":  11.8,
+                                                                                                                                           "categoria":  "sistemas_integrados"
+                                                                                                                                       },
+                                                   "32_Material_Rodante_Integrado_v5.0.md":  {
+                                                                                                 "palabras_clave":  [
+                                                                                                                        "TETRA",
+                                                                                                                        "CTC",
+                                                                                                                        "CCTV",
+                                                                                                                        "ETCS",
+                                                                                                                        "RBC",
+                                                                                                                        "ATP",
+                                                                                                                        "fibra",
+                                                                                                                        "estacion"
+                                                                                                                    ],
+                                                                                                 "lineas":  482,
+                                                                                                 "referencias_ATs":  [
+                                                                                                                         "AT1",
+                                                                                                                         "AT2",
+                                                                                                                         "AT3",
+                                                                                                                         "AT4",
+                                                                                                                         "AT10"
+                                                                                                                     ],
+                                                                                                 "caracteres":  19495,
+                                                                                                 "tamano_kb":  19.5,
+                                                                                                 "categoria":  "sistemas_integrados"
+                                                                                             },
+                                                   "22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md":  {
+                                                                                                                                "palabras_clave":  [
+                                                                                                                                                       "TETRA",
+                                                                                                                                                       "CTC",
+                                                                                                                                                       "CCTV",
+                                                                                                                                                       "ETCS",
+                                                                                                                                                       "fibra",
+                                                                                                                                                       "estacion"
+                                                                                                                                                   ],
+                                                                                                                                "lineas":  215,
+                                                                                                                                "referencias_ATs":  [
+                                                                                                                                                        "AT1",
+                                                                                                                                                        "AT3",
+                                                                                                                                                        "AT4",
+                                                                                                                                                        "AT10"
+                                                                                                                                                    ],
+                                                                                                                                "caracteres":  8804,
+                                                                                                                                "tamano_kb":  8.8,
+                                                                                                                                "categoria":  "otros"
+                                                                                                                            },
+                                                   "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md":  {
+                                                                                                                                      "palabras_clave":  [
+                                                                                                                                                             "TETRA",
+                                                                                                                                                             "CTC",
+                                                                                                                                                             "ETCS",
+                                                                                                                                                             "fibra"
+                                                                                                                                                         ],
+                                                                                                                                      "lineas":  153,
+                                                                                                                                      "referencias_ATs":  [
+                                                                                                                                                              "AT1",
+                                                                                                                                                              "AT2",
+                                                                                                                                                              "AT3",
+                                                                                                                                                              "AT4",
+                                                                                                                                                              "AT9",
+                                                                                                                                                              "AT10"
+                                                                                                                                                          ],
+                                                                                                                                      "caracteres":  11223,
+                                                                                                                                      "tamano_kb":  11.2,
+                                                                                                                                      "categoria":  "otros"
+                                                                                                                                  },
+                                                   "36.1_Analisis_Riesgos_y_Supuestos_PMI.md":  {
+                                                                                                    "palabras_clave":  [
+                                                                                                                           "CTC",
+                                                                                                                           "ETCS"
+                                                                                                                       ],
+                                                                                                    "lineas":  77,
+                                                                                                    "referencias_ATs":  [
+                                                                                                                            "AT3",
+                                                                                                                            "AT4"
+                                                                                                                        ],
+                                                                                                    "caracteres":  3999,
+                                                                                                    "tamano_kb":  4,
+                                                                                                    "categoria":  "otros"
+                                                                                                },
+                                                   "28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md":  {
+                                                                                                                                           "palabras_clave":  [
+                                                                                                                                                                  "TETRA",
+                                                                                                                                                                  "CTC",
+                                                                                                                                                                  "CCTV",
+                                                                                                                                                                  "ETCS",
+                                                                                                                                                                  "fibra",
+                                                                                                                                                                  "puente",
+                                                                                                                                                                  "estacion"
+                                                                                                                                                              ],
+                                                                                                                                           "lineas":  211,
+                                                                                                                                           "referencias_ATs":  [
+                                                                                                                                                                   "AT1",
+                                                                                                                                                                   "AT3",
+                                                                                                                                                                   "AT4",
+                                                                                                                                                                   "AT5",
+                                                                                                                                                                   "AT7",
+                                                                                                                                                                   "AT9"
+                                                                                                                                                               ],
+                                                                                                                                           "caracteres":  13497,
+                                                                                                                                           "tamano_kb":  13.5,
+                                                                                                                                           "categoria":  "sistemas_integrados"
+                                                                                                                                       },
+                                                   "34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md":  {
+                                                                                                                                  "palabras_clave":  [
+                                                                                                                                                         "TETRA",
+                                                                                                                                                         "CTC",
+                                                                                                                                                         "fibra",
+                                                                                                                                                         "puente",
+                                                                                                                                                         "estacion"
+                                                                                                                                                     ],
+                                                                                                                                  "lineas":  642,
+                                                                                                                                  "referencias_ATs":  [
+                                                                                                                                                          "AT1",
+                                                                                                                                                          "AT2",
+                                                                                                                                                          "AT3",
+                                                                                                                                                          "AT4",
+                                                                                                                                                          "AT10"
+                                                                                                                                                      ],
+                                                                                                                                  "caracteres":  31050,
+                                                                                                                                  "tamano_kb":  31.4,
+                                                                                                                                  "categoria":  "criterios"
+                                                                                                                              },
+                                                   "23_ListadoMaestro_Sistemas_v5.0.md":  {
+                                                                                              "palabras_clave":  [
+                                                                                                                     "TETRA",
+                                                                                                                     "CTC",
+                                                                                                                     "CCTV",
+                                                                                                                     "RBC",
+                                                                                                                     "ATP",
+                                                                                                                     "fibra",
+                                                                                                                     "estacion"
+                                                                                                                 ],
+                                                                                              "lineas":  551,
+                                                                                              "referencias_ATs":  [
+                                                                                                                      "AT1",
+                                                                                                                      "AT2",
+                                                                                                                      "AT3",
+                                                                                                                      "AT4",
+                                                                                                                      "AT5",
+                                                                                                                      "AT7",
+                                                                                                                      "AT8",
+                                                                                                                      "AT9",
+                                                                                                                      "AT10"
+                                                                                                                  ],
+                                                                                              "caracteres":  21616,
+                                                                                              "tamano_kb":  21.7,
+                                                                                              "categoria":  "sistemas_integrados"
+                                                                                          },
+                                                   "26.1_Anexo_Electrico_CTC_v5.0.md":  {
+                                                                                            "palabras_clave":  [
+                                                                                                                   "TETRA",
+                                                                                                                   "CTC",
+                                                                                                                   "CCTV",
+                                                                                                                   "RBC",
+                                                                                                                   "ATP",
+                                                                                                                   "fibra",
+                                                                                                                   "estacion"
+                                                                                                               ],
+                                                                                            "lineas":  586,
+                                                                                            "referencias_ATs":  [
+                                                                                                                    "AT1",
+                                                                                                                    "AT2",
+                                                                                                                    "AT3",
+                                                                                                                    "AT4"
+                                                                                                                ],
+                                                                                            "caracteres":  21998,
+                                                                                            "tamano_kb":  22.1,
+                                                                                            "categoria":  "otros"
+                                                                                        },
+                                                   "ITCS_Interlocking_Tables_5_Estaciones_v1.0.md":  {
+                                                                                                         "palabras_clave":  [
+                                                                                                                                "CTC",
+                                                                                                                                "ETCS",
+                                                                                                                                "RBC",
+                                                                                                                                "estacion"
+                                                                                                                            ],
+                                                                                                         "lineas":  408,
+                                                                                                         "referencias_ATs":  [
+
+                                                                                                                             ],
+                                                                                                         "caracteres":  14590,
+                                                                                                         "tamano_kb":  14.9,
+                                                                                                         "categoria":  "itcs"
+                                                                                                     },
+                                                   "ITCS_SRS_Indice_v1.0.md":  {
+                                                                                   "palabras_clave":  [
+                                                                                                          "TETRA",
+                                                                                                          "CTC",
+                                                                                                          "ETCS",
+                                                                                                          "RBC",
+                                                                                                          "baliza",
+                                                                                                          "fibra",
+                                                                                                          "estacion"
+                                                                                                      ],
+                                                                                   "lineas":  695,
+                                                                                   "referencias_ATs":  [
+                                                                                                           "AT1",
+                                                                                                           "AT2",
+                                                                                                           "AT3",
+                                                                                                           "AT4",
+                                                                                                           "AT5",
+                                                                                                           "AT10"
+                                                                                                       ],
+                                                                                   "caracteres":  26932,
+                                                                                   "tamano_kb":  26.9,
+                                                                                   "categoria":  "itcs"
+                                                                               },
+                                                   "36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md":  {
+                                                                                                                                 "palabras_clave":  [
+                                                                                                                                                        "TETRA",
+                                                                                                                                                        "CTC",
+                                                                                                                                                        "ETCS",
+                                                                                                                                                        "estacion"
+                                                                                                                                                    ],
+                                                                                                                                 "lineas":  201,
+                                                                                                                                 "referencias_ATs":  [
+                                                                                                                                                         "AT1",
+                                                                                                                                                         "AT2",
+                                                                                                                                                         "AT3",
+                                                                                                                                                         "AT4"
+                                                                                                                                                     ],
+                                                                                                                                 "caracteres":  12528,
+                                                                                                                                 "tamano_kb":  12.4,
+                                                                                                                                 "categoria":  "sistemas_integrados"
+                                                                                                                             },
+                                                   "ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md":  {
+                                                                                                  "palabras_clave":  [
+                                                                                                                         "CTC",
+                                                                                                                         "ETCS",
+                                                                                                                         "RBC",
+                                                                                                                         "baliza"
+                                                                                                                     ],
+                                                                                                  "lineas":  548,
+                                                                                                  "referencias_ATs":  [
+
+                                                                                                                      ],
+                                                                                                  "caracteres":  15670,
+                                                                                                  "tamano_kb":  15.5,
+                                                                                                  "categoria":  "itcs"
+                                                                                              },
+                                                   "ITCS_STM_Embarcado_v1.0.md":  {
+                                                                                      "palabras_clave":  [
+                                                                                                             "CTC",
+                                                                                                             "ETCS",
+                                                                                                             "RBC",
+                                                                                                             "estacion"
+                                                                                                         ],
+                                                                                      "lineas":  428,
+                                                                                      "referencias_ATs":  [
+
+                                                                                                          ],
+                                                                                      "caracteres":  13524,
+                                                                                      "tamano_kb":  14.4,
+                                                                                      "categoria":  "itcs"
+                                                                                  },
+                                                   "0_1_que_es_TETRA.md":  {
+                                                                               "palabras_clave":  [
+                                                                                                      "TETRA"
+                                                                                                  ],
+                                                                               "lineas":  83,
+                                                                               "referencias_ATs":  [
+
+                                                                                                   ],
+                                                                               "caracteres":  2425,
+                                                                               "tamano_kb":  2.4,
+                                                                               "categoria":  "otros"
+                                                                           },
+                                                   "0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md":  {
+                                                                                                             "palabras_clave":  [
+                                                                                                                                    "TETRA",
+                                                                                                                                    "CTC",
+                                                                                                                                    "CCTV",
+                                                                                                                                    "ETCS",
+                                                                                                                                    "fibra",
+                                                                                                                                    "estacion"
+                                                                                                                                ],
+                                                                                                             "lineas":  367,
+                                                                                                             "referencias_ATs":  [
+                                                                                                                                     "AT1",
+                                                                                                                                     "AT2",
+                                                                                                                                     "AT3",
+                                                                                                                                     "AT4",
+                                                                                                                                     "AT5",
+                                                                                                                                     "AT7",
+                                                                                                                                     "AT8",
+                                                                                                                                     "AT9",
+                                                                                                                                     "AT10"
+                                                                                                                                 ],
+                                                                                                             "caracteres":  13359,
+                                                                                                             "tamano_kb":  13.4,
+                                                                                                             "categoria":  "otros"
+                                                                                                         },
+                                                   "0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md":  {
+                                                                                                                         "palabras_clave":  [
+                                                                                                                                                "TETRA",
+                                                                                                                                                "CTC",
+                                                                                                                                                "CCTV",
+                                                                                                                                                "ETCS",
+                                                                                                                                                "baliza",
+                                                                                                                                                "fibra",
+                                                                                                                                                "puente",
+                                                                                                                                                "estacion"
+                                                                                                                                            ],
+                                                                                                                         "lineas":  755,
+                                                                                                                         "referencias_ATs":  [
+                                                                                                                                                 "AT3",
+                                                                                                                                                 "AT4"
+                                                                                                                                             ],
+                                                                                                                         "caracteres":  33042,
+                                                                                                                         "tamano_kb":  32.9,
+                                                                                                                         "categoria":  "trazabilidad"
+                                                                                                                     },
+                                                   "27.1_Estimacion_Cantidades_TETRA_v5.0.md":  {
+                                                                                                    "palabras_clave":  [
+                                                                                                                           "TETRA",
+                                                                                                                           "CTC",
+                                                                                                                           "CCTV",
+                                                                                                                           "ETCS",
+                                                                                                                           "RBC",
+                                                                                                                           "ATP",
+                                                                                                                           "fibra",
+                                                                                                                           "estacion"
+                                                                                                                       ],
+                                                                                                    "lineas":  655,
+                                                                                                    "referencias_ATs":  [
+                                                                                                                            "AT1",
+                                                                                                                            "AT2",
+                                                                                                                            "AT3",
+                                                                                                                            "AT4",
+                                                                                                                            "AT5",
+                                                                                                                            "AT7"
+                                                                                                                        ],
+                                                                                                    "caracteres":  24402,
+                                                                                                    "tamano_kb":  24.5,
+                                                                                                    "categoria":  "otros"
+                                                                                                },
+                                                   "27_Sistema_TETRA_Integrado_v5.0.md":  {
+                                                                                              "palabras_clave":  [
+                                                                                                                     "TETRA",
+                                                                                                                     "CTC",
+                                                                                                                     "CCTV",
+                                                                                                                     "ETCS",
+                                                                                                                     "RBC",
+                                                                                                                     "ATP",
+                                                                                                                     "fibra",
+                                                                                                                     "estacion"
+                                                                                                                 ],
+                                                                                              "lineas":  588,
+                                                                                              "referencias_ATs":  [
+                                                                                                                      "AT1",
+                                                                                                                      "AT2",
+                                                                                                                      "AT3",
+                                                                                                                      "AT4",
+                                                                                                                      "AT7"
+                                                                                                                  ],
+                                                                                              "caracteres":  23164,
+                                                                                              "tamano_kb":  23.2,
+                                                                                              "categoria":  "sistemas_integrados"
+                                                                                          },
+                                                   "39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md":  {
+                                                                                                                         "palabras_clave":  [
+                                                                                                                                                "TETRA",
+                                                                                                                                                "fibra",
+                                                                                                                                                "estacion"
+                                                                                                                                            ],
+                                                                                                                         "lineas":  124,
+                                                                                                                         "referencias_ATs":  [
+                                                                                                                                                 "AT1",
+                                                                                                                                                 "AT3",
+                                                                                                                                                 "AT6",
+                                                                                                                                                 "AT7"
+                                                                                                                                             ],
+                                                                                                                         "caracteres":  8663,
+                                                                                                                         "tamano_kb":  8.6,
+                                                                                                                         "categoria":  "otros"
+                                                                                                                     },
+                                                   "33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md":  {
+                                                                                                                                    "palabras_clave":  [
+                                                                                                                                                           "TETRA",
+                                                                                                                                                           "CTC",
+                                                                                                                                                           "CCTV",
+                                                                                                                                                           "ETCS",
+                                                                                                                                                           "puente",
+                                                                                                                                                           "estacion"
+                                                                                                                                                       ],
+                                                                                                                                    "lineas":  587,
+                                                                                                                                    "referencias_ATs":  [
+                                                                                                                                                            "AT1",
+                                                                                                                                                            "AT2",
+                                                                                                                                                            "AT3",
+                                                                                                                                                            "AT4"
+                                                                                                                                                        ],
+                                                                                                                                    "caracteres":  27675,
+                                                                                                                                    "tamano_kb":  27.6,
+                                                                                                                                    "categoria":  "criterios"
+                                                                                                                                },
+                                                   "0_0_que_es_CTC.md":  {
+                                                                             "palabras_clave":  [
+                                                                                                    "TETRA",
+                                                                                                    "CTC",
+                                                                                                    "CCTV",
+                                                                                                    "ETCS",
+                                                                                                    "RBC",
+                                                                                                    "fibra",
+                                                                                                    "estacion"
+                                                                                                ],
+                                                                             "lineas":  1018,
+                                                                             "referencias_ATs":  [
+                                                                                                     "AT3"
+                                                                                                 ],
+                                                                             "caracteres":  65473,
+                                                                             "tamano_kb":  67,
+                                                                             "categoria":  "otros"
+                                                                         },
+                                                   "29_Sistema_Senalizacion_Integrado_v5.0.md":  {
+                                                                                                     "palabras_clave":  [
+                                                                                                                            "TETRA",
+                                                                                                                            "CTC",
+                                                                                                                            "CCTV",
+                                                                                                                            "ETCS",
+                                                                                                                            "RBC",
+                                                                                                                            "ATP",
+                                                                                                                            "fibra",
+                                                                                                                            "estacion"
+                                                                                                                        ],
+                                                                                                     "lineas":  607,
+                                                                                                     "referencias_ATs":  [
+                                                                                                                             "AT1",
+                                                                                                                             "AT2",
+                                                                                                                             "AT3",
+                                                                                                                             "AT4",
+                                                                                                                             "AT8"
+                                                                                                                         ],
+                                                                                                     "caracteres":  23557,
+                                                                                                     "tamano_kb":  23.7,
+                                                                                                     "categoria":  "sistemas_integrados"
+                                                                                                 },
+                                                   "30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md":  {
+                                                                                                                      "palabras_clave":  [
+                                                                                                                                             "CTC",
+                                                                                                                                             "CCTV",
+                                                                                                                                             "ETCS",
+                                                                                                                                             "fibra",
+                                                                                                                                             "estacion"
+                                                                                                                                         ],
+                                                                                                                      "lineas":  152,
+                                                                                                                      "referencias_ATs":  [
+                                                                                                                                              "AT1",
+                                                                                                                                              "AT3",
+                                                                                                                                              "AT4",
+                                                                                                                                              "AT6",
+                                                                                                                                              "AT9"
+                                                                                                                                          ],
+                                                                                                                      "caracteres":  10066,
+                                                                                                                      "tamano_kb":  10,
+                                                                                                                      "categoria":  "sistemas_integrados"
+                                                                                                                  },
+                                                   "III_Ingenieria_conceptual_a_detallar.md":  {
+                                                                                                   "palabras_clave":  [
+                                                                                                                          "TETRA",
+                                                                                                                          "CTC",
+                                                                                                                          "CCTV",
+                                                                                                                          "fibra"
+                                                                                                                      ],
+                                                                                                   "lineas":  103,
+                                                                                                   "referencias_ATs":  [
+                                                                                                                           "AT1",
+                                                                                                                           "AT2",
+                                                                                                                           "AT3",
+                                                                                                                           "AT4",
+                                                                                                                           "AT5",
+                                                                                                                           "AT6",
+                                                                                                                           "AT7",
+                                                                                                                           "AT8",
+                                                                                                                           "AT9",
+                                                                                                                           "AT10"
+                                                                                                                       ],
+                                                                                                   "caracteres":  3797,
+                                                                                                   "tamano_kb":  3.8,
+                                                                                                   "categoria":  "otros"
+                                                                                               },
+                                                   "31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md":  {
+                                                                                                                                "palabras_clave":  [
+                                                                                                                                                       "CCTV",
+                                                                                                                                                       "ETCS",
+                                                                                                                                                       "fibra",
+                                                                                                                                                       "estacion"
+                                                                                                                                                   ],
+                                                                                                                                "lineas":  152,
+                                                                                                                                "referencias_ATs":  [
+                                                                                                                                                        "AT1",
+                                                                                                                                                        "AT3",
+                                                                                                                                                        "AT4",
+                                                                                                                                                        "AT8",
+                                                                                                                                                        "AT9"
+                                                                                                                                                    ],
+                                                                                                                                "caracteres":  10408,
+                                                                                                                                "tamano_kb":  10.4,
+                                                                                                                                "categoria":  "sistemas_integrados"
+                                                                                                                            },
+                                                   "25.1_Matriz_Alcance_Electrico.md":  {
+                                                                                            "palabras_clave":  [
+                                                                                                                   "TETRA",
+                                                                                                                   "CTC",
+                                                                                                                   "CCTV",
+                                                                                                                   "ETCS",
+                                                                                                                   "fibra",
+                                                                                                                   "estacion"
+                                                                                                               ],
+                                                                                            "lineas":  176,
+                                                                                            "referencias_ATs":  [
+                                                                                                                    "AT1",
+                                                                                                                    "AT2",
+                                                                                                                    "AT3",
+                                                                                                                    "AT4",
+                                                                                                                    "AT5",
+                                                                                                                    "AT6",
+                                                                                                                    "AT8"
+                                                                                                                ],
+                                                                                            "caracteres":  10922,
+                                                                                            "tamano_kb":  10.9,
+                                                                                            "categoria":  "otros"
+                                                                                        },
+                                                   "25_WBS_IngenieriaConceptual_docx.md":  {
+                                                                                               "palabras_clave":  [
+                                                                                                                      "TETRA",
+                                                                                                                      "CTC",
+                                                                                                                      "CCTV",
+                                                                                                                      "ETCS",
+                                                                                                                      "fibra",
+                                                                                                                      "estacion"
+                                                                                                                  ],
+                                                                                               "lineas":  141,
+                                                                                               "referencias_ATs":  [
+                                                                                                                       "AT1",
+                                                                                                                       "AT2",
+                                                                                                                       "AT3",
+                                                                                                                       "AT4",
+                                                                                                                       "AT5",
+                                                                                                                       "AT6",
+                                                                                                                       "AT7",
+                                                                                                                       "AT8",
+                                                                                                                       "AT10"
+                                                                                                                   ],
+                                                                                               "caracteres":  10834,
+                                                                                               "tamano_kb":  10.8,
+                                                                                               "categoria":  "wbs"
+                                                                                           },
+                                                   "ITCS_Arquitectura_RBC_2oo3_v1.0.md":  {
+                                                                                              "palabras_clave":  [
+                                                                                                                     "CTC",
+                                                                                                                     "ETCS",
+                                                                                                                     "RBC",
+                                                                                                                     "baliza",
+                                                                                                                     "estacion"
+                                                                                                                 ],
+                                                                                              "lineas":  303,
+                                                                                              "referencias_ATs":  [
+
+                                                                                                                  ],
+                                                                                              "caracteres":  10224,
+                                                                                              "tamano_kb":  10.2,
+                                                                                              "categoria":  "itcs"
+                                                                                          },
+                                                   "25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md":  {
+                                                                                                    "palabras_clave":  [
+                                                                                                                           "TETRA",
+                                                                                                                           "CTC",
+                                                                                                                           "CCTV",
+                                                                                                                           "RBC",
+                                                                                                                           "ATP",
+                                                                                                                           "fibra",
+                                                                                                                           "puente",
+                                                                                                                           "estacion"
+                                                                                                                       ],
+                                                                                                    "lineas":  671,
+                                                                                                    "referencias_ATs":  [
+                                                                                                                            "AT1",
+                                                                                                                            "AT2",
+                                                                                                                            "AT3",
+                                                                                                                            "AT4",
+                                                                                                                            "AT9",
+                                                                                                                            "AT10"
+                                                                                                                        ],
+                                                                                                    "caracteres":  23821,
+                                                                                                    "tamano_kb":  23.8,
+                                                                                                    "categoria":  "wbs"
+                                                                                                },
+                                                   "03_otras_soluciones.md":  {
+                                                                                  "palabras_clave":  [
+                                                                                                         "TETRA",
+                                                                                                         "ETCS"
+                                                                                                     ],
+                                                                                  "lineas":  83,
+                                                                                  "referencias_ATs":  [
+                                                                                                          "AT3"
+                                                                                                      ],
+                                                                                  "caracteres":  10881,
+                                                                                  "tamano_kb":  11.3,
+                                                                                  "categoria":  "otros"
+                                                                              },
+                                                   "0_2_salida_a_ITSC_de_alston_op_politica.md":  {
+                                                                                                      "palabras_clave":  [
+                                                                                                                             "CTC"
+                                                                                                                         ],
+                                                                                                      "lineas":  83,
+                                                                                                      "referencias_ATs":  [
+
+                                                                                                                          ],
+                                                                                                      "caracteres":  15738,
+                                                                                                      "tamano_kb":  15.7,
+                                                                                                      "categoria":  "otros"
+                                                                                                  },
+                                                   "25.2_Plantilla_Interfaz_Electrica.md":  {
+                                                                                                "palabras_clave":  [
+                                                                                                                       "TETRA",
+                                                                                                                       "CTC",
+                                                                                                                       "CCTV",
+                                                                                                                       "fibra"
+                                                                                                                   ],
+                                                                                                "lineas":  206,
+                                                                                                "referencias_ATs":  [
+                                                                                                                        "AT1",
+                                                                                                                        "AT2",
+                                                                                                                        "AT3",
+                                                                                                                        "AT4"
+                                                                                                                    ],
+                                                                                                "caracteres":  9339,
+                                                                                                "tamano_kb":  9.3,
+                                                                                                "categoria":  "otros"
+                                                                                            },
+                                                   "24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md":  {
+                                                                                                                                                "palabras_clave":  [
+                                                                                                                                                                       "TETRA",
+                                                                                                                                                                       "CTC",
+                                                                                                                                                                       "CCTV",
+                                                                                                                                                                       "ETCS",
+                                                                                                                                                                       "fibra",
+                                                                                                                                                                       "estacion"
+                                                                                                                                                                   ],
+                                                                                                                                                "lineas":  233,
+                                                                                                                                                "referencias_ATs":  [
+                                                                                                                                                                        "AT1",
+                                                                                                                                                                        "AT2",
+                                                                                                                                                                        "AT3",
+                                                                                                                                                                        "AT4",
+                                                                                                                                                                        "AT5",
+                                                                                                                                                                        "AT7",
+                                                                                                                                                                        "AT8",
+                                                                                                                                                                        "AT9"
+                                                                                                                                                                    ],
+                                                                                                                                                "caracteres":  10174,
+                                                                                                                                                "tamano_kb":  10.1,
+                                                                                                                                                "categoria":  "trazabilidad"
+                                                                                                                                            }
+                                               },
+                                  "tamano_total_kb":  577.69999999999993,
+                                  "categorias":  {
+                                                     "otros":  [
+                                                                   "03_otras_soluciones.md",
+                                                                   "0_0_que_es_CTC.md",
+                                                                   "0_1_que_es_TETRA.md",
+                                                                   "0_2_salida_a_ITSC_de_alston_op_politica.md",
+                                                                   "0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md",
+                                                                   "22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md",
+                                                                   "25.1_Matriz_Alcance_Electrico.md",
+                                                                   "25.2_Plantilla_Interfaz_Electrica.md",
+                                                                   "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+                                                                   "26.1_Anexo_Electrico_CTC_v5.0.md",
+                                                                   "27.1_Estimacion_Cantidades_TETRA_v5.0.md",
+                                                                   "36.1_Analisis_Riesgos_y_Supuestos_PMI.md",
+                                                                   "39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md",
+                                                                   "III_Ingenieria_conceptual_a_detallar.md"
+                                                               ],
+                                                     "wbs":  [
+                                                                 "25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md",
+                                                                 "25_WBS_IngenieriaConceptual_docx.md"
+                                                             ],
+                                                     "itcs":  [
+                                                                  "ITCS_Arquitectura_RBC_2oo3_v1.0.md",
+                                                                  "ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md",
+                                                                  "ITCS_Interlocking_Tables_5_Estaciones_v1.0.md",
+                                                                  "ITCS_SRS_Indice_v1.0.md",
+                                                                  "ITCS_STM_Embarcado_v1.0.md"
+                                                              ],
+                                                     "trazabilidad":  [
+                                                                          "0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md",
+                                                                          "24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md"
+                                                                      ],
+                                                     "criterios":  [
+                                                                       "33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md",
+                                                                       "34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md"
+                                                                   ],
+                                                     "sistemas_integrados":  [
+                                                                                 "23_ListadoMaestro_Sistemas_v5.0.md",
+                                                                                 "27_Sistema_TETRA_Integrado_v5.0.md",
+                                                                                 "28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md",
+                                                                                 "29_Sistema_Senalizacion_Integrado_v5.0.md",
+                                                                                 "30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md",
+                                                                                 "31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md",
+                                                                                 "32_Material_Rodante_Integrado_v5.0.md",
+                                                                                 "35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md",
+                                                                                 "36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md"
+                                                                             ]
+                                                 }
+                              },
+    "ingenieria_basica":  {
+                              "archivos":  {
+                                               "38. DiagramasArquitectura_sist_ctc-telco.md":  {
+                                                                                                   "palabras_clave":  [
+                                                                                                                          "TETRA",
+                                                                                                                          "CTC",
+                                                                                                                          "CCTV",
+                                                                                                                          "ETCS",
+                                                                                                                          "fibra",
+                                                                                                                          "estacion"
+                                                                                                                      ],
+                                                                                                   "lineas":  704,
+                                                                                                   "referencias_ATs":  [
+                                                                                                                           "AT1",
+                                                                                                                           "AT2",
+                                                                                                                           "AT3",
+                                                                                                                           "AT4",
+                                                                                                                           "AT5",
+                                                                                                                           "AT6",
+                                                                                                                           "AT7",
+                                                                                                                           "AT8",
+                                                                                                                           "AT9",
+                                                                                                                           "AT10"
+                                                                                                                       ],
+                                                                                                   "caracteres":  35260,
+                                                                                                   "tamano_kb":  44.3,
+                                                                                                   "categoria":  "diagramas"
+                                                                                               },
+                                               "IV.2_Especificaciones_Basicas_Electrica_v5.0.md":  {
+                                                                                                       "palabras_clave":  [
+                                                                                                                              "TETRA",
+                                                                                                                              "CTC",
+                                                                                                                              "CCTV",
+                                                                                                                              "RBC",
+                                                                                                                              "ATP",
+                                                                                                                              "fibra",
+                                                                                                                              "estacion"
+                                                                                                                          ],
+                                                                                                       "lineas":  606,
+                                                                                                       "referencias_ATs":  [
+                                                                                                                               "AT1",
+                                                                                                                               "AT2",
+                                                                                                                               "AT3",
+                                                                                                                               "AT4",
+                                                                                                                               "AT5",
+                                                                                                                               "AT6",
+                                                                                                                               "AT8"
+                                                                                                                           ],
+                                                                                                       "caracteres":  25550,
+                                                                                                       "tamano_kb":  25.7,
+                                                                                                       "categoria":  "especificaciones"
+                                                                                                   },
+                                               "IV.1_Especificaciones_Basicas_Civil_v5.0.md":  {
+                                                                                                   "palabras_clave":  [
+                                                                                                                          "TETRA",
+                                                                                                                          "CTC",
+                                                                                                                          "CCTV",
+                                                                                                                          "RBC",
+                                                                                                                          "ATP",
+                                                                                                                          "fibra",
+                                                                                                                          "puente",
+                                                                                                                          "estacion"
+                                                                                                                      ],
+                                                                                                   "lineas":  584,
+                                                                                                   "referencias_ATs":  [
+                                                                                                                           "AT1",
+                                                                                                                           "AT2",
+                                                                                                                           "AT3",
+                                                                                                                           "AT4"
+                                                                                                                       ],
+                                                                                                   "caracteres":  21151,
+                                                                                                   "tamano_kb":  21.2,
+                                                                                                   "categoria":  "especificaciones"
+                                                                                               },
+                                               "41. Interfaces_Sistemas_MEJORADO.md":  {
+                                                                                           "palabras_clave":  [
+                                                                                                                  "TETRA",
+                                                                                                                  "CTC",
+                                                                                                                  "CCTV",
+                                                                                                                  "ETCS",
+                                                                                                                  "RBC",
+                                                                                                                  "fibra"
+                                                                                                              ],
+                                                                                           "lineas":  121,
+                                                                                           "referencias_ATs":  [
+                                                                                                                   "AT3"
+                                                                                                               ],
+                                                                                           "caracteres":  7870,
+                                                                                           "tamano_kb":  7.9,
+                                                                                           "categoria":  "otros"
+                                                                                       },
+                                               "42. Plan_Pruebas_MEJORADO.md":  {
+                                                                                    "palabras_clave":  [
+                                                                                                           "CTC",
+                                                                                                           "CCTV"
+                                                                                                       ],
+                                                                                    "lineas":  111,
+                                                                                    "referencias_ATs":  [
+                                                                                                            "AT1",
+                                                                                                            "AT3"
+                                                                                                        ],
+                                                                                    "caracteres":  7418,
+                                                                                    "tamano_kb":  7.4,
+                                                                                    "categoria":  "planes"
+                                                                                },
+                                               "37_Memorias_Diseño_Basico_v5.0.md":  {
+                                                                                         "palabras_clave":  [
+                                                                                                                "TETRA",
+                                                                                                                "CTC",
+                                                                                                                "CCTV",
+                                                                                                                "ETCS",
+                                                                                                                "RBC",
+                                                                                                                "ATP",
+                                                                                                                "baliza",
+                                                                                                                "fibra",
+                                                                                                                "estacion"
+                                                                                                            ],
+                                                                                         "lineas":  642,
+                                                                                         "referencias_ATs":  [
+                                                                                                                 "AT1",
+                                                                                                                 "AT2",
+                                                                                                                 "AT3",
+                                                                                                                 "AT4"
+                                                                                                             ],
+                                                                                         "caracteres":  24060,
+                                                                                         "tamano_kb":  24.1,
+                                                                                         "categoria":  "memorias"
+                                                                                     },
+                                               "39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md":  {
+                                                                                                                     "palabras_clave":  [
+                                                                                                                                            "TETRA",
+                                                                                                                                            "CTC",
+                                                                                                                                            "CCTV",
+                                                                                                                                            "fibra",
+                                                                                                                                            "puente",
+                                                                                                                                            "estacion"
+                                                                                                                                        ],
+                                                                                                                     "lineas":  669,
+                                                                                                                     "referencias_ATs":  [
+                                                                                                                                             "AT1",
+                                                                                                                                             "AT2",
+                                                                                                                                             "AT3",
+                                                                                                                                             "AT4",
+                                                                                                                                             "AT5",
+                                                                                                                                             "AT6",
+                                                                                                                                             "AT7",
+                                                                                                                                             "AT9",
+                                                                                                                                             "AT10"
+                                                                                                                                         ],
+                                                                                                                     "caracteres":  34242,
+                                                                                                                     "tamano_kb":  34.8,
+                                                                                                                     "categoria":  "planes"
+                                                                                                                 },
+                                               "IV.4_Especificaciones_Basicas_Sistemas_v5.0.md":  {
+                                                                                                      "palabras_clave":  [
+                                                                                                                             "TETRA",
+                                                                                                                             "CTC",
+                                                                                                                             "CCTV",
+                                                                                                                             "ETCS",
+                                                                                                                             "RBC",
+                                                                                                                             "ATP",
+                                                                                                                             "fibra",
+                                                                                                                             "estacion"
+                                                                                                                         ],
+                                                                                                      "lineas":  615,
+                                                                                                      "referencias_ATs":  [
+                                                                                                                              "AT1",
+                                                                                                                              "AT2",
+                                                                                                                              "AT3",
+                                                                                                                              "AT4"
+                                                                                                                          ],
+                                                                                                      "caracteres":  23433,
+                                                                                                      "tamano_kb":  23.4,
+                                                                                                      "categoria":  "especificaciones"
+                                                                                                  },
+                                               "IV_Ingenieria_Basica_RESUMEN_MEJORADO.md":  {
+                                                                                                "palabras_clave":  [
+                                                                                                                       "TETRA",
+                                                                                                                       "CTC",
+                                                                                                                       "ETCS",
+                                                                                                                       "fibra",
+                                                                                                                       "estacion"
+                                                                                                                   ],
+                                                                                                "lineas":  463,
+                                                                                                "referencias_ATs":  [
+                                                                                                                        "AT1",
+                                                                                                                        "AT2",
+                                                                                                                        "AT3",
+                                                                                                                        "AT4",
+                                                                                                                        "AT9",
+                                                                                                                        "AT10"
+                                                                                                                    ],
+                                                                                                "caracteres":  19586,
+                                                                                                "tamano_kb":  20,
+                                                                                                "categoria":  "especificaciones"
+                                                                                            },
+                                               "40. Plan_GestionPermisos_MEJORADO.md":  {
+                                                                                            "palabras_clave":  [
+                                                                                                                   "TETRA",
+                                                                                                                   "CTC",
+                                                                                                                   "fibra"
+                                                                                                               ],
+                                                                                            "lineas":  123,
+                                                                                            "referencias_ATs":  [
+                                                                                                                    "AT4",
+                                                                                                                    "AT6",
+                                                                                                                    "AT7",
+                                                                                                                    "AT9"
+                                                                                                                ],
+                                                                                            "caracteres":  8294,
+                                                                                            "tamano_kb":  8.3,
+                                                                                            "categoria":  "planes"
+                                                                                        }
+                                           },
+                              "tamano_total_kb":  217.1,
+                              "categorias":  {
+                                                 "especificaciones":  [
+                                                                          "IV.1_Especificaciones_Basicas_Civil_v5.0.md",
+                                                                          "IV.2_Especificaciones_Basicas_Electrica_v5.0.md",
+                                                                          "IV.4_Especificaciones_Basicas_Sistemas_v5.0.md",
+                                                                          "IV_Ingenieria_Basica_RESUMEN_MEJORADO.md"
+                                                                      ],
+                                                 "planes":  [
+                                                                "39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md",
+                                                                "40. Plan_GestionPermisos_MEJORADO.md",
+                                                                "42. Plan_Pruebas_MEJORADO.md"
+                                                            ],
+                                                 "memorias":  [
+                                                                  "37_Memorias_Diseño_Basico_v5.0.md"
+                                                              ],
+                                                 "diagramas":  [
+                                                                   "38. DiagramasArquitectura_sist_ctc-telco.md"
+                                                               ],
+                                                 "otros":  [
+                                                               "41. Interfaces_Sistemas_MEJORADO.md"
+                                                           ]
+                                             }
+                          },
+    "metadata":  {
+                     "descripcion":  "TODA la cocina: Conceptual + Basica + Contratos",
+                     "version":  "1.0",
+                     "fecha":  "2025-10-10",
+                     "archivos_analizados":  55,
+                     "tamano_total_kb":  3158.9000000000005,
+                     "total_archivos":  55
+                 }
+}

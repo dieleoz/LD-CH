@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT MAESTRO - APP La Dorada-Chiriguaná</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
+        
+        .container { max-width: 1800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; border-radius: 12px 12px 0 0; }
+        .header h1 { font-size: 32px; margin-bottom: 10px; }
+        .header p { font-size: 16px; opacity: 0.95; }
+        
+        .filters { padding: 20px; background: #f8f9fa; border-bottom: 2px solid #667eea; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .filter-group { display: flex; flex-direction: column; }
+        .filter-group label { font-size: 12px; font-weight: 600; color: #495057; margin-bottom: 5px; }
+        .filter-group select, .filter-group input { padding: 10px; border: 2px solid #dee2e6; border-radius: 6px; font-size: 14px; }
+        .filter-group select:focus, .filter-group input:focus { border-color: #667eea; outline: none; }
+        
+        .filter-actions { padding: 15px 20px; background: #e9ecef; display: flex; gap: 10px; flex-wrap: wrap; }
+        .btn { padding: 10px 20px; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+        .btn-primary { background: #667eea; color: white; }
+        .btn-primary:hover { background: #5568d3; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.4); }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-secondary:hover { background: #5a6268; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-success:hover { background: #218838; }
+        .btn-warning { background: #ffc107; color: #212529; }
+        .btn-warning:hover { background: #e0a800; }
+        
+        .stats { padding: 15px 20px; background: #d1ecf1; border-bottom: 2px solid #0c5460; text-align: center; }
+        .stats-content { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 28px; font-weight: 700; color: #667eea; }
+        .stat-label { font-size: 12px; color: #666; margin-top: 5px; }
+        
+        .table-container { padding: 20px; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        thead { background: #667eea; color: white; position: sticky; top: 0; z-index: 10; }
+        th { padding: 12px; text-align: left; font-size: 13px; font-weight: 600; }
+        tbody tr { border-bottom: 1px solid #dee2e6; transition: background 0.2s; }
+        tbody tr:hover { background: #f8f9fa; }
+        td { padding: 10px 12px; font-size: 13px; }
+        
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+        .badge-telecom { background: #e3f2fd; color: #1976d2; }
+        .badge-control { background: #fff3e0; color: #f57c00; }
+        .badge-its { background: #e8f5e9; color: #388e3c; }
+        .badge-energia { background: #fff8e1; color: #fbc02d; }
+        .badge-edificacion { background: #f3e5f5; color: #7b1fa2; }
+        
+        .btn-dt { background: #667eea; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+        .btn-dt:hover { background: #5568d3; }
+        
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); }
+        .modal.active { display: flex; justify-content: center; align-items: center; }
+        .modal-content { background: white; padding: 30px; border-radius: 12px; max-width: 600px; width: 90%; max-height: 90vh; overflow-y: auto; }
+        .modal-header { margin-bottom: 20px; }
+        .modal-header h2 { color: #667eea; font-size: 24px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 5px; color: #495057; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 2px solid #dee2e6; border-radius: 6px; font-size: 14px; }
+        .form-group textarea { min-height: 100px; resize: vertical; }
+        .modal-actions { display: flex; gap: 10px; margin-top: 20px; }
+        
+        .alert { padding: 15px 20px; margin: 20px; border-radius: 6px; font-size: 14px; }
+        .alert-info { background: #d1ecf1; border-left: 4px solid #0c5460; color: #0c5460; }
+        .alert-warning { background: #fff3cd; border-left: 4px solid #856404; color: #856404; }
+        .alert-success { background: #d4edda; border-left: 4px solid #155724; color: #155724; }
+        
+        .footer { background: #343a40; color: white; padding: 20px; text-align: center; font-size: 14px; border-radius: 0 0 12px 12px; }
+        
+        .empty-state { padding: 60px 20px; text-align: center; color: #6c757d; }
+        .empty-state-icon { font-size: 64px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🗺️ LAYOUT MAESTRO INTERACTIVO</h1>
+            <p>APP La Dorada-Chiriguaná | Sistema Integrado de Equipamiento e Infraestructura</p>
+        </div>
+        
+        <div class="alert alert-success">
+            ✅ <strong>DT-FIBRA-641 EJECUTADA:</strong> 1,736 cajas de empalme + 130 domos de fusión agregados al layout
+        </div>
+        
+        <!-- Filtros -->
+        <div class="filters">
+            <div class="filter-group">
+                <label>🎯 Tipo de Equipo (Categoría):</label>
+                <select id="filter-tipo" onchange="actualizarFiltrosSistema(); applyFilters();">
+                    <option value="">Todas las categorías</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>🏗️ Sistema (Busca en nombre, dispositivo, descripción):</label>
+                <select id="filter-sistema" onchange="applyFilters();">
+                    <option value="">Todos los sistemas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>📍 UFV:</label>
+                <select id="filter-ufv" onchange="applyFilters();">
+                    <option value="">Todas las UFVs</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>🔍 Buscar PK:</label>
+                <input type="text" id="filter-pk" placeholder="Ej: 201+470" oninput="applyFilters();">
+            </div>
+        </div>
+        
+        <!-- Acciones de filtro -->
+        <div class="filter-actions">
+            <button class="btn btn-primary" onclick="applyFilters();">🔍 Aplicar Filtros</button>
+            <button class="btn btn-secondary" onclick="clearFilters();">🔄 Limpiar</button>
+            <button class="btn btn-warning" onclick="abrirModalDTFiltro();">📋 Crear DT desde Filtro</button>
+            <button class="btn btn-success" onclick="exportarExcel();">📊 Exportar Excel</button>
+        </div>
+        
+        <!-- Estadísticas -->
+        <div class="stats">
+            <div class="stats-content" id="stats-content">
+                <div class="stat-item">
+                    <div class="stat-number" id="stat-total">0</div>
+                    <div class="stat-label">Total Elementos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="stat-filtered">0</div>
+                    <div class="stat-label">Filtrados</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tabla -->
+        <div class="table-container">
+            <table id="layout-table">
+                <thead>
+                    <tr>
+                        <th>UFV</th>
+                        <th>Nombre</th>
+                        <th>PK</th>
+                        <th>Descripción</th>
+                        <th>Tipo Equipo</th>
+                        <th>Dispositivo</th>
+                        <th>Ubicación</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="layout-tbody">
+                    <tr>
+                        <td colspan="8" class="empty-state">
+                            <div class="empty-state-icon">⏳</div>
+                            <div>Cargando datos del layout...</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2025 Grupo Ortiz | APP La Dorada-Chiriguaná | Sistema WBS Interactivo v4.0</p>
+            <p style="margin-top: 5px; font-size: 12px; opacity: 0.8;">Última actualización: 11 Octubre 2025 | DT-FIBRA-641 ejecutada</p>
+        </div>
+    </div>
+    
+    <!-- Modal para crear DT -->
+    <div id="modalDT" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📋 Crear Decisión Técnica</h2>
+                <p id="modal-subtitle" style="color: #6c757d; font-size: 14px; margin-top: 5px;"></p>
+            </div>
+            <form id="form-dt">
+                <div class="form-group">
+                    <label>Sistema:</label>
+                    <input type="text" id="dt-sistema" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Ítem WBS:</label>
+                    <input type="text" id="dt-item-wbs" placeholder="Ej: 2.3.103">
+                </div>
+                <div class="form-group">
+                    <label>Tipo de Cambio:</label>
+                    <select id="dt-tipo-cambio">
+                        <option value="cantidad">Ajuste de cantidad</option>
+                        <option value="especificacion">Cambio de especificación</option>
+                        <option value="ubicacion">Cambio de ubicación</option>
+                        <option value="eliminacion">Eliminación de elementos</option>
+                        <option value="recalculo">Recálculo de espaciamiento</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Observación Técnica:</label>
+                    <textarea id="dt-observacion" placeholder="Describe el cambio propuesto..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Justificación:</label>
+                    <textarea id="dt-justificacion" placeholder="Justifica técnicamente el cambio..."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-primary" onclick="generarDT();">📥 Generar DT</button>
+                    <button type="button" class="btn btn-secondary" onclick="cerrarModalDT();">❌ Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Cargar datos del layout -->
+    <script src="layout_datos.js?v=20251011_1745"></script>
+    
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentElement = null;
+        
+        // Mapeo de tipos a sistemas
+        const MAPEO_TIPO_SISTEMA = {
+            'TELECOMUNICACIONES': ['TETRA', 'Fibra', 'ODF', 'Nodo', 'Switch', 'GSM-R', 'Caja Empalme', 'Domo Fusion', 'Datacenter', 'Empalme', 'Fusión'],
+            'CONTROL': ['CTC', 'RBC', 'ENCE', 'Enclavamiento', 'Baliza'],
+            'EQUIPO ITS': ['CCTV', 'HBD', 'WILD', 'Detector', 'Cámaras'],
+            'ENERGIA': ['UPS', 'SAI', 'Generador', 'Subestación'],
+            'SEÑALIZACION': ['Señal', 'Semáforo'],
+            'EDIFICACION': ['Estación', 'Taller', 'CCO'],
+            'VIA': ['Desvío', 'Apartadero'],
+            'SEGURIDAD': ['Control Acceso', 'Detección Incendio'],
+            'INFRAESTRUCTURA': ['Puente', 'Viaducto', 'Patio']
+        };
+        
+        // Inicializar
+        window.addEventListener('DOMContentLoaded', function() {
+            if (typeof LAYOUT_DATOS !== 'undefined') {
+                allData = LAYOUT_DATOS;
+                console.log('✅ Datos cargados:', allData.length, 'elementos');
+                
+                poblarFiltros();
+                applyFilters();
+                actualizarEstadisticas();
+            } else {
+                console.error('❌ No se pudieron cargar los datos');
+                document.getElementById('layout-tbody').innerHTML = '<tr><td colspan="8" class="empty-state"><div class="empty-state-icon">❌</div><div>Error al cargar los datos del layout</div></td></tr>';
+            }
+        });
+        
+        function poblarFiltros() {
+            // Poblar Tipos
+            const tiposSet = new Set();
+            allData.forEach(item => {
+                if (item.tipo_equipo) tiposSet.add(item.tipo_equipo);
+            });
+            const tiposArray = Array.from(tiposSet).sort();
+            const tipoSelect = document.getElementById('filter-tipo');
+            tiposArray.forEach(tipo => {
+                const option = document.createElement('option');
+                option.value = tipo;
+                option.textContent = tipo;
+                tipoSelect.appendChild(option);
+            });
+            
+            // Poblar Sistemas (todos inicialmente)
+            actualizarFiltrosSistema();
+            
+            // Poblar UFVs
+            const ufvsSet = new Set();
+            allData.forEach(item => {
+                if (item.ufv) ufvsSet.add(item.ufv);
+            });
+            const ufvsArray = Array.from(ufvsSet).sort();
+            const ufvSelect = document.getElementById('filter-ufv');
+            ufvsArray.forEach(ufv => {
+                const option = document.createElement('option');
+                option.value = ufv;
+                option.textContent = ufv;
+                ufvSelect.appendChild(option);
+            });
+        }
+        
+        function actualizarFiltrosSistema() {
+            const tipoSeleccionado = document.getElementById('filter-tipo').value;
+            const sistemaSelect = document.getElementById('filter-sistema');
+            
+            // Limpiar opciones actuales
+            sistemaSelect.innerHTML = '<option value="">Todos los sistemas</option>';
+            
+            let sistemasDisponibles = [];
+            
+            if (tipoSeleccionado && MAPEO_TIPO_SISTEMA[tipoSeleccionado]) {
+                // Mostrar solo sistemas del tipo seleccionado
+                sistemasDisponibles = MAPEO_TIPO_SISTEMA[tipoSeleccionado];
+            } else {
+                // Mostrar todos los sistemas
+                const sistemasSet = new Set();
+                Object.values(MAPEO_TIPO_SISTEMA).forEach(sistemas => {
+                    sistemas.forEach(s => sistemasSet.add(s));
+                });
+                sistemasDisponibles = Array.from(sistemasSet).sort();
+            }
+            
+            sistemasDisponibles.forEach(sistema => {
+                const option = document.createElement('option');
+                option.value = sistema;
+                option.textContent = sistema;
+                sistemaSelect.appendChild(option);
+            });
+        }
+        
+        function applyFilters() {
+            const tipoFilter = document.getElementById('filter-tipo').value;
+            const sistemaFilter = document.getElementById('filter-sistema').value;
+            const ufvFilter = document.getElementById('filter-ufv').value;
+            const pkFilter = document.getElementById('filter-pk').value;
+            
+            filteredData = allData.filter(item => {
+                if (tipoFilter && item.tipo_equipo !== tipoFilter) return false;
+                
+                if (sistemaFilter) {
+                    const nombre = (item.nombre || '').toUpperCase();
+                    const dispositivo = (item.dispositivo || '').toUpperCase();
+                    const descripcion = (item.descripcion || '').toUpperCase();
+                    const sistemaUpper = sistemaFilter.toUpperCase();
+                    
+                    let match = nombre.includes(sistemaUpper) || 
+                               dispositivo.includes(sistemaUpper) || 
+                               descripcion.includes(sistemaUpper);
+                    
+                    // Lógica especial para "Fibra"
+                    if (sistemaUpper === 'FIBRA') {
+                        const componentesFibra = ['EMPALME', 'ODF', 'FUSION', 'FIBRA', 'OPTICA', 'OPTICAL'];
+                        match = match || componentesFibra.some(comp => 
+                            nombre.includes(comp) || 
+                            dispositivo.includes(comp) || 
+                            descripcion.includes(comp)
+                        );
+                    }
+                    
+                    if (!match) return false;
+                }
+                
+                if (ufvFilter && item.ufv !== ufvFilter) return false;
+                if (pkFilter && !(item.pk || '').includes(pkFilter)) return false;
+                
+                return true;
+            });
+            
+            renderTable();
+            actualizarEstadisticas();
+        }
+        
+        function clearFilters() {
+            document.getElementById('filter-tipo').value = '';
+            document.getElementById('filter-sistema').value = '';
+            document.getElementById('filter-ufv').value = '';
+            document.getElementById('filter-pk').value = '';
+            actualizarFiltrosSistema();
+            applyFilters();
+        }
+        
+        function renderTable() {
+            const tbody = document.getElementById('layout-tbody');
+            
+            if (filteredData.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="8" class="empty-state"><div class="empty-state-icon">🔍</div><div>No se encontraron resultados con los filtros aplicados</div></td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = filteredData.map((item, index) => {
+                const badgeClass = `badge badge-${(item.tipo_equipo || '').toLowerCase().replace(/\s+/g, '-')}`;
+                return `
+                    <tr>
+                        <td>${item.ufv || ''}</td>
+                        <td><strong>${item.nombre || ''}</strong></td>
+                        <td>${item.pk || ''}</td>
+                        <td>${item.descripcion || ''}</td>
+                        <td><span class="${badgeClass}">${item.tipo_equipo || ''}</span></td>
+                        <td>${item.dispositivo || ''}</td>
+                        <td>${item.ubicacion_lado || ''}</td>
+                        <td><button class="btn-dt" onclick="abrirModalDTElemento(${index})">📋 DT</button></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+        
+        function actualizarEstadisticas() {
+            document.getElementById('stat-total').textContent = allData.length;
+            document.getElementById('stat-filtered').textContent = filteredData.length;
+            
+            // Contar cajas y domos EN LOS DATOS FILTRADOS (dinámico)
+            const cajasFiltradas = filteredData.filter(item => (item.dispositivo || '').includes('Caja Empalme'));
+            const domosFiltrados = filteredData.filter(item => (item.dispositivo || '').includes('Domo Fusion'));
+            
+            // Contar en todos los datos (para referencia global)
+            const cajasTotal = allData.filter(item => (item.dispositivo || '').includes('Caja Empalme'));
+            const domosTotal = allData.filter(item => (item.dispositivo || '').includes('Domo Fusion'));
+            
+            // Verificar si hay elementos de fibra en el filtro actual
+            const hayFibraEnFiltro = cajasFiltradas.length > 0 || domosFiltrados.length > 0;
+            
+            // Actualizar o crear/ocultar estadísticas
+            let containerCajas = document.getElementById('stat-cajas-container');
+            let containerDomos = document.getElementById('stat-domos-container');
+            
+            if (!containerCajas) {
+                // Crear estadísticas por primera vez (solo si hay fibra)
+                const statsContent = document.getElementById('stats-content');
+                const cajasHtml = `
+                    <div class="stat-item" id="stat-cajas-container" style="display: ${hayFibraEnFiltro ? 'block' : 'none'};">
+                        <div class="stat-number" id="stat-cajas">${cajasFiltradas.length}</div>
+                        <div class="stat-label">Cajas Filtradas</div>
+                        <div class="stat-label" id="stat-cajas-total" style="font-size: 10px; color: #999; margin-top: 2px;">(Total: ${cajasTotal.length})</div>
+                    </div>
+                    <div class="stat-item" id="stat-domos-container" style="display: ${hayFibraEnFiltro ? 'block' : 'none'};">
+                        <div class="stat-number" id="stat-domos">${domosFiltrados.length}</div>
+                        <div class="stat-label">Domos Filtrados</div>
+                        <div class="stat-label" id="stat-domos-total" style="font-size: 10px; color: #999; margin-top: 2px;">(Total: ${domosTotal.length})</div>
+                    </div>
+                `;
+                statsContent.innerHTML += cajasHtml;
+            } else {
+                // Mostrar/ocultar según si hay fibra en el filtro
+                containerCajas.style.display = hayFibraEnFiltro ? 'block' : 'none';
+                containerDomos.style.display = hayFibraEnFiltro ? 'block' : 'none';
+                
+                // Actualizar los números dinámicamente
+                document.getElementById('stat-cajas').textContent = cajasFiltradas.length;
+                document.getElementById('stat-domos').textContent = domosFiltrados.length;
+                document.getElementById('stat-cajas-total').textContent = `(Total: ${cajasTotal.length})`;
+                document.getElementById('stat-domos-total').textContent = `(Total: ${domosTotal.length})`;
+            }
+        }
+        
+        function abrirModalDTElemento(index) {
+            currentElement = filteredData[index];
+            document.getElementById('modal-subtitle').textContent = `Elemento: ${currentElement.nombre} (PK ${currentElement.pk})`;
+            document.getElementById('dt-sistema').value = currentElement.tipo_equipo || '';
+            document.getElementById('modalDT').classList.add('active');
+        }
+        
+        function abrirModalDTFiltro() {
+            if (filteredData.length === 0) {
+                alert('No hay elementos filtrados. Aplica primero los filtros para seleccionar elementos.');
+                return;
+            }
+            
+            currentElement = null;
+            const sistemaPrincipal = filteredData[0].tipo_equipo || 'VARIOS';
+            document.getElementById('modal-subtitle').textContent = `Crear DT para ${filteredData.length} elementos filtrados`;
+            document.getElementById('dt-sistema').value = sistemaPrincipal;
+            document.getElementById('modalDT').classList.add('active');
+        }
+        
+        function cerrarModalDT() {
+            document.getElementById('modalDT').classList.remove('active');
+            document.getElementById('form-dt').reset();
+            currentElement = null;
+        }
+        
+        function generarDT() {
+            const sistema = document.getElementById('dt-sistema').value;
+            const itemWbs = document.getElementById('dt-item-wbs').value;
+            const tipoCambio = document.getElementById('dt-tipo-cambio').value;
+            const observacion = document.getElementById('dt-observacion').value;
+            const justificacion = document.getElementById('dt-justificacion').value;
+            
+            if (!itemWbs || !observacion || !justificacion) {
+                alert('Por favor completa todos los campos obligatorios');
+                return;
+            }
+            
+            const fecha = new Date().toISOString().split('T')[0];
+            const dtId = `DT-${sistema.replace(/\s+/g, '-').toUpperCase()}-${Math.floor(Math.random() * 1000)}-${fecha}`;
+            
+            const dtContent = generarContenidoDT(dtId, sistema, itemWbs, tipoCambio, observacion, justificacion);
+            
+            // Descargar DT
+            const blob = new Blob([dtContent], { type: 'text/markdown' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${dtId}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            alert(`✅ DT generada: ${dtId}\n\nGuarda el archivo en: II. Apendices Tecnicos/Decisiones_Tecnicas/`);
+            cerrarModalDT();
+        }
+        
+        function generarContenidoDT(dtId, sistema, itemWbs, tipoCambio, observacion, justificacion) {
+            const fecha = new Date().toISOString().split('T')[0];
+            const cantidadElementos = currentElement ? 1 : filteredData.length;
+            
+            return `# DECISIÓN TÉCNICA: ${dtId}
+
+**Sistema:** ${sistema}  
+**Ítem WBS:** ${itemWbs}  
+**Tipo de cambio:** ${tipoCambio}  
+**Fecha:** ${fecha}  
+**Generado desde:** Layout Maestro Interactivo  
+
+---
+
+## 1. DESCRIPCIÓN
+
+${currentElement ? `**Elemento:** ${currentElement.nombre}  
+**PK:** ${currentElement.pk}  
+**UFV:** ${currentElement.ufv}` : `**Elementos afectados:** ${cantidadElementos}`}
+
+---
+
+## 2. OBSERVACIÓN TÉCNICA
+
+${observacion}
+
+---
+
+## 3. JUSTIFICACIÓN
+
+${justificacion}
+
+---
+
+## 4. TIPO DE CAMBIO
+
+**Categoría:** ${tipoCambio}
+
+---
+
+## 5. IMPACTO
+
+### Impacto en Layout:
+- **Elementos afectados:** ${cantidadElementos}
+
+### Impacto en WBS:
+- **Ítem WBS:** ${itemWbs}
+
+---
+
+## 6. INSTRUCCIONES PARA CURSOR ⚙️
+
+\`\`\`yaml
+dt_metadata:
+  dt_id: "${dtId}"
+  item_wbs: "${itemWbs}"
+  tipo_cambio: "${tipoCambio}"
+  fecha: "${fecha}"
+  sistema: "${sistema}"
+  impacto_layout: true
+  elementos_afectados: ${cantidadElementos}
+
+archivos_actualizar:
+  - file: "layout.md"
+    accion: "actualizar"
+    
+  - file: "IX. WBS y Planificacion/layout_datos.js"
+    accion: "regenerar"
+    script: "scripts/convertir_layout_a_js.ps1"
+    
+  - file: "IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md"
+    seccion: "Item ${itemWbs}"
+    cambios:
+      - campo: "cantidad"
+        recalcular: true
+
+validaciones:
+  - verificar_archivos_existen: true
+  - confirmar_con_usuario: true
+\`\`\`
+
+---
+
+## 7. ESTADO
+
+- [ ] 🔧 Pendiente de ejecución
+
+---
+
+**Generado desde Layout Maestro Interactivo**  
+**Fecha:** ${fecha}
+`;
+        }
+        
+        function exportarExcel() {
+            alert('Exportación a Excel: Funcionalidad próximamente');
+        }
+    </script>
+</body>
+</html>

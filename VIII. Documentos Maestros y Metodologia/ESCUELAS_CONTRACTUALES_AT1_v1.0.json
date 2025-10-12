@@ -1,0 +1,215 @@
+{
+    "fuente_contractual": {
+        "documento": "APENDICE TECNICO 1 - Alcance del Proyecto",
+        "seccion": "Capitulo IV.4 - Instituciones Educativas Objeto de Reversion Especial",
+        "paginas": "56-59",
+        "fecha_extraccion": "2025-10-11",
+        "metodologia": "Punto 42 - Verificacion Contractual"
+    },
+    "resumen_ejecutivo": {
+        "total_escuelas": 2,
+        "tipo": "Obras de Reversion Especial",
+        "alcance": "NO infraestructura operativa ferroviaria",
+        "proposito": "Reversion al Estado (MEN + ANI)",
+        "estado_wbs": "Deben integrarse como Infraestructura Social - UFVF asociada"
+    },
+    "escuelas": [
+        {
+            "numero": 1,
+            "nombre": "Institucion Educativa Santo Domingo",
+            "municipio": "Puerto Wilches",
+            "departamento": "Santander",
+            "localizacion": "Zona de influencia del Corredor Ferreo",
+            "ufvf_asociada": "Pendiente de identificar en AT1 shapefile",
+            "pk_aproximado": "Pendiente levantamiento topografico",
+            "tipo_obra": "Rehabilitacion y adecuacion integral para reversion",
+            "requisitos_contractuales": {
+                "estructural": "NSR-10 (Titulos A, E y G)",
+                "electrico": "RETIE y RETILAP",
+                "educativo": "Normas MEN - Manual de Infraestructura Educativa 2018",
+                "accesibilidad": "Ley 1618 de 2013",
+                "urbanistico": "Decreto 1077 de 2015"
+            },
+            "areas_minimas_requeridas": {
+                "salones": "Segun Tabla 22 AT1",
+                "servicios": "Segun Tabla 22 AT1",
+                "zona_administrativa": "Segun Tabla 22 AT1",
+                "patio": "Segun Tabla 22 AT1"
+            },
+            "entregables_reversion": [
+                "Planos as-built",
+                "Acta de Terminacion de Institucion Educativa",
+                "Acta de Reversion Especial al MEN",
+                "Inspeccion de calidad con Interventoria ANI"
+            ]
+        },
+        {
+            "numero": 2,
+            "nombre": "Escuela San Jose Primavera",
+            "municipio": "La Dorada",
+            "departamento": "Caldas",
+            "localizacion": "Area de influencia de la UFVF 1",
+            "ufvf_asociada": "UFVF 1",
+            "pk_aproximado": "Zona La Dorada (PK 201+000 - 220+000 aproximado)",
+            "tipo_obra": "Rehabilitacion arquitectonica, estructural y electrica para reversion",
+            "requisitos_contractuales": {
+                "estructural": "NSR-10 Capitulo A.2 (edificaciones indispensables)",
+                "electrico": "RETIE Articulo 28",
+                "accesibilidad": "Ley 1618 de 2013",
+                "educativo": "Normas MEN - Manual de Infraestructura Educativa 2018",
+                "urbanistico": "Decreto 1077 de 2015"
+            },
+            "areas_minimas_requeridas": {
+                "salones": "Segun Tabla 23 AT1",
+                "servicios": "Segun Tabla 23 AT1",
+                "zona_administrativa": "Segun Tabla 23 AT1",
+                "patio": "Segun Tabla 23 AT1"
+            },
+            "entregables_reversion": [
+                "Planos as-built",
+                "Acta de Terminacion de Institucion Educativa",
+                "Acta de Reversion Especial al MEN",
+                "Inspeccion de calidad con Interventoria ANI"
+            ]
+        }
+    ],
+    "proceso_epc_metodologia_punto42": {
+        "fase": "Conceptual a Basica",
+        "pasos": [
+            {
+                "paso": 1,
+                "nombre": "Verificacion Predial",
+                "base_contractual": "AT7 - Gestion Predial",
+                "actividades": [
+                    "Confirmar localizacion dentro de Franja Operacional y Area Disponible (AT1-1 shapefile)",
+                    "Levantar coordenadas UTM WGS 84",
+                    "Identificar predio y propietario",
+                    "Generar Ficha Predial tipo Educativa para cada escuela"
+                ],
+                "responsable": "Gestion Predial + Topografia",
+                "entregable": "Ficha Predial y Ubicacion GIS"
+            },
+            {
+                "paso": 2,
+                "nombre": "Levantamiento Tecnico",
+                "base_contractual": "AT3 - Especificaciones Generales",
+                "actividades": [
+                    "Inspeccion arquitectonica y estructural segun NSR-10 Titulo A y G",
+                    "Identificar riesgos por cargas, accesibilidad e instalaciones",
+                    "Levantar redes electricas y sanitarias para RETIE y RETILAP",
+                    "Definir intervencion minima (adecuacion, refuerzo o reconstruccion parcial)"
+                ],
+                "responsable": "Ingenieria Civil + Electrica",
+                "entregable": "Levantamiento tecnico y diagnostico estructural"
+            },
+            {
+                "paso": 3,
+                "nombre": "Diseño BIM y Documentacion",
+                "base_contractual": "AT1 Anexo BIM + AT3 Cap. VII",
+                "actividades": [
+                    "Modelar escuelas en BIM nivel LOD 300",
+                    "Disciplinas: arquitectura, estructura, electrico, hidrosanitario, accesibilidad",
+                    "Incorporar normas MEN 2018 de infraestructura educativa"
+                ],
+                "responsable": "Diseño BIM + Especialistas",
+                "entregable": "Modelo BIM LOD 300 + Planos constructivos"
+            },
+            {
+                "paso": 4,
+                "nombre": "Gestion Ambiental y Social",
+                "base_contractual": "AT6 Gestion Ambiental + AT8 Gestion Social",
+                "actividades": [
+                    "Verificar licencia ambiental si hay intervenciones en areas sensibles",
+                    "Ejecutar plan de comunicacion con comunidad educativa (AT8 Cap. VII)"
+                ],
+                "responsable": "Gestion Ambiental + Social",
+                "entregable": "Plan de comunicacion y permisos ambientales"
+            },
+            {
+                "paso": 5,
+                "nombre": "Ejecucion y Reversion",
+                "base_contractual": "AT9 Plan de Obras",
+                "actividades": [
+                    "Construccion o adecuacion bajo supervision de Interventoria ANI",
+                    "Elaborar Acta de Terminacion de Institucion Educativa",
+                    "Elaborar Acta de Reversion Especial al MEN",
+                    "Inspeccion de calidad y entrega de as-built"
+                ],
+                "responsable": "Construccion + Interventoria",
+                "entregable": "Obras terminadas + Actas de Reversion"
+            }
+        ]
+    },
+    "normativa_aplicable": {
+        "estructural": {
+            "norma": "NSR-10",
+            "titulos": ["A - Requisitos generales", "E - Estructuras", "G - Estructuras no estructurales"],
+            "observacion": "Santo Domingo: todos los titulos; San Jose Primavera: especialmente Cap. A.2 (edificaciones indispensables)"
+        },
+        "electrico": {
+            "retie": "Instalaciones electricas seguras",
+            "retilap": "Luminarias interiores eficientes",
+            "observacion": "San Jose Primavera: RETIE Art. 28 especificamente"
+        },
+        "educativo": {
+            "norma": "MEN 2018 - Guia de Infraestructura Educativa",
+            "requisitos": "Areas minimas y ambientes de aprendizaje"
+        },
+        "accesibilidad": {
+            "norma": "Ley 1618 de 2013",
+            "requisito": "Accesibilidad para personas con discapacidad"
+        },
+        "urbanistico": {
+            "norma": "Decreto 1077 de 2015",
+            "requisito": "Licencias urbanisticas para renovacion de edificaciones publicas"
+        }
+    },
+    "trazabilidad_contractual": {
+        "AT1": "Cap. IV.4 - Alcance del proyecto (Tablas 22 y 23)",
+        "AT3": "Cap. VII - Especificaciones tecnicas",
+        "AT4": "Indicadores - Plan de pruebas y acta de reversion",
+        "AT6": "Gestion Ambiental - Licencias si aplica",
+        "AT7": "Gestion Predial - Ficha predial",
+        "AT8": "Gestion Social - Plan de comunicacion comunidad educativa",
+        "AT9": "Plan de Obras - Cronograma UFVF asociada"
+    },
+    "integracion_wbs": {
+        "capitulo_propuesto": "Infraestructura Social",
+        "subcapitulo": "Instituciones Educativas - Reversion Especial",
+        "items_wbs": [
+            {
+                "codigo": "X.1.1",
+                "descripcion": "IE Santo Domingo - Puerto Wilches",
+                "tipo": "OBRA",
+                "ufvf_asociada": "Pendiente",
+                "alcance": "Rehabilitacion integral + Reversion"
+            },
+            {
+                "codigo": "X.1.2",
+                "descripcion": "Escuela San Jose Primavera - La Dorada",
+                "tipo": "OBRA",
+                "ufvf_asociada": "UFVF 1",
+                "alcance": "Rehabilitacion arquitectonica, estructural, electrica + Reversion"
+            }
+        ],
+        "observacion": "Deben integrarse en capitulo existente o crear nuevo capitulo X - Infraestructura Social"
+    },
+    "conclusiones_epc": [
+        "Contrato contempla SOLO 2 escuelas (Santo Domingo y San Jose Primavera)",
+        "Son obras de REVERSION ESPECIAL, NO infraestructura operativa ferroviaria",
+        "Deben verificarse predialmente dentro de Franja Operacional (AT1-1 shapefile)",
+        "Diagnostico tecnico segun NSR-10/MEN es obligatorio antes de diseño",
+        "Diseño BIM LOD 300 requerido (AT1 Anexo BIM)",
+        "Entregas al Estado (MEN + ANI) con actas de reversion y as-built",
+        "Integracion en WBS como Infraestructura Social - UFVF asociada",
+        "Requiere coordinacion con Gestion Predial, Ambiental y Social"
+    ],
+    "siguiente_paso_metodologia_punto42": {
+        "accion": "Verificacion predial y levantamiento GIS",
+        "responsable": "Gestion Predial + Topografia",
+        "plazo": "30 dias desde inicio de Preconstruccion",
+        "entregable": "Ficha Predial con coordenadas UTM WGS 84 para ambas escuelas",
+        "dependencia": "AT1-1 shapefile de Franja Operacional"
+    }
+}
+

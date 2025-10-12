@@ -1,0 +1,206 @@
+﻿{
+    "AT7_predial":  {
+                        "tipo":  "Gestion Predial",
+                        "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 7.md",
+                        "contenido":  {
+                                          "limites":  [
+
+                                                      ],
+                                          "predios":  [
+
+                                                      ],
+                                          "franjas":  [
+
+                                                      ],
+                                          "areas":  [
+
+                                                    ]
+                                      }
+                    },
+    "AT2_control":  {
+                        "tipo":  "Control y Senalizacion",
+                        "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 2.md",
+                        "contenido":  {
+                                          "ctc":  [
+
+                                                  ],
+                                          "senalizacion":  [
+
+                                                           ],
+                                          "etcs":  [
+
+                                                   ],
+                                          "interlocking":  [
+
+                                                           ]
+                                      }
+                    },
+    "AT6_material_rodante":  {
+                                 "tipo":  "Material Rodante",
+                                 "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 6.md",
+                                 "contenido":  {
+                                                   "vagones":  [
+
+                                                               ],
+                                                   "locomotoras":  [
+
+                                                                   ],
+                                                   "vehiculos":  [
+
+                                                                 ],
+                                                   "coches":  [
+
+                                                              ]
+                                               }
+                             },
+    "AT3_especificaciones":  {
+                                 "tipo":  "Especificaciones Generales",
+                                 "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 3.md",
+                                 "contenido":  {
+                                                   "criterios":  [
+
+                                                                 ],
+                                                   "tipologias":  [
+
+                                                                  ],
+                                                   "metodos":  [
+
+                                                               ],
+                                                   "normas":  [
+
+                                                              ]
+                                               }
+                             },
+    "AT9_cronograma":  {
+                           "tipo":  "Cronograma y Plan de Obras",
+                           "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 9.md",
+                           "contenido":  {
+                                             "dependencias":  [
+
+                                                              ],
+                                             "hitos":  [
+
+                                                       ],
+                                             "recursos":  [
+
+                                                          ],
+                                             "fases":  [
+
+                                                       ]
+                                         }
+                       },
+    "AT10_operacion":  {
+                           "tipo":  "Operacion y Mantenimiento",
+                           "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 10.md",
+                           "contenido":  {
+                                             "procedimientos":  [
+
+                                                                ],
+                                             "reversion":  [
+
+                                                           ],
+                                             "mantenimiento":  [
+
+                                                               ],
+                                             "operacion":  [
+
+                                                           ]
+                                         }
+                       },
+    "AT4_telecomunicaciones":  {
+                                   "tipo":  "Telecomunicaciones",
+                                   "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 4.md",
+                                   "contenido":  {
+                                                     "redes":  [
+
+                                                               ],
+                                                     "radio":  [
+
+                                                               ],
+                                                     "tetra":  [
+
+                                                               ],
+                                                     "fibra_optica":  [
+
+                                                                      ]
+                                                 }
+                               },
+    "AT1_infraestructura":  {
+                                "tipo":  "Infraestructura Ferrea",
+                                "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 1.md",
+                                "contenido":  {
+                                                  "pasos_nivel":  [
+
+                                                                  ],
+                                                  "uf":  [
+
+                                                         ],
+                                                  "apartaderos":  [
+
+                                                                  ],
+                                                  "ufvf":  [
+
+                                                           ],
+                                                  "puentes":  [
+
+                                                              ],
+                                                  "escuelas":  [
+
+                                                               ],
+                                                  "estaciones":  [
+
+                                                                 ]
+                                              }
+                            },
+    "AT5_ITS":  {
+                    "tipo":  "ITS y Seguridad",
+                    "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 5.md",
+                    "contenido":  {
+                                      "cctv":  [
+
+                                               ],
+                                      "monitoreo":  [
+
+                                                    ],
+                                      "seguridad":  [
+
+                                                    ],
+                                      "hbd":  [
+
+                                              ]
+                                  }
+                },
+    "AT8_obras_civiles":  {
+                              "tipo":  "Obras Civiles",
+                              "archivo":  "01. contrato en .md/FORMATEADO_APENDICE TECNICO 8.md",
+                              "contenido":  {
+                                                "alcantarillas":  [
+
+                                                                  ],
+                                                "drenajes":  [
+
+                                                             ],
+                                                "estructuras":  [
+
+                                                                ],
+                                                "box_culverts":  [
+
+                                                                 ]
+                                            }
+                          },
+    "contrato_general":  {
+                             "tipo":  "Marco Legal",
+                             "archivo":  "01. contrato en .md/FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md",
+                             "contenido":  {
+                                               "definiciones":  [
+
+                                                                ],
+                                               "alcance":  [
+
+                                                           ],
+                                               "obligaciones":  [
+
+                                                                ]
+                                           }
+                         }
+}

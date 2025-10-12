@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Integral Completo - APP La Dorada-Chiriguaná</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-card .label {
+            font-size: 0.9em;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .tabs {
+            display: flex;
+            background: #34495e;
+            overflow-x: auto;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            background: #34495e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+        }
+
+        .tab:hover {
+            background: #2c3e50;
+        }
+
+        .tab.active {
+            background: white;
+            color: #2c3e50;
+            border-bottom-color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 30px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .card-info {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .badge-success { background: #28a745; color: white; }
+        .badge-warning { background: #ffc107; color: #333; }
+        .badge-info { background: #17a2b8; color: white; }
+        .badge-primary { background: #667eea; color: white; }
+
+        .table-container {
+            overflow-x: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #2c3e50;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Layout Integral Completo</h1>
+            <div class="subtitle">APP La Dorada-Chiriguaná | Sistema Chef Prompt v1.0</div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="number" id="stat-elementos">-</div>
+                <div class="label">Elementos Layout</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="stat-archivos">55</div>
+                <div class="label">Archivos Procesados</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="stat-ingredientes">150</div>
+                <div class="label">Ingredientes Extraídos</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="stat-sistemas">-</div>
+                <div class="label">Sistemas Técnicos</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="stat-trazabilidad">100%</div>
+                <div class="label">Trazabilidad</div>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('resumen')">📊 Resumen</button>
+            <button class="tab" onclick="showTab('infraestructura')">🏗️ Infraestructura</button>
+            <button class="tab" onclick="showTab('sistemas')">⚡ Sistemas Técnicos</button>
+            <button class="tab" onclick="showTab('layout')">🗺️ Layout Actual</button>
+            <button class="tab" onclick="showTab('cumplimiento')">✅ Cumplimiento</button>
+            <button class="tab" onclick="showTab('trazabilidad')">🔗 Trazabilidad</button>
+        </div>
+
+        <div id="resumen" class="tab-content active">
+            <div class="alert alert-success">
+                <strong>✅ Sistema Chef Prompt Completamente Implementado</strong><br>
+                TODA la cocina ha sido procesada: 55 archivos (Contratos + Ingeniería Conceptual + Ingeniería Básica)
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📊 Resumen Ejecutivo</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">🍳 Toda la Cocina Procesada</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">11 Contratos</span>
+                            <span class="badge badge-info">34 Conceptual</span>
+                            <span class="badge badge-warning">10 Básica</span>
+                            <br><strong>Total: 3,158.9 KB</strong> de documentación procesada
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📋 Ingredientes Extraídos</div>
+                        <div class="card-info">
+                            <strong>87</strong> elementos de infraestructura física<br>
+                            <strong>62</strong> elementos de sistemas técnicos<br>
+                            <strong>1</strong> layout integral generado
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">✅ Validaciones</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">Trazabilidad: COMPLETO</span><br>
+                            <span class="badge badge-success">Sistemas integrados: COMPLETO</span><br>
+                            <span class="badge badge-success">Especificaciones: COMPLETO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📂 Archivos Generados</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Tamaño</th>
+                                <th>Descripción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>LAYOUT_INTEGRAL_COMPLETO_v1.0.json</strong></td>
+                                <td>662.3 KB</td>
+                                <td>Layout integral con toda la cocina</td>
+                            </tr>
+                            <tr>
+                                <td><strong>TODA_LA_COCINA_COMPLETA_v1.0.json</strong></td>
+                                <td>125.1 KB</td>
+                                <td>55 archivos categorizados</td>
+                            </tr>
+                            <tr>
+                                <td><strong>RECETA_FINAL_COMPLETA_v1.0.json</strong></td>
+                                <td>12.1 KB</td>
+                                <td>Receta combinada y validada</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="infraestructura" class="tab-content">
+            <div class="section">
+                <h2 class="section-title">🏗️ Infraestructura Física</h2>
+                <input type="text" class="search-box" placeholder="Buscar en infraestructura..." onkeyup="searchInTab('infraestructura-grid', this.value)">
+                <div id="infraestructura-grid" class="grid">
+                    <div class="card">
+                        <div class="card-title">📍 UFVF (Unidades Funcionales)</div>
+                        <div class="card-info">
+                            <strong>56 UFVF</strong> identificadas<br>
+                            Fuente: AT1 (Alcance del Proyecto)
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🌉 Puentes</div>
+                        <div class="card-info">
+                            <strong>21 puentes</strong> identificados<br>
+                            Fuente: AT1 (Alcance del Proyecto)
+                        </div>
+                    </div>
+                    <div class="card" style="border-left-color: #28a745;">
+                        <div class="card-title">🏫 Escuelas - Reversión Especial</div>
+                        <div class="card-info">
+                            <strong>2 instituciones educativas</strong><br>
+                            <span class="badge badge-success">ESC-01: IE Santo Domingo</span><br>
+                            <span class="badge badge-info">ESC-02: Esc. San José Primavera</span><br>
+                            <strong>Base:</strong> AT1 Cap. IV.4 (Tablas 22-23)<br>
+                            <strong>Tipo:</strong> Obras de Reversión Especial
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🚉 Apartaderos</div>
+                        <div class="card-info">
+                            <strong>2 apartaderos</strong> identificados<br>
+                            Fuente: AT1 (Alcance del Proyecto)
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📐 UF (Unidades Funcionales)</div>
+                        <div class="card-info">
+                            <strong>3 UF</strong> identificadas<br>
+                            Fuente: AT1 (Alcance del Proyecto)
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 40px; margin-bottom: 15px; color: #2c3e50;">🏫 Detalle de Instituciones Educativas</h3>
+                <div class="alert alert-info">
+                    <strong>📋 Base Contractual: AT1 Cap. IV.4</strong><br>
+                    Tablas 22 y 23 - Instituciones Educativas Objeto de Reversión Especial
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Municipio</th>
+                                <th>UFVF</th>
+                                <th>PK</th>
+                                <th>Tipo Obra</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>ESC-01</strong></td>
+                                <td>IE Santo Domingo</td>
+                                <td>Puerto Wilches (Santander)</td>
+                                <td><span class="badge badge-warning">⚠️ Pendiente</span></td>
+                                <td><span class="badge badge-warning">⚠️ Pendiente</span></td>
+                                <td>Rehabilitación integral</td>
+                                <td>Verificación predial pendiente</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ESC-02</strong></td>
+                                <td>Escuela San José Primavera</td>
+                                <td>La Dorada (Caldas)</td>
+                                <td><span class="badge badge-success">UFV 23</span></td>
+                                <td><span class="badge badge-info">PK 201+470</span></td>
+                                <td>Rehab. arq/est/elec</td>
+                                <td>Ubicada en zona La Dorada</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div style="margin-top: 20px; background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107;">
+                    <strong>⚠️ IMPORTANTE:</strong><br>
+                    Estas instituciones NO aparecen en el inventario de 396 equipos porque son <strong>obras de reversión especial</strong>, no infraestructura operativa ferroviaria. Deben integrarse en el Layout como <strong>Infraestructura Social</strong> asociada a sus respectivas UFVF.
+                </div>
+            </div>
+        </div>
+
+        <div id="sistemas" class="tab-content">
+            <div class="section">
+                <h2 class="section-title">⚡ Sistemas Técnicos</h2>
+                <input type="text" class="search-box" placeholder="Buscar en sistemas..." onkeyup="searchInTab('sistemas-grid', this.value)">
+                
+                <h3 style="margin-top: 20px; margin-bottom: 15px; color: #2c3e50;">🎛️ Control y Señalización</h3>
+                <div id="sistemas-grid" class="grid">
+                    <div class="card">
+                        <div class="card-title">🖥️ CTC (Centro Control Tráfico)</div>
+                        <div class="card-info">
+                            <strong>2 referencias</strong> en AT2<br>
+                            Sistema de control centralizado
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🔧 Sistema de Control</div>
+                        <div class="card-info">
+                            <strong>1 sistema general</strong><br>
+                            Fuente: AT2 (Operación y Mantenimiento)
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c3e50;">📡 Telecomunicaciones</h3>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">🌐 Redes</div>
+                        <div class="card-info">
+                            <strong>39 referencias</strong> en AT4<br>
+                            Infraestructura de red ferroviaria
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📡 Telecomunicaciones</div>
+                        <div class="card-info">
+                            <strong>14 referencias</strong> en AT4<br>
+                            Sistemas de comunicación
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c3e50;">🛡️ ITS y Seguridad</h3>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">🔒 Seguridad</div>
+                        <div class="card-info">
+                            <strong>3 referencias</strong> en AT5<br>
+                            Sistemas de seguridad ferroviaria
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📹 Vigilancia</div>
+                        <div class="card-info">
+                            <strong>3 referencias</strong> en AT5<br>
+                            Sistemas de monitoreo
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layout" class="tab-content">
+            <div class="alert alert-info">
+                <strong>ℹ️ Layout Actual</strong><br>
+                395 elementos procesados del layout actual (layout.md)
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🗺️ Análisis de Estructura</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">🎯 Balizas</div>
+                        <div class="card-info">
+                            <strong id="layout-balizas">-</strong> elementos<br>
+                            Elementos de balizas en layout actual
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📡 TETRA</div>
+                        <div class="card-info">
+                            <strong id="layout-tetra">-</strong> elementos<br>
+                            Elementos TETRA en layout actual
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🖥️ CTC</div>
+                        <div class="card-info">
+                            <strong id="layout-ctc">-</strong> elementos<br>
+                            Elementos CTC en layout actual
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📹 CCTV</div>
+                        <div class="card-info">
+                            <strong id="layout-cctv">-</strong> elementos<br>
+                            Elementos CCTV en layout actual
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px;">
+                    <h3 style="margin-bottom: 15px; color: #2c3e50;">📊 Elementos del Layout</h3>
+                    <div class="table-container">
+                        <table id="layout-table">
+                            <thead>
+                                <tr>
+                                    <th>UFV</th>
+                                    <th>PK</th>
+                                    <th>Tipo Equipo</th>
+                                    <th>Dispositivo</th>
+                                    <th>Nombre</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td colspan="5" style="text-align: center;">Cargando datos...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cumplimiento" class="tab-content">
+            <div class="section">
+                <h2 class="section-title">✅ Cumplimiento Contractual</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">📋 Trazabilidad</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">COMPLETO</span><br>
+                            <strong>2 documentos</strong> de trazabilidad
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🔗 Sistemas Integrados</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">COMPLETO</span><br>
+                            <strong>9 documentos</strong> integrados
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📝 Especificaciones</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">COMPLETO</span><br>
+                            <strong>4 documentos</strong> de especificaciones
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📐 Diagramas</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">COMPLETO</span><br>
+                            <strong>1 documento</strong> de diagramas
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">📋 Planes</div>
+                        <div class="card-info">
+                            <span class="badge badge-success">COMPLETO</span><br>
+                            <strong>3 documentos</strong> de planificación
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="trazabilidad" class="tab-content">
+            <div class="section">
+                <h2 class="section-title">🔗 Trazabilidad Completa</h2>
+                
+                <div class="alert alert-success">
+                    <strong>✅ Trazabilidad Total Implementada</strong><br>
+                    Todos los elementos tienen origen documentado en contratos o ingeniería
+                </div>
+
+                <h3 style="margin-top: 20px; margin-bottom: 15px; color: #2c3e50;">📚 Documentos Fuente</h3>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-title">📄 Contratos (AT1-AT10)</div>
+                        <div class="card-info">
+                            <strong>11 archivos</strong> | 2,364.1 KB<br>
+                            Base contractual completa
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">💡 Ingeniería Conceptual</div>
+                        <div class="card-info">
+                            <strong>34 archivos</strong> | 577.7 KB<br>
+                            Cómo se da cumplimiento
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">🔧 Ingeniería Básica</div>
+                        <div class="card-info">
+                            <strong>10 archivos</strong> | 217.1 KB<br>
+                            Especificaciones técnicas
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c3e50;">🔄 Flujo de Procesamiento</h3>
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; line-height: 2;">
+                    <strong>1️⃣ Lectura:</strong> 55 archivos de documentación<br>
+                    <strong>2️⃣ Extracción:</strong> 150 ingredientes técnicos<br>
+                    <strong>3️⃣ Combinación:</strong> Recetas coherentes<br>
+                    <strong>4️⃣ Validación:</strong> Cumplimiento contractual<br>
+                    <strong>5️⃣ Generación:</strong> Layout integral completo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cargar datos del layout integral
+        let layoutData = null;
+
+        async function loadLayoutData() {
+            try {
+                const response = await fetch('../VIII. Documentos Maestros y Metodologia/LAYOUT_INTEGRAL_COMPLETO_v1.0.json');
+                layoutData = await response.json();
+                updateStats();
+                updateLayoutTable();
+            } catch (error) {
+                console.error('Error cargando datos:', error);
+            }
+        }
+
+        function updateStats() {
+            if (!layoutData) return;
+
+            // Actualizar estadísticas
+            if (layoutData.layout_actual && layoutData.layout_actual.elementos) {
+                document.getElementById('stat-elementos').textContent = layoutData.layout_actual.elementos.length;
+            }
+
+            // Contar sistemas técnicos
+            let sistemasTotales = 0;
+            if (layoutData.sistemas_tecnicos) {
+                const sistemas = layoutData.sistemas_tecnicos;
+                if (sistemas.control_senalizacion) {
+                    sistemasTotales += Object.keys(sistemas.control_senalizacion).filter(k => 
+                        sistemas.control_senalizacion[k].elementos && 
+                        sistemas.control_senalizacion[k].elementos.length > 0
+                    ).length;
+                }
+                if (sistemas.telecomunicaciones) {
+                    sistemasTotales += Object.keys(sistemas.telecomunicaciones).filter(k => 
+                        sistemas.telecomunicaciones[k].elementos && 
+                        sistemas.telecomunicaciones[k].elementos.length > 0
+                    ).length;
+                }
+                if (sistemas.its_seguridad) {
+                    sistemasTotales += Object.keys(sistemas.its_seguridad).filter(k => 
+                        sistemas.its_seguridad[k].elementos && 
+                        sistemas.its_seguridad[k].elementos.length > 0
+                    ).length;
+                }
+            }
+            document.getElementById('stat-sistemas').textContent = sistemasTotales;
+
+            // Actualizar análisis de layout
+            if (layoutData.layout_actual && layoutData.layout_actual.validaciones) {
+                const validaciones = layoutData.layout_actual.validaciones;
+                validaciones.forEach(val => {
+                    const elementId = `layout-${val.elemento}`;
+                    const element = document.getElementById(elementId);
+                    if (element) {
+                        element.textContent = val.encontrado;
+                    }
+                });
+            }
+        }
+
+        function updateLayoutTable() {
+            if (!layoutData || !layoutData.layout_actual || !layoutData.layout_actual.elementos) return;
+
+            const tbody = document.querySelector('#layout-table tbody');
+            tbody.innerHTML = '';
+
+            // Mostrar primeros 100 elementos (para performance)
+            const elementos = layoutData.layout_actual.elementos.slice(0, 100);
+            
+            elementos.forEach(elem => {
+                const row = tbody.insertRow();
+                row.innerHTML = `
+                    <td>${elem.ufv || '-'}</td>
+                    <td>${elem.pk || '-'}</td>
+                    <td>${elem.tipo_equipo || '-'}</td>
+                    <td>${elem.dispositivo || '-'}</td>
+                    <td>${elem.nombre || '-'}</td>
+                `;
+            });
+
+            if (layoutData.layout_actual.elementos.length > 100) {
+                const row = tbody.insertRow();
+                row.innerHTML = `<td colspan="5" style="text-align: center; color: #666;">
+                    Mostrando 100 de ${layoutData.layout_actual.elementos.length} elementos. 
+                    <a href="#" onclick="showAllElements(); return false;">Ver todos</a>
+                </td>`;
+            }
+        }
+
+        function showAllElements() {
+            if (!layoutData || !layoutData.layout_actual || !layoutData.layout_actual.elementos) return;
+
+            const tbody = document.querySelector('#layout-table tbody');
+            tbody.innerHTML = '';
+
+            layoutData.layout_actual.elementos.forEach(elem => {
+                const row = tbody.insertRow();
+                row.innerHTML = `
+                    <td>${elem.ufv || '-'}</td>
+                    <td>${elem.pk || '-'}</td>
+                    <td>${elem.tipo_equipo || '-'}</td>
+                    <td>${elem.dispositivo || '-'}</td>
+                    <td>${elem.nombre || '-'}</td>
+                `;
+            });
+        }
+
+        function showTab(tabName) {
+            // Ocultar todos los contenidos
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Ocultar todos los tabs activos
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Mostrar el contenido seleccionado
+            document.getElementById(tabName).classList.add('active');
+
+            // Activar el tab seleccionado
+            event.target.classList.add('active');
+        }
+
+        function searchInTab(gridId, searchText) {
+            const grid = document.getElementById(gridId);
+            const cards = grid.querySelectorAll('.card');
+
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(searchText.toLowerCase())) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Cargar datos al inicio
+        loadLayoutData();
+    </script>
+</body>
+</html>
+

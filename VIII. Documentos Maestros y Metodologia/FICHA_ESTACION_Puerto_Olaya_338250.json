@@ -1,0 +1,192 @@
+﻿{
+    "tareas":  [
+                   {
+                       "duracion":  "12 meses",
+                       "fase":  "FASE 1: INGENIERIA",
+                       "tareas":  [
+                                      "Levantamiento topografico (2 semanas)",
+                                      "Estudio geotecnico (2 semanas)",
+                                      "Levantamiento predial (2 semanas)",
+                                      "Diseno arquitectonico (4 semanas)",
+                                      "Diseno estructural (4 semanas)",
+                                      "Diseno electrico (3 semanas)",
+                                      "Diseno hidrosanitario (2 semanas)",
+                                      "Diseno sistemas ferroviarios (4 semanas)",
+                                      "Modelo BIM LOD 300 (8 semanas)",
+                                      "Planos constructivos (8 semanas)",
+                                      "Especificaciones tecnicas (4 semanas)"
+                                  ]
+                   },
+                   {
+                       "duracion":  "24 meses",
+                       "fase":  "FASE 2: OBRA CIVIL",
+                       "tareas":  [
+                                      "Cerramiento provisional (1 semana)",
+                                      "Campamento temporal (1 semana)",
+                                      "Demoliciones si aplica (2 semanas)",
+                                      "Excavaciones (2 semanas)",
+                                      "Fundaciones (4 semanas)",
+                                      "Estructura metalica/concreto (8 semanas)",
+                                      "Losa de entrepiso (2 semanas)",
+                                      "Cubierta (3 semanas)",
+                                      "Mamposteria (4 semanas)",
+                                      "Enchapes y pisos (3 semanas)",
+                                      "Carpinteria metalica (2 semanas)",
+                                      "Pintura (2 semanas)"
+                                  ]
+                   },
+                   {
+                       "duracion":  "12 meses",
+                       "fase":  "FASE 3: INSTALACIONES",
+                       "tareas":  [
+                                      "Acometida MT (2 semanas)",
+                                      "Subestacion MT/BT (3 semanas)",
+                                      "Canalizacion electrica (4 semanas)",
+                                      "Cableado de potencia (3 semanas)",
+                                      "Tableros y protecciones (2 semanas)",
+                                      "UPS + Generador (2 semanas)",
+                                      "Red agua potable (2 semanas)",
+                                      "Red sanitaria (2 semanas)",
+                                      "Red contra incendio (2 semanas)",
+                                      "Aparatos sanitarios (1 semana)"
+                                  ]
+                   },
+                   {
+                       "duracion":  "14 meses",
+                       "fase":  "FASE 4: SISTEMAS FERROVIARIOS",
+                       "tareas":  [
+                                      "Cuarto tecnico CTC (2 semanas)",
+                                      "Instalacion puesto CTC (2 semanas)",
+                                      "RBC si aplica (3 semanas)",
+                                      "Cableado de control (3 semanas)",
+                                      "Configuracion software (2 semanas)",
+                                      "Torre TETRA si aplica (3 semanas)",
+                                      "Estacion Base TETRA (2 semanas)",
+                                      "Nodo Fibra Optica (2 semanas)",
+                                      "Empalmes fibra (1 semana)",
+                                      "Switch de red (1 semana)",
+                                      "Pruebas de comunicacion (2 semanas)",
+                                      "Postes para camaras (1 semana)",
+                                      "Instalacion camaras CCTV (2 semanas)",
+                                      "Cableado de datos (2 semanas)",
+                                      "Grabadores NVR (1 semana)",
+                                      "Integracion con CTC (2 semanas)",
+                                      "Senales LED (2 semanas)",
+                                      "Balizas ETCS (2 semanas)",
+                                      "Desvios motorizados (3 semanas)"
+                                  ]
+                   },
+                   {
+                       "duracion":  "4 meses",
+                       "fase":  "FASE 5: PRUEBAS Y PUESTA",
+                       "tareas":  [
+                                      "Pruebas FAT (Factory) (2 semanas)",
+                                      "Pruebas SAT (Site) (2 semanas)",
+                                      "Pruebas electricas (1 semana)",
+                                      "Pruebas CTC (1 semana)",
+                                      "Pruebas TETRA (1 semana)",
+                                      "Pruebas CCTV (1 semana)",
+                                      "Pruebas End-to-End (2 semanas)",
+                                      "Capacitacion personal (2 semanas)",
+                                      "Ajustes finales (1 semana)",
+                                      "Documentacion as-built (2 semanas)",
+                                      "Acta de Recibo Provisional (1 dia)",
+                                      "Puesta en operacion (1 semana)"
+                                  ]
+                   }
+               ],
+    "costo_total_equipos_millones":  7450,
+    "duracion_total":  "48 meses",
+    "total_tareas":  64,
+    "personal_pico":  "40-50 personas",
+    "estacion":  {
+                     "ufv":  "UFV 03",
+                     "nombre":  "Puerto Olaya",
+                     "tiene_taller":  false,
+                     "tiene_rbc":  false,
+                     "tipo":  "Estacion Principal",
+                     "pk":  "338+250",
+                     "tiene_cco":  false
+                 },
+    "horas_hombre":  213000,
+    "kit_equipos":  [
+                        {
+                            "categoria":  "Edificacion",
+                            "costo_m":  4500,
+                            "cantidad":  1,
+                            "equipo":  "Estacion Clase A"
+                        },
+                        {
+                            "categoria":  "Energia",
+                            "costo_m":  1500,
+                            "cantidad":  1,
+                            "equipo":  "Subestacion MT/BT"
+                        },
+                        {
+                            "categoria":  "Energia",
+                            "costo_m":  80,
+                            "cantidad":  1,
+                            "equipo":  "UPS 30kVA"
+                        },
+                        {
+                            "categoria":  "Energia",
+                            "costo_m":  150,
+                            "cantidad":  1,
+                            "equipo":  "Generador 200kVA"
+                        },
+                        {
+                            "categoria":  "Control",
+                            "costo_m":  500,
+                            "cantidad":  1,
+                            "equipo":  "Puesto CTC Local"
+                        },
+                        {
+                            "categoria":  "Telecomunicaciones",
+                            "costo_m":  300,
+                            "cantidad":  1,
+                            "equipo":  "Estacion Base TETRA"
+                        },
+                        {
+                            "categoria":  "Telecomunicaciones",
+                            "costo_m":  50,
+                            "cantidad":  1,
+                            "equipo":  "Nodo Fibra Optica ODF 48"
+                        },
+                        {
+                            "categoria":  "Telecomunicaciones",
+                            "costo_m":  30,
+                            "cantidad":  1,
+                            "equipo":  "Switch Distribucion L2/L3"
+                        },
+                        {
+                            "categoria":  "Seguridad ITS",
+                            "costo_m":  25,
+                            "cantidad":  1,
+                            "equipo":  "Camara CCTV Entrada (PTZ)"
+                        },
+                        {
+                            "categoria":  "Seguridad ITS",
+                            "costo_m":  15,
+                            "cantidad":  2,
+                            "equipo":  "Camaras CCTV Andenes (Fijas)"
+                        },
+                        {
+                            "categoria":  "Senalizacion",
+                            "costo_m":  40,
+                            "cantidad":  2,
+                            "equipo":  "Senales LED Entrada/Salida"
+                        },
+                        {
+                            "categoria":  "Senalizacion",
+                            "costo_m":  15,
+                            "cantidad":  3,
+                            "equipo":  "Balizas ETCS"
+                        },
+                        {
+                            "categoria":  "Via",
+                            "costo_m":  80,
+                            "cantidad":  2,
+                            "equipo":  "Desvios Motorizados"
+                        }
+                    ]
+}

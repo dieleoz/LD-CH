@@ -1,0 +1,33 @@
+﻿{
+    "hbd":  [
+
+            ],
+    "cctv":  [
+
+             ],
+    "detectores":  [
+
+                   ],
+    "alarmas":  [
+
+                ],
+    "camaras":  [
+
+                ],
+    "seguridad":  [
+                      "Seguridad",
+                      "Seguridad",
+                      "Seguridad"
+                  ],
+    "sistemas_its":  [
+                         "vigilancia",
+                         "vigilancia",
+                         "vigilancia"
+                     ],
+    "monitoreo":  [
+
+                  ],
+    "patrones_encontrados":  [
+
+                             ]
+}

@@ -8,12 +8,12 @@
       "nombre": "Cajas de empalme 80x80",
       "criterio_tecnico": {
         "justificacion": "Espaciamiento 300m según UIT-T + 88 nodos críticos",
-        "calculo_detallado": "594,000m ÷ 300m = 1,980 cajas backbone + 88 nodos especiales = 2,068 total",
+        "calculo_detallado": "520.78 km ÷ 0.3 km = 1,736 cajas lineales + 88 cajas en 22 puentes = 1,824 total",
         "desglose": [
-          "Cajas backbone: 1,980 unidades (cada 300m según diseño OSP)",
-          "Cajas en torres TETRA/GSM-R: 37 unidades",
-          "Cajas en subestaciones eléctricas: 15 unidades",
-          "Cajas en cruces viales críticos: 36 unidades"
+          "Cajas lineales: 1,736 unidades (cada 300m sobre longitud contractual 520.78 km)",
+          "Cajas en puentes: 88 unidades (22 puentes × 4 cajas por puente)",
+          "Cable fibra óptica: 594 km (520.78 km + 10% reserva para enrollado en cajas)",
+          "Total cajas: 1,824 unidades"
         ],
         "fuente_normativa": "UIT-T G.652.D (establece máximo 500m entre puntos de empalme)",
         "fuente_diseno": "Diseño OSP - Planos AS-BUILT sección 2.2",

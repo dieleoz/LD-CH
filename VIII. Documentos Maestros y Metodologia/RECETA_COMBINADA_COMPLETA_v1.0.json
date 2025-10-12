@@ -1,0 +1,223 @@
+﻿{
+    "cronograma":  {
+                       "dependencias":  [
+
+                                        ],
+                       "hitos":  [
+
+                                 ],
+                       "fases":  [
+
+                                 ]
+                   },
+    "sistemas_tecnicos":  {
+                              "control_senalizacion":  [
+                                                           "CTC",
+                                                           "CTC",
+                                                           "sistema de control"
+                                                       ],
+                              "its_seguridad":  [
+                                                    "Seguridad",
+                                                    "Seguridad",
+                                                    "Seguridad",
+                                                    "vigilancia",
+                                                    "vigilancia",
+                                                    "vigilancia"
+                                                ],
+                              "material_rodante":  [
+
+                                                   ],
+                              "telecomunicaciones":  [
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "Red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "Red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "red",
+                                                         "Comunicacion",
+                                                         "Comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "Comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "comunicacion",
+                                                         "Comunicacion",
+                                                         "Comunicacion"
+                                                     ]
+                          },
+    "infraestructura_fisica":  {
+                                   "apartaderos":  [
+                                                       "apartadero existente",
+                                                       "apartadero existente"
+                                                   ],
+                                   "pasos_nivel":  [
+
+                                                   ],
+                                   "estaciones":  [
+
+                                                  ],
+                                   "ufvf":  [
+                                                "UFVF53",
+                                                "UFVF 20",
+                                                "UFVF 1",
+                                                "UFVF 53",
+                                                "UFVF1",
+                                                "UFVF2",
+                                                "UFVF3",
+                                                "UFVF4",
+                                                "UFVF5",
+                                                "UFVF6",
+                                                "UFVF7",
+                                                "UFVF8",
+                                                "UFVF9",
+                                                "UFVF10",
+                                                "UFVF11",
+                                                "UFVF12",
+                                                "UFVF14",
+                                                "UFVF15",
+                                                "UFVF16",
+                                                "UFVF17",
+                                                "UFVF18",
+                                                "UFVF19",
+                                                "UFVF20",
+                                                "UFVF21",
+                                                "UFVF22",
+                                                "UFVF23",
+                                                "UFVF24",
+                                                "UFVF25",
+                                                "UFVF26",
+                                                "UFVF27",
+                                                "UFVF28",
+                                                "UFVF29",
+                                                "UFVF30",
+                                                "UFVF31",
+                                                "UFVF32",
+                                                "UFVF33",
+                                                "UFVF34",
+                                                "UFVF35",
+                                                "UFVF36",
+                                                "UFVF37",
+                                                "UFVF38",
+                                                "UFVF39",
+                                                "UFVF40",
+                                                "UFVF41",
+                                                "UFVF42",
+                                                "UFVF43",
+                                                "UFVF44",
+                                                "UFVF45",
+                                                "UFVF46",
+                                                "UFVF47",
+                                                "UFVF48",
+                                                "UFVF49",
+                                                "UFVF50",
+                                                "UFVF51",
+                                                "UFVF52",
+                                                "UFVF53"
+                                            ],
+                                   "escuelas":  [
+                                                    "Escuela San",
+                                                    "escuela rural",
+                                                    "Escuela Rural",
+                                                    "Escuela Rural",
+                                                    "Escuela San",
+                                                    "Escuela San"
+                                                ],
+                                   "uf":  [
+                                              "UF 1:",
+                                              "UF2:",
+                                              "UF3:"
+                                          ],
+                                   "puentes":  [
+                                                   "Puente Roto",
+                                                   "Puente Río",
+                                                   "puente vehicular",
+                                                   "PUENTE SOGAMOSO",
+                                                   "Puente Roto",
+                                                   "puente vehicular",
+                                                   "puente vehicular",
+                                                   "puente vehicular",
+                                                   "puente vehicular",
+                                                   "puente vehicular",
+                                                   "puente y",
+                                                   "puente y",
+                                                   "Puente vehicular",
+                                                   "puente vehicular",
+                                                   "Puente vehicular",
+                                                   "puente y",
+                                                   "Puente priorizado",
+                                                   "Puente grúa",
+                                                   "Puente grúa",
+                                                   "puente grúas",
+                                                   "Puente 12"
+                                               ]
+                               },
+    "metadata":  {
+                     "descripcion":  "Receta combinada de todos los ATs del contrato",
+                     "total_ingredientes":  150,
+                     "version":  "1.0",
+                     "fecha":  "2025-10-10"
+                 },
+    "operacion":  {
+                      "procedimientos":  [
+
+                                         ],
+                      "reversion":  [
+
+                                    ],
+                      "mantenimiento":  [
+
+                                        ]
+                  },
+    "especificaciones":  {
+                             "criterios":  [
+
+                                           ],
+                             "tipologias":  [
+
+                                            ],
+                             "metodos":  [
+
+                                         ],
+                             "normas":  [
+
+                                        ]
+                         }
+}

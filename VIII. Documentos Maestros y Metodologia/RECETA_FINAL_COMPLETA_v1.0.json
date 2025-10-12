@@ -1,0 +1,224 @@
+﻿{
+    "sistemas_tecnicos":  {
+                              "control_senalizacion":  {
+                                                           "interlocking":  [
+
+                                                                            ],
+                                                           "atp":  [
+
+                                                                   ],
+                                                           "balizas":  [
+
+                                                                       ],
+                                                           "etcs":  [
+
+                                                                    ],
+                                                           "ctc":  [
+
+                                                                   ],
+                                                           "rbc":  [
+
+                                                                   ],
+                                                           "senalizacion":  [
+
+                                                                            ]
+                                                       },
+                              "its_seguridad":  {
+                                                    "hbd":  [
+
+                                                            ],
+                                                    "detectores":  [
+
+                                                                   ],
+                                                    "alarmas":  [
+
+                                                                ],
+                                                    "seguridad":  [
+
+                                                                  ],
+                                                    "camaras":  [
+
+                                                                ],
+                                                    "cctv":  [
+
+                                                             ],
+                                                    "monitoreo":  [
+
+                                                                  ]
+                                                },
+                              "material_rodante":  {
+                                                       "vagones":  [
+
+                                                                   ],
+                                                       "locomotoras":  [
+
+                                                                       ],
+                                                       "vehiculos":  [
+
+                                                                     ],
+                                                       "coches":  [
+
+                                                                  ]
+                                                   },
+                              "telecomunicaciones":  {
+                                                         "fibra_optica":  [
+
+                                                                          ],
+                                                         "nodos":  [
+
+                                                                   ],
+                                                         "radio":  [
+
+                                                                   ],
+                                                         "estaciones_base":  [
+
+                                                                             ],
+                                                         "antenas":  [
+
+                                                                     ],
+                                                         "redes":  [
+
+                                                                   ],
+                                                         "tetra":  [
+
+                                                                   ]
+                                                     }
+                          },
+    "infraestructura_fisica":  {
+                                   "pasos_nivel":  [
+
+                                                   ],
+                                   "drenajes":  [
+
+                                                ],
+                                   "apartaderos":  [
+
+                                                   ],
+                                   "uf":  [
+
+                                          ],
+                                   "alcantarillas":  [
+
+                                                     ],
+                                   "box_culverts":  [
+
+                                                    ],
+                                   "estaciones":  [
+
+                                                  ],
+                                   "puentes":  [
+
+                                               ],
+                                   "escuelas":  [
+
+                                                ],
+                                   "edificaciones":  [
+
+                                                     ],
+                                   "ufvf":  [
+
+                                            ]
+                               },
+    "metadata":  {
+                     "descripcion":  "RECETA FINAL COMPLETA - Toda la cocina combinada",
+                     "version":  "1.0",
+                     "fuentes":  [
+                                     "Contratos",
+                                     "Ingenieria_Conceptual",
+                                     "Ingenieria_Basica"
+                                 ],
+                     "fecha":  "2025-10-10",
+                     "tamano_total_kb":  3158.9000000000005,
+                     "total_archivos":  55
+                 },
+    "validaciones_dts":  {
+                             "tetra_37_estaciones":  {
+                                                         "dt":  "DT-TETRA-001",
+                                                         "criterio":  "37 estaciones TETRA",
+                                                         "accion":  "Ajustar a 37 estaciones (actual: 0)",
+                                                         "estado":  "AJUSTAR"
+                                                     },
+                             "puentes_priorizados":  {
+                                                         "dt":  "DT-PUENTES-001",
+                                                         "criterio":  "Solo Tabla 9 AT1",
+                                                         "accion":  "Validar contra AT1",
+                                                         "estado":  "PENDIENTE_VALIDAR"
+                                                     },
+                             "senalizacion_virtual":  {
+                                                          "dt":  "DT-CTC-001",
+                                                          "criterio":  "NO balizas fisicas",
+                                                          "accion":  "OK - No hay balizas fisicas",
+                                                          "estado":  "CUMPLIDO"
+                                                      }
+                         },
+    "especificaciones_tecnicas":  {
+                                      "redundancia":  [
+
+                                                      ],
+                                      "tipologias":  [
+
+                                                     ],
+                                      "normas":  [
+
+                                                 ],
+                                      "criterios":  [
+                                                        "33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md",
+                                                        "34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md",
+                                                        "ITCS_Arquitectura_RBC_2oo3_v1.0.md",
+                                                        "ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md",
+                                                        "ITCS_Interlocking_Tables_5_Estaciones_v1.0.md",
+                                                        "ITCS_SRS_Indice_v1.0.md",
+                                                        "ITCS_STM_Embarcado_v1.0.md"
+                                                    ],
+                                      "metodos":  [
+
+                                                  ],
+                                      "ciberseguridad":  [
+
+                                                         ],
+                                      "interoperabilidad":  [
+
+                                                            ]
+                                  },
+    "cumplimiento_contractual":  {
+                                     "diagramas":  [
+                                                       "38. DiagramasArquitectura_sist_ctc-telco.md"
+                                                   ],
+                                     "trazabilidad":  [
+                                                          "0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md",
+                                                          "24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md"
+                                                      ],
+                                     "planes":  [
+                                                    "39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md",
+                                                    "40. Plan_GestionPermisos_MEJORADO.md",
+                                                    "42. Plan_Pruebas_MEJORADO.md"
+                                                ],
+                                     "estimaciones":  [
+
+                                                      ],
+                                     "wbs":  [
+                                                 "25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md",
+                                                 "25_WBS_IngenieriaConceptual_docx.md"
+                                             ],
+                                     "memorias":  [
+                                                      "IV.1_Especificaciones_Basicas_Civil_v5.0.md",
+                                                      "IV.2_Especificaciones_Basicas_Electrica_v5.0.md",
+                                                      "IV.4_Especificaciones_Basicas_Sistemas_v5.0.md",
+                                                      "IV_Ingenieria_Basica_RESUMEN_MEJORADO.md"
+                                                  ],
+                                     "planos":  [
+
+                                                ],
+                                     "sistemas_integrados":  [
+                                                                 "23_ListadoMaestro_Sistemas_v5.0.md",
+                                                                 "27_Sistema_TETRA_Integrado_v5.0.md",
+                                                                 "28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md",
+                                                                 "29_Sistema_Senalizacion_Integrado_v5.0.md",
+                                                                 "30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md",
+                                                                 "31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md",
+                                                                 "32_Material_Rodante_Integrado_v5.0.md",
+                                                                 "35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md",
+                                                                 "36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md"
+                                                             ]
+                                 }
+}

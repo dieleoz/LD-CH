@@ -68,6 +68,10 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Longitud fibra | DT-FIBRA-002 | III/28_Sistema_FibraOptica_Integrado.md | Cantidades | Tabla 2.1 |
 | Longitud fibra | DT-FIBRA-002 | WBS_Presupuestal_v2.0.md | Costos | Item 3.1.1 |
 | Topología red | DT-FIBRA-003 | V.3_Sistemas_Comunicacion_Detalle.md | Arquitectura | Sección 3.2 |
+| **Cajas c/300m + Domos c/4km** | **DT-FIBRA-641** | **layout.md** | **Cantidades** | **Todas las UFVs** |
+| **Cajas c/300m + Domos c/4km** | **DT-FIBRA-641** | **WBS_Presupuestal_v2.0.md** | **Costos** | **Item 2.3.103, 2.3.109** |
+| **Cajas c/300m + Domos c/4km** | **DT-FIBRA-641** | **layout_datos.js** | **Regenerar** | **Script automático** |
+| **Cajas c/300m + Domos c/4km** | **DT-FIBRA-641** | **V.3_Sistemas_Comunicacion_Detalle.md** | **Criterios** | **Sección instalación** |
 
 #### **TETRA - Radio Digital**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |

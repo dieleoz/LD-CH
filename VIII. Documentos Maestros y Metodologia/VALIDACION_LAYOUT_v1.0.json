@@ -1,0 +1,20 @@
+﻿{
+    "errores":  [
+
+                ],
+    "ok":  [
+               "Archivo layout.md existe",
+               "Archivo IX. WBS y Planificacion/layout_datos.js existe",
+               "Archivo IX. WBS y Planificacion/layout_datos.json existe",
+               "Archivo IX. WBS y Planificacion/WBS_Layout_Maestro.html existe",
+               "Archivo VIII. Documentos Maestros y Metodologia/LAYOUT_INTEGRAL_COMPLETO_v1.0.json existe",
+               "layout_datos.js tiene estructura correcta",
+               "HTML correctamente vinculado a datos",
+               "Criterio tecnico menciona 37 estaciones"
+           ],
+    "estado":  "FUNCIONAL",
+    "advertencias":  [
+                         "Hay 4 balizas en layout.md (deberian ser 0 por senalizacion virtual)"
+                     ],
+    "fecha":  "2025-10-11 15:53:09"
+}

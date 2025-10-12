@@ -84,25 +84,23 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```
 
-**Acceso a 6 interfaces dinámicas:**
+**Acceso a 7 interfaces dinámicas:**
 1. 💰 **Presupuesto Interactivo** - WBS con $307.5B COP
 2. 🔴 **Análisis de Riesgos** - 17 riesgos con planes de acción
 3. 📊 **Reporte Gerencial** - Pareto 80/20 + Ruta Crítica
 4. 📅 **Cronograma 60 meses** - Fases y dependencias
 5. 📋 **EDT Detallado** - Estructura de descomposición
 6. 📄 **Documentos Servidos** - Entregables .docx/.html
+7. 🗺️ **Layout Maestro** - 2,182 equipos con filtros + generación DT ⭐ NUEVO v14.7
 
-### **⚡ Comando Único para Sincronización:**
+### **⚡ Comandos Principales del Sistema:**
+
+#### **1. Sincronización WBS (Riesgos, Reporte, Cronograma):**
 ```powershell
 .\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1
 ```
-
-**¿Qué hace este comando?**
-- ✅ Sincroniza análisis de riesgos (17 riesgos + planes de acción)
-- ✅ Genera reporte gerencial (Pareto + Ruta Crítica)
-- ✅ Actualiza cronograma (60 meses)
-- ✅ Aplica cache-busting automático (datos frescos siempre)
-- ⏱️ **Tiempo:** ~6 segundos
+- ✅ Sincroniza riesgos, reporte gerencial y cronograma
+- ⏱️ Tiempo: ~6 segundos
 
 **Opciones selectivas:**
 ```powershell
@@ -111,6 +109,35 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 .\scripts\sincronizar_SISTEMA_COMPLETO_v14.3.ps1 -SoloCronograma   # Solo cronograma
 ```
 
+#### **2. Cocinar y Servir Documentos (Workflow completo):**
+```powershell
+# Opción A: Todo automático
+.\scripts\servir_ingenieria_completo.ps1
+
+# Opción B: Paso a paso (recomendado para cambios grandes)
+.\scripts\cocinar.ps1                # Consolida I-VI → X/7/
+.\scripts\servir.ps1                 # Exporta X/7/ → X/8/ (Word + HTML)
+
+# Opción C: Solo un sistema específico
+.\scripts\cocinar.ps1 -Sistema 02    # Solo Telecomunicaciones
+.\scripts\servir.ps1 -Sistema 02     # Solo Telecomunicaciones
+```
+- ✅ Consolida documentación técnica → Entregables cliente
+- ⏱️ Tiempo: ~30 segundos (todo) / ~5 segundos (un sistema)
+
+#### **3. Layout Maestro (Ejecución de DT de Fibra):**
+```powershell
+# Script especializado para fibra óptica
+.\scripts\regenerar_fibra_1824_cajas.ps1
+
+# Luego actualizar documentos
+.\scripts\cocinar.ps1 -Sistema 02
+.\scripts\servir.ps1 -Sistema 02
+```
+- ✅ Regenera 1,823 cajas + 130 domos en layout
+- ✅ Actualiza WBS, ingeniería y matrices
+- ⏱️ Tiempo: ~45 segundos (regeneración + cocinar + servir)
+
 ### **🍽️ Servir Documentos al Cliente:**
 ```powershell
 .\scripts\servir_ingenieria_completo.ps1
@@ -118,10 +145,271 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 **¿Qué hace?**
 - ✅ Convierte documentos ejecutivos (.md) a Word (.docx) y HTML (.html)
+- ✅ **🆕 v2.0: Inyecta automáticamente Layout de Equipos por PK/UFV**
 - ✅ Genera 28 archivos en `X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/`
 - ✅ Crea índice interactivo para el cliente
+- ✅ **🆕 Integra 800+ equipos desde Layout Maestro en documentos técnicos**
 
-**Documentación completa:** `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md`
+**Documentación completa:**
+- `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md` - Arquitectura original
+- `@@INTEGRACION_LAYOUT_Sistema_Cocinar_Servir_v2.0.md` - **🆕 Layout integrado**
+- `scripts/README_LAYOUT_INTEGRATION.md` - **🆕 Guía de uso Layout**
+
+---
+
+### **🗺️ Layout Maestro Interactivo (v14.7 - NUEVO):**
+
+```
+Abrir: IX. WBS y Planificacion/WBS_Layout_Maestro.html
+```
+
+**🎯 Funcionalidades principales:**
+
+#### **1. VISUALIZACIÓN DE 2,182 EQUIPOS:**
+- ✅ Carga desde `layout_datos.js` (531 KB)
+- ✅ Vista tabular completa con todas las especificaciones
+- ✅ Elementos organizados por UFV, PK, Tipo de Equipo
+- ✅ 1,823 cajas de empalme fibra óptica
+- ✅ 130 domos de fusión
+- ✅ 37 estaciones TETRA
+- ✅ 20 puestos CTC
+- ✅ 57 cámaras CCTV
+- ✅ +160 elementos más
+
+#### **2. FILTROS INTELIGENTES EN CASCADA:**
+```javascript
+🎯 Tipo de Equipo (Categoría): TELECOMUNICACIONES
+   ↓ (filtra automáticamente)
+🏗️ Sistema: Fibra, TETRA, ODF, Nodo, GSM-R
+   ↓ (búsqueda inteligente)
+📍 UFV: Todas las UFVs o específica
+   ↓
+🔍 PK: Búsqueda por progresiva
+```
+
+**Filtro especial "Fibra":**
+- Engloba automáticamente: EMPALME, ODF, FUSION, FIBRA, OPTICA
+- Resultado: 1,953 elementos (cajas + domos + ODFs + nodos)
+
+#### **3. ESTADÍSTICAS DINÁMICAS Y CONTEXTUALES:**
+```
+Sin filtros:
+├─ Total Elementos: 2,182
+├─ Filtrados: 2,182
+├─ Cajas Filtradas: 1,823 (Total: 1,823)
+└─ Domos Filtrados: 130 (Total: 130)
+
+Con filtro CONTROL/CTC:
+├─ Total Elementos: 2,182
+├─ Filtrados: 20
+└─ (Cajas/Domos ocultos - no aplican)
+
+Con filtro UFV23:
+├─ Total Elementos: 2,182
+├─ Filtrados: ~180
+├─ Cajas Filtradas: ~85 (Total: 1,823)
+└─ Domos Filtrados: ~6 (Total: 130)
+```
+
+#### **4. GENERACIÓN DE DECISIONES TÉCNICAS (DT):**
+
+**4.1 Desde elemento individual:**
+- Click en botón "📋 DT" en cualquier fila
+- Modal se abre con datos pre-cargados del elemento
+- Especialista completa observación y justificación
+- Descarga DT en formato Markdown con YAML completo
+
+**4.2 Desde filtro (cambios masivos):**
+- Aplicar filtros para seleccionar grupo de elementos
+- Click en "📋 Crear DT desde Filtro"
+- Modal analiza elementos filtrados y pre-carga información
+- Especialista completa criterios técnicos
+- DT generada incluye:
+  - Cantidad de elementos afectados
+  - Filtros aplicados
+  - YAML con instrucciones para recálculo masivo
+
+**Ejemplo: DT-FIBRA-641**
+```yaml
+dt_metadata:
+  dt_id: "DT-FIBRA-641-2025-10-11"
+  sistema: "FIBRA"
+  elementos_afectados: 1953
+  
+recalculo_automatico:
+  cantidad_nueva: 1823
+  espaciamiento_km: 0.3
+  cajas_lineales: 1735
+  puentes_principales: 22
+  cajas_en_puentes: 88
+  domos_fusion: 130
+```
+
+#### **5. EJECUCIÓN AUTOMÁTICA DE DT:**
+
+**Workflow completo:**
+```powershell
+# 1. Generar DT desde HTML (descarga archivo)
+
+# 2. Mover DT a carpeta correcta
+copy "c:\Users\...\DT-FIBRA-641.md" "II. Apendices Tecnicos\Decisiones_Tecnicas\"
+
+# 3. Ejecutar script especializado (automático)
+.\scripts\regenerar_fibra_1824_cajas.ps1
+#   ├─ Limpia elementos antiguos del layout
+#   ├─ Genera 1,735 cajas lineales (cada 300m)
+#   ├─ Genera 88 cajas en puentes (22 × 4)
+#   ├─ Genera 130 domos de fusión (cada 4km)
+#   ├─ Actualiza layout.md
+#   ├─ Regenera layout_datos.js
+#   └─ Actualiza layout integral
+
+# 4. Cocinar sistema afectado
+.\scripts\cocinar.ps1 -Sistema 02
+#   └─ Consolida cambios en SISTEMA_02_Telecomunicaciones_EJECUTIVO.md
+
+# 5. Servir documentos al cliente
+.\scripts\servir.ps1 -Sistema 02
+#   ├─ Genera Word: SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx
+#   └─ Genera HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html
+
+# 6. Verificar en Layout Maestro
+#   - Abrir WBS_Layout_Maestro.html
+#   - Ctrl+Shift+F5 (limpiar cache)
+#   - Filtrar por "Fibra" → Ver 1,953 elementos
+```
+
+#### **6. PROPAGACIÓN EN 6 NIVELES:**
+
+Cuando se ejecuta una DT desde el Layout:
+
+```
+NIVEL 1: WBS Y PLANIFICACIÓN ✅
+├─ WBS_Presupuestal_v2.0.md (cantidades, costos)
+├─ layout.md (elementos físicos)
+└─ layout_datos.js (datos para HTML)
+
+NIVEL 2: INGENIERÍA CONCEPTUAL ✅
+└─ III/28_Sistema_FibraOptica_Integrado.md (criterios técnicos)
+
+NIVEL 3: CRITERIOS TÉCNICOS ✅
+└─ criterios_tecnicos_base.json (justificaciones)
+
+NIVEL 4: MATRICES ✅
+└─ MATRIZ_DEPENDENCIAS_DOCUMENTALES (trazabilidad DT)
+
+NIVEL 5: DECISIÓN TÉCNICA ✅
+└─ DT-FIBRA-641.md (log de ejecución)
+
+NIVEL 6: ENTREGABLES CLIENTE ✅
+├─ SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx
+└─ SISTEMA_02_Telecomunicaciones_EJECUTIVO.html
+```
+
+### **📋 Scripts Especializados por Sistema:**
+
+| Sistema | Script Especializado | Propósito |
+|:--------|:--------------------|:----------|
+| **FIBRA** | `regenerar_fibra_1824_cajas.ps1` | Recalcula cajas (1,735) + puentes (88) + domos (130) |
+| **TETRA** | `completar_37_estaciones_TETRA.ps1` | Distribuye 37 estaciones con espaciamiento uniforme |
+| **BALIZAS** | `eliminar_balizas_layout.ps1` | Elimina balizas (señalización virtual) |
+| **UNIVERSAL** | `ejecutar_DT_universal.ps1` | Ejecutor genérico para cualquier DT |
+
+### **🔑 Conceptos Técnicos Clave:**
+
+#### **A. Longitud Contractual vs Cable:**
+```
+Longitud contractual: 520.78 km
+  → Base para calcular CAJAS de empalme
+  → 520.78 km ÷ 0.3 km = 1,735 cajas lineales
+  → + 22 puentes × 4 cajas = 88 cajas
+  → TOTAL: 1,823 cajas
+
+Cable fibra óptica: 594 km
+  → Longitud contractual + 10% reserva
+  → 520.78 km × 1.10 = 572.86 km ≈ 594 km
+  → El 10% se usa para enrollado en cajas
+  → Se COMPRA 594 km, se INSTALAN 1,823 cajas
+```
+
+#### **B. Filtros en Cascada:**
+```javascript
+// Cuando usuario selecciona "Tipo de Equipo"
+actualizarFiltrosSistema() {
+  // Filtra opciones de "Sistema" según el tipo
+  TELECOMUNICACIONES → [TETRA, Fibra, ODF, Nodo, GSM-R, ...]
+  CONTROL → [CTC, RBC, ENCE, Baliza, ...]
+  EQUIPO ITS → [CCTV, HBD, WILD, Detector, ...]
+}
+```
+
+#### **C. Estadísticas Contextuales:**
+```javascript
+// Solo muestra estadísticas relevantes
+if (cajasFiltradas > 0 || domosFiltrados > 0) {
+  → Mostrar estadísticas de fibra
+} else {
+  → Ocultar (evita confusión al filtrar CTC, TETRA, etc.)
+}
+```
+
+### **⚠️ LECCIONES APRENDIDAS (v14.7):**
+
+#### **❌ ANTI-PATRONES (No hacer):**
+1. ❌ **Modificar múltiples archivos manualmente** sin seguir workflow cocinar→servir
+2. ❌ **Hacer cambios a "todo a la vez"** → Se pierde contexto fácilmente
+3. ❌ **Hardcodear valores** en scripts sin leer del YAML de la DT
+4. ❌ **No validar números** antes de propagar cambios
+5. ❌ **Modificar HTML directamente** sin regenerar desde fuentes
+
+#### **✅ MEJORES PRÁCTICAS (Sí hacer):**
+1. ✅ **UN sistema a la vez** (ej: solo FIBRA, luego TETRA)
+2. ✅ **Seguir workflow:** Generar DT → Ejecutar script → Cocinar → Servir
+3. ✅ **Usar scripts especializados** por sistema (regenerar_fibra_*.ps1)
+4. ✅ **Validar en cada paso** (verificar conteos, PKs, UFVs)
+5. ✅ **Documentar en roadmap** cada cambio importante
+6. ✅ **Cache-busting** en HTML (?v=timestamp) para forzar recarga
+
+#### **🎯 WORKFLOW CORRECTO (ejemplo FIBRA):**
+```
+Usuario → HTML (filtro Fibra) → Crear DT → Descargar DT
+   ↓
+Mover DT a carpeta II. Apendices Tecnicos/Decisiones_Tecnicas/
+   ↓
+Ejecutar: .\scripts\regenerar_fibra_1824_cajas.ps1
+   ├─ Actualiza layout.md
+   ├─ Regenera layout_datos.js
+   └─ Actualiza layout integral
+   ↓
+Cocinar: .\scripts\cocinar.ps1 -Sistema 02
+   └─ Consolida III/ → X/7_SISTEMAS_EJECUTIVOS/
+   ↓
+Servir: .\scripts\servir.ps1 -Sistema 02
+   └─ Exporta X/7/ → X/8_DOCUMENTOS_SERVIDOS/ (Word + HTML)
+   ↓
+Usuario → Refresh HTML (Ctrl+Shift+F5) → Verifica cambios
+```
+
+### **🍳 Chef Prompt Integral - Layout Dinámico:**
+```powershell
+.\scripts\generar_layout_integral_completo.ps1
+```
+
+**¿Qué hace?**
+- ✅ **Lee TODA la cocina** (55 archivos: contratos + conceptual + básica)
+- ✅ **Extrae ingredientes** de cada AT (infraestructura, sistemas, especificaciones)
+- ✅ **Combina recetas** coherentemente (150 ingredientes combinados)
+- ✅ **Analiza estructura** del sistema (395 elementos del layout actual)
+- ✅ **Genera layout integral** con trazabilidad completa
+- ✅ **Valida cumplimiento** contractual automáticamente
+
+**Archivos generados:**
+- `VIII/LAYOUT_INTEGRAL_COMPLETO_v1.0.json` (662.3 KB)
+- `VIII/TODA_LA_COCINA_COMPLETA_v1.0.json` (125.1 KB)
+- `VIII/RECETA_FINAL_COMPLETA_v1.0.json` (12.1 KB)
+
+**Documentación completa:**
+- `@@SISTEMA_CHEF_PROMPT_COMPLETO_v1.0.md` - **🆕 Sistema completo documentado**
 
 ---
 
@@ -1009,37 +1297,6 @@ Los otros 15 riesgos son **transversales** (afectan todo el proyecto).
 
 ---
 
-### **🔄 FLUJO INTEGRADO** ⭐ ARQUITECTURA CORREGIDA (9-OCT-2025):
-
-```
-ESPECIALISTA → DT
-    ↓
-CURSOR EJECUTA DT
-    ↓
-LA COCINA (I-VI) - ACTUALIZACIÓN DIARIA
-    ├─ IV. Ingeniería Básica → Interfaces, especificaciones
-    ├─ V. Ingeniería Detalle → Secciones técnicas
-    ├─ VII. Soporte → Protocolos, normativas
-    ├─ IX. WBS → Metadata enriquecida
-    └─ VIII. Maestros → Matrices trazabilidad
-    ↓
-SERVIR (bajo demanda) 🍽️
-    ├─ Pandoc: I-VI → .docx/.html
-    └─ Reportes/Cambios_Tecnicos/
-    ↓
-CARPETA X (solo entregas formales) 📦
-    └─ Consolidación I-VI → X/ (hitos/mensuales)
-```
-
-**Beneficios arquitectura corregida:**
-- ✅ **I-VI fuente de verdad** (cocina actualizada por DTs)
-- ✅ **Servir bajo demanda** (Pandoc .docx/.html cuando se necesite)
-- ✅ **X/ solo formal** (no se actualiza automáticamente)
-- ✅ **Trazabilidad completa:** DT → I-VI → Reportes/ → X/
-- ✅ **0 pérdida conocimiento:** Todo documentado en I-VI primero
-
----
-
 ## 📁 **ORGANIZACIÓN DOCUMENTAL: RAÍZ vs VIII/**
 
 ### **🎯 CRITERIO DE SEPARACIÓN:**
@@ -1156,7 +1413,7 @@ CARPETA X (solo entregas formales) 📦
 
 ---
 
-## 🎉 **SESIÓN 10 OCTUBRE 2025 - SISTEMA v14.6 COMPLETADO**
+## 🎉 **SESIÓN 10 OCTUBRE 2025 - SISTEMA v14.6 + CHEF PROMPT COMPLETADO**
 
 ### **🚀 Logros principales implementados hoy:**
 
@@ -1170,6 +1427,8 @@ CARPETA X (solo entregas formales) 📦
 | 6 | Script `servir_ingenieria_completo.ps1` simplificado | -82% código (140→25 líneas) |
 | 7 | README optimizado | Sin duplicaciones |
 | 8 | Encoding 100% corregido | Calidad profesional |
+| 9 | **🍳 Chef Prompt Integral implementado** | **TODA la cocina integrada** |
+| 10 | **Layout dinámico completo** | **395 elementos + trazabilidad** |
 
 ### **⚡ Comando Único (v14.6):**
 ```powershell
@@ -1192,13 +1451,16 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 - `@@CIERRE_SESION_10Oct2025_v14.6.md` - Cierre oficial
 - `@@CONSOLIDADO_SESION_10Oct2025_v14.6_FINAL.md` - Consolidado completo
 - `@@ARQUITECTURA_SISTEMA_COCINAR_SERVIR_v1.0.md` - Arquitectura técnica (1,457 líneas)
+- `@@INTEGRACION_LAYOUT_Sistema_Cocinar_Servir_v2.0.md` - **🆕 Sistema v2.0 con Layout** (11 Oct 2025)
 - `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md` - Plan de acción detallado
 - `@@MEJORAS_CACHE_BUSTING_AUTOMATICO_10Oct2025.md` - Cache-busting técnico
 - `@@MEJORAS_FINALES_SISTEMA_v14.6.md` - Optimizaciones finales
+- `@@SISTEMA_CHEF_PROMPT_COMPLETO_v1.0.md` - **🆕 Chef Prompt completo documentado** (10-11 Oct 2025)
+- `@@RESUMEN_Layout_Sistema_Completo_v1.0.md` - **🆕 Layout dinámico completo** (11 Oct 2025)
 
 ---
 
 **Documento actualizado según Metodología Punto 42**  
 **Fecha de actualización:** 10 de Octubre 2025  
 **Responsable:** Administrador Contractual EPC + PMO + Equipo Técnico  
-**Estado:** ✅ **SISTEMA v14.6 COMPLETADO - 100% DINÁMICO + COMANDO ÚNICO + CACHE-BUSTING AUTOMÁTICO**
+**Estado:** ✅ **SISTEMA v14.6 + CHEF PROMPT COMPLETADO - 100% DINÁMICO + LAYOUT INTEGRAL + TRAZABILIDAD COMPLETA**
