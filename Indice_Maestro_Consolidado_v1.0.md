@@ -583,11 +583,12 @@ Este **Índice Maestro Consolidado v1.0** presenta la estructura documental comp
 
 **Logros adicionales v14.7.1 (Limpieza y Organización):**
 - ✅ **Proyecto limpio:** 72% reducción de archivos (125 → 35 esenciales)
-- ✅ **Archivos movidos:** 59 a `old/`, 23 scripts a `legacy_scripts/`
-- ✅ **Carpetas organizadas:** 8 carpetas revisadas y limpiadas
-- ✅ **Documentación coherente:** 14 archivos actualizados a v14.7.1
-- ✅ **Commits exitosos:** 16 commits, todos subidos a Git
+- ✅ **Archivos movidos:** 78 totales (59 a `old/`, 23 scripts a `legacy_scripts/`, 19 datos a `Datos_Layout_Temporales/`)
+- ✅ **Carpetas organizadas:** 9 carpetas revisadas y limpiadas
+- ✅ **Documentación coherente:** 15 archivos actualizados a v14.7.1
+- ✅ **Commits exitosos:** 18 commits, todos subidos a Git
 - ✅ **READMEs actualizados:** Reflejan estado real del proyecto
+- ✅ **VIII/ organizada:** 31 → 12 archivos en raíz (-61%), nueva subcarpeta `Datos_Layout_Temporales/`
 
 ### **Sistema WBS 100% Dinámico - Comando Único Implementado (v14.6):**
 

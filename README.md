@@ -2,9 +2,9 @@
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
 **Fecha de actualización:** 11 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7 - LAYOUT MAESTRO INTERACTIVO + WORKFLOW AUTOMÁTICO**  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.1 - LAYOUT MAESTRO + WORKFLOW AUTOMÁTICO + PROYECTO LIMPIO**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,182 equipos**, **Workflow DT automático**, Portal web publicado 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,182 equipos**, **Workflow DT automático**, **Proyecto organizado (-72% archivos)**, Portal web publicado 
 
 ---
 
@@ -15,11 +15,11 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7 (11-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.1 (11-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
-| **Interfaces WBS** | ✅ Operativas | 7 interfaces HTML dinámicas |
+| **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
 | **Layout Maestro** | ✅ Operativo | 2,182 equipos con filtros inteligentes |
 | **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
 | **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
@@ -27,6 +27,9 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Documentos Servidos** | ✅ Actualizados | 28 archivos (14 Word + 14 HTML) |
 | **Presupuesto Total** | ✅ Validado | $307,533,941,332 COP |
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
+| **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
+| **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
+| **Commits Git** | ✅ Actualizados | 18 commits v14.7.1 |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -862,7 +865,7 @@ Estos documentos están diseñados para ser presentados a **especialistas de cad
 - **Usar WBS:** `IX. WBS y Planificacion/WBS_Menu_Principal.html` ⭐⭐
 
 ### **📋 DOCUMENTOS PRINCIPALES:**
-- **Estado del proyecto:** `@@Roadmap_v14.2_Marco_Gestion_Consolidado.md` (v14.2 - Documento VIVO)
+- **Estado del proyecto:** `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` (v14.7.1 - Documento VIVO)
 - **Lista completa de documentos:** `Indice_Maestro_Consolidado_v1.0.md`
 - **Roles y responsabilidades:** `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`
 - **WBS completa:** `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`
@@ -1488,5 +1491,26 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 **Documento actualizado según Metodología Punto 42**  
 **Fecha de actualización:** 11 de Octubre 2025  
+**Versión:** v14.7.1  
 **Responsable:** Administrador Contractual EPC + PMO + Equipo Técnico  
-**Estado:** ✅ **SISTEMA v14.7 COMPLETADO - Layout Maestro Interactivo (2,182 equipos) + Workflow Automático DT**
+**Estado:** ✅ **SISTEMA v14.7.1 COMPLETADO - Layout Maestro (2,182 equipos) + Workflow Automático + Proyecto Organizado (-72% archivos)**
+
+---
+
+## 🎯 **ACTUALIZACIÓN v14.7.1 (11-OCT-2025)**
+
+### **Limpieza y Organización Documental Completada:**
+
+**Logros de organización:**
+- ✅ **78 archivos movidos:** 59 a `old/`, 23 scripts a `legacy_scripts/`, 19 datos a `Datos_Layout_Temporales/`
+- ✅ **9 carpetas organizadas:** Raíz, @@Doc, Indices, IX, Reportes, scripts, VII transversales, VII Especializado, VIII Maestros
+- ✅ **15 documentos actualizados:** Todos reflejan estado v14.7.1
+- ✅ **18 commits exitosos:** Todos subidos a GitHub
+- ✅ **Reducción 72%:** De 125 archivos dispersos a 35 esenciales organizados
+
+**Carpetas con mayor impacto:**
+- Raíz: 43 → 8 archivos @@ (-81%)
+- @@Doc: 22 → 5 archivos (-77%)
+- Reportes: 20 → 7 archivos (-65%)
+- VIII/: 31 → 12 archivos en raíz (-61%)
+- scripts: 81 → 58 activos + 23 legacy (-28%)

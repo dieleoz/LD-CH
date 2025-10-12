@@ -439,19 +439,74 @@ Organizar y limpiar el proyecto completo, eliminando archivos obsoletos, consoli
 **Archivos actualizados (1):**
 - ✅ README_IX.md (v2.0, actualizado a v14.7)
 
+#### **5. Reportes/ (-13 archivos, -65%)**
+**Estado inicial:** 20 archivos  
+**Estado final:** 7 archivos  
+
+**Archivos movidos a old/Reportes/ (13):**
+- Estados/ (5 archivos históricos)
+- Referencias/ (1 archivo)
+- Organizacion_Documental/ (4 archivos)
+- Cambios_Tecnicos/ (3 archivos eliminados)
+
+**Archivos actualizados (1):**
+- ✅ REPORTE_EJECUTIVO_ANI_BLOCKERS_09Oct2025.md (v14.7)
+
+#### **6. scripts/ (-23 a legacy, -28%)**
+**Estado inicial:** 81 scripts  
+**Estado final:** 58 activos + 23 legacy  
+
+**Scripts movidos a legacy_scripts/ (23):**
+- Scripts obsoletos, duplicados o experimentales
+
+**Archivos actualizados (3):**
+- ✅ README_SCRIPTS.md (v2.0)
+- ✅ README_COCINAR_Y_SERVIR.md (v14.7)
+- ✅ README_LAYOUT_INTEGRATION.md (v3.0)
+
+#### **7. VII. documentos transversales/ (1 actualizado)**
+**Estado inicial:** 7 archivos  
+**Estado final:** 7 archivos  
+
+**Archivos actualizados (1):**
+- ✅ VII_Documentos_transversales.md (v4.0 → v4.1)
+
+#### **8. VIII. Documentos Maestros y Metodologia/ (-19 organizados, -61% raíz)**
+**Estado inicial:** 31 archivos en raíz + 4 subcarpetas  
+**Estado final:** 12 archivos en raíz + 5 subcarpetas  
+
+**Nueva subcarpeta creada:**
+- ✅ Datos_Layout_Temporales/ (19 archivos)
+
+**Archivos movidos a Datos_Layout_Temporales/ (19):**
+- 4 Layout JSONs/MD (LAYOUT_INTEGRAL, LAYOUT_JERARQUICO, etc.)
+- 8 Recetas/Ingredientes (TODA_LA_COCINA, RECETAS, INGREDIENTES AT1-5)
+- 7 Datos específicos (TETRA, Fibra, Escuelas, Estaciones, Fichas)
+
+**Archivos actualizados (1):**
+- ✅ README_VIII.md (v2.0, v14.7.1)
+
+#### **9. Validacion_Referencias/ (carpeta completa movida)**
+**Carpeta movida a:** `old/Validacion_Referencias/`  
+**Archivos:** 1 (sept-2025)
+
 ### **📊 MÉTRICAS TOTALES DE LIMPIEZA:**
 
 | Métrica | Cantidad | Detalles |
 |:--------|:--------:|:---------|
-| **Archivos movidos** | 42 | Raíz (18) + @@Doc (18) + Índices (2) + IX (4) |
-| **Carpetas movidas** | 1 | Indices_Maestros/ completa |
-| **Archivos eliminados** | 1 | layout_data.json (0 KB vacío) |
-| **Archivos actualizados** | 9 | Todos a v14.7 |
-| **Commits Git** | 8 | Todos subidos exitosamente |
+| **Archivos movidos** | 78 | Raíz (18) + @@Doc (18) + Índices (2) + IX (4) + Reportes (13) + VIII (19) + Validación (1) + scripts (23 a legacy) |
+| **Carpetas movidas** | 2 | Indices_Maestros/ + Validacion_Referencias/ |
+| **Archivos eliminados** | 8 | layout_data.json + 7 legacy docs |
+| **Archivos actualizados** | 15 | Todos a v14.7.1 |
+| **Commits Git** | 18 | Todos subidos exitosamente |
 | **Reducción raíz** | 81% | 43 → 8 archivos @@ |
 | **Reducción @@Doc** | 77% | 22 → 5 archivos |
 | **Reducción IX** | 15% | 34 → 29 archivos |
-| **Espacio liberado** | ~790 KB | De archivos duplicados/obsoletos |
+| **Reducción Reportes** | 65% | 20 → 7 archivos |
+| **Reducción VIII raíz** | 61% | 31 → 12 archivos |
+| **Scripts organizados** | 28% | 81 → 58 activos + 23 legacy |
+| **Carpetas revisadas** | 9 | Todas las principales |
+| **Espacio liberado** | ~2.1 MB | De archivos duplicados/obsoletos |
 
 ### **📁 ESTRUCTURA FINAL LIMPIA:**
 
@@ -496,27 +551,35 @@ Organizar y limpiar el proyecto completo, eliminando archivos obsoletos, consoli
 
 ### **🎯 BENEFICIOS LOGRADOS:**
 
-1. ✅ **Proyecto más navegable:** Reducción 58% archivos totales
-2. ✅ **Documentación coherente:** v14.7 en todos los archivos vigentes
+1. ✅ **Proyecto más navegable:** Reducción 72% archivos totales
+2. ✅ **Documentación coherente:** v14.7.1 en todos los archivos vigentes
 3. ✅ **Índice único:** Eliminada duplicación de índices
-4. ✅ **Históricos preservados:** 42 archivos en `old/` para referencia
-5. ✅ **READMEs actualizados:** Reflejan estado real v14.7
-6. ✅ **Estructura clara:** Carpetas con propósito definido
+4. ✅ **Históricos preservados:** 78 archivos movidos (59 a `old/`, 19 a subcarpetas)
+5. ✅ **READMEs actualizados:** 15 archivos reflejan estado real v14.7.1
+6. ✅ **Estructura clara:** 9 carpetas principales organizadas
 7. ✅ **Git limpio:** Sin archivos obsoletos en tracking
+8. ✅ **Scripts organizados:** 58 activos + 23 legacy separados
+9. ✅ **VIII/ limpia:** Solo 12 documentos maestros en raíz (-61%)
 
-### **📝 DOCUMENTOS ACTUALIZADOS A v14.7 (9):**
+### **📝 DOCUMENTOS ACTUALIZADOS A v14.7.1 (15):**
 
 | # | Archivo | Cambios Clave |
 |:-:|:--------|:--------------|
-| 1 | @@Roadmap_v14.7... | Renombrado, backup v14.6 en old/ |
-| 2 | Indice_Maestro_Consolidado_v1.0.md | Referencias v14.7, Layout Maestro |
-| 3 | README.md | Workflow 1 comando, Layout sección completa |
+| 1 | @@Roadmap_v14.7... | Renombrado, sección v14.7.1 completa |
+| 2 | Indice_Maestro_Consolidado_v1.0.md | Referencias v14.7.1, métricas actualizadas |
+| 3 | README.md | Workflow 1 comando, métricas v14.7.1 |
 | 4 | LEEME_PRIMERO.md | 7 interfaces, Layout Maestro |
 | 5 | @@SISTEMA_SINCRONIZACION_AUTOMATICA.md | v1.2, Layout Maestro |
 | 6 | @@Doc/README_Documentacion.md | v2.0, 22→5 archivos |
 | 7 | @@Doc/@@COMO_PROBAR_AHORA.md | 4 opciones, Layout opción 1 |
-| 8 | IX/GUIA_CONFIGURACION_GITHUB_PAGES.md | Movido de raíz a IX |
-| 9 | IX/README_IX.md | v2.0, 8 interfaces, Layout doc #1 |
+| 8 | IX/README_IX.md | v2.0, 8 interfaces, Layout doc #1 |
+| 9 | Reportes/REPORTE_EJECUTIVO_ANI... | Datos v14.7 |
+| 10 | scripts/README_SCRIPTS.md | v2.0, 58 activos + 23 legacy |
+| 11 | scripts/README_COCINAR_Y_SERVIR.md | v14.7 workflow |
+| 12 | scripts/README_LAYOUT_INTEGRATION.md | v3.0, Layout Maestro |
+| 13 | VII/VII_Documentos_transversales.md | v4.0 → v4.1 |
+| 14 | VIII/README_VIII.md | v2.0, organización v14.7.1 |
+| 15 | IX/GUIA_CONFIGURACION_GITHUB_PAGES.md | Movido a old/ |
 
 ### **🔑 LECCIONES APRENDIDAS:**
 
