@@ -2508,3 +2508,101 @@ El sistema identificó inconsistencias entre totales declarados en el WBS.md y l
 ### **🎉 RESULTADO FINAL:**
 **Sistema WBS Presupuestal 100% Dinámico y Robusto** - Sin hardcoding, auto-regenerable, con validación completa y documentación exhaustiva.
 
+
+
+---
+
+## ✅ **v14.7.5 - ORDEN JERÁRQUICO SECUENCIAL PERFECTO (COMPLETADO 13/10/2025)**
+
+### **🎯 OBJETIVO:**
+Corregir el orden de presentación en la tabla HTML del WBS Presupuestal para que muestre la estructura jerárquica de manera secuencial y lógica: Capítulo → Subcapítulos → Ítems → Siguiente Capítulo.
+
+### **❌ PROBLEMA DETECTADO:**
+
+El JSON generado mostraba TODOS los 6 capítulos primero, y luego los subcapítulos e ítems:
+\\\`nOrden incorrecto:
+1, 2, 3, 4, 5, 6  ← Todos los capítulos juntos
+1.1, 1.1.100, 1.1.101, 1.2, 1.2.100...  ← Luego subcapítulos/ítems\n\\\`n
+**Causa:** El script primero extraía TODOS los capítulos mediante búsqueda de 'TOTAL CAPÍTULO X', luego procesaba el archivo secuencialmente.
+
+### **✅ SOLUCIÓN IMPLEMENTADA:**
+
+#### **1. EXTRACCIÓN SECUENCIAL COMPLETA**
+- ✅ **Antes:** 2 pasadas (primero capítulos, luego resto)
+- ✅ **Ahora:** 1 sola pasada secuencial línea por línea
+- ✅ **Detecta en orden:** ### **CAPÍTULO X** → #### **X.Y** → | **X.Y.ZZZ** |
+
+#### **2. SCRIPT MODIFICADO**
+\\\powershell
+# Antes (INCORRECTO):
+# 1. Buscar TODOS los 'TOTAL CAPÍTULO X' y agregar
+# 2. Luego parsear línea por línea para el resto
+
+# Ahora (CORRECTO):
+# Parsear TODO línea por línea secuencialmente
+foreach (\ in \) {
+    # Detectar capítulo (NIVEL 1)
+    if (\ -match '^### \\*\\*CAP') { ... }
+    
+    # Detectar subcapítulo (NIVEL 2)
+    if (\ -match '^#### \\*\\*') { ... }
+    
+    # Detectar ítem (NIVEL 3)
+    if (\ -match '^\\| \\*\\*') { ... }
+}\n\\\`n
+### **�� RESULTADO:**
+
+#### **Orden Jerárquico Correcto:**
+\\\`n1 - CONTROL Y SEÑALIZACIÓN VIRTUAL
+  1.1 - Sistema CTC Virtual Centralizado
+    1.1.100 - Servidores CTC principales
+    1.1.101 - Servidores CTC respaldo
+    1.1.102 - Workstations operadores
+    ...
+  1.2 - Sistema ATP Embarcado
+    1.2.100 - Computadora ATP embarcada
+    1.2.101 - Display maquinista
+    ...
+  1.3 - Enclavamientos ENCE
+    1.3.100 - Controlador ENCE Zapatosa
+    ...
+2 - TELECOMUNICACIONES COLOCALIZADAS
+  2.1 - Sistema TETRA
+    2.1.100 - Torres autosoportadas
+    ...
+  2.2 - Sistema GSM-R
+    2.2.100 - Estaciones base GSM-R
+    ...
+  2.3 - Fibra Óptica
+    2.3.100 - Cable fibra óptica 48 fibras
+    ...\n\\\`n
+### **🎯 BENEFICIOS:**
+- ✅ **Legibilidad mejorada:** Estructura visual clara en HTML
+- ✅ **Navegación lógica:** Fácil ubicar cualquier ítem
+- ✅ **Coherencia:** Refleja estructura WBS estándar
+- ✅ **Subtotales correctos:** Se calculan al final de cada capítulo
+
+### **📊 MÉTRICAS:**
+\\\`nTotal ítems: 159
+├─ 6 Capítulos (Nivel 1)
+├─ 19 Subcapítulos (Nivel 2)
+└─ 134 Ítems con valores (Nivel 3)
+
+Orden: ✅ Secuencial jerárquico
+Visualización: ✅ Clara y lógica
+Indentación: ✅ Por nivel (CSS aplicado)\n\\\`n
+### **🔧 ARCHIVOS MODIFICADOS:**
+1. ✅ scripts/extraer_todos_items_wbs.ps1 - Extracción secuencial
+2. ✅ datos_wbs_TODOS_items.json - JSON ordenado correctamente
+3. ✅ datos_wbs_TODOS_items.js - JS regenerado
+4. ✅ WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html - Cache-busting actualizado
+
+### **✅ VALIDACIÓN:**
+- ✅ JSON verificado: Orden 1 → 1.1 → 1.1.100... → 1.2 → 1.2.100... → 2 → 2.1...
+- ✅ Total de 159 ítems mantenido
+- ✅ Todos los valores presentes y correctos
+- ✅ Estructura WBS estándar respetada
+
+### **🎉 RESULTADO FINAL:**
+**Tabla HTML ahora presenta la estructura WBS de forma jerárquica, secuencial y visualmente clara** - Mejora significativa en usabilidad y profesionalismo del presupuesto.
+

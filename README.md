@@ -2,9 +2,9 @@
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
 **Fecha de actualización:** 13 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.4 - WBS PRESUPUESTAL 100% DINÁMICO**  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.5 - WBS ORDEN JERÁRQUICO PERFECTO**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Extracción completa de 3 niveles**, **Sistema regenera automáticamente**, Portal web publicado 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Orden jerárquico secuencial correcto**, **Extracción completa de 3 niveles**, Portal web publicado 
 
 ---
 
@@ -32,7 +32,7 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
 | **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
-| **Commits Git** | ✅ Actualizados | 25+ commits v14.7.4 |
+| **Commits Git** | ✅ Actualizados | 26+ commits v14.7.5 |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
