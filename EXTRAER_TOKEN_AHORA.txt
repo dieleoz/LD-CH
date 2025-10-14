@@ -1,0 +1,121 @@
+========================================
+EXTRAER TOKEN GIT - HAZLO AHORA
+Proyecto: APP La Dorada-Chiriguaná
+========================================
+
+⚡ IMPORTANTE: Haz esto ANTES de cambiar de PC
+
+========================================
+MÉTODO 1: Windows Credential Manager (GUI)
+========================================
+
+1. Presiona: Windows + R
+
+2. Escribe: control /name Microsoft.CredentialManager
+   (copia y pega exactamente)
+
+3. Presiona: Enter
+
+4. Click en: "Credenciales de Windows"
+
+5. Busca en la lista:
+   "LegacyGeneric:target=git:https://github.com"
+   o simplemente "git:https://github.com"
+
+6. Click en la FLECHA (▼) para expandir
+
+7. Click en "Mostrar" junto a "Contraseña"
+
+8. Te pedirá tu contraseña de Windows
+   (la que usas para iniciar sesión)
+
+9. COPIAR el texto que aparece
+   (será algo como: ghp_xxxxxxxxxxxxxxxxxxxxxxx)
+
+10. PEGAR en un lugar seguro:
+    - Bloc de notas
+    - Gestor de contraseñas (LastPass, 1Password, etc.)
+    - Archivo cifrado en OneDrive personal
+
+========================================
+MÉTODO 2: PowerShell (Verificación)
+========================================
+
+Abre PowerShell y ejecuta:
+
+cmdkey /list | findstr git
+
+Deberías ver:
+Destino: LegacyGeneric:target=git:https://github.com
+
+(Esto confirma que el token existe, pero NO lo muestra)
+
+========================================
+GUARDAR ESTA INFORMACIÓN
+========================================
+
+Repositorio GitHub:
+  URL: https://github.com/dieleoz/LD-CH.git
+  Usuario: dieleoz
+  Token: [EL QUE EXTRAÍSTE]
+
+Configuración Git:
+  Nombre: Diego Leoz
+  Email: dieleoz@example.com
+
+========================================
+EN EL NUEVO PC
+========================================
+
+Sigue la guía: @@GUIA_MIGRAR_GIT_NUEVO_PC.md
+
+Resumen rápido:
+1. Instalar Git
+2. Configurar usuario/email
+3. Clonar repositorio (te pedirá usuario y token)
+4. Pegar el token cuando pida contraseña
+5. Listo!
+
+========================================
+SI PIERDES EL TOKEN
+========================================
+
+No hay problema, puedes generar uno nuevo:
+
+1. Ir a: https://github.com/settings/tokens
+
+2. Click: "Generate new token (classic)"
+
+3. Nombre del token: "LD-CH PC Nuevo"
+
+4. Seleccionar permisos:
+   ☑ repo (full control of private repositories)
+
+5. Click: "Generate token"
+
+6. COPIAR inmediatamente (solo se muestra una vez)
+
+7. Guardar en lugar seguro
+
+========================================
+CONTACTO Y SOPORTE
+========================================
+
+Portal Web: https://dieleoz.github.io/LD-CH/
+Usuario portal: 0rt1z
+Password portal: 0rt1z
+
+Usuario GitHub: dieleoz
+Repositorio: LD-CH
+
+========================================
+
+✅ CHECKLIST:
+[ ] Extraer token de Credential Manager
+[ ] Guardar token en lugar seguro
+[ ] Guardar guía @@GUIA_MIGRAR_GIT_NUEVO_PC.md
+[ ] Verificar que último commit está en GitHub
+[ ] Listo para migrar!
+
+========================================
+
