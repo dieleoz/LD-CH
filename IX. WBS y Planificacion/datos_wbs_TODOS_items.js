@@ -1,6 +1,6 @@
 ﻿// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
 // Generado automÃ¡ticamente desde WBS_Presupuestal_v2.0.md
-// Fecha: 2025-10-14 09:56:29
+// Fecha: 2025-10-14 17:29:39
 // Total items: 159
 
 window.wbsDataGlobal = window.datos_wbs = {
