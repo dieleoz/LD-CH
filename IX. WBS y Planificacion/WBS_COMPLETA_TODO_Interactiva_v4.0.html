@@ -558,21 +558,33 @@
             container.innerHTML = '';
             
             let totalModificables = 0;
+            let totalItemsNivel3 = 0;
             
-            // Crear secciones por capítulo
-            Object.keys(itemsPorCapitulo).sort().forEach(capitulo => {
+            console.log('========== INICIANDO CARGA DE WBS ==========');
+            console.log(`Total de ítems en datos: ${wbsData.items.length}`);
+            console.log(`Capítulos encontrados: ${Object.keys(itemsPorCapitulo).join(', ')}`);
+            
+            // Crear secciones por capítulo (ordenar numéricamente)
+            Object.keys(itemsPorCapitulo).sort((a, b) => Number(a) - Number(b)).forEach(capitulo => {
                 const items = itemsPorCapitulo[capitulo];
                 const capSeccion = crearSeccionCapitulo(capitulo, items);
                 container.appendChild(capSeccion);
                 
                 // Contar solo ítems de nivel 3 (X.Y.ZZZ) como modificables
-                totalModificables += items.filter(i => 
-                    i.modificable && i.codigo.match(/^\d+\.\d+\.\d+$/)
-                ).length;
+                const itemsN3 = items.filter(i => i.codigo && i.codigo.match(/^\d+\.\d+\.\d+$/));
+                totalItemsNivel3 += itemsN3.length;
+                totalModificables += itemsN3.filter(i => i.modificable).length;
+                
+                console.log(`Capítulo ${capitulo}: ${itemsN3.length} ítems nivel 3, ${itemsN3.filter(i => i.modificable).length} modificables`);
             });
             
+            console.log(`========== RESUMEN CARGA ==========`);
+            console.log(`Total ítems nivel 3 cargados: ${totalItemsNivel3}`);
+            console.log(`Total modificables: ${totalModificables}`);
+            console.log(`=======================================`);
+            
             // Actualizar stats
-            document.getElementById('total-items').textContent = wbsData.items.length;
+            document.getElementById('total-items').textContent = totalItemsNivel3;
             document.getElementById('total-capitulos').textContent = Object.keys(itemsPorCapitulo).length;
             document.getElementById('total-modificables').textContent = totalModificables;
         }
@@ -608,32 +620,44 @@
             // Capítulos (1, 2...) y Subcapítulos (1.1, 1.2...) NO se muestran como tarjetas
             const itemsNivel3 = items.filter(item => {
                 // Nivel 3 tiene patrón: X.Y.ZZZ (ej: 1.1.100, 2.3.103)
-                return item.codigo.match(/^\d+\.\d+\.\d+$/);
+                return item.codigo && item.codigo.match(/^\d+\.\d+\.\d+$/);
             });
             
-            // Agrupar por subcapítulo
+            // Agrupar por subcapítulo (extrayendo los primeros 2 niveles correctamente)
             const itemsPorSubcapitulo = {};
             itemsNivel3.forEach(item => {
-                const sub = item.codigo.substring(0, 3); // "1.1", "2.3", etc.
+                // Extraer subcapítulo usando split para manejar cualquier número de dígitos
+                const partes = item.codigo.split('.');
+                const sub = partes[0] + '.' + partes[1]; // "1.1", "2.3", "10.15", etc.
                 if (!itemsPorSubcapitulo[sub]) {
                     itemsPorSubcapitulo[sub] = [];
                 }
                 itemsPorSubcapitulo[sub].push(item);
             });
             
-            // Crear secciones por subcapítulo
-            Object.keys(itemsPorSubcapitulo).sort().forEach(subCap => {
+            // Crear secciones por subcapítulo (ordenar numéricamente)
+            const subCaps = Object.keys(itemsPorSubcapitulo).sort((a, b) => {
+                const [a1, a2] = a.split('.').map(Number);
+                const [b1, b2] = b.split('.').map(Number);
+                return (a1 - b1) || (a2 - b2);
+            });
+            
+            console.log(`Capítulo ${capitulo}: ${itemsNivel3.length} ítems en ${subCaps.length} subcapítulos`);
+            
+            subCaps.forEach(subCap => {
                 // Buscar info del subcapítulo
                 const subInfo = items.find(i => i.codigo === subCap);
                 if (subInfo) {
                     const subHeader = document.createElement('div');
                     subHeader.className = 'subcapitulo-header';
-                    subHeader.innerHTML = `<h4>📁 ${subCap} - ${subInfo.descripcion}</h4>`;
+                    subHeader.innerHTML = `<h4>📁 ${subCap} - ${subInfo.descripcion} (${itemsPorSubcapitulo[subCap].length} ítems)</h4>`;
                     itemsContainer.appendChild(subHeader);
                 }
                 
-                // Agregar ítems del subcapítulo
-                itemsPorSubcapitulo[subCap].forEach(item => {
+                // Agregar ítems del subcapítulo (ordenar por código)
+                itemsPorSubcapitulo[subCap].sort((a, b) => {
+                    return a.codigo.localeCompare(b.codigo, undefined, { numeric: true });
+                }).forEach(item => {
                     const card = crearCardItem(item);
                     itemsContainer.appendChild(card);
                 });

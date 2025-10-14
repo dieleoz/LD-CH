@@ -74,27 +74,109 @@ $salida = @{
     fecha_generacion = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 }
 
-$jsonPath = "VIII. Documentos Maestros y Metodologia/TETRA_37_ESTACIONES_v1.0.json"
-$salida | ConvertTo-Json -Depth 5 | Out-File $jsonPath -Encoding UTF8
+$jsonPath = "..\VIII. Documentos Maestros y Metodologia\TETRA_37_ESTACIONES_v1.0.json"
+$salida | ConvertTo-Json -Depth 5 | Out-File $jsonPath -Encoding UTF8 -Force
 
 Write-Host "Archivo generado: $jsonPath" -ForegroundColor Green
 Write-Host ""
 
-# Generar líneas para agregar al layout.md
-Write-Host "GENERANDO LINEAS PARA LAYOUT.MD..." -ForegroundColor Yellow
+# ================================================================
+# INTEGRAR EN LAYOUT.MD AUTOMÁTICAMENTE
+# ================================================================
+
+Write-Host "INTEGRANDO 37 ESTACIONES EN LAYOUT.MD..." -ForegroundColor Yellow
+
+$layoutMdPath = "..\layout.md"
+$layoutContent = Get-Content $layoutMdPath -Encoding UTF8
+
+# Limpiar torres TETRA antiguas
+$layoutLimpio = @()
+foreach ($linea in $layoutContent) {
+    # Saltar líneas de torres TETRA antiguas (EBT_)
+    if ($linea -match 'EBT_' -or 
+        ($linea -match 'TETRA BS' -and $linea -match '^UFV')) {
+        continue
+    }
+    # Saltar también la sección de comentarios de TETRA
+    if ($linea -match '# ELEMENTOS TETRA|Generado automaticamente.*TETRA') {
+        continue
+    }
+    $layoutLimpio += $linea
+}
+
+Write-Host "  Líneas originales: $($layoutContent.Count)" -ForegroundColor Gray
+Write-Host "  Líneas después de limpiar: $($layoutLimpio.Count)" -ForegroundColor Gray
+Write-Host "  Torres TETRA eliminadas: $($layoutContent.Count - $layoutLimpio.Count)" -ForegroundColor Green
 Write-Host ""
 
+# Función para calcular UFV según PK
+function Calcular-UFV {
+    param([double]$pk)
+    
+    if ($pk -lt 223) { return "UFV23" }
+    elseif ($pk -lt 250) { return "UFV30" }
+    elseif ($pk -lt 313) { return "UFV31" }
+    elseif ($pk -lt 327) { return "UFV01" }
+    elseif ($pk -lt 354) { return "UFV02" }
+    elseif ($pk -lt 376) { return "UFV34" }
+    elseif ($pk -lt 406) { return "UFV35" }
+    elseif ($pk -lt 430) { return "UFV36" }
+    elseif ($pk -lt 462) { return "UFV39" }
+    elseif ($pk -lt 501) { return "UFV44" }
+    elseif ($pk -lt 533) { return "UFV45" }
+    elseif ($pk -lt 552) { return "UFV46" }
+    elseif ($pk -lt 569) { return "UFV47" }
+    elseif ($pk -lt 604) { return "UFV49" }
+    elseif ($pk -lt 635) { return "UFV52" }
+    elseif ($pk -lt 663) { return "UFV54" }
+    elseif ($pk -lt 679) { return "UFV55" }
+    elseif ($pk -lt 701) { return "UFV56" }
+    elseif ($pk -lt 722) { return "UFV21" }
+    else { return "UFV22" }
+}
+
+# Generar líneas para layout.md con formato correcto
 $lineasLayout = @()
 foreach ($est in $estaciones) {
-    $linea = "| TBD | 2.1/2.2 | $($est.id) | $($est.pk_formato) | $($est.nombre) | Derecha | $($est.ubicacion) | TELECOMUNICACIONES | TETRA BS | TBD | TIPO 5 | TBD | TBD |"
+    $ufv = Calcular-UFV -pk $est.pk_numerico
+    $linea = "$ufv`t2.1`t$($est.id)`t$($est.pk_formato)`tEstación Base TETRA $($est.numero.ToString('00'))`tDerecha`tPK$($est.pk_formato) Derecha`tTELECOMUNICACIONES`tTETRA BS`tN/A`tN/A`tTBD`tTBD"
     $lineasLayout += $linea
 }
 
-$layoutPath = "VIII. Documentos Maestros y Metodologia/TETRA_37_LINEAS_LAYOUT.txt"
-$lineasLayout -join "`n" | Out-File $layoutPath -Encoding UTF8
+# Buscar donde insertar (después de las cajas de fibra)
+$insertIndex = -1
+for ($i = 0; $i -lt $layoutLimpio.Count; $i++) {
+    if ($layoutLimpio[$i] -match 'INSTITUCIONES EDUCATIVAS') {
+        $insertIndex = $i
+        break
+    }
+}
 
-Write-Host "Lineas para layout generadas: $layoutPath" -ForegroundColor Green
-Write-Host "  Total lineas: $($lineasLayout.Count)" -ForegroundColor White
+if ($insertIndex -eq -1) {
+    # Si no hay escuelas, insertar al final
+    $insertIndex = $layoutLimpio.Count
+}
+
+# Insertar torres TETRA
+$layoutFinal = @()
+$layoutFinal += $layoutLimpio[0..($insertIndex-1)]
+$layoutFinal += ""
+$layoutFinal += "# ESTACIONES BASE TETRA - Generado automaticamente por completar_37_estaciones_TETRA.ps1"
+$layoutFinal += "# Fecha: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+$layoutFinal += "# Total: 37 estaciones (espaciamiento ~14.5 km)"
+$layoutFinal += ""
+$layoutFinal += $lineasLayout
+$layoutFinal += ""
+if ($insertIndex -lt $layoutLimpio.Count) {
+    $layoutFinal += $layoutLimpio[$insertIndex..($layoutLimpio.Count-1)]
+}
+
+# Guardar
+$layoutFinal | Out-File $layoutMdPath -Encoding UTF8 -Force
+
+Write-Host "  ✅ layout.md actualizado" -ForegroundColor Green
+Write-Host "  Total líneas: $($layoutFinal.Count)" -ForegroundColor White
+Write-Host "  Torres TETRA agregadas: $($lineasLayout.Count)" -ForegroundColor Green
 Write-Host ""
 
 Write-Host "=================================================" -ForegroundColor Cyan
@@ -138,11 +220,38 @@ Write-Host "  Ejecutando extraer_todos_items_wbs.ps1..." -ForegroundColor Gray
 Write-Host "  ✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor Green
 Write-Host ""
 
-Write-Host "SIGUIENTE PASO:" -ForegroundColor Yellow
-Write-Host "  1. Revisa: $jsonPath" -ForegroundColor White
-Write-Host "  2. Revisa: $layoutPath" -ForegroundColor White
-Write-Host "  3. Integra las lineas en layout.md si corresponde" -ForegroundColor White
-Write-Host "  4. Ejecutar: .\scripts\cocinar.ps1 -Sistema 02" -ForegroundColor White
-Write-Host "  5. Ejecutar: .\scripts\servir.ps1 -Sistema 02" -ForegroundColor White
+# ================================================================
+# REGENERAR LAYOUT_DATOS.JS
+# ================================================================
+
+Write-Host "Regenerando layout_datos.js..." -ForegroundColor Yellow
+Write-Host "  Ejecutando convertir_layout_a_js.ps1..." -ForegroundColor Gray
+
+& "$PSScriptRoot\convertir_layout_a_js.ps1" 2>&1 | Out-String | ForEach-Object {
+    if ($_ -match "Total equipos|Archivo generado") {
+        Write-Host "  $_" -ForegroundColor Gray
+    }
+}
+
+Write-Host "  ✅ layout_datos.js regenerado" -ForegroundColor Green
+Write-Host ""
+
+Write-Host "=================================================" -ForegroundColor Green
+Write-Host "  REGENERACIÓN COMPLETA" -ForegroundColor Green
+Write-Host "=================================================" -ForegroundColor Green
+Write-Host ""
+Write-Host "ELEMENTOS GENERADOS:" -ForegroundColor Cyan
+Write-Host "  Torres TETRA: 37" -ForegroundColor White
+Write-Host ""
+Write-Host "ARCHIVOS ACTUALIZADOS:" -ForegroundColor Cyan
+Write-Host "  ✅ layout.md (37 torres agregadas)" -ForegroundColor White
+Write-Host "  ✅ layout_datos.js (regenerado)" -ForegroundColor White
+Write-Host "  ✅ WBS_Presupuestal_v2.0.md (item 2.1.100: 37 torres)" -ForegroundColor White
+Write-Host "  ✅ datos_wbs_TODOS_items.js (regenerado)" -ForegroundColor White
+Write-Host ""
+Write-Host "PRÓXIMOS PASOS:" -ForegroundColor Yellow
+Write-Host "  1. Abrir: WBS_Layout_Maestro.html (Layout actualizado)" -ForegroundColor White
+Write-Host "  2. Verificar: Filtro 'TETRA BS' muestra 37 torres" -ForegroundColor White
+Write-Host "  3. Refresh navegador (F5 o Ctrl+F5)" -ForegroundColor White
 Write-Host ""
 
