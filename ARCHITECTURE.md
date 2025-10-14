@@ -1,10 +1,10 @@
 # ARQUITECTURA DEL SISTEMA WBS INTERACTIVO
 ## Proyecto APP La Dorada-Chiriguaná
-## Versión: v14.7.5
+## Versión: v14.7.6
 
-**Fecha de actualización:** 12 de Octubre 2025  
+**Fecha de actualización:** 14 de Octubre 2025  
 **Responsable:** Equipo Técnico / Arquitectura de Software  
-**Estado:** ✅ Sistema en producción
+**Estado:** ✅ Sistema en producción - Bugs críticos corregidos
 
 ---
 
@@ -27,12 +27,13 @@
 
 El **Sistema WBS Interactivo** es una plataforma integral de gestión de proyectos EPC (Engineering, Procurement, Construction) que combina:
 
-- 📊 **WBS Presupuestal** con $307.5B COP
-- 🗺️ **Layout de Equipamiento** con 2,186 elementos
+- 📊 **WBS Presupuestal** con $307.5B COP (159 items)
+- 🗺️ **Layout de Equipamiento** con 2,182 elementos (9 tipos)
 - ⚠️ **Gestión de Riesgos** con 17 riesgos activos
 - 📋 **Decisiones Técnicas** (Event Sourcing)
 - 🔄 **Sincronización Automática** desde Excel
 - 🎨 **8 Interfaces HTML** dinámicas
+- ✅ **Encoding UTF-8** corregido en criterios técnicos
 
 **Objetivo:** Mantener coherencia técnica entre presupuesto, ingeniería, layout y documentación mediante automatización completa.
 
@@ -67,8 +68,9 @@ El sistema sigue el patrón **Clean Architecture** con separación clara de resp
 ┌─────────────────────────────────────────────────────────────────┐
 │  CAPA 3: DATOS INTERMEDIOS (Generados - No Editar)            │
 ├─────────────────────────────────────────────────────────────────┤
-│  • datos_wbs_TODOS_items.json / .js (95 KB)                    │
-│  • layout_datos.js (532 KB - 2,186 elementos)                  │
+│  • datos_wbs_TODOS_items.json / .js (159 items)                │
+│  • layout_datos.js (477 KB - 2,182 elementos)                  │
+│  • criterios_tecnicos_base.json / .js (UTF-8)                  │
 │  • cronograma_datos.json / .js (60 meses)                      │
 │  • riesgos_wbs.json / .js (17 riesgos)                         │
 │  • reporte_gerencial_data.js (Pareto 80/20)                    │
@@ -83,15 +85,17 @@ El sistema sigue el patrón **Clean Architecture** con separación clara de resp
 ├─────────────────────────────────────────────────────────────────┤
 │  • WBS_Menu_Principal.html (Dashboard)                         │
 │  • WBS_Presupuesto_SCC.html (Presupuesto interactivo)         │
-│  • WBS_Layout_Maestro.html (2,186 equipos + filtros)          │
+│  • WBS_Layout_Maestro.html (2,182 equipos - 9 tipos) ✅       │
 │  • WBS_Cronograma_Propuesta.html (Gantt 60 meses)             │
 │  • WBS_Analisis_Riesgos.html (17 riesgos)                     │
 │  • WBS_Reporte_Gerencial.html (Pareto + Ruta Crítica)         │
 │  • WBS_EDT_Detalle.html (Metadata enriquecida)                │
-│  • WBS_COMPLETA_TODO_Interactiva.html (124 items)             │
+│  • WBS_COMPLETA_TODO_Interactiva_v4.0.html (134 items) ✅     │
 │                                                                  │
 │  • Portal Web (index.html) con autenticación segura            │
 │  • Documentos .docx / .html para cliente                       │
+│                                                                  │
+│  ✅ v14.7.6: Bugs corregidos - Visualización completa          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 

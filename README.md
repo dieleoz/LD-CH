@@ -1,10 +1,10 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 13 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.5 - WBS ORDEN JERÁRQUICO PERFECTO**  
+**Fecha de actualización:** 14 de Octubre 2025  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.6 - INTERFACES WBS CORREGIDAS**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Orden jerárquico secuencial correcto**, **Extracción completa de 3 niveles**, Portal web publicado 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Layout 2,182 equipos (9 tipos)**, **Encoding UTF-8 corregido**, **Visualización completa en interfaces**, Portal web publicado 
 
 ---
 
@@ -15,15 +15,16 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.5 (13-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.6 (14-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
 | **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
 | **WBS Presupuestal** | ✅ 100% Dinámico | 159 ítems (6 cap + 19 sub + 134 items), 0% hardcode |
 | **Extracción WBS** | ✅ 3 Niveles | Script extrae capítulos, subcapítulos e ítems automáticamente |
-| **Layout Maestro** | ✅ Completo | 2,186 equipos totales (1,953 fibra óptica + 233 otros sistemas) - 9 tipos |
+| **Layout Maestro** | ✅ Completo | 2,182 equipos totales (1,982 telecom + 200 otros sistemas) - 9 tipos |
 | **Filtros Layout** | ✅ Funcionando | Todos los dropdowns operativos (Tipo, Sistema, UFV, PK) |
+| **Encoding UTF-8** | ✅ Corregido | Caracteres especiales (→, ÷, acentos) en criterios técnicos |
 | **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
 | **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
 | **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
@@ -31,8 +32,9 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Presupuesto Total** | ✅ Validado | $287.83 B COP (CD) + AIU/IVA = $307.53 B COP |
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
-| **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
-| **Commits Git** | ✅ Actualizados | 26+ commits v14.7.5 |
+| **Scripts** | ✅ Organizados | 59 activos + 23 legacy (nuevo: regenerar_criterios_tecnicos_js.ps1) |
+| **Commits Git** | ✅ Actualizados | 28+ commits v14.7.6 |
+| **Bugs Corregidos** | ✅ v14.7.6 | WBS_COMPLETA lista 134 items, Layout muestra 9 tipos de equipos |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -56,6 +58,45 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **BLOCKER-004** | Cronograma Material Rodante indefinido | Riesgo planificación | Oficiar ANI - Cronograma entrega |
 
 **Ver detalle completo:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`
+
+---
+
+## 🔧 **CHANGELOG v14.7.6 (14-Oct-2025)**
+
+### Bugs Críticos Corregidos:
+
+#### ✅ WBS_COMPLETA_TODO_Interactiva_v4.0.html
+**Problema:** No mostraba los 134 ítems correctamente (bug en JS línea 617)
+- ❌ Antes: Usaba `substring(0,3)` que fallaba con códigos multi-dígito
+- ✅ Ahora: Usa `split('.')` robusto para cualquier formato
+- ✅ Agregado ordenamiento numérico correcto
+- ✅ Agregado logging de debug
+- **Documentación:** `@@SOLUCION_WBS_COMPLETA_LISTADO.md`
+
+#### ✅ WBS_Layout_Maestro.html
+**Problema:** Solo mostraba filtro "TELECOMUNICACIONES" (faltaban 229 equipos)
+- ❌ Antes: 1,953 elementos (solo TELECOMUNICACIONES)
+- ✅ Ahora: 2,182 elementos (9 tipos de equipos)
+- ✅ Restaurado desde backup del 12-Oct-2025
+- ✅ Todos los filtros funcionales
+- **Documentación:** `@@SOLUCION_WBS_LAYOUT_MAESTRO.md`
+
+#### ✅ Encoding UTF-8 en Criterios Técnicos
+**Problema:** Caracteres mal codificados (â†', Ã­, Ã³, etc.)
+- ❌ Antes: `â†'` en lugar de `→`, `Ã­` en lugar de `í`
+- ✅ Ahora: Todos los caracteres especiales correctos
+- ✅ Regenerado `criterios_tecnicos_base.js` con UTF-8
+- ✅ Nuevo script: `regenerar_criterios_tecnicos_js.ps1`
+
+### Archivos Modificados:
+- `IX. WBS y Planificacion\WBS_COMPLETA_TODO_Interactiva_v4.0.html`
+- `IX. WBS y Planificacion\layout_datos.js` (restaurado)
+- `IX. WBS y Planificacion\criterios_tecnicos_base.js` (regenerado)
+- `IX. WBS y Planificacion\datos_wbs_TODOS_items.js` (regenerado)
+
+### Commits Git:
+- `f21cdc0` - fix: Corregir visualización de equipos en interfaces WBS
+- `7b8489c` - fix: Corregir encoding UTF-8 en criterios técnicos
 
 ---
 
@@ -90,10 +131,10 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 **URL:** https://github.com/dieleoz/LD-CH
 
 **Contenido:**
-- ✅ Sistema WBS v14.6 completo
+- ✅ Sistema WBS v14.7.6 completo
 - ✅ 181 documentos de ingeniería
-- ✅ 6 interfaces HTML dinámicas
-- ✅ 33 scripts PowerShell
+- ✅ 8 interfaces HTML dinámicas
+- ✅ 59 scripts PowerShell activos
 - ✅ Documentación completa
 
 **Excluido (.gitignore):**
@@ -110,14 +151,15 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```
 
-**Acceso a 7 interfaces dinámicas:**
+**Acceso a 8 interfaces dinámicas:**
 1. 💰 **Presupuesto Interactivo** - WBS con $307.5B COP
 2. 🔴 **Análisis de Riesgos** - 17 riesgos con planes de acción
 3. 📊 **Reporte Gerencial** - Pareto 80/20 + Ruta Crítica
 4. 📅 **Cronograma 60 meses** - Fases y dependencias
 5. 📋 **EDT Detallado** - Estructura de descomposición
 6. 📄 **Documentos Servidos** - Entregables .docx/.html
-7. 🗺️ **Layout Maestro** - 2,186 equipos con filtros + generación DT ⭐ NUEVO v14.7
+7. 🗺️ **Layout Maestro** - 2,182 equipos (9 tipos) con filtros + generación DT ✅ v14.7.6 Corregido
+8. 📋 **WBS Completa Interactiva** - 134 items modificables ✅ v14.7.6 Corregido
 
 ### **⚡ Comandos Principales del Sistema:**
 
