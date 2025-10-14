@@ -18,32 +18,122 @@ $wbsData = @{
     items = @()
 }
 
-# Parsear líneas
+# Primero agregar CAPÍTULOS (NIVEL 1) - Extraídos dinámicamente
+Write-Host "`nAgregando capítulos (Nivel 1)..." -ForegroundColor Yellow
+
+# Buscar todos los TOTAL CAPÍTULO X en el contenido
+$lineasContenido = $contenido -split "`r?`n"
+foreach ($lin in $lineasContenido) {
+    if ($lin -match '^\*\*TOTAL CAP.?TULO (\d+):\*\*\s+\*\*\$([0-9,]+)\*\*') {
+        $capNum = $matches[1]
+        
+        # Buscar descripción del capítulo hacia arriba
+        $desc = "CAPÍTULO $capNum"
+        for ($i = $lineasContenido.IndexOf($lin) - 1; $i -ge 0; $i--) {
+            if ($lineasContenido[$i] -match "^### .*CAP.*$capNum.*:\s*(.+)") {
+                $desc = $matches[1] -replace '\*', '' -replace '^\s+|\s+$', ''
+                break
+            }
+        }
+        
+        Write-Host "  Capítulo $capNum`: $desc" -ForegroundColor Cyan
+        
+        $cat = switch ($capNum) {
+            "1" { "control" }
+            "2" { "telecomunicaciones" }
+            "3" { "seguridad" }
+            "4" { "pasos_nivel" }
+            "5" { "centro_control" }
+            "6" { "material_rodante" }
+            default { "otro" }
+        }
+        
+        $itemCapitulo = @{
+            codigo = $capNum
+            descripcion = $desc
+            unidad = ""
+            capitulo = $capNum
+            subcapitulo = ""
+            cantidad = ""
+            vu_cop = [int64]0
+            total_cop = [int64]0
+            tipo = ""
+            modificable = $false
+            categoria = $cat
+            archivos_relacionados = @()
+            riesgos_asociados = @()
+        }
+        $wbsData.items += $itemCapitulo
+    }
+}
+
+# Ahora parsear línea por línea para subcapítulos e ítems
 $lineas = $contenido -split "`n"
 $capituloActual = ""
 $subcapituloActual = ""
 
 foreach ($linea in $lineas) {
-    # Detectar capítulo
-    if ($linea -match '### \*\*CAPÍTULO (\d+): (.+)\*\*') {
-        $capituloActual = $matches[1]
-        $descripcionCap = $matches[2]
-        Write-Host "Capitulo $($capituloActual): $descripcionCap" -ForegroundColor Cyan
-    }
-    
-    # Detectar subcapítulo
-    if ($linea -match '#### \*\*(.+?)\s+\((\d+)') {
+    # Detectar subcapítulo (NIVEL 2)
+    if ($linea -match '#### \*\*(\d+\.\d+)\s+(.+?)(?:\s+\(|\*\*)') {
         $subcapituloActual = $matches[1]
-        Write-Host "  Subcapítulo: $subcapituloActual" -ForegroundColor Gray
+        $descripcionSub = $matches[2].Trim()
+        Write-Host "  Subcapítulo: $subcapituloActual - $descripcionSub" -ForegroundColor Gray
+        
+        # AGREGAR SUBCAPÍTULO AL ARRAY (NIVEL 2)
+        $capituloDelSub = $subcapituloActual.Split('.')[0]
+        $itemSubcapitulo = @{
+            codigo = $subcapituloActual
+            descripcion = $descripcionSub
+            unidad = ""
+            capitulo = $capituloDelSub
+            subcapitulo = $subcapituloActual
+            cantidad = ""
+            vu_cop = [int64]0
+            total_cop = [int64]0
+            tipo = ""
+            modificable = $false
+            categoria = switch ($capituloDelSub) {
+                "1" { "control" }
+                "2" { "telecomunicaciones" }
+                "3" { "seguridad" }
+                "4" { "pasos_nivel" }
+                "5" { "centro_control" }
+                "6" { "material_rodante" }
+                default { "otro" }
+            }
+            archivos_relacionados = @()
+            riesgos_asociados = @()
+        }
+        $wbsData.items += $itemSubcapitulo
     }
     
-    # Detectar ítem en tabla
-    if ($linea -match '^\|\s*\*\*(\d+\.\d+\.\d+)\*\*\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\$?([\d,]+)\s*\|\s*\$?([\d,]+)') {
+    # Detectar ítem en tabla (NIVEL 3) - Incluye ítems con "-" en cantidad/VU
+    if ($linea -match '^\|\s*\*\*(\d+\.\d+\.\d+)\*\*\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\$?([\d,]+)') {
         $codigo = $matches[1]
         $descripcion = $matches[2] -replace '\*\*', '' -replace '^\s+|\s+$', ''
         $cantidad = $matches[3] -replace '\s+', ''
-        $vu = $matches[4] -replace ',', ''
-        $total = $matches[5] -replace ',', ''
+        $vu_raw = $matches[4] -replace '\s+', '' -replace '\$', '' -replace ',', ''  # ← QUITAR $ y comas
+        $total = $matches[5] -replace ',', '' -replace '\$', ''  # ← QUITAR $ y comas
+        
+        # Si VU es "-", poner 0
+        $vu = if ($vu_raw -eq '-' -or $vu_raw -eq '') {
+            0
+        } else {
+            try { [int64]$vu_raw } catch { 0 }
+        }
+        
+        # Si cantidad es "-", dejar como string vacío
+        if ($cantidad -eq '-') {
+            $cantidad = ''
+        }
+        
+        # Convertir total a Int64 con manejo de errores
+        try {
+            $totalInt64 = [int64]$total
+        } catch {
+            Write-Host "      ⚠️ Error convirtiendo total '$total' para item $codigo" -ForegroundColor Yellow
+            $totalInt64 = 0
+        }
         
         # Extraer capítulo del código (primer dígito)
         $capituloDelCodigo = $codigo.Split('.')[0]
@@ -79,8 +169,8 @@ foreach ($linea in $lineas) {
             capitulo = $capituloDelCodigo
             subcapitulo = $subcapituloActual
             cantidad = $cantidad
-            vu_cop = [int64]$vu
-            total_cop = [int64]$total
+            vu_cop = $vu  # Ya es Int64 o 0
+            total_cop = $totalInt64  # Ya es Int64
             tipo = $tipoItem
             modificable = $true
             categoria = switch ($capituloDelCodigo) {
@@ -92,6 +182,8 @@ foreach ($linea in $lineas) {
                 "6" { "material_rodante" }
                 default { "otro" }
             }
+            archivos_relacionados = @()
+            riesgos_asociados = @()
         }
         
         $wbsData.items += $item
@@ -101,9 +193,19 @@ foreach ($linea in $lineas) {
 
 # Agregar metadatos adicionales
 $wbsData.items | ForEach-Object {
-    $_.archivos_relacionados = @()
-    $_.riesgos_asociados = @()
+    if (-not $_.archivos_relacionados) { $_.archivos_relacionados = @() }
+    if (-not $_.riesgos_asociados) { $_.riesgos_asociados = @() }
 }
+
+# DEBUG: Verificar niveles antes de guardar
+Write-Host "`nDEBUG - Verificando niveles en array:" -ForegroundColor Magenta
+$nivel1 = ($wbsData.items | Where-Object { $_.codigo -match '^[1-6]$' } | Measure-Object).Count
+$nivel2 = ($wbsData.items | Where-Object { $_.codigo -match '^\d+\.\d+$' } | Measure-Object).Count
+$nivel3 = ($wbsData.items | Where-Object { $_.codigo -match '^\d+\.\d+\.\d+$' } | Measure-Object).Count
+Write-Host "  Nivel 1 (Capítulos): $nivel1" -ForegroundColor $(if($nivel1 -eq 6){"Green"}else{"Red"})
+Write-Host "  Nivel 2 (Subcapítulos): $nivel2" -ForegroundColor White
+Write-Host "  Nivel 3 (Ítems): $nivel3" -ForegroundColor White
+Write-Host "  TOTAL: $($wbsData.items.Count)" -ForegroundColor Cyan
 
 # Generar JSON
 $json = $wbsData | ConvertTo-Json -Depth 10

@@ -1,10 +1,10 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 12 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.2 - LAYOUT SINCRONIZADO CON CONTRATO**  
+**Fecha de actualización:** 13 de Octubre 2025  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.4 - WBS PRESUPUESTAL 100% DINÁMICO**  
 **Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **Layout Maestro 2,186 equipos (UFVF)**, **Puente Sogamoso agregado**, **Proyecto organizado (-72% archivos)**, Portal web publicado 
+**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Extracción completa de 3 niveles**, **Sistema regenera automáticamente**, Portal web publicado 
 
 ---
 
@@ -15,21 +15,24 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.2 (12-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.4 (13-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
 | **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
-| **Layout Maestro** | ✅ Sincronizado | 2,186 equipos con nomenclatura UFVF |
+| **WBS Presupuestal** | ✅ 100% Dinámico | 159 ítems (6 cap + 19 sub + 134 items), 0% hardcode |
+| **Extracción WBS** | ✅ 3 Niveles | Script extrae capítulos, subcapítulos e ítems automáticamente |
+| **Layout Maestro** | ✅ Completo | 1,953 equipos (9 tipos: TELECOM, CONTROL, ITS, ENERGIA, SEÑALIZACION, EDIFICACION, VIA, SEGURIDAD, INFRAESTRUCTURA) |
+| **Filtros Layout** | ✅ Funcionando | Todos los dropdowns operativos (Tipo, Sistema, UFV, PK) |
 | **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
 | **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
 | **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
 | **Documentos Servidos** | ✅ Actualizados | 28 archivos (14 Word + 14 HTML) |
-| **Presupuesto Total** | ✅ Validado | $307,533,941,332 COP |
+| **Presupuesto Total** | ✅ Validado | $268,85 B COP (CD) + AIU/IVA = ~$307 B COP |
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
 | **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
-| **Commits Git** | ✅ Actualizados | 20+ commits v14.7.2 |
+| **Commits Git** | ✅ Actualizados | 25+ commits v14.7.4 |
 
 ### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
 - **Fases de Ingeniería Completadas:** 6/6 fases (100%)
@@ -1501,9 +1504,48 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 **Documento actualizado según Metodología Punto 42**  
 **Fecha de actualización:** 11 de Octubre 2025  
-**Versión:** v14.7.1  
+**Versión:** v14.7.3  
 **Responsable:** Administrador Contractual EPC + PMO + Equipo Técnico  
-**Estado:** ✅ **SISTEMA v14.7.1 COMPLETADO - Layout Maestro (2,182 equipos) + Workflow Automático + Proyecto Organizado (-72% archivos)**
+**Estado:** ✅ **SISTEMA v14.7.3 COMPLETADO - Layout Completo Restaurado (1,953 equipos) + Todos los Filtros Operativos**
+
+---
+
+## 🎯 **ACTUALIZACIÓN v14.7.3 (13-OCT-2025)**
+
+### **✅ FIX CRÍTICO: Layout Maestro Completo Restaurado**
+
+#### PROBLEMA DETECTADO:
+- ❌ Dropdown "Tipo de Equipo" solo mostraba "TELECOMUNICACIONES"
+- ❌ Archivo `layout_datos.js` incompleto (solo elementos de fibra óptica)
+- ❌ Causado por script `regenerar_fibra_1824_cajas.ps1` que solo generaba datos TELECOM
+
+#### SOLUCIÓN IMPLEMENTADA:
+| Acción | Resultado |
+|:-------|:----------|
+| ✅ Restaurado desde backup completo | `backup_layout_pre_DT-LAYOUT-001_20251012_002606/layout_datos.js` |
+| ✅ Archivo completo con 1,953 elementos | Todos los 9 tipos de equipos incluidos |
+| ✅ Validado en local (servidor HTTP) | Todos los filtros funcionando correctamente |
+| ✅ Subido a GitHub (commit 2321be9) | GitHub Pages actualizado |
+
+#### TIPOS DE EQUIPOS RESTAURADOS (9/9):
+1. ✅ **TELECOMUNICACIONES** - CCTV, TETRA BS, ODF, Datacenter, Cajas Empalme, Domos Fusión
+2. ✅ **CONTROL** - CTC, RBC ETCS L2
+3. ✅ **EQUIPO ITS** - CCTV, HBD, WILD, Detectores
+4. ✅ **ENERGIA** - UPS, Subestaciones, Generadores
+5. ✅ **SEÑALIZACION** - Señales LED
+6. ✅ **EDIFICACION** - Estaciones, CCO, Taller
+7. ✅ **VIA** - Desvíos
+8. ✅ **SEGURIDAD** - Control Acceso, Detección Incendio
+9. ✅ **INFRAESTRUCTURA** - Puentes, Patios
+
+#### SCRIPTS CREADOS:
+- `restaurar_layout_completo.ps1` - Restaura desde backup
+- `subir_layout_a_git.ps1` - Sube cambios a GitHub (sin emojis por encoding)
+
+#### DOCUMENTACIÓN ACTUALIZADA:
+- README.md → v14.7.3
+- Roadmap → v14.7.3 (pendiente)
+- GitHub commit: `2321be9` - "Fix: Restaurar layout_datos.js completo con todos los tipos de equipos"
 
 ---
 

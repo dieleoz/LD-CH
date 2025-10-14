@@ -1,6 +1,12 @@
 ﻿
-# ELEMENTOS FIBRA OPTICA - Generado automaticamente por DT-FIBRA-641
 # Fecha: 2025-10-12 15:32:25
+
+
+
+
+
+# ELEMENTOS FIBRA OPTICA - Generado automaticamente por DT-FIBRA-641
+# Fecha: 2025-10-12 17:43:58
 
 UFV23	2.1	CAJA_FO_0001	201+470	Caja Empalme Fibra Optica	Derecha	PK201+470 Derecha	TELECOMUNICACIONES	Caja Empalme	N/A	N/A	TBD	TBD
 UFV23	2.1	CAJA_FO_0002	201+770	Caja Empalme Fibra Optica	Izquierda	PK201+770 Izquierda	TELECOMUNICACIONES	Caja Empalme	N/A	N/A	TBD	TBD

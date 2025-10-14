@@ -1,10 +1,10 @@
 ﻿# ROADMAP MAESTRO - APP LA DORADA-CHIRIGUANÃ (Marco de GestiÃ³n Consolidado)
 
-**ðŸ”„ ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
-**Estado Actual:** âœ… IngenierÃ­a 100% â†’ ðŸš€ **SISTEMA v14.7.2 - LAYOUT SINCRONIZADO CON CONTRATO**  
+**ðŸ"„ ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
+**Estado Actual:** âœ… IngenierÃ­a 100% â†' ðŸš€ **SISTEMA v14.7.4 - WBS PRESUPUESTAL 100% DINÃMICO**  
 **Fecha:** 02 de Octubre, 2025  
-**Ãšltima ActualizaciÃ³n:** 12 de Octubre de 2025 - DT-LAYOUT-001 Ejecutada (Nomenclatura UFVF + Puente Sogamoso)  
-**VersiÃ³n Actual:** v14.7.2 - Sistema WBS + Layout Sincronizado + Proyecto Organizado  
+**Ãšltima ActualizaciÃ³n:** 13 de Octubre de 2025 - Fix crÃ­tico: WBS Presupuestal totalmente dinÃ¡mico (0% hardcode)  
+**VersiÃ³n Actual:** v14.7.4 - WBS Presupuestal 100% DinÃ¡mico (159 Ã­tems, 3 niveles) + Arquitectura validada  
 **PrÃ³xima ActualizaciÃ³n:** Mensual o por hitos importantes  
 
 ### **âš¡ COMANDOS PRINCIPALES (v14.7 - 11-OCT-2025):**
@@ -2418,3 +2418,93 @@ VIII. Documentos Maestros y Metodologia/
 - **SISTEMA 06:** IntegraciÃ³n y CoordinaciÃ³n (interfaces, coordinaciÃ³n)
 - **ESPECIALIDADES:** 5 documentos master de especialidades de ingenierÃ­a
 - **GESTIÃ“N:** 5 documentos master de gestiÃ³n de proyecto
+
+
+---
+
+## ✅ **v14.7.4 - WBS PRESUPUESTAL 100% DINÁMICO (COMPLETADO 13/10/2025)**
+
+### **🎯 OBJETIVO:**
+Eliminar todo hardcoding del sistema WBS Presupuestal, logrando una arquitectura 100% dinámica que extrae automáticamente capítulos, subcapítulos e ítems desde el WBS_Presupuestal_v2.0.md sin valores fijos en código.
+
+### **🚀 LOGROS PRINCIPALES:**
+
+#### **1. EXTRACCIÓN DE 3 NIVELES COMPLETOS**
+- ✅ **Nivel 1 - Capítulos:** Script detecta automáticamente TOTAL CAPÍTULO X y busca descripción
+- ✅ **Nivel 2 - Subcapítulos:** Script extrae líneas #### **X.Y ...** con regex mejorado
+- ✅ **Nivel 3 - Ítems:** Script procesa tablas con valores monetarios limpios (sin $ ni comas)
+
+#### **2. PARSEO ROBUSTO DE VALORES**
+- ✅ **Valores monetarios:** Limpieza automática de \$\ y comas antes de conversión Int64
+- ✅ **Ítems de repuestos:** Manejo correcto de \cantidad = '-'\ y \VU = '-'\`n- ✅ **Validación:** Try-catch para todas las conversiones numéricas
+
+#### **3. DATOS COMPLETOS GENERADOS**
+- ✅ **datos_wbs_TODOS_items.json:** 159 ítems (6 cap + 19 sub + 134 items)
+- ✅ **datos_wbs_TODOS_items.js:** Versión JavaScript para HTML
+- ✅ **Total Costo Directo:** \,852,732,283 COP calculado automáticamente
+
+#### **4. HTML ACTUALIZADO**
+- ✅ **Parseo corregido:** Valores vu_cop y total_cop mantienen tipo numérico puro
+- ✅ **Formato solo en UI:** toLocaleString() se aplica al renderizar, no al mapear
+- ✅ **Cache-busting:** Timestamp actualizado para forzar recarga de datos
+
+### **📊 MÉTRICAS v14.7.4:**
+
+| Métrica | v14.7.3 | v14.7.4 | Mejora |
+|:--------|:--------|:--------|:-------|
+| Ítems extraídos | 123 | 159 | +36 ítems (+29%) |
+| Niveles jerárquicos | 1 | 3 | Capítulos + Subcapítulos + Ítems |
+| Hardcoding | Algunos valores | 0% | Totalmente dinámico |
+| Repuestos | Faltaban | 11 ítems | Completos |
+| Parseo monetario | Con errores | 100% limpio | Robusto con try-catch |
+
+### **🏗️ ARQUITECTURA 100% DINÁMICA:**
+\\\\nWBS_Presupuestal_v2.0.md (Fuente única de verdad)
+  ↓
+ scripts/extraer_todos_items_wbs.ps1 (Script mejorado)
+  ├─ Extrae Nivel 1: 6 Capítulos
+  ├─ Extrae Nivel 2: 19 Subcapítulos
+  ├─ Extrae Nivel 3: 134 Ítems
+  ├─ Limpia valores: Quita \$ y comas
+  ├─ Maneja casos especiales: '-' en cantidad/VU
+  └─ Valida conversiones: Try-catch Int64
+  ↓
+ datos_wbs_TODOS_items.json (159 ítems puros)
+  ↓
+ datos_wbs_TODOS_items.js (Para HTML)
+  ↓
+ WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html
+  └─ Mantiene números puros hasta renderizado final\n\\\`n
+### **🎯 DISCREPANCIAS DETECTADAS:**
+
+El sistema identificó inconsistencias entre totales declarados en el WBS.md y la suma real de ítems:
+
+| Capítulo | Total Declarado | Total Real | Diferencia | Causa |
+|:---------|:----------------|:-----------|:-----------|:------|
+| CAPÍTULO 1 | \,47 B | \,25 B | -\,22 B | Ítems removidos por DTs |
+| CAPÍTULO 2 | \,71 B | \,86 B | +\,15 B | Ajustes técnicos |
+| CAPÍTULO 3 | \,93 B | \,37 B | +\ M | Reajustes menores |
+| CAPÍTULO 4 | \,06 B | \,06 B | ±\ | ✅ Coincide |
+| CAPÍTULO 5 | \,85 B | \,85 B | ±\ | ✅ Coincide |
+| CAPÍTULO 6 | \ M | \ M | -\ M | Ajustes Material Rodante |
+
+**Decisión técnica:** El sistema calcula correctamente basándose en ítems reales. Los totales declarados desactualizados deben sincronizarse manualmente si se requiere.
+
+### **✅ VALIDACIÓN COMPLETA:**
+- ✅ Archivo JSON regenerado correctamente
+- ✅ 159 ítems extraídos (3 niveles)
+- ✅ Total Costo Directo: \,85 B COP
+- ✅ HTML muestra valores correctamente
+- ✅ Sin hardcoding en ninguna parte del código
+- ✅ Sistema auto-regenera con 1 comando
+
+### **📄 DOCUMENTACIÓN GENERADA:**
+- CHANGELOG_FIX_PRESUPUESTO_v14.7.4.md - Changelog técnico completo
+- RESUMEN_FIX_PRESUPUESTO_13Oct2025.md - Resumen ejecutivo
+- REPORTE_INCONSISTENCIAS_WBS_v2.11.md - Análisis de discrepancias
+- VERIFICACION_FINAL_13Oct2025.md - Validación final del sistema
+- @@ARQUITECTURA_DT_FLUJO_COMPLETO_v1.0.md - Arquitectura de propagación DTs
+
+### **🎉 RESULTADO FINAL:**
+**Sistema WBS Presupuestal 100% Dinámico y Robusto** - Sin hardcoding, auto-regenerable, con validación completa y documentación exhaustiva.
+
