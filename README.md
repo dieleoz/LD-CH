@@ -15,20 +15,20 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.4 (13-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.5 (13-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
 | **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
 | **WBS Presupuestal** | ✅ 100% Dinámico | 159 ítems (6 cap + 19 sub + 134 items), 0% hardcode |
 | **Extracción WBS** | ✅ 3 Niveles | Script extrae capítulos, subcapítulos e ítems automáticamente |
-| **Layout Maestro** | ✅ Completo | 1,953 equipos (9 tipos: TELECOM, CONTROL, ITS, ENERGIA, SEÑALIZACION, EDIFICACION, VIA, SEGURIDAD, INFRAESTRUCTURA) |
+| **Layout Maestro** | ✅ Completo | 2,186 equipos totales (1,953 fibra óptica + 233 otros sistemas) - 9 tipos |
 | **Filtros Layout** | ✅ Funcionando | Todos los dropdowns operativos (Tipo, Sistema, UFV, PK) |
 | **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
 | **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
 | **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
 | **Documentos Servidos** | ✅ Actualizados | 28 archivos (14 Word + 14 HTML) |
-| **Presupuesto Total** | ✅ Validado | $268,85 B COP (CD) + AIU/IVA = ~$307 B COP |
+| **Presupuesto Total** | ✅ Validado | $287.83 B COP (CD) + AIU/IVA = $307.53 B COP |
 | **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
 | **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
 | **Scripts** | ✅ Organizados | 58 activos + 23 legacy |
@@ -117,7 +117,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 4. 📅 **Cronograma 60 meses** - Fases y dependencias
 5. 📋 **EDT Detallado** - Estructura de descomposición
 6. 📄 **Documentos Servidos** - Entregables .docx/.html
-7. 🗺️ **Layout Maestro** - 2,182 equipos con filtros + generación DT ⭐ NUEVO v14.7
+7. 🗺️ **Layout Maestro** - 2,186 equipos con filtros + generación DT ⭐ NUEVO v14.7
 
 ### **⚡ Comandos Principales del Sistema:**
 
@@ -197,16 +197,13 @@ Abrir: IX. WBS y Planificacion/WBS_Layout_Maestro.html
 
 **🎯 Funcionalidades principales:**
 
-#### **1. VISUALIZACIÓN DE 2,182 EQUIPOS:**
+#### **1. VISUALIZACIÓN DE 2,186 EQUIPOS:**
 - ✅ Carga desde `layout_datos.js` (531 KB)
 - ✅ Vista tabular completa con todas las especificaciones
 - ✅ Elementos organizados por UFV, PK, Tipo de Equipo
-- ✅ 1,823 cajas de empalme fibra óptica
-- ✅ 130 domos de fusión
-- ✅ 37 estaciones TETRA
-- ✅ 20 puestos CTC
-- ✅ 57 cámaras CCTV
-- ✅ +160 elementos más
+- ✅ **Fibra Óptica:** 1,953 elementos (1,823 cajas de empalme + 130 domos de fusión)
+- ✅ **Otros sistemas:** 233 elementos (TETRA, CTC, CCTV, etc.)
+- ✅ **Total:** 2,186 equipos en 9 tipos diferentes
 
 #### **2. FILTROS INTELIGENTES EN CASCADA:**
 ```javascript
@@ -226,18 +223,18 @@ Abrir: IX. WBS y Planificacion/WBS_Layout_Maestro.html
 #### **3. ESTADÍSTICAS DINÁMICAS Y CONTEXTUALES:**
 ```
 Sin filtros:
-├─ Total Elementos: 2,182
-├─ Filtrados: 2,182
+├─ Total Elementos: 2,186
+├─ Filtrados: 2,186
 ├─ Cajas Filtradas: 1,823 (Total: 1,823)
 └─ Domos Filtrados: 130 (Total: 130)
 
 Con filtro CONTROL/CTC:
-├─ Total Elementos: 2,182
+├─ Total Elementos: 2,186
 ├─ Filtrados: 20
 └─ (Cajas/Domos ocultos - no aplican)
 
 Con filtro UFV23:
-├─ Total Elementos: 2,182
+├─ Total Elementos: 2,186
 ├─ Filtrados: ~180
 ├─ Cajas Filtradas: ~85 (Total: 1,823)
 └─ Domos Filtrados: ~6 (Total: 130)
@@ -426,7 +423,7 @@ Usuario ejecuta SOLO 1 comando:
    └─ [SERVIR] Genera HTML: SISTEMA_02_Telecomunicaciones_EJECUTIVO.html ✅
    ↓
 Usuario → Refresh WBS_Layout_Maestro.html (Ctrl+Shift+F5)
-   └─ Verifica: 2,182 elementos, 1,823 cajas, 130 domos ✅
+   └─ Verifica: 2,186 elementos (1,953 fibra), 1,823 cajas, 130 domos ✅
 ```
 
 **⏱️ Tiempo total:** ~30 segundos  
@@ -1503,10 +1500,10 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 ---
 
 **Documento actualizado según Metodología Punto 42**  
-**Fecha de actualización:** 11 de Octubre 2025  
-**Versión:** v14.7.3  
+**Fecha de actualización:** 13 de Octubre 2025  
+**Versión:** v14.7.5  
 **Responsable:** Administrador Contractual EPC + PMO + Equipo Técnico  
-**Estado:** ✅ **SISTEMA v14.7.3 COMPLETADO - Layout Completo Restaurado (1,953 equipos) + Todos los Filtros Operativos**
+**Estado:** ✅ **SISTEMA v14.7.5 COMPLETADO - WBS Orden Jerárquico Perfecto (159 ítems, 3 niveles) + Layout Maestro (2,186 equipos)**
 
 ---
 
@@ -1523,7 +1520,7 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 | Acción | Resultado |
 |:-------|:----------|
 | ✅ Restaurado desde backup completo | `backup_layout_pre_DT-LAYOUT-001_20251012_002606/layout_datos.js` |
-| ✅ Archivo completo con 1,953 elementos | Todos los 9 tipos de equipos incluidos |
+| ✅ Archivo completo con 2,186 elementos | Todos los 9 tipos de equipos incluidos (1,953 fibra + 233 otros) |
 | ✅ Validado en local (servidor HTTP) | Todos los filtros funcionando correctamente |
 | ✅ Subido a GitHub (commit 2321be9) | GitHub Pages actualizado |
 
@@ -1584,7 +1581,7 @@ IX. WBS y Planificacion/WBS_Menu_Principal.html
 | 5 | @@SISTEMA_SINCRO | v1.2 | Layout Maestro integrado |
 | 6 | @@Doc/README | v2.0 | 22→5 archivos |
 | 7 | @@Doc/PROBAR | v14.7 | 4 opciones, Layout #1 |
-| 8 | IX/README | v2.0 | 8 interfaces, 2,182 equipos |
+| 8 | IX/README | v2.0 | 8 interfaces, 2,186 equipos |
 | 9 | Reportes/ANI | v14.7 | Datos presupuestales |
 | 10 | scripts/README | v2.0 | 58 activos + 23 legacy |
 | 11 | scripts/COCINAR | v14.7 | Workflow automático |

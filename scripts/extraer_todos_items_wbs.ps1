@@ -221,6 +221,30 @@ Write-Host "  SUMINISTRO: $suministros items" -ForegroundColor White
 Write-Host "  OBRA: $obras items" -ForegroundColor White
 Write-Host "  SERVICIO: $servicios items" -ForegroundColor White
 
+# ========================================
+# NUEVO: Regenerar archivo JS automáticamente
+# ========================================
+Write-Host "`n💾 Regenerando datos_wbs_TODOS_items.js..." -ForegroundColor Yellow
+
+$jsPath = "..\IX. WBS y Planificacion\datos_wbs_TODOS_items.js"
+$jsonContent = Get-Content $outputPath -Raw -Encoding UTF8
+
+$jsContent = @"
+// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
+// Generado automáticamente desde WBS_Presupuestal_v2.0.md
+// Fecha: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+// Total items: $($wbsData.items.Count)
+
+window.wbsDataGlobal = window.datos_wbs = $jsonContent;
+
+console.log('✅ WBS Datos cargados:', window.wbsDataGlobal.items.length, 'items');
+console.log('✅ Fecha actualización:', window.wbsDataGlobal.fecha_actualizacion);
+"@
+
+$jsContent | Out-File -FilePath $jsPath -Encoding UTF8 -Force
+Write-Host "✅ Archivo JS regenerado: $jsPath" -ForegroundColor Green
+Write-Host "   (Exporta: window.wbsDataGlobal + window.datos_wbs)" -ForegroundColor Gray
+
 Write-Host "`nPresiona Enter para continuar..."
 Read-Host
 

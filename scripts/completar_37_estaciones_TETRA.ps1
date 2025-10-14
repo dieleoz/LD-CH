@@ -101,9 +101,48 @@ Write-Host "=================================================" -ForegroundColor 
 Write-Host "  37 ESTACIONES TETRA COMPLETADAS               " -ForegroundColor Cyan
 Write-Host "=================================================" -ForegroundColor Cyan
 Write-Host ""
+# ================================================================
+# PASO ADICIONAL: SINCRONIZAR WBS PRESUPUESTAL (NUEVO v14.7.6)
+# ================================================================
+
+Write-Host "Sincronizando WBS Presupuestal..." -ForegroundColor Yellow
+
+$totalEstaciones = 37
+Write-Host "  Total estaciones TETRA: $totalEstaciones" -ForegroundColor Cyan
+
+# Actualizar WBS_Presupuestal_v2.0.md item 2.1.100 (Torres autosoportadas)
+$wbsPath = "..\IX. WBS y Planificacion\WBS_Presupuestal_v2.0.md"
+if (Test-Path $wbsPath) {
+    $wbsContent = Get-Content $wbsPath -Raw -Encoding UTF8
+    
+    # Actualizar cantidad de torres TETRA (item 2.1.100)
+    $wbsContent = $wbsContent -replace '(\| \*\*2\.1\.100\*\* \| Torre[^\|]+\| UND \| )(\d+)([ \|])', "`${1}$totalEstaciones`${3}"
+    
+    $wbsContent | Out-File -FilePath $wbsPath -Encoding UTF8 -Force
+    Write-Host "  ✅ WBS_Presupuestal_v2.0.md actualizado" -ForegroundColor Green
+    Write-Host "     Item 2.1.100: $totalEstaciones torres" -ForegroundColor Gray
+}
+
+Write-Host ""
+
+# Regenerar datos WBS para interfaces HTML
+Write-Host "Regenerando datos_wbs_TODOS_items.js..." -ForegroundColor Yellow
+Write-Host "  Ejecutando extraer_todos_items_wbs.ps1..." -ForegroundColor Gray
+
+& "$PSScriptRoot\extraer_todos_items_wbs.ps1" 2>&1 | Out-String | ForEach-Object {
+    if ($_ -match "Items extraidos|Archivo generado|JS regenerado") {
+        Write-Host "  $_" -ForegroundColor Gray
+    }
+}
+
+Write-Host "  ✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor Green
+Write-Host ""
+
 Write-Host "SIGUIENTE PASO:" -ForegroundColor Yellow
 Write-Host "  1. Revisa: $jsonPath" -ForegroundColor White
 Write-Host "  2. Revisa: $layoutPath" -ForegroundColor White
 Write-Host "  3. Integra las lineas en layout.md si corresponde" -ForegroundColor White
+Write-Host "  4. Ejecutar: .\scripts\cocinar.ps1 -Sistema 02" -ForegroundColor White
+Write-Host "  5. Ejecutar: .\scripts\servir.ps1 -Sistema 02" -ForegroundColor White
 Write-Host ""
 

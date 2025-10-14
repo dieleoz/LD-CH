@@ -273,10 +273,55 @@ Write-Host "ARCHIVOS ACTUALIZADOS:" -ForegroundColor Cyan
 Write-Host "  ✅ layout.md" -ForegroundColor White
 Write-Host "  ✅ layout_datos.js" -ForegroundColor White
 Write-Host "  ✅ LAYOUT_INTEGRAL_COMPLETO_v1.0.json" -ForegroundColor White
+# ================================================================
+# PASO 8: SINCRONIZAR WBS PRESUPUESTAL (NUEVO v14.7.6)
+# ================================================================
+
+Write-Host "PASO 8: Sincronizando WBS Presupuestal..." -ForegroundColor Yellow
+
+$totalCajas = $cajas.Count + $cajasPuentes.Count
+Write-Host "  Total cajas calculadas: $totalCajas" -ForegroundColor Cyan
+Write-Host "  Domos de fusion: $($domos.Count)" -ForegroundColor Cyan
+
+# Actualizar WBS_Presupuestal_v2.0.md item 2.3.103 (Cajas de empalme)
+$wbsPath = "..\IX. WBS y Planificacion\WBS_Presupuestal_v2.0.md"
+if (Test-Path $wbsPath) {
+    $wbsContent = Get-Content $wbsPath -Raw -Encoding UTF8
+    
+    # Actualizar cantidad de cajas (item 2.3.103)
+    $wbsContent = $wbsContent -replace '(\| \*\*2\.3\.103\*\* \| Cajas de empalme[^\|]+\| UND \| )(\d+)([ \|])', "`${1}$totalCajas`${3}"
+    
+    # Actualizar cantidad de domos si existe (item 2.3.109 o similar)
+    $wbsContent = $wbsContent -replace '(\| \*\*2\.3\.109\*\* \| Domo[^\|]+\| UND \| )(\d+)([ \|])', "`${1}$($domos.Count)`${3}"
+    
+    $wbsContent | Out-File -FilePath $wbsPath -Encoding UTF8 -Force
+    Write-Host "  ✅ WBS_Presupuestal_v2.0.md actualizado" -ForegroundColor Green
+    Write-Host "     Item 2.3.103: $totalCajas cajas" -ForegroundColor Gray
+    Write-Host "     Item 2.3.109: $($domos.Count) domos" -ForegroundColor Gray
+}
+
 Write-Host ""
+
+# ================================================================
+# PASO 9: REGENERAR DATOS WBS PARA INTERFACES HTML (NUEVO v14.7.6)
+# ================================================================
+
+Write-Host "PASO 9: Regenerando datos_wbs_TODOS_items.js..." -ForegroundColor Yellow
+Write-Host "  Ejecutando extraer_todos_items_wbs.ps1..." -ForegroundColor Gray
+
+& "$PSScriptRoot\extraer_todos_items_wbs.ps1" 2>&1 | Out-String | ForEach-Object {
+    if ($_ -match "Items extraidos|Archivo generado|JS regenerado") {
+        Write-Host "  $_" -ForegroundColor Gray
+    }
+}
+
+Write-Host "  ✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor Green
+Write-Host ""
+
 Write-Host "PROXIMOS PASOS:" -ForegroundColor Yellow
 Write-Host "  1. Ejecutar: .\scripts\cocinar.ps1" -ForegroundColor White
 Write-Host "  2. Ejecutar: .\scripts\servir.ps1" -ForegroundColor White
-Write-Host "  3. Abrir: WBS_Layout_Maestro.html" -ForegroundColor White
+Write-Host "  3. Abrir: WBS_Layout_Maestro.html (Layout actualizado)" -ForegroundColor White
+Write-Host "  4. Abrir: WBS_COMPLETA_TODO_Interactiva_v4.0.html (WBS sincronizado)" -ForegroundColor White
 Write-Host ""
 

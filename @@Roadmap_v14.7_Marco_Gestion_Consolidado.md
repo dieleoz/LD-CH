@@ -1,10 +1,10 @@
 ﻿# ROADMAP MAESTRO - APP LA DORADA-CHIRIGUANÃ (Marco de GestiÃ³n Consolidado)
 
 **ðŸ"„ ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
-**Estado Actual:** âœ… IngenierÃ­a 100% â†' ðŸš€ **SISTEMA v14.7.4 - WBS PRESUPUESTAL 100% DINÃMICO**  
+**Estado Actual:** âœ… IngenierÃ­a 100% â†' ðŸš€ **SISTEMA v14.7.5 - WBS ORDEN JERÃRQUICO PERFECTO**  
 **Fecha:** 02 de Octubre, 2025  
-**Ãšltima ActualizaciÃ³n:** 13 de Octubre de 2025 - Fix crÃ­tico: WBS Presupuestal totalmente dinÃ¡mico (0% hardcode)  
-**VersiÃ³n Actual:** v14.7.4 - WBS Presupuestal 100% DinÃ¡mico (159 Ã­tems, 3 niveles) + Arquitectura validada  
+**Ãšltima ActualizaciÃ³n:** 13 de Octubre de 2025 - WBS orden jerÃ¡rquico secuencial perfecto (159 Ã­tems, 3 niveles, 0% hardcode)  
+**VersiÃ³n Actual:** v14.7.5 - WBS Orden JerÃ¡rquico Secuencial Perfecto (159 Ã­tems, 3 niveles) + Layout Maestro (2,186 equipos)  
 **PrÃ³xima ActualizaciÃ³n:** Mensual o por hitos importantes  
 
 ### **âš¡ COMANDOS PRINCIPALES (v14.7 - 11-OCT-2025):**
@@ -42,6 +42,8 @@
 | **v14.7** | **Layout Maestro Interactivo + DT AutomÃ¡ticas Fibra** | âœ… **COMPLETADO** | **11 Octubre 2025** |
 | **v14.7.1** | **Limpieza y OrganizaciÃ³n Documental (-58% archivos)** | âœ… **COMPLETADO** | **11 Octubre 2025** |
 | **v14.7.2** | **DT-LAYOUT-001: Nomenclatura UFVF + Puente Sogamoso** | âœ… **COMPLETADO** | **12 Octubre 2025** |
+| **v14.7.4** | **WBS Presupuestal 100% DinÃ¡mico (0% hardcode)** | âœ… **COMPLETADO** | **13 Octubre 2025** |
+| **v14.7.5** | **WBS Orden JerÃ¡rquico Secuencial Perfecto** | âœ… **COMPLETADO** | **13 Octubre 2025** |
 | v15.0 | Pre-ConstrucciÃ³n | â³ PrÃ³xima | 2025 |
 | v16.0+ | ConstrucciÃ³n | â³ Futura | 2025-2027 |
 | v20.0+ | OperaciÃ³n | â³ Futura | 2027+ |

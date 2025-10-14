@@ -1,5 +1,10 @@
-﻿window.datos_wbs = {
-    "fecha_actualizacion":  "2025-10-13",
+﻿// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
+// Generado automÃ¡ticamente desde WBS_Presupuestal_v2.0.md
+// Fecha: 2025-10-14 09:56:29
+// Total items: 159
+
+window.wbsDataGlobal = window.datos_wbs = {
+    "fecha_actualizacion":  "2025-10-14",
     "total_capitulos":  6,
     "version":  "3.0",
     "items":  [
@@ -3027,4 +3032,7 @@
               ],
     "proyecto":  "APP La Dorada-ChiriguanÃ¡"
 }
+;
 
+console.log('âœ… WBS Datos cargados:', window.wbsDataGlobal.items.length, 'items');
+console.log('âœ… Fecha actualizaciÃ³n:', window.wbsDataGlobal.fecha_actualizacion);

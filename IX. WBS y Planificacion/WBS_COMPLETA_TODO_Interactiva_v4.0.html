@@ -221,6 +221,21 @@
             font-size: 14px;
         }
         
+        .subcapitulo-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 12px 20px;
+            margin: 15px 20px 10px 20px;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .subcapitulo-header h4 {
+            margin: 0;
+            color: #495057;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
         .item-card {
             margin: 10px 20px;
             border: 2px solid #e9ecef;
@@ -406,7 +421,7 @@
     <div class="container">
         <div class="header">
             <h1>📊 WBS PRESUPUESTAL COMPLETA v4.0</h1>
-            <p>APP La Dorada-Chiriguaná | TODOS los Ítems (124) + Proponer Nuevos Capítulos</p>
+            <p>APP La Dorada-Chiriguaná | 159 Ítems Totales (134 Modificables) + Proponer Nuevos Capítulos</p>
         </div>
 
         <div class="stats-bar">
@@ -494,7 +509,7 @@
     </div>
 
     <!-- Cargar datos desde archivos JS -->
-    <script src="datos_wbs_TODOS_items.js?v=1.0.1"></script>
+    <script src="datos_wbs_TODOS_items.js?v=1.0.3"></script>
     <script src="criterios_tecnicos_base.js?v=1.0.0"></script>
     
     <script>
@@ -550,7 +565,10 @@
                 const capSeccion = crearSeccionCapitulo(capitulo, items);
                 container.appendChild(capSeccion);
                 
-                totalModificables += items.filter(i => i.modificable).length;
+                // Contar solo ítems de nivel 3 (X.Y.ZZZ) como modificables
+                totalModificables += items.filter(i => 
+                    i.modificable && i.codigo.match(/^\d+\.\d+\.\d+$/)
+                ).length;
             });
             
             // Actualizar stats
@@ -586,9 +604,39 @@
             const itemsContainer = document.createElement('div');
             itemsContainer.id = `items-capitulo-${capitulo}`;
             
-            items.forEach(item => {
-                const card = crearCardItem(item);
-                itemsContainer.appendChild(card);
+            // Filtrar para mostrar solo ítems de nivel 3 (X.Y.ZZZ)
+            // Capítulos (1, 2...) y Subcapítulos (1.1, 1.2...) NO se muestran como tarjetas
+            const itemsNivel3 = items.filter(item => {
+                // Nivel 3 tiene patrón: X.Y.ZZZ (ej: 1.1.100, 2.3.103)
+                return item.codigo.match(/^\d+\.\d+\.\d+$/);
+            });
+            
+            // Agrupar por subcapítulo
+            const itemsPorSubcapitulo = {};
+            itemsNivel3.forEach(item => {
+                const sub = item.codigo.substring(0, 3); // "1.1", "2.3", etc.
+                if (!itemsPorSubcapitulo[sub]) {
+                    itemsPorSubcapitulo[sub] = [];
+                }
+                itemsPorSubcapitulo[sub].push(item);
+            });
+            
+            // Crear secciones por subcapítulo
+            Object.keys(itemsPorSubcapitulo).sort().forEach(subCap => {
+                // Buscar info del subcapítulo
+                const subInfo = items.find(i => i.codigo === subCap);
+                if (subInfo) {
+                    const subHeader = document.createElement('div');
+                    subHeader.className = 'subcapitulo-header';
+                    subHeader.innerHTML = `<h4>📁 ${subCap} - ${subInfo.descripcion}</h4>`;
+                    itemsContainer.appendChild(subHeader);
+                }
+                
+                // Agregar ítems del subcapítulo
+                itemsPorSubcapitulo[subCap].forEach(item => {
+                    const card = crearCardItem(item);
+                    itemsContainer.appendChild(card);
+                });
             });
             
             seccion.appendChild(itemsContainer);
