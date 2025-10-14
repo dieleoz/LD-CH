@@ -18,25 +18,19 @@ $wbsData = @{
     items = @()
 }
 
-# Primero agregar CAPÍTULOS (NIVEL 1) - Extraídos dinámicamente
-Write-Host "`nAgregando capítulos (Nivel 1)..." -ForegroundColor Yellow
+# Parsear línea por línea para TODOS los niveles (capítulos, subcapítulos, ítems)
+Write-Host "`nExtrayendo TODOS los niveles secuencialmente..." -ForegroundColor Yellow
+$lineas = $contenido -split "`n"
+$capituloActual = ""
+$subcapituloActual = ""
 
-# Buscar todos los TOTAL CAPÍTULO X en el contenido
-$lineasContenido = $contenido -split "`r?`n"
-foreach ($lin in $lineasContenido) {
-    if ($lin -match '^\*\*TOTAL CAP.?TULO (\d+):\*\*\s+\*\*\$([0-9,]+)\*\*') {
+foreach ($linea in $lineas) {
+    # Detectar capítulo (NIVEL 1)
+    if ($linea -match '^### \*\*CAP.?TULO (\d+):\s*(.+?)\*\*') {
         $capNum = $matches[1]
+        $desc = $matches[2] -replace '\*', '' -replace '^\s+|\s+$', ''
         
-        # Buscar descripción del capítulo hacia arriba
-        $desc = "CAPÍTULO $capNum"
-        for ($i = $lineasContenido.IndexOf($lin) - 1; $i -ge 0; $i--) {
-            if ($lineasContenido[$i] -match "^### .*CAP.*$capNum.*:\s*(.+)") {
-                $desc = $matches[1] -replace '\*', '' -replace '^\s+|\s+$', ''
-                break
-            }
-        }
-        
-        Write-Host "  Capítulo $capNum`: $desc" -ForegroundColor Cyan
+        Write-Host "  Capítulo $capNum`: $desc" -ForegroundColor Yellow
         
         $cat = switch ($capNum) {
             "1" { "control" }
@@ -64,15 +58,10 @@ foreach ($lin in $lineasContenido) {
             riesgos_asociados = @()
         }
         $wbsData.items += $itemCapitulo
+        $capituloActual = $capNum
+        continue
     }
-}
-
-# Ahora parsear línea por línea para subcapítulos e ítems
-$lineas = $contenido -split "`n"
-$capituloActual = ""
-$subcapituloActual = ""
-
-foreach ($linea in $lineas) {
+    
     # Detectar subcapítulo (NIVEL 2)
     if ($linea -match '#### \*\*(\d+\.\d+)\s+(.+?)(?:\s+\(|\*\*)') {
         $subcapituloActual = $matches[1]

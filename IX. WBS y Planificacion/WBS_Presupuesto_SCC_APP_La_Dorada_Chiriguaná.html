@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WBS Presupuesto SCC - APP La Dorada-ChiriguanÃ¡</title>
+    <title>WBS Presupuesto SCC - APP La Dorada-Chiriguaná</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
         * {
@@ -329,13 +329,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>ðŸ“Š WBS PRESUPUESTO SISTEMA DE COMUNICACIONES Y CONTROL</h1>
-            <p>APP La Dorada-ChiriguanÃ¡ | UF-2.2 | VersiÃ³n 3.4 (Actualizada 08/10/2025)</p>
+            <h1>📊 WBS PRESUPUESTO SISTEMA DE COMUNICACIONES Y CONTROL</h1>
+            <p>APP La Dorada-Chiriguaná | UF-2.2 | Versión 3.4 (Actualizada 08/10/2025)</p>
             <div style="background: #d4edda; border: 1px solid #c3e6cb; border-radius: 6px; padding: 15px; margin: 15px 0;">
-                <h3 style="color: #155724; margin-bottom: 10px;">âœ… WBS ACTUALIZADA v3.0 - CAMBIOS TÃ‰CNICOS APLICADOS</h3>
-                <p style="color: #155724; margin: 5px 0;"><strong>DT-CTC-003:</strong> Software CTC + ETCS L2 + FENOCO (+$79,352M) â­</p>
+                <h3 style="color: #155724; margin-bottom: 10px;">✅ WBS ACTUALIZADA v3.0 - CAMBIOS TÉCNICOS APLICADOS</h3>
+                <p style="color: #155724; margin: 5px 0;"><strong>DT-CTC-003:</strong> Software CTC + ETCS L2 + FENOCO (+$79,352M) ⭐</p>
                 <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA (3 DTs):</strong> Software, Servidores, Interfaces L2/L3 (+$9,212M)</p>
-                <p style="color: #155724; margin: 5px 0;"><strong>DT-TETRA-001:</strong> ATP 15â†’8 UND (-$7,480M)</p>
+                <p style="color: #155724; margin: 5px 0;"><strong>DT-TETRA-001:</strong> ATP 15→8 UND (-$7,480M)</p>
                 <p style="color: #155724; margin: 5px 0;"><strong>Total incremento neto:</strong> +$89,084,588,766 COP (+56.0%)</p>
             </div>
         </div>
@@ -373,7 +373,7 @@
                 <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clip-rule="evenodd"/>
                 </svg>
-                Validar CÃ¡lculos
+                Validar Cálculos
             </button>
             <button class="btn btn-info" onclick="imprimirPDF()">
                 <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
@@ -397,8 +397,8 @@
             <table id="wbsTable">
                 <thead>
                     <tr>
-                        <th style="width: 80px;">ÃTEM</th>
-                        <th style="width: 400px;">DESCRIPCIÃ“N</th>
+                        <th style="width: 80px;">ÍTEM</th>
+                        <th style="width: 400px;">DESCRIPCIÓN</th>
                         <th style="width: 120px;">TIPO</th>
                         <th style="width: 80px;">UNIDAD</th>
                         <th style="width: 100px;">CANTIDAD</th>
@@ -414,26 +414,26 @@
         
         <div class="stats">
             <div class="stat-card">
-                <h3>Total Ãtems</h3>
+                <h3>Total Ítems</h3>
                 <p id="totalItems">-</p>
             </div>
             <div class="stat-card" style="border-color: #856404;">
-                <h3>Ãtems Obra Civil</h3>
+                <h3>Ítems Obra Civil</h3>
                 <p id="totalObra">-</p>
             </div>
             <div class="stat-card" style="border-color: #0c5460;">
-                <h3>Ãtems Suministros</h3>
+                <h3>Ítems Suministros</h3>
                 <p id="totalSuministro">-</p>
             </div>
             <div class="stat-card" style="border-color: #155724;">
-                <h3>Ãtems Servicios</h3>
+                <h3>Ítems Servicios</h3>
                 <p id="totalServicio">-</p>
             </div>
         </div>
     </div>
 
-    <!-- Cargar datos sincronizados desde fuente Ãºnica (Mejora v14.7.4) -->
-    <script src="datos_wbs_TODOS_items.js?v=20251013194648"></script>
+    <!-- Cargar datos sincronizados desde fuente única (Mejora v14.7.4) -->
+    <script src="datos_wbs_TODOS_items.js?v=20251014002000"></script>
     
     <script>
         // Convertir datos de WBS Completa a formato WBS Presupuestal
@@ -442,7 +442,7 @@
         if (typeof window.datos_wbs !== 'undefined' && window.datos_wbs.items) {
             // Transformar formato de datos_wbs_TODOS_items.js a formato presupuestal
             wbsData = window.datos_wbs.items.map(item => {
-                // Determinar nivel basado en el cÃ³digo (ej: "1.1.100" = nivel 3)
+                // Determinar nivel basado en el código (ej: "1.1.100" = nivel 3)
                 const nivel = item.codigo.split('.').length;
                 
                 return {
@@ -451,28 +451,28 @@
                     descripcion: item.descripcion,
                     unidad: item.unidad || "",
                     cantidad: item.cantidad || "",
-                    vu: item.vu_cop ? item.vu_cop.toLocaleString('es-CO') : "",
-                    total: item.total_cop ? item.total_cop.toLocaleString('es-CO') : "",
+                    vu: item.vu_cop || 0,  // Mantener como número, NO formatear aquí
+                    total: item.total_cop || 0,  // Mantener como número, NO formatear aquí
                     tipo: item.tipo || ""
                 };
             });
             
-            console.log('âœ… Datos cargados desde datos_wbs_TODOS_items.js:', wbsData.length, 'items');
-            console.log('ðŸ“… Ãšltima actualizaciÃ³n WBS:', window.datos_wbs.fecha_actualizacion);
+            console.log('✅ Datos cargados desde datos_wbs_TODOS_items.js:', wbsData.length, 'items');
+            console.log('📅 Última actualización WBS:', window.datos_wbs.fecha_actualizacion);
         } else {
-            console.warn('âš ï¸ No se pudo cargar datos_wbs_TODOS_items.js, usando datos hardcoded');
+            console.warn('⚠️ No se pudo cargar datos_wbs_TODOS_items.js, usando datos hardcoded');
             wbsData = [
-            // CAPÃTULO 1: FIBRA Ã“PTICA (Datos de respaldo)
-            {nivel: 1, item: "1", descripcion: "FIBRA Ã“PTICA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // CAPÍTULO 1: FIBRA ÓPTICA (Datos de respaldo)
+            {nivel: 1, item: "1", descripcion: "FIBRA ÓPTICA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 2, item: "1.1", descripcion: "SUMINISTROS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "1.1.1", descripcion: "Cable FO LPOC03120484ZC - 48 fibras G.652D", unidad: "km", cantidad: "594", vu: "9,811,013", total: "5,827,741,722", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.2", descripcion: "Empalmes y conectores", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "1.1.3", descripcion: "Cajas de empalme y distribuciÃ³n 80x80", unidad: "UND", cantidad: "2,068", vu: "1,350,000", total: "2,791,800,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "1.1.4", descripcion: "Tritubo 40mm (11/4) RDE 13.6 RÃ­gido - Rollos x 400m", unidad: "ROLLO", cantidad: "1,485", vu: "15,845", total: "23,529,825", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "1.1.5", descripcion: "Uniones rÃ¡pidas 40mm (1-1/4) - 3 vÃ­as", unidad: "UND", cantidad: "6,204", vu: "35,000", total: "217,140,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "1.1.3", descripcion: "Cajas de empalme y distribución 80x80", unidad: "UND", cantidad: "2,068", vu: "1,350,000", total: "2,791,800,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "1.1.4", descripcion: "Tritubo 40mm (11/4) RDE 13.6 Rígido - Rollos x 400m", unidad: "ROLLO", cantidad: "1,485", vu: "15,845", total: "23,529,825", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "1.1.5", descripcion: "Uniones rápidas 40mm (1-1/4) - 3 vías", unidad: "UND", cantidad: "6,204", vu: "35,000", total: "217,140,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.6", descripcion: "Equipos terminales de fibra (ODF)", unidad: "UND", cantidad: "8", vu: "25,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "1.1.7", descripcion: "Fusionadoras de fibra Ã³ptica (principal + respaldo)", unidad: "UND", cantidad: "2", vu: "50,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "1.1.8", descripcion: "OTDR (ReflectÃ³metro) - principal + respaldo", unidad: "UND", cantidad: "2", vu: "30,000,000", total: "60,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "1.1.7", descripcion: "Fusionadoras de fibra óptica (principal + respaldo)", unidad: "UND", cantidad: "2", vu: "50,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "1.1.8", descripcion: "OTDR (Reflectómetro) - principal + respaldo", unidad: "UND", cantidad: "2", vu: "30,000,000", total: "60,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.9", descripcion: "Muflas para fusionado (6,600 + 10% repuesto)", unidad: "UND", cantidad: "7,260", vu: "25,000", total: "181,500,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.10", descripcion: "Insumos para fusionado (6,600 fusiones)", unidad: "GL", cantidad: "1", vu: "99,000,000", total: "99,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.11", descripcion: "Fibra repuesto (10% de 594 km)", unidad: "km", cantidad: "59.4", vu: "9,811,013", total: "582,774,172", tipo: "SUMINISTRO"},
@@ -480,65 +480,65 @@
             {nivel: 3, item: "1.1.13", descripcion: "Cajas repuesto (5% de 2,068)", unidad: "UND", cantidad: "104", vu: "1,350,000", total: "140,400,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "1.1.14", descripcion: "Uniones repuesto (5% de 6,204)", unidad: "UND", cantidad: "310", vu: "35,000", total: "10,850,000", tipo: "SUMINISTRO"},
             {nivel: 2, item: "1.2", descripcion: "OBRA CIVIL", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "1.2.1", descripcion: "Mano de obra zanja 70cmÃ—40cm + instalaciÃ³n fibra", unidad: "km", cantidad: "594", vu: "90,188,987", total: "53,572,258,278", tipo: "OBRA"},
+            {nivel: 3, item: "1.2.1", descripcion: "Mano de obra zanja 70cm×40cm + instalación fibra", unidad: "km", cantidad: "594", vu: "90,188,987", total: "53,572,258,278", tipo: "OBRA"},
             {nivel: 2, item: "1.3", descripcion: "SERVICIOS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "1.3.1", descripcion: "InstalaciÃ³n y tendido de cable", unidad: "km", cantidad: "594", vu: "800,000", total: "475,200,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "1.3.2", descripcion: "FusiÃ³n y certificaciÃ³n de enlaces (6,600 fusiones)", unidad: "UND", cantidad: "6,600", vu: "25,000", total: "165,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "1.3.3", descripcion: "Pruebas OTDR y documentaciÃ³n", unidad: "GL", cantidad: "1", vu: "50,000,000", total: "50,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "1.3.1", descripcion: "Instalación y tendido de cable", unidad: "km", cantidad: "594", vu: "800,000", total: "475,200,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "1.3.2", descripcion: "Fusión y certificación de enlaces (6,600 fusiones)", unidad: "UND", cantidad: "6,600", vu: "25,000", total: "165,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "1.3.3", descripcion: "Pruebas OTDR y documentación", unidad: "GL", cantidad: "1", vu: "50,000,000", total: "50,000,000", tipo: "SERVICIO"},
 
-            // CAPÃTULO 2: SISTEMA DE ENERGÃA Y RESPALDO (CCO + ESTACIONES ENCE + TALLERES + PASOS A NIVEL)
-            {nivel: 1, item: "2", descripcion: "SISTEMA DE ENERGÃA Y RESPALDO (CCO + ESTACIONES ENCE + TALLERES + PASOS A NIVEL)", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 2, item: "2.1", descripcion: "SUMINISTROS ENERGÃA NO-TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // CAPÍTULO 2: SISTEMA DE ENERGÍA Y RESPALDO (CCO + ESTACIONES ENCE + TALLERES + PASOS A NIVEL)
+            {nivel: 1, item: "2", descripcion: "SISTEMA DE ENERGÍA Y RESPALDO (CCO + ESTACIONES ENCE + TALLERES + PASOS A NIVEL)", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            {nivel: 2, item: "2.1", descripcion: "SUMINISTROS ENERGÍA NO-TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "2.1.1", descripcion: "UPS/SAI para CCO (1)", unidad: "UND", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "2.1.2", descripcion: "UPS/SAI para 5 estaciones ENCE", unidad: "UND", cantidad: "5", vu: "50,000,000", total: "250,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "2.1.3", descripcion: "UPS/SAI para 2 talleres", unidad: "UND", cantidad: "2", vu: "40,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "2.1.4", descripcion: "UPS/SAI para 24 pasos a nivel equipados", unidad: "UND", cantidad: "24", vu: "15,000,000", total: "360,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "2.1.5", descripcion: "Banco de baterÃ­as CCO", unidad: "UND", cantidad: "1", vu: "50,000,000", total: "50,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "2.1.6", descripcion: "Plantas elÃ©ctricas de respaldo CCO", unidad: "UND", cantidad: "2", vu: "80,000,000", total: "160,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "2.1.7", descripcion: "Sistema de transferencia automÃ¡tica", unidad: "UND", cantidad: "32", vu: "15,000,000", total: "480,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "2.1.8", descripcion: "Tableros elÃ©ctricos principales", unidad: "UND", cantidad: "32", vu: "20,000,000", total: "640,000,000", tipo: "SUMINISTRO"},
-            {nivel: 2, item: "2.2", descripcion: "OBRA CIVIL ENERGÃA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "2.2.1", descripcion: "Sala de equipos elÃ©ctricos CCO", unidad: "mÂ²", cantidad: "100", vu: "3,000,000", total: "300,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "2.2.2", descripcion: "Cimentaciones plantas elÃ©ctricas", unidad: "UND", cantidad: "3", vu: "20,000,000", total: "60,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "2.2.3", descripcion: "Acometidas elÃ©ctricas principales", unidad: "UND", cantidad: "8", vu: "15,000,000", total: "120,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "2.1.5", descripcion: "Banco de baterías CCO", unidad: "UND", cantidad: "1", vu: "50,000,000", total: "50,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "2.1.6", descripcion: "Plantas eléctricas de respaldo CCO", unidad: "UND", cantidad: "2", vu: "80,000,000", total: "160,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "2.1.7", descripcion: "Sistema de transferencia automática", unidad: "UND", cantidad: "32", vu: "15,000,000", total: "480,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "2.1.8", descripcion: "Tableros eléctricos principales", unidad: "UND", cantidad: "32", vu: "20,000,000", total: "640,000,000", tipo: "SUMINISTRO"},
+            {nivel: 2, item: "2.2", descripcion: "OBRA CIVIL ENERGÍA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            {nivel: 3, item: "2.2.1", descripcion: "Sala de equipos eléctricos CCO", unidad: "m²", cantidad: "100", vu: "3,000,000", total: "300,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "2.2.2", descripcion: "Cimentaciones plantas eléctricas", unidad: "UND", cantidad: "3", vu: "20,000,000", total: "60,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "2.2.3", descripcion: "Acometidas eléctricas principales", unidad: "UND", cantidad: "8", vu: "15,000,000", total: "120,000,000", tipo: "OBRA"},
             {nivel: 3, item: "2.2.4", descripcion: "Sistema de puesta a tierra", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "OBRA"},
-            {nivel: 2, item: "2.3", descripcion: "SERVICIOS ENERGÃA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "2.3.1", descripcion: "InstalaciÃ³n sistemas elÃ©ctricos", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SERVICIO"},
+            {nivel: 2, item: "2.3", descripcion: "SERVICIOS ENERGÍA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            {nivel: 3, item: "2.3.1", descripcion: "Instalación sistemas eléctricos", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SERVICIO"},
             {nivel: 3, item: "2.3.2", descripcion: "Puesta en marcha sistemas", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "2.3.3", descripcion: "Pruebas de autonomÃ­a y respaldo", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "2.3.3", descripcion: "Pruebas de autonomía y respaldo", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SERVICIO"},
 
-            // CAPÃTULO 3: SISTEMAS DE COMUNICACIÃ“N TETRA
-            {nivel: 1, item: "3", descripcion: "SISTEMAS DE COMUNICACIÃ“N TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // CAPÍTULO 3: SISTEMAS DE COMUNICACIÓN TETRA
+            {nivel: 1, item: "3", descripcion: "SISTEMAS DE COMUNICACIÓN TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 2, item: "3.1", descripcion: "SUMINISTROS TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "3.1.1", descripcion: "Torres autosoportadas 40-60m (37 estaciones)", unidad: "UND", cantidad: "37", vu: "250,000,000", total: "9,250,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.2", descripcion: "Estaciones base TETRA", unidad: "UND", cantidad: "37", vu: "80,000,000", total: "2,960,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.3", descripcion: "Antenas TETRA", unidad: "UND", cantidad: "37", vu: "15,000,000", total: "555,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.4", descripcion: "UPS/SAI 3kVA", unidad: "UND", cantidad: "37", vu: "25,000,000", total: "925,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "3.1.5", descripcion: "BaterÃ­as VRLA", unidad: "UND", cantidad: "37", vu: "12,000,000", total: "444,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "3.1.5", descripcion: "Baterías VRLA", unidad: "UND", cantidad: "37", vu: "12,000,000", total: "444,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.6", descripcion: "Radios punto a punto 1GB", unidad: "UND", cantidad: "74", vu: "120,000,000", total: "8,880,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "3.1.7", descripcion: "Antenas parabÃ³licas", unidad: "UND", cantidad: "74", vu: "25,000,000", total: "1,850,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "3.1.7", descripcion: "Antenas parabólicas", unidad: "UND", cantidad: "74", vu: "25,000,000", total: "1,850,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.8", descripcion: "Radios TETRA embarcados (locomotoras)", unidad: "UND", cantidad: "30", vu: "45,000,000", total: "1,350,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.9", descripcion: "Antenas embarcadas", unidad: "UND", cantidad: "30", vu: "8,000,000", total: "240,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "3.1.10", descripcion: "Radios portÃ¡tiles TETRA", unidad: "UND", cantidad: "80", vu: "8,000,000", total: "640,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "3.1.10", descripcion: "Radios portátiles TETRA", unidad: "UND", cantidad: "80", vu: "8,000,000", total: "640,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.11", descripcion: "Consolas de despacho CCO", unidad: "UND", cantidad: "3", vu: "80,000,000", total: "240,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.12", descripcion: "Sistema de control TETRA centralizado", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "3.1.13", descripcion: "Repuestos TETRA (10%)", unidad: "GL", cantidad: "1", vu: "1,444,000,000", total: "1,444,000,000", tipo: "SUMINISTRO"},
             {nivel: 2, item: "3.2", descripcion: "OBRA CIVIL TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "3.2.1", descripcion: "Casetas tÃ©cnicas 6Ã—4Ã—3m", unidad: "UND", cantidad: "37", vu: "65,000,000", total: "2,405,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "3.2.1", descripcion: "Casetas técnicas 6×4×3m", unidad: "UND", cantidad: "37", vu: "65,000,000", total: "2,405,000,000", tipo: "OBRA"},
             {nivel: 3, item: "3.2.2", descripcion: "Cimentaciones torres", unidad: "UND", cantidad: "37", vu: "25,000,000", total: "925,000,000", tipo: "OBRA"},
             {nivel: 3, item: "3.2.3", descripcion: "Cerramiento perimetral", unidad: "UND", cantidad: "37", vu: "30,000,000", total: "1,110,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "3.2.4", descripcion: "VÃ­as de acceso", unidad: "UND", cantidad: "37", vu: "25,000,000", total: "925,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "3.2.4", descripcion: "Vías de acceso", unidad: "UND", cantidad: "37", vu: "25,000,000", total: "925,000,000", tipo: "OBRA"},
             {nivel: 3, item: "3.2.5", descripcion: "Sistemas de seguridad", unidad: "UND", cantidad: "37", vu: "20,000,000", total: "740,000,000", tipo: "OBRA"},
             {nivel: 2, item: "3.3", descripcion: "SERVICIOS TETRA", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "3.3.1", descripcion: "Montaje e instalaciÃ³n torres", unidad: "UND", cantidad: "37", vu: "15,000,000", total: "555,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "3.3.2", descripcion: "InstalaciÃ³n equipos TETRA", unidad: "UND", cantidad: "37", vu: "12,000,000", total: "444,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "3.3.3", descripcion: "ConfiguraciÃ³n red TETRA", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "3.3.1", descripcion: "Montaje e instalación torres", unidad: "UND", cantidad: "37", vu: "15,000,000", total: "555,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "3.3.2", descripcion: "Instalación equipos TETRA", unidad: "UND", cantidad: "37", vu: "12,000,000", total: "444,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "3.3.3", descripcion: "Configuración red TETRA", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SERVICIO"},
             {nivel: 3, item: "3.3.4", descripcion: "Pruebas cobertura y calidad", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "3.3.5", descripcion: "CapacitaciÃ³n operadores", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "3.3.5", descripcion: "Capacitación operadores", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
 
 
-            // CAPÃTULO 4: SISTEMA DE CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL + INTEROPERABILIDAD FENOCO
-            {nivel: 1, item: "4", descripcion: "SISTEMA DE CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL + INTEROPERABILIDAD FENOCO", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // CAPÍTULO 4: SISTEMA DE CONTROL Y SEÑALIZACIÓN VIRTUAL + INTEROPERABILIDAD FENOCO
+            {nivel: 1, item: "4", descripcion: "SISTEMA DE CONTROL Y SEÑALIZACIÓN VIRTUAL + INTEROPERABILIDAD FENOCO", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             
             // A. EQUIPAMIENTO 15 LOCOMOTORAS (TUS OBLIGACIONES CONTRACTUALES)
             {nivel: 2, item: "4.1", descripcion: "EQUIPAMIENTO 15 LOCOMOTORAS INTEROPERABILIDAD", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
@@ -547,14 +547,14 @@
             {nivel: 3, item: "4.1.3", descripcion: "Display dual integrado (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "35,000,000", total: "525,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.1.4", descripcion: "GPS dual ambos sistemas (15 locomotoras)", unidad: "UND", cantidad: "30", vu: "8,000,000", total: "240,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.1.5", descripcion: "Radio TETRA dual (15 locomotoras)", unidad: "UND", cantidad: "30", vu: "45,000,000", total: "1,350,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.1.6", descripcion: "Interface frenos comÃºn (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "25,000,000", total: "375,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.1.7", descripcion: "Registrador jurÃ­dico (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "18,000,000", total: "270,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.1.6", descripcion: "Interface frenos común (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "25,000,000", total: "375,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.1.7", descripcion: "Registrador jurídico (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "18,000,000", total: "270,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.1.8", descripcion: "Switch selector modo (15 locomotoras)", unidad: "UND", cantidad: "15", vu: "5,000,000", total: "75,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.1.9", descripcion: "Base datos LD-CH (licencia)", unidad: "GL", cantidad: "1", vu: "225,000,000", total: "225,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.1.10", descripcion: "Base datos FENOCO 246km (licencia)", unidad: "GL", cantidad: "1", vu: "300,000,000", total: "300,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.1.11", descripcion: "Software integraciÃ³n dual (licencia)", unidad: "GL", cantidad: "1", vu: "450,000,000", total: "450,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.1.11", descripcion: "Software integración dual (licencia)", unidad: "GL", cantidad: "1", vu: "450,000,000", total: "450,000,000", tipo: "SUMINISTRO"},
             
-            // B. SISTEMA CTC PROPIO LA DORADA-CHIRIGUANÃ
+            // B. SISTEMA CTC PROPIO LA DORADA-CHIRIGUANÁ
             {nivel: 2, item: "4.2", descripcion: "SISTEMA CTC PROPIO CCO", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "4.2.1", descripcion: "Servidores CTC redundantes", unidad: "UND", cantidad: "2", vu: "120,000,000", total: "240,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.2.2", descripcion: "Software CTC licencia base", unidad: "GL", cantidad: "1", vu: "800,000,000", total: "800,000,000", tipo: "SUMINISTRO"},
@@ -566,125 +566,125 @@
             {nivel: 3, item: "4.2.8", descripcion: "Sistema backup/almacenamiento", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.2.9", descripcion: "Network switches/routers", unidad: "UND", cantidad: "8", vu: "15,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.2.10", descripcion: "UPS sala control", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.2.11", descripcion: "Consolas operador ergonÃ³micas", unidad: "UND", cantidad: "6", vu: "30,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.2.12", descripcion: "Sistema gestiÃ³n incidentes", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.2.11", descripcion: "Consolas operador ergonómicas", unidad: "UND", cantidad: "6", vu: "30,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.2.12", descripcion: "Sistema gestión incidentes", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
             
-            // C. LÃ“GICA CONTROL Y APLICACIONES
-            {nivel: 2, item: "4.3", descripcion: "LÃ“GICA CONTROL Y APLICACIONES", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "4.3.1", descripcion: "MÃ³dulo gestiÃ³n autoridades movimiento", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.2", descripcion: "DesvÃ­os motorizados (25 unidades)", unidad: "UND", cantidad: "25", vu: "95,000,000", total: "2,375,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.3", descripcion: "DesvÃ­os manuales (95 unidades)", unidad: "UND", cantidad: "95", vu: "35,000,000", total: "3,325,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.4", descripcion: "MÃ³dulo TSR (Speed Restrictions)", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
+            // C. LÓGICA CONTROL Y APLICACIONES
+            {nivel: 2, item: "4.3", descripcion: "LÓGICA CONTROL Y APLICACIONES", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            {nivel: 3, item: "4.3.1", descripcion: "Módulo gestión autoridades movimiento", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.2", descripcion: "Desvíos motorizados (25 unidades)", unidad: "UND", cantidad: "25", vu: "95,000,000", total: "2,375,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.3", descripcion: "Desvíos manuales (95 unidades)", unidad: "UND", cantidad: "95", vu: "35,000,000", total: "3,325,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.4", descripcion: "Módulo TSR (Speed Restrictions)", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.3.5", descripcion: "Sistema tracking GPS tiempo real", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.6", descripcion: "MÃ³dulo detecciÃ³n conflictos", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.7", descripcion: "Sistema gestiÃ³n zonas trabajo", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.8", descripcion: "Interface comunicaciÃ³n trenes", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.6", descripcion: "Módulo detección conflictos", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.7", descripcion: "Sistema gestión zonas trabajo", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.8", descripcion: "Interface comunicación trenes", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.3.9", descripcion: "Sistema alarmas y eventos", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.10", descripcion: "Registrador eventos (5 aÃ±os)", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.3.11", descripcion: "Software anÃ¡lisis operacional", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.10", descripcion: "Registrador eventos (5 años)", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.3.11", descripcion: "Software análisis operacional", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
             
             // D. GATEWAY INTEROPERABILIDAD
             {nivel: 2, item: "4.4", descripcion: "GATEWAY INTEROPERABILIDAD FENOCO", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "4.4.1", descripcion: "Gateway API CTC â†” ITCS", unidad: "GL", cantidad: "1", vu: "350,000,000", total: "350,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.1", descripcion: "Gateway API CTC ↔ ITCS", unidad: "GL", cantidad: "1", vu: "350,000,000", total: "350,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.4.2", descripcion: "Servidor interfaz redundante", unidad: "UND", cantidad: "2", vu: "100,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.4.3", descripcion: "Protocolo comunicaciÃ³n estÃ¡ndar", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.4.4", descripcion: "Middleware integraciÃ³n", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.4.5", descripcion: "Sistema autenticaciÃ³n segura", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.4.6", descripcion: "Firewall/seguridad cibernÃ©tica", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.3", descripcion: "Protocolo comunicación estándar", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.4", descripcion: "Middleware integración", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.5", descripcion: "Sistema autenticación segura", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.6", descripcion: "Firewall/seguridad cibernética", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.4.7", descripcion: "Sistema monitoreo interfaz", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.4.8", descripcion: "Logs transacciones auditorÃ­a", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.4.8", descripcion: "Logs transacciones auditoría", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
             
-            // E. ENCLAVAMIENTOS ELECTRÃ“NICOS (5 ESTACIONES)
-            {nivel: 2, item: "4.5", descripcion: "ENCLAVAMIENTOS ELECTRÃ“NICOS (5 ESTACIONES)", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // E. ENCLAVAMIENTOS ELECTRÓNICOS (5 ESTACIONES)
+            {nivel: 2, item: "4.5", descripcion: "ENCLAVAMIENTOS ELECTRÓNICOS (5 ESTACIONES)", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "4.5.1", descripcion: "Interlocking Controller vital (5 estaciones)", unidad: "UND", cantidad: "5", vu: "250,000,000", total: "1,250,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.5.2", descripcion: "Panel control local LCP (5 estaciones)", unidad: "UND", cantidad: "5", vu: "50,000,000", total: "250,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.3", descripcion: "MÃ³dulos I/O campo (5 estaciones)", unidad: "UND", cantidad: "5", vu: "80,000,000", total: "400,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.4", descripcion: "Switch machines elÃ©ctricos (8 por estaciÃ³n)", unidad: "UND", cantidad: "40", vu: "28,000,000", total: "1,120,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.5", descripcion: "Circuitos vÃ­a detecciÃ³n (10 por estaciÃ³n)", unidad: "UND", cantidad: "50", vu: "15,000,000", total: "750,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.6", descripcion: "Cableado seÃ±alizaciÃ³n completo (5 estaciones)", unidad: "GL", cantidad: "5", vu: "60,000,000", total: "300,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.3", descripcion: "Módulos I/O campo (5 estaciones)", unidad: "UND", cantidad: "5", vu: "80,000,000", total: "400,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.4", descripcion: "Switch machines eléctricos (8 por estación)", unidad: "UND", cantidad: "40", vu: "28,000,000", total: "1,120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.5", descripcion: "Circuitos vía detección (10 por estación)", unidad: "UND", cantidad: "50", vu: "15,000,000", total: "750,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.6", descripcion: "Cableado señalización completo (5 estaciones)", unidad: "GL", cantidad: "5", vu: "60,000,000", total: "300,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.5.7", descripcion: "Casetas equipos 4x4m (5 estaciones)", unidad: "UND", cantidad: "5", vu: "90,000,000", total: "450,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.8", descripcion: "Software lÃ³gica interlocking (5 licencias)", unidad: "GL", cantidad: "5", vu: "120,000,000", total: "600,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.9", descripcion: "IngenierÃ­a aplicaciÃ³n especÃ­fica (5 estaciones)", unidad: "GL", cantidad: "5", vu: "100,000,000", total: "500,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.5.10", descripcion: "Pruebas SAT + certificaciÃ³n (5 estaciones)", unidad: "GL", cantidad: "5", vu: "80,000,000", total: "400,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.8", descripcion: "Software lógica interlocking (5 licencias)", unidad: "GL", cantidad: "5", vu: "120,000,000", total: "600,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.9", descripcion: "Ingeniería aplicación específica (5 estaciones)", unidad: "GL", cantidad: "5", vu: "100,000,000", total: "500,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.5.10", descripcion: "Pruebas SAT + certificación (5 estaciones)", unidad: "GL", cantidad: "5", vu: "80,000,000", total: "400,000,000", tipo: "SUMINISTRO"},
             
             // F. PASOS A NIVEL ACTIVOS (14 Tipo B + 9 Tipo C = 23)
             {nivel: 2, item: "4.6", descripcion: "PASOS A NIVEL ACTIVOS (23)", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "4.6.1", descripcion: "Controlador XP4/similar (23 PAN)", unidad: "UND", cantidad: "23", vu: "22,000,000", total: "506,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.2", descripcion: "Flashers LED (14BÃ—2 + 9CÃ—4 = 64)", unidad: "UND", cantidad: "64", vu: "5,000,000", total: "320,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.3", descripcion: "Bells (14BÃ—1 + 9CÃ—2 = 32)", unidad: "UND", cantidad: "32", vu: "4,000,000", total: "128,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.4", descripcion: "Gates motorizados (9CÃ—2 = 18)", unidad: "UND", cantidad: "18", vu: "18,000,000", total: "324,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.5", descripcion: "Circuitos aproximaciÃ³n CWT (23 PAN)", unidad: "UND", cantidad: "23", vu: "10,000,000", total: "230,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.6", descripcion: "Casetas 6Ã—6 equipadas (23 PAN)", unidad: "UND", cantidad: "23", vu: "50,000,000", total: "1,150,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.2", descripcion: "Flashers LED (14B×2 + 9C×4 = 64)", unidad: "UND", cantidad: "64", vu: "5,000,000", total: "320,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.3", descripcion: "Bells (14B×1 + 9C×2 = 32)", unidad: "UND", cantidad: "32", vu: "4,000,000", total: "128,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.4", descripcion: "Gates motorizados (9C×2 = 18)", unidad: "UND", cantidad: "18", vu: "18,000,000", total: "324,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.5", descripcion: "Circuitos aproximación CWT (23 PAN)", unidad: "UND", cantidad: "23", vu: "10,000,000", total: "230,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.6", descripcion: "Casetas 6×6 equipadas (23 PAN)", unidad: "UND", cantidad: "23", vu: "50,000,000", total: "1,150,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.6.7", descripcion: "Cableado completo (23 PAN)", unidad: "UND", cantidad: "23", vu: "16,000,000", total: "372,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.8", descripcion: "SeÃ±alizaciÃ³n vial (23 PAN)", unidad: "UND", cantidad: "23", vu: "11,000,000", total: "248,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.8", descripcion: "Señalización vial (23 PAN)", unidad: "UND", cantidad: "23", vu: "11,000,000", total: "248,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "4.6.9", descripcion: "UPS y respaldo (23 PAN)", unidad: "UND", cantidad: "23", vu: "12,000,000", total: "276,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "4.6.10", descripcion: "InstalaciÃ³n y comisionamiento (23 PAN)", unidad: "UND", cantidad: "23", vu: "20,000,000", total: "450,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "4.6.10", descripcion: "Instalación y comisionamiento (23 PAN)", unidad: "UND", cantidad: "23", vu: "20,000,000", total: "450,000,000", tipo: "SUMINISTRO"},
             
             // G. OBRA CIVIL
             {nivel: 2, item: "4.7", descripcion: "OBRA CIVIL", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "4.7.1", descripcion: "Centro de Control Operativo (CCO)", unidad: "mÂ²", cantidad: "850", vu: "3,000,000", total: "2,550,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "4.7.2", descripcion: "Sala de servidores y comunicaciones", unidad: "mÂ²", cantidad: "250", vu: "2,500,000", total: "625,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "4.7.3", descripcion: "Departure Test Station (DTS) ChiriguanÃ¡", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "4.7.1", descripcion: "Centro de Control Operativo (CCO)", unidad: "m²", cantidad: "850", vu: "3,000,000", total: "2,550,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "4.7.2", descripcion: "Sala de servidores y comunicaciones", unidad: "m²", cantidad: "250", vu: "2,500,000", total: "625,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "4.7.3", descripcion: "Departure Test Station (DTS) Chiriguaná", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "OBRA"},
             {nivel: 3, item: "4.7.4", descripcion: "Zona segura temporal punto cambio", unidad: "GL", cantidad: "1", vu: "50,000,000", total: "50,000,000", tipo: "OBRA"},
-            {nivel: 3, item: "4.7.5", descripcion: "CÃ¡maras vigilancia punto cambio", unidad: "UND", cantidad: "3", vu: "8,000,000", total: "24,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "4.7.5", descripcion: "Cámaras vigilancia punto cambio", unidad: "UND", cantidad: "3", vu: "8,000,000", total: "24,000,000", tipo: "OBRA"},
             
             // H. SERVICIOS
             {nivel: 2, item: "4.8", descripcion: "SERVICIOS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "4.8.1", descripcion: "Survey 3 tipos locomotoras", unidad: "GL", cantidad: "3", vu: "50,000,000", total: "150,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.2", descripcion: "DiseÃ±o instalaciÃ³n locomotoras", unidad: "GL", cantidad: "3", vu: "40,000,000", total: "120,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.3", descripcion: "InstalaciÃ³n fÃ­sica locomotoras", unidad: "UND", cantidad: "15", vu: "40,000,000", total: "600,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.4", descripcion: "ConfiguraciÃ³n software locomotoras", unidad: "UND", cantidad: "15", vu: "35,000,000", total: "525,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.5", descripcion: "Pruebas estÃ¡ticas locomotoras", unidad: "UND", cantidad: "15", vu: "25,000,000", total: "375,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.6", descripcion: "Pruebas dinÃ¡micas LD", unidad: "UND", cantidad: "15", vu: "30,000,000", total: "450,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.2", descripcion: "Diseño instalación locomotoras", unidad: "GL", cantidad: "3", vu: "40,000,000", total: "120,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.3", descripcion: "Instalación física locomotoras", unidad: "UND", cantidad: "15", vu: "40,000,000", total: "600,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.4", descripcion: "Configuración software locomotoras", unidad: "UND", cantidad: "15", vu: "35,000,000", total: "525,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.5", descripcion: "Pruebas estáticas locomotoras", unidad: "UND", cantidad: "15", vu: "25,000,000", total: "375,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.6", descripcion: "Pruebas dinámicas LD", unidad: "UND", cantidad: "15", vu: "30,000,000", total: "450,000,000", tipo: "SERVICIO"},
             {nivel: 3, item: "4.8.7", descripcion: "Pruebas territorio FENOCO", unidad: "UND", cantidad: "15", vu: "35,000,000", total: "525,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.8", descripcion: "CertificaciÃ³n homologaciÃ³n", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.9", descripcion: "CapacitaciÃ³n maquinistas", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.10", descripcion: "IngenierÃ­a integraciÃ³n CTC-ITCS", unidad: "GL", cantidad: "1", vu: "400,000,000", total: "400,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.11", descripcion: "Desarrollo protocolo comunicaciÃ³n", unidad: "GL", cantidad: "1", vu: "300,000,000", total: "300,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.12", descripcion: "CoordinaciÃ³n tÃ©cnica FENOCO (12 meses)", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.13", descripcion: "Pruebas integraciÃ³n conjuntas", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "4.8.14", descripcion: "DocumentaciÃ³n tÃ©cnica interfaz", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.8", descripcion: "Certificación homologación", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.9", descripcion: "Capacitación maquinistas", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.10", descripcion: "Ingeniería integración CTC-ITCS", unidad: "GL", cantidad: "1", vu: "400,000,000", total: "400,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.11", descripcion: "Desarrollo protocolo comunicación", unidad: "GL", cantidad: "1", vu: "300,000,000", total: "300,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.12", descripcion: "Coordinación técnica FENOCO (12 meses)", unidad: "GL", cantidad: "1", vu: "180,000,000", total: "180,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.13", descripcion: "Pruebas integración conjuntas", unidad: "GL", cantidad: "1", vu: "250,000,000", total: "250,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "4.8.14", descripcion: "Documentación técnica interfaz", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SERVICIO"},
             {nivel: 3, item: "4.8.15", descripcion: "Acuerdos operacionales (SLA)", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
             {nivel: 3, item: "4.8.16", descripcion: "Plan contingencia operacional", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SERVICIO"},
 
-            // CAPÃTULO 5: SISTEMA CCTV Y SEGURIDAD
+            // CAPÍTULO 5: SISTEMA CCTV Y SEGURIDAD
             {nivel: 1, item: "5", descripcion: "SISTEMA CCTV Y SEGURIDAD", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 2, item: "5.1", descripcion: "SUMINISTROS CCTV", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "5.1.1", descripcion: "CÃ¡maras CCTV IP (73 unidades)", unidad: "UND", cantidad: "73", vu: "8,000,000", total: "584,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "5.1.2", descripcion: "Sistema grabaciÃ³n centralizado", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "5.1.1", descripcion: "Cámaras CCTV IP (73 unidades)", unidad: "UND", cantidad: "73", vu: "8,000,000", total: "584,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "5.1.2", descripcion: "Sistema grabación centralizado", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "5.1.3", descripcion: "Monitores sala control", unidad: "UND", cantidad: "8", vu: "15,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "5.1.4", descripcion: "Sistema transmisiÃ³n fibra", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "5.1.4", descripcion: "Sistema transmisión fibra", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
             {nivel: 2, item: "5.2", descripcion: "OBRA CIVIL CCTV", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "5.2.1", descripcion: "InstalaciÃ³n cÃ¡maras CCTV", unidad: "UND", cantidad: "73", vu: "5,000,000", total: "365,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "5.2.1", descripcion: "Instalación cámaras CCTV", unidad: "UND", cantidad: "73", vu: "5,000,000", total: "365,000,000", tipo: "OBRA"},
             {nivel: 2, item: "5.3", descripcion: "SERVICIOS CCTV", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "5.3.1", descripcion: "ConfiguraciÃ³n sistema CCTV", unidad: "GL", cantidad: "1", vu: "60,000,000", total: "60,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "5.3.1", descripcion: "Configuración sistema CCTV", unidad: "GL", cantidad: "1", vu: "60,000,000", total: "60,000,000", tipo: "SERVICIO"},
 
-            // CAPÃTULO 6: SISTEMA DE SEGURIDAD Y PROTECCIÃ“N
-            {nivel: 1, item: "6", descripcion: "SISTEMA DE SEGURIDAD Y PROTECCIÃ“N", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
+            // CAPÍTULO 6: SISTEMA DE SEGURIDAD Y PROTECCIÓN
+            {nivel: 1, item: "6", descripcion: "SISTEMA DE SEGURIDAD Y PROTECCIÓN", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 2, item: "6.1", descripcion: "SUMINISTROS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "6.1.1", descripcion: "Sistema de DetecciÃ³n de Incendios", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "6.1.2", descripcion: "Sistema de SupresiÃ³n de Incendios", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "6.1.1", descripcion: "Sistema de Detección de Incendios", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "6.1.2", descripcion: "Sistema de Supresión de Incendios", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "6.1.3", descripcion: "Sistema de Control de Acceso", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "6.1.4", descripcion: "Sistema de Alarma y NotificaciÃ³n", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "6.1.4", descripcion: "Sistema de Alarma y Notificación", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
             {nivel: 2, item: "6.2", descripcion: "OBRA CIVIL", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "6.2.1", descripcion: "InstalaciÃ³n de sistemas de seguridad", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "OBRA"},
+            {nivel: 3, item: "6.2.1", descripcion: "Instalación de sistemas de seguridad", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "OBRA"},
             {nivel: 2, item: "6.3", descripcion: "SERVICIOS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "6.3.1", descripcion: "ConfiguraciÃ³n y pruebas de sistemas", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "6.3.1", descripcion: "Configuración y pruebas de sistemas", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"},
 
-            // CAPÃTULO 7: SISTEMA DE MANTENIMIENTO Y SOPORTE
+            // CAPÍTULO 7: SISTEMA DE MANTENIMIENTO Y SOPORTE
             {nivel: 1, item: "7", descripcion: "SISTEMA DE MANTENIMIENTO Y SOPORTE", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 2, item: "7.1", descripcion: "SUMINISTROS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
             {nivel: 3, item: "7.1.1", descripcion: "Herramientas especializadas", unidad: "GL", cantidad: "1", vu: "80,000,000", total: "80,000,000", tipo: "SUMINISTRO"},
-            {nivel: 3, item: "7.1.2", descripcion: "Equipos de prueba y mediciÃ³n", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
+            {nivel: 3, item: "7.1.2", descripcion: "Equipos de prueba y medición", unidad: "GL", cantidad: "1", vu: "120,000,000", total: "120,000,000", tipo: "SUMINISTRO"},
             {nivel: 3, item: "7.1.3", descripcion: "Repuestos y componentes", unidad: "GL", cantidad: "1", vu: "200,000,000", total: "200,000,000", tipo: "SUMINISTRO"},
             {nivel: 2, item: "7.2", descripcion: "SERVICIOS", unidad: "", cantidad: "", vu: "", total: "", tipo: ""},
-            {nivel: 3, item: "7.2.1", descripcion: "CapacitaciÃ³n tÃ©cnica especializada", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "7.2.2", descripcion: "Soporte tÃ©cnico y mantenimiento", unidad: "GL", cantidad: "1", vu: "300,000,000", total: "300,000,000", tipo: "SERVICIO"},
-            {nivel: 3, item: "7.2.3", descripcion: "DocumentaciÃ³n tÃ©cnica y manuales", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"}
+            {nivel: 3, item: "7.2.1", descripcion: "Capacitación técnica especializada", unidad: "GL", cantidad: "1", vu: "150,000,000", total: "150,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "7.2.2", descripcion: "Soporte técnico y mantenimiento", unidad: "GL", cantidad: "1", vu: "300,000,000", total: "300,000,000", tipo: "SERVICIO"},
+            {nivel: 3, item: "7.2.3", descripcion: "Documentación técnica y manuales", unidad: "GL", cantidad: "1", vu: "100,000,000", total: "100,000,000", tipo: "SERVICIO"}
             ];
         }
         
-        console.log('ðŸ“Š Total items en WBS Presupuestal:', wbsData.length);
+        console.log('📊 Total items en WBS Presupuestal:', wbsData.length);
 
         let filteredData = [...wbsData];
 
@@ -697,16 +697,16 @@
             let totalGeneral = 0;
             const TRM = 4400; // Tasa de cambio USD/COP
 
-            // FunciÃ³n para convertir string a nÃºmero
+            // Función para convertir string a número
             const parseNumber = (str) => {
                 if (!str) return 0;
                 return parseFloat(str.toString().replace(/,/g, '')) || 0;
             };
 
             filteredData.forEach((item, index) => {
-                // Detectar inicio de nuevo capÃ­tulo
+                // Detectar inicio de nuevo capítulo
                 if (item.nivel === 1 && item.descripcion) {
-                    // Agregar subtotal del capÃ­tulo anterior si existe
+                    // Agregar subtotal del capítulo anterior si existe
                     if (currentChapter && chapterSubtotal > 0) {
                         const subtotalRow = document.createElement('tr');
                         subtotalRow.className = 'subtotal-row';
@@ -718,7 +718,7 @@
                         tbody.appendChild(subtotalRow);
                     }
                     
-                    // Iniciar nuevo capÃ­tulo
+                    // Iniciar nuevo capítulo
                     currentChapter = item.descripcion;
                     chapterSubtotal = 0;
                 }
@@ -748,7 +748,7 @@
                 tbody.appendChild(row);
             });
 
-            // Agregar subtotal del Ãºltimo capÃ­tulo
+            // Agregar subtotal del último capítulo
             if (currentChapter && chapterSubtotal > 0) {
                 const subtotalRow = document.createElement('tr');
                 subtotalRow.className = 'subtotal-row';
@@ -790,9 +790,9 @@
             if (filtroTipo === 'TODOS') {
                 // CD = SUM + OBRA + SERV
                 const cd = sumaSuministros + sumaObra + sumaServicios;
-                // AIU = 0.33 Ã— OBRA
+                // AIU = 0.33 × OBRA
                 const aiu = sumaObra * 0.33;
-                // IVA = 0.19 Ã— SUM + 0.19 Ã— SERV + 0.19 Ã— (0.05 Ã— OBRA)
+                // IVA = 0.19 × SUM + 0.19 × SERV + 0.19 × (0.05 × OBRA)
                 const iva = (sumaSuministros * 0.19) + (sumaServicios * 0.19) + (sumaObra * 0.05 * 0.19);
                 totalCalculado = cd + aiu + iva;
                 descripcionTotal = `TOTAL GENERAL (CD + AIU solo OBRA + IVA)`;
@@ -825,13 +825,13 @@
         }
 
         function calcularAIUeIVA() {
-            // FunciÃ³n para convertir string a nÃºmero
+            // Función para convertir string a número
             const parseNumber = (str) => {
                 if (!str) return 0;
                 return parseFloat(str.toString().replace(/,/g, '')) || 0;
             };
 
-            // Calcular subtotales por capÃ­tulo y tipo
+            // Calcular subtotales por capítulo y tipo
             const subtotales = {};
             
             wbsData.forEach(item => {
@@ -864,21 +864,21 @@
                 totalObraCivil += cap.OBRA;
                 totalServicios += cap.SERVICIO;
                 
-                // AIU = 0.33 Ã— OBRA (solo OBRA)
+                // AIU = 0.33 × OBRA (solo OBRA)
                 const administracion = cap.OBRA * 0.23;
                 const imprevistos = cap.OBRA * 0.05;
                 const utilidad = cap.OBRA * 0.05;
                 const aiuCap = administracion + imprevistos + utilidad;
                 totalAIU += aiuCap;
                 
-                // IVA = 0.19 Ã— SUM + 0.19 Ã— SERV + 0.19 Ã— (0.05 Ã— OBRA)
+                // IVA = 0.19 × SUM + 0.19 × SERV + 0.19 × (0.05 × OBRA)
                 const ivaSuministros = cap.SUMINISTRO * 0.19;
                 const ivaServicios = cap.SERVICIO * 0.19;
                 const ivaUtilidad = cap.OBRA * 0.05 * 0.19; // IVA sobre utilidad de OBRA
                 const ivaCap = ivaSuministros + ivaServicios + ivaUtilidad;
                 totalIVA += ivaCap;
                 
-                // Guardar por capÃ­tulo
+                // Guardar por capítulo
                 capitulos[capitulo] = {
                     suministros: cap.SUMINISTRO,
                     obraCivil: cap.OBRA,
@@ -912,7 +912,7 @@
         }
 
         function updateStats() {
-            // FunciÃ³n para contar Ã­tems por tipo
+            // Función para contar ítems por tipo
             let totalItems = 0;
             let totalObra = 0;
             let totalSuministro = 0;
@@ -937,10 +937,10 @@
         function actualizarEstadisticas() {
             const calculos = calcularAIUeIVA();
             
-            // Actualizar estadÃ­sticas bÃ¡sicas
+            // Actualizar estadísticas básicas
             updateStats();
             
-            // Agregar estadÃ­sticas financieras
+            // Agregar estadísticas financieras
             const statsContainer = document.querySelector('.stats');
             statsContainer.innerHTML += `
                 <div class="stat-card" style="border-color: #dc3545;">
@@ -979,17 +979,17 @@
         }
 
         function exportarExcel() {
-            console.log('ðŸ”µ Iniciando exportaciÃ³n de WBS completa...');
+            console.log('🔵 Iniciando exportación de WBS completa...');
             
-            // Verificar que XLSX estÃ© disponible
+            // Verificar que XLSX esté disponible
             if (typeof XLSX === 'undefined') {
-                alert('âŒ Error: La librerÃ­a XLSX no estÃ¡ cargada.\nPor favor, verifica tu conexiÃ³n a internet y recarga la pÃ¡gina.');
-                console.error('XLSX no estÃ¡ disponible');
+                alert('❌ Error: La librería XLSX no está cargada.\nPor favor, verifica tu conexión a internet y recarga la página.');
+                console.error('XLSX no está disponible');
                 return;
             }
             
-            console.log('âœ… LibrerÃ­a XLSX disponible');
-            console.log('ðŸ“Š Datos filtrados:', filteredData.length, 'Ã­tems');
+            console.log('✅ Librería XLSX disponible');
+            console.log('📊 Datos filtrados:', filteredData.length, 'ítems');
             
             try {
                 // Preparar datos para Excel
@@ -1000,8 +1000,8 @@
                     };
                     
                     return {
-                        'ÃTEM': item.item,
-                        'DESCRIPCIÃ“N': item.descripcion,
+                        'ÍTEM': item.item,
+                        'DESCRIPCIÓN': item.descripcion,
                         'TIPO': item.tipo,
                         'UNIDAD': item.unidad,
                         'CANTIDAD': parseNumber(item.cantidad),
@@ -1016,8 +1016,8 @@
                 
                 // Ajustar ancho de columnas
                 const colWidths = [
-                    { wch: 15 }, // ÃTEM
-                    { wch: 60 }, // DESCRIPCIÃ“N
+                    { wch: 15 }, // ÍTEM
+                    { wch: 60 }, // DESCRIPCIÓN
                     { wch: 15 }, // TIPO
                     { wch: 10 }, // UNIDAD
                     { wch: 12 }, // CANTIDAD
@@ -1031,7 +1031,7 @@
                 const wb = XLSX.utils.book_new();
                 XLSX.utils.book_append_sheet(wb, ws, 'WBS Presupuesto SCC');
 
-                // Agregar hoja de resumen con desglose por capÃ­tulo
+                // Agregar hoja de resumen con desglose por capítulo
                 const calculos = calcularAIUeIVA();
                 const resumenData = [
                     ['RESUMEN EJECUTIVO - WBS v2.9 (Actualizada 08/10/2025)', ''],
@@ -1042,7 +1042,7 @@
                     ['  Obra Civil', calculos.totalObraCivil],
                     ['  Servicios', calculos.totalServicios],
                     ['AIU Total (solo OBRA)', calculos.aiu],
-                    ['  AdministraciÃ³n 23%', calculos.totalObraCivil * 0.23],
+                    ['  Administración 23%', calculos.totalObraCivil * 0.23],
                     ['  Imprevistos 5%', calculos.totalObraCivil * 0.05],
                     ['  Utilidad 5%', calculos.totalObraCivil * 0.05],
                     ['IVA Total', calculos.iva],
@@ -1053,7 +1053,7 @@
                     ['TOTAL PROYECTO (USD)', calculos.total / 4400],
                     ['TRM (COP/USD)', 4400],
                     [''],
-                    ['CAMBIOS TÃ‰CNICOS RECIENTES (8-Oct-2025)', ''],
+                    ['CAMBIOS TÉCNICOS RECIENTES (8-Oct-2025)', ''],
                     ['DT-SCADA-001', 'Servidores SCADA +$400M'],
                     ['DT-SCADA-002', 'Software SCADA +$4,500M'],
                     ['DT-SCADA-003', 'Interfaces L2/L3 +$3,912M'],
@@ -1065,9 +1065,9 @@
                 wsResumen['!cols'] = [{ wch: 35 }, { wch: 25 }];
                 XLSX.utils.book_append_sheet(wb, wsResumen, 'Resumen Ejecutivo');
                 
-                // Agregar hoja de desglose por capÃ­tulo
+                // Agregar hoja de desglose por capítulo
                 const desgloseCapData = [
-                    ['DESGLOSE POR CAPÃTULO - WBS v2.9'],
+                    ['DESGLOSE POR CAPÍTULO - WBS v2.9'],
                     [''],
                     ['CAP', 'NOMBRE', 'SUMINISTROS', 'OBRA', 'SERVICIOS', 'CD', 'ADM 23%', 'IMP 5%', 'UTIL 5%', 'IVA/UTIL', 'IVA SUM+SERV', 'AIU', 'IVA TOTAL', 'TOTAL', 'USD']
                 ];
@@ -1075,7 +1075,7 @@
                 Object.keys(calculos.capitulos).sort().forEach(cap => {
                     const c = calculos.capitulos[cap];
                     const nombresCap = {
-                        '1': 'CONTROL Y SEÃ‘ALIZACIÃ“N',
+                        '1': 'CONTROL Y SEÑALIZACIÓN',
                         '2': 'TELECOMUNICACIONES', 
                         '3': 'ITS Y SEGURIDAD',
                         '4': 'PASOS A NIVEL',
@@ -1106,43 +1106,43 @@
                     {wch: 5}, {wch: 25}, {wch: 18}, {wch: 18}, {wch: 18}, {wch: 18},
                     {wch: 15}, {wch: 15}, {wch: 15}, {wch: 15}, {wch: 15}, {wch: 15}, {wch: 15}, {wch: 18}, {wch: 15}
                 ];
-                XLSX.utils.book_append_sheet(wb, wsDesglose, 'Desglose por CapÃ­tulo');
+                XLSX.utils.book_append_sheet(wb, wsDesglose, 'Desglose por Capítulo');
 
                 // Exportar archivo
-                const fileName = `WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡_v2.9_${new Date().toISOString().split('T')[0]}.xlsx`;
-                console.log('ðŸ’¾ Intentando guardar archivo:', fileName);
+                const fileName = `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná_v2.9_${new Date().toISOString().split('T')[0]}.xlsx`;
+                console.log('💾 Intentando guardar archivo:', fileName);
                 
                 XLSX.writeFile(wb, fileName);
                 
-                console.log('âœ… Archivo exportado exitosamente');
-                // Mostrar confirmaciÃ³n
-                alert(`âœ… WBS completa exportada exitosamente:\n\nðŸ“„ ${fileName}\n\nBusca el archivo en tu carpeta de Descargas.`);
+                console.log('✅ Archivo exportado exitosamente');
+                // Mostrar confirmación
+                alert(`✅ WBS completa exportada exitosamente:\n\n📄 ${fileName}\n\nBusca el archivo en tu carpeta de Descargas.`);
                 
             } catch (error) {
-                console.error('âŒ Error al exportar Excel:', error);
+                console.error('❌ Error al exportar Excel:', error);
                 console.error('Stack trace:', error.stack);
-                alert(`âŒ Error al exportar el archivo Excel:\n\n${error.message}\n\nAbre la consola del navegador (F12) para ver mÃ¡s detalles.`);
+                alert(`❌ Error al exportar el archivo Excel:\n\n${error.message}\n\nAbre la consola del navegador (F12) para ver más detalles.`);
             }
         }
 
         function exportarDesgloseExcel() {
-            console.log('ðŸ”µ Iniciando exportaciÃ³n de desglose AIU...');
+            console.log('🔵 Iniciando exportación de desglose AIU...');
             
-            // Verificar que XLSX estÃ© disponible
+            // Verificar que XLSX esté disponible
             if (typeof XLSX === 'undefined') {
-                alert('âŒ Error: La librerÃ­a XLSX no estÃ¡ cargada.\nPor favor, verifica tu conexiÃ³n a internet y recarga la pÃ¡gina.');
-                console.error('XLSX no estÃ¡ disponible');
+                alert('❌ Error: La librería XLSX no está cargada.\nPor favor, verifica tu conexión a internet y recarga la página.');
+                console.error('XLSX no está disponible');
                 return;
             }
             
-            console.log('âœ… LibrerÃ­a XLSX disponible');
+            console.log('✅ Librería XLSX disponible');
             
             try {
                 const calculos = calcularAIUeIVA();
-                console.log('âœ… CÃ¡lculos obtenidos:', calculos);
+                console.log('✅ Cálculos obtenidos:', calculos);
                 
                 const nombresCap = {
-                    '1': 'CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL',
+                    '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
                     '2': 'TELECOMUNICACIONES COLOCALIZADAS', 
                     '3': 'SISTEMAS ITS Y SEGURIDAD',
                     '4': 'PASOS A NIVEL',
@@ -1152,18 +1152,18 @@
                 
                 // Preparar datos del desglose CON DETALLE AIU/IVA
                 const desgloseData = [
-                    ['DESGLOSE PRESUPUESTAL POR CAPÃTULOS - WBS v2.9'],
+                    ['DESGLOSE PRESUPUESTAL POR CAPÍTULOS - WBS v2.9'],
                     ['Fecha:', new Date().toLocaleDateString('es-CO')],
-                    ['Proyecto: APP La Dorada-ChiriguanÃ¡ | UF-2.2'],
+                    ['Proyecto: APP La Dorada-Chiriguaná | UF-2.2'],
                     [],
-                    ['CAPÃTULO', 'CONCEPTO', 'SUMINISTROS', 'OBRA', 'SERVICIOS', 'CD', 'AIU/IVA', 'TOTAL COP', 'TOTAL USD']
+                    ['CAPÍTULO', 'CONCEPTO', 'SUMINISTROS', 'OBRA', 'SERVICIOS', 'CD', 'AIU/IVA', 'TOTAL COP', 'TOTAL USD']
                 ];
                 
-                // Agregar datos POR CAPÃTULO con desglose completo
+                // Agregar datos POR CAPÍTULO con desglose completo
                 Object.keys(calculos.capitulos).sort().forEach(cap => {
                     const c = calculos.capitulos[cap];
                     
-                    // Fila principal del capÃ­tulo
+                    // Fila principal del capítulo
                     desgloseData.push([
                         `CAP ${cap}`,
                         nombresCap[cap],
@@ -1179,30 +1179,30 @@
                     // Desglose AIU (solo si hay OBRA)
                     if (c.obraCivil > 0) {
                         desgloseData.push([
-                            '', '  â†³ AdministraciÃ³n (23%)', '', '', '', '', c.administracion, '', c.administracion / 4400
+                            '', '  ↳ Administración (23%)', '', '', '', '', c.administracion, '', c.administracion / 4400
                         ]);
                         desgloseData.push([
-                            '', '  â†³ Imprevistos (5%)', '', '', '', '', c.imprevistos, '', c.imprevistos / 4400
+                            '', '  ↳ Imprevistos (5%)', '', '', '', '', c.imprevistos, '', c.imprevistos / 4400
                         ]);
                         desgloseData.push([
-                            '', '  â†³ Utilidad (5%)', '', '', '', '', c.utilidad, '', c.utilidad / 4400
+                            '', '  ↳ Utilidad (5%)', '', '', '', '', c.utilidad, '', c.utilidad / 4400
                         ]);
                     }
                     
                     // Desglose IVA
                     desgloseData.push([
-                        '', '  â†³ IVA Suministros (19%)', '', '', '', '', c.ivaSuministros, '', c.ivaSuministros / 4400
+                        '', '  ↳ IVA Suministros (19%)', '', '', '', '', c.ivaSuministros, '', c.ivaSuministros / 4400
                     ]);
                     desgloseData.push([
-                        '', '  â†³ IVA Servicios (19%)', '', '', '', '', c.ivaServicios, '', c.ivaServicios / 4400
+                        '', '  ↳ IVA Servicios (19%)', '', '', '', '', c.ivaServicios, '', c.ivaServicios / 4400
                     ]);
                     if (c.obraCivil > 0) {
                         desgloseData.push([
-                            '', '  â†³ IVA/Utilidad Obra (19%Ã—5%)', '', '', '', '', c.ivaUtilidad, '', c.ivaUtilidad / 4400
+                            '', '  ↳ IVA/Utilidad Obra (19%×5%)', '', '', '', '', c.ivaUtilidad, '', c.ivaUtilidad / 4400
                         ]);
                     }
                     
-                    // Totales del capÃ­tulo
+                    // Totales del capítulo
                     desgloseData.push([
                         '', 'AIU TOTAL', '', '', '', '', c.aiu, '', c.aiu / 4400
                     ]);
@@ -1210,10 +1210,10 @@
                         '', 'IVA TOTAL', '', '', '', '', c.iva, '', c.iva / 4400
                     ]);
                     desgloseData.push([
-                        '', 'TOTAL CAPÃTULO ' + cap, '', '', '', '', '', c.total, c.total / 4400
+                        '', 'TOTAL CAPÍTULO ' + cap, '', '', '', '', '', c.total, c.total / 4400
                     ]);
                     
-                    // LÃ­nea separadora
+                    // Línea separadora
                     desgloseData.push([]);
                 });
                 
@@ -1252,13 +1252,13 @@
                 ]);
                 
                 // Crear hoja
-                console.log('ðŸ“„ Creando hoja de Excel con datos...');
+                console.log('📄 Creando hoja de Excel con datos...');
                 const ws = XLSX.utils.aoa_to_sheet(desgloseData);
-                console.log('âœ… Hoja creada');
+                console.log('✅ Hoja creada');
                 
                 // Formato de columnas
                 ws['!cols'] = [
-                    { wch: 12 },  // CAPÃTULO
+                    { wch: 12 },  // CAPÍTULO
                     { wch: 45 },  // CONCEPTO
                     { wch: 18 },  // SUMINISTROS
                     { wch: 18 },  // OBRA
@@ -1270,15 +1270,15 @@
                 ];
                 
                 // Crear libro
-                console.log('ðŸ“š Creando libro de trabajo...');
+                console.log('📚 Creando libro de trabajo...');
                 const wb = XLSX.utils.book_new();
                 XLSX.utils.book_append_sheet(wb, ws, 'Desglose AIU');
-                console.log('âœ… Hoja "Desglose AIU" agregada');
+                console.log('✅ Hoja "Desglose AIU" agregada');
                 
                 // Agregar hoja de resumen ejecutivo ACTUALIZADA
                 const resumenData = [
                     ['RESUMEN EJECUTIVO - WBS v3.0 (Actualizada 08/10/2025)'],
-                    ['Proyecto: APP La Dorada-ChiriguanÃ¡ | UF-2.2'],
+                    ['Proyecto: APP La Dorada-Chiriguaná | UF-2.2'],
                     ['Fecha:', new Date().toLocaleDateString('es-CO')],
                     [],
                     ['CONCEPTO', 'VALOR COP', 'VALOR USD'],
@@ -1290,21 +1290,21 @@
                     ['  Servicios', calculos.totalServicios, calculos.totalServicios / 4400],
                     [],
                     ['AIU TOTAL (solo OBRA)', calculos.aiu, calculos.aiu / 4400],
-                    ['  â†³ AdministraciÃ³n 23%', calculos.totalObraCivil * 0.23, (calculos.totalObraCivil * 0.23) / 4400],
-                    ['  â†³ Imprevistos 5%', calculos.totalObraCivil * 0.05, (calculos.totalObraCivil * 0.05) / 4400],
-                    ['  â†³ Utilidad 5%', calculos.totalObraCivil * 0.05, (calculos.totalObraCivil * 0.05) / 4400],
+                    ['  ↳ Administración 23%', calculos.totalObraCivil * 0.23, (calculos.totalObraCivil * 0.23) / 4400],
+                    ['  ↳ Imprevistos 5%', calculos.totalObraCivil * 0.05, (calculos.totalObraCivil * 0.05) / 4400],
+                    ['  ↳ Utilidad 5%', calculos.totalObraCivil * 0.05, (calculos.totalObraCivil * 0.05) / 4400],
                     [],
                     ['IVA TOTAL', calculos.iva, calculos.iva / 4400],
-                    ['  â†³ IVA Suministros 19%', calculos.totalSuministros * 0.19, (calculos.totalSuministros * 0.19) / 4400],
-                    ['  â†³ IVA Servicios 19%', calculos.totalServicios * 0.19, (calculos.totalServicios * 0.19) / 4400],
-                    ['  â†³ IVA/Utilidad Obra 19%', calculos.totalObraCivil * 0.05 * 0.19, (calculos.totalObraCivil * 0.05 * 0.19) / 4400],
+                    ['  ↳ IVA Suministros 19%', calculos.totalSuministros * 0.19, (calculos.totalSuministros * 0.19) / 4400],
+                    ['  ↳ IVA Servicios 19%', calculos.totalServicios * 0.19, (calculos.totalServicios * 0.19) / 4400],
+                    ['  ↳ IVA/Utilidad Obra 19%', calculos.totalObraCivil * 0.05 * 0.19, (calculos.totalObraCivil * 0.05 * 0.19) / 4400],
                     [],
                     ['TOTAL PROYECTO (COP)', calculos.total, calculos.total / 4400],
                     ['TRM (COP/USD)', 4400, ''],
                     [],
                     [],
-                    ['CAMBIOS TÃ‰CNICOS RECIENTES (7-8 Oct 2025)'],
-                    ['DT-TETRA-001', 'ATP 15â†’8 UND', '-$7,479,500,000'],
+                    ['CAMBIOS TÉCNICOS RECIENTES (7-8 Oct 2025)'],
+                    ['DT-TETRA-001', 'ATP 15→8 UND', '-$7,479,500,000'],
                     ['DT-SCADA-001', 'Servidores SCADA $400M c/u', '+$800,000,000'],
                     ['DT-SCADA-002', 'Software SCADA', '+$4,500,000,000'],
                     ['DT-SCADA-003', 'Interfaces L2/L3', '+$3,912,000,000'],
@@ -1313,24 +1313,24 @@
                     ['Total incremento neto', '+$89,084,588,766 COP']
                 ];
                 
-                console.log('ðŸ“ Creando hoja resumen...');
+                console.log('📝 Creando hoja resumen...');
                 const wsResumen = XLSX.utils.aoa_to_sheet(resumenData);
                 wsResumen['!cols'] = [{ wch: 40 }, { wch: 22 }, { wch: 20 }];
                 XLSX.utils.book_append_sheet(wb, wsResumen, 'Resumen Ejecutivo');
-                console.log('âœ… Hoja "Resumen Ejecutivo" agregada');
+                console.log('✅ Hoja "Resumen Ejecutivo" agregada');
                 
                 // Exportar
                 const fileName = `Desglose_AIU_WBS_v3.0_${new Date().toISOString().split('T')[0]}.xlsx`;
-                console.log('ðŸ’¾ Intentando guardar archivo:', fileName);
+                console.log('💾 Intentando guardar archivo:', fileName);
                 
                 XLSX.writeFile(wb, fileName);
                 
-                console.log('âœ… Archivo exportado exitosamente');
-                alert(`âœ… Desglose AIU exportado exitosamente:\n\nðŸ“„ ${fileName}\n\nBusca el archivo en tu carpeta de Descargas.`);
+                console.log('✅ Archivo exportado exitosamente');
+                alert(`✅ Desglose AIU exportado exitosamente:\n\n📄 ${fileName}\n\nBusca el archivo en tu carpeta de Descargas.`);
             } catch (error) {
-                console.error('âŒ Error exportando desglose:', error);
+                console.error('❌ Error exportando desglose:', error);
                 console.error('Stack trace:', error.stack);
-                alert(`âŒ Error al exportar desglose AIU:\n\n${error.message}\n\nAbre la consola del navegador (F12) para ver mÃ¡s detalles.`);
+                alert(`❌ Error al exportar desglose AIU:\n\n${error.message}\n\nAbre la consola del navegador (F12) para ver más detalles.`);
             }
         }
 
@@ -1338,7 +1338,7 @@
             try {
                 const calculos = calcularAIUeIVA();
                 const nombresCap = {
-                    '1': 'CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL',
+                    '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
                     '2': 'TELECOMUNICACIONES COLOCALIZADAS', 
                     '3': 'SISTEMAS ITS Y SEGURIDAD',
                     '4': 'PASOS A NIVEL',
@@ -1350,17 +1350,17 @@
                     <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                             <div>
-                                <h2 style="color: #1e3c72; margin: 0;">ðŸ“Š DESGLOSE PRESUPUESTAL POR CAPÃTULOS</h2>
-                                <h3 style="color: #28a745; margin: 5px 0 0 0; font-size: 14px;">âœ… WBS Actualizada v3.0 - DT-CTC-003: Software CTC + ETCS L2 + FENOCO aplicado</h3>
+                                <h2 style="color: #1e3c72; margin: 0;">📊 DESGLOSE PRESUPUESTAL POR CAPÍTULOS</h2>
+                                <h3 style="color: #28a745; margin: 5px 0 0 0; font-size: 14px;">✅ WBS Actualizada v3.0 - DT-CTC-003: Software CTC + ETCS L2 + FENOCO aplicado</h3>
                             </div>
                             <button id="btnExportarDesglose" class="btn btn-success" style="background: #28a745; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-                                ðŸ“¥ Exportar Desglose a Excel
+                                📥 Exportar Desglose a Excel
                             </button>
                         </div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 20px;">
                             <thead>
                                 <tr style="background: #343a40; color: white;">
-                                    <th style="padding: 10px; border: 1px solid #495057; text-align: center;">CAPÃTULO</th>
+                                    <th style="padding: 10px; border: 1px solid #495057; text-align: center;">CAPÍTULO</th>
                                     <th style="padding: 10px; border: 1px solid #495057; text-align: center;">SUMINISTROS<br/>(COP)</th>
                                     <th style="padding: 10px; border: 1px solid #495057; text-align: center;">OBRA CIVIL<br/>(COP)</th>
                                     <th style="padding: 10px; border: 1px solid #495057; text-align: center;">SERVICIOS<br/>(COP)</th>
@@ -1381,24 +1381,24 @@
                     // CD = SUM + OBRA + SERV
                     const cdCap = cap.SUMINISTRO + cap.OBRA + cap.SERVICIO;
                     
-                    // AIU = 0.33 Ã— OBRA (solo OBRA)
+                    // AIU = 0.33 × OBRA (solo OBRA)
                     const aiuCap = cap.OBRA * 0.33;
                     
-                    // IVA = 0.19 Ã— SUM + 0.19 Ã— SERV + 0.19 Ã— (0.05 Ã— OBRA)
+                    // IVA = 0.19 × SUM + 0.19 × SERV + 0.19 × (0.05 × OBRA)
                     const ivaCap = (cap.SUMINISTRO * 0.19) + (cap.SERVICIO * 0.19) + (cap.OBRA * 0.05 * 0.19);
                     
                     const totalCap = cdCap + aiuCap + ivaCap;
                     granTotal += totalCap;
                     
-                    // Determinar color de fila para CapÃ­tulo 4
+                    // Determinar color de fila para Capítulo 4
                     const rowStyle = capitulo === '4' ? 'background: #fff3cd; font-weight: bold;' : '';
                     
-                    // Obtener datos detallados del capÃ­tulo
+                    // Obtener datos detallados del capítulo
                     const capDetalle = calculos.capitulos[capitulo] || {};
                     
                     desgloseHTML += `
                         <tr style="${rowStyle}">
-                            <td style="padding: 8px; border: 1px solid #dee2e6; font-weight: bold;">${capitulo}. ${nombresCap[capitulo] || 'CAPÃTULO ' + capitulo}</td>
+                            <td style="padding: 8px; border: 1px solid #dee2e6; font-weight: bold;">${capitulo}. ${nombresCap[capitulo] || 'CAPÍTULO ' + capitulo}</td>
                             <td style="padding: 8px; border: 1px solid #dee2e6; text-align: right;">$${cap.SUMINISTRO.toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                             <td style="padding: 8px; border: 1px solid #dee2e6; text-align: right;">$${cap.OBRA.toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                             <td style="padding: 8px; border: 1px solid #dee2e6; text-align: right;">$${cap.SERVICIO.toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
@@ -1414,21 +1414,21 @@
                     if (cap.OBRA > 0) {
                         desgloseHTML += `
                             <tr style="background: #fffbf0; font-size: 10px;">
-                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">â†³ AdministraciÃ³n (23%)</td>
+                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">↳ Administración (23%)</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #856404;">${(capDetalle.administracion || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #856404;">${((capDetalle.administracion || 0)/4400).toLocaleString('en-US', {maximumFractionDigits: 0})}</td>
                             </tr>
                             <tr style="background: #fffbf0; font-size: 10px;">
-                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">â†³ Imprevistos (5%)</td>
+                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">↳ Imprevistos (5%)</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #856404;">${(capDetalle.imprevistos || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #856404;">${((capDetalle.imprevistos || 0)/4400).toLocaleString('en-US', {maximumFractionDigits: 0})}</td>
                             </tr>
                             <tr style="background: #fffbf0; font-size: 10px;">
-                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">â†³ Utilidad (5%)</td>
+                                <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #856404;">↳ Utilidad (5%)</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #856404;">${(capDetalle.utilidad || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                                 <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
@@ -1440,21 +1440,21 @@
                     // Desglose completo de IVA
                     desgloseHTML += `
                         <tr style="background: #f0f8ff; font-size: 10px;">
-                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">â†³ IVA Suministros (19%)</td>
+                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">↳ IVA Suministros (19%)</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #004085;">${(capDetalle.ivaSuministros || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #004085;">${((capDetalle.ivaSuministros || 0)/4400).toLocaleString('en-US', {maximumFractionDigits: 0})}</td>
                         </tr>
                         <tr style="background: #f0f8ff; font-size: 10px;">
-                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">â†³ IVA Servicios (19%)</td>
+                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">↳ IVA Servicios (19%)</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #004085;">${(capDetalle.ivaServicios || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #004085;">${((capDetalle.ivaServicios || 0)/4400).toLocaleString('en-US', {maximumFractionDigits: 0})}</td>
                         </tr>
                         <tr style="background: #f0f8ff; font-size: 10px;">
-                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">â†³ IVA/Utilidad Obra (19% Ã— 5%)</td>
+                            <td colspan="5" style="padding: 3px 8px 3px 50px; border: 1px solid #dee2e6; font-style: italic; color: #004085;">↳ IVA/Utilidad Obra (19% × 5%)</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6; text-align: right; color: #004085;">${(capDetalle.ivaUtilidad || 0).toLocaleString('es-CO', {maximumFractionDigits: 0})}</td>
                             <td style="padding: 3px 8px; border: 1px solid #dee2e6;"></td>
@@ -1479,7 +1479,7 @@
                     </table>
                     
                     <div style="margin-top: 30px; padding: 20px; background: #e3f2fd; border-radius: 8px; border-left: 5px solid #2196f3;">
-                        <h4 style="color: #1565c0; margin-bottom: 15px;">ðŸ“‹ RESUMEN EJECUTIVO</h4>
+                        <h4 style="color: #1565c0; margin-bottom: 15px;">📋 RESUMEN EJECUTIVO</h4>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
                             <div>
                                 <p><strong>Costo Directo Total:</strong> $${calculos.costoDirecto.toLocaleString('es-CO', {maximumFractionDigits: 0})} COP</p>
@@ -1493,7 +1493,7 @@
                         </div>
                         
                         <div style="margin-top: 20px; padding: 15px; background: #d4edda; border-radius: 6px; border-left: 5px solid #28a745;">
-                            <h5 style="color: #155724; margin-bottom: 10px;">âœ… CAMBIOS TÃ‰CNICOS RECIENTES (SesiÃ³n 8-Oct-2025)</h5>
+                            <h5 style="color: #155724; margin-bottom: 10px;">✅ CAMBIOS TÉCNICOS RECIENTES (Sesión 8-Oct-2025)</h5>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-001:</strong> Servidores SCADA +$400M</p>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-002:</strong> Software SCADA +$4,500M</p>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-003:</strong> Interfaces L2/L3 +$3,912M</p>
@@ -1501,14 +1501,14 @@
                         </div>
                         
                         <div style="margin-top: 15px; font-size: 12px; color: #666;">
-                            <p><em>Nota: Los valores incluyen la aplicaciÃ³n correcta de AIU (AdministraciÃ³n 23%, Imprevistos 5%, Utilidad 5%) e IVA diferenciado segÃºn normativa colombiana.</em></p>
+                            <p><em>Nota: Los valores incluyen la aplicación correcta de AIU (Administración 23%, Imprevistos 5%, Utilidad 5%) e IVA diferenciado según normativa colombiana.</em></p>
                             <p><em>TRM: 4,400 COP/USD</em></p>
                         </div>
                     </div>
                 </div>
                 `;
                 
-                // Crear ventana con mejor diseÃ±o
+                // Crear ventana con mejor diseño
                 const ventana = window.open('', '_blank', 'width=1400,height=900,scrollbars=yes,resizable=yes');
                 
                 // Preparar el HTML de la ventana
@@ -1568,21 +1568,21 @@
                             const nombresCapitulos = ${JSON.stringify(nombresCap)};
                             
                             function exportarDesgloseExcel() {
-                                console.log('ðŸ”µ Iniciando exportaciÃ³n de desglose AIU...');
+                                console.log('🔵 Iniciando exportación de desglose AIU...');
                                 
                                 if (typeof XLSX === 'undefined') {
-                                    alert('âŒ Error: La librerÃ­a XLSX no estÃ¡ cargada.\\nPor favor, verifica tu conexiÃ³n a internet y recarga la pÃ¡gina.');
+                                    alert('❌ Error: La librería XLSX no está cargada.\\nPor favor, verifica tu conexión a internet y recarga la página.');
                                     return;
                                 }
                                 
-                                console.log('âœ… LibrerÃ­a XLSX disponible');
+                                console.log('✅ Librería XLSX disponible');
                                 
                                 try {
                                     const desgloseData = [
-                                        ['DESGLOSE PRESUPUESTAL POR CAPÃTULOS - WBS v2.9'],
+                                        ['DESGLOSE PRESUPUESTAL POR CAPÍTULOS - WBS v2.9'],
                                         ['Fecha:', new Date().toLocaleDateString('es-CO')],
                                         [],
-                                        ['CAPÃTULO', 'SUMINISTROS (COP)', 'OBRA CIVIL (COP)', 'SERVICIOS (COP)', 'COSTO DIRECTO (COP)', 'AIU 33% (COP)', 'IVA (COP)', 'TOTAL (COP)', 'TOTAL (USD)']
+                                        ['CAPÍTULO', 'SUMINISTROS (COP)', 'OBRA CIVIL (COP)', 'SERVICIOS (COP)', 'COSTO DIRECTO (COP)', 'AIU 33% (COP)', 'IVA (COP)', 'TOTAL (COP)', 'TOTAL (USD)']
                                     ];
                                     
                                     Object.keys(datosDesglose.subtotales).sort().forEach(cap => {
@@ -1590,14 +1590,14 @@
                                         
                                         // CD = SUM + OBRA + SERV
                                         let cdCap = capData.SUMINISTRO + capData.OBRA + capData.SERVICIO;
-                                        // AIU = 0.33 Ã— OBRA (solo OBRA)
+                                        // AIU = 0.33 × OBRA (solo OBRA)
                                         let aiuCap = capData.OBRA * 0.33;
-                                        // IVA = 0.19 Ã— SUM + 0.19 Ã— SERV + 0.19 Ã— (0.05 Ã— OBRA)
+                                        // IVA = 0.19 × SUM + 0.19 × SERV + 0.19 × (0.05 × OBRA)
                                         let ivaCap = (capData.SUMINISTRO * 0.19) + (capData.SERVICIO * 0.19) + (capData.OBRA * 0.05 * 0.19);
                                         let totalCap = cdCap + aiuCap + ivaCap;
                                         
                                         desgloseData.push([
-                                            cap + '. ' + (nombresCapitulos[cap] || 'CAPÃTULO ' + cap),
+                                            cap + '. ' + (nombresCapitulos[cap] || 'CAPÍTULO ' + cap),
                                             capData.SUMINISTRO,
                                             capData.OBRA,
                                             capData.SERVICIO,
@@ -1638,7 +1638,7 @@
                                         ['CONCEPTO', 'VALOR'],
                                         ['Costo Directo Total (COP)', datosDesglose.costoDirecto],
                                         ['AIU 33% (COP)', datosDesglose.aiu],
-                                        ['  - AdministraciÃ³n 23%', datosDesglose.costoDirecto * 0.23],
+                                        ['  - Administración 23%', datosDesglose.costoDirecto * 0.23],
                                         ['  - Imprevistos 5%', datosDesglose.costoDirecto * 0.05],
                                         ['  - Utilidad 5%', datosDesglose.costoDirecto * 0.05],
                                         ['IVA Total (COP)', datosDesglose.iva],
@@ -1646,12 +1646,12 @@
                                         ['TOTAL PROYECTO (USD)', datosDesglose.total / 4400],
                                         ['TRM (COP/USD)', 4400],
                                         [],
-                                        ['DISTRIBUCIÃ“N POR TIPO'],
+                                        ['DISTRIBUCIÓN POR TIPO'],
                                         ['Suministros', Object.values(datosDesglose.subtotales).reduce((sum, cap) => sum + cap.SUMINISTRO, 0)],
                                         ['Obra Civil', Object.values(datosDesglose.subtotales).reduce((sum, cap) => sum + cap.OBRA, 0)],
                                         ['Servicios', Object.values(datosDesglose.subtotales).reduce((sum, cap) => sum + cap.SERVICIO, 0)],
                                         [],
-                                        ['CAMBIOS TÃ‰CNICOS RECIENTES (8-Oct-2025)'],
+                                        ['CAMBIOS TÉCNICOS RECIENTES (8-Oct-2025)'],
                                         ['DT-SCADA-001', 'Servidores SCADA +$400M'],
                                         ['DT-SCADA-002', 'Software SCADA +$4,500M'],
                                         ['DT-SCADA-003', 'Interfaces L2/L3 +$3,912M'],
@@ -1664,39 +1664,39 @@
                                     XLSX.utils.book_append_sheet(wb, wsResumen, 'Resumen Ejecutivo');
                                     
                                     const fileName = 'Desglose_AIU_WBS_v2.9_' + new Date().toISOString().split('T')[0] + '.xlsx';
-                                    console.log('ðŸ’¾ Guardando:', fileName);
+                                    console.log('💾 Guardando:', fileName);
                                     XLSX.writeFile(wb, fileName);
                                     
-                                    console.log('âœ… Archivo exportado exitosamente');
-                                    alert('âœ… Desglose AIU exportado exitosamente:\\n\\nðŸ“„ ' + fileName + '\\n\\nBusca el archivo en tu carpeta de Descargas.');
+                                    console.log('✅ Archivo exportado exitosamente');
+                                    alert('✅ Desglose AIU exportado exitosamente:\\n\\n📄 ' + fileName + '\\n\\nBusca el archivo en tu carpeta de Descargas.');
                                 } catch (error) {
-                                    console.error('âŒ Error:', error);
-                                    alert('âŒ Error al exportar: ' + error.message);
+                                    console.error('❌ Error:', error);
+                                    alert('❌ Error al exportar: ' + error.message);
                                 }
                             }
                         <\/script>
                     </head>
                     <body>
-                        <button class="print-btn" onclick="window.print()">ðŸ–¨ï¸ Imprimir</button>
+                        <button class="print-btn" onclick="window.print()">🖨️ Imprimir</button>
                         <div class="container">
                             ${desgloseHTML}
                         </div>
                         <script>
-                            // Vincular evento al botÃ³n una vez el DOM estÃ© listo
+                            // Vincular evento al botón una vez el DOM esté listo
                             document.addEventListener('DOMContentLoaded', function() {
                                 const btn = document.getElementById('btnExportarDesglose');
                                 if (btn) {
                                     btn.onclick = exportarDesgloseExcel;
-                                    console.log('âœ… BotÃ³n de exportar vinculado correctamente');
+                                    console.log('✅ Botón de exportar vinculado correctamente');
                                 }
                             });
                             
-                            // Como el documento ya estÃ¡ cargado, ejecutar inmediatamente tambiÃ©n
+                            // Como el documento ya está cargado, ejecutar inmediatamente también
                             setTimeout(() => {
                                 const btn = document.getElementById('btnExportarDesglose');
                                 if (btn && !btn.onclick) {
                                     btn.onclick = exportarDesgloseExcel;
-                                    console.log('âœ… BotÃ³n de exportar vinculado (timeout)');
+                                    console.log('✅ Botón de exportar vinculado (timeout)');
                                 }
                             }, 100);
                         <\/script>
@@ -1709,17 +1709,17 @@
                 
             } catch (error) {
                 console.error('Error al mostrar desglose:', error);
-                alert('âŒ Error al generar el desglose. Verifique la consola para mÃ¡s detalles.');
+                alert('❌ Error al generar el desglose. Verifique la consola para más detalles.');
             }
         }
 
-        // FunciÃ³n para generar Acta de Obra
+        // Función para generar Acta de Obra
         function generarActaObra() {
             try {
-                console.log('ðŸ“‹ Generando Acta de Obra...');
+                console.log('📋 Generando Acta de Obra...');
                 
                 const nombresCap = {
-                    '1': 'CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL',
+                    '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
                     '2': 'TELECOMUNICACIONES COLOCALIZADAS', 
                     '3': 'SISTEMAS ITS Y SEGURIDAD',
                     '4': 'PASOS A NIVEL',
@@ -1727,7 +1727,7 @@
                     '6': 'MATERIAL RODANTE'
                 };
                 
-                // Agrupar Ã­tems por capÃ­tulo y tipo
+                // Agrupar ítems por capítulo y tipo
                 const itemsPorCapitulo = {};
                 
                 filteredData.forEach(item => {
@@ -1752,9 +1752,9 @@
                 let actaHTML = '';
                 let totalGeneral = 0;
                 
-                // Generar HTML por capÃ­tulo
+                // Generar HTML por capítulo
                 Object.keys(itemsPorCapitulo).sort().forEach(cap => {
-                    const nombreCapitulo = nombresCap[cap] || 'CAPÃTULO ' + cap;
+                    const nombreCapitulo = nombresCap[cap] || 'CAPÍTULO ' + cap;
                     let totalCapitulo = 0;
                     let sumSumin = 0, sumObra = 0, sumServ = 0;
                     
@@ -1774,8 +1774,8 @@
                             <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 11px;">
                                 <thead>
                                     <tr style="background: #34495e; color: white;">
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÃTEM</th>
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÃ“N</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÍTEM</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÓN</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">TIPO</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">UNIDAD</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: right;">CANTIDAD</th>
@@ -1841,8 +1841,8 @@
                             <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 11px;">
                                 <thead>
                                     <tr style="background: #34495e; color: white;">
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÃTEM</th>
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÃ“N</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÍTEM</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÓN</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">TIPO</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">UNIDAD</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: right;">CANTIDAD</th>
@@ -1891,7 +1891,7 @@
                                     <tr><td colspan="8" style="padding:0; border:none;">
                                         <table style="width:100%; border-collapse:collapse; font-size:11px;">
                                             <tr style="background:#f7fbff;">
-                                                <td style="border:1px solid #ddd; padding:6px; text-align:right;" colspan="6">AdministraciÃ³n (23%)</td>
+                                                <td style="border:1px solid #ddd; padding:6px; text-align:right;" colspan="6">Administración (23%)</td>
                                                 <td style="border:1px solid #ddd; padding:6px; text-align:right;">$${admObra.toLocaleString('es-CO')}</td>
                                                 <td style="border:1px solid #ddd; padding:6px; text-align:right;">$${(admObra/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                             </tr>
@@ -1911,7 +1911,7 @@
                                                 <td style="border:1px solid #ddd; padding:6px; text-align:right; font-weight:bold;">$${(aiuObra/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                             </tr>
                                             <tr style="background:#eef7ff; font-weight:bold;">
-                                                <td style="border:1px solid #ddd; padding:6px; text-align:right;" colspan="6">IVA/Utilidad (19% Ã— 5%)</td>
+                                                <td style="border:1px solid #ddd; padding:6px; text-align:right;" colspan="6">IVA/Utilidad (19% × 5%)</td>
                                                 <td style="border:1px solid #ddd; padding:6px; text-align:right;">$${ivaUtilObra.toLocaleString('es-CO')}</td>
                                                 <td style="border:1px solid #ddd; padding:6px; text-align:right;">$${(ivaUtilObra/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                             </tr>
@@ -1936,8 +1936,8 @@
                             <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 11px;">
                                 <thead>
                                     <tr style="background: #34495e; color: white;">
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÃTEM</th>
-                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÃ“N</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">ÍTEM</th>
+                                        <th style="border: 1px solid #ddd; padding: 10px; text-align: left;">DESCRIPCIÓN</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">TIPO</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: center;">UNIDAD</th>
                                         <th style="border: 1px solid #ddd; padding: 10px; text-align: right;">CANTIDAD</th>
@@ -1994,7 +1994,7 @@
                         `;
                     }
                     
-                    // Cuadro resumen detallado por capÃ­tulo
+                    // Cuadro resumen detallado por capítulo
                     const costoDirectoCap = sumSumin + sumObra + sumServ;
                     const admCap = sumObra * 0.23;
                     const impCap = sumObra * 0.05;
@@ -2007,7 +2007,7 @@
                     const totalCapituloResumen = costoDirectoCap + aiuCap + ivaTotalCap;
 
                     actaHTML += `
-                            <h3 style="margin-top:30px; color:#1e3c72;">ðŸ“Š RESUMEN CAPÃTULO ${cap}</h3>
+                            <h3 style="margin-top:30px; color:#1e3c72;">📊 RESUMEN CAPÍTULO ${cap}</h3>
                             <table style="width:100%; border-collapse: collapse; margin: 10px 0 20px 0; font-size: 11px;">
                                 <thead>
                                     <tr style="background:#1e3c72;color:#fff;">
@@ -2039,7 +2039,7 @@
                                     </tr>
                                     <tr><td colspan="3" style="padding:4px;background:#fff3cd;font-weight:bold;text-align:center;">DESGLOSE AIU (solo OBRA)</td></tr>
                                     <tr style="background:#fffbf0;">
-                                        <td style="padding:8px;border:1px solid #dee2e6;padding-left:20px;">AdministraciÃ³n (23%)</td>
+                                        <td style="padding:8px;border:1px solid #dee2e6;padding-left:20px;">Administración (23%)</td>
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${admCap.toLocaleString('es-CO')}</td>
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${(admCap/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                     </tr>
@@ -2070,7 +2070,7 @@
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${(ivaServCap/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                     </tr>
                                     <tr style="background:#f0f8ff;">
-                                        <td style="padding:8px;border:1px solid #dee2e6;padding-left:20px;">IVA/Utilidad Obra (19% Ã— 5%)</td>
+                                        <td style="padding:8px;border:1px solid #dee2e6;padding-left:20px;">IVA/Utilidad Obra (19% × 5%)</td>
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${ivaUtilCap.toLocaleString('es-CO')}</td>
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${(ivaUtilCap/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                     </tr>
@@ -2080,7 +2080,7 @@
                                         <td style="padding:8px;border:1px solid #dee2e6;text-align:right;">$${(ivaTotalCap/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                     </tr>
                                     <tr style="background:#28a745;color:white;font-weight:bold;font-size:13px;">
-                                        <td style="padding:12px;border:1px solid #155724;">TOTAL CAPÃTULO ${cap}</td>
+                                        <td style="padding:12px;border:1px solid #155724;">TOTAL CAPÍTULO ${cap}</td>
                                         <td style="padding:12px;border:1px solid #155724;text-align:right;">$${totalCapituloResumen.toLocaleString('es-CO')}</td>
                                         <td style="padding:12px;border:1px solid #155724;text-align:right;">$${(totalCapituloResumen/4400).toLocaleString('en-US',{maximumFractionDigits:0})} USD</td>
                                     </tr>
@@ -2088,12 +2088,12 @@
                             </table>
                     `;
 
-                    // Total del capÃ­tulo
+                    // Total del capítulo
                     totalGeneral += totalCapituloResumen;
                     actaHTML += `
                             <div style="background: #2c3e50; color: white; padding: 15px; border-radius: 8px; margin-top: 20px;">
                                 <h3 style="margin: 0; text-align: right;">
-                                    TOTAL CAPÃTULO ${cap}: $${totalCapituloResumen.toLocaleString('es-CO')} COP 
+                                    TOTAL CAPÍTULO ${cap}: $${totalCapituloResumen.toLocaleString('es-CO')} COP 
                                     <span style="font-size: 14px; opacity: 0.9;">($${(totalCapituloResumen/4400).toLocaleString('en-US', {maximumFractionDigits: 0})} USD)</span>
                                 </h3>
                             </div>
@@ -2101,7 +2101,7 @@
                     `;
                 });
                 
-                // PÃ¡gina de resumen final
+                // Página de resumen final
                 actaHTML += `
                     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; text-align: center;">
                         <h2 style="margin-bottom: 20px;">TOTAL GENERAL DEL PROYECTO</h2>
@@ -2167,24 +2167,24 @@
                     </head>
                     <body>
                         <div class="action-btns">
-                            <button onclick="window.print()">ðŸ–¨ï¸ Imprimir</button>
-                            <button class="excel" onclick="exportarActaExcel()">ðŸ“¥ Exportar Excel</button>
+                            <button onclick="window.print()">🖨️ Imprimir</button>
+                            <button class="excel" onclick="exportarActaExcel()">📥 Exportar Excel</button>
                         </div>
                         
                         <div class="header">
-                            <h1>ðŸ“‹ ACTA DE OBRA</h1>
+                            <h1>📋 ACTA DE OBRA</h1>
                             <h2>WBS - Sistema de Comunicaciones y Control</h2>
-                            <p>APP La Dorada-ChiriguanÃ¡ | UF-2.2 | v3.0</p>
+                            <p>APP La Dorada-Chiriguaná | UF-2.2 | v3.0</p>
                             <p>Fecha: ${new Date().toLocaleDateString('es-CO')}</p>
                         </div>
                         
                         ${actaHTML}
                         
                         <script>
-                            // FunciÃ³n para exportar Acta a Excel
+                            // Función para exportar Acta a Excel
                             function exportarActaExcel() {
                                 if (typeof XLSX === 'undefined') {
-                                    alert('Error: LibrerÃ­a XLSX no disponible');
+                                    alert('Error: Librería XLSX no disponible');
                                     return;
                                 }
                                 
@@ -2192,7 +2192,7 @@
                                     // Usar filteredData directamente para asegurar datos actualizados
                                     const filteredData = window.filteredData || window.wbsData || [];
                                     const nombresCap = {
-                                        '1': 'CONTROL Y SEÃ‘ALIZACIÃ“N VIRTUAL',
+                                        '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
                                         '2': 'TELECOMUNICACIONES COLOCALIZADAS', 
                                         '3': 'SISTEMAS ITS Y SEGURIDAD',
                                         '4': 'PASOS A NIVEL',
@@ -2200,7 +2200,7 @@
                                         '6': 'MATERIAL RODANTE'
                                     };
                                     
-                                    // Agrupar datos por capÃ­tulo y tipo
+                                    // Agrupar datos por capítulo y tipo
                                     const datos = {};
                                     filteredData.forEach(item => {
                                         if (!item.item || !item.tipo) return;
@@ -2231,23 +2231,23 @@
                                     
                                     // Crear hoja de proyecto completo (igual al HTML)
                                     const proyectoCompletoData = [];
-                                    proyectoCompletoData.push(['ðŸ“‹ ACTA DE OBRA']);
+                                    proyectoCompletoData.push(['📋 ACTA DE OBRA']);
                                     proyectoCompletoData.push(['WBS - Sistema de Comunicaciones y Control']);
-                                    proyectoCompletoData.push(['APP La Dorada-ChiriguanÃ¡ | UF-2.2 | v3.0']);
+                                    proyectoCompletoData.push(['APP La Dorada-Chiriguaná | UF-2.2 | v3.0']);
                                     proyectoCompletoData.push([]);
                                     proyectoCompletoData.push(['Fecha: ' + new Date().toLocaleDateString('es-CO')]);
                                     proyectoCompletoData.push([]);
                                     
                                     const parseNum = (val) => parseFloat(val?.toString().replace(/,/g, '')) || 0;
                                     
-                                    // Crear hoja por cada capÃ­tulo
+                                    // Crear hoja por cada capítulo
                                     Object.keys(datos).sort().forEach(cap => {
                                         const actaData = [];
-                                        const capNombre = nombresCap[cap] || 'CAPÃTULO ' + cap;
+                                        const capNombre = nombresCap[cap] || 'CAPÍTULO ' + cap;
                                         
-                                        actaData.push(['ACTA DE OBRA - CAPÃTULO ' + cap]);
+                                        actaData.push(['ACTA DE OBRA - CAPÍTULO ' + cap]);
                                         actaData.push([capNombre]);
-                                        actaData.push(['APP La Dorada-ChiriguanÃ¡ | UF-2.2 | v3.0']);
+                                        actaData.push(['APP La Dorada-Chiriguaná | UF-2.2 | v3.0']);
                                         actaData.push(['Fecha: ' + new Date().toLocaleDateString('es-CO')]);
                                         actaData.push([]);
                                         
@@ -2257,7 +2257,7 @@
                                         // SUMINISTROS
                                         if (datos[cap].SUMINISTRO && datos[cap].SUMINISTRO.length > 0) {
                                             actaData.push([cap + '.1 SUMINISTROS']);
-                                            actaData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            actaData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalSumin = 0;
                                             datos[cap].SUMINISTRO.forEach(item => {
@@ -2289,7 +2289,7 @@
                                         // OBRA CIVIL
                                         if (datos[cap].OBRA && datos[cap].OBRA.length > 0) {
                                             actaData.push([cap + '.2 OBRA CIVIL']);
-                                            actaData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            actaData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalObra = 0;
                                             datos[cap].OBRA.forEach(item => {
@@ -2319,7 +2319,7 @@
                                             totalCapIVA += ivaUtilObra;
                                             
                                             actaData.push(['', '', '', '', '', 'SUBTOTAL', subtotalObra, subtotalObra / 4400]);
-                                            actaData.push(['', '', '', '', '', 'AdministraciÃ³n 23%', admObra, admObra / 4400]);
+                                            actaData.push(['', '', '', '', '', 'Administración 23%', admObra, admObra / 4400]);
                                             actaData.push(['', '', '', '', '', 'Imprevistos 5%', impObra, impObra / 4400]);
                                             actaData.push(['', '', '', '', '', 'Utilidad 5%', utilObra, utilObra / 4400]);
                                             actaData.push(['', '', '', '', '', 'AIU TOTAL 33%', aiuObra, aiuObra / 4400]);
@@ -2331,7 +2331,7 @@
                                         // SERVICIOS
                                         if (datos[cap].SERVICIO && datos[cap].SERVICIO.length > 0) {
                                             actaData.push([cap + '.3 SERVICIOS']);
-                                            actaData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            actaData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalServ = 0;
                                             datos[cap].SERVICIO.forEach(item => {
@@ -2360,16 +2360,16 @@
                                             actaData.push([]);
                                         }
                                         
-                                        // Resumen del capÃ­tulo
+                                        // Resumen del capítulo
                                         totalCapCapitulo = totalCapSuministros + totalCapObra + totalCapServicios;
-                                        actaData.push(['RESUMEN CAPÃTULO ' + cap + ' - ' + capNombre]);
+                                        actaData.push(['RESUMEN CAPÍTULO ' + cap + ' - ' + capNombre]);
                                         actaData.push(['CONCEPTO', 'VALOR (COP)', 'VALOR (USD)']);
                                         actaData.push(['Suministros', totalCapSuministros, totalCapSuministros / 4400]);
                                         actaData.push(['Obra Civil', totalCapObra, totalCapObra / 4400]);
                                         actaData.push(['Servicios', totalCapServicios, totalCapServicios / 4400]);
                                         actaData.push(['AIU Total', totalCapAIU, totalCapAIU / 4400]);
                                         actaData.push(['IVA Total', totalCapIVA, totalCapIVA / 4400]);
-                                        actaData.push(['TOTAL CAPÃTULO ' + cap, totalCapCapitulo, totalCapCapitulo / 4400]);
+                                        actaData.push(['TOTAL CAPÍTULO ' + cap, totalCapCapitulo, totalCapCapitulo / 4400]);
                                         
                                         // Acumular para resumen general
                                         totalGeneralSuministros += totalCapSuministros;
@@ -2379,14 +2379,14 @@
                                         totalGeneralIVA += totalCapIVA;
                                         totalGeneralProyecto += totalCapCapitulo;
                                         
-                                        // Agregar datos del capÃ­tulo al proyecto completo (igual al HTML)
+                                        // Agregar datos del capítulo al proyecto completo (igual al HTML)
                                         proyectoCompletoData.push([]);
                                         proyectoCompletoData.push([cap + '. ' + capNombre]);
                                         
-                                        // SUMINISTROS del capÃ­tulo
+                                        // SUMINISTROS del capítulo
                                         if (datos[cap].SUMINISTRO && datos[cap].SUMINISTRO.length > 0) {
                                             proyectoCompletoData.push([cap + '.1 SUMINISTROS']);
-                                            proyectoCompletoData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            proyectoCompletoData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalSumin = 0;
                                             datos[cap].SUMINISTRO.forEach(item => {
@@ -2412,11 +2412,11 @@
                                             proyectoCompletoData.push(['TOTAL SUMINISTROS (con IVA):', '', '', '', '', '', totalSumin, totalSumin / 4400]);
                                         }
                                         
-                                        // OBRA CIVIL del capÃ­tulo
+                                        // OBRA CIVIL del capítulo
                                         if (datos[cap].OBRA && datos[cap].OBRA.length > 0) {
                                             proyectoCompletoData.push([]);
                                             proyectoCompletoData.push([cap + '.2 OBRA CIVIL']);
-                                            proyectoCompletoData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            proyectoCompletoData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalObra = 0;
                                             datos[cap].OBRA.forEach(item => {
@@ -2442,19 +2442,19 @@
                                             const totalObra = subtotalObra + aiuObra + ivaUtilObra;
                                             
                                             proyectoCompletoData.push(['SUBTOTAL OBRA CIVIL:', '', '', '', '', '', subtotalObra, subtotalObra / 4400]);
-                                            proyectoCompletoData.push(['AdministraciÃ³n (23%)', '', '', '', '', '', admObra, admObra / 4400]);
+                                            proyectoCompletoData.push(['Administración (23%)', '', '', '', '', '', admObra, admObra / 4400]);
                                             proyectoCompletoData.push(['Imprevistos (5%)', '', '', '', '', '', impObra, impObra / 4400]);
                                             proyectoCompletoData.push(['Utilidad (5%)', '', '', '', '', '', utilObra, utilObra / 4400]);
                                             proyectoCompletoData.push(['AIU Total (33%)', '', '', '', '', '', aiuObra, aiuObra / 4400]);
-                                            proyectoCompletoData.push(['IVA/Utilidad (19% Ã— 5%)', '', '', '', '', '', ivaUtilObra, ivaUtilObra / 4400]);
+                                            proyectoCompletoData.push(['IVA/Utilidad (19% × 5%)', '', '', '', '', '', ivaUtilObra, ivaUtilObra / 4400]);
                                             proyectoCompletoData.push(['TOTAL OBRA CIVIL (con AIU + IVA):', '', '', '', '', '', totalObra, totalObra / 4400]);
                                         }
                                         
-                                        // SERVICIOS del capÃ­tulo
+                                        // SERVICIOS del capítulo
                                         if (datos[cap].SERVICIO && datos[cap].SERVICIO.length > 0) {
                                             proyectoCompletoData.push([]);
                                             proyectoCompletoData.push([cap + '.3 SERVICIOS']);
-                                            proyectoCompletoData.push(['ÃTEM', 'DESCRIPCIÃ“N', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
+                                            proyectoCompletoData.push(['ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)']);
                                             
                                             let subtotalServ = 0;
                                             datos[cap].SERVICIO.forEach(item => {
@@ -2480,9 +2480,9 @@
                                             proyectoCompletoData.push(['TOTAL SERVICIOS (con IVA):', '', '', '', '', '', totalServ, totalServ / 4400]);
                                         }
                                         
-                                        // RESUMEN DEL CAPÃTULO
+                                        // RESUMEN DEL CAPÍTULO
                                         proyectoCompletoData.push([]);
-                                        proyectoCompletoData.push(['ðŸ“Š RESUMEN CAPÃTULO ' + cap]);
+                                        proyectoCompletoData.push(['📊 RESUMEN CAPÍTULO ' + cap]);
                                         proyectoCompletoData.push(['CONCEPTO', 'COP', 'USD']);
                                         proyectoCompletoData.push(['SUMINISTROS', totalCapSuministros, totalCapSuministros / 4400]);
                                         proyectoCompletoData.push(['OBRA CIVIL', totalCapObra, totalCapObra / 4400]);
@@ -2490,7 +2490,7 @@
                                         proyectoCompletoData.push(['COSTO DIRECTO', totalCapSuministros + (totalCapObra - totalCapAIU) + (totalCapServicios - totalCapIVA + (totalCapIVA - totalCapIVA * 0.19)), (totalCapSuministros + (totalCapObra - totalCapAIU) + (totalCapServicios - totalCapIVA + (totalCapIVA - totalCapIVA * 0.19))) / 4400]);
                                         proyectoCompletoData.push([]);
                                         proyectoCompletoData.push(['DESGLOSE AIU (solo OBRA)']);
-                                        proyectoCompletoData.push(['AdministraciÃ³n (23%)', totalCapAIU * 0.7, (totalCapAIU * 0.7) / 4400]);
+                                        proyectoCompletoData.push(['Administración (23%)', totalCapAIU * 0.7, (totalCapAIU * 0.7) / 4400]);
                                         proyectoCompletoData.push(['Imprevistos (5%)', totalCapAIU * 0.15, (totalCapAIU * 0.15) / 4400]);
                                         proyectoCompletoData.push(['Utilidad (5%)', totalCapAIU * 0.15, (totalCapAIU * 0.15) / 4400]);
                                         proyectoCompletoData.push(['AIU TOTAL (33%)', totalCapAIU, totalCapAIU / 4400]);
@@ -2498,12 +2498,12 @@
                                         proyectoCompletoData.push(['DESGLOSE IVA']);
                                         proyectoCompletoData.push(['IVA Suministros (19%)', totalCapIVA * 0.8, (totalCapIVA * 0.8) / 4400]);
                                         proyectoCompletoData.push(['IVA Servicios (19%)', totalCapIVA * 0.15, (totalCapIVA * 0.15) / 4400]);
-                                        proyectoCompletoData.push(['IVA/Utilidad Obra (19% Ã— 5%)', totalCapIVA * 0.05, (totalCapIVA * 0.05) / 4400]);
+                                        proyectoCompletoData.push(['IVA/Utilidad Obra (19% × 5%)', totalCapIVA * 0.05, (totalCapIVA * 0.05) / 4400]);
                                         proyectoCompletoData.push(['IVA TOTAL', totalCapIVA, totalCapIVA / 4400]);
-                                        proyectoCompletoData.push(['TOTAL CAPÃTULO ' + cap, totalCapCapitulo, totalCapCapitulo / 4400]);
-                                        proyectoCompletoData.push(['TOTAL CAPÃTULO ' + cap + ': $' + totalCapCapitulo.toLocaleString('es-CO') + ' COP ($' + (totalCapCapitulo / 4400).toLocaleString('en-US', {maximumFractionDigits: 0}) + ' USD)']);
+                                        proyectoCompletoData.push(['TOTAL CAPÍTULO ' + cap, totalCapCapitulo, totalCapCapitulo / 4400]);
+                                        proyectoCompletoData.push(['TOTAL CAPÍTULO ' + cap + ': $' + totalCapCapitulo.toLocaleString('es-CO') + ' COP ($' + (totalCapCapitulo / 4400).toLocaleString('en-US', {maximumFractionDigits: 0}) + ' USD)']);
                                         
-                                        // Crear hoja para el capÃ­tulo
+                                        // Crear hoja para el capítulo
                                         const ws = XLSX.utils.aoa_to_sheet(actaData);
                                         ws['!cols'] = [
                                             {wch: 12}, {wch: 50}, {wch: 12}, {wch: 8}, {wch: 8},
@@ -2543,7 +2543,7 @@
                                     // Exportar
                                     const fileName = 'Acta_Obra_WBS_v3.0_' + new Date().toISOString().split('T')[0] + '.xlsx';
                                     XLSX.writeFile(wb, fileName);
-                                    alert('âœ… Acta de Obra exportada exitosamente:\\n\\n' + fileName);
+                                    alert('✅ Acta de Obra exportada exitosamente:\\n\\n' + fileName);
                                     
                                 } catch (error) {
                                     console.error('Error:', error);
@@ -2556,15 +2556,15 @@
                 `);
                 
                 ventana.document.close();
-                console.log('âœ… Acta de Obra generada exitosamente');
+                console.log('✅ Acta de Obra generada exitosamente');
                 
             } catch (error) {
-                console.error('âŒ Error generando Acta de Obra:', error);
+                console.error('❌ Error generando Acta de Obra:', error);
                 alert('Error al generar Acta de Obra. Verifique la consola.');
             }
         }
 
-        // FunciÃ³n para validar costos del CapÃ­tulo 4
+        // Función para validar costos del Capítulo 4
         function validarCapitulo4() {
             let totalCapitulo4 = 0;
             let itemsCapitulo4 = [];
@@ -2581,23 +2581,23 @@
                 }
             });
             
-            console.log('=== VALIDACIÃ“N CAPÃTULO 4 INTEROPERABILIDAD FENOCO ===');
-            console.log('Total CapÃ­tulo 4 (COP):', totalCapitulo4.toLocaleString('es-CO'));
-            console.log('Total CapÃ­tulo 4 (USD):', (totalCapitulo4/4400).toLocaleString('en-US'));
-            console.log('Items del CapÃ­tulo 4:', itemsCapitulo4);
+            console.log('=== VALIDACIÓN CAPÍTULO 4 INTEROPERABILIDAD FENOCO ===');
+            console.log('Total Capítulo 4 (COP):', totalCapitulo4.toLocaleString('es-CO'));
+            console.log('Total Capítulo 4 (USD):', (totalCapitulo4/4400).toLocaleString('en-US'));
+            console.log('Items del Capítulo 4:', itemsCapitulo4);
             console.log('==========================================');
             
             return totalCapitulo4;
         }
 
-        // FunciÃ³n para validar todos los cÃ¡lculos
+        // Función para validar todos los cálculos
         function validarCalculos() {
             const parseNumber = (str) => {
                 if (!str) return 0;
                 return parseFloat(str.toString().replace(/,/g, '')) || 0;
             };
 
-            console.log('=== VALIDACIÃ“N GENERAL DE CÃLCULOS ===');
+            console.log('=== VALIDACIÓN GENERAL DE CÁLCULOS ===');
             
             // 1. Validar suma directa de todos los items
             let sumaDirecta = 0;
@@ -2609,21 +2609,21 @@
             
             console.log('1. Suma directa todos los items:', sumaDirecta.toLocaleString('es-CO'));
             
-            // 2. Validar cÃ¡lculos AIU/IVA
+            // 2. Validar cálculos AIU/IVA
             const calculos = calcularAIUeIVA();
             console.log('2. Costo Directo calculado:', calculos.costoDirecto.toLocaleString('es-CO'));
             console.log('3. AIU calculado:', calculos.aiu.toLocaleString('es-CO'));
             console.log('4. IVA calculado:', calculos.iva.toLocaleString('es-CO'));
             console.log('5. Total calculado:', calculos.total.toLocaleString('es-CO'));
             
-            // 3. Validar por capÃ­tulo
+            // 3. Validar por capítulo
             Object.keys(calculos.subtotales).forEach(cap => {
                 const subtotal = calculos.subtotales[cap];
                 const totalCap = subtotal.SUMINISTRO + subtotal.OBRA + subtotal.SERVICIO;
-                console.log(`6. CapÃ­tulo ${cap} subtotal:`, totalCap.toLocaleString('es-CO'));
+                console.log(`6. Capítulo ${cap} subtotal:`, totalCap.toLocaleString('es-CO'));
             });
             
-            // 4. Validar total de la fila vs funciÃ³n calcularAIUeIVA
+            // 4. Validar total de la fila vs función calcularAIUeIVA
             const filtroTipo = document.getElementById('filtroTipo').value;
             let sumaObraSuministro = 0;
             let sumaServicios = 0;
@@ -2655,12 +2655,12 @@
             }
             
             console.log(`7. Total fila calculado (${filtroTipo}):`, totalFilaCalculado.toLocaleString('es-CO'));
-            console.log('8. Diferencia vs funciÃ³n principal:', Math.abs(calculos.total - totalFilaCalculado).toLocaleString('es-CO'));
+            console.log('8. Diferencia vs función principal:', Math.abs(calculos.total - totalFilaCalculado).toLocaleString('es-CO'));
             
             console.log('=====================================');
         }
 
-        // FunciÃ³n para imprimir PDF completo
+        // Función para imprimir PDF completo
         function imprimirPDF() {
             try {
                 const calculos = calcularAIUeIVA();
@@ -2669,13 +2669,13 @@
                     return parseFloat(str.toString().replace(/,/g, '')) || 0;
                 };
 
-                // Generar tabla HTML completa para impresiÃ³n
+                // Generar tabla HTML completa para impresión
                 let tablaHTML = `
                     <table style="width: 100%; border-collapse: collapse; font-size: 10px; margin-bottom: 20px;">
                         <thead>
                             <tr style="background: #343a40; color: white;">
-                                <th style="padding: 8px; border: 1px solid #495057; text-align: center;">ÃTEM</th>
-                                <th style="padding: 8px; border: 1px solid #495057; text-align: center;">DESCRIPCIÃ“N</th>
+                                <th style="padding: 8px; border: 1px solid #495057; text-align: center;">ÍTEM</th>
+                                <th style="padding: 8px; border: 1px solid #495057; text-align: center;">DESCRIPCIÓN</th>
                                 <th style="padding: 8px; border: 1px solid #495057; text-align: center;">TIPO</th>
                                 <th style="padding: 8px; border: 1px solid #495057; text-align: center;">UNIDAD</th>
                                 <th style="padding: 8px; border: 1px solid #495057; text-align: center;">CANTIDAD</th>
@@ -2692,9 +2692,9 @@
                 const TRM = 4400;
 
                 wbsData.forEach((item, index) => {
-                    // Detectar inicio de nuevo capÃ­tulo
+                    // Detectar inicio de nuevo capítulo
                     if (item.nivel === 1 && item.descripcion) {
-                        // Agregar subtotal del capÃ­tulo anterior si existe
+                        // Agregar subtotal del capítulo anterior si existe
                         if (currentChapter && chapterSubtotal > 0) {
                             tablaHTML += `
                                 <tr style="background: #fff3cd; font-weight: bold;">
@@ -2705,7 +2705,7 @@
                             `;
                         }
                         
-                        // Iniciar nuevo capÃ­tulo
+                        // Iniciar nuevo capítulo
                         currentChapter = item.descripcion;
                         chapterSubtotal = 0;
                     }
@@ -2731,7 +2731,7 @@
                     `;
                 });
 
-                // Agregar subtotal del Ãºltimo capÃ­tulo
+                // Agregar subtotal del último capítulo
                 if (currentChapter && chapterSubtotal > 0) {
                     tablaHTML += `
                         <tr style="background: #fff3cd; font-weight: bold;">
@@ -2756,7 +2756,7 @@
                 // Generar resumen ejecutivo
                 const resumenHTML = `
                     <div style="margin-top: 30px; padding: 20px; background: #e3f2fd; border-radius: 8px; border-left: 5px solid #2196f3;">
-                        <h3 style="color: #1565c0; margin-bottom: 15px;">ðŸ“‹ RESUMEN EJECUTIVO</h3>
+                        <h3 style="color: #1565c0; margin-bottom: 15px;">📋 RESUMEN EJECUTIVO</h3>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
                             <div>
                                 <p><strong>Costo Directo Total:</strong> $${calculos.costoDirecto.toLocaleString('es-CO', {maximumFractionDigits: 0})} COP</p>
@@ -2771,7 +2771,7 @@
                         </div>
                         
                         <div style="margin-top: 20px; padding: 15px; background: #d4edda; border-radius: 6px; border-left: 5px solid #28a745;">
-                            <h4 style="color: #155724; margin-bottom: 10px;">âœ… CAMBIOS TÃ‰CNICOS RECIENTES (SesiÃ³n 8-Oct-2025)</h4>
+                            <h4 style="color: #155724; margin-bottom: 10px;">✅ CAMBIOS TÉCNICOS RECIENTES (Sesión 8-Oct-2025)</h4>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-001:</strong> Servidores SCADA +$400M</p>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-002:</strong> Software SCADA +$4,500M</p>
                             <p style="color: #155724; margin: 5px 0;"><strong>DT-SCADA-003:</strong> Interfaces L2/L3 +$3,912M</p>
@@ -2780,12 +2780,12 @@
                     </div>
                 `;
 
-                // Crear ventana de impresiÃ³n
+                // Crear ventana de impresión
                 const ventana = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
                 ventana.document.write(`
                     <html>
                     <head>
-                        <title>WBS Presupuesto SCC - APP La Dorada-ChiriguanÃ¡ v2.0</title>
+                        <title>WBS Presupuesto SCC - APP La Dorada-Chiriguaná v2.0</title>
                         <meta charset="UTF-8">
                         <style>
                             @media print {
@@ -2872,17 +2872,17 @@
                         </style>
                     </head>
                     <body>
-                        <button class="print-btn no-print" onclick="window.print()">ðŸ–¨ï¸ Imprimir PDF</button>
+                        <button class="print-btn no-print" onclick="window.print()">🖨️ Imprimir PDF</button>
                         
                         <div class="header">
                             <h1>WBS PRESUPUESTO SCC</h1>
-                            <p>APP La Dorada-ChiriguanÃ¡ | UF-2.2 | VersiÃ³n 2.9 (Actualizada)</p>
+                            <p>APP La Dorada-Chiriguaná | UF-2.2 | Versión 2.9 (Actualizada)</p>
                         </div>
                         
                         <div class="correccion-nota" style="background: #d4edda; border-color: #c3e6cb;">
-                            <h3 style="color: #155724;">âœ… WBS ACTUALIZADA - CAMBIOS TÃ‰CNICOS</h3>
-                            <p style="color: #155724;">CapÃ­tulo 5 (CCO): +$8,812M</p>
-                            <p style="color: #155724;">CapÃ­tulo 1 (CTC): +$8,000M</p>
+                            <h3 style="color: #155724;">✅ WBS ACTUALIZADA - CAMBIOS TÉCNICOS</h3>
+                            <p style="color: #155724;">Capítulo 5 (CCO): +$8,812M</p>
+                            <p style="color: #155724;">Capítulo 1 (CTC): +$8,000M</p>
                             <p style="color: #155724;">Fecha: 8 de Octubre 2025</p>
                         </div>
                         
@@ -2891,8 +2891,8 @@
                         ${resumenHTML}
                         
                         <div style="margin-top: 40px; padding: 20px; text-align: center; font-size: 10px; color: #666;">
-                            <p><em>Documento generado automÃ¡ticamente el ${new Date().toLocaleString('es-CO')}</em></p>
-                            <p><em>WBS actualizada v2.9 - Incluye cambios tÃ©cnicos recientes</em></p>
+                            <p><em>Documento generado automáticamente el ${new Date().toLocaleString('es-CO')}</em></p>
+                            <p><em>WBS actualizada v2.9 - Incluye cambios técnicos recientes</em></p>
                         </div>
                     </body>
                     </html>
@@ -2904,16 +2904,16 @@
                 
             } catch (error) {
                 console.error('Error al generar PDF:', error);
-                alert('âŒ Error al generar el PDF. Verifique la consola para mÃ¡s detalles.');
+                alert('❌ Error al generar el PDF. Verifique la consola para más detalles.');
             }
         }
 
-        // Inicializar la tabla al cargar la pÃ¡gina
+        // Inicializar la tabla al cargar la página
         document.addEventListener('DOMContentLoaded', function() {
             renderTable();
             actualizarEstadisticas();
             
-            // Validar cÃ¡lculos despuÃ©s de cargar
+            // Validar cálculos después de cargar
             setTimeout(() => {
                 validarCalculos();
             }, 1000);
@@ -2921,6 +2921,3 @@
     </script>
 </body>
 </html>
-
-
-

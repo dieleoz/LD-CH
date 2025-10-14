@@ -1,4 +1,4 @@
-﻿const wbsDataGlobal = {
+﻿window.datos_wbs = {
     "fecha_actualizacion":  "2025-10-13",
     "total_capitulos":  6,
     "version":  "3.0",
@@ -16,101 +16,6 @@
                                             ],
                       "capitulo":  "1",
                       "descripcion":  "CONTROL Y SEÑALIZACIÓN VIRTUAL",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "",
-                      "vu_cop":  0,
-                      "codigo":  "2",
-                      "cantidad":  "",
-                      "categoria":  "telecomunicaciones",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "2",
-                      "descripcion":  "TELECOMUNICACIONES COLOCALIZADAS",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "",
-                      "vu_cop":  0,
-                      "codigo":  "3",
-                      "cantidad":  "",
-                      "categoria":  "seguridad",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "3",
-                      "descripcion":  "SISTEMAS ITS Y SEGURIDAD",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "",
-                      "vu_cop":  0,
-                      "codigo":  "4",
-                      "cantidad":  "",
-                      "categoria":  "pasos_nivel",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "4",
-                      "descripcion":  "PASOS A NIVEL",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "",
-                      "vu_cop":  0,
-                      "codigo":  "5",
-                      "cantidad":  "",
-                      "categoria":  "centro_control",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "5",
-                      "descripcion":  "CENTRO DE CONTROL OPERACIONAL",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "",
-                      "vu_cop":  0,
-                      "codigo":  "6",
-                      "cantidad":  "",
-                      "categoria":  "material_rodante",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "6",
-                      "descripcion":  "MATERIAL RODANTE",
                       "total_cop":  0,
                       "archivos_relacionados":  [
 
@@ -724,6 +629,25 @@
 
                                                 ],
                       "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "",
+                      "vu_cop":  0,
+                      "codigo":  "2",
+                      "cantidad":  "",
+                      "categoria":  "telecomunicaciones",
+                      "modificable":  false,
+                      "tipo":  "",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "2",
+                      "descripcion":  "TELECOMUNICACIONES COLOCALIZADAS",
+                      "total_cop":  0,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  ""
                   },
                   {
                       "subcapitulo":  "2.1",
@@ -1467,6 +1391,25 @@
                       "unidad":  "UND"
                   },
                   {
+                      "subcapitulo":  "",
+                      "vu_cop":  0,
+                      "codigo":  "3",
+                      "cantidad":  "",
+                      "categoria":  "seguridad",
+                      "modificable":  false,
+                      "tipo":  "",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "3",
+                      "descripcion":  "SISTEMAS ITS Y SEGURIDAD",
+                      "total_cop":  0,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  ""
+                  },
+                  {
                       "subcapitulo":  "3.1",
                       "vu_cop":  0,
                       "codigo":  "3.1",
@@ -2018,6 +1961,25 @@
                       "unidad":  "UND"
                   },
                   {
+                      "subcapitulo":  "",
+                      "vu_cop":  0,
+                      "codigo":  "4",
+                      "cantidad":  "",
+                      "categoria":  "pasos_nivel",
+                      "modificable":  false,
+                      "tipo":  "",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "4",
+                      "descripcion":  "PASOS A NIVEL",
+                      "total_cop":  0,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  ""
+                  },
+                  {
                       "subcapitulo":  "4.1",
                       "vu_cop":  0,
                       "codigo":  "4.1",
@@ -2396,6 +2358,25 @@
 
                                                 ],
                       "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "",
+                      "vu_cop":  0,
+                      "codigo":  "5",
+                      "cantidad":  "",
+                      "categoria":  "centro_control",
+                      "modificable":  false,
+                      "tipo":  "",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "5",
+                      "descripcion":  "CENTRO DE CONTROL OPERACIONAL",
+                      "total_cop":  0,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  ""
                   },
                   {
                       "subcapitulo":  "5.1",
@@ -2778,6 +2759,25 @@
                       "unidad":  "UND"
                   },
                   {
+                      "subcapitulo":  "",
+                      "vu_cop":  0,
+                      "codigo":  "6",
+                      "cantidad":  "",
+                      "categoria":  "material_rodante",
+                      "modificable":  false,
+                      "tipo":  "",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "MATERIAL RODANTE",
+                      "total_cop":  0,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  ""
+                  },
+                  {
                       "subcapitulo":  "6.1",
                       "vu_cop":  0,
                       "codigo":  "6.1",
@@ -3027,7 +3027,4 @@
               ],
     "proyecto":  "APP La Dorada-ChiriguanÃ¡"
 }
-;
 
-// Asignar a window para acceso global
-window.datos_wbs = wbsDataGlobal;
