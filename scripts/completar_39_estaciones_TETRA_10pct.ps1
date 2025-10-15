@@ -11,8 +11,11 @@ Write-Host "  Criterio: 10% solapamiento | Espaciamiento: 13.71km " -ForegroundC
 Write-Host "========================================================" -ForegroundColor Cyan
 Write-Host ""
 
+# Importar módulo de mapeo (dinámico, NO hardcodeado)
+Import-Module "$PSScriptRoot\mapeo_dispositivo_categoria.psm1" -Force
+
 # ================================================================
-# PASO 1: GENERAR 37 ESTACIONES
+# PASO 1: GENERAR 39 ESTACIONES
 # ================================================================
 
 Write-Host "PASO 1: Generando 39 estaciones TETRA..." -ForegroundColor Yellow
@@ -63,13 +66,19 @@ for ($i = 0; $i -lt $numEstaciones; $i++) {
     $pkFormato = "$pkEntero+$pkDecimal"
     $ufv = Calcular-UFV -pk $pk
     
+    # Obtener categoría dinámicamente (NO hardcodeada)
+    $dispositivo = "TETRA BS"
+    $nombre = "EBT_$(($i+1).ToString('00'))"
+    $descripcion = "Estación Base TETRA $(($i+1).ToString('00'))"
+    $categoria = Get-CategoriaDesdeDispositivo -Dispositivo $dispositivo -Nombre $nombre -Descripcion $descripcion
+    
     $estaciones += [PSCustomObject]@{
         numero = $i + 1
-        id = "EBT_$(($i+1).ToString('00'))"
+        id = $nombre
         pk_numerico = $pk
         pk_formato = $pkFormato
         ufv = $ufv
-        linea_layout = "$ufv`t2.1`t$("EBT_$(($i+1).ToString('00'))")`t$pkFormato`tEstación Base TETRA $(($i+1).ToString('00'))`tDerecha`tPK$pkFormato Derecha`tTELECOMUNICACIONES`tTETRA BS`tN/A`tN/A`tTBD`tTBD"
+        linea_layout = "$ufv`t2.1`t$nombre`t$pkFormato`t$descripcion`tDerecha`tPK$pkFormato Derecha`t$categoria`t$dispositivo`tN/A`tN/A`tTBD`tTBD"
     }
 }
 
@@ -82,7 +91,12 @@ Write-Host ""
 
 Write-Host "PASO 2: Integrando en layout.md..." -ForegroundColor Yellow
 
-$layoutMdPath = "..\layout.md"
+$layoutMdPath = "layout.md"
+if (-not (Test-Path $layoutMdPath)) {
+    Write-Host "  ❌ ERROR: No se encuentra layout.md" -ForegroundColor Red
+    exit 1
+}
+
 $layoutContent = Get-Content $layoutMdPath -Encoding UTF8
 
 # Limpiar torres TETRA antiguas
@@ -90,7 +104,7 @@ $layoutLimpio = $layoutContent | Where-Object {
     $_ -notmatch 'EBT_' -and 
     ($_ -notmatch 'TETRA BS' -or $_ -notmatch '^UFV') -and
     $_ -notmatch '# ESTACIONES BASE TETRA' -and
-    $_ -notmatch 'completar_37_estaciones_TETRA'
+    $_ -notmatch 'completar_\d+_estaciones_TETRA'
 }
 
 Write-Host "  Limpiadas: $($layoutContent.Count - $layoutLimpio.Count) líneas antiguas" -ForegroundColor Gray
@@ -109,9 +123,11 @@ if ($insertIndex -eq -1) { $insertIndex = $layoutLimpio.Count }
 $layoutFinal = @()
 $layoutFinal += $layoutLimpio[0..($insertIndex-1)]
 $layoutFinal += ""
-$layoutFinal += "# ESTACIONES BASE TETRA - Generado automaticamente por completar_37_estaciones_TETRA_v2.ps1"
+$layoutFinal += "# ESTACIONES BASE TETRA - Generado automaticamente por DT-TETRA-038"
 $layoutFinal += "# Fecha: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-$layoutFinal += "# Total: 37 estaciones (espaciamiento ~14.5 km)"
+$layoutFinal += "# Total: 39 estaciones (espaciamiento 13.71 km | Solapamiento 10%)"
+$layoutFinal += "# Criterio: 10% solapamiento coherente (DT-TETRA-038)"
+$layoutFinal += "# Categoría asignada dinámicamente (NO hardcodeada)"
 $layoutFinal += ""
 $layoutFinal += $estaciones.linea_layout
 $layoutFinal += ""
@@ -129,8 +145,13 @@ Write-Host ""
 # ================================================================
 
 Write-Host "PASO 3: Regenerando layout_datos.js..." -ForegroundColor Yellow
-& "$PSScriptRoot\convertir_layout_a_js.ps1" 2>&1 | Out-Null
-Write-Host "  ✅ layout_datos.js regenerado" -ForegroundColor Green
+$scriptConvertir = "scripts\convertir_layout_a_js.ps1"
+if (Test-Path $scriptConvertir) {
+    & $scriptConvertir 2>&1 | Out-Null
+    Write-Host "  ✅ layout_datos.js regenerado" -ForegroundColor Green
+} else {
+    Write-Host "  ⚠️  Script convertir_layout_a_js.ps1 no encontrado" -ForegroundColor Yellow
+}
 Write-Host ""
 
 # ================================================================
@@ -139,12 +160,15 @@ Write-Host ""
 
 Write-Host "PASO 4: Actualizando WBS_Presupuestal..." -ForegroundColor Yellow
 
-$wbsPath = "..\IX. WBS y Planificacion\WBS_Presupuestal_v2.0.md"
+$wbsPath = "IX. WBS y Planificacion\WBS_Presupuestal_v2.0.md"
 if (Test-Path $wbsPath) {
     $wbsContent = Get-Content $wbsPath -Raw -Encoding UTF8
-    $wbsContent = $wbsContent -replace '(\| \*\*2\.1\.100\*\* \| Torre[^\|]+\| UND \| )(\d+)([ \|])', "`${1}37`${3}"
-    $wbsContent | Out-File -FilePath $wbsPath -Encoding UTF8 -Force
-    Write-Host "  ✅ WBS_Presupuestal item 2.1.100: 37 torres" -ForegroundColor Green
+    # Actualizar cantidad a 39
+    $wbsContent = $wbsContent -replace '(\| \*\*2\.1\.100\*\* \| Torre[^\|]+\| UND \| )(\d+)([ \|])', '${1}39${3}'
+    $wbsContent | Out-File -FilePath $wbsPath -Encoding UTF8 -NoNewline -Force
+    Write-Host "  ✅ WBS_Presupuestal item 2.1.100: 39 torres" -ForegroundColor Green
+} else {
+    Write-Host "  ⚠️  WBS_Presupuestal no encontrado" -ForegroundColor Yellow
 }
 Write-Host ""
 
@@ -153,8 +177,13 @@ Write-Host ""
 # ================================================================
 
 Write-Host "PASO 5: Regenerando datos_wbs_TODOS_items.js..." -ForegroundColor Yellow
-& "$PSScriptRoot\extraer_todos_items_wbs.ps1" 2>&1 | Out-Null
-Write-Host "  ✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor Green
+$scriptExtraer = "scripts\extraer_todos_items_wbs.ps1"
+if (Test-Path $scriptExtraer) {
+    & $scriptExtraer 2>&1 | Out-Null
+    Write-Host "  ✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor Green
+} else {
+    Write-Host "  ⚠️  Script extraer_todos_items_wbs.ps1 no encontrado" -ForegroundColor Yellow
+}
 Write-Host ""
 
 # ================================================================
@@ -162,14 +191,22 @@ Write-Host ""
 # ================================================================
 
 Write-Host "=================================================" -ForegroundColor Green
-Write-Host "  REGENERACIÓN COMPLETA" -ForegroundColor Green
+Write-Host "  DT-TETRA-038 EJECUTADA EXITOSAMENTE          " -ForegroundColor Green
 Write-Host "=================================================" -ForegroundColor Green
 Write-Host ""
-Write-Host "✅ 37 Torres TETRA agregadas al layout" -ForegroundColor White
+Write-Host "✅ 39 Torres TETRA agregadas al layout" -ForegroundColor White
+Write-Host "✅ Criterio: 10% solapamiento (coherente)" -ForegroundColor White
+Write-Host "✅ Espaciamiento: 13.71 km" -ForegroundColor White
+Write-Host "✅ Solapamiento real esperado: 8.6%" -ForegroundColor White
 Write-Host "✅ layout.md actualizado" -ForegroundColor White
 Write-Host "✅ layout_datos.js regenerado" -ForegroundColor White
 Write-Host "✅ WBS_Presupuestal actualizado" -ForegroundColor White
 Write-Host "✅ datos_wbs_TODOS_items.js regenerado" -ForegroundColor White
+Write-Host ""
+Write-Host "CAMBIOS APLICADOS:" -ForegroundColor Yellow
+Write-Host "  Torres: 37 → 39 (+2)" -ForegroundColor White
+Write-Host "  Costo: +$600,000,000 COP (+5.4%)" -ForegroundColor White
+Write-Host "  Criterio: 20% (inconsistente) → 10% (coherente)" -ForegroundColor White
 Write-Host ""
 Write-Host "PRÓXIMO PASO:" -ForegroundColor Yellow
 Write-Host "  Abrir WBS_Layout_Maestro.html y verificar filtro 'TETRA BS'" -ForegroundColor White

@@ -106,9 +106,9 @@
                 </select>
             </div>
             <div class="filter-group">
-                <label>🏗️ Sistema (Busca en nombre, dispositivo, descripción):</label>
+                <label>🔧 Dispositivo:</label>
                 <select id="filter-sistema" onchange="applyFilters();">
-                    <option value="">Todos los sistemas</option>
+                    <option value="">Todos los dispositivos</option>
                 </select>
             </div>
             <div class="filter-group">
@@ -221,25 +221,16 @@
     </div>
     
     <!-- Cargar datos del layout -->
-    <script src="layout_datos.js?v=20251012"></script>
+    <script src="layout_datos.js?v=20251015_37torres"></script>
     
     <script>
         let allData = [];
         let filteredData = [];
         let currentElement = null;
         
-        // Mapeo de tipos a sistemas
-        const MAPEO_TIPO_SISTEMA = {
-            'TELECOMUNICACIONES': ['TETRA', 'Fibra', 'ODF', 'Nodo', 'Switch', 'GSM-R', 'Caja Empalme', 'Domo Fusion', 'Datacenter', 'Empalme', 'Fusión'],
-            'CONTROL': ['CTC', 'RBC', 'ENCE', 'Enclavamiento', 'Baliza'],
-            'EQUIPO ITS': ['CCTV', 'HBD', 'WILD', 'Detector', 'Cámaras'],
-            'ENERGIA': ['UPS', 'SAI', 'Generador', 'Subestación'],
-            'SEÑALIZACION': ['Señal', 'Semáforo'],
-            'EDIFICACION': ['Estación', 'Taller', 'CCO'],
-            'VIA': ['Desvío', 'Apartadero'],
-            'SEGURIDAD': ['Control Acceso', 'Detección Incendio'],
-            'INFRAESTRUCTURA': ['Puente', 'Viaducto', 'Patio']
-        };
+        // NOTA: MAPEO_TIPO_SISTEMA ELIMINADO - Ahora se usan categorías dinámicas desde layout_datos.js
+        // Las categorías ya vienen correctamente asignadas en tipo_equipo (TETRA, FIBRA OPTICA, GSM-R, etc.)
+        // NO hardcodear mapeos - leer dinámicamente de los datos
         
         // Inicializar - Esperar a que LAYOUT_DATOS esté cargado
         window.addEventListener('DOMContentLoaded', function() {
@@ -315,21 +306,26 @@
             const sistemaSelect = document.getElementById('filter-sistema');
             
             // Limpiar opciones actuales
-            sistemaSelect.innerHTML = '<option value="">Todos los sistemas</option>';
+            sistemaSelect.innerHTML = '<option value="">Todos los dispositivos</option>';
             
-            let sistemasDisponibles = [];
+            // Obtener dispositivos únicos dinámicamente de los datos
+            const sistemasSet = new Set();
             
-            if (tipoSeleccionado && MAPEO_TIPO_SISTEMA[tipoSeleccionado]) {
-                // Mostrar solo sistemas del tipo seleccionado
-                sistemasDisponibles = MAPEO_TIPO_SISTEMA[tipoSeleccionado];
-            } else {
-                // Mostrar todos los sistemas
-                const sistemasSet = new Set();
-                Object.values(MAPEO_TIPO_SISTEMA).forEach(sistemas => {
-                    sistemas.forEach(s => sistemasSet.add(s));
+            if (tipoSeleccionado) {
+                // Filtrar por tipo seleccionado
+                allData.forEach(item => {
+                    if (item.tipo_equipo === tipoSeleccionado && item.dispositivo) {
+                        sistemasSet.add(item.dispositivo);
+                    }
                 });
-                sistemasDisponibles = Array.from(sistemasSet).sort();
+            } else {
+                // Mostrar todos los dispositivos
+                allData.forEach(item => {
+                    if (item.dispositivo) sistemasSet.add(item.dispositivo);
+                });
             }
+            
+            const sistemasDisponibles = Array.from(sistemasSet).sort();
             
             sistemasDisponibles.forEach(sistema => {
                 const option = document.createElement('option');

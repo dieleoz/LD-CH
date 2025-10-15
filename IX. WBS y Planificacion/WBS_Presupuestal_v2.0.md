@@ -1,4 +1,4 @@
-﻿# WBS PRESUPUESTAL v2.11 - BALIZAS ELIMINADAS
+# WBS PRESUPUESTAL v2.11 - BALIZAS ELIMINADAS
 ## APP La Dorada-Chiriguaná - Presupuesto Definitivo
 
 **Fecha de actualización:** 07 de Octubre 2025  
@@ -229,26 +229,26 @@
 
 ### **CAPÍTULO 2: TELECOMUNICACIONES COLOCALIZADAS**
 
-#### **2.1 Sistema TETRA (37 Estaciones)**
+#### **2.1 Sistema TETRA (42 Estaciones - DT-TETRA-039)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **2.1.100** | Torres autosoportadas | 37 | $180,000,000 | $6,660,000,000 |
-| **2.1.101** | Estaciones base TETRA | 37 | $65,000,000 | $2,405,000,000 |
-| **2.1.102** | Antenas TETRA | 37 | $12,000,000 | $444,000,000 |
+| **2.1.100** | Torres autosoportadas | 42 | $180,000,000 | $7,560,000,000 |
+| **2.1.101** | Estaciones base TETRA | 42 | $65,000,000 | $2,730,000,000 |
+| **2.1.102** | Antenas TETRA | 42 | $12,000,000 | $504,000,000 |
 | **2.1.103** | Radios embarcados (30 unidades) | 30 | $35,000,000 | $1,050,000,000 |
 | **2.1.104** | Radios portátiles | 80 | $6,000,000 | $480,000,000 |
 | **2.1.105** | Sistema control centralizado | 1 | $120,000,000 | $120,000,000 |
-| **2.1.106** | Casetas técnicas | 37 | $65,000,000 | $2,405,000,000 |
-| **2.1.107** | Cimentaciones | 37 | $25,000,000 | $925,000,000 |
-| **2.1.108** | Cerramiento perimetral | 37 | $30,000,000 | $1,110,000,000 |
-| **2.1.109** | Vías de acceso | 37 | $25,000,000 | $925,000,000 |
-| **2.1.110** | Sistemas de seguridad | 37 | $20,000,000 | $740,000,000 |
-| **2.1.111** | Montaje e instalación | 37 | $15,000,000 | $555,000,000 |
+| **2.1.106** | Casetas técnicas | 42 | $65,000,000 | $2,730,000,000 |
+| **2.1.107** | Cimentaciones | 42 | $25,000,000 | $1,050,000,000 |
+| **2.1.108** | Cerramiento perimetral | 42 | $30,000,000 | $1,260,000,000 |
+| **2.1.109** | Vías de acceso | 42 | $25,000,000 | $1,050,000,000 |
+| **2.1.110** | Sistemas de seguridad | 42 | $20,000,000 | $840,000,000 |
+| **2.1.111** | Montaje e instalación | 42 | $15,000,000 | $630,000,000 |
 | **2.1.112** | Configuración red | 1 | $200,000,000 | $200,000,000 |
 | **2.1.113** | Pruebas cobertura | 1 | $150,000,000 | $150,000,000 |
 | **2.1.114** | Capacitación | 1 | $100,000,000 | $100,000,000 |
-| **2.1.115** | Repuestos (10%) | - | - | $1,774,000,000 |
-| **SUBTOTAL TETRA** | | | | **$19,038,000,000** |
+| **2.1.115** | Repuestos (10%) | - | - | $2,061,830,000 |
+| **SUBTOTAL TETRA** | | | | **$22,518,300,000** |
 
 #### **2.2 Sistema GSM-R (37 Estaciones Colocalizadas)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -524,6 +524,7 @@
 ---
 
 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+
 
 
 

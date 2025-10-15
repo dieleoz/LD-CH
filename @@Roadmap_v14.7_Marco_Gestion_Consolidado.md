@@ -2514,6 +2514,160 @@ El sistema identificó inconsistencias entre totales declarados en el WBS.md y l
 
 ---
 
+## ✅ **v14.7.6 - SISTEMA PRESERVACIÓN LAYOUT + VALIDACIÓN WBS (COMPLETADO 15/10/2025)**
+
+### **🎯 OBJETIVO:**
+Implementar un sistema robusto de preservación de categorías en el layout que permita ejecutar DTs de manera segura sin eliminar equipos de otras categorías WBS, junto con validación automática de cantidades y totales en el WBS.
+
+### **🚀 LOGROS PRINCIPALES:**
+
+#### **1. MÓDULO LAYOUTPRESERVER.PSM1 CREADO**
+- ✅ **Get-LayoutCompleto:** Carga layout.md con fallback automático a backup maestro
+- ✅ **Get-EquiposPorCategoria:** Filtra equipos por categoría WBS específica
+- ✅ **Remove-EquiposPorCategoria:** Elimina solo equipos de categoría objetivo
+- ✅ **Add-EquiposNuevos:** Agrega nuevos equipos manteniendo estructura
+- ✅ **Save-LayoutCompleto:** Guarda con backup automático timestamped
+- ✅ **Test-CategoriasIntactas:** Verifica preservación de otras categorías
+
+#### **2. ARQUITECTURA DE PRESERVACIÓN IMPLEMENTADA**
+```
+┌─────────────────────────────────────────────────────────┐
+│ 1. CARGAR LAYOUT MAESTRO COMPLETO                      │
+│    Con TODAS las 9 categorías (2182 equipos)           │
+└─────────────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────┐
+│ 2. ELIMINAR SOLO EQUIPOS DE CATEGORÍA AFECTADA         │
+│    Ej: DT-TETRA → Elimina solo equipos "EBT_"         │
+│    Mantiene: CONTROL, ITS, PAN, FIBRA, etc.           │
+└─────────────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────┐
+│ 3. AGREGAR EQUIPOS NUEVOS DE LA CATEGORÍA              │
+│    Ej: 42 torres TETRA nuevas                          │
+└─────────────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────┐
+│ 4. VERIFICAR CATEGORÍAS NO AFECTADAS INTACTAS           │
+│    CONTROL: 14 → 14 ✅                                 │
+│    EDIFICACION: 24 → 24 ✅                             │
+│    etc...                                               │
+└─────────────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────┐
+│ 5. GUARDAR LAYOUT COMPLETO                              │
+│    Con backup automático                               │
+└─────────────────────────────────────────────────────────┘
+```
+
+#### **3. SCRIPTS ACTUALIZADOS CON PRESERVACIÓN**
+- ✅ **completar_42_estaciones_TETRA_15pct.ps1:** Usa módulo LayoutPreserver
+- ✅ **regenerar_layout_md_desde_js.ps1:** Reconstruye layout.md desde JS completo
+- ⏳ **regenerar_fibra_1824_cajas.ps1:** Pendiente actualizar
+
+#### **4. EJECUCIÓN EXITOSA DT-TETRA-039**
+**Cambio:** 39 torres → 42 torres (solapamiento 10% → 15%)
+
+**Resultado:**
+```
+ANTES:
+  TELECOMUNICACIONES: 1982 equipos
+  Otras 8 categorías: 200 equipos
+
+DESPUÉS:
+  TELECOMUNICACIONES: 2004 equipos (+22)
+  
+✅ CONTROL: 14 equipos (PRESERVADO)
+✅ EDIFICACION: 24 equipos (PRESERVADO)
+✅ ENERGIA: 22 equipos (PRESERVADO)
+✅ EQUIPO ITS: 75 equipos (PRESERVADO)
+✅ INFRAESTRUCTURA: 11 equipos (PRESERVADO)
+✅ SEGURIDAD: 11 equipos (PRESERVADO)
+✅ SEÑALIZACION: 30 equipos (PRESERVADO)
+✅ VIA: 13 equipos (PRESERVADO)
+```
+
+#### **5. VALIDACIÓN WBS AUTOMÁTICA**
+- ✅ Script: `validar_wbs_cantidades_totales.ps1`
+- ✅ Valida: Cantidad × VU = Total
+- ✅ Resultado DT-TETRA-039: 0 errores, 16 ítems validados
+- ✅ Subtotal TETRA: $22,518,300,000 coherente
+
+#### **6. RESTAURACIÓN LAYOUT COMPLETO**
+- ✅ Backup restaurado: 2182 equipos, 9 categorías
+- ✅ Layout final: 2204 equipos, 9 categorías
+- ✅ Script regeneración: `regenerar_layout_md_desde_js.ps1`
+
+### **📊 MÉTRICAS v14.7.6:**
+
+|| Métrica | v14.7.5 | v14.7.6 | Mejora |
+||:--------|:--------|:--------|:-------|
+|| Módulos PS | 5 | 6 | +1 (LayoutPreserver) |
+|| Scripts activos | 59 | 61 | +2 nuevos |
+|| Layout equipos | 2186 | 2204 | +18 (completo) |
+|| Categorías WBS | 9 | 9 | Preservación 100% |
+|| Validación WBS | Manual | Automática | Script integrado |
+|| Preservación | ❌ | ✅ | Arquitectura robusta |
+
+### **🎯 IMPACTO TÉCNICO:**
+
+#### **Problema Resuelto:**
+```
+ANTES (v14.7.5):
+- DT de TETRA eliminaba CONTROL, ITS, PAN, etc.
+- Pérdida de 200+ equipos de otras categorías
+- WBS_Layout_Maestro.html solo mostraba 1 categoría
+- Inconsistencia crítica con WBS Presupuestal
+```
+
+#### **Solución Implementada:**
+```
+AHORA (v14.7.6):
+- Módulo LayoutPreserver preserva 8 categorías
+- 0 pérdida de equipos no afectados
+- WBS_Layout_Maestro.html muestra 9 categorías
+- 100% coherencia con WBS Presupuestal
+- Validación automática post-DT
+```
+
+### **📄 ARCHIVOS CREADOS:**
+
+**Nuevos Scripts:**
+1. `scripts/modules/LayoutPreserver.psm1` (285 líneas)
+2. `scripts/regenerar_layout_md_desde_js.ps1` (103 líneas)
+3. `scripts/verificar_layout_completo.ps1` (validación)
+4. `scripts/comparar_wbs_vs_layout.ps1` (diagnóstico)
+
+**Documentación:**
+1. `@@ARQUITECTURA_LAYOUT_PRESERVACION.md` (284 líneas)
+2. Actualización README.md, ARCHITECTURE.md, Roadmap
+
+### **✅ VALIDACIÓN COMPLETA:**
+
+**Test 1: Preservación de Categorías**
+```powershell
+.\scripts\completar_42_estaciones_TETRA_15pct.ps1
+# Resultado: ✅ 8 categorías preservadas (200 equipos)
+```
+
+**Test 2: Validación WBS**
+```powershell
+.\scripts\validar_wbs_cantidades_totales.ps1 -ItemsValidar @("2.1.100"..."2.1.115")
+# Resultado: ✅ 0 errores, 16 ítems validados
+```
+
+**Test 3: Layout Completo**
+```powershell
+.\scripts\verificar_layout_completo.ps1
+# Resultado: ✅ 2204 equipos, 9 categorías
+```
+
+### **🎉 RESULTADO FINAL:**
+
+**Sistema robusto de preservación de layout implementado** - Las DTs ahora pueden modificar solo su categoría objetivo sin afectar otras categorías del WBS, con validación automática integrada.
+
+---
+
 ## ✅ **v14.7.5 - ORDEN JERÁRQUICO SECUENCIAL PERFECTO (COMPLETADO 13/10/2025)**
 
 ### **🎯 OBJETIVO:**

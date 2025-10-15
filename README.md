@@ -1,8 +1,8 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 14 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.6 - INTERFACES WBS CORREGIDAS**  
+**Fecha de actualización:** 15 de Octubre 2025  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.6 - PRESERVACIÓN LAYOUT + VALIDACIÓN WBS**  
 **Responsable:** PMO / Gestión de Riesgos  
 **Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Layout 2,182 equipos (9 tipos)**, **Encoding UTF-8 corregido**, **Visualización completa en interfaces**, Portal web publicado 
 

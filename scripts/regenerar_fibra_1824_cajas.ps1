@@ -121,7 +121,13 @@ while ($pkActual -le $pkFin -and $contador -le $cantidadCajasLineales) {
     $pkFormato = Format-PK($pkActual)
     $lado = if ($contador % 2 -eq 0) { "Izquierda" } else { "Derecha" }
     
-    $linea = "$ufv`t2.1`tCAJA_FO_$($contador.ToString('0000'))`t$pkFormato`tCaja Empalme Fibra Optica`t$lado`tPK$pkFormato $lado`tTELECOMUNICACIONES`tCaja Empalme`tN/A`tN/A`tTBD`tTBD"
+    # Obtener categoría dinámicamente
+    $dispositivo = "Caja Empalme"
+    $nombre = "CAJA_FO_$($contador.ToString('0000'))"
+    $descripcion = "Caja Empalme Fibra Optica"
+    $categoria = Get-CategoriaDesdeDispositivo -Dispositivo $dispositivo -Nombre $nombre -Descripcion $descripcion
+    
+    $linea = "$ufv`t2.1`t$nombre`t$pkFormato`t$descripcion`t$lado`tPK$pkFormato $lado`t$categoria`t$dispositivo`tN/A`tN/A`tTBD`tTBD"
     $cajas += $linea
     
     $pkActual += $espaciamientoCajas
@@ -161,7 +167,13 @@ foreach ($pkPuente in $puentesPKs) {
             4 { "Centro" }
         }
         
-        $linea = "$ufv`t2.1`tCAJA_PUENTE_$($contadorPuente.ToString('00'))_$i`t$pkFormato`tCaja Empalme Puente`t$lado`tPK$pkFormato $lado`tTELECOMUNICACIONES`tCaja Empalme`tN/A`tN/A`tTBD`tTBD"
+        # Obtener categoría dinámicamente
+        $dispositivo = "Caja Empalme"
+        $nombre = "CAJA_PUENTE_$($contadorPuente.ToString('00'))_$i"
+        $descripcion = "Caja Empalme Puente"
+        $categoria = Get-CategoriaDesdeDispositivo -Dispositivo $dispositivo -Nombre $nombre -Descripcion $descripcion
+        
+        $linea = "$ufv`t2.1`t$nombre`t$pkFormato`t$descripcion`t$lado`tPK$pkFormato $lado`t$categoria`t$dispositivo`tN/A`tN/A`tTBD`tTBD"
         $cajasPuentes += $linea
         $contadorPuente++
     }
@@ -184,7 +196,13 @@ while ($pkActual -le $pkFin -and $contador -le $cantidadDomos) {
     $ufv = Calcular-UFV($pkActual)
     $pkFormato = Format-PK($pkActual)
     
-    $linea = "$ufv`t2.1`tDOMO_FO_$($contador.ToString('000'))`t$pkFormato`tDomo Fusion Completa 4km`tCentro`tPK$pkFormato Centro`tTELECOMUNICACIONES`tDomo Fusion`tN/A`tN/A`tTBD`tTBD"
+    # Obtener categoría dinámicamente
+    $dispositivo = "Domo Fusion"
+    $nombre = "DOMO_FO_$($contador.ToString('000'))"
+    $descripcion = "Domo Fusion Completa 4km"
+    $categoria = Get-CategoriaDesdeDispositivo -Dispositivo $dispositivo -Nombre $nombre -Descripcion $descripcion
+    
+    $linea = "$ufv`t2.1`t$nombre`t$pkFormato`t$descripcion`tCentro`tPK$pkFormato Centro`t$categoria`t$dispositivo`tN/A`tN/A`tTBD`tTBD"
     $domos += $linea
     
     $pkActual += $espaciamientoDomos

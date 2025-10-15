@@ -1,18 +1,20 @@
-# SCRIPT: Completar 37 Estaciones TETRA
-# Fecha: 11 Octubre 2025
-# Base: Criterio tecnico - 37 estaciones, espaciamiento 12 km
+# SCRIPT: Completar 39 Estaciones TETRA (DT-TETRA-038)
+# Fecha: 15 Octubre 2025 (actualizado)
+# Base: Criterio tecnico - 39 estaciones, espaciamiento 13.71 km, solapamiento 10%
+# Cambio: De 37 torres (20% solap, inconsistente) a 39 torres (10% solap, coherente)
 
-Write-Host "=================================================" -ForegroundColor Cyan
-Write-Host "  COMPLETANDO 37 ESTACIONES TETRA               " -ForegroundColor Cyan
-Write-Host "=================================================" -ForegroundColor Cyan
+Write-Host "========================================================" -ForegroundColor Cyan
+Write-Host "  COMPLETANDO 39 ESTACIONES TETRA (DT-TETRA-038)      " -ForegroundColor Cyan
+Write-Host "  Criterio: 10% solapamiento | Espaciamiento: 13.71km " -ForegroundColor Cyan
+Write-Host "========================================================" -ForegroundColor Cyan
 Write-Host ""
 
 # Parametros del corredor
 $pkInicio = 201.470  # PK 201+470 (Mexico)
 $pkFin = 722.250     # PK 722+250 (Chiriguana)
 $longitudTotal = $pkFin - $pkInicio  # 520.78 km
-$numEstaciones = 37
-$espaciamiento = $longitudTotal / ($numEstaciones - 1)  # 14.08 km aprox
+$numEstaciones = 39  # DT-TETRA-038: Cambio de 37 a 39 (criterio 10% solapamiento)
+$espaciamiento = $longitudTotal / ($numEstaciones - 1)  # 13.71 km
 
 Write-Host "PARAMETROS:" -ForegroundColor Yellow
 Write-Host "  PK Inicio: $pkInicio" -ForegroundColor White
@@ -241,17 +243,17 @@ Write-Host "  REGENERACIÓN COMPLETA" -ForegroundColor Green
 Write-Host "=================================================" -ForegroundColor Green
 Write-Host ""
 Write-Host "ELEMENTOS GENERADOS:" -ForegroundColor Cyan
-Write-Host "  Torres TETRA: 37" -ForegroundColor White
+Write-Host "  Torres TETRA: 39" -ForegroundColor White
 Write-Host ""
 Write-Host "ARCHIVOS ACTUALIZADOS:" -ForegroundColor Cyan
-Write-Host "  ✅ layout.md (37 torres agregadas)" -ForegroundColor White
-Write-Host "  ✅ layout_datos.js (regenerado)" -ForegroundColor White
-Write-Host "  ✅ WBS_Presupuestal_v2.0.md (item 2.1.100: 37 torres)" -ForegroundColor White
-Write-Host "  ✅ datos_wbs_TODOS_items.js (regenerado)" -ForegroundColor White
+Write-Host "  [OK] layout.md (39 torres agregadas)" -ForegroundColor White
+Write-Host "  [OK] layout_datos.js (regenerado)" -ForegroundColor White
+Write-Host "  [OK] WBS_Presupuestal_v2.0.md (item 2.1.100: 39 torres)" -ForegroundColor White
+Write-Host "  [OK] datos_wbs_TODOS_items.js (regenerado)" -ForegroundColor White
 Write-Host ""
-Write-Host "PRÓXIMOS PASOS:" -ForegroundColor Yellow
+Write-Host "PROXIMOS PASOS:" -ForegroundColor Yellow
 Write-Host "  1. Abrir: WBS_Layout_Maestro.html (Layout actualizado)" -ForegroundColor White
-Write-Host "  2. Verificar: Filtro 'TETRA BS' muestra 37 torres" -ForegroundColor White
+Write-Host "  2. Verificar: Filtro 'TETRA BS' muestra 39 torres" -ForegroundColor White
 Write-Host "  3. Refresh navegador (F5 o Ctrl+F5)" -ForegroundColor White
 Write-Host ""
 

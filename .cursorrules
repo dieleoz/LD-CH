@@ -1,6 +1,7 @@
 # REGLAS DE CURSOR PARA SISTEMA WBS INTERACTIVO
 # Proyecto: APP La Dorada-Chiriguaná
-# Versión: 2.0 | Fecha: 8 de Octubre de 2025
+# Versión: 2.1 | Fecha: 15 de Octubre de 2025
+# NUEVO: Ejecución Modular de DTs (subsistema por subsistema)
 
 ## 🎯 CONTEXTO DEL PROYECTO
 
@@ -345,6 +346,312 @@ manejo_errores:
 - **"Revierte DT-[ID]"**
   → Si hay backup, revertir cambios
   → Marcar DT como "Revertida"
+
+---
+
+## 🔧 EJECUCIÓN MODULAR (NUEVO - v2.1)
+
+### **DETECCIÓN DE MODO MODULAR**
+
+Cuando detectes un archivo DT con `ejecucion_modular.activado: true` en el YAML:
+
+1. **Identificar subsistemas**
+   - Leer campo `subsistemas` en YAML
+   - Contar cuántos subsistemas hay
+   - Identificar dependencias entre ellos
+   - Marcar cuáles son críticos vs opcionales
+
+2. **Preguntar modo de ejecución**
+   ```
+   📋 DT-[ID] detectada ([N] subsistemas)
+   
+   ¿Cómo quieres ejecutar?
+   
+   1. ⚡ Todo automático (ejecutar todos sin pausas)
+   2. 🔧 Subsistema por subsistema (RECOMENDADO)
+   3. 👁️  Solo simular (dry-run)
+   4. ❌ Cancelar
+   
+   Tu elección [1/2/3/4]:
+   ```
+
+---
+
+### **MODO 1: EJECUCIÓN AUTOMÁTICA**
+
+Si usuario elige opción 1:
+
+1. Mostrar resumen de todos los subsistemas
+2. Pedir confirmación única
+3. Ejecutar todos secuencialmente
+4. Si falla subsistema crítico → Detener
+5. Si falla subsistema opcional → Continuar
+6. Mostrar resumen final
+
+---
+
+### **MODO 2: EJECUCIÓN SUBSISTEMA POR SUBSISTEMA (RECOMENDADO)**
+
+Si usuario elige opción 2:
+
+#### **Para cada subsistema en orden:**
+
+**PASO 2.1: MOSTRAR INFORMACIÓN**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ SUBSISTEMA [N]/[TOTAL]: [NOMBRE]                          │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│ ID: [id]                                                    │
+│ Crítico: [SÍ/NO]                                           │
+│ Dependencias: [lista o "ninguna"]                          │
+│                                                              │
+│ ARCHIVOS A MODIFICAR ([N]):                                │
+│   • [archivo1]                                             │
+│   • [archivo2]                                             │
+│                                                              │
+│ SCRIPTS A EJECUTAR ([N]):                                  │
+│   • [script1] - [descripción]                              │
+│                                                              │
+│ VALIDACIONES ([N]):                                        │
+│   ✓ [validación1]                                          │
+│   ✓ [validación2]                                          │
+│                                                              │
+│ RESULTADO ESPERADO:                                         │
+│   [descripción del resultado]                              │
+│                                                              │
+├─────────────────────────────────────────────────────────────┤
+│ ¿Ejecutar este subsistema? [S/n/i/q]                      │
+│   S = Sí, ejecutar ahora                                   │
+│   n = No, saltar (solo si NO es crítico)                   │
+│   i = Más información                                       │
+│   q = Cancelar todo                                        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**PASO 2.2: PROCESAR RESPUESTA**
+
+- **Si "S" o "s"**: Continuar con ejecución
+- **Si "n" o "N"**: 
+  - Si subsistema es crítico → Advertir y volver a preguntar
+  - Si subsistema es opcional → Marcar como OMITIDO y continuar con siguiente
+- **Si "i" o "I"**: Mostrar detalles adicionales (YAML completo del subsistema)
+- **Si "q" o "Q"**: Cancelar toda la DT
+
+**PASO 2.3: EJECUTAR SUBSISTEMA**
+
+1. **Validaciones previas:**
+   - Verificar archivos existen
+   - Verificar dependencias cumplidas
+   - Validar parámetros
+
+2. **Ejecución:**
+   - Ejecutar scripts en orden
+   - Aplicar cambios a archivos
+   - Mostrar progreso en tiempo real
+
+3. **Validaciones posteriores:**
+   - Verificar cambios aplicados correctamente
+   - Validar resultado esperado
+   - **EJECUTAR validaciones_post** (si están definidas):
+     - Si validación tiene `script`: Ejecutar script con parámetros
+     - Si validación tiene `obligatoria: true` y falla → Detener y reportar error
+     - Si validación tiene `obligatoria: false` y falla → Advertencia y continuar
+     - Mostrar `mensaje_exito` o `mensaje_fallo` según resultado
+
+4. **Reportar resultado:**
+   ```
+   ✅ SUBSISTEMA [N] COMPLETADO
+   
+   Tiempo: [X] segundos
+   
+   Archivos modificados:
+     ✓ [archivo1] - [N] cambios
+     ✓ [archivo2] - Regenerado
+   
+   Scripts ejecutados:
+     ✓ [script1] - Exitoso
+   
+   Validaciones:
+     ✓ [validación1] - OK
+     ✓ [validación2] - OK
+   
+   Validaciones Post-Ejecución:
+     ✓ [script_validacion] - ✅ EXITOSO
+     ✓ [verificación_totales] - ✅ OK
+   
+   Resultado: [descripción]
+   ```
+
+**PASO 2.4: SI SUBSISTEMA FALLA**
+
+```
+❌ SUBSISTEMA [N] FALLÓ
+
+Error: [descripción del error]
+
+Archivo: [archivo donde falló]
+Línea: [si aplica]
+
+¿Qué quieres hacer?
+
+1. 🔄 Reintentar este subsistema
+2. ⏭️  Continuar sin este subsistema (solo si NO es crítico)
+3. ↩️  Revertir cambios de este subsistema
+4. 🛑 Cancelar toda la DT
+5. ℹ️  Ver detalles del error
+
+Tu elección [1/2/3/4/5]:
+```
+
+**Procesamiento:**
+- **Opción 1:** Reintentar mismo subsistema
+- **Opción 2:** Solo si `critico: false`, marcar FALLIDO y continuar
+- **Opción 3:** Ejecutar rollback del subsistema
+- **Opción 4:** Detener, marcar subsistemas completados en log
+- **Opción 5:** Mostrar stack trace / detalles, luego volver a preguntar
+
+**PASO 2.5: CONTINUAR CON SIGUIENTE SUBSISTEMA**
+
+Después de cada subsistema exitoso, verificar:
+- ¿Hay más subsistemas pendientes?
+- ¿Sus dependencias están cumplidas?
+- Mostrar progreso: "Completados: [N]/[TOTAL]"
+
+---
+
+### **MODO 3: SIMULACIÓN (DRY-RUN)**
+
+Si usuario elige opción 3:
+
+1. Leer todos los subsistemas
+2. **NO ejecutar** scripts ni modificar archivos
+3. Reportar qué SE HARÍA en cada subsistema
+4. Mostrar posibles conflictos o problemas
+5. Mostrar resumen final de cambios potenciales
+
+Formato:
+```
+🔍 SIMULACIÓN DT-[ID] (Dry-run mode)
+
+SUBSISTEMA 1/[N]: [NOMBRE]
+  Archivos que se modificarían:
+    • [archivo1] → [descripción de cambio]
+    • [archivo2] → Regenerado
+  
+  Scripts que se ejecutarían:
+    • [script1]
+  
+  Validaciones que se aplicarían:
+    ✓ [validación1]
+
+[Repetir para cada subsistema]
+
+✓ Simulación completa. No se aplicaron cambios.
+```
+
+---
+
+### **PASO FINAL: REPORTE COMPLETO**
+
+Al terminar (exitosamente o con errores), generar reporte:
+
+```
+═══════════════════════════════════════════════════════════
+  DT-[ID] - REPORTE DE EJECUCIÓN MODULAR
+═══════════════════════════════════════════════════════════
+
+SUBSISTEMAS EJECUTADOS: [N_exitosos]/[TOTAL]
+
+✅ EXITOSOS ([N]):
+  1. [nombre1] - [tiempo]s
+  2. [nombre2] - [tiempo]s
+
+❌ FALLIDOS ([N]):
+  1. [nombre] - Error: [descripción breve]
+
+⚠️  OMITIDOS ([N]):
+  1. [nombre] - (opcional, saltado por usuario)
+
+ARCHIVOS MODIFICADOS TOTAL: [N]
+  • [archivo1]
+  • [archivo2]
+  ...
+
+SCRIPTS EJECUTADOS: [N]/[TOTAL]
+  ✓ [script1]
+  ✓ [script2]
+
+TIEMPO TOTAL: [X] minutos [Y] segundos
+
+ESTADO FINAL: 
+  [✅ EJECUCIÓN COMPLETA / ⚠️ PARCIAL / ❌ FALLIDA]
+```
+
+**Actualizar log en archivo DT:**
+- Completar sección "LOG DE EJECUCIÓN"
+- Detallar cada subsistema ejecutado
+- Marcar checkboxes en sección "ESTADO DE EJECUCIÓN"
+- Agregar timestamp de cada subsistema
+
+---
+
+### **REGLAS ESPECIALES PARA EJECUCIÓN MODULAR**
+
+1. **Dependencias:**
+   - Si subsistema B depende de A, verificar que A esté OK antes de ejecutar B
+   - Si A falló y B depende de A → Marcar B como "NO EJECUTABLE"
+
+2. **Subsistemas críticos vs opcionales:**
+   - `critico: true` → No se puede saltar, fallo detiene DT
+   - `critico: false` → Puede saltarse o fallar sin detener DT
+
+3. **Rollback:**
+   - Si `rollback.posible: true` → Ofrecer revertir cambios
+   - Mantener backup mental del estado anterior
+   - Ejecutar rollback en orden inverso (último → primero)
+
+4. **Timeout:**
+   - Respetar `timeout_segundos` en scripts
+   - Si excede timeout → Ofrecer:
+     - Esperar más tiempo
+     - Cancelar script
+     - Continuar sin ese subsistema
+
+5. **Validaciones:**
+   - **Pre-ejecución:** Ejecutar ANTES de modificar archivos
+     - Si validación falla → No ejecutar subsistema
+     - Validaciones opcionales pueden fallar sin detener
+   - **Post-ejecución:** Ejecutar DESPUÉS de modificar archivos
+     - Campo: `validaciones_post` en YAML
+     - Especialmente útil para WBS (validar cantidades × VU = Total)
+     - Si `obligatoria: true` y falla → Ofrecer rollback
+     - Ejemplo: `scripts/validar_wbs_cantidades_totales.ps1`
+
+6. **Progreso:**
+   - Mostrar siempre: "Subsistema [N]/[TOTAL]"
+   - Mostrar tiempo transcurrido
+   - Actualizar en tiempo real si es posible
+
+---
+
+### **NUEVOS COMANDOS MODULARES**
+
+- **"Ejecuta DT-[ID] modo modular"**
+  → Forzar modo subsistema por subsistema
+
+- **"Ejecuta solo subsistema [nombre/numero] de DT-[ID]"**
+  → Ejecutar UN solo subsistema específico
+
+- **"Reintenta subsistema [nombre/numero]"**
+  → Reintentar subsistema que falló
+
+- **"Revierte subsistema [nombre/numero]"**
+  → Rollback de subsistema específico
+
+- **"Estado DT-[ID]"**
+  → Mostrar qué subsistemas están OK/FALLO/PENDIENTE
 
 ---
 

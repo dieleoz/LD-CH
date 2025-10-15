@@ -314,7 +314,8 @@ El sistema sigue el patrón **Clean Architecture** con separación clara de resp
 ### 5️⃣ **Layout Maestro Interactivo**
 
 **Archivo:** `IX. WBS y Planificacion/WBS_Layout_Maestro.html`  
-**Fuente de datos:** `layout_datos.js` (532 KB, 2,186 elementos)
+**Fuente de datos:** `layout_datos.js` (532 KB, 2,204 elementos)  
+**Arquitectura:** Preservación automática de categorías con módulo LayoutPreserver.psm1
 
 **Arquitectura de filtros:**
 
@@ -459,7 +460,7 @@ El sistema sigue el patrón **Clean Architecture** con separación clara de resp
 
 ---
 
-## 🧩 MÓDULOS REUTILIZABLES (v14.7.5)
+## 🧩 MÓDULOS REUTILIZABLES (v14.7.6)
 
 ### Módulos Creados:
 
@@ -477,11 +478,19 @@ scripts/modules/
 ├─ LayoutExecutor.psm1 (52 líneas)
 │  └─ Ejecución de scripts especializados (FIBRA, TETRA, BALIZA)
 │
-└─ Consolidator.psm1 (72 líneas)
-   └─ Consolidación de documentos ejecutivos
+├─ Consolidator.psm1 (72 líneas)
+│  └─ Consolidación de documentos ejecutivos
+│
+└─ LayoutPreserver.psm1 (285 líneas) ⭐ NUEVO v14.7.6
+   ├─ Get-LayoutCompleto - Carga layout con fallback a backup
+   ├─ Get-EquiposPorCategoria - Filtra por categoría WBS
+   ├─ Remove-EquiposPorCategoria - Elimina solo categoría específica
+   ├─ Add-EquiposNuevos - Agrega nuevos equipos
+   ├─ Save-LayoutCompleto - Guarda con backup automático
+   └─ Test-CategoriasIntactas - Verifica preservación
 ```
 
-**Total:** 448 líneas de código reutilizable
+**Total:** 733 líneas de código reutilizable (+64% vs v14.7.5)
 
 **Uso:**
 ```powershell
