@@ -406,7 +406,12 @@
         </div>
         
         <div class="content">
-            <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
+            <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
+                <button onclick="exportarExcel()" class="back-btn" style="background: #28a745;">
+                    📥 Exportar a Excel
+                </button>
+            </div>
             
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="🔍 Buscar ítem por código o descripción..." onkeyup="filterEDT(this.value)">
@@ -432,6 +437,9 @@
     <!-- Cargar datos dinámicos -->
     <script src="datos_wbs_TODOS_items.js?v=1.0.3"></script>
     <script src="wbs_metadata_enriquecida.js?v=1.0.4"></script>
+    
+    <!-- SheetJS para exportación a Excel -->
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
     
     <script>
         let edtDataEnriquecida = {};
@@ -791,6 +799,243 @@
                         if (icono) icono.textContent = '▼';
                     }
                 });
+            }
+        }
+        
+        // Exportar a Excel
+        function exportarExcel() {
+            console.log('📥 Iniciando exportación a Excel...');
+            
+            if (!edtDataEnriquecida || Object.keys(edtDataEnriquecida).length === 0) {
+                alert('⚠️ No hay datos para exportar. Por favor espera a que cargue el EDT.');
+                return;
+            }
+            
+            try {
+                // Crear libro de trabajo
+                const wb = XLSX.utils.book_new();
+                
+                // ==========================================
+                // HOJA 1: EDT COMPLETO
+                // ==========================================
+                const datosCompletos = [];
+                
+                // Encabezados
+                datosCompletos.push([
+                    'Código',
+                    'Descripción',
+                    'Tipo',
+                    'Cantidad',
+                    'Unidad',
+                    'VU (COP)',
+                    'Total (COP)',
+                    'Capítulo',
+                    'Subcapítulo',
+                    'Justificación Técnica',
+                    'Criterios de Diseño',
+                    'Supuestos',
+                    'Decisiones Técnicas',
+                    'Feedback Especialista',
+                    'Documentos Ingeniería',
+                    'Referencias Contractuales',
+                    'Última Actualización',
+                    'Actualizado Por'
+                ]);
+                
+                // Datos
+                Object.keys(edtDataEnriquecida).sort().forEach(codigo => {
+                    const item = edtDataEnriquecida[codigo];
+                    datosCompletos.push([
+                        item.codigo,
+                        item.descripcion,
+                        item.tipo,
+                        item.cantidad,
+                        item.unidad,
+                        item.vu_cop || 0,
+                        item.total_cop || 0,
+                        item.capitulo || '',
+                        item.subcapitulo || '',
+                        item.justificacion_tecnica || 'Por definir',
+                        item.criterios_diseno ? item.criterios_diseno.join(' | ') : '',
+                        item.supuestos ? item.supuestos.join(' | ') : '',
+                        item.decisiones_tecnicas ? item.decisiones_tecnicas.join(', ') : '',
+                        item.feedback_especialista || '',
+                        item.documentos_ingenieria ? item.documentos_ingenieria.join(', ') : '',
+                        item.referencias_contractuales ? item.referencias_contractuales.join(', ') : '',
+                        item.ultima_actualizacion || '',
+                        item.actualizado_por || ''
+                    ]);
+                });
+                
+                const ws1 = XLSX.utils.aoa_to_sheet(datosCompletos);
+                
+                // Ajustar anchos de columna
+                ws1['!cols'] = [
+                    { wch: 12 },  // Código
+                    { wch: 50 },  // Descripción
+                    { wch: 15 },  // Tipo
+                    { wch: 10 },  // Cantidad
+                    { wch: 10 },  // Unidad
+                    { wch: 15 },  // VU
+                    { wch: 15 },  // Total
+                    { wch: 12 },  // Capítulo
+                    { wch: 30 },  // Subcapítulo
+                    { wch: 60 },  // Justificación
+                    { wch: 60 },  // Criterios
+                    { wch: 60 },  // Supuestos
+                    { wch: 25 },  // DTs
+                    { wch: 40 },  // Feedback
+                    { wch: 40 },  // Documentos
+                    { wch: 40 },  // Referencias
+                    { wch: 12 },  // Fecha
+                    { wch: 20 }   // Actualizado por
+                ];
+                
+                XLSX.utils.book_append_sheet(wb, ws1, 'EDT Completo');
+                
+                // ==========================================
+                // HOJA 2: RESUMEN POR CAPÍTULO
+                // ==========================================
+                const resumenCapitulo = {};
+                Object.keys(edtDataEnriquecida).forEach(codigo => {
+                    const item = edtDataEnriquecida[codigo];
+                    const cap = codigo.split('.')[0];
+                    
+                    if (!resumenCapitulo[cap]) {
+                        resumenCapitulo[cap] = {
+                            capitulo: cap,
+                            items: 0,
+                            totalCOP: 0,
+                            conDT: 0,
+                            conJustificacion: 0
+                        };
+                    }
+                    
+                    resumenCapitulo[cap].items++;
+                    resumenCapitulo[cap].totalCOP += item.total_cop || 0;
+                    if (item.decisiones_tecnicas && item.decisiones_tecnicas.length > 0) {
+                        resumenCapitulo[cap].conDT++;
+                    }
+                    if (item.justificacion_tecnica && item.justificacion_tecnica !== 'Por definir') {
+                        resumenCapitulo[cap].conJustificacion++;
+                    }
+                });
+                
+                const datosResumen = [
+                    ['Capítulo', '# Items', 'Total COP', 'Items con DT', 'Items con Justificación', '% Completitud']
+                ];
+                
+                Object.keys(resumenCapitulo).sort().forEach(cap => {
+                    const r = resumenCapitulo[cap];
+                    const completitud = ((r.conJustificacion / r.items) * 100).toFixed(1);
+                    datosResumen.push([
+                        r.capitulo,
+                        r.items,
+                        r.totalCOP,
+                        r.conDT,
+                        r.conJustificacion,
+                        completitud + '%'
+                    ]);
+                });
+                
+                const ws2 = XLSX.utils.aoa_to_sheet(datosResumen);
+                ws2['!cols'] = [
+                    { wch: 10 },
+                    { wch: 12 },
+                    { wch: 18 },
+                    { wch: 15 },
+                    { wch: 22 },
+                    { wch: 15 }
+                ];
+                XLSX.utils.book_append_sheet(wb, ws2, 'Resumen por Capítulo');
+                
+                // ==========================================
+                // HOJA 3: ITEMS CON DECISIONES TÉCNICAS
+                // ==========================================
+                const datosConDT = [
+                    ['Código', 'Descripción', 'Decisiones Técnicas', 'Total COP', 'Justificación']
+                ];
+                
+                Object.keys(edtDataEnriquecida).sort().forEach(codigo => {
+                    const item = edtDataEnriquecida[codigo];
+                    if (item.decisiones_tecnicas && item.decisiones_tecnicas.length > 0) {
+                        datosConDT.push([
+                            item.codigo,
+                            item.descripcion,
+                            item.decisiones_tecnicas.join(', '),
+                            item.total_cop || 0,
+                            item.justificacion_tecnica || ''
+                        ]);
+                    }
+                });
+                
+                const ws3 = XLSX.utils.aoa_to_sheet(datosConDT);
+                ws3['!cols'] = [
+                    { wch: 12 },
+                    { wch: 50 },
+                    { wch: 30 },
+                    { wch: 15 },
+                    { wch: 60 }
+                ];
+                XLSX.utils.book_append_sheet(wb, ws3, 'Items con DT');
+                
+                // ==========================================
+                // HOJA 4: ESTADÍSTICAS GENERALES
+                // ==========================================
+                const totalItems = Object.keys(edtDataEnriquecida).length;
+                const itemsConDT = Object.values(edtDataEnriquecida).filter(i => 
+                    i.decisiones_tecnicas && i.decisiones_tecnicas.length > 0
+                ).length;
+                const itemsConJustificacion = Object.values(edtDataEnriquecida).filter(i => 
+                    i.justificacion_tecnica && i.justificacion_tecnica !== 'Por definir'
+                ).length;
+                const totalCOP = Object.values(edtDataEnriquecida).reduce((sum, i) => 
+                    sum + (i.total_cop || 0), 0
+                );
+                
+                const datosEstadisticas = [
+                    ['📊 ESTADÍSTICAS GENERALES - EDT WBS APP LA DORADA-CHIRIGUANÁ', ''],
+                    ['', ''],
+                    ['Métrica', 'Valor'],
+                    ['Total Items WBS', totalItems],
+                    ['Items con Decisiones Técnicas', itemsConDT],
+                    ['Items con Justificación Técnica', itemsConJustificacion],
+                    ['% Completitud Metadata', ((itemsConJustificacion / totalItems) * 100).toFixed(1) + '%'],
+                    ['Total Presupuesto COP', totalCOP],
+                    ['', ''],
+                    ['Capítulos Principales', Object.keys(resumenCapitulo).length],
+                    ['', ''],
+                    ['📅 Fecha de Exportación', new Date().toLocaleString('es-CO')],
+                    ['🔧 Sistema', 'WBS Interactivo v2.0 - EDT Detalle'],
+                    ['👤 Usuario', 'Especialista PMO'],
+                    ['', ''],
+                    ['NOTAS:', ''],
+                    ['- Este archivo contiene toda la metadata enriquecida del EDT', ''],
+                    ['- Hoja 1: Listado completo con metadata', ''],
+                    ['- Hoja 2: Resumen estadístico por capítulo', ''],
+                    ['- Hoja 3: Items con DTs aplicadas', ''],
+                    ['- Hoja 4: Estadísticas generales', '']
+                ];
+                
+                const ws4 = XLSX.utils.aoa_to_sheet(datosEstadisticas);
+                ws4['!cols'] = [
+                    { wch: 50 },
+                    { wch: 30 }
+                ];
+                XLSX.utils.book_append_sheet(wb, ws4, 'Estadísticas');
+                
+                // Generar archivo
+                const fecha = new Date().toISOString().split('T')[0];
+                const nombreArchivo = `WBS_EDT_Detallado_${fecha}.xlsx`;
+                
+                XLSX.writeFile(wb, nombreArchivo);
+                
+                console.log('✅ Excel exportado:', nombreArchivo);
+                alert(`✅ Excel exportado exitosamente:\n\n${nombreArchivo}\n\n- EDT Completo: ${totalItems} items\n- Items con DT: ${itemsConDT}\n- Capítulos: ${Object.keys(resumenCapitulo).length}\n- Total: ${new Intl.NumberFormat('es-CO', {style: 'currency', currency: 'COP', maximumFractionDigits: 0}).format(totalCOP)}`);
+                
+            } catch (error) {
+                console.error('❌ Error al exportar:', error);
+                alert('❌ Error al exportar a Excel. Por favor intenta de nuevo.');
             }
         }
         
