@@ -256,24 +256,35 @@
   },
   "1.3.100": {
     "descripcion": "Cable de cobre Cat 6A",
-    "justificacion_tecnica": "Cableado estructurado para red LAN del CTC - 200m por estaciÃ³n Ã— 5 estaciones ENCE",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece infraestructura de comunicaciones para sistemas de señalización y CTC en estaciones ENCE. Según AT1, hay 5 estaciones ENCE críticas (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México). AT4 exige disponibilidad 99.95% para sistemas de señalización. Cantidad: 1,000 metros total (5 estaciones × 200m promedio según AT3). Cable Cat 6A para soportar 10 Gbps y garantizar velocidad necesaria para datos críticos. Referencias: AT3 Especificaciones Generales (infraestructura comunicaciones), AT4 Disponibilidad (99.95%), AT1 Estaciones ENCE (5 estaciones)",
     "criterios_diseno": [
-      "CategorÃ­a 6A para 10 Gbps",
-      "Blindaje STP para ambientes industriales",
-      "certificación permanente segÃºn TIA-568.2-D"
+      "Categoría 6A para 10 Gbps según AT3",
+      "Blindaje STP para ambientes industriales ferroviarios",
+      "Certificación permanente según TIA-568.2-D",
+      "Compatibilidad poes y 802.3af/at (power over ethernet)"
     ],
     "supuestos": [
-      "1,000 metros total (5 estaciones Ã— 200m c/u)",
-      "Incluye conectores, patch panels, organizadores",
-      "Infraestructura de canalizaciÃ³n existente"
+      "1,000 metros total (5 estaciones ENCE × 200m cada una)",
+      "Incluye conectores RJ45, patch panels, organizadores cable",
+      "Infraestructura de canalización según AT3",
+      "Conectividad redundante para alta disponibilidad (AT4)"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "",
+    "feedback_especialista": "Cable Cat 6A permite operación 10 Gbps necesaria para señales digitales ENCE y comunicación con CTC centralizado según AT3.",
     "documentos_ingenieria": [
-      "V.3_Comunicacion_Detalle_v3.0.md"
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "AT3 - Especificaciones Generales (comunicaciones)",
+      "AT4 - Disponibilidad 99.95%",
+      "AT1 - Estaciones ENCE (5 estaciones)"
     ],
-    "ultima_actualizacion": "2025-10-08",
-    "actualizado_por": "Sistema WBS"
+    "referencias_contractuales": [
+      "AT3 - Infraestructura comunicaciones CTC/ENCE",
+      "AT4 - Disponibilidad 99.95% sistemas de señalización",
+      "AT1 - 5 estaciones ENCE críticas",
+      "TIA-568.2-D - Estándar cableado estructurado"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "2.1.100": {
     "descripcion": "Torres autosoportadas",
@@ -313,26 +324,37 @@
   },
   "2.1.101": {
     "descripcion": "Estaciones base TETRA",
-    "justificacion_tecnica": "Red TETRA digital para comunicaciones voz/datos tren-tierra segÃºn AT5 - 37 sitios en corredor",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece sistema de radio TETRA digital ETSI EN 300 392-2 para comunicaciones voz/datos tren-tierra. Según AT4, se requiere disponibilidad 99.5% para telecomunicaciones. Cantidad: 37 estaciones base (1 por torre según diseño cobertura RF). Configuración DMO (Direct Mode Operation) + TMO (Trunked Mode Operation) para redundancia. Cada estación con 4 portadoras para garantizar capacidad en picos de tráfico. Potencia transmisión 25W por portadora según AT5. Referencias: AT5 Telecomunicaciones (radio TETRA), AT4 Disponibilidad (99.5%), ETSI EN 300 392-2",
     "criterios_diseno": [
-      "Cumplimiento ETSI EN 300 392-2",
-      "Potencia transmisiÃ³n 25W por portadora",
-      "4 portadoras por estaciÃ³n para redundancia"
+      "Cumplimiento ETSI EN 300 392-2 estándar TETRA",
+      "Potencia transmisión 25W por portadora según AT5",
+      "4 portadoras por estación para redundancia y capacidad",
+      "Configuración DMO + TMO para operación dual"
     ],
     "supuestos": [
-      "37 estaciones base (1 por torre)",
-      "ConfiguraciÃ³n DMO + TMO",
-      "Frecuencias autorizadas por MinTIC"
+      "37 estaciones base (1 por torre según estudio RF)",
+      "Configuración DMO (direct mode) + TMO (trunked mode)",
+      "Frecuencias autorizadas por MinTIC según licencia",
+      "Conectividad fibra óptica redundante según AT5"
     ],
     "decisiones_tecnicas": [
       "DT-TETRA-001-2025-10-07"
     ],
-    "feedback_especialista": "37 sitios garantizan cobertura 95% del corredor. Zonas sin cobertura permitidas en tramos rurales segÃºn AT5 Â§4.2.",
+    "feedback_especialista": "37 sitios garantizan cobertura continua para comunicaciones críticas tren-tierra. Sistema TETRA proporciona voz, datos y posicionamiento GPS según AT5.",
     "documentos_ingenieria": [
-      "V.3_Comunicacion_Detalle_v3.0.md"
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "AT5 - Telecomunicaciones (radio TETRA)",
+      "AT4 - Disponibilidad 99.5%",
+      "ETSI EN 300 392-2 - Estándar TETRA"
     ],
-    "ultima_actualizacion": "2025-10-07",
-    "actualizado_por": "DT-TETRA-001"
+    "referencias_contractuales": [
+      "AT5 - Sistema de radio TETRA digital",
+      "AT4 - Disponibilidad mínima 99.5% telecomunicaciones",
+      "ETSI EN 300 392-2 - Estándar TETRA ferroviario",
+      "MinTIC - Licencia frecuencias radio"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "3.1.100": {
     "descripcion": "Cable FO LPOC03120484ZC",
