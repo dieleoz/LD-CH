@@ -5,25 +5,36 @@
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
-      "justificacion_tecnica": "Servidores redundantes para control centralizado del Tráfico ferroviario segÃºn AT2 Â§5.3",
+      "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante y Equipos Embarcados), que define la arquitectura tecnológica del CTC para control centralizado del tráfico ferroviario. Según AT2 (Operación y Mantenimiento) se requiere disponibilidad 99.95% para sistemas críticos. AT3 (Especificaciones Generales) establece que el CTC debe operar 24/7 con redundancia activa. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby). Referencias: AT1 Alcance del Proyecto, AT2 Operación y Mantenimiento, AT3 Especificaciones Generales, AT4 Disponibilidad (99.95%)",
       "criterios_diseno": [
-        "Redundancia N+1 para alta disponibilidad",
-        "Capacidad procesamiento: 100 trenes simultÃ¡neos",
-        "Tiempo respuesta < 100ms segÃºn IEC 62290-1"
+        "Redundancia N+1 para alta disponibilidad (AT2 Operación y Mantenimiento)",
+        "Capacidad procesamiento: 100 trenes simultáneos (AT1 Alcance del Proyecto)",
+        "Tiempo respuesta < 100ms según IEC 62290-1",
+        "Failover automático <5 segundos para continuidad operativa (AT2)"
       ],
       "supuestos": [
-        "2 servidores (1 principal + 1 respaldo)",
-        "Arquitectura cliente-servidor",
-        "ComunicaciÃ³n redundante fibra óptica"
+        "2 servidores (1 principal + 1 respaldo en hot-standby)",
+        "Arquitectura cliente-servidor virtualizada",
+        "Comunicación redundante fibra óptica en doble anillo",
+        "Monitoreo continuo 24/7 según AT2"
       ],
       "decisiones_tecnicas": [],
-      "feedback_especialista": "",
+      "feedback_especialista": "Servidores configurados según arquitectura CTC virtual sin señalización física en vía, compatible con ATP embarcado y enclavamientos ENCE.",
       "documentos_ingenieria": [
         "V.1_CTC_Detalle_v1.0.md",
-        "IV.1_CTC_Basica_v2.0.md"
+        "IV.1_CTC_Basica_v2.0.md",
+        "AT1 - Alcance del Proyecto",
+        "AT2 - Operación y Mantenimiento",
+        "AT3 - Especificaciones Generales"
       ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "Sistema WBS"
+      "referencias_contractuales": [
+        "AT1 - Alcance del Proyecto (Material Rodante y Equipos Embarcados)",
+        "AT2 - Operación y Mantenimiento (Disponibilidad 99.95%)",
+        "AT3 - Especificaciones Generales (Sistema CTC)",
+        "IEC 62290-1 - Sistemas de control ferroviario"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "1.1.103": {
       "descripcion": "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
@@ -230,27 +241,39 @@
   },
   "2.1.100": {
     "descripcion": "Torres autosoportadas",
-    "justificacion_tecnica": "37 torres para red TETRA segÃºn cobertura RF en corredor de 526 km - SeparaciÃ³n promedio 14.2 km",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece sistema de radio TETRA con cobertura 100% del corredor La Dorada-Chiriguaná. Según AT1 (Alcance del Proyecto) el corredor tiene 526.133 km de longitud. AT4 exige disponibilidad mínima 99.5% para telecomunicaciones. Cantidad: 37 torres según estudio de cobertura RF con espaciamiento promedio de 14.2 km para garantizar cobertura continua sin zonas muertas. Referencias: AT5 Telecomunicaciones (radio TETRA), AT4 Disponibilidad (99.5%), AT1 Longitud corredor (526.133 km)",
     "criterios_diseno": [
-      "Altura: 30-45 metros segÃºn topografÃ­a",
-      "DiseÃ±o estructural para vientos 120 km/h",
-      "Puesta a tierra < 10 ohms segÃºn IEC 62305"
+      "Cobertura 100% corredor sin zonas muertas (AT5 Telecomunicaciones)",
+      "Altura: 30-45 metros según topografía para cobertura RF",
+      "Diseño estructural para vientos 120 km/h (Código Sismo-Resistente)",
+      "Puesta a tierra < 10 ohms según IEC 62305",
+      "Solapamiento 15-20% entre estaciones contiguas (AT4)"
     ],
     "supuestos": [
-      "37 estaciones base TETRA segÃºn estudio RF",
-      "Espaciamiento variable segÃºn orografÃ­a",
-      "Incluye sistema de iluminaciÃ³n aeronÃ¡utica"
+      "37 estaciones base TETRA según estudio RF del corredor",
+      "Espaciamiento variable según orografía (promedio 14.2 km)",
+      "Incluye sistema de iluminación aeronáutica (Aerocivil)",
+      "Ubicación en puntos altos para máxima cobertura"
     ],
     "decisiones_tecnicas": [
       "DT-TETRA-001-2025-10-07"
     ],
-    "feedback_especialista": "ReducciÃ³n alineada con ATP: de 15 a 8 locomotoras reduce requerimientos de cobertura crÃ­tica.",
+    "feedback_especialista": "37 torres garantizan cobertura continua para comunicaciones críticas tren-tierra. Reducción alineada con ATP: 8 locomotoras versus 15 originales reduce requerimientos de cobertura simultánea.",
     "documentos_ingenieria": [
       "V.3_Comunicacion_Detalle_v3.0.md",
-      "IV.3_Comunicacion_Basica_v2.0.md"
+      "IV.3_Comunicacion_Basica_v2.0.md",
+      "AT5 - Telecomunicaciones",
+      "AT4 - Disponibilidad (99.5%)",
+      "AT1 - Alcance del Proyecto (526.133 km)"
     ],
-    "ultima_actualizacion": "2025-10-07",
-    "actualizado_por": "DT-TETRA-001"
+    "referencias_contractuales": [
+      "AT5 - Sistema de radio TETRA (cobertura 100%)",
+      "AT4 - Disponibilidad mínima 99.5% telecomunicaciones",
+      "AT1 - Longitud corredor 526.133 km",
+      "IEC 62305 - Puesta a tierra"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "2.1.101": {
     "descripcion": "Estaciones base TETRA",
@@ -277,24 +300,37 @@
   },
   "3.1.100": {
     "descripcion": "Cable FO LPOC03120484ZC",
-    "justificacion_tecnica": "594 km de fibra óptica (526 km corredor + 10% reserva + 3% contingencia) segÃºn cÃ¡lculo tÃ©cnico validado",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece backbone de fibra óptica en doble anillo redundante para soporte de CTC, TETRA, GSM-R, CCTV y sistemas ITS. Según AT1, el corredor mide 526.133 km. AT4 exige disponibilidad 99.9% para telecomunicaciones. Cálculo: 526 km corredor + 10% reserva para enrollado en cajas (AT5) + 3% contingencia operativa = 594 km total. Cantidad: 594 km de cable con 120 fibras ópticas. Referencias: AT5 Telecomunicaciones (backbone doble anillo), AT4 Disponibilidad (99.9%), AT1 Longitud corredor",
     "criterios_diseno": [
-      "120 hilos para redundancia y crecimiento futuro",
-      "Tipo LPOC (Low Profile Optical Cable) para instalaciÃ³n aÃ©rea",
-      "Cumplimiento ITU-T G.652.D"
+      "Backbone en doble anillo redundante (AT5 Telecomunicaciones)",
+      "120 fibras ópticas para segregación por sistemas: 40 CTC, 40 TETRA/GSM-R, 20 CCTV, 20 reserva",
+      "Tipo LPOC (Low Profile Optical Cable) para instalación aérea en postes",
+      "Cumplimiento ITU-T G.652.D (monomodo estándar)",
+      "10% reserva para enrollado en cajas cada 300m (AT5)",
+      "Arquitectura N+1 para alta disponibilidad (AT4)"
     ],
     "supuestos": [
-      "InstalaciÃ³n en postes cada 50m promedio",
-      "10% adicional para reservas en empalmes",
-      "3% contingencia para reparaciones"
+      "Instalación aérea en postes cada 50m promedio",
+      "10% adicional para reservas en empalmes y reparaciones",
+      "3% contingencia para reparaciones futuras",
+      "Longitud total: 594 km (526 corredor + 53.37 reserva + 14.78 contingencia)"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "120 hilos permiten segregaciÃ³n por sistemas: 40 CTC, 40 TETRA, 20 CCTV, 20 reserva.",
+    "feedback_especialista": "120 fibras ópticas permiten segregación completa de sistemas: CTC (40), TETRA/GSM-R (40), CCTV/accesos (20), reserva para expansión futura (20). Cable LPOC tipo aéreo según AT5.",
     "documentos_ingenieria": [
-      "V.3_Comunicacion_Detalle_v3.0.md"
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "AT5 - Telecomunicaciones (backbone doble anillo)",
+      "AT4 - Disponibilidad 99.9%",
+      "AT1 - Alcance del Proyecto"
     ],
-    "ultima_actualizacion": "2025-10-08",
-    "actualizado_por": "Sistema WBS"
+    "referencias_contractuales": [
+      "AT5 - Backbone de fibra óptica redundante",
+      "AT4 - Disponibilidad 99.9% telecomunicaciones",
+      "AT1 - Longitud corredor 526.133 km",
+      "ITU-T G.652.D - Fibra monomodo estándar"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "3.1.103": {
     "descripcion": "Cajas de empalme 80x80",
