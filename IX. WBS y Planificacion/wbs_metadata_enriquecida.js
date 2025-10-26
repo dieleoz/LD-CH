@@ -930,7 +930,11 @@
     "ultima_actualizacion": "",
     "actualizado_por": ""
   }
-}
+};
 
+// Hacer disponible globalmente
+if (typeof window !== 'undefined') {
+    window.wbsMetadata = wbsMetadata;
+}
 
 
