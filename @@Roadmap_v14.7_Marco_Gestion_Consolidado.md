@@ -1,11 +1,11 @@
 ﻿# ROADMAP MAESTRO - APP LA DORADA-CHIRIGUANÃ (Marco de GestiÃ³n Consolidado)
 
 **ðŸ"„ ROADMAP VIVO:** Este documento evoluciona continuamente con el proyecto  
-**Estado Actual:** âœ… IngenierÃ­a 100% â†' ðŸš€ **SISTEMA v14.7.5 - WBS ORDEN JERÃRQUICO PERFECTO**  
-**Fecha:** 02 de Octubre, 2025  
-**Ãšltima ActualizaciÃ³n:** 13 de Octubre de 2025 - WBS orden jerÃ¡rquico secuencial perfecto (159 Ã­tems, 3 niveles, 0% hardcode)  
-**VersiÃ³n Actual:** v14.7.5 - WBS Orden JerÃ¡rquico Secuencial Perfecto (159 Ã­tems, 3 niveles) + Layout Maestro (2,186 equipos)  
-**PrÃ³xima ActualizaciÃ³n:** Mensual o por hitos importantes  
+**Estado Actual:** âœ… IngenierÃ­a 100% â†' ðŸš€ **SISTEMA v14.7.6 - ATP CONSOLIDADO EN CAP 6**  
+**Fecha:** 24 de Octubre, 2025  
+**Ãšltima ActualizaciÃ³n:** 24 de Octubre de 2025 - Eliminación duplicación ATP embarcado (1.2.x → 6.1.200-206)  
+**VersiÃ³n Actual:** v14.7.6 - ATP Consolidado en Material Rodante + WBS Presupuestal v2.12  
+**PrÃ³xima ActualizaciÃ³n:** Resolución de 4 blockers críticos para construcción  
 
 ### **âš¡ COMANDOS PRINCIPALES (v14.7 - 11-OCT-2025):**
 
@@ -44,6 +44,7 @@
 | **v14.7.2** | **DT-LAYOUT-001: Nomenclatura UFVF + Puente Sogamoso** | âœ… **COMPLETADO** | **12 Octubre 2025** |
 | **v14.7.4** | **WBS Presupuestal 100% DinÃ¡mico (0% hardcode)** | âœ… **COMPLETADO** | **13 Octubre 2025** |
 | **v14.7.5** | **WBS Orden JerÃ¡rquico Secuencial Perfecto** | âœ… **COMPLETADO** | **13 Octubre 2025** |
+| **v14.7.6** | **ATP Consolidado en CAP 6 - Eliminación Duplicación** | âœ… **COMPLETADO** | **24 Octubre 2025** |
 | v15.0 | Pre-ConstrucciÃ³n | â³ PrÃ³xima | 2025 |
 | v16.0+ | ConstrucciÃ³n | â³ Futura | 2025-2027 |
 | v20.0+ | OperaciÃ³n | â³ Futura | 2027+ |
@@ -260,13 +261,55 @@ II. Apendices Tecnicos/Decisiones_Tecnicas/
 # TODO se actualiza automÃ¡ticamente âœ…
 ```
 
-### **ðŸŽ¯ PRÃ“XIMOS PASOS (v14.8):**
+---
+
+## âœ… **v14.7.6 - ATP CONSOLIDADO EN CAP 6 (COMPLETADO 24/10/2025)**
+
+### **ðŸŽ¯ OBJETIVO:**
+Eliminar duplicación de ATP embarcado entre CAP 1.2 (Control y Señalización) y CAP 6.1 (Material Rodante)
+
+### **ðŸš€ LOGROS PRINCIPALES:**
+
+#### **1. ESTRATEGIA DE DOBLE PASO IMPLEMENTADA:**
+- ✅ **PASO 1 (DT-CONSOLIDACION-001):** Duplicación segura de items 1.2.100-1.2.106 → 6.1.200-6.1.206
+- ✅ **PASO 2 (DT-ELIMINACION-001):** Eliminación segura de CAP 1.2 sin pérdida de información
+
+#### **2. CAMBIOS REALIZADOS:**
+- ✅ Sección 1.2 eliminada completamente de CAP 1
+- ✅ Items 1.2.100-1.2.106 eliminados del sistema
+- ✅ Items 6.1.200-6.1.206 conservados en CAP 6 (mismo contenido, nuevo código)
+- ✅ Total CAP 1: $131,887M → $128,367M (-$3,520M)
+- ✅ Total CAP 6: $12,647M → $16,167M (+$3,520M temporal por duplicados)
+- ✅ WBS versión actualizada: v2.11 → v2.12
+
+#### **3. ARCHIVOS ACTUALIZADOS:**
+- ✅ WBS_Presupuestal_v2.12.md (eliminada sección 1.2)
+- ✅ datos_wbs_TODOS_items.json/js (items actualizados)
+- ✅ wbs_metadata_enriquecida.json/js (metadata actualizada)
+- ✅ DT-CONSOLIDACION-001 creada
+- ✅ DT-ELIMINACION-001 ejecutada
+
+### **ðŸŽ¯ BENEFICIOS:**
+- ✅ **Sin pérdida de información:** Todo ATP conservado en CAP 6
+- ✅ **Eliminada confusión:** ATP ahora en un solo lugar (Material Rodante)
+- ✅ **Trazabilidad completa:** DTs documentadas con justificación
+- ✅ **Validado Git:** Commit 19d0acf subido exitosamente
+
+---
+
+### **ðŸŽ¯ PRÃ"XIMOS PASOS (v14.8):**
 
 #### **Pendiente de implementar:**
 - â³ **ValidaciÃ³n pre-ejecuciÃ³n** de DTs (verificar archivos, valores, etc.)
 - â³ **Modo dry-run** para simular ejecuciÃ³n de DT
-- â³ **IntegraciÃ³n Layout â†’ WBS bidireccional** (cambios en layout actualizan WBS automÃ¡ticamente)
+- â³ **IntegraciÃ³n Layout â†' WBS bidireccional** (cambios en layout actualizan WBS automÃ¡ticamente)
 - â³ **Scripts especializados** para otros sistemas (CTC, CCTV, etc.)
+
+#### **Blockers crÃ­ticos pendientes de resoluciÃ³n (NO bloquean este cambio):**
+- 🔴 **BLOCKER-001:** IndefiniciÃ³n ITCS (ATP/ETCS L2/CBTC) - Oficiar ANI Mes 6
+- 🔴 **BLOCKER-002:** Protocolos FENOCO no revelados - ReuniÃ³n tÃ©cnica Mes 5
+- 🟠 **BLOCKER-003:** Cantidades PANs no confirmadas - Confirmar diseÃ±o modular
+- 🟠 **BLOCKER-004:** Cronograma Material Rodante indefinido - Oficiar ANI
 
 ### **ðŸ“Š MÃ‰TRICAS v14.7:**
 
