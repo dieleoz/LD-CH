@@ -853,6 +853,72 @@
     "ultima_actualizacion": "2025-10-24",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
+  "1.4.100": {
+    "descripcion": "Desvíos motorizados CTC",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece aparatos de vía motorizados y telemandados desde el CTC para control automático del tráfico. Según AT1, hay 25 desvíos motorizados en puntos críticos del corredor. AT4 exige disponibilidad 99.95% para sistemas de desvíos motorizados. Cantidad: 25 UND según inventario corredor (puntos críticos seleccionados según AT1). Desvíos motorizados permiten operación remota desde CTC según AT3. Referencias: AT3 Especificaciones Generales (desvíos motorizados), AT4 Disponibilidad (99.95%), AT1 Inventario 25 desvíos críticos",
+    "criterios_diseno": [
+      "Desvíos motorizados telemandados desde CTC (AT3)",
+      "Control remoto automático según AT3",
+      "Disponibilidad 99.95% según AT4",
+      "Interfaz con CTC para operación centralizada"
+    ],
+    "supuestos": [
+      "25 desvíos motorizados en puntos críticos",
+      "Control remoto desde CTC centralizado",
+      "Redundancia N+1 según AT4",
+      "Interfaces con CTC integradas"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07"
+    ],
+    "feedback_especialista": "25 desvíos motorizados según inventario corredor AT1. Control remoto CTC para operación automática según AT3. Disponibilidad 99.95% según AT4.",
+    "documentos_ingenieria": [
+      "V.2_Enclavamientos_Detalle_v1.0.md",
+      "AT3 - Especificaciones Generales (desvíos motorizados)",
+      "AT4 - Disponibilidad 99.95%",
+      "AT1 - Inventario 25 desvíos críticos"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Desvíos motorizados telemandados",
+      "AT4 - Disponibilidad 99.95%",
+      "AT1 - Inventario 25 desvíos críticos"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "1.4.101": {
+    "descripcion": "Sistemas control remoto + redundancia N+1",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas de control remoto de desvíos motorizados. Según AT3, el control remoto debe operar con failover automático <5 segundos. AT2 requiere mantenimiento predictivo de señales desvío. Cantidad: 25 UND (1 sistema por desvío según configuración redundante N+1). Sistema incluye: control remoto CTC, redundancia N+1, failover <5seg, interfaces. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Failover automático <5seg, AT2 Mantenimiento predictivo",
+    "criterios_diseno": [
+      "Sistemas control remoto redundante N+1 (AT4)",
+      "Failover automático <5 segundos (AT3)",
+      "Interfaces CTC/ENCE integradas (AT3)",
+      "Monitoreo predictivo según AT2"
+    ],
+    "supuestos": [
+      "25 sistemas control (1 por desvío motorizado)",
+      "Redundancia N+1 full-active según AT4",
+      "Interfaz con CTC centralizado",
+      "Mantenimiento predictivo según AT2"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07"
+    ],
+    "feedback_especialista": "Sistemas control remoto con redundancia N+1 para disponibilidad 99.95% según AT4. Failover <5seg según AT3.",
+    "documentos_ingenieria": [
+      "V.2_Enclavamientos_Detalle_v1.0.md",
+      "AT4 - Redundancia N+1 (99.95%)",
+      "AT3 - Failover automático <5seg",
+      "AT2 - Mantenimiento predictivo"
+    ],
+    "referencias_contractuales": [
+      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT3 - Failover automático <5 segundos",
+      "AT2 - Mantenimiento predictivo"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
   "plantilla_nuevo_item": {
     "descripcion": "",
     "justificacion_tecnica": "",
