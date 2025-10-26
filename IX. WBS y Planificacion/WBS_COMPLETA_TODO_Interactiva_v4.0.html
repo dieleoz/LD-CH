@@ -538,6 +538,15 @@
         }
 
         function procesarYCargarWBS() {
+            // Verificar que wbsMetadata esté disponible
+            console.log('🔍 Verificando disponibilidad de metadata:');
+            console.log('  - typeof wbsMetadata:', typeof wbsMetadata);
+            console.log('  - typeof window.wbsMetadata:', typeof window.wbsMetadata);
+            if (typeof wbsMetadata !== 'undefined' && wbsMetadata && wbsMetadata.items) {
+                console.log('✅ wbsMetadata.items tiene', Object.keys(wbsMetadata.items).length, 'items');
+                console.log('   Items con metadata:', Object.keys(wbsMetadata.items).slice(0, 10).join(', '));
+            }
+            
             // Agrupar por capítulo
             itemsPorCapitulo = {};
             
@@ -681,24 +690,22 @@
             // Si no hay criterio técnico, buscar metadata enriquecida
             let metadata = null;
             if (!criterio) {
-                // Intentar con wbsMetadata primero
-                if (typeof wbsMetadata !== 'undefined' && wbsMetadata && wbsMetadata.items && wbsMetadata.items[item.codigo]) {
-                    metadata = wbsMetadata.items[item.codigo];
+                // Intentar múltiples formas de acceso
+                let wbsMetadataEncontrada = null;
+                
+                // Primero intentar con variable local
+                if (typeof wbsMetadata !== 'undefined' && wbsMetadata && wbsMetadata.items) {
+                    wbsMetadataEncontrada = wbsMetadata;
                 }
-                // Si no funciona, intentar con window.wbsMetadata
-                else if (typeof window.wbsMetadata !== 'undefined' && window.wbsMetadata && window.wbsMetadata.items && window.wbsMetadata.items[item.codigo]) {
-                    metadata = window.wbsMetadata.items[item.codigo];
+                // Luego intentar con window.wbsMetadata
+                else if (typeof window.wbsMetadata !== 'undefined' && window.wbsMetadata && window.wbsMetadata.items) {
+                    wbsMetadataEncontrada = window.wbsMetadata;
                 }
-            }
-            
-            // Debug para items que deberían tener metadata
-            if (['1.1.100', '1.1.101', '1.1.102', '1.1.103'].includes(item.codigo)) {
-                console.log(`Item ${item.codigo}:`, {
-                    tieneCriterio: !!criterio,
-                    tieneMetadata: !!metadata,
-                    wbsMetadataDisponible: typeof wbsMetadata !== 'undefined',
-                    windowWbsMetadataDisponible: typeof window.wbsMetadata !== 'undefined'
-                });
+                
+                // Si encontramos metadata, buscar el item
+                if (wbsMetadataEncontrada && wbsMetadataEncontrada.items[item.codigo]) {
+                    metadata = wbsMetadataEncontrada.items[item.codigo];
+                }
             }
             
             card.innerHTML = `
