@@ -1,7 +1,7 @@
-﻿window.wbsMetadataEnriquecida = {
+﻿const wbsMetadata = {
   "version": "1.0",
   "fecha_creacion": "2025-10-08",
-  "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
+  "descripcion": "Metadata enriquecida de la WBS con criterios técnicos, justificaciones y trazabilidad completa",
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
@@ -930,8 +930,4 @@
     "ultima_actualizacion": "",
     "actualizado_por": ""
   }
-}
-
-
-
-;
+};

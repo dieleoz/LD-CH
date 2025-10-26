@@ -510,6 +510,7 @@
 
     <!-- Cargar datos desde archivos JS -->
     <script src="datos_wbs_TODOS_items.js?v=1.0.4"></script>
+    <script src="wbs_metadata_enriquecida.js?v=1.0.6"></script>
     <script src="criterios_tecnicos_base.js?v=1.0.0"></script>
     
     <script>
@@ -813,6 +814,11 @@
             const titulo = document.getElementById('modal-dt-titulo');
             const body = document.getElementById('modal-dt-body');
             
+            // Obtener metadata enriquecida si existe
+            const metadata = (typeof wbsMetadata !== 'undefined' && wbsMetadata.items && wbsMetadata.items[codigo]) 
+                ? wbsMetadata.items[codigo] 
+                : null;
+            
             titulo.textContent = `Crear DT: ${codigo} - ${item.descripcion}`;
             
             body.innerHTML = `
@@ -830,6 +836,15 @@
                     </select>
                 </div>
                 
+                ${metadata && metadata.referencias_contractuales && metadata.referencias_contractuales.length > 0 ? `
+                    <div style="background: #fff9e6; padding: 15px; border-radius: 4px; border-left: 4px solid #ffc107; margin: 15px 0;">
+                        <strong>⚖️ Referencias Contractuales:</strong>
+                        <ul style="margin: 10px 0 0 20px; padding-left: 10px;">
+                            ${metadata.referencias_contractuales.map(ref => `<li style="margin: 5px 0;">${ref}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+                
                 <div class="form-group">
                     <label class="form-label">Observación Técnica:</label>
                     <textarea id="dt-observacion" class="form-control" rows="4" placeholder="Describe tu propuesta..."></textarea>
@@ -837,8 +852,17 @@
                 
                 <div class="form-group">
                     <label class="form-label">Justificación:</label>
-                    <textarea id="dt-justificacion" class="form-control" rows="4" placeholder="Justifica técnicamente el cambio..."></textarea>
+                    <textarea id="dt-justificacion" class="form-control" rows="6" placeholder="Justifica técnicamente el cambio...">${metadata && metadata.justificacion_tecnica ? metadata.justificacion_tecnica : ''}</textarea>
                 </div>
+                
+                ${metadata && metadata.criterios_diseno && metadata.criterios_diseno.length > 0 ? `
+                    <div style="background: #f9fbe7; padding: 15px; border-radius: 4px; border-left: 4px solid #cddc39; margin: 15px 0;">
+                        <strong>⚙️ Criterios de Diseño Actuales:</strong>
+                        <ul style="margin: 10px 0 0 20px; padding-left: 10px;">
+                            ${metadata.criterios_diseno.map(crit => `<li style="margin: 5px 0;">${crit}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
                 
                 <div style="display: flex; gap: 10px; margin-top: 20px;">
                     <button class="btn btn-dt" onclick="generarDTItem('${codigo}')">📋 Generar DT</button>
