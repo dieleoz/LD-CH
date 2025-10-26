@@ -68,49 +68,74 @@
     },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
-      "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisiÃ³n de infraestructura ferroviaria",
+      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece sistema SCADA para supervisión de infraestructura ferroviaria. Según AT2 (Operación y Mantenimiento), se requiere supervisión remota de señales, cambios de vía, detectores de trenes y circuitos de vía. AT4 exige disponibilidad 99.9% para sistemas SCADA. Cantidad: 2 servidores (1 maestro + 1 esclavo) según arquitectura redundante requerida. Servidores supervisan 500+ puntos I/O distribuidos en 5 estaciones ENCE y talleres. Referencias: AT3 Especificaciones Generales (SCADA), AT2 Operación (supervisión remota), AT4 Disponibilidad (99.9%)",
       "criterios_diseno": [
-        "Arquitectura maestro-esclavo",
-        "Monitoreo tiempo real de seÃ±ales, cambios vÃ­a, detectores",
-        "IntegraciÃ³n con CTC para vista unificada"
+        "Arquitectura maestro-esclavo redundante (AT3)",
+        "Monitoreo tiempo real de señales, cambios vía, detectores (AT2)",
+        "Integración con CTC para vista unificada (AT3)",
+        "Capacidad: 500+ puntos I/O distribuidos en corredor"
       ],
       "supuestos": [
         "2 servidores (1 maestro + 1 esclavo)",
-        "Capacidad: 500 puntos I/O",
-        "Protocolo IEC 61850 para interoperabilidad"
+        "Capacidad: 500 puntos I/O (señales + detectores + cambios vía)",
+        "Protocolo IEC 61850 para interoperabilidad",
+        "Redundancia N+1 para alta disponibilidad (AT4)"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-001-2025-10-07"
       ],
-      "feedback_especialista": "Costo ajustado a $400M c/u para incluir licencias SCADA corporativas y mÃ³dulos de ciberseguridad industrial.",
+      "feedback_especialista": "Costo ajustado a $400M c/u para incluir licencias SCADA corporativas y módulos de ciberseguridad industrial según AT7 (Ciberseguridad IEC 62443).",
       "documentos_ingenieria": [
-        "V.5_SCADA_Detalle_v1.0.md"
+        "V.5_SCADA_Detalle_v1.0.md",
+        "AT3 - Especificaciones Generales (SCADA)",
+        "AT2 - Operación y Mantenimiento",
+        "AT4 - Disponibilidad 99.9%",
+        "AT7 - Ciberseguridad IEC 62443"
       ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "DT-SCADA-001"
+      "referencias_contractuales": [
+        "AT3 - Sistema SCADA supervisión infraestructura",
+        "AT2 - Operación y Mantenimiento (supervisión remota)",
+        "AT4 - Disponibilidad 99.9% sistemas SCADA",
+        "AT7 - Ciberseguridad IEC 62443 industrial",
+        "IEC 61850 - Protocolo interoperabilidad SCADA"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "5.3.101": {
       "descripcion": "Software SCADA",
-      "justificacion_tecnica": "Plataforma SCADA industrial de alta confiabilidad para supervisiÃ³n y control",
+      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que requiere plataforma SCADA industrial para supervisión de infraestructura ferroviaria. Según AT7 (Ciberseguridad), se debe cumplir IEC 62443 para sistemas industriales. AT2 establece necesidad de historial y reportes para mantenimiento predictivo. Cantidad: 1 licencia corporativa ilimitada para cubrir todo el sistema SCADA incluyendo 500+ puntos I/O. Software debe soportar protocolos industriales estándar y módulos de ciberseguridad. Referencias: AT3 Especificaciones Generales (SCADA), AT7 Ciberseguridad IEC 62443, AT2 Mantenimiento predictivo",
       "criterios_diseno": [
-        "Compatibilidad con mÃºltiples protocolos: Modbus, DNP3, IEC 61850",
-        "HMI grÃ¡fico con sinópticos dinÃ¡micos",
-        "MÃ³dulo de alarmas inteligentes y trending"
+        "Compatibilidad múltiples protocolos: Modbus, DNP3, IEC 61850 (AT3)",
+        "HMI gráfico con sinópticos dinámicos por estación",
+        "Módulo de alarmas inteligentes y trending histórico",
+        "Ciberseguridad IEC 62443 integrada (AT7)"
       ],
       "supuestos": [
-        "1 licencia corporativa ilimitada",
-        "Incluye: desarrollo, runtime, historian, reporting",
-        "Soporte tÃ©cnico 24/7 por 5 aÃ±os"
+        "1 licencia corporativa ilimitada para todo el sistema",
+        "Incluye: desarrollo, runtime, historian (5 años histórico), reporting",
+        "Soporte técnico 24/7 por 5 años según AT2",
+        "Módulo gestión energética para análisis consumos"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-002-2025-10-07"
       ],
-      "feedback_especialista": "Incremento justificado por requerimientos de ciberseguridad IEC 62443 y necesidad de mÃ³dulo de gestiÃ³n de energÃ­a para anÃ¡lisis de consumos.",
+      "feedback_especialista": "Incremento justificado por requerimientos de ciberseguridad IEC 62443 según AT7 y necesidad de módulo de gestión de energía para análisis de consumos según AT2 (mantenimiento predictivo).",
       "documentos_ingenieria": [
-        "V.5_SCADA_Detalle_v1.0.md"
+        "V.5_SCADA_Detalle_v1.0.md",
+        "AT3 - Especificaciones Generales (Software SCADA)",
+        "AT7 - Ciberseguridad IEC 62443",
+        "AT2 - Mantenimiento predictivo y reportes"
       ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "DT-SCADA-002"
+      "referencias_contractuales": [
+        "AT3 - Software SCADA industrial",
+        "AT7 - Ciberseguridad IEC 62443 sistemas industriales",
+        "AT2 - Mantenimiento predictivo e historial (5 años)",
+        "IEC 61850 - Protocolo interoperabilidad",
+        "IEC 62443 - Ciberseguridad sistemas industriales"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "5.3.103": {
       "descripcion": "Interfaces comunicaciÃ³n L2/L3",
@@ -198,25 +223,36 @@
   },
   "1.1.101": {
     "descripcion": "Servidores CTC respaldo",
-    "justificacion_tecnica": "Servidor redundante hot-standby para continuidad operacional segÃºn AT2 Â§5.3 - Disponibilidad 99.95%",
+    "justificacion_tecnica": "Fundamentado en AT2 (Operación y Mantenimiento), que establece redundancia hot-standby para sistemas críticos con disponibilidad 99.95%. Según AT4, el sistema CTC debe mantener operación continua 24/7 sin interrupciones. Cantidad: 2 UND (configuración N+1 con conmutación automática <5 segundos). El servidor respaldo sincroniza datos en tiempo real y toma control automáticamente ante falla del principal. Referencias: AT2 Operación y Mantenimiento, AT4 Disponibilidad (99.95%), AT3 Especificaciones Generales (redundancia CTC)",
     "criterios_diseno": [
-      "ConfiguraciÃ³n activo-pasivo (hot-standby)",
-      "SincronizaciÃ³n en tiempo real < 1 segundo",
-      "ConmutaciÃ³n automÃ¡tica en caso de falla < 5 segundos"
+      "Configuración activo-pasivo (hot-standby según AT2)",
+      "Sincronización datos en tiempo real < 1 segundo",
+      "Conmutación automática ante falla < 5 segundos (AT4)",
+      "Arquitectura N+1 full-active para alta disponibilidad"
     ],
     "supuestos": [
-      "2 servidores en configuraciÃ³n N+1",
-      "Enlace dedicado fibra óptica para sincronizaciÃ³n",
-      "UPS dimensionado para 4 horas autonomÃ­a"
+      "2 servidores en configuración N+1 redundante",
+      "Enlace dedicado fibra óptica para sincronización",
+      "UPS dimensionado para 4 horas de autonomía",
+      "Monitoreo continuo 24/7 según AT2"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "",
+    "feedback_especialista": "Servidor respaldo configuración hot-standby para garantizar disponibilidad 99.95% requerida por AT2. Failover automático <5 segundos para mantenimiento continuidad operativa CTC.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
-      "IV.1_CTC_Basica_v2.0.md"
+      "IV.1_CTC_Basica_v2.0.md",
+      "AT2 - Operación y Mantenimiento",
+      "AT4 - Disponibilidad 99.95%",
+      "AT3 - Especificaciones Generales (redundancia)"
     ],
-    "ultima_actualizacion": "2025-10-08",
-    "actualizado_por": "Sistema WBS"
+    "referencias_contractuales": [
+      "AT2 - Operación y Mantenimiento (redundancia hot-standby)",
+      "AT4 - Disponibilidad 99.95% sistemas críticos",
+      "AT3 - Especificaciones Generales (Sistema CTC)",
+      "IEC 62290-1 - Sistemas de control ferroviario"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "1.3.100": {
     "descripcion": "Cable de cobre Cat 6A",
