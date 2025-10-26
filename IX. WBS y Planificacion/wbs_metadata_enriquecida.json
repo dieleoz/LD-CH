@@ -574,6 +574,107 @@
     "ultima_actualizacion": "2025-10-24",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
+  "6.1.200": {
+    "descripcion": "Computadora ATP embarcada",
+    "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), que define sistema ATP embarcado para protección automática de trenes con ATP (Automatic Train Protection) compatible ETCS Level 2. Según AT3, se requiere certificación SIL-4 (CENELEC EN 50126/128/129) para funciones vitales. AT4 exige disponibilidad 99.95% para sistemas ATP. Cantidad: 8 UND (5 locomotoras contractuales según AT1 Apéndice Financiero pág. 3 + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto). Computadora ATP embarcada es el núcleo del sistema de protección automática que integra: Eurobaliza, odómetro, interfaces frenos, display maquinista. Referencias: AT1 Material Rodante (ATP embarcado), AT3 Especificaciones ETCS L2, AT4 Disponibilidad (99.95%), CENELEC EN 50126/128/129",
+    "criterios_diseno": [
+      "Certificación SIL-4 para funciones vitales (AT3 ETCS L2)",
+      "Compatible ETCS Level 2 según AT3",
+      "Interfaz con eurobaliza y odómetro (AT3)",
+      "Disponibilidad 99.95% (AT4)"
+    ],
+    "supuestos": [
+      "8 computadoras ATP embarcadas (5 locomotoras + 2 FAT/SAT + 1 contingencia)",
+      "Interfaz con display maquinista, sensores velocidad, sistema GPS",
+      "Certificación CENELEC completa incluida",
+      "Compatibilidad ETCS L2 verificada"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Computadora ATP embarcada consolidada en CAP 6 según DT-ELIMINACION-001. Sistema núcleo de protección automática con certificación SIL-4 según AT3.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT1 - Material Rodante (ATP embarcado)",
+      "AT3 - Especificaciones ETCS L2",
+      "AT4 - Disponibilidad 99.95%",
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "referencias_contractuales": [
+      "AT1 - Material Rodante (5 locomotoras)",
+      "AT3 - ATP compatible ETCS L2",
+      "AT4 - Disponibilidad 99.95%",
+      "CENELEC EN 50126/128/129 - Certificación SIL-4"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.201": {
+    "descripcion": "Display maquinista",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales ETCS L2), que establece Driver Machine Interface (DMI) en cada cabina para visualización de información crítica ATP. Según AT4, el DMI debe mostrar Movement Authority (MA), velocidad objetivo, velocidad actual y alarmas en tiempo real. Cantidad: 8 UND (1 por sistema ATP embarcado según cantidad computadoras). Display táctil con salida IP65/IK10 según AT3. Referencias: AT3 ETCS L2 DMI, AT4 Información visual crítica, UIC EIRENE",
+    "criterios_diseno": [
+      "Pantalla táctil 10.1 pulgadas según AT3 ETCS L2",
+      "Visualización Movement Authority en tiempo real (AT4)",
+      "Indicadores velocidad actual vs objetivo (AT4)",
+      "Alertas visuales y sonoras (AT4)"
+    ],
+    "supuestos": [
+      "8 displays maquinista (1 por ATP embarcado)",
+      "Certificación ETCS L2 incluida",
+      "Interfaz con computadora ATP embarcada",
+      "Protección IP65/IK10 ambientes ferroviarios"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Display maquinista consolidado en CAP 6 según DT-ELIMINACION-001. Interfaz maquinista según estándar UIC EIRENE y especificaciones ETCS L2.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT3 - Especificaciones ETCS L2 (DMI)",
+      "AT4 - Información visual crítica",
+      "UIC EIRENE - Estándar DMI ferroviario"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Driver Machine Interface (DMI)",
+      "AT4 - Información visual crítica",
+      "UIC EIRENE - Estándar DMI ferroviario"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.206": {
+    "descripcion": "Sistema redundancia ATP",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas ATP embarcados críticos con disponibilidad 99.95%. Según AT3, el sistema ATP debe tener dos canales independientes para funciones vitales. Cantidad: 8 UND (1 por sistema ATP embarcado). Sistema incluye: votación 2oo3 (2 out of 3) para decisión segura, detección fallos <100ms, fail-safe ante fallo canal. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Dos canales ATP independientes, CENELEC EN 50129",
+    "criterios_diseno": [
+      "Dos canales independientes (AT3 ETCS L2)",
+      "Voting 2oo3 para decisión segura (AT4)",
+      "Detección fallos <100ms (AT4)",
+      "Fail-safe ante fallo de canal (AT3)"
+    ],
+    "supuestos": [
+      "8 sistemas redundancia ATP (1 por ATP embarcado)",
+      "Arquitectura two-channel con votación 2oo3",
+      "Detección fallos <100ms según AT4",
+      "Fail-safe automático según AT3"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Sistema redundancia ATP consolidado en CAP 6 según DT-ELIMINACION-001. Dos canales independientes con votación 2oo3 para disponibilidad 99.95% según AT4.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT4 - Redundancia N+1 (99.95%)",
+      "AT3 - Dos canales ATP independientes",
+      "CENELEC EN 50129 - Certificación redundancia"
+    ],
+    "referencias_contractuales": [
+      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT3 - Dos canales ATP independientes",
+      "CENELEC EN 50129 - Certificación redundancia"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
   "plantilla_nuevo_item": {
     "descripcion": "",
     "justificacion_tecnica": "",
