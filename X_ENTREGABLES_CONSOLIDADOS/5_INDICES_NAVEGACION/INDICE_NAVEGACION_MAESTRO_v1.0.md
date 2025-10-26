@@ -33,7 +33,8 @@
 6. **NAVEGACIÓN POR DOCUMENTOS EJECUTIVOS**
 7. **NAVEGACIÓN POR METODOLOGÍAS**
 8. **BÚSQUEDA RÁPIDA**
-9. **REFERENCIAS Y DOCUMENTOS RELACIONADOS**
+9. **NAVEGACIÓN GEOGRÁFICA Y COORDENADAS** ✨ **NUEVO**
+10. **REFERENCIAS Y DOCUMENTOS RELACIONADOS**
 
 ---
 
@@ -453,9 +454,65 @@
 
 ---
 
-## 9. REFERENCIAS Y DOCUMENTOS RELACIONADOS
+## 9. NAVEGACIÓN GEOGRÁFICA Y COORDENADAS
 
-### **9.1 Documentos Contractuales Base**
+### **9.1 Sistema de Información Geográfica (SIG)**
+
+#### **Archivo KML/Google Earth:**
+| Documento | Descripción | Ubicación | Estado |
+|:----------|:------------|:-----------|:--------|
+| **Sistema Ferreo LD-CH_Vía.kmz** | Trazado completo vía férrea con coordenadas, estaciones, PKs y elementos de infraestructura | `5_INDICES_NAVEGACION/` | ✅ Actualizado |
+
+#### **Contenido del Archivo KML:**
+- **Trazado completo de la vía:** Línea férrea desde La Dorada hasta Chiriguaná
+- **Estaciones principales:** Marcadores geográficos con coordenadas
+- **Puntos Kilométricos (PK):** Marcado cada 1,000 metros con coordenadas
+- **Elementos de infraestructura:** Torres TETRA, cajas de fibra, CCTV, etc.
+- **Información técnica:** Por cada elemento se incluye:
+  - Coordenadas geográficas (Latitud, Longitud)
+  - Nombre del elemento
+  - Descripción técnica
+  - PK correspondiente
+
+#### **Coordenadas Principales del Proyecto:**
+
+**Zona del Proyecto (Aproximada):**
+- **Longitud (Oeste):** -74.6° a -74.7°
+- **Latitud (Norte):** 5.4° a 5.7°
+- **Elevación:** 0-500 metros sobre el nivel del mar
+
+#### **Cómo usar el archivo KML:**
+
+1. **Descargar archivo KMZ:**
+   - Ubicación: `X_ENTREGABLES_CONSOLIDADOS/5_INDICES_NAVEGACION/Sistema Ferreo LD-CH_Vía.kmz`
+
+2. **Abrir en Google Earth:**
+   - Doble clic en el archivo .kmz
+   - Se abrirá automáticamente en Google Earth Pro
+   - Navegar por el trazado completo del proyecto
+
+3. **Ver información detallada:**
+   - Click en cualquier marcador para ver detalles del elemento
+   - Información incluye: nombre, PK, coordenadas, descripción técnica
+
+4. **Integración con documentación:**
+   - Cada elemento en el KML tiene referencia a documentos técnicos
+   - Coordenadas pueden exportarse para análisis en otros sistemas SIG
+
+#### **Exportar coordenadas para análisis:**
+
+Las coordenadas pueden extraerse del archivo KML para:
+- Análisis de cobertura de sistemas (TETRA, fibra óptica)
+- Ubicación de equipos en campo
+- Planificación de rutas de mantenimiento
+- Estudios de impacto ambiental
+- Análisis de disposición de equipos
+
+---
+
+## 10. REFERENCIAS Y DOCUMENTOS RELACIONADOS
+
+### **10.1 Documentos Contractuales Base**
 - `FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md` - Contrato principal
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1)
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
