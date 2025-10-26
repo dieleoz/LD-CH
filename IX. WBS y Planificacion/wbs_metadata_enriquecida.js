@@ -38,33 +38,45 @@
     },
     "1.1.103": {
       "descripcion": "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
-      "justificacion_tecnica": "Software CTC ampliado con ETCS Level 2, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + ETCS L2 $25B + FENOCO $15B + HA $9.15B",
+      "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), AT3 (Especificaciones ETCS L2) y AT4 (Disponibilidad), que establecen sistema CTC con ETCS Level 2 interoperable con FENOCO bajo disponibilidad 99.95%. Según cláusula 1.2(d) del Contrato y AT3 (numerales 2.1 y 2.3.1), AT10 (2.1) y AT1 (1.2), el concesionario debe implementar sistema CTC interoperable con FENOCO bajo ETCS L2 con alta disponibilidad y trazabilidad BIM. Cantidad: 1 UND (licencia corporativa completa con: Core CTC $30B para 8 estaciones + CCO + redundancia + 100 trenes simultáneos, ETCS L2 $25B para EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA, Interoperabilidad FENOCO $15B para Protocolos UIC 950-7/554 + Gestión coordinada + Transferencia control, Alta Disponibilidad $9.15B para Cluster N+1 + Failover <5seg + DR RTO<1h RPO<15min + 99.95%). Referencias: AT1 Material Rodante, AT3 ETCS L2 interoperabilidad, AT4 Disponibilidad (99.95%), AT10 Interoperabilidad FENOCO, Knorr Bremse/CRRC ofertas validadas",
       "criterios_diseno": [
-        "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultaneos",
-        "Modulo ETCS Level 2: $25B - EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA",
-        "Interoperabilidad FENOCO: $15B - Protocolos UIC 950-7/554 + Gestion coordinada + Transferencia control",
-        "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95%"
+        "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultáneos (AT1)",
+        "Módulo ETCS Level 2: $25B - EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA (AT3)",
+        "Interoperabilidad FENOCO: $15B - Protocolos UIC 950-7/554 + Gestión coordinada + Transferencia control (AT10)",
+        "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95% (AT4)"
       ],
       "supuestos": [
-        "Licenciamiento perpetuo con 5 anos soporte tecnico incluido",
-        "Certificacion CENELEC ETCS Level 2 completa incluida",
-        "Interfaces FENOCO customizadas especificas del proyecto",
-        "Capacitacion 300 horas (200 operadores + 100 ingenieros)",
-        "Customizacion 30% del software para requisitos especificos",
-        "Integracion con SCADA, PAN, CCTV incluida"
+        "Licenciamiento perpetuo con 5 años soporte técnico incluido (AT2)",
+        "Certificación CENELEC ETCS Level 2 completa incluida (AT3)",
+        "Interfaces FENOCO customizadas específicas del proyecto (AT10)",
+        "Capacitación 300 horas (200 operadores + 100 ingenieros según AT2)",
+        "Customización 30% del software para requisitos específicos (AT1)",
+        "Integración con SCADA, PAN, CCTV incluida (AT3)"
       ],
       "decisiones_tecnicas": [
         "DT-CTC-002-2025-10-08",
         "DT-CTC-003-2025-10-08"
       ],
-      "feedback_especialista": "Incremento +901% justificado por alcance completo ETCS L2 + Interoperabilidad FENOCO. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces UIC, sistema HA 99.95%.",
+      "feedback_especialista": "Incremento +901% justificado por alcance completo ETCS L2 + Interoperabilidad FENOCO según AT3 y AT10. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces UIC, sistema HA 99.95% según AT4.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
-        "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md"
+        "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md",
+        "AT1 - Material Rodante",
+        "AT3 - ETCS L2 interoperabilidad",
+        "AT4 - Disponibilidad 99.95%",
+        "AT10 - Interoperabilidad FENOCO"
       ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "DT-CTC-003"
+      "referencias_contractuales": [
+        "AT1 - Material Rodante",
+        "AT3 - ETCS L2 interoperabilidad (numerales 2.1, 2.3.1)",
+        "AT4 - Disponibilidad 99.95%",
+        "AT10 - Interoperabilidad FENOCO (2.1)",
+        "UIC 950-7/554 - Protocolos FENOCO",
+        "CENELEC - Certificación ETCS L2"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
