@@ -18,7 +18,7 @@
         "Comunicación redundante fibra óptica en doble anillo",
         "Monitoreo continuo 24/7 según AT2"
       ],
-      "decisiones_tecnicas": [],
+      "decisiones_tecnicas": ["DT-CTC-004-2025-10-24"],
       "feedback_especialista": "Servidores configurados según arquitectura CTC virtual sin señalización física en vía, compatible con ATP embarcado y enclavamientos ENCE.",
       "documentos_ingenieria": [
         "V.1_CTC_Detalle_v1.0.md",
@@ -272,7 +272,7 @@
       "UPS dimensionado para 4 horas de autonomía",
       "Monitoreo continuo 24/7 según AT2"
     ],
-    "decisiones_tecnicas": [],
+    "decisiones_tecnicas": ["DT-CTC-005-2025-10-24"],
     "feedback_especialista": "Servidor respaldo configuración hot-standby para garantizar disponibilidad 99.95% requerida por AT2. Failover automático <5 segundos para mantenimiento continuidad operativa CTC.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",

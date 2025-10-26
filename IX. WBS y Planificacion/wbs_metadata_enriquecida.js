@@ -1,7 +1,7 @@
 ﻿const wbsMetadata = {
   "version": "1.0",
   "fecha_creacion": "2025-10-08",
-  "descripcion": "Metadata enriquecida de la WBS con criterios técnicos, justificaciones y trazabilidad completa",
+  "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
@@ -18,7 +18,7 @@
         "Comunicación redundante fibra óptica en doble anillo",
         "Monitoreo continuo 24/7 según AT2"
       ],
-      "decisiones_tecnicas": [],
+      "decisiones_tecnicas": ["DT-CTC-004-2025-10-24"],
       "feedback_especialista": "Servidores configurados según arquitectura CTC virtual sin señalización física en vía, compatible con ATP embarcado y enclavamientos ENCE.",
       "documentos_ingenieria": [
         "V.1_CTC_Detalle_v1.0.md",
@@ -272,7 +272,7 @@
       "UPS dimensionado para 4 horas de autonomía",
       "Monitoreo continuo 24/7 según AT2"
     ],
-    "decisiones_tecnicas": [],
+    "decisiones_tecnicas": ["DT-CTC-005-2025-10-24"],
     "feedback_especialista": "Servidor respaldo configuración hot-standby para garantizar disponibilidad 99.95% requerida por AT2. Failover automático <5 segundos para mantenimiento continuidad operativa CTC.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
@@ -930,9 +930,7 @@
     "ultima_actualizacion": "",
     "actualizado_por": ""
   }
-};
-
-// Hacer disponible globalmente
-if (typeof window !== 'undefined') {
-    window.wbsMetadata = wbsMetadata;
 }
+
+
+
