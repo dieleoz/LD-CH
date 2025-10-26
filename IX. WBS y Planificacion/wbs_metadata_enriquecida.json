@@ -139,68 +139,90 @@
     },
     "5.3.103": {
       "descripcion": "Interfaces comunicaciÃ³n L2/L3",
-      "justificacion_tecnica": "Switches industriales de capa 2/3 para red de comunicaciones del sistema SCADA",
+      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece red de comunicaciones industrial para sistema SCADA. Según AT4, se requiere disponibilidad 99.9% para comunicaciones críticas. AT7 (Ciberseguridad IEC 62443) exige switches industriales con protección firewall integrada. Cantidad: 1 set completo (core + distribution + access switches) según topología en anillo redundante. Switches core con protocolo PRP (Parallel Redundancy Protocol) para tiempo conmutación <20ms según AT4. Referencias: AT3 Especificaciones Generales (red comunicaciones), AT4 Disponibilidad (99.9%), AT7 Ciberseguridad IEC 62443",
       "criterios_diseno": [
-        "Managed switches con VLAN y QoS",
+        "Managed switches capa 2/3 con VLAN y QoS según AT3",
         "Redundancia en anillo (ring topology) IEC 62439-3",
-        "Grado industrial: -40Â°C a +75Â°C"
+        "Grado industrial: -40°C a +75°C según AT3",
+        "Protocolo PRP para conmutación <20ms (AT4)"
       ],
       "supuestos": [
         "1 set de equipos: core switch + distribution switches + access switches",
-        "Fibra óptica para backbone, cobre para edge",
-        "certificación IEC 61850-3 para subestaciones"
+        "Fibra óptica para backbone, cobre para edge según AT3",
+        "Certificación IEC 61850-3 para subestaciones industriales",
+        "Firewalls integrados según AT7 ciberseguridad"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-003-2025-10-07"
       ],
-      "feedback_especialista": "Costo incluye switches core redundantes con protocolo PRP (Parallel Redundancy Protocol) para tiempo de conmutaciÃ³n <20ms segÃºn requerimientos crÃ­ticos.",
+      "feedback_especialista": "Costo incluye switches core redundantes con protocolo PRP (Parallel Redundancy Protocol) para tiempo de conmutación <20ms según requerimientos críticos de AT4.",
       "documentos_ingenieria": [
         "V.5_SCADA_Detalle_v1.0.md",
-        "V.3_Comunicacion_Detalle_v3.0.md"
+        "V.3_Comunicacion_Detalle_v3.0.md",
+        "AT3 - Especificaciones Generales (red comunicaciones)",
+        "AT4 - Disponibilidad 99.9%",
+        "AT7 - Ciberseguridad IEC 62443"
       ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "DT-SCADA-003"
+      "referencias_contractuales": [
+        "AT3 - Switches industriales para red SCADA",
+        "AT4 - Disponibilidad 99.9% comunicaciones",
+        "AT7 - Ciberseguridad IEC 62443 industrial",
+        "IEC 62439-3 - Redundancia ring topology",
+        "IEC 61850-3 - Subestaciones industriales"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "1.1.106": {
       "descripcion": "Interfaces comunicación",
-      "justificacion_tecnica": "Bloque lógico de integración (no hardware físico único). Conecta CTC con ITCS/ETCS L2, FENOCO (Gateway UIC 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software.",
+      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece integración de CTC con sistemas ITCS/ETCS L2, FENOCO, TETRA, fibra óptica e ITS. Según AT1, el CTC debe interoperar con todos los subsistemas mediante gateways UIC 918-4. AT7 (Ciberseguridad) requiere firewalls IEC 62443 para protección. Cantidad: 1 UND (bloque lógico completo de integración). NO es hardware físico único sino conjunto funcional que conecta: ITCS/ETCS L2 (gateways UIC 918-4), FENOCO (protocolos UIC 950-7/554), TETRA (voz/datos), Fibra óptica (backbone N+1), ITS (CCTV/acceso/intrusión). Incluye: gateways industriales, switches borde, firewalls IEC 62443, middleware interoperabilidad, licencias software. Referencias: AT3 Especificaciones Generales (integración CTC), AT1 Interoperabilidad sistemas, AT7 Ciberseguridad IEC 62443, UIC 918-4",
       "criterios_diseno": [
-        "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS",
-        "Redundancia N+1 en comunicaciones críticas",
-        "Middleware interoperabilidad con protocolos UIC 918-4",
-        "Firewalls IEC 62443 para ciberseguridad industrial"
+        "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS (AT3)",
+        "Redundancia N+1 en comunicaciones críticas (AT4)",
+        "Middleware interoperabilidad protocolos UIC 918-4 según AT1",
+        "Firewalls IEC 62443 para ciberseguridad industrial (AT7)"
       ],
       "supuestos": [
         "1 UND representa conjunto lógico completo de integración",
-        "Equipos físicos mayores cubiertos en ítems 1.1.100-1.1.105",
+        "Equipos físicos mayores cubiertos en items 1.1.100-1.1.105",
         "Incluye licencias software, configuración y ensayos FAT/SAT",
         "Interfaces con: ITCS/ETCS L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
       ],
       "decisiones_tecnicas": [
         "DT-INTERFACES-001-2025-10-09"
       ],
-      "feedback_especialista": "Elemento clave de integración del sistema CTC. NO es hardware físico único sino bloque funcional que conecta todos los subsistemas. Costo $150M incluye gateways, middleware UIC, firewalls, licencias y configuración completa.",
+      "feedback_especialista": "Elemento clave de integración del sistema CTC. NO es hardware físico único sino bloque funcional que conecta todos los subsistemas. Costo $150M incluye gateways, middleware UIC, firewalls, licencias y configuración completa según AT3 y AT7.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_v5.0.md",
         "IV.2_Interfaces_Sistemas_MEJORADO.md",
-        "VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md"
+        "VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md",
+        "AT3 - Especificaciones Generales (integración sistemas)",
+        "AT1 - Interoperabilidad sistemas",
+        "AT7 - Ciberseguridad IEC 62443"
       ],
-      "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-INTERFACES-001-2025-10-09"
+      "referencias_contractuales": [
+        "AT3 - Integración CTC con subsistemas",
+        "AT1 - Interoperabilidad FENOCO (protocolos UIC)",
+        "AT7 - Ciberseguridad IEC 62443",
+        "UIC 918-4 - Gateway interoperabilidad",
+        "UIC 950-7/554 - Protocolos FENOCO"
+      ],
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "2.1.103": {
       "descripcion": "Radios embarcados (30 unidades)",
-      "justificacion_tecnica": "30 radios embarcados TETRA según Metodología Punto 42: 9 locomotoras operativas (factor 1.5 redundancia) + 9 equipos maniobras/vía + 12 personal operativo. Basado en AT2/AT10 para operación segura con redundancia en emergencias. Distribución: radio principal por locomotora + portátiles para conducción/maniobras/mantenimiento.",
+      "justificacion_tecnica": "Fundamentado en AT2 (Operación y Mantenimiento) y AT10 (Capacidad Surcos), que establecen comunicaciones radiomóviles TETRA para operación segura ferroviaria. Según Apéndice Financiero 4 (Material rodante), hay 6 locomotoras operativas base. Cantidad: 30 radios según Metodología Punto 42 (factor redundancia 1.5). Cálculo: 9 radios principales embarcados (6 locomotoras operativas + 3 reserva según factor 1.5) + 9 radios maniobras/vía + 12 radios personal operativo = 30 unidades totales. Distribución: radio principal por locomotora (control tráfico y voz CTC) + portátiles para personal conducción/maniobras/mantenimiento. Referencias: AT2 Operación segura, AT10 Requisitos comunicaciones personal, Apéndice Financiero 4 Material rodante",
       "criterios_diseno": [
-        "1 radio principal embarcado por locomotora (control tráfico y voz CTC)",
-        "Radios portátiles para personal conducción, maniobras y mantenimiento",
+        "1 radio principal embarcado por locomotora (control tráfico y voz CTC según AT2)",
+        "Radios portátiles para personal conducción, maniobras y mantenimiento (AT10)",
         "Factor redundancia 1.5 según Metodología Punto 42",
-        "Cumplimiento AT2 y AT10 para operación segura"
+        "Cumplimiento AT2 y AT10 para operación segura con redundancia emergencias"
       ],
       "supuestos": [
-        "Flota base: 6 locomotoras operativas (U18C + GR12 + reserva)",
-        "Factor 1.5 redundancia aplicado (dotación + backup)",
-        "Personal operativo: 8 base (jefes tren, seguridad vía, control apartaderos)",
+        "Flota base: 6 locomotoras operativas (U18C + GR12 + reserva según Apéndice Financiero 4)",
+        "Factor 1.5 redundancia aplicado (dotación + backup según Metodología Punto 42)",
+        "Personal operativo: 8 base (jefes tren, seguridad vía, control apartaderos según AT10)",
         "Total calculado: 9 locomotoras + 9 maniobras + 12 personal = 30 radios"
       ],
       "decisiones_tecnicas": [
@@ -208,17 +230,19 @@
       ],
       "feedback_especialista": "Cálculo basado en Apéndice Financiero 4 (material rodante tractivo) y AT2/AT10 (operación segura). 30 radios cubren: locomotoras (principal) + equipos maniobras/vía + personal operativo con redundancia emergencias.",
       "documentos_ingenieria": [
-        "Apéndice Financiero 4",
+        "Apéndice Financiero 4 - Material rodante",
         "AT2 - Operación y Mantenimiento",
-        "AT10 - Capacidad Surcos"
+        "AT10 - Capacidad Surcos",
+        "Metodología Punto 42 - Factor redundancia 1.5"
       ],
       "referencias_contractuales": [
-        "Apéndice Financiero 4: Material rodante base (1 U18 + 2 GR12 + complementario)",
-        "AT2: Requerimientos operación segura y redundancia emergencias",
-        "AT10: Personal operativo y requisitos comunicaciones"
+        "Apéndice Financiero 4 - Material rodante base (6 locomotoras)",
+        "AT2 - Requerimientos operación segura y redundancia emergencias",
+        "AT10 - Personal operativo y requisitos comunicaciones",
+        "Metodología Punto 42 - Factor redundancia 1.5"
       ],
-      "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-TETRA-002-2025-10-09"
+      "ultima_actualizacion": "2025-10-24",
+      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     }
   },
   "1.1.101": {
