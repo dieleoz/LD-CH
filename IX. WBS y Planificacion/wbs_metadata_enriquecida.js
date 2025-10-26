@@ -675,6 +675,172 @@
     "ultima_actualizacion": "2025-10-24",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
+  "2.1.102": {
+    "descripcion": "Antenas TETRA",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece sistema de radio TETRA con antenas especializadas para comunicaciones ferroviarias. Según AT4, se requiere disponibilidad 99.5% para telecomunicaciones. Cantidad: 37 UND (1 por estación base TETRA según diseño cobertura RF). Antenas omnidireccionales según AT5 para cobertura 360° en corredor. Ganancia mínima 10 dBi según AT5 para garantizar alcance RF. Referencias: AT5 Telecomunicaciones (antenas TETRA), AT4 Disponibilidad (99.5%), ETSI EN 300 392-2",
+    "criterios_diseno": [
+      "Antenas omnidireccionales para cobertura 360° (AT5)",
+      "Ganancia mínima 10 dBi según AT5",
+      "Impedancia 50 ohmios según ETSI EN 300 392-2",
+      "Protección IP66 según AT5 ambientes ferroviarios"
+    ],
+    "supuestos": [
+      "37 antenas TETRA (1 por estación base)",
+      "Configuración omnidireccional para cobertura completa",
+      "Frecuencias TETRA según licencia MinTIC",
+      "Ubicación en torres 30-45m según AT5"
+    ],
+    "decisiones_tecnicas": [
+      "DT-TETRA-001-2025-10-07"
+    ],
+    "feedback_especialista": "37 antenas TETRA omnidireccionales para cobertura completa corredor según AT5. Ganancia 10 dBi garantiza alcance RF necesario para comunicaciones críticas tren-tierra.",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "AT5 - Telecomunicaciones (antenas TETRA)",
+      "AT4 - Disponibilidad 99.5%",
+      "ETSI EN 300 392-2 - Estándar TETRA"
+    ],
+    "referencias_contractuales": [
+      "AT5 - Antenas TETRA (cobertura RF)",
+      "AT4 - Disponibilidad mínima 99.5% telecomunicaciones",
+      "ETSI EN 300 392-2 - Estándar TETRA",
+      "MinTIC - Licencia frecuencias"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.202": {
+    "descripcion": "Sensores velocidad",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece odómetro con sensores velocidad para ATP embarcado. Según AT4, se requiere medición velocidad continua para protección automática. Cantidad: 8 UND (1 por sistema ATP embarcado). Sensores redundantes tipo radar doppler o magnético según AT3. Precisión ±0.5% según especificaciones ETCS L2. Referencias: AT3 ETCS L2 odómetro, AT4 Medición velocidad continua, CENELEC EN 50126",
+    "criterios_diseno": [
+      "Sensores redundantes radar doppler o magnético (AT3)",
+      "Precisión ±0.5% según ETCS L2",
+      "Frecuencia muestreo 100 Hz según AT3",
+      "Rango 0-200 km/h según AT3"
+    ],
+    "supuestos": [
+      "8 sets sensores velocidad (1 por ATP embarcado)",
+      "Redundancia en configuración 2oo3 según AT3",
+      "Interfaz con computadora ATP embarcada",
+      "Certificación CENELEC incluida"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Sensores velocidad consolidados en CAP 6 según DT-ELIMINACION-001. Odómetro ATP con precisión ±0.5% según ETCS L2.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT3 - ETCS L2 odómetro",
+      "AT4 - Medición velocidad continua",
+      "CENELEC EN 50126 - Certificación"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Odómetro ATP (sensores velocidad)",
+      "AT4 - Medición velocidad continua",
+      "CENELEC EN 50126 - Certificación"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.203": {
+    "descripcion": "Sistema GPS",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece posicionamiento GPS para ATP embarcado con precisión ±10 metros. Según AT4, se requiere posicionamiento continuo para Movement Authority. Cantidad: 8 UND (1 por sistema ATP embarcado). Receptor GPS dual (GPS + GLONASS) según AT3 para redundancia señales satelitales. Referencias: AT3 ETCS L2 posicionamiento GPS, AT4 Posicionamiento continuo, IEC 61373",
+    "criterios_diseno": [
+      "Receptor GPS dual (GPS + GLONASS) según AT3",
+      "Precisión ±10 metros según AT3 ETCS L2",
+      "Actualización 1 Hz según AT4",
+      "Protección IEC 61373 vibración/choque"
+    ],
+    "supuestos": [
+      "8 receptores GPS (1 por ATP embarcado)",
+      "Interfaz con computadora ATP embarcada",
+      "Antena GPS redundante según AT3",
+      "Certificación IEC 61373 ambientes ferroviarios"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Sistema GPS consolidado en CAP 6 según DT-ELIMINACION-001. Posicionamiento continuo ±10m según ETCS L2.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT3 - ETCS L2 posicionamiento GPS",
+      "AT4 - Posicionamiento continuo",
+      "IEC 61373 - Vibración y choque"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Posicionamiento GPS ATP",
+      "AT4 - Posicionamiento continuo",
+      "IEC 61373 - Vibración y choque ferroviario"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.204": {
+    "descripcion": "Software ATP",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que requiere software ATP con certificación CENELEC para funciones protección automática. Según AT4, el software ATP debe calcular Movement Authority continuamente. Cantidad: 8 UND (1 licencia por ATP embarcado). Software ATP incluye: cálculos MA, speed profile, eurobaliza interfaces, comunicación radio RBC. Referencias: AT3 ETCS L2 software ATP, AT4 Movement Authority continua, CENELEC EN 50128",
+    "criterios_diseno": [
+      "Certificación CENELEC EN 50128 según AT3",
+      "Cálculos Movement Authority continuos (AT4)",
+      "Interfaces eurobaliza y odómetro (AT3)",
+      "Comunicación radio RBC (AT3)"
+    ],
+    "supuestos": [
+      "8 licencias software ATP (1 por ATP embarcado)",
+      "Certificación CENELEC completa incluida",
+      "Interfaz con display maquinista y sensores",
+      "Actualizaciones 5 años según AT2"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Software ATP consolidado en CAP 6 según DT-ELIMINACION-001. Certificación CENELEC EN 50128 según AT3.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT3 - ETCS L2 software ATP",
+      "AT4 - Movement Authority continua",
+      "CENELEC EN 50128 - Certificación software"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Software ATP ETCS L2",
+      "AT4 - Movement Authority continua",
+      "CENELEC EN 50128 - Certificación software"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "6.1.205": {
+    "descripcion": "Interfaces frenos",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece interfaces ATP con sistema frenos para aplicación automática de frenos en caso violación velocidad o MA. Según AT4, se requiere respuesta <3 segundos para aplicación frenos. Cantidad: 8 UND (1 por sistema ATP embarcado). Interfaces redundantes 2oo3 según AT3 para alta disponibilidad. Referencias: AT3 ETCS L2 interfaces frenos, AT4 Respuesta <3seg, CENELEC EN 50126",
+    "criterios_diseno": [
+      "Interfaces redundantes 2oo3 (AT3)",
+      "Respuesta aplicación frenos <3 segundos (AT4)",
+      "Señalización fail-safe (AT3)",
+      "Comunicación con sistema frenos existente"
+    ],
+    "supuestos": [
+      "8 sets interfaces frenos (1 por ATP embarcado)",
+      "Redundancia configuración 2oo3 según AT3",
+      "Interfaz con computadora ATP embarcada",
+      "Señales fail-safe según AT3"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ELIMINACION-001-2025-10-24"
+    ],
+    "feedback_especialista": "Interfaces frenos consolidadas en CAP 6 según DT-ELIMINACION-001. Aplicación automática frenos <3seg según AT4.",
+    "documentos_ingenieria": [
+      "V.4_ATP_Embarcado_Detalle_v1.0.md",
+      "AT3 - ETCS L2 interfaces frenos",
+      "AT4 - Respuesta <3 segundos",
+      "CENELEC EN 50126 - Certificación"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Interfaces frenos ATP",
+      "AT4 - Respuesta <3 segundos",
+      "CENELEC EN 50126 - Certificación"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
   "plantilla_nuevo_item": {
     "descripcion": "",
     "justificacion_tecnica": "",
