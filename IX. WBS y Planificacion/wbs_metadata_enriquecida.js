@@ -1,20 +1,20 @@
-window.wbsMetadataEnriquecida = {
+﻿window.wbsMetadataEnriquecida = {
   "version": "1.0",
   "fecha_creacion": "2025-10-08",
-  "descripcion": "Metadata enriquecida de la WBS con criterios técnicos, justificaciones y trazabilidad completa",
+  "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
-      "justificacion_tecnica": "Servidores redundantes para control centralizado del tráfico ferroviario según AT2 §5.3",
+      "justificacion_tecnica": "Servidores redundantes para control centralizado del Tráfico ferroviario segÃºn AT2 Â§5.3",
       "criterios_diseno": [
         "Redundancia N+1 para alta disponibilidad",
-        "Capacidad procesamiento: 100 trenes simultáneos",
-        "Tiempo respuesta < 100ms según IEC 62290-1"
+        "Capacidad procesamiento: 100 trenes simultÃ¡neos",
+        "Tiempo respuesta < 100ms segÃºn IEC 62290-1"
       ],
       "supuestos": [
         "2 servidores (1 principal + 1 respaldo)",
         "Arquitectura cliente-servidor",
-        "Comunicación redundante fibra óptica"
+        "ComunicaciÃ³n redundante fibra óptica"
       ],
       "decisiones_tecnicas": [],
       "feedback_especialista": "",
@@ -55,44 +55,13 @@ window.wbsMetadataEnriquecida = {
       "ultima_actualizacion": "2025-10-08",
       "actualizado_por": "DT-CTC-003"
     },
-    "1.2.100": {
-      "descripcion": "Computadora ATP embarcada",
-      "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia",
-      "criterios_diseno": [
-        "Cumplimiento CENELEC EN 50126/128/129",
-        "SIL 4 para funciones vitales de seguridad",
-        "Interfaz con eurobaliza y odómetro"
-      ],
-      "supuestos": [
-        "5 locomotoras operativas según AT1 §3.1",
-        "2 unidades para diseño y pruebas de aceptación",
-        "1 unidad de contingencia/repuesto estratégico"
-      ],
-      "decisiones_tecnicas": [
-        "DT-TETRA-001-2025-10-07",
-        "DT-ATP-001-2025-10-09"
-      ],
-      "feedback_especialista": "Cantidad 8 UND justificada por Apéndice Financiero pág. 3 (5 locomotoras: 2 GR12 + 2 U10 + 1 U18C) + 3 reserva (2 pruebas FAT/SAT + 1 contingencia). Alineación contractual AT1 completa.",
-      "documentos_ingenieria": [
-        "V.2_ATP_Detalle_v3.0.md",
-        "IV.2_ATP_Basica_v2.0.md",
-        "AT1 - Apéndice Técnico 1",
-        "Apéndice Financiero pág. 3"
-      ],
-      "referencias_contractuales": [
-        "Apéndice Financiero pág. 3 - Material rodante base",
-        "AT1 Cap. V y Anexo AT1-3 - Equipos embarcados"
-      ],
-      "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-ATP-001-2025-10-09"
-    },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
-      "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisión de infraestructura ferroviaria",
+      "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisiÃ³n de infraestructura ferroviaria",
       "criterios_diseno": [
         "Arquitectura maestro-esclavo",
-        "Monitoreo tiempo real de señales, cambios vía, detectores",
-        "Integración con CTC para vista unificada"
+        "Monitoreo tiempo real de seÃ±ales, cambios vÃ­a, detectores",
+        "IntegraciÃ³n con CTC para vista unificada"
       ],
       "supuestos": [
         "2 servidores (1 maestro + 1 esclavo)",
@@ -102,7 +71,7 @@ window.wbsMetadataEnriquecida = {
       "decisiones_tecnicas": [
         "DT-SCADA-001-2025-10-07"
       ],
-      "feedback_especialista": "Costo ajustado a $400M c/u para incluir licencias SCADA corporativas y módulos de ciberseguridad industrial.",
+      "feedback_especialista": "Costo ajustado a $400M c/u para incluir licencias SCADA corporativas y mÃ³dulos de ciberseguridad industrial.",
       "documentos_ingenieria": [
         "V.5_SCADA_Detalle_v1.0.md"
       ],
@@ -111,26 +80,50 @@ window.wbsMetadataEnriquecida = {
     },
     "5.3.101": {
       "descripcion": "Software SCADA",
-      "justificacion_tecnica": "Plataforma SCADA industrial de alta confiabilidad para supervisión y control",
+      "justificacion_tecnica": "Plataforma SCADA industrial de alta confiabilidad para supervisiÃ³n y control",
       "criterios_diseno": [
-        "Compatibilidad con múltiples protocolos: Modbus, DNP3, IEC 61850",
-        "HMI gráfico con sinópticos dinámicos",
-        "Módulo de alarmas inteligentes y trending"
+        "Compatibilidad con mÃºltiples protocolos: Modbus, DNP3, IEC 61850",
+        "HMI grÃ¡fico con sinópticos dinÃ¡micos",
+        "MÃ³dulo de alarmas inteligentes y trending"
       ],
       "supuestos": [
         "1 licencia corporativa ilimitada",
         "Incluye: desarrollo, runtime, historian, reporting",
-        "Soporte técnico 24/7 por 5 años"
+        "Soporte tÃ©cnico 24/7 por 5 aÃ±os"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-002-2025-10-07"
       ],
-      "feedback_especialista": "Incremento justificado por requerimientos de ciberseguridad IEC 62443 y necesidad de módulo de gestión de energía para análisis de consumos.",
+      "feedback_especialista": "Incremento justificado por requerimientos de ciberseguridad IEC 62443 y necesidad de mÃ³dulo de gestiÃ³n de energÃ­a para anÃ¡lisis de consumos.",
       "documentos_ingenieria": [
         "V.5_SCADA_Detalle_v1.0.md"
       ],
       "ultima_actualizacion": "2025-10-08",
       "actualizado_por": "DT-SCADA-002"
+    },
+    "5.3.103": {
+      "descripcion": "Interfaces comunicaciÃ³n L2/L3",
+      "justificacion_tecnica": "Switches industriales de capa 2/3 para red de comunicaciones del sistema SCADA",
+      "criterios_diseno": [
+        "Managed switches con VLAN y QoS",
+        "Redundancia en anillo (ring topology) IEC 62439-3",
+        "Grado industrial: -40Â°C a +75Â°C"
+      ],
+      "supuestos": [
+        "1 set de equipos: core switch + distribution switches + access switches",
+        "Fibra óptica para backbone, cobre para edge",
+        "certificación IEC 61850-3 para subestaciones"
+      ],
+      "decisiones_tecnicas": [
+        "DT-SCADA-003-2025-10-07"
+      ],
+      "feedback_especialista": "Costo incluye switches core redundantes con protocolo PRP (Parallel Redundancy Protocol) para tiempo de conmutaciÃ³n <20ms segÃºn requerimientos crÃ­ticos.",
+      "documentos_ingenieria": [
+        "V.5_SCADA_Detalle_v1.0.md",
+        "V.3_Comunicacion_Detalle_v3.0.md"
+      ],
+      "ultima_actualizacion": "2025-10-08",
+      "actualizado_por": "DT-SCADA-003"
     },
     "1.1.106": {
       "descripcion": "Interfaces comunicación",
@@ -190,31 +183,174 @@ window.wbsMetadataEnriquecida = {
       ],
       "ultima_actualizacion": "2025-10-09",
       "actualizado_por": "DT-TETRA-002-2025-10-09"
-    },
-    "5.3.103": {
-      "descripcion": "Interfaces comunicación L2/L3",
-      "justificacion_tecnica": "Switches industriales de capa 2/3 para red de comunicaciones del sistema SCADA",
-      "criterios_diseno": [
-        "Managed switches con VLAN y QoS",
-        "Redundancia en anillo (ring topology) IEC 62439-3",
-        "Grado industrial: -40°C a +75°C"
-      ],
-      "supuestos": [
-        "1 set de equipos: core switch + distribution switches + access switches",
-        "Fibra óptica para backbone, cobre para edge",
-        "Certificación IEC 61850-3 para subestaciones"
-      ],
-      "decisiones_tecnicas": [
-        "DT-SCADA-003-2025-10-07"
-      ],
-      "feedback_especialista": "Costo incluye switches core redundantes con protocolo PRP (Parallel Redundancy Protocol) para tiempo de conmutación <20ms según requerimientos críticos.",
-      "documentos_ingenieria": [
-        "V.5_SCADA_Detalle_v1.0.md",
-        "V.3_Comunicacion_Detalle_v3.0.md"
-      ],
-      "ultima_actualizacion": "2025-10-08",
-      "actualizado_por": "DT-SCADA-003"
     }
+  },
+  "1.1.101": {
+    "descripcion": "Servidores CTC respaldo",
+    "justificacion_tecnica": "Servidor redundante hot-standby para continuidad operacional segÃºn AT2 Â§5.3 - Disponibilidad 99.95%",
+    "criterios_diseno": [
+      "ConfiguraciÃ³n activo-pasivo (hot-standby)",
+      "SincronizaciÃ³n en tiempo real < 1 segundo",
+      "ConmutaciÃ³n automÃ¡tica en caso de falla < 5 segundos"
+    ],
+    "supuestos": [
+      "2 servidores en configuraciÃ³n N+1",
+      "Enlace dedicado fibra óptica para sincronizaciÃ³n",
+      "UPS dimensionado para 4 horas autonomÃ­a"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "",
+    "documentos_ingenieria": [
+      "V.1_CTC_Detalle_v1.0.md",
+      "IV.1_CTC_Basica_v2.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-08",
+    "actualizado_por": "Sistema WBS"
+  },
+  "1.3.100": {
+    "descripcion": "Cable de cobre Cat 6A",
+    "justificacion_tecnica": "Cableado estructurado para red LAN del CTC - 200m por estaciÃ³n Ã— 5 estaciones ENCE",
+    "criterios_diseno": [
+      "CategorÃ­a 6A para 10 Gbps",
+      "Blindaje STP para ambientes industriales",
+      "certificación permanente segÃºn TIA-568.2-D"
+    ],
+    "supuestos": [
+      "1,000 metros total (5 estaciones Ã— 200m c/u)",
+      "Incluye conectores, patch panels, organizadores",
+      "Infraestructura de canalizaciÃ³n existente"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-08",
+    "actualizado_por": "Sistema WBS"
+  },
+  "2.1.100": {
+    "descripcion": "Torres autosoportadas",
+    "justificacion_tecnica": "37 torres para red TETRA segÃºn cobertura RF en corredor de 526 km - SeparaciÃ³n promedio 14.2 km",
+    "criterios_diseno": [
+      "Altura: 30-45 metros segÃºn topografÃ­a",
+      "DiseÃ±o estructural para vientos 120 km/h",
+      "Puesta a tierra < 10 ohms segÃºn IEC 62305"
+    ],
+    "supuestos": [
+      "37 estaciones base TETRA segÃºn estudio RF",
+      "Espaciamiento variable segÃºn orografÃ­a",
+      "Incluye sistema de iluminaciÃ³n aeronÃ¡utica"
+    ],
+    "decisiones_tecnicas": [
+      "DT-TETRA-001-2025-10-07"
+    ],
+    "feedback_especialista": "ReducciÃ³n alineada con ATP: de 15 a 8 locomotoras reduce requerimientos de cobertura crÃ­tica.",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "IV.3_Comunicacion_Basica_v2.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-07",
+    "actualizado_por": "DT-TETRA-001"
+  },
+  "2.1.101": {
+    "descripcion": "Estaciones base TETRA",
+    "justificacion_tecnica": "Red TETRA digital para comunicaciones voz/datos tren-tierra segÃºn AT5 - 37 sitios en corredor",
+    "criterios_diseno": [
+      "Cumplimiento ETSI EN 300 392-2",
+      "Potencia transmisiÃ³n 25W por portadora",
+      "4 portadoras por estaciÃ³n para redundancia"
+    ],
+    "supuestos": [
+      "37 estaciones base (1 por torre)",
+      "ConfiguraciÃ³n DMO + TMO",
+      "Frecuencias autorizadas por MinTIC"
+    ],
+    "decisiones_tecnicas": [
+      "DT-TETRA-001-2025-10-07"
+    ],
+    "feedback_especialista": "37 sitios garantizan cobertura 95% del corredor. Zonas sin cobertura permitidas en tramos rurales segÃºn AT5 Â§4.2.",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-07",
+    "actualizado_por": "DT-TETRA-001"
+  },
+  "3.1.100": {
+    "descripcion": "Cable FO LPOC03120484ZC",
+    "justificacion_tecnica": "594 km de fibra óptica (526 km corredor + 10% reserva + 3% contingencia) segÃºn cÃ¡lculo tÃ©cnico validado",
+    "criterios_diseno": [
+      "120 hilos para redundancia y crecimiento futuro",
+      "Tipo LPOC (Low Profile Optical Cable) para instalaciÃ³n aÃ©rea",
+      "Cumplimiento ITU-T G.652.D"
+    ],
+    "supuestos": [
+      "InstalaciÃ³n en postes cada 50m promedio",
+      "10% adicional para reservas en empalmes",
+      "3% contingencia para reparaciones"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "120 hilos permiten segregaciÃ³n por sistemas: 40 CTC, 40 TETRA, 20 CCTV, 20 reserva.",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-08",
+    "actualizado_por": "Sistema WBS"
+  },
+  "3.1.103": {
+    "descripcion": "Cajas de empalme 80x80",
+    "justificacion_tecnica": "Cajas de empalme cada 300m para gestiÃ³n de fusiones y derivaciones - Total 2,068 cajas en 594 km",
+    "criterios_diseno": [
+      "UbicaciÃ³n: Costado derecho de vÃ­a",
+      "Espaciamiento: 300 metros (criterio optimizado)",
+      "Capacidad: 24 fusiones por caja"
+    ],
+    "supuestos": [
+      "594 km Ã· 0.3 km = 1,980 cajas + 4 cajas por puente",
+      "4 puentes Ã— 4 cajas = 16 cajas adicionales",
+      "88 cajas para reserva y empalmes crÃ­ticos"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "Espaciamiento 300m validado contra alternativas: 350m ahorrarÃ­a $500M pero riesgo mantenimiento; 400m ahorrarÃ­a $787M pero inviable operativamente.",
+    "documentos_ingenieria": [
+      "V.3_Comunicacion_Detalle_v3.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-08",
+    "actualizado_por": "Sistema WBS"
+  },
+  "4.1.100": {
+    "descripcion": "Barreras automÃ¡ticas",
+    "justificacion_tecnica": "146 pasos a nivel identificados: 9 Tipo C (automatizados) + 15 Tipo B (semi-auto) + 122 otros",
+    "criterios_diseno": [
+      "Tipo C: 4 barreras por PAN (entrada/salida ambos lados)",
+      "Actuadores electromecÃ¡nicos 24V",
+      "Tiempo cierre < 15 segundos segÃºn norma"
+    ],
+    "supuestos": [
+      "146 pasos a nivel totales en corredor",
+      "Solo Tipo C con barreras automÃ¡ticas",
+      "Resto con SeñalizaciÃ³n pasiva"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "ClasificaciÃ³n segÃºn Tráfico vehicular: Tipo C >500 veh/dÃ­a, Tipo B 100-500 veh/dÃ­a, resto <100 veh/dÃ­a.",
+    "documentos_ingenieria": [
+      "V.5_Seguridad_Detalle_v1.0.md"
+    ],
+    "ultima_actualizacion": "2025-10-08",
+    "actualizado_por": "Sistema WBS"
+  },
+  "plantilla_nuevo_item": {
+    "descripcion": "",
+    "justificacion_tecnica": "",
+    "criterios_diseno": [],
+    "supuestos": [],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "",
+    "documentos_ingenieria": [],
+    "ultima_actualizacion": "",
+    "actualizado_por": ""
   }
-};
+}
 
+
+
+;

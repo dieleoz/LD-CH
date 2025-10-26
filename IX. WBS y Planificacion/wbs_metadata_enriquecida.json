@@ -55,37 +55,6 @@
       "ultima_actualizacion": "2025-10-08",
       "actualizado_por": "DT-CTC-003"
     },
-    "1.2.100": {
-      "descripcion": "Computadora ATP embarcada",
-      "justificacion_tecnica": "ReducciÃ³n de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseÃ±o/pruebas + 1 contingencia",
-      "criterios_diseno": [
-        "Cumplimiento CENELEC EN 50126/128/129",
-        "SIL 4 para funciones vitales de seguridad",
-        "Interfaz con eurobaliza y odÃ³metro"
-      ],
-      "supuestos": [
-        "5 locomotoras operativas segÃºn AT1 Â§3.1",
-        "2 unidades para diseÃ±o y pruebas de aceptaciÃ³n",
-        "1 unidad de contingencia/repuesto estratÃ©gico"
-      ],
-      "decisiones_tecnicas": [
-        "DT-TETRA-001-2025-10-07",
-        "DT-ATP-001-2025-10-09"
-      ],
-      "feedback_especialista": "Cantidad 8 UND justificada por Apéndice Financiero pág. 3 (5 locomotoras: 2 GR12 + 2 U10 + 1 U18C) + 3 reserva (2 pruebas FAT/SAT + 1 contingencia). Alineación contractual AT1 completa.",
-      "documentos_ingenieria": [
-        "V.2_ATP_Detalle_v3.0.md",
-        "IV.2_ATP_Basica_v2.0.md",
-        "AT1 - Apéndice Técnico 1",
-        "Apéndice Financiero pág. 3"
-      ],
-      "referencias_contractuales": [
-        "Apéndice Financiero pág. 3 - Material rodante base",
-        "AT1 Cap. V y Anexo AT1-3 - Equipos embarcados"
-      ],
-      "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-ATP-001-2025-10-09"
-    },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
       "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisiÃ³n de infraestructura ferroviaria",

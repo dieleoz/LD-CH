@@ -1,11 +1,11 @@
-# WBS PRESUPUESTAL v2.11 - BALIZAS ELIMINADAS
+# WBS PRESUPUESTAL v2.12 - ATP CONSOLIDADO EN CAP 6
 ## APP La Dorada-Chiriguaná - Presupuesto Definitivo
 
-**Fecha de actualización:** 07 de Octubre 2025  
+**Fecha de actualización:** 24 de Octubre 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Versión:** 2.11  
-**Estado:** ✅ **ACTUALIZADO - 11 DTs Aplicadas (TETRA-001, CTC-001, ENCE-003, ENCE-004, ENCE-005, CCTV-001, CONTROL-001, PAN-001, PAN-002, BALIZA-001, BALIZA-002)**
+**Versión:** 2.12  
+**Estado:** ✅ **ACTUALIZADO - 12 DTs Aplicadas (TETRA-001, CTC-001, ENCE-003, ENCE-004, ENCE-005, CCTV-001, CONTROL-001, PAN-001, PAN-002, BALIZA-001, BALIZA-002, ELIMINACION-001)**
 
 **Cambios en v2.1:**
 - ✅ **DT-TETRA-001:** Ajuste ATP embarcadas 15 → 8 unidades
@@ -122,6 +122,17 @@
 - ✅ PAN Otros final: Solo 4.3.100 (Señalización básica $3.050M) + Repuestos $305M
 - ✅ Origen: DT-BALIZA-002-2025-10-07 | Trazabilidad Punto 42
 
+**Cambios en v2.12:**
+- ✅ **DT-ELIMINACION-001:** Eliminación CAP 1.2 duplicado (ATP embarcado)
+- ✅ **Estrategia aplicada:** Duplicación segura → Items 1.2.100-106 movidos a CAP 6 (6.1.200-206)
+- ✅ CAP 1: $131,887M → $128,367M (-$3,520M, -2.7%)
+- ✅ CAP 6: $12,647M → $16,167M (+$3,520M temporal por duplicados)
+- ✅ Total WBS: Sin cambio (items movidos, no eliminados)
+- ✅ Items eliminados: 1.2.100 (Computadora), 1.2.101 (Display), 1.2.102 (Sensores), 1.2.103 (GPS), 1.2.104 (Software), 1.2.105 (Interfaces), 1.2.106 (Redundancia)
+- ✅ Items conservados: 6.1.200-206 (mismo contenido, nuevos códigos)
+- ✅ Origen: DT-ELIMINACION-001-2025-10-24 | Trazabilidad Punto 42
+- ✅ Justificación: Consolidación ATP embarcado en Material Rodante (CAP 6)
+
 ---
 
 ## 🚨 **ACTUALIZACIÓN CRÍTICA v2.0 - PRESUPUESTO COHERENTE**
@@ -183,18 +194,6 @@
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |
 | **SUBTOTAL CTC** | | | | **$89,542,090,432** |
 
-#### **1.2 Sistema ATP Embarcado (8 Unidades ATP)**
-| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
-|:---|:---|:---:|:---:|:---:|
-| **1.2.100** | Computadora ATP embarcada | 8 | $120,000,000 | $960,000,000 |
-| **1.2.101** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
-| **1.2.102** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
-| **1.2.103** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
-| **1.2.104** | Software ATP | 8 | $100,000,000 | $800,000,000 |
-| **1.2.105** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
-| **1.2.106** | Sistema redundancia | 8 | $50,000,000 | $400,000,000 |
-| **SUBTOTAL ATP** | | | | **$3,520,000,000** |
-
 #### **1.3 Enclavamientos ENCE (5 Estaciones)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
@@ -223,7 +222,7 @@
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
 | **SUBTOTAL DESVÍOS MANUALES Y SEÑALIZACIÓN** | | | | **$17,864,200,000** |
 
-**TOTAL CAPÍTULO 1:** **$131,887,640,432**
+**TOTAL CAPÍTULO 1:** **$128,367,640,432**
 
 ---
 
@@ -421,6 +420,18 @@
 | **6.1.106** | Repuestos (10%) | - | - | $588,000,000 |
 | **SUBTOTAL ATP EMBARCADOS** | | | | **$6,468,000,000** |
 
+#### **6.1 (Cont.) - Componentes ATP Embarcados Desglosados**
+| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
+|:---|:---|:---:|:---:|:---:|
+| **6.1.200** | Computadora ATP embarcada | 8 | $120,000,000 | $960,000,000 |
+| **6.1.201** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
+| **6.1.202** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
+| **6.1.203** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
+| **6.1.204** | Software ATP | 8 | $100,000,000 | $800,000,000 |
+| **6.1.205** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
+| **6.1.206** | Sistema redundancia ATP | 8 | $50,000,000 | $400,000,000 |
+| **SUBTOTAL ATP DESGLOSADO** | | | | **$3,520,000,000** |
+
 #### **6.2 Sistema EOT (15 Dispositivos)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
@@ -430,7 +441,7 @@
 | **6.2.103** | Configuración EOT | 1 | $20,000,000 | $20,000,000 |
 | **SUBTOTAL EOT** | | | | **$520,000,000** |
 
-**TOTAL CAPÍTULO 6:** **$12,647,500,000**
+**TOTAL CAPÍTULO 6:** **$16,167,500,000** (+$3,520,000,000 por componentes ATP duplicados temporalmente)
 
 ---
 
@@ -439,12 +450,12 @@
 ### **📊 TOTALES POR CAPÍTULO:**
 | **Capítulo** | **Descripción** | **Total (COP)** |
 |:---|:---|:---:|
-| **1** | Control y Señalización Virtual | $132,139,719,673 |
+| **1** | Control y Señalización Virtual | $128,367,640,432 |
 | **2** | Telecomunicaciones Colocalizadas | $92,672,367,851 |
 | **3** | Sistemas ITS y Seguridad | $3,395,700,000 |
 | **4** | Pasos a Nivel | $21,582,000,000 |
 | **5** | Centro de Control Operacional | $7,600,000,000 |
-| **6** | Material Rodante | $12,647,500,000 |
+| **6** | Material Rodante | $16,167,500,000 |
 | **SUBTOTAL** | | **$269,785,208,283** |
 
 ### **📈 CÁLCULO AIU E IVA:**

@@ -1,7 +1,7 @@
 ﻿// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
-// Generado automÃ¡ticamente desde WBS_Presupuestal_v2.0.md
-// Fecha: 2025-10-15 07:58:49
-// Total items: 159
+// Generado automÃƒÂ¡ticamente desde WBS_Presupuestal_v2.0.md
+// Fecha: 2025-10-26 13:36:00
+// Total items: Actualizado
 
 window.wbsDataGlobal = window.datos_wbs = {
     "fecha_actualizacion":  "2025-10-15",
@@ -174,158 +174,6 @@ window.wbsDataGlobal = window.datos_wbs = {
                       "capitulo":  "1",
                       "descripcion":  "Interfaces comunicación",
                       "total_cop":  150000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  0,
-                      "codigo":  "1.2",
-                      "cantidad":  "",
-                      "categoria":  "control",
-                      "modificable":  false,
-                      "tipo":  "",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Sistema ATP Embarcado",
-                      "total_cop":  0,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  ""
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  120000000,
-                      "codigo":  "1.2.100",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Computadora ATP embarcada",
-                      "total_cop":  960000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  80000000,
-                      "codigo":  "1.2.101",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Display maquinista",
-                      "total_cop":  640000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  25000000,
-                      "codigo":  "1.2.102",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Sensores velocidad",
-                      "total_cop":  200000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  35000000,
-                      "codigo":  "1.2.103",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Sistema GPS",
-                      "total_cop":  280000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  100000000,
-                      "codigo":  "1.2.104",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Software ATP",
-                      "total_cop":  800000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  30000000,
-                      "codigo":  "1.2.105",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Interfaces frenos",
-                      "total_cop":  240000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "1.2",
-                      "vu_cop":  50000000,
-                      "codigo":  "1.2.106",
-                      "cantidad":  "8",
-                      "categoria":  "control",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "1",
-                      "descripcion":  "Sistema redundancia",
-                      "total_cop":  400000000,
                       "archivos_relacionados":  [
 
                                                 ],
@@ -2935,6 +2783,139 @@ window.wbsDataGlobal = window.datos_wbs = {
                       "unidad":  "UND"
                   },
                   {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  120000000,
+                      "codigo":  "6.1.200",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Computadora ATP embarcada",
+                      "total_cop":  960000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  80000000,
+                      "codigo":  "6.1.201",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Display maquinista",
+                      "total_cop":  640000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  25000000,
+                      "codigo":  "6.1.202",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Sensores velocidad",
+                      "total_cop":  200000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  35000000,
+                      "codigo":  "6.1.203",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Sistema GPS",
+                      "total_cop":  280000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  100000000,
+                      "codigo":  "6.1.204",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Software ATP",
+                      "total_cop":  800000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  30000000,
+                      "codigo":  "6.1.205",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Interfaces frenos",
+                      "total_cop":  240000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
+                      "subcapitulo":  "6.1",
+                      "vu_cop":  50000000,
+                      "codigo":  "6.1.206",
+                      "cantidad":  "8",
+                      "categoria":  "material_rodante",
+                      "modificable":  true,
+                      "tipo":  "SUMINISTRO",
+                      "riesgos_asociados":  [
+
+                                            ],
+                      "capitulo":  "6",
+                      "descripcion":  "Sistema redundancia ATP",
+                      "total_cop":  400000000,
+                      "archivos_relacionados":  [
+
+                                                ],
+                      "unidad":  "UND"
+                  },
+                  {
                       "subcapitulo":  "6.2",
                       "vu_cop":  0,
                       "codigo":  "6.2",
@@ -3033,6 +3014,3 @@ window.wbsDataGlobal = window.datos_wbs = {
     "proyecto":  "APP La Dorada-ChiriguanÃ¡"
 }
 ;
-
-console.log('âœ… WBS Datos cargados:', window.wbsDataGlobal.items.length, 'items');
-console.log('âœ… Fecha actualizaciÃ³n:', window.wbsDataGlobal.fecha_actualizacion);
