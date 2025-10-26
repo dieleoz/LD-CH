@@ -370,45 +370,67 @@
   },
   "3.1.103": {
     "descripcion": "Cajas de empalme 80x80",
-    "justificacion_tecnica": "Cajas de empalme cada 300m para gestiÃ³n de fusiones y derivaciones - Total 2,068 cajas en 594 km",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece punto de acceso cada 300m para mantenimiento y gestión de la red óptica. Según AT3, se requiere acceso cada 300m para sistemas de señalización en corredor La Dorada-Chiriguaná de 520.78 km (PK 201+470 a PK 722+250). Cálculo: 1,735 cajas lineales (520.78 km ÷ 0.3 km) + 88 cajas en 22 puentes (4 por puente según AT3 puentes prioritarios) = 1,823 cajas totales. Cajas ubicadas costado derecho de vía para acceso operativo. Referencias: AT5 Telecomunicaciones (espaciamiento 300m), AT3 Señalización (puntos acceso), DT-FIBRA-641",
     "criterios_diseno": [
-      "UbicaciÃ³n: Costado derecho de vÃ­a",
-      "Espaciamiento: 300 metros (criterio optimizado)",
-      "Capacidad: 24 fusiones por caja"
+      "Ubicación: Costado derecho de vía para acceso operativo (AT5)",
+      "Espaciamiento: 300 metros máximo según AT5",
+      "Capacidad: 96 fusiones por caja (120 fibras ÷ 24 slots)",
+      "Protección IP68 según IEC 60529"
     ],
     "supuestos": [
-      "594 km Ã· 0.3 km = 1,980 cajas + 4 cajas por puente",
-      "4 puentes Ã— 4 cajas = 16 cajas adicionales",
-      "88 cajas para reserva y empalmes crÃ­ticos"
+      "1,735 cajas lineales (520.78 km ÷ 0.3 km espaciamiento)",
+      "88 cajas en 22 puentes prioritarios (4 cajas por puente)",
+      "Total: 1,823 cajas para gestión fusiones y derivaciones",
+      "Cajas tipo 80×80×80 cm estanca según AT5"
     ],
-    "decisiones_tecnicas": [],
-    "feedback_especialista": "Espaciamiento 300m validado contra alternativas: 350m ahorrarÃ­a $500M pero riesgo mantenimiento; 400m ahorrarÃ­a $787M pero inviable operativamente.",
+    "decisiones_tecnicas": [
+      "DT-FIBRA-641-2025-10-11"
+    ],
+    "feedback_especialista": "Espaciamiento 300m validado técnicamente: permite mantenimiento eficiente. Alternativas 350m/400m reducirían costos ($500M/$787M) pero aumentarían riesgo operativo.",
     "documentos_ingenieria": [
-      "V.3_Comunicacion_Detalle_v3.0.md"
+      "V.3_Comunicacion_Detalle_v3.0.md",
+      "AT5 - Telecomunicaciones (espaciamiento cajas 300m)",
+      "AT3 - Señalización (puntos acceso cada 300m)",
+      "DT-FIBRA-641-2025-10-11"
     ],
-    "ultima_actualizacion": "2025-10-08",
-    "actualizado_por": "Sistema WBS"
+    "referencias_contractuales": [
+      "AT5 - Espaciamiento cajas empalme 300m",
+      "AT3 - Puntos acceso señalización cada 300m",
+      "DT-FIBRA-641 - 1,823 cajas validadas",
+      "IEC 60529 - Protección IP68"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "4.1.100": {
     "descripcion": "Barreras automÃ¡ticas",
-    "justificacion_tecnica": "146 pasos a nivel identificados: 9 Tipo C (automatizados) + 15 Tipo B (semi-auto) + 122 otros",
+    "justificacion_tecnica": "Fundamentado en AT6 (Seguridad), que establece señalización y barreras automáticas para pasos a nivel (PAN) según clasificación por tráfico vehicular. Según inventario corredor La Dorada-Chiriguaná hay 146 PANs totales: 9 Tipo C con barreras automáticas (>500 veh/día), 15 Tipo B semi-automáticos (100-500 veh/día), 122 con señalización pasiva (<100 veh/día). Cantidad: 36 barreras (9 PAN tipo C × 4 barreras por PAN según AT6). Cada PAN requiere 2 barreras por lado para control tráfico vehicular. Referencias: AT6 Seguridad (barreras automáticas), clasificación PAN por tráfico",
     "criterios_diseno": [
-      "Tipo C: 4 barreras por PAN (entrada/salida ambos lados)",
-      "Actuadores electromecÃ¡nicos 24V",
-      "Tiempo cierre < 15 segundos segÃºn norma"
+      "Tipo C: 4 barreras por PAN (2 por lado según AT6)",
+      "Actuadores electromecÃ¡nicos 24V según normativa",
+      "Tiempo cierre < 15 segundos según norma técnica",
+      "Control automático integrado con detectores tren"
     ],
     "supuestos": [
-      "146 pasos a nivel totales en corredor",
-      "Solo Tipo C con barreras automÃ¡ticas",
-      "Resto con SeñalizaciÃ³n pasiva"
+      "146 pasos a nivel totales en corredor 526 km",
+      "Solo 9 Tipo C con barreras automáticas (alto tráfico)",
+      "Resto: 15 semi-auto + 122 señalización pasiva",
+      "Barreras sincronizadas con detectores paso tren"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "ClasificaciÃ³n segÃºn Tráfico vehicular: Tipo C >500 veh/dÃ­a, Tipo B 100-500 veh/dÃ­a, resto <100 veh/dÃ­a.",
+    "feedback_especialista": "Clasificación según tráfico vehicular: Tipo C >500 veh/día (automatizadas), Tipo B 100-500 veh/día (semi-auto), resto <100 veh/día (pasiva). Total: 36 barreras en 9 PANs críticos.",
     "documentos_ingenieria": [
-      "V.5_Seguridad_Detalle_v1.0.md"
+      "V.5_Seguridad_Detalle_v1.0.md",
+      "AT6 - Seguridad (barreras automáticas PAN)",
+      "Inventario PAN - 146 pasos a nivel corredor"
     ],
-    "ultima_actualizacion": "2025-10-08",
-    "actualizado_por": "Sistema WBS"
+    "referencias_contractuales": [
+      "AT6 - Señalización y barreras automáticas PAN",
+      "Inventario 146 PANs corredor (9 tipo C)",
+      "Normativa técnica - Tiempo cierre <15seg"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "plantilla_nuevo_item": {
     "descripcion": "",
