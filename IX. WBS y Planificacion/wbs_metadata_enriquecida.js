@@ -478,6 +478,102 @@
     "ultima_actualizacion": "2025-10-24",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
+  "1.1.102": {
+    "descripcion": "Workstations operadores",
+    "justificacion_tecnica": "Fundamentado en AT2 (Operación y Mantenimiento), que establece estaciones de operador en el Centro de Control Operativo (CCO) para monitoreo y control de tráfico ferroviario 24/7. Según AT1, se requieren operadores para 2 turnos de 4 operadores cada uno. AT4 exige operación continua sin interrupciones. Cantidad: 8 UND (2 turnos × 4 operadores según AT2). Workstations configuradas para redundancia activa-pasiva. Referencias: AT2 Operación y Mantenimiento (estaciones operador 24/7), AT4 Operación continua, AT1 Centro Control Operativo",
+    "criterios_diseno": [
+      "Monitoreo tiempo real de tráfico ferroviario (AT2)",
+      "Control descentralizado de rutas y surcos (AT2)",
+      "Interfaz gráfica HMI para operación intuitiva (AT1)",
+      "Resolución múltiple pantalla según AT3"
+    ],
+    "supuestos": [
+      "8 workstations (2 turnos × 4 operadores según AT2)",
+      "Configuración redundante para alta disponibilidad",
+      "Software CTC integrado según AT1",
+      "Monitoreo continuo 24/7 según AT2"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "Workstations configuradas según AT2 para operación 24/7 en turnos. Cantidad 8 UND cubre 2 turnos operación continua según requerimientos contractuales.",
+    "documentos_ingenieria": [
+      "V.1_CTC_Detalle_v1.0.md",
+      "AT2 - Operación y Mantenimiento (estaciones operador)",
+      "AT4 - Operación continua 24/7",
+      "AT1 - Centro Control Operativo"
+    ],
+    "referencias_contractuales": [
+      "AT2 - Estaciones operador CCO (2 turnos)",
+      "AT4 - Operación continua 24/7",
+      "AT1 - Centro Control Operativo (CCO)",
+      "AT3 - Especificaciones HMI"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "1.1.104": {
+    "descripcion": "Base de datos centralizada",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece almacenamiento y registro histórico de tráfico ferroviario. Según AT2, se requiere base de datos centralizada para almacenamiento mínimo 5 años de datos operativos. AT4 exige backup automático y recuperación ante desastres. Cantidad: 1 UND (sistema de base de datos redundante). Almacenamiento: mínimo 50TB según AT2 (5 años histórico). Referencias: AT3 Especificaciones Generales (base de datos centralizada), AT2 Almacenamiento histórico 5 años, AT4 Backup y recuperación",
+    "criterios_diseno": [
+      "Almacenamiento mínimo 5 años histórico (AT2)",
+      "Base de datos redundante N+1 según AT4",
+      "Backup automático diario según AT2",
+      "Recuperación ante desastres RTO<1h según AT4"
+    ],
+    "supuestos": [
+      "1 sistema base de datos (sistema redundante N+1)",
+      "Almacenamiento: 50TB mínimo (5 años histórico según AT2)",
+      "Backup automático incluido según AT2",
+      "Recuperación RTO<1h, RPO<15min según AT4"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "Base de datos centralizada configuración redundante N+1 para almacenamiento 5 años histórico según AT2 y recuperación ante desastres según AT4.",
+    "documentos_ingenieria": [
+      "V.1_CTC_Detalle_v1.0.md",
+      "AT3 - Especificaciones Generales (base de datos)",
+      "AT2 - Almacenamiento histórico 5 años",
+      "AT4 - Backup y recuperación"
+    ],
+    "referencias_contractuales": [
+      "AT3 - Base de datos centralizada",
+      "AT2 - Almacenamiento histórico mínimo 5 años",
+      "AT4 - Backup automático y recuperación",
+      "AT4 - RTO<1h, RPO<15min"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
+  "1.1.105": {
+    "descripcion": "Sistema redundancia",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas críticos del CTC con disponibilidad 99.95%. Según AT2, todos los sistemas críticos deben tener redundancia activa. AT3 especifica arquitectura N+1 full-active para alta disponibilidad. Cantidad: 1 UND (sistema completo de redundancia). Sistema incluye: mecanismo failover automático <5 segundos, sincronización datos tiempo real, detección fallos <100ms. Referencias: AT4 Redundancia N+1 (disponibilidad 99.95%), AT2 Arquitectura redundante, AT3 Failover automático <5seg",
+    "criterios_diseno": [
+      "Redundancia N+1 full-active según AT4",
+      "Failover automático <5 segundos (AT3)",
+      "Detección fallos <100ms (AT4)",
+      "Sincronización datos tiempo real (AT2)"
+    ],
+    "supuestos": [
+      "1 sistema redundancia completo (N+1 full-active)",
+      "Mecanismo failover automático <5 segundos",
+      "Sincronización datos tiempo real continua",
+      "Detección fallos <100ms según AT4"
+    ],
+    "decisiones_tecnicas": [],
+    "feedback_especialista": "Sistema redundancia configuración N+1 full-active para disponibilidad 99.95% requerida por AT4. Failover automático <5 segundos según AT3.",
+    "documentos_ingenieria": [
+      "V.1_CTC_Detalle_v1.0.md",
+      "AT4 - Redundancia N+1 (99.95%)",
+      "AT2 - Arquitectura redundante",
+      "AT3 - Failover automático <5seg"
+    ],
+    "referencias_contractuales": [
+      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT2 - Arquitectura redundante críticos",
+      "AT3 - Failover automático <5 segundos",
+      "AT4 - Detección fallos <100ms"
+    ],
+    "ultima_actualizacion": "2025-10-24",
+    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+  },
   "plantilla_nuevo_item": {
     "descripcion": "",
     "justificacion_tecnica": "",
