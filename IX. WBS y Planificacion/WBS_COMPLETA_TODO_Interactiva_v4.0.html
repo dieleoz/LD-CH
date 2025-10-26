@@ -510,7 +510,7 @@
 
     <!-- Cargar datos desde archivos JS -->
     <script src="datos_wbs_TODOS_items.js?v=1.0.4"></script>
-    <script src="wbs_metadata_enriquecida.js?v=1.0.6"></script>
+    <script src="wbs_metadata_enriquecida.js?v=1.0.7"></script>
     <script src="criterios_tecnicos_base.js?v=1.0.0"></script>
     
     <script>
@@ -678,6 +678,12 @@
             // Buscar criterio técnico para este ítem
             const criterio = criteriosTecnicos[item.codigo];
             
+            // Si no hay criterio técnico, buscar metadata enriquecida
+            let metadata = null;
+            if (!criterio && typeof wbsMetadata !== 'undefined' && wbsMetadata.items && wbsMetadata.items[item.codigo]) {
+                metadata = wbsMetadata.items[item.codigo];
+            }
+            
             card.innerHTML = `
                 <div class="item-header">
                     <div class="item-codigo">${item.codigo}</div>
@@ -757,6 +763,29 @@
                                 `).join('')}
                             </div>
                         ` : ''}
+                    ` : metadata ? `
+                        <div style="background: #e7f3ff; border-left: 4px solid #007bff; padding: 15px; margin: 15px 0; border-radius: 6px;">
+                            <div style="font-weight: bold; color: #007bff; margin-bottom: 10px;">🔬 JUSTIFICACIÓN TÉCNICA</div>
+                            <div style="color: #495057; font-size: 14px; line-height: 1.6;">
+                                ${metadata.justificacion_tecnica || 'Por definir'}
+                            </div>
+                            ${metadata.referencias_contractuales && metadata.referencias_contractuales.length > 0 ? `
+                                <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #dee2e6;">
+                                    <strong style="color: #856404;">⚖️ Referencias:</strong>
+                                    <ul style="margin: 8px 0; padding-left: 20px; font-size: 13px;">
+                                        ${metadata.referencias_contractuales.map(ref => `<li>${ref}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                            ${metadata.criterios_diseno && metadata.criterios_diseno.length > 0 ? `
+                                <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
+                                    <strong style="color: #856404;">⚙️ Criterios:</strong>
+                                    <ul style="margin: 8px 0; padding-left: 20px; font-size: 13px;">
+                                        ${metadata.criterios_diseno.slice(0, 2).map(crit => `<li>${crit}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                        </div>
                     ` : `
                         <div style="background: #fff3cd; border: 1px solid #ffc107; padding: 12px; margin: 15px 0; border-radius: 6px; text-align: center;">
                             <span style="color: #856404;">⚠️ Criterio técnico no documentado para este ítem</span>
