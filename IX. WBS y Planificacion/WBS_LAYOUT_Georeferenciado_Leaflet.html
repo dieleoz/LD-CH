@@ -235,10 +235,10 @@
                     <label>⚙️ Sistema:</label>
                     <select id="sistemaFilter">
                         <option value="">Todos los sistemas</option>
-                        <option value="TETRA">TETRA</option>
-                        <option value="FIBRA">Fibra Óptica</option>
-                        <option value="CCTV">CCTV</option>
-                        <option value="CTC">CTC</option>
+                        <option value="CONTROL">Control y Señalización</option>
+                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
+                        <option value="SEGURIDAD">Seguridad</option>
+                        <option value="ENERGIA">Energía</option>
                     </select>
                 </div>
                 
@@ -354,22 +354,28 @@
             allMarkers = [];
             equipmentMarkers = {};
             
-            // Si existe layoutDatos, usarlo
-            if (typeof layoutDatos !== 'undefined' && layoutDatos.length > 0) {
-                layoutDatos.forEach(equipo => {
-                    // Filtrar por tipo y sistema
-                    if (document.getElementById('tipoFilter').value && equipo.tipo !== document.getElementById('tipoFilter').value) return;
-                    if (document.getElementById('sistemaFilter').value && equipo.sistema !== document.getElementById('sistemaFilter').value) return;
+            // Si existe LAYOUT_DATOS, usarlo
+            if (typeof LAYOUT_DATOS !== 'undefined' && LAYOUT_DATOS.length > 0) {
+                LAYOUT_DATOS.forEach(equipo => {
+                    // Filtrar por tipo y sistema (usando tipo_equipo en lugar de tipo)
+                    if (document.getElementById('tipoFilter').value && equipo.tipo_equipo !== document.getElementById('tipoFilter').value) return;
+                    if (document.getElementById('sistemaFilter').value && equipo.tipo_equipo !== document.getElementById('sistemaFilter').value) return;
+                    
+                    // Verificar si tiene coordenadas (latitud y longitud)
+                    if (!equipo.latitud || !equipo.longitud) {
+                        console.warn('Equipo sin coordenadas:', equipo.nombre);
+                        return;
+                    }
                     
                     // Determinar color según tipo
                     let color = '#3498db'; // Azul por defecto
-                    if (equipo.tipo === 'TORRE') color = '#e74c3c';
-                    else if (equipo.tipo === 'CAJA') color = '#3498db';
-                    else if (equipo.tipo === 'ESTACION') color = '#2ecc71';
-                    else if (equipo.tipo === 'CAMARA') color = '#f39c12';
+                    if (equipo.tipo_equipo === 'CONTROL') color = '#e74c3c';
+                    else if (equipo.tipo_equipo === 'TELECOMUNICACIONES') color = '#3498db';
+                    else if (equipo.tipo_equipo === 'SEGURIDAD') color = '#2ecc71';
+                    else if (equipo.tipo_equipo === 'ENERGIA') color = '#f39c12';
                     
                     // Crear marcador
-                    const marker = L.circleMarker([equipo.latitud, equipo.longitud], {
+                    const marker = L.circleMarker([parseFloat(equipo.latitud), parseFloat(equipo.longitud)], {
                         radius: 8,
                         fillColor: color,
                         color: '#fff',
@@ -382,21 +388,22 @@
                     marker.bindPopup(`
                         <div style="min-width: 200px;">
                             <h3 style="margin: 0 0 10px 0; color: #667eea;">${equipo.nombre}</h3>
-                            <p style="margin: 5px 0;"><strong>Tipo:</strong> ${equipo.tipo}</p>
-                            <p style="margin: 5px 0;"><strong>Sistema:</strong> ${equipo.sistema}</p>
+                            <p style="margin: 5px 0;"><strong>Dispositivo:</strong> ${equipo.dispositivo}</p>
+                            <p style="margin: 5px 0;"><strong>Tipo:</strong> ${equipo.tipo_equipo}</p>
                             <p style="margin: 5px 0;"><strong>PK:</strong> ${equipo.pk}</p>
+                            <p style="margin: 5px 0;"><strong>Ubicación:</strong> ${equipo.ubicacion_lado}</p>
                             ${equipo.descripcion ? `<p style="margin: 5px 0;">${equipo.descripcion}</p>` : ''}
                         </div>
                     `);
                     
                     marker.addTo(map);
                     allMarkers.push(marker);
-                    equipmentMarkers[equipo.id] = marker;
+                    equipmentMarkers[equipo.nombre] = marker;
                 });
             }
             
             // Actualizar estadísticas
-            document.getElementById('totalElements').textContent = layoutDatos ? layoutDatos.length : 0;
+            document.getElementById('totalElements').textContent = typeof LAYOUT_DATOS !== 'undefined' ? LAYOUT_DATOS.length : 0;
             document.getElementById('visibleElements').textContent = allMarkers.length;
         }
         
@@ -411,10 +418,17 @@
         }
         
         // Inicializar
-        cargarKML();
-        
-        // Esperar a que se cargue layoutDatos
-        setTimeout(renderizarEquipos, 1000);
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                if (typeof LAYOUT_DATOS !== 'undefined' && LAYOUT_DATOS.length > 0) {
+                    cargarKML();
+                    renderizarEquipos();
+                } else {
+                    console.log('Esperando datos del layout...');
+                    setTimeout(arguments.callee, 500);
+                }
+            }, 500);
+        });
     </script>
 </body>
 </html>
