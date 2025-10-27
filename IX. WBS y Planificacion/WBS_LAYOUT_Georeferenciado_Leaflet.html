@@ -436,6 +436,17 @@
                     else if (equipo.tipo_equipo === 'SEGURIDAD') color = '#2ecc71';
                     else if (equipo.tipo_equipo === 'ENERGIA') color = '#f39c12';
                     
+                    // Debug: solo para primeros 5 elementos
+                    if (countWithCoords <= 5) {
+                        console.log(`🎯 Renderizando equipo ${countWithCoords}:`, equipo.nombre, 'PK:', equipo.pk, '-> Coords:', lat, lng);
+                    }
+                    
+                    // Verificar que las coordenadas sean válidas
+                    if (isNaN(lat) || isNaN(lng)) {
+                        console.error('❌ Coordenadas inválidas para', equipo.nombre, ':', lat, lng);
+                        return;
+                    }
+                    
                     // Crear marcador
                     const marker = L.circleMarker([lat, lng], {
                         radius: 8,
