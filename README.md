@@ -2,7 +2,7 @@
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
 **Fecha de actualización:** 15 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.6 - PRESERVACIÓN LAYOUT + VALIDACIÓN WBS**  
+**Estado del proyecto:** ✅ **SISTEMA v14.7.7 - LAYOUT GEOREFERENCIADO + KML REAL**  
 **Responsable:** PMO / Gestión de Riesgos  
 **Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Layout 2,182 equipos (9 tipos)**, **Encoding UTF-8 corregido**, **Visualización completa en interfaces**, Portal web publicado 
 
@@ -15,7 +15,7 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.6 (14-Oct-2025):**
+### **📊 ESTADO DEL SISTEMA v14.7.7 (15-Oct-2025):**
 
 | Componente | Estado | Métricas |
 |:-----------|:-------|:---------|
@@ -58,6 +58,39 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **BLOCKER-004** | Cronograma Material Rodante indefinido | Riesgo planificación | Oficiar ANI - Cronograma entrega |
 
 **Ver detalle completo:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`
+
+---
+
+## 🔧 **CHANGELOG v14.7.7 (15-Oct-2025)**
+
+### ✅ NUEVA FUNCIONALIDAD: Layout Georeferenciado Leaflet
+
+#### **Layout Georeferenciado con 7,716 elementos:**
+- ✅ **Mapa interactivo** con Leaflet.js y OpenStreetMap
+- ✅ **Coordenadas reales** desde KML del corredor La Dorada-Chiriguaná
+- ✅ **7,716 elementos** distribuidos según cantidad WBS
+- ✅ **Múltiples elementos** generados automáticamente según cantidad (ej: 1823 cajas fibra)
+- ✅ **Filtros dinámicos:** Sistema, Ubicación, Dispositivo
+- ✅ **Integración automática:** `cocinar.ps1` regenera layout cuando cambian cantidades
+- ✅ **Acceso desde menú:** Nueva tarjeta destacada en `WBS_Menu_Principal.html`
+
+#### **Workflow Automatizado:**
+```
+DT con cambio de cantidad → cocinar.ps1 → generar_layout_completo_wbs_simple.ps1
+→ layout_datos_completo.js regenerado → Mapa actualizado automáticamente
+```
+
+**Archivos nuevos:**
+- `IX. WBS y Planificacion/WBS_LAYOUT_Georeferenciado_Leaflet.html`
+- `IX. WBS y Planificacion/layout_datos_completo.js` (7,716 elementos)
+- `IX. WBS y Planificacion/coordenadas_kml.js` (522 puntos reales)
+- `scripts/generar_layout_completo_wbs_simple.ps1` (generador automático)
+- `scripts/extraer_coordenadas_kml.py` (extracción KML)
+- `II. Apendices Tecnicos/Decisiones_Tecnicas/DT-TETRA-041-SIMULACION-10pct-Solapamiento.md`
+
+**Commits:**
+- `6e939d8` - feat: Actualizar roadmap v14.7.7 + Simulación DT-TETRA criterio 10%
+- `0f547fa` - fix: Agregar regeneración automática layout georeferenciado en cocinar.ps1
 
 ---
 
