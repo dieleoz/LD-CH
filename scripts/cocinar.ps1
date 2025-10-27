@@ -121,8 +121,17 @@ if ($dtsConImpactoLayout) {
                     & "$PSScriptRoot\completar_37_estaciones_TETRA.ps1" 2>&1 | Out-Null
                     Write-Host "      Script TETRA completado" -ForegroundColor Green
                 }
+                "TELECOMUNICACIONES" {
+                    Write-Host "      Regenerando layout completo georeferenciado..." -ForegroundColor Gray
+                    & "$PSScriptRoot\generar_layout_completo_wbs_simple.ps1" 2>&1 | Out-Null
+                    Write-Host "      Layout georeferenciado actualizado" -ForegroundColor Green
+                }
                 default {
                     Write-Host "      Sin script especializado para $sistemaDT" -ForegroundColor Gray
+                    # Ejecutar script general de layout completo
+                    Write-Host "      Ejecutando script general de layout..." -ForegroundColor Gray
+                    & "$PSScriptRoot\generar_layout_completo_wbs_simple.ps1" 2>&1 | Out-Null
+                    Write-Host "      Layout general actualizado" -ForegroundColor Green
                 }
             }
         }

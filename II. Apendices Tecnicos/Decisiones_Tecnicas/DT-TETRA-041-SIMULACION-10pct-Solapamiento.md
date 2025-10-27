@@ -90,9 +90,11 @@ Comparativa:
 - **Distribución:** Torres re-espaciadas a lo largo del corredor
 
 **Script afectado:**
-- `scripts/generar_layout_completo_wbs_simple.ps1`
-- Necesita regenerar PKs de torres TETRA
+- `scripts/generar_layout_completo_wbs_simple.ps1` ⚠️ **NECESITA INTEGRACIÓN**
+- `scripts/cocinar.ps1` → Detecta `impacto_layout: true` y ejecuta automáticamente
+- Necesita regenerar PKs de torres TETRA (42 → 39)
 - Actualiza coordenadas en `coordenadas_kml.js`
+- **Workflow automático:** `cocinar.ps1` → `generar_layout_completo_wbs_simple.ps1` → `layout_datos_completo.js`
 
 **Cambios visuales:**
 - Mapa Leaflet: 3 marcadores menos
