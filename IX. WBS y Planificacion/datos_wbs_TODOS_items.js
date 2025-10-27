@@ -1853,7 +1853,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "4.1",
-                      "vu_cop":  180000000,
+                      "vu_cop":  540000000,
                       "codigo":  "4.1.100",
                       "cantidad":  "9",
                       "categoria":  "pasos_nivel",
@@ -1864,7 +1864,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "4",
                       "descripcion":  "Sistemas barreras automáticas",
-                      "total_cop":  1620000000,
+                      "total_cop":  4860000000,
                       "archivos_relacionados":  [
 
                                                 ],
@@ -1884,25 +1884,6 @@ window.wbsDataGlobal = window.datos_wbs = {
                       "capitulo":  "4",
                       "descripcion":  "Señalización LED",
                       "total_cop":  720000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "4.1",
-                      "vu_cop":  360000000,
-                      "codigo":  "4.1.102",
-                      "cantidad":  "9",
-                      "categoria":  "pasos_nivel",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "4",
-                      "descripcion":  "Sistemas detección vehículos",
-                      "total_cop":  3240000000,
                       "archivos_relacionados":  [
 
                                                 ],
@@ -1978,7 +1959,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "4",
                       "descripcion":  "Repuestos (10%)",
-                      "total_cop":  828000000,
+                      "total_cop":  1158000000,
                       "archivos_relacionados":  [
 
                                                 ],
