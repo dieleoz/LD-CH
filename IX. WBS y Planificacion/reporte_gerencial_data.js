@@ -1,5 +1,5 @@
 ﻿const reporteGerencialData = {
-    "fecha_generacion":  "2025-10-27 11:14:30",
+    "fecha_generacion":  "2025-10-27 11:33:15",
     "cambios_sustanciales":  [
 
                              ],
@@ -36,7 +36,7 @@
                                          "prioridad":  "MEDIA",
                                          "tema":  "Analisis Pareto",
                                          "accion":  "Asignar PMO senior a items Pareto",
-                                         "descripcion":  "15 items representan 80% del presupuesto. Enfocar supervision en estos."
+                                         "descripcion":  "14 items representan 80% del presupuesto. Enfocar supervision en estos."
                                      }
                                  ],
     "pareto_items":  [
@@ -44,8 +44,8 @@
                              "codigo":  "1.1.103",
                              "descripcion":  "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
                              "total_cop":  88112090432,
-                             "porcentaje":  32.573456721988713,
-                             "porcentaje_acumulado":  32.573456721988713,
+                             "porcentaje":  32.473695655392909,
+                             "porcentaje_acumulado":  32.473695655392909,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -53,8 +53,8 @@
                              "codigo":  "2.3.101",
                              "descripcion":  "Mano de obra instalación",
                              "total_cop":  53572258278,
-                             "porcentaje":  19.804701352130039,
-                             "porcentaje_acumulado":  52.378158074118751,
+                             "porcentaje":  19.744046502159321,
+                             "porcentaje_acumulado":  52.21774215755223,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -62,8 +62,8 @@
                              "codigo":  "1.5.100",
                              "descripcion":  "Desvíos manuales autotalonables (con comprobador integrado)",
                              "total_cop":  16149240000,
-                             "porcentaje":  5.9700838744595979,
-                             "porcentaje_acumulado":  58.348241948578348,
+                             "porcentaje":  5.9517996026960649,
+                             "porcentaje_acumulado":  58.1695417602483,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -71,8 +71,8 @@
                              "codigo":  "1.4.100",
                              "descripcion":  "Desvíos motorizados CTC",
                              "total_cop":  11214725000,
-                             "porcentaje":  4.1458823374350073,
-                             "porcentaje_acumulado":  62.494124286013367,
+                             "porcentaje":  4.1331849547932675,
+                             "porcentaje_acumulado":  62.302726715041565,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -80,17 +80,26 @@
                              "codigo":  "2.1.100",
                              "descripcion":  "Torres autosoportadas",
                              "total_cop":  6660000000,
-                             "porcentaje":  2.4620823397200686,
-                             "porcentaje_acumulado":  64.956206625733429,
+                             "porcentaje":  2.454541845557797,
+                             "porcentaje_acumulado":  64.757268560599357,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  true
+                         },
+                         {
+                             "codigo":  "4.1.100",
+                             "descripcion":  "Sistemas barreras automáticas",
+                             "total_cop":  6120000000,
+                             "porcentaje":  2.2555249391612184,
+                             "porcentaje_acumulado":  67.012793499760576,
+                             "es_ruta_critica":  false,
+                             "tiene_duracion":  false
                          },
                          {
                              "codigo":  "2.3.100",
                              "descripcion":  "Cable fibra óptica 48 fibras",
                              "total_cop":  5827741722,
-                             "porcentaje":  2.1544114075354388,
-                             "porcentaje_acumulado":  67.110618033268864,
+                             "porcentaje":  2.1478132014642721,
+                             "porcentaje_acumulado":  69.160606701224864,
                              "es_ruta_critica":  true,
                              "tiene_duracion":  true
                          },
@@ -98,8 +107,8 @@
                              "codigo":  "4.2.100",
                              "descripcion":  "Sistemas barreras manuales",
                              "total_cop":  5250000000,
-                             "porcentaje":  1.9408306732027567,
-                             "porcentaje_acumulado":  69.051448706471618,
+                             "porcentaje":  1.934886589966732,
+                             "porcentaje_acumulado":  71.095493291191588,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -107,8 +116,8 @@
                              "codigo":  "5.3.101",
                              "descripcion":  "Software SCADA",
                              "total_cop":  5000000000,
-                             "porcentaje":  1.8484101649550067,
-                             "porcentaje_acumulado":  70.89985887142663,
+                             "porcentaje":  1.8427491333016492,
+                             "porcentaje_acumulado":  72.938242424493239,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -116,17 +125,8 @@
                              "codigo":  "5.3.103",
                              "descripcion":  "Interfaces comunicación",
                              "total_cop":  4112000000,
-                             "porcentaje":  1.5201325196589974,
-                             "porcentaje_acumulado":  72.419991391085631,
-                             "es_ruta_critica":  false,
-                             "tiene_duracion":  false
-                         },
-                         {
-                             "codigo":  "1.4.101",
-                             "descripcion":  "Sistemas control remoto + redundancia N+1",
-                             "total_cop":  3364425000,
-                             "porcentaje":  1.2437674738457496,
-                             "porcentaje_acumulado":  73.663758864931367,
+                             "porcentaje":  1.5154768872272764,
+                             "porcentaje_acumulado":  74.4537193117205,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          }
