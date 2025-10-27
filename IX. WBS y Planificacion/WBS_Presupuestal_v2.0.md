@@ -416,16 +416,7 @@
 | **6.1.106** | Repuestos (10%) | - | - | $588,000,000 |
 | **SUBTOTAL ATP EMBARCADOS** | | | | **$6,468,000,000** |
 
-#### **6.1 (Cont.) - Componentes ATP Embarcados Desglosados**
-| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
-|:---|:---|:---:|:---:|:---:|
-| **6.1.200** | Computadora ATP embarcada | 8 | $120,000,000 | $960,000,000 |
-| **6.1.201** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
-| **6.1.202** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
-| **6.1.203** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
-| **6.1.205** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
-| **6.1.206** | Sistema redundancia ATP | 8 | $50,000,000 | $400,000,000 |
-| **SUBTOTAL ATP DESGLOSADO** | | | | **$2,720,000,000** |
+> **NOTA:** Los componentes desglosados (6.1.200-206) fueron eliminados por duplicación con el kit ATP embarcado 6.1.100 en la v2.9 (DT-CONSOLIDACION-ATP-2025-10-25).
 
 #### **6.2 Sistema EOT (15 Dispositivos)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -436,7 +427,7 @@
 | **6.2.103** | Configuración EOT | 1 | $20,000,000 | $20,000,000 |
 | **SUBTOTAL EOT** | | | | **$520,000,000** |
 
-**TOTAL CAPÍTULO 6:** **$15,367,500,000** (+$2,720,000,000 por componentes ATP duplicados temporalmente)
+**TOTAL CAPÍTULO 6:** **$12,647,500,000**
 
 ---
 
@@ -474,18 +465,18 @@
 #### **IVA (SEGÚN REGLAS CORRECTAS):**
 | **Concepto** | **Porcentaje** | **Base (COP)** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|:---:|:---:|
-| **IVA Suministros** | 19% | $207,266,439,777 | $39,380,623,558 | $8,963,369,098 |
+| **IVA Suministros** | 19% | $204,546,439,777 | $38,863,823,558 | $8,845,504,888 |
 | **IVA Servicios** | 19% | $230,000,000 | $43,700,000 | $9,931,818 |
 | **IVA/Utilidad Obra** | 19% | $2,968,362,914 | $563,988,954 | $128,179,308 |
-| **IVA TOTAL** | | | **$39,987,282,512** | **$9,094,621,584** |
+| **IVA TOTAL** | | | **$39,480,282,512** | **$8,976,100,538** |
 
 ### **💰 PRESUPUESTO TOTAL CORREGIDO:**
 | **Concepto** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $272,212,208,283 | $61,866,410,968 |
+| **Costo Directo** | $269,492,208,283 | $61,248,229,155 |
 | **AIU (33% Obra)** | $19,591,195,232 | $4,452,544,371 |
-| **IVA Total** | $39,987,282,512 | $9,094,621,584 |
-| **PRESUPUESTO TOTAL** | **$331,790,586,027** | **$75,413,576,923** |
+| **IVA Total** | $39,480,282,512 | $8,976,100,538 |
+| **PRESUPUESTO TOTAL** | **$328,563,686,027** | **$74,676,874,064** |
 
 ---
 
