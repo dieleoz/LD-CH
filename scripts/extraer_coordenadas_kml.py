@@ -31,6 +31,16 @@ def extraer_coordenadas_kml(ruta_kml, ruta_salida):
             
         name = name_elem.text.strip()
         
+        # Verificar descripción para filtrar solo "La Dorada - Chiriguana"
+        desc_elem = placemark.find('kml:description', ns)
+        if desc_elem is None or desc_elem.text is None:
+            continue
+            
+        desc_text = desc_elem.text.strip()
+        # Solo incluir si es el tramo correcto
+        if 'La Dorada - Chiriguana' not in desc_text and 'Chiriguaná' not in desc_text:
+            continue
+        
         # Buscar coordenadas en el Point
         point = placemark.find('kml:Point', ns)
         if point is not None:
@@ -39,8 +49,10 @@ def extraer_coordenadas_kml(ruta_kml, ruta_salida):
                 coords = coords_elem.text.strip()
                 parts = coords.split(',')
                 if len(parts) >= 2:
-                    lng = float(parts[0])
-                    lat = float(parts[1])
+                    # En KML el formato es: longitude,latitude,elevation
+                    # Invertir para Leaflet que usa: latitude,longitude
+                    lng = float(parts[0])  # longitude first
+                    lat = float(parts[1])  # latitude second
                     
                     # Intentar convertir nombre a PK (si es numérico)
                     try:
@@ -71,8 +83,15 @@ def extraer_coordenadas_kml(ruta_kml, ruta_salida):
     return coordenadas
 
 if __name__ == '__main__':
-    ruta_kml = "X_ENTREGABLES_CONSOLIDADOS/5_INDICES_NAVEGACION/doc.kml"
-    ruta_salida = "IX. WBS y Planificacion/coordenadas_kml.json"
+    import sys
+    import os
+    
+    # Obtener directorio del script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    
+    ruta_kml = os.path.join(project_root, "X_ENTREGABLES_CONSOLIDADOS", "5_INDICES_NAVEGACION", "doc.kml")
+    ruta_salida = os.path.join(project_root, "IX. WBS y Planificacion", "coordenadas_kml.json")
     
     if not os.path.exists(ruta_kml):
         print(f"Archivo no encontrado: {ruta_kml}")
