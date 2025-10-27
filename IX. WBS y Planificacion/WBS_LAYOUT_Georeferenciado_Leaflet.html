@@ -244,7 +244,9 @@
                 
                 <div class="control-group">
                     <label>🔍 Dispositivo:</label>
-                    <input type="text" id="dispositivoFilter" placeholder="Buscar dispositivo...">
+                    <select id="dispositivoFilter">
+                        <option value="">Todos los dispositivos</option>
+                    </select>
                 </div>
                 
                 <button class="btn" onclick="limpiarFiltros()">🔄 Limpiar Filtros</button>
@@ -379,9 +381,9 @@
                     const filtroUbicacion = document.getElementById('ubicacionFilter').value;
                     if (filtroUbicacion && equipo.ubicacion_lado !== filtroUbicacion) return;
                     
-                    // Filtro por dispositivo (búsqueda de texto)
-                    const filtroDispositivo = document.getElementById('dispositivoFilter').value.toLowerCase();
-                    if (filtroDispositivo && !equipo.dispositivo.toLowerCase().includes(filtroDispositivo)) return;
+                    // Filtro por dispositivo
+                    const filtroDispositivo = document.getElementById('dispositivoFilter').value;
+                    if (filtroDispositivo && equipo.dispositivo !== filtroDispositivo) return;
                     
                     // Obtener coordenadas reales o aproximadas
                     let lat, lng;
@@ -509,10 +511,12 @@
         // Función para actualizar opciones de Dispositivo según el Sistema seleccionado
         function actualizarOpcionesDispositivo() {
             const sistemaFiltro = document.getElementById('tipoFilter').value;
-            const dispositivoInput = document.getElementById('dispositivoFilter');
+            const dispositivoSelect = document.getElementById('dispositivoFilter');
             
-            // Limpiar sugerencias
             if (typeof LAYOUT_DATOS === 'undefined') return;
+            
+            // Limpiar opciones (excepto "Todos")
+            dispositivoSelect.innerHTML = '<option value="">Todos los dispositivos</option>';
             
             // Obtener todos los dispositivos únicos del sistema seleccionado
             let dispositivos = [];
@@ -524,11 +528,18 @@
                 }
             });
             
-            // Log para debugging
+            // Ordenar alfabéticamente
+            dispositivos.sort();
+            
+            // Agregar opciones al select
+            dispositivos.forEach(dispositivo => {
+                const option = document.createElement('option');
+                option.value = dispositivo;
+                option.textContent = dispositivo;
+                dispositivoSelect.appendChild(option);
+            });
+            
             console.log(`Dispositivos disponibles para Sistema "${sistemaFiltro || 'Todos'}": ${dispositivos.length}`);
-            if (dispositivos.length > 0 && dispositivos.length <= 20) {
-                console.log(dispositivos);
-            }
         }
         
         // Event listeners
@@ -537,7 +548,7 @@
             renderizarEquipos();
         });
         document.getElementById('ubicacionFilter').addEventListener('change', renderizarEquipos);
-        document.getElementById('dispositivoFilter').addEventListener('input', renderizarEquipos);
+        document.getElementById('dispositivoFilter').addEventListener('change', renderizarEquipos);
         
         function limpiarFiltros() {
             document.getElementById('tipoFilter').value = '';
