@@ -27,38 +27,56 @@ foreach ($item in $wbsData.items) {
             default { 'OTROS' }
         }
         
-        # Generar PK distribuido a lo largo del corredor
-        # Cap 1: PK 300-370 (inicio)
-        # Cap 2: PK 370-450 (zona media-inicio)
-        # Cap 3: PK 450-520 (zona media)
-        # Cap 4: PK 520-620 (PANs)
-        # Cap 5: PK 441 (CCO específico)
-        
-        $pkInicio = switch ($item.capitulo) {
-            '1' { 300 + (Get-Random -Minimum 0 -Maximum 70) }
-            '2' { 370 + (Get-Random -Minimum 0 -Maximum 80) }
-            '3' { 450 + (Get-Random -Minimum 0 -Maximum 70) }
-            '4' { 520 + (Get-Random -Minimum 0 -Maximum 100) }
-            '5' { 441 + (Get-Random -Minimum 0 -Maximum 10) }
-            default { 350 + (Get-Random -Minimum 0 -Maximum 50) }
+        # Determinar rango de PK basado en capítulo
+        # Corredor: PK 338 a PK 722 (384 km)
+        $pkMin = switch ($item.capitulo) {
+            '1' { 338 }
+            '2' { 380 }
+            '3' { 480 }
+            '4' { 520 }
+            '5' { 441 }
+            default { 350 }
+        }
+        $pkMax = switch ($item.capitulo) {
+            '1' { 450 }
+            '2' { 550 }
+            '3' { 650 }
+            '4' { 722 }
+            '5' { 441 }
+            default { 722 }
         }
         
-        $pkMetros = Get-Random -Minimum 0 -Maximum 999
-        $pk = "$pkInicio+$pkMetros"
+        # Distribuir elementos a lo largo del corredor según cantidad
+        # Extraer solo el número de la cantidad (ejemplo: "5unidades" -> 5)
+        $cantidadStr = $item.cantidad -replace '[^0-9]', ''
+        try {
+            $cantidad = [int]$cantidadStr
+        } catch {
+            $cantidad = 1
+        }
         
-        # Buscar coordenadas
-        if ($pk -match '(\d+)\+') {
-            $pkNum = [int]$matches[1]
+        # Limitar a máximo 500 elementos por tipo para rendimiento
+        $cantidadLimitada = [Math]::Min($cantidad, 500)
+        
+        for ($i = 0; $i -lt $cantidadLimitada; $i++) {
+            # Distribuir uniformemente a lo largo del rango
+            $pkBase = $pkMin + (($pkMax - $pkMin) * $i / [Math]::Max(1, $cantidad - 1))
+            $pkEntero = [Math]::Floor($pkBase)
+            $pkDecimal = Get-Random -Minimum 0 -Maximum 999
+            $pk = "$pkEntero+$pkDecimal"
+            
+            # Buscar coordenadas cercanas
+            $pkNum = $pkEntero
             $coord = $coordenadasKML | Where-Object { $_.PK -eq $pkNum }
             
             if ($coord) {
                 $equipo = @{
                     pk = $pk
-                    nombre = $item.codigo
+                    nombre = "$($item.codigo)_$($i + 1)"
                     ubicacion_lado = 'Centro'
                     dispositivo = $item.descripcion
                     implementacion = '2.1'
-                    descripcion = "Item WBS: $($item.codigo)"
+                    descripcion = "Item WBS: $($item.codigo) - Elemento $($i + 1) de $cantidad"
                     tipo_equipo = $tipoEquipo
                     direccion = "PK$pk Centro"
                     latitud = $coord.latitud
