@@ -283,7 +283,9 @@
     
     <script>
         // Inicializar mapa centrado en el proyecto
-        var map = L.map('map').setView([5.5, -74.6], 8);
+        // Centro del corredor: punto medio entre La Dorada y Chiriguaná
+        // La Dorada: 5.453, -74.661 | Chiriguaná: 9.363, -73.564
+        var map = L.map('map').setView([7.4, -74.1], 9);
         
         // Agregar capa base OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -484,7 +486,10 @@
             // Ajustar vista del mapa
             if (allMarkers.length > 0) {
                 const group = new L.featureGroup(allMarkers);
-                map.fitBounds(group.getBounds().pad(0.1));
+                map.fitBounds(group.getBounds().pad(0.2));
+                console.log('📍 Bounds ajustados. Marcadores visibles:', allMarkers.length);
+            } else {
+                console.warn('⚠️ No hay marcadores para ajustar bounds');
             }
         }
         
