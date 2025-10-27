@@ -1,5 +1,5 @@
 ﻿const reporteGerencialData = {
-    "fecha_generacion":  "2025-10-27 11:33:15",
+    "fecha_generacion":  "2025-10-27 11:37:33",
     "cambios_sustanciales":  [
 
                              ],
@@ -44,8 +44,8 @@
                              "codigo":  "1.1.103",
                              "descripcion":  "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
                              "total_cop":  88112090432,
-                             "porcentaje":  32.473695655392909,
-                             "porcentaje_acumulado":  32.473695655392909,
+                             "porcentaje":  32.802526394729831,
+                             "porcentaje_acumulado":  32.802526394729831,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -53,8 +53,8 @@
                              "codigo":  "2.3.101",
                              "descripcion":  "Mano de obra instalación",
                              "total_cop":  53572258278,
-                             "porcentaje":  19.744046502159321,
-                             "porcentaje_acumulado":  52.21774215755223,
+                             "porcentaje":  19.943975992098032,
+                             "porcentaje_acumulado":  52.746502386827864,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -62,8 +62,8 @@
                              "codigo":  "1.5.100",
                              "descripcion":  "Desvíos manuales autotalonables (con comprobador integrado)",
                              "total_cop":  16149240000,
-                             "porcentaje":  5.9517996026960649,
-                             "porcentaje_acumulado":  58.1695417602483,
+                             "porcentaje":  6.0120679098363627,
+                             "porcentaje_acumulado":  58.758570296664224,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -71,8 +71,8 @@
                              "codigo":  "1.4.100",
                              "descripcion":  "Desvíos motorizados CTC",
                              "total_cop":  11214725000,
-                             "porcentaje":  4.1331849547932675,
-                             "porcentaje_acumulado":  62.302726715041565,
+                             "porcentaje":  4.1750378525639347,
+                             "porcentaje_acumulado":  62.933608149228156,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -80,8 +80,8 @@
                              "codigo":  "2.1.100",
                              "descripcion":  "Torres autosoportadas",
                              "total_cop":  6660000000,
-                             "porcentaje":  2.454541845557797,
-                             "porcentaje_acumulado":  64.757268560599357,
+                             "porcentaje":  2.4793966947986514,
+                             "porcentaje_acumulado":  65.413004844026815,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  true
                          },
@@ -89,8 +89,8 @@
                              "codigo":  "4.1.100",
                              "descripcion":  "Sistemas barreras automáticas",
                              "total_cop":  6120000000,
-                             "porcentaje":  2.2555249391612184,
-                             "porcentaje_acumulado":  67.012793499760576,
+                             "porcentaje":  2.2783645303555176,
+                             "porcentaje_acumulado":  67.691369374382333,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -98,8 +98,8 @@
                              "codigo":  "2.3.100",
                              "descripcion":  "Cable fibra óptica 48 fibras",
                              "total_cop":  5827741722,
-                             "porcentaje":  2.1478132014642721,
-                             "porcentaje_acumulado":  69.160606701224864,
+                             "porcentaje":  2.1695620966466969,
+                             "porcentaje_acumulado":  69.860931471029033,
                              "es_ruta_critica":  true,
                              "tiene_duracion":  true
                          },
@@ -107,8 +107,8 @@
                              "codigo":  "4.2.100",
                              "descripcion":  "Sistemas barreras manuales",
                              "total_cop":  5250000000,
-                             "porcentaje":  1.934886589966732,
-                             "porcentaje_acumulado":  71.095493291191588,
+                             "porcentaje":  1.9544793765304687,
+                             "porcentaje_acumulado":  71.815410847559491,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -116,8 +116,8 @@
                              "codigo":  "5.3.101",
                              "descripcion":  "Software SCADA",
                              "total_cop":  5000000000,
-                             "porcentaje":  1.8427491333016492,
-                             "porcentaje_acumulado":  72.938242424493239,
+                             "porcentaje":  1.8614089300290175,
+                             "porcentaje_acumulado":  73.6768197775885,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          },
@@ -125,8 +125,8 @@
                              "codigo":  "5.3.103",
                              "descripcion":  "Interfaces comunicación",
                              "total_cop":  4112000000,
-                             "porcentaje":  1.5154768872272764,
-                             "porcentaje_acumulado":  74.4537193117205,
+                             "porcentaje":  1.530822704055864,
+                             "porcentaje_acumulado":  75.20764248164437,
                              "es_ruta_critica":  false,
                              "tiene_duracion":  false
                          }
