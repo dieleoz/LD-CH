@@ -505,7 +505,7 @@
       "Software CTC integrado según AT1",
       "Monitoreo continuo 24/7 según AT2"
     ],
-    "decisiones_tecnicas": [],
+    "decisiones_tecnicas": ["DT-CTC-007-2025-10-24"],
     "feedback_especialista": "Workstations configuradas según AT2 para operación 24/7 en turnos. Cantidad 8 UND cubre 2 turnos operación continua según requerimientos contractuales.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
@@ -537,7 +537,7 @@
       "Backup automático incluido según AT2",
       "Recuperación RTO<1h, RPO<15min según AT4"
     ],
-    "decisiones_tecnicas": [],
+    "decisiones_tecnicas": ["DT-CTC-006-2025-10-24"],
     "feedback_especialista": "Base de datos centralizada configuración redundante N+1 para almacenamiento 5 años histórico según AT2 y recuperación ante desastres según AT4.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
