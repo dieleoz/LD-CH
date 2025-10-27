@@ -367,13 +367,25 @@
                     if (document.getElementById('tipoFilter').value && equipo.tipo_equipo !== document.getElementById('tipoFilter').value) return;
                     if (document.getElementById('sistemaFilter').value && equipo.tipo_equipo !== document.getElementById('sistemaFilter').value) return;
                     
-                    // Verificar si tiene coordenadas (latitud y longitud)
+                    // Generar coordenadas a partir del PK si no existen
+                    let lat, lng;
                     if (!equipo.latitud || !equipo.longitud) {
-                        countWithoutCoords++;
-                        if (countWithoutCoords <= 5) {
-                            console.log('⚠️ Sin coordenadas:', equipo.nombre, '| PK:', equipo.pk);
-                        }
-                        return;
+                        // Calcular coordenadas aproximadas desde PK
+                        // Base: La Dorada ~ 5.0° N, -74.9° W
+                        // Chiriguaná ~ 9.3° N, -73.6° W
+                        // Convertir PK a coordenadas aproximadas
+                        const pkValue = parseFloat(equipo.pk.replace(/[^\d.]+/g, '')) || 0;
+                        // Aproximación lineal entre extremos
+                        const latBase = 5.0;
+                        const lngBase = -74.9;
+                        const latDelta = 0.005; // Por cada 1 km aprox
+                        const lngDelta = 0.012;
+                        lat = latBase + (pkValue * latDelta);
+                        lng = lngBase + (pkValue * lngDelta);
+                        console.log('📍 Coordenadas calculadas:', equipo.nombre, lat, lng);
+                    } else {
+                        lat = equipo.latitud;
+                        lng = equipo.longitud;
                     }
                     
                     countWithCoords++;
@@ -386,7 +398,7 @@
                     else if (equipo.tipo_equipo === 'ENERGIA') color = '#f39c12';
                     
                     // Crear marcador
-                    const marker = L.circleMarker([parseFloat(equipo.latitud), parseFloat(equipo.longitud)], {
+                    const marker = L.circleMarker([lat, lng], {
                         radius: 8,
                         fillColor: color,
                         color: '#fff',
