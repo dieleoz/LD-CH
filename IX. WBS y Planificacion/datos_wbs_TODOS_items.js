@@ -447,9 +447,9 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "1.5",
-                      "vu_cop":  10000000,
+                      "vu_cop":  31000000,
                       "codigo":  "1.5.101",
-                      "cantidad":  "10",
+                      "cantidad":  "21",
                       "categoria":  "control",
                       "modificable":  true,
                       "tipo":  "SUMINISTRO",
@@ -458,7 +458,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "1",
                       "descripcion":  "Señalización luminosa estaciones ENCE (entrada/salida)",
-                      "total_cop":  100000000,
+                      "total_cop":  651000000,
                       "archivos_relacionados":  [
 
                                                 ],

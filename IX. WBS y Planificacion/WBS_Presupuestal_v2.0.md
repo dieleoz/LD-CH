@@ -218,11 +218,11 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.5.100** | Desvíos manuales autotalonables (con comprobador integrado) | 120 | $134,577,000 | $16,149,240,000 |
-| **1.5.101** | Señalización luminosa estaciones ENCE (entrada/salida) | 10 | $10,000,000 | $100,000,000 |
+| **1.5.101** | Señalización luminosa estaciones ENCE (entrada/salida) | 21 | $31,000,000 | $651,000,000 |
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
-| **SUBTOTAL DESVÍOS MANUALES Y SEÑALIZACIÓN** | | | | **$17,864,200,000** |
+| **SUBTOTAL DESVÍOS MANUALES Y SEÑALIZACIÓN** | | | | **$18,415,200,000** |
 
-**TOTAL CAPÍTULO 1:** **$128,367,640,432**
+**TOTAL CAPÍTULO 1:** **$128,918,640,432**
 
 ---
 
@@ -475,18 +475,18 @@
 #### **IVA (SEGÚN REGLAS CORRECTAS):**
 | **Concepto** | **Porcentaje** | **Base (COP)** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|:---:|:---:|
-| **IVA Suministros** | 19% | $207,515,439,777 | $39,427,933,558 | $8,963,395,263 |
+| **IVA Suministros** | 19% | $208,066,439,777 | $39,532,623,558 | $8,982,414,118 |
 | **IVA Servicios** | 19% | $230,000,000 | $43,700,000 | $9,931,818 |
 | **IVA/Utilidad Obra** | 19% | $2,968,362,914 | $563,988,954 | $128,179,308 |
-| **IVA TOTAL** | | | **$39,998,682,512** | **$9,104,096,553** |
+| **IVA TOTAL** | | | **$40,142,682,512** | **$9,120,660,513** |
 
 ### **💰 PRESUPUESTO TOTAL CORREGIDO:**
 | **Concepto** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $272,461,208,283 | $61,923,046,428 |
+| **Costo Directo** | $273,012,208,283 | $62,048,229,156 |
 | **AIU (33% Obra)** | $19,591,195,232 | $4,452,544,371 |
-| **IVA Total** | $39,998,682,512 | $9,104,096,553 |
-| **PRESUPUESTO TOTAL** | **$332,051,086,027** | **$75,480,686,352** |
+| **IVA Total** | $40,142,682,512 | $9,120,660,513 |
+| **PRESUPUESTO TOTAL** | **$332,745,086,027** | **$75,621,434,040** |
 
 ---
 
