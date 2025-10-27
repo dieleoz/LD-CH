@@ -2784,25 +2784,6 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "6.1",
-                      "vu_cop":  100000000,
-                      "codigo":  "6.1.204",
-                      "cantidad":  "8",
-                      "categoria":  "material_rodante",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "6",
-                      "descripcion":  "Software ATP",
-                      "total_cop":  800000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "6.1",
                       "vu_cop":  30000000,
                       "codigo":  "6.1.205",
                       "cantidad":  "8",

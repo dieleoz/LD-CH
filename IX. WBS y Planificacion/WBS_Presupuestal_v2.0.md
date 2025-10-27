@@ -423,10 +423,9 @@
 | **6.1.201** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
 | **6.1.202** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
 | **6.1.203** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
-| **6.1.204** | Software ATP | 8 | $100,000,000 | $800,000,000 |
 | **6.1.205** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
 | **6.1.206** | Sistema redundancia ATP | 8 | $50,000,000 | $400,000,000 |
-| **SUBTOTAL ATP DESGLOSADO** | | | | **$3,520,000,000** |
+| **SUBTOTAL ATP DESGLOSADO** | | | | **$2,720,000,000** |
 
 #### **6.2 Sistema EOT (15 Dispositivos)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -437,7 +436,7 @@
 | **6.2.103** | Configuración EOT | 1 | $20,000,000 | $20,000,000 |
 | **SUBTOTAL EOT** | | | | **$520,000,000** |
 
-**TOTAL CAPÍTULO 6:** **$16,167,500,000** (+$3,520,000,000 por componentes ATP duplicados temporalmente)
+**TOTAL CAPÍTULO 6:** **$15,367,500,000** (+$2,720,000,000 por componentes ATP duplicados temporalmente)
 
 ---
 
@@ -475,18 +474,18 @@
 #### **IVA (SEGÚN REGLAS CORRECTAS):**
 | **Concepto** | **Porcentaje** | **Base (COP)** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|:---:|:---:|
-| **IVA Suministros** | 19% | $208,066,439,777 | $39,532,623,558 | $8,982,414,118 |
+| **IVA Suministros** | 19% | $207,266,439,777 | $39,380,623,558 | $8,963,369,098 |
 | **IVA Servicios** | 19% | $230,000,000 | $43,700,000 | $9,931,818 |
 | **IVA/Utilidad Obra** | 19% | $2,968,362,914 | $563,988,954 | $128,179,308 |
-| **IVA TOTAL** | | | **$40,142,682,512** | **$9,120,660,513** |
+| **IVA TOTAL** | | | **$39,987,282,512** | **$9,094,621,584** |
 
 ### **💰 PRESUPUESTO TOTAL CORREGIDO:**
 | **Concepto** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $273,012,208,283 | $62,048,229,156 |
+| **Costo Directo** | $272,212,208,283 | $61,866,410,968 |
 | **AIU (33% Obra)** | $19,591,195,232 | $4,452,544,371 |
-| **IVA Total** | $40,142,682,512 | $9,120,660,513 |
-| **PRESUPUESTO TOTAL** | **$332,745,086,027** | **$75,621,434,040** |
+| **IVA Total** | $39,987,282,512 | $9,094,621,584 |
+| **PRESUPUESTO TOTAL** | **$331,790,586,027** | **$75,413,576,923** |
 
 ---
 
