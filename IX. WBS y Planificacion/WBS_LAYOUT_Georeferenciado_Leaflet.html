@@ -356,6 +356,12 @@
             
             // Si existe LAYOUT_DATOS, usarlo
             if (typeof LAYOUT_DATOS !== 'undefined' && LAYOUT_DATOS.length > 0) {
+                console.log('✅ LAYOUT_DATOS cargado:', LAYOUT_DATOS.length, 'elementos');
+                console.log('📋 Primer elemento:', LAYOUT_DATOS[0]);
+                
+                let countWithCoords = 0;
+                let countWithoutCoords = 0;
+                
                 LAYOUT_DATOS.forEach(equipo => {
                     // Filtrar por tipo y sistema (usando tipo_equipo en lugar de tipo)
                     if (document.getElementById('tipoFilter').value && equipo.tipo_equipo !== document.getElementById('tipoFilter').value) return;
@@ -363,9 +369,14 @@
                     
                     // Verificar si tiene coordenadas (latitud y longitud)
                     if (!equipo.latitud || !equipo.longitud) {
-                        console.warn('Equipo sin coordenadas:', equipo.nombre);
+                        countWithoutCoords++;
+                        if (countWithoutCoords <= 5) {
+                            console.log('⚠️ Sin coordenadas:', equipo.nombre, '| PK:', equipo.pk);
+                        }
                         return;
                     }
+                    
+                    countWithCoords++;
                     
                     // Determinar color según tipo
                     let color = '#3498db'; // Azul por defecto
@@ -400,11 +411,19 @@
                     allMarkers.push(marker);
                     equipmentMarkers[equipo.nombre] = marker;
                 });
+                
+                console.log(`📍 Con coordenadas: ${countWithCoords} | ❌ Sin coordenadas: ${countWithoutCoords}`);
             }
             
             // Actualizar estadísticas
             document.getElementById('totalElements').textContent = typeof LAYOUT_DATOS !== 'undefined' ? LAYOUT_DATOS.length : 0;
             document.getElementById('visibleElements').textContent = allMarkers.length;
+            
+            // Ajustar vista del mapa
+            if (allMarkers.length > 0) {
+                const group = new L.featureGroup(allMarkers);
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
         }
         
         // Event listeners
