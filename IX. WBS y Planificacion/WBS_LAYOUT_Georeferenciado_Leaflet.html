@@ -279,7 +279,7 @@
     
     <!-- Cargar datos del layout -->
     <script src="layout_datos.js"></script>
-    <script src="coordenadas_kml.json"></script>
+    <script src="coordenadas_kml.js"></script>
     
     <script>
         // Inicializar mapa centrado en el proyecto
@@ -498,15 +498,12 @@
             renderizarEquipos();
         }
         
-        // Cargar coordenadas reales del KML
-        let coordenadasKML = [];
-        fetch('coordenadas_kml.json')
-            .then(response => response.json())
-            .then(data => {
-                window.coordenadasKML = data;
-                console.log('✅ Coordenadas KML cargadas:', data.length, 'puntos');
-            })
-            .catch(err => console.warn('No se cargaron coordenadas KML:', err));
+        // Coordenadas KML cargadas desde coordenadas_kml.js
+        if (typeof window.coordenadasKML !== 'undefined') {
+            console.log('✅ Coordenadas KML cargadas:', window.coordenadasKML.length, 'puntos');
+        } else {
+            console.warn('⚠️ coordenadas_kml.js no cargado');
+        }
         
         // Inicializar
         window.addEventListener('DOMContentLoaded', function() {
