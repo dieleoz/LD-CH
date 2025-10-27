@@ -347,8 +347,7 @@
 #### **4.2 Pasos a Nivel Tipo B (15 Unidades)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **4.2.100** | Sistemas barreras manuales | 15 | $200,000,000 | $3,000,000,000 |
-| **4.2.101** | Señalización básica | 15 | $50,000,000 | $750,000,000 |
+| **4.2.100** | Sistemas barreras manuales | 15 | $250,000,000 | $3,750,000,000 |
 | **4.2.103** | Sistemas comunicación | 15 | $40,000,000 | $600,000,000 |
 | **4.2.104** | Instalación | 15 | $60,000,000 | $900,000,000 |
 | **4.2.105** | Repuestos (10%) | - | - | $465,000,000 |

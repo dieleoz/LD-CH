@@ -2005,7 +2005,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "4.2",
-                      "vu_cop":  200000000,
+                      "vu_cop":  250000000,
                       "codigo":  "4.2.100",
                       "cantidad":  "15",
                       "categoria":  "pasos_nivel",
@@ -2016,26 +2016,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "4",
                       "descripcion":  "Sistemas barreras manuales",
-                      "total_cop":  3000000000,
-                      "archivos_relacionados":  [
-
-                                                ],
-                      "unidad":  "UND"
-                  },
-                  {
-                      "subcapitulo":  "4.2",
-                      "vu_cop":  50000000,
-                      "codigo":  "4.2.101",
-                      "cantidad":  "15",
-                      "categoria":  "pasos_nivel",
-                      "modificable":  true,
-                      "tipo":  "SUMINISTRO",
-                      "riesgos_asociados":  [
-
-                                            ],
-                      "capitulo":  "4",
-                      "descripcion":  "Señalización básica",
-                      "total_cop":  750000000,
+                      "total_cop":  3750000000,
                       "archivos_relacionados":  [
 
                                                 ],
