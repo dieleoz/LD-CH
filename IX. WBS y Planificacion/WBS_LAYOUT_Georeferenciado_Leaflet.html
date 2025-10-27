@@ -8,7 +8,8 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     
-    <!-- Leaflet.toGeoJSON plugin -->
+    <!-- Librerías para manejo de KML/KMZ -->
+    <script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
     <script src="https://unpkg.com/togeojson@0.16.0/togeojson.js"></script>
     
     <style>
@@ -294,31 +295,56 @@
         
         // Cargar archivo KML desde GitHub Pages
         function cargarKML() {
+            // Intentar cargar el archivo .kmz (necesita ser descomprimido)
             fetch('https://dieleoz.github.io/LD-CH/X_ENTREGABLES_CONSOLIDADOS/5_INDICES_NAVEGACION/Sistema Ferreo LD-CH_Via.kmz')
-                .then(response => response.arrayBuffer())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Archivo KML no encontrado en GitHub Pages');
+                    }
+                    return response.arrayBuffer();
+                })
                 .then(data => {
-                    var kml = toGeoJSON.kml(data);
-                    
-                    // Agregar KML al mapa
-                    L.geoJSON(kml, {
-                        style: function(feature) {
-                            return {
-                                color: '#667eea',
-                                weight: 4,
-                                opacity: 0.8
-                            };
-                        },
-                        onEachFeature: function(feature, layer) {
-                            if (feature.properties && feature.properties.name) {
-                                layer.bindPopup(feature.properties.name);
-                            }
+                    // Intentar parsear como KMZ (zip con KML dentro)
+                    try {
+                        // Usar la librería JSZip para descomprimir
+                        if (typeof JSZip !== 'undefined') {
+                            JSZip.loadAsync(data).then(zip => {
+                                zip.file('doc.kml').async('string').then(kmlText => {
+                                    var kml = toGeoJSON.kml(kmlText);
+                                    agregarKMLAlMapa(kml);
+                                });
+                            });
+                        } else {
+                            console.warn('JSZip no está disponible, intentando como KML directo...');
+                            var kml = toGeoJSON.kml(new DOMParser().parseFromString(data, 'text/xml'));
+                            agregarKMLAlMapa(kml);
                         }
-                    }).addTo(map);
+                    } catch (e) {
+                        console.error('Error parseando KML:', e);
+                    }
                 })
                 .catch(err => {
                     console.error('Error cargando KML:', err);
-                    alert('No se pudo cargar el archivo KML. Usando solo datos del layout.');
+                    // Continuar sin KML, solo usar marcadores del layout
+                    console.log('Usando solo datos del layout (equipos individuales)');
                 });
+        }
+        
+        function agregarKMLAlMapa(geojson) {
+            L.geoJSON(geojson, {
+                style: function(feature) {
+                    return {
+                        color: '#667eea',
+                        weight: 4,
+                        opacity: 0.8
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>Trazado de vía férrea');
+                    }
+                }
+            }).addTo(map);
         }
         
         // Renderizar equipos en el mapa
