@@ -134,6 +134,104 @@
         ]
       },
       "riesgos_asociados": []
+    },
+    "6.1.100": {
+      "item": "6.1.100",
+      "nombre": "Sistemas ATP embarcados",
+      "criterio_tecnico": {
+        "justificacion": "8 sistemas ATP embarcados completos (kit) para seguridad automática del tren - USD $165K c/u @ TRM 4,400",
+        "calculo_detallado": "8 trenes × 1 kit ATP por tren = 8 unidades",
+        "desglose": ["Kit ATP incluye: Computadora, Display, Sensores velocidad, GPS, Software, Interfaces frenos, Redundancia", "Configuración embarcada en cabina", "Comunicación CCO vía TETRA/GSM-R", "Control velocidad según curva perfil vía"],
+        "fuente_normativa": "IEC 62290-1 (ATP), EN 50126 (RAMS)",
+        "fuente_diseno": "Sistema seguridad tren - Requerimiento contractual",
+        "documentos_referencia": ["II. Apendices Tecnicos/Decisiones_Tecnicas/DT-CTC-472-2025-10-25.md", "V.3.1_Material_Rodante_Detallado.md"],
+        "restriccion": "Mínimo 8 unidades (1 por tren según alcance)",
+        "alternativas": ["8 unidades → Configuración estándar flota completa", "Mantenimiento según AT2"]
+      }
+    },
+    "6.1.101": {
+      "item": "6.1.101",
+      "nombre": "Radios TETRA embarcados",
+      "criterio_tecnico": {
+        "justificacion": "16 radios TETRA para comunicación tren-tierra (2 por tren con redundancia)",
+        "calculo_detallado": "8 trenes × 2 radios = 16 unidades",
+        "desglose": ["2 radios por tren (primaria + respaldo)", "Comunicación CCO durante operación", "Integración ATP", "Alcance 12-16 km"],
+        "fuente_normativa": "ETSI EN 300 396 (TETRA)",
+        "fuente_diseno": "Plan comunicaciones tren-tierra",
+        "documentos_referencia": ["V.3_Sistemas_Comunicacion_Detalle.md §3.2", "27_Sistema_TETRA_Integrado_v5.0.md"]
+      }
+    },
+    "6.1.102": {
+      "item": "6.1.102",
+      "nombre": "Radios GSM-R embarcados",
+      "criterio_tecnico": {
+        "justificacion": "16 radios GSM-R para comunicación tren-tierra (2 por tren con redundancia)",
+        "calculo_detallado": "8 trenes × 2 radios = 16 unidades",
+        "desglose": ["2 radios por tren (primaria + respaldo)", "Comunicación CTC/CCO", "Backup si TETRA falla", "Interoperabilidad red ferroviaria"],
+        "fuente_normativa": "IEC 62280 (GSM-R), EIRENE",
+        "fuente_diseno": "Plan comunicaciones GSM-R",
+        "documentos_referencia": ["V.3_Sistemas_Comunicacion_Detalle.md §3.3"]
+      }
+    },
+    "6.1.103": {
+      "item": "6.1.103",
+      "nombre": "Sistemas GPS",
+      "criterio_tecnico": {
+        "justificacion": "8 sistemas GPS para localización y posicionamiento del tren",
+        "calculo_detallado": "8 trenes × 1 sistema = 8 unidades",
+        "desglose": ["Posicionamiento tiempo real (±5m)", "Integración ATP embarcado", "Registro recorrido", "Antena GPS techo tren"],
+        "fuente_normativa": "IEC 62290-1",
+        "fuente_diseno": "Sistema posicionamiento ATP",
+        "documentos_referencia": ["V.3.1_Material_Rodante_Detallado.md §5.2"]
+      }
+    },
+    "6.1.104": {
+      "item": "6.1.104",
+      "nombre": "Sistemas redundancia",
+      "criterio_tecnico": {
+        "justificacion": "8 sistemas redundancia ATP para alta disponibilidad 99.95%",
+        "calculo_detallado": "8 trenes × 1 sistema = 8 unidades",
+        "desglose": ["Redundancia N+1 ATP", "Failover <2s", "Duplicación procesador", "Sincronización tiempo real"],
+        "fuente_normativa": "EN 50126 (RAMS), IEC 62290-1",
+        "fuente_diseno": "Requirement disponibilidad 99.95%",
+        "documentos_referencia": ["AT2 - Operación y Mantenimiento", "V.3.1_Material_Rodante_Detallado.md"]
+      }
+    },
+    "6.1.105": {
+      "item": "6.1.105",
+      "nombre": "Instalación y configuración",
+      "criterio_tecnico": {
+        "justificacion": "Instalación y configuración ATP embarcados en 8 trenes",
+        "calculo_detallado": "8 trenes × 1 servicio = 8 unidades",
+        "desglose": ["Montaje kit ATP cabina", "Configuración y calibración", "Pruebas funcionales", "Capacitación operadores", "Documentación as-built"],
+        "fuente_normativa": "AT2 - Operación",
+        "fuente_diseno": "Plan instalación ATP",
+        "documentos_referencia": ["V.3.1_Material_Rodante_Detallado.md §6.1"]
+      }
+    },
+    "6.1.106": {
+      "item": "6.1.106",
+      "nombre": "Repuestos (10%)",
+      "criterio_tecnico": {
+        "justificacion": "Repuestos ATP embarcados 10% subtotal = $887,240,000 COP",
+        "calculo_detallado": "10% de $8,872,400,000 = $887,240,000",
+        "desglose": ["Repuestos componentes críticos", "Software adicional", "Spare parts mantenimiento", "Contrato servicio técnico 1 año"],
+        "fuente_normativa": "AT2 - Operación",
+        "fuente_diseno": "Plan repuestos ATP",
+        "documentos_referencia": ["AT2 §4.2"]
+      }
+    },
+    "6.2.100": {
+      "item": "6.2.100",
+      "nombre": "Dispositivos EOT completos",
+      "criterio_tecnico": {
+        "justificacion": "15 dispositivos EOT para señalización extremo tren",
+        "calculo_detallado": "15 vagones cola × 1 EOT = 15 unidades",
+        "desglose": ["Señalización LED extremo", "Transmisor presión aire", "GPS integrado", "Comunicación TETRA/GSM-R"],
+        "fuente_normativa": "UIC 569 (EOT)",
+        "fuente_diseno": "Sistema seguridad trenes carga",
+        "documentos_referencia": ["V.3.1_Material_Rodante_Detallado.md §5.3"]
+      }
     }
   },
   "nota_uso": "Estos criterios deben mostrarse en la WBS Interactiva para cada ítem. Si un ítem no tiene criterio definido aquí, mostrar mensaje indicando que el criterio técnico debe ser documentado."
