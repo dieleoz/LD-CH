@@ -2575,7 +2575,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "6.1",
-                      "vu_cop":  400000000,
+                      "vu_cop":  726000000,
                       "codigo":  "6.1.100",
                       "cantidad":  "8",
                       "categoria":  "material_rodante",
@@ -2586,7 +2586,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "6",
                       "descripcion":  "Sistemas ATP embarcados",
-                      "total_cop":  3200000000,
+                      "total_cop":  5808000000,
                       "archivos_relacionados":  [
 
                                                 ],
@@ -2700,7 +2700,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "6",
                       "descripcion":  "Repuestos (10%)",
-                      "total_cop":  588000000,
+                      "total_cop":  887240000,
                       "archivos_relacionados":  [
 
                                                 ],

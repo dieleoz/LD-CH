@@ -407,14 +407,14 @@
 #### **6.1 Equipos ATP Embarcados (8 Unidades ATP)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **6.1.100** | Sistemas ATP embarcados | 8 | $400,000,000 | $3,200,000,000 |
+| **6.1.100** | Sistemas ATP embarcados | 8 | $726,000,000 | $5,808,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
 | **6.1.102** | Radios GSM-R embarcados | 16 | $25,000,000 | $400,000,000 |
 | **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
 | **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
 | **6.1.105** | Instalación y configuración | 8 | $100,000,000 | $800,000,000 |
-| **6.1.106** | Repuestos (10%) | - | - | $588,000,000 |
-| **SUBTOTAL ATP EMBARCADOS** | | | | **$6,468,000,000** |
+| **6.1.106** | Repuestos (10%) | - | - | $887,240,000 |
+| **SUBTOTAL ATP EMBARCADOS** | | | | **$9,995,240,000** |
 
 > **NOTA:** Los componentes desglosados (6.1.200-206) fueron eliminados por duplicación con el kit ATP embarcado 6.1.100 en la v2.9 (DT-CONSOLIDACION-ATP-2025-10-25).
 
@@ -427,7 +427,7 @@
 | **6.2.103** | Configuración EOT | 1 | $20,000,000 | $20,000,000 |
 | **SUBTOTAL EOT** | | | | **$520,000,000** |
 
-**TOTAL CAPÍTULO 6:** **$12,647,500,000**
+**TOTAL CAPÍTULO 6:** **$16,174,740,000**
 
 ---
 
@@ -465,18 +465,18 @@
 #### **IVA (SEGÚN REGLAS CORRECTAS):**
 | **Concepto** | **Porcentaje** | **Base (COP)** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|:---:|:---:|
-| **IVA Suministros** | 19% | $204,546,439,777 | $38,863,823,558 | $8,845,504,888 |
+| **IVA Suministros** | 19% | $208,073,679,777 | $39,533,999,158 | $9,008,994,565 |
 | **IVA Servicios** | 19% | $230,000,000 | $43,700,000 | $9,931,818 |
 | **IVA/Utilidad Obra** | 19% | $2,968,362,914 | $563,988,954 | $128,179,308 |
-| **IVA TOTAL** | | | **$39,480,282,512** | **$8,976,100,538** |
+| **IVA TOTAL** | | | **$40,150,458,112** | **$9,128,385,132** |
 
 ### **💰 PRESUPUESTO TOTAL CORREGIDO:**
 | **Concepto** | **Valor (COP)** | **Valor (USD)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $269,492,208,283 | $61,248,229,155 |
+| **Costo Directo** | $273,019,448,283 | $62,067,401,061 |
 | **AIU (33% Obra)** | $19,591,195,232 | $4,452,544,371 |
-| **IVA Total** | $39,480,282,512 | $8,976,100,538 |
-| **PRESUPUESTO TOTAL** | **$328,563,686,027** | **$74,676,874,064** |
+| **IVA Total** | $40,150,458,112 | $9,128,385,132 |
+| **PRESUPUESTO TOTAL** | **$332,761,101,627** | **$75,648,330,564** |
 
 ---
 
