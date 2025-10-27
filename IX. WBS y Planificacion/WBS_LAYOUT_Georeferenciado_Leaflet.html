@@ -381,23 +381,35 @@
                 let countWithCoords = 0;
                 let countWithoutCoords = 0;
                 
+                let elementosFiltrados = 0;
+                let elementosExcluidos = 0;
+                
                 LAYOUT_DATOS.forEach(equipo => {
+                    let pasaFiltros = true;
+                    
                     // Filtro por sistema
                     const filtroSistema = document.getElementById('tipoFilter').value;
                     if (filtroSistema && equipo.tipo_equipo !== filtroSistema) {
+                        pasaFiltros = false;
                         return; // Saltar este elemento
                     }
                     
                     // Filtro por ubicación
                     const filtroUbicacion = document.getElementById('ubicacionFilter').value;
                     if (filtroUbicacion && equipo.ubicacion_lado !== filtroUbicacion) {
+                        pasaFiltros = false;
                         return; // Saltar este elemento
                     }
                     
                     // Filtro por dispositivo
                     const filtroDispositivo = document.getElementById('dispositivoFilter').value;
                     if (filtroDispositivo && equipo.dispositivo !== filtroDispositivo) {
+                        pasaFiltros = false;
                         return; // Saltar este elemento
+                    }
+                    
+                    if (pasaFiltros) {
+                        elementosFiltrados++;
                     }
                     
                     // Obtener coordenadas reales o aproximadas
@@ -509,6 +521,10 @@
                 console.log(`✅ Marcadores creados en memoria: ${allMarkers.length}`);
                 console.log(`📍 Marcadores agregados al mapa: ${allMarkers.filter(m => map.hasLayer(m)).length}`);
                 console.log(`📊 Con coordenadas: ${countWithCoords} | Sin coordenadas: ${countWithoutCoords}`);
+                console.log(`🔍 Análisis de filtros:`);
+                console.log(`   • Sistema filtrado: "${document.getElementById('tipoFilter').value || 'Ninguno'}"`);
+                console.log(`   • Ubicación filtrada: "${document.getElementById('ubicacionFilter').value || 'Ninguna'}"`);
+                console.log(`   • Dispositivo filtrado: "${document.getElementById('dispositivoFilter').value || 'Ninguno'}"`);
             }
             
             // Actualizar estadísticas
