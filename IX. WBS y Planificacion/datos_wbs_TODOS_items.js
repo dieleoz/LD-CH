@@ -2005,7 +2005,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                   },
                   {
                       "subcapitulo":  "4.2",
-                      "vu_cop":  250000000,
+                      "vu_cop":  350000000,
                       "codigo":  "4.2.100",
                       "cantidad":  "15",
                       "categoria":  "pasos_nivel",
@@ -2016,7 +2016,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "4",
                       "descripcion":  "Sistemas barreras manuales",
-                      "total_cop":  3750000000,
+                      "total_cop":  5250000000,
                       "archivos_relacionados":  [
 
                                                 ],
@@ -2073,7 +2073,7 @@ window.wbsDataGlobal = window.datos_wbs = {
                                             ],
                       "capitulo":  "4",
                       "descripcion":  "Repuestos (10%)",
-                      "total_cop":  465000000,
+                      "total_cop":  675000000,
                       "archivos_relacionados":  [
 
                                                 ],
