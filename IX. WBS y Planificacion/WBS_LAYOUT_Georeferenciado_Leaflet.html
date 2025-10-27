@@ -221,18 +221,18 @@
             
             <div class="controls">
                 <div class="control-group">
-                    <label>🔍 Buscar por tipo:</label>
+                    <label>⚙️ Sistema:</label>
                     <select id="tipoFilter">
-                        <option value="">Todos los tipos</option>
-                        <option value="TORRE">Torres</option>
-                        <option value="CAJA">Cajas</option>
-                        <option value="ESTACION">Estaciones</option>
-                        <option value="CAMARA">Cámaras</option>
+                        <option value="">Todos los sistemas</option>
+                        <option value="CONTROL">Control y Señalización</option>
+                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
+                        <option value="SEGURIDAD">Seguridad</option>
+                        <option value="ENERGIA">Energía</option>
                     </select>
                 </div>
                 
-                <div class="control-group">
-                    <label>⚙️ Sistema:</label>
+                <div class="control-group" style="display: none;">
+                    <label>Sistema (deshabilitado):</label>
                     <select id="sistemaFilter">
                         <option value="">Todos los sistemas</option>
                         <option value="CONTROL">Control y Señalización</option>
@@ -366,9 +366,9 @@
                 let countWithoutCoords = 0;
                 
                 LAYOUT_DATOS.forEach(equipo => {
-                    // Filtrar por tipo y sistema (usando tipo_equipo en lugar de tipo)
-                    if (document.getElementById('tipoFilter').value && equipo.tipo_equipo !== document.getElementById('tipoFilter').value) return;
-                    if (document.getElementById('sistemaFilter').value && equipo.tipo_equipo !== document.getElementById('sistemaFilter').value) return;
+                    // Filtrar por sistema (tipo_equipo)
+                    const filtroSistema = document.getElementById('tipoFilter').value;
+                    if (filtroSistema && equipo.tipo_equipo !== filtroSistema) return;
                     
                     // Obtener coordenadas reales o aproximadas
                     let lat, lng;
