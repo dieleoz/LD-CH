@@ -231,15 +231,20 @@
                     </select>
                 </div>
                 
-                <div class="control-group" style="display: none;">
-                    <label>Sistema (deshabilitado):</label>
-                    <select id="sistemaFilter">
-                        <option value="">Todos los sistemas</option>
-                        <option value="CONTROL">Control y Señalización</option>
-                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
-                        <option value="SEGURIDAD">Seguridad</option>
-                        <option value="ENERGIA">Energía</option>
+                <div class="control-group">
+                    <label>📍 Ubicación:</label>
+                    <select id="ubicacionFilter">
+                        <option value="">Todas las ubicaciones</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Derecha">Derecha</option>
+                        <option value="Izquierda">Izquierda</option>
+                        <option value="Izquierda Derecha">Ambos lados</option>
                     </select>
+                </div>
+                
+                <div class="control-group">
+                    <label>🔍 Dispositivo:</label>
+                    <input type="text" id="dispositivoFilter" placeholder="Buscar dispositivo...">
                 </div>
                 
                 <button class="btn" onclick="limpiarFiltros()">🔄 Limpiar Filtros</button>
@@ -366,9 +371,17 @@
                 let countWithoutCoords = 0;
                 
                 LAYOUT_DATOS.forEach(equipo => {
-                    // Filtrar por sistema (tipo_equipo)
+                    // Filtro por sistema
                     const filtroSistema = document.getElementById('tipoFilter').value;
                     if (filtroSistema && equipo.tipo_equipo !== filtroSistema) return;
+                    
+                    // Filtro por ubicación
+                    const filtroUbicacion = document.getElementById('ubicacionFilter').value;
+                    if (filtroUbicacion && equipo.ubicacion_lado !== filtroUbicacion) return;
+                    
+                    // Filtro por dispositivo (búsqueda de texto)
+                    const filtroDispositivo = document.getElementById('dispositivoFilter').value.toLowerCase();
+                    if (filtroDispositivo && !equipo.dispositivo.toLowerCase().includes(filtroDispositivo)) return;
                     
                     // Obtener coordenadas reales o aproximadas
                     let lat, lng;
@@ -495,11 +508,13 @@
         
         // Event listeners
         document.getElementById('tipoFilter').addEventListener('change', renderizarEquipos);
-        document.getElementById('sistemaFilter').addEventListener('change', renderizarEquipos);
+        document.getElementById('ubicacionFilter').addEventListener('change', renderizarEquipos);
+        document.getElementById('dispositivoFilter').addEventListener('input', renderizarEquipos);
         
         function limpiarFiltros() {
             document.getElementById('tipoFilter').value = '';
-            document.getElementById('sistemaFilter').value = '';
+            document.getElementById('ubicacionFilter').value = '';
+            document.getElementById('dispositivoFilter').value = '';
             renderizarEquipos();
         }
         
