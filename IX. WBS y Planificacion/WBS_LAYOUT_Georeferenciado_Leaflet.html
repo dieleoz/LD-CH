@@ -279,6 +279,7 @@
     
     <!-- Cargar datos del layout -->
     <script src="layout_datos.js"></script>
+    <script src="coordenadas_kml.json"></script>
     
     <script>
         // Inicializar mapa centrado en el proyecto
@@ -367,25 +368,33 @@
                     if (document.getElementById('tipoFilter').value && equipo.tipo_equipo !== document.getElementById('tipoFilter').value) return;
                     if (document.getElementById('sistemaFilter').value && equipo.tipo_equipo !== document.getElementById('sistemaFilter').value) return;
                     
-                    // Generar coordenadas a partir del PK si no existen
+                    // Obtener coordenadas reales o aproximadas
                     let lat, lng;
-                    if (!equipo.latitud || !equipo.longitud) {
-                        // Calcular coordenadas aproximadas desde PK
-                        // Base: La Dorada ~ 5.0° N, -74.9° W
-                        // Chiriguaná ~ 9.3° N, -73.6° W
-                        // Convertir PK a coordenadas aproximadas
-                        const pkValue = parseFloat(equipo.pk.replace(/[^\d.]+/g, '')) || 0;
-                        // Aproximación lineal entre extremos
-                        const latBase = 5.0;
-                        const lngBase = -74.9;
-                        const latDelta = 0.005; // Por cada 1 km aprox
-                        const lngDelta = 0.012;
-                        lat = latBase + (pkValue * latDelta);
-                        lng = lngBase + (pkValue * lngDelta);
-                        console.log('📍 Coordenadas calculadas:', equipo.nombre, lat, lng);
+                    
+                    if (equipo.latitud && equipo.longitud) {
+                        // Si ya tiene coordenadas, usarlas
+                        lat = parseFloat(equipo.latitud);
+                        lng = parseFloat(equipo.longitud);
                     } else {
-                        lat = equipo.latitud;
-                        lng = equipo.longitud;
+                        // Intentar buscar en coordenadas del KML por PK
+                        const pkNumber = parseFloat(equipo.pk.replace(/[^\d.]+/g, '')) || 0;
+                        const coordKML = window.coordenadasKML?.find(c => c.PK === pkNumber);
+                        
+                        if (coordKML) {
+                            // Usar coordenadas reales del KML
+                            lat = coordKML.latitud;
+                            lng = coordKML.longitud;
+                            console.log('✅ Coordenada KML real para PK', pkNumber, ':', lat, lng);
+                        } else {
+                            // Calcular coordenadas aproximadas desde PK
+                            const latBase = 5.0;
+                            const lngBase = -74.9;
+                            const latDelta = 0.005;
+                            const lngDelta = 0.012;
+                            lat = latBase + (pkNumber * latDelta);
+                            lng = lngBase + (pkNumber * lngDelta);
+                            console.log('📍 Coordenada aproximada para PK', pkNumber, ':', lat, lng);
+                        }
                     }
                     
                     countWithCoords++;
@@ -447,6 +456,16 @@
             document.getElementById('sistemaFilter').value = '';
             renderizarEquipos();
         }
+        
+        // Cargar coordenadas reales del KML
+        let coordenadasKML = [];
+        fetch('coordenadas_kml.json')
+            .then(response => response.json())
+            .then(data => {
+                window.coordenadasKML = data;
+                console.log('✅ Coordenadas KML cargadas:', data.length, 'puntos');
+            })
+            .catch(err => console.warn('No se cargaron coordenadas KML:', err));
         
         // Inicializar
         window.addEventListener('DOMContentLoaded', function() {
