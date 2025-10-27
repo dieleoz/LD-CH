@@ -359,8 +359,17 @@
         
         // Renderizar equipos en el mapa
         function renderizarEquipos() {
-            // Limpiar marcadores anteriores
-            allMarkers.forEach(marker => map.removeLayer(marker));
+            console.log('🔄 Iniciando renderizado...');
+            
+            // Limpiar marcadores anteriores correctamente
+            if (allMarkers.length > 0) {
+                console.log(`🗑️ Limpiando ${allMarkers.length} marcadores anteriores`);
+                allMarkers.forEach(marker => {
+                    if (map.hasLayer(marker)) {
+                        map.removeLayer(marker);
+                    }
+                });
+            }
             allMarkers = [];
             equipmentMarkers = {};
             
@@ -375,15 +384,21 @@
                 LAYOUT_DATOS.forEach(equipo => {
                     // Filtro por sistema
                     const filtroSistema = document.getElementById('tipoFilter').value;
-                    if (filtroSistema && equipo.tipo_equipo !== filtroSistema) return;
+                    if (filtroSistema && equipo.tipo_equipo !== filtroSistema) {
+                        return; // Saltar este elemento
+                    }
                     
                     // Filtro por ubicación
                     const filtroUbicacion = document.getElementById('ubicacionFilter').value;
-                    if (filtroUbicacion && equipo.ubicacion_lado !== filtroUbicacion) return;
+                    if (filtroUbicacion && equipo.ubicacion_lado !== filtroUbicacion) {
+                        return; // Saltar este elemento
+                    }
                     
                     // Filtro por dispositivo
                     const filtroDispositivo = document.getElementById('dispositivoFilter').value;
-                    if (filtroDispositivo && equipo.dispositivo !== filtroDispositivo) return;
+                    if (filtroDispositivo && equipo.dispositivo !== filtroDispositivo) {
+                        return; // Saltar este elemento
+                    }
                     
                     // Obtener coordenadas reales o aproximadas
                     let lat, lng;
@@ -491,7 +506,9 @@
                     equipmentMarkers[equipo.nombre] = marker;
                 });
                 
-                console.log(`✅ Marcadores creados: ${allMarkers.length} | Con coordenadas: ${countWithCoords} | Sin coordenadas: ${countWithoutCoords}`);
+                console.log(`✅ Marcadores creados en memoria: ${allMarkers.length}`);
+                console.log(`📍 Marcadores agregados al mapa: ${allMarkers.filter(m => map.hasLayer(m)).length}`);
+                console.log(`📊 Con coordenadas: ${countWithCoords} | Sin coordenadas: ${countWithoutCoords}`);
             }
             
             // Actualizar estadísticas
