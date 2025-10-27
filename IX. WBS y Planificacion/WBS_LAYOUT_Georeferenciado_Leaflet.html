@@ -376,24 +376,54 @@
                         lat = parseFloat(equipo.latitud);
                         lng = parseFloat(equipo.longitud);
                     } else {
-                        // Intentar buscar en coordenadas del KML por PK
-                        const pkNumber = parseFloat(equipo.pk.replace(/[^\d.]+/g, '')) || 0;
+                        // Convertir PK del formato ferroviario (338+250) a número
+                        // Extraer parte entera antes del '+'
+                        let pkStr = equipo.pk;
+                        let pkNumber = 0;
+                        
+                        if (pkStr.includes('+')) {
+                            // Formato "338+250" -> extraer 338
+                            const parts = pkStr.split('+');
+                            pkNumber = parseInt(parts[0]) || 0;
+                        } else {
+                            // Formato numérico directo
+                            pkNumber = parseFloat(pkStr.replace(/[^\d.]+/g, '')) || 0;
+                        }
+                        
+                        // Buscar en coordenadas del KML
                         const coordKML = window.coordenadasKML?.find(c => c.PK === pkNumber);
                         
                         if (coordKML) {
                             // Usar coordenadas reales del KML
                             lat = coordKML.latitud;
                             lng = coordKML.longitud;
-                            console.log('✅ Coordenada KML real para PK', pkNumber, ':', lat, lng);
+                            console.log('✅ Coordenada KML real para PK', pkStr, '->', pkNumber, ':', lat, lng);
                         } else {
                             // Calcular coordenadas aproximadas desde PK
-                            const latBase = 5.0;
-                            const lngBase = -74.9;
-                            const latDelta = 0.005;
-                            const lngDelta = 0.012;
-                            lat = latBase + (pkNumber * latDelta);
-                            lng = lngBase + (pkNumber * lngDelta);
-                            console.log('📍 Coordenada aproximada para PK', pkNumber, ':', lat, lng);
+                            // La Dorada (inicio): 5.453, -74.661
+                            // Chiriguaná (fin): 9.363, -73.564
+                            const latBase = 5.453;
+                            const lngBase = -74.661;
+                            const latEnd = 9.363;
+                            const lngEnd = -73.564;
+                            
+                            // PK 202 (inicio) a ~920 (fin aprox del tramo La Dorada-Chiriguaná)
+                            const pkInicio = 202;
+                            const pkFin = 920;
+                            const pkRango = pkFin - pkInicio;
+                            
+                            let factor = 0;
+                            if (pkNumber >= pkInicio && pkNumber <= pkFin) {
+                                factor = (pkNumber - pkInicio) / pkRango;
+                            } else if (pkNumber < pkInicio) {
+                                factor = 0;
+                            } else {
+                                factor = 1;
+                            }
+                            
+                            lat = latBase + (latEnd - latBase) * factor;
+                            lng = lngBase + (lngEnd - lngBase) * factor;
+                            console.log('📍 Coordenada aproximada para PK', pkStr, ':', lat, lng);
                         }
                     }
                     
