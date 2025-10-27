@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Georreferenciado - APP La Dorada-Chiriguaná</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Librerías para manejo de KML/KMZ -->
+    <script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="https://unpkg.com/togeojson@0.16.0/togeojson.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        
+        .sidebar {
+            width: 400px;
+            background: white;
+            overflow-y: auto;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 15px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .control-group {
+            margin-bottom: 15px;
+        }
+        
+        .control-group label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 5px;
+        }
+        
+        .control-group select, .control-group input {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            background: #5568d3;
+        }
+        
+        .stats {
+            padding: 15px;
+            background: #d1ecf1;
+            border-bottom: 2px solid #0c5460;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            color: #666;
+            margin-top: 3px;
+        }
+        
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 1000;
+            max-width: 250px;
+        }
+        
+        .legend h4 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .legend-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid #333;
+        }
+        
+        .equipment-list {
+            padding: 10px;
+        }
+        
+        .equipment-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            cursor: pointer;
+            border-left: 4px solid #667eea;
+        }
+        
+        .equipment-item:hover {
+            background: #e9ecef;
+        }
+        
+        .equipment-item h4 {
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .equipment-item p {
+            font-size: 11px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">
+                <h1>📍 Layout Georreferenciado</h1>
+                <p>APP La Dorada-Chiriguaná</p>
+            </div>
+            
+            <div class="stats">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalElements">-</div>
+                        <div class="stat-label">Elementos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="visibleElements">-</div>
+                        <div class="stat-label">Visibles</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <div class="control-group">
+                    <label>⚙️ Sistema:</label>
+                    <select id="tipoFilter">
+                        <option value="">Todos los sistemas</option>
+                        <option value="CONTROL">Control y Señalización</option>
+                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
+                        <option value="SEGURIDAD">Seguridad</option>
+                        <option value="ENERGIA">Energía</option>
+                    </select>
+                </div>
+                
+                <div class="control-group" style="display: none;">
+                    <label>Sistema (deshabilitado):</label>
+                    <select id="sistemaFilter">
+                        <option value="">Todos los sistemas</option>
+                        <option value="CONTROL">Control y Señalización</option>
+                        <option value="TELECOMUNICACIONES">Telecomunicaciones</option>
+                        <option value="SEGURIDAD">Seguridad</option>
+                        <option value="ENERGIA">Energía</option>
+                    </select>
+                </div>
+                
+                <button class="btn" onclick="limpiarFiltros()">🔄 Limpiar Filtros</button>
+            </div>
+            
+            <div class="equipment-list" id="equipmentList">
+                <!-- Lista de equipos se poblará dinámicamente -->
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <div id="map"></div>
+            <div class="legend">
+                <h4>Leyenda</h4>
+                <div class="legend-item">
+                    <div class="legend-icon" style="background: #e74c3c;"></div>
+                    <span>Torres TETRA</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-icon" style="background: #3498db;"></div>
+                    <span>Cajas Fibra</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-icon" style="background: #2ecc71;"></div>
+                    <span>Estaciones</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-icon" style="background: #f39c12;"></div>
+                    <span>CCTV</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Cargar datos del layout -->
+    <script src="layout_datos.js"></script>
+    <script src="coordenadas_kml.js"></script>
+    
+    <script>
+        // Inicializar mapa centrado en el proyecto
+        // Centro del corredor: punto medio entre La Dorada y Chiriguaná
+        // La Dorada: 5.453, -74.661 | Chiriguaná: 9.363, -73.564
+        var map = L.map('map').setView([7.4, -74.1], 9);
+        
+        // Agregar capa base OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors | Proyecto APP La Dorada-Chiriguaná',
+            maxZoom: 18
+        }).addTo(map);
+        
+        let allMarkers = [];
+        let equipmentMarkers = {};
+        
+        // Cargar archivo KML desde GitHub Pages
+        function cargarKML() {
+            // Intentar cargar el archivo .kmz (necesita ser descomprimido)
+            fetch('https://dieleoz.github.io/LD-CH/X_ENTREGABLES_CONSOLIDADOS/5_INDICES_NAVEGACION/Sistema Ferreo LD-CH_Via.kmz')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Archivo KML no encontrado en GitHub Pages');
+                    }
+                    return response.arrayBuffer();
+                })
+                .then(data => {
+                    // Intentar parsear como KMZ (zip con KML dentro)
+                    try {
+                        // Usar la librería JSZip para descomprimir
+                        if (typeof JSZip !== 'undefined') {
+                            JSZip.loadAsync(data).then(zip => {
+                                zip.file('doc.kml').async('string').then(kmlText => {
+                                    var kml = toGeoJSON.kml(kmlText);
+                                    agregarKMLAlMapa(kml);
+                                });
+                            });
+                        } else {
+                            console.warn('JSZip no está disponible, intentando como KML directo...');
+                            var kml = toGeoJSON.kml(new DOMParser().parseFromString(data, 'text/xml'));
+                            agregarKMLAlMapa(kml);
+                        }
+                    } catch (e) {
+                        console.error('Error parseando KML:', e);
+                    }
+                })
+                .catch(err => {
+                    console.error('Error cargando KML:', err);
+                    // Continuar sin KML, solo usar marcadores del layout
+                    console.log('Usando solo datos del layout (equipos individuales)');
+                });
+        }
+        
+        function agregarKMLAlMapa(geojson) {
+            L.geoJSON(geojson, {
+                style: function(feature) {
+                    return {
+                        color: '#667eea',
+                        weight: 4,
+                        opacity: 0.8
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>Trazado de vía férrea');
+                    }
+                }
+            }).addTo(map);
+        }
+        
+        // Renderizar equipos en el mapa
+        function renderizarEquipos() {
+            // Limpiar marcadores anteriores
+            allMarkers.forEach(marker => map.removeLayer(marker));
+            allMarkers = [];
+            equipmentMarkers = {};
+            
+            // Si existe LAYOUT_DATOS, usarlo
+            if (typeof LAYOUT_DATOS !== 'undefined' && LAYOUT_DATOS.length > 0) {
+                console.log('✅ LAYOUT_DATOS cargado:', LAYOUT_DATOS.length, 'elementos');
+                console.log('📋 Primer elemento:', LAYOUT_DATOS[0]);
+                
+                let countWithCoords = 0;
+                let countWithoutCoords = 0;
+                
+                LAYOUT_DATOS.forEach(equipo => {
+                    // Filtrar por sistema (tipo_equipo)
+                    const filtroSistema = document.getElementById('tipoFilter').value;
+                    if (filtroSistema && equipo.tipo_equipo !== filtroSistema) return;
+                    
+                    // Obtener coordenadas reales o aproximadas
+                    let lat, lng;
+                    
+                    if (equipo.latitud && equipo.longitud) {
+                        // Si ya tiene coordenadas, usarlas
+                        lat = parseFloat(equipo.latitud);
+                        lng = parseFloat(equipo.longitud);
+                    } else {
+                        // Convertir PK del formato ferroviario (338+250) a número
+                        // Extraer parte entera antes del '+'
+                        let pkStr = equipo.pk;
+                        let pkNumber = 0;
+                        
+                        if (pkStr.includes('+')) {
+                            // Formato "338+250" -> extraer 338
+                            const parts = pkStr.split('+');
+                            pkNumber = parseInt(parts[0]) || 0;
+                        } else {
+                            // Formato numérico directo
+                            pkNumber = parseFloat(pkStr.replace(/[^\d.]+/g, '')) || 0;
+                        }
+                        
+                        // Buscar en coordenadas del KML
+                        const coordKML = window.coordenadasKML?.find(c => c.PK === pkNumber);
+                        
+                        if (coordKML) {
+                            // Usar coordenadas reales del KML
+                            lat = coordKML.latitud;
+                            lng = coordKML.longitud;
+                            console.log('✅ Coordenada KML real para PK', pkStr, '->', pkNumber, ':', lat, lng);
+                        } else {
+                            // Calcular coordenadas aproximadas desde PK
+                            // La Dorada (inicio): 5.453, -74.661
+                            // Chiriguaná (fin): 9.363, -73.564
+                            const latBase = 5.453;
+                            const lngBase = -74.661;
+                            const latEnd = 9.363;
+                            const lngEnd = -73.564;
+                            
+                            // PK 202 (inicio) a ~920 (fin aprox del tramo La Dorada-Chiriguaná)
+                            const pkInicio = 202;
+                            const pkFin = 920;
+                            const pkRango = pkFin - pkInicio;
+                            
+                            let factor = 0;
+                            if (pkNumber >= pkInicio && pkNumber <= pkFin) {
+                                factor = (pkNumber - pkInicio) / pkRango;
+                            } else if (pkNumber < pkInicio) {
+                                factor = 0;
+                            } else {
+                                factor = 1;
+                            }
+                            
+                            lat = latBase + (latEnd - latBase) * factor;
+                            lng = lngBase + (lngEnd - lngBase) * factor;
+                            console.log('📍 Coordenada aproximada para PK', pkStr, ':', lat, lng);
+                        }
+                    }
+                    
+                    countWithCoords++;
+                    
+                    // Determinar color según tipo
+                    let color = '#3498db'; // Azul por defecto
+                    if (equipo.tipo_equipo === 'CONTROL') color = '#e74c3c';
+                    else if (equipo.tipo_equipo === 'TELECOMUNICACIONES') color = '#3498db';
+                    else if (equipo.tipo_equipo === 'SEGURIDAD') color = '#2ecc71';
+                    else if (equipo.tipo_equipo === 'ENERGIA') color = '#f39c12';
+                    
+                    // Debug: solo para primeros 5 elementos
+                    if (countWithCoords <= 5) {
+                        console.log(`🎯 Renderizando equipo ${countWithCoords}:`, equipo.nombre, 'PK:', equipo.pk, '-> Coords:', lat, lng);
+                    }
+                    
+                    // Verificar que las coordenadas sean válidas
+                    if (isNaN(lat) || isNaN(lng)) {
+                        console.error('❌ Coordenadas inválidas para', equipo.nombre, ':', lat, lng);
+                        return;
+                    }
+                    
+                    // Crear marcador
+                    const marker = L.circleMarker([lat, lng], {
+                        radius: 8,
+                        fillColor: color,
+                        color: '#fff',
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    });
+                    
+                    // Popup con información
+                    marker.bindPopup(`
+                        <div style="min-width: 200px;">
+                            <h3 style="margin: 0 0 10px 0; color: #667eea;">${equipo.nombre}</h3>
+                            <p style="margin: 5px 0;"><strong>Dispositivo:</strong> ${equipo.dispositivo}</p>
+                            <p style="margin: 5px 0;"><strong>Tipo:</strong> ${equipo.tipo_equipo}</p>
+                            <p style="margin: 5px 0;"><strong>PK:</strong> ${equipo.pk}</p>
+                            <p style="margin: 5px 0;"><strong>Ubicación:</strong> ${equipo.ubicacion_lado}</p>
+                            ${equipo.descripcion ? `<p style="margin: 5px 0;">${equipo.descripcion}</p>` : ''}
+                        </div>
+                    `);
+                    
+                    marker.addTo(map);
+                    allMarkers.push(marker);
+                    equipmentMarkers[equipo.nombre] = marker;
+                });
+                
+                console.log(`✅ Marcadores creados: ${allMarkers.length} | Con coordenadas: ${countWithCoords} | Sin coordenadas: ${countWithoutCoords}`);
+            }
+            
+            // Actualizar estadísticas
+            document.getElementById('totalElements').textContent = typeof LAYOUT_DATOS !== 'undefined' ? LAYOUT_DATOS.length : 0;
+            document.getElementById('visibleElements').textContent = allMarkers.length;
+            
+            // Ajustar vista del mapa
+            if (allMarkers.length > 0) {
+                const group = new L.featureGroup(allMarkers);
+                map.fitBounds(group.getBounds().pad(0.2));
+                console.log('📍 Bounds ajustados. Marcadores visibles:', allMarkers.length);
+            } else {
+                console.warn('⚠️ No hay marcadores para ajustar bounds');
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('tipoFilter').addEventListener('change', renderizarEquipos);
+        document.getElementById('sistemaFilter').addEventListener('change', renderizarEquipos);
+        
+        function limpiarFiltros() {
+            document.getElementById('tipoFilter').value = '';
+            document.getElementById('sistemaFilter').value = '';
+            renderizarEquipos();
+        }
+        
+        // Coordenadas KML cargadas desde coordenadas_kml.js
+        if (typeof window.coordenadasKML !== 'undefined') {
+            console.log('✅ Coordenadas KML cargadas:', window.coordenadasKML.length, 'puntos');
+        } else {
+            console.warn('⚠️ coordenadas_kml.js no cargado');
+        }
+        
+        // Inicializar
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                if (typeof LAYOUT_DATOS !== 'undefined' && LAYOUT_DATOS.length > 0) {
+                    cargarKML();
+                    renderizarEquipos();
+                } else {
+                    console.log('Esperando datos del layout...');
+                    setTimeout(arguments.callee, 500);
+                }
+            }, 500);
+        });
+    </script>
+</body>
+</html>
+
