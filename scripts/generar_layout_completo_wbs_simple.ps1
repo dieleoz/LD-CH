@@ -27,16 +27,24 @@ foreach ($item in $wbsData.items) {
             default { 'OTROS' }
         }
         
-        $pkBase = switch ($item.capitulo) {
-            '1' { 300 }
-            '2' { 400 }
-            '3' { 500 }
-            '4' { 550 }
-            '5' { 441 }
-            default { 350 }
+        # Generar PK distribuido a lo largo del corredor
+        # Cap 1: PK 300-370 (inicio)
+        # Cap 2: PK 370-450 (zona media-inicio)
+        # Cap 3: PK 450-520 (zona media)
+        # Cap 4: PK 520-620 (PANs)
+        # Cap 5: PK 441 (CCO específico)
+        
+        $pkInicio = switch ($item.capitulo) {
+            '1' { 300 + (Get-Random -Minimum 0 -Maximum 70) }
+            '2' { 370 + (Get-Random -Minimum 0 -Maximum 80) }
+            '3' { 450 + (Get-Random -Minimum 0 -Maximum 70) }
+            '4' { 520 + (Get-Random -Minimum 0 -Maximum 100) }
+            '5' { 441 + (Get-Random -Minimum 0 -Maximum 10) }
+            default { 350 + (Get-Random -Minimum 0 -Maximum 50) }
         }
         
-        $pk = "$pkBase+000"
+        $pkMetros = Get-Random -Minimum 0 -Maximum 999
+        $pk = "$pkInicio+$pkMetros"
         
         # Buscar coordenadas
         if ($pk -match '(\d+)\+') {
