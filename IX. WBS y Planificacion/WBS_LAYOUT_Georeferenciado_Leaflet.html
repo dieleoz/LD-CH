@@ -506,8 +506,36 @@
             }
         }
         
+        // Función para actualizar opciones de Dispositivo según el Sistema seleccionado
+        function actualizarOpcionesDispositivo() {
+            const sistemaFiltro = document.getElementById('tipoFilter').value;
+            const dispositivoInput = document.getElementById('dispositivoFilter');
+            
+            // Limpiar sugerencias
+            if (typeof LAYOUT_DATOS === 'undefined') return;
+            
+            // Obtener todos los dispositivos únicos del sistema seleccionado
+            let dispositivos = [];
+            LAYOUT_DATOS.forEach(equipo => {
+                if (!sistemaFiltro || equipo.tipo_equipo === sistemaFiltro) {
+                    if (equipo.dispositivo && !dispositivos.includes(equipo.dispositivo)) {
+                        dispositivos.push(equipo.dispositivo);
+                    }
+                }
+            });
+            
+            // Log para debugging
+            console.log(`Dispositivos disponibles para Sistema "${sistemaFiltro || 'Todos'}": ${dispositivos.length}`);
+            if (dispositivos.length > 0 && dispositivos.length <= 20) {
+                console.log(dispositivos);
+            }
+        }
+        
         // Event listeners
-        document.getElementById('tipoFilter').addEventListener('change', renderizarEquipos);
+        document.getElementById('tipoFilter').addEventListener('change', function() {
+            actualizarOpcionesDispositivo();
+            renderizarEquipos();
+        });
         document.getElementById('ubicacionFilter').addEventListener('change', renderizarEquipos);
         document.getElementById('dispositivoFilter').addEventListener('input', renderizarEquipos);
         
