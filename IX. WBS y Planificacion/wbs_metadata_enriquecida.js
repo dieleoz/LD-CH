@@ -1091,4 +1091,7 @@
 
 
 ;
-if (typeof window !== 'undefined') { window.metadata_enriquecida = wbsMetadata; }
+if (typeof window !== 'undefined') { 
+  window.wbsMetadata = wbsMetadata;
+  window.metadata_enriquecida = wbsMetadata;
+}
