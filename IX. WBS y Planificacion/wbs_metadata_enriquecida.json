@@ -5,78 +5,81 @@
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
-      "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante y Equipos Embarcados), que define la arquitectura tecnológica del CTC para control centralizado del tráfico ferroviario. Según AT2 (Operación y Mantenimiento) se requiere disponibilidad 99.95% para sistemas críticos. AT3 (Especificaciones Generales) establece que el CTC debe operar 24/7 con redundancia activa. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby). Referencias: AT1 Alcance del Proyecto, AT2 Operación y Mantenimiento, AT3 Especificaciones Generales, AT4 Disponibilidad (99.95%)",
+      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico), que define la arquitectura tecnológica para el control centralizado del tráfico ferroviario. AT2 (Operación y Mantenimiento) exige disponibilidad garantizada 24/7 y AT3 (Especificaciones Generales) impone redundancia activa para sistemas vitales. La configuración mínima es 2 UND (1 servidor principal + 1 servidor respaldo en hot-standby) para asegurar failover inmediato y cumplimiento contractual con integración ETCS L2/FENOCO.",
       "criterios_diseno": [
-        "Redundancia N+1 para alta disponibilidad (AT2 Operación y Mantenimiento)",
-        "Capacidad procesamiento: 100 trenes simultáneos (AT1 Alcance del Proyecto)",
-        "Tiempo respuesta < 100ms según IEC 62290-1",
-        "Failover automático <5 segundos para continuidad operativa (AT2)"
+        "Arquitectura centralizada con redundancia activa N+1",
+        "Hot-standby principal/respaldo con failover automático <5 segundos",
+        "Disponibilidad contractual 99.95% para sistemas vitales (AT2/AT4)",
+        "Integración directa con ETCS L2 y protocolos FENOCO definidos en AT1"
       ],
       "supuestos": [
         "2 servidores (1 principal + 1 respaldo en hot-standby)",
-        "Arquitectura cliente-servidor virtualizada",
-        "Comunicación redundante fibra óptica en doble anillo",
-        "Monitoreo continuo 24/7 según AT2"
+        "Arquitectura cliente-servidor virtualizada con cluster activo",
+        "Comunicación redundante sobre fibra óptica en doble anillo",
+        "Monitoreo continuo 24/7 conforme a plan de O&M (AT2)"
       ],
-      "decisiones_tecnicas": ["DT-CTC-004-2025-10-24"],
-      "feedback_especialista": "Servidores configurados según arquitectura CTC virtual sin señalización física en vía, compatible con ATP embarcado y enclavamientos ENCE.",
+      "decisiones_tecnicas": [
+        "DT-CTC-004-2025-10-24",
+        "DT-FIBRA-011-2025-11-06"
+      ],
+      "feedback_especialista": "Servidores configurados según arquitectura CTC virtual con redundancia activa, compatibles con ATP embarcado, enclavamientos ENCE y protocolos FENOCO.",
       "documentos_ingenieria": [
         "V.1_CTC_Detalle_v1.0.md",
         "IV.1_CTC_Basica_v2.0.md",
-        "AT1 - Alcance del Proyecto",
+        "AT1 - Control de Tráfico",
         "AT2 - Operación y Mantenimiento",
         "AT3 - Especificaciones Generales"
       ],
       "referencias_contractuales": [
-        "AT1 - Alcance del Proyecto (Material Rodante y Equipos Embarcados)",
-        "AT2 - Operación y Mantenimiento (Disponibilidad 99.95%)",
-        "AT3 - Especificaciones Generales (Sistema CTC)",
-        "IEC 62290-1 - Sistemas de control ferroviario"
+        "AT1 - Control de Tráfico (Arquitectura CTC)",
+        "AT2 - Operación y Mantenimiento (Disponibilidad 24/7)",
+        "AT3 - Especificaciones Generales (Redundancia activa)",
+        "AT4 - Disponibilidad 99.95%"
       ],
-      "ultima_actualizacion": "2025-10-24",
-      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+      "ultima_actualizacion": "2025-11-11",
+      "actualizado_por": "DT-FIBRA-011-2025-11-06"
     },
     "1.1.103": {
       "descripcion": "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
-      "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), AT3 (Especificaciones ETCS L2) y AT4 (Disponibilidad), que establecen sistema CTC con ETCS Level 2 interoperable con FENOCO bajo disponibilidad 99.95%. Según cláusula 1.2(d) del Contrato y AT3 (numerales 2.1 y 2.3.1), AT10 (2.1) y AT1 (1.2), el concesionario debe implementar sistema CTC interoperable con FENOCO bajo ETCS L2 con alta disponibilidad y trazabilidad BIM. Cantidad: 1 UND (licencia corporativa completa con: Core CTC $30B para 8 estaciones + CCO + redundancia + 100 trenes simultáneos, ETCS L2 $25B para EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA, Interoperabilidad FENOCO $15B para Protocolos UIC 950-7/554 + Gestión coordinada + Transferencia control, Alta Disponibilidad $9.15B para Cluster N+1 + Failover <5seg + DR RTO<1h RPO<15min + 99.95%). Referencias: AT1 Material Rodante, AT3 ETCS L2 interoperabilidad, AT4 Disponibilidad (99.95%), AT10 Interoperabilidad FENOCO, Knorr Bremse/CRRC ofertas validadas",
+      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico) que define la arquitectura funcional del CTC virtual y su interoperabilidad con ETCS Level 2. AT3 (Especificaciones Generales) y AT4 (Disponibilidad) exigen operación 24/7, tolerancia a fallos y compatibilidad con los protocolos FENOCO. Se mantiene 1 UND de licencia enterprise para plataforma CTC/ETCS L2 con redundancia lógica activa-activa y conectores de interoperabilidad FENOCO para garantizar continuidad del servicio.",
       "criterios_diseno": [
-        "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultáneos (AT1)",
-        "Módulo ETCS Level 2: $25B - EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA (AT3)",
-        "Interoperabilidad FENOCO: $15B - Protocolos UIC 950-7/554 + Gestión coordinada + Transferencia control (AT10)",
-        "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95% (AT4)"
+        "Plataforma virtualizada con cluster redundante activo-activo",
+        "Compatibilidad ETCS Level 2 y PTC según AT1/AT3",
+        "Integración API con RBC FENOCO y módulos CTC",
+        "Monitoreo 24/7 con actualizaciones en caliente y RTO<1h"
       ],
       "supuestos": [
-        "Licenciamiento perpetuo con 5 años soporte técnico incluido (AT2)",
-        "Certificación CENELEC ETCS Level 2 completa incluida (AT3)",
-        "Interfaces FENOCO customizadas específicas del proyecto (AT10)",
-        "Capacitación 300 horas (200 operadores + 100 ingenieros según AT2)",
-        "Customización 30% del software para requisitos específicos (AT1)",
-        "Integración con SCADA, PAN, CCTV incluida (AT3)"
+        "Licenciamiento corporativo con soporte 24/7",
+        "Canal redundante con replicación en sitio alterno",
+        "Interfaces dedicadas para intercambio de órdenes con FENOCO",
+        "Capacitación integral de operadores y administradores (AT2)",
+        "Cumplimiento CENELEC EN 50126/128/129 para software vital"
       ],
       "decisiones_tecnicas": [
         "DT-CTC-002-2025-10-08",
-        "DT-CTC-003-2025-10-08"
+        "DT-CTC-003-2025-10-08",
+        "DT-FIBRA-160-2025-11-06"
       ],
-      "feedback_especialista": "Incremento +901% justificado por alcance completo ETCS L2 + Interoperabilidad FENOCO según AT3 y AT10. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces UIC, sistema HA 99.95% según AT4.",
+      "feedback_especialista": "Configuración virtual enterprise con redundancia lógica, interoperabilidad FENOCO y módulos ETCS L2 asegurando disponibilidad contractual 99.95%.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
         "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md",
-        "AT1 - Material Rodante",
-        "AT3 - ETCS L2 interoperabilidad",
+        "AT1 - Control de Tráfico",
+        "AT3 - Especificaciones Generales",
         "AT4 - Disponibilidad 99.95%",
         "AT10 - Interoperabilidad FENOCO"
       ],
       "referencias_contractuales": [
-        "AT1 - Material Rodante",
-        "AT3 - ETCS L2 interoperabilidad (numerales 2.1, 2.3.1)",
+        "AT1 - Control de Tráfico (Arquitectura CTC virtual)",
+        "AT3 - Especificaciones Generales (ETCS L2)",
         "AT4 - Disponibilidad 99.95%",
-        "AT10 - Interoperabilidad FENOCO (2.1)",
+        "AT10 - Interoperabilidad FENOCO",
         "UIC 950-7/554 - Protocolos FENOCO",
-        "CENELEC - Certificación ETCS L2"
+        "CENELEC EN 50126/128/129"
       ],
-      "ultima_actualizacion": "2025-10-24",
-      "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+      "ultima_actualizacion": "2025-11-11",
+      "actualizado_por": "DT-FIBRA-160-2025-11-06"
     },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
@@ -291,36 +294,189 @@
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "1.3.100": {
-    "descripcion": "Cable de cobre Cat 6A",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece infraestructura de comunicaciones para sistemas de señalización y CTC en estaciones ENCE. Según AT1, hay 5 estaciones ENCE críticas (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México). AT4 exige disponibilidad 99.95% para sistemas de señalización. Cantidad: 1,000 metros total (5 estaciones × 200m promedio según AT3). Cable Cat 6A para soportar 10 Gbps y garantizar velocidad necesaria para datos críticos. Referencias: AT3 Especificaciones Generales (infraestructura comunicaciones), AT4 Disponibilidad (99.95%), AT1 Estaciones ENCE (5 estaciones)",
+    "descripcion": "Controlador ENCE Zapatosa",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado con comportamiento fail-safe y AT4 exige disponibilidad 99.95% mediante redundancia N+1. Se mantiene 1 UND para la estación Zapatosa con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
-      "Categoría 6A para 10 Gbps según AT3",
-      "Blindaje STP para ambientes industriales ferroviarios",
-      "Certificación permanente según TIA-568.2-D",
-      "Compatibilidad poes y 802.3af/at (power over ethernet)"
+      "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
+      "Redundancia activa N+1 para continuidad operativa (AT4)",
+      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
-      "1,000 metros total (5 estaciones ENCE × 200m cada una)",
-      "Incluye conectores RJ45, patch panels, organizadores cable",
-      "Infraestructura de canalización según AT3",
-      "Conectividad redundante para alta disponibilidad (AT4)"
+      "Controlador incluye gabinete redundante ENCE completo",
+      "Sincronización permanente con red fibra óptica y TETRA",
+      "Protección EMC y alimentación respaldada UPS/rectificadores",
+      "Migración sin interrupción coordinada con FENOCO"
     ],
-    "decisiones_tecnicas": [],
-    "feedback_especialista": "Cable Cat 6A permite operación 10 Gbps necesaria para señales digitales ENCE y comunicación con CTC centralizado según AT3.",
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07",
+      "DT-FIBRA-797-2025-11-06"
+    ],
+    "feedback_especialista": "Enclavamiento (ENCE) debe tener redundancia; gobierna señales y agujas y debe operar en modo fail-safe ante eventos de fallo.",
     "documentos_ingenieria": [
-      "V.3_Comunicacion_Detalle_v3.0.md",
-      "AT3 - Especificaciones Generales (comunicaciones)",
-      "AT4 - Disponibilidad 99.95%",
-      "AT1 - Estaciones ENCE (5 estaciones)"
+      "V.X_Enclavamientos_ENCE_Detalle_v5.0.md",
+      "29_Sistema_Senalizacion_Integrado_v5.0.md",
+      "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+      "AT1 - Enclavamientos",
+      "AT3 - Especificaciones Técnicas ENCE",
+      "AT4 - Disponibilidad 99.95%"
     ],
     "referencias_contractuales": [
-      "AT3 - Infraestructura comunicaciones CTC/ENCE",
-      "AT4 - Disponibilidad 99.95% sistemas de señalización",
-      "AT1 - 5 estaciones ENCE críticas",
-      "TIA-568.2-D - Estándar cableado estructurado"
+      "AT1 - Enclavamientos (Control centralizado por estación)",
+      "AT3 - NAS 818/819 y ET 03.365.401.3",
+      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-10-24",
-    "actualizado_por": "DT-JUSTIFICACION-WBS-001"
+    "ultima_actualizacion": "2025-11-11",
+    "actualizado_por": "DT-FIBRA-797-2025-11-06"
+  },
+  "1.3.101": {
+    "descripcion": "Controlador ENCE García Cadena",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación García Cadena con integración redundante al CTC y al sistema ETCS L2.",
+    "criterios_diseno": [
+      "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
+      "Redundancia activa N+1 para continuidad operativa (AT4)",
+      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
+    ],
+    "supuestos": [
+      "Controlador incluye gabinete redundante ENCE completo",
+      "Sincronización permanente con red fibra óptica y TETRA",
+      "Protección EMC y alimentación respaldada UPS/rectificadores",
+      "Migración sin interrupción coordinada con FENOCO"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07",
+      "DT-FIBRA-318-2025-11-07"
+    ],
+    "feedback_especialista": "Enclavamiento (ENCE) debe tener redundancia; gobierna señales y agujas y debe operar en modo fail-safe ante eventos de fallo.",
+    "documentos_ingenieria": [
+      "V.X_Enclavamientos_ENCE_Detalle_v5.0.md",
+      "29_Sistema_Senalizacion_Integrado_v5.0.md",
+      "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+      "AT1 - Enclavamientos",
+      "AT3 - Especificaciones Técnicas ENCE",
+      "AT4 - Disponibilidad 99.95%"
+    ],
+    "referencias_contractuales": [
+      "AT1 - Enclavamientos (Control centralizado por estación)",
+      "AT3 - NAS 818/819 y ET 03.365.401.3",
+      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
+    ],
+    "ultima_actualizacion": "2025-11-11",
+    "actualizado_por": "DT-FIBRA-318-2025-11-07"
+  },
+  "1.3.102": {
+    "descripcion": "Controlador ENCE Barrancabermeja",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Barrancabermeja con integración redundante al CTC y al sistema ETCS L2.",
+    "criterios_diseno": [
+      "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
+      "Redundancia activa N+1 para continuidad operativa (AT4)",
+      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
+    ],
+    "supuestos": [
+      "Controlador incluye gabinete redundante ENCE completo",
+      "Sincronización permanente con red fibra óptica y TETRA",
+      "Protección EMC y alimentación respaldada UPS/rectificadores",
+      "Migración sin interrupción coordinada con FENOCO"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07",
+      "DT-FIBRA-522-2025-11-07"
+    ],
+    "feedback_especialista": "Enclavamiento (ENCE) debe tener redundancia; gobierna señales y agujas y debe operar en modo fail-safe ante eventos de fallo.",
+    "documentos_ingenieria": [
+      "V.X_Enclavamientos_ENCE_Detalle_v5.0.md",
+      "29_Sistema_Senalizacion_Integrado_v5.0.md",
+      "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+      "AT1 - Enclavamientos",
+      "AT3 - Especificaciones Técnicas ENCE",
+      "AT4 - Disponibilidad 99.95%"
+    ],
+    "referencias_contractuales": [
+      "AT1 - Enclavamientos (Control centralizado por estación)",
+      "AT3 - NAS 818/819 y ET 03.365.401.3",
+      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
+    ],
+    "ultima_actualizacion": "2025-11-11",
+    "actualizado_por": "DT-FIBRA-522-2025-11-07"
+  },
+  "1.3.103": {
+    "descripcion": "Controlador ENCE Puerto Berrío-Grecia",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Puerto Berrío-Grecia con integración redundante al CTC y al sistema ETCS L2.",
+    "criterios_diseno": [
+      "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
+      "Redundancia activa N+1 para continuidad operativa (AT4)",
+      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
+    ],
+    "supuestos": [
+      "Controlador incluye gabinete redundante ENCE completo",
+      "Sincronización permanente con red fibra óptica y TETRA",
+      "Protección EMC y alimentación respaldada UPS/rectificadores",
+      "Migración sin interrupción coordinada con FENOCO"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07",
+      "DT-FIBRA-384-2025-11-07"
+    ],
+    "feedback_especialista": "Enclavamiento (ENCE) debe tener redundancia; gobierna señales y agujas y debe operar en modo fail-safe ante eventos de fallo.",
+    "documentos_ingenieria": [
+      "V.X_Enclavamientos_ENCE_Detalle_v5.0.md",
+      "29_Sistema_Senalizacion_Integrado_v5.0.md",
+      "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+      "AT1 - Enclavamientos",
+      "AT3 - Especificaciones Técnicas ENCE",
+      "AT4 - Disponibilidad 99.95%"
+    ],
+    "referencias_contractuales": [
+      "AT1 - Enclavamientos (Control centralizado por estación)",
+      "AT3 - NAS 818/819 y ET 03.365.401.3",
+      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
+    ],
+    "ultima_actualizacion": "2025-11-11",
+    "actualizado_por": "DT-FIBRA-384-2025-11-07"
+  },
+  "1.3.104": {
+    "descripcion": "Controlador ENCE La Dorada-México",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación La Dorada-México con integración redundante al CTC y al sistema ETCS L2.",
+    "criterios_diseno": [
+      "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
+      "Redundancia activa N+1 para continuidad operativa (AT4)",
+      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
+    ],
+    "supuestos": [
+      "Controlador incluye gabinete redundante ENCE completo",
+      "Sincronización permanente con red fibra óptica y TETRA",
+      "Protección EMC y alimentación respaldada UPS/rectificadores",
+      "Migración sin interrupción coordinada con FENOCO"
+    ],
+    "decisiones_tecnicas": [
+      "DT-ENCE-003-2025-10-07",
+      "DT-FIBRA-301-2025-11-07"
+    ],
+    "feedback_especialista": "Enclavamiento (ENCE) debe tener redundancia; gobierna señales y agujas y debe operar en modo fail-safe ante eventos de fallo.",
+    "documentos_ingenieria": [
+      "V.X_Enclavamientos_ENCE_Detalle_v5.0.md",
+      "29_Sistema_Senalizacion_Integrado_v5.0.md",
+      "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
+      "AT1 - Enclavamientos",
+      "AT3 - Especificaciones Técnicas ENCE",
+      "AT4 - Disponibilidad 99.95%"
+    ],
+    "referencias_contractuales": [
+      "AT1 - Enclavamientos (Control centralizado por estación)",
+      "AT3 - NAS 818/819 y ET 03.365.401.3",
+      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
+    ],
+    "ultima_actualizacion": "2025-11-11",
+    "actualizado_por": "DT-FIBRA-301-2025-11-07"
   },
   "2.1.100": {
     "descripcion": "Torres autosoportadas",
