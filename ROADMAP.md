@@ -1,7 +1,7 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 05-Feb-2026 (v14.8.1)  
-**Estado:** ✅ Documentación EPC 100% | ✅ Punto 42 Certificado v6.1 | ✅ AT3 Rebuilt (FRA/AREMA)
+**Versión:** 05-Feb-2026 (v14.8.2)  
+**Estado:** ✅ Documentación EPC 100% | ✅ Punto 42 Certificado v6.1 | ✅ Baseline Técnico PTC/FRA
 
 ---
 
@@ -9,8 +9,8 @@
 
 ### **FASE 6 - REFINAMIENTO Y CIERRE (FEB 2026)**
 - ✅ **Audit v3 (MD Refinement):** 15+ documentos de gestión (XIV, XV, XVI) ajustados y renombrados según estándares contractuales.
-- ✅ **AT3 Technical Core:** Reconstrucción total bajo estándar **FRA 49 CFR Part 236 (PTC)** y **CTC Virtual**.
-- ✅ **Surgical Polish:** Ajustes en AT1 (Alertas de Otrosí), AT5 y Contrato General.
+- ✅ **Technical Baseline PTC/FRA:** AT1, AT3, AT4 y AT10 alineados con el estándar **FRA 49 CFR Part 236** e Interoperabilidad FENOCO.
+- ✅ **SICC & Availability:** Mapeo de penalidades del Contrato General (Cl. 16.1) y disponibilidad 99.95%.
 - ✅ **Punto 42 (Mejorado):** Certificación técnica-legal de los Apéndices "Mejorados".
 
 ### **FASE 0 - FASE E: INGENIERÍA EPC (100%)**

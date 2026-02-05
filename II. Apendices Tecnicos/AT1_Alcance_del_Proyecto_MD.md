@@ -27,7 +27,7 @@
 
 **Alcance del Proyecto - Infraestructura, UFVF, Talleres, Material Rodante e ITCS**
 
-Este apéndice técnico contiene las especificaciones, procedimientos y criterios técnicos relacionados con el alcance integral del proyecto APP La Dorada - Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este apéndice técnico contiene las especificaciones, procedimientos y criterios técnicos relacionados con el alcance integral del proyecto APP La Dorada - Chiriguaná, **100% ALINEADO CON EL ESTÁNDAR PTC (FRA 49 CFR 236)**.
 
 ---
 
@@ -216,7 +216,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 
 **Sistema dual por locomotora:**
 - Controlador LA DORADA-CHIRIGUANÁ
-- ITCS FENOCO (interoperabilidad)
+- PTC FENOCO (interoperabilidad AAR/AREMA)
 - Display integrado
 - GPS dual
 - Radio TETRA + GSM-R dual
