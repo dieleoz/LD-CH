@@ -536,8 +536,6 @@ Usuario → Refresh WBS_Layout_Maestro.html (Ctrl+Shift+F5)
 ├── CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md ✅ **DOCUMENTO MAESTRO**
 ├── MATRIZ_TRAZABILIDAD_TECNICA_APP_La_Dorada_Chiriguaná_v1.0.md ✅ **TRAZABILIDAD CRUZADA**
 ├── PROCEDIMIENTOS_COHERENCIA_TECNICA_APP_La_Dorada_Chiriguaná_v1.0.md ✅ **PROCEDIMIENTOS**
-├── ESTADO_FINAL_PROYECTO_CORREGIDO_v1.0.md ✅ **ESTADO FINAL**
-├── PROXIMOS_PASOS_PROYECTO_COMPLETADO_v1.0.md ✅ **PRÓXIMOS PASOS**
 ├── PROMPT_Administrador_Contractual_EPC_v5.0.md ✅ **METODOLOGÍA EPC**
 ├── PROMPT_Metodologia_Punto_42_Iteracion_MultiAgente_v1.1.md ✅ **METODOLOGÍA PUNTO 42**
 ├── promp para generar documentacion.md ✅ **PLANTILLA DOCUMENTACIÓN**
@@ -594,7 +592,7 @@ VIII. Documentos Maestros y Metodologia/
 │   ├── MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md ✅ **17 RIESGOS DINÁMICOS** ⭐
 │   └── PROMPT_Agente_Cursor_Gestion_Cambios_v1.0.md ✅ **Automatización**
 │
-└── README_VIII.md ✅ **ÍNDICE DE CARPETA**
+└── 36.2_Metodologia_Gestion_Supuestos.md ✅ **GESTIÓN SUPUESTOS**
 ```
 
 **Total VIII/:** 16 archivos organizados (5 maestros + 5 metodologías + 2 arquitecturas + 4 matrices)
