@@ -427,11 +427,57 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 | UFVF53 | Santa Lucía - Gamarra | 1.043.363,16 | 1.397.168,8 | 587+033 | 1.040.059,13 | 1.407.248,13 | 604+265 | 17,232 | La Pradera, Tumbachicha, C. Cabezas, Peralonso, Buturama |
 ---
 
-## ⚖️ VERDICTO DEL ADMINISTRADOR CONTRACTUAL EPC (v5.0)
-**Estado:** ✅ Validado - Óptimo.
+## ⚖️ DICTAMEN DE VALIDACIÓN FORENSE (ADMINISTRADOR CONTRACTUAL EPC)
+**Documento:** AT1_Alcance_del_Proyecto_MD.md (v5.0)
+**Estado:** 🚨 ALERTA CRÍTICA DE RIESGO CONTRACTUAL / ✅ TÉCNICAMENTE VALIDADO (A FUTURO)
 
-**Hito de Coherencia:** Se confirma la eliminación de 1,080 Eurobalises y señales LED físicas, consolidando la Filosofía de Señalización Virtual (CTC + ATP embarcado).
+### 📊 1. ANÁLISIS DE CAMBIOS SUSTANCIALES (MD v5.0 vs. CONTRATO ORIGINAL)
+El documento MD redefine el alcance para lograr una modernización tecnológica y ahorros financieros, pero altera las obligaciones físicas descritas en el PDF original.
 
-**Cantidades Maestras:** Se validaron los 594 km de fibra óptica, 37 estaciones TETRA/GSM-R y los 15 dispositivos EOT.
+#### A. Infraestructura ELIMINADA (El Ahorro Propuesto)
+El documento MD confirma la eliminación de activos que se asumen requeridos en el diseño base convencional:
+*   ❌ **0 Eurobalizas:** Se eliminan 1,080 unidades.
+*   ❌ **0 Señales LED de vía:** Se eliminan 270 unidades.
+*   ❌ **0 RBC (Radio Block Centers):** Se eliminan 2 unidades físicas.
+*   **Justificación:** Se migra a una filosofía de "Señalización Virtual" basada en CTC + ATP Embarcado.
 
-**Impacto Presupuestal:** El documento ahora refleja un ahorro neto de -$50,193,000,000 COP derivado de la optimización de infraestructura física.
+#### B. Infraestructura AGREGADA (La Compensación Tecnológica)
+Para que la operación sea segura sin señales físicas, el MD exige implementar sistemas que no están detallados con esa especificidad en el PDF original:
+*   ✅ **GSM-R:** 37 estaciones base (además de TETRA) para redundancia de comunicaciones.
+*   ✅ **EOT (End of Train):** 15 dispositivos para monitorear la integridad del tren.
+*   ✅ **Desvíos:** 120 unidades (25 motorizados + 95 manuales).
+*   ✅ **ENCE (Enclavamientos Electrónicos):** 5 estaciones fijas.
+
+### ⚖️ 2. RIESGOS CONTRACTUALES Y FINANCIEROS
+**R-1: Incumplimiento de Alcance Físico**
+*   **Fuente:** Apéndice Técnico 1 original (PDF).
+*   **Riesgo:** La Interventoría puede rechazar la Unidad Funcional si se entrega una vía "vacía" de señales sin la modificación contractual previa.
+*   **Impacto:** El ahorro neto de **$50,193,000,000 COP** debe gestionarse transparentemente para evitar interpretaciones de "menor alcance".
+
+**R-2: Interoperabilidad con FENOCO**
+*   **Riesgo:** Si FENOCO no acepta operar bajo "Señalización Virtual" o sus locomotoras no son compatibles, se viola la obligación de Acceso a Terceros.
+*   **Requisito:** Acuerdo técnico firmado con FENOCO.
+
+### 🛠️ 3. COHERENCIA TÉCNICA (METODOLOGÍA PUNTO 42)
+Técnicamente coherente bajo su propia lógica (v5.0):
+1.  **Conectividad:** 594 km de Fibra y Redundancia TETRA+GSM-R soportan la seguridad.
+2.  **CCTV:** 73 cámaras mitigan la falta de supervisión física en vía.
+
+### 🚀 4. INSTRUCCIONES AL EQUIPO (ESTRATEGIA DE EJECUCIÓN)
+**Para Gerencia Jurídica y Comercial:**
+*   **NO CONSTRUIR AÚN:** Usar como insumo para el **Otrosí** ante la ANI.
+*   **Negociación:** Preparar estrategia para el manejo del ahorro de ~$50 mil millones.
+
+**Para Director de Ingeniería:**
+*   **Diseño Dual (Congelado):** Detener diseño de obras civiles para señales laterales.
+*   **Prioridad Telecom:** Avanzar con Fibra y Torres (requeridos en ambos escenarios).
+
+**Para Control de Proyectos:**
+*   **WBS:** Crear "Presupuesto Meta" (Target Budget) con este alcance.
+
+### ✅ VEREDICTO FINAL
+Documento validado como propuesta de **Ingeniería de Valor**.
+*   **Uso Aprobado:** Negociación ANI, Compras Telecom.
+*   **Uso Restringido:** No apto para construcción de señalización hasta firma de Otrosí.
+
+⚠️ **ADVERTENCIA LEGAL:** La ejecución sin Otrosí constituye incumplimiento contractual.
