@@ -96,4 +96,41 @@ La **Reversión Especial** aplica a intervenciones específicas (ej. puentes veh
 
 ---
 
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** Cl_15_Reversion_Bienes_MD.md (v5.0)
+**Dictamen:** ✅ HERRAMIENTA ESTRATÉGICA DE CIERRE (VALIDADA)
+
+### 📊 ANALISIS ESTRATÉGICO
+El documento identifica correctamente los activos objeto de reversión y la obligación crítica de transferencia de Propiedad Intelectual (Software/Licencias), punto de falla común en proyectos tecnológicos (Metodología Punto 42).
+
+### 📦 1. DEFINICIÓN Y ALCANCE DE LA REVERSIÓN
+- **Bienes Revertibles (Sección 3.3(a)):** Transferencia de propiedad de Locomotoras, Vagones, Equipos de Taller, Señalización (ITCS/CTC) y Software.
+- **Propiedad Intelectual (Sección 3.3(e)):** Obligación de entrega de licencias y derechos de uso por al menos 1 año post-reversión. Las licencias no deben ser nominativas al Consorcio, sino transferibles a la ANI.
+
+### 📆 2. PROCEDIMIENTO Y PLAZOS
+- **T-6 Meses:** Actualización final del Inventario de Activos.
+- **T-1 Mes:** Inspección conjunta para verificar estado funcional.
+- **Día 0:** Suscripción del Acta de Reversión.
+
+### 🏗️ 3. REVERSIÓN ESPECIAL (OBRAS ANTICIPADAS)
+- **Sección 9.16:** Aplicable a Escuelas (Santo Domingo, San José Primavera) y Puente Río Sogamoso. Se revierten inmediatamente tras la terminación de construcción (Fase de Obras).
+
+### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+**Para el Gerente de Compras/Tecnología:**
+1. **Cláusula de Cesión:** Incluir en todos los contratos de software (SICC, SCADA, ERP) la cesión gratuita a la ANI con 12 meses de vigencia adicional post-cierre.
+
+**Para el Director de Activos / O&M:**
+1. **Vida Útil Remanente:** Asegurar que los equipos se entreguen con vida útil suficiente para evitar el rechazo de activos por parte de la ANI.
+
+**Para el Equipo Jurídico:**
+1. **Saneamiento Predial:** Los predios de variantes deben estar saneados y a nombre de la ANI antes del mes T-6.
+
+**VEREDICTO FINAL:** Guía indispensable para la finalización exitosa del contrato.
+
+⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en las condiciones de reversión (especialmente licencias y estado de bienes) faculta a la ANI para ejecutar la Garantía de Cumplimiento o retener pagos finales.
+
+---
+
 **Advertencia:** Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+
