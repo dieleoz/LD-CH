@@ -446,20 +446,52 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 **Documento:** AT5_Interferencias_Redes_MD v4.1
 **Dictamen:** 🚨 ALERTA DE ALCANCE (SCOPE CREEP)
 
-### 📊 ANALISIS DE BRECHAS (MD vs PDF)
-1. **Definición de "Interferencia":** El PDF original es 100% físico (tuberías/servicios). El MD introduce **Interferencia Electromagnética (EMI)** para ITCS/PTC.
-2. **Interoperabilidad:** El MD responsabiliza al EPC si interferencias internas afectan trenes de FENOCO en frontera.
-3. **Disponibilidad:** Vincula redes con la meta del 99.95% de disponibilidad (AT4).
+### 📊 ANÁLISIS DE BRECHAS: MD (v4.1) vs. PDF ORIGINAL
 
-### ⚠️ RIESGOS GESTIONADOS (v4.1)
-- **R-325 Dependencia ITCS:** Riesgo de comprar protecciones estándar que no mitiguen ruido eléctrico específico del sistema final.
-- **R-328 Ciberseguridad:** Protección contra "Jamming" y cortes intencionales en cámaras de inspección.
+**A. Definición de "Interferencia" (El cambio radical)**
+* **Contrato Original (PDF):** Se enfoca exclusivamente en interferencias físicas. Define las actividades como identificación, inventario, manejo, protección y traslado de redes de servicios públicos (energía, telecomunicaciones, acueducto, gas) e hidrocarburos que crucen la vía.
+    * **Normativa:** Cita explícitamente normas civiles como API 1102 para cruces de tuberías y decretos de distancias de seguridad.
+* **Versión Mejorada (MD):** Expande la definición para incluir **interferencias electromagnéticas (EMI)**. Exige protocolos para mitigar el ruido eléctrico que afecte los equipos embarcados y de vía del sistema ITCS ETCS Level 2.
+    * **Riesgo:** El EPC podría verse obligado a blindar cables o mover líneas de alta tensión que físicamente cumplen la distancia, pero "electromagnéticamente" afectan la señalización, costos no contemplados en el CAPEX original de traslado de redes.
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Gerente de Redes:** Para terceros (EPM/TGI), usar criterios físicos del PDF. Para redes propias (Fibra/Energía), aplicar el MD v4.1 (Redundancia N+1).
-2. **Equipo Jurídico:** Preparar dossier demostrando que la gestión EMI excede la obligación original de "Traslado de Redes".
-3. **Ingeniería:** Incluir columna "Riesgo EMI" en el inventario de líneas de Alta Tensión.
+**B. Interoperabilidad con FENOCO**
+* **Contrato Original (PDF):** Menciona la coordinación general, pero no especifica la gestión de redes en función de la señalización electrónica de FENOCO en el AT5.
+* **Versión Mejorada (MD):** Establece la obligación de coordinar cruces para evitar que interferencias afecten la interoperabilidad de los trenes en la frontera con FENOCO.
+    * **Impacto:** Si un tren de FENOCO pierde señal al pasar por un cruce de alta tensión en nuestra concesión, bajo este documento v4.1 sería responsabilidad del EPC.
 
-**VEREDICTO FINAL:** Guía de Buenas Prácticas indispensable para trenes modernos, pero no es el documento base para obligaciones con terceros (cíñase a Ley 1682).
+**C. Disponibilidad y Redundancia (AT4)**
+* **Contrato Original (PDF):** Exige continuidad del servicio de las redes afectadas durante la obra (no dejar sin agua al vecino).
+* **Versión Mejorada (MD):** Vincula las redes con el Indicador de Disponibilidad Ferroviaria (AT4). Exige protección específica para la infraestructura propia (fibra óptica, energía) y arquitectura de **Redundancia N+1** para asegurar que un corte de terceros no tumbe la operación ferroviaria (meta 99.95%).
 
-⚠️ **ADVERTENCIA LEGAL:** El uso de especificaciones de blindaje EMI y ciberseguridad debe ser validado presupuestalmente. Si la Interventoría exige su cumplimiento en redes de terceros, se debe activar el procedimiento de Solución de Controversias.
+---
+
+### ⚠️ RIESGOS GESTIONADOS EN EL DOCUMENTO (v4.1)
+El documento identifica correctamente riesgos que el contrato original omite, protegiendo técnicamente al proyecto, pero exponiéndolo financieramente si no se gestiona bien:
+1. **R-325 Dependencia ITCS:** Se está gestionando el traslado de redes sin tener las especificaciones finales del proveedor de ITCS. Si compramos protecciones estándar y luego el sistema ITCS es muy sensible al ruido eléctrico, tocará rehacer el trabajo.
+2. **R-328 Ciberseguridad:** Introduce la protección contra interferencias maliciosas (**"Jamming"** o cortes intencionales), exigiendo seguridad física en las cámaras de inspección, algo no detallado en el PDF original.
+3. **R-327 Afectación Disponibilidad:** Reconoce que una ruptura de fibra óptica (gestionada en AT5) impacta directamente la billetera del EPC vía multas del AT4 (DVF).
+
+---
+
+### 🚀 INSTRUCCIONES AL EQUIPO (PLAN DE ACCIÓN)
+
+**Para el Gerente de Redes / Construcción:**
+1. **Gestión Dual:**
+    * **Para Terceros (EPM, Vanti, TGI):** Utilizar estrictamente los criterios del PDF Original (distancias físicas, profundidades, API 1102). No exigirles blindaje electromagnético a menos que ellos lo paguen o sea una norma técnica nacional obligatoria (RETIE).
+    * **Para Redes Propias (Fibra, Energía del Tren):** Aplicar los criterios del MD v4.1 (Redundancia N+1, protección EMI) para asegurar nuestra propia disponibilidad operativa y evitar multas del AT4.
+
+**Para el Equipo Jurídico y de Costos:**
+1. **Reclamación de Alcance:** Preparar un dossier técnico demostrando que la exigencia de **"Gestión de Interferencias Electromagnéticas (EMI)"** para el sistema ITCS (descrita en el MD) excede la obligación de "Traslado de Redes" del AT5 original. Esto debe ser pagado como un ítem no previsto si la ANI exige su implementación en redes de terceros.
+
+**Para Ingeniería de Detalle:**
+1. **Inventario de Redes (AT5 Cap II):** Al realizar el inventario en campo, añadir una columna de **"Riesgo EMI"** para líneas de Alta Tensión cercanas a la vía, basándose en los criterios del MD. Esto servirá de insumo para el diseño del blindaje del sistema de señalización, no necesariamente para trasladar la red eléctrica.
+
+---
+
+### ✅ VEREDICTO FINAL
+El documento **"AT5_Interferencias_Redes_MD v4.1"** es una Guía de Buenas Prácticas de Ingeniería (Punto 42) indispensable para garantizar que los trenes modernos funcionen, pero no es el documento contractual base para discutir obligaciones de traslado con terceros dueños de redes.
+* **Úselo para:** Diseño interno, protección de activos propios (ITCS/Fibra), análisis de riesgos.
+* **No lo use para:** Discutir obligaciones legales con empresas de servicios públicos (cíñase al PDF y Ley 1682).
+
+⚠️ **ADVERTENCIA LEGAL:** El uso de las especificaciones de blindaje electromagnético y ciberseguridad contenidas en la versión v4.1 de este documento debe ser validado presupuestalmente. Si la Interventoría exige su cumplimiento basándose en obligaciones generales de "funcionalidad", se debe activar el procedimiento de Solución de Controversias para reconocer los mayores costos asociados a redes de terceros.
+
