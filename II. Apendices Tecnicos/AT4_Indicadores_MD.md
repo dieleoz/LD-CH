@@ -406,10 +406,53 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE (v4.1)
-**Estado:** ✅ Validado.
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT4_Indicadores_MD.md (v4.1)
+**Dictamen:** 📊 APROBADO CON ALERTAS DE RIESGO FINANCIERO
 
-**SICC:** Se definió la operatividad del Sistema de Información para el Control y Calidad (SICC) con una disponibilidad mínima del 99% mensual.
+Este documento es el "Motor Financiero" del proyecto. Define las reglas matemáticas para el pago de la Retribución y las Deducciones. Moderniza el esquema con Metodología Punto 42 (ITCS, Ciberseguridad) pero eleva la vara de cumplimiento (99.95%).
 
-**Métricas de Servicio:** Se validó el indicador de Disponibilidad de Infraestructura Férrea (DVF) con una ponderación del 29.89% para el cálculo de la retribución.
+---
+
+### ✅ VALIDACIÓN DE CONTENIDO (LO QUE GOBIERNA EL PAGO)
+
+**1. El "Juez Digital": Sistema SICC (Indicador E3)**
+*   **Fuente MD:** Sección 2.1 define al SICC como herramienta obligatoria.
+*   **Análisis Crítico:** El SICC es la caja registradora. Indicador E3 pesa 7.77% en UF1.
+*   **Riesgo Fatal:** Cláusula 5.4.4 (PDF) impone penalidad por "Pérdida de Información" (Valor 0).
+*   **Acción:** La exigencia de **Redundancia N+1** en servidores es una medida de protección financiera obligatoria.
+
+**2. Pesos Ponderados de Deducción**
+*   **DVF (Disponibilidad Vía Férrea):** 29.89% en UF1.
+*   **DMR (Disponibilidad Material Rodante):** 40% (Carga). Falla de locomotora impacta masivamente.
+*   **ST (Seguridad del Tráfico):** 7.25% en UF1.
+
+**3. Tiempos de Corrección (Plazos Fatales)**
+*   **Validación:** El documento restaura correctamente la columna "Tiempo Máximo de Corrección".
+*   **Estrategia:** Contratos de soporte deben tener SLAs más estrictos que los tiempos contractuales (ej. 30 min vs 1 hora contractual).
+
+---
+
+### ⚠️ ACTUALIZACIÓN PUNTO 42 (VECTORES DE RIESGO)
+
+1.  **Integración PTC (FRA):** SICC debe capturar logs automáticos de locomotoras. Falla en protección a bordo = Parada de tren = Afectación DMR.
+2.  **Ciberseguridad NIST:** Ataque que bloquee CTC = Incumplimiento de disponibilidad. Defensa: Cumplimiento NIST/IEC 62443.
+3.  **Interoperabilidad FENOCO:** Métricas de "handshake". Parada de tren FENOCO por fallo nuestro = Indisponibilidad (DVF).
+
+---
+
+### 🚀 INSTRUCCIONES AL EQUIPO (PLAN DE ACCIÓN)
+
+*   **Instrucción a Sistemas (SICC):** "El diseño del SICC debe incluir **Alta Disponibilidad (HA)**. Caída del SICC es inaceptable contractualmente (7.77% + Riesgo Pérdida de Información)."
+*   **Instrucción a Mantenimiento:** Garantizar DMR ≥ 95%. Programar mantenimientos en ventanas no operativas.
+*   **Defensa Contractual (FENOCO):** Documentar fallas de interoperabilidad como Eventos Eximentes si son causa de FENOCO.
+
+---
+
+### ✅ VEREDICTO FINAL
+**AT4_Indicadores_MD.md** es una herramienta de gestión crítica.
+*   **Estado:** Listo para implementación.
+*   **Advertencia:** Los umbrales (99.5% - 99.95%) requieren redundancia. Presupuesto O&M debe reflejar costos de respuesta rápida.
+
+⚠️ **ADVERTENCIA LEGAL:** Las deducciones son automáticas sobre la factura semestral. El monitoreo en tiempo real (SICC) es la única defensa efectiva.
 

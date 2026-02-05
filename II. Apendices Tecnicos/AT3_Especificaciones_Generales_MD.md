@@ -92,10 +92,61 @@ Este documento ha sido refinado con base en la **Respuesta al Cuestionario de Re
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE (v4.1)
-**Estado:** ✅ Validado con Observaciones de Bloqueo.
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT3_Especificaciones_Generales_MD.md (v5.0)
+**Dictamen:** 🚨 DEFINICIÓN TECNOLÓGICA CRÍTICA (DESBLOQUEANTE)
 
-**Integración Crítica:** Se incorporaron los estándares de Ciberseguridad IEC 62443 y la Arquitectura N+1 para redundancia de sistemas críticos.
+Este documento es el hito más importante para la ingeniería de sistemas. Resuelve la "Indefinición Tecnológica" histórica al elegir mandatoriamente el estándar **PTC (Positive Train Control)** bajo normativa **FRA/AREMA**, descartando (para esta versión) el estándar europeo ETCS que se mencionaba en iteraciones anteriores.
 
-**Riesgo Identificado:** El riesgo R-313 (Dependencia ITCS) persiste como una alerta alta debido a que las especificaciones detalladas dependen de la definición final de la ANI sobre el ETCS Level 2.
+Su aplicación desbloquea la compra de material rodante y equipos de señalización, pero conlleva riesgos de integración si FENOCO opera bajo otro estándar.
+
+---
+
+### 📄 1. RESOLUCIÓN DE LA INDEFINICIÓN TECNOLÓGICA (EL "BLOCKER")
+
+**A. La Decisión Normativa (PTC vs. ETCS)**
+*   **Fuente MD (v5.0):** Sección 1 establece como Norma Rectora: **FRA 49 CFR Part 236 Subpart I**. Define explícitamente el sistema como PTC.
+*   **Fuente PDF (Original):** El AT3 original es una "bolsa de normas" (AREMA, FRA, UIC, AAR) sin elegir arquitectura.
+*   **⚖️ Análisis:** El MD toma una Decisión Técnica (DT) necesaria. Al elegir FRA/PTC, alineamos el proyecto con las locomotoras GR12/U10 (General Motors/GE), aunque nos aleja del estándar europeo (UIC).
+
+**B. Arquitectura "Virtual Interlocking" (Optimización Punto 42)**
+*   **Fuente MD:** Sección 2.2 elimina los enclavamientos físicos (ENCE) a favor de una lógica centralizada (CTC Virtual).
+*   **Fuente PDF:** Menciona "Sistemas de mando y señalización" con normas para enclavamientos físicos (NAS 819).
+*   **⚠️ Riesgo Contractual:** Eliminar el hardware físico es Ingeniería de Valor. Se requiere validar esta arquitectura con la Interventoría para evitar rechazo por "falta de equipamiento en sitio". Depende 100% de la fibra óptica.
+
+---
+
+### 🛡️ 2. GESTIÓN DE RIESGOS CRÍTICOS (PUNTO 42)
+
+1.  **Ciberseguridad (NIST/IEC 62443):**
+    *   **Fuente MD:** Exige nivel SL-3 para el CTC Virtual.
+    *   **Justificación:** Obligatorio para la resiliencia (AT4) dada la centralización lógica.
+
+2.  **Interoperabilidad FENOCO (R-314):**
+    *   **Fuente MD:** Propone "Solución Doble Radio" y validación EPE.
+    *   **Problema:** Si FENOCO usa un estándar diferente, nuestros trenes PTC no podrán entrar.
+    *   **Estrategia:** Equipar locomotoras con Doble Tecnología o interfaces duales.
+
+---
+
+### 🚀 3. INSTRUCCIONES AL EQUIPO (ESTRATEGIA DE EJECUCIÓN)
+
+**Para el Director de Ingeniería (Sistemas):**
+*   **Diseño PTC:** Proceder con diseño funcional bajo norma **AREMA 2021** y lógica **FRA 49 CFR 236**. Descartar diseños preliminares ETCS (balizas europeas).
+*   **Redundancia:** Diseñar anillo de fibra óptica con redundancia geográfica real y respaldo microondas para soportar el "CTC Virtual".
+
+**Para el Equipo de Compras/Abastecimiento:**
+*   **Equipos Embarcados:** Especificar "Must be compliant with FRA 49 CFR 236 PTC Onboard Apparatus" para las 15 locomotoras. No aceptar ofertas solo ETCS sin adaptador.
+
+**Para el Gerente Contractual:**
+*   **Socialización ANI:** Presentar formalmente la adopción del estándar FRA-PTC y obtener "No Objeción".
+
+---
+
+### ✅ VEREDICTO FINAL
+**AT3_Especificaciones_Generales_MD.md (v5.0)** es técnicamente **APROBADO**.
+*   **Estado:** VIGENTE PARA DISEÑO.
+*   **Condición:** Requiere validación urgente de la "filosofía virtual" con la Interventoría.
+
+⚠️ **ADVERTENCIA LEGAL:** La adopción del estándar PTC debe garantizar la interoperabilidad con FENOCO (Anexo VIII Consultoría y Cláusula 12.3). Si FENOCO opera bajo otro estándar, la responsabilidad por falta de acceso será del EPC salvo instrucción explícita de ANI.
 

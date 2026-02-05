@@ -734,20 +734,51 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 **Documento:** AT6_Gestion_Ambiental_MD v4.1/v5.0
 **Dictamen:** ✅ APROBADO CON ALERTAS DE INTEGRACIÓN TECNOLÓGICA
 
-### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **Plan de Trámites Ambientales:** Entrega obligatoria a los 2 meses. El MD acierta al coordinar con Cláusula 2.14 para agilizar trámites ante la ANLA con apoyo de la ANI.
-2. **Gestión de Compensaciones:** Alerta al alcance del 90% para evitar bloqueos presupuestales. Excluye multas por incumplimiento del EPC.
-3. **Integración SCADA:** Interpretación estratégica del "sistema de alertas tempranas" (AT6 5.9). Exige conexión de estaciones meteorológicas y sensores de cauce vía fibra óptica.
+El documento es contractualmente sólido y estratégicamente superior. Integra obligaciones de Cláusula 2.14 y aplica Metodología Punto 42 para cubrir gestión ambiental de sistemas tecnológicos (TETRA/ITCS).
 
-### ⚠️ ACTUALIZACIÓN PUNTO 42
-- **Impacto TETRA/GSM-R:** Evaluación de impacto ambiental específica para las 37 estaciones base (radiaciones/ruido).
-- **Eficiencia Energética:** Certificación de eficiencia en equipos redundantes para cumplir el Programa de Aporte Sostenible.
+---
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Sistemas:** Diseñar interfaz Modbus TCP/IP en SCADA para variables ambientales (Sección 11.1).
-2. **Jurídico:** Notificar "Fuerza Mayor Ambiental" si la ANLA demora más del 50% legal en responder.
-3. **Presupuestos:** ERP con alerta al 90% de ejecución en Subcuenta de Compensaciones.
+### ✅ 1. VALIDACIÓN DE OBLIGACIONES CRÍTICAS (EL "MUST HAVE")
 
-**VEREDICTO FINAL:** Transforma el monitoreo en una herramienta operativa digital preventiva.
+**A. Plan de Trámites Ambientales (La Ruta Crítica)**
+*   **Fuente MD:** Sección 3.1 define entrega a los 2 meses de preconstrucción.
+*   **Acierto:** Sincronización con Cláusula 2.14. Instruye gestionar cesión inmediata de expedientes heredados (LAM6817 y LAM3365) en Mes 3.
 
-⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. El incumplimiento en permisos es causal de multa automática.
+**B. Gestión Financiera de Compensaciones (Subcuenta)**
+*   **Fuente MD:** Sección 3.2.
+*   **Alerta Financiera:** Trigger al **90% de ejecución**. Vital para evitar financiar compensaciones que superen el 120% (riesgo ANI).
+
+**C. Sistema de Alertas Tempranas (Interpretación SCADA)**
+*   **Fuente MD:** Interpretación de "sistema de información y alertas" como integración SCADA.
+*   **Impacto:** Exige conectar estaciones meteorológicas y sensores de nivel vía fibra óptica al CCO. Protege operación (AT4) pero sube CAPEX.
+
+---
+
+### 🛡️ 2. ACTUALIZACIÓN PUNTO 42 (GESTIÓN AMBIENTAL 4.0)
+
+1.  **Impacto Estaciones TETRA:** Exige permisos aprovechamiento forestal y gestión radiaciones no ionizantes para las 37 torres.
+2.  **Eficiencia Energética en Redundancia:** Vincula eficiencia equipos N+1 con el Programa de Aporte Sostenible (Huella de Carbono).
+3.  **Fuerza Mayor Ambiental:** Activa protocolo si autoridad demora > 50% del tiempo legal. Congela plazos.
+
+---
+
+### 🚀 3. INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+**Para el Líder Ambiental y Jurídico:**
+*   **Radicación Inmediata:** Plan de Trámites Ambientales antes de finalizar Mes 2. Incluir cronograma torres TETRA.
+*   **Notificación ANI:** Aplicar Cl. 2.14(g). Notificar 10 días antes para vincular a ANI como tercero.
+
+**Para Ingeniería de Sistemas (SCADA):**
+*   **Diseño Interfaz:** SCADA debe recibir Modbus TCP/IP de estaciones meteorológicas/hidrológicas (Sección 11.1). Requisito para "Alertas Tempranas".
+
+**Para Control de Proyectos:**
+*   **Alerta Subcuenta:** ERP debe alertar cuando pagos compensaciones lleguen al 90%.
+
+---
+
+### ✅ VEREDICTO FINAL
+**AT6_Gestion_Ambiental_MD.md** es una guía de ejecución aprobada.
+*   **Estado:** Listo para implementación.
+*   **Valor Agregado:** Conecta obligaciones ambientales con la realidad tecnológica (SCADA, TETRA).
+
+⚠️ **ADVERTENCIA LEGAL:** Salvo "Fuerza Mayor Ambiental" probada (trazabilidad tiempos de respuesta), el retraso en permisos es causal de multa.
