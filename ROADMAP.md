@@ -1,11 +1,16 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 15-Oct-2025 (v14.7.7)  
-**Estado:** ✅ Documentación EPC 100% | 🔴 Validaciones Finales en Progreso
+**Versión:** 05-Feb-2026 (v14.8.0)  
+**Estado:** ✅ Documentación EPC 100% | ✅ Punto 42 Certificado v6.1
 
 ---
 
 ## 📅 HITOS ALCANZADOS
+
+### **FASE 6 - REFINAMIENTO Y CIERRE (FEB 2026)**
+- ✅ **Audit v3 (MD Refinement):** 15+ documentos de gestión (XIV, XV, XVI) ajustados y renombrados según estándares contractuales.
+- ✅ **Surgical Polish:** Ajustes en AT1 (Alertas de Otrosí), AT5 y Contrato General.
+- ✅ **Punto 42 (Mejorado):** Certificación técnica-legal de los Apéndices "Mejorados".
 
 ### **FASE 0 - FASE E: INGENIERÍA EPC (100%)**
 - ✅ **Base Contractual:** 8/8 documentos completados.
