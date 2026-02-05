@@ -403,3 +403,31 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 - **SICC** con sistema de monitoreo completo
 
 **6 riesgos identificados** para análisis PMI y gestión integrada en indicadores de desempeño.
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT4_Indicadores_MD v4.1
+**Dictamen:** ✅ APROBADO CON ALERTAS DE RIESGO FINANCIERO
+
+### 📊 ANALISIS ESTRATÉGICO
+Este documento es el **"Motor Financiero"** del proyecto: define las reglas matemáticas para el pago de la Retribución y las Deducciones.
+
+### ✅ VALIDACIÓN DE CONTENIDO (LO QUE GOBIERNA EL PAGO)
+1. **El "Juez Digital" (SICC - Indicador E3):** Peso del 7.77% en UF1. Una caída del SICC puede declarar "Pérdida de Información", asumiendo el peor valor para todos los demás indicadores.
+2. **Pesos Ponderados:** DMR (40% carga), DVF (29.89%). El MD incorpora métricas de Ciberseguridad e Interoperabilidad FENOCO.
+3. **Tiempos de Corrección:** COM1 (1 hora), DMR (4 horas). Requiere SLAs de soporte más estrictos que estos plazos.
+
+### ⚠️ ACTUALIZACIÓN PUNTO 42
+- **Integración ITCS:** Captura de logs automáticos de locomotoras.
+- **Ciberseguridad NIST:** Los incidentes se consideran incumplimiento de disponibilidad, no fuerza mayor, si no hay debida diligencia.
+- **Interoperabilidad:** La detención de trenes FENOCO por fallas propias cuenta como indisponibilidad de vía (DVF).
+
+### 🚀 INSTRUCCIONES AL EQUIPO
+1. **Sistemas (SICC):** Diseño en Alta Disponibilidad (HA). La caída es contractualmente inaceptable.
+2. **Mantenimiento:** Garantizar DMR ≥ 95% con paritarias en ventanas no operativas.
+3. **Defensa Contractual:** Documentar fallas de interoperabilidad ajenas como Eventos Eximentes inmediatamente.
+
+**VEREDICTO FINAL:** Herramienta de gestión crítica. Los umbrales (99.5% - 99.95%) exigen equipos de respuesta rápida 24/7.
+
+⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. La aplicación de deducciones es automática sobre la factura semestral y no requiere proceso sancionatorio previo.

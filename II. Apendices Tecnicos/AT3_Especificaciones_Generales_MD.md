@@ -91,6 +91,31 @@ Para garantizar la interoperabilidad con la red **FENOCO**, cada locomotora cont
 Este documento ha sido refinado con base en la **Respuesta al Cuestionario de Requerimientos EPE (11 Dic 2025)** y certifica la alineación técnica con el Contrato de Concesión No. 001 de 2025.
 
 ---
+
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT3_Especificaciones_Generales_MD v5.0 (PTC Baseline)
+**Dictamen:** ✅ APROBADO TÉCNICAMENTE / ALERTA DE RIESGO CONTRACTUAL
+
+### 🛠️ ANÁLISIS DE MEJORAS
+1. **Definición PTC (FRA 49 CFR 236):** Se ha formalizado el pivote a normativa americana para asegurar interoperabilidad con FENOCO.
+2. **Ciberseguridad NIST/IEC 62443:** El MD exige SL-3 y arquitectura N+1, superando la letra general del contrato para proteger la disponibilidad (AT4).
+3. **Interoperabilidad:** Protocolos AREMA explícitos para tráfico de terceros.
+
+### ⚠️ RIESGOS GESTIONADOS (PMI)
+- **R-313 Dependencia Tecnológica:** El Blocker-001 (PTC vs ETCS) ha sido resuelto técnicamente en este MD v5.0 a favor de PTC/FRA.
+- **R-314 Interoperabilidad FENOCO:** Riesgo de acceso a llaves de encriptación y protocolos propietarios.
+- **R-315 Disponibilidad AT4:** Vínculo directo entre hardware de alta gama y meta de 99.95%.
+
+### 🚀 INSTRUCCIONES AL EQUIPO
+1. **Ingeniería de Detalle:** Diseñar bajo el escenario más robusto (**NIST/IEC 62443**) para proteger ingresos futuros.
+2. **Compras:** Asegurar presupuesto para arquitectura **N+1** (doble servidor/fibra).
+3. **RFI Estratégico:** Radicar consulta a la ANI para formalizar el estándar PTC citado en este MD.
+
+**VEREDICTO:** Guía de Ingeniería de Valor necesaria para 2026. No comprar equipos hasta cierre total de protocolos de interoperabilidad.
+
+⚠️ **ADVERTENCIA LEGAL:** La adopción de estándares no previstos en el contrato original (como IEC 62443 o PTC específico) puede generar reclamos de "Cambio de Alcance" por parte del EPC a la ANI si implican mayores costos, o de la ANI al EPC si este omite implementarlos y falla la operación. Se recomienda validar la matriz de riesgos con la Interventoría.
+
+---
 **Firma de Validación:**
 *Especialista EPE (Sistemas de Control)*
 *Administrador Contractual EPC*

@@ -439,3 +439,27 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 - **Gestión de Interferencias** con criterios técnicos completos
 
 **6 riesgos identificados** para análisis PMI y gestión integrada en interferencias de redes.
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT5_Interferencias_Redes_MD v4.1
+**Dictamen:** 🚨 ALERTA DE ALCANCE (SCOPE CREEP)
+
+### 📊 ANALISIS DE BRECHAS (MD vs PDF)
+1. **Definición de "Interferencia":** El PDF original es 100% físico (tuberías/servicios). El MD introduce **Interferencia Electromagnética (EMI)** para ITCS/PTC.
+2. **Interoperabilidad:** El MD responsabiliza al EPC si interferencias internas afectan trenes de FENOCO en frontera.
+3. **Disponibilidad:** Vincula redes con la meta del 99.95% de disponibilidad (AT4).
+
+### ⚠️ RIESGOS GESTIONADOS (v4.1)
+- **R-325 Dependencia ITCS:** Riesgo de comprar protecciones estándar que no mitiguen ruido eléctrico específico del sistema final.
+- **R-328 Ciberseguridad:** Protección contra "Jamming" y cortes intencionales en cámaras de inspección.
+
+### 🚀 INSTRUCCIONES AL EQUIPO
+1. **Gerente de Redes:** Para terceros (EPM/TGI), usar criterios físicos del PDF. Para redes propias (Fibra/Energía), aplicar el MD v4.1 (Redundancia N+1).
+2. **Equipo Jurídico:** Preparar dossier demostrando que la gestión EMI excede la obligación original de "Traslado de Redes".
+3. **Ingeniería:** Incluir columna "Riesgo EMI" en el inventario de líneas de Alta Tensión.
+
+**VEREDICTO FINAL:** Guía de Buenas Prácticas indispensable para trenes modernos, pero no es el documento base para obligaciones con terceros (cíñase a Ley 1682).
+
+⚠️ **ADVERTENCIA LEGAL:** El uso de especificaciones de blindaje EMI y ciberseguridad debe ser validado presupuestalmente. Si la Interventoría exige su cumplimiento en redes de terceros, se debe activar el procedimiento de Solución de Controversias.

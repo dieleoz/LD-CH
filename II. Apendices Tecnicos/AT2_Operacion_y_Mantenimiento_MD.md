@@ -446,6 +446,34 @@ Este documento es coherente con el sistema de gestión documental establecido y 
 Próxima revisión: Al completar AT3_Especificaciones.docx o resolver indefiniciones tecnológicas críticas
 
 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT2_Operacion_y_Mantenimiento_MD v4.1
+**Dictamen:** ✅ APROBADO CON OBSERVACIONES DE ALCANCE (SCOPE CREEP)
+
+### 📊 ANALISIS ESTRATÉGICO
+Este documento es la **"Biblia Operativa"** que regula la recuperación de la inversión (Retribución) a través de la disponibilidad de la vía y el cumplimiento de indicadores de servicio.
+
+### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
+1. **Los "Tres Manuales":** Condición precedente crítica para el inicio de pagos de O&M (Sección 14.5 del Contrato).
+2. **ROT (Reglamento de Operación):** La versión v4.1 operacionaliza la interoperabilidad obligatoria con FENOCO para evitar detenciones en Chiriguaná.
+3. **Mantenimiento de Tecnología:** Traduce la obligación vaga de "Integridad" en requisitos técnicos concretos (**Redundancia N+1** y **Ciberseguridad**).
+
+### ⚠️ PUNTOS DE ATENCIÓN (PUNTO 42)
+1. **Disponibilidad 99.95%:** Mantener como KPI Interno. No ofertar contractualmente sin reconocimiento de CAPEX de redundancia.
+2. **Ciberseguridad NIST/IEC 62443:** Protección obligatoria para SCADA y CTC ante amenazas modernas.
+3. **Gestión FENOCO:** Vital para el tráfico de carga y facturación.
+
+### 🚀 INSTRUCCIONES AL EQUIPO
+1. **Redacción de Manuales:** Capítulos específicos para ITCS, TETRA y Ciberseguridad.
+2. **Fronteras FENOCO:** Redactar el "Acuerdo de Interoperabilidad" para anexo del ROT.
+3. **Configuración SICC:** Trazabilidad automatizada para el cobro de la retribución.
+
+**VEREDICTO FINAL:** Guía robusta y necesaria. Asegurar que el presupuesto contemple licencias de software y redundancias N+1.
+
+⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. El incumplimiento en la entrega de los Manuales de O&M (Sección 14.5 del Contrato) impide el inicio de la fase operativa y el cobro de la retribución asociada.
 Respuesta a Observaciones de Ingeniería
 🔄 Plan de acción específico para especificaciones de fibra/respaldo
 🔄 Roadmap claro para sistema de gestión de tráfico
