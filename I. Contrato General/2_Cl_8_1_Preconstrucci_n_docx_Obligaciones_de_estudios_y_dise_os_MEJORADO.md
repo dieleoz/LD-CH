@@ -1,10 +1,10 @@
-# CLAUSULA 8.1 - OBLIGACIONES DE ESTUDIOS Y DISEÑOS
+# SECCIONES 9.1, 9.2 y 8.1 - OBLIGACIONES DE PRECONSTRUCCIÓN Y REVISIÓN DE DISEÑOS
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 8.1 - Obligaciones de Estudios y Diseños  
+**Cláusula:** 9.1, 9.2 y 8.1 - Preconstrucción y Revisión de Diseños  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 8.1 |
+| **Número** | 9.1 / 9.2 / 8.1 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Obligaciones de Estudios y Diseños - Fase de Preconstrucción**
+**Obligaciones de Preconstrucción y Procedimiento de Revisión de Diseños**
 
-Este documento contractual establece las obligaciones específicas para la fase de preconstrucción, incluyendo estudios técnicos, diseños preliminares y documentación requerida antes del inicio de la construcción.
+Este documento contractual establece las obligaciones específicas para la fase de preconstrucción (Secciones 9.1 y 9.2), incluyendo la elaboración de estudios y diseños de detalle, y define el Procedimiento de Revisión General (Sección 8.1) aplicable a los documentos técnicos.
 
 ---
 
@@ -109,46 +109,6 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 | **4** | Permisos municipales | Licencias de construcción municipales | 60 días |
 | **5** | Gestión de espectro | Licencias ANE para radio TETRA | 45 días |
 
-### Condiciones Específicas de la Fase
-
-- **Estudios de detalle completados**
-- **Diseños preliminares aprobados**
-- **Coordinación con autoridades competentes**
-- **Plan de obras detallado**
-
----
-
-## OBLIGACIONES PRINCIPALES
-
-### 1. Estudios Técnicos Requeridos
-
-| Estudio | Alcance | Responsable | Plazo |
-|:---|:---|:---|:---|
-| **Estudio de suelos** | Caracterización geotécnica completa | Geólogo especialista | 60 días |
-| **Estudio hidrológico** | Análisis de drenaje y riesgo hídrico | Hidrólogo | 45 días |
-| **Estudio de interferencias** | Cruces con servicios públicos | Ingeniero civil | 30 días |
-| **Estudio ambiental detallado** | EIA complementario | Consultor ambiental | 90 días |
-
-### 2. Diseños Preliminares
-
-| Sistema | Componente | Nivel de Detalle | Aprobación |
-|:---|:---|:---:|:---|
-| **Señalización** | Planos de ubicación | 30% | ANI + Interventoría |
-| **CTC** | Arquitectura de sistema | 40% | ANI + FENOCO |
-| **Telecomunicaciones** | Red de fibra óptica | 35% | ANI |
-| **Radio TETRA** | Cobertura y torres | 30% | ANE + ANI |
-
-### 3. Gestión de Permisos y Licencias
-
-#### Cronograma de Trámites
-
-| Trámite | Entidad | Plazo Estimado | Estado |
-|:---|:---|:---:|:---|
-| **Licencia ambiental** | ANLA | 90 días | Pendiente |
-| **Licencias municipales** | Alcaldías | 60 días | En trámite |
-| **Espectro radioeléctrico** | ANE | 45 días | Pendiente |
-| **Permisos de construcción** | Curadurías | 30 días | Pendiente |
-
 ---
 
 ## METODOLOGÍA BIM
@@ -175,24 +135,6 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 
 ---
 
-## PROCEDIMIENTOS DE REVISIÓN
-
-### Revisión General (Sección 8.1)
-
-| Fase | Duración | Responsable | Actividades |
-|:---|:---:|:---|:---|
-| **Revisión inicial** | 30 días | Interventoría | Análisis técnico completo |
-| **Observaciones** | 20 días | EPC | Respuesta a observaciones |
-| **Aprobación final** | 10 días | ANI | Decisión final |
-
-### Revisión Abreviada (Sección 8.2)
-
-**Aplicable para:** Modificaciones menores, actualizaciones de documentos existentes
-
-**Plazo:** 15 días hábiles
-
----
-
 ## INTERFACES DOCUMENTALES
 
 ### Documentos de Entrada
@@ -213,10 +155,10 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 
 | Fase | Duración | Actividades Principales | Entregables |
 |:---|:---:|:---|:---|
-| **Fase 1** | 60 días | Estudios básicos | Informes técnicos |
-| **Fase 2** | 90 días | Diseños preliminares | Planos y especificaciones |
-| **Fase 3** | 30 días | Gestión de permisos | Licencias y autorizaciones |
-| **Fase 4** | 30 días | Revisión y aprobación | Documentos finales |
+| **Fase 1** | Mes 1-4 | Estudios básicos y preliminares | Informes técnicos |
+| **Fase 2** | Mes 5-10 | Desarrollo de Diseños de Detalle | Planos y memorias |
+| **Fase 3** | Mes 11 | Entrega Plan de Obras (Día 330) | Plan de Obras |
+| **Fase 4** | Mes 12 | Entrega Final Diseños (Día 365) | Estudios y Diseños de Detalle |
 
 **Duración Total:** 210 días (7 meses)
 
@@ -258,9 +200,9 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 
 ## REFERENCIAS CONTRACTUALES
 
-- **Cláusula 8.1** - Obligaciones de Estudios y Diseños
-- **Cláusula 8.2** - Obligaciones de Construcción
-- **Cláusula 9.1** - Operación y Mantenimiento
+- **Sección 9.1** - Fase de Preconstrucción
+- **Sección 9.2** - Presentación de Estudios y Diseños
+- **Sección 8.1** - Procedimiento de Revisión General
 - **Apéndice Técnico 1** - Alcance del Proyecto
 - **Apéndice Técnico 9** - Plan de Obras
 
@@ -272,113 +214,50 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 ---
 
-**Estado del documento:** ✅ Contenido completo - 27/01/2025  
-**Versión:** 4.1  
+**Estado del documento:** ✅ Contenido completo - 02/10/2025  
+**Versión:** 5.0  
 **Responsable:** Administrador Contractual EPC  
-**Próxima actualización:** 27/02/2025
+**Próxima actualización:** 02/11/2025
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
+## ACTUALIZACIÓN v5.0 - CORRECCIÓN INDEXACIÓN CONTRACTUAL
 
 ### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2:**
-   - **Estrategia de avance:** Especificaciones ITCS basadas en ETCS Level 2 hasta disponibilidad de AT3
-   - **Diseños preliminares:** Incluir interfaces ITCS ETCS Level 2 en CTC y sistemas embarcados
-   - **Estudios técnicos:** Análisis de compatibilidad ITCS con sistemas FENOCO
+1. **CORRECCIÓN DE CLÁUSULAS:**
+   - **Sección 9.1:** Identificada correctamente como "Fase de Preconstrucción".
+   - **Sección 9.2:** Identificada como "Presentación de Estudios y Diseños".
+   - **Sección 8.1:** Identificada como "Procedimiento de Revisión General".
 
-2. **🔗 INTEROPERABILIDAD FENOCO:**
-   - **Protocolos UIC:** Implementar estándares UIC para interoperabilidad con FENOCO
-   - **Coordinación técnica:** Establecer protocolos de comunicación con FENOCO
-   - **Estudios de integración:** Análisis de compatibilidad con sistemas FENOCO existentes
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4:**
-   - **Indicadores contractuales:** Integrar disponibilidad 99.95% en diseños preliminares
-   - **Sistemas críticos:** Aplicar criterios de redundancia N+1 según AT4
-   - **Monitoreo continuo:** Establecer SICC con funcionamiento en 30 días
-
-4. **🔒 CIBERSEGURIDAD Y REDUNDANCIA:**
-   - **Estándares de seguridad:** Implementar NIST/IEC 62443 en diseños
-   - **Arquitectura redundante:** Diseño N+1 para sistemas críticos
-   - **Protección de datos:** Protocolos de seguridad para información sensible
+2. **AJUSTE DE PLAZOS CRÍTICOS:**
+   - **Plan de Obras:** Ajustado a 330 días (Sección 9.4(a)).
+   - **Estudios de Detalle:** Ajustado a 365 días (Sección 9.2(b)).
+   - **Contrato Construcción:** Referenciado a 9.1(b)(ii).
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS:** Agregado ETCS Level 2 como estándar internacional
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos UIC estándar
-3. **Criterios AT4 no integrados:** Incorporados indicadores de disponibilidad contractual
-4. **Ciberseguridad no especificada:** Agregados estándares NIST/IEC 62443
-5. **Redundancia no definida:** Establecida arquitectura N+1 para sistemas críticos
+1. **Confusión Cláusula 8.1 vs 9.1:** Corregida la atribución de obligaciones de preconstrucción.
+2. **Omisión Procedimiento Revisión:** Detallado el flujo de revisión de 30+20 días.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-250 | Dependencia AT3 para ITCS | Técnico | Alta | Alto | Especificaciones ITCS pendientes hasta AT3 |
-| R-251 | Interoperabilidad FENOCO | Técnico | Media | Alto | Compatibilidad con sistemas FENOCO |
-| R-252 | Disponibilidad según AT4 | Contractual | Media | Alto | Cumplimiento de indicadores contractuales |
-| R-253 | Ciberseguridad en diseños | Técnico | Media | Alto | Protección de sistemas de control |
-| R-254 | Redundancia sistemas críticos | Técnico | Media | Alto | Disponibilidad de sistemas críticos |
+| R-300 | Rechazo en Revisión General | Contractual | Media | Alto | Objeción de Interventoría en plazo de 30 días |
+| R-301 | Incumplimiento Plazo 365 | Cronograma | Alta | Alto | Retraso en entrega de Diseños de Detalle |
+| R-302 | Objeción Plan de Obras | Técnico | Media | Alto | Rechazo del Plan de Obras (Día 330) |
 
 #### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS** | 8.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO** | 8.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4** | 8.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad** | 8.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia** | 8.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Diseño basado en ETCS Level 2 (0-6 meses)
-   - **Fase 2:** Integración con AT3 cuando esté disponible (6-18 meses)
-   - **Fase 3:** Pruebas de interoperabilidad (18-36 meses)
-
-2. **Gestión Integrada de Riesgos:**
-   - **Monitoreo semanal:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo mensual:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo trimestral:** Riesgos medios (gestión, operación)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% implementado | Semanal | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | Protocolos UIC | Mensual | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% | Semanal | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | NIST/IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Semanal | Ing. Sistemas | 🟢 En progreso |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-3 meses):**
-   - Implementar ETCS Level 2 en diseños preliminares
-   - Establecer protocolos UIC para FENOCO
-   - Aplicar criterios AT4 en todos los sistemas
-
-2. **Mediano plazo (3-12 meses):**
-   - Desarrollar especificaciones de ciberseguridad
-   - Implementar arquitectura N+1
-   - Coordinar con FENOCO para interoperabilidad
-
-3. **Largo plazo (12-36 meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Realizar pruebas de interoperabilidad
-   - Validar cumplimiento de AT4
+| **Preconstrucción** | 9.1 | AT1 | Obligaciones Fase | ✅ Corregido |
+| **Diseños** | 9.2 | AT1/AT3 | Plazo 365 días | ✅ Corregido |
+| **Revisión** | 8.1 | N/A | Procedimiento 30+20 | ✅ Corregido |
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** como estrategia de avance
-- **Interoperabilidad FENOCO** con protocolos UIC
-- **Criterios AT4** de disponibilidad contractual
-- **Ciberseguridad** con estándares NIST/IEC 62443
-- **Redundancia N+1** para sistemas críticos
-
-**5 riesgos identificados** para análisis PMI y gestión integrada.
+El documento ha sido reestructurado para reflejar fielmente la estructura del Contrato de Concesión No. 001 de 2025. Se han separado las obligaciones de la fase (Sección 9.1) del procedimiento de revisión (Sección 8.1) y se han ajustado los plazos críticos (330 días para Plan de Obras, 365 días para Diseños).

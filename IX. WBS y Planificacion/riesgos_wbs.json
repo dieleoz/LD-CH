@@ -1,5 +1,5 @@
-﻿{
-    "fecha_actualizacion":  "2025-10-12",
+﻿﻿{
+    "fecha_actualizacion":  "2025-12-04",
     "riesgos":  [
                     {
                         "items_wbs":  [
@@ -20,7 +20,7 @@
                         "plan_accion":  "Documentar supuestos de diseño y solicitar clarificación a Interventoría",
                         "categoria":  "Técnico",
                         "origen_decision":  "N/A",
-                        "descripcion":  "Dependencia AT3 para ITCS ETCS L2",
+                        "descripcion":  "Dependencia AT3 para ITCS ETCS L2 / PTC",
                         "estrategia":  "Mitigar: ETCS L2 estándar"
                     },
                     {
@@ -290,13 +290,13 @@
                                           "1.2.100"
                                       ],
                         "fuente":  "BLOCKER-001",
-                        "nivel_exposicion":  "CRÍTICA",
-                        "probabilidad_num":  0.7,
-                        "impacto":  "Crítico",
-                        "estado":  "Activo",
-                        "impacto_num":  1,
+                        "nivel_exposicion":  "BAJA",
+                        "probabilidad_num":  0.1,
+                        "impacto":  "Alto",
+                        "estado":  "Cerrado",
+                        "impacto_num":  0.8,
                         "id":  "R-ITCS-001",
-                        "hito_verificacion":  "H-ITCS-DEF-M6",
+                        "hito_verificacion":  "H-ITCS-DEF-CERRADO",
                         "responsable":  "Gerencia Técnica + ANI",
                         "probabilidad":  "Alta",
                         "exposicion":  0.7,
@@ -304,7 +304,7 @@
                         "categoria":  "Técnico",
                         "origen_decision":  "N/A",
                         "descripcion":  "Indefinición sistema ITCS (ATP/ETCS L2/CBTC) - Bloqueador 58% proyecto",
-                        "estrategia":  "EVITAR - Oficiar ANI, decisión Mes 6"
+                        "estrategia":  "CERRADO - PTC Obligatorio (Tabla 17 AT1)"
                     },
                     {
                         "items_wbs":  [
@@ -384,6 +384,28 @@
                         "origen_decision":  "**DT-FIBRA-001**",
                         "descripcion":  "Ahorro CAPEX no realizado si cajas cada 1000m fallan",
                         "estrategia":  "Aceptar: Beneficio supera riesgo"
+                    },
+                    {
+                        "items_wbs":  [
+                                          "1.1.103",
+                                          "2.1.103"
+                                      ],
+                        "fuente":  "EPE-DIC-04",
+                        "nivel_exposicion":  "ALTA",
+                        "probabilidad_num":  0.6,
+                        "impacto":  "Alto",
+                        "estado":  "Activo",
+                        "impacto_num":  0.8,
+                        "id":  "R-INTEROP-002",
+                        "hito_verificacion":  "H-FENOCO-COORD",
+                        "responsable":  "PMO + FENOCO",
+                        "probabilidad":  "Alta",
+                        "exposicion":  0.48,
+                        "plan_accion":  "Coordinación formal inmediata con FENOCO para validar protocolos TETRA y FFFIS/UIC",
+                        "categoria":  "Técnico",
+                        "origen_decision":  "EPE-DIC-04",
+                        "descripcion":  "Falta de validación de interoperabilidad TETRA y protocolos con FENOCO",
+                        "estrategia":  "MITIGAR - Coordinación formal inmediata"
                     }
                 ],
     "estadisticas":  {
@@ -400,6 +422,6 @@
                          "exposicion_baja":  3
                      },
     "proyecto":  "APP La Dorada-Chiriguaná",
-    "riesgos_vinculados":  17,
-    "total_riesgos":  17
+    "riesgos_vinculados":  18,
+    "total_riesgos":  18
 }

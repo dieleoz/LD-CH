@@ -28,10 +28,6 @@ esquema de Asociación Público-Privada (APP) para el proyecto Corredor Férreo 
 
 ---
 
- Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura . :"el''" ª
-
 # REPÚBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
@@ -44,10 +40,7 @@ CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No. 00 l DE 2025 Entre: Concedente: Agencia
 
-Nacional de Infraestructura Concesionario: Concesión Línea Férrea Central S.A.S Proyecto Corredor Férreo entre La Dorada (Departamento de Caldas) y Chiriguaná (Departamento del Cesar) Página 1 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
-
+ Proyecto Corredor Férreo entre La Dorada (Departamento de Caldas) y Chiriguaná (Departamento del Cesar)
 TABLA DE CONTENIDO
 
 ### CAPÍTULO I - REGLAS DE INTERPRETACIÓN DEL CONTRATO 18
@@ -130,11 +123,7 @@ Funcional de Vía Férrea" 21
 
 #### 2.28 "Área Disponible" : 23
 
-#### 2.29 "Asignación de Surcos" 23 Página 2 de 332 i
-
-Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.29 "Asignación de Surcos" 23
 
 #### 2.30 "Autoridad Ambiental" 24
 
@@ -212,9 +201,7 @@ Instalada de la Infraestructura Logística" 25
 
 #### 2.64 "Contrato de Concesión" o "Contrato" 27
 
-#### 2.65 "Contrato de Construcción" 27 Página 3 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.65 "Contrato de Construcción" 27
 
 #### 2.66 "Contrato de Diseño" 27
 
@@ -286,9 +273,7 @@ Nacional de Infraestructura
 
 Eximente de Responsabilidad" o "EER" 31
 
-#### 2.101 "Factor de Calidad" 32 Página 4 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.101 "Factor de Calidad" 32
 
 #### 2.102 "Fase de Construcción" 32
 
@@ -374,9 +359,7 @@ Activos de la Concesión" 35
 
 #### 2.137 "Inventario de Redes" 36
 
-#### 2.138 "Índice de Precios al Consumidor" o "IPC" , 36 Página 5 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.138 "Índice de Precios al Consumidor" o "IPC" , 36
 
 #### 2.139 "Ley Aplicable" 36
 
@@ -456,9 +439,7 @@ Formal de Compra de Predios" 39
 
 #### 2.173 "Periodo Especial" 40
 
-#### 2.174 "Pesos" o "COP" 40 Página 6 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.174 "Pesos" o "COP" 40
 
 #### 2.175 "Plan de Adquisición de Predios" .41
 
@@ -538,9 +519,7 @@ Uso de la Infraestructura Férrea" 44
 
 #### 2.209 "Resolución de Surcos" 45
 
-#### 2.210 "Retención" 45 Página 7 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.210 "Retención" 45
 
 #### 2.211 "Retribución" 45
 
@@ -614,11 +593,7 @@ Uso de la Infraestructura Férrea" 48
 
 #### 2.244 "Take or Pay" 48
 
-#### 2.245 ''Tarifa por
-
-Uso de la Infraestructura Férrea" 48 Página 8 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 2.245 ''Tarifa por
 
 #### 2.246 ''Tarifa por Prestación de Servicios Logísticos" 49
 
@@ -700,9 +675,7 @@ Inicio de Ejecución del Contrato 58 3. 7 Plazo del Contrato 59
 
 #### 3.10 Entrega de la lnfraestructura 67
 
-#### 3.11 Principales Obligaciones Transversales del Concesionario 67 Página 9 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 3.11 Principales Obligaciones Transversales del Concesionario 67
 
 #### 3.12 Principales Obligaciones
 
@@ -784,9 +757,7 @@ Contrato de Fiducia Mercantil 144
 
 #### 7.5 Certificación y Verificación , 151
 
-#### 7.6 Reemplazo 151 Página 1 O de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 7.6 Reemplazo 151
 
 #### 7.7 Otros contratistas 152
 
@@ -864,9 +835,7 @@ Procedimiento de Adquisición Predial 202
 
 #### 12.1 Función de Administración que debe cumplir el Concesionario 212
 
-#### 12.2 Capacidad de la Vía Férrea 212 Página 11 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 12.2 Capacidad de la Vía Férrea 212
 
 #### 12.3 12.4 ! 12.5
 
@@ -952,9 +921,7 @@ ESQUEMAS DE APREMIO 229
 
 #### 16.6 Cláusula Penal 231
 
-#### 16.7 Valor de la Cláusula Penal 232 Página 12 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 16.7 Valor de la Cláusula Penal 232
 
 #### 16.8 Eventos
 
@@ -1046,11 +1013,7 @@ Eximente de Responsabilidad 269
 
 Eximente de Responsabilidad 274
 
-#### 20.5 Compensaciones por Eventos
-
-Eximentes de Responsabilidad 275 Página 13 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 20.5 Compensaciones por Eventos
 
 #### 20.6 Reparaciones Necesarias por Evento
 
@@ -1150,9 +1113,7 @@ Nacional de Infraestructura
 
 #### 25.22 Manejo de lnformación 331
 
-#### 25.23 Reincorporación 331 Página 15 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 25.12 Idioma del Contrato 328
 
 CONTRATO DE CONCESIÓN BAJO EL
 
@@ -6494,9 +6455,7 @@ Contrato de Concesión, sin importar que la
 
 causa de un determinado incumplimiento sea anterior a la aprobación de la
 
-toma de posesión. Página 114 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
-
-Nacional de Infraestructura
+ #### 25.23 Reincorporación 331
 
 ### CAPÍTULO VI - PATRIMONIO AUTÓNOMO
 
@@ -10236,9 +10195,7 @@ Acta de Reversión de cada Intervención. Serán aplicables las Multas y Sancion
 
 que de acuerdo con este Contrato y la Ley Aplicable se
 
-deriven de los incumplimientos del Concesionario. Página 191 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Cbiriguaná Agencia
-
-Nacional de Infraestructura
+ Adenda No. 8 del 30 de diciembre de 2024 y adenda No. 9 del 19 de marzo de 2025.
 
 ### CAPÍTULO X - PREDIOS 10. l División de las actividades a
 
@@ -17418,4 +17375,3 @@ antes de ser utilizada formalmente.
 **Versión:** 3.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 27/02/2025 
-

@@ -1,10 +1,10 @@
-﻿# CLAUSULA 12.1 - REVERSIÓN DE ACTIVOS Y SISTEMAS
+﻿﻿# CAPÍTULO XV (CLÁUSULAS 15.1-15.5) - REVERSIÓN Y ENTREGA DE BIENES
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 12.1 - Reversión de Activos y Sistemas  
+**Cláusula:** 15.1-15.5 - Reversión y Entrega de Bienes  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 12.1 |
+| **Número** | 15.1-15.5 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Entrega de Activos y Sistemas en Buen Estado - Proceso de Reversión**
+**Reversión y Entrega de Bienes (Capítulo XV)**
 
-Este documento contractual establece las obligaciones específicas para la reversión de activos y sistemas al final del contrato de concesión, garantizando la entrega en condiciones óptimas de operación.
+Este documento contractual establece las obligaciones específicas para la Etapa de Reversión (Secciones 15.1 a 15.5), definiendo el procedimiento de entrega de los Bienes Revertibles, las condiciones de estado y funcionamiento, y los requisitos documentales al finalizar la concesión.
 
 ---
 
@@ -37,209 +37,94 @@ Este documento contractual establece las obligaciones específicas para la rever
 | **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
+| **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (Capítulo XV) |
 
 ---
 
-Cl_12.1_Reversión.docx – Entrega de Activos y Sistemas en Buen Estado
-Versión 2.0 - Revisión y Mejora Punto 42
-1. Marco contractual ajustado
-Cláusula principal
-Contrato General - Capítulo XV, Secciones 15.1 a 15.5:
-Sección 15.1 - Inicio de la Etapa de Reversión:
-Por terminación del plazo contractual
-Por declaratoria de Terminación Anticipada
-Sección 15.4 - Alcance de la Reversión: "Los Bienes Revertibles corresponden, como mínimo, a aquellos que se enuncian en la Sección 3.3(a), en el Apéndice Técnico 1 y Apéndice Técnico 2"
-Sección 15.5 - Procedimiento para la Reversión: "El Concesionario actualizará el Inventario de Activos de la Concesión"
-Referencias normativas integradas
-Contrato General:
-Sección 3.3 - Bienes de la Concesión (inventario base)
-Capítulo XIV - Operación y Mantenimiento (requisito previo)
-Sección I.2(d) - Jerarquía documental
-Apéndices Técnicos específicos:
-AT1 - Alcance del Proyecto (Bienes Revertibles base)
-AT2, Capítulo V - Condiciones de entrega O&M
-AT3, Capítulo VIII - Sistemas tecnológicos
-AT4, Capítulo 6 - Indicadores hasta reversión
-AT6, Capítulo VIII, Num. 8.1 - Cierre ambiental
-AT9, Capítulo II, Num. 2.1(e) - Documentación técnica
-2. Alcance de la obligación completo
-2.1 Bienes Revertibles según Sección 3.3(a)
-Infraestructura férrea:
-Unidades Funcionales (UFVF 1-53) con especificaciones de Apéndice Técnico 1
-Corredor del Proyecto libre de ocupaciones (Sección 15.5(c))
-Estaciones, talleres, CCO según Apéndice Técnico 2, Capítulo V
-Material Rodante del Proyecto:
-Locomotoras con sistemas ITCS operativos (AT3, Cap. VIII, Num. 8.10)
-Vagones con equipos embarcados TETRA funcionales
-Sistemas de mantenimiento integrados a talleres
-Sistemas tecnológicos integrados:
-CTC y señalización según AT3, Capítulo VIII, Nums. 8.1-8.10
-Telecomunicaciones (fibra óptica, radio TETRA, CCTV)
-ITS y control de accesos en perfecto funcionamiento
-Software con licencias transferibles (Sección 3.3(b))
-2.2 Condiciones de entrega según Sección 15.4(c)
-Estado técnico requerido:
-Indicadores cumplidos según AT4, Capítulo 6 (medición durante recorrido 15.5(d))
-Mantenimiento preventivo final ejecutado según AT2, Capítulo VI
-Libre de gravámenes (requisito contractual explícito)
-Vida útil mínima 5 años después del Acta de Reversión (AT2, Cap. V)
-Documentación obligatoria:
-Memoria Técnica actualizada (entrega en 30 días - Sección 15.5(e))
-As-built finales por cada UFVF
-Manuales de operación validados
-Inventario de Activos actualizado (Sección 15.5(b))
-3. Procedimiento técnico de reversión
-3.1 Fase preparatoria (últimos 3 años de concesión)
-Mantenimiento intensivo:
-Plan de renovación mayor según AT2, Capítulo VI, Num. 6.1
-Reposición de equipos críticos para garantizar vida útil residual
-Actualización de software con licencias transferibles vigentes
-Documentación progresiva:
-Inventarios digitales integrados al SICC (AT4, Cap. 5.3)
-As-built continuos por modificaciones/mejoras
-Certificaciones ambientales actualizadas (AT6, Cap. VIII)
-3.2 Proceso de verificación final (Sección 15.5)
-Recorrido técnico obligatorio (15.5(d)):
-Concesionario + Interventor en todas las áreas del Proyecto
-Medición de Indicadores in situ con equipos calibrados
-Verificación de Área Disponible y Predios Requeridos libres
-Constancia documental de condiciones técnicas
-Entregables en 30 días (15.5(e)):
-Memoria Técnica final con todas las actualizaciones
-Inventario certificado de Bienes Revertibles
-Dossier de manuales completo y actualizado
-Certificaciones de cumplimiento ambiental
-3.3 Criterios de aceptación ANI
-Técnicos:
-Indicadores AT4 cumplidos en medición final
-Sistemas operativos con redundancia garantizada
-Material rodante con vida útil residual mínima
-Documentales:
-As-built 100% actualizados y trazables
-Licencias de software transferibles válidas
-Protocolos de mantenimiento entregados
-Ambientales y legales:
-Sin pasivos ambientales pendientes (AT6, Cap. VIII, Num. 8.1)
-Predios libres de ocupaciones irregulares
-Cumplimiento integral Plan de Manejo Ambiental
-5. Interfaces documentales críticas
-5.1 Con documentos de operación (coordinación requerida)
-Cl_9.1_OM.docx v2.0: Protocolos de custodia para escenario 15.3(b)
-Cl_14.1_OM_Sistemas.docx: Estado de hardware/software transferible
-AT2_OM.docx: Tiempo Máximo de Corrección y mantenimiento final
-5.2 Con documentos de construcción (trazabilidad)
-Cl_8.2_Construcción.docx: As-built progresivos desde construcción
-Ap1_AlcanceProyecto.docx: Definición final de Bienes Revertibles
-Ap9_PlanObras.docx: Cronograma entrega por UFVF
-5.3 Con documentos normativos (jerarquía)
-Cl_I.2d_JerarquiaDocumental.docx v2.0: Prioridad en interpretación
-Cl_18.3_Penalidades.docx: Sanciones por deficiencias en reversión
-Ap_Financieros.docx: Garantías vigentes hasta aceptación
-5.4 Con documentos ambientales y técnicos
-Ap6_Ambiental.docx: Cierre sin pasivos ambientales
-Ap7_Predial.docx: Predios libres de ocupaciones
-Ap4_Indicadores.docx: Umbrales de aceptación durante reversión
-6. Riesgos asociados y mitigaciones
-6.1 Riesgos técnicos
-Alto impacto:
-Entrega con deficiencias técnicas
-Consecuencia: Rechazo ANI y extensión Etapa de Reversión
-Mitigación: Auditorías técnicas progresivas últimos 2 años
-Contingencia: Plan de corrección dentro de Tiempo Máximo
-Software sin licencias transferibles
-Consecuencia: Incumplimiento grave Sección 3.3(b)
-Mitigación: Verificación anual vigencia licencias
-Contingencia: Adquisición nueva licencia antes de reversión
-Medio impacto:
-Sistemas con vida útil insuficiente 
-Consecuencia: No cumplimiento requisito 5 años AT2 Cap. V
-Mitigación: Plan renovación mayor últimos 3 años
-Contingencia: Reposición equipos críticos
-6.2 Riesgos documentales
-Alto impacto:
-Memoria Técnica no entregada en 30 días
-Consecuencia: Incumplimiento directo Sección 15.5(e)
-Mitigación: Preparación anticipada desde inicio Etapa Reversión
-Contingencia: Equipo dedicado actualización express
-Inventarios desactualizados
-Consecuencia: Disputas sobre bienes entregados
-Mitigación: Inventarios digitales tiempo real en SICC
-Contingencia: Auditoría física integral con interventoría
-6.3 Riesgos ambientales y regulatorios
-Alto impacto:
-Pasivos ambientales no cerrados 
-Consecuencia: Sanciones ANLA y rechazo ANI
-Mitigación: Plan de cierre progresivo integrado a O&M
-Contingencia: Recursos de contingencia ambiental AT6
-7. Recomendaciones estratégicas para ingeniería EPC
-7.1 Planificación desde construcción
-Sistema de gestión de activos:
-Inventarios digitales desde primera UFVF terminada
-Trazabilidad completa de modificaciones y mejoras
-Integración SICC para monitoreo tiempo real (AT4, Cap. 5.3)
-Software transferible:
-Licencias perpetuas o cedibles en licitaciones
-Código fuente disponible para sistemas críticos
-Documentación técnica completa desde desarrollo
-7.2 Gestión durante operación
-Mantenimiento orientado a reversión:
-Plan maestro con renovaciones programadas últimos 3 años
-Stock de repuestos dimensionado para vida útil residual
-Documentación de todas las intervenciones (AT2, Cap. VI)
-Preparación documental continua:
-As-built automáticos por cada modificación (AT9, Cap. II)
-Repositorio digital actualizado permanentemente
-Auditorías preventivas anuales con interventoría
-7.3 Estrategia de cierre
-Protocolo de verificación interno:
-Checklist de cumplimiento 6 meses antes
-Simulacros de proceso de reversión
-Corrección proactiva de deficiencias detectadas
-Coordinación inter-institucional:
-Mesa técnica ANI-Interventor-Concesionario
-Cronograma detallado proceso de reversión
-Contingencias para resolución dentro de Tiempo Máximo
-8. Cronograma de implementación
-8.1 Fase preparatoria (Años -3 a -1)
-Año -3: Plan de renovación equipos críticos
-Año -2: Actualización masiva documentación técnica
-Año -1: Auditoría integral preparatoria
-8.2 Etapa de Reversión (Meses 1-6)
-Mes 1: Inicio verificación final (Sección 15.5(a))
-Mes 2-4: Recorrido técnico y mediciones (15.5(d))
-Mes 5: Entrega Memoria Técnica (30 días Sección 15.5(e))
-Mes 6: Correcciones y aceptación formal ANI
-8.3 Cierre contractual (Mes 7)
-Transferencia legal de Bienes Revertibles
-Liberación garantías según Ap_Financieros
-Acta final de terminación contractual
-
-Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.:**
-Checklist de cumplimiento 6 meses antes
-Simulacros de proceso de reversión
-Corrección proactiva de deficiencias detectadas
-Coordinación inter-institucional:
-Mesa técnica ANI-Interventor-Concesionario
-Cronograma detallado proceso de reversión
-Contingencias para resolución de observaciones
-7. Cronograma de implementación sugerido
-7.1 Fase preparatoria (Años -3 a -1)
-Año -3: Plan de renovación equipos críticos
-Año -2: Actualización masiva documentación técnica
-Año -1: Auditoría integral preparatoria
-7.2 Etapa de Reversión (Meses 1-6)
-Mes 1: Inicio verificación final (Sección 15.5(a))
-Mes 2-4: Recorrido técnico y mediciones
-Mes 5: Entrega Memoria Técnica (30 días Sección 15.5(e))
-Mes 6: Aceptación formal ANI
-7.3 Cierre contractual (Mes 7)
-Transferencia legal de Bienes Revertibles
-Liberación garantías según documentos financieros
-Acta final de terminación contractual
-8. Control de versiones y trazabilidad
-Versión 2.0 - Integración completa con Cl_I.2d_JerarquiaDocumental v2.0 Dependencias validadas: Cl_9.1_OM, Cl_8.2_Construcción, Ap1_AlcanceProyecto Preparado para: Coordinación con Cl_15.1_Reversión_Bienes en desarrollo
-
-Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+## 1. MARCO CONTRACTUAL
+
+### **1.1 Cláusulas Principales (Capítulo XV)**
+
+> **Sección 15.1 Inicio de la Etapa de Reversión:** "Se refiere a la tercera etapa del Contrato durante la cual se adelantarán todas las actividades necesarias para la Reversión de, como mínimo, los Bienes Revertibles..."
+>
+> **Sección 15.4 Alcance de la Reversión:** "Los Bienes Revertibles corresponden, como mínimo, a aquellos que se enuncian en la Sección 3.3(a), en el Apéndice Técnico 1 y Apéndice Técnico 2... deberán estar en condiciones de operación y funcionamiento..."
+
+### **1.2 Definición de Bienes Revertibles (Sección 3.3(a))**
+Los bienes de la concesión sujetos a reversión incluyen:
+- **(i)** Obras y componentes de las Unidades Funcionales.
+- **(iv)** Equipos.
+- **(v)** Señalización.
+- **(vi)** Material Rodante.
+
+*Nota: La Cláusula 12.1 regula la "Función de Administración", no la reversión.*
+
+---
+
+## 2. PROCEDIMIENTO DE REVERSIÓN (SECCIÓN 15.5)
+
+### **2.1 Cronograma de Actividades**
+
+| Hito | Plazo (antes de reversión) | Actividad | Referencia |
+|:---|:---|:---|:---|
+| **Actualización Inventario** | 6 meses | El Concesionario actualiza el Inventario de Activos | 15.5(b) |
+| **Recorridos Conjuntos** | 1 mes | Verificación ANI, Interventor y Concesionario | 15.5(d) |
+| **Acta de Reversión** | Fecha Final | Suscripción del Acta de Reversión | 15.5(e) |
+
+### **2.2 Verificación Conjunta**
+Durante los recorridos se verificará:
+- Estado de operación y funcionamiento.
+- Cumplimiento de indicadores del Apéndice Técnico 4.
+- Inexistencia de gravámenes o limitaciones al dominio.
+
+---
+
+## 3. ESTADO DE LOS BIENES (SECCIÓN 15.4(c) y 3.3(b))
+
+### **3.1 Condiciones de Entrega**
+Los Bienes Revertibles deben entregarse:
+- **En condiciones de operación y funcionamiento:** Aptos para la prestación del servicio.
+- **Libres de gravámenes:** Sin limitaciones de dominio, embargos o condiciones resolutorias.
+- **Cumpliendo Indicadores:** Según los valores de aceptación para reversión del Apéndice Técnico 4.
+- **Vida Útil Remanente:** Vida útil suficiente para garantizar la operación continua hasta el próximo ciclo de mantenimiento mayor programado, según los manuales del fabricante entregados.
+- **Material Rodante:** Debe entregarse al día con su Plan de Mantenimiento (preventivo y correctivo) y cumpliendo los indicadores de disponibilidad (DMR), sin exigir necesariamente un Overhaul total salvo que corresponda por cronograma.
+
+### **3.2 Entregables Documentales y Tecnológicos**
+Según la Sección 3.3(b), se debe entregar:
+- **Manuales:** De operación y mantenimiento actualizados.
+- **Planos As-Built:** De toda la infraestructura y redes.
+- **Licencias de Software:** Las licencias deberán entregarse vigentes y con los derechos de uso transferidos a la ANI por un periodo mínimo de doce (12) meses posteriores a la fecha de reversión, o el tiempo remanente de la suscripción vigente, lo que sea mayor.
+
+---
+
+## 4. REVERSIÓN ESPECIAL Y ENTREGAS ANTICIPADAS
+
+### **4.1 Reversión Especial (Sección 9.16)**
+En caso de intervenciones específicas (ej. variantes, puentes) que deban entregarse antes de la finalización del contrato, se aplicará el procedimiento de **Reversión Especial** o entrega de Unidades Funcionales, asegurando que estos bienes pasen a administración de la ANI o la entidad competente en las condiciones exigidas.
+*Nota: El AT1 (Numeral 4.4) contempla una reversión especial para el nuevo puente vehicular sobre el río Sogamoso a los 6 meses de operación.*
+
+---
+
+## 5. RIESGOS Y GARANTÍAS
+
+### **5.1 Riesgos de Incumplimiento**
+- **Activación de Garantía:** El incumplimiento en la reversión puede activar la **Garantía de Reversión** (Cláusula 18.6), la cual suele constituirse como un amparo específico dentro de la Garantía Única de Cumplimiento vigente.
+- **Penalidades:** Aplicación de multas según el Capítulo XVI por retraso en la entrega o deficiencias en los bienes.
+
+### **5.2 Mitigación**
+- **Auditorías Previas:** Realizar auditorías internas 12 meses antes del fin del contrato.
+- **Plan de Puesta a Punto:** Ejecutar mantenimientos mayores en la fase final.
+
+---
+
+## 6. INTERFACES DOCUMENTALES
+
+- **Cl_13.1 (Material Rodante):** Coordinar vida útil remanente.
+- **AT6 (Ambiental):** Cierre de expedientes ambientales (requisito de reversión).
+- **AT9 (Plan de Obras):** Trazabilidad de activos construidos.
+
+---
+
+**Advertencia:** Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
 ---
 
 ### OBLIGACIONES CONTRACTUALES

@@ -1,10 +1,10 @@
-﻿# CLAUSULA 16.1 - PENALIDADES Y MULTAS POR INCUMPLIMIENTO
+﻿# CAPÍTULO XVI y SECCIÓN 4.6 - RÉGIMEN DE MULTAS, SANCIONES Y DEDUCCIONES
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 16.1 - Penalidades y Multas por Incumplimiento  
+**Cláusula:** Cap. XVI / 4.6 - Régimen Sancionatorio  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 16.1 |
+| **Número** | Cap. XVI / 4.6 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Multas por Incumplimiento Contractual**
+**Régimen de Multas, Sanciones y Deducciones**
 
-Este documento contractual establece el régimen de penalidades y multas aplicables por incumplimiento de las obligaciones contractuales del proyecto APP La Dorada - Chiriguaná.
+Este documento contractual establece el régimen sancionatorio (Capítulo XVI) y el mecanismo de deducciones por desempeño (Sección 4.6) aplicables al proyecto APP La Dorada - Chiriguaná, diferenciando entre incumplimientos subsanables, insubsanables y afectaciones a la retribución por indicadores.
 
 ---
 
@@ -37,126 +37,96 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 | **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
-| **v4.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada - COMPLETADO |
+| **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (Cap. XVI y 4.6) y conceptos jurídicos |
 
 ---
 
-## 1. MARCO CONTRACTUAL
+## 1. DISTINCIÓN DE CONCEPTOS (SECCIONES 16.1 Y 4.6)
 
-### 1.1 Base Legal
-**Contrato de Concesión No. 001 de 2025 – Cláusula 16.1:**
+Es fundamental distinguir entre los diferentes mecanismos de apremio y sanción del contrato:
 
-> "El Concesionario estará obligado a pagar multas a favor de la ANI por cada incumplimiento de las obligaciones contractuales, de acuerdo con los supuestos y cuantías definidos en el presente Contrato. Dichas multas podrán imponerse de manera independiente de las penalidades previstas en la Cláusula 18.3, y su aplicación no exonera al Concesionario de la obligación de cumplir con las obligaciones contractuales."
+### **1.1 Multas (Sección 16.1(a))**
+Son sanciones pecuniarias por **incumplimientos subsanables** del Contrato. Su finalidad es conminar al Concesionario al cumplimiento de sus obligaciones.
+*   *Ejemplo:* Retraso en la entrega de un informe o en la renovación de una garantía.
 
-### 1.2 Normativa Aplicable
-- **Ley 80 de 1993, arts. 17 y 18** – Sanciones contractuales
-- **Ley 1508 de 2012, arts. 11 y 18** – Garantías y sanciones en APP
-- **Decreto 1082 de 2015** – Régimen de sanciones en infraestructura
-
-## 2. ALCANCE DE LA OBLIGACIÓN
+### **1.2 Sanciones (Sección 16.1(b))**
+Son penas pecuniarias por **incumplimientos definitivos e insubsanables** del Contrato. Su finalidad es sancionar la conducta del Concesionario.
+*   *Ejemplo:* Incumplimiento definitivo de la obligación de cierre financiero.
 
-### 2.1 Definición de Multas
-**Qué son:** Sanciones económicas inmediatas, aplicadas por incumplimiento de plazos u obligaciones específicas.
+### **1.3 Deducciones (Sección 4.6)**
+No son multas, sino una **menor retribución** calculada semestralmente en función del cumplimiento de los Indicadores de Cumplimiento (Apéndice Técnico 4) y del Índice de Cumplimiento Predial.
+*   *Mecanismo:* Descuento automático en el Acta de Cálculo de la Retribución.
 
-### 2.2 Diferencia con Penalidades (Cl. 18.3)
-| Aspecto | Multas (Cl. 16.1) | Penalidades (Cl. 18.3) |
-|:---|:---|:---|
-| **Aplicación** | Retrasos o incumplimientos puntuales | Indicadores de desempeño |
-| **Efecto** | Inmediato | Acumulativo |
-| **Base** | Plazos y obligaciones específicas | Apéndice Técnico 4 |
+### **1.4 Cláusula Penal (Sección 16.6)**
+Es una estimación anticipada de perjuicios (indemnización) que se hace efectiva en caso de declaratoria de caducidad o incumplimiento grave.
+*   *Valor:* Hasta el 20% del valor del contrato o los valores específicos de la Sección 16.7.
 
-### 2.3 Autoridad Competente
-- **Entidad:** ANI (Agencia Nacional de Infraestructura)
-- **Base:** Informe de la Interventoría
-- **Proceso:** Acto administrativo formal
+---
 
-### 2.4 Causales Comunes de Aplicación
-- **Retraso en entrega de estudios y diseños** (Cl. 8.1 y 8.2)
-- **No obtención oportuna de licencias** (Cl. 2.14, AT6 Ambiental, AT7 Predial)
-- **Incumplimiento de cronogramas de obra** (AT9, Num. 2.1)
-- **Fallas en O&M que afecten continuidad o seguridad** (Cl. 9.1, AT2)
-
-## 3. PROCEDIMIENTO DE IMPOSICIÓN
+## 2. PROCEDIMIENTO DE IMPOSICIÓN (SECCIÓN 16.4)
 
-### 3.1 Proceso Administrativo
-1. **Informe de la Interventoría** con evidencia del incumplimiento
-2. **Notificación al Concesionario** para ejercer defensa
-3. **Acto administrativo de la ANI** imponiendo la multa
-4. **Descuento automático** de los pagos contractuales o pago directo
+### **2.1 Para Multas y Sanciones (Debido Proceso)**
+El procedimiento sancionatorio sigue estos pasos:
+1.  **Requerimiento:** El Interventor notifica el incumplimiento.
+2.  **Plazo de Cura:** Si el incumplimiento es subsanable, se otorga un plazo para corregir.
+3.  **Descargos:** El Concesionario presenta sus defensas.
+4.  **Resolución:** La ANI emite un Acto Administrativo motivado imponiendo la multa o sanción.
 
-### 3.2 Cronograma del Proceso
-| Etapa | Plazo | Responsable |
-|:---|:---:|:---|
-| **Informe Interventoría** | 5 días hábiles | Interventoría |
-| **Notificación ANI** | 3 días hábiles | ANI |
-| **Defensa Concesionario** | 10 días hábiles | Concesionario |
-| **Resolución ANI** | 15 días hábiles | ANI |
-| **Ejecución** | Inmediato | ANI |
-
-## 4. RIESGOS PARA EL EPC
+### **2.2 Para Deducciones (Automático)**
+Las deducciones por desempeño (Sección 4.6) **no requieren acto administrativo sancionatorio**. Se aplican directamente en el cálculo de la retribución semestral basado en los reportes de indicadores del SICC validados por la Interventoría.
 
-### 4.1 Riesgos Financieros
-- **Multas acumulativas** por retrasos parciales
-- **Doble afectación:** multa inmediata + penalidad futura
-- **Impacto en flujo de caja** (afectación de retribución mensual)
-- **Riesgo reputacional** (registro en SECOP e historial contractual)
+---
 
-### 4.2 Riesgos Operacionales
-- **Interrupción de pagos** por descuento automático
-- **Afectación de garantías** por incumplimiento reiterado
-- **Impacto en relaciones** con proveedores y contratistas
-- **Dificultad para financiación** futura
-
-## 5. RECOMENDACIONES PRÁCTICAS EPC
+## 3. CAUSALES ESPECÍFICAS (SECCIONES 16.8 Y 16.9)
 
-### 5.1 Gestión Preventiva
-- **Implementar tablero de control** de plazos y entregables
-- **Gestionar en paralelo** licencias críticas (ANLA, ANE, predial, municipales)
-- **Documentar todas las comunicaciones** con ANI e Interventoría
-- **Crear sistema de alertas internas** de riesgos de incumplimiento
-- **Diseñar buffers de tiempo** en el Plan de Obras (AT9) para mitigar retrasos
+### **3.1 Eventos Generadores de Multas (Sección 16.8)**
+Incluyen, entre otros:
+- No constituir o renovar las garantías y seguros.
+- No entregar informes o entregables en los plazos establecidos.
+- Incumplimiento de instrucciones de la Interventoría.
+- Retrasos en el cronograma que no constituyan incumplimiento definitivo.
 
-### 5.2 Optimizaciones Técnicas Específicas para EPC
-- **Dashboard ejecutivo** con métricas de cumplimiento en tiempo real
-- **Protocolo de escalamiento** para riesgos de incumplimiento
-- **Matriz de responsabilidades** RACI para cada entregable
-- **Plan de contingencia** para escenarios de retraso
-- **Comunicación proactiva** con ANI sobre posibles demoras
-
-## 6. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
+### **3.2 Eventos Generadores de Sanciones (Sección 16.9)**
+Incluyen, entre otros:
+- Incumplimiento definitivo de obligaciones principales.
+- No entrega de la infraestructura al final de la concesión.
+- Falsedad en la información entregada.
 
-### 6.1 Documentos Base (Completados ✅)
-- **Cl_2.14_LicenciasPermisos v3.0** ✅ - Gestión de licencias y permisos
-- **Cl_8.1_Preconstruccion v3.0** ✅ - Obligaciones de estudios y diseños
-- **Cl_8.2_Construccion v3.0** ✅ - Obligaciones en fase de construcción
-- **AT9_PlanObras v3.0** ✅ - Cronogramas de obra y entregables
+---
 
-### 6.2 Documentos Dependientes
-- **AT4_IndicadoresDesempeno** - Penalidades por indicadores (Cl. 18.3)
-- **AT2_OperacionMantenimiento** - Fallas en O&M que generan multas
-- **Cl_9.1_OM** - Obligaciones de operación y mantenimiento
+## 4. INTEGRACIÓN CON APÉNDICE TÉCNICO 4 (SECCIÓN 4.6)
 
-## 7. MATRIZ DE CONTROL Y SEGUIMIENTO
+Las **Deducciones** se rigen por la Sección 4.6 y el Apéndice Técnico 4, no por el régimen de multas.
 
-### 7.1 Métricas de Seguimiento Automatizadas
-| Métrica | Objetivo | Frecuencia | Responsable |
-|:---|:---:|:---:|:---|
-| **Cumplimiento de plazos** | 100% | Diaria | Jefe de Proyecto |
-| **Entregables pendientes** | 0 | Semanal | Supervisor Técnico |
-| **Alertas de riesgo** | < 5 | Diaria | Gerencia de Proyecto |
+- **Fuente:** Apéndice Técnico 4 (Indicadores de Disponibilidad y Niveles de Servicio).
+- **Indicadores Clave:**
+    - **DMR:** Disponibilidad de Material Rodante.
+    - **DVF:** Disponibilidad de Vía Férrea.
+    - **E3:** Disponibilidad del SICC.
+- **Impacto:** Afectan directamente el flujo de caja operativo al reducir el pago semestral de la ANI.
 
-## 8. CONCLUSIONES Y PRÓXIMOS PASOS
+---
 
-### 8.1 Estado del Documento v4.0
-- **Base contractual:** ✅ Completa y exacta
-- **Procedimientos:** ✅ Claramente definidos
-- **Control de versiones:** ✅ Implementado según estándar del proyecto
-- **Optimizaciones EPC:** ✅ Añadidas y documentadas
-- **Completitud técnica:** ✅ 100% completado
+## 5. RIESGOS Y CONSECUENCIAS
 
-Las multas de la Cláusula 16.1 son un mecanismo coercitivo de aplicación inmediata, complementario a las penalidades de la Cláusula 18.3. Su gestión depende del cumplimiento estricto de plazos, permisos y entregables contractuales.
-
-⚠️ Advertencia:“Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.”
+### **5.1 Riesgo Financiero**
+- **Deducciones:** Impacto directo en el ingreso semestral (menor caja).
+- **Multas/Sanciones:** Salida de caja adicional (pago a la ANI) o ejecución de garantías (lo que genera obligación de reembolso a la aseguradora).
+
+### **5.2 Riesgo Legal (Capítulo XVII)**
+La acumulación de multas o la reiteración de incumplimientos puede llevar a la declaratoria de **Caducidad del Contrato** (Sección 17.2), lo cual implica la terminación anticipada, inhabilidad para contratar con el Estado y ejecución de la Cláusula Penal Pecuniaria.
+
+---
+
+## 6. RECOMENDACIONES PARA EL EPC
+
+- **Monitoreo de Indicadores:** El cumplimiento del AT4 es crítico para evitar deducciones automáticas.
+- **Gestión de Plazos:** Atender los requerimientos de la Interventoría dentro de los plazos de cura para evitar que un incumplimiento subsanable se convierta en multa.
+- **Documentación:** Mantener trazabilidad completa para la defensa en procesos sancionatorios.
+
+---
+
+**Advertencia:** Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
 ---
 
 ### OBLIGACIONES CONTRACTUALES

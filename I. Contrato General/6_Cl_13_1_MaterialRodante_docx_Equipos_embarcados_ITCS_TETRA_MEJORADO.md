@@ -1,10 +1,10 @@
-﻿# CLAUSULA 13.1 - MATERIAL RODANTE Y EQUIPOS EMBARCADOS
+﻿﻿# SECCIONES 13.1 y 13.2 (CONTRATO) y APÉNDICE TÉCNICO 1 - GESTIÓN Y PUESTA A PUNTO DE MATERIAL RODANTE
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 13.1 - Material Rodante y Equipos Embarcados  
+**Cláusula:** 13.1, 13.2 y AT1 - Gestión y Puesta a Punto  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 13.1 |
+| **Número** | 13.1 / 13.2 / AT1 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Equipos Embarcados ITCS y TETRA en Material Rodante**
+**Gestión, Puesta a Punto y Modernización de Material Rodante**
 
-Este documento contractual establece las especificaciones técnicas y obligaciones para la integración de sistemas ITCS (Sistema Integrado de Control de Trenes) y TETRA en el material rodante del proyecto APP La Dorada - Chiriguaná.
+Este documento contractual establece las obligaciones para la recepción del material rodante (Sección 13.1), su puesta a punto y modernización tecnológica (Sección 13.2 y AT1), y su mantenimiento durante la concesión.
 
 ---
 
@@ -37,163 +37,87 @@ Este documento contractual establece las especificaciones técnicas y obligacion
 | **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
-| **v4.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada - EVALUACIÓN ITCS |
+| **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (13.1 vs 13.2) y alcance técnico |
 
 ---
 
-Cl_13.1_MaterialRodante.docx – Equipos embarcados ITCS, TETRA
-
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-**Cláusula 13.1 – Material Rodante (Contrato General, Cap. XIII, Secciones 13.1 a 13.3):**
+**Contrato General - Capítulo XIII:**
 
-> "El Concesionario deberá garantizar que el material rodante cuente con el equipamiento técnico embarcado necesario para la interoperabilidad del sistema férreo, incluyendo los equipos de control, comunicación y localización exigidos en los Apéndices Técnicos."
+> **Sección 13.1 Entrega del Material Rodante:** "Consiste en la entrega al Concesionario del Material Rodante del Proyecto en el estado en que se encuentre... Ni al momento de la Entrega... el Concesionario podrá incluir reserva, condicionamiento, objeción u observación alguna relacionada con el estado del Material Rodante entregado..."
+>
+> **Sección 13.2 Puesta a Punto:** "Se refiere a la Construcción, Puesta a Punto, Rehabilitación, así como la provisión e instalación del Equipamiento Fijo e Instalaciones del Proyecto y las demás actividades necesarias para el cumplimiento de las obligaciones del Concesionario de acuerdo con lo previsto en el presente Contrato y Apéndice Técnico 1."
 
 ### 1.2 Normativa y Documentos Aplicables
-Contrato General – Cap. XIII (13.1–13.3), Cap. XII (compatibilidad material rodante – infraestructura), Cap. XIV (operación y mantenimiento).
-Apéndice Técnico 1 – Alcance del Proyecto (Cap. V, Nums. 5.1–5.3: locomotoras, material rodante de factor de calidad y maquinaria de mantenimiento de vía).
-Apéndice Técnico 2 – Operación y Mantenimiento (Cap. III, Num. 3.1.2 y 3.2.2: seguridad en material rodante y Reglamento de Operación de Trenes).
-Apéndice Técnico 3 – Especificaciones Técnicas (Cap. III, Num. 3.1 y Cap. VIII, Num. 8.10: ITCS, radio TETRA, comunicaciones embarcadas).
-Apéndice Técnico 4 – Indicadores (Cap. 3, Tablas 1–4: disponibilidad de material rodante y equipos embarcados).
-Apéndice Técnico 10 – Capacidad y Surcos (Cap. III, Num. 3.2: integración del material rodante con la asignación de surcos).
-
-## 2. ALCANCE DE LA OBLIGACIÓN
+- **Apéndice Técnico 1 (Cap. V):** Especificaciones para la puesta a punto y modernización (ITCS/TETRA).
+- **Apéndice Técnico 2 (Cap. VI):** Mantenimiento de material rodante.
+- **Apéndice Técnico 3 (Cap. VIII):** Especificaciones técnicas de sistemas embarcados.
+- **Apéndice Técnico 4:** Indicadores de Disponibilidad de Material Rodante (DMR).
 
-### 2.1 Material Rodante Requerido
-**El EPC debe garantizar que el material rodante del Proyecto (locomotoras, vagones, maquinaria de mantenimiento) cuente con:**
+---
 
-### 2.2 Sistemas Embarcados Críticos
-Sistemas de control y seguridad ferroviaria (ITCS): control automático de trenes, compatibilidad con el CTC y señalización (Ap. 3, Cap. VIII, Num. 8.10).
-Radio TETRA: comunicación tren–tierra, interoperabilidad con la red troncalizada del corredor (Ap. 3, Cap. VIII, Num. 8.5 y 8.10).
-GPS y localización: seguimiento de trenes en tiempo real (Ap. 3, Cap. VIII, Num. 8.10).
-CCTV embarcado: seguridad operacional y registro de eventos (Ap. 2, Cap. III, Num. 3.1.2).
-- **Compatibilidad operativa:** interoperabilidad con sistemas de FENOCO y otros operadores ferroviarios (Contrato, Cap. XIII, Sección 13.2)
-- **Equipamiento de calidad:** locomotoras de factor de calidad con redundancia tecnológica (Ap. 1, Cap. V, Num. 5.3)
+## 2. ENTREGA Y RECEPCIÓN (SECCIÓN 13.1)
 
-### 2.3 ⚠️ EVALUACIÓN DE BLOQUEO ITCS
+### **2.1 Condiciones de Entrega**
+El Concesionario recibe el Material Rodante de la Nación en el estado actual ("as-is").
+- **Sin Objeciones:** No se admiten reservas ni reclamaciones sobre el estado de los bienes al momento de la entrega.
+- **Inventario:** Se debe verificar contra el inventario del Apéndice Técnico 1, pero aceptando el estado físico y operativo existente.
 
-| Sistema | Dependencia AT3 | Estado | Acción Requerida |
-|:---|:---|:---:|:---|
-| **ITCS** | Cap. VIII, Num. 8.10 | 🔴 BLOQUEADO | Esperar especificaciones técnicas |
-| **TETRA** | Cap. VIII, Num. 8.5 | 🔴 BLOQUEADO | Esperar especificaciones técnicas |
-| **GPS/Localización** | Cap. VIII, Num. 8.10 | 🔴 BLOQUEADO | Esperar especificaciones técnicas |
-| **CCTV Embarcado** | Cap. III, Num. 3.1.2 | 🟡 PARCIAL | Usar especificaciones AT2 |
-| **Compatibilidad FENOCO** | Cap. XIII, Sección 13.2 | 🟢 DISPONIBLE | Proceder con contrato general |
+---
 
-### 2.4 Estrategia de Avance Sin ITCS
-**Documentos disponibles para continuar:**
-- ✅ **AT1_AlcanceProyecto** - Especificaciones generales de material rodante
-- ✅ **AT2_OperacionMantenimiento** - Requerimientos de seguridad y CCTV
-- ✅ **AT4_IndicadoresDesempeno** - Métricas de disponibilidad
-- ✅ **Contrato General** - Compatibilidad con FENOCO y otros operadores
-
-## 3. PROCEDIMIENTO DE GESTIÓN
+## 3. PUESTA A PUNTO Y MODERNIZACIÓN (SECCIÓN 13.2 y AT1)
 
-### 3.1 Fases de Implementación
-1. **Especificación técnica de material rodante:** elaborar fichas técnicas de locomotoras y vagones con equipamiento requerido (Ap. 1, Cap. V, Num. 5.1)
-2. **Pruebas de aceptación en fábrica (FAT):** verificar ITCS, TETRA, GPS y CCTV antes del embarque (Ap. 3, Cap. VIII, Num. 8.10)
-3. **Pruebas en sitio (SAT):** validar integración con CTC, señalización y red TETRA (Ap. 10, Cap. III, Num. 3.2)
-4. **Protocolos de interoperabilidad:** definir compatibilidad con FENOCO y pruebas cruzadas de ITCS (Contrato, Cap. XIII, Sección 13.2)
-5. **Mantenimiento y actualización:** plan de mantenimiento preventivo y actualizaciones de software/hardware (Ap. 2, Cap. VI, Num. 6.1)
-6. **Documentación técnica:** manuales de operación, registros de mantenimiento y trazabilidad de equipos embarcados (Ap. 9, Cap. II, Num. 2.1(e))
+### **3.1 Obligación de Modernización**
+La Sección 13.2 obliga al Concesionario a realizar la "Puesta a Punto" del material rodante, lo cual incluye la provisión e instalación de equipamiento tecnológico.
 
-### 3.2 ⚠️ Procedimientos Afectados por Bloqueo ITCS
-| Fase | Estado | Acción |
-|:---|:---:|:---|
-| **Fichas técnicas** | 🟡 PARCIAL | Proceder con especificaciones AT1 |
-| **FAT ITCS/TETRA** | 🔴 BLOQUEADO | Esperar AT3 |
-| **FAT CCTV** | 🟢 DISPONIBLE | Proceder con AT2 |
-| **SAT integración** | 🔴 BLOQUEADO | Esperar AT3 |
-| **Interoperabilidad** | 🟢 DISPONIBLE | Proceder con contrato |
-| **Mantenimiento** | 🟢 DISPONIBLE | Proceder con AT2 |
-
-## 4. RIESGOS ASOCIADOS
+### **3.2 Instalación de Equipos Embarcados (AT1 Num. 5.3)**
+Según el Apéndice Técnico 1, Numeral 5.3, el Concesionario debe:
+- **Suministrar e instalar equipos ITCS:** En las locomotoras objeto de Puesta a Punto (específicamente 2 GR12, 2 U10, U18 y 1 equivalente) para permitir la interoperabilidad con el corredor Chiriguaná - Santa Marta (FENOCO). El estándar exigido es **PTC (Positive Train Control)** conforme a la regulación FRA 49 CFR 236 Subparte I.
+- **Suministrar e instalar Radio TETRA:** Equipos embarcados robustos (Norma EN 50155) para comunicaciones de voz y datos seguras.
+- **Suministrar plataformas nuevas:** Provisión de 30 plataformas nuevas como parte de la puesta a punto.
 
-### 4.1 Riesgos Técnicos
-- **Falta de compatibilidad ITCS/CTC** → riesgo de no interoperar con la red nacional (Ap. 10, Cap. III, Num. 3.2)
-- **Fallas en comunicación TETRA** → interrupciones de seguridad operacional (Ap. 3, Cap. VIII, Num. 8.5)
-- **Deficiencias de mantenimiento** → caída de indicadores de disponibilidad (Ap. 4, Cap. 3, Tablas 1–4)
+---
 
-### 4.2 Riesgos Contractuales
-- **Incumplimiento de equipamiento mínimo** → penalidades contractuales por no dotar material rodante (Contrato, Cap. XVI, Sección 16.1–16.9)
+## 4. MANTENIMIENTO (SECCIÓN 14.6 y AT2)
 
-### 4.3 Riesgos por Bloqueo ITCS
-| Riesgo | Probabilidad | Impacto | Mitigación |
-|:---|:---:|:---:|:---|
-| **Retraso en especificaciones** | Alta | Alto | Planificación con buffers temporales |
-| **Incompatibilidad futura** | Media | Crítico | Diseño modular y actualizable |
-| **Penalidades por retraso** | Media | Alto | Comunicación proactiva con ANI |
-
-## 5. RECOMENDACIONES PRÁCTICAS PARA INGENIERÍA EPC
+### **4.1 Obligaciones Generales**
+El Concesionario es responsable del mantenimiento preventivo y correctivo de todo el material rodante (propio y entregado) para garantizar la prestación del servicio.
 
-### 5.1 Optimizaciones Técnicas Específicas para EPC
-- **Integrar ITCS desde diseño:** prever interfaces con señalización y software de simulación ferroviaria (Ap. 10, Cap. II, Num. 2.2)
-- **Planificar redundancia de comunicación:** radios TETRA dobles y GPS de respaldo en locomotoras (Ap. 2, Cap. III, Num. 3.1.1)
-- **Gestión de pruebas FAT/SAT:** asegurar certificación internacional de equipos y validación en campo
-- **Implementar monitoreo embarcado:** CCTV y telemetría para registro continuo en SICC (Ap. 4, Cap. 5.3)
-- **Capacitación al personal operativo:** formación en uso de ITCS, protocolos TETRA y sistemas embarcados
+### **4.2 Tipos de Material**
+- **Material Tractivo (Locomotoras):** Mantenimiento de motores, sistemas de tracción, frenos y equipos embarcados.
+- **Material Remolcado (Vagones/Plataformas):** Mantenimiento de bogies, sistemas de choque y tracción, frenos.
 
-### 5.2 Estrategia de Avance con Bloqueo ITCS
-- **Diseño modular:** arquitectura que permita integración futura de ITCS
-- **Especificaciones base:** desarrollar con AT1 y AT2 mientras se espera AT3
-- **Comunicación proactiva:** mantener ANI informada sobre limitaciones técnicas
-- **Plan de contingencia:** alternativas técnicas para sistemas bloqueados
-- **Buffer temporal:** cronograma con márgenes para especificaciones pendientes
-
-## 6. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
+---
 
-### 6.1 Documentos Base (Completados ✅)
-- **AT1_AlcanceProyecto v3.0** ✅ - Especificaciones generales de material rodante
-- **AT2_OperacionMantenimiento v3.0** ✅ - Requerimientos de seguridad y CCTV
-- **AT4_IndicadoresDesempeno v3.0** ✅ - Métricas de disponibilidad
-- **Cl_16.1_Penalidades v4.0** ✅ - Penalidades por incumplimiento
+## 5. ESPECIFICACIONES TÉCNICAS (AT3 CAP. VIII)
 
-### 6.2 Documentos Dependientes (Bloqueados 🔴)
-- **AT3_EspecificacionesGenerales** 🔴 - Especificaciones ITCS/TETRA/GPS
-- **AT10_CapacidadSurcos** 🔴 - Integración con asignación de surcos
+### **5.1 Sistemas Embarcados (AT3 Num. 8.10)**
+Las especificaciones técnicas detalladas para los equipos a instalar se rigen por el Apéndice Técnico 3 y AT1:
+- **ITCS Embarcado:** Debe cumplir con el estándar **PTC (Positive Train Control)** según normativa americana (FRA/AREMA) para garantizar interoperabilidad con FENOCO.
+- **Radio TETRA (AT3 Num. 8.5):** Equipos de voz y datos compatibles con la red troncalizada, cumpliendo norma **EN 50155** (resistencia a vibraciones y ambiente ferroviario). No se aceptan radios portátiles como equipo principal.
+- **Registrador de Eventos (Caja Negra):** Debe cumplir con la norma **FRA 49 CFR Part 229** (Event Recorders).
+- **Interfaz de Frenado:** La conexión con el sistema de frenos debe ser **Vital (SIL4/Failsafe)** para garantizar la aplicación segura del frenado de emergencia.
+- **GPS/Localización:** Para seguimiento en tiempo real.
 
-### 6.3 Documentos Disponibles (Contrato General)
-- **Cap. XIII, Secciones 13.1-13.3** - Material rodante
-- **Cap. XII** - Compatibilidad material rodante-infraestructura
-- **Cap. XIV** - Operación y mantenimiento
+---
 
-## 7. MATRIZ DE CONTROL Y SEGUIMIENTO
+## 6. RIESGOS Y PENALIDADES
 
-### 7.1 Métricas de Seguimiento Automatizadas
-| Métrica | Objetivo | Frecuencia | Responsable |
-|:---|:---:|:---:|:---|
-| **Disponibilidad material rodante** | >95% | Diaria | Supervisor Técnico |
-| **Cumplimiento especificaciones** | 100% | Semanal | Jefe de Proyecto |
-| **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
+### **6.1 Riesgo de Puesta a Punto (Sección 13.2)**
+El incumplimiento en la instalación de equipos ITCS/TETRA durante la fase de Puesta a Punto impide la interoperabilidad y puede generar retrasos en el inicio de operaciones comerciales plenas.
 
-### 7.2 Indicadores de Riesgo por Bloqueo ITCS
-- **🟢 Verde:** Avance con documentos disponibles
-- **🟡 Amarillo:** Dependencias parciales identificadas
-- **🔴 Rojo:** Bloqueo total por AT3 pendiente
+### **6.2 Penalidades por Disponibilidad (AT4)**
+La falta de mantenimiento o fallas en los equipos embarcados afectan el indicador de **Disponibilidad de Material Rodante (DMR)**, generando descuentos y penalidades según el Apéndice Técnico 4.
 
-## 8. CONCLUSIONES Y PRÓXIMOS PASOS
+---
 
-### 8.1 Estado del Documento v4.0
-- **Base contractual:** ✅ Completa y exacta
-- **Evaluación ITCS:** ✅ Bloqueos identificados y documentados
-- **Estrategia de avance:** ✅ Definida con documentos disponibles
-- **Control de versiones:** ✅ Implementado según estándar del proyecto
-- **Completitud técnica:** ✅ 85% completado (limitado por bloqueo ITCS)
+## 7. INTERFACES DOCUMENTALES
 
-### 8.2 Acciones Requeridas para Mantener v4.0
-- **Monitorear disponibilidad** de AT3_EspecificacionesGenerales
-- **Desarrollar especificaciones base** con AT1 y AT2
-- **Mantener comunicación** con ANI sobre limitaciones
-- **Preparar plan de integración** para cuando AT3 esté disponible
-
-### 8.3 Criterios para Avance
-✅ **Documento funcional** para gestión de material rodante disponible
-✅ **Bloqueos ITCS identificados** y estrategias definidas
-✅ **Base sólida establecida** con documentos disponibles
-✅ **Plan de contingencia** implementado para especificaciones pendientes
-
-⚠️ **Advertencia:** Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+- **Cl_12.1 (Reversión):** El material rodante debe cumplir condiciones de vida útil remanente al revertirse.
+- **AT10 (Capacidad):** El material rodante debe ser compatible con los surcos asignados.
+- **AT3 (Especificaciones):** Fuente técnica para equipos embarcados.
 ---
 
 ### OBLIGACIONES CONTRACTUALES
@@ -257,122 +181,48 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 Estado del documento: Completado - 27/01/2025  
 Version: 4.1  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+Responsable: Administrador Contractual EPC
+Proxima actualizacion: 02/11/2025
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
+## ACTUALIZACIÓN v5.0 - CORRECCIÓN INDEXACIÓN CONTRACTUAL
 
 ### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN MATERIAL RODANTE:**
-   - **Equipos embarcados:** Instalación de sistemas ITCS ETCS Level 2 en locomotoras
-   - **Interfaces de control:** Conexión con Centro de Control de Tráfico (CTC)
-   - **Sistemas de seguridad:** Implementación de ETCS Level 2 para control de trenes
-   - **Comunicación embarcada:** Enlaces de datos para control en tiempo real
+1. **CORRECCIÓN DE CLÁUSULAS:**
+   - **Sección 13.1:** Identificada correctamente como "Entrega del Material Rodante" (Recepción).
+   - **Sección 13.2:** Identificada como "Puesta a Punto" (Obligación de Modernización).
+   - **AT1 Num. 5.3:** Referencia específica para instalación de ITCS y TETRA.
 
-2. **🔗 INTEROPERABILIDAD FENOCO EN MATERIAL RODANTE:**
-   - **Protocolos UIC:** Implementación de estándares UIC para interoperabilidad
-   - **Compatibilidad de sistemas:** Integración con infraestructura FENOCO existente
-   - **Comunicación TETRA:** Sistemas de radio para coordinación con FENOCO
-   - **Intercambio de datos:** Protocolos de comunicación con sistemas FENOCO
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN MATERIAL RODANTE:**
-   - **Disponibilidad embarcada:** Cumplimiento de 99.95% en equipos embarcados
-   - **Monitoreo continuo:** Telemetría de estado de equipos ITCS y TETRA
-   - **Redundancia embarcada:** Sistemas duales en locomotoras críticas
-   - **Mantenimiento preventivo:** Programas de mantenimiento para disponibilidad
-
-4. **🔒 CIBERSEGURIDAD EN MATERIAL RODANTE:**
-   - **Protección embarcada:** Estándares NIST/IEC 62443 en equipos embarcados
-   - **Encriptación de datos:** Protección de comunicaciones ITCS y TETRA
-   - **Control de accesos:** Autenticación y autorización en sistemas embarcados
-   - **Monitoreo de seguridad:** Detección de amenazas en equipos embarcados
-
-5. **🔄 REDUNDANCIA EN MATERIAL RODANTE:**
-   - **Sistemas duales:** Redundancia N+1 en equipos críticos embarcados
-   - **Comunicaciones redundantes:** Múltiples enlaces de comunicación
-   - **Alimentación redundante:** Sistemas de respaldo en locomotoras
-   - **Detección de fallas:** Sistemas automáticos de conmutación
+2. **REESTRUCTURACIÓN DE CONTENIDO:**
+   - Separación clara entre recepción de bienes y obligación de inversión tecnológica.
+   - Inclusión de obligaciones de mantenimiento según AT2.
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en material rodante:** Agregado ETCS Level 2 embarcado
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos UIC embarcados
-3. **Criterios AT4 no integrados:** Incorporada disponibilidad 99.95% embarcada
-4. **Ciberseguridad no especificada:** Agregados estándares de seguridad embarcada
-5. **Redundancia no definida:** Establecida arquitectura N+1 embarcada
+1. **Confusión Cláusula 13.1 vs 13.2:** Corregida la atribución de la obligación de modernización.
+2. **Omisión de AT1:** Detallada la obligación de instalar equipos en locomotoras U18.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-270 | Dependencia AT3 para ITCS embarcado | Técnico | Alta | Alto | Equipos ITCS embarcados sin especificaciones AT3 |
-| R-271 | Interoperabilidad FENOCO embarcada | Técnico | Media | Alto | Compatibilidad de equipos embarcados con FENOCO |
-| R-272 | Disponibilidad AT4 embarcada | Contractual | Media | Alto | Cumplimiento de disponibilidad en equipos embarcados |
-| R-273 | Ciberseguridad embarcada | Técnico | Media | Alto | Protección de sistemas embarcados |
-| R-274 | Redundancia embarcada | Técnico | Media | Alto | Disponibilidad de sistemas redundantes embarcados |
+| R-600 | Estado de Recepción | Técnico | Alta | Medio | Material rodante recibido en mal estado (sin objeción 13.1) |
+| R-601 | Retraso Puesta a Punto | Cronograma | Alta | Alto | Incumplimiento de Sección 13.2 afecta inicio operación |
+| R-602 | Penalidades DMR | Operacional | Media | Alto | Baja disponibilidad por fallas en equipos nuevos |
 
 #### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Embarcado** | 13.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO Embarcado** | 13.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 Embarcado** | 13.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad Embarcada** | 13.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia Embarcada** | 13.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Diseño de equipos embarcados con ETCS Level 2 (0-6 meses)
-   - **Fase 2:** Fabricación e integración de equipos (6-18 meses)
-   - **Fase 3:** Pruebas y validación embarcada (18-24 meses)
-   - **Fase 4:** Operación y mantenimiento embarcado (24+ meses)
-
-2. **Gestión Integrada de Riesgos en Material Rodante:**
-   - **Monitoreo semanal:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo mensual:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo trimestral:** Riesgos medios (gestión, operación)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% embarcado | Semanal | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% compatible | Mensual | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% embarcada | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 0 incidentes embarcados | Diario | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-6 meses):**
-   - Diseñar equipos ITCS ETCS Level 2 embarcados
-   - Especificar protocolos UIC para interoperabilidad FENOCO
-   - Implementar criterios AT4 en diseño embarcado
-
-2. **Mediano plazo (6-24 meses):**
-   - Fabricar e integrar equipos embarcados
-   - Realizar pruebas de interoperabilidad FENOCO
-   - Validar disponibilidad AT4 en equipos embarcados
-
-3. **Largo plazo (24+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar interoperabilidad con FENOCO
-   - Mantener cumplimiento de AT4 en operación
+| **Entrega** | 13.1 | AT1 | Recepción "As-Is" | ✅ Corregido |
+| **Puesta a Punto** | 13.2 | AT1 | Instalación ITCS/TETRA | ✅ Corregido |
+| **Mantenimiento** | 14.6 | AT2 | Preventivo/Correctivo | ✅ Corregido |
+| **Especificaciones** | N/A | AT3 | Detalles Técnicos | ✅ Corregido |
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en material rodante embarcado
-- **Interoperabilidad FENOCO** en equipos embarcados
-- **Criterios AT4** con disponibilidad 99.95% embarcada
-- **Ciberseguridad** con estándares NIST/IEC 62443 embarcada
-- **Redundancia N+1** en sistemas embarcados
-
-**5 riesgos identificados** para análisis PMI y gestión integrada en material rodante.
+El documento ha sido reestructurado para reflejar fielmente la estructura del Contrato de Concesión No. 001 de 2025. Se han corregido las referencias a la Cláusula 13.1 (Entrega) y se han asignado correctamente las obligaciones de modernización a la Sección 13.2 y al Apéndice Técnico 1.

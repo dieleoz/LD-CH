@@ -1,16 +1,16 @@
-﻿{
+﻿﻿{
   "version": "1.0",
-  "fecha_creacion": "2025-10-08",
+  "fecha_creacion": "2025-12-04",
   "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
   "items": {
     "1.1.100": {
       "descripcion": "Servidores CTC principales",
-      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico), que define la arquitectura tecnológica para el control centralizado del tráfico ferroviario. AT2 (Operación y Mantenimiento) exige disponibilidad garantizada 24/7 y AT3 (Especificaciones Generales) impone redundancia activa para sistemas vitales. La configuración mínima es 2 UND (1 servidor principal + 1 servidor respaldo en hot-standby) para asegurar failover inmediato y cumplimiento contractual con integración ETCS L2/FENOCO.",
+      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico) y Tabla 17, que define la arquitectura tecnológica para el control centralizado del tráfico ferroviario y exige PTC (Positive Train Control). AT2 (Operación y Mantenimiento) exige disponibilidad garantizada 24/7 y AT3 (Especificaciones Generales) impone redundancia activa para sistemas vitales. La configuración mínima es 2 UND (1 servidor principal + 1 servidor respaldo en hot-standby) para asegurar failover inmediato y cumplimiento contractual con integración PTC (49 CFR 236) / ETCS L2 y FENOCO.",
       "criterios_diseno": [
         "Arquitectura centralizada con redundancia activa N+1",
         "Hot-standby principal/respaldo con failover automático <5 segundos",
-        "Disponibilidad contractual 99.95% para sistemas vitales (AT2/AT4)",
-        "Integración directa con ETCS L2 y protocolos FENOCO definidos en AT1"
+        "Disponibilidad contractual 99.95% para sistemas vitales (AT2/AT4) y PTC",
+        "Integración directa con PTC (49 CFR 236) / ETCS L2 y protocolos FENOCO definidos en AT1"
       ],
       "supuestos": [
         "2 servidores (1 principal + 1 respaldo en hot-standby)",
@@ -34,17 +34,18 @@
         "AT1 - Control de Tráfico (Arquitectura CTC)",
         "AT2 - Operación y Mantenimiento (Disponibilidad 24/7)",
         "AT3 - Especificaciones Generales (Redundancia activa)",
-        "AT4 - Disponibilidad 99.95%"
+        "AT4 - Disponibilidad 99.95%",
+        "Tabla 17 AT1 - PTC Obligatorio"
       ],
-      "ultima_actualizacion": "2025-11-11",
+      "ultima_actualizacion": "2025-12-04",
       "actualizado_por": "DT-FIBRA-011-2025-11-06"
     },
     "1.1.103": {
-      "descripcion": "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
-      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico) que define la arquitectura funcional del CTC virtual y su interoperabilidad con ETCS Level 2. AT3 (Especificaciones Generales) y AT4 (Disponibilidad) exigen operación 24/7, tolerancia a fallos y compatibilidad con los protocolos FENOCO. Se mantiene 1 UND de licencia enterprise para plataforma CTC/ETCS L2 con redundancia lógica activa-activa y conectores de interoperabilidad FENOCO para garantizar continuidad del servicio.",
+      "descripcion": "Software CTC virtual + PTC (ETCS L2) + Interoperabilidad FENOCO",
+      "justificacion_tecnica": "Fundamentado en AT1 (Control de Tráfico) y Tabla 17 que define la arquitectura funcional del CTC virtual y su interoperabilidad con PTC (49 CFR 236) / ETCS Level 2. AT3 (Especificaciones Generales) y AT4 (Disponibilidad) exigen operación 24/7, tolerancia a fallos y compatibilidad con los protocolos FENOCO. Se mantiene 1 UND de licencia enterprise para plataforma CTC/PTC con redundancia lógica activa-activa y conectores de interoperabilidad FENOCO para garantizar continuidad del servicio.",
       "criterios_diseno": [
         "Plataforma virtualizada con cluster redundante activo-activo",
-        "Compatibilidad ETCS Level 2 y PTC según AT1/AT3",
+        "Compatibilidad PTC (49 CFR 236) / ETCS Level 2 según AT1/AT3 y Tabla 17",
         "Integración API con RBC FENOCO y módulos CTC",
         "Monitoreo 24/7 con actualizaciones en caliente y RTO<1h"
       ],
@@ -64,7 +65,7 @@
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
-        "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md",
+        "VII.2.1_SRS_ITCS_PTC_ETCS_Level2.md",
         "AT1 - Control de Tráfico",
         "AT3 - Especificaciones Generales",
         "AT4 - Disponibilidad 99.95%",
@@ -72,13 +73,14 @@
       ],
       "referencias_contractuales": [
         "AT1 - Control de Tráfico (Arquitectura CTC virtual)",
-        "AT3 - Especificaciones Generales (ETCS L2)",
+        "AT3 - Especificaciones Generales (PTC/ETCS L2)",
         "AT4 - Disponibilidad 99.95%",
         "AT10 - Interoperabilidad FENOCO",
+        "Tabla 17 AT1 - PTC Obligatorio (49 CFR 236)",
         "UIC 950-7/554 - Protocolos FENOCO",
         "CENELEC EN 50126/128/129"
       ],
-      "ultima_actualizacion": "2025-11-11",
+      "ultima_actualizacion": "2025-12-04",
       "actualizado_por": "DT-FIBRA-160-2025-11-06"
     },
     "5.3.100": {
@@ -190,9 +192,9 @@
     },
     "1.1.106": {
       "descripcion": "Interfaces comunicación",
-      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece integración de CTC con sistemas ITCS/ETCS L2, FENOCO, TETRA, fibra óptica e ITS. Según AT1, el CTC debe interoperar con todos los subsistemas mediante gateways UIC 918-4. AT7 (Ciberseguridad) requiere firewalls IEC 62443 para protección. Cantidad: 1 UND (bloque lógico completo de integración). NO es hardware físico único sino conjunto funcional que conecta: ITCS/ETCS L2 (gateways UIC 918-4), FENOCO (protocolos UIC 950-7/554), TETRA (voz/datos), Fibra óptica (backbone N+1), ITS (CCTV/acceso/intrusión). Incluye: gateways industriales, switches borde, firewalls IEC 62443, middleware interoperabilidad, licencias software. Referencias: AT3 Especificaciones Generales (integración CTC), AT1 Interoperabilidad sistemas, AT7 Ciberseguridad IEC 62443, UIC 918-4",
+      "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece integración de CTC con sistemas PTC (ITCS/ETCS L2), FENOCO, TETRA, fibra óptica e ITS. Según AT1, el CTC debe interoperar con todos los subsistemas mediante gateways UIC 918-4. AT7 (Ciberseguridad) requiere firewalls IEC 62443 para protección. Cantidad: 1 UND (bloque lógico completo de integración). NO es hardware físico único sino conjunto funcional que conecta: PTC/ETCS L2 (gateways UIC 918-4), FENOCO (protocolos UIC 950-7/554), TETRA (voz/datos), Fibra óptica (backbone N+1), ITS (CCTV/acceso/intrusión). Incluye: gateways industriales, switches borde, firewalls IEC 62443, middleware interoperabilidad, licencias software. Referencias: AT3 Especificaciones Generales (integración CTC), AT1 Interoperabilidad sistemas, AT7 Ciberseguridad IEC 62443, UIC 918-4",
       "criterios_diseno": [
-        "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS (AT3)",
+        "Integración funcional CTC-PTC-FENOCO-TETRA-ITS (AT3)",
         "Redundancia N+1 en comunicaciones críticas (AT4)",
         "Middleware interoperabilidad protocolos UIC 918-4 según AT1",
         "Firewalls IEC 62443 para ciberseguridad industrial (AT7)"
@@ -201,7 +203,7 @@
         "1 UND representa conjunto lógico completo de integración",
         "Equipos físicos mayores cubiertos en items 1.1.100-1.1.105",
         "Incluye licencias software, configuración y ensayos FAT/SAT",
-        "Interfaces con: ITCS/ETCS L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
+        "Interfaces con: PTC/ETCS L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
       ],
       "decisiones_tecnicas": [
         "DT-INTERFACES-001-2025-10-09"
@@ -222,7 +224,7 @@
         "UIC 918-4 - Gateway interoperabilidad",
         "UIC 950-7/554 - Protocolos FENOCO"
       ],
-      "ultima_actualizacion": "2025-10-24",
+      "ultima_actualizacion": "2025-12-04",
       "actualizado_por": "DT-JUSTIFICACION-WBS-001"
     },
     "2.1.103": {
@@ -295,11 +297,11 @@
   },
   "1.3.100": {
     "descripcion": "Controlador ENCE Zapatosa",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado con comportamiento fail-safe y AT4 exige disponibilidad 99.95% mediante redundancia N+1. Se mantiene 1 UND para la estación Zapatosa con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado con comportamiento fail-safe y AT4 exige disponibilidad 99.95% mediante redundancia N+1. Se mantiene 1 UND para la estación Zapatosa con integración redundante al CTC y al sistema PTC (ETCS L2).",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
-      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Interfaces bidireccionales con CTC central y PTC (ETCS L2)",
       "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
@@ -327,16 +329,16 @@
       "AT4 - Disponibilidad 99.95% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-11-11",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-FIBRA-797-2025-11-06"
   },
   "1.3.101": {
     "descripcion": "Controlador ENCE García Cadena",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación García Cadena con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación García Cadena con integración redundante al CTC y al sistema PTC (ETCS L2).",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
-      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Interfaces bidireccionales con CTC central y PTC (ETCS L2)",
       "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
@@ -364,16 +366,16 @@
       "AT4 - Disponibilidad 99.95% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-11-11",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-FIBRA-318-2025-11-07"
   },
   "1.3.102": {
     "descripcion": "Controlador ENCE Barrancabermeja",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Barrancabermeja con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Barrancabermeja con integración redundante al CTC y al sistema PTC (ETCS L2).",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
-      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Interfaces bidireccionales con CTC central y PTC (ETCS L2)",
       "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
@@ -401,16 +403,16 @@
       "AT4 - Disponibilidad 99.95% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-11-11",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-FIBRA-522-2025-11-07"
   },
   "1.3.103": {
     "descripcion": "Controlador ENCE Puerto Berrío-Grecia",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Puerto Berrío-Grecia con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Puerto Berrío-Grecia con integración redundante al CTC y al sistema PTC (ETCS L2).",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
-      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Interfaces bidireccionales con CTC central y PTC (ETCS L2)",
       "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
@@ -438,16 +440,16 @@
       "AT4 - Disponibilidad 99.95% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-11-11",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-FIBRA-384-2025-11-07"
   },
   "1.3.104": {
     "descripcion": "Controlador ENCE La Dorada-México",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación La Dorada-México con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación La Dorada-México con integración redundante al CTC y al sistema PTC (ETCS L2).",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
-      "Interfaces bidireccionales con CTC central y ETCS L2",
+      "Interfaces bidireccionales con CTC central y PTC (ETCS L2)",
       "Diagnóstico y telemetría 24/7 para mantenimiento predictivo"
     ],
     "supuestos": [
@@ -475,7 +477,7 @@
       "AT4 - Disponibilidad 99.95% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
-    "ultima_actualizacion": "2025-11-11",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-FIBRA-301-2025-11-07"
   },
   "2.1.100": {
@@ -744,10 +746,10 @@
   },
   "6.1.200": {
     "descripcion": "Computadora ATP embarcada",
-    "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), que define sistema ATP embarcado para protección automática de trenes con ATP (Automatic Train Protection) compatible ETCS Level 2. Según AT3, se requiere certificación SIL-4 (CENELEC EN 50126/128/129) para funciones vitales. AT4 exige disponibilidad 99.95% para sistemas ATP. Cantidad: 8 UND (5 locomotoras contractuales según AT1 Apéndice Financiero pág. 3 + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto). Computadora ATP embarcada es el núcleo del sistema de protección automática que integra: Eurobaliza, odómetro, interfaces frenos, display maquinista. Referencias: AT1 Material Rodante (ATP embarcado), AT3 Especificaciones ETCS L2, AT4 Disponibilidad (99.95%), CENELEC EN 50126/128/129",
+    "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante) y Tabla 17, que define sistema ATP embarcado para protección automática de trenes con ATP (Automatic Train Protection) compatible PTC (49 CFR 236) / ETCS Level 2. Según AT3, se requiere certificación SIL-4 (CENELEC EN 50126/128/129) para funciones vitales. AT4 exige disponibilidad 99.95% para sistemas ATP. Cantidad: 8 UND (5 locomotoras contractuales según AT1 Apéndice Financiero pág. 3 + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto). Computadora ATP embarcada es el núcleo del sistema de protección automática que integra: Eurobaliza, odómetro, interfaces frenos, display maquinista. Referencias: AT1 Material Rodante (ATP embarcado), AT3 Especificaciones PTC/ETCS L2, AT4 Disponibilidad (99.95%), CENELEC EN 50126/128/129",
     "criterios_diseno": [
-      "Certificación SIL-4 para funciones vitales (AT3 ETCS L2)",
-      "Compatible ETCS Level 2 según AT3",
+      "Certificación SIL-4 para funciones vitales (AT3 PTC/ETCS L2)",
+      "Compatible PTC (49 CFR 236) / ETCS Level 2 según AT3 y Tabla 17",
       "Interfaz con eurobaliza y odómetro (AT3)",
       "Disponibilidad 99.95% (AT4)"
     ],
@@ -755,7 +757,7 @@
       "8 computadoras ATP embarcadas (5 locomotoras + 2 FAT/SAT + 1 contingencia)",
       "Interfaz con display maquinista, sensores velocidad, sistema GPS",
       "Certificación CENELEC completa incluida",
-      "Compatibilidad ETCS L2 verificada"
+      "Compatibilidad PTC/ETCS L2 verificada"
     ],
     "decisiones_tecnicas": [
       "DT-ELIMINACION-001-2025-10-24"
@@ -764,41 +766,42 @@
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
       "AT1 - Material Rodante (ATP embarcado)",
-      "AT3 - Especificaciones ETCS L2",
+      "AT3 - Especificaciones PTC/ETCS L2",
       "AT4 - Disponibilidad 99.95%",
       "DT-ELIMINACION-001-2025-10-24"
     ],
     "referencias_contractuales": [
       "AT1 - Material Rodante (5 locomotoras)",
-      "AT3 - ATP compatible ETCS L2",
+      "AT3 - ATP compatible PTC/ETCS L2",
       "AT4 - Disponibilidad 99.95%",
+      "Tabla 17 AT1 - PTC Obligatorio",
       "CENELEC EN 50126/128/129 - Certificación SIL-4"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "6.1.201": {
     "descripcion": "Display maquinista",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales ETCS L2), que establece Driver Machine Interface (DMI) en cada cabina para visualización de información crítica ATP. Según AT4, el DMI debe mostrar Movement Authority (MA), velocidad objetivo, velocidad actual y alarmas en tiempo real. Cantidad: 8 UND (1 por sistema ATP embarcado según cantidad computadoras). Display táctil con salida IP65/IK10 según AT3. Referencias: AT3 ETCS L2 DMI, AT4 Información visual crítica, UIC EIRENE",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales PTC/ETCS L2), que establece Driver Machine Interface (DMI) en cada cabina para visualización de información crítica ATP. Según AT4, el DMI debe mostrar Movement Authority (MA), velocidad objetivo, velocidad actual y alarmas en tiempo real. Cantidad: 8 UND (1 por sistema ATP embarcado según cantidad computadoras). Display táctil con salida IP65/IK10 según AT3. Referencias: AT3 PTC/ETCS L2 DMI, AT4 Información visual crítica, UIC EIRENE",
     "criterios_diseno": [
-      "Pantalla táctil 10.1 pulgadas según AT3 ETCS L2",
+      "Pantalla táctil 10.1 pulgadas según AT3 PTC/ETCS L2",
       "Visualización Movement Authority en tiempo real (AT4)",
       "Indicadores velocidad actual vs objetivo (AT4)",
       "Alertas visuales y sonoras (AT4)"
     ],
     "supuestos": [
       "8 displays maquinista (1 por ATP embarcado)",
-      "Certificación ETCS L2 incluida",
+      "Certificación PTC/ETCS L2 incluida",
       "Interfaz con computadora ATP embarcada",
       "Protección IP65/IK10 ambientes ferroviarios"
     ],
     "decisiones_tecnicas": [
       "DT-ELIMINACION-001-2025-10-24"
     ],
-    "feedback_especialista": "Display maquinista consolidado en CAP 6 según DT-ELIMINACION-001. Interfaz maquinista según estándar UIC EIRENE y especificaciones ETCS L2.",
+    "feedback_especialista": "Display maquinista consolidado en CAP 6 según DT-ELIMINACION-001. Interfaz maquinista según estándar UIC EIRENE y especificaciones PTC/ETCS L2.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT3 - Especificaciones ETCS L2 (DMI)",
+      "AT3 - Especificaciones PTC/ETCS L2 (DMI)",
       "AT4 - Información visual crítica",
       "UIC EIRENE - Estándar DMI ferroviario"
     ],
@@ -807,14 +810,14 @@
       "AT4 - Información visual crítica",
       "UIC EIRENE - Estándar DMI ferroviario"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "6.1.206": {
     "descripcion": "Sistema redundancia ATP",
-    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas ATP embarcados críticos con disponibilidad 99.95%. Según AT3, el sistema ATP debe tener dos canales independientes para funciones vitales. Cantidad: 8 UND (1 por sistema ATP embarcado). Sistema incluye: votación 2oo3 (2 out of 3) para decisión segura, detección fallos <100ms, fail-safe ante fallo canal. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Dos canales ATP independientes, CENELEC EN 50129",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas ATP embarcados críticos con disponibilidad 99.95%. Según AT3, el sistema ATP debe tener dos canales independientes para funciones vitales. Cantidad: 8 UND (1 por sistema ATP embarcado). Sistema incluye: votación 2oo3 (2 out of 3) para decisión segura, detección fallos <100ms, fail-safe ante fallo canal. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Dos canales ATP independientes, CENELEC EN 50129, Tabla 17 AT1 (PTC)",
     "criterios_diseno": [
-      "Dos canales independientes (AT3 ETCS L2)",
+      "Dos canales independientes (AT3 PTC/ETCS L2)",
       "Voting 2oo3 para decisión segura (AT4)",
       "Detección fallos <100ms (AT4)",
       "Fail-safe ante fallo de canal (AT3)"
@@ -840,7 +843,7 @@
       "AT3 - Dos canales ATP independientes",
       "CENELEC EN 50129 - Certificación redundancia"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "2.1.102": {
@@ -879,10 +882,10 @@
   },
   "6.1.202": {
     "descripcion": "Sensores velocidad",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece odómetro con sensores velocidad para ATP embarcado. Según AT4, se requiere medición velocidad continua para protección automática. Cantidad: 8 UND (1 por sistema ATP embarcado). Sensores redundantes tipo radar doppler o magnético según AT3. Precisión ±0.5% según especificaciones ETCS L2. Referencias: AT3 ETCS L2 odómetro, AT4 Medición velocidad continua, CENELEC EN 50126",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones PTC/ETCS L2), que establece odómetro con sensores velocidad para ATP embarcado. Según AT4, se requiere medición velocidad continua para protección automática. Cantidad: 8 UND (1 por sistema ATP embarcado). Sensores redundantes tipo radar doppler o magnético según AT3. Precisión ±0.5% según especificaciones PTC/ETCS L2. Referencias: AT3 PTC/ETCS L2 odómetro, AT4 Medición velocidad continua, CENELEC EN 50126",
     "criterios_diseno": [
       "Sensores redundantes radar doppler o magnético (AT3)",
-      "Precisión ±0.5% según ETCS L2",
+      "Precisión ±0.5% según PTC/ETCS L2",
       "Frecuencia muestreo 100 Hz según AT3",
       "Rango 0-200 km/h según AT3"
     ],
@@ -895,10 +898,10 @@
     "decisiones_tecnicas": [
       "DT-ELIMINACION-001-2025-10-24"
     ],
-    "feedback_especialista": "Sensores velocidad consolidados en CAP 6 según DT-ELIMINACION-001. Odómetro ATP con precisión ±0.5% según ETCS L2.",
+    "feedback_especialista": "Sensores velocidad consolidados en CAP 6 según DT-ELIMINACION-001. Odómetro ATP con precisión ±0.5% según PTC/ETCS L2.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT3 - ETCS L2 odómetro",
+      "AT3 - PTC/ETCS L2 odómetro",
       "AT4 - Medición velocidad continua",
       "CENELEC EN 50126 - Certificación"
     ],
@@ -907,15 +910,15 @@
       "AT4 - Medición velocidad continua",
       "CENELEC EN 50126 - Certificación"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "6.1.203": {
     "descripcion": "Sistema GPS",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece posicionamiento GPS para ATP embarcado con precisión ±10 metros. Según AT4, se requiere posicionamiento continuo para Movement Authority. Cantidad: 8 UND (1 por sistema ATP embarcado). Receptor GPS dual (GPS + GLONASS) según AT3 para redundancia señales satelitales. Referencias: AT3 ETCS L2 posicionamiento GPS, AT4 Posicionamiento continuo, IEC 61373",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones PTC/ETCS L2), que establece posicionamiento GPS para ATP embarcado con precisión ±10 metros. Según AT4, se requiere posicionamiento continuo para Movement Authority. Cantidad: 8 UND (1 por sistema ATP embarcado). Receptor GPS dual (GPS + GLONASS) según AT3 para redundancia señales satelitales. Referencias: AT3 PTC/ETCS L2 posicionamiento GPS, AT4 Posicionamiento continuo, IEC 61373",
     "criterios_diseno": [
       "Receptor GPS dual (GPS + GLONASS) según AT3",
-      "Precisión ±10 metros según AT3 ETCS L2",
+      "Precisión ±10 metros según AT3 PTC/ETCS L2",
       "Actualización 1 Hz según AT4",
       "Protección IEC 61373 vibración/choque"
     ],
@@ -928,10 +931,10 @@
     "decisiones_tecnicas": [
       "DT-ELIMINACION-001-2025-10-24"
     ],
-    "feedback_especialista": "Sistema GPS consolidado en CAP 6 según DT-ELIMINACION-001. Posicionamiento continuo ±10m según ETCS L2.",
+    "feedback_especialista": "Sistema GPS consolidado en CAP 6 según DT-ELIMINACION-001. Posicionamiento continuo ±10m según PTC/ETCS L2.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT3 - ETCS L2 posicionamiento GPS",
+      "AT3 - PTC/ETCS L2 posicionamiento GPS",
       "AT4 - Posicionamiento continuo",
       "IEC 61373 - Vibración y choque"
     ],
@@ -940,12 +943,12 @@
       "AT4 - Posicionamiento continuo",
       "IEC 61373 - Vibración y choque ferroviario"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "6.1.204": {
     "descripcion": "Software ATP",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que requiere software ATP con certificación CENELEC para funciones protección automática. Según AT4, el software ATP debe calcular Movement Authority continuamente. Cantidad: 8 UND (1 licencia por ATP embarcado). Software ATP incluye: cálculos MA, speed profile, eurobaliza interfaces, comunicación radio RBC. Referencias: AT3 ETCS L2 software ATP, AT4 Movement Authority continua, CENELEC EN 50128",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones PTC/ETCS L2), que requiere software ATP con certificación CENELEC para funciones protección automática. Según AT4, el software ATP debe calcular Movement Authority continuamente. Cantidad: 8 UND (1 licencia por ATP embarcado). Software ATP incluye: cálculos MA, speed profile, eurobaliza interfaces, comunicación radio RBC. Referencias: AT3 PTC/ETCS L2 software ATP, AT4 Movement Authority continua, CENELEC EN 50128",
     "criterios_diseno": [
       "Certificación CENELEC EN 50128 según AT3",
       "Cálculos Movement Authority continuos (AT4)",
@@ -964,21 +967,21 @@
     "feedback_especialista": "Software ATP consolidado en CAP 6 según DT-ELIMINACION-001. Certificación CENELEC EN 50128 según AT3.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT3 - ETCS L2 software ATP",
+      "AT3 - PTC/ETCS L2 software ATP",
       "AT4 - Movement Authority continua",
       "CENELEC EN 50128 - Certificación software"
     ],
     "referencias_contractuales": [
-      "AT3 - Software ATP ETCS L2",
+      "AT3 - Software ATP PTC/ETCS L2",
       "AT4 - Movement Authority continua",
       "CENELEC EN 50128 - Certificación software"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "6.1.205": {
     "descripcion": "Interfaces frenos",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones ETCS L2), que establece interfaces ATP con sistema frenos para aplicación automática de frenos en caso violación velocidad o MA. Según AT4, se requiere respuesta <3 segundos para aplicación frenos. Cantidad: 8 UND (1 por sistema ATP embarcado). Interfaces redundantes 2oo3 según AT3 para alta disponibilidad. Referencias: AT3 ETCS L2 interfaces frenos, AT4 Respuesta <3seg, CENELEC EN 50126",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones PTC/ETCS L2), que establece interfaces ATP con sistema frenos para aplicación automática de frenos en caso violación velocidad o MA. Según AT4, se requiere respuesta <3 segundos para aplicación frenos. Cantidad: 8 UND (1 por sistema ATP embarcado). Interfaces redundantes 2oo3 según AT3 para alta disponibilidad. Referencias: AT3 PTC/ETCS L2 interfaces frenos, AT4 Respuesta <3seg, CENELEC EN 50126",
     "criterios_diseno": [
       "Interfaces redundantes 2oo3 (AT3)",
       "Respuesta aplicación frenos <3 segundos (AT4)",
@@ -997,7 +1000,7 @@
     "feedback_especialista": "Interfaces frenos consolidadas en CAP 6 según DT-ELIMINACION-001. Aplicación automática frenos <3seg según AT4.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT3 - ETCS L2 interfaces frenos",
+      "AT3 - PTC/ETCS L2 interfaces frenos",
       "AT4 - Respuesta <3 segundos",
       "CENELEC EN 50126 - Certificación"
     ],
@@ -1006,7 +1009,7 @@
       "AT4 - Respuesta <3 segundos",
       "CENELEC EN 50126 - Certificación"
     ],
-    "ultima_actualizacion": "2025-10-24",
+    "ultima_actualizacion": "2025-12-04",
     "actualizado_por": "DT-JUSTIFICACION-WBS-001"
   },
   "1.4.100": {
@@ -1087,6 +1090,3 @@
     "actualizado_por": ""
   }
 }
-
-
-

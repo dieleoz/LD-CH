@@ -1,4 +1,4 @@
-﻿# ÍNDICE DEL CONTRATO GENERAL
+﻿﻿# ÍNDICE DEL CONTRATO GENERAL
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -30,206 +30,63 @@ Este documento proporciona la estructura completa y navegación del contrato gen
 
 ---
 
-## CONTROL DE VERSIONES
-
-| Versión | Fecha | Responsable | Descripción |
-|:---:|:---:|:---|:---|
-| **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
-| **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
-| **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
+## 1. DOCUMENTOS TRANSVERSALES Y ESTRATÉGICOS
+Estos documentos rigen la interpretación, jerarquía y aseguramiento del proyecto durante todas sus fases.
+• 10. Cl_I.2d_JerarquiaDocumental.docx (v4.1): Define la prioridad contractual (Contrato > AT1 > AT2...), gestión de conflictos documentales y obligaciones implícitas. Incluye ahora la gestión de licencias como obligación de resultado,.
+• 9. Cl_16.1_Penalidades.docx (v4.1): Régimen de multas por incumplimiento, integrado con los criterios de disponibilidad del AT4 y fallas en ciberseguridad o interoperabilidad,.
+• 21. AT_Financieros.docx (v3.0): Gestión de Seguros, Pólizas y Garantías, con matriz de riesgos detallada y cronograma de implementación de coberturas,.
 
 ---
 
-I. Contrato General
-Cl_2.14_LicenciasPermisos.docx – Gestión de espectro (ANE), licencias ambientales (ANLA), prediales y municipales.
-Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.
-Cl_8.2_Construcción.docx – Obligaciones en fase de construcción.
-Cl_9.1_OM.docx – Obligaciones de Operación y Mantenimiento.
-Cl_12.1_Reversión.docx – Entrega de activos y sistemas en buen estado.
-Cl_13.1_MaterialRodante.docx – Equipos embarcados ITCS, TETRA.
-Cl_14.1_OM_Sistemas.docx – Reposición y mantenimiento de hardware/software.
-Cl_15.1_Reversión_Bienes.docx – Manuales, as-built, software con licencias transferibles.
-Cl_16.1_Penalidades.docx – Multas por incumplimiento.
-Cl_I.2d_JerarquiaDocumental.docx – Prioridad contractual.
 ---
 
-### OBLIGACIONES CONTRACTUALES
-
-| Obligacion | Descripcion | Responsable | Plazo |
-|:---|:---|:---|:---|
-| Cumplimiento | Seguir especificaciones tecnicas | Contratista | Segun cronograma |
-| Documentacion | Entregar documentos requeridos | Contratista | Segun cronograma |
-| Supervision | Monitorear cumplimiento | Interventoria | Continuo |
-| Validacion | Aprobar entregables | ANI | Segun cronograma |
-
-### GESTION DE RIESGOS CONTRACTUALES
-
-| Riesgo | Probabilidad | Impacto | Mitigacion |
-|:---|:---:|:---:|:---|
-| Incumplimiento contractual | Media | Alto | Supervision continua y penalidades |
-| Retrasos en entregables | Media | Medio | Seguimiento de cronograma detallado |
-| Desviaciones tecnicas | Baja | Medio | Revisiones tecnicas periodicas |
-| Cambios de alcance | Baja | Alto | Proceso de variaciones controlado |
-
-### CRONOGRAMA DE CUMPLIMIENTO
-
-| Fase | Actividad | Duracion | Responsable |
-|:---|:---|:---:|:---|
-| Fase 1 | Revision y validacion | 1 semana | Equipo Tecnico |
-| Fase 2 | Implementacion | 2-4 semanas | Contratista |
-| Fase 3 | Supervision y control | Continuo | Interventoria |
-| Fase 4 | Validacion final | 1 semana | ANI |
-
-### RECURSOS REQUERIDOS
-
-- Personal tecnico especializado
-- Herramientas y equipos especificos
-- Software de gestion y control
-- Documentacion de referencia contractual
-
-### METRICAS DE SEGUIMIENTO
-
-| Metrica | Objetivo | Frecuencia | Responsable |
-|:---|:---:|:---:|:---|
-| Cumplimiento contractual | 100% | Semanal | Supervisor Tecnico |
-| Cumplimiento de cronograma | 95% | Diaria | Jefe de Proyecto |
-| Calidad de entregables | Excelente | Quincenal | Auditoria Tecnica |
-| Satisfaccion del cliente | Alta | Mensual | Gerencia de Proyecto |
-
-### PENALIDADES Y SANCIONES
-
-| Tipo de Incumplimiento | Penalidad | Aplicacion |
-|:---|:---:|:---|
-| Retraso en entregables | 0.1% del valor por dia | Automatica |
-| Incumplimiento tecnico | 1% del valor del item | Segun evaluacion |
-| No conformidad grave | 5% del valor del contrato | Segun evaluacion |
+## 2. FASE DE PRECONSTRUCCIÓN Y DISEÑO
+Documentos que regulan los estudios, permisos y la preparación técnica antes de iniciar obras.
+• 2. Cl_8.1_Preconstruccion.docx (v4.1): Obligaciones de estudios y diseños. Define la estrategia de avance con bloqueos ITCS (ETCS Level 2) y la integración de protocolos UIC para interoperabilidad con FENOCO en los diseños preliminares,.
+• 1. Cl_2.14_LicenciasPermisos.docx (v3.0): Gestión integral de licencias ambientales (ANLA), permisos de espectro (ANE) y trámites prediales/municipales necesarios para la ejecución,.
+• 16. AT6_Gestion_Ambiental.docx (v4.1): Permisos, medidas de mitigación y eficiencia energética, incluyendo monitoreo ambiental de sistemas ITCS y ciberseguridad ambiental,.
+• 17. AT7_Gestion_Predial.docx (v4.1): Adquisición de predios para talleres, CCO y torres de telecomunicaciones, incluyendo servidumbres para sistemas tecnológicos y redundancia,.
+• 18. AT8_Gestion_Social.docx (v4.1): Gestión con comunidades, arqueología preventiva y cultura vial ferroviaria, integrando el impacto social de la implementación tecnológica,.
+• 15. AT5_InterferenciasRedes.docx (v4.1): Cruces con servicios públicos y protección de redes, incluyendo protección contra interferencias electromagnéticas para ITCS y ciberseguridad,.
 
 ---
 
-## ADVERTENCIA LEGAL
-
-Esta informacion es unicamente de caracter informativo. Se recomienda su revision y validacion por el equipo juridico del proyecto antes de ser utilizada formalmente.
-
----
-
-Estado del documento: Mejorado - 27/01/2025  
-Version: 4.1  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+## 3. FASE DE CONSTRUCCIÓN
+Regulación de la ejecución física de obras, montaje de sistemas e integración tecnológica.
+• 3. Cl_8.2_Construccion.docx (v4.1): Obligaciones de construcción, montaje e integración. Incluye pruebas SAT para validar la interoperabilidad con FENOCO y la implementación de estándares NIST/IEC 62443 durante la instalación,.
+• 11. AT1_Alcance_del_Proyecto.docx (v5.0): Alcance físico detallado: infraestructura férrea (UFVF), talleres, edificios administrativos y material rodante, alineado 100% con la filosofía de señalización virtual y criterios maestros,.
+• 19. AT9_Plan_de_Obras.docx (v4.1): Cronograma de frentes de trabajo por sistema. Integra la metodología de ejecución para infraestructura ITCS y la protección de disponibilidad (99.95%) durante las obras,.
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
+## 4. SISTEMAS FERROVIARIOS Y TECNOLOGÍA
+Especificaciones técnicas profundas para el "corazón digital" del proyecto.
+• 13. AT3_Especificaciones_Generales.docx (v4.1): Especificaciones de Señalización, CTC, Telecomunicaciones, Radio TETRA, Fibra, CCTV e Incendios. Integra completamente ITCS ETCS Level 2 y Ciberseguridad,.
+• 6. Cl_13.1_MaterialRodante.docx (v4.1): Gestión de equipos embarcados. Define la instalación de ITCS y TETRA en locomotoras, asegurando redundancia N+1 y encriptación de datos,.
+• 20. AT10_CapacidadSurcos.docx (v4.1): Simulación de capacidad y asignación de surcos. Integra ITCS-CTC para el monitoreo y validación de la capacidad ferroviaria,.
 
-### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
+---
 
-#### **✅ MEJORAS IMPLEMENTADAS:**
+## 5. FASE DE OPERACIÓN Y MANTENIMIENTO (O&M)
+Documentos rectores para la explotación comercial y sostenibilidad del activo.
+• 4. Cl_9.1_OM.docx (v4.1): Obligaciones generales de O&M. Estrategia de mantenimiento para ITCS, protocolos de coordinación operativa con FENOCO y preservación de redundancia,.
+• 12. AT2_Operacion_y_Mantenimiento.docx (v4.1): Continuidad de servicio, reglamento de operación y SCADA ferroviario. Incorpora ciberseguridad en la operación y protocolos de respuesta a incidentes,.
+• 7. Cl_14.1_OM_Sistemas.docx (v4.1): Reposición y mantenimiento específico de hardware/software. Garantiza actualizaciones de seguridad y gestión de obsolescencia para mantener la disponibilidad del 99.95%,.
+• 14. AT4_Indicadores.docx (v4.1): Sistema de Información de Control y Calidad (SICC). Define las métricas de disponibilidad (incluyendo ITCS y Ciberseguridad) que activan el régimen de penalidades,.
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN ÍNDICE:**
-   - **Navegación ITCS:** Enlaces directos a especificaciones ITCS ETCS Level 2
-   - **Trazabilidad ITCS:** Referencias cruzadas entre documentos ITCS
-   - **Estructura ITCS:** Organización de documentos por fases ITCS
-   - **Búsqueda ITCS:** Índices de términos técnicos ITCS
+---
 
-2. **🔗 INTEROPERABILIDAD FENOCO EN ÍNDICE:**
-   - **Navegación FENOCO:** Enlaces directos a protocolos UIC y interoperabilidad
-   - **Trazabilidad FENOCO:** Referencias cruzadas entre documentos FENOCO
-   - **Estructura FENOCO:** Organización de documentos por interoperabilidad
-   - **Búsqueda FENOCO:** Índices de términos técnicos FENOCO
+## 6. FASE DE REVERSIÓN Y ENTREGA
+Protocolos para la transferencia final de la concesión al Estado.
+• 5. Cl_12.1_Reversion.docx (v4.1): Reversión de activos y sistemas. Exige la entrega de equipos ITCS y sistemas de seguridad en funcionamiento verificado y con documentación técnica completa,.
+• 8. Cl_15_1_Reversion_Bienes.docx (v4.1): Gestión de manuales, planos As-Built y software. Obliga la transferencia de licencias de software (incluyendo seguridad y redundancia) y certificaciones de interoperabilidad,.
 
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN ÍNDICE:**
-   - **Navegación AT4:** Enlaces directos a indicadores de disponibilidad
-   - **Trazabilidad AT4:** Referencias cruzadas entre documentos AT4
-   - **Estructura AT4:** Organización de documentos por disponibilidad
-   - **Búsqueda AT4:** Índices de términos técnicos AT4
+---
 
-4. **🔒 CIBERSEGURIDAD EN ÍNDICE:**
-   - **Navegación ciberseguridad:** Enlaces directos a estándares NIST/IEC 62443
-   - **Trazabilidad ciberseguridad:** Referencias cruzadas entre documentos de seguridad
-   - **Estructura ciberseguridad:** Organización de documentos por seguridad
-   - **Búsqueda ciberseguridad:** Índices de términos técnicos de seguridad
-
-5. **🔄 REDUNDANCIA EN ÍNDICE:**
-   - **Navegación redundancia:** Enlaces directos a arquitectura N+1
-   - **Trazabilidad redundancia:** Referencias cruzadas entre documentos de redundancia
-   - **Estructura redundancia:** Organización de documentos por redundancia
-   - **Búsqueda redundancia:** Índices de términos técnicos de redundancia
-
-#### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-
-1. **Falta de especificaciones ITCS en índice:** Agregados enlaces y referencias ITCS ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluidas referencias y enlaces FENOCO
-3. **Criterios AT4 no integrados:** Incorporadas referencias y enlaces AT4
-4. **Ciberseguridad no especificada:** Agregadas referencias y enlaces de seguridad
-5. **Redundancia no definida:** Establecidas referencias y enlaces de redundancia
-
-#### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
-
-| ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
-| R-290 | Dependencia AT3 para ITCS en índice | Técnico | Alta | Alto | Navegación ITCS sin especificaciones AT3 |
-| R-291 | Interoperabilidad FENOCO en índice | Técnico | Media | Alto | Navegación de compatibilidad con FENOCO |
-| R-292 | Disponibilidad AT4 en índice | Contractual | Media | Alto | Navegación de cumplimiento de indicadores |
-| R-293 | Ciberseguridad en índice | Técnico | Media | Alto | Navegación de protección de sistemas |
-| R-294 | Redundancia en índice | Técnico | Media | Alto | Navegación de arquitectura N+1 |
-
-#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
-
-| Sistema | Cláusula | AT | Especificación | Estado |
-|:---|:---|:---|:---|:---:|
-| **ITCS Índice** | Índice | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO Índice** | Índice | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 Índice** | Índice | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad Índice** | Índice | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia Índice** | Índice | AT4 | Arquitectura N+1 | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Navegación con ETCS Level 2 (0-6 meses)
-   - **Fase 2:** Integración de referencias (6-12 meses)
-   - **Fase 3:** Integración con AT3 cuando esté disponible (12-18 meses)
-   - **Fase 4:** Optimización de navegación (18+ meses)
-
-2. **Gestión Integrada de Riesgos en Índice:**
-   - **Monitoreo mensual:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo trimestral:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo semestral:** Riesgos medios (gestión, operación)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% navegable | Mensual | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% referenciado | Trimestral | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 100% enlazado | Mensual | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 100% indexado | Trimestral | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% trazable | Mensual | Ing. Sistemas | 🟢 En progreso |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-6 meses):**
-   - Establecer navegación ITCS ETCS Level 2
-   - Implementar referencias FENOCO
-   - Activar enlaces AT4
-
-2. **Mediano plazo (6-18 meses):**
-   - Mantener navegación ITCS con ETCS Level 2
-   - Coordinar referencias FENOCO
-   - Monitorear enlaces AT4
-
-3. **Largo plazo (18+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar referencias FENOCO
-   - Mantener enlaces AT4
-
-#### **✅ CONCLUSIONES:**
-
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en navegación e índice
-- **Interoperabilidad FENOCO** en referencias cruzadas
-- **Criterios AT4** con enlaces de disponibilidad
-- **Ciberseguridad** con referencias de seguridad
-- **Redundancia N+1** en trazabilidad de arquitectura
-
-**5 riesgos identificados** para análisis PMI y gestión integrada en índice.
+## MEJORAS TRANSVERSALES (METODOLOGÍA PUNTO 42)
+Todos los documentos del índice han sido actualizados para incluir cinco pilares críticos de integridad tecnológica:
+1. Integración ITCS: Estrategias específicas para ETCS Level 2 en todas las fases.
+2. Interoperabilidad FENOCO: Protocolos UIC y coordinación operativa transversal.
+3. Disponibilidad AT4: Alineación de diseños y obras con la meta de 99.95% de disponibilidad.
+4. Ciberseguridad: Inclusión de estándares NIST/IEC 62443 en diseño, construcción y operación.
+5. Redundancia: Exigencia de arquitectura N+1 en sistemas críticos.

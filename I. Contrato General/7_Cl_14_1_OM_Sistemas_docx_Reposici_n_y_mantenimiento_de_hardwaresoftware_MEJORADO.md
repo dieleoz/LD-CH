@@ -1,10 +1,10 @@
-﻿# CLAUSULA 14.1 - OPERACIÓN Y MANTENIMIENTO DE SISTEMAS
+﻿# SECCIONES 14.2, 14.4 y APÉNDICE TÉCNICO 2 (3.1.8) - GESTIÓN DEL CICLO DE VIDA DE SISTEMAS TECNOLÓGICOS
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 14.1 - Operación y Mantenimiento de Sistemas  
+**Cláusula:** 14.2, 14.4, AT2 (3.1.8) - Gestión Ciclo de Vida TI  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 14.1 |
+| **Número** | 14.2 / 14.4 / AT2 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Reposición y Mantenimiento de Hardware y Software de Sistemas**
+**Gestión del Ciclo de Vida de Sistemas Tecnológicos**
 
-Este documento contractual establece las obligaciones específicas para la operación, mantenimiento, reposición y actualización de hardware y software de todos los sistemas tecnológicos del proyecto APP La Dorada - Chiriguaná.
+Este documento contractual establece las obligaciones específicas para la gestión del ciclo de vida, reposición y mantenimiento de hardware y software de los sistemas tecnológicos, fundamentado en las Secciones 14.2, 14.4 y el Apéndice Técnico 2.
 
 ---
 
@@ -37,39 +37,25 @@ Este documento contractual establece las obligaciones específicas para la opera
 | **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
+| **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (14.2, 14.4, AT2) |
 
 ---
 
-Cl_14.1_OM_Sistemas.docx v2.0
-Operación y Mantenimiento de Hardware/Software
-📋 CONTROL DE VERSIONES
-Versión
-Fecha
-Descripción de Cambios
-Autor
-
-v1.0
-Sep 10, 2025
-Documento inicial
-Administrador Contractual EPC
-
-v2.0
-Sep 14, 2025
-Adición obligaciones AT2 Nums. 3.1.7, 3.1.8. Sección ITCS condicional. Integración con documentos completados roadmap
-Administrador Contractual EPC
-
-🔗 DEPENDENCIAS DOCUMENTALES
-Depende de: AT1_AlcanceProyecto.docx v3.0 ✅, Cl_I.2d_JerarquiaDocumental.docx v2.0 ✅
-Impacta a: Cl_12.1_Reversión.docx v2.0 ✅, AT2_OM.docx v3.0 ✅
-Interfaces con: AT3_Especificaciones.docx ⚠️ (bloqueo ITCS), Cl_9.1_OM.docx v2.0 ✅
-
 1. Marco contractual
-1.1 Cláusula principal
-Contrato General - Capítulo XIV "OPERACIÓN Y MANTENIMIENTO", Sección 14.1:
-"El Concesionario será responsable de mantener en operación todos los sistemas, equipos, software y hardware asociados al Proyecto, incluyendo su reposición, actualización y modernización durante la vigencia del contrato, garantizando el cumplimiento de los indicadores de servicio."
+1.1 Fundamento Contractual
+**Contrato General - Sección 14.2 y 14.4 (Obligaciones Principales):**
+> **Sección 14.2(a):** "Operar y mantener la Infraestructura Férrea y la Infraestructura Logística..."
+> **Sección 14.4:** "Realizar las actividades de Mantenimiento de las Intervenciones..."
+
+**Apéndice Técnico 2 - Numeral 3.1.8 (Información Permanente):**
+> "El Concesionario deberá mantener permanentemente disponible, usable y alcanzable la infraestructura de tecnología de información (hardware, software, sistemas de información, redes de telecomunicación...) con el fin de contar con información permanentemente actualizada..."
+
+**Contrato General - Sección 14.1 (Condiciones Precedentes):**
+Establece los requisitos para el inicio de la etapa, incluyendo la verificación operativa de los sistemas (Pruebas SAT), pero no regula el mantenimiento continuo.
+
 1.2 Normativa y documentos aplicables
 Contrato General:
-Capítulo XIV (14.1-14.2): Operación y mantenimiento de sistemas
+Capítulo XIV (14.2, 14.4): Operación y mantenimiento de sistemas
 Capítulo XV (15.1-15.5): Condiciones de reversión de bienes
 Capítulo XVI: Multas por incumplimiento
 Apéndices Técnicos específicos:
@@ -87,10 +73,14 @@ Cap. 4.1, 5.3, 6 (SICC y medición)
 AT6 - Ambiental: 
 Cap. VII, Num. 7.1 (operación ambiental sistemas eléctricos/telecom)
 
-2. Alcance de la obligación
-2.1 Sistemas incluidos en la obligación
-El contrato exige que todos los sistemas de hardware y software del Proyecto estén operativos, actualizados y con capacidad de reposición durante toda la concesión:
-Hardware crítico (AT3, Cap. VIII, Nums. 8.2, 8.5, 8.6, 8.7):
+2. Alcance de Reposición y Obsolescencia
+2.1 Obligación de Disponibilidad Permanente (AT2 3.1.8)
+La obligación de mantener la infraestructura TI "permanentemente disponible, usable y alcanzable" implica:
+- **Reposición por Obsolescencia:** Renovación de equipos que alcancen el fin de su vida útil o soporte técnico, a costo del Concesionario.
+- **Actualización Tecnológica:** Modernización de hardware y software para mantener los niveles de servicio.
+
+2.2 Sistemas incluidos
+Hardware crítico (AT3):
 Servidores y equipos de cómputo del CCO
 Equipos de control CTC y enclavamientos
 Nodos de telecomunicaciones y conmutadores
@@ -113,26 +103,23 @@ Sistemas embarcados (AT3, Cap. VIII, Num. 8.10):
 ITCS (Intelligent Train Control System) ⚠️ Pendiente definición tecnológica
 GPS/GNSS y sistemas de posicionamiento
 Radios TETRA embarcados
-Sistemas de registro y monitoreo (Event Recorder)
-2.2 Cobertura integral (AT2, Cap. III, Num. 3.1.7)
-Obligación contractual: "Esta obligación a cargo del Concesionario consiste en asegurar que la operación estará disponible en la totalidad de la Infraestructura para el Concesionario y todos los Terceros Operadores sin distinción alguna, en cumplimiento de la Ley Aplicable."
-Alcance técnico:
-100% del corredor ferroviario: desde La Dorada hasta Chiriguaná
-Todas las estaciones operativas: Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
-Apartaderos y vías de desvío: sin excepción para operación
-CCO y sistemas centralizados: disponibilidad para terceros según marco regulatorio
-Compatibilidad garantizada: interoperabilidad con sistemas de Terceros Operadores
-2.3 Información permanente (AT2, Cap. III, Num. 3.1.8)
-Obligación contractual: "El Concesionario deberá mantener permanentemente disponible, usable y alcanzable la infraestructura de tecnología de información (hardware, software, sistemas de información, redes de telecomunicación, y en general todos los elementos constitutivos de teleinformática), con el fin de contar con información permanentemente actualizada del estado de todos los aspectos relacionados con la Infraestructura."
-Componentes obligatorios:
-Infraestructura de tecnología: hardware, software, sistemas de información, redes de telecomunicación
-Cobertura geográfica completa: Corredor del Proyecto, apartaderos, vías de desvío, áreas de servicio, centros de transferencia, CCO
-Material rodante incluido: telemetría y sistemas embarcados
-Disponibilidad para: Interventor, ANI y Terceros Operadores
-Mecanismos de interoperabilidad: según definición ANI para acceso en línea
-Seguridad de información: confidencialidad e integridad según roles establecidos
-
-3. Diferenciación EPC vs O&M
+
+2.3 Reversión y Vida Útil Remanente (Cláusula 12.1 / 15.4)
+Los bienes tecnológicos deben ser revertidos al final de la concesión cumpliendo con condiciones de vida útil remanente (verificar AT2 Cap V, usualmente 5 años para equipos críticos), asegurando la continuidad operativa post-reversión.
+
+---
+
+3. Mantenimiento de Software y Ciberseguridad
+3.1 Gestión de Licencias y Actualizaciones (Sección 3.3(b))
+- **Licencias:** Mantener licencias vigentes y transferibles a la ANI.
+- **Actualizaciones:** Aplicación de parches de seguridad y actualizaciones de firmware.
+
+3.2 Ciberseguridad (AT3 y AT2 3.1.8)
+Protección de la información y la infraestructura TI conforme a los estándares definidos en el Apéndice Técnico 3 (NIST/IEC 62443) y la obligación de integridad de datos del AT2.
+
+---
+
+4. Diferenciación EPC vs O&M
 3.1 Ingeniería EPC (diseño y especificación contractual)
 Diseño del Plan Maestro de Mantenimiento (AT2, Cap. VI, Num. 6.1):
 Políticas de reposición y stock crítico por tipo de equipo
@@ -171,29 +158,22 @@ Alimentación automática al SICC según (AT4, Cap. 5.3)
 Reportes periódicos a ANI e Interventoría
 Mantenimiento de interoperabilidad con Terceros Operadores
 
-4. Riesgos asociados y mitigaciones
-4.1 Riesgos técnicos de alto impacto
-Obsolescencia tecnológica no prevista:
-Consecuencia: Afectación de indicadores de disponibilidad (AT4, Tablas 1-4)
-Mitigación EPC: Roadmaps tecnológicos con horizonte 15 años
-Mitigación O&M: Contratos marco con fabricantes para evolución tecnológica
-Fallas críticas sin repuestos disponibles:
-Consecuencia: Riesgo de suspensión del servicio (AT2, Cap. VI, Num. 6.1)
-Mitigación EPC: Stock estratégico dimensionado por criticidad
-Mitigación O&M: Convenios de provisión urgente con proveedores
-Incompatibilidad de licencias para reversión:
-Consecuencia: Incumplimiento grave (Contrato, Cap. XV, Sección 15.1-15.5)
-Mitigación EPC: Verificación jurídica de transferibilidad en especificaciones
-Mitigación O&M: Auditoría anual de vigencia y transferibilidad
-4.2 Riesgos de información permanente
-Indisponibilidad de sistemas de información:
-Consecuencia: Incumplimiento de obligación AT2, Num. 3.1.8
-Mitigación: Arquitectura redundante N+1 para sistemas críticos de información
-Incompatibilidad con interoperabilidad ANI:
-Consecuencia: Imposibilidad de acceso en línea para ANI y terceros
-Mitigación: APIs estándar y protocolos abiertos desde diseño
-
-5. Procedimientos sugeridos para implementación
+5. Integración con SICC (AT4 Cap. 5.3)
+El hardware y software del Sistema de Información, Contabilización y Control (SICC) debe ser renovado y mantenido para garantizar una disponibilidad del 99.5% (Indicador E3). Fallas en el hardware del SICC impactan directamente la retribución.
+
+---
+
+6. Riesgos y Penalidades
+6.1 Incumplimiento de Obligaciones (Sección 14.2 / AT2)
+El incumplimiento de las obligaciones de mantenimiento y reposición no afecta la Sección 14.1 (ya cumplida), sino que constituye una violación de la Sección 14.2 y el Apéndice Técnico 2.
+
+6.2 Consecuencias
+- **Deducciones:** Afectación de indicadores de disponibilidad (DVF/DMR) en el Apéndice Técnico 4.
+- **Multas:** Aplicación de multas bajo la Cláusula 16.1 por incumplimiento de obligaciones contractuales.
+
+---
+
+7. Procedimientos sugeridos para implementación
 5.1 Metodología de diseño del Plan Maestro
 Clasificación de equipos por criticidad:
 Críticos: CTC, TETRA, sistemas de seguridad (disponibilidad 99.9%)
@@ -217,18 +197,8 @@ Nivel 3 - Documentación técnica:
 As-built actualizados por modificaciones
 Manuales de operación y procedimientos
 Certificaciones y homologaciones vigentes
-5.3 Integración con SICC mejorada (AT4, Cap. 5.3)
-APIs estándar obligatorias:
-Interface CTC-SICC: estados de sistemas y eventos operacionales
-Interface TETRA-SICC: cobertura, disponibilidad y comunicaciones
-Interface O&M-SICC: indicadores de mantenimiento y disponibilidad
-Protocolo de reportes automáticos:
-Cada sistema debe entregar logs y métricas automáticamente
-Interfaces API con CTC, SCADA, TETRA y sistemas de talleres
-Respaldos automáticos y recuperación ante desastres
-Tablero de control operacional con monitoreo tiempo real
 
-6. Consideraciones especiales
+8. Consideraciones especiales
 6.1 Indefinición tecnológica ITCS ⚠️
 Situación actual:
 Los sistemas ITCS (Intelligent Train Control System) mencionados en AT3, Cap. VIII, Num. 8.10 aún no tienen definición tecnológica específica
@@ -252,7 +222,7 @@ Equipos en condiciones operativas óptimas últimos 5 años
 Software con licencias transferibles actualizadas
 Manuales de operación vigentes y completos según Sección 15.5
 
-7. Interfaces documentales críticas
+9. Interfaces documentales críticas
 7.1 Con documentos de construcción
 Cl_8.1_Preconstrucción.docx v2.0: Preparación de manuales durante estudios
 Cl_8.2_Construcción.docx v2.0: Coordinación O&M durante obras
@@ -268,7 +238,7 @@ Cl_9.1_OM.docx v2.0: Coordinación de actividades de O&M general
 AT2_OM.docx v3.0: Reglamento operacional y procedimientos
 AT4_Indicadores.docx: Métricas de disponibilidad y calidad técnica
 
-8. Cronograma de implementación sugerido
+10. Cronograma de implementación sugerido
 8.1 Fase Preoperativa (Meses -6 a 0)
 Elaboración y aprobación de Manuales de O&M de sistemas
 Validación de interfaces SICC, CTC, TETRA
@@ -285,7 +255,7 @@ Monitoreo continuo de indicadores de disponibilidad
 Mantenimiento predictivo y correctivo según protocolos
 Preparación continua para reversión con documentación actualizada
 
-9. Recomendaciones prácticas para Ingeniería EPC
+11. Recomendaciones prácticas para Ingeniería EPC
 9.1 Estrategia de especificación técnica
 Exigir en licitación de Ingeniería de Detalle: planes específicos de O&M, ciclos de vida detallados, redundancias N+1, contratos de licencias transferibles
 Incluir FAT y SAT específicos: pruebas de desempeño y simulación de fallas antes de puesta en servicio
@@ -299,7 +269,7 @@ Interfaces preparadas: documentar conexiones futuras para sistemas ITCS
 Compatibilidad PTC: mantener estándares FRA como base mínima
 Flexibilidad tecnológica: arquitectura modular para evolución
 
-10. Estado del documento
+12. Estado del documento
 10.1 Completitud actual
 ✅ Obligaciones contractuales: 100% identificadas incluyendo AT2 Nums. 3.1.7, 3.1.8
 ✅ Procedimientos técnicos: Desarrollados para nivel conceptual
@@ -310,7 +280,7 @@ Ingeniería Básica: Desarrollar especificaciones detalladas por sistema
 Resolución ITCS: Incorporar definiciones una vez disponibles
 Coordinación AT3: Actualizar cuando se complete AT3_Especificaciones.docx
 
-11. Atención a preguntas del equipo de ingeniería
+13. Atención a preguntas del equipo de ingeniería
 11.1 Comentario ID-0: Definición de responsabilidades EPC vs Concesionario
 📝 Pregunta del equipo (Diego Leonardo Zuñiga Samboni): "Se debe definir que es del EPC, que se contrata de ingeniería y que se le pasa al concesionario, cuales son los assumptions, se deja la base al final para generar la separación y quien asume los risk, pues hacer ing de mantenimiento en esta etapa, complicado"
 🔍 Análisis contractual:
@@ -385,7 +355,7 @@ Actividad
 
 🚨 Decisión crítica pendiente: Definir quién asume el riesgo de obsolescencia tecnológica no prevista en el diseño original
 
-12. Tareas pendientes para resolución
+14. Tareas pendientes para resolución
 12.1 Para equipo jurídico
 [ ] Definir matriz de riesgos EPC vs SPV para obsolescencia tecnológica
 [ ] Revisar alcance de garantías EPC para sistemas de mantenimiento
@@ -463,122 +433,49 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 Estado del documento: Mejorado - 27/01/2025  
 Version: 4.1  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+Responsable: Administrador Contractual EPC
+Proxima actualizacion: 02/11/2025
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
+## ACTUALIZACIÓN v5.0 - CORRECCIÓN INDEXACIÓN CONTRACTUAL
 
 ### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN OM DE SISTEMAS:**
-   - **Mantenimiento ITCS:** Programas de mantenimiento para equipos ITCS ETCS Level 2
-   - **Reposición de hardware:** Estrategias de reposición para equipos ITCS embarcados
-   - **Actualizaciones de software:** Gestión de actualizaciones ITCS hasta disponibilidad de AT3
-   - **Monitoreo continuo:** Supervisión de estado y rendimiento de sistemas ITCS
+1. **CORRECCIÓN DE CLÁUSULAS:**
+   - **Sección 14.2:** Identificada como "Obligaciones Principales de O&M".
+   - **Sección 14.4:** Identificada como "Mantenimiento de Intervenciones".
+   - **AT2 Num. 3.1.8:** Identificada como "Información Permanente" (Obligación TI).
+   - **Sección 14.1:** Aclarada como "Condiciones Precedentes" (Hito de inicio).
 
-2. **🔗 INTEROPERABILIDAD FENOCO EN OM DE SISTEMAS:**
-   - **Mantenimiento de protocolos UIC:** Preservación de interoperabilidad con FENOCO
-   - **Actualizaciones de compatibilidad:** Gestión de actualizaciones para mantener interoperabilidad
-   - **Monitoreo de interoperabilidad:** Supervisión continua de compatibilidad con FENOCO
-   - **Resolución de incidencias:** Procedimientos para problemas de interoperabilidad
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN OM DE SISTEMAS:**
-   - **Mantenimiento de disponibilidad:** Preservación de 99.95% de disponibilidad
-   - **Reposición preventiva:** Estrategias de reposición para mantener disponibilidad
-   - **Monitoreo de indicadores:** Supervisión continua de cumplimiento AT4
-   - **Gestión de redundancia:** Mantenimiento de arquitectura N+1
-
-4. **🔒 CIBERSEGURIDAD EN OM DE SISTEMAS:**
-   - **Mantenimiento de seguridad:** Preservación de estándares NIST/IEC 62443
-   - **Actualizaciones de seguridad:** Gestión de parches y actualizaciones de seguridad
-   - **Monitoreo de amenazas:** Supervisión continua de amenazas cibernéticas
-   - **Respuesta a incidentes:** Procedimientos para incidentes de ciberseguridad
-
-5. **🔄 REDUNDANCIA EN OM DE SISTEMAS:**
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **Reposición de sistemas redundantes:** Estrategias para mantener redundancia
-   - **Monitoreo de redundancia:** Supervisión de estado de sistemas redundantes
-   - **Gestión de fallas:** Procedimientos para fallas en sistemas redundantes
+2. **REESTRUCTURACIÓN DE CONTENIDO:**
+   - Definición de "Disponibilidad Permanente" como obligación de reposición.
+   - Inclusión de obligaciones de ciberseguridad y licencias.
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en OM:** Agregado mantenimiento y reposición de equipos ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluido mantenimiento de protocolos UIC
-3. **Criterios AT4 no integrados:** Incorporado mantenimiento de disponibilidad 99.95%
-4. **Ciberseguridad no especificada:** Agregado mantenimiento de estándares de seguridad
-5. **Redundancia no definida:** Establecido mantenimiento de arquitectura N+1
+1. **Confusión Cláusula 14.1 vs 14.2:** Corregida la atribución de la obligación de mantenimiento.
+2. **Omisión de AT2 3.1.8:** Detallada la obligación específica de TI.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-275 | Dependencia AT3 para ITCS en OM | Técnico | Alta | Alto | Mantenimiento ITCS sin especificaciones AT3 |
-| R-276 | Interoperabilidad FENOCO en OM | Técnico | Media | Alto | Mantenimiento de compatibilidad con FENOCO |
-| R-277 | Disponibilidad AT4 en OM | Contractual | Media | Alto | Mantenimiento de cumplimiento de indicadores |
-| R-278 | Ciberseguridad en OM | Técnico | Media | Alto | Mantenimiento de protección de sistemas |
-| R-279 | Redundancia en OM | Técnico | Media | Alto | Mantenimiento de arquitectura N+1 |
+| R-700 | Obsolescencia Tecnológica | Financiero | Alta | Alto | Costos de reposición no previstos (AT2 3.1.8) |
+| R-701 | Penalidades SICC | Operacional | Media | Alto | Fallas de hardware afectan indicador E3 (AT4) |
+| R-702 | Ciberseguridad | Técnico | Media | Alto | Incumplimiento de estándares AT3 |
 
 #### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS OM** | 14.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO OM** | 14.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 OM** | 14.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad OM** | 14.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia OM** | 14.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Mantenimiento con ETCS Level 2 (0-12 meses)
-   - **Fase 2:** Reposición y actualizaciones (12-24 meses)
-   - **Fase 3:** Integración con AT3 cuando esté disponible (24-36 meses)
-   - **Fase 4:** Optimización operativa (36+ meses)
-
-2. **Gestión Integrada de Riesgos en OM:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo mensual:** Riesgos medios (gestión, operación)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% compatible | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-3 meses):**
-   - Establecer programas de mantenimiento ITCS ETCS Level 2
-   - Implementar monitoreo de interoperabilidad FENOCO
-   - Activar monitoreo continuo de AT4
-
-2. **Mediano plazo (3-24 meses):**
-   - Mantener operación ITCS con ETCS Level 2
-   - Coordinar mantenimiento con FENOCO
-   - Monitorear cumplimiento de AT4
-
-3. **Largo plazo (24+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar interoperabilidad con FENOCO
-   - Mantener cumplimiento de AT4
+| **Mantenimiento** | 14.2/14.4 | AT2 | Continuidad Operativa | ✅ Corregido |
+| **Reposición TI** | AT2 3.1.8 | N/A | Ciclo de Vida | ✅ Corregido |
+| **SICC** | AT4 5.3 | AT4 | Disponibilidad 99.5% | ✅ Corregido |
+| **Inicio Etapa** | 14.1 | N/A | Condiciones Precedentes | ✅ Corregido |
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en operación y mantenimiento de sistemas
-- **Interoperabilidad FENOCO** en mantenimiento de compatibilidad
-- **Criterios AT4** con mantenimiento de disponibilidad 99.95%
-- **Ciberseguridad** con mantenimiento de estándares NIST/IEC 62443
-- **Redundancia N+1** en mantenimiento de arquitectura redundante
-
-**5 riesgos identificados** para análisis PMI y gestión integrada en OM de sistemas.
+El documento ha sido reestructurado para reflejar fielmente la estructura del Contrato de Concesión No. 001 de 2025. Se han corregido las referencias a la Cláusula 14.1 (Condiciones Precedentes) y se han asignado correctamente las obligaciones de mantenimiento y reposición a las Secciones 14.2, 14.4 y al Apéndice Técnico 2.

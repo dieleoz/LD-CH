@@ -1,10 +1,10 @@
-﻿# CLAUSULA 8.2 - OBLIGACIONES EN FASE DE CONSTRUCCIÓN
+﻿﻿﻿﻿# SECCIÓN 9.5 (CONSTRUCCIÓN) y SECCIÓN 8.2 (REVISIÓN ABREVIADA) - GESTIÓN DE OBRAS
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 8.2 - Obligaciones en Fase de Construcción  
+**Cláusula:** 9.5 / 8.2 - Gestión de Obras y Revisión Abreviada  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 8.2 |
+| **Número** | 9.5 / 8.2 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Obligaciones en Fase de Construcción**
+**Gestión de Obras y Procedimiento de Revisión Abreviado**
 
-Este documento contractual establece las obligaciones específicas para la fase de construcción del proyecto APP La Dorada - Chiriguaná, incluyendo actividades constructivas, supervisión, calidad y cumplimiento de especificaciones técnicas.
+Este documento contractual establece las obligaciones específicas para la Fase de Construcción (Sección 9.5), perteneciente a la Etapa Preoperativa, y define el Procedimiento de Revisión Abreviado (Sección 8.2) aplicable a documentos específicos de gestión.
 
 ---
 
@@ -368,11 +368,12 @@ AT6_Ambiental: Protocolos ICA y gestión ambiental en obra
 Verificación condiciones precedentes
 Aprobación final ingeniería básica
 Obtención permisos faltantes
-10.2 Construcción por UF (18-24 meses)
-Mes 1-3: Infraestructura civil y locales técnicos
-Mes 4-12: Montaje electromecánico por sistemas
-Mes 13-18: Integración y pruebas SAT
-Mes 19-24: Puesta en servicio gradual y cierre
+10.2 Construcción por Unidad Funcional (Alineado con AT9)
+- **UF3 (Logística):** 12 meses (Mes 1-12) - Taller y CCO.
+- **UF1 (Santa Lucía - Chiriguaná):** 24 meses (Mes 1-24) - Rehabilitación prioritaria.
+- **UF2 (México - Grecia):** 36 meses (Mes 1-36).
+- **UF2 (Grecia - Santa Lucía):** 49 meses (Mes 1-49).
+*Nota: Cronograma detallado de frentes y ruta crítica según Apéndice Técnico 9.*
 10.3 Transición a O&M (+30 días)
 Documentación de cierre completa
 Transferencia formal a equipos O&M

@@ -1,10 +1,10 @@
-﻿# CLAUSULA 9.1 - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
+﻿﻿# CAPÍTULO XIV (CLÁUSULAS 14.1-14.6) - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 27 de enero de 2025  
+**Fecha de actualización:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 9.1 - Operación y Mantenimiento  
+**Cláusula:** 14.1-14.6 - Operación y Mantenimiento  
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
+| **Fecha de actualización** | 02 de octubre de 2025 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Cláusula Contractual |
-| **Número** | 9.1 |
+| **Número** | 14.1-14.6 |
 | **Estado** | ✅ Contenido completo |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Obligaciones de Operación y Mantenimiento**
+**Obligaciones de Operación y Mantenimiento (Capítulo XIV)**
 
-Este documento contractual establece las obligaciones específicas para la fase de operación y mantenimiento del proyecto APP La Dorada - Chiriguaná, incluyendo actividades operativas, mantenimiento preventivo y correctivo de todos los sistemas.
+Este documento contractual establece las obligaciones específicas para la Etapa de Operación y Mantenimiento (Capítulo XIV), incluyendo condiciones precedentes, prestación del servicio público de transporte férreo, y mantenimiento de la infraestructura y equipos.
 
 ---
 
@@ -37,6 +37,7 @@ Este documento contractual establece las obligaciones específicas para la fase 
 | **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
+| **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (Capítulo XIV) |
 
 ---
 
@@ -156,46 +157,53 @@ Documento
 
 1. Marco contractual
 1.1 Cláusula Principal
-Cláusula 9.1 - Operación y Mantenimiento (Contrato General, Cap. XIV, Sección 14.1 y 14.2):
-"El Concesionario deberá cumplir con todas las obligaciones correspondientes a la Etapa de Operación y Mantenimiento incluidas en los Apéndices Técnicos y demás Secciones del Contrato. Estas obligaciones incluyen la operación de la infraestructura férrea y logística, la prestación del servicio público de transporte ferroviario de carga, el cumplimiento de los indicadores de disponibilidad, seguridad y nivel de servicio, y la ejecución de todas las actividades de mantenimiento preventivo, correctivo y mayor."
+**Capítulo XIV - Operación y Mantenimiento (Secciones 14.1 a 14.6):**
+
+> **Sección 14.2 Obligaciones Principales:** "(a) Operar y mantener la Infraestructura... (b) Prestar el Servicio Público de Transporte Ferroviario de Carga... (c) Cumplir con los Indicadores de Disponibilidad y Niveles de Servicio..."
+>
+> **Sección 14.5 Manuales de O&M:** "El Concesionario deberá elaborar y mantener actualizados los manuales... (i) Infraestructura Férrea, (ii) Infraestructura Logística, (iii) Material Rodante..."
+> *Nota Técnica: Para cumplimiento del AT3 sin generar entregables adicionales, se recomienda incluir los Sistemas Tecnológicos como un capítulo especial dentro del Manual de Infraestructura Férrea.*
+
 1.2 Normativa y documentos aplicables
-Contrato General - Cap. XIV (14.1, 14.2 y 14.5), Cap. XV (Reversión), Cap. XVI (penalidades por incumplimiento)
+Contrato General - Cap. XIV (14.1-14.6), Cap. XV (Reversión), Cap. XVI (penalidades)
 Apéndice Técnico 2 - Operación y Mantenimiento (Cap. I introducción; Cap. II, Nums. 2.1–2.5; Cap. III, Nums. 3.1.1–3.3.4; Cap. IV, Num. 4.2; Cap. VI, Nums. 6.1 y 6.4)
 Apéndice Técnico 4 - Indicadores de Servicio Ferroviario (Cap. 2, 3 Tablas 1–4; Cap. 4.1, 4.2, 5.3, 6 y 7)
 Apéndice Técnico 5 - Interferencias con Redes (Cap. III, Num. 3.2.3)
 Apéndice Técnico 6 - Gestión Ambiental (Cap. VII, Nums. 7.1 y 7.4)
+Apéndice Técnico 10 - Capacidad y Surcos (Asignación de surcos)
 1.3 Jerarquía documental aplicable
 Según Cl_I.2d_JerarquiaDocumental v2.0: Contrato General > Apéndices Técnicos > documentos específicos de ingeniería. En caso de conflictos, aplicar la Cláusula 1.2(d) del Contrato General.
 2. Alcance de la obligación
 2.1 Etapas de responsabilidad del EPC
-2.1.1 Etapa Preoperativa (AT2, Cap. I, literal a)
-Obligación contractual: Preparar y validar sistemas para inicio de operación comercial
-Manuales de O&M obligatorios (Contrato General, Cl. 14.5):
-Manual de Operación y Mantenimiento de la Infraestructura Férrea
-Manual de Operación y Mantenimiento de la Infraestructura Logística
-Manual de Operación y Mantenimiento del Material Rodante (complementario con Cl_13.1_MaterialRodante)
-Condiciones precedentes para inicio de O&M:
-Validación de sistemas: CTC, señalización, TETRA, SICC deben estar 100% funcionales
-Procedimiento de Revisión General con Interventoría
-Suscripción de condiciones precedentes según Cláusula 14.1
-2.1.2 Etapa de Operación y Mantenimiento (AT2, Cap. III)
-Operación ferroviaria integral:
-Operación ferroviaria: asegurar continuidad del servicio de transporte de carga (Ap. 2, Cap. III, Num. 3.2.1)
-Reglamento de Operación de Trenes (ROT): obligatorio para la gestión de circulación, con uso de CTC, señalización, ITCS y TETRA (Ap. 2, Cap. III, Num. 3.2.2)
-Prestación del servicio público de transporte ferroviario de carga con habilitación vigente ante Ministerio de Transporte
-Seguridad y monitoreo:
-Seguridad en la vía y material rodante: CCTV, control de accesos, alarmas y protocolos de emergencia (Ap. 2, Cap. III, Nums. 3.1.2 y 3.3.2)
-Monitoreo de integridad de infraestructura: uso de sensores, SCADA ferroviario y sistemas de control (Ap. 2, Cap. III, Num. 3.1.4)
-Mantenimiento integral:
-Mantenimiento de infraestructura y equipos: ejecución de mantenimiento preventivo, correctivo y mayor (Ap. 2, Cap. VI, Num. 6.1)
-Material Rodante de Terceros Operadores: verificación trimestral de cumplimiento de normatividad y especificaciones técnicas (Ap. 2, Cap. VI)
-Cumplimiento contractual:
-Cumplimiento de indicadores contractuales: continuidad, disponibilidad de vía, cumplimiento de surcos y seguridad operacional (Ap. 4, Cap. 3, Tablas 1–4)
-Gestión ambiental en O&M: mantener en operación equipos de mitigación ambiental y reportes de sostenibilidad (Ap. 6, Cap. VII, Nums. 7.1 y 7.4)
-2.1.3 Preparación para Etapa de Reversión (coordina con Cl_12.1_Reversión)
-Mantenimiento de registros de intervenciones y estado de activos para entrega final
-Preparación de documentación as-built y manuales actualizados según condiciones de reversión
-Conservación de condiciones de infraestructura y equipos para transferencia al Estado
+
+### **2.1.1 Operación en Etapa Preoperativa (Inmediata)**
+- **Obligación:** Operación y mantenimiento de la vía existente desde el inicio (AT2, Num. 3.3.1).
+- **Pago:** Componentes A y B de la retribución (Apéndice Financiero 3). **No requiere terminación de obras nuevas.**
+
+### **2.1.2 Etapa de Operación y Mantenimiento (Plena - Sección 14.1)**
+Para el inicio formal de la Etapa de Operación y Mantenimiento (post-construcción) y el pago del Componente C (Inversión), se deben cumplir:
+- **Terminación de Unidades Funcionales:** Suscripción del Acta de Terminación de la Unidad Funcional correspondiente.
+- **Manuales de O&M:** Aprobación/No objeción de los Manuales de Operación y Mantenimiento (Sección 14.5).
+- **Garantías:** Constitución y aprobación de la Garantía Única de Cumplimiento para la etapa de operación.
+- **Seguros:** Aprobación de las pólizas de seguros de responsabilidad civil y daños para la etapa de operación.
+
+2.2 Alcance de Operación (Sección 14.2 y AT2)
+- **Servicio Público:** Prestar el Servicio Público de Transporte Ferroviario de Carga de manera continua y eficiente.
+- **Disponibilidad:** Cumplir con los Indicadores de Disponibilidad de Infraestructura y Material Rodante establecidos en el Apéndice Técnico 4.
+- **Reglamento de Operación de Trenes (ROT):** Aplicar el ROT para la gestión de circulación (AT2 Cap. III, 3.2.2).
+- **Gestión de Surcos:** Asignación y control de surcos ferroviarios (AT10).
+
+2.3 Mantenimiento (Sección 14.6 y AT2 Cap. VI)
+El Concesionario debe ejecutar el mantenimiento de:
+- **Infraestructura Férrea:** Vías, puentes, túneles, drenajes.
+- **Infraestructura Logística:** Patios, talleres, estaciones, edificios.
+- **Material Rodante:** Mantenimiento de locomotoras y vagones propios, y control de terceros.
+
+Tipos de mantenimiento requeridos:
+- **Preventivo:** Programado para evitar fallas.
+- **Correctivo:** Reparación inmediata de averías.
+- **Predictivo:** Basado en monitoreo de condición (SCADA, sensores).
+
 3. Procedimiento detallado de gestión
 3.1 Plan Maestro de O&M (AT2, Cap. IV, Num. 4.1)
 3.1.1 Estructura obligatoria del Plan Maestro
@@ -205,6 +213,8 @@ A - Anual (cada año)
 S - Semestral
 T - Trimestral
 M - Mensual
+*Nota: Las frecuencias indicadas a continuación (M, T, S) son propuestas mínimas para el Plan de Mantenimiento (Ref. AT2 6.3) y no obligaciones rígidas, salvo disposición expresa en tablas del AT2.*
+
 Q - Quincenal
 S - Semanal
 D - Diaria
@@ -264,6 +274,7 @@ DMR = (DO/TDO) * 100%
 Donde:
 DO = Días operativos efectivos
 TDO = Total días operativos programados
+*Nota: El cálculo debe excluir tiempos de Mantenimiento Programado y Eventos Eximentes aprobados (AT4, Secciones 7.1 y 7.2).*
 Valor de aceptación: ≥ 95%
 Disponibilidad de Infraestructura Férrea (DVF):
 DVF = (Tiempo disponible / Tiempo total) * 100%
@@ -285,7 +296,7 @@ Cumplimiento de obligaciones ambientales durante operación
 4.1 Riesgos contractuales de alto impacto
 Incumplimiento de indicadores de servicio → aplicación de:
 Deducciones en retribución según índice de cumplimiento (Ap. 4, Cap. 6)
-Multas por incumplimientos recurrentes (Contrato, Cl. 16.8(k)): hasta 30 SMLMV diarios por 3 meses consecutivos o 6 meses discontinuos
+Multas por incumplimientos recurrentes (según Régimen de Sanciones y Apremios del Contrato Principal): Multas asociadas al incumplimiento de Indicadores. *(Referencia 16.8(k) pendiente de validación jurídica)*.
 Fallas en Manuales de O&M → riesgo de no inicio de etapa (Cl. 14.5)
 Deficiencias en Material Rodante de Terceros → responsabilidad del concesionario por verificación (AT2, Cap. VI)
 4.2 Riesgos operacionales
@@ -450,122 +461,50 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 Estado del documento: Mejorado - 27/01/2025  
 Version: 4.1  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+Responsable: Administrador Contractual EPC
+Proxima actualizacion: 02/11/2025
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
+## ACTUALIZACIÓN v5.0 - CORRECCIÓN INDEXACIÓN CONTRACTUAL
 
 ### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN OPERACIÓN:**
-   - **Operación embarcada:** Mantenimiento de equipos ITCS ETCS Level 2 en locomotoras
-   - **Monitoreo CTC:** Supervisión continua de sistemas embarcados desde Centro de Control
-   - **Mantenimiento preventivo:** Programas de mantenimiento para equipos ITCS
-   - **Actualizaciones de software:** Gestión de actualizaciones ITCS hasta disponibilidad de AT3
+1. **CORRECCIÓN DE CLÁUSULAS:**
+   - **Capítulo XIV:** Identificado correctamente como "Operación y Mantenimiento".
+   - **Sección 14.1:** Condiciones Precedentes para O&M.
+   - **Sección 14.2:** Obligaciones Principales de O&M.
+   - **Sección 14.5:** Manuales de O&M.
+   - **Sección 14.6:** Mantenimiento.
 
-2. **🔗 INTEROPERABILIDAD FENOCO EN OPERACIÓN:**
-   - **Protocolos UIC:** Mantenimiento de estándares UIC para interoperabilidad con FENOCO
-   - **Coordinación operativa:** Protocolos de comunicación con FENOCO durante operación
-   - **Monitoreo de compatibilidad:** Supervisión continua de interoperabilidad
-   - **Resolución de incidencias:** Procedimientos para problemas de interoperabilidad
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN OPERACIÓN:**
-   - **SICC operativo:** Monitoreo continuo de indicadores de disponibilidad
-   - **Telemetría en tiempo real:** Logs automáticos y reportes para cumplimiento contractual
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **Cumplimiento de indicadores:** Supervisión de 99.95% de disponibilidad
-
-4. **🔒 CIBERSEGURIDAD EN OPERACIÓN:**
-   - **Estándares NIST/IEC 62443:** Mantenimiento de seguridad durante operación
-   - **Monitoreo de seguridad:** Supervisión continua de amenazas cibernéticas
-   - **Actualizaciones de seguridad:** Gestión de parches y actualizaciones
-   - **Respuesta a incidentes:** Procedimientos para incidentes de ciberseguridad
-
-5. **🔄 REDUNDANCIA EN OPERACIÓN:**
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **UPS y generadores:** Mantenimiento de sistemas de respaldo
-   - **Enlaces redundantes:** Supervisión de fibra óptica y microondas de respaldo
-   - **Sistemas duales:** Mantenimiento de redundancia en equipos críticos
+2. **REESTRUCTURACIÓN DE CONTENIDO:**
+   - Separación clara de condiciones precedentes y obligaciones de ejecución.
+   - Inclusión de tipos de mantenimiento (Preventivo, Correctivo, Predictivo).
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en operación:** Agregado mantenimiento de equipos ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos de coordinación operativa
-3. **Criterios AT4 no integrados:** Incorporado SICC operativo y telemetría continua
-4. **Ciberseguridad no especificada:** Agregados estándares de seguridad en operación
-5. **Redundancia no definida:** Establecido mantenimiento de arquitectura N+1
+1. **Confusión Cláusula 9.1 vs 14.1:** Corregida la atribución de obligaciones de O&M.
+2. **Omisión de Manuales:** Detallada la obligación de la Sección 14.5.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-260 | Dependencia AT3 para ITCS en operación | Técnico | Alta | Alto | Mantenimiento ITCS sin especificaciones AT3 |
-| R-261 | Interoperabilidad FENOCO en operación | Técnico | Media | Alto | Mantenimiento de compatibilidad con FENOCO |
-| R-262 | Disponibilidad AT4 en operación | Contractual | Media | Alto | Cumplimiento de indicadores durante operación |
-| R-263 | Ciberseguridad en operación | Técnico | Media | Alto | Protección de sistemas durante operación |
-| R-264 | Redundancia en operación | Técnico | Media | Alto | Mantenimiento de arquitectura N+1 |
+| R-400 | No Aprobación Manuales O&M | Contractual | Media | Alto | Retraso en inicio de operación por Sección 14.5 |
+| R-401 | Incumplimiento Indicadores | Operacional | Alta | Alto | Multas por Cláusula 16.8(k) |
+| R-402 | Fallas Mantenimiento | Técnico | Media | Alto | Afectación a disponibilidad y seguridad |
 
 #### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Operación** | 9.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO Operación** | 9.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 SICC Operativo** | 9.1 | AT4 | Telemetría continua | ✅ Implementado |
-| **Ciberseguridad Operación** | 9.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia Operación** | 9.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Operación con ETCS Level 2 (0-12 meses)
-   - **Fase 2:** Integración con AT3 cuando esté disponible (12-24 meses)
-   - **Fase 3:** Optimización operativa (24-36 meses)
-   - **Fase 4:** Operación estable (36+ meses)
-
-2. **Gestión Integrada de Riesgos en Operación:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo mensual:** Riesgos medios (gestión, operación)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% compatibilidad | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-3 meses):**
-   - Establecer operación con equipos ITCS ETCS Level 2
-   - Implementar protocolos UIC para coordinación FENOCO
-   - Activar SICC con telemetría continua
-
-2. **Mediano plazo (3-24 meses):**
-   - Mantener operación ITCS con ETCS Level 2
-   - Coordinar operación con FENOCO
-   - Monitorear cumplimiento de AT4
-
-3. **Largo plazo (24+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar interoperabilidad con FENOCO
-   - Mantener cumplimiento de AT4
+| **Condiciones Precedentes** | 14.1 | N/A | Inicio O&M | ✅ Corregido |
+| **Obligaciones O&M** | 14.2 | AT2 | Servicio y Disponibilidad | ✅ Corregido |
+| **Manuales** | 14.5 | AT2 | Documentación | ✅ Corregido |
+| **Mantenimiento** | 14.6 | AT2 | Prev/Corr/Pred | ✅ Corregido |
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en fase de operación
-- **Interoperabilidad FENOCO** en coordinación operativa
-- **Criterios AT4** con SICC operativo y telemetría continua
-- **Ciberseguridad** con estándares NIST/IEC 62443 en operación
-- **Redundancia N+1** en mantenimiento operativo
-
-**5 riesgos identificados** para análisis PMI y gestión integrada en operación.
+El documento ha sido reestructurado para reflejar fielmente la estructura del Contrato de Concesión No. 001 de 2025. Se han corregido las referencias a la Cláusula 9.1 (Preconstrucción) y se han asignado correctamente las obligaciones de O&M al Capítulo XIV (Secciones 14.1 a 14.6).
