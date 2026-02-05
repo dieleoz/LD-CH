@@ -573,24 +573,75 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 ---
 
 ## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** AT8_Gestion_Social_MD v4.1
-**Dictamen:** ✅ APROBADO ESTRATÉGICAMENTE
+**Documento:** AT8_Gestion_Social_MD.md (v4.1)
+**Dictamen:** ✅ APROBADO ESTRATÉGICAMENTE (ENFOQUE PREVENTIVO)
 
-### 🛡️ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **Cultura Vial Ferroviaria:** El aumento de velocidad por el sistema PTC eleva el riesgo de accidentes. No ejecutar este programa como exige el AT8 7.19 faculta a la ANI para auditar negligencia tras accidentes con peatones.
-2. **Sistema de Atención (SAU):** No es solo para quejas; es el centro de alerta temprana ante amenazas de bloqueos comunitarios integrados al SICC.
-3. **Arqueología Preventiva:** Protocolo de suspensión ante hallazgos fortuitos (ICANH). No mover tierra sin arqueólogo presente.
+El documento es contractualmente sólido y crítico. Mientras que el PDF original establece obligaciones generales de gestión social, la versión MD integra la Metodología Punto 42 para proteger la infraestructura tecnológica (TETRA/ITCS) del vandalismo y preparar a las comunidades para el aumento de velocidad de los trenes (Riesgo de accidentalidad).
 
-### ⚠️ ACTUALIZACIÓN PUNTO 42
-- **Protección Social de Tecnología:** La socialización debe educar sobre el valor de la fibra óptica y antenas para la seguridad del entorno, mitigando el vandalismo.
-- **Interoperabilidad (FENOCO):** Mensajería unificada con FENOCO en Chiriguaná para evitar disparidad en compensaciones.
-- **Sincronización AT7:** El censo social es el insumo mandatorio para la compra de predios.
+---
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Entregable Mes 3:** Radicar el PGSC basado en la estructura de la Sección 3.1.
-2. **Ingeniería:** Validar ubicaciones de torres y cámaras con el equipo social para evitar conflictos en resguardos o zonas sensibles.
-3. **SICC:** Habilitar módulo de Gestión Social. Sin reporte mensual automatizado, el Concesionario no cobra.
+### 🛡️ 1. VALIDACIÓN DE OBLIGACIONES (LA RUTA CRÍTICA SOCIAL)
+El documento MD estructura correctamente las obligaciones ineludibles del Apéndice Técnico 8 original:
 
-**VEREDICTO FINAL:** Transforma el requisito social en un componente de seguridad operativa para la infraestructura tecnológica.
+**A. El Plan Maestro: PGSC (Plan de Gestión Social Contractual)**
+*   📄 Fuente MD: Sección 3.1.
+*   📄 Fuente PDF: AT8, Sección 7.2.
+*   **Plazo Fatal:** Se debe entregar para "No Objeción" a los **3 meses de la Fecha de Inicio**.
+*   **Riesgo:** Sin el PGSC aprobado, no se pueden iniciar intervenciones en campo sin riesgo de multas (Cláusula 16.1).
+
+**B. Sistema de Atención al Usuario (SAU) - El "Radar"**
+*   📄 Fuente MD: Sección 3.2.
+*   📄 Fuente PDF: AT8, Sección 7.4 y 7.6.
+*   **Requisito Físico:**
+    *   **Oficinas Fijas:** Una por cada tramo/municipio principal con horario 8 AM - 6 PM.
+    *   **Oficinas Móviles:** 3 unidades (remolques equipados) durante la etapa preoperativa, iniciando operación a los 30 días del acta de inicio.
+*   **Estrategia:** Estas oficinas no son solo para recibir PQRs; son centros de inteligencia temprana para detectar conflictos antes de que escalen a vías de hecho.
+
+**C. Cultura Vial Ferroviaria (Vital para PTC)**
+*   📄 Fuente MD: Sección 3.3.
+*   📄 Fuente PDF: AT8, Sección 7.19.
+*   **Impacto Técnico:** La implementación del sistema de control PTC (Positive Train Control) y la rehabilitación de la vía permitirán trenes más rápidos y frecuentes.
+*   **Obligación:** Realizar talleres pedagógicos (mínimo 1 cada 2 meses por municipio). Si ocurre un accidente con un peatón y no se demuestra la ejecución de este programa, la responsabilidad legal recae fuertemente sobre el Concesionario por negligencia en la prevención.
+
+**D. Arqueología Preventiva (El Freno de Mano)**
+*   📄 Fuente MD: Sección 6.2 y 7.18 del PDF.
+*   **Obligación:** Cumplir con la normativa del ICANH. Se requiere un Programa de Arqueología Preventiva aprobado antes de mover tierra.
+*   **Alerta:** El hallazgo de vestigios sin un protocolo de suspensión y reporte inmediato puede paralizar la obra indefinidamente y generar sanciones penales.
+
+---
+
+### 📡 2. ACTUALIZACIÓN PUNTO 42 (GESTIÓN SOCIAL 4.0)
+La versión v4.1 (MD) cubre vacíos críticos relacionados con la modernización tecnológica que el contrato original aborda de forma genérica:
+
+1.  **Protección Social de Activos Tecnológicos:**
+    *   **Riesgo:** Las 37 torres TETRA y la fibra óptica son vulnerables al vandalismo o robo si la comunidad no entiende su valor.
+    *   **Mejora MD:** Integra campañas de socialización específicas para explicar que estas antenas mejoran la conectividad y seguridad de la zona, reduciendo la hostilidad hacia la infraestructura ("Socialización de beneficios comunitarios").
+
+2.  **Interoperabilidad FENOCO (Frontera Social):**
+    *   Fuente MD: Sección Actualización v4.1 - Punto 2.
+    *   **Estrategia:** Exige protocolos de coordinación social con FENOCO. Las comunidades en la frontera (Chiriguaná) no deben percibir diferencias en el trato o compensaciones entre concesiones.
+
+3.  **Ciberseguridad y Privacidad (CCTV):**
+    *   **Requisito MD:** El diseño y ubicación de las cámaras de seguridad (CCTV) debe considerar la privacidad comunitaria para evitar rechazo social, validando las ubicaciones con el equipo social antes de la instalación.
+
+---
+
+### 🚀 3. INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+**Entregable Mes 3:**
+*   Radicar el **PGSC** basado en la estructura de la Sección 3.1. Es mandatorio para cualquier obra.
+
+**Ingeniería:**
+*   Validar ubicaciones de torres y cámaras con el equipo social para evitar conflictos en resguardos o zonas sensibles.
+
+**Sitemas (SICC):**
+*   Habilitar módulo de Gestión Social. Sin reporte mensual automatizado, el Concesionario no cobra.
+
+---
+
+### ✅ VEREDICTO FINAL
+El documento **"AT8_Gestion_Social_MD.md"** es una guía de ejecución aprobada.
+*   **Valor Estratégico:** Transforma el requisito social en un componente de seguridad operativa para la infraestructura tecnológica.
 
 ⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en obtención de permisos o entrega del PGSC es causal de multas automáticas (Cláusula 16.1) y no otorga derecho a ampliación de plazo.
+
