@@ -1,34 +1,27 @@
-# APÉNDICE TÉCNICO 3 
+# APÉNDICE TÉCNICO 3 - ESPECIFICACIONES GENERALES
 
-## Proyecto Corredor Férreo La Dorada - Chiriguaná **Fecha de actualización:** 02 de octubre de 2025 **Proyecto:** APP La Dorada - Chiriguaná **Contrato:** Concesión No. 001 de 2025 **Apéndice:** AT3 
+## Proyecto Corredor Férreo La Dorada - Chiriguaná
+**Fecha de actualización:** 02 de octubre de 2025  
+**Proyecto:** APP La Dorada - Chiriguaná  
+**Contrato:** Concesión No. 001 de 2025  
+**Apéndice:** AT3
 
-|
+| Campo | Valor |
+|-------|-------|
+| **Fecha de actualización** | 02 de octubre de 2025 |
+| **Proyecto** | APP La Dorada - Chiriguaná |
+| **Contrato** | Concesión No. 001 de 2025 |
+| **Responsable** | Administrador Contractual EPC |
+| **Tipo** | Apéndice Técnico |
+| **Número** | AT3 |
+| **Estado** | ✅ Contenido completo |
 
--|
-
--
-| **Fecha de actualización** | 02 de octubre de 2025 
-| **Proyecto** | APP La Dorada - Chiriguaná 
-| **Contrato** | Concesión No. 001 de 2025 
-| **Responsable** | Administrador Contractual EPC 
-| **Tipo** | Apéndice Técnico 
-| **Número** | AT3 
-| **Estado** | ✅ Contenido completo | 
-
-
-|:
-:|:
-:|:
-|:
-
-| **v
-1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original 
-| **v
-2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada 
-| **v
-3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada | 
-
- # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE 
+| Versión | Fecha | Responsable | Descripción |
+|:---:|:---:|:---|:---|
+| **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original |
+| **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
+| **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
+# REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE 
 
 ## AGENCIA NACIONAL DE INFRAESTRUCTURA CONTRATO DE CONCESIÓN BAJO EL ESQUEMA DE APP No. 001 DE 2025 Entre: Concedente: Agencia Nacional de Infraestructura Concesionario: CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S APENDICE TÉCNICO 3 ESPECIFICACIONES GENERALES TABLA DE CONTENIDO 
 
@@ -491,6 +484,9 @@
 
  **Estado del documento:** Formateado - 02/10/2025 **Versión:** 
 1.0 **Responsable:** Administrador Contractual EPC **Próxima actualización:** 02/11/2025 
+
+
+
 
 
 

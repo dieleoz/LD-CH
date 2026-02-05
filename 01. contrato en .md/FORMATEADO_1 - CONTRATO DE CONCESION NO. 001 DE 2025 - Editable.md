@@ -53,13 +53,9 @@ TABLA DE CONTENIDO
 
 #### 2.2 "Acta de Cálculo de la Retribución Semestral" 20
 
-#### 2.3 "Acta de
+#### 2.3 "Acta de Inicio de Ejecución del Contrato" o "Acta de Inicio" 20
 
-Inicio de Ejecución del Contrato" o "Acta de Inicio" 20
-
-#### 2.4 "Acta de
-
-Inicio de la
+#### 2.4 "Acta de Inicio de la
 
 Fase de Construcción" 20
 
@@ -83,9 +79,7 @@ Reconocimiento de EER" 20
 
 #### 2.12 "Acta de Terminación de Unidad Funcional" 21
 
-#### 2.13 "Acta de Terminación de Unidad
-
-Funcional de Vía Férrea" 21
+#### 2.13 "Acta de Terminación de Unidad Funcional de Vía Férrea" 21
 
 #### 2.14 "Acta de Terminación
 
@@ -93,9 +87,7 @@ Parcial de Unidad Funcional" 21
 
 #### 2.15 "Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea" 21
+Parcial de Unidad Funcional de Vía Férrea" 21
 
 #### 2.16 "Acuerdo de Garantía" ; 21
 
@@ -123,17 +115,17 @@ Funcional de Vía Férrea" 21
 
 #### 2.28 "Área Disponible" : 23
 
- #### 2.29 "Asignación de Surcos" 23
+#### 2.29 "Asignación de Surcos" 23
 
 #### 2.30 "Autoridad Ambiental" 24
 
-#### 2.31 "Autoridad Estatal" ...................................................................................." 24
+#### 2.31 "Autoridad Estatal"
 
 #### 2.32 "Avalúo Comercial con Comité Técnico" 24
 
-#### 2.33 "Beneficiario Real" ......................................................................................... 24
+#### 2.33 "Beneficiario Real"
 
-#### 2.34 "Bienes Revertibles" ................................................................... 24
+#### 2.34 "Bienes Revertibles"
 
 #### 2.35 "Biodiversidad" 24
 
@@ -143,13 +135,9 @@ Funcional de Vía Férrea" 21
 
 #### 2.38 "Capacidad Ferroviaria" 25
 
-#### 2.39 "Capacidad
+#### 2.39 "Capacidad Disponible de la Vía Férrea" 25
 
-Disponible de la Vía Férrea,, 25
-
-#### 2.40 "Capacidad
-
-Disponible de la Infraestructura Logística" : 25
+#### 2.40 "Capacidad Disponible de la Infraestructura Logística" : 25
 
 #### 2.41 "Capacidad Máxima
 
@@ -201,7 +189,7 @@ Instalada de la Infraestructura Logística" 25
 
 #### 2.64 "Contrato de Concesión" o "Contrato" 27
 
- #### 2.65 "Contrato de Construcción" 27
+#### 2.65 "Contrato de Construcción" 27
 
 #### 2.66 "Contrato de Diseño" 27
 
@@ -273,7 +261,7 @@ Instalada de la Infraestructura Logística" 25
 
 Eximente de Responsabilidad" o "EER" 31
 
- #### 2.101 "Factor de Calidad" 32
+#### 2.101 "Factor de Calidad" 32
 
 #### 2.102 "Fase de Construcción" 32
 
@@ -359,7 +347,7 @@ Activos de la Concesión" 35
 
 #### 2.137 "Inventario de Redes" 36
 
- #### 2.138 "Índice de Precios al Consumidor" o "IPC" , 36
+#### 2.138 "Índice de Precios al Consumidor" o "IPC" , 36
 
 #### 2.139 "Ley Aplicable" 36
 
@@ -439,7 +427,7 @@ Formal de Compra de Predios" 39
 
 #### 2.173 "Periodo Especial" 40
 
- #### 2.174 "Pesos" o "COP" 40
+#### 2.174 "Pesos" o "COP" 40
 
 #### 2.175 "Plan de Adquisición de Predios" .41
 
@@ -519,7 +507,7 @@ Uso de la Infraestructura Férrea" 44
 
 #### 2.209 "Resolución de Surcos" 45
 
- #### 2.210 "Retención" 45
+#### 2.210 "Retención" 45
 
 #### 2.211 "Retribución" 45
 
@@ -593,9 +581,9 @@ Uso de la Infraestructura Férrea" 48
 
 #### 2.244 "Take or Pay" 48
 
- #### 2.245 ''Tarifa por
+#### 2.245 "Tarifa por
 
-#### 2.246 ''Tarifa por Prestación de Servicios Logísticos" 49
+#### 2.246 "Tarifa por Prestación de Servicios Logísticos" 49
 
 #### 2.247 "TDl" 49
 
@@ -603,27 +591,25 @@ Uso de la Infraestructura Férrea" 48
 
 #### 2.249 "Tercero Operador" 49
 
-#### 2.250 "Terminación Anticipada del Contrato" o ''Terminación Anticipada" 49
+#### 2.250 "Terminación Anticipada del Contrato" o "Terminación Anticipada" 49
 
-#### 2.251 ''Trámite de Compatibilidad del Material Rodante" 49
+#### 2.251 "Trámite de Compatibilidad del Material Rodante" 49
 
 #### 2.252 "Tribunal de Arbitramento" 49
 
-#### 2.253 ''TRM" 49
+#### 2.253 "TRM" 49
 
 #### 2.254 "Unidad Funcional" o "UF" 50
 
-#### 2.255 "Unidad
-
-Funcional de Vía Férrea" o "UFVF" 50
+#### 2.255 "Unidad Funcional de Vía Férrea" o "UFVF" 50
 
 #### 2.256 "Usuarios" 50
 
 #### 2.257 "Usuarios Finales" 50
 
-#### 2.258 ''Valor del Contrato" 50
+#### 2.258 "Valor del Contrato" 50
 
-#### 2.259 ''Valor
+#### 2.259 "Valor
 
 Estimado de Compensaciones Socioambientales" 50
 
@@ -631,7 +617,7 @@ Estimado de Compensaciones Socioambientales" 50
 
 Estimado de Nuevas Consultas Previas" 50
 
-#### 2.261 ''Valor
+#### 2.261 "Valor
 
 Estimado de Predios y Compensaciones Socioeconómicas" 51
 
@@ -641,13 +627,13 @@ Estimado de Redes" 51
 
 #### 2.263 "Valor Máximo de Pago Acumulado Durante la Etapa Preoperativa" 51
 
-#### 2.264 "Valor Máximo Semestral del Componente A" o ''VMCA" 51
+#### 2.264 "Valor Máximo Semestral del Componente A" o "VMCA" 51
 
-#### 2.265 "Valor Máximo Semestral del Componente D" o ''VMCD" 51
+#### 2.265 "Valor Máximo Semestral del Componente D" o "VMCD" 51
 
 #### 2.266 "Valor Máximo Semestral Ofertado del Componente C" o "VMSC" 52
 
-#### 2.267 "Valor Ofertado Semestral del Componente B" o ''VOSB" 52
+#### 2.267 "Valor Ofertado Semestral del Componente B" o "VOSB" 52
 
 #### 2.268 "Valor Total del Componente B" o "VCB" 53
 
@@ -995,15 +981,9 @@ PARCIAL DE UNIDAD FUNCIONAL, EVENTO
 
 EXIMENTE DE RESPONSABILIDAD E INDEMNIDADES 265
 
-#### 20.1 Imposibilidad de Terminación de Unidad
+#### 20.1 Imposibilidad de Terminación de Unidad Funcional de Vía Férrea por Eventos Eximentes de Responsabilidad o por razones imputables a la ANI 265
 
-Funcional de Vía Férrea por Eventos
-
-Eximentes de Responsabilidad o por razones imputables a la ANI 265
-
-#### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos
-
-Eximentes de Responsabilidad o por Razones Imputables a la ANI 266
+#### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos Eximentes de Responsabilidad o por Razones Imputables a la ANI 266
 
 #### 20.3 Evento
 
@@ -1019,7 +999,7 @@ Eximente de Responsabilidad 274
 
 Eximente de Responsabilidad 276
 
-#### 20.7 lndemnidad ...................................................................... 277
+#### 20.7 lndemnidad
 
 ### CAPÍTULO XXI - SOLUCIÓN DE CONTROVERSIAS 279
 
@@ -1236,15 +1216,11 @@ resultados de dicho cálculo. En el
 
 Acta de Cálculo de la Retribución se incluirá también el cálculo de la Compensación Especial.
 
-#### 2.3 "Acta de
-
-Inicio de Ejecución del Contrato" o "Acta de Inicio" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para
+#### 2.3 "Acta de Inicio de Ejecución del Contrato" o "Acta de Inicio" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para
 
 efectos de dar inicio a la ejecución del Contrato al Día siguiente a su suscripción, previa verificación de los requisitos establecidos en la Sección 3.6(b) de este Contrato.
 
-#### 2.4 "Acta de
-
-Inicio de la
+#### 2.4 "Acta de Inicio de la
 
 Fase de Construcción" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para
 
@@ -1299,9 +1275,7 @@ uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario
 
 cumplimiento de las actividades correspondientes a cada Unidad Funcional, de conformidad con el procedimiento a que se refiere la Sección 9.15(a).
 
-#### 2.13 "Acta de Terminación de Unidad
-
-Funcional de Vía Férrea" Es el documento que suscribirán la ANI, el Interventor y el Concesionario
+#### 2.13 "Acta de Terminación de Unidad Funcional de Vía Férrea" Es el documento que suscribirán la ANI, el Interventor y el Concesionario
 
 dentro de los cinco (5) Días Hábiles siguientes al
 
@@ -1309,11 +1283,7 @@ cumplimiento de la
 
 totalidad de los requisitos previstos en la Sección 9. l 5(b) de este Contrato. El
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea se suscribirá para cada Unidad
-
-Funcional de Vía Férrea, por una única vez durante la vigencia del Contrato.
+Acta de Terminación de Unidad Funcional de Vía Férrea se suscribirá para cada Unidad Funcional de Vía Férrea, por una única vez durante la vigencia del Contrato.
 
 #### 2.14 "Acta de Terminación
 
@@ -1323,9 +1293,7 @@ uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario
 
 #### 2.15 "Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea" Es cada
+Parcial de Unidad Funcional de Vía Férrea" Es cada
 
 uno de los documentos que suscribirán la ANI, el Interventor y el Concesionario en los eventos previstos en la Sección 20.1 de este Contrato.
 
@@ -1389,9 +1357,7 @@ cargo de las Partes. Cualquier modificación a un Apéndice Técnico implicará 
 Riesgo de Desastre Apéndice Técnico 4: Indicadores de Disponibilidad, Seguridad, Calidad y
 
 
-Nacional de Infraestructura Apéndice Técnico 7: Gestión Predial Anexo Apéndice Técnico 7: Formato de Ficha Predial Anexo Apéndice Técnico 7: Formato de Plano Predial Anexo Apéndice Técnico 7: Formato Sábana de Avalúos Anexo Apéndice Técnico 7: Formato Semáforo Anexo Apéndice Técnico 7: Formato Seguimiento y Control a la Gestión Predial Anexo Apéndice Técnico 7: Formato Seguimiento y Control Compensaciones Socioeconómicas Apéndice Técnico 8: Gestión Social Apéndice Técnico 9: Plan de Obras Apéndice Técnico 10: Cálculo de la Capacidad
-
-Disponible de la Vía Férrea
+Nacional de Infraestructura Apéndice Técnico 7: Gestión Predial Anexo Apéndice Técnico 7: Formato de Ficha Predial Anexo Apéndice Técnico 7: Formato de Plano Predial Anexo Apéndice Técnico 7: Formato Sábana de Avalúos Anexo Apéndice Técnico 7: Formato Semáforo Anexo Apéndice Técnico 7: Formato Seguimiento y Control a la Gestión Predial Anexo Apéndice Técnico 7: Formato Seguimiento y Control Compensaciones Socioeconómicas Apéndice Técnico 8: Gestión Social Apéndice Técnico 9: Plan de Obras Apéndice Técnico 10: Cálculo de la Capacidad Disponible de la Vía Férrea
 
 #### 2.26 "Aportes ANT' Son los montos correspondientes al
 
@@ -1527,17 +1493,13 @@ seguridad de la Vía Férrea, los períodos de Mantenimiento y el
 
 plan de transportes adoptado por el Concesionario, entre otros.
 
-#### 2.39 "Capacidad
-
-Disponible de la Vía Férrea" Corresponde al número total
+#### 2.39 "Capacidad Disponible de la Vía Férrea" Corresponde al número total
 
 disponible de trenes que pueden ser atendidos y a los cuales se les puede asignar un
 
 Surco de Movilización.
 
-#### 2.40 "Capacidad
-
-Disponible de la Infraestructura Logística" Corresponde número total
+#### 2.40 "Capacidad Disponible de la Infraestructura Logística" Corresponde número total
 
 disponible de trenes que pueden ser atendidos en la Infraestructura Logística.
 
@@ -2159,7 +2121,7 @@ Nacional de Infraestructura mercancía. Pueden comprender otras instalaciones co
 
 naves de almacenamiento, viales, edificios de oficinas, entre otros. La Infraestructura Logística hace parte del Proyecto y se detalla en el Apéndice Técnico 1.
 
-#### 2.129 ''Ingresos por
+#### 2.129 "Ingresos por
 
 Recaudo de la Tarifa por
 
@@ -2578,7 +2540,7 @@ ocurrencia de un Evento
 
 Eximente de Responsabilidad.
 
-#### 2.184 "Plan Remedia!'' Es el documento que describe el plan y cronograma presentado por el Concesionario para corregir el incumplimiento en los términos de la Sección 17.1 del presente Contrato.
+#### 2.184 "Plan Remedia!" Es el documento que describe el plan y cronograma presentado por el Concesionario para corregir el incumplimiento en los términos de la Sección 17.1 del presente Contrato.
 
 #### 2.185 "Plazo de Cura" Es el período durante el cual el Concesionario podrá subsanar los incumplimientos detectados por la ANI yo el Interventor, sin que se causen Multas. Si después de su vencimiento persistiere el incumplimiento del Concesionario, se dará inicio a la actuación sancionatoria en la cual procederán las Multas que se tasarán desde el Día siguiente en que inició el incumplimiento.
 
@@ -2865,9 +2827,7 @@ subcuenta de la Cuenta Proyecto en la cual se depositarán las sumas descritas e
 
 subcuenta de la Cuenta ANI en la cual se depositará la diferencia entre el
 
-valor de la Compensación Especial calculado para una Unidad
-
-Funcional de conformidad con lo previsto en la Sección 6.2(h)(xiv) y el valor que habría
+valor de la Compensación Especial calculado para una Unidad Funcional de conformidad con lo previsto en la Sección 6.2(h)(xiv) y el valor que habría
 
 resultado de haberse calculado el
 
@@ -2905,7 +2865,7 @@ subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesion
 
 Ferroviario de Carga en los términos de la Sección 6.2(h)(víii) del Contrato.
 
-#### 2.232 "Subcuenta Interventoría y Coordinación'' Es la
+#### 2.232 "Subcuenta Interventoría y Coordinación" Es la
 
 subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(h)(xi) del presente Contrato.
 
@@ -3068,9 +3028,7 @@ conjunto de estructuras de ingeniería e instalaciones indispensables para la pr
 
 operar de forma individual cumpliendo con lo establecido en los Apéndices Técnicos.
 
-#### 2.255 "Unidad
-
-Funcional de Vía Férrea" o "UFVF" Corresponde a un Subsistema Ferroviario, conjunto de Subsistemas Ferroviarios o una o varias
+#### 2.255 "Unidad Funcional de Vía Férrea" o "UFVF" Corresponde a un Subsistema Ferroviario, conjunto de Subsistemas Ferroviarios o una o varias
 
 partes de Subsistemas Ferroviarios, y demás elementos señalados en el artículo 2.2.2.1.13.1 del Decreto 1082 de 2015, adicionado por el Decreto 1278 de 2021, de la cual se predicará únicamente disponibilidad parcial en los términos del artículo 2.2.2.1.13.3 del Decreto 1278 de 2021, y estándares de calidad para
 
@@ -3242,9 +3200,7 @@ centro de Funcional 3 transferencia de carga, según los mismos se detallan en e
 
 Funcionales de Vía Férrea, las cuales se describen en la siguiente tabla y se detallan en el Apéndice Técnico 1. Una vez suscrita la última
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea, las Partes deberán suscribir el
+Acta de Terminación de Unidad Funcional de Vía Férrea, las Partes deberán suscribir el
 
 
 
@@ -4395,21 +4351,13 @@ porcentaje de Ingreso por Prestación de Servicios Logísticos se encuentra defi
 
 Carga de la Retribución mensual causado para el Mes j, expresando en Pesos del Mes i IEC Corresponde al Ingreso por Explotación
 
-Comercial de la Retribución mensual causado para el Mes i, expresado en Pesos del Mes J (d) El derecho a la Retribución del Concesionario con respecto a cada Unidad
+Comercial de la Retribución mensual causado para el Mes i, expresado en Pesos del Mes J (d) El derecho a la Retribución del Concesionario con respecto a cada Unidad Funcional de Vía Férrea se causará-una única vez por cada Unidad Funcional de Vía Férrea- con la suscripción de larespectiva
 
-Funcional de Vía Férrea se causará-una única vez por cada Unidad
-
-Funcional de Vía Férrea- con la suscripción de larespectiva
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea. Esto, salvo que se suscriba un
+Acta de Terminación de Unidad Funcional de Vía Férrea. Esto, salvo que se suscriba un
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea. (e) El derecho a la Retribución del Concesionario con respecto a cada Unidad Funcional se iniciará a
+Parcial de Unidad Funcional de Vía Férrea. (e) El derecho a la Retribución del Concesionario con respecto a cada Unidad Funcional se iniciará a
 
 partir de la suscripción de la respectiva
 
@@ -4531,9 +4479,7 @@ Uso de la Infraestructura Férrea, según corresponda, con destino a la Cuenta P
 
 esquemas de financiación destinados al Proyecto, si el Concesionario así lo ha solicitado. (m) La Retribución, la Compensación
 
-Especial de UFVF yo la Compensación Especial (de ser aplicable), correspondiente a cada Unidad
-
-Funcional de Vía Férrea o Unidad Funcional, según corresponda, se calculará conforme a la metodología definida en las siguientes Secciones.
+Especial de UFVF yo la Compensación Especial (de ser aplicable), correspondiente a cada Unidad Funcional de Vía Férrea o Unidad Funcional, según corresponda, se calculará conforme a la metodología definida en las siguientes Secciones.
 
 #### 4.2 Procedimiento para la Elaboración del
 
@@ -4783,13 +4729,9 @@ Fecha de Inicio de la
 
 Fase de Construcción, a medida que se vayan suscribiendo las
 
-Actas de Terminación de Unidad
+Actas de Terminación de Unidad Funcional de Vía Férrea correspondientes a las actividades comprendidas en cada
 
-Funcional de Vía Férrea correspondientes a las actividades comprendidas en cada
-
-una de las Unidad
-
-Funcionales de Vía Férrea que se listan en el Apéndice Técnico 1. Lo anterior sin
+una de las Unidad Funcionales de Vía Férrea que se listan en el Apéndice Técnico 1. Lo anterior sin
 
 perjuicio de la causación de la Compensación
 
@@ -4809,21 +4751,13 @@ Funcional de Vía Férrea o sobre las que se hayan suscrito
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea en el Semestre Calendario i, expresado en Pesos del último Mes del Semestre Calendario i VCBr Valor Total del Componente B expresado en Pesos del
 
-Funcional de Vía Férrea en el Semestre Calendario i, expresado en Pesos del último Mes del Semestre Calendario i VCBr Valor Total del Componente B expresado en Pesos del
+Mes de Referencia. Porcentaje del Componente B correspondiente a cada Unidad Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.9(a).
 
-Mes de Referencia. Porcentaje del Componente B correspondiente a cada Unidad
+Porcentaje de avance de la Unidad Funcional de Vía Férrea y en el Semestre Calendario i el cual será 100 para aquellas Unidades
 
-Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.9(a).
-
-Porcentaje de avance de la Unidad
-
-Funcional de Vía Férrea y en el Semestre Calendario i el cual será 100 para aquellas Unidades
-
-Funcionales de Vía Férrea para las que se suscribió Acta de Terminación AUFVF( de Unidad
-
-Funcional de Vía Férrea. Para las Unidades
+Funcionales de Vía Férrea para las que se suscribió Acta de Terminación AUFVF( de Unidad Funcional de Vía Férrea. Para las Unidades
 
 Funcionales de Vía Férrea para las cuales se haya suscrito
 
@@ -4836,63 +4770,41 @@ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura lPCr Ml?t RCEB( VCBi y j IPC correspondiente al
 
-Mes de Referencia Multiplicador aplicable a la Unidad
-
-Funcional de Vía Férrea y en el Semestre Calendario í . Este será equivalente a 1 sobre las Unidades
+Mes de Referencia Multiplicador aplicable a la Unidad Funcional de Vía Férrea y en el Semestre Calendario í . Este será equivalente a 1 sobre las Unidades
 
 Funcionales de Vía Férrea que: Se haya suscrito
 
-Acta de Terminación de Unidad
+Acta de Terminación de Unidad Funcional de Vía Férrea en el Semestre Calendario i o; Se haya suscrito
 
-Funcional de Vía Férrea en el Semestre Calendario i o; Se haya suscrito
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea en el Semestre Calendario i l y que estén
+Acta de Terminación de Unidad Funcional de Vía Férrea en el Semestre Calendario i l y que estén
 
 pendientes de pago o; Se haya suscrito
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea en el Semestre Calendario i. Por otro lado, el multiplicador será equivalente a O sobre las Unidades
+Parcial de Unidad Funcional de Vía Férrea en el Semestre Calendario i. Por otro lado, el multiplicador será equivalente a O sobre las Unidades
 
 Funcionales de Vía Férreay sobre las que se haya suscrito
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea con anterioridad al Semestre Calendario i, así como para las Unidades
+Acta de Terminación de Unidad Funcional de Vía Férrea con anterioridad al Semestre Calendario i, así como para las Unidades
 
 Funcionales de Vía Férrea y sobre las que se haya suscrito
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea y con anterioridad se haya suscrito
+Acta de Terminación de Unidad Funcional de Vía Férrea y con anterioridad se haya suscrito
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea. Esta variable sólo aplica siempre que se haya suscrito un
 
-Funcional de Vía Férrea. Esta variable sólo aplica siempre que se haya suscrito un
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea y con anterioridad se haya suscrito
+Acta de Terminación de Unidad Funcional de Vía Férrea y con anterioridad se haya suscrito
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea, en los términos de la Sección 20.1. La variable RCEB( corresponde al
+Parcial de Unidad Funcional de Vía Férrea, en los términos de la Sección 20.1. La variable RCEB( corresponde al
 
 saldo de la
 
-subcuenta de la Unidad
-
-Funcional de Vía Férrea y en la Subcuenta Compensación Especial para la Unidad
-
-Funcional de Vía Férrea y. Corresponde al valor del Aporte ANI desembolsado por la ANI en la subcuenta del Componente B, destinado al
+subcuenta de la Unidad Funcional de Vía Férrea y en la Subcuenta Compensación Especial para la Unidad Funcional de Vía Férrea y. Corresponde al valor del Aporte ANI desembolsado por la ANI en la subcuenta del Componente B, destinado al
 
 pago de dicho componente para el Semestre Calendario i , como resultado del mecanismo al que se refiere la Sección 6.2(h)(iv)(7) de este Contrato. Cada
 
@@ -5353,9 +5265,7 @@ Funcionales de Vía Férrea tal y como consta en la siguiente tabla: UFVF
 
 Nacional de Infraestructura UFVF45 1,44 UFVF46 1,48 UFVF47 1,46 UFVF48 1,47 UFVF49 1,57 UFVF50 2,20 UFVF51 1,12 UFVF52 3,05 UFVF53 2,76 TOTAL 100,00 (b) Una vez suscritas todas las
 
-Actas de Terminación de Unidad
-
-Funcional de Vía Férrea que conformarán la Unidad Funcional 1, las
+Actas de Terminación de Unidad Funcional de Vía Férrea que conformarán la Unidad Funcional 1, las
 
 disposiciones de este Contrato relativas a las Unidades
 
@@ -5426,17 +5336,13 @@ vencimiento de los ciento veinte (120) Días contados desde A) la fecha en que, 
 
 Acta de Terminación de Unidad Funcional o
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea (o del Acta de. Terminación
+Acta de Terminación de Unidad Funcional de Vía Férrea (o del Acta de. Terminación
 
 Parcial de Unidad Funcional o
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea, de ser aplicable), lo que suceda más tarde entre A) y B). Los intereses que debe pagar la ANI acrecerán la Subcuenta Aportes ANI. (e) Para
+Parcial de Unidad Funcional de Vía Férrea, de ser aplicable), lo que suceda más tarde entre A) y B). Los intereses que debe pagar la ANI acrecerán la Subcuenta Aportes ANI. (e) Para
 
 obligaciones de pago de dinero
 
@@ -5458,9 +5364,7 @@ vencimiento de los cuarenta y cinco (45) Días contados desde A) la fecha en que
 
 Acta de Terminación de Unidad Funcional o
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea (o del
+Acta de Terminación de Unidad Funcional de Vía Férrea (o del
 
 Acta de Terminación
 
@@ -5468,9 +5372,7 @@ Parcial de Unidad Funcional o
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea, de ser aplicable), lo que suceda más tarde entre A) y B), hasta el
+Parcial de Unidad Funcional de Vía Férrea, de ser aplicable), lo que suceda más tarde entre A) y B), hasta el
 
 vencimiento de ciento veinte (120) Días contados desde esa misma fecha. A partir del vencimiento del plazo anterior, se causarán
 
@@ -6224,9 +6126,7 @@ acta de entrega del Proyecto, en la que se deberá detallar cuando menos lo sigu
 
 estado de avance de las Unidades Funcionales no terminadas. (2) Retribuciones -y Compensación Especial yo Compensación
 
-Especial de UFVF, cuando sea aplicable- pagadas por Unidad Funcional yo Unidad
-
-Funcional de Vía Férrea al Concesionario saliente (y a los cesionarios autorizados en
+Especial de UFVF, cuando sea aplicable- pagadas por Unidad Funcional yo Unidad Funcional de Vía Férrea al Concesionario saliente (y a los cesionarios autorizados en
 
 caso de que aplique), hasta el día anterior a la
 
@@ -6356,7 +6256,7 @@ Contrato de Concesión, sin importar que la
 
 causa de un determinado incumplimiento sea anterior a la aprobación de la
 
- #### 25.23 Reincorporación 331
+#### 25.23 Reincorporación 331
 
 ### CAPÍTULO VI - PATRIMONIO AUTÓNOMO
 
@@ -7557,9 +7457,7 @@ caso de suscribirse un
 
 Acta de Terminación
 
-Parcial de Unidad Funcional, en cada subcuenta por Unidad
-
-Funcional de la Subcuenta Compensación Especial, la ANI trasladará de la Subcuenta Aportes ANI el valor correspondiente a la diferencia entre la Compensación Especial pagada al Concesionario por la Unidad Funcional respectiva y el valor que habría
+Parcial de Unidad Funcional, en cada subcuenta por Unidad Funcional de la Subcuenta Compensación Especial, la ANI trasladará de la Subcuenta Aportes ANI el valor correspondiente a la diferencia entre la Compensación Especial pagada al Concesionario por la Unidad Funcional respectiva y el valor que habría
 
 resultado de la Retribución para esa misma Unidad Funcional, de haber resultado procedente. (3) En
 
@@ -7567,23 +7465,15 @@ caso de suscribirse un
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea, la ANI trasladará de la Subcuenta Aportes ANI a la Subcuenta Compensación Especial el valor en pesos corrientes que
+Parcial de Unidad Funcional de Vía Férrea, la ANI trasladará de la Subcuenta Aportes ANI a la Subcuenta Compensación Especial el valor en pesos corrientes que
 
 resulte de restar al valor que se hubiese
 
 pagado de haberse suscrito el
 
-Acta de Terminación de Unidad
+Acta de Terminación de Unidad Funcional de Vía Férrea, el de la Compensación
 
-Funcional de Vía Férrea, el de la Compensación
-
-Especial de Unidad
-
-Funcional de Vía Férrea para la correspondiente Unidad
-
-Funcional de Vía Férrea. (4) Los recursos disponibles en la Subcuenta Compensación Especial serán objeto del mecanismo al que se refiere la Sección 4.13. (5) Los
+Especial de Unidad Funcional de Vía Férrea para la correspondiente Unidad Funcional de Vía Férrea. (4) Los recursos disponibles en la Subcuenta Compensación Especial serán objeto del mecanismo al que se refiere la Sección 4.13. (5) Los
 
 rendimientos de las
 
@@ -7605,9 +7495,7 @@ Subcuenta de Retenciones se dividirá en subcuentas por cada Unidad Funcional af
 
 caso de que se
 
-trate de una Retención asociada a Unidad
-
-Funcional de Vía Férrea, esta se depositará en la subcuenta para la Unidad Funcional l. En cada
+trate de una Retención asociada a Unidad Funcional de Vía Férrea, esta se depositará en la subcuenta para la Unidad Funcional l. En cada
 
 una de las .subcuentas por Unidad Funcional se consignará la sumaresultante de: (i) los valores
 
@@ -8673,9 +8561,7 @@ Plan de Obras contendrá el
 
 cronograma de ejecución de las Unidades
 
-Funcionales de manera que su ejecución se culmine a más tardar en las fechas señaladas a continuación: Mes de terminación a partir Unidad
-
-Funcional de la suscripción del
+Funcionales de manera que su ejecución se culmine a más tardar en las fechas señaladas a continuación: Mes de terminación a partir Unidad Funcional de la suscripción del
 
 Acta de Inicio de la
 
@@ -8941,9 +8827,7 @@ Parcial de Unidad Funcional o
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea). (ii) Efectuar los Aportes ANI al Patrimonio Autónomo, en los montos y plazos previstos en el CAPÍTULO VI y Apéndice Financiero 3 del Contrato, y pagar los intereses remuneratorios yo moratorios en el caso que los mismos se
+Parcial de Unidad Funcional de Vía Férrea). (ii) Efectuar los Aportes ANI al Patrimonio Autónomo, en los montos y plazos previstos en el CAPÍTULO VI y Apéndice Financiero 3 del Contrato, y pagar los intereses remuneratorios yo moratorios en el caso que los mismos se
 
 causen de conformidad con lo previsto en la Sección 4.12 del presente Contrato. (iii) Efectuar los trámites presupuestales previstos en la Ley
 
@@ -9104,9 +8988,7 @@ Plan de Obras (a) Sí durante la
 
 Fase de Construcción ocurriera
 
-alguna de las circunstancias catalogadas en el Contrato como Eventos
-
-Eximentes de Responsabilidad u ocurrieren hechos imputables a la ANI que afecten el
+alguna de las circunstancias catalogadas en el Contrato como Eventos Eximentes de Responsabilidad u ocurrieren hechos imputables a la ANI que afecten el
 
 cronograma de ejecución de las Unidades Funcionales y demás actividades previstas en el Contrato, se entenderá que el
 
@@ -9568,9 +9450,7 @@ momento de superarse el
 
 incumplimiento de las obligaciones descritas en la Sección 9.15(a)(xi) se deducirán de la Retribución suspendida los valores correspondientes a la aplicación del Índice de Cumplimiento Predial previsto en la Sección 10.3. Esta Deducción se tendrá en cuenta para efectos del límite de Deducciones contemplados en la este Contrato. (xiii) Si pasados ciento ochenta (I 80) Días contados desde la suscripción de: (1) el
 
-Acta de Terminación de Unidad
-
-Funcional de conformidad con la Sección 9.15(a)(ix)(2) anterior o (2) el
+Acta de Terminación de Unidad Funcional de conformidad con la Sección 9.15(a)(ix)(2) anterior o (2) el
 
 Acta de Terminación
 
@@ -9585,23 +9465,17 @@ Funcionales de Vía Férrea (i) Para
 
 efectos de la verificación de las Intervenciones por parte del Interventor y la ANI, el Concesionario deberá poner tales Intervenciones a disposición del Interventor y de la ANI mediante el envío de una Notificación a la cual anexará copia magnética de la Memoria Técnica y planos As Built en las condiciones descritas en el Apéndice Técnico 1, o indicará la dirección electrónica de acceso a la misma. En todo caso la
 
-entrega de los plano As Built por Unidad
-
-Funcional de Vía Férrea no releva al
+entrega de los plano As Built por Unidad Funcional de Vía Férrea no releva al
 
 Concesionario de la obligación de
 
-entrega de los planos As Built por Unidad Funcional en la verificación de estas. (ii) Una vez puestas a disposición las Intervenciones, el Interventor y la ANI tendrán un plazo máximo de treinta (30) Días para verificar la terminación de la Unidad
-
-Funcional de Vía Férrea y, de ser el caso, para formular las
+entrega de los planos As Built por Unidad Funcional en la verificación de estas. (ii) Una vez puestas a disposición las Intervenciones, el Interventor y la ANI tendrán un plazo máximo de treinta (30) Días para verificar la terminación de la Unidad Funcional de Vía Férrea y, de ser el caso, para formular las
 
 solicitudes de corrección o complementación. Sin embargo, en caso que
 
 dentro de los primeros quince (15) Días del plazo previamente señalado el Interventor yo la ANI adviertan que las
 
-Intervenciones de la Unidad
-
-Funcional de Vía Férrea puestas a disposición por parte del Concesionario están incompletas yo han sido puestas a disposición de manera parcial yo no cumplen con las Especificaciones Técnicas yo estándares de calidad, se notificará al
+Intervenciones de la Unidad Funcional de Vía Férrea puestas a disposición por parte del Concesionario están incompletas yo han sido puestas a disposición de manera parcial yo no cumplen con las Especificaciones Técnicas yo estándares de calidad, se notificará al
 
 Concesionario de esta situación informándole la
 
@@ -9609,13 +9483,9 @@ imposibilidad de iniciar el
 
 procedimiento de verificación y que hasta que la
 
-totalidad de las Intervenciones que integran la respectiva Unidad
+totalidad de las Intervenciones que integran la respectiva Unidad Funcional de Vía Férrea sean puestas a disposición no se podrá dar inicio al mismo. En este evento, el plazo máximo señalado en la presente Sección 9.15(b)(ii) será contabilizado en su totalidad a
 
-Funcional de Vía Férrea sean puestas a disposición no se podrá dar inicio al mismo. En este evento, el plazo máximo señalado en la presente Sección 9.15(b)(ii) será contabilizado en su totalidad a
-
-partir de la nueva Notificación que realice el Concesionario conforme a lo establecido en la Sección 9.15(b)(i) anterior. (iii) Si el Interventor y la ANI encuentran que la Unidad
-
-Funcional de Vía Férrea no cumple a cabalidad con las Especificaciones Técnicas yo estándares de calidad, se notificará al Concesionario con el
+partir de la nueva Notificación que realice el Concesionario conforme a lo establecido en la Sección 9.15(b)(i) anterior. (iii) Si el Interventor y la ANI encuentran que la Unidad Funcional de Vía Férrea no cumple a cabalidad con las Especificaciones Técnicas yo estándares de calidad, se notificará al Concesionario con el
 
 fin de que éste corrija los incumplimientos dentro del plazo máximo razonable que la ANI o la Interventoría señale mediante Notificación, plazo que será considerado como el
 
@@ -9640,9 +9510,7 @@ Plazo de Cura otorgado para subsanar el incumplimiento por la no terminación de
 
 Funcionales de Vía Férrea conforme a lo señalado en el Contrato es inferior al veinte por ciento (20) del plazo inicialmente previsto en el
 
-Plan de Obras para la terminación de la Unidad
-
-Funcional de Vía Férrea respectiva, y el plazo remanente para completar el veinte por ciento (20) mencionado es superior a sesenta (60) Días, el
+Plan de Obras para la terminación de la Unidad Funcional de Vía Férrea respectiva, y el plazo remanente para completar el veinte por ciento (20) mencionado es superior a sesenta (60) Días, el
 
 Plazo de Cura del que trata esta Sección 9.15(b)(iii) podrá otorgarse hasta por la
 
@@ -9652,9 +9520,7 @@ Plazo de Cura otorgado para subsanar el incumplimiento por la no terminación de
 
 Funcionales de Vía Férrea conforme a lo señalado en el Contrato es inferior al veinte por ciento (20) del plazo inicialmente previsto en el
 
-Plan de Obras para la terminación de la Unidad
-
-Funcional de Vía Férrea respectiva, y el plazo remanente para completar dicho veinte por ciento (20) es inferior o igual a sesenta (60) Días, el
+Plan de Obras para la terminación de la Unidad Funcional de Vía Férrea respectiva, y el plazo remanente para completar dicho veinte por ciento (20) es inferior o igual a sesenta (60) Días, el
 
 Plazo de Cura del que trata lapresente Sección 9. l 5(b)(iii) podrá ser hasta por un término de sesenta (60) Días. (4) En
 
@@ -9666,9 +9532,7 @@ Funcionales de Vía Férrea, conforme a lo señalado en el Contrato, el
 
 Plazo de Cura del que trata la presente Sección 9. l 5(b)(iii) podrá otorgarse hasta por un término del veinte por ciento (20) del plazo inicialmente previsto en el
 
-Plan de Obras para la terminación de la Unidad
-
-Funcional de Vía Férrea respectiva. (iv) Si el Concesionario no está de acuerdo con las correcciones yo ajustes solicitados, así lo indicará a la ANI
+Plan de Obras para la terminación de la Unidad Funcional de Vía Férrea respectiva. (iv) Si el Concesionario no está de acuerdo con las correcciones yo ajustes solicitados, así lo indicará a la ANI
 
 dentro de los dos (2) Días siguientes, vencidos los cuales podrá acudir al Amigable Componedor quien dirimirá la controversia. (v) A más tardar al vencimiento del
 
@@ -9680,9 +9544,7 @@ respecto de asuntos no tratados en la revisión inicial. (vi) Si en la segunda r
 
 Concesionario de las Especificaciones Técnicas yo estándares de calidad, se suscribirá el
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea, y no se causarán Multas a cargo del Concesionario. (vii) Si se vence el
+Acta de Terminación de Unidad Funcional de Vía Férrea, y no se causarán Multas a cargo del Concesionario. (vii) Si se vence el
 
 Plazo de Cura sin que el Concesionario culmine la
 
@@ -9699,9 +9561,7 @@ dentro de los quince (15) Días Hábiles siguientes a la Notificación que enví
 
 dentro de los dos (2) Días siguientes, vencidos los cuales podrá solicitar la intervención del Amigable Componedor. (ix) Se procederá a suscribir el
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea, a más tardar
+Acta de Terminación de Unidad Funcional de Vía Férrea, a más tardar
 
 dentro de los diez (10) Días Hábiles siguientes, al vencimiento del plazo para realizar la verificación señalado en las Secciones 9.15(b)(ii) o 9.15(b)(v), según corresponda, cuando: (1) No haya lugar a correcciones o complementaciones, por cumplirse con la
 
@@ -9709,17 +9569,11 @@ totalidad de las Especificaciones Técnicas yo estándares de calidad y demás
 
 obligaciones de este Contrato. Sin embargo, cuando corresponda, se consignará en el
 
-Acta de Terminación de Unidad
+Acta de Terminación de Unidad Funcional de Vía Férrea aquellas obligaciones
 
-Funcional de Vía Férrea aquellas obligaciones
+pendientes de cumplimiento por parte del Concesionario y se pagará el cincuenta por ciento (50) de la retribución correspondiente la Unidad Funcional de Vía de Férrea correspondiente. (2) El cincuenta por ciento (50)
 
-pendientes de cumplimiento por parte del Concesionario y se pagará el cincuenta por ciento (50) de la retribución correspondiente la Unidad
-
-Funcional de Vía de Férrea correspondiente. (2) El cincuenta por ciento (50)
-
-restante de la retribución por la respectiva Unidad
-
-Funcional de Vía Férrea se pagará una vez se valide que el Concesionario ha cumplido a cabalidad con las obligaciones pendientes, salvo por lo previsto en los Apéndices Técnicos 5, 6, 7 y 8. Adicionalmente, de ser el caso, se causarán las Multas que correspondan por el incumplimiento en las Especificaciones Técnicas, salvo por las obligaciones contenidas en los Apéndices Técnicos 5, 6, 7 y 8. Las controversias que
+restante de la retribución por la respectiva Unidad Funcional de Vía Férrea se pagará una vez se valide que el Concesionario ha cumplido a cabalidad con las obligaciones pendientes, salvo por lo previsto en los Apéndices Técnicos 5, 6, 7 y 8. Adicionalmente, de ser el caso, se causarán las Multas que correspondan por el incumplimiento en las Especificaciones Técnicas, salvo por las obligaciones contenidas en los Apéndices Técnicos 5, 6, 7 y 8. Las controversias que
 
 surPlan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor. (x) Para
 
@@ -9733,13 +9587,9 @@ recibo de las Intervenciones en
 
 caso de que las mismas no cumplan con las Especificaciones Técnicas. (xi) Una vez se suscriban la
 
-totalidad de Actas de Terminación de Unidad
+totalidad de Actas de Terminación de Unidad Funcional de Vía Férrea, se procederá a suscribir el
 
-Funcional de Vía Férrea, se procederá a suscribir el
-
-Acta de Terminación de Unidad
-
-Funcional de la Unidad Funcional 1. (c)
+Acta de Terminación de Unidad Funcional de la Unidad Funcional 1. (c)
 
 Alcance de la Verificación (i) La verificación que hagan el Interventor y la
 
@@ -9770,17 +9620,13 @@ incumplimiento de una Especificación Técnica después de que se haya suscrito 
 
 Acta de Terminación de Unidad Funcional o un
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea, no se suspenderá el
+Acta de Terminación de Unidad Funcional de Vía Férrea, no se suspenderá el
 
 desembolso de la
 
 totalidad de los
 
-componentes de la Retribución asociados a esa Unidad Funcional o Unidad
-
-Funcional de Vía Férrea, sin
+componentes de la Retribución asociados a esa Unidad Funcional o Unidad Funcional de Vía Férrea, sin
 
 perjuicio de las Deducciones
 
@@ -9788,21 +9634,15 @@ aplicables de conformidad con este Contrato. Tampoco se deberá restituir ningú
 
 Acta de Terminación de Unidad Funcional o
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea respectiva. (iii) En ningún caso se entenderá que la suscripción del
+Acta de Terminación de Unidad Funcional de Vía Férrea respectiva. (iii) En ningún caso se entenderá que la suscripción del
 
 Acta de Terminación de Unidad Funcional o
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea implica la exoneración de
+Acta de Terminación de Unidad Funcional de Vía Férrea implica la exoneración de
 
 alguna de las responsabilidades que contrae el Concesionario, con ocasión de la suscripción del Contrato; especialmente en cuanto a calidad, resistencia y
 
-durabilidad de las obras yo actividades comprendidas en dicha Unidad Funcional o Unidad
-
-Funcional de Vía Férrea, ni a la asunción del
+durabilidad de las obras yo actividades comprendidas en dicha Unidad Funcional o Unidad Funcional de Vía Férrea, ni a la asunción del
 
 riesgo de la durabilidad y
 
@@ -10124,31 +9964,23 @@ periodo de pago de la Retribución o Compensación Especial hasta por doce (12) 
 
 Indice de Cumplimiento Predial aplicable a la Compensación Especial o Retribución de la Unidad Funcional k medido para el Semestre Calendario í correspondiente en el
 
-periodo de cálculo, expresado en pesos corrientes. Número de Predios Requeridos en dicha Unidad Funcional k hasta el Semestre Calendario í, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor que impidan el
+periodo de cálculo, expresado en pesos corrientes. Número de Predios Requeridos en dicha Unidad Funcional k hasta el Semestre Calendario í, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor que impidan el
 
 cumplimiento de la obligación de Oferta
 
 Formal de Compra de Predios, la Cesión de Predios v Adiudicación de Predios. Número de Predios que cuentan con Oferta
 
-Formal de Compra de Predios, en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor que impidan el
+Formal de Compra de Predios, en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor que impidan el
 
 cumplimiento de la obligación de Oferta
 
 Formal de Compra de Predios. Número de Predios que cuentan con
 
-solicitud de Cesión de Predios en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido PCesiónf afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor que impidan el
+solicitud de Cesión de Predios en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido PCesiónf afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor que impidan el
 
 cumplimiento de la obligación de la Cesión de Predios. Número de Predios que cuentan con
 
-solicitud de Adjudicación de Predios en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor que impidan el
+solicitud de Adjudicación de Predios en dicha Unidad Funcional k acreditados hasta el Semestre Calendario i, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor que impidan el
 
 cumplimiento de la obligación de la Adjudicación de Predios.
 
@@ -10175,9 +10007,7 @@ parcial de la(s) Oferta(s) Formal(es) de
 
 Compra de Predios y de las
 
-solicitudes de Cesión de Predios o Adjudicación de Predios, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor, con el
+solicitudes de Cesión de Predios o Adjudicación de Predios, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor, con el
 
 fin de calcular el Índice de Cumplimiento Predial. (iii) Sin
 
@@ -10195,9 +10025,7 @@ Compra de Predios, y de las
 
 solicitudes de Cesión de Predios o Adjudicación de
 
-Predios de los Predios por cada Unidad Funcional, salvo por los Predios afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor, se suspenderá parcialmente el
+Predios de los Predios por cada Unidad Funcional, salvo por los Predios afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor, se suspenderá parcialmente el
 
 pago de la Retribución o de la Compensación Especial, según corresponda, de la respectiva Unidad Funcional y se aplicará parcialmente la Retención señalada en la Sección 10.3G) del presente Contrato hasta tanto dichas obligaciones se cumplan. (v) A partir del
 
@@ -10210,27 +10038,17 @@ totalidad de los Predios Requeridos para la Unidad Funcional, se aplicará una D
 Especial de la respectiva Unidad Funcional hasta doce (12) Meses, que se calculará así: DICPk (PRequeridos - Padquírídosf - PEl - PEZ - PE3f) 2 SMMLV Donde, DICPf Deducción por el Índice de Cumplimiento Predial aplicable a la Retribución de la Unidad Funcional k medido para el Semestre Calendario í correspondiente en el
 
 
-Nacional de Infraestructura afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mavor. Número de Predios Adquiridos en la Unidad Funcional k hasta el Semestre Calendario i , excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor. Número de Predios
+Nacional de Infraestructura afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mavor. Número de Predios Adquiridos en la Unidad Funcional k hasta el Semestre Calendario i , excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor. Número de Predios
 
 Requeridos de dicha Unidad Funcional k hasta el Semestre Calendario i , que en el marco del
 
-proceso de PE1 PE2t PE3t expropiación judicial se encuentren incursos en el Período de Exclusión 1, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mavor. Número de Predios
+proceso de PE1 PE2t PE3t expropiación judicial se encuentren incursos en el Período de Exclusión 1, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mavor. Número de Predios
 
 Requeridos de dicha Unidad Funcional k hasta el Semestre Calendario i que en el marco del
 
-proceso de expropiación judicial se encuentren incursos en el Período de Exclusión 2, excluyendo los Predios que hayan sido afectados por los Eventos
+proceso de expropiación judicial se encuentren incursos en el Período de Exclusión 2, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor. Número de Predios Requeridos" de dicha Unidad Funcional k hasta el Semestre Calendario i , que en el marco del
 
-Eximentes de Responsabilidad o Fuerza Mayor. Número de Predios Requeridos" de dicha Unidad Funcional k hasta el Semestre Calendario i , que en el marco del
-
-proceso de expropiación judicial se encuentren incursos en el Período de Exclusión 3, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor.
+proceso de expropiación judicial se encuentren incursos en el Período de Exclusión 3, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor.
 
 Valor de un (1) salario mínimo mensual legal vigente en el
 
@@ -10291,15 +10109,11 @@ Compra de Predios y de las
 
 solicitudes de Cesión de Predios o de Adjudicación de
 
-Predios de los Predios Requeridos, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor, por cada Unidad Funcional I vencido el plazo previsto en la Sección
+Predios de los Predios Requeridos, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor, por cada Unidad Funcional I vencido el plazo previsto en la Sección
 
 #### 10.3 (i)(i) anterior. (ii) Transcurridos veinticuatro (24) Meses posteriores al vencimiento del plazo señalado en la Sección 10.3(i) del presente Contrato, sin que el Concesionario demuestre la adquisición, cesión o adjudicación de la
 
-totalidad de los Predios Requeridos para la Unidad Funcional 1, se aplicará de manera escalonada y por el plazo definido para el efecto, el porcentaje señalado a continuación, excluyendo los Predios que hayan sido afectados por los Eventos
-
-Eximentes de Responsabilidad o Fuerza Mayor por cada Unidad Funcional. (k) En
+totalidad de los Predios Requeridos para la Unidad Funcional 1, se aplicará de manera escalonada y por el plazo definido para el efecto, el porcentaje señalado a continuación, excluyendo los Predios que hayan sido afectados por los Eventos Eximentes de Responsabilidad o Fuerza Mayor por cada Unidad Funcional. (k) En
 
 caso de que la Unidad Funcional 1 tenga más de treinta (30) Predios en las condiciones previstas en la Sección I0.3(i)(iv) anterior, se aplicará la siguiente tabla: Predios sin Oferta(s) Formal(es) de Compra
 
@@ -10332,11 +10146,7 @@ sumatoria de la(s) Oferta(s) Formal(es) de
 
 Compra de Predios y las
 
-solicitudes de Cesión de Predios o de Adjudicación de Predios entre el número de Predios Requeridos en cada Unidad Funcional, excluyendo los Predios afectados por Eventos
-
-Eximentes de Responsabilidad, Fuerza Mayor, Fuerza Mayor Ambiental, Fuerza Mayor por Redes, Fuerza Mayor Social o Fuerza Mayor Predial reconocidas por la ANI vigentes para ese periodo y que imposibilitaron su Gestión Predial. (ii) Para el evento al que se refiere la Sección I0.3(j)(ii) anterior, dividiendo el número de Predios Adquiridos sobre el número de Predios Requeridos en cada Unidad Funcional excluyendo los Predios afectados por Eventos
-
-Eximentes de Responsabilidad, Fuerza Mayor, Fuerza Mayor Ambiental, Fuerza Mayor por Redes, Fuerza Mayor Social o Fuerza Mayor Predial reconocidas por la ANI vigentes para ese periodo y que imposibilitaron su Gestión Predial. (p) Los valores
+solicitudes de Cesión de Predios o de Adjudicación de Predios entre el número de Predios Requeridos en cada Unidad Funcional, excluyendo los Predios afectados por Eventos Eximentes de Responsabilidad, Fuerza Mayor, Fuerza Mayor Ambiental, Fuerza Mayor por Redes, Fuerza Mayor Social o Fuerza Mayor Predial reconocidas por la ANI vigentes para ese periodo y que imposibilitaron su Gestión Predial. (ii) Para el evento al que se refiere la Sección I0.3(j)(ii) anterior, dividiendo el número de Predios Adquiridos sobre el número de Predios Requeridos en cada Unidad Funcional excluyendo los Predios afectados por Eventos Eximentes de Responsabilidad, Fuerza Mayor, Fuerza Mayor Ambiental, Fuerza Mayor por Redes, Fuerza Mayor Social o Fuerza Mayor Predial reconocidas por la ANI vigentes para ese periodo y que imposibilitaron su Gestión Predial. (p) Los valores
 
 objeto de Retención serán entregados al Concesionario periódicamente
 
@@ -10357,9 +10167,7 @@ objeto de Deducción en aplicación de las fórmulas descritas en las Secciones 
 
 efectos de claridad, para el
 
-caso de Predios afectados por Eventos
-
-Eximentes de Responsabilidad o cobijados por Períodos de Exclusión, los plazos establecidos en las Secciones 10.3(i)(i) y 10.3(i)(v) anteriores para que el Concesionario acredite el
+caso de Predios afectados por Eventos Eximentes de Responsabilidad o cobijados por Períodos de Exclusión, los plazos establecidos en las Secciones 10.3(i)(i) y 10.3(i)(v) anteriores para que el Concesionario acredite el
 
 cumplimiento de la(s) Oferta(s) Fonnal(es) de
 
@@ -10984,11 +10792,7 @@ igualdad de condiciones, la transparencia y la no discriminación en el ingreso 
 
 #### 12.2 Capacidad de la Vía Férrea (a) El Concesionario deberá llevar a cabo, de manera objetiva y no discriminatoria, las actividades que
 
-sean de su competencia y prestar toda la colaboración requerida a la entidad competente para calcular periódicamente la Capacidad
-
-Disponible de la Vía Férrea, en los términos y de acuerdo con lo establecido en el Apéndice Técnico 1 O y en la Ley Aplicable. (b) Esta Capacidad
-
-Disponible de la Vía Férrea debe ser
+sean de su competencia y prestar toda la colaboración requerida a la entidad competente para calcular periódicamente la Capacidad Disponible de la Vía Férrea, en los términos y de acuerdo con lo establecido en el Apéndice Técnico 1 O y en la Ley Aplicable. (b) Esta Capacidad Disponible de la Vía Férrea debe ser
 
 
 Ferroviaria de la Vía Férrea durante la vigencia del Contrato.
@@ -11157,9 +10961,7 @@ Acuerdo de Operación que requerirá de la prestación de Servicios Logísticos
 dentro de la Infraestructura Logística, el Concesionario no podrá negarse a prestar estos servicios salvo que la
 
 
-Nacional de Infraestructura (b) Para este efecto, cuando el Concesionario proyecte que la Capacidad
-
-Disponible de la Infraestructura Logística verificada por el Interventor va a ser inferior al quince por ciento (15) de su Capacidad Máxima
+Nacional de Infraestructura (b) Para este efecto, cuando el Concesionario proyecte que la Capacidad Disponible de la Infraestructura Logística verificada por el Interventor va a ser inferior al quince por ciento (15) de su Capacidad Máxima
 
 Instalada de la Infraestructura Logística, deberá informarlo a la ANI mediante Notificación con, al menos, quince (15) Días de anterioridad a que ocurra dicha ocupación. (i) La ANI aplicará el
 
@@ -11965,9 +11767,7 @@ efectos de lo señalado en la Sección 16.2(c) de este Contrato, el término má
 
 Plazo de Cura
 
-es de treinta (30) Días. (c) Multa por no terminación de las Unidad
-
-Funcionales de Vía Férrea yo Unidades Funcionales en el plazo máximo señalado en la Sección 9.4(a) de este Contrato: Por no terminar
+es de treinta (30) Días. (c) Multa por no terminación de las Unidad Funcionales de Vía Férrea yo Unidades Funcionales en el plazo máximo señalado en la Sección 9.4(a) de este Contrato: Por no terminar
 
 cualquiera de las Unidades Funcionales yo Unidades
 
@@ -11994,9 +11794,7 @@ efectos de esta Multa, entiéndase modificada la Sección 16.2(a) de este Contra
 Plazo de Cura para sanear el incumplimiento en la terminación de las Unidades
 
 
-Nacional de Infraestructura ciento (20) del plazo previsto en este Contrato para la terminación de la Unidad
-
-Funcional de Vía Férrea respectiva. (d) Multa por el incumplimiento en la entrega del
+Nacional de Infraestructura ciento (20) del plazo previsto en este Contrato para la terminación de la Unidad Funcional de Vía Férrea respectiva. (d) Multa por el incumplimiento en la entrega del
 
 Plan de Obras: Por no cumplir con la entrega del
 
@@ -12131,9 +11929,7 @@ Procedimiento de Revisión Abreviado al que se refiere la Sección 8.2 de este C
 
 recurrentes de los Indicadores: Si el Concesionario incumple los valores mínimos de aceptación de
 
-cualquiera de los Indicadores (según esos valores se definen en el Apéndice Técnico 4) para una misma Unidad
-
-Funcional de manera recurrente, entendiéndose por esta el que se hayan generado Deducciones durante (i) tres (3) Meses consecutivos o (ii) seis (6)
+cualquiera de los Indicadores (según esos valores se definen en el Apéndice Técnico 4) para una misma Unidad Funcional de manera recurrente, entendiéndose por esta el que se hayan generado Deducciones durante (i) tres (3) Meses consecutivos o (ii) seis (6)
 
 Meses de un mismo año calendario, sin importar si son continuos o discontinuos, se causará una Multa diaria
 
@@ -13768,63 +13564,35 @@ PARCIAL DE UNIDAD FUNCIONAL, EVENTO
 
 EXIMENTE DE RESPONSABILIDAD E INDEMNIDADES
 
-#### 20.1 Imposibilidad de Terminación de Unidad
+#### 20.1 Imposibilidad de Terminación de Unidad Funcional de Vía Férrea por Eventos Eximentes de Responsabilidad o por razones imputables a la ANI (a) Si, vencido el plazo previsto en el
 
-Funcional de Vía Férrea por Eventos
+Plan de Obras para la terminación de una Unidad Funcional de Vía Férrea y siempre que su
 
-Eximentes de Responsabilidad o por razones imputables a la ANI (a) Si, vencido el plazo previsto en el
-
-Plan de Obras para la terminación de una Unidad
-
-Funcional de Vía Férrea y siempre que su
-
-porcentaje de avance sea superior al 50, éstano se hubiere completado por Eventos
-
-Eximentes de Responsabilidad o por razones imputables a la ANI, al vencerse dicho plazo se suscribirá un
+porcentaje de avance sea superior al 50, éstano se hubiere completado por Eventos Eximentes de Responsabilidad o por razones imputables a la ANI, al vencerse dicho plazo se suscribirá un
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea, siempre y cuando no exista incumplimiento por parte del Concesionario en sus obligaciones
 
-Funcional de Vía Férrea, siempre y cuando no exista incumplimiento por parte del Concesionario en sus obligaciones
-
-respecto de esa Unidad
-
-Funcional de Vía Férrea y específicamente se cumpla con las Especificaciones Técnicas aplicables. (b) El
+respecto de esa Unidad Funcional de Vía Férrea y específicamente se cumpla con las Especificaciones Técnicas aplicables. (b) El
 
 procedimiento de verificación para la suscripción del
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea será el descrito en la Sección 9.15(b) de este Contrato, en todo aquello que no se encuentre regulado en las Secciones 20.1 y 20.3, según corresponda. (c) Con la suscripción del
+Parcial de Unidad Funcional de Vía Férrea será el descrito en la Sección 9.15(b) de este Contrato, en todo aquello que no se encuentre regulado en las Secciones 20.1 y 20.3, según corresponda. (c) Con la suscripción del
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea se pagará por una única vez un porcentaje del valor correspondiente a dicha Unidad Funcional de Vía Férrea correspondiente al ochenta y cinco (85) por ciento multiplicado por el avance que valide el Interventor. La diferencia entre la Compensación Especial UFVF pagada al Concesionario por la Unidad Funcional de Vía Férrea respectiva y el valor que habría
 
-Funcional de Vía Férrea se pagará por una única vez un porcentaje del valor correspondiente a dicha Unidad
-
-Funcional de Vía Férrea correspondiente al ochenta y cinco (85) por ciento multiplicado por el avance que valide el Interventor. La diferencia entre la Compensación Especial UFVF pagada al Concesionario por la Unidad
-
-Funcional de Vía Férrea respectiva y el valor que habría
-
-resultado de la Retribución para esa misma Unidad
-
-Funcional de Vía Férrea, será consignada en la Subcuenta Compensación Especial, de acuerdo con lo establecido en la Sección 6.2(h)(xiv)(3). (d) Una vez culminada a entera satisfacción la Unidad
-
-Funcional de Vía Férrea afectada, dentro del nuevo plazo del
+resultado de la Retribución para esa misma Unidad Funcional de Vía Férrea, será consignada en la Subcuenta Compensación Especial, de acuerdo con lo establecido en la Sección 6.2(h)(xiv)(3). (d) Una vez culminada a entera satisfacción la Unidad Funcional de Vía Férrea afectada, dentro del nuevo plazo del
 
 Plan de Obras (modificado de acuerdo con lo previsto en la Sección 9.7 del presente Contrato), se suscribirá el
 
-Acta de Terminación de Unidad
+Acta de Terminación de Unidad Funcional de Vía Férrea y se pagará el valor remanente. (e) Si se vence el nuevo
 
-Funcional de Vía Férrea y se pagará el valor remanente. (e) Si se vence el nuevo
-
-Plan de Obras modificado al que se refiere la Sección 20.1 (d) anterior, o si transcurrieren al menos quinientos cuarenta (540) Días contados desde el vencimiento del plazo originalmente previsto para la terminación de la Unidad
-
-Funcional de Vía Férrea afectada -lo que primero ocurra- sin que se logren culminar las Intervenciones correspondientes por un Evento
+Plan de Obras modificado al que se refiere la Sección 20.1 (d) anterior, o si transcurrieren al menos quinientos cuarenta (540) Días contados desde el vencimiento del plazo originalmente previsto para la terminación de la Unidad Funcional de Vía Férrea afectada -lo que primero ocurra- sin que se logren culminar las Intervenciones correspondientes por un Evento
 
 Eximente de Responsabilidad o por causa imputable a la ANI, las
 
@@ -13832,9 +13600,7 @@ Partes de buena fe revisarán el alcance del Contrato para determinar si resulta
 
 alcance de las Intervenciones, incluyendo la
 
-posibilidad de modificar la Unidad
-
-Funcional de Vía Férrearespectiva, previo
+posibilidad de modificar la Unidad Funcional de Vía Férrearespectiva, previo
 
 recalculo de la Retribución que refleje las modificaciones realizadas, que se hará por el mutuo
 
@@ -13842,9 +13608,7 @@ acuerdo de las Partes o por el Amigable Componedor. Si no es viable modificar el
 
 alcance de las Intervenciones, cualquiera de las Partes podrá solicitar la Terminación Anticipada del Contrato. Para
 
-efectos de claridad, no habrá lugar a la desafectación de ninguna Unidad
-
-Funcional de Vía Férrea del Proyecto. (f) No obstante lo anterior, una vez acaecido y reconocido cualquier Evento
+efectos de claridad, no habrá lugar a la desafectación de ninguna Unidad Funcional de Vía Férrea del Proyecto. (f) No obstante lo anterior, una vez acaecido y reconocido cualquier Evento
 
 Eximente de Responsabilidad o una causa imputable a la ANI, las
 
@@ -13859,31 +13623,23 @@ Nacional de Infraestructura impacto que
 
 afecte de forma irremediable e insubsanable la ejecución del
 
-Plan de Obras inicialmente previsto para la Unidad
-
-Funcional de Vía Férrea respectiva. (g) No habrá lugar a la suscripción de un
+Plan de Obras inicialmente previsto para la Unidad Funcional de Vía Férrea respectiva. (g) No habrá lugar a la suscripción de un
 
 Acta de Terminación
 
-Parcial de Unidad Funcional para la Unidad Funcional l. En consecuencia, siempre que exista al menos una Unidad
-
-Funcional de Vía Férrea con
+Parcial de Unidad Funcional para la Unidad Funcional l. En consecuencia, siempre que exista al menos una Unidad Funcional de Vía Férrea con
 
 Acta de Terminación
 
 Parcial de Vía Férrea, no habrá terminación de la Unidad Funcional 1.
 
-#### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos
-
-Eximentes de Responsabilidad o por Razones Imputables a la ANI (a) Si, vencido el plazo previsto en el
+#### 20.2 Imposibilidad de Terminación de las Unidades Funcionales 2 yo 3 por Eventos Eximentes de Responsabilidad o por Razones Imputables a la ANI (a) Si, vencido el plazo previsto en el
 
 Plan de Obras para la terminación de la Unidad Funcional 2 yo 3 y cumplida la fecha prevista en el Apéndice Financiero 3 para el
 
 inicio de estos pagos
 
-respecto de dichas Unidades Funcionales, ésta no se hubiere completado por Eventos
-
-Eximentes de Responsabilidad o por razones imputables a la ANI, al vencerse dicho plazo se suscribirá un
+respecto de dichas Unidades Funcionales, ésta no se hubiere completado por Eventos Eximentes de Responsabilidad o por razones imputables a la ANI, al vencerse dicho plazo se suscribirá un
 
 Acta de Terminación
 
@@ -13956,9 +13712,7 @@ Porcentaje de avance para la Unidad Funcional k que se haya incluido en él
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de la Unidad Funcional k, el cual corresponderá al consignado en el SICC, en los términos de la Sección 9.6, para el mes en el que se suscriba dicha
+Parcial de Unidad Funcional de la Unidad Funcional k, el cual corresponderá al consignado en el SICC, en los términos de la Sección 9.6, para el mes en el que se suscriba dicha
 
 Acta de Terminación
 
@@ -13977,13 +13731,9 @@ uno de los Semestres Calendario que inicien o concluyan con posterioridad a la s
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de la Unidad Funcional k, hasta aquel en el que se suscriba el
 
-Funcional de la Unidad Funcional k, hasta aquel en el que se suscriba el
-
-Acta de Terminación de Unidad
-
-Funcional de la Unidad Funcional k.
+Acta de Terminación de Unidad Funcional de la Unidad Funcional k.
 
 Cualquiera de las Unidades Funcionales en las que se k divide el Proyecto para la cual se ha suscrito
 
@@ -13991,9 +13741,7 @@ Acta de Terminación
 
 Parcial de Unidad Funcional. Semestre del periodo h en el que se suscribe el
 
-Acta de w Terminación de Unidad
-
-Funcional de la Unidad Funcional k. (e) En el evento en que VMCC no haya sido consignado en su totalidad en la
+Acta de w Terminación de Unidad Funcional de la Unidad Funcional k. (e) En el evento en que VMCC no haya sido consignado en su totalidad en la
 
 subcuenta de la Unidad Funcional k del Componente C, con anterioridad al
 
@@ -14119,21 +13867,15 @@ Nacional de Infraestructura de Terminación de Unidad Funcional, del
 
 Acta de Terminación
 
-Parcial de Unidad Funcional, Acta de Terminación de Unidad
-
-Funcional de Vía Férrea o
+Parcial de Unidad Funcional, Acta de Terminación de Unidad Funcional de Vía Férrea o
 
 Acta de Terminación
 
-Parcial de Unidad
-
-Funcional de Vía Férrea, según corresponda, no suspenderá el
+Parcial de Unidad Funcional de Vía Férrea, según corresponda, no suspenderá el
 
 desembolso de la Retribución o de la Compensación Especial o Compensación
 
-Especial de Unidad
-
-Funcional de Vía Férrea. Lo anterior sin
+Especial de Unidad Funcional de Vía Férrea. Lo anterior sin
 
 perjuicio de la
 
@@ -14418,9 +14160,7 @@ mecanismos de cobertura del presente Contrato sean
 
 extendidos de conformidad con el período de suspensión.
 
-#### 20.5 Compensaciones por Eventos
-
-Eximentes de Responsabilidad (a) Sin
+#### 20.5 Compensaciones por Eventos Eximentes de Responsabilidad (a) Sin
 
 perjuicio de lo señalado en la Sección CAPÍTULO
 
@@ -14428,9 +14168,7 @@ XX de este Contrato, cuando ocurra un Evento
 
 Eximente de Responsabilidad las Partes no estarán obligadas a pagar compensaciones o indemnizaciones a cargo yo
 
-favor de cualquiera de ellas, con la única excepción que se señala a continuación: (i) Cuando quiera que durante la ejecución del Contrato surjan Eventos
-
-Eximentes de Responsabilidad que obliguen al Concesionario a paralizar la ejecución de las obras o labores
+favor de cualquiera de ellas, con la única excepción que se señala a continuación: (i) Cuando quiera que durante la ejecución del Contrato surjan Eventos Eximentes de Responsabilidad que obliguen al Concesionario a paralizar la ejecución de las obras o labores
 
 derivadas de la ejecución de este Contrato, la ANI podrá reconocer al Concesionario los costos
 
@@ -14465,9 +14203,7 @@ recursos de la Subcuenta Excedentes ANI para atender dicha obligación o como ú
 
 Nacional de Infraestructura (c) Tales compensaciones, cuando a ellas hubiere lugar, se incluirán en los
 
-Informes de lnterventoría correspondientes a los periodos en que se presenten los Eventos
-
-Eximentes de Responsabilidad ya referidos.
+Informes de lnterventoría correspondientes a los periodos en que se presenten los Eventos Eximentes de Responsabilidad ya referidos.
 
 #### 20.6 Reparaciones Necesarias por Evento
 
@@ -14495,18 +14231,14 @@ momento de su ocurrencia, no se ofrezca seguro que ampare a estos bienes, obras 
 
 razonables de mercado, de acuerdo con la Ley Aplicable. En
 
-caso de desacuerdo entre las Partes la controversia será definida por el Amigable Componedor. (c) El reembolso del que trata la Sección anterior procederá únicamente si los eventos que le dan origen: (i) Cumplen con los requisitos para ser considerados Eventos
-
-Eximentes de Responsabilidad, según lo previsto en las Sección 20.3 de este Contrato; y (ii) Cuando ocurran dentro de, o involucren directamente a Colombia. (d) Para que proceda el reembolso a que se refieren las Secciones 20.6(b) y 20.6(c), de este Contrato se requerirá que el Concesionario haya dado aviso a la ANI y al Interventor sobre la
+caso de desacuerdo entre las Partes la controversia será definida por el Amigable Componedor. (c) El reembolso del que trata la Sección anterior procederá únicamente si los eventos que le dan origen: (i) Cumplen con los requisitos para ser considerados Eventos Eximentes de Responsabilidad, según lo previsto en las Sección 20.3 de este Contrato; y (ii) Cuando ocurran dentro de, o involucren directamente a Colombia. (d) Para que proceda el reembolso a que se refieren las Secciones 20.6(b) y 20.6(c), de este Contrato se requerirá que el Concesionario haya dado aviso a la ANI y al Interventor sobre la
 
 ocurrencia de tales eventos en un plazo que no supere veinte (20) Días Hábiles desde su ocurrencia. La evaluación de tales hechos, las causas que los motivaron y la diligencia con que el Concesionario actuó ante ellos, se harán constar
 
 
 Nacional de Infraestructura treinta (30) Días siguientes a la fecha en que cesen dichas causas, en actas suscritas por el Interventor y el Concesionario, que se someterán a la aprobación de la ANI. . (e) En el caso que la ANI concluya que el evento no tuvo origen en una
 
-circunstancia de las previstas en la Sección 20.6(b) o en la Sección 20.6(c) de este Contrato, cualquiera de las Partes podrá someter la diferencia al Amigable Componedor. (f) En el caso que el Amigable Componedor determine que no existió alguno de los Eventos
-
-Eximentes de Responsabilidad a los que se
+circunstancia de las previstas en la Sección 20.6(b) o en la Sección 20.6(c) de este Contrato, cualquiera de las Partes podrá someter la diferencia al Amigable Componedor. (f) En el caso que el Amigable Componedor determine que no existió alguno de los Eventos Eximentes de Responsabilidad a los que se
 
 refiere de manera taxativa la Sección 20.6(b) o la 20.6(c) del presente Contrato, correrán por cuenta del Concesionario todas las reparaciones, reconstrucciones e indemnizaciones a que haya lugar. (g) Si es procedente el reembolso por
 
@@ -15786,50 +15518,34 @@ Cumplimiento de los Indicadores para la Etapa Preoperativa calculado a la fecha 
 
 Mes de Referencia CBm Este valor se calculará de acuerdo a lo señalado en la siguiente formula: CBm [(VCBr UFVFy AUFVFy M1y) yl eirl) Rey] Donde, VCB; Valor Total del Componente B expresado en Pesos del
 
-Mes de Referencia UFVFy Porcentaje del Componente B correspondiente a cada Unidad
+Mes de Referencia UFVFy Porcentaje del Componente B correspondiente a cada Unidad Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.8(a). AUFVFy
 
-Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.8(a). AUFVFy
-
-Porcentaje de avance de la Unidad
-
-Funcional de Vía Férrea y a la
+Porcentaje de avance de la Unidad Funcional de Vía Férrea y a la
 
 fecha de la Terminación Anticipada del Contrato, de acuerdo con lo consignado en el Acta
 
 Mensual de Avanee de Obra. Mly: será equivalente a uno (1) si (i) la UFVFy se encuentra en ejecución durante la Terminación Anticipada del Contrato o (ii) si con anterioridad a la Terminación Anticipada del Contrato, se haya suscrito un
 
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea sobre la misma y el
+Acta de Terminación de Unidad Funcional de Vía Férrea sobre la misma y el
 
 Acta de Cálculo de la Retribución no haya sido firmada y pagada y Mly será equivalente a cero (O) si se ha suscrito un
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea o un
 
-Funcional de Vía Férrea o un
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea. IPCmi Corresponde al IPC del Mes anterior al mes m l IPCr IPC del
+Acta de Terminación de Unidad Funcional de Vía Férrea. IPCmi Corresponde al IPC del Mes anterior al mes m l IPCr IPC del
 
 
 Nacional de Infraestructura r
 
-Mes de Referencia RCy: Variable que sólo aplicará en el evento en que, respecto de la Unidad
-
-Funcional de Vía Férrea y, se haya suscrito un
+Mes de Referencia RCy: Variable que sólo aplicará en el evento en que, respecto de la Unidad Funcional de Vía Férrea y, se haya suscrito un
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea con anterioridad a la Terminación Anticipada del Contrato, sin que: (i) con anterioridad a la Terminación Anticipada del Contrato, se haya suscrito un
 
-Funcional de Vía Férrea con anterioridad a la Terminación Anticipada del Contrato, sin que: (i) con anterioridad a la Terminación Anticipada del Contrato, se haya suscrito un
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea sobre la misma; o (ii) habiéndose suscrito dicha acta, el
+Acta de Terminación de Unidad Funcional de Vía Férrea sobre la misma; o (ii) habiéndose suscrito dicha acta, el
 
 Acta de Cálculo de la Retribución asociada con el Semestre Calendario en el que se suscribió dicha
 
@@ -15837,19 +15553,13 @@ acta de terminación, se haya firmado y pagado. De cumplirse este supuesto, esta
 
 momento de la Terminación Anticipada del Contrato, de la
 
-subcuenta de la Unidad
+subcuenta de la Unidad Funcional de Vía Férrea y en la Subcuenta Compensación Especial siempre que el mismo esté asociado con el Componente B. Ay
 
-Funcional de Vía Férrea y en la Subcuenta Compensación Especial siempre que el mismo esté asociado con el Componente B. Ay
-
-Porcentaje de avance de la Unidad
-
-Funcional de Vía Férrea y incluido en el
+Porcentaje de avance de la Unidad Funcional de Vía Férrea y incluido en el
 
 Acta de Terminación
 
-Parcial de la Unidad
-
-Funcional de Vía Férrea y. De no cumplir el supuesto anterior, esta variable será equivalente a cero (O) y Cada Unidad
+Parcial de la Unidad Funcional de Vía Férrea y. De no cumplir el supuesto anterior, esta variable será equivalente a cero (O) y Cada Unidad
 
 
 Nacional de Infraestructura AUFk
@@ -15945,19 +15655,13 @@ totalidad de los Estudios y Diseños de Detalle, de conformidad con la Sección 
 
 Nacional de Infraestructura Donde, VCBr Valor Total del Componente B expresado en Pesos del
 
-Mes de Referencia. UFVFy Porcentaje del Componente B correspondiente a cada Unidad
-
-Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.9(a). Nly será equivalente a uno (1) si la UFVFy no ha iniciado su ejecución durante la Terminación Anticipada del Contrato; será equivalente a cero (O) si (i) la UFVFy se encuentra en ejecución durante la Terminación Anticipada del Contrato o (ii) si se ha suscrito un
+Mes de Referencia. UFVFy Porcentaje del Componente B correspondiente a cada Unidad Funcional de Vía Férrea y, de acuerdo con los señalado en la Sección 4.9(a). Nly será equivalente a uno (1) si la UFVFy no ha iniciado su ejecución durante la Terminación Anticipada del Contrato; será equivalente a cero (O) si (i) la UFVFy se encuentra en ejecución durante la Terminación Anticipada del Contrato o (ii) si se ha suscrito un
 
 Acta de Terminación
 
-Parcial de Unidad
+Parcial de Unidad Funcional de Vía Férrea o un
 
-Funcional de Vía Férrea o un
-
-Acta de Terminación de Unidad
-
-Funcional de Vía Férrea. IPCml Corresponde al IPC del Mes anterior al mes m l. IPCr Corresponde al IPC del
+Acta de Terminación de Unidad Funcional de Vía Férrea. IPCml Corresponde al IPC del Mes anterior al mes m l. IPCr Corresponde al IPC del
 
 Mes de Referencia. ASRm Corresponde al
 
@@ -16165,7 +15869,7 @@ Etapa de Operación y Mantenimiento, y la Terminación Anticipada del Contrato; 
 
 inicio de la
 
-Etapa de Operación y Mantenimiento,, y la Terminación Anticipada del Contrato, de no haberse culminado el Año Calendario alguno con posterioridad al
+Etapa de Operación y Mantenimiento" y la Terminación Anticipada del Contrato, de no haberse culminado el Año Calendario alguno con posterioridad al
 
 inicio de la
 
@@ -17058,4 +16762,7 @@ antes de ser utilizada formalmente.
 **Versión:** 3.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 27/02/2025 
+
+
+
 

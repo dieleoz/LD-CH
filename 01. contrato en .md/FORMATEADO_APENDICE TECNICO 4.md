@@ -561,9 +561,7 @@ Acta de Terminación del puente y sus
 ramales de conexión y mientras subsista la obligación de Operación y
 
 
-Estado de la Unidad
-
-Funcional de Vía UFVFDl Férrea Durante la Etapa Preoperativa, en la medida que se van terminando las
+Estado de la Unidad Funcional de Vía UFVFDl Férrea Durante la Etapa Preoperativa, en la medida que se van terminando las
 
 intervenciones de cada UFVF, cada
 
@@ -1758,9 +1756,7 @@ prueba de su calibración cuando se utilicen equipos que así lo requieran. Pers
 
 encargado de la medición con experiencia y certificado, incluyendo el personal del Concesionario en el caso en que éste estuviere presente. Número de pruebas, mediciones u observaciones realizadas.
 
-Sectores de la Unidad
-
-Funcional de Vía Férrea y/o Unidad Funcional, según corresponda, en el que es realizada la evaluación, identificados con el correspondiente abscisado yo ubicaciones geográficas. Registro fotográfico o en
+Sectores de la Unidad Funcional de Vía Férrea y/o Unidad Funcional, según corresponda, en el que es realizada la evaluación, identificados con el correspondiente abscisado yo ubicaciones geográficas. Registro fotográfico o en
 
 video de la realización de las pruebas. El
 
@@ -2230,9 +2226,7 @@ numeral de este Apéndice Técnico. Por lo anterior el Concesionario preverá en
 
 Plan de Obras el desarrollo y entrega del SICC como
 
-parte de la primera Unidad
-
-Funcional de Vía Férrea del Proyecto, excepto para lo indicado en las actividades objeto Retribución durante la
+parte de la primera Unidad Funcional de Vía Férrea del Proyecto, excepto para lo indicado en las actividades objeto Retribución durante la
 
 Fase de Preconstrucción y
 
@@ -2255,9 +2249,7 @@ respecto de la aplicación yo la documentación, éstas serán resueltas por el 
 
 plazo de cinco (5) Días Hábiles para efectuar las objeciones, o no habiéndose efectuado alguna por parte del Interventor, se iniciará un
 
-periodo de prueba de al menos treinta (30) Días, que involucrará al SICC y los equipos que se relacionen con éste en la primera Unidad
-
-Funcional de Vía Férrea. A ese efecto, el Concesionario deberá proveer las condiciones y proponer un plan para realizar pruebas con datos básicos reales. Las pruebas deberán realizarse vía Internet, en
+periodo de prueba de al menos treinta (30) Días, que involucrará al SICC y los equipos que se relacionen con éste en la primera Unidad Funcional de Vía Férrea. A ese efecto, el Concesionario deberá proveer las condiciones y proponer un plan para realizar pruebas con datos básicos reales. Las pruebas deberán realizarse vía Internet, en
 
 presencia de ambas partes y desde el lugar que la Interventoría indique, con el sistema funcionando en sus instalaciones definitivas, durante un máximo de diez (1 O) Días Hábiles. Este plazo podrá suspenderse o prorrogarse si se detectare fallas o insuficiencias en el funcionamiento del sistema que, a
 
@@ -2299,10 +2291,7 @@ respaldos de la
 
 base de datos con la periodicidad establecida en el numeral 5.4.5 de este Apéndice Técnico. El Concesionario deberá hacer
 
-uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseño, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y
-
-
-opere de acuerdo con las especificaciones. Si se detectare anomalías respecto a las especificaciones o
+uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseño, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y seguridad de la información, para que el sistema opere de acuerdo con las especificaciones. Si se detectare anomalías respecto a las especificaciones o
 
 errores de especificación que afecten la debida contabilización del servicio prestado o dificulten o impidan la fiscalización, el Concesionario deberá corregir dichas anomalías o errores y rectificar el
 
@@ -2369,9 +2358,7 @@ Tiempo de atención de eventos no operacionales que ocurran en el Corredor 0,31 
 
 ramales de conexión, en el DIF 72,21 periodo que esté a cargo del Concesionario la Operación y
 
-Mantenimiento de estas obras !índice de Mortalidad (lm) 1101 11 3,00 11 3,00 Estado de la Unidad
-
-Funcional de Vía Férrea IUFVFDl 8,23 11 11 8,23 1 !Estado de puentes ₁₁ El 11 11 2,21 1 lsuMA 11 100,00 11 100,00 Se aclara que la calificación de Sin Puente o Con Puente, se refiere al puente vehicular y peatonal sobre el río Sogamoso y respectivos
+Mantenimiento de estas obras !índice de Mortalidad (lm) 1101 11 3,00 11 3,00 Estado de la Unidad Funcional de Vía Férrea IUFVFDl 8,23 11 11 8,23 1 !Estado de puentes ₁₁ El 11 11 2,21 1 lsuMA 11 100,00 11 100,00 Se aclara que la calificación de Sin Puente o Con Puente, se refiere al puente vehicular y peatonal sobre el río Sogamoso y respectivos
 
 ramales de conexión. La medición de los Indicadores que incluyen el puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
@@ -2398,9 +2385,7 @@ uno de los Indicadores para Unidad Funcional 3 Congestión logística - manejo d
 
 uno de los Indicadores para las actividades Objeto del
 
-Componente de Retribución de Ingresos por la Prestación del Servicio Público
-
-Ferroviario de Carga. El valor ponderado para cada Indicador será el que
+Componente de Retribución de Ingresos por la Prestación del Servicio Público Ferroviario de Carga. El valor ponderado para cada Indicador será el que
 
 resulte de la aplicación de las fórmulas contenidas en la siguiente tabla: Disponibilidad de Material Rodante del Proyecto en estado operativo y funcional.
 
@@ -2436,9 +2421,7 @@ Cumplimiento de surcos (itinerario de trenes) R Ejecución del
 
 Plan de Mantenimiento del R Material Rodante del Pro ecto.
 
-Estado de la Unidad
-
-Funcional de Vía Férrea R Parámetros geométricos y de la superestructura para R la seguridad vial Vigilancia R Donde: Resultado del Indicador. Será igual a cero cuando se incumpla el Indicador y será 1 en
+Estado de la Unidad Funcional de Vía Férrea R Parámetros geométricos y de la superestructura para R la seguridad vial Vigilancia R Donde: Resultado del Indicador. Será igual a cero cuando se incumpla el Indicador y será 1 en
 
 caso de cum limiento. De conformidad con lo anterior, los
 
@@ -2558,14 +2541,10 @@ partir de partir del
 
 inicio de la
 
-Fase de Preconstrucción Prestación del Servicio Público
-
-Ferroviario de Carga: Será el que
+Fase de Preconstrucción Prestación del Servicio Público Ferroviario de Carga: Será el que
 
 
-Indice de Cumplimiento de los Indicadores previstos para la Prestación del Servicio Público
-
-Ferroviario de Carga para el Mes j Valor
+Indice de Cumplimiento de los Indicadores previstos para la Prestación del Servicio Público Ferroviario de Carga para el Mes j Valor
 
 Ponderado de un Indicador, calculado como la multiplicación las VPI6 ponderaciones de la Tabla 9 con los
 
@@ -2658,6 +2637,9 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
+
 
 
 

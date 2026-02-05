@@ -551,18 +551,14 @@ inventario de Redes cuando como
 
 resultado de la elaboración de los Diseños de
 
-Detalle de cada Unidad
-
-Funcional de Vía Férrea y/o Unidad Funcional, se identifiquen nuevas Redes dentro del Corredor del Proyecto, original yo se modifique la ubicación de las
+Detalle de cada Unidad Funcional de Vía Férrea y/o Unidad Funcional, se identifiquen nuevas Redes dentro del Corredor del Proyecto, original yo se modifique la ubicación de las
 
 Obras de Construcción yo Rehabilitación del Proyecto resultando en un área de construcción del Proyecto distinto. Esta actualización será consignada en una nueva acta que seguirá lo establecido en el
 
 Procedimiento de Revisión Abreviado. (2) Su obligación de ejecutar todas las actividades que, de acuerdo con el estado del arte, permitan identificar las Redes que puedan verse afectadas por las
 
 
-Fecha de diligenciamiento de la ficha. (3) Departamento donde se encuentra ubicada la Red. (4) Unidad
-
-Funcional de Vía Férrea y/o Unidad Funcional, y sector donde se encuentra localizada la Red. (5) Ubicación dando PR, abscisado yo coordenadas inicial y final. (6) Indicar el
+Fecha de diligenciamiento de la ficha. (3) Departamento donde se encuentra ubicada la Red. (4) Unidad Funcional de Vía Férrea y/o Unidad Funcional, y sector donde se encuentra localizada la Red. (5) Ubicación dando PR, abscisado yo coordenadas inicial y final. (6) Indicar el
 
 tipo de servicio prestado por la Red. (7) Relación con la intervención, si la Red está paralela, cruce, subterráneo o paralelo. (8) El
 
@@ -601,9 +597,7 @@ resultado de dicha actividad, el Concesionario elaborará y presentará junto co
 
 Estudios de Detalle un acta en la que constarán todos los
 
-hallazgos de Redes dentro del Corredor del Proyecto, para cada Unidad
-
-Funcional de Vía Férrea y/o Unidad Funcional, junto con los soportes documentales, fílmicos o fotográficos respectivos. En particular, el acta deberá contener, como mínimo, lo siguiente: (1) Identificación de la Red por
+hallazgos de Redes dentro del Corredor del Proyecto, para cada Unidad Funcional de Vía Férrea y/o Unidad Funcional, junto con los soportes documentales, fílmicos o fotográficos respectivos. En particular, el acta deberá contener, como mínimo, lo siguiente: (1) Identificación de la Red por
 
 tipo de servicio afectado (tuberías, duetos, cables), PR, abscisado yo coordenadas del
 
@@ -649,9 +643,7 @@ Inventario de Redes. (8) Otros aspectos que se
 
 evidencien de importancia. (v) Así mismo, en el acta deberá incluirse un
 
-instrumento de resumen denominado "ficha de identificación de Redes" de acuerdo con el Anexo que la ANI provea para tal efecto, diligenciado por Unidad
-
-Funcional de Vía Férrea y/o Unidad Funcional, así como por
+instrumento de resumen denominado "ficha de identificación de Redes" de acuerdo con el Anexo que la ANI provea para tal efecto, diligenciado por Unidad Funcional de Vía Férrea y/o Unidad Funcional, así como por
 
 
 zona de Seguridad. (6) Determinar las obligaciones del
@@ -963,7 +955,7 @@ temporal de la infraestructura vial carretera concesionada y férrea que se encu
 
 
 
-STipo de Cruce Bajo Vía Secundaria }'..' C:odo,.:-,n;,;,i;,,ó;1m,, ':""rüit,, 1i!i ... '.;.,:1 Figura 6 Tapado en la
+STipo de Cruce Bajo Vía Secundaria Figura 6 Tapado en la
 
 zanja de vías secundarias (f) Sin
 
@@ -996,6 +988,9 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
+
 
 
 

@@ -1290,9 +1290,7 @@ logo de la ANI, según modelo entregado por la entidad Logo Concesionario Inclui
 
 objeto de la Concesión Unidad Funcional
 
-Nombre de la Unidad
-
-Funcional de obras dentro del
+Nombre de la Unidad Funcional de obras dentro del
 
 Proyecto de Concesión Propietario Incluir el nombre o razón social del Propietario Dato actualizado obtenido del certificado catastral o del
 
@@ -2542,6 +2540,8 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
 
 
 

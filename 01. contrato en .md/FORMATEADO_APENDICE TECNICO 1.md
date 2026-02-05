@@ -824,9 +824,7 @@ Funcionales de Vía Férrea y la construcción del nuevo puente vehicular y peat
 
 ramales de conexión, y haber suscrito el
 
-Acta de Terminación de la Unidad
-
-Funcional de Vía Férrea, estas conformarán la Unidad Funcional 1. Tabla 10 - Unidad Funcional - UF 1 Corredor del Proyecto comprendido
+Acta de Terminación de la Unidad Funcional de Vía Férrea, estas conformarán la Unidad Funcional 1. Tabla 10 - Unidad Funcional - UF 1 Corredor del Proyecto comprendido
 
 #### 1096983.5 934549,28 PK 201+470
 
@@ -2187,7 +2185,7 @@ Mantenimiento de vía: 1 Bateadora 1 Reguladora 1 Desguarnecedora 1 Esmeriladora
 grupos de bateo (split head), controlados individualmente y desplazables lateralmente en pares, sistema de levante con ganchos y tenazas a discos, sistema de nivelación, sistema de alineación, dos
 
 
-ellos de aprox. 4,5 metros, frenos de aire comprimido actuando sobre todas las ruedas, cepillo de fijación de vía, velocidad de marcha 50 kmh, peso aprox.: .17 t. Desguarnecedora: Trocha yárdica, equipada con cadena excavadora giratoria por
+ellos de aprox. 4,5 metros, frenos de aire comprimido actuando sobre todas las ruedas, cepillo de fijación de vía, velocidad de marcha 50 kmh, peso aprox.: 117 t. Desguarnecedora: Trocha yárdica, equipada con cadena excavadora giratoria por
 
 debajo de los durmientes, sistema de cribas con dos mallas, dispositivos de
 
@@ -2209,7 +2207,7 @@ plataforma de carga mínimo 2 Tn y
 
 carro de pasajeros min 6 personas. Grúa ferroviaria: Capacidad de 25 Tn, longitud de brazo 5 m. Equipo menor especializado: Gato: Capacidad 15 Tns, carrera 13.3 cms, altura mínima al talón 5 cm, altura mínima cabeza,
 
-#### 17.7 cm Sierras circulares para
+17.7 cm Sierras circulares para
 
 corte de rieles: equipado con asidero movible, prensas, válvula de sobre velocidad y protecciones.
 
@@ -2450,9 +2448,7 @@ Mantenimiento de las obras hidráulicas que se
 
 requieran de acuerdo con los estudios hidráulicos, hidrológicos y de socavación y de puentes y pontones necesarios para el correcto
 
-funcionamiento de cada Unidad Funcional yo Unidad
-
-Funcional de Vía Férrea.
+funcionamiento de cada Unidad Funcional yo Unidad Funcional de Vía Férrea.
 
 #### 7.3 Alcance de las obligaciones en la
 
@@ -5909,6 +5905,9 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
+
 
 
 
