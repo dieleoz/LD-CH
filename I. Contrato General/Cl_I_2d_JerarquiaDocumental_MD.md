@@ -178,14 +178,16 @@ Decreto 1082 de 2015, art. 2.2.1.2.3.1 (prioridad documental en contratos estata
 #### **📋 Contrato General - Definiciones:**
 - **2.140 "Licencia Ambiental":** Acto administrativo emitido por la Autoridad Ambiental mediante el cual se autoriza la ejecución de obras del Proyecto, de una Unidad Funcional o Intervención, en el caso en que dicha Licencia sea exigida conforme a la Ley Aplicable y cuyo trámite, obtención, cesión o modificación si es del caso, e implementación y costo estará a cargo del Concesionario, por su cuenta y riesgo, incluidas las acciones de seguimiento a la misma.
 
-- **2.141 "Licencias y Permisos":** Son los permisos, concesiones, autorizaciones yo licencias que deban ser otorgados por cualquier Autoridad Estatal, necesarios para la ejecución del Proyecto por parte del Concesionario cuyo trámite y costo estará a cargo del Concesionario, por su cuenta y riesgo.
+- **2.141 "Licencias y Permisos":** Son los permisos, concesiones, autorizaciones y/o licencias que deban ser otorgados por cualquier Autoridad Estatal, necesarios para la ejecución del Proyecto por parte del Concesionario cuyo trámite y costo estará a cargo del Concesionario, por su cuenta y riesgo.
 
 #### **📋 Apéndices Técnicos - Referencias Específicas:**
-- **AT6 - Gestión Ambiental:** Plan de Trámites Ambientales, Permisos de Carácter Ambiental, Licencias Ambientales
-- **AT7 - Gestión Predial:** Licencias urbanísticas, permisos de uso y ocupación predial
-- **AT3 - Especificaciones:** Permisos para sistemas tecnológicos, permisos de emisiones atmosféricas
-
-2. Jerarquía Documental Específica del Proyecto
+- **AT6 - Gestión Ambiental:** Plan de Trámites Ambientales, Permisos de Carácter Ambiental, Licencias Ambientales.
+- **AT7 - Gestión Predial:** Licencias urbanísticas, permisos de uso y ocupación predial.
+- **AT3 - Especificaciones:** Permisos para sistemas tecnológicos (Espectro ANE), permisos de emisiones atmosféricas.
+
+---
+
+## 2. JERARQUÍA DOCUMENTAL ESPECÍFICA DEL PROYECTO
 2.1 Orden de Prelación Según Cláusula 1.2(d)
 En caso de contradicción, se atenderá al siguiente orden exacto:
 Nivel
