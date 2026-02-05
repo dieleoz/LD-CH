@@ -54,11 +54,10 @@ Este apéndice técnico contiene las especificaciones, procedimientos y criterio
 
 | Documento | Estado | Dependencia Capacidad/Surcos | Acción Requerida |
 |:---|:---:|:---|:---|
-| **AT3_EspecificacionesGenerales** | 🔴 BLOQUEADO | Crítico - Especificaciones ITCS | Esperar disponibilidad |
-| **AT1_AlcanceProyecto** | ✅ DISPONIBLE | Alto - Capacidad base del proyecto | Proceder con especificaciones |
-| **AT2_OperacionMantenimiento** | ✅ DISPONIBLE | Alto - Requerimientos operativos | Proceder con requerimientos |
-| **26_Sistema_CTC_Integrado** | ✅ DISPONIBLE | Crítico - Integración CTC | Proceder con integración |
-| **29_Sistema_Senalizacion_Integrado** | ✅ DISPONIBLE | Alto - Coordinación señalización | Proceder con coordinación |
+| **AT3_Especificaciones_Generales_MD** | ✅ DISPONIBLE | Crítico - Especificaciones PTC/FRA | Alineación inmediata |
+| **AT1_Alcance_del_Proyecto_MD** | ✅ DISPONIBLE | Alto - Capacidad base del proyecto | Proceder con especificaciones |
+| **AT2_Operacion_y_Mantenimiento_MD** | ✅ DISPONIBLE | Alto - Requerimientos operativos | Proceder con requerimientos Operativos |
+| **AT4_Indicadores_MD** | ✅ DISPONIBLE | Crítico - Disponibilidad 99.95% | Mapear impacto en surcos |
 
 ---
 
@@ -107,8 +106,8 @@ Actividad
 Desarrollar un procedimiento y método de simulación diseñado específicamente para la infraestructura del corredor La Dorada–Chiriguaná
 Implementar software especializado de simulación ferroviaria integrado con sistemas CTC y señalización
 Calcular la Capacidad Ferroviaria y Capacidad Disponible mediante dos metodologías obligatorias: 
-Metodología 1: Simulación computacional desde sistema CTC (Ap. Téc. 10, Cap. II, Num. 2.3(c)(i))
-Metodología 2: Método UIC-405 como contraste y validación (Ap. Téc. 10, Cap. II, Num. 2.3(c)(ii))
+Metodología 1: Simulación computacional bajo lógica **PTC (FRA 49 CFR 236)** (Ap. Téc. 10, Cap. II, Num. 2.3(c)(i))
+Metodología 2: Método UIC-405 como contraste y validación técnica secundaria (Ap. Téc. 10, Cap. II, Num. 2.3(c)(ii))
 2.2 Variables de infraestructura para el cálculo (Ap. Téc. 10, Cap. II, Num. 2.3(a))
 Sistemas tecnológicos obligatorios:
 Sistemas de señalización y control de tráfico: enclavamientos, detectores, CTC
@@ -789,18 +788,18 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de simulación ITCS:** Agregada simulación de capacidad con sistemas ITCS ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluida simulación de capacidad con interoperabilidad FENOCO
-3. **Criterios AT4 no integrados:** Incorporada protección de disponibilidad en simulación de capacidad
-4. **Ciberseguridad no especificada:** Agregada protección de sistemas de simulación
-5. **Redundancia no definida:** Establecida protección de arquitectura N+1 en simulación
-6. **Simulación incompleta:** Ampliada simulación de capacidad para todos los sistemas
+1. **Simulación ITCS/PTC:** Agregada simulación de capacidad con sistemas **PTC (FRA 49 CFR 236)**.
+2. **Ausencia de interoperabilidad FENOCO:** Incluida simulación de capacidad con interoperabilidad FENOCO (Doble Radio).
+3. **Criterios AT4 no integrados:** Incorporada protección de disponibilidad 99.95% en simulación de capacidad.
+4. **Ciberseguridad no especificada:** Agregada protección NIST/IEC 62443 de sistemas de simulación.
+5. **Redundancia no definida:** Establecida protección de arquitectura N+1 en simulación.
+6. **Simulación incompleta:** Ampliada simulación de capacidad para todos los sistemas bajo lógica FRA.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-355 | Dependencia AT3 para ITCS en capacidad y surcos | Técnico | Alta | Alto | Simulación ITCS sin especificaciones AT3 |
+| R-355 | Alineación AT3 para PTC | Técnico | Baja | Alto | Garantizar que la simulación refleje el AT3_MD v5.0. |
 | R-356 | Interoperabilidad FENOCO en capacidad y surcos | Técnico | Media | Alto | Simulación de interoperabilidad con FENOCO |
 | R-357 | Disponibilidad AT4 en capacidad y surcos | Contractual | Media | Alto | Simulación que afecte disponibilidad contractual |
 | R-358 | Ciberseguridad en capacidad y surcos | Técnico | Media | Alto | Amenazas en sistemas de simulación |
