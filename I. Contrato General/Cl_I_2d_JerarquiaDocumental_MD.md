@@ -42,7 +42,7 @@ Este documento contractual establece la jerarquía y prioridad de los documentos
 
 ---
 
-Cl_I.2d_JerarquiaDocumental.docx – Jerarquía Contractual de Documentos
+Cl_I_2d_JerarquiaDocumental_MD.md v4.1 – Jerarquía Contractual de Documentos
 APP LA DORADA–CHIRIGUANÁAdministración Contractual EPCDocumento Técnico-Contractual de Ingeniería
 
 CONTROL DE VERSIONES Y GESTIÓN DOCUMENTAL
