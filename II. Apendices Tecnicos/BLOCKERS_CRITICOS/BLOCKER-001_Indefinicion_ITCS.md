@@ -2,18 +2,19 @@
 
 **ID:** BLOCKER-001  
 **Fecha Identificación:** 9 de Octubre 2025 (Mes 4)  
+**Fecha Resolución:** 05 de Febrero 2026  
 **Responsable Gestión:** PMO + Gerencia Técnica  
-**Criticidad:** 🔴 **BLOQUEADOR DEL PROYECTO**  
-**Estado:** ❌ **NO RESUELTO** - Requiere decisión ANI URGENTE
+**Criticidad:** 🟢 **RESUELTO**  
+**Estado:** ✅ **CERRADO - DEFINICIÓN PTC ADOPTADA**
 
 ---
 
 ## ⚖️ ESTADO ACTUAL (Reporte Forense)
-**Estado:** 🔴 CRÍTICO - REQUIERE ACCIÓN.
+**Estado:** ✅ RESUELTO - DECISIÓN TOMADA.
 
-**Diagnóstico:** El 58% del proyecto ($152,748M COP) está en riesgo debido a la falta de definición formal entre ATP/PTC vs ETCS Level 2.
+**Resolución:** Se ha adoptado formalmente el estándar **PTC (FRA 49 CFR 236)** como línea base técnica, validado en el **AT3_Especificaciones_Generales_MD v5.0**.
 
-**Recomendación:** Activar la Fase 1 del Plan de Resolución (Oficio formal a la ANI) de inmediato para evitar retrasos superiores a 3 meses en la ingeniería de detalle.
+**Impacto:** Se desbloquea la ingeniería de detalle para Control y Señalización ($132,228M COP).
 
 ---
 
