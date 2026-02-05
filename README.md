@@ -778,7 +778,7 @@ La gestión del proyecto se rige por el **Marco de Gestión de Proyectos (MGP)**
 |:---|:---|:---|
 | `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | **Matriz RACI completa** con roles por especialidad (PMO, EPC, Interventoría) | ✅ **COMPLETO** |
 | `00. Gobernanza PMO/Matriz_Riesgos_PMO_Consolidada_v1.0.md` | **Registro operativo de riesgos (PMO)** con KPIs y seguimiento | ✅ **COMPLETO** |
-| `@@Roadmap_v14.7_Marco_Gestion_Consolidado.md` | **Roadmap principal** v14.7 - Layout Maestro + Workflow Automático | ✅ **ACTUALIZADO** |
+| `ROADMAP.md` | **Roadmap principal** v14.7.7 - Estado de Ingeniería + Blockers Críticos | ✅ **ACTUALIZADO** |
 | `III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` | **Herramienta central de la PMO** - Registra todas las indefiniciones, supuestos y riesgos | ✅ **COMPLETO** |
 | `III. Ingenieria conceptual/36.2_Metodologia_Gestion_Supuestos.md` | Define el **ciclo de vida** para la gestión de supuestos del proyecto | ✅ **COMPLETO** |
 
