@@ -291,11 +291,11 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN INDICADORES DE DESEMPEÑO:**
-   - **Indicadores ITCS:** Métricas de disponibilidad y rendimiento para sistemas ITCS ETCS Level 2
-   - **SICC ITCS:** Integración de ITCS en Sistema de Información para Control y Calidad
-   - **Monitoreo ITCS:** Indicadores de monitoreo continuo de sistemas ITCS
-   - **Calidad ITCS:** Criterios de calidad para sistemas ITCS embarcados
+1. **🚂 INTEGRACIÓN PTC (FRA 49 CFR 236) EN INDICADORES DE DESEMPEÑO:**
+   - **Indicadores PTC:** Métricas de disponibilidad y rendimiento para sistemas **PTC** según normativa FRA.
+   - **SICC PTC:** Integración de la lógica de cantonamiento virtual en el SICC.
+   - **Monitoreo PTC:** Indicadores de monitoreo continuo de sistemas de protección embarcados.
+   - **Calidad PTC:** Criterios de calidad para interfaces DMI y cumplimiento de surcos.
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN INDICADORES DE DESEMPEÑO:**
    - **Indicadores FENOCO:** Métricas de interoperabilidad con FENOCO
@@ -339,14 +339,12 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
-| ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
-| R-319 | Dependencia AT3 para ITCS en indicadores | Técnico | Alta | Alto | Indicadores ITCS sin especificaciones AT3 |
-| R-320 | Interoperabilidad FENOCO en indicadores | Técnico | Media | Alto | Indicadores sin criterios de interoperabilidad |
-| R-321 | Disponibilidad AT4 en indicadores | Contractual | Media | Alto | Indicadores sin criterios de disponibilidad |
-| R-322 | Ciberseguridad en indicadores | Técnico | Media | Alto | Indicadores sin criterios de seguridad |
-| R-323 | Redundancia en indicadores | Técnico | Media | Alto | Indicadores sin criterios de redundancia |
-| R-324 | SICC incompleto | Técnico | Media | Alto | Sistema de monitoreo incompleto |
+| R-319 | Alineación Técnica AT3 | Técnico | Baja | Alto | Garantizar que el SICC refleje el estándar PTC del AT3_MD v5.0. |
+| R-320 | Interoperabilidad FENOCO | Técnico | Media | Alto | Indicadores vinculados al procedimiento **Stop & Switch**. |
+| R-321 | Disponibilidad 99.95% | Contractual | Baja | Alto | Monitoreo estricto para evitar penalidades de la Cl. 16.1. |
+| R-322 | Ciberseguridad (SL-3) | Técnico | Media | Alto | Indicadores de cumplimiento NIST/IEC 62443. |
+| R-323 | Redundancia N+1 | Técnico | Media | Alto | Verificación de conmutación automática en servidores críticos. |
+| R-324 | SICC 100% Operativo | Técnico | Media | Alto | Única fuente de verdad para la retribución mensual. |
 
 #### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
 
@@ -361,16 +359,10 @@ Proxima actualizacion: 27/02/2025
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Definir indicadores con ETCS Level 2 (0-3 meses)
-   - **Fase 2:** Implementar SICC para ITCS (3-6 meses)
-   - **Fase 3:** Integrar con AT3 cuando esté disponible (6-12 meses)
-   - **Fase 4:** Optimizar indicadores (12+ meses)
-
-2. **Gestión Integrada de Riesgos en Indicadores:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo mensual:** Riesgos medios (SICC, gestión)
+### 3.3 Estrategia de Avance
+- **Pivote FRA:** Migración total de ETCS a **PTC (AREMA/FRA 49 CFR 236)**.
+- **Validación EPE:** Los indicadores han sido ajustados según el Informe EPE (11 Dic 2025).
+- **Control de Penalidades:** Mapeo directo con la Cláusula 16.1 del Contrato General para multas por ciberseguridad y disponibilidad.
 
 #### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
 
