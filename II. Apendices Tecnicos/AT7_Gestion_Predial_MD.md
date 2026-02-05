@@ -1002,3 +1002,26 @@ El documento ha sido actualizado exitosamente aplicando la metodologÃ­a Punto 
 - **GestiÃ³n Predial** con criterios tÃ©cnicos completos
 
 **6 riesgos identificados** para anÃ¡lisis PMI y gestiÃ³n integrada en gestiÃ³n predial.
+---
+
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Documento:** AT7_Gestion_Predial_MD v4.1
+**Dictamen:** ✅ APROBADO TÉCNICAMENTE CON ALERTA DE DEPENDENCIA TECNOLÓGICA
+
+### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
+1. **Cronograma de Adquisición:** Plazo fatal de 2 meses para entrega del cronograma. El incumplimiento detona penalidades por retraso en la UF.
+2. **Control Financiero (120%):** Alerta al 90% para gestionar excedentes presupuestales antes de bloquear la caja, cumpliendo la Cláusula 10.5(e).
+3. **Servidumbres Tecnológicas:** Traduce la obligación genérica en necesidades específicas para Torres TETRA y Fibra Óptica, vitales para el AT4 (Disponibilidad).
+
+### 🚨 RIESGOS Y DEPENDENCIAS
+- **R-337 Dependencia ITCS:** La ubicación de torres y enclavamientos (fichas prediales) depende de la definición técnica final. El retraso en diseño bloquea la compra de tierra.
+- **Sincronización Social:** El censo social (AT8) debe estar terminado para calcular el Plan de Compensaciones antes de la oferta formal (Resolución 545).
+
+### 🚀 INSTRUCCIONES AL EQUIPO
+1. **Prioridad:** Adquisición de los 5 puntos de Enclavamiento (ENCE) y los 37 sitios de estaciones base TETRA.
+2. **Tablero de Control:** Imputación inmediata de pagos a la Subcuenta Predios con soporte de avalúo comercial.
+3. **Estrategia SIG:** Implementar herramientas de georeferencia para reducir tiempos legales en cruces con privados.
+
+**VEREDICTO FINAL:** Guía superior al mínimo contractual. Requiere desbloqueo urgente de diseño de telecomunicaciones para ser efectiva.
+
+⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la versión 4.1 del documento de trabajo. Los avalúos comerciales deben cumplir estrictamente la normativa IGAC y ser aprobados por el Comité Técnico para ser reconocidos por la ANI.
