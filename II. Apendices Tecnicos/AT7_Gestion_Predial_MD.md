@@ -1005,23 +1005,83 @@ El documento ha sido actualizado exitosamente aplicando la metodologÃ­a Punto 
 ---
 
 ## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** AT7_Gestion_Predial_MD v4.1
+**Documento:** AT7_Gestion_Predial_MD.md (v4.1)
 **Dictamen:** ✅ APROBADO TÉCNICAMENTE CON ALERTA DE DEPENDENCIA TECNOLÓGICA
 
-### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **Cronograma de Adquisición:** Plazo fatal de 2 meses para entrega del cronograma. El incumplimiento detona penalidades por retraso en la UF.
-2. **Control Financiero (120%):** Alerta al 90% para gestionar excedentes presupuestales antes de bloquear la caja, cumpliendo la Cláusula 10.5(e).
-3. **Servidumbres Tecnológicas:** Traduce la obligación genérica en necesidades específicas para Torres TETRA y Fibra Óptica, vitales para el AT4 (Disponibilidad).
+El documento es contractualmente sólido y superior al texto base. Mientras que el PDF original se enfoca en el procedimiento legal estándar (adquisición/expropiación), la versión MD integra la Metodología Punto 42 para asegurar que la gestión predial contemple los requerimientos de la modernización tecnológica (Torres TETRA, Enclavamientos, Fibra Óptica), evitando que compremos la tierra equivocada o insuficiente.
 
-### 🚨 RIESGOS Y DEPENDENCIAS
-- **R-337 Dependencia ITCS:** La ubicación de torres y enclavamientos (fichas prediales) depende de la definición técnica final. El retraso en diseño bloquea la compra de tierra.
-- **Sincronización Social:** El censo social (AT8) debe estar terminado para calcular el Plan de Compensaciones antes de la oferta formal (Resolución 545).
+---
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Prioridad:** Adquisición de los 5 puntos de Enclavamiento (ENCE) y los 37 sitios de estaciones base TETRA.
-2. **Tablero de Control:** Imputación inmediata de pagos a la Subcuenta Predios con soporte de avalúo comercial.
-3. **Estrategia SIG:** Implementar herramientas de georeferencia para reducir tiempos legales en cruces con privados.
+### 🧱 1. VALIDACIÓN DE OBLIGACIONES (EL "HARD CORE" CONTRACTUAL)
+El documento MD respeta y estructura las obligaciones ineludibles del Apéndice Técnico 7 original:
 
-**VEREDICTO FINAL:** Guía superior al mínimo contractual. Requiere desbloqueo urgente de diseño de telecomunicaciones para ser efectiva.
+**A. Entregables Críticos (Fase Preoperativa)**
+*   **Cronograma de Trabajo Predial:**
+    *   📄 Fuente MD: Sección 3.1.
+    *   📄 Fuente PDF: AT7, Numeral 4.1.
+    *   **Plazo Fatal:** 2 meses después de la Fecha de Inicio de Preconstrucción.
+*   **Plan de Adquisición de Predios:**
+    *   📄 Fuente MD: Sección 3.2.
+    *   📄 Fuente PDF: AT7, Numeral 4.2.
+    *   **Plazo:** Debe entregarse con los Estudios de Detalle.
+    *   **Riesgo:** Requiere la "Tira Topográfica" completa. Si Ingeniería se atrasa en el diseño geométrico, Predial se atrasa en el Plan.
 
-⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la versión 4.1 del documento de trabajo. Los avalúos comerciales deben cumplir estrictamente la normativa IGAC y ser aprobados por el Comité Técnico para ser reconocidos por la ANI.
+**B. Procedimiento de Adquisición (La Ruta Legal)**
+El MD refleja correctamente el flujo regulado en el Capítulo V (Enajenación Voluntaria) y VI (Expropiación) del PDF:
+1.  **Ficha Predial y Plano:** Aprobados por Interventoría.
+2.  **Avalúo Comercial:** Elaborado por lonja/profesional y validado por Comité Técnico. *Nota: El avalúo no lo aprueba la ANI, lo aprueba el Comité.*
+3.  **Oferta Formal:** Si no se acepta en los tiempos de ley, se debe activar la expropiación administrativa o judicial.
+
+**C. Subcuenta Predial (El Flujo de Caja)**
+*   📄 Fuente MD: Sección 12.
+*   📄 Fuente PDF: Contrato Principal y AT7.
+*   **Estrategia:** Los recursos para la compra salen de la Subcuenta Predios. El EPC debe gestionar las Órdenes de Operación con anticipación para no frenar negociaciones por falta de liquidez.
+
+---
+
+### 📡 2. ACTUALIZACIÓN PUNTO 42 (GESTIÓN PREDIAL 4.0)
+La versión v4.1 introduce la gestión de predios para activos tecnológicos, un vacío del contrato original que el MD cubre correctamente:
+
+1.  **Predios para ITCS ETCS Level 2:**
+    *   **Requisito:** Se requieren áreas específicas para los 5 Enclavamientos Electrónicos (ENCE) y los cuartos técnicos en estaciones.
+    *   **Mejora MD:** Vincula la adquisición de estos lotes con las especificaciones del AT3. Si compramos un lote sin el espacio para el banco de baterías redundante (N+1), el sistema fallará.
+
+2.  **Servidumbres Tecnológicas (TETRA y Fibra):**
+    *   📄 Fuente MD: Sección 3.4.
+    *   **Necesidad:** El proyecto requiere instalar 37 estaciones base TETRA. Muchas estarán fuera del derecho de vía férreo.
+    *   **Acción:** El MD establece tipos de servidumbre específicos: "Servidumbre de Torre", "De Acceso" y "De Protección" (zona de seguridad). Esto es vital porque una torre sin camino de acceso legal impide el mantenimiento y afecta la disponibilidad (AT4).
+
+3.  **Ciberseguridad Física (Protección de Activos):**
+    *   Fuente MD: Sección 4 (Actualización v4.1).
+    *   **Estrategia:** La gestión predial debe garantizar que los predios críticos (CCO, Talleres) permitan cerramientos de seguridad perimetral robustos para mitigar riesgos de intrusión física que comprometan la ciberseguridad.
+
+---
+
+### ⚠️ 3. MATRIZ DE RIESGOS (ALERTAS ALTA PRIORIDAD)
+El documento identifica riesgos que pueden bloquear el proyecto:
+*   **R-337 Dependencia ITCS:** La ubicación exacta de las torres y los enclavamientos depende del diseño de sistemas (AT3). Si no se define la tecnología (PTC vs ETCS), Gestión Predial no sabe qué lote comprar. **Estado: CRÍTICO.**
+*   **R-339 Disponibilidad AT4:** Si no se constituye la servidumbre de paso para la fibra óptica de respaldo (anillo redundante), un corte de fibra dejará al sistema sin redundancia, afectando el indicador de disponibilidad y generando multas.
+
+---
+
+### 🚀 4. INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+**Para el Gerente Predial:**
+*   **Prioridad 1:** Iniciar el levantamiento de las Fichas Prediales para los Talleres y el CCO (La Dorada) inmediatamente (Mes 2 según MD). Estos son la ruta crítica de obra civil.
+*   **Comité Técnico de Avalúos:** Constituir este comité en el Mes 1. Sin él, no se puede hacer ninguna oferta de compra válida.
+
+**Para el Director de Ingeniería (Diseño):**
+*   **Georreferenciación Torres:** Entregar al equipo predial las coordenadas exactas de las 37 torres TETRA y los nodos de fibra óptica antes del Mes 3. Sin coordenadas, no hay gestión de servidumbres.
+
+**Para el Equipo Jurídico:**
+*   **Saneamiento de Títulos:** Verificar rigurosamente la tradición de los predios para el CCO. No podemos construir el cerebro del proyecto en un lote con problemas de falsa tradición o extinción de dominio.
+
+---
+
+### ✅ VEREDICTO FINAL
+El documento **"AT7_Gestion_Predial_MD.md"** es una guía de ejecución aprobada y estratégica.
+*   **Uso:** Manual operativo obligatorio para el equipo predial.
+*   **Valor:** Conecta la compra de tierra con la viabilidad tecnológica del tren.
+
+⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la versión 4.1 del documento. El incumplimiento en la entrega de los predios según el cronograma del AT9 genera penalidades (**DICP - Deducción por Índice de Cumplimiento Predial**) que afectan directamente la retribución y pueden conllevar a procesos sancionatorios. Los avalúos deben cumplir estrictamente la normativa del IGAC y ser aprobados por el Comité Técnico.
+
