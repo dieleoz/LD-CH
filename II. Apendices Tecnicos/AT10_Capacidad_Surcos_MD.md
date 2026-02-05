@@ -885,26 +885,56 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 ---
 
 ## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** AT10_Capacidad_Surcos_MD v4.1/v5.0
-**Dictamen:** ✅ APROBADO TÉCNICAMENTE / ALERTA DE INTEROPERABILIDAD
+**Documento:** AT10_Capacidad_Surcos_MD.md (v4.1)
+**Dictamen:** ✅ ESTRATÉGICO Y TÉCNICAMENTE SUPERIOR
 
-### 📊 ANALISIS ESTRATÉGICO
-Este documento regula la **"Capacidad Disponible"** (Línea Base Técnica) del proyecto. Su correcta gestión es el único escudo contra multas por discriminación en el acceso de terceros y garantiza los surcos para el mantenimiento preventivo.
+El documento es contractualmente sólido. Transforma la obligación legal de "calcular capacidad" (AT10 PDF) en una ventaja competitiva mediante la simulación avanzada. Al aplicar la Metodología Punto 42 (Lógica PTC/Virtual Block), el documento justifica un aumento teórico de la capacidad de transporte, lo cual es vital para el modelo financiero, aunque introduce riesgos de integración con terceros.
 
-### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **Doble Metodología (UIC-405 + Simulación):** El MD excede el contrato al exigir validación cruzada, blindando al EPC ante reclamos de terceros por "falta de capacidad".
-2. **Interoperabilidad (FENOCO):** Define los protocolos de "Handoff" en Chiriguaná para que los surcos sean continuos y no generen indisponibilidad en el AT4 (Indicador ST).
-3. **Integración SICC:** Cada asignación de surco debe generar un log automático. La gestión manual es causal de incumplimiento (Indicador E3).
+### 🚄 1. LA FÓRMULA DE LA CAPACIDAD (EL MODELO DE NEGOCIO)
+El documento MD estructura correctamente el cálculo de la capacidad exigido en el Capítulo II del AT10 PDF:
 
-### ⚠️ ACTUALIZACIÓN PUNTO 42
-- **Lógica PTC (FRA):** Los surcos se calculan bajo cantonamiento virtual. Esto permite aumentar la capacidad teórica en un 25% frente a la base del 2024.
-- **Redundancia N+1:** El software de simulación debe correr en servidores espejo. La caída del gestor de surcos paraliza la facturación.
+**A. Metodología Dual (Defensa Técnica)**
+*   **Simulación Dinámica (PTC/FRA):** El MD instruye usar software (ej. RailSys/OpenTrack) basado en la lógica del sistema de control PTC. Esto permite "ver" surcos que un cálculo manual no mostraría.
+*   **Validación Estática (UIC-405):** Se usa como contraste y respaldo ante la ANI.
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Operaciones:** Publicar trimestralmente la capacidad en la web (Sección 4.2). La opacidad es riesgo legal.
-2. **Sistemas:** Sincronizar el gestor de surcos con el reloj maestro GPS del sistema TETRA.
-3. **Legal:** Validar que cada surco asignado a un tercero tenga un "Acuerdo de Operación" firmado que limite la responsabilidad del EPC.
+**B. Capacidad Disponible vs. Asignada**
+*   **Fórmula:** Capacidad Disponible = Capacidad Ferroviaria - Capacidad Asignada.
+*   **Impacto:** Solo se vende lo que sobra después de Trenes de Pasajeros, Carga Propia y Mantenimiento (AT4).
 
-**VEREDICTO FINAL:** Documento técnico de alta precisión. Imprescindible para la transición a la Fase de Operación en 2026.
+### ⏱️ 2. GESTIÓN DE TERCEROS (EL RIESGO DE "OPEN ACCESS")
+El documento gestiona uno de los riesgos operacionales más altos: la solicitud de acceso por parte de otros operadores.
 
-⚠️ **ADVERTENCIA LEGAL:** La capacidad disponible es un bien público regulado por la ANI. Cualquier restricción no justificada técnicamente en el SICC puede derivar en la caducidad del contrato por obstrucción al libre acceso.
+**Procedimiento de Respuesta Express (10 Días):**
+*   **La Trampa:** Si un tercero pide un surco, tenemos solo 10 días para responder.
+*   **Solución MD:** Exige tener el Modelo de Simulación siempre "vivo". El software debe dar la respuesta en horas. Si no, la ANI asigna a la fuerza.
+
+### 🚀 3. ACTUALIZACIÓN PUNTO 42 (CAPACIDAD VIRTUAL)
+La versión digital introduce optimización tecnológica:
+
+1.  **Cantonamiento Virtual (Virtual Block):**
+    *   **Contexto:** PTC permite trenes más cerca entre sí.
+    *   **Beneficio:** Aumento estimado del 25% en capacidad teórica.
+    *   **Riesgo:** Si FENOCO no tiene compatible a bordo, se degrada a capacidad convencional.
+
+2.  **Integración SICC - CTC:**
+    *   **Objetivo:** Automatizar el reporte trimestral a la ANI y evitar multas por errores manuales.
+
+### 🚦 4. INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+**Para el Gerente de Operaciones:**
+*   **Simulación Inmediata:** Contratar y calibrar software (RailSys/OpenTrack) en los primeros 30 días.
+*   **Tablero Público:** Habilitar el "Tablero de Capacidad Disponible" en la web para evitar sanciones por libre competencia.
+
+**Para el Director de Ingeniería (Sistemas):**
+*   **Sincronización:** Reloj del simulador sincronizado al milisegundo con CTC y TETRA.
+
+**Para el Equipo Jurídico:**
+*   **Acuerdos:** Redactar modelos de "Acuerdo de Operación" y "Protocolo de Seguridad" para terceros.
+
+### ✅ VEREDICTO FINAL
+El documento **"AT10_Capacidad_Surcos_MD.md"** es una herramienta de gestión comercial y técnica indispensable.
+*   **Uso:** Base para comercialización y defensa ante ANI.
+*   **Alerta:** La capacidad "Virtual Block" solo es real si todos los trenes tienen tecnología compatible.
+
+⚠️ **ADVERTENCIA LEGAL:** El Concesionario no puede negar el acceso a terceros si existe capacidad disponible. La única causal válida es la justificación técnica demostrable (simulación). La falta de respuesta en 10 días es incumplimiento contractual.
+
