@@ -798,6 +798,18 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
+|:---|:---|:---|:---:|:---:|:---|
+| R-101 | Fallo Simulación | Técnico | Baja | Alto | Discrepancia >10% entre simulación y realidad |
+| R-102 | Bloqueo ITCS | Contractual | Alta | Crítico | Retraso en definición de especificaciones |
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE (v4.1)
+**Estado:** ✅ Validado.
+
+**Metodología:** Se estableció el uso dual de la Simulación computacional CTC y el método UIC-405 para contraste de capacidad.
+
+**Interoperabilidad:** Define claramente el Modelo Gateway para la coordinación con el CCO de FENOCO y la gestión de surcos para terceros operadores.
 |:---|:---|:---:|:---:|:---:|:---|
 | R-355 | Alineación AT3 para PTC | Técnico | Baja | Alto | Garantizar que la simulación refleje el AT3_MD v5.0. |
 | R-356 | Interoperabilidad FENOCO en capacidad y surcos | Técnico | Media | Alto | Simulación de interoperabilidad con FENOCO |

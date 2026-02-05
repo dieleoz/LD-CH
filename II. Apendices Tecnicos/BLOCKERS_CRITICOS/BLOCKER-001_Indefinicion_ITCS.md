@@ -8,6 +8,15 @@
 
 ---
 
+## ⚖️ ESTADO ACTUAL (Reporte Forense)
+**Estado:** 🔴 CRÍTICO - REQUIERE ACCIÓN.
+
+**Diagnóstico:** El 58% del proyecto ($152,748M COP) está en riesgo debido a la falta de definición formal entre ATP/PTC vs ETCS Level 2.
+
+**Recomendación:** Activar la Fase 1 del Plan de Resolución (Oficio formal a la ANI) de inmediato para evitar retrasos superiores a 3 meses en la ingeniería de detalle.
+
+---
+
 ## ⚠️ **PROBLEMA CRÍTICO**
 
 ### **Indefinición Contractual:**
