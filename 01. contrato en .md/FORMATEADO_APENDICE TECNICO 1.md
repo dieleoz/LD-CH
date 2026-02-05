@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 1 - ALCANCE DEL PROYECTO
+# APÉNDICE TÉCNICO 1 - ALCANCE DEL PROYECTO
 
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
@@ -6,19 +6,6 @@
 **Contrato:** Concesión No. 001 de 2025 
 **Apéndice:** AT1
 
----
-
-## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT1 | | **Estado** | ✅ Contenido completo |
-
----
-
-## DESCRIPCIÓN DEL DOCUMENTO **Alcance del Proyecto - Infraestructura Férrea** Este apéndice técnico define el alcance completo del proyecto Corredor Férreo La Dorada-Chiriguaná, incluyendo la infraestructura férrea, logística y anexidades requeridas.
-
----
-
-## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
----
 
 # REPÚBLICA DE COLOMBIA
 
@@ -30,7 +17,6 @@ CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No 001 DE 2025 Entre: Concedente: Agencia
 
-Nacional de Infraestructura Concesionario: CONCESIÓN LÍNEA FERREA CENTRAL S.A.S APÉNDICE TÉCNICO 1 ALCANCE DEL PROYECTO Página 1 de 70 TABLA DE CONTENIDO
 
 ### CAPÍTULO I - INTRODUCCIÓN 4
 
@@ -82,11 +68,9 @@ Criterios de diseño 78
 
 #### 8.2 Alcance de los
 
-Estudios de Detalle 78 Página 2 de 70 LISTA DE TABLAS Tabla 1 Listado de municipios que hacen parte del Corredor del Proyecto 6 Tabla 2 Listado de Puentes en el Corredor del Proyecto 11 Tabla 3 Distribución de rieles existentes de 75 lbyd y 90 lbyd 14 Tabla 4 - Apartaderos del Corredor del Proyecto 15 Tabla 5 - Estaciones del Corredor del Proyecto 15 Tabla 6 - Unidades
 
-Funcionales de Vía Férrea - UFVF 20 Tabla 7 -Actividades mínimas previstas para la Rehabilitación 24 Tabla 8 - Anchos máximos y mínimos permitidos para trocha yárdica 30 Tabla 9 - Puentes Priorizados 32 Tabla 10 - Unidad Funcional- UF 1 33 Tabla 11 - Unidad Funcional - UF 2 34 Tabla 12 - Características mínimas taller pesado 37 Tabla 13 - Equipamiento mínimo taller pesado 38 Tabla 14 - Características mínimas taller liviano 41 Tabla 15 - Equipamiento mínimo taller liviano 41 Tabla 16 - Características mínimas edificio administrativo y ceo 44 Tabla 17 - Requerimientos mínimos para el Sistema Señalización, Control de Tráfico y Comunicaciones 47 Tabla 18 - Unidad Funcional - UF 3 51 Tabla 19 - Características mínimas CTC Operación Temprana 52 Tabla 20 - Equipamiento mínimo CTC operación temprana 54 Tabla 21 - Normas técnicas para los
+Funcionales de Vía Férrea - UFVF 20 Tabla 7 -Actividades mínimas previstas para la Rehabilitación 24 Tabla 8 - Anchos máximos y mínimos permitidos para trocha yárdica 30 Tabla 9 - puentes Priorizados 32 Tabla 10 - Unidad Funcional- UF 1 33 Tabla 11 - Unidad Funcional - UF 2 34 Tabla 12 - Características mínimas taller pesado 37 Tabla 13 - Equipamiento mínimo taller pesado 38 Tabla 14 - Características mínimas taller liviano 41 Tabla 15 - Equipamiento mínimo taller liviano 41 Tabla 16 - Características mínimas edificio administrativo y ceo 44 Tabla 17 - Requerimientos mínimos para el Sistema Señalización, Control de Tráfico y Comunicaciones 47 Tabla 18 - Unidad Funcional - UF 3 51 Tabla 19 - Características mínimas CTC Operación Temprana 52 Tabla 20 - Equipamiento mínimo CTC operación temprana 54 Tabla 21 - Normas técnicas para los
 
-Estudios de Detalle de Instituciones Educativas 56 Tabla 22 - Cuadro de áreas necesarias Institución Santo Domingo 58 Tabla 23 - Cuadro de áreas necesarias Escuela San José Primavera 58 Tabla 24 - Relación de pasos a nivel identificados en la Estructuración 60 Tabla 25 - Velocidades máximas en la Franja Operacional 70 Página 3 de 70 CAPÍTULO! INTRODUCCIÓN a) De conformidad con lo previsto en el Contrato, el presente Apéndice contiene el alcance y las condiciones técnicas que regirán el Proyecto. Sin
 
 perjuicio de la obligación del
 
@@ -128,13 +112,13 @@ integral de este Apéndice el "Anexo ATl" que se
 
 compone de lo siguiente: ATl-1 Áreas del proyecto: 1. Franja Operacional se presenta como archivo shape y
 
-Excel de coordenadas Página [( de qj
 
 ---
 
  2. Corredor del Proyecto se presenta como archivo shape y
 
-Excel de coordenadas ATI-2 Anexo BIM. ATl-3 Inventario de Material Rodante. Página de CAPÍTULOII 2.1. Descripción General DESCRIPCIÓN DEL PROYECTO a) El Proyecto tiene por objeto el
+Excel de coordenadas ATI-2 Anexo BIM. ATl-3 Inventario de Material Rodante. 
+
 
 otorgamiento de una concesion para que, de conformidad con lo previsto en el Contrato y en sus Apéndices, el Concesionario, por su cuenta y riesgo, lleve a cabo (i) todas las actividades necesarias para la financiación, Gestión Predial, Gestión Social y Ambiental y de Redes, la elaboración de los
 
@@ -172,7 +156,7 @@ Rodante de la Nación será sujeto a una Puesta a Punto como obligación del Con
 
 transporte de carga de una manera eficiente y segura. 2.2. Localización El Corredor del Proyecto en su recorrido pasa por los siguientes
 
-municipios de acuerdo con la Tabla l. Tabla 1 Listado de municipios que hacen parte del Corredor del Proyecto SONSÓN Página de fl :u PK 248700 PUERTO TRIUNFO PUERTONARE PUERTO BERRÍO CIMITARRA PUERTO PARRA SIMACOTA BARRANCABERMEJA PUERTO WILCHES
+municipios de acuerdo con la Tabla l. Tabla 1 Listado de municipios que hacen parte del Corredor del Proyecto SONSÓN 
 
 SABANA DE TORRES RIONEGRO LA ESPERANZA SAN ALBERTO SAN MARTÍN RÍO DE ORO AGUACHICA PELAYA TAMALAMEQUE PAILITAS CHIMICHAGUA CURUMANÍ CHIRIGUANÁ PK269540 PK 299800 PK 299+800 PK 332+500 PK 332+500 PK 375+750 PK 375+750 PK 403+750 PK 403+750 PK 423+400 PK 423+400 PK 465+250 PK 465+250 PK 485+400 PK 485+400 PK 515+400 PK 515+400 PK 524+500 PK 524+500 PK 528+800 PK 528+800 PK 540+500 PK 540+500 PK 572+700 PK 572+700 PK 577+800 PK 577+800 PK 588+300 PK 588+300 PK 617+000 PK 617+000 PK 639+800 PK 639+800 PK 642+000 PK 642+000 PK 652+900 PK 652+900 PK 662+800 PK 662+800 PK 696+500 PK 696+500 PK 712+800 PK 712+800 PK 722+683 El corredor tiene cuatro ramales, de los cuales dos pertenecen al proyecto y son las siguientes: a) En el PK 597+652 existe el
 
@@ -180,13 +164,13 @@ comienzo de un ramal de 4.6 km que conduce a la estación y
 
 puerto de Capulco, en la orilla del Río Magdalena. b) En el PK 604+265 al
 
-sur de la Estación de Gamarra hay un desvío que lleva hasta las antiguas instalaciones donde anteriormente funcionaba el IDEMA. Página de i Fi ura 1- Localización del Corredordel Proyel!!o V ). 1 Fuente: Setec - Gómez Cajiao. 2020 Página
+sur de la Estación de Gamarra hay un desvío que lleva hasta las antiguas instalaciones donde anteriormente funcionaba el IDEMA. 
 
 ij de ruJ.
 
 ---
 
- 150.00Q tiOOODG Figura 2-Esquema topológico del Corredor del Proyecto GRECIA. - BARNCABER!.1EJ, 1 1 i 1 : ! 1 BMRANCE;RMEJA --:(;W.1Al'lRA '"-"-!--"'"_... ...._..,..,.............1. 1---'-----......;. ..-- ! 1 i if GAMAr:tJ¼,CHIRIG.tJANA. Fuente: Setec - Gómez Cajiao. 2020 Página de ! CAPÍTULO 111 INFRAESTRUCTURA FÉRREA a) En los términos indicados en el presente Apéndice Técnico y en el Contrato, se encuentra incluido dentro del Proyecto y hace
+ 150.00Q tiOOODG Figura 2-Esquema topológico del Corredor del Proyecto GRECIA. - BARNCABER!.1EJ, 1 1 i 1 : ! 1 BMRANCE;RMEJA --:(;W.1Al'lRA '"-"-!--"'"_... ...._..,..,.............1. 1---'-----......;. ..-- ! 1 i if GAMAr:tJ¼,CHIRIG.tJANA. Fuente: Setec - Gómez Cajiao. 2020 
 
 parte de la Infraestructura Férrea todo aquello que haga
 
@@ -240,7 +224,6 @@ obras de drenaje transversal (alcantarillas circulares y
 
 alcantarillas de cajón), obras de drenaje longitudinal (cunetas, canalizaciones), drenes superficiales y desagües que permiten la eliminación de las aguas. e) Los puentes existentes a lo largo del Corredor del Proyecto que hacen parte del Proyecto y que se detallan en la siguiente tabla. Página
 
-jjj de Tabla 2 Listado de Puentes en el Corredor del Proyecto K205261.14 Doña Juana VG-S 75.75 5 2 K208649.03 Pontona 1 VG-S 45.45 3 3 K21041 l.89 Pontona2 VG-S 45.45 3 4 K213246.71 Pontona3 VG-S 60.6 4 5 K228169.31 Quebrada el Tigre VG-S 45.45 3 6 K237710.99 La Miel VG-S 227.25 15 7 K248388.29 Río Claro VG-S 60.6 4 8 K258 132.46 Caño Hediondo VG-S 30.3 2 9 K258411.62 Tolones VG-S 30.3 2 10 K269510.17 Cocomá VG-S 90.9 6 11 K287208.05 Río San Pablo VG-S 45.6 3 12 K290500.48 Río Nare W-P I 155.35 2 13 K309832.33 Caño San Pablo Pony 19.8 14 K319084.50 Caño Negro VG-S 24.6 2 15 K332232.02 Río Magdalena W-P_I 587 9 16 K332985.93 Ecopetrol VG-S 7.58 1 17 K334415.38 Caño Negrito VG-S 6.56 1 18 K335303.24 Caño Negro VG-S 30.45 2 19 K355268.56 San Juan VG-S 61 4 20 K374317.89 Valparaíso VG-S 30.45 3 21 K375727.05 Carare W-P I - VG-S 201 6 22 K377826.00 Doradas VG-S 45.45 3 23 K386391.58 El Clavo VG-S 60.6 4 24 K391515.50 El 59 VG-S 45.45 3 25 K400036.21 Caño Macías VG-S 60.6 4 26 K402576.88 Doraditas VG-S 45.45 3 27 K403677.43 Opón W-P_I- VG-S 108.2 3 28 K4 l 7520.26 Vizcaína VG-S 45.45 3 29 K423367.72 Colorada VG-S 106.05 7 30 K432177.75 Cuatro Bocas VG-S 45.45 3 31 K442980.86 Las Camelias VG-S 15.88 32 K447780.40 Ciénaga San VG-S- Vial 76 5 Silvestre 33 K455 133.96 Barbacoas VG-S 45.5 3 34 K459531.52 Jeringa VG-S - Vial 61.6 4 35 K465200.03 Sogamoso W-P I 153.4 2 36 K473553.67 El 13 VG-S 45 3 37 K480304.25 Caño la Pradera VG-S 45 3 38 K485307.14 LaGómez VG-S 60.5 4 Página 12 de 70 39 K497303.48 La sin Nombre VG-S 45 3 40 K500985.33 LaPescao VG-S 45.5 3 41 K503434.81 Caño Mariposa VG-S 45.45 3 42 K506763.90 Puente Roto VG-S 45.45 3 43 K507932.32 La Santa VG-S 45.45 3 44 K508451.93 La Torre VG-S 30.3 2 45 K513021.54 Caño Vélez VG-S 30.3 2 46 K515259.70 Lebrija VG-S 136.8 9 47 K518605.43 Quebrada Doradas VG-S 30.3 2 48 K521 854.90 La Palma VG-S 30.3 2 49 K524434.88 Quebrada Cachira VG-S 106.05 7 50 K524751.68 Caño Pato VG-S 45.45 3 51 K528253.30 El Tropezón VG-S 45.5 3 52 K528777.75 El Hoyo VG-S 121 8 53 K529855.68 Caño Picho 1 VG-S 60.8 4 54 K530 193.34 Caño Picha 2 VG-S 30.4 2 55 K532487.29 Caño Yucatá VG-S 15.2 1 56 K532973.85 Quebrada la Llana VG-S 15.2 Tama á 57 K539271.65 San Alberto VG-S 45.5 3 58 K540533.60 Guadas VG-S 60.3 4 59 K541825.04 Minas Dos Pony 13.5 1 60 K547395.ll Agua Blanca VG-S 45.45 3 61 K548564.14 Caño San Juan VG-S 30.3 2 62 K550573.87 Minas Uno VG-S 30.3 2 63 K554264.56 Caño Seco VG-S 75.75 5 64 K555250.15 Torcoroma VG-S 45.45 3 65 K558249.64 Caño Sapo VG-S 45.45 3 66 K558680.35 Quebrada la VG-S 45.45 3 Paiulia 67 K560341.47 Quebrada el VG-S 45.45 3 Beiuco 68 K566050.20 La Colorada VG-S 30.3 2 69 K567960.17 LaRayita VG-S 30.3 2 70 K572726.22 Caño Largo VG-S 30.3 2 71 K582833.71 La Pradera VG-S 60.6 4 72 K583277.12 Tumba chicha VG-S 45.5 3 73 K589688.12 Caño Cabezas VG-S 30.4 2 74 K590748.98 Peralonso VG-S 30.4 2 75 K592506.02 Buturama VG-S 45.5 3 76 K608000.43 Noriam VG-S 30.4 2 77 K618238.21 Pallares VG-S 30.4 2 Página 13 de 70 78 K622960.28 San Marcos VG-S 30.3 2 79 K637020.49 Simaña VG-S 91.2 6 80 K639526.46 Caño Alonso VG-S 45.7 3 81 K649072.23 Caño Sucio VG-S 30.3 2 82 K652579.61 Caño Raíces VG-S 45.45 3 83 K653689.49 Quebrada Espanta VG-S 30.3 2 84 K658006.58 Quebrada el Tigre VG-S 45.45 3 85 K662806.55 La Floresta VG-S 45.45 3 86 K667826.71 Caño Arenas VG-S 30.4 2 87 K672776.61 Caño Morrocoy VG-S 45.6 3 88 K676 162.18 Arroyo Hondo VG-S 45.6 3 89 K677611.23 Tunuma VG-S 30.4 2 90 K684870.71 Mohan VG-S 45.6 3 91 K696410.06 Quebra dientes VG-S 45.6 3 92 K702460.98 Champan VG-S 30.4 2 93 K705838.63 Animito VG-S 76.1 5 94 K707387.l 1 Caño Seco VG-S 45.6 3 95 K709765.55 San Pedro VG-S 45.6 3 96 K712875.90 Anime VG-S 76.1 5 97 K715088.83 Caño Madrid VG-S 30.3 2 98 (Ramal Kl460.78 Puente Río Sinaí VG-S Ca pulco G-S Sistema estructural compuesto por
 
 vigas de alma llena simplemente apoyadas . W-P_I Sistema estructural compuesto por módulos de armadura tipo Warren simplemente apoyados. W-P_I - VG-S Sistema estructural compuesto por
 
@@ -266,11 +249,9 @@ existentes de los rieles a las traviesas, las cuales se encuentran incompletas a
 
 largo de la Vía Férrea. e) Los cambiavías que se encuentran a las entradas y
 
-salidas de cada estación, los triángulos de inversión, líneas de servicio y cruce, así como los apartaderos. :t) Los apartaderos existentes. A continuación, en la Tabla 4, se listan los desvíos o apartaderos existentes a lo largo del Corredor del Proyecto: Página 15 de 70 Tabla 4 - Apartaderos del Corredor del Proyecto La Agustina PK 223810 PK224460 0,650 La Miel PK236409 PK237510 1,101 La Argelia PK 282154 PK283258 1,104 San Juan PK 354148 PK355165 1,017 Carare PK 376571 PK377606 1,035 Pull-papel PK406864 PK407901 1,037 Cuatrobocas PK430498 PK 431389 0,891 García Cadena PK472225 PK 473253 1,028 San Rafael PK516490 PK 517580 1,090 San Alberto PK533275 PK 534125 0,850 San José PK 552748 PK 553430 0,682 Santa Lucía PK 569800 PK 570800 1,000 Gamarra PK 604265 PK 605280 1,015 La Gloria PK 635991 PK 636970 0,979 Palestina PK 663805 PK664720 0,915 Zapatosa PK 679530 PK680506 0,976 Champan PK 701176 PK 701776 0,600 g) Estaciones existentes en el Corredor del Proyecto. A continuación, en la Tabla 5, se listan las estaciones que hacen parte del Corredor del Proyecto: Tabla 5 - Estaciones del Corredor del Proyecto
 
 ---
 
- MÉXICO PK 201470 OPERATIVA LA AGUSTINA PK 223810 INVADIDA LA MIEL PK236409 OPERATIVA PUERTO 1RIUNFO PK250183 OPERATIVA COCORNÁ PK269400 INVADIDA EN MAL ESTADO LA ARGELIA PK 282154 INVADIDA EN MAL ESTADO NAPOLES PK 313434 ENRUINA GRECIA PK327675 OPERATIVA CABAÑAS PK360650 (tramo OPERATIVA Grecia - Bello PUERTO OLAYA PK338250 INVADIDA SAN JUAN PK354148 OPERATIVA Página 16 de 70 CARARE PK 376571 OPERATIVA LAS MONTOYAS PK 390050 INVADIDA PULLPAPEL PK 406864 OPERATIVA LA VIZCAINA PK418000 ENRUINA BARRANCABERMEJA PK441932 OPERATIVA PUENTE SOGAMOSO PK465530 INVADIDA GARCIA CADENA PK 472225 OPERATIVA ELOY VALENZUELA PK 501963 INVADIDA SAN
 
 RAFAEL DE PK 516490 OPERATIVA LEBRDA SAN JOSÉ DE PK 552750 EN RUINA TORCOROMA SANTA LUCÍA PK 569800 MALESTADO GAMARRA PK 604265 OPERATIVA PALENQUILLO PK 618000 EN RUINA LA GLORIA PK 635991 MALESTADO PALESTINA PK 663805 ENRUINA ZAPATOSA PK679530 OPERATIVA EL CHAMPÁN PK 701176 ENRUINA h) Otros elementos existentes en la Vía Férrea
 
@@ -284,11 +265,9 @@ parte de la
 
 Entrega de la Infraestructura, y estará a cargo del Concesionario en los términos del Apéndice Técnico 2 mientras se surte el
 
-proceso de reversión al INVIAS. El proceso Página !tf de [8 de reversión de este ramal al INVIAS estará a
 
 cargo de la ANI, lo cual tendrá un Plazo máximo de Treinta (30) meses desde la
 
-Fecha de Inicio. Figura 3- Localización Ramal Cabañas 1 g 1 Eje Vía Férrea Eje Ramal Caballas Estación Férrea Fuente: Setec - Gómez Cajiao Página i,,( de ijá
 
 ### CAPÍTULO IV - INFRAESTRUCTURA FÉRREA PROYECTADA El Proyecto se ha sectorizado por Unidades
 
@@ -348,29 +327,37 @@ nivel de plataforma hasta los rieles, para soportar una carga máxima de 20 ton/
 
 muestra de manera esquemática la sección típica
 
-transversal de línea sencilla principal: Página 18 de 70 Figura 4-Sección Transversal Típica de la Vía Férrea :;-;,; Fuente: Sección de la Vía Férrea
 
 tomada de MRE-AREMA ajustada a trocha de 914mm. El Concesionario deberá llevar a cabo las Intervenciones tendientes a lograr una Operación confiable y segura, que evite potenciales accidentes y así dar cumplimiento a los Indicadores previstos en el Apéndice Técnico 4. A continuación, se listan en la Tabla 6 las Unidades
 
-Funcionales de Vía Férrea del Proyecto: Página 19 de 70 Tabla 6 - Unidades
 
-Funcionales de Vía Férrea - UFVF UFVF1 Cocorná - La Argelia 1,158,766.46 937,725.97 269+000 1,170,460.54 940,451.10 282+154 13.154 R. Cocorná UFVF2 La Argelia - La Sierra 1,170,460.54 940,451.10 282+154 1,180,738.06 944,945.47 295+000 12.846 R. San Pablo, R. Nare UFVF3 La Sierra - Grecia 1 1,180,738.06 944,945.47 295+000 1,188,114.26 951,737.88 305+892 10.892 UFVF4 La Sierra - Grecia 2 1,188,114.26 951,737.88 305+892 1,196,224.53 958,214.78 316+783 10.891 C. San Pablo UFVF5 La Sierra - Grecia 3 1,196,224.53 958,214.78 316+783 1,205,805.13 961,699.73 327+675 10.892 C.Negro UFVF6 Ramal Capulco 1,407,248.13 1,040,059.13 597+652 1,407,676.04 1,035,865.84 602+300 4.648 Q. Sinaí UFVF7 Gamarra - La Gloria -Iderna 1 1,413,618.63 1,039,420.87 604+265 1,421,500.96 1,040,101.23 612+197 8.232 Noriam UFVF8 Gamarra - La Gloria 2 1,421,500.96 1,040,101.23 612+197 1,429,388.83 1,040,927.21 620+128 7.931 Pallares UFVF9 Gamarra - La Gloria 3 1,429,388.83 1,040,927.21 620+128 1,437,218.33 1,041,336.61 628+060 7.932 San Marcos UFVF10 Gamarra - La Gloria 4 1,437,218.33 1,041,336.61 628+060 1,444,977.31 1,042,954.10 635+991 7.931 UFVF11 San Rafael - San Alberto 1 1332232.16 1055224.03 516+490 1336857.03 1058305.28 522+085 5.595 Q. Doradas La Palma Q. Cachira UFVF12 San Rafael - San Alberto 2 1336857.D3 1058305.28 522085 1341214.09 1061743.18 527680 5.595 C. Pato El Tropezón El Hoyo San Rafael - San Alberto 1341214.09 1061743.18 527680 1346511.22 1061002.98 533275 5595 C. Picho Uno C. Picho Dos C. Yucatá . La Llana San Alberto UFVF14 San Alberto - San José 1346511.22 1061002.98 533+275 1355915.35 1058475.07 543+013 9.738 Guaduas Minas Dos Agua Blanca UFVF15 San Alberto - San José 2 1355915.35 1058475.07 543+013 1365299.55 1055877.95 552+750 9.737 C. San Juan Minas Uno Simaña UFVF16 La Gloria - Zapatosa
+#### 4.1 Unidades Funcionales de Vía Férrea - UFVF
 
-#### 1444977.31 1042954.1 635991 1453626.89 1042876.51 644699 8.708 C. Alonso C. Sucio
+| UFVF | Tramo | PK Inicio | PK Fin | Longitud (Km) | Observaciones |
+|:---|:---|:---:|:---:|:---:|:---|
+| UFVF1 | Cocorná - La Argelia | 269+000 | 282+154 | 13.154 | R. Cocorná |
+| UFVF2 | La Argelia - La Sierra | 282+154 | 295+000 | 12.846 | R. San Pablo, R. Nare |
+| UFVF3 | La Sierra - Grecia 1 | 295+000 | 305+892 | 10.892 | |
+| UFVF4 | La Sierra - Grecia 2 | 305+892 | 316+783 | 10.891 | C. San Pablo |
+| UFVF5 | La Sierra - Grecia 3 | 316+783 | 327+675 | 10.892 | C. Negro |
+| UFVF6 | Ramal Capulco | 597+652 | 602+300 | 4.648 | Q. Sinaí |
+| UFVF7 | Gamarra - La Gloria - Idema 1 | 604+265 | 612+197 | 8.232 | Noriam |
+| UFVF8 | Gamarra - La Gloria 2 | 612+197 | 620+128 | 7.931 | Pallares |
+| UFVF9 | Gamarra - La Gloria 3 | 620+128 | 628+060 | 7.932 | San Marcos |
+| UFVF10 | Gamarra - La Gloria 4 | 628+060 | 635+991 | 7.931 | |
+| UFVF11 | San Rafael - San Alberto 1 | 516+490 | 522+085 | 5.595 | Q. Doradas, La Palma, Q. Cachira |
+| UFVF12 | San Rafael - San Alberto 2 | 522+085 | 527+680 | 5.595 | C. Pato, El Tropezón, El Hoyo |
+| UFVF13 | San Rafael - San Alberto 3 | 527+680 | 533+275 | 5.595 | C. Picho Uno, C. Picho Dos, C. Yucatá, La Llana, San Alberto |
+| UFVF14 | San Alberto - San José 1 | 533+275 | 543+013 | 9.738 | Guaduas, Minas Dos, Agua Blanca |
+| UFVF15 | San Alberto - San José 2 | 543+013 | 552+750 | 9.737 | C. San Juan, Minas Uno, Simaña |
+| UFVF16 | La Gloria - Zapatosa 1 | 635+991 | 644+699 | 8.708 | C. Alonso, C. Sucio |
+| UFVF17 | La Gloria - Zapatosa 2 | 644+699 | 653+407 | 8.708 | C. Raíces, Q. Espanta Muchacho |
 
 ---
 
- UFVF17 La Gloria - Zapatosa 2
-
-#### 1453626.89 1042876.51 644699 1462304.84 1042153.73 653407 8.708 C. Raíces Q. Espanta Muchacho
 
 ---
 
- UFVF18 La Gloria - Zapatosa 3 1462304.84 1042153.73 653407 1470995.93 1041657.23 662115 8.708 Q. El Tigre Página 21 de 70 UFVF19 La Gloria - Zapatosa 4 1470995.93 1041657.23 662+115 1479646.26 1041985.25 670+822 8.708 La Floresta C. Arenas C. Morrocoy UFVF20 La Gloria - Zapatosa 5 1479646.26 1041985.25 670+822 1488323.07 1042188.7 679+530 8.708 Arroyo Hondo Tunuma UFVF21 Zapatosa - Champán 1,488,323.07 1,042,188.70 679+530 1,498,581.72 1,043,680.10 690+353 10.823 Mohán UFVF22 Zapatosa - Champán 2 1,498,581.72 1,043,680.10 690+353 1,508,523.96 1,047,666.54 701+176 10.823 Quebradientes Champán UFVF23 Champán - Chiriguaná 1508523.96 1047666.54 701+176 1512798.69 1053200.96 708+201 7.025 Animito C. Seco San Pedro UFVF24 Champán - Chiriguaná 2 1512798.69 1053200.96 708+201 1519655.62 1054728.37 715+226 7.025 Anime C. Madrid UFVF25 Champán - Chiriguaná 3 1,519,655.62 1,054,728.37 715+226 1,526,511.53 1,056,255.80 722+683 7.457 UFVF26 México - La Agustina 1096983.57 934549.28 201+470 l l 03632.58 931971.46 208+917 7.447 Doña Juana Pontana 1 UFVF27 México - La Agustina 2 1103632.58 931971.46 208+917 l 110224.63 934652.02 216+364 7.447 Pontona2 Pontona3 UFVF28 México - La Agustina 3 1,110,224.63 934,652.02 216+364 1,117,369.06 935,956.32 223+810 7.447 UFVF29 La Agustina - La Miel 1,117,369.06 935,956.32 223+810 1,128,859.49 933,448.84 236+409 12.599 Q. El Tigre UFVF30 La Miel - Puerto Triunfo 1128859.49 933448.84 236+409 1141305.92 937374.26 250+158 13.749 R. La Miel R. Claro UFVF31 Puerto Triunfo - Cocomá 1141305.92 937374.26 250+158 1150261.82 938431.89 259+579 9.421 C. Hediondo Tolones UFVF32 Puerto Triunfo - Cocomá 2 1,150,261.82 938,431.89 259+579 1,158,766.46 937,725.97 269+000 9.421 Ecopetrol UFVF33 Grecia - San Juan 1205805.13 961699.73 327+675 1211307.79 971541.95 340+912 13.237 C. Negrito C. Negro UFVF34 Grecia - San Juan 2 1,211,307.79 971,541.95 340+912 1,216,908.85 983,221.77 354+148 13.236 UFVF35 San Juan - Carare 1,216,908.85 983,221.77 354+148 1,218,493.90 990,376.41 361+622 7.474 San Juan UFVF36 San Juan - Carare 2 1,218,493.90 990,376.41 361+622 1,222,479.24 996,508.63 369+096 7.474 UFVF37 San Juan - Carare 3 1,222,479.24 996,508.63 369+096 1,227,027.74 1,001,852.70 376+571 7.474 Valparaíso UFVF38 Carare - Pulpapel 1227027.74 1001852.7 376+571 1239164.81 1006609.47 391+718 15.147 Doradas Página 22 de 70
-
----
-
- El Clavo El59 UFVF39 Carare - Pullpapel 2 1239164.81 1006609.47 391+718 1243499.19 1017111.83 406+864 15.146 C. Macías Doraditas R. Opón UFVF40 Pullpalpel - Cuatro Bocas I 1,243,499.19 1,017,111.83 406+864 1,252,285.41 1,023,973.44 418+681 11.817 Q. Vizcaína UFVF41 Pullpalpel - Cuatro Bocas 2 1,252,285.41 1,023,973.44 418+681 1,262,727.25 1,024,570.29 430+498 11.817 Colorada UFVF42 Cuato Bocas - Barrancabermeja 1,262,727.25 1,024,570.29 430+498 1,272,317.25 1,025,415.10 441+932 11.434 UFVF43 Barrancaberrneja - García 1 1272317.25 1025415.1 441+932 1281094.97 1026448.14 452+030 10.098 Las Camelias Cadena C. San Silvestre UFVF44 Barrancaberrneja - García Cadena 2 1281094.97 1026448.14 452+030 1289780.33 1031137.8 462+127 10.097 Barbacoas Jeringa UFVF45 Barrancaberrneja - García 3 1,289,780.33 1,031,137.80 462+127 1,299,641.61 1,031,739.23 472+225 10.098 Río Sogamoso Cadena UFVF46 García Cadena - San Rafael 1 1299641.61 1031739.23 472+225 1308655.37 1035631.36 483+292 11.067 El 13 C. La Pradera UFVF47 García Cadena - San Rafael 2 1,308,655.37 1,035,631.36 483+292 1,317,703.28 1,039,668.57 494+358 11.066 La Gómez La Sin Sombre UFVF48 García Cadena - San Rafael 3 1317703.28 1039668.57 494+358 1323416.88 1048617.09 505+424 11.066 LaPescao C. Mariposa Puente Roto La Santa UFVF49 García Cadena - San Rafael 4 1323416.88 1048617_09 505+424 1332232.16 1055224.03 516+490 11.066 La torre C. Vélez R. Lebrija Caño Seco Torcororna UFVF50 San José - Santa Lucía 1 1365299.55 1055877.95 552+750 1372039.72 1053298.92 560+000 7.250 C. Sapo Q. La Pajulia UFVF51 -San José Santa Lucía I 1372039.72 1053298.92 560+000 Q. El Bejuco 1381017.93 1049373.62 569+800 9.800 La Colorada LaRayita Página 23 de 70 C. Largo UFVF52 Santa Lucía - Gamarra 1381017.93 1049373.62 569800 1397168.8 1043363.16 587033 17.233 La Pradera Tumbachicha C. Cabezas UFVF53 Santa Lucía - Gamarra 2 1397168.8 1043363.16 587+033 1407248. 13 1040059.13 604+265 17.232 Peralonso Buturarna Nota 1: Las coordenadas
 
 son de referencia. El Concesionario será responsable de ejecutar las intervenciones correspondientes a la longitud
 
@@ -378,7 +365,7 @@ efectiva de acuerdo con el
 
 resultado de los
 
-Estudios de Detalle. Nota 2: Todas las coordenadas indicadas están referenciadas al Sistema Magna Sirgas Origen Bogotá. Página[ de 1'.J El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el
+Estudios de Detalle. Nota 2: Todas las coordenadas indicadas están referenciadas al Sistema Magna Sirgas Origen Bogotá. 
 
 cumplimiento de lo establecido en el Federal Railroad Administration - FRA, para una clasificación FRA-3. A continuación, se listan las actividades mínimas requeridas que el Concesionario debe realizar para la Rehabilitación yo
 
@@ -418,7 +405,7 @@ actividades de relleno que permitan el
 
 cumplimiento de los
 
-Estudios de Detalle y cumpliendo con las especificaciones del A éndice Técnico 3. Se deben realizar todas las
+Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3. Se deben realizar todas las
 
 actividades de suministro e instalación de sub balasto y balasto que permitan el
 
@@ -440,7 +427,6 @@ uro de los ferrocarriles El Concesionario tiene la obligación de realizar todas
 
 limiento de los
 
-Estudios de Detalle Página i de PUENTES FÉRREOS Mantenimiento y
 
 limpieza de los puentes férreos, así como de sus soportes y
 
@@ -476,9 +462,9 @@ Cambio de las eclisas existentes por soldaduras aluminotérmicas en toda la
 
 longitud de la vía excepto en las
 
-zonas de los apartaderos y cruces inclu endo las
+zonas de los apartaderos y cruces incluyendo las
 
-salidas de los uentes. cumpliendo con las especificaciones del Apéndice Técnico 3. El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el
+salidas de los puentes. cumpliendo con las especificaciones del Apéndice Técnico 3. El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el
 
 cumplimiento de los
 
@@ -508,7 +494,6 @@ Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico
 
 cumplimiento de los
 
-Estudios de Detalle y Página 26 de 70 Cambio de las
 
 traviesas de concreto que presenten grietas que permitan ver el
 
@@ -564,7 +549,6 @@ Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico
 
 cumplimiento de los
 
-Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3. Página [ij de r.iij
 
 Ancho de trocha
 
@@ -594,7 +578,6 @@ cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213.1
 
 cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213.118 El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el
 
-cumplimiento de lo establecido en el Federal Railroad Adm inistration - FRA 213 .119 FRA 213.121 Página 28 de 70 Rieles cortados con soplete Eclisas
 
 Sistemas de sujeciones de rieles Cambiavías y
 
@@ -624,7 +607,6 @@ cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213 .
 
 cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213 .205 El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el
 
-cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213.233 Página 29 de 70 Inspección automática de vías construidas con
 
 traviesas de concreto Inspección de Switches, cambiavías u otros
 
@@ -684,7 +666,6 @@ espesor de la
 
 capa de subbalasto es insuficiente, deberá ser intervenida dicha capa para lograr el espesor requerido respetando los
 
-niveles de cabeza de Página 30 de 70 riel que defina el Concesionario en los Estudios y Diseños de Detalle del diseño geométrico de la vía férrea. Nota 2. Las normas del Federal Railroad Administration (FRA) están establecidas para una trocha estándar; así las cosas y en
 
 virtud de que el corredor férreo La Dorada - Chiriguaná, es y se mantendrá en trocha yárdica (914mm), proceden los siguientes
 
@@ -728,7 +709,6 @@ totalidad de la Vía Férrea. Estas largas barras soldadas se interrumpirán sol
 
 reemplazo de todas las fijaciones dañadas, así como completar las faltantes a lo
 
-largo de la Vía Férrea. Página 31 de 70 e) El Concesionario tiene la obligación de realizar la revisión y cambios necesarios en los aparatos cambiavías, los cuales se encuentran a las entradas y
 
 salidas de cada estación, triángulos de inversión, líneas de servicio, cruces y los apartaderos. f) El Concesionario deberá prever todas las actuaciones necesarias que le permitan el
 
@@ -780,7 +760,6 @@ Fecha de Inicio; de los cuales los primeros seis (6) meses corresponderán a la 
 
 Estudios de Detalle, la respectiva no objeción de la Interventoría y la obtención de los permisos requeridos, para que así en el tiempo restante se lleven a cabo las intervenciones proyectadas que tendrían un plazo máximo de doce (12) meses desde la
 
-Fecha de Inicio. Así las cosas, cualquier tiempo mayor que tomen los estudios y diseños, la respectiva no objeción, y los permisos requeridos, restara tiempo a las intervenciones, que tienen un Plazo Página 32 de 70 máximo de doce (12) meses. Por su parte, las Intervenciones en el puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
 ramales de conexión ubicado en el PK465200 al PK465353 y los ramales hasta la conexión con la vía existente Barrancabermeja - Puerto Wilches en ambos costados del puente, las cuales se deberán ejecutar en un
 
@@ -830,7 +809,6 @@ Acta de Terminación de Construcción y con ello la activación de la
 
 Etapa de Operación y Mantenimiento para dicho puente y respectivos
 
-ramales de conexión. A continuación, se listan los puentes prioritarios: Tabla 9 - Puentes Priorizados Página 33 de 70 Río Magdalena 33 PK332+230 PK 332+817 Estos cuatro puentes, Río Carare 37 PK375+727 PK375+928 sobre el corredor Puentes férreos Rio Cuatro Bocas 42 PK 432+178 PK432+223 principal requieren una Río Sogamoso 45 PK465+200 PK465+353 el estado
 
 actual de su estructura. Puente vehicular y peatonal PK 000000, y los ramales hasta la Nuevo eje vial PK 000850, Diseño, Construcción, y conexión con la vía existente Barrancabermeja - Puerto Río Sogamoso NIA (correspondiente al Nuevo eje vial Operación y PK 464+860 del Mantenimiento Wilches en ambos costados Corredor Férreo) del puente
 
@@ -862,7 +840,6 @@ Departamento de Caldas, y 1407248.1 1040059.1 3 3 PK597+652
 
 #### 0.85 puente y Puente priorizado Barrancabermej o 2 PK 464+860 del 4 5 Nuevo eje
 
-ramales de a- Puerto Corredor Férreo) vial conexión Wilches en nuevos ambos costados del uente Página 34 de 70 CCTV-UFl J;l Concesionario deberá implementar un
 
 Sistema de Circuito
 
@@ -912,7 +889,6 @@ estaciones de la Vía Férrea,
 
 ---
 
- Página 35 de 70 interacción entre todos los trenes, las infraestructuras, pasos a nivel tipo B y C, las instalaciones y el
 
 Centro de Control de la concesión . ien sea mediante enclavamiento electrónico o aplicación de desvíos libres o con
 
@@ -970,7 +946,6 @@ Mantenimiento de locomotoras Reparación y
 
 Mantenimiento de motores Reparación y
 
-Mantenimiento de generadores Página 36 de 70 Rectificación de ruedas Reparación de bastidores Reparación y Mantenimiento sistemas eléctricos Reparación y Mantenimiento sistemas electrónicos. Reparaciones intermedias Soldaduras
 
 Cambio de ruedas
 
@@ -1010,7 +985,6 @@ zonas de servicios como baños, duchas, vestieres o vestidores, comedor y cafete
 
 Edificio de operación Este es un edificio que, por las necesidades
 
-propias de un taller mecánico para locomotoras, requiere de alturas específicas en el área de trabajo, las cuales deben cumplir con las Página 37 de 70 Especificaciones listadas en el Apéndice Técnico 3. Aledaño a él se adosa un volumen menor con los
 
 espacios de servicio mecánico. Las áreas requeridas para el taller servirán para prestar el servicro físico de lavado, mantenimiento, reparación y suministro. También debe prever, pero sin limitarse a, cárcamos suficientes, patio de gatos, espacios de
 
@@ -1044,7 +1018,6 @@ estudio de demanda de servicios, y su estrategia y planificación de recursos pa
 
 #### 2.4 Cuarto. CCTV 21
 
-#### 2.5 Lockers 10 Página 38 de 70
 
 #### 2.6 2.7
 
@@ -1166,7 +1139,6 @@ Banco de prueba para válvulas neumáticas. 1 Banco de prueba para válvula dist
 
 resortes de suspensión. 1 Analizador de aceites Multifunción Tipo Oilview Quick-Chec O Similar. Viscosímetro Portátil. b) Taller Liviano El Concesionario deberá llevar a cabo los
 
-Estudios de Detalle, trámites de Licencias y Página 40 de 70 Permisos, Gestión Predial, Construcción, dotación de equipos y mobiliario (suministro, instalación y montaje), herramientas, pruebas individuales y de conjunto y demás actividades necesarias requeridas para contar con un taller liviano completamente operativo y funcional, que cumpla los requerimientos mínimos descritos en el Apéndice Técnico 3, y el presente Apéndice Técnico. El taller liviano se deberá ubicar en el
 
 municipio de Chiriguaná, a la altura del PK721+600, dentro de la
 
@@ -1192,7 +1164,6 @@ edificio de portería deberá contar como mínimo de un baño por género, cuart
 
 Edificio de operación, administración y servicios Este edificio deberá contar con las áreas mínimas presentadas en la Tabla 14. El edificio estará compuesto por un volumen que, por las necesidades
 
-propias de un taller mecánico para locomotoras, requiere alturas que cumplan con lo previsto en el Apéndice Técnico 3, para este tipo de área de trabajo, y aledaño a él se adosa un volumen menor con los espacios para el servicio mecánico, administrativo, área de repuestos, área para Página 41 de 70 disposición de residuos líquidos, sólidos y de servicios del personal. Estos volúmenes hacen referencia a los espacios propios del taller que sirven para prestar el servicio físico de mantenimiento, reparación sencilla y suministro, así como los
 
 espacios de oficinas, baños, duchas, almacenamiento, comedor, taller de soldadura, entre otros. La función
 
@@ -1234,7 +1205,6 @@ detallados de la operación del mismo a la administración del taller pesado. Ta
 
 #### 3.2 tanque industrial 333 Vías vehiculares, parq ueaderos, andénes y patio
 
-#### 3.3 maniobras 1560 Tabla 15 - Equipamiento mínimo taller liviano Página 42 de 70 1
 
 #### 1.1 1.2 2
 
@@ -1270,7 +1240,7 @@ capacidad de fundir electrodos revestidos mínimo 2 de 14. Así mismo de fundir
 
 electrodos de carbón ara corte.
 
-Equipo de oxiacetileno (antorcha, manómetro, mangueras y regulador) equipo de 2 oxiacetileno, inclu endo iue
+Equipo de oxiacetileno (antorcha, manómetro, mangueras y regulador) equipo de 2 oxiacetileno, incluyendo iue
 
 os de botellas de oxí eno acetileno c)
 
@@ -1326,7 +1296,6 @@ municipio de La Dorada, a la
 
 altura de la bodega IDEMA. Este edificio, por su estructura funcional, debe estar dividido en el área de la administración de la operación, el área del
 
-centro de control de la operación y áreas de servicios comunes. Página 44 de 70 Los
 
 Estudios de Detalle que debe presentar el Concesionario deberá tener en cuenta la inclusión de software y hardware que sean
 
@@ -1370,7 +1339,6 @@ cuarto de crisis. Además, deberá contar con
 
 salida de emergencia y un sistema contra incendios. Tabla 16 - Características mínimas edificio administrativo y ceo o 1
 
-#### 1.1 1.2 Aréa Total Porterías Zona vi ilancia Baño Página OC de [ 5800 13 8 2
 
 #### 1.3 Cocineta 3 Edificio Administrativo y
 
@@ -1412,7 +1380,6 @@ estructura de Vía Férrea necesarias para poder atender la
 
 demanda de transporte del Proyecto. El Concesionario tiene la obligación de ejecutar las siguientes obras y actividades específicas, pero sin limitarse a: Definición y Construcción de líneas férreas auxiliares Implementación del
 
-Sistema de comunicación para la Vía Férrea. Página 46 de 70 Definición de operatividad en las
 
 estaciones de la Vía Férrea, bien mediante enclavamiento electrónico o aplicación de desvíos libres o con
 
@@ -1484,7 +1451,6 @@ sistemas de talonamiento, permiten las
 
 acciones de cambio en los aparatos cambiavías, para la orientación del tránsito de un tren, en vía principal, desviada o terceras líneas. 3 Pasos a Nivel: Intersección a un mismo
 
-nivel de una vía común con una Vía Férrea. (ANI). Página 47 de 70 la zona. La topología de la red contempla los canales para las
 
 conexiones de voz intersitio y
 
@@ -1560,7 +1526,6 @@ condiciones de seguridad, basado en los requerimientos y estándares establecido
 
 ---
 
- Página 48 de 70 IMPLEMENTACIÓN
 
 SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES train control (PTC)⁴ con cantonamiento virtual, incluidos en código de regulaciones
 
@@ -1612,7 +1577,6 @@ seguridad de la información v datos recolectados 4 En la web
 
 oficial de la Federal Railroad Administration - https:railroads.dot.govtrain-controlptcptc- system-information - se puede tener acceso a los estándares, guías, instrucciones y en general a toda la documentación referente a los sistemas tipo PTC, así como a los sistemas que han sido aprobados por la FRA como aquellos que cumplen con los requerimientos PTC fijados mediante el código de regulaciones
 
-federales de Estados Unidos. Página 49 de 70 IMPLEMENTACIÓN
 
 SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES y su respaldo por un periodo de 5 años y minimizar el riesgo a intrusiones no autorizadas a los sistemas y su operación. Implementar las herramientas para garantizar la seguridad
 
@@ -1750,7 +1714,6 @@ Cerrado de Televisión (CCTV) en al menos los siguientes
 
 sitios de la UF2: edificio administrativo, edificio de
 
-Centro de Página 51 de 70 Control de Operaciones (CCO), talleres de
 
 mantenimiento de trenes, sitios de
 
@@ -1802,7 +1765,6 @@ pruebas de los equipos logísticos requeridos para la correcta Operación de los
 
 centros de transferencia de carga, en función de la demanda atendida, como son pero sin limitarse a: a)
 
-Manejo de contenedores y carga suelta: montacargas, elevadores, reach stacker (con capacidad hasta 5 niveles) b) Otros: básculas, equipos de talleres, puente grúas. Página 52 de 70 De igual forma incluye los equipos tecnológicos que garanticen el correcto funcionamiento, monitoreo, trazabilidad y
 
 vigilancia de la carga y servicios prestados, pero sin limitarse, con los respectivos hardware y software para ello: a)
 
@@ -1830,7 +1792,7 @@ patio de contenedores y carga suelta). Se estima que este CTC Operación Tempran
 
 #### 2.1 Acceso
 
-#### 2.2 Atención-documentación Página de rij 44958 26 13 8 2 3 13 8 2 3 294 19 22
+#### 2.2 Atención-documentación 
 
 #### 2.3 Sala de espera 54
 
@@ -1910,7 +1872,6 @@ patio de contenedores y carga suelta). Se estima que este CTC Operación Tempran
 
 #### 4.13 Laboratorio 5
 
-#### 4.14 Zona de caniles 12 Página S de f:í8
 
 #### 4.15 Cuarto de vigilancia 12
 
@@ -1970,7 +1931,6 @@ patio de contenedores y carga suelta). Se estima que este CTC Operación Tempran
 
 #### 1.1 Reach Stacker 45t Diesel (Para contenedores de 20' y 40' a 5 niveles en altura)
 
-#### 1.2 Reach Stacker 45t Diesel (Para contenedores de 20' y 40' a 6 niveles en altura) Página 55 de 70
 
 #### 1.3 Montacargas de ruedas 1 0t Diesel (De horquillas, con cabina cerrada) 1
 
@@ -2018,7 +1978,6 @@ control de tráfico y de estaciones, la seguridad vial férrea y vehicular - pas
 
 seguridad de la carga y de las instalaciones logísticas, la
 
-seguridad de las instalaciones administrativas (accesos), y en general la vigilancia y el monitoreo (con video) de la infraestructura relevante. Página 56 de 70
 
 #### 4.4 Instituciones educativas
 
@@ -2056,7 +2015,6 @@ Colombiano de Fontanería NTC 2505 Instalación y
 
 Suministro de Gas NTC 5356 Instalación de Calentadores a Gas NTC 3838 Gasoductos
 
-presiones de operación permisibles para el transporte y distribución de gas Página 57 de 70 NORMA TÉCNICA DESCRIPCIÓN Ley 361 de 1997 Integración
 
 social de las personas con limitación
 
@@ -2112,7 +2070,6 @@ aulas de clase, zonas recreativas y deportivas, zonas donde se permita el
 
 desarrollo de actividades informales y ambientes pedagógicos complementarios que buscan mejorar la
 
-calidad de los servicios educativos, todo de conformidad con la NTC 4595. Asimismo, deberá cumplir, como mínimo, con las siguientes áreas: Página 58 de 70 Tabla 22 - Cuadro de áreas necesarias Institución Santo Domingo Área total Lote 1500 Área construida 350 Área Zonas Verdes 300 Área de juegos 98 Área deportiva 146 Otros 606 Escuela San José Sede Centro Educativo La Primavera El colegio San José Sede Centro Educativo La Primavera tendrá como finalidad atender las
 
 necesidades de los habitantes del
 
@@ -2134,7 +2091,6 @@ desarrollo de actividades informales y ambientes pedagógicos complementarios qu
 
 calidad de los servicios educativos, todo de conformidad con la NTC 4595. Asimismo, deberá cumplir, como mínimo, con las siguientes áreas: Tabla 23 - Cuadro de áreas necesarias Escuela San José Primavera Área total Lote 2921 Área construida 1075 Área Zonas Verdes 702 Área de juegos 182 Área deportiva 201 Otros 761 Nota 1: Las obligaciones adquiridas por la ANI mediante el convenio interadministrativo
 
-son de carácter vinculante para el Concesionario; así las cosas, dichas obligaciones se consideran transcritas y espejo en el Contrato. Nota 2: La asignación de riesgos para las instituciones educativas sigue las mismas reglas establecidas en el Contrato hasta su Reversión. Página 59 de 70
 
 #### 4.5 Pasos a nivel El Concesionario deberá llevar a cabo los Estudios y Diseños de Detalle los cuales deben incluir
 
@@ -2162,17 +2118,13 @@ Manual de Señalización Vial del MINTRANSPORTE, así como la norma NTC 4741 - E
 
 control de los equipos tecnológicos de los pasos a nivel Clase B y C (como lo son señales lumínicas, sonoras, y talanqueras) deberá estar interconectado y contar con enclavamiento y automatización centralizada desde el
 
-Centro de Control de Operaciones (CCO), y desde los enclavamientos y bloqueo automáticos electrónico estructurado (ENCE). Página 60 de 70 Así las cosas, deberán ser regularizados los siguientes pasos a nivel según la
 
-clase de la tabla anterior: Tabla 24 - Relación de pasos a nivel identificados en la Estructuración PK202+460- CAT-2-Tramo 1 La Dorada Señalización Tipo C 2 PK 206000 - CAT-1 - Tramo l La Dorada Señalización Tipo C Vía Norcasia-La Dorada 3 PK 206320 - CAT-3 - Tramo l La Dorada Señalización Tipo A 4 PK 209550 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A 5 PK 224200 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A 6 PK 225117 - CAT-3 - Tramo l La Dorada Señalización Tipo A 7 PK 230000 - CAT-3 - Tramo l La Dorada Señalización Tipo A 8 PK 234420 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A 9 PK 237050 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A 10 PK 250240 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 11 PK 253700 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 12 PK 253800 - CAT-3 - Tramo l Puerto Triunfo Señalización Tipo A 13 PK 254300 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 14 PK 257690 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 15 PK 259250 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 16 PK 259300 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 17 PK 265380 - CAT-3 - Tramo l Puerto Triunfo Señalización Tipo A 18 PK 269085 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 19 PK 269340 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A 20 PK 276680 - CAT-3 - Tramo l Puerto Nare Señalización Tipo A 21 PK 277950 - CAT-2 - Tramo l Puerto Nare Señalización Tipo B 22 PK 287810 - CAT-2 - Tramo 1 Puerto Nare Señalización Tipo B 23 PK 290850 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A 24 PK 293900 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A 25 PK 296300 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A 26 PK 301100- CAT-3 -Tramo 1 Puerto Berrío Señalización Tipo A 27 PK 301 700 - CAT-3 - Tramo 1 Puerto Berrío Señalización Tipo A 28 PK 327400 - CAT-3 - Tramo l Puerto Berrío Señalización Tipo A 29 PK330000- CAT-3 -Tramo 1 Puerto Berrío Señalización Tipo A 30 PK331770- CAT-2-Tramo 1 Puerto Berrío Señalización Tipo C 31 PK 331970 - CAT-3 - Tramo l Puerto Berrío Señalización Tipo A 32 PK 336700 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A 33 PK 351110 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A 34 PK 355480 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A 35 PK 359800 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A 36 PK 367200 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A Página 61 de 70 37 PK 370760 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A 38 PK 377 150 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A 39 PK 382400 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A 40 PK 387600 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A 41 PK 389760 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A 42 PK 392730 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A 43 PK 397300 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A 44 PK 403760 - CAT-3 -Tramo 2 Simacota Señalización Tipo A 45 PK 406010 - CAT-3 - Tramo 2 Simacota Señalización Tipo A 46 PK 407250 - CAT-3 - Tramo 2 Sirnacota Señalización Tipo A 47 PK 408100 - CAT-3 - Tramo 2 Simacota Señalización Tipo A 48 PK 408600 - CAT-3 - Tramo 2 Simacota Señalización Tipo A 49 PK411180- CAT-3 -Tramo 2 Simacota Señalización Tipo A 50 PK 417800 - CAT-3 - Tramo 2 Simacota Señalización Tipo A 51 PK 431500 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 52 PK 432250 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 53 PK 433200 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 54 PK 439740 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo C 55 PK 441450 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 56 PK 441770 - CAT-2 -Trarno 2 Barrancabermeja Señalización Tipo C 57 PK 443080 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo C 58 PK 444150 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A 59 PK 445400 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo B 60 PK 445700 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A 610 PK 447850 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 62 PK 447900 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A 63 PK 448490 - CAT-2 -Tramo 2 Barrancabermeja Señalización Tipo B 64 PK 449250 CAT-3 - Tramo 2 Barrancabenneja Señalización Tipo A 65 PK 449420 - CAT-3 - Tramo 2 Barrancaberrneja Señalización Tipo A 66 PK 450 100 - CAT-3 - Tramo 2 Barrancaberrneja Señalización Tipo A 67 PK 453530 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo B 68 PK 450260 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 69 PK 458 130 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 70 PK 465030 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A 71 PK 465250 - CAT-2 - Tramo 2 Puerto Wilches Señalización Tipo B 72 PK 465400 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A 73 PK 465500 - CAT-2- Tramo 2 Puerto Wilches Señalización Tipo C 74 PK 465800 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A 75 PK 466120 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A 76 PK 466650 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A Página 62 de 70 77 PK 468400 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 78 PK 473300 - CAT-2 - Tramo 2 Puerto Wilches Señalización Tipo B 79 PK475300 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 80 PK 478180 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 81 PK 478430 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A 82 PK 479930 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 83 PK480940- CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 84 PK 481990 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A 85 PK484000 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A 86 PK 486740 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A 87 PK 499900- CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A 88 PK 505500 - CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A 89 PK 510240 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A 90 PK 514800 - CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A 91 PK 515100 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A 92 PK 517250 - CAT-3 - Tramo 2 Rionegro Señalización Tipo A 93 PK 517600 - CAT-2-Tramo 2 Rionegro Señalización Tipo B 94 PK 521200 - CAT-3 - Tramo 2 Rionegro Señalización Tipo A 95 PK 523120- CAT-3 - Tramo 2 Rionegro Señalización Tipo A 96 PK 533240 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A 97 PK 534200 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A 98 PK 534320 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A 99 PK 539400 - CAT-3 -Tramo 2 San Alberto Señalización Tipo A 100 PK 545500 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 101 PK 546800 - CAT-2 - Tramo 2 San Martín Señalización Tipo B 102 PK 549590 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 103 PK 550250 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 104 PK 550740 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 105 PK 552400 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 106 PK 552900 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 107 PK 557420 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 108 PK 563250 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 109 PK 565200 - CAT-3 - Tramo 2 San Martín Señalización Tipo A 110 PK 569970- CAT-3 -Tramo 2 San Martín Señalización Tipo A 111 PK 577580 - CAT-3 - Tramo 2 Río de Oro Señalización Tipo A 112 PK 579100 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A 113 PK 583470 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A 114 PK 587030 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A 115 PK 591400 - CAT-2 - Tramo 2 Aguachica Señalización Tipo C 116 PK 592850 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
 
 ---
 
- Página 63 de 70 117 PK 596245 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 118 PK 600100 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 119 PK 600800 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 120 PK 604750 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 121 PK 607900 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 122 PK 609000 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A 123 PK 613960 - CAT-3 -Tramo 3 Gamarra Señalización Tipo A 124 PK 616910 - CAT-3 -Tramo 3 Gamarra Señalización Tipo A 125 PK 635950 - CAT-2 - Tramo 3 La Gloria Señalización Tipo B 126 PK 636600 - CAT-3 - Tramo 3 La Gloria Señalización Tipo A 127 PK 641490 - CAT-2 - Tramo 3 Pelaya Señalización Tipo B 128 PK 643235 - CAT-3 - Tramo 3 Pelaya Señalización Tipo A 129 PK 644990 - CAT-2 - Tramo 3 Pelaya Señalización Tipo B 130 PK 656900 - CAT-3 - Tramo 3 Tamalameque Señalización Tipo A 131 PK 664400 - CAT-1 - Tramo 3 Tamalameque Señalización Tipo C Vía Tamalame ue-El Burro 132 . PK 665+000- CAT-3 -Tramo 3 Pailitas Señalización Tipo A 133 PK 672300- CAT-3 -Tramo 3 Pailitas Señalización Tipo A 134 PK 678500 - CAT-3 -Tramo 3 Tarnalameque Señalización Tipo A 135 PK 680500 - CAT-2 - Tramo 3 Pailitas Señalización Tipo B 136 PK 681500 - CAT-3 -Tramo 3 Tamalameque Señalización Tipo A 137 PK 689560 - CAT-2 -Tramo 3 Chimichagua Señalización Tipo B 138 PK 694450 - CAT-3 - Tramo 3 Chimichagua Señalización Tipo A 139 PK 698500 - CAT-3 -Tramo 3 Curumaní Señalización Tipo A 140 PK 699260 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A 141 PK 700700 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A 142 PK 703100 - CAT-3 -Tramo 3 Curumaní Señalización Tipo A 143 PK 708970 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A 144 PK 718240 - CAT-3 -Tramo 3 Chiriguaná Señalización Tipo A 145 PK 720440 - CAT-3 - Tramo 3 Chiriguaná Señalización Tipo A 146 PK 721 150 - CAT-3 - Tramo 3 Chiriguaná Señalización Tipo A
 
 ---
 
- Página 64 de 70
 
 ### CAPÍTULO V - MATERIAL RODANTE 5 .1. Material Rodante del Proyecto . El Concesionario tiene la obligación de realizar la Puesta a Punto a todo el Material Rodante del Proyecto. Dichas actuaciones corresponden a todas aquellas actividades que incluyen y sin limitarse, al completo desmontaje, limpieza, inspección, diagnóstico, reacondicionamiento, reparación o
 
@@ -2196,7 +2148,6 @@ equipos de comunicaciones, señales, instrumentación, entre otros. En el Anexo 
 
 Proyecto de propiedad de la Nación que actualmente está en el corredor La Dorada Chiriguaná. Sobre este Material Rodante el Concesionario deberá cumplir con las siguientes actividades: a) Realizar la Puesta a Punto del siguiente Material Rodante: o Dos (2) GR12 o Dos (2) UlO o Cuarenta (40) plataformas operativas o Once (11) Plataformas no operativas o Ocho (8) Carromotores o Dos (2) bateadoras (BP008 - BP0 11) o Tres (3) Retroexcavadoras o Una (1) Retrocargadora o Una (1) Perfiladora (RP-019) o Un (1) Pórtico Ameca b)
 
-Dependiendo de la tipología de carga a transportarse se debe realizar la Puesta a Punto de: o Tres (3) Plataformas canadienses; o realizar la conversión de góndolas a plataformas: Página 65 de 70 o Tres (3) góndolas a plataformas c) Realizar el Mantenimiento y de ser necesario reparación para el siguiente equipo que podrá utilizar de acuerdo con su necesidad y conveniencia para las
 
 obras de Rehabilitación y para el Mantenimiento del Corredor del Proyecto: o Una (1) Tolva Granelera o Treinta y ocho (38) Tolvas Balasteras o Diez (1 O) Góndolas o Dieciocho (18) plataformas canadienses o Ocho (8) literas El Concesionario deberá suministrar y sin limitarse, a la estructura administrativa, mano de obra, materiales, herramientas, equipos, servicios externos requeridos, atención para todos los imprevistos, para realizar el diagnóstico y Puesta a Punto del Material Rodante del Proyecto, incluyendo la instalación de los equipos para el
 
@@ -2218,7 +2169,6 @@ rutinas de Mantenimiento establecidas, así como los tiempos y disponibilidad pa
 
 propiedad de la Nación que hace parte del Material Rodante del Proyecto será el siguiente contado desde la
 
-Fecha de Inicio: Seis 6 meses Doce 12 meses Material rodante remolcado Dieciocho (18) meses 51 lataformas Material rodante remolcado Dieciocho 18 meses Página 66 de 70 3 plataformas canadienses o la conversión de 3 góndolas a Plataformas Bateadora Plasser Beaver Seis (6) meses BP008 Bateadora Plasser 08-24 BP- Doce (12) meses 011 Dos (2) Retroexcavadoras Seis (6) meses ti o 320 RC320 RC321 Retroexcavadora tipo 320 Doce (12) meses RC324 Retrocargadora 428C RC428 Doce 12 meses Perfiladora Plasser PBR400 Doce (12) meses RC019 Pórtico Ameca 311212 1 Doce 12 meses Del Material Rodante del Proyecto, el Concesionario podrá contar con las locomotoras UI0 para las
 
 labores de Rehabilitacióny para el
 
@@ -2236,7 +2186,6 @@ Mantenimiento de vía: 1 Bateadora 1 Reguladora 1 Desguarnecedora 1 Esmeriladora
 
 grupos de bateo (split head), controlados individualmente y desplazables lateralmente en pares, sistema de levante con ganchos y tenazas a discos, sistema de nivelación, sistema de alineación, dos
 
-bogies de dos ejes cada uno, control de procesos por microprocesador, velocidad de marcha: 80 kmh en el plano en ambas direcciones, peso aprox. 45 ton. Página 67 de 70 Reguladora: Trocha yárdica, equipada con arado frontal (dos mitades con movimientos independientes), dos arados laterales con movimientos independientes, sistema de barrido (escoba) en el extremo trasero, dos ejes con una distancia entre
 
 ellos de aprox. 4,5 metros, frenos de aire comprimido actuando sobre todas las ruedas, cepillo de fijación de vía, velocidad de marcha 50 kmh, peso aprox.: .17 t. Desguarnecedora: Trocha yárdica, equipada con cadena excavadora giratoria por
 
@@ -2280,7 +2229,6 @@ adecuado de la maquinaria adquirida y con ello la respectiva Disponibilidad requ
 
 Mantenimientos de la Vía Férrea y de la maquinaria descrita anteriormente. Esta maquinaria será objeto de reversión a la Nación, para lo cual
 
-antes de su reversión deberá ser sometida a una intervención de Puesta a Punto a cargo del Concesionario. Condiciones para el Material Rodante reacondicionado o nuevo Página 68 de 70 En
 
 caso de que se ofrezca Material Rodante nuevo o reacondicionado para la Prestación del Servicio Público de Transporte
 
@@ -2328,7 +2276,6 @@ caso de que el Concesionario haya ofrecido el
 
 Factor de Calidad, debe cumplir con las siguientes condiciones: Condiciones de la puesta a
 
-punto de la locomotora Ul 8: Página 69 de 70 a) La Puesta a
 
 Punto de la locomotora deberá realizarse a más tardar en el mes doce (12) después de la
 
@@ -2376,7 +2323,6 @@ suministro de las treinta (30) plataformas nuevas deberá realizarse a más tard
 
 Fecha de Inicio y deberán tener las siguientes especificaciones: Aptas para vía de 914 mm, de longitud 12.34 m, distancia máxima entre ejes 8.72 m y mínima 7.30 m. Las plataformas deben cumplir con todos los
 
-requisitos de seguridad de las leyes y normas obligatorias aplicables. Sobre estas plataformas, el Concesionario deberá realizar, a su cuenta y riesgo, el mantenimiento y adquisición de repuestos que sean necesarios durante el plazo del Contrato. Página 70 de 70 b) El Concesionario deberá adquirir este Material Rodante nuevo con las respectivas garantías de fábrica y puesta en cualquier sitio dentro del Corredor del Proyecto; una vez recibida deberá llevar a cabo las respectivas
 
 pruebas de lo cual entregará un informe a la Interventoría y
 
@@ -2398,7 +2344,6 @@ oferta de Factor de Calidad, cumpliendo con los especificado en el Contrato y en
 
 ### CAPÍTULO VI - FRANJA OPERACIONAL A continuación, se define las
 
-velocidades de la Franja Operacional para el Corredor del Proyecto. El Concesionario estará obligado a realizar todas las gestiones necesarias que le permitan asegurar, conformar y materializar la Franja Operacional requerida para garantizar una operación segura, confiable y eficiente. Tabla 25 - Velocidades máximas en la Franja Operacional Estación México PK201470 PK202450 0.98 5 Urbana La Dorada PK 202+450 PK.204+500 2.05 5 Zona rural PK 204+500 PK268+500 64.00 50 Urbana Cocomá PK268+500 PK269+500 1.00 5 Zona rural PK269+500 PK 327+000 57.50 50 Sub Urbana Grecia - Pta. Berrío PK327+000 PK329+000 2.00 20 Zona rural PK329+000 PK331+000 2.00 50 Urbana Puerto Berrío PK331+000 PK 332+500 1.50 5 Sub Urbana Puerto Olaya PK332+500 PK 333+500 1.00 5 Zona rural PK333+500 PK 440+000 106.50 50 Urbana Barrancabermeja PK440+000 PK444+800 4.80 5 Zona rural PK444+800 PK 465+400 20.60 50 Página 71 de 70 Urbana Río Sogamoso PK 465+400 PK465+900 0.50 5 Zona rural PK465+900 PK 516+900 51.00 50 Sub Urbana San
 
 Rafael de Lebrija PK 516+900 PK 517+600 0.70 20 Zona rural PK 517+600 PK 552+500 34.90 50 Sub Urbana San José PK 552+500 PK 552+800 0.30 20 Zona rural PK 552+800 PK 557+300 4.50 50 Sub Urbana Torcoroma PK 557+300 PK 557+500 0.20 20 Zona rural PK 557+500 PK 562+900 5.40 50 Sub Urbana Cuatro Bocas PK 562+900 PK 563+300 0.40 20 Zona rural PK 563+300 PK 569+900 6.60 50 Sub Urbana Santa Lucía PK 569+900 PK 571+500 1.60 20 Zona rural PK 571+500 PK 664+000 92.50 50 Sub Urbana Palestina La Nueva PK 664+000 PK 665+000 1.00 20 Zona rural PK 665+000 PK 722+683 57.68 50 Zona rural Ramal Capulco PK 597+652 PK 602+300 4.65 50
 
@@ -2420,7 +2365,6 @@ vida de servicio, cumpliendo las especificaciones y normatividad técnica. Para 
 
 conjunto de obras tendientes a llevar estas estructuras a sus condiciones
 
-iniciales de construcción, con el Página 72 de 70 propósito que se cumplan las Especificaciones Técnicas para las que se diseñó y cumplir con los indicadores recogidos en el Apéndice Técnico 4. La Rehabilitación comprende la ejecución de una o más de las siguientes actividades: Construcción de
 
 obras de excavaciones, de rellenos, de drenaje, de estabilización, de contención, de puentes, de superestructura férrea y otras obras establecidas en el numeral 4.1 y 4.2 de este Apéndice Técnico, que permitan restituir las
 
@@ -2460,7 +2404,6 @@ Ministerio de Transporte yu otras entidades competentes. El
 
 Plan de Obras y las Intervenciones deberán programarse y ejecutarse en armonía con la Operación y la asignación de Surcos. c) Adicionalmente, cuando el Contrato se refiera a
 
-actividades de Mantenimiento y Operación se deberá entender que este se refiere a la realización de las actividades necesarias para permitir el tráfico en el Proyecto en las condiciones señaladas en las Página 73 de 70 Especificaciones Técnicas, así como la provisión de los servicios asociados a estas. Lo anterior, de conformidad con lo establecido en el Contrato y Apéndice Técnico 2. d) Reconstrucción de Pavimentos: Son las Intervenciones en las cuales el Concesionario deberá dotar a la vía de
 
 estructura de pavimento, incluyendo cunetas laterales y la construcción yo reposición de
 
@@ -2502,7 +2445,6 @@ muros de contención que comprenda, en general, toda la infraestructura necesari
 
 estabilidad de la obra. Debe garantizarse la estabilidad geotécnica y geológica de todos los taludes y cortes durante la Construcción, Operación y Mantenimiento.
 
-Dentro de todas las Intervenciones Página g' de ij se incluyen para todo el Proyecto, todas las soluciones en ingeniería que se deban implementar para el tratamiento y estabilización geotécnica y geológica de taludes. (iii) Construcción, Mejoramiento, Rehabilitación, repotenciación o
 
 Mantenimiento de las obras hidráulicas que se
 
@@ -2526,7 +2468,7 @@ Fase de Construcción el Concesionario deberá llevar a cabo las siguientes acti
 
 Movimiento de tierras para todos los tramos que incluyen la realización de cortes, terraplenes, excavaciones, rellenos, adecuación de botaderos, explotación de
 
-fuentes de materiales, remoción de derrumbes, gestión, adquisición y
+fpuentes de materiales, remoción de derrumbes, gestión, adquisición y
 
 manejo de botaderos, y demás relacionadas. (ii) Realización de todas las actividades necesarias para el depósito de todos los materiales
 
@@ -2540,7 +2482,6 @@ material de río. Estas actividades incluyen el
 
 adelantamiento de la Gestión Predial y Gestión Social y Ambiental requeridos para la realización de estas actividades, así como, la realización de diseños, solicitud de permisos ambientales, compra de Predios, servidumbres, vías de acceso, drenajes, obras de estabilización y compactación. La adquisición de los Predios requeridos para las obras aquí mencionadas no se realizará con los recursos previstos en la Subcuenta Predios, y los mismos no revertirán a la Agencia. (iv) La Construcción de las diversas actividades complementarias necesarias para el
 
-cumplimiento de este Apéndice como son: las vías de acceso, plataformas, campamentos, puestos de control, botaderos, equipos electromecánicos, Página 75 de 70 almacenes y demás instalaciones, infraestructuras o equipamientos necesarios, tanto durante el proceso constructivo, como durante la Operación y Mantenimiento del Proyecto para garantizar su correcto funcionamiento. Incluye entre otras actividades los diseños, compra de Predios, permisos ambientales, Gestión Predial y Gestión Social y Ambiental. (v) La realización de los
 
 Estudios de Detalle, así como la Construcción, Mejoramiento, Rehabilitación, repotenciación o
 
@@ -2576,7 +2517,6 @@ responsable de los métodos, la forma y programación en que adelante los proced
 
 medidas de Seguridad operacional ferroviaria, tales como: Programas de formación del personal y sistemas que garanticen el
 
-mantenimiento de la competencia del personal y el consiguiente Página 76 de 70 desempeño de los cometidos, en particular las medidas sobre la aptitud física y psicológica. Normas relativas a los
 
 tiempos de trabajo, conducción y descanso aplicables a los conductores del sistema. Procedimientos y
 
@@ -2612,7 +2552,6 @@ estado de la vía férrea, velocidades máximas permitidas y distancias al lími
 
 bocina de los vehículos ferroviarios, silbato del personal o cualquier otra señal acústica que el Concesionario adopte en su reglamento operativo. (xiii) El Concesionario es el
 
-responsable de los métodos, la forma y programación en que adelante las Intervenciones del Proyecto, pero siempre se debe cumplir como mínimo las Especificaciones Técnicas, de acuerdo con las normas vigentes y que le permitan obtener los resultados previstos en este Apéndice Técnico, el Apéndice Técnico 4 y demás Especificaciones Técnicas. Igualmente, el Concesionario en sus distintas Intervenciones debe dar cumplimiento a las obligaciones impuestas en los trámites y permisos. El Concesionario deberá ejecutar las Intervenciones dando cumplimiento a los plazos y condiciones señalados en el Contrato y cumpliendo con lo establecido en el Apéndice Técnico 3. Página 77 de 70
 
 #### 7.4 Implementación de la gestión de proyectos bajo el enfoque PMI El concesionario deberá aplicar e implementar la Gestión de Proyectos bajo las buenas prácticas del Project Management Institute (PMI). Y deberá atender otros documentos, registros o acciones que requiera la ANI para verificar la ejecución, monitoreo y control del proyecto bajo lineamientos del PMI. El concesionario deberá entregar su
 
@@ -2678,7 +2617,6 @@ Plan de Manejo
 
 Ambiental de los
 
-instrumentos de manejo y control ambiental existentes del Proyecto. Página 79 de 70 Fredy Leandro Espejo Fandiño - VEr ''! libertadY Orden
 
 REPUBLICA DE COLOMBIA
 
@@ -2694,15 +2632,12 @@ ESQUEMA DE APP No. 001 DE 2025 Concedente:
 
 ## AGENCIA
 
-NACIONAL DE INFRAESTRUCTURA Concesionario: CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S ANEXO 1 - APÉNDICE TÉCNICO 1 FRANJA OPERACIONAL Y CORREDOR DEL PROYECTO Página 1 de 2 ÁREAS DEL PROYECTO Las áreas del proyecto son las siguientes: 1. Franja Operacional se presenta como archivo shape y
 
 Excel de coordenadas 2. Corredor del Proyecto se presenta como archivo shape y
 
 Excel de coordenadas Los archivos mencionados se encuentran en las siguientes carpetas del
 
-Cuarto de Información de Referencia del Proyecto: Franja operacional: Información de soporte Áreas del proyecto 1. Franja operacional 2024.11.29 Corredor del proyecto: Información de soporte Áreas del proyecto 2. Corredor del proyecto 2024.11.29 VoBo: Adriana María Montañez Saenz - VE L-- Fredy Leandro Espejo Fandiño - VE -f(" Página2 de 2 4 . Agoncla
 
-Nacionoi de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2. PBX4s48s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221. Página 1 de 78 ANEXO TÉCNICO
 
 BIM DE FACTIBILIDAD (ATB-F3} -INICIATIVAS PÚBLICAS- Los derechos
 
@@ -2716,7 +2651,6 @@ TABLA DE CONTENIDO
 
 requisitos de información 9
 
-#### 2.0 REQUERIMIENTOS DE IMPLEMENTACIÓN E INTERCAMBIO 11 ANEXO TÉCNICO No. 7 ANEXO TÉCNICO BIM (ATB-F2) 2023 4 . AgOflda Nac;i;;;;,-- lnfraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. a ni. gov. co NIT. 830125996-9. Código Postal ANI 110221 Página 2 de 78
 
 #### 2.1 Información General 11 2.1.1 Alcance BIM del Proyecto 12 2.1.2 Estructura de Segregación de Proyecto 13 2.1.3 Estructura de
 
@@ -2766,7 +2700,6 @@ levantamiento de información existente 43 Responsabilidades de gestión de info
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 Agencia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Pis 2 PBX: 4848850 - www.a ni .gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 3 de 78 Matriz de asignación de la gestión de información 43 Roles y responsabilidades BIM 43 Personal recomendado 46
 
 #### 4.0 ESTRATEGIA DE PRODUCCIÓN Y
 
@@ -2802,7 +2735,6 @@ intercambio de información 67 6.1.2 Requerimientos de software 71 6.1.3 Requeri
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Agencia
 
-Nackloai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX, 4S48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 4 de 78
 
 #### 6.3 Formato de
 
@@ -2820,7 +2752,6 @@ intercambio de datos 72
 
 ESTUDIOS DE DETALLE IPubV1.0 (ATB-F3) 2024 Agencia Naclonai do Infraestructura
 
-#### 1.0 CONCEPTOS GENERALES Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 5 de 78 La Agencia
 
 Nacional de Infraestructura (ANI) ha desarrollado el presente Anexo Técnico
 
@@ -2886,7 +2817,6 @@ nivel de información se conoce como el Estándar de Información
 
 dentro de la metodología BIM. Dentro ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . - V" Agencia Naclonal Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 6 de 78 de
 
 Infraestructura de los
 
@@ -2946,7 +2876,6 @@ Estados de Avance de la Información de los Modelos (EAIM)⁴ 1 https:www.csires
 
 ESTUDIOS DE DETALLE IPubVl.D (ATB-F3) 2024 4 A9011da
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Posta I ANI 110221 Página 7 de 78 Tabla 04.
 
 atados de Avance de la Información de los Mod.élos En la sigülente tabta se indican los diferentes Éstat!os
 
@@ -2988,7 +2917,6 @@ Etapa de Diseños de Detalle y estudios definitivos (Fase 111} de los
 
 proyectos de infraestructura en Colombia, es el que se denomina DISEÑOS DE DETALLE - DD ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3} 2024 4 Agenda Nacíon.ai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. a ni.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 8 de 78 (denominados según la
 
 ley de infraestructura como diseños fase 111) (para cualquier claridad respecto al alcance se revisará el alcance a diseños de detalle y estudios definitivos aplicables al proyecto). De una manera consecuente con lo anterior, el propósito de este Anexo Técnico
 
@@ -3044,7 +2972,6 @@ Elementos de Modelado. MIDP: Master information delivery plan Plan
 
 Maestro de Entrega de Información. MIUB: Matriz de información de usos BIM. MRB: Matriz de
 
-responsabilidades de alto nivel. Notas importantes: Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 9 de 78 NDI: Nivel de Información. OIR: Organizational information requirements
 
 Requerimientos de Información de la organización. PA: Purchase Agreement Contrato. PIM: Project information model
 
@@ -3092,7 +3019,6 @@ disponibilidad de los recursos o herramientas que esta requiere.
 
 requisitos de información ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3} 2024 4 . Agencia Na:i'll da Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48sso-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 10 de 78 De conformidad con la
 
 serie de normas NTC-1S0 19650 previo a la contratación para la ejecución física del proyecto (Etapa Pre-Operativa del
 
@@ -3122,7 +3048,6 @@ requerimientos de información definidos por la NTC- 1S0 19650-1. Elaboración p
 
 ESTUDIOS DE DITALLE IPub.Vl.O {ATB-F3) 2024 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4B48s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Agencia
 
-Nacional de Infraestructura COiRATANl!; CONTAAl1:íA SO!JCOfUAT!S.lAS Página 11 de 78 ,::'!;!ido-- irtcn,c,),:;r !Prn1!? q.!-0 .:ie-t)::-l} Eq;c,frpo de Proye(:;tO. r;;:;r,r-..;l!:í.Ohc.rer:k [P;:;;io dtstncido Jiderj [Pori:? ;je-J:"Cdcif v..-: . . . ..,._.,_.,.,._..,. .,. - - ... ; ;;_f.q1..íQ,,tn;,;:h:..:rt;d-:').iGeci'.11d'
 
 ---
 
@@ -3150,7 +3075,6 @@ proyecto de APP iniciativa pública presentado en el siguiente numeral.
 
 proceso de estructuración del proyecto
 
-APP de Iniciativa Pública. Estructu rador FDN - (por diligenciar) Concesionario Objeto del Proyecto (por diligenciar) ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUD!OS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . Agonc!a Naclona! de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4s48s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 12 de 78 Plazo estimado para el
 
 desarrollo de la
 
@@ -3186,7 +3110,6 @@ estructura de segregación que el Concesionario debe presentar en el
 
 BEP de pre- construcción, es decir diseños de detalle y estudios definitivos fase 111. 2.1.1 Alcance BIM del Proyecto ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Aoncla ll;,clonol oo Infraestructura Avenida Calle 24A Nro. 59-42Torre 4 Piso 2 PBX: 4848s6o-www.ani.gov.co NIT. 83012S996-9. Código Postal ANI 110221 Página 13 de 78 El Concesionario implementará la aplicación del enfoque BIM para el
 
 desarrollo de los estudios y diseños de detalle y estudios
 
@@ -3232,7 +3155,6 @@ paquetes de trabajo especificados en la segregación del proyecto indicada en el
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 [ATB-F3) 2024 4 . Ag,ncla
 
-Nachmal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48a6o-www.ani.gov.co NIT. 830125996-9. Código Postal AN! 110221 Página 14 de 78 federación de los modelos que el estructurador entregará de acuerdo con su
 
 esquema de modelaje, en atención a la NTC-ISO 19659-2:2021, 5.3.2.c. Este desglose será incluido en el
 
@@ -3300,7 +3222,6 @@ serie de normas ISO 19650. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO B!M DISEÑOS DEF
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Agencia
 
-Nadonal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX, 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 15 de 78 El Modelo se considera la herramienta para la transmisión de información y generación de entrega bles y es un entregable en sí mismo. En el
 
 caso de que exista un conflicto entre el
 
@@ -3344,7 +3265,6 @@ herramienta de software BIM5 ⁵ Definición tomada del capítulo 5.3 del ESTÁN
 
 ESTUDJOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Agencia
 
-Nacional de Infraestructura Avenida Cal le 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 16 de 78 La Información del Proyecto corresponde a los modelos BIM y sus documentos relacionados⁶ en formatos digitales, abiertos e interoperables. El
 
 conjunto de modelos BIM y documentos relacionados estará desglosado en el TIDP que se entrega al
 
@@ -3380,7 +3300,6 @@ documentos de apoyo al desarrollo del proyecto y los modelos - por ejempk; repor
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 l . AgSMCla
 
-Naciornll de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4848860 - www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 17 de 78 obstante, el Concesionario también deberá garantizar, cuando la ANI lo determine, el traslado, la transferencia, la disposición y la
 
 entrega de todo el
 
@@ -3438,7 +3357,6 @@ eximen de sus responsabilidades, dado que toda la información existente proporc
 
 es de referencia y debe ser revisada y validada, quedando en libertad el Concesionario para tomar la decisión de usarla o no usarla. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 [ATB-F3) 2024 4 . Agencia Nac1Gnal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.anLgov.co NIT. 830125996-9. Código Postal AN! 110221 Página 18 de 78 Sin
 
 perjuicio de la información existente, el Concesionario es
 
@@ -3516,7 +3434,6 @@ contenido de un modelo BIM y el
 
 juego de planos aprobados en físico, se dará la siguiente prelación: ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 encla Nackmai da Infraestructura Página 19 de 78 [_X_] La información contenida en los modelos prevalecerá sobre su representación en los planos, ya que la generación de estos se hará a
 
 partir de elementos 3D.
 
@@ -3566,7 +3483,6 @@ Plan de ejecución BIM (BEP) para la ejecución, operación y reversión de la c
 
 desarrollo de los estudios y diseños de detalle para la etapa preoperativa ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Agoncia N3cional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Pax: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 20 de 78 del proyecto, así como para el empleo del modelo federado para la
 
 etapa de operación y mantenimiento y la gestión de activos. Cabe mencionar que
 
@@ -3616,7 +3532,6 @@ equipo de tareas propuesto. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DE
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencl
 
-Nockmol de Infraestructura Capacidad: Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848B6o-www.ani.gov_co NIT. 830125996-9. Código Postal ANI 110221 Página 21 de 78 Evalúa la capacidad técnica incluyendo herramientas, equipos yo sistemas requeridos para el desarrollo y gestión del proyecto. El Concesionario deberá aportar información respecto al tipo y
 
 cantidad de herramientas propuestas para dar respuesta a los
 
@@ -3662,7 +3577,6 @@ uso de i modelos tridimensionales
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencio
 
-Nocloml de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx: 4848B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 22 de 78 Meta
 
 ---
 
@@ -3722,7 +3636,6 @@ disponibilidad de información digital confiable y audita ble. Establecer los re
 
 equipos de trabajo del proyecto en el CDE -Ambiente Común de Datos enfocado tanto a la gestión de información como a la interpretación de planos, modelos y dimensiones BIM. 1 ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Autoría de Diseño y Gestión de información bajo CDE Ag_onda tl3Glorrat de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 23 de 78 Intercambiar información acordada del proyecto a intervalos regulares a lo largo del mismo. Gestión de información bajo CDE Establecer Indicadores
 
 Claves de Desempeño (KPI) específicos del proyecto para medir el progreso y establecer la comparativa Todos los usos BIM
 
@@ -3764,7 +3677,6 @@ etapa de Planificación, tres en Diseño, tres en Construcción y dos en Operaci
 
 Niveles de Información (NDI) que deben contener los entregables. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3) 2024 Agencia Nacloo;,l do Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886 -www .ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 24 de 78 Sin embargo, los
 
 niveles de información no contemplados para los diferentes
 
@@ -3792,7 +3704,6 @@ estado de avance de información de los modelos corresponde con Diseño De Detal
 
 ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024 4 . ft-gncia
 
-Nadonal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 25 de 78 USOS BIM PREFACTIBILIDAD FASES DEL PROYECTO FACTIBILIDAD DISEÑOS DE FASE 1 (FI) (DA) FASE II (FIi) (DB) DETALLE FASE 111 (FIII) (DO) CONSTRUCCIÓN OPERACIÓN AUTORÍA DE DISEÑOMODELO DE DISEÑO COORDINACIÓN DE
 
 MODELOS DE DISEÑO (3D) REVISIÓN DE LOS
 
@@ -3804,7 +3715,6 @@ CAPTURA DE CONDICIONES EXISTENTES ANÁLISIS DE DESEMPEÑO ESTRUCTURAL ANÁLISIS 
 
 DE DE DESEMPEÑO INGENIERÍA DE TUBERÍAS CÁLCULO DE DRENAJE OBRAS LINEALES ANÁLISIS DE DESEMPEÑO GEOTÉCNICO ANÁLISIS DE DESEMPEÑO ELÉCTRICO ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3) 2024 4 . Agoncla Nacíooal ele Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 rsx, 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 26 de 78 FASES DEL PROYECTO USOS BIM FACTIBILIDAD DISEÑOS DE PREFACTIBILIDAD FASE 11 (Fil) DETALLE FASE 111 FASE 1 (FI} (DA) (DB) (FIII) (DD) CONSTRUCCIÓN OPERACIÓN GENERACIÓN DE PLANOS PLAN EACIÓN DE LOGÍSTICA DE CONSTRUCCIÓN
 
 MODELO DE DISEÑO DE SISTEMAS
 
@@ -3836,7 +3746,6 @@ ficha de Uso BIM (FUB) proponiendo: descripción, aplicación especifica al proy
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 AOt1da
 
-Nadonai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 27 de 78 entrega bles, tipos de información, recursos técnicos necesarios, disciplinas involucradas, competencias técnicas requeridas, bibliografía de referencia y el proceso o
 
 flujo de aplicación del uso descrito según el alcance y el EAIM aplicable para la
 
@@ -3918,7 +3827,6 @@ plan de obras Videos y vistas 4D ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑ
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . Agenda
 
-Niclonal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 2 B de 78 Validación normativa Evaluación de sustentabilidad que puede dar a un
 
 equipo de proyecto una mejor comprensión de los hitos del proyecto y los
 
@@ -3974,7 +3882,6 @@ ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 4 . Agoncla
 
 Nacional de Infraestructura
 
-#### 3.5 Estándar de información Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Pax: 4B48B6o -www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 29 de 78 El estándar de información permite definir el contenido requerido y las métricas de aplicación de los
 
 requerimientos de información del presente Anexo Técnico BIM para diseños definitivos y
 
@@ -4032,7 +3939,6 @@ nivel de información necesaria específica el
 
 nivel de información geométrica y el
 
-nivel de información alfanumérica de cada elemento. Para determinar estos niveles y su métrica, es necesario determinar un estándar que los defina. Cabe mencionar que según la I50D15 7817 estos niveles son complementarios pero independientes. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS_DE DETALLE IPub.V1.0 {ATB-F3) 2024 4 . Ago1cla Naclooa! de Infraestructura Avenida Calle 24A Nro. 5942 Torre 4 Piso 2 PBX: 4B48sso-www.ani.gov.co NIT. 8301259969. Código Postal ANI 110221 Página 30 de 78 La AGENCIA ha determinado los siguientes estándares para definir cada
 
 uno de los dos (2) niveles antes mencionados. Sin embargo, el CONSULTOR puede proponer otros en el BEP y podrán ser aplicados en el contrato si la INTERVENTORÍA y la AGENCIA lo aprueban. Para el
 
@@ -4084,7 +3990,6 @@ desarrollo de este contrato, se utilizará la sigla LOI para definir el
 
 Nivel de Información Alfanumérica (información). ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS V
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 A Agencia -;i.;"' Infraestructura LOI 000 LOl 100 LOl 200 LOl300 LOl 350 LOl 400 L0! 500 i'C tcprEN1op :. F Información inexistente Información conceptual lnforrnaclón aproximada Información precisa Información de localización precisa Información de fabricación Información récord Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4S48sGo-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 31 de 78 - - . ., , - No contiene información Categorías de información requeridas para el servicio y desempeño de los elementos. Incluyen la masa general del elemento indicativa del área, altura, volumen, ubicación y orientación. Categorías de información requeridas para el servicio y desempeño de los
 
 elementos de manera definida. Incluyen sistemas o ensambles y materiales generalizados con cantidades, propiedades físicas, ubicación y orientación aproximadas. Categorías de información requeridas para el servicio y desempeño de los
 
@@ -4106,7 +4011,6 @@ grado de ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 cia
 
-Naclonai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48sGo-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 32 de 78 definición de su dimensión y forma general o la definición de sus componentes internos o subcomponentes. La AGENCIA define los
 
 niveles de desarrollo de la información o
 
@@ -4140,7 +4044,6 @@ piezas de diseño para la fabricación, instalación y ensamblaje en construcci�
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 11 Agencia
 
-Naclooal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 33 de 78 De acuerdo con lo especificado, el CONSULTOR deberá definir el
 
 nivel de necesidad de información (tanto geométrica
 
@@ -4162,7 +4065,6 @@ manera de ejemplo la métrica de
 
 Nivel de información Vinculada (Lol) de TDC LAB. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024 4 11 Agonda Nacial Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www.ani.gov. co NIT. 830125996-9. Código Postal ANI 110221 Página 34 de 78 Estándar de información TDC LAB Vigente TDC LAB Se describe en la tabla siguiente El ejemplo presentado cuenta con 6 niveles de LoL descritos en la siguiente tabla. LoL-100NDI 1 Lol-200NDI 2 Lol-300NDI 3 Lol-350NDI 4 Lol-400NDI 5 Referencial: Información documental (Gráfica o no gráfica) de referencia requerida para el proceso Preliminar: Información documental (Gráfica o no gráfica) preliminar basada en procesos esquemáticos de desarrollo Propuesta: Información documental (Gráfica o no gráfica) propuesta para ser estudiada validada en el
 
 proceso de desarrollo Aprobada: Información documental (Gráfica o no gráfica) aprobada para realización de procesos Ejecutable: Información documental (Gráfica o no gráfica) para
 
@@ -4208,7 +4110,6 @@ etapa de evaluación de esta para que la ANI otorgue la correspondiente viabilid
 
 Detallada de Responsabilidades (MDR) ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISENO DEFINITIVOS V
 
-ESTUDIOS DE DETALLE 1Pub.V1.0 [ATB-F3) 2024 Ag!ncla N(!ci)MI d, Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4aaso-www.ani.gov.co NIT. 8301259969. Código Posta I ANI 110221 Página 35 de 78 La Matriz
 
 Detallada de Responsabilidades (MDR) de acuerdo con el
 
@@ -4296,7 +4197,6 @@ Tipos de Información por cada Uso BIM del ESTÁNDAR BIM PARA PROYECTOS PÚBLICO
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Agenda
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 48488Go-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 36 de 78 El Concesionario deberá verificar, validar, ajustar yo adicionar los
 
 tipos de información a utilizar en el proyecto según los usos y la información solicitada en los anexos técnicos del presente
 
@@ -4344,7 +4244,6 @@ federado de acuerdo con la división que se realice del contrato para su modelac
 
 totalidad de modelos generados durante la ejecución del contrato. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Agoncla Nac!or,af de lnfraestnictura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 37 de 78 3.5.7 Entidades Elementos mínimos requeridos La
 
 matriz de elementos modelados permite definir los elementos mínimos que cada
 
@@ -4400,7 +4299,6 @@ especificaciones de construcción. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISE
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3) 2024 Agonda
 
-Nadoool de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 rsx: 4848sso-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 38 de 78 Por estas razones, se recomienda utilizar un
 
 sistema de clasificación específico para los
 
@@ -4460,7 +4358,6 @@ link de referencia: https:technical.buildingsrnart.orgstandardsmvd ANEXO TÉCNIC
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Agencia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 39 de 78 En este enlace https:technical.buildingsmart.orgstandardsifcmvdmvd-database se puede consultar la
 
 lista de MVD. Nota: El esquema IFC 4.3 específico de infraestructura se encuentra en desarrollo. Por lo tanto, el Concesionario deberá utilizar el
 
@@ -4506,7 +4403,6 @@ identificarlo de manera clara. lfcClass: La asignación del lfcClass para cada e
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 {ATB-F3) 2024 11 Agc"cia
 
-Nacomal de Infraestructura lfcContext lfcSpatialElement lfcFacility lfcFacilítyPart lfcElement Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 40 de 78 Figura 4.
 
 Ejemplo de esquema de
 
@@ -4538,7 +4434,6 @@ Nivel de Control Piso 9 1-------------"-- ......_.
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . Agenda
 
-Nacional de Infraestructura lfcElement Caisson 2.Sm d Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4848B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 41 de 78 Muro cortafuego 1hr
 
 #### 3.8 Requerimientos para gestión de activos Para la Agencia
 
@@ -4582,7 +4477,6 @@ Fase de maduración de Nivel mínimo
 
 esperado de información para gestión del activo diseño del proyecto en términos de operación y mantenimiento Perfil Definición de los 12aguetes de trabajo y_ los reguerimientos que se llevarán a Operación y Mantenimiento ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 1 Aga:nda N.JGiontil de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 42 de 78 Fase 1 Definición de los sistemas y requerimientos del proyecto que se llevarán a Operación y Mantenimiento Definición de los elementos y data general que cumplan con los Fase 11 requerimientos solicitados para llevar el proyecto a Operación y Mantenimiento Definición de la data esQecifica (atributos) de los elementos que Fase 111 se llevarán a Operación y Mantenimiento. () La
 
 Ley de Infraestructura {Ley 1682 de 2013) define los
 
@@ -4630,7 +4524,6 @@ proceso de selección. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINIT
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . ara Agencia
 
-Nacional de fnfraestnrctura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 43 de 78 La información de referencia empleada en el proyecto debe estar mapeada en el
 
 BEP de factibilidad y del proyecto.
 
@@ -4668,7 +4561,6 @@ BIM de la UPIT (2023). 1.1.1. Funciones del Rol Estratégico BIM Establece los o
 
 desarrollo de los requerimientos y entrega bles del contrato y el presente proceso. Elaborar y mantener actualizado el documento BEP. Implementar los estándares BIM definidos por la AGENCIA. Realizar el seguimiento al cronograma yo programación del proyecto. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 11 A91nda NJ:iolinl oo Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 44 de 78 Garantizar que la comunicación entre las partes se
 
 realice de acuerdo con lo establecido en el BEP. Garantizar el
 
@@ -4736,7 +4628,6 @@ requisitos de BIM de la AGENCIA. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑ
 
 ESTUDIOS DE DETALLE !Pub.Vl.0 {ATB-F3) 2024 4 . Agencia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 45 de 78 Garantizar la
 
 interoperabilidad de los modelos, plataformas y programas para la aplicación de los diferentes usos y obligaciones establecidas. Gestionar y revisar el modelo en la fase correspondiente validando su correcta maduración garantizando su paso a la fase posterior. Estructurar la información en el
 
@@ -4780,7 +4671,6 @@ directrices de información establecidas por el proyecto, siguiendo los métodos
 
 modelo de información. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM 01SEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3) 2024 4 . Agencia l-la"1orol d Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 46 de 78 Personal recomendado Para dar cumplimiento a los rolesfunciones descritas anteriormente, se recomienda que el Concesionario cuente, como mínimo, con los siguientes perfiles: Director BIM (BIM Manager) Cantidad: Un (1} profesional Coordinador BIM (Gestor BIM) Cantidad: Un (1} profesional Profesional Especialista BIM Pregrado: Arquitecto, ingeniero o profesiones afines al alcance del proyecto, con matrícula profesional vigente o su equivalente en el país de origen. Posgrado: Maestría en arquitectura, ingeniería o afines. Maestría o especialización en BIM. Pregrado: Arquitecto, ingeniero o profesiones afines al alcance del proyecto, con matrícula profesional vigente o su equivalencia en el país de origen. Posgrado: Especialización en Arquitectura, ingeniería o afines. Pregrado: Arquitecto, ingeniero o profesiones afines al alcance del proyecto, con matrícula Experiencia general: Experiencia
 
 profesional de mínimo ocho (8) años contados a
 
@@ -4800,7 +4690,6 @@ proyectos de infraestructura o edificación. Experiencia general: Experiencia
 
 profesional de mínimo cuatro (4) años ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 Agencia Nac:Onal d Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 47 de 78 :':'.;;:: ::: .i'.,'-:iJ;:::01:::-: i!ll:til{ ij; t ,rft Cantidad: Un (1) profesional por
 
 equipo de tareas profesional vigente o su equivalencia en el país de origen. contados expedición profesional. a
 
@@ -4834,7 +4723,6 @@ BIM de calidad. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4aaso-www.ani.gov.co NIT. 8301259969. Código Postal ANI 110221 Agencia
 
-Naclonal de Infraestructura Página 48 de 78 Para llevar a cabo lo anterior, es necesario que el Concesionario cuente con un Ambiente Común de Datos (CDE), en el cual se realice la recolección, administración e
 
 intercambio de información BIM, donde este sea la fuente única de información entre todos los miembros del equipo del proyecto, facilitando la colaboración y ayudando a evitar duplicados y errores durante el
 
@@ -4862,7 +4750,6 @@ equipo de entregas, es decir, para todos los
 
 equipos de ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.V1.0 {ATB-F3) 2D24 4 . Ag;nclo Nac!onol de lnfraestn1ctura 03_Publicado 04_Archivado Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 49 de 78 trabajo. Esta información permite el trabajo colaborativo, coordinado y eficiente del Concesionario. Tener presente que la información en este estado es visible o accesible para i la ANI, sin embargo no lo es para interventoría, evaluadores yo
 
 aprobadores de las
 
@@ -4894,7 +4781,6 @@ desglose de paquetes de trabajo descritos en el capítulo 2 del presente ANEXO T
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 Agencia
 
-Nacional de lnfraestn1ctura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 50 de 78 ... -"------- 5 Tipo de Información Anexo Técnico
 
 BIM de diseños definitivos y
 
@@ -4918,7 +4804,6 @@ Paquete de trabajo. XXX WIP Compartido Publicado Archivado Arquitectura (Ej ARQ)
 
 Ejemplo de estructura de carpetas. Elaboración - Consultor TDC LAB. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (AT8-F3) 2024 Agonda Nadonai dé Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co N!T. 830125996-9. Código Postal ANI 110221 Página 51 de 78 La
 
 estructura de carpetas debe ser presentada por parte del Concesionario a la ANI para su aprobación, teniendo en cuenta la estructura
 
@@ -4948,7 +4833,6 @@ PROPUESTA DE NOMENCLATURA ID PROVECTO DIVISION ESPECIALIDAD DISCI.PLINA NÚMERO 
 
 nomenclatura de archivos. Elaboración - Mesa Sectorial BIM. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3] 2024 ncia NücKloal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848 86 www. a ni. gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 52 de 78 ORIGINADQR NIVEL LOCAllZAClóN ROL DISCIPtlNA 001 PRO-TDC-BL 1 UR1-ZZZ-M3D-ARQ-001 .. ... CODIGODE PROYECTO PAQÜElEDE TRABAJO 5iSlEMA. SERIE TIPO DOCUMENTO NUMERO Figura 8. Ejemplo
 
 nomenclatura de archivos. Elaboración - Consultor TDC LAB. Se deberá definir, acordar y documentar la
 
@@ -4978,7 +4862,6 @@ sistema de nomenclatura de la Mesa Sectorial BIM del sector transporte, deberá 
 
 campos de nomenclatura incluidos en la guía de ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 4 . Agencia Naclornil do Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 53 de 78 nomenclatura publicada y vigente en el
 
 portal de la UPIT. En la tabla siguiente se explican los
 
@@ -5016,7 +4899,6 @@ aumento de la revisión versión efectuada. ''----
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 11 cla
 
-Naclonal de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4s48s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 54 de 78 Campo Descripción Ejemplo Caracteres En el Publicado se deberán emplear caracteres numéricos secuenciales, hasta la aprobación
 
 final de la entidad. La
 
@@ -5074,7 +4956,6 @@ contrato de concesión. Campos-------------------- , M!:ta -:!ota
 
  ORIGINADOR NIVEL LQCALIZÁCIÓN ROL DISCIPLINA ... ... ... 001 PRO-TDC-BL 1 UR1-ZZZ-M3D-ARQ-001 _TO-P 1 .03-Descripción Larga ,. .. CODÍC;ObE PROYECTO f'A(UÉTEDE TRABAJO SISTEMA SERIE llPO DOCUMENTO NUMERO ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencia N.clona! ele Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página SS de 78 Figura 8. Ejemplo inserción de metadatos en la nomenclatura. Elaboración TDC LAB. Estado Versión Descripción Clasificación Confidencialidad Códigos de identificación de gestión del estado temporal o
 
 definitivo de la información (WIP, Compartido, Publicado}. Emplear este metadato cuando el CDE no cuente con versionamiento automático o cuando la información esté por fuera del Ambiente Común de Datos (CDE}. En
 
@@ -5086,7 +4967,6 @@ documental de acuerdo con las
 
 tablas de retención adoptadas por la Agencia
 
-Nacional de Infraestructura (ANI} mediante la Resolución 448 de 2016 o las que la modifiquen o sustituyan, disponibles en la página web www.ani.gov.co Texto que permita identificar si el documento es o no confidencial. NOTA: El Concesionario deberá verificar los campos y el número de caracteres que se utilizarán para la gestión de información en el CDE a utilizar en el desarrollo del proyecto. 4.1.5 Reglas de Versionamiento Siguiendo la NTC-1S0 19650 se describen las
 
 reglas de versionamiento. El
 
@@ -5110,7 +4990,6 @@ precedidos de un punto decimal, que representan la versión de trabajo (producci
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Agc-ncla
 
-Nadooal de Infraestructura POl .02 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 56 de 78 Versionarnientode trabajo Versionamiento princ.ipal
 
 Tipo de personomiento (P Prelirhinar C Controcfval) Figura 9. Esquema ilustrativo del versionamiento. Elaboración TDC LAB. 4.1.6 Estado de la información El campo Estado define la situación, temporal o definitiva del documento. Este campo informa sobre la finalidad del documento. De este modo, mediante el
 
@@ -5140,7 +5019,6 @@ contenedor de información ya que no se ajusta a lo requerido. ANEXO TÉCNICO No
 
 ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 4 11 Agenda
 
-Naclonal de Infraestructura Publicado (para aceptación AIM) AB As-built Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 57 de 78 El Concesionario implementará al interior del
 
 equipo de desarrollo el
 
@@ -5188,7 +5066,6 @@ entrega de documentación. Estas pueden ser complementadas yo modificadas en ANE
 
 ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 4 . Agecia
 
-Naciooal de lnfraestmctura Avenida Calle 24A Nro. 5942 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 58 de 78 beneficio del proyecto por parte del Concesionario en el
 
 Plan de Ejecución BIM (BEP) de diseños definitivos y
 
@@ -5236,7 +5113,6 @@ integridad de COBie yo IFC Revisión Información Gráfica Documental ANEXO TÉC
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3) 2024 4 . Agencia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 59 de 78 CDE- Compartido CDE- Publicado .: PROBADOR BIM Manager
 
 Director de CDE - Ccoordinador Proyecto Publicado BIM (Concesionario) (Concesionario)
 
@@ -5276,7 +5152,6 @@ equipo de trabajo de origen. Esta transición de información se da entre los
 
 contenedores de información de "Producción" y "Compartido" De Compartido a Publicado: ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Agencia Nacional d Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. ani.gov. ca NIT. 830125996-9. Código Postal ANI 110221 Página 60 de 78 Revisión Autorizar: La transición de revisión autorización compara todos los
 
 contenedores de información en el
 
@@ -5322,7 +5197,6 @@ etapa de diseños definitivos y
 
 estudios de detalle de desarrollo del proyecto. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . A9 Ager1cia Na.;;kinal de Infraestructura Producción (WIP} Colaboración Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886 www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 61 de 78 Publicación Externo Archivo ( ... - 1 ! C01 [ L í
 
 ---
 
@@ -5354,7 +5228,6 @@ entrega de factibilidad, al gerenteexpertoasesor del
 
 proyecto de la ANI (delegado para tal fin) y deberá notificarle su entrega por medios electrónicos (puede usar las opciones del CDE). El gerente o quien este designe validará la información y quedará trazabilidad de la recepción en la herramienta del Ambiente Común de Datos (CDE) definida. Los entregab!es viabilizados migran al área de archivos publicados del Ambiente Común de Datos (CDE). Los entregables con comentarios u objeciones deben remediarse en el Ambiente Común de Datos (CDE) y reenviarse para volver a realizar la publicación con los aspectos solucionados. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 Agencia Nacional da Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 - www. ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 62 de 78 Toda entrega debe ser subida a través del CDE junto con el MIDP que se debe emplear para validar la
 
 completitud de los documentos.
 
@@ -5428,7 +5301,6 @@ control de calidad de los datos BIM, en todo caso, alineados con la
 
 serie de normas ISO 19650. ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3] 2024 4 . A-gemela Nac!onaf de lnfraestmctura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx, 4848s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 63 de 78 Los
 
 procesos de revisión de
 
@@ -5500,7 +5372,6 @@ duplicado de elementos del modelo. cerradas al final del Hito 0 a 50 - Malo 50 a
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 A9;1ncia
 
-Nacionai de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 48488Go-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 64 de 78 Estándares
 
 Equipo de tareas Concesionario Quincenal Deberá asegurar que. se han seguido los estándares BIM establecidos para la producción de información BIM. 1 ntegridad del modelo
 
@@ -5552,7 +5423,6 @@ niveles de tolerancia de estas.
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 lgllfltla
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 65 de 78 En la tabla siguiente se especifican
 
 algunos de los estándares generales para producción de información BIM del proyecto que podrá usar el Concesionario para el desarrollo del proyecto como referencia. El
 
@@ -5570,7 +5440,6 @@ entrega de los activos NTC-1S0 12006-2:2021 Sistema de Clasificación y Terminol
 
 sistema de clasificación I construcción a emplear será el definido: estandarizados que se . de acuerdo con el i emplean para clasificar las contenido del presente propiedades o parámetros, documento. que utilizan las herramientas y sistemas ' ""- - ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agoncia N.:;ional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx: 4848860 - www. a ni. gov. co NIT. 830125996-9. Código Postal ANI 110221 Página 66 de 78 i 1 NTC-1S0 16739-1:2021 IFC- lndustry Foundation Classes Estándar BIM para BIM. Códigos alfanuméricos que permiten a las herramientas que administran los datos insertar, organizar y extraer, de una forma eficiente la información, rompiendo las
 
 barreras de idioma y cultura a nivel global. Estándar global desarrollado por BuildingSmart para describir, compartir e intercambiar información de gestión de instalaciones y construcción, en un formato neutral, que establece una estructura basada en texto, para almacenar las
 
@@ -5588,7 +5457,6 @@ etapa de factibilidad. Proyectos Públicos - Versión 1.1. para la gestión y lo
 
 ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024 4 . Age,,cia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 67 de 78 El Concesionario deberá definir en el
 
 Plan de Ejecución BIM (BEP) de diseños definitivos y
 
@@ -5646,7 +5514,6 @@ recibo de retroalimentación por parte del Concesionario, supervisión y ANEXO T
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . Agancia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860 -www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 68 de 78 aprobaciónNo Objeción, según corresponda, de los entregables producidos a lo largo del
 
 proceso de evaluación de la factibilidad. El Concesionario suministrará el Ambiente Común de Datos (CDE) para el proyecto, garantizando el acceso debidamente licenciado como mínimo para su propio equipo y para la Agencia
 
@@ -5696,7 +5563,6 @@ flujo de trabajo NO colaborativo del CDE. -
 
 --------"'-- ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE f Pub.Vl.O (ATB-F3) 2024 4 . Agencia Naoiooa! do rnfraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4s4ssGo-www.anLgov.co NIT. 8301259969. Código Postal ANI 110221 Página 69 de 78 Nomenclatura Meta datos Audltorla (transición de información) Auditoria (en estado producción-WIP) Gestión de Carpetas 1 Emisiones y transmisiones
 
 Capacidad de configurar las
 
@@ -5726,7 +5592,6 @@ biblioteca de su empresa en un espacio Gestión de
 
 biblioteca de empresa centralizado y controlado asegurando NO la marca actual, las plantillas y personalizaciones utilizadas. - -.. -' .. -- "' . ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB F3) 2024 4 . Agencia Nacional lo Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 Psx: 4848B5o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 70 de 78 Intercambio de archivos Gestión de email
 
 Visor de versiones y revisiones Accesibilidad Acceso externo Accesibilidad a distancia
 
@@ -5750,7 +5615,6 @@ Capacidad de buscar rápidamente información por nombre, contenido y NO metadat
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 4 . .1 Agencia
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4848860'- www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 71 de 78 Almacenamiento flexible
 
 Flexibilidad de las
 
@@ -5782,7 +5646,6 @@ requerimientos de rendimiento que sean necesarios para cumplir con las
 
 necesidades de cada programa a utilizar y con ello, garantizar la adecuada producción de la información en los tiempos especificados en el ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.V1.0 (ATB-F3) 2024 Agencia N.Jcionat 00 Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 72 de 78 cronograma general del proyecto. Sin embargo, se solicita que los modelos individuales no superen las 200 MB para que su manipulación sea fácil.
 
 #### 6.2 Seguridad El Concesionario debe garantizar técnicamente la confidencialidad y
 
@@ -5816,7 +5679,6 @@ intercambio de datos El Concesionario deberá entregar los
 
 modelos de información en formato digital modificable y digital no modificable, teniendo presente: ANEXO TÉCNICO No. 1A ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencia Nacloool rle lnfraestmclura Avenida Calle 24A Nro. S9-42 Torre 4 Piso 2 PBX: 4848860 - www.ani.gov.co NIT. 830125996-9. Código Posta I ANI 110221 Página 73 de 78 Nativo: Formato de
 
 origen de la
 
@@ -5852,7 +5714,6 @@ BIM de factibilidad. El Concesionario puede presentar modificaciones, sugerencia
 
 estrategia de federación propuesta, siempre y cuando esta cumpla con las necesidades y requerimientos aquí indicados. [yis;;iijfa.JneralJ !:(:.:-:1;,'.:::;:;:::1::_:"r'-""--_: ...;;--''--""!'.-"::"""'-"-"'--'"'-','-""-- ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3] 2024 JilUll!ll. Agancia Nacfonal do Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48B6o - www. a n i.gov. co NIT. 830125996-9. Código Postal ANI 11022.1 Página 74 de 78 Se deberá generar un (1) modelo maestro con la totalidad del proyecto. - Modelos
 
 federados de cada
 
@@ -5916,7 +5777,6 @@ estudios de detalle. 6.6.2 Espacialidad y funcionalidad ANEXO TÉCNICO No. 1A AN
 
 ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024 Agsncla
 
-Nacional de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B48sso-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 75 de 78 En
 
 caso de que sean requeridos
 
@@ -5946,7 +5806,6 @@ Cuarto de Información de Referencia del proyecto. El Concesionario, de forma pr
 
 Nacional de Infraestructura podrá modificarlas o actualizarlas. ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
-ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 11 Agencia Nacional ele Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX, 484886o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 76 de 78 1 PLAN DE EJECUCIÓN BIM (BEP) EVALUACIÓN DE CAPACIDAD Y COMPETENCIA 2 BIM (CCA)
 
 PLANES DE ENTREGA DE INFORMACIÓN 3 (MIDPTIDP) 4 MATRIZ
 
@@ -5978,7 +5837,6 @@ Lista de chequeo para garantizar que los recursos estarán 11102023 11102023 111
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 (IndiJ
 
-Nacionaf de Infraestructura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 sx: 4a48s6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 77 de 78 funcionando correctamente antes del
 
 inicio de las actividades BIM
 
@@ -6002,7 +5860,6 @@ Manual de entrega de la información. Parte 2: Marco de trabajo para la interacc
 
 ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024 4 . Agencia
 
-Nacional de lnfraestmctura Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 484BB6o-www.ani.gov.co NIT. 830125996-9. Código Postal ANI 110221 Página 78 de 78 NTC-ISO 16739-1:2021, Intercambio de datos en la
 
 industria de la construcción y en la gestión de inmuebles mediante FC (lndustry Foundation Classes). Parte 1: Esquema de datos, tcontec, Colombia, 2021. NTC-ISO 19650-1:2021 Organización y digitalización de la información en edificaciones y
 
@@ -6018,7 +5875,6 @@ obras de construcción. Parte 2: Marco para la clasificación, Jcontec, Colombia
 
 Nivel de información necesario. Parte 1: Conceptos y principios. Asociación Española de Normalización, España, 2021. Guías para la adopción BIM en Organizaciones, BIM Forum Colombia, Colombia,2019. (en línea: https:camacol-new.demodayscript.comproductividad-sectorialdigitalizacionbim-forumbim-kit) Documentos Tipo o Pliegos Tipo y sus anexos, Colombia Compra Eficiente, Colombia 2022. (en línea: https://www.colombiacompra.gov.co/documentos-tipo/documentos-tipo)
 
-Requerimientos de intercambio de información (EIR), Luis Carlos Morales, TDC LAB, Colombia 2020. VoBo: Adriana María Montañez Saenz - VE aj Fredy Leandro Espejo Fandiño - VE fe ANEXO TÉCNICO No. lA ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y
 
 ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 LooomctoraGR-12 1201 2 motoraGR_-1,2. 1209 ??J OPl:RATIVO OPCION COMoHo.lAI p lvu LooomoioraU-10 1010 LooomotoraU-10 1028 1028 OPl:RIITIVO CONSTR.,,,.,, Y OPERATIVO vvno, nUCC10N Y ..... Carromotor {Papm6vll) CON81RUCCION - 407 OPERATIVO
 
@@ -6040,7 +5896,6 @@ ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024 LooomctoraGR-12 1201 2 motoraGR_-1,2
 
 ---
 
- Tclva Bdaalera Tolva twaatera Tolva Bfaslera Tva B;iaslera Tolva Baaslera mes 72111 72118 72128 73100 OPERACION OPERACION OPERAGION OP RACION OPERAC!ON 71365 72111 72118 72128 73100 OPERACION OPERACION OPERACION OPERACION OPERACION Tolva BMaslera 71323 NO OPERATIVO 10 Tolva B.alaslera 71324 71324 OPERACION OPERATIVO 11 Tolva B.4aslera 71327 CONSTRICCION- 71327 ON- OPERATIVO 12 Tolva Balastera 71330 OPERACION 71330 OPERACION OPERATIVO 13 TolvaB.ilaalera 71344 OPERACION 71344 OPERACION OPERATIVO 14 TolvaBallera 71340 OPERACION 71346 OPERAClmJ OPERATIVO 15 Tolva 0a1aslera 71363 71363 OPERATIVO 16 TolvaBalaslera 72105 72105 OPERATIVO N- 17 Tolva Baiaslera 72107 OPERACION 72107 OPERACION OPERATIVO 18 Tolva Baasíera 72117 OPERACION 72117 OPERACION OPERATIVO ON 19 Tolva 8al.ailera 72145 OPERACION 72145 OPERACION OPERATIVO 20 Tolva Balaslera 72140 CONSTRU ON 72146 N RUCCON OPERATIVO 21 Tolva ea.astera 72181 OPERACION 72161 OPERACION OPERATIVO 22 Tolva Balas.lera 72171 72171 OPEAAJlVO 23 Tolva Baaslera 7218a OPERACION 72180 OPERAC[ON OPERATIVO 24 Tolva Balas.lera 73027 ON- 73027 CONSTRUCCO OPERATIVO 25 Tolva Balas.lera 73028 OPERACION 7302B OPERACION OPERATIVO 26 Tolva Balaslera 73030 73030 OPERATIVO 'lT Tolva Balas.lera 731135 73035 OPERATIVO 28 Tolva Balas.lera 73030 73036 OPERATIVO 29 Tolva Balastara 73031 7303B OPERATIVO 30 Tolva Balaslera 73040 73048 OPERATIVO 31 TolvaBalaslera 73072 73072 OPERATIVO 32 Tolva 81;lllas.ltna 73073 73073 OPERAJlVO 33 Tolva Balaalera 73070 7307B OPERATIVO 34 Tolva Balaslera 73083 73083 OPERAJlVO 35 Tolva Balaslera 73087 OPERACION 73087 OPERACION OPERATIVO 36 Tolva Balaslira 73088 73088 OPERAllVO 37 Tolva8alcllera 73089 73089 OPERATIVO 38 Tolva Balas.lera 73D9:Z 730S2 OPERATIVO 39 Tolva Balailera 73099 730S9 OPERATIVO 40 Tolva 8alaslera 73103 73103 OPERATIVO 41 Tolva 8alaslera 73105 73105 OPERATIVO 42 Tolva Balaslera 73107 73107 OPERATIVO 43 Tolva8alaslera 73110 73110 OF'ERAllVO 44 Tolva Balaslera 13118 OPERACION 13116 OPERACION OPERATIVO 45 Tclva B.ailmtara 73119 OPERACION 73119 OPERACION OPERATIVO 46 Tolve Balaslera 72119 72119 OPERATIVO 47 Tolva Bala.slera 11328 OPERACION 71326 46 71328 49 71340 !SO 71379 51 72109 52 72113 53 72143 54 72156 55 730SO 56 730S4 57 7311 ,t?e;,,,};,': ;JYA,V9Lft,::t:;Jf;:;:: . 74003 74005 74006 7401 PLATAf?Jir.iiADÑs;,. 1 4030 2 4032 3 4033 4 4040 5 4078 6 4092 7 4118 8 4130 NO OPERATIVO 9 41 2 NO PE TI O 10 4139 NO OPERATIVO 11 4144 NO OPERATIVO 12 41 NO OPERATIVO 13 4006 NO OPERATIVO 4035 ol042 4-04-4 ol047 4-052 154 4075 4076 4077 4080 4062 4086 4093 4004 4108 4109 4110 4121 44 4136 45 4156 46 4154 47 4153 46 49 4004 OPERACION OPERATIVO OPERAClóN COMERCIAL 50 Plataformas Caruidier,ses 4-012 OPERAaON 4012 OPERACION OPERATIVO OPERACIÓN COMERCIAL 51 Plataforma Canadierisa 4-013 OPERAaóN 4013 OPERACION NO OPERATIVO 52 Plataformas Canadiense 4011 OPERACION 4016 OPERACION NO OPERATIVO 53 PlataformM Cariadil!lrises 4034 OPERACION 4034 OPERACION OPERATIVO OPERACIÓN COMERCIAL 54 Plataformas Cariadienses 4031 OPERACION 037 OPERACION OPERATIVO OPERACIÓN COMERCIAL 55 Plalaformas Car,adiensea 4041 CONSTRUCCION - MANTENIMIENTO 4046 N- OPERATIVO OPERACIÓN COMERCIAL 56 Plalafomi.111 Canadiansiu 4058 OPERACION 4056 OPERACION NO OPERATIVO OPERACIÓN COMERCIAL 51 Plalafo1TJ1.s Car1adianse9 4074 OPERACION 4074 OPERACION OPERATIVO OPERACIÓN COMERCIAL 58 Plataformas Canedensee 4091 OPERACION 4081 OPERACION OPERATIVO OPERACIÓN COMERCIAL 59 Plalaform.as Cariadienses 4098 OPERACION 40911 OPERACION OPERATIVO OPERACIÓN COMERCIAL 60 Plataformas Canadienses 4101 OPERACION 4106 OPERACION NO OPERATIVO 61 Plataformas C,a.nac;fienset! 4111 OPERACION 4111 OPERACION OPERATIVO OPERACIÓN COMERCIAL 62 Pla!afonnas Qmadienses 411:2 OPERACION 4112 OPERACION NO OPERATIVO 63 Platiform.as Canadiensea 4114 OPERACION 4114 OPERACION NO OPERATIVO 64 Plataformas Canadiense1 4117 OPERACION 4117 OPERACION NO OPERATIVO 65 Pla!aformas Canadienses 4122 OPERACION 4122 OPERACION OPERATIVO OPERACIÓN COMERCIAL 66 Plataformas Canadienses 4126 OPERACION 41213 OPERACION NO OPERATIVO 67 Plataformas Canadiense 4127 OPERACION 4127 OPERACION NO OPERATIVO 68 Plataformas Canadienses 4131 OPERACION 4131 OPERACION OPERATIVO OPERACIÓN COMERCIAL 69 Plahrformas: Canadienses 4134 OPERACION 4134 OPERACION OPERATIVO OPERACIÓN COMERCIAL 70 Platafonnas Canadienses 4133 OPERACION 4138 OPERACION OP TIV OPERACION COMERCIAL 71 Plataformas C.anadlens.es 4142 OPERACION 4142 OPERACION OPERAnvo OPERACIÓN COMERCIAL 72 Plataformas Canadienses 4157 CONSTRUCCION - MANTENIMIENTO 4157 CONSTRUCCION - OPERATIVO OPERACIÓN COMERCIAL 73 Plalílfonnas Canadlensa11 4158 OPERACION 4158 OPERACION OPERATIVO OPERACIÓN COMERCIAL 74 Platafom,as Canadienses 4166 4168 CONSTRUCCION - p TIV IONCOMERCIAL 75 Plstafonnas Canadienses 4H2 OPERACION 4172 OPERACION NO OPERATIVO 4175 35198 35679 3 3ffl07 OPERACION OPERATIVO OPERACIÓN COMERCIAL Plataforma Convenclonal 36711 36711 OPERACION OPERATIVO OPERACIÓN COMERCIAL Plataforma Convencional 31717 OPERACION 36717 OPERACION OPERATIVO OPERACIÓN COMERCIAL Platatcrma Co,wenelonal m11 OPERACION 36718 OPERACION OPERATIVO OPERACIÓN COMERCIAL Plataforma Convencional 36746 OPERACION 36748 OPERACION NO OPERATIVO Plataforma Convenc;ional 367H OPEAACION 36786 OPERACION OPERATIVO OPERACIÓN COMERCIAL 10 Plataforma Convenclonal mas OPERACION 36806 OPERACION OPERAnvo OPERACIÓN COMERCIAL 11 Platafonna Convencional 36643 36843 OPERACION OPERATIVO OPERACIÓN COMERCIAL --,':.;_ DEI M TOLVAGllA . t.lATl:RIAt ÍiODANTE CORREDOR ., ;-, ":::'.; r;) ),;:;' :.-.. ' ._- ;-- ;,,i :,..::.;;::a;::.; : 37002 OPERACIÓN Plataforma 37002 OPERACION OPERATIVO OPERACIÓN COMERCIAL Convencional 37015 OPERACION Pla!aforma 37015 OPERAGION OPERATIVO OPERACIÓN COMERCIAL convencional 37020 OPERACION Plalaforma 37020 OPERAGION OPERATIVO OPERACIÓNCOMERCIAL Convenclonal 37021 OPERACION Plalal'orma 37021 OPERACION OPERATIVO OPERACIÓNCOMERCIAL Convencional 37023 OPERACION Plataforma 37023 OPERACION OPERATIVO OPERACIÓN COMERCIAL Convencional U024 OPERACION Prataforma 37024 OPERACION OPERATIVO OPEAACJóN COMERCIAL 37028 OPERACION Platafomia 37026 OPERACION OPERATIVO OPERACIÓN COMERCIAL Convencional 37027 OPERACION Plataforma 37027 OPERACION OPERATIVO OPERACIÓN COMERCIAL ConvenciOnal 37028 OPERACION Plataforma 37026 OPERACION OPERATIVO OPERACIÓN COMERCIAL Convencional 10 37037 OPERACION Plataforma 37007 OPERACION OPERATIVO OPERACIÓN COMERCIAL ms OPERACION 4235 OPERACION 146Q2 14692 OPERACKlN 1.4U7 14957 OP RACION 359 35659 OPERACION 35706 35706 OPERACION 38301 36306 NO OPERATIVO 4!10íl OPERAC ON 8 4827 g 46145 10 46946 11 48148 12 47015 13 45e07 14 47095 15 47145 16 46426 17 4 OPERACIÓN OOMERCIAL 16 35161 OPERACION COMERCIAL 19 4647l OPERACIÓN COMERCIAL 20 46120 OPERACIÓN COMERCIAL 21 48869 46869 OPERACION OPERAnvo OPERACIÓN COMERCIAL 22 4S!72 46872 OPERACION OPERATIVO OPERACIÓN COMERCIAL 23 46888 46888 CONSTRUCCION - OPERATIVO OPERACIÓN COMERCIAL 24 48897 OPERACION 48897 OPERACION OPERATIVO OPERACION COMERCIAL 25 41911 OPERACION 4.916 OPERACION OPERATIVO OPERACIÓN COMERCIAL 26 46919 OPERACION 46919 OPERACION OPERATIVO OPERACION COMERCIAL 27 46928 p CI N 46928 OPERACION OPERATIVO OPERACION COMERCIAL 28 46934 OPERACION 46934 OPERACION OPERATIVO OPERACIÓN COMERCIAL 29 46935 46935 OPERACION OPERATIVO OPERACION COMERCIAL 48143 Bateadora Plaser08-i!4 RelroexcavadoraTipo 320 RelroexcavadoraTipo 320 RC 321 Rélroexcavadora Tipo 320 Re 324 RelrQCarga:Jcra 428 C RC 428 BP.-006 BP.-011 RG-320 RC32I RC324 RC428 OPERATIVO OPERATIVO OPERATIVO OPERATIVO OPERATIVO lra 021 021 OPERATIVO Litera 022 e 0ZI OPERATIVO Litera 023 023 OPERATIVO Litera 024 024 OPERATIVO litera 025 025 OPERATIVO Lllera 026 0:!:6 OPERATIVO Litera 027 027 OPERATIVO VoBo: Adriana María Montañez Saenz - VE r,.."""5 Fredy Leandro Espejo Fandiño - VE
 
 ---
 
@@ -6054,4 +5909,6 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
 

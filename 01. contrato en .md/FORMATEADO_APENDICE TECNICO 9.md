@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 9
+# APÉNDICE TÉCNICO 9
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -6,9 +6,7 @@
 **Contrato:** Concesión No. 001 de 2025  
 **Apéndice:** AT9  
 
----
 
-## INFORMACIÓN DEL DOCUMENTO
 
 | Campo | Valor |
 |-------|-------|
@@ -20,17 +18,13 @@
 | **Número** | AT9 |
 | **Estado** | ✅ Contenido completo |
 
----
 
-## DESCRIPCIÓN DEL DOCUMENTO
 
 **Apéndice Técnico 9**
 
 Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 9 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
----
 
-## CONTROL DE VERSIONES
 
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
@@ -38,11 +32,9 @@ Este apéndice técnico contiene las especificaciones técnicas y procedimientos
 | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
 
----
 
 
 
-LibertadlfOrden
 
 # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 ## AGENCIA NACIONAL DE INFRAESTRUCTURA
@@ -58,31 +50,27 @@ Concesionario:
 CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S
 
 APENDICE TÉCNICO 9
-PLAN DE OBRAS
+Plan de Obras
 
 Contrato de Concesión bajo el Esquema de APP No [} de [}
-Apéndice Técnico 9 - Plan de Obras
 
 TABLA DE CONTENIDO
 ### CAPÍTULO I - INTRODUCCIÓN 3
-### CAPÍTULO II - PLAN DE OBRAS 4
+### CAPÍTULO II - Plan de Obras 4
 #### 2.1 Contenido mínimo 4
 
 Págína 2 de 5
 
 Contrato de Concesión bajo el Esquema de APP No [-] de [}
-Apéndice Técnico 9 - Plan de Obras
 CAPÍTULO! INTRODUCCIÓN
 
 (a) De conformidad con lo prevísto en el Contrato, el presente Apéndice contiene los lineamientos y condiciones de obligatorio cumplimiento para el Concesionario en la elaboración, entrega y ejecución del Plan de Obras.
 
 (b) La aplicación de este Apéndice deberá ser efectuada en concordancia con lo establecido en el Contrato. En todo caso, de presentarse alguna contradicción entre lo previsto en este Apéndice y los demás documentos contractuales, se atenderá a lo previsto en el Contrato.
 
-Página 3 de 5
 
 Contrato de Concesión bajo el Esquema de APP No [} de [}
-Apéndice Técnico 9 - Plan de Obras
-CAPÍTULOII PLAN DE OBRAS
+CAPÍTULOII Plan de Obras
 
 #### 2.1 Contenido mínimo
 
@@ -112,10 +100,8 @@ CAPÍTULOII PLAN DE OBRAS
 
 (ix) La descripción de todas las instalaciones que se utilizarán para la ejecución de las Intervenciones, indicando para qué frentes de trabajo aplicaría, su ubicación, número, y duración - en el caso de no ser permanentes-.
 
-Página4 de 5
 
 Contrato de Concesión bajo el Esquema de APP No [} de []
-Apéndice Técnico 9 - Plan de Obras
 
 (x) Un capítulo en el cual se justifique técnicamente cómo los recursos humanos y maquinaria previstos en el mismo permiten el desarrollo de las Intervenciones en los tiempos y condiciones establecidos, este Plan de Obras debe corresponder al diagrama de Gantt y su asignación de recursos a cada tarea en el Project o similar. Se debe incluir un cuadro de recursos por actividad.
 
@@ -145,20 +131,16 @@ Apéndice Técnico 9 - Plan de Obras
 
 (j) Reportes Periódicos. El Plan de Obras debe describir las herramientas de control que establecerá el Concesionario para identificar los retrasos y las metodologías para subsanarlos, al igual que la estructura de los informes mensuales de avance que debe presentar a la Interventoría
 
-VoBo: Adriana María Montañez Saenz-VE ('-4. l Fredy Leandro Espejo Fandiño - VE
-
-Página 5 de 5
 
 
----
 
-## ADVERTENCIA LEGAL
 
-Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto antes de ser utilizada formalmente.
 
----
+
 
 **Estado del documento:** Formateado - 02/10/2025  
 **Versión:** 1.0  
 **Responsable:** Administrador Contractual EPC  
 **Próxima actualización:** 02/11/2025
+
+

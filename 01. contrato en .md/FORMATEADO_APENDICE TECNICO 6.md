@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 6
+# APÉNDICE TÉCNICO 6
 
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
@@ -6,21 +6,13 @@
 **Contrato:** Concesión No. 001 de 2025 
 **Apéndice:** AT6
 
----
 
-## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT6 | | **Estado** | ✅ Contenido completo |
 
----
 
-## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 6** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 6 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
----
 
-## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
 
----
 
- Libertad y Orden
 
 # REPÚBLICA DE COLOMBIA
 
@@ -36,7 +28,6 @@ ESQUEMA DE APP No. 001 DE 2025 Entre: Concedente: Agencia
 
 Nacional de Infraestructura Concesionario: CONCESIÓN LINEA FÉRREA CENTRAL S.A.S APENDICE TÉCNICO 6 GESTIÓN AMBIENTAL
 
----
 
  TABLA DE CONTENIDO
 
@@ -114,7 +105,6 @@ Cierre de Pendientes Ambientales - Obligaciones Nuevas 34
 
 #### 5.6 Intervenciones que no
 
-requieran de Licencia Ambiental.. 37 Página 2 de 55
 
 #### 5.7 Intervenciones que
 
@@ -174,7 +164,6 @@ ETAPA DE REVERSIÓN 53
 
 #### 8.1 Obligaciones generales 53
 
-### CAPÍTULO IX - CONSIDERACIONES ESPECÍFICAS 55 Página 3 de 5 5
 
 ### CAPÍTULO I - DEFINICIONES (a) Amenaza: Peligro
 
@@ -230,7 +219,6 @@ derivado de actividades humanas o fenómenos naturales que pueden poner en pelig
 
 integridad de uno o varios Ecosistemas. Este se puede presentar en diferentes niveles que van desde un aviso preliminar, hasta el
 
-requerimiento de acciones de Emergencias. Página 4 de 55 (h) Efecto Invernadero: Es el fenómeno natural por el cual la tierra retiene
 
 parte de la energía solar, permitiendo mantener una temperatura que posibilita el desarrollo
 
@@ -290,7 +278,6 @@ Riesgo de Desastres: La Gestión del
 
 Riesgo de Desastres en el sector transporte es un proceso orientado a la formulación, ejecución, seguimiento y evaluación de políticas, estrategias, planes, programas, regulaciones, instrumentos, medidas y acciones permanentes, para el conocimiento y la reducción del riesgo y para el
 
-manejo de desastres en el sector Página 5 de 55 transporte, con el propósito de contribuir a la seguridad, el bienestar, la
 
 calidad de vida de las personas, el desarrollo sostenible y la movilidad. (Decreto 602 del 6 de abril de 2017). (p) Incidentes con Fauna Silvestre: Hace referencia a situaciones en las cuales la fauna silvestre presente en el área del Proyecto se pueda ver afectada, afecta yo interactúa con las actividades
 
@@ -336,7 +323,7 @@ niveles de emisiones de
 
 gases de efecto invernadero en la atmósfera a través de la limitación o disminución de las
 
-fuentes de emisiones de
+fpuentes de emisiones de
 
 gases de efecto invernadero y el aumento o
 
@@ -356,7 +343,6 @@ Fecha de Inicio, el cual deberá contener los elementos solicitados en el Numera
 
 pendientes de cumplimiento ante las diferentes autoridades ambientales competentes dentro del término de los seis (6) meses citados. (x)
 
-Plan de Cierre de Pendientes Ambientales - Obligaciones Nuevas: Corresponde al documento que deberá remitir el Concesionario dentro del primer mes (1) siguiente a que haya quedado Página 6 de 55 en firme el acto administrativo emitido por la autoridad ambiental competente, que impone obligaciones ambientales nuevas yo adicionales a las identificadas en el
 
 Plan de Cierre de Pendientes Ambientales - Obligaciones Existentes. (y) Pendientes Ambientales Existentes: Corresponde a las obligaciones ambientales
 
@@ -392,11 +378,8 @@ medios de subsistencia, así como de sus sistemas físicos, sociales, económico
 
 ocurrencias de fenómenos extremos, como el Niño y la Niña, etc.), más allá de fenómenos meteorológicos determinados. La variabilidad se puede deber a procesos internos naturales dentro del sistema climático (variabilidad interna), o a variaciones en los forzamientos externos antropogénicos (variabilidad externa) (artículo 3 de la Ley 1931 de 2018).
 
----
 
- Página 7 de 55
 
----
 
 ### CAPÍTULO II - INTRODUCCIÓN (a) De conformidad con lo previsto en el Contrato, el presente Apéndice contiene las obligaciones del Concesionario en lo relacionado con la Gestión Ambiental del Proyecto. (b) Las obligaciones contenidas en el presente Apéndice no excusan al
 
@@ -436,15 +419,14 @@ Plan de Trámites Ambientales no objetado y el
 
 Plan de Obras previamente aprobado. (vi) El uso, aprovechamiento yo movilización de recursos naturales renovables requerirá del trámite y obtención de los
 
-Permisos de Carácter Ambiental por parte del Página 8 de 55 Concesionario ante la Autoridad Ambiental competente. En dicho caso, el Concesionario se obliga a tramitar y obtener dichos
 
 Permisos de Carácter Ambiental necesarios, así como a cumplir con todas las obligaciones que se
 
 deriven de los mismos, como de los demás actos administrativos que expida la Autoridad Ambiental competente asociados a estos. (vii) La explotación de
 
-fuentes de materiales de construcción, propios o de terceros, teniendo en cuenta si es del caso los permisos que deban ser otorgados por la Autoridad Minera y por la Autoridad Ambiental correspondiente, tanto para fuentes nuevas como para las existentes, en cuyo caso se deberá demostrar que las
+fpuentes de materiales de construcción, propios o de terceros, teniendo en cuenta si es del caso los permisos que deban ser otorgados por la Autoridad Minera y por la Autoridad Ambiental correspondiente, tanto para fpuentes nuevas como para las existentes, en cuyo caso se deberá demostrar que las
 
-fuentes de materiales cuentan con los instrumentos ambientales y mineros correspondientes. (viii) La disposición de
+fpuentes de materiales cuentan con los instrumentos ambientales y mineros correspondientes. (viii) La disposición de
 
 material de residuos de construcción y demolición (RCD) en los sitios autorizados. (ix) Cumplir con las
 
@@ -462,7 +444,6 @@ Uso de infraestructura de cualquier tipo. (xviii) Compensaciones por el componen
 
 Ministerio de Ambiente y Desarrollo Sostenible mediante la Resolución No. 256 de 2018, o, el (los) acto(s) administrativo(s) que lo complementen, modifiquen o sustituyan. (xix) Sustracción de áreas protegidas, nacionales, regionales y locales con sus correspondientes compensaciones y requerimientos conforme con la normativa ambiental vigente o el (los) acto(s) administrativo(s) que los complementen, modifiquen o sustituyan. (xx) Requerimientos y demás compensaciones establecidas en los actos administrativos y demás
 
-pronunciamientos de las Autoridades Estatales. (xxi) Requerimientos por Intervención de infraestructura perteneciente a otros proyectos o empresas; o superposición de áreas con otros proyectos. Página 9 de 55 (xxii) Elaboración de los estudios necesarios para la
 
 fase de desmantelamiento y abandono del Proyecto y
 
@@ -478,7 +459,6 @@ gases de efecto invernadero - GEI del
 
 Ministerio de Transporte. (xxiv) Desarrollar un
 
-programa de aporte sostenible, destinado a contrarrestar el cambio climático y gestión del riesgo en el cual involucre las comunidades asentadas en el Área de Influencia del Proyecto. (xxv) La prevención, control, mitigación, corrección o compensación de los impactos ambientales del Proyecto. Página 10 de 55 CAPÍTULO 111 OBLIGACIONES GENERALES
 
 #### 3.1 Obligaciones Generales del Concesionario (a) Sin
 
@@ -536,7 +516,6 @@ ordinario de los
 
 Instrumentos de Manejo y Control Ambiental del Proyecto. Por lo tanto, el Concesionario deberá remitir a la ANI y a la Interventoría
 
-copia de Página 11 de 55 las
 
 notificaciones de cambios menores, copia de las
 
@@ -592,7 +571,6 @@ recursos de ley dentro del proceso a que haya lugar. Si esto no se cumpliere, la
 
 Concesionario de las medidas o acciones que en
 
-virtud de dicha decisión sea obligada la ANI. Página 12 de 55 (xi) El Concesionario, a su cuenta y riesgo, deberá realizar todas las gestiones necesarias para el
 
 cumplimiento de la normativa aplicable en materia ambiental, incluyendo el trámite, obtención y actualización de los
 
@@ -660,11 +638,10 @@ parte de la(s) Autoridad(es) Ambiental(es), el Concesionario deberá iniciar la 
 
 mes de iniciadas las
 
-actividades de Construcción. Página 13 de 55 (xvii) El Concesionario deberá establecer e implementar un
 
 plan de respuesta a Incidentes con Fauna Silvestre y reportar las acciones enmarcadas en dicho plan en los informes trimestrales. Así mismo deberá implementar los ajustes que sean requeridos y deberá cumplir con las respectivas normas que regulen la materia. (xviii)En el evento en que el Concesionario decida que para la ejecución de todas o de alguna(s) de las actividades del Proyecto se requiera del uso del agua tomada
 
-directamente de fuentes naturales, el Concesionario se hará cargo por su cuenta y
+directamente de fpuentes naturales, el Concesionario se hará cargo por su cuenta y
 
 riesgo de todas las obligaciones derivadas del
 
@@ -698,7 +675,6 @@ incumplimiento de esta obligación se regirá de acuerdo a las disposiciones con
 
 Esquemas de Apremio" del Contrato, puntualmente en lo relacionado con el "Incumplimiento a las obligaciones ambientales". (xxii) Para la ejecución del Contrato y para adelantar la Gestión Ambiental del Proyecto, el Concesionario como mínimo debe contar con el siguiente personal con una dedicación del 100: (xxii) Para la ejecución del Contrato y para adelantar la Gestión Ambiental del Proyecto, el Concesionario como mínimo debe contar con el siguiente personal con una dedicación del 100%: (1)
 
-Fase de Preconstrucción: Página 14 de 55 Un especialista ambiental Un residente ambiental Un auxiliar ambiental Un residente forestal. Un Residente Biótico para el manejo del componente fauna. Estos profesionales deberán ser contratados
 
 dentro de los quince (15) días calendario siguiente a la
 
@@ -732,7 +708,6 @@ indicadores de sostenibilidad.
 
 perjuicio de las demás obligaciones establecidas sobre lamateria en el presente Apéndice, el Concesionario se obliga a: (i) El Concesionario deberá gestionar a su costo y riesgo todos los trámites administrativos ante la Autoridad Ambiental que se requieran para el desarrollo del Proyecto. En este sentido, el Concesionario asume entera
 
-responsabilidad de su Página 15 de 55 interacción con la autoridad ambiental competente para cada
 
 tipo de trámite gestionado. (ii) El Concesionario deberá, a su cuenta y riesgo, gestionar los trámites que resulten necesarios para actualizar los
 
@@ -758,7 +733,7 @@ Concesionario de su obligación de contar con los
 
 Permisos de Carácter Ambiental que se requieran para la ejecución de todo el Proyecto. En consecuencia, en el caso en que los permisos sean obtenidos para varias intervenciones, una o varias Unidades Funcionales o para el Proyecto, la referencia a intervención que se hace en las obligaciones generales contenidas en el CAPÍTULO IV deberá entenderse hecha a estas. o Las
 
-medidas de manejo ambiental que proponga el Concesionario deberán ser consecuentes con la duración de las Etapas y Fases del Proyecto, de manera tal que las obligaciones ambientales que le imponga la Autoridad Ambiental puedan ser
+medidas de manejo ambiental que proponga el Concesionario deberán ser consecpuentes con la duración de las Etapas y Fases del Proyecto, de manera tal que las obligaciones ambientales que le imponga la Autoridad Ambiental puedan ser
 
 objeto de cierre por el Concesionario
 
@@ -790,7 +765,6 @@ instrumentos de manejo y control ambiental, las modificaciones de éstos, los ac
 
 administrativos de seguimiento y
 
-los de imposición de medidas adicionales emitidos por la Autoridad Ambiental competente. (v) El Concesionario cumplirá plenamente y bajo su entera responsabilidad los requerimientos que fije la Autoridad Ambiental, adicionalmente, será de su obligación y responsabilidad que sus subcontratistas también den cumplimiento con Página 16 de 55 lo establecido tanto en los
 
 Instrumentos de Manejo y Control Ambiental del Proyecto y con los
 
@@ -854,7 +828,6 @@ plazo de cinco (5) días evaluará la
 
 solicitud de ampliación y dado el caso emitirá observaciones al Concesionario, las cuales deberán ser resueltas en un
 
-plazo de tres (3) días. Página 17 de 55 (3) En
 
 caso de que la Interventoría considere viable otorgar el plazo al Concesionario emitirá concepto de No Objeción. (4) En
 
@@ -908,7 +881,6 @@ informes de cumplimiento ambiental -ICA- hasta la fecha en la que se entregue la
 
 conceptos de cobros que realice la Autoridad Ambiental Competente, como
 
-los de seguimiento, tasas retributivas, sin limitarse a estos durante el periodo en el que tuvo a cargo la infraestructura. Página 18 de 55 (4) Obtener la no objeción de interventoría con respecto a un informe sobre el
 
 estado de cumplimiento de las obligaciones ambientales a ceder. Dos (2) meses
 
@@ -988,7 +960,6 @@ periodo de evaluación; así como la demás información que la Interventoría c
 
 perjuicio de las reglas específicas establecidas en el presente apéndice, el Concesionario remitirá a la Interventoría y la ANI en un término máximo de cinco (iii) Sin
 
-perjuicio de las reglas específicas establecidas en el presente apéndice, el Concesionario remitirá a la Interventoría y la ANI en un término máximo de cinco Página 19 de 55 (5) Días Hábiles desde su envío o recepción, copia de todo documento remitido o dirigido a la Autoridad Ambiental junto con el radicado respectivo. (iv) En el evento en que el Concesionario sea convocado a
 
 reuniones de seguimiento y control ambiental, deberá invitar, mínimo con diez (10) Días de anticipación, a la ANI y a la Interventoría para que participen en dichas sesiones ante la Autoridad Ambiental, quienes se someterán a las
 
@@ -1042,7 +1013,6 @@ Permisos de Carácter Ambiental que considere pertinentes; los restantes, o la
 
 totalidad de los mismos, si es que laANI no considera pertinente la cesión, deberán ser
 
-objeto de archivo en los términos y condiciones que establezca la Autoridad Ambiental Competente. Página 20 de 55
 
 #### 3.5 Informes sobre el componente ambiental (a) Sin
 
@@ -1108,7 +1078,6 @@ uno de una de las obligaciones. 7. Relación detallada las gestiones adelantadas
 
 cumplimiento de las obligaciones asociadas al
 
-componente de fauna, incluyendo, pero sin limitarse a lo siguiente: Página 21 de 55 Reportes de avistamientos, atropellamiento e Incidentes con Fauna Silvestre en el Proyecto e informar las gestiones adelantadas para su manejo, gestión e indicadores. Reportar las acciones adelantadas y la metodología utilizada para las
 
 labores de rescate y reubicación de nidos, madrigueras e
 
@@ -1142,7 +1111,6 @@ cumplimiento de las obligaciones ambientales contractuales. 14.Registro fotográ
 
 cumplimiento de las obligaciones relacionadas con cambio climático y con la Gestión del
 
-Riesgo de Desastres. I 9.Soportes de la información antes señalada. Página 22 de 55 20. Reporte NDC que dé cuenta del
 
 estado de cumplimiento de la meta fijada por el país para el Proyecto, de acuerdo con las disposiciones descritas en los literales c y d del numeral 3.9 de este apéndice. (b) En este sentido, una vez el Concesionario presente el respectivo informe, la Interventoría tendrá diez (10) Días para verificar las gestiones ejecutadas por el Concesionario y realizar comentarios al mismo. En el caso en que se hicieren observaciones o comentarios al contenido del informe, el Concesionario tendrá diez (10) Días para complementar el documento. En todo caso, la ANI podrá realizar observaciones a dichos informes una vez estos sean no objetados por la Interventoría.
 
@@ -1190,7 +1158,6 @@ gases de efecto invernadero - GEi. n. Adaptación al cambio climático. iii.
 
 Medio de implementación como componente transversal e
 
-instrumental de las políticas y acciones para el desarrollo bajo en carbono, adaptado y resiliente al clima. Página 23 de 55 En este sentido, cada país define internamente un
 
 conjunto de iniciativas y acciones para reducir las
 
@@ -1242,9 +1209,7 @@ resultados de las medidas obtenidas y proyectadas para cada
 
 una de las unidades funcionales. Conclusiones y recomendaciones.
 
----
 
- Página 24 de 55 iii. Informe ejecutivo que describa las conclusiones generales sobre el estado y avance del
 
 potencial de mitigación del proyecto para el periodo en evaluación. (d) Referencias. El Concesionario deberá elaborar los reportes con base en: i. Los datos del portal logístico Colombiano del
 
@@ -1292,7 +1257,6 @@ dentro de los cinco (5) días siguientes al vencimiento del plazo anterior. (f)
 
 Cargue de Datos. El Concesionario deberá cargar los
 
-datos de la medida NDC para el Corredor Férreo en la plataforma RENARE yo la plataforma establecida por la entidad encargada y demás partes interesadas del Gobierno Nacional. Esta periodicidad está sujeta a los tiempos establecidos por dicha entidad. Página 25 de 55 (g) Remisión de soportes. El Concesionario deberá presentar la
 
 copia de la radicación electrónica del reporte y de los soportes respectivos a la entidad encargada, a la Interventoría y a la ANI, dentro de los cinco (5) días hábiles siguientes a la radicación respectiva. (h) Actualización y/o ajuste en el reporte i. La ANI, con base a los requerimientos normativos, podrá solicitar (según aplique) la actualización yo ajuste del informe según las necesidades del Gobierno Nacional yo la entidad encargada. ii. El
 
@@ -1308,9 +1272,7 @@ pro de la reducción de los
 
 gases de efecto invernadero.
 
----
 
- Página 26 de 55
 
 ### CAPÍTULO IV - COMPENSACIONES SOCIOAMBIENTALES
 
@@ -1360,7 +1322,7 @@ pago de cualesquiera
 
 costos de explotación de las
 
-fuentes de materiales, inversiones forzosas, los
+fpuentes de materiales, inversiones forzosas, los
 
 derechos de uso de
 
@@ -1376,7 +1338,7 @@ transporte de los materiales; todo lo cual se entiende incluido
 
 dentro de la Oferta del Concesionario. Lo
 
-anterior de acuerdo a lo establecido en el numeral 9.13 Fuentes de Materiales, literal b del
+anterior de acuerdo a lo establecido en el numeral 9.13 Fpuentes de Materiales, literal b del
 
 Contrato de Concesión. (c)
 
@@ -1394,7 +1356,6 @@ que de dichos pendientes se deriven, asociados a los
 
 Instrumentos de Manejo y Control Ambiental del Proyecto y de los
 
-Permisos de Carácter Ambiental que le hayan sido cedidas al Concesionario. Página 27 de 55 (d) Las medidas
 
 derivadas de los actos
 
@@ -1446,7 +1407,6 @@ ramales de conexión, según esta Intervención se describe en la Sección 9. l 
 
 bancos de hábitat constituidos y avalados por la Autoridad Ambiental competente, para la conservación a través de
 
-acciones de preservación, Página 28 de 55 restauración, uso
 
 sostenible de los Ecosistemas y su Biodiversidad, de acuerdo con lo establecido en la Resolución 1051 de 2017, o aquella que la reglamente, modifique, complemente o derogue. (b) Las actividades ejecutadas con ocasión a las Compensaciones Socioambientales deberán llevarse a cabo en los precisos términos y tiempos fijados por la Autoridad Ambiental en los
 
@@ -1518,7 +1478,6 @@ solicitud de previa aprobación por la ANI, serán solo las obligaciones taxativ
 
 pronunciamientos de las Autoridades Ambientales que otorgan
 
-Permisos de Carácter Ambiental yo en los Página 29 de 55 Instrumentos de Manejo y Control Ambiental del Proyecto que se encuentren entre las
 
 necesidades de Compensaciones Socioambientales por uso y
 
@@ -1558,7 +1517,6 @@ trimestral de Gestión Ambiental, el Concesionario deberá presentar a la Interv
 
 mensual de Compensaciones Socioambientales, discriminado por Unidad Funcional que deberá contener como mínimo lo siguiente: (i) Acto administrativo mediante el cual se imponen las
 
-obligaciones de compensación. (ii) Acto Administrativo mediante el cual la Autoridad Ambiental aprueba la medida compensatoria propuesta por el Concesionario. (ii) Acto Administrativo mediante el cual la Autoridad Ambiental aprueba la medida compensatoria propuesta por el Concesionario. Página 30 de 55 (iii) Localización del predio o área donde se establecerá la compensación (archivo shp) en los datum y origen adoptado por la Autoridad Ambiental para la elaboración de los
 
 informes de cumplimiento ambiental. (iv) Describir detalladamente las actividades que, de acuerdo con el acto administrativo, se deben llevar a cabo para dar cumplimiento a la medida compensatoria. (v) Determinar la
 
@@ -1604,7 +1562,6 @@ Subcuenta de Compensaciones Socioambientales superen el ciento veinte por ciento
 
 valores de las
 
-actividades de compensación que Página 31 de 55 '1 apliquen localmente, identificando los
 
 valores de cada
 
@@ -1646,7 +1603,6 @@ programa de seguimiento y control sobre el cronograma que presente el Concesiona
 
 dentro de los
 
-plazos de su Contrato. Página 32 de 55
 
 ### CAPÍTULO V - OBLIGACIONES DURANTE LA
 
@@ -1720,7 +1676,6 @@ balance de avance de
 
 cumplimiento de las obligaciones identificadas por cada
 
-uno de los expedientes. Página 33 de 55 1' (iii) Realizar un
 
 plan de acción para el
 
@@ -1786,9 +1741,7 @@ manifiesto de la Interventoría dentro del documento para concertar el plazo den
 
 caso de las Instituciones Educativas ni para las del puente vehicular y peatonal sobre el río Sogamoso y sus
 
----
 
- Página 34 de 55 respectivos
 
 ramales de conexión dado lo señalado en el numeral 3.3(b)(ii) del presente Apéndice, el Concesionario deberá hacer todo cuanto esté a su alcance por avanzar en el
 
@@ -1850,7 +1803,6 @@ Permisos de Carácter Ambiental o modificación del
 
 Instrumento de Manejo y Control Ambiental del Proyecto, podrá ser posterior al
 
-inicio de la Intervención de cada Unidad Funcional. Página 35 de 55 (iv) Ser ejecutado conforme a lo allí dispuesto, su no cumplimiento podrá dar origen a los
 
 mecanismos de apremio, yo procesos sancionatorios a los que haya lugar. (v) Ser
 
@@ -1898,7 +1850,6 @@ Instrumentos de Manejo y Control Ambiental del Proyecto, el Concesionario deber�
 
 casos de proyectos, obras o actividades que no se encuentren en listados en los artículos 2.2.2.6.1.2. del Decreto 1076 de 2015, o los artículos que lo modifiquen o sustituyan, el Concesionario deberá proceder de acuerdo con lo descrito en el Parágrafo 1 del Artículo 2.2.2.6.1.7. En
 
-cualquiera de los dos casos citados en el literal precedente, el Concesionario, previo a la remisión del documento al que hace referencia el artículo 2.2.2.6.1.7, o el requerido Página 36 de 55 en el parágrafo 1, de este mismo artículo, remitirá el
 
 borrador de este a la lnterventoría y se efectuará el siguiente procedimiento. (i) La Interventoría contará con cinco (5) días desde la remisión del borrador para presentar al Concesionario y a la ANI sus observaciones al mismo. (ii) En
 
@@ -1960,7 +1911,6 @@ desarrollo de las intervenciones. Una vez identificados, el Concesionario debe i
 
 competente de acuerdo con lo previsto en la Normatividad Aplicable y lo previsto en el Contrato, presentando los soportes técnicos y jurídicos establecidos en los formularios correspondientes, para lo cual deberá asumir por su cuenta y riesgo los costos
 
-derivados de la evaluación y seguimiento ambiental. Página 37 de 55 (f) En
 
 caso de que el Concesionario contemple la ejecución de una obra o actividad no prevista inicialmente en el PAGA, éste debe, previamente, obtener los
 
@@ -2020,7 +1970,6 @@ suma de dinero que se requiera para el
 
 cumplimiento de sus obligaciones relacionadas con la Gestión Ambiental del Proyecto, incluyendo las que sean necesarias para que la Autoridad Ambiental dé inicio yo prosiga con las diferentes etapas del trámite y expida la Licencia Ambiental o la modificación al
 
-Instrumento de Manejo y Control Ambiental del Proyecto. Página 38 de 55 Así también, tendrá la
 
 responsabilidad de asumir los recursos técnicos, logísticos y económicos necesarios para la evaluación y el seguimiento ambiental que realice la Autoridad Ambiental competente. (c) El Concesionario deberá dar estricto cumplimiento a los requerimientos que establezca(n) la(s) Autoridad(es) Ambiental(es) cornpetente(s) por lo que tiene la obligación de elaborar los estudios ambientales a que haya lugar con el alcance que le sea exigido en los términos de referencia fijados y radicarlos
 
@@ -2058,7 +2007,6 @@ Estudio de Impacto Ambiental corno para los demás documentos que serán
 
 objeto de radicación ante la Autoridad Ambiental competente. (v) Dicha
 
-mesa de trabajo no podrá tener una duración superior a cinco (5) días. Página 39 de 55 j (vi) En
 
 caso de desacuerdo entre el Concesionario y el Interventor en cualquier
 
@@ -2118,7 +2066,6 @@ Fecha de Inicio el
 
 programa de aporte sostenible, destinado a contrarrestar el cambio climático el cual involucre el Área de Influencia y su conexión inmediata con los centros
 
-urbanos de importancia regional, herramientas de planificación ambiental urbana y rural, educación y capacitación, adaptación y mitigación. Página 40 de 55 (b) Para el desarrollo del documento, el Concesionario podrá tener como referencia la normatividad nacional ambiental incluyendo la Ley 99 de 1993, como a su vez la Ley 1523 de 2012, el
 
 plan de adaptación al cambio climático para el sector transporte y la Ley 1931 del 27 de julio de 2018 sobre cambio climático, así como la siguiente información de referencia: (i) Guía para incluir la
 
@@ -2142,7 +2089,6 @@ plan de gestión integral del cual trata el Apéndice Técnico 2, se deberán pr
 
 mecanismos de cumplimiento de la normatividad ambiental vigente en
 
-temas de medio ambiente y comunidad. Así mismo, éste deberá obligar a garantizar que todos los profesionales, contratistas yo subcontratistas del Concesionario cuenten con la experiencia, idoneidad y capacidad para realizar las diversas actividades del Proyecto, cumpliendo la normatividad y estándares antes mencionados, así como las buenas prácticas nacionales e internacionales del subsector vial. Página 41 de 55
 
 ### CAPÍTULO VI - OBLIGACIONES DURANTE LA
 
@@ -2212,7 +2158,6 @@ Intervenciones de la Unidad Funcional (cuando también se ejecutará el PAGA aso
 
 firma de auditoría externa que cuente con auditores con experiencia en auditorías de
 
-obras de Infraestructura, y Página 42 de 55 se deberán realizar por cada Unidad Funcional; la primera auditoría se deberá realizar cuando la Unidad Funcional a auditar llegue al 30 del
 
 avance de las obras y la segunda al 60 del
 
@@ -2272,9 +2217,7 @@ emisrones de Gases de Efecto Invernadero GEI, en el
 
 marco de la Ley 1931 del 27 de julio de 2018 y de los actos
 
----
 
- Página 43 de 55 administrativos que lo complementen, reglamenten o sustituyan, a través de la implementación del
 
 programa de aporte sostenible no objetado por la Interventoría en la
 
@@ -2318,9 +2261,7 @@ base de datos con información
 
 disponible de la concesión ingresando el
 
-reporte de Emergencias y desastres ocurridos a lo largo del Proyecto, indicando descripción, georreferenciación y solución aportada por Unidad Funcional. Página 44 de 55
 
----
 
  o
 
@@ -2404,7 +2345,6 @@ sustracciones de reservas forestales; ii)
 
 fase de cierre y abandono; iii) obligaciones que impliquen la construcción o adecuación de
 
-obras de ingeniería que no hayan sido concluidas Página 45 de 55 o sin iniciar; y iv) en general requerimientos que, por causas no imputables al Concesionario, no hayan finalizado durante el
 
 tiempo de terminación de las
 
@@ -2458,7 +2398,6 @@ ambiental de la Unidad Funcional según los lineamientos descritos en los numera
 
 Etapa de Operación y Mantenimiento los lineamientos para dar cumplimiento a los requerimientos y compensaciones y demás obligaciones ambientales pendientes por ejecutar. (i) En concordancia con lo señalado en los literales (a) o (b) del presente numeral, el Concesionario elaborará y entregará a la Interventoría y a la ANI un documento completo y explicito describiendo la forma en que ha cumplido o cumplirá -según sea el
 
-caso de cierre ambiental total o parcial, el cual deberá atender las siguientes condiciones: (i) Deberá ser entregado antes del vencimiento del plazo que le sea fijado. Página 46 de 55 (ii) Deberá abarcar cada
 
 una de las obligaciones establecidas en: La Licencia Ambiental
 
@@ -2498,7 +2437,6 @@ caso de que existan observaciones por
 
 parte de la Interventoría, el Concesionario deberá responderlas yo hacer las correcciones respectivas
 
-dentro de los quince (15) días siguientes a la recepción de las mismas. Página 47 de 55 Si
 
 dentro de los cinco (5) días el Interventor no se pronunciare sobre las respuestas yo correcciones del Concesionario, se entenderá que no objetan el
 
@@ -2514,7 +2452,6 @@ observaciones de la ANI
 
 dentro de los tres (3) días siguientes a su comunicación, lo cual deberá ser verificado por la Interventoría
 
-dentro de los dos (2) días siguientes al vencimiento del plazo anterior. Página 48 de 55
 
 ### CAPÍTULO VII - OBLIGACIONES DURANTE LA
 
@@ -2584,7 +2521,6 @@ necesidad de una nueva obra no prevista
 
 dentro de las aprobadas por la Autoridad Ambiental, debe realizarla previa obtención de los
 
-Permisos de Carácter Ambiental Página 49 de 55 y realizar la actualización del PAGA el cual debe contar con la no objeción de la Interventoría para dar inicio a la ejecución de las actividades. (ix) Corresponde al Concesionario realizar el monitoreo y
 
 seguimiento de acuerdo con la periodicidad establecida en los
 
@@ -2626,7 +2562,6 @@ impacto de atropellamiento de fauna silvestre, de acuerdo con los mecanismos est
 
 presencia de animales de fauna silvestre colisionados y siniestrados en el Proyecto con el
 
-fin de que se realice el manejo yo la disposición. Página 50 de 55 (e) Asistir a
 
 espacios de capacitación y articulación para la gestión del componente biótico en las vías nacionales convocadas por la ANI y otras
 
@@ -2672,7 +2607,6 @@ acerca de dicha gestión. (4). Establecer una meta en
 
 toneladas de residuos aprovechados (porcentaje de disminución de residuos para disposición final). (5) Demostrar la debida gestión
 
-integral de los residuos generados en el Proyecto. Página 51 de 55 (b) La actualización del
 
 programa de aporte sostenible deberá contar con la no objeción por
 
@@ -2684,7 +2618,6 @@ mesa de trabajo entre el Concesionario, la Interventoría y la ANI, para efectua
 
 parte de la Interventoría. (iii) Dicha
 
-mesa de trabajo no podrá tener una duración superior a cinco (5) días, dentro de los cuales como resultado se procurará la obtención de la no objeción del Documento. Página 52 de 55
 
 ### CAPÍTULO VIII - OBLIGACIONES DURANTE LA
 
@@ -2738,11 +2671,8 @@ materia de Gestión Ambiental del Contrato, el cual deberá corresponder con los
 
 Etapa de Reversión. (viii) El programa será objeto de seguimiento bimensual por
 
-parte de la Interventoría y de laANI. Página 53 de 55
 
----
 
- (ix) Las medidas propuestas en el documento al que hace referencia el literal a de este apartado será de obligatorio cumplimiento por parte del Concesionario, y su incumplimiento dará lugar las multas y sanciones previstas en el Contrato. (x) Las regulaciones relacionadas con la Reversión Especial a la que hace referencia el Contrato. Página 54 de 55
 
 ### CAPÍTULO IX - CONSIDERACIONES ESPECÍFICAS (a) En virtud del artículo 2.2.2.3.8.4. del Decreto 1076 de 2015 o la norma que lo sustituya, modifique, adicione o complemente, el Concesionario suscribirá y remitirá los documentos y
 
@@ -2774,7 +2704,6 @@ ambiental de la Gestión Social y Ambiental del Proyecto. (d) En relación con l
 
 ramales de conexión: (i) No le son aplicables al Concesionario las obligaciones del presente apéndice que se relacionan a continuación: Capítulo 3, nral 3.1, literal a, romanitos ii, xvi Capítulo 3, nral 3.1, literal a, romanitos iv Capítulo 5, nral 5.5 Capítulo 5, nral 5.6 Capítulo 5. 7 Capítulo 6, nral 6 .1, literales e, f, g Capítulo 6, nral 6.4, literales e, g, h, i Capítulo 7 Capítulo 8 NLAR NLAR NLAR NLAR NLAR NLAR NLAR NLAR ; ;)rint bWutiy ? peatonai sobréieI río Soga()SO y us .. respeétivó{fariia]éf de cotjifóij} NLAR NLAR NLAR NLAR NLAR (1) NLAR NLAR: No le aplica el requerimiento (!) Aplicable mientas subsista la obligación de Operación y
 
-Mantenimiento de acuerdo con lo establecido en la Sección 9.16 del Contrato Página 55 de 55 (ii) Además de las obligaciones que no están relacionadas en el cuadro precedente, al Concesionario le son aplicables las siguientes obligaciones: Cerrar los expedientes
 
 ambientales de los
 
@@ -2788,11 +2717,8 @@ parte de la Autoridad Ambiental competente; lo anterior sin
 
 perjuicio de las facultades sancionatorias que la ANI pueda ejercer por razón del
 
-incumplimiento de las obligaciones ambientales contractuales a su cargo. VoBo: José Alain Hoyos Hernández - VPR-EO ;r Fabian Augusto Jiménez Franco - VPR Página 56 de 55
 
----
 
- Libertad y Orden REPúBLICA DE COLOMBIA
 
 MINISTERIO DE TRANSPORTE
 
@@ -2800,7 +2726,6 @@ MINISTERIO DE TRANSPORTE
 
 NACIONAL DE INFRAESTRUCTURA
 
----
 
  CONTRATO DE CONCESIÓN BAJO EL
 
@@ -2852,7 +2777,6 @@ Pliego de Condiciones, y que en sus cálculos económicos se deben incluir todos
 
 una de las obligaciones contractuales y asumir los riesgos previstos a su cargo en dichos documentos. ANEXO DEL APÉNDICE TÉCNICO No. 6 - GESTIÓN AMBIENTAL Pág. 2 de 13
 
----
 
  Proyecto: APP Dorada - Chiriguaná INSTRUMENTOS DE MANEJO Y CONTROL AMBIENTAL QUE SERÁN
 
@@ -2902,11 +2826,9 @@ Expediente de Licenciamiento Ambiental, lo cual no generará reconocimiento algu
 
 parte de la ANI.
 
----
 
  ANEXO DEL APÉNDICE TÉCNICO No. 6 - GESTIÓN AMBIENTAL Pág. 3 de 13
 
----
 
  Proyecto: APP Dorada - Chiriguaná INSTRUMENTOS DE MANEJO Y CONTROL AMBIENTAL QUE SERÁN
 
@@ -2916,7 +2838,6 @@ MARCO DE LA SUSCRIPCIÓN DEL
 
 CONTRATO DE CONCESIÓN DEL PROYECTO FÉRREO "DORADA - CHIRGUANÁ"
 
----
 
  Expediente de Licenciamiento Ambiental LAM6817 Proyecto: "Rehabilitación, Reconstrucción y
 
@@ -2998,7 +2919,6 @@ fecha de ejecutoria de la cesión no son
 
 objeto de cesión.
 
----
 
  Observación: El que la ANI haya remitido respuesta a un determinado requerimiento no implica que la ANLA acepte el
 
@@ -3240,7 +3160,6 @@ parte de la entidad territorial. 617780 Alcantarilla El CSFF solicitó visita pa
 
 campo de la
 
-viabilidad de los permisos CORPOCESAR 11352 16112023 ambientales. El día 27 noviembre del 2023 622500 Erosión fluvial CORPOCESAR da respuesta mediante radicado DG 1930 2024-200-035 El 29 enero 2024 mediante radicado 2024- 601806 Erosión fluvial CORMAGDALENA 200-0351se notifica afectación vía férrea a CORMAGDALENA. VoBo: José Alain Hoyos Hernández - VPRE Fabian Augusto Jiménez Franco - VPRE ' ANEXO DEL APÉNDICE TÉCNICO No. 6 - GESTIÓN AMBIENTAL Pág. 13 de 13 CESIÓN
 
 TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD
 
@@ -3302,7 +3221,6 @@ partir de esa fecha, todas las referencias que se hayan hecho o se hagan al Inst
 
 Nacional de Concesiones INCO deben entenderse referidas a la Agencia
 
-Nacional de Infraestructura. - Página 1 de 5 - CESIÓN
 
 TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD
 
@@ -3344,7 +3262,6 @@ Ferroportuario de Colombia Transferport SAS con un
 
 porcentaje de participacíón del 15, representada por Femando Miguel Velasco, identificado con cédula de extranjería No. 424006. 10. Que, de acuerdo con lo anterior, en los detalles del
 
-Proceso de Licitación Pública Número: VJ- VE-APP-IPB 001-2023, publicado en el SECOP 1, está consignado que la ANI suscribió el Contrato Asociación Público-Privada No. 001 de 2025, con la Concesión Línea Férrea Central S.A.S., identificada con NIT 901.936.505-3, representada legalmente por CARLOS BUENO MORALES, identificado con cédula de extranjería No. 397855. Página 2 de 5 CESIÓN
 
 TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD
 
@@ -3392,7 +3309,6 @@ que de ella se derivan", agregando que "(. ..) En tales casos, el CEDENTE Y EL C
 
 Ambiental de la siguiente documentación: "(. ..) ARTÍCULO 2.2.2.3.8.4. Cesión total o
 
-parcial de la licencia ambiental (. . .) - Página 3 de 5 - CESIÓN
 
 TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD
 
@@ -3440,7 +3356,6 @@ requerimientos de información yo documentación que sean realizados por
 
 parte de la ANLA en el marco del trámite de CESIÓN TOTAL. CLÁUSULA TERCERA. - COSTOS: El concesionario CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S., asume la
 
-totalidad de los costos del proceso, logística de visita y demás gestiones administrativas asociadas al trámite de CESIÓN TOTAL. CLÁUSULA CUARTA. - PERFECCIONAMIENTO: La CESIÓN se entenderá perfeccionada y surtirá efectos, una vez se emita y encuentre ejecutoriado el acto administrativo proferido por la ANLA que autorice la CESIÓN TOTAL. - Página 4 de 5 - 41 CESIÓN
 
 TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD
 
@@ -3452,7 +3367,6 @@ Esquema de Asociación Público Privada No. 001 de 2025 de la ANI (Anexo 1), el 
 
 mes de abril del año 2025. El CEDENTE ADRIANA BAREÑO ROJAS
 
-Vicepresidente de Planeación Riesgos y Entorno (E) Agenc Infraestructura - ANI CARLOS BUENO MORALES Representante Legal Concesión Línea Férrea Central S.A.. - Página 5 de 5 - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3502,7 +3416,6 @@ sentido de modificar los numerales 1, 4, 1 O y 11 del artículo primero del menc
 
 Ministerio de Ambiente, Vivienda y Desarrollo Territorial, efectúo seguimiento y control ambiental al proyecto, y realizó determinados requerimientos a la sociedad Ferrocarriles del
 
-Norte de Colombia S.A. - FENOCO S.A. - Página l de LO - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3566,7 +3479,6 @@ sentido de confirmar los numerales 15.7y15.10delartículoprimeroymodificarlosnum
 
 Ministerio de Ambiente, Vivienda y Desarrollo Territorial, realizó el seguimiento y control al proyecto vial denominado "Rehabilitación, Reconstrucción y
 
-Mantenimiento de la Red Férrea del Atlántico" y efectuó unos requerimientos. - Página 2 de l O - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3624,7 +3536,6 @@ Plan de Paisajismo, Ornamentación y Arborización en las diferentes comunidades
 
 Programa de Arborización. 20. Que mediante Resolución 1320 del 26 de diciembre de 2013, esta Autoridad Nacional, impuso a la sociedad Ferrocarriles del
 
-Norte de Colombia S.A. - FENOCO S.A., obligaciones adicionales en el giro del seguimiento y control realizados al proyecto que consistieron en Página 3 de 10- CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3638,7 +3549,7 @@ informe de ruido una
 
 tabla de correcciones, solicitarlos
 
-puntos de muestreo en posición corredor-receptor, identificación de fuentes
+puntos de muestreo en posición corredor-receptor, identificación de fpuentes
 
 emisoras de ruido de la zona, realizar caracterización a
 
@@ -3682,7 +3593,6 @@ quinto de la Resolución No. 02345 del 26 de septiembre de 2022, la ANLA le defi
 
 medidas de manejo, monitoreo y obligaciones con base en la relación de unos actos administrativos, los cuales se citan a continuación: OBLIGACIONES A
 
-CARGO DE LA AGENCIA DESCRIPCIÓN - Página 4 de 10 - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3710,7 +3620,6 @@ Programa de monitoreo
 
 social De la Resolución 0751 del 5 de agosto de 2002 Artículo primero Numerales 1, 2, 3, 4, 7, 9, 1 O y 11 del artículo segundo. Artículo cuarto Artículo quinto Artículo sexto Artículo séptimo Artículo octavo Artículo décimo Artículo décimo primero Artículo décimo segundo Artículo décimo tercero Artículo décimo cuarto Artículo décimo quinto Artículo décimo sexto Artículo décimo séptimo Artículo décimo
 
-octavo De la Resolución 0264 del 21 marzo de 2013 Numerales 2, 3, 4 y 5 y parágrafo del artículo primero Resolución 0299 del 28 de marzo de 2014, en los tramos que fueron cedidos a la ANI. - Página 5 de 10 - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3744,7 +3653,6 @@ proceso de Licitación Pública No. VJ-VE-APP-IPB-001- 2023, el cual tenía por 
 
 Contrato de Concesión cuyo objeto será el
 
-otorgamiento de una concesión para que, de conformidad con lo previsto en este Contrato y en sus Apéndices, el Concesionario, por su - Página 6 de 10 - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3788,7 +3696,6 @@ alcances de cesión definidos en elAnexo del apéndice técnico No. 6- Gestión 
 
 fines de cesión de los
 
-Instrumentos de Manejo y Control Ambiental del Proyecto. - Página 7 de 10 - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3836,7 +3743,6 @@ acuerdo de cesión
 
 parcial de los derechos y obligaciones establecidos en la Resolución No. 751 del 5 de agosto de 2002, proferida por la Autoridad
 
-Nacional de Licencias Ambientales, sus modificaciones y los demás actos administrativos que hacen parte integral del expediente LAM6817-00. - Página 8 de 10 ; CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3902,7 +3808,6 @@ requerimientos de información yo documentación que sean realizados por
 
 parte de la ANLA en el marco del trámite de CESIÓN PARCIAL. CLÁUSULA TERCERA. COSTOS: El concesionario CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S, asume la
 
-totalidad de los costos del proceso, logística de visita y demás gestiones administrativas asociadas al trámite de CESIÓN PARCIAL. Página 9 de LO - CESIÓN
 
 PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL
 
@@ -3934,18 +3839,16 @@ mes de abril del año 2025. El CEDENTE ADRIANA BAREÑO ROJAS
 
 Vicepresidente de Planeación Riesgos y Entorno (E) Agencia
 
-Nacional de Infraestructura -ANI El CESIO ARIO CARLOS BUENO MORALES Representante Legal Concesión Línea Férrea Central S.A.. - Página 10 de LO - f í f f f f f ;,...a ;.! z .i' .i hl .[ , Ji . -[ 11 J l!! ll"i " , ij "ij', -. "ij"' ll-1 2 ! 4 1 J f f i i ! : i i l _J ,ji, J ; j! !l J ji J liH .ii 111mi IH( i1n"ªu... H iH!i l,. n nu hi Hii !",-1 liB }rg., fl 11itiii ,phi ; :: - s,h 11tit :.!I fl,: 1 ia if H i'i; . .. HH ,j;"i-'i r: ii m H.. 111 H h 11 1 r:- r H? :. HI: h. " ! tif[ t ..f::1 f lH ;l te: 111 ili i. ,.. i l.eJ:i f J! 1 , !J .! iH!.i ,., ' 11! ti 1 ;ih li lil ,1 Jti.i ji . ili j ..f.t h! i Hu !f! l 1l11i ..,l !Ji: 1 H:.!t,f !l H' '! .... ˡ.f. tH . i H i .t..f }'h H m H ht !!l 111 i e; i f f f i l i f f f t f f i f i i í f f i f ! ! t 1i 1 1 í 1 f f f ⁱ I i í f i f f f f i í i í i i f f f 1 i f 1 i 1 1 f f f í I f f t i f i f i f í í 1 i f i f f i 1 j i i í i i i i í i f f i í f f f i i í í f f f f f i j H (E{ la !! Jtl H H .H H .H, fl :t í-!l l i !].I' i1.;i-- ... i-t , " , i lni !tnltmg.f HU nm f!ifj i 1 ,IJ-ªht1!1j:I.1n , i. u ! 1 11 ti J!!f ;IM l l,i:t1 .!:!1 e: u n e H lj t,f !'l'-i_1CJ i!HHHt t i . Hi .. 1 tHi rhipi;;.'5i:ji: g .1.1 lH !a ! iif ,.H.!H-il i "O' .( H ..ttt ., 1 .i,j.tl .. . . . . . i ' f l 1 i i 1 l t 1 1;. ;1 i 1 . i 1 ,i l u H l Hi i if 1 f f. 1 I r f r j ! i í f i W'f(H HP f i i. if f 1 1 !ilhsli 11f .i:. n l j' I i.. i i i'l .f .i i f tW h i u ; . :l" 1 il i ii!U !(] ! H ! i J 1 !iij !t1 ¹ .u. i ! u ií 1 i . " . i,l f 'i t f t I i I :- M i "1 ia i .. i J t i . . . . .. i J J i .. i . " : j l! E t f i l l i i .1 Hm 1 t t . . . . . rrtii :.11 11 i' -h HP f!"[fl m1 hi,f. ! il i fl iF iH1 fli i t 1 t iif ":t J h'l".! fUI I f Id j f] iU HI g,a i ""rt. f, sº!ª li! 1h 1 ! pf. i Ji -1.1,Yo i H;I n;1t 1h11 i, ii; it 1 i f 8 i f B '! 1 f ᵍ .[. i ! i b 1 . . . ; . . . . . . . . . . . J . ; . . . I' ; ; ; -: ! 1 !'. ,.: 1R i ,' V "hᶠ ᶠ ii a' ! { ! f ij i íe e l 1 Jii ; i, mn !P t11 r- ' . " . Hr el![f ti J r a !is,. : ,i t il H 1m1 !Hl:'!ifi,fiii ;!( i a::: :1 l t: ; mu ur IuJll nJi m1nn i. l1f:; :::i idf "iu, - h!H a:;! .. ii! i!;. i: r H''J. .t,a.1 ,,.1el -ti!,; gs i!H 1- gln pij; 1 Pi r .u.H. , !" 7 1:S!-r1i! ; t rJa SIi :S s f.I m1.1. J..i IBHí 'í ldH'! ai i ;f!,- : :1.:1 !-iih ;:::: 111 i l1o "t. llil lrllii. l. .i:-Jº :1!a IH:i-i' p;a I' 1ur ":1.11 "'!' J Ji! l !JH i, .fL 1.h.1.t Hiíl gi' : 8-j :ljlff t:ifl !J-:-1-: ltl-He-lp.11 l 1fº! ! ijf O" J; a,; 1 ! " UiH 11.j-ll u Jlji: lt 1.J ;1 i! UH t?J-; Hi!i ugtn: 1 i ªrJ . i!i Bmri nn. !i h il h"h :. !. !f 1: Q.8" . ... a 1 ln p ir 1 i 1 i is l Jf "l 1:g :t!Ji JMh ! i i f 1 1 1 i I Hi ..,;. áf[ ff' "áH a !.ftri. H.ri 1!-,!', !n .k : H!h ""'"Ñ l ;H H jli hti i"I: tu fº li 1"- 1 liUi if] i ,- ,o - d, f J!il U! i ;;! 8 w '' ;! d1 '' _J;,Ii ij! ' ili i ! !1 ! f 1; 1 !,9i ! " i;vt i 1 f 1 f f I -!"f f í 8 i I ! ' i t 1 ! t j ' f. 1 ! 'í ;t . . . . ;: ;: . . . . . . . ;: ;, ;: j!
 
----
 
-## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
----
 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
 

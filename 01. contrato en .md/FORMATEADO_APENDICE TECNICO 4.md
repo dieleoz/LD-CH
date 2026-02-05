@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 4
+# APÉNDICE TÉCNICO 4
 
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
@@ -6,21 +6,14 @@
 **Contrato:** Concesión No. 001 de 2025 
 **Apéndice:** AT4
 
----
 
-## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT4 | | **Estado** | ✅ Contenido completo |
 
----
 
-## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 4** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 4 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
----
 
-## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
 
----
 
- Ubertud yOrden
+ Libertad yOrden
 
 # REPÚBLICA DE COLOMBIA
 
@@ -36,7 +29,6 @@ ESQUEMA DE APP No. 001 DE 2025 Entre: Concedente: Agencia
 
 Nacional de Infraestructura Concesionario: CONCESIÓN LÍNEA FÉRREA CENTRAL S.A.S APENDICE TÉCNICO 4 INDICADORES DE DISPONIBILIDAD, SEGURIDAD, CALIDAD Y
 
-NIVEL DE SERVICIO. Apéndice Técnico 4 - Indicadores
 
 TABLA DE CONTENIDO l. INTRODUCCIÓN 4 2.
 
@@ -66,7 +58,6 @@ EXIMENTES DE RESPONSABILIDAD, y mantenimiento programado 89
 
 #### 7.1 Eventos Eximentes 89
 
-#### 7.2 Mantenimiento Programado 90 Página 2 de 90 Apéndice Técnico 4 - Indicadores ÍNDICE DE TABLAS Tabla 1 - Indicadores aplicables a la Prestación del Servicio Público
 
 Ferroviario de Transporte de Carga 6 Tabla 2 - Indicadores exclusivos para las actividades objeto del componente A de la Retribución 1 O Tabla 3 - Indicadores Unidad Funcional UF 1.. 27 Tabla 4 - Indicadores Unidad Funcional 2 y 3 52 Tabla 5 - Factores de Ponderación (Fp) cada
 
@@ -82,7 +73,6 @@ uno de los Indicadores para las actividades Objeto del
 
 Componente de Retribución de Ingresos por la Prestación del Servicio Público
 
-Ferroviario de Carga 84 Tabla 1 O - Valor de cada Indicador (VI) 85 Página 3 de 90 Apéndice Técnico 4 - Indicadores APÉNDICE TÉCNICO 4 - INDICADORES PARA DISPONIBILIDAD, CALIDAD Y
 
 NIVEL DE SERVICIO l. INTRODUCCIÓN De conformidad con lo previsto en el Contrato, el presente Apéndice contiene los
 
@@ -134,11 +124,10 @@ perjuicio de la facultad del Interventor yo
 
 ANI de efectuar mediciones y evaluaciones
 
-adicionales de cualquiera de los Indicadores. Página 4 de 90 Apéndice Técnico 4 - Indicadores e) Normatividad Específica Aplicable: Se refiere a la normatividad con la cual se asegurarán o desarrollarán la
 
 calidad de las
 
-Obras de Construcción yo Mantenimientos a desarrollar. t)
+Obras de Construcción y/o Mantenimientos a desarrollar. t)
 
 Unidad de Medición: Se refiere a la unidad en la que se expresa la medida del
 
@@ -162,7 +151,6 @@ Fecha de Inicio. Los Indicadores para las actividades
 
 objeto de Retribución se medirán con las
 
-condiciones de acuerdo con lo descrito en la Tabla 2 a la Tabla 4. Página 5 de 90 Apéndice Técnico 4 - Indicadores Indicadores aplicables a la Prestación del Servicio Público
 
 Ferroviario de Transporte de Carga: Tabla 1 - Indicadores aplicables a la Prestación del Servicio Público
 
@@ -176,13 +164,12 @@ horas de indisponibilidad diaria en
 
 caso de estar programado para su operación. Con base en el registro diario, se calculará mensualmente el
 
-indicador de la siguiente manera: DMR D0TDO 100 DMR95 Cumplimiento del noventa y cinco por ciento (95) de la Disponibilidad del Material Rodante del Proyecto en los días operativos, de acuerdo con lo establecido en el
+indicador de la siguiente manera: $DMR = \frac{DO}{TDO} \times 100$ DMR95 Cumplimiento del noventa y cinco por ciento (95) de la Disponibilidad del Material Rodante del Proyecto en los días operativos, de acuerdo con lo establecido en el
 
 plan de operación En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1. 4 horas Página 6 de 90 Apéndice Técnico 4 - Indicadores DO: Días operativos efectivos del Material Rodante del Proyecto en estado operativo y funcional TDO: Total Días operativos planificados del Material Rodante del
 
 Proyecto de acuerdo con el
 
@@ -216,7 +203,6 @@ Surcos de los trenes serán los siguientes: Máximo treinta (30)
 
 minutos de demora en el horario tren Máximo noventa (90)
 
-minutos de demora por semana 1 hora Página 7 de 90 Apéndice Técnico 4 - Indicadores de
 
 Surcos de Movilización.. hora
 
@@ -242,7 +228,7 @@ valores de aceptación se le asignará 1. Ejecución del
 
 Plan de Mantenimiento EPM2 Verificación de la ejecución del
 
-plan de mantenimiento del Material NA Mensual Se empleará la siguiente fórmula para la El cumplimiento del medición: Indicador, se entenderá cuando la Interventoría APE 100 tenga una aceptación TAPE mayor o igual al 95 de las actividades incluidas donde, dentro del
+plan de mantenimiento del Material NA Mensual Se empleará la siguiente fórmula para la El cumplimiento del medición: Indicador, se entenderá cuando la Interventoría $APE = \frac{APE_{ejecuted}}{TAPE_{programmed}} \times 100$ tenga una aceptación TAPE mayor o igual al 95 de las actividades incluidas donde, dentro del
 
 Plan de Mantenimiento APE: Total de APE 95 l Semana del Material Rodante del Rodante del Proyecto actividades ejecutadas por el Concesionario y TAPE - Proyecto aprobado por la lnterventoría y la ANI aceptadas por En
 
@@ -252,7 +238,6 @@ valor de Interventoría del
 
 Plan de la medición sea menor al Mantenimiento del valor referenciado, se Material Rodante del entiende incumplido el Proyecto en el mes. indicador y su valor será TAPE: Total O, de lo contrario será l. Actividades programadas del
 
-Plan de Mantenimiento del Página 8 de 90 Apéndice Técnico 4 - Indicadores Material Rodante del Proyecto en el mes. Página 9 de 90 Apéndice Técnico 4 - Indicadores Tabla 2 - Indicadores exclusivos para las actividades objeto del componente A de la Retribución. Disponibilidad y
 
 cobertura de las
 
@@ -306,7 +291,6 @@ valor de l. El concesionario podrá cumplir el presente indicador a través de u
 
 sistema de comunicaciones temporal que le permita tener una disponibilidad y cobertura del 100 de las 1 hora Infraestructura Férrea. comunicaciones entre los
 
-centros de control de tráfico todo el Material Página 10 de 90 Apéndice Técnico 4 - Indicadores Rodante que hace
 
 uso de la Infraestructura Férrea. Se llevará un
 
@@ -380,13 +364,11 @@ alguno de logística - manejo CLO atención al NA Semanal horas (h) en el los do
 
 registro de al CTC a dejar Dorada, tanto atención a la carga en carga, o a recoger para la atención camiones, en donde se car ar; así de camiones, debe incluir la
 
-hora de Página 11 de 90 TRENES) sea mayor al valor referenciado, se entiende incumplido el Apéndice Técnico 4 -Indicadores también como la atención de cargue y
 
 descargue de trenes. En general, mide las demoras en el
 
 manejo de la carga en el
 
-Centro de Transferencia de La Dorada como para la atención de trenes. Página 12 de 90 llegada e
 
 ingreso de cada camión al CTC y la respectiva
 
@@ -406,7 +388,6 @@ hora de llegada y
 
 salida de la respectiva locomotora que trasladó este tren, ya que eventualmente una locomotora puede llegar con un convoy, soltarlo, enganchar inmediatamente otro convoy e irse nuevamente. La medición se refiere a la atención a la carga. Así las cosas, se debe registrar la
 
-hora de terminar de atender el convoy que llegó al CTC, que incluye descargar toda la carga al patio del CTC yo directamente a indicador y su valor será O, de lo contrario será l. Apéndice Técnico 4 - Indicadores camiones, y volver a cargar el mismo convoy para tenerlo listo para el siguiente tren. En
 
 caso de que las
 
@@ -418,13 +399,10 @@ tiempo de la
 
 totalidad de los camiones y de los trenes atendidos, y se verificará que dicho valor promedio semanal, no supere los siguientes valores: CAMIONES.
 
-Tiempo de cargue y descargue4 (en horas) Página 13 de 90 Se mide desde el momento en que el camión entra al
 
-Centro de Transferencia de Carga (CTC) a cargar o descargar, hasta el momento que sale del CTC. Apéndice Técnico 4 - Indicadores TRENES: Se mide desde el momento en que un tren del proyecto o de Tercero Operador llega al CTC y es descargado yo cargado, y hasta el momento en que el tren quede nuevamente listo para salir con la nueva carga. (No es
 
 parte de la medición los tiempos adicionales que tarde el tren en iniciar un nuevo viaje, no imputables al cargue y descargue del tren)
 
-Tiempo de Cargue y descargue real10 (en horas Página 14 de 90 Apéndice Técnico 4- Indicadores Se llevará un
 
 registro de los incidentes y accidentes operacionales, incluyendo, día y
 
@@ -468,9 +446,7 @@ durante de eventos no invasiones, minuto de recibo del el mes: operacionales que
 
 minuto de tiempo de reacción se escombros o atención efectiva en asignará 1 al indicador, de basuras, ue cum
 
-limiento de los lo contrario será O Página 15 de 90 .... - - Apéndice Técnico 4 - Indicadores Atención de Querellas (QO) en etapa preoperativa Proporciona la medición de la
 
-cantidad de eventos relacionados con invasiones que se presentan en un tiempo determinado que involucran QO construcciones, cerramientos, pasos a nivel, escombros, entre otros, y la medición de la debida gestión de la respectiva interposición de querellas ante las NIA Semestral Página 16 de 90 procedimientos aprobados por la Interventoría para la atención de cada tipología de evento y cálculo del tiempo transcurrido entre el reporte del evento y su atención efectiva medido en horas. Mensualmente se calculará el valor
 
 Promedio de los
 
@@ -492,7 +468,7 @@ tratarse de un indicador englobada en el
 
 marco de la protección humana, sólo se tienen en cuenta los accidentes que involucran a las personas Durante el
 
-periodo de frecuencia máxima de medición se determinará la siguiente relación: Q (Nº Invasiones que se presentan en el periodo)(total de Querellas inte uestas x 100 Se debe llevar el
+periodo de frecuencia máxima de medición se determinará la siguiente relación: Q $Q = \frac{\text{Querellas Interpuestas}}{\text{Invasiones Detectadas}} \times 100$ Se debe llevar el
 
 registro de los accidentes que se presenten en la Infraestructura Férrea y en la Infraestructura Logística Concesionada, independiente del
 
@@ -506,7 +482,6 @@ detalle de lo sucedido, la posible causa del accidente. Mensualmente se calcular
 
 caso de que el
 
-valor de la medición sea mayor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1. NA Página 17 de 90 Apéndice Técnico 4 - Indicadores ST (Número
 
 total de accidentes Número
 
@@ -536,7 +511,6 @@ detalle de lo sucedido, la posible causa del accidente mortal. Mensualmente se c
 
 caso de que el
 
-valor de la medición sea mayor al valor referenciado, se entiende incumplido el indicador y su valor será o, de lo contrario será l. NA Página 18 de 90 Apéndice Técnico 4 - Indicadores
 
 Disponibilidad de la Infraestructura Férrea y del Puente Vehicular y Peatonal sobre el río Sogamoso y sus
 
@@ -550,7 +524,6 @@ ramales de conexión subsista la obligación de Operación y Mantenimiento del p
 
 ramales de conexión a cargo del Concesionario. Una vez se dé la Reversión
 
-Especial de este puente y sus ramales, cesará la medición sobre dicha infraestructura. NA Diario Horas Página 19 de 90 Se llevará un registro
 
 diario de todos los eventos que ocasionen
 
@@ -566,7 +539,6 @@ caso de que el
 
 valor de la medición sea menor al valor referenciado para alguna o todas las
 
-mediciones de Dis onibilidad de 4 horas Apéndice Técnico 4 - Indicadores Página 20 de 90 afectación, entendiéndose la
 
 efectividad de la solución como la habilitación sin ningún
 
@@ -574,13 +546,11 @@ tipo de restricción al tráfico férreo, vehicular o peatonal, según aplique. 
 
 tiempo de indisponibilidad de la Infraestructura Férrea o del Puente vehicular y peatonal sobre el río Sogamoso y sus
 
-ramales de conexión.según aplique, será el tiempo transcurrido entre el inicio y la solución efectiva del daño, la avería o la afectación. El indicador se calculará de la siguiente manera: DIF:cc (DOTDO) 100 donde, DO: Número de horas más fracción de horas operativas efectivas al día, cuyo valor es el resultado del número de horas o fracción de horas operativas programadas al día (TDO) menos las horas más fracción de horas Infraestructura Férrea y de Disponibilidad del Puente Vehicular y Peatonal sobre el río Sogamoso con sus respectivos
+ramales de conexión.según aplique, será el tiempo transcurrido entre el inicio y la solución efectiva del daño, la avería o la afectación. El indicador se calculará de la siguiente manera: $DIF = \frac{DO}{TDO} \times 100$ donde, DO: Número de horas más fracción de horas operativas efectivas al día, cuyo valor es el resultado del número de horas o fracción de horas operativas programadas al día (TDO) menos las horas más fracción de horas Infraestructura Férrea y de Disponibilidad del Puente Vehicular y Peatonal sobre el río Sogamoso con sus respectivos
 
-ramales de conexión, cuando aplique su medición, se entiende incumplido el indicador y su valor será O, de lo contrario será 1. Apéndice Técnico 4 - Indicadores de afectación o
 
 indisponibilidad de la infraestructura que se mide, TDO: Total de horas más fracción de horas operativas programadas al día para la infraestructura que se mide. Este indicador se medirá en forma independiente y se deberá cumplir para la Infraestructura Férrea y para el Puente Vehicular y Peatonal sobre el río Sogamoso y sus respectivos
 
-ramales de conexión. Página 21 de 90 La medición del indicador para el Puente Vehicular y Peatonal sobre el río Sogamoso y sus
 
 ramales de conexión, sólo se realizará a
 
@@ -590,7 +560,6 @@ Acta de Terminación del puente y sus
 
 ramales de conexión y mientras subsista la obligación de Operación y
 
-Mantenimiento de estas obras a cargo del Concesionario. Una vez se dé la Reversión Apéndice Técnico 4 - Indicadores
 
 Estado de la Unidad
 
@@ -628,9 +597,7 @@ infraestructura de la Vía Férrea En
 
 caso de que el
 
-valor de cualquiera de las tres mediciones sea menor a los respectivos valores referenciados, se entiende incumplido el indicador y su valor será O, de lo contrario será 1. 1 semana Página 22 de 90 Apéndice Técnico 4 - Indicadores comprenden la UFVF, la cual cuenta con
 
-Acta de Terminación deUFVF Página 23 de 90 Funcional de Vía Férrea. UFVFDl::aÍtems terminadostotal ítems constructivos 100 Las siguientes mediciones se realizarán a partir del mes 2, sobre el
 
 mantenimiento de los ítems
 
@@ -644,9 +611,7 @@ Plan de Mantenimiento aprobado por la Interventoría) x 100 3) (Ítems de infrae
 
 Plan de Mantenimiento aprobado por la Interventoría total .. -
 
----
 
- 1 Apéndice Técnico 4 - Indicadores ítems
 
 construidos de infraestructura férrea que deben ser mantenidos según
 
@@ -658,13 +623,13 @@ uno de los puentes la
 
 totalidad de las inspecciones férreos priorizados en el siguientes condiciones: son los AT-1 y el Puente
 
-Puentes de Hormigón Adaptación siguientes: Vehicular y Peatonal 1) Tableros: Superficie de los En
+puentes de Hormigón Adaptación siguientes: Vehicular y Peatonal 1) Tableros: Superficie de los En
 
 puentes de sobre el río Sogamoso. con grietas (no capilares), Inspección y formatos Hormigón Para el puente vehicular dañada o con verificación SIPUCOL 1) Tableros: y peatonal sobre el 'ria desconchados: (5 del visual del estado Manual para Superficie con Sogamoso, la inspección área). de los elementos que componen la inspección
 
-visual de grietas se realizará mientras 2) Juntas con defecto que 2) Juntas con subsista la obligación de impida el movimiento, Estado de Puentes El cada
+visual de grietas se realizará mientras 2) Juntas con defecto que 2) Juntas con subsista la obligación de impida el movimiento, Estado de puentes El cada
 
-uno de los Puentes y Trimestral defecto que Operación y con sellado defectuoso, 1 Mes puentes férreos priorizados en el Pontones, y
+uno de los puentes y Trimestral defecto que Operación y con sellado defectuoso, 1 Mes puentes férreos priorizados en el Pontones, y
 
 Manual de impida el Mantenimiento sobre el daños o con pérdidas: movimiento, puente vehicular y ninguna. AT-1 y el Puente inspección con sellado peatonal sobre el río 3) Armaduras Vehiculary
 
@@ -680,7 +645,6 @@ Superficie de pintura metálicos en medición sobre dicha en malas condiciones: 
 
 Juntas de Se diligenciará un 7)
 
-Resto de elemento del expansión no formato con el resultado tablero con pérdidas, funcionales de la ins ección rietas o desconchados: Página 24 de 90 Apéndice Técnico 4 - Indicadores 6)
 
 Superficie de pintura en malas condiciones 7)
 
@@ -690,7 +654,6 @@ Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o da
 
 Barreras de seguridad, barandillas de puentes o
 
-pretiles de Hormigón: Con roturas o daños 12) Grietas 5 mm; Desconchados lcm 13) Subestructura: Desconchados o grietas. 14) Erosión o deterioros en el cimiento. Página 25 de 90 verificación a cada
 
 uno de los puentes, incluyendo el día de la inspección, el nombre y abscisado del puente inspeccionado y el estado
 
@@ -704,17 +667,15 @@ Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o da
 
 Barreras de seguridad, barandillas de puentes o
 
-pretiles de Hormigón: Con roturas o daños: ninguna. 4) Grietas 5 mm; Desconchados l cm 5) Subestructura: Desconchados o grietas: ninguno. 6) Erosión o deterioros en el cimiento: ninguno. 7) Deterioros en apoyos: ninguno. Estribos con descalce o mal estado: ninguno. 8) Con descalce o mal estado: ninguna. 9) Deterioros en rótulas: ninguno. 10) Armaduras al descubierto: ninguna. Puentes Metálicos o mixtos: 1)
+pretiles de Hormigón: Con roturas o daños: ninguna. 4) Grietas 5 mm; Desconchados l cm 5) Subestructura: Desconchados o grietas: ninguno. 6) Erosión o deterioros en el cimiento: ninguno. 7) Deterioros en apoyos: ninguno. Estribos con descalce o mal estado: ninguno. 8) Con descalce o mal estado: ninguna. 9) Deterioros en rótulas: ninguno. 10) Armaduras al descubierto: ninguna. puentes Metálicos o mixtos: 1)
 
 Superficie de pintura con deterioros: ninguna; 2) Superficie con corrosión: (5 del área).
 
----
 
 - - - -- - - Apéndice Técnico 4-Indicadores 15) Deterioros en apoyos: ninguno. Estribos con descalce o mal estado 16) Con descalce o mal estado. 17) Deterioros en rótula. 18) Armaduras al descubierto En puentes Metálicos o mixtos: l)
 
 Superficie de pintura con deterioros 2) Superficie con corrosión 3)
 
-Elementos de unión en mal estado Drenaje: 1) Superficie erosionada: ninguna. 2) Daño estructural: ninguno Página 26 de 90 3)
 
 Elementos de unión en mal estado: ninguno. 4) Si algún puente presenta algún
 
@@ -722,7 +683,6 @@ defecto de acuerdo con lo aclarado anteriormente, se procede a anotar el incumpl
 
 incumplimiento de cualquiera de las condiciones anteriormente señaladas en uno, varios o la
 
-totalidad de los puentes inspeccionados, implicará incumplimiento, por lo tanto el valor del indicador será O: de lo contrario será 1. Apéndice Técnico 4 - Indicadores Tabla 3 - Indicadores Unidad Funcional UF 1 Se deberá llevar a un Proporciona la registro
 
 detallado de los medición de la eventos relacionados
 
@@ -738,9 +698,8 @@ fecha de radicación, indicador y su valor será interposición de inspección d
 
 periodo de frecuencia máxima de Nota: Aplica medición se determinará para las querellas la siguiente relación: que se establezcan en Q (Nº Invasiones que
 
-Etapa de se presentan en el Operación y periodo)(total de Mantenimiento Querellas inte uestas x 100 Velocidad de El Concesionario deberá VEl:::: 98 transporte VEl El Concesionario FRA Semanal llevar un registro de 3 días deberá establecer re
+Etapa de se presentan en el Operación y periodo)(total de Mantenimiento Querellas interpuestas x 100 Velocidad de El Concesionario deberá VEl:::: 98 transporte VEl El Concesionario FRA Semanal llevar un registro de 3 días deberá establecer re
 
-orte de los resultados Página 27 de 90 Apéndice Técnico 4 -Indicadores en la
 
 Etapa de Operación y Mantenimiento un
 
@@ -752,7 +711,6 @@ velocidad de operación de los trenes en su paso a través de zonas rurales y
 
 urbanas de acuerdo con las
 
-velocidades de operación establecidas en la Franja Operacional del Corredor del Proyecto según consta en el Apéndice Técnico l. Página 28 de 90 de medición de En
 
 caso de que el
 
@@ -784,7 +742,6 @@ efectivo de despeje de la Vía Férrea, transcurrido entre el reporte del incide
 
 reinicio de la operación sobre la Infraestructura Férrea, disponiendo de equipo y
 
-ersonal de NA Mensual Hora Página 29 de 90 De no existir en alguna UFVF un paso urbano, todas las mediciones se realizarán en zonas rurales. Se llevará el
 
 registro de los accidentes yo incidentes ocurridos en el Corredor Férreo, incluyendo, día, hora y
 
@@ -796,7 +753,6 @@ cumplimiento de los procedimientos aprobados por la Interventoría ara la Promed
 
 despeje de vía férrea Trprom 2horas. En
 
-caso de que el tiempo promedio (Trprom) sea mayor al valor referenciado se entiende NA Apéndice Técnico 4 - Indicadores apoyo para atender accidentes y
 
 despejes de la Vía Férrea. atención de cada tipología de evento y cálculo del tiempo transcurrido entre el reporte del evento y su atención efectiva medido en horas. Mensualmente se calculará el valor
 
@@ -806,7 +762,6 @@ tiempos de atención
 
 efectiva de los accidentes yo incidentes que se presentan en el Corredor Férreo (Trprom). incumplido el indicador y su valor será O, de lo contrario será 1. Invasiones del Tr Corredor (Q)
 
-Tiempo de reacción oportuna para evitar que las invasiones que se puedan presentar sobre el Corredor del Proyecto se materialicen, que no sean incidentes operacionales, tales corno construcciones, cerramientos, pasos a nivel, escombros. NA 2 Meses Horas Página 30 de 90 Se debe llevar un registro
 
 permanente de reportes del
 
@@ -818,7 +773,6 @@ registro de las acciones llevadas a cabo or el Concesionario Tr 24 horas En
 
 caso de que el
 
-valor de la medición sea mayor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 1 Mes Apéndice Técnico 4 - Indicadores para evitar la invasión Y haber recuperado el espacio del Corredor Férreo invadido (diferente a interposición de querellas). Seguridad del tráfico (ST) En el
 
 marco de la seguridad vial y de los
 
@@ -844,7 +798,6 @@ detalle de lo sucedido, la asible causa del STloo En
 
 caso de que el
 
-valor de la medición sea mayor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 NIA Página 31 de 90 Apéndice Técnico 4 -Indicadores accidente. Mensualmente se calculará el indicador. ST (Número
 
 total de accidentes Número
 
@@ -878,7 +831,6 @@ cumplimiento de sus obligaciones ambientales, y según lo dispuesto por el res e
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incum !ido el 1 semana Página 32 de 90 Apéndice Técnico 4- Indicadores de
 
 manejo de manejo ambiental, y indicador y su valor será vigente. ambiental yo los respectivos Informes O, de lo contrario será 1.
 
@@ -912,7 +864,6 @@ normatividad de Cumplimiento ICA, entiende incumplido el ambiental cuerpo entero
 
 NORMA de requerimientos de la O, de lo contrario será 1. 9012 Vibraciones. Cumplimient o Ambiental autoridad ambiental competente debe hacer Efectos de (ICA)
 
-mediciones de vibraciones vibraciones en la en cantidad, frecuencia, Página 33 de 90 Apéndice Técnico 4 - Indicadores Índice de Mortalidad 01 (Im) Accidentes mortales que se presenten en la Infraestructura Férrea, en la Infraestructura Logística Concesionada y en el puente vehiculary peatonal sobre río Sogamoso y sus
 
 ramales de conexión, mientras subsista la obligación de Operación y Mantenimiento sobre el puente vehicular y eatonal sobre el estructuras, causadas por transporte terrestre. Estándar Austriaco DIN 4150 Vibraciones. Efectos de ' vibraciones en edificaciones Parte 2 y Parte 3. Estándar Alemán NA espacialidad, duración según la regulación aplicable IV (Número de
 
@@ -938,7 +889,6 @@ ramales de accidente, el
 
 nombre de conexión los operarios, el
 
-detalle de lo sucedido, la Página 34 de 90 NA Apéndice Técnico 4 - Indicadores
 
 Disponibilidad de la río Sogamoso y sus respectivos
 
@@ -952,11 +902,9 @@ ramales de conexión a cargo del Concesionario. Una vez se dé la Reversión
 
 Especial de este puente y sus ramales, cesará la medición sobre dicha infraestructura. Mensualmente se calculará el indicador Im Cumplimiento del Infraestructura Férrea DVF
 
-cumplimiento de la Dis onibilidad NA Semanal Se llevará un registro
+cumplimiento de la Disponibilidad NA Semanal Se llevará un registro
 
-diario de todos los Página 35 de 90 noventa y cinco por ciento 95 o su
 
-erior de la 4 horas Apéndice Técnico 4 - Indicadores de la Vía Férrea, aseguramiento de la Disponibilidad inmediata, continua y permanente durante los tiempos operativos. eventos que ocasionen
 
 indisponibilidad de la Infraestructura Férrea, en el periodo que aplique. Este registro debe incluir el sitio donde se presenta el daño, la avería, afectación o indisponibilidad, la hora y
 
@@ -972,7 +920,6 @@ caso de que el
 
 valor de la medición sea menor al valor referenciado, para alguna o todas las
 
-mediciones de Disponibilidad de Infraestructura Férrea, se entiende incumplido el indicador y su valor será O, de lo contrario será 1. Página 36 de 90 Apéndice Técnico 4 - Indicadores donde, DO: Número de horas más fracción de horas operativas efectivas al día, cuyo valor es el resultado del número de horas o fracción de horas operativas programadas a1 día (TDO) menos las horas más fracción de
 
 horas de afectación o indisponibilídad de la infraestructura que se mide, TDO: Total de horas más fracción de horas operativas programadas al día para la infraestructura que se mide Este indicador se medirá en forma independiente y se deberá cumplir para la Infraestructura Férrea. Se refiere a la Art. 710-13 Criterios de Se deberá contar con un Para la verificación del 1 semana para las Señalización señalización Señales evaluación
 
@@ -982,7 +929,6 @@ Valor de Aceptación, se señales que Vertical Sobre Vías Carreteras - Vías F�
 
 verticales de sv
 
-horizontal de tránsito, todo el Corredor INVIAS 2013 MensualSem estral establecidos en señalización vertical y dividirán las vías de la normatividad horizontal existente y servicio que se para la requerida a lo largo del desarrollarán en la Etapa incumplan la retrorreflectividad y 48 horas para las Nivel Férreo como lo Art. 720-13 señalización, Corredor del Proyecto. Preoperativa, así como la es entre otros: Manual de como son: vía férrea en se mentos Página 3 7 de 90 señales ilegibles, Apéndice Técnico 4 - Indicadores demarcación de Señalización inicio y
 
 fin de Vial del l. Posición y Sobre dicho inventario, de un kilómetro. dimension se medirá la Cada segmento debe dañadas o inexistentes estaciones, señalización vial en vías de servicio, señalización propia informativa, señalización vertical y
 
@@ -1004,7 +950,6 @@ tipo de lámina retrorreflectiva. En
 
 caso de que existan dos o más señales que incumplan
 
-alguna de estas condiciones en un mismo segmento, se generará un incumplimiento del segmento. Página 3 8 de 90 Apéndice Técnico 4 - Indicadores En caso que se presenten dos o más segmentos con incumplimiento, se asignará al indicador O, si se presentan menos de 2 segmentos con incumplimiento se asi nará 1 al indicador. Pasos a Nivel Tipo ByC PNBC Verificación del correcto
 
 funcionamiento de los subsistemas enclavados para los pasos a nivel Tipo B y C, entre las cuales se contempla el
 
@@ -1022,7 +967,6 @@ fallo de los subsistemas, fecha, ubicación, descripción del fallo, acciones to
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 24 horas Página 39 de 90 Apéndice Técnico 4 - Indicadores de pasos a nivel Tipo B yC)xl00 Se debe comprobar que se mantiene el suministro principal de . energía y su
 
 sistema de respaldo para los
 
@@ -1036,11 +980,9 @@ funcionamiento de las barreras, los semáforos, las señales sonoras y demás el
 
 sistema de respaldo {redundancia) de comunicación y transmisión de señal entre el paso a nivel y el
 
-Centro de Control de Operaciones. Página 40 de 90 En caso que
 
 algunos de estos elementos hayan tenido algún fallo durante el
 
-periodo de medición, o se haya reportado que no tenga un correcto funcionamiento, el paso a nivel se considera que no cum le. Apéndice Técnico 4 - Indicadores Adaptación delos Inspección y formatos Los elementos o
 
 unidades de medición a incluirse en las inspecciones son los siguientes: En
 
@@ -1052,13 +994,13 @@ parte de la Los puentes
 
 objeto de inspección y verificación visual deben cumplir con la
 
-totalidad de las siguientes condiciones: Puentes de Hormigón 1) Tableros: Superficie con grietas (no capilares), dañada o con desconchados: (5 del área). 2) Juntas con defecto que impida el movimiento, con sellado defectuoso, verificación visual del estado SIPUCOL Manual para 2) Juntas con defecto que Infraestructura Férrea concesionada. Se daños o con pérdidas: ninguna. de los elementos la inspección impida el diligenciará un formato 3) Armaduras
+totalidad de las siguientes condiciones: puentes de Hormigón 1) Tableros: Superficie con grietas (no capilares), dañada o con desconchados: (5 del área). 2) Juntas con defecto que impida el movimiento, con sellado defectuoso, verificación visual del estado SIPUCOL Manual para 2) Juntas con defecto que Infraestructura Férrea concesionada. Se daños o con pérdidas: ninguna. de los elementos la inspección impida el diligenciará un formato 3) Armaduras
 
-Estado de Puentes El que componen cada
+Estado de puentes El que componen cada
 
 uno de los
 
-visual de Puentes y Anual movimiento, con sellado con el
+visual de puentes y Anual movimiento, con sellado con el
 
 resultado de la inspección y descubiertas: ninguna; 4) Conectores metálicos 1 Mes puentes que Pontones, y defectuoso, verificación a cada uno en mal estado: ninguno; hacen
 
@@ -1074,7 +1016,6 @@ Juntas de expansión no funcionales 6)
 
 Superficie de pintura en malas condiciones 7)
 
-Resto de elemento del tablero con Página 41 de 90 inspección, el nombre y abscisado del puente inspeccionado y el estado
 
 detallado de cada
 
@@ -1092,11 +1033,10 @@ Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o da
 
 Barreras de seguridad, barandillas de puentes o
 
-pretiles de Hormigón: Con roturas o daños 12) Grietas 5 mm; Desconchados lcm 13) Subestructura: Desconchados o grietas. 14) Erosión o deterioros en el cimiento. 15) Deterioros en apoyos: nin uno. Página 42 de 90 3)
 
 Barreras de seguridad, barandillas de puentes o
 
-pretiles de Hormigón: Con roturas o daños: ninguna. 4) Grietas 5 mm; Desconchados I cm 5) Subestructura: Desconchados o grietas: ninguno. 6) Erosión o deterioros en el cimiento: ninguno. 7) Deterioros en apoyos: ninguno. Estribos con descalce o mal estado: ninguno. 8) Con descalce o mal estado: ninguna. 9) Deterioros en rótulas: ninguno. 10) Armaduras al descubierto: ninguna. Puentes Metálicos o mixtos: 1)
+pretiles de Hormigón: Con roturas o daños: ninguna. 4) Grietas 5 mm; Desconchados I cm 5) Subestructura: Desconchados o grietas: ninguno. 6) Erosión o deterioros en el cimiento: ninguno. 7) Deterioros en apoyos: ninguno. Estribos con descalce o mal estado: ninguno. 8) Con descalce o mal estado: ninguna. 9) Deterioros en rótulas: ninguno. 10) Armaduras al descubierto: ninguna. puentes Metálicos o mixtos: 1)
 
 Superficie de pintura con deterioros: ninguna; 2) Superficie con corrosión: (5 del área). 3)
 
@@ -1116,7 +1056,7 @@ Disponibilidad de la E2 vía de servicio Verificación del
 
 cumplimiento de la
 
-Disponibilidad de las vías de servicio, aseguramiento de la dis onibilidad NA Semanal Drenaje: 1) Superficie erosionada: ninguna. 2) Daño estructural: nin uno E2 LSv LTSv, Donde: LSv: Longitud total en
+Disponibilidad de las vías de servicio, aseguramiento de la Disponibilidad NA Semanal Drenaje: 1) Superficie erosionada: ninguna. 2) Daño estructural: nin uno E2 LSv LTSv, Donde: LSv: Longitud total en
 
 km de vía ue ermite Se llevará un registro
 
@@ -1128,29 +1068,22 @@ Disponibilidad de la vía de servicio, se le tomará el número de
 
 km de la
 
-totalidad de vías de servicio E2 LSv LTSv 2:: 0,9 10 días Página 43 de 90
 
----
 
 -"----
 
----
 
 - Apéndice Técnico 4-Indicadores --
 
----
 
 ---------
 
----
 
 -
 
----
 
 -----------
 
----
 
 - inmediata, la Circulación incluir la ubicación del continua y de los sitio y la longitud (en permanente vehículos en km) donde se presenta Donde: durante los las vías de el daño, la avería, tiempos servicio afectación o LSv: Longitud total en operativos. LTSv: indisponibilidad, la hora
 
@@ -1168,15 +1101,12 @@ valor de entendiéndose la la medición sea menor al
 
 efectividad de la valor referenciado, se solución como la entiende incumplido el habilitación sin ningún indicador y su valor será tipo de restricción al O, de lo contrario será 1 tráfico vehicular. Se considerará que un kilómetro se encuentra disponible cuando resulta posible la Circulación de vehículos de mantenimiento, operación, mantenimiento y custodia a lo
 
-largo de la totalidad del kilómetro. Página 44 de 90 No se consideran interrupciones a la
 
-Disponibilidad de la vía aquellos eventos en los ue la circulación de Apéndice Técnico 4 - Indicadores vehículos se interrumpe por Eventos
 
 Eximentes de Res onsabilidad. El SICC debe permanecer disponible el 100 del
 
 tiempo de operación (7 Días de la semana x 24 horas) de acuerdo con el
 
-reporte de Disponibilidad elaborado por una firma independiente. Disponibilidad del SICC Disponibilidad del Sistema E3 Informático de Contabilización y Control SICC NIA Mensual Página 45 de 90 El auditor independiente debe presentar mensualmente el
 
 reporte de disponibilidad del SICC en horas, tomando como referencia los 7 días de la semana, las 24 horas del día. El reporte debe
 
@@ -1186,11 +1116,10 @@ casos de no disponibilidad del SICC, con medición en
 
 horas de dicha no disponibilidad. Así las cosas, la medición será: HDsiccHTsicc En donde: HDsicc será las horas
 
-certificadas de dis onibilidad del SICC, Disponibilidad SICC: HDsicc HTsicc 2a: 99 En
+certificadas de Disponibilidad del SICC, Disponibilidad SICC: HDsicc HTsicc 2a: 99 En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 1 semana Apéndice Técnico 4 - Indicadores y HTsicc será las horas totales (247) del periodo medido. Baches sobre E4 afirmado Para las vías de servicio descritas en el Apéndice Técnico 1, se llevará a cabo una inspección
 
 visual de baches. Manual para la inspección
 
@@ -1212,7 +1141,6 @@ total de vías de servicio. En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será o, de lo contrario será 1 5 días Página 46 de 90 Apéndice Técnico 4 - Indicadores mayores los acá definidos. En el kilómetro unitario en donde haya baches mayores o iguales a los acá estipulados, se considera kilómetro
 
 unitario de no cumplimiento. Guía metodológica para el diseño Medición de
 
@@ -1246,9 +1174,7 @@ total de vía férrea. En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será l 1 mensual Página 47 de 90
 
----
 
  - . I - Apéndice Técnico 4- Indicadores Manual para la inspección
 
@@ -1274,7 +1200,6 @@ requerimiento de capacidad hidráulica corresponde a que cada
 
 obra de drenaje obstruida sea menor o igual al 25 del
 
-total de la sección. La medición se llevará a cabo tomando como longitud unitaria un (1) km. Se identificará para cada kilómetro que no existan estructuras hidráulicas Página 48 de 90 Apéndice Técnico 4 - Indicadores En el kilómetro unitario en donde haya estructura hidráulica obstruidas mayores o iguales a los acá estipulados, se considera kilómetro
 
 unitario de no cumplimiento Parámetros geométricos y de la superestructura para la seguridad vial PGSl
 
@@ -1300,7 +1225,6 @@ valor de la medición sea menor al valor referenciado, se entiende incumplido el
 
 tope de las
 
-cabezas de los rieles. indicador y su valor será O, de lo contrario será 1 Curvas, peraltes y límites Página 49 de 90 Valores de aceptación de la Trocha: Tabla 8 del Apéndice Técnico 1 Apéndice Técnico 4 -Indicadores de velocida d
 
 Peralte de vía en curvas y rampas
 
@@ -1324,13 +1248,11 @@ total de vehículo motos VIG 100 de cumplimiento. En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será l. 24 horas Página 50 de 90 Apéndice Técnico 4 - Indicadores
 
 Cantidad de personal, equipos y vehículos por cantones, tramos del corredor férreo, estaciones.
 
 Rutinas de recorridos a lo largo del corredor Una vez el Interventor dé su No Objeción al
 
-Esquema de Vigilancia, verificará y validará periódicamente su cum limiento. A continuación, se presentan los Indicadores correspondientes a la Unidad Funcional 2 y 3: Página 51 de 90 Apéndice Técnico 4 - Indicadores Tabla 4- Indicadores Unidad Funcional 2 y 3 Disponibilidad y
 
 cobertura de las
 
@@ -1386,7 +1308,6 @@ subsistemas de enclavamiento de cambiavías y pasos a nivel, en el mes calendari
 
 valor de O. En
 
-caso de que se cumpla se le asignará un valor de 1 l hora Página 52 de 90 Apéndice Técnico 4 - Indicadores Congestión logística - manejo de carga CLO Se mide la ineficiencia en la atención a la carga, tanto de atención al transportista en camión que entra al CTC a dejar carga, o a recoger cargar; así también como la atención de cargue y
 
 descargue de trenes. En general, mide las demoras en el
 
@@ -1428,29 +1349,21 @@ caso de que el
 
 valor de la medición de
 
-alguno de los dos valores (CAMIONES o TRENES) sea mayor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será I. 3 Días Página 53 de 90
 
----
 
 -
 
----
 
 -------- ...
 
----
 
 ------------ -
 
----
 
----
 
 --
 
----
 
--. L . Apéndice Técnico 4 - Indicadores patio del CTC yo directamente a camiones, y volver a cargar el mismo convoy para tenerlo listo para el siguiente tren. En
 
 caso de que las
 
@@ -1464,7 +1377,6 @@ totalidad de los camiones y de los trenes atendidos, y se verificará que dicho 
 
 Tiempo de cargue y descargue2 (en horas) Se mide desde el momento en que el camión entra al
 
-Centro de Transferencia de Carga (CTC) a cargar o descargar, hasta el momento que sale del CTC. TRENES: Página 54 de 90 Se mide desde el momento en que un tren del proyecto o de Tercero O erador lle a al Apéndice Técnico 4 - Indicadores CTC y es descargado yo cargado, y hasta el momento en que el tren quede nuevamente listo para salir con la nueva carga. (No es
 
 parte de la medición los tiempos adicionales que tarde el tren en iniciar un nuevo viaje, no imputables al cargue y descargue del tren)
 
@@ -1476,7 +1388,6 @@ Exterior de la infraestructur a del
 
 Centro de Transferencia de Carga, del
 
-Centro de Control de Operaciones, del Edificio Administrativ o, del Talle Pesado y del Taller Liviano NA Mensual Luminarias Página 55 de 90 Se debe contar con un
 
 inventario de la
 
@@ -1500,7 +1411,6 @@ obtenido de la siguiente relación será aplicado al Indicador para la UF 2 y 3 
 
 caso de que el
 
-valor de la medición sea menor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 1 Semana Apéndice Técnico 4 - Indicadores Pesado y del Taller Liviano Carga contabilizando el número
 
 total de luminarias, las luminarias operativas y las luminarias defectuosas (no
 
@@ -1512,7 +1422,6 @@ servicio de energía en
 
 caso de falla, por lo cual debe permanecer cien por ciento disponible el
 
-sistema de respaldo de la red principal. NA Mensual Página 56 de 90 TL: Total de Luminarias
 
 externas de la UF 2 3 Se revisará la información
 
@@ -1542,7 +1451,6 @@ Control de Operaciones, Taller Pesado y Taller Liviano que Ejecución del Plan i
 
 entre de Mantenimiento EPMl otras cosas: NA para edificaciones Estructuras, mampostería, fachadas, cubiertas, Sistema Contra Incendio, Sistema eléctrico (fuerza e iluminación interior) y
 
-sistemas de aire acondicionad oy ventilación forzada HVAC, Mensual oo Página 57 de 90 El Concesionario deberá contar con un
 
 plan de mantenimiento, aprobado por la Interventoría, para todas las
 
@@ -1562,7 +1470,6 @@ Plan de Mantenimiento APETAPE0.95 En
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 1 Semana -1 _ Apéndice Técnico 4 - Indicadores Cerramiento Y Al CCTV sistemas sanitarios y cafeterías, redes y
 
 sistemas de manejo de aguas residuales y de sas .. Para el Cerramiento se realizará mediante recorridos Y se realizarán levantamiento mediante cinta métrica, de igual forma se diligenciará los
 
@@ -1580,7 +1487,6 @@ porcentaje de aceptación será el 100 del cerramiento instalado Y mantenido del
 
 obras de acuerdo a los Estudios y Diseños No Objetados. En
 
-casos de incumplimiento de al menos uno ( 1) de las cuatro mediciones anteriores, se entiende que existe incumplimiento y el 1 semana Página 5 8 de 90 Apéndice Técnico 4-Indicadores 1) Caída del sistema por falla valor del indicador será en cualquier equipo local O, de Jo contrario será I (Servidor, switch de distribución, NVR o DVR y cableado que haga parte del sistema.) 2) Caída del sistema por falla eléctrica 3) Caída del sistema por
 
 falla de desgaste, oxido de los equipos 4) Caída del sistema por fallas en la programación, configuración. Para cada
 
@@ -1594,11 +1500,9 @@ incumplimientos de la Disponibilidad del edificio por aquellos eventos en los qu
 
 Eximentes de Res onsabilidad. Se considerará que el edificio se encuentra disponible cuando cumpla con las NIRDNTIR0.95 condiciones técnicas especificadas en el Apéndice En
 
-caso de que el valor Técnico 1, Apéndice Técnico de la medición sea 1 Mes 2 y Apéndice Técnico 3. menor o igual al valor referenciado, se mismo. Cada edificio deberá estar dis onible Página 59 de 90 En
 
 caso de que algún edificio o
 
-parte de ellos no se encuentre operativo para los servicios ue fue construido, entiende incumplido el indicador y su valor será O, de lo contrario será 1 Apéndice Técnico 4 - Indicadores
 
 Sistema de drenajes para prestar los servicios para lo cual está destinado. Para ello cada edificación debe contar con disponibilida d de acceso, disponibilida d del
 
@@ -1620,7 +1524,6 @@ totalidad de las áreas de vías internas, áreas de parqueaderos y de
 
 patios de contenedores de las
 
-instalaciones de UF2 y UF3 se segmentarán en área unitaria de 0,1 ha (1000 m2). Cada sistema debe cumplir con las siguientes condiciones: Etapa de Operación y Mantenimiento: Sección hidráulica de cada obra 1 semana Página 60 de 90 Apéndice Técnico 4 - Indicadores descoles y otras
 
 obras de drenaje existentes. (Obstrucción) Capacidades Numeral 2.11.6 Inspección de drenajes existentes.1.2. Parte 3 Capitulo 4 Guías para la evaluación del drenaje2.
 
@@ -1634,7 +1537,6 @@ Actual de las
 
 Obras de la Red
 
-Nacional de Carreteras UNAL JNVIAS 20035. Los productos elaborados en Página 61 de 90 Se medirá mensualmente la sección hidráulica de la
 
 obra de drenaje con
 
@@ -1656,7 +1558,6 @@ Valor de Aceptación de la sección hidráulica. Al.Itr'Número total de área u
 
 caso de que el
 
-valor de la medición sea menor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será l Apéndice Técnico 4 - Indicadores fábrica, adjudicarán los
 
 certificados de calidad vigentes correspondiente sal
 
@@ -1684,7 +1585,6 @@ carriles de los centros El incumplimiento del logísticos. Se tomarán valor
 
 promedio de un medidas en las dos rodadas o área unitaria implicará huellas del carril, por donde el incumplimiento del circulen más vehículos en área unitaria. cada
 
-sentido de circulación. Página 62 de 90 Apéndice Técnico 4 - Indicadores El valor a considerar será el
 
 promedio de los dos valores obtenidos (uno de cada rodada o huella). Se tomarán medidas en cada área unitaria. El valor correspondiente a cada área unitaria se obtendrá como
 
@@ -1704,7 +1604,6 @@ Valor de Aceptación de ahuellamiento. AUT: Número total de área unitaria exis
 
 caso de que el
 
-valor de la medición sea menor o igual al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será 1 Página 63 de 90 . L.. Apéndice Técnico 4 - Indicadores Fisuras PAV2 Fisuras. Inspección Visual (Área afectada por km) Manual para la Inspección
 
 Visual de Pavimentos Flexibles. INVIASINV- E-816-13Art. 450.4.13 Bacheos, INVIAS 2013. Mensual La
 
@@ -1730,11 +1629,9 @@ capas de la estructura y
 
 Etapa de Operación y Mantenimiento: Valor Puntual: Área afectada menor O igual a loo del área pavimentada. El incumplimiento del valor puntual generará incumplimiento del área unitaria. El incumplimiento del valor
 
-medio de un área unitaria del área pavimentada. Implicará el incumplimiento del área unitaria. Si se produjeran en una misma área unitaria incumplimientos en los um?rales: puntual y medio, se considerará un único incumplimiento sobre el área unitaria. l Mes Página 64 de 90 Apéndice Técnico 4 - Indicadores cualquier área unitaria sea mayor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será l. Baches PAV3 Baches. Inspección Visual Manual para la inspección
 
 visual de pavimentos flexibles- INVIAS Art. 450.4.13 Bacheas, INVIAS 2013.
 
-Mensual de baches Página 65 de 90 La
 
 totalidad de las áreas de vías internas, áreas de parqueaderos y de
 
@@ -1746,7 +1643,6 @@ una de las siguientes condiciones: 1) Superficie mayor de 0,05 m2. 2) Profundida
 
 caso de que el
 
-valor de la medición del número de hachas, en cual uier área unitaria, 1 Día - - ' - Apéndice Técnico 4 - Indicadores Escalonamientos PAV4 Escalonamien to, Inspección Visual Manual para la inspección
 
 visual de pavimentos Rígido- INVIAS Semestral mmde escalonamien to bache. Los
 
@@ -1766,7 +1662,6 @@ incumplimiento de este valor puntual en un mismo segmento generará un incumplim
 
 caso de que el
 
-valor de la medición, en cualquier área unitaria, sea mayor al valor referenciado, se entiende incumplido el indicador y su valor será O, de lo contrario será l 3 Meses Página 66 de 90 Apéndice Técnico 4 - Indicadores Para cada área unitaria se debe cumplir con las siguientes condiciones: Art. 700-13 La
 
 totalidad de las áreas de Los resaltos no deben Líneas de demarcación y marcas viales, INVIAS 2013 .Art. 701- 13 Tachas reflectivas. vías internas, áreas de parqueaderos y de
 
@@ -1786,7 +1681,6 @@ carriles de circulación interna. Lux Nota ( 1 ): Para equipo con geometría 15 
 
 incumplimiento de Se cumplirá con los una O
 
-varias de las lineamientos del Art. 700-13 condiciones sobre Líneas de demarcación anteriormente señaladas y marcas viales. Art 701-13 en una misma área Tachas reflectivas. unitaria generará un incumplimiento del área unitaria. Página 67 de 90 - J Apéndice Técnico 4- Indicadores Parámetros geométricos y de la superestructura para la seguridad vial PGSI Los elementos a medir y verificar son los relacionados en lanormaFRA para vías auxiliares que Cumplimient entran a o de las talleres, áreas características logísticas, y geométricas y patios: estructurales
 
 Trocha de las vías Alineamie Trimestral auxiliares nto para lograr la horizontal categorizació y vertical n enFRA Curvas, Clase 3 peraltes y límites de velocidad
 
@@ -1816,7 +1710,6 @@ valores de la medición sean menores a los respectivos valores referenciados, en
 
 caso de que el
 
-valor de la medición sea menor al valor referenciado, se _ entiende incumplido el indicador y su valor será O, de lo contrario será 1 Mensual Página 68 de 90 Apéndice Técnico 4 -Indicadores Verificación por parte Interventoría
 
 cumplimiento de implementación del
 
@@ -1848,7 +1741,6 @@ Centro de Transferencia de Carga, Talleres, Centro de
 
 Control de Operaciones y Edificio Administrativo. y su valor será O, de lo contrario será 1 Una vez el Interventor dé su No Objeción al
 
-Esquema de Vigilancia, verificará y validará mensualmente su cum limiento. Página 69 de 90 Apéndice Técnico 4 - Indicadores 4. VERIFICACIÓN DE LOS INDICADORES: EVALUACIÓN, AUTOEVALUACIÓN Y
 
 FACULTADES DE LA INTERVENTORÍA
 
@@ -1868,7 +1760,7 @@ encargado de la medición con experiencia y certificado, incluyendo el personal 
 
 Sectores de la Unidad
 
-Funcional de Vía Férrea yo Unidad Funcional, según corresponda, en el que es realizada la evaluación, identificados con el correspondiente abscisado yo ubicaciones geográficas. Registro fotográfico o en
+Funcional de Vía Férrea y/o Unidad Funcional, según corresponda, en el que es realizada la evaluación, identificados con el correspondiente abscisado yo ubicaciones geográficas. Registro fotográfico o en
 
 video de la realización de las pruebas. El
 
@@ -1900,7 +1792,6 @@ sirva de base para la elaboración del
 
 Acta de Cálculo de la Retribución Semestral y el
 
-Acta de Cálculo de Retribución Mensual. En caso en que no haya acuerdo entre el Concesionario y el Director del Proyecto sobre la Página 70 de 90 Apéndice Técnico 4 - Indicadores autoevaluación del Concesionario para el
 
 reconocimiento de la Retribución, se procederá de conformidad con lo establecido en el Contrato. Únicamente si se llegaren a presentar estas circunstancias, el
 
@@ -1958,7 +1849,6 @@ fecha de inicio del Tiempo Máximo de Corrección aquella en la cual el Interven
 
 consecuencia de la actuación del Amigable Componedor. En el evento en que el Amigable Componedor encontrare que la medición efectuada por el Concesionario era correcta, y se hubiere suscrito el
 
-Acta de Cálculo de la Retribución de Unidad Página 71 de 90 Apéndice Técnico 4 - Indicadores
 
 Funcional de Vía Férrea yo
 
@@ -2012,7 +1902,6 @@ estado de la infraestructura o el
 
 nivel de servicio inferior al
 
-Valor de Aceptación. Página 72 de 90 Apéndice Técnico 4 - Indicadores d) El
 
 reporte de la nueva evaluación del Indicador realizada por el Interventor, el cual contendrá - como mínimo- la información a la que se refiere el numeral 4.1 del presente Apéndice Técnico, exclusivamente en lo que al correspondiente Indicador se refiere. En el evento en que venza el Tiempo Máximo de Corrección sin que se hubiese presentado el
 
@@ -2064,7 +1953,6 @@ proceso de validación de equipos. Estas pistas se deben
 
 examinar de manera periódica, para determinar su estado, pudiendo estar ubicadas inicialmente en las calzadas principales y una vez completada la
 
-Fase de Construcción, podrán ubicarse en las vías de servicio. Para ello se podrán utilizar los siguientes equipos que a continuación se relacionan: Página 73 de 90 Apéndice Técnico 4 - Indicadores Para el caso del ahuellamiento se medirán con
 
 equipos de tecnología
 
@@ -2122,7 +2010,6 @@ contenido de las mismas, el que será definido de común acuerdo en la primera r
 
 formal de registro e información de los Indicadores durante la ejecución del Contrato, y cuyas características de diseño, operación y explotación son
 
-materia de las secciones 5.3.l y 5.4 de este Apéndice. Página 74 de 90 Apéndice Técnico 4 - Indicadores El Concesionario deberá proveer a la ANI y al
 
 Interventor de acceso al SICC, de tal manera que los funcionarios designados por cada
 
@@ -2186,7 +2073,6 @@ procedimientos de gestión de cambios, debidamente documentados y aprobados por 
 
 actualizaciones de la especificación de requerimientos, a
 
-fin de mantener la trazabilidad hasta un nivel comprensible para la contraparte no especializada. Página 75 de 90 Apéndice Técnico 4 - Indicadores Las
 
 actividades de análisis, diseño, desarrollo, pruebas y puesta en producción deberán realizarse haciendo
 
@@ -2234,7 +2120,6 @@ actividades de monitoreo, mantenimiento y corrección a fallo del sistema, así 
 
 plan de continuidad de
 
-negocio de T.I Página 76 de 90 Apéndice Técnico 4 - Indicadores 5.4.3 Tiempos de Respuesta Durante la operación normal, los
 
 usuarios de la aplicación deben obtener un
 
@@ -2294,7 +2179,6 @@ oportuno de la información, originando la pérdida de esta o dificultado su pro
 
 reporte de control de cambios durante el
 
-periodo de medición. Página 77 de 90 Apéndice Técnico 4 - Indicadores El Concesionario deberá producir, además, un
 
 reporte de estado de la
 
@@ -2360,7 +2244,6 @@ definitiva de la aplicación, en el plazo que determine el
 
 Plan de Obras. La Interventoría dispondrá de cinco (5) Días Hábiles, contados desde el Día de la entrega, para emitir sus observaciones sobre las características yo
 
-funcionalidades de la aplicación yo sobre su documentación. Página 78 de 90 Apéndice Técnico 4 - Indicadores Las eventuales
 
 observaciones de contenido deberán ser resueltas, esto es, el software deberá ser modificado y su documentación rectificada
 
@@ -2418,7 +2301,6 @@ base de datos con la periodicidad establecida en el numeral 5.4.5 de este Apénd
 
 uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseño, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y
 
-seguridad de la información allí registrada. Página 79 de 90 Apéndice Técnico 4 -Tndicadores El Concesionario deberá mantener el sistema, esto es, realizar todas las acciones necesarias para que éste
 
 opere de acuerdo con las especificaciones. Si se detectare anomalías respecto a las especificaciones o
 
@@ -2468,7 +2350,6 @@ Acta de Terminación de Unidad Funcional o
 
 Acta de Terminación
 
-Parcial de Unidad Funcional para cada UF. Página 80 de 90 Apéndice Técnico 4 - Indicadores Tabla 5 - Factores de Ponderación (Fp) cada
 
 uno de los Indicadores para las actividades Objeto del Componente A de la Retribución. El valor ponderado para cada Indicador será el que
 
@@ -2490,7 +2371,7 @@ ramales de conexión, en el DIF 72,21 periodo que esté a cargo del Concesionari
 
 Mantenimiento de estas obras !índice de Mortalidad (lm) 1101 11 3,00 11 3,00 Estado de la Unidad
 
-Funcional de Vía Férrea IUFVFDl 8,23 11 11 8,23 1 !Estado de Puentes ₁₁ El 11 11 2,21 1 lsuMA 11 100,00 11 100,00 Se aclara que la calificación de Sin Puente o Con Puente, se refiere al puente vehicular y peatonal sobre el río Sogamoso y respectivos
+Funcional de Vía Férrea IUFVFDl 8,23 11 11 8,23 1 !Estado de puentes ₁₁ El 11 11 2,21 1 lsuMA 11 100,00 11 100,00 Se aclara que la calificación de Sin Puente o Con Puente, se refiere al puente vehicular y peatonal sobre el río Sogamoso y respectivos
 
 ramales de conexión. La medición de los Indicadores que incluyen el puente vehicular y peatonal sobre el río Sogamoso y sus respectivos
 
@@ -2498,25 +2379,22 @@ ramales de conexión, se realizará mientras subsista la obligación de Operaci�
 
 Mantenimiento de estas obras, en los términos de la Sección 9.16 del Contrato y el Apéndice Técnico 2, es decir, hasta que se dé la Reversión
 
-Especial de esta Intervención. Página 81 de 90 Apéndice Técnico 4 - Indicadores Tabla 6 - Factores de Ponderación (Fp) cada
 
 uno de los Indicadores para la Unidad Funcional l. Atención de Querellas (Ql) en etapa Ql 0,25 o erativa
 
 Velocidad de transporte VEl 8,60 Tiempo de
 
-despeje de la Vía Férrea por atención de accidentes yo incidentes TTl 1,25 o eracionales Invasiones del corredor (Q) Tr 0,25 Seguridad del tráfico (ST) ST 7.25 Gases efecto invernadero (huella de HC 0,25 carbono) Ruido (IR) IR 0,25 Vibraciones (IV) IV 0,25 Índice de Mortalidad (Im) 01 5,00 Disponibilidad de la Infraestructura DVF 29,89 Férrea Señalización Vertical Sobre Vías sv 1,49 Carreteras - Pasos a Nivel Pasos a Nivel Tipo B y C PNBC 0,60 Estado de Puentes El 15,25 Disponibilidad de la Vía de servicio E2 0,95 Disponibilidad del SICC E3 7,77 Baches sobre afirmado E4 0,25 Sistema de drenajes ES 4,75 Parámetros geométricos y de la PGSl 12,70 su erestructura ara la se uridad vial Vigilancia VlG 3,00 SUMA 100,00 Tabla 7 - Factores de Ponderación (Fp) cada
+despeje de la Vía Férrea por atención de accidentes yo incidentes TTl 1,25 o eracionales Invasiones del corredor (Q) Tr 0,25 Seguridad del tráfico (ST) ST 7.25 Gases efecto invernadero (huella de HC 0,25 carbono) Ruido (IR) IR 0,25 Vibraciones (IV) IV 0,25 Índice de Mortalidad (Im) 01 5,00 Disponibilidad de la Infraestructura DVF 29,89 Férrea Señalización Vertical Sobre Vías sv 1,49 Carreteras - Pasos a Nivel Pasos a Nivel Tipo B y C PNBC 0,60 Estado de puentes El 15,25 Disponibilidad de la Vía de servicio E2 0,95 Disponibilidad del SICC E3 7,77 Baches sobre afirmado E4 0,25 Sistema de drenajes ES 4,75 Parámetros geométricos y de la PGSl 12,70 su erestructura ara la se uridad vial Vigilancia VlG 3,00 SUMA 100,00 Tabla 7 - Factores de Ponderación (Fp) cada
 
 uno de los Indicadores para Unidad Funcional 2 Disponibilidad y
 
 cobertura de las
 
-Comunicaciones de Control de Tráfico Página 82 de 90 COMI 6,89 Apéndice Técnico 4 - Indicadores Iluminación Exterior Funcional ELI 0,79 Disponibilidad de Energía de respaldo EL2 1,97 Ejecución del
 
 Plan de Mantenimiento para edificaciones EPMI 3,15 Cerramiento y CCTV Al 1,18 Disponibilidad Edificio A2 67,86 Sistema de drenajes ES 0,79 Señalización Horizontal SHC 0,20 Parámetros geométricos y de la superestructura para la se uridad vial Vigilancia VIG 3,00 SUMA 100,00 Tabla 8 - Factores de Ponderación (Fp) cada
 
 uno de los Indicadores para Unidad Funcional 3 Congestión logística - manejo de carga CLO 0,59 Iluminación Exterior Funcional ELl 0,59 Disponibilidad de Energía de respaldo EL2 1,46 Ejecución del
 
-Plan de Mantenimiento para edificaciones EPMl 2,33 Cerramiento y CCTV Al 0,87 Disponibilidad Edificio A2 49,55 Sistema de drenajes E5 0,59 Ahuellamiento PAVl 7,59 Fisuras PAV2 7,59 Baches PAV3 7,59 Página 83 de 90 Apéndice Técnico 4 - Indicadores Escalonamientos Señalización Horizontal Parámetros geométricos y de la superestructura para la se uridad vial Vigilancia SUMA PAV4 SHC PGSI VIG 7,59 0,15 10,51 3,00 100,00 Tabla 9 - Factores de Ponderación (Fp) cada
 
 uno de los Indicadores para las actividades Objeto del
 
@@ -2528,7 +2406,6 @@ resulte de la aplicación de las fórmulas contenidas en la siguiente tabla: Dis
 
 Cumplimiento de surcos (itinerario de trenes) Ejecución del
 
-Plan de Mantenimiento del Material Rodante del Proyecto. SUMA DMR es EPM2 40 30 30 100 Página 84 de 90 Apéndice Técnico 4 - Indicadores Tabla 10- Valor de cada Indicador (VI) COMl Disponibilidad y
 
 cobertura de las
 
@@ -2548,9 +2425,8 @@ Disponibilidad de la Infraestructura Férrea R Ql Atención de Querellas (Q) en 
 
 Velocidad de transporte R Tr Invasiones del corredor (Q) R HC Gases efecto invernadero (huella de carbono) R IR Ruido (IR) R IV Vibraciones (IV) R sv Señalización Vertical Sobre Vías Carreteras - Pasos a Nivel R PNBC Pasos a Nivel Tipo B y C R SHC Señalización Horizontal R El
 
-Estado de Puentes R E2 Disponibilidad de la Vía de servicio R E3 Disponibilidad del SICC R E4 Baches sobre afirmado R ES
+Estado de puentes R E2 Disponibilidad de la Vía de servicio R E3 Disponibilidad del SICC R E4 Baches sobre afirmado R ES
 
-Sistema de drenajes R ELl Iluminación Exterior Funcional R EL2 Disponibilidad de Energía de respaldo R Página 85 de 90 Apéndice Técnico 4 - Indicadores EPMl Al A2 PAVI PAV2 PAV3 PAV4 DMR es EPM2 UFVFDl PGSl VIG Ejecución del
 
 Plan de Mantenimiento para R edificaciones Cerramiento y CCTV R Disponibilidad Edificio R Ahuellamiento R Fisuras R Baches R Escalonamientos R
 
@@ -2582,7 +2458,6 @@ resultados de la aplicación de cada
 
 uno de los
 
-indicadores de la Tabla 2 Página 86 de 90 Apéndice Técnico 4 - Indicadores n Es
 
 cualquiera de los Indicadores que se listan la Tabla 5 en de este mismo documento Corresponde al Semestre Calendario i Etapa Operativa Componente C: Será el que
 
@@ -2622,7 +2497,6 @@ cualquiera de los Indicadores que se listan la Tabla 6 , Tabla 7 o Tabla 8 de es
 
 una de las Unidades Funcionales terminadas en el semestre para el cual se está calculando la Retribución. ci (cli c2i c3i)::;:i L..i c 1, c2, c3, tiene
 
-valor de O mientras no esté terminada y recibida la respectiva Ci Unidad Funcional y tendrán los siguiente valores cuando estén terminadas: e 1 i0,5 para UF 1 c2i0,25 para UF2 c3i0,25 para UF3 Página 87 de 90 Apéndice Técnico 4 - Indicadores
 
 Recaudo de la Tarifa por
 
@@ -2688,7 +2562,6 @@ Fase de Preconstrucción Prestación del Servicio Público
 
 Ferroviario de Carga: Será el que
 
-resulte de la aplicación de la siguiente fórmula: Donde, lC(sc)1 VPI6n,J nl Página 88 de 90 Apéndice Técnico 4 - Indicadores IC(sc)j
 
 Indice de Cumplimiento de los Indicadores previstos para la Prestación del Servicio Público
 
@@ -2756,7 +2629,6 @@ resulte de la medición de los Indicadores. b) En la misma
 
 Acta de Cálculo de Retribución, el Concesionario dejará constancia de los Indicadores que, a su juicio, han sido afectados por Eventos
 
-Eximentes de Responsabilidad. Página 89 de 90 Apéndice Técnico 4 - Indicadores c) El Concesionario tendrá quince (15) Días Hábiles a
 
 partir de la suscripción del
 
@@ -2776,18 +2648,16 @@ valor de la Retribución a la Cuenta Proyecto, la ANI pagará al Concesionario l
 
 #### 7.2 Mantenimiento Programado Los Indicadores no serán afectados en ningún caso por la realización de
 
-rutinas de Mantenimiento Programado que sean reportadas por el Concesionario mediante una declaración de acciónpreventiva, tal como se establece en el numeral 4.3.3 de este Apéndice Técnico. VoBo: Adriana María Montañez Saenz - VEA.:'G"'.:) Fredy Leandro Espejo Fandiño - VE Página 90 de 90
 
----
 
-## ADVERTENCIA LEGAL Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto
 
 antes de ser utilizada formalmente.
 
----
 
 **Estado del documento:** Formateado - 02/10/2025 
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
 

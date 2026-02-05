@@ -1,4 +1,4 @@
-﻿# CONTRATO DE CONCESIÓN BAJO EL
+# CONTRATO DE CONCESIÓN BAJO EL
 
 ESQUEMA DE APP No. 001 DE 2025
 
@@ -799,7 +799,7 @@ Plan de Obras por Causas Imputables a laANI 173
 
 #### 9.12 Modificación de las Especificaciones Técnicas 179
 
-#### 9.13 Fuentes de Materiales 180
+#### 9.13 Fpuentes de Materiales 180
 
 #### 9.14 Memoria Técnica 180
 
@@ -1089,7 +1089,6 @@ Caso de Controversia 319
 
 #### 25.10 Información de Terceros 328
 
-#### 25.11 Producciones del Concesionario y Propiedad Intelectual 328 25.12 Idioma del Contrato 328 Página 14 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1149,7 +1148,6 @@ Fonda de Contingencias y no objetó las condiciones financieras del Contrato med
 
 Proceso de Selección el 26 de julio de 2024 mediante la Resolución 20247030009455. (g) Que durante el
 
-Proceso de Selección se publicaron las siguientes adendas: Adenda No. 1 del 27 de septiembre, adenda No. 2 del 4 de octubre, adenda No. 3 del 11 de octubre, adenda No. 4 del 15 de noviembre, adenda No. 5 del 6 de diciembre, adenda No. 6 del 16 de diciembre, adenda No. 7 del 18 de diciembre, adenda No. 8 del 30 de diciembre de 2024 y adenda No. 9 del 19 de marzo de 2025. Página 16 de 332 . ' Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (h) Que el
 
@@ -1161,7 +1159,6 @@ Proceso de Selección fue adjudicado al Concesionario, mediante Resolución 2025
 
 cumplimiento de lo establecido en el
 
-Pliego de Condiciones, se constituyó el Concesionario, en los términos previstos en dichos documentos. Página 17 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO! REGLAS DE INTERPRETACIÓN DEL CONTRATO
 
@@ -1195,7 +1192,6 @@ Pliego de Condiciones con sus adendas y anexos (e) El Concesionario ha tenido la
 
 oportunidad de presentar sus observaciones sobre los documentos del Contrato y conoce su clausulado, que
 
-acepta de manera íntegra. De Página 18 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura conformidad con lo anterior, el Contrato no será considerado ni interpretado como un
 
@@ -1223,7 +1219,6 @@ que de los mismos se indique en los Apéndices Técnicos o en el
 
 Pliego de Condiciones según corresponda, siempre que los mismos se encuentren en mayúsculas iniciales. (m) A
 
-falta de definición en este Contrato, los términos utilizados serán interpretados en el sentido que les confiera el lenguaje técnico respectivo o por su significado y sentido naturales y obvios, de conformidad con su uso general. Página 19 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1285,7 +1280,6 @@ Plan de Obras y los demás elementos inherentes a dicha declaratoria, aplicando 
 
 #### 2.9 "Acta de Reversión" Es el documento que suscribirán la ANI, el Interventor y el Concesionario para hacer constar, la Reversión Especial yo la Reversión de los Bienes Revertibles y la consecuente terminación del presente Contrato. En esta acta se verificará el
 
-cumplimiento de las condiciones técnicas exigidas para la Reversión en los Apéndices Técnicos 1 y 2. Página 20 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1361,7 +1355,6 @@ requisitos de Ley, a través de un acto administrativo denominado "Resolución d
 
 obligatoria de solución
 
-definitiva de las controversias expresamente contempladas en el presente Contrato, prevista en la Sección 21.1 de este Contrato. Página 21 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1395,7 +1388,6 @@ cargo de las Partes. Cualquier modificación a un Apéndice Técnico implicará 
 
 Riesgo de Desastre Apéndice Técnico 4: Indicadores de Disponibilidad, Seguridad, Calidad y
 
-Nivel de Servicio Apéndice Técnico 5: Interferencias con Redes Apéndice Técnico 6: Gestión Ambiental Anexo Apéndice Técnico 6: Disclaimer Anexo Apéndice Técnico 6: Minuta Cesión Total LAM3365 Anexo Apéndice Técnico 6: Matriz de Cesión Parcial LAM68 l 7 Página 22 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Apéndice Técnico 7: Gestión Predial Anexo Apéndice Técnico 7: Formato de Ficha Predial Anexo Apéndice Técnico 7: Formato de Plano Predial Anexo Apéndice Técnico 7: Formato Sábana de Avalúos Anexo Apéndice Técnico 7: Formato Semáforo Anexo Apéndice Técnico 7: Formato Seguimiento y Control a la Gestión Predial Anexo Apéndice Técnico 7: Formato Seguimiento y Control Compensaciones Socioeconómicas Apéndice Técnico 8: Gestión Social Apéndice Técnico 9: Plan de Obras Apéndice Técnico 10: Cálculo de la Capacidad
 
@@ -1431,7 +1423,6 @@ Fecha de Inicio en los términos de la Sección 2.86.
 
 #### 2.29 "Asignación de Surcos" Es el procedimiento mediante el cual se le asigna al Concesionario y a los Terceros Operadores un
 
-Surco de Movilización, en los términos de la Ley Aplicable. Página 23 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1507,7 +1498,6 @@ momento de la presentación de la Oferta, que en forma directa y en su efecto ac
 
 costo de ejecución del Contrato para el Concesionario. Se exceptúan de esta definición los cambios que se presenten en impuestos que graven la renta. Los efectos del
 
-Cambio de Ley Tributaria se regulan en la Sección 25 .1. Página 24 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1589,7 +1579,6 @@ Concesionario de acuerdo con la Sección
 
 parte de sus obligaciones.
 
-#### 2.47 "Comisión Fiduciaria" Es la remuneración que recibe la Fiduciaria por la administración del Patrimonio Autónomo, de acuerdo con los términos y condiciones que se establecen en la Sección 6.1 de este Contrato. Página 25 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1657,7 +1646,6 @@ Funcionales de Vía Férrea, regulado en la Sección 4.4(b) del presente Contrat
 
 componente de la Retribución del Concesionario que corresponde al pago asociado a la
 
-Disponibilidad de las Unidades Funcionales cumpliendo con los Indicadores, regulado en la Sección 4.4(c) del presente Contrato. Página 26 de 332 IA
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -1711,7 +1699,6 @@ Pliego de Condiciones con sus adendas y anexos y la Oferta presentada por el Con
 
 Contrato de Construcción por Unidad Funcional.
 
-#### 2.66 "Contrato de Diseño" Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Diseño para la ejecución de los Estudios y Diseños de Detalle del Proyecto. Página 27 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1767,7 +1754,6 @@ Uso de la Infraestructura Férrea que será utilizado por la ANI como
 
 fuente de recursos para efectos del
 
-desembolso de la Retribución del Concesionario, en los términos y condiciones señalados en este Contrato, en particular en la Sección 4.8. 2. 77 "Descuentos" Corresponde a los conceptos previstos en la Sección 4.7 de este Contrato. Página 28 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura 2. 78 "Día" Es cualquier día calendario que comprende veinticuatro (24) horas. Cuando este Contrato prevea un plazo en Días para el
 
@@ -1829,7 +1815,6 @@ Entrega de la Infraestructura ni en momento
 
 alguno de la ejecución del Contrato, el Concesionario podrá incluir reserva, condicionamiento, objeción u observación alguna relacionada con el
 
-estado de la infraestructura entregada, en tanto es obligación del Concesionario recibirla en el estado en que se encuentre. Página 29 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura La
 
@@ -1885,7 +1870,6 @@ Concesionario de la obtención de los resultados establecidos en dichos Apéndic
 
 #### 2.93 "Estructuradores" Corresponde, conjuntamente, a los Estructuradores Financiero y Legal y al Estructurador Técnico, contratados por la FON con el
 
-objeto de apoyar la asesoría que ésta le brinda a la ANI en sus distintas especialidades. Página 30 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -1973,7 +1957,6 @@ Eximente de Responsabilidad, cualquier
 
 evento de Fuerza Mayor, incluyendo la Fuerza Mayor Predial, la Fuerza Mayor Ambiental, la Fuerza Mayor Social, la Fuerza Mayor por Redes y la Fuerza Mayor por el Hallazgo
 
-Fortuito de Cuerpos de Víctimas del Conflicto Armado. Página 31 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2049,7 +2032,6 @@ requisitos de admisibilidad de inversiones señalados en el Decreto 2555 de 2010
 
 #### 2.108 "Fondo de Contingencias" Es el
 
-Fondo de Contingencias de las Entidades Estatales creado mediante la Ley 448 de 1998. Página 32 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2103,7 +2085,6 @@ condiciones de la Sección 18.6 de este Contrato.
 
 Plan de Compensaciones Socioeconómicas, tal y como se definen en la Sección 10.3 este Contrato y en el Apéndice Técnico 7.
 
-#### 2.119 "Gestión de Redes" Son todas las acciones necesarias para regularizar el estatus jurídico y técnico de todas aquellas Redes existentes en el Corredor del Proyecto, en los términos de la Sección 11.2 del presente Contrato y en el Apéndice Técnico 5. Página 33 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2159,7 +2140,7 @@ cumplimiento de las obligaciones del Concesionario contenidas en el presente Con
 
 conjunto de estructuras de ingeniería e instalaciones necesarias para prestar los servicios férreos y todos aquellos elementos asociados a este
 
-modo de transporte, tales como la construcción o adecuación del terreno natural intervenido yo no intervenido yo mejorado yo vías férreas yo rieles yo traviesas yo balasto yo estructuras como muros, puentes, sistemas de drenaje, pasos a nivel, apartaderos, aparatos de vía, equipamiento del
+modo de transporte, tales como la construcción o adecuación del terreno natural intervenido yo no intervenido yo mejorado yo vías férreas yo rieles yo traviesas yo balasto yo estructuras como muros, ppuentes, sistemas de drenaje, pasos a nivel, apartaderos, aparatos de vía, equipamiento del
 
 sistema de control de tráfico, canales cercas y
 
@@ -2173,7 +2154,6 @@ cadena de transporte. Están conformadas, al menos, por las líneas auxiliares f
 
 modal de transporte y los espacios disponibles para la carga yo
 
-descarga de la Página 34 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura mercancía. Pueden comprender otras instalaciones como
 
@@ -2253,7 +2233,6 @@ alguna de la ANI, ni implicarán algún
 
 tipo de limitación de la responsabilidad y riesgo a cargo del
 
-Concesionario de ejecutar las Intervenciones, así como mantener y operar el Página 35 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Proyecto, cumpliendo con todas las
 
@@ -2303,7 +2282,6 @@ Proceso de Selección.
 
 conjunto de actividades que deberá desarrollar el Concesionario sobre la Infraestructura y el Material Rodante del Proyecto, para que cumplan con los resultados señalados en las Especificaciones Técnicas y con los Indicadores. Todo lo anterior con sujeción a los términos de este Contrato, en
 
-especial de acuerdo con lo previsto en el Apéndice Técnico 2. Página 36 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2347,7 +2325,6 @@ la de conminar al Concesionario al
 
 cumplimiento de las obligaciones en él establecidas, y que podrán ser impuestas al Concesionario por la ANI, de conformidad con este Contrato, en especial el CAPÍTULO XVl, y con
 
-respeto de lo previsto en la Ley Aplicable. Página 37 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2405,7 +2382,6 @@ Proceso de Selección. Dichas obras deberán resultar indispensables para la nor
 
 #### 2.161 "Obras Sociales" Son aquellas obras yo iniciativas, diferentes a las Obras Menores, que tienen como fin atender las
 
-necesidades de grupos de interés o comunidades en general, cuando tales Obras Sociales sean requeridas por las comunidades y sean necesarias para viabi!izar el Proyecto. Dichas Obras Página 38 de 332 , Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Sociales podrán estar focalizadas en
 
@@ -2457,7 +2433,6 @@ Eximente de Responsabilidad, de acuerdo con lo previsto en la Sección
 
 Contrato de Fiducia Mercantil con la Fiduciaria. El Patrimonio Autónomo será el
 
-centro de imputación contable del Proyecto y por lo tanto todos los hechos económicos del Proyecto serán contabilizados en dicho Patrimonio, incluyendo, pero sin limitarse a todos los ingresos y gastos del Proyecto. Página 39 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2525,7 +2500,6 @@ Eximente de Responsabilidad y que transcurre hasta que dicho EER se supere, en l
 
 #### 2.174 "Pesos" o "COP" Corresponde a la unidad
 
-monetaria de curso legal y poder liberatorio en Colombia, de conformidad con la Ley 31 de 1992. Página 40 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2583,7 +2557,6 @@ producto de la ejecución del Proyecto deban cambiar su
 
 lugar de residencia yo su
 
-lugar de desarrollo de actividad económica, en aplicación de la Resolución 077 de 2012 expedida por la ANI, o la norma que la modifique, complemente o sustituya. Este plan puede, pero no será requisito para su desarrollo, ser requerido o exigido por Página 41 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura la Autoridad Ambiental o quien haga sus veces, en el marco del seguimiento al instrumento ambiental aplicable al Proyecto ..
 
@@ -2653,7 +2626,6 @@ Lavado de Activos y Financiación del Terrorismo" Es el documento a la que hace 
 
 #### 2.190 "Predio" o "Predio Requerido" Es la unidad física y jurídica constituida por terreno, construcciones, construcciones anexas, cultivos y especies, necesaria para la completa disposición del Corredor del Proyecto, la cual debe ser adquirida, cedida, recuperada o adjudicada, con ocasión de las gestiones a cargo del Concesionario, a
 
-nombre de la ANI, o puesta a disposición del Concesionario por la ANI o por un tercero, para la ejecución de las obligaciones a cargo del Concesionario derivadas del presente Contrato y con sujeción a lo previsto en el Apéndice Técnico 7. Los Predios Requeridos incluyen tanto los Predios Adquiridos como los Predios Faltantes. Página 42 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2717,7 +2689,6 @@ procedimiento de revisión de documentos al que se refiere la Sección 8.2.
 
 #### 2.199 "Programa de Operación y Mantenimiento" Es el documento que deberá desarrollar el Concesionario y ser no objetado por la Interventoría, donde se describen las
 
-actividades de Operación y Mantenimiento a realizar sobre el Corredor del Proyecto, incluyendo las fechas y la duración de dichas actividades. Este Programa deberá ser socializado con los Terceros Operadores en los términos de la Sección 12.6(b). Página 43 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2793,7 +2764,6 @@ suministro de servicios públicos, infraestructura de la industria del petróleo
 
 infraestructura de tecnologías de la información y las comunicaciones que tengan interferencia con el Proyecto. Dentro del
 
-concepto de Redes se entienden incluidas las "redes y activos" definidos por la Ley 1682 de 2013 .. Página 44 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2835,7 +2805,6 @@ respeto de lo previsto en la Ley Aplicable.
 
 #### 2.215 "Sección" Corresponde a una referencia específica de este Contrato la cual muestra el contexto completo en el que se encuentra ubicada la parte referenciada. Las Secciones se presentan en
 
-orden de jerarquía, iniciando por el número del capítulo del Contrato e indicando las subsecuentes numeraciones, hasta la ubicación específica de la parte referenciada, bajo la forma x.y(a)(i)(l), donde: Página 45 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura x: Número del capítulo y: Numeral al interior del capítulo (a): Literal al interior del numeral (i): Numeral romano al interior del literal (1) Numeral arábigo al interior del numeral romano
 
@@ -2877,7 +2846,6 @@ almacenamiento de contenedores vacíos, y todos los demás que, de acuerdo con l
 
 #### 2.222 "Sistema de Atención al Usuario" Tiene por finalidad brindar orientación a los usuarios sobre donde solicitar información del Proyecto, sus avances, contratación de
 
-mano de obra calificada y no calificada, contratación de bienes y servicios locales, recepción de preguntas, quejas y reclamos (PQRs), entre otros. Página 46 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -2943,7 +2911,6 @@ subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesion
 
 #### 2.233 "Subcuenta MASC" Es la
 
-subcuenta de la Cuenta ANI en la cual se depositarán las sumas que el Concesionario debe aportar conforme a lo previsto en la Sección 6.2(h)(ix) de este Contrato. Página 47 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -3013,7 +2980,6 @@ Ferroviario de Carga o para el
 
 transporte de pasajeros, en los términos de la Sección 12.7 del Contrato. Para el
 
-caso de Página 48 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura la Prestación del Servicio Público de Transporte
 
@@ -3083,7 +3049,6 @@ emitida de manera diaria por la Superintendencia
 
 Financiera de Colombia, la cual expresa la
 
-cantidad de pesos colombianos necesarios para Página 49 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura adquirir un dólar de los Estados
 
@@ -3153,7 +3118,6 @@ producto de los compromisos
 
 derivados de los acuerdos protocolizados en el
 
-marco de nueva(s) consulta(s) previa(s) con las comunidades étnicas que sean certificadas por Autoridad Estatal Página 50 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura competente o reconocidas mediante fallo judicial en firme en el área del Proyecto con posterioridad a la apertura del
 
@@ -3195,7 +3159,6 @@ marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en 
 
 momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(6) del Contrato.
 
-#### 2.265 "Valor Máximo Semestral del Componente D" o "VMCD" Corresponde al valor incluido en el Apéndice Financiero 3, el cual deberá ser consignado por la ANI en la Subcuenta Aportes ANI siguiendo lo establecido en la Sección 6.2(h)(iv)(9) de este Página 51 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Contrato y el Apéndice Financiero 3, con el
 
@@ -3225,7 +3188,6 @@ resulten de la aplicación de las fórmulas contenidas en la Sección 4.4(b) del
 
 marco de la Ley Aplicable, en ningún caso el valor a pagar al Concesionario en un Semestre Calendario por concepto del Componente B será superior al VOSB actualizado hasta el
 
-momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración de la fecha máxima para el mismo según el Apéndice Financiero 3 conforme se indica en la Sección 6.2(h)(iv)(7) del Contrato. Página 52 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -3241,7 +3203,6 @@ momento de su desembolso efectivo en la Subcuenta Aportes ANI o la expiración d
 
 #### 2.269 "Vía Férrea" Es la vía diseñada para el tránsito de vehículos sobre rieles, que hace
 
-parte de la Infraestructura Férrea, de conformidad con lo previsto en el Apéndice Técnico 1. Página 53 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO 111 ASPECTOS GENERALES DEL CONTRATO
 
@@ -3285,9 +3246,7 @@ Acta de Terminación de Unidad
 
 Funcional de Vía Férrea, las Partes deberán suscribir el
 
-Acta de Terminación de la Unidad Funcional 1. Descripción Longitud (Metros) UFVFl Cocoma - La Argelia 13.154 Página 54 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
-Nacional de Infraestructura UFVF2 La Argelia - La Sierra Sector 1 12.846 UFVF3 La Sierra - Grecia Sector 1 10.892 UFVF4 La Sierra - Grecia Sector 2 10.891 UFVF5 La Sierra - Grecia Sector 3 10.892 UFVF6 Ramal Capulco 4.648 UFVF7 Gamarra - La Gloria Sector 1 7.932 UFVF8 Gamarra - La Gloria Sector 2 7.931 UFVF9 Gamarra - La Gloria Sector 3 7.932 UFVFlO Gamarra - La Gloria Sector 4 7.931 UFVFll San Rafael - San Alberto Sector 1 5.595 UFVF12 San Rafael - San Alberto Sector 2 5.595 UFVF13 San Rafael - San Alberto Sector 3 5.595 UFVF14 San Alberto - San Jose Sector 1 9.738 UFVF15 San Alberto - San Jose Sector 2 9.737 UFVF16 La Gloria - Zapatosa Sector 1 8.708 UFVF17 La Gloria - Zapatosa Sector 2 8.708 UFVF18 La Gloria - Zapatosa Sector 3 8.708 UFVF19 La Gloria - Zapatosa Sector 4 8.708 UFVF20 La Gloria - Zapatosa Sector 5 8.708 UFVF21 Zapatosa - Champan Sector 1 10.823 UFVF22 Zapatosa - Champan Sector 2 10.823 UFVF23 Champan - Chiriguana Sector 1 7.025 UFVF24 Champan - Chiriguana Sector 2 7.025 UFVF25 Champan - Chiriguana Sector 3 7.025 UFVF26 Mexico - La Agustina Sector 1 7.447 UFVF27 Mexico - La Agustina Sector 2 7.447 UFVF28 Mexico - La Agustina Sector 3 7.447 UFVF29 La Agustina - La Miel 12.599 UFVF30 La Miel - Puerto Triunfo 13.749 UFVF31 Puerto Triunfo - Cocoma Sector 1 9.421 UFVF32 Puerto Triunfo - Cocorna Sector 2 9.421 UFVF33 Grecia- San Juan Sector 1 13.237 UFVF34 Grecia - San Juan Sector 2 13.236 UFVF35 San Juan - Carare Sector 1 7.474 UFVF36 San Juan - Carare Sector 2 7.474 UFVF37 San Juan - Carare Sector 3 7.474 UFVF38 Carare - Pull Papel Sector 1 15.147 UFVF39 Carare - Pull Papel Sector 2 15.146 UFVF40 Pull Papel - Cuatro Bocas Sector 1 11.817 UFVF41 Pull Papel - Cuatro Bocas Sector 2 11.817 UFVF42 Cuatro Bocas - Barrancabermeja 11.434 UFVF43 Barrancabermeja - Garcia Cadena Sector 1 10.098 Página 55 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura UFVF44 Barrancabermeja - García Cadena Sector 2 10.097 UFVF45 Barrancabermeja - García Cadena Sector 3 10.098 UFVF46 García Cadena - San Rafael Sector 1 11.067 UFVF47 García Cadena - San Rafael Sector 2 11.066 UFVF48 García Cadena - San Rafael Sector 3 11.066 UFVF49 Garcia Cadena - San Rafael Sector 4 11.066 UFVF50 San Jose - Santa Lucia Sector 1 7.250 UFVF51 San Jose - Santa Lucia Sector 2 9.800 UFVF52 Santa Lucia - Gamarra Sector 1 17.233 UFVF53 Santa Lucia - Gamarra Sector 2 17.232
 
@@ -3329,7 +3288,6 @@ favor de la ANI. En el caso en que las producciones intelectuales o bienes prote
 
 normas de propiedad industrial o
 
-derecho de autor contengan elementos cuyos derechos, de acuerdo con lo previsto en la Ley Aplicable, no puedan ser transferidos completamente a la ANI, el Concesionario se cerciorará de que se Página 56 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura otorguen a
 
@@ -3389,7 +3347,6 @@ valor de los Aportes ANI corresponde a las sumas que se detallan en el Apéndice
 
 dentro de la autorización de
 
-compromiso de vigencias futuras otorgada por el CONFIS mediante oficio 2-2024- 040003 de fecha del 25 de julio de 2024. Página 57 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -3465,7 +3422,6 @@ entrega de esta información. El plazo para el
 
 cumplimiento de esta obligación será treinta (30) Días contados desde la suscripción del
 
-Contrato de Concesión. Página 58 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (viii) Que
 
@@ -3521,7 +3477,6 @@ Fecha de Inicio y la fecha en que termine la
 
 Etapa de Reversión, a más tardar al vencerse el Plazo Máximo de la
 
-Etapa de Reversión. Página 59 de 332 lA_ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Sin
 
@@ -3607,7 +3562,6 @@ alguna de las
 
 causales de Terminación Anticipada del Contrato previstas en la Sección 23.2. (2) Al concluir esta Etapa, se inicia la
 
-Etapa de Reversión. Página 60 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii)
 
@@ -3649,7 +3603,6 @@ tipo de procesos. De ocurrir
 
 cualquiera de estos eventos, con posterioridad a la suscripción del Contrato, el Concesionario se compromete a informarlo así a la ANI. (ii) Objeto Único: El Concesionario se ha constituido como una nueva sociedad cuyo único objeto es la ejecución del presente Contrato, y, por lo tanto, no tiene obligaciones precedentes a la suscripción de este Contrato, diferentes de las contraídas al
 
-momento de su constitución o de aquellas necesarias para la suscripción de este Contrato, y no podrá ejecutar actividad alguna que no tenga relación con la ejecución del presente Contrato. (iii) Capacidad: El Concesionario y su representante legal cuentan con la capacidad estatutaria y legal, así como con las autorizaciones suficientes en los términos de sus estatutos y la Ley Aplicable para (i) suscribir el Contrato; y (ii) obligarse conforme a los términos y condiciones establecidos en el Contrato. (iv) Autorizaciones: El Concesionario cuenta con las autorizaciones corporativas requeridas para suscribir el Contrato y obligarse conforme a sus términos. Por lo tanto, ninguna autorización de ninguna autoridad diferente a un órgano societario (la cual ha sido obtenida) es requerida para la suscripción, ejecución y cumplimiento del Contrato. Página 61 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (v) Aceptación del Contrato: El Concesionario ha leído cuidadosamente los términos del Contrato, sus Apéndices, Anexos y demás documentos que hacen parte del mismo, hizo los comentarios que a su juicio fueron necesarios y, con la presentación de la Oferta, determinó que las modificaciones que se efectuaron por
 
@@ -3701,7 +3654,6 @@ contratista de la entidad que haya sido autorizado por la ANI), ya sea que dicha
 
 particularmente de la Retribución aquí pactada. Lo anterior, salvo por aquellos pagos que, para la cabal ejecución del Proyecto, deban hacerse a través del Patrimonio Autónomo a terceros, entre los que se encuentran los Contratistas, y los Prestamistas autorizados en los términos de este Contrato. Así mismo, declara y garantiza que informará mediante Notificación a la ANI en el caso en que durante la ejecución del Contrato cambien los Beneficiarios Reales del Contrato por cualquier causa, dentro de los cinco (5) Días siguientes a dicha modificación. En el
 
-caso de sociedades anónimas abiertas que transen sus acciones en un mercado públicos de valores, sólo se deberá notificar a los Beneficiarios Reales que ostenten cualquier Página 62 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -3761,7 +3713,6 @@ sitios de trabajo, obtención, manejo y
 
 almacenamiento de materiales, transporte, manejo y disposición de residuos, disponibilidad de materiales y de Predios así como de los campamentos y otros espacios
 
-provisionales de obra, mano de obra, agua, electricidad, comunicaciones, vías de acceso, las condiciones hidrológicas, del suelo, climáticas, de pluviosidad y topográficas, características de los equipos requeridos para su ejecución, requisitos para la Gestión Ambiental y Social, el régimen tributario y aduanero a Página 63 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura que estará sometido el Concesionario, normatividad jurídica aplicable y, en general, todos los demás aspectos que razonablemente puedan afectar el cumplimiento del Contrato, todo lo cual fue tomado en cuenta en la preparación de la Oferta del Concesionario. Asimismo, el Concesionario declara y garantiza que ha realizado el examen
 
@@ -3809,7 +3760,6 @@ parte de la Autoridad Ambiental competente. (xiv) Normativa gestión del riesgo:
 
 materia de gestión del riesgo, incluyendo pero sin limitarse la Ley . 1523 de 2012 y el Decreto 2157 de 2017 frente a las cuales se obliga a dar plena aplicación y cumplimiento. (xv) Normativa gestión del cambio climático: El Concesionario conoce la normatividad vigente en Colombia en
 
-materia de gestión del cambio climático, incluyendo pero sin limitarse la Ley 1931 de 2018, frente a las cuales se obliga a dar plena aplicación y cumplimiento. (xvi) Normativa laboral: El Concesionario conoce la normatividad vigente en Colombia para la vinculación de personal, así como lo establecido en el artículo 22 de la Ley 842 de 2003, normas estas frente a las cuales se obliga a dar plena aplicación. Página 64 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xvii)Apoyo a la industria nacional: El Concesionario declara y garantiza que cumplirá con el
 
@@ -3861,7 +3811,6 @@ incumplimiento de otras obligaciones del Proyecto prevista en este Contrato. En 
 
 principio de debida diligencia, la información recabada por el Concesionario deberá permanecer actualizada en cumplimiento con lo previsto en la Ley 2195 de 2022 o aquella ley que la adicione, modifique o sustituya. Adicionalmente, el Concesionario deberá conservar dicha información al menos por el término previsto en la Ley Aplicable. (b) De laANI En la
 
-fecha de suscripción del Contrato, la ANI declara y garantiza lo siguiente: Página 65 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i) Naturaleza: Es una agencia nacional
 
@@ -3917,7 +3866,6 @@ ocurrencia de cualquier riesgo a
 
 cargo de la ANI genere, de acuerdo con lo señalado expresamente en este Contrato, una obligación de pago a favor del Concesionario, la ANI seguirá lo establecido en las Secciones 19.4(a) y 19.4(b) de este Contrato para el efecto, aplicando los
 
-intereses de los que trata la Sección 4.12. Página 66 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura 3 .1 O
 
@@ -3989,7 +3937,6 @@ que de acuerdo con este Contrato correspondan: (a) Obtener y mantener en vigor l
 
 XVIII de este Contrato para cada
 
-una de las Etapas. Página 67 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Asegurarse que sus Contratistas, según corresponda: (i) mantengan todos los equipos, materiales y el personal que necesiten para la ejecución de las obras y actividades correspondientes al objeto contratado; (ii) cumplan con la normatividad laboral y de riesgos profesionales vigente, incluyendo la
 
@@ -4029,7 +3976,6 @@ Inventario de Activos de la Concesión. (i) La ANI pondrá a disposición del Co
 
 Inventario de Activos de la Concesión con la
 
-Entrega de la Infraestructura. Página 68 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (ii) El
 
@@ -4071,7 +4017,7 @@ requieran de conformidad con la Ley Aplicable debidamente diligenciados, suscrit
 
 movimientos de cuentas y subcuentas del Patrimonio Autónomo es consistente con la contabilidad del Patrimonio Autónomo. G) Procurar, a su costo y riesgo, cualquier otro predio requerido para la ejecución del Proyecto, distinto de los Predios Requeridos, y que sea necesario para la ejecución de actividades tales como
 
-fuentes de materiales, zonas de disposición de materiales, oficinas, campamentos de obra, sitios de acopio temporal, etc. Todo lo anterior, de conformidad con lo estipulado en el CAPÍTULO X del presente Contrato. (k) Atender los trámites
+fpuentes de materiales, zonas de disposición de materiales, oficinas, campamentos de obra, sitios de acopio temporal, etc. Todo lo anterior, de conformidad con lo estipulado en el CAPÍTULO X del presente Contrato. (k) Atender los trámites
 
 procesales de las querellas en curso a la
 
@@ -4091,7 +4037,6 @@ generador de residuos peligrosos, (iv) inscripción del respectivo
 
 departamento de gestión ambiental según normativa ambiental aplicable, (v)
 
-levantamiento de vedas nacionales o regionales Página 69 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura según corresponda, (vi) sustracción de áreas de reserva forestal o de cualquier otra área protegida yo área de
 
@@ -4145,7 +4090,6 @@ dentro de los quince (15) Días siguientes al
 
 vencimiento de cada trimestre. La auditoría de dichos estados financieros deberá ser efectuada por el revisor fiscal del Concesionario para los estados financieros de éste yo por un auditor independiente para el
 
-caso de los estados financieros del Patrimonio Autónomo, que podrá ser el mismo revisor fiscal del Concesionario. Quien efectúe las auditorías a las que se refiere esta Sección deberá prestar servicios en por lo menos dos países diferentes a Colombia. Adicionalmente, el Concesionario deberá mantener en su contabilidad claramente identificados los ingresos y egresos correspondientes a cada Unidad Funcional y deberá presentar a la ANI y al Interventor un informe mensual (dentro de los primeros quince Página 70 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (15) Días del Mes) suscrito por su auditor sobre los criterios empleados por el Concesionario para contabilizar la acumulación de los ingresos y egresos por Unidad Funcional. (r) Presentar la información exigida en el Contrato y sus Apéndices en las fechas estipuladas, los formatos definidos y usando los
 
@@ -4189,7 +4133,7 @@ custodia de la
 
 totalidad de la Infraestructura y bienes del Corredor del Proyecto, incluyendo sus ramales. Lo anterior, con el
 
-fin de evitar, entre otros, actos de vandalismo, instalación de pasos a nivel no autorizados, hurto de rieles, fijaciones, elementos metálicos de los puentes e invasión de la Infraestructura Férrea, sus estaciones o de la Infraestructura Logística. (u) Asumir plena responsabilidad por la guarda material y jurídica del Corredor del Proyecto hasta la finalización del
+fin de evitar, entre otros, actos de vandalismo, instalación de pasos a nivel no autorizados, hurto de rieles, fijaciones, elementos metálicos de los ppuentes e invasión de la Infraestructura Férrea, sus estaciones o de la Infraestructura Logística. (u) Asumir plena responsabilidad por la guarda material y jurídica del Corredor del Proyecto hasta la finalización del
 
 Contrato de Concesión. El Concesionario desarrollará las actividades previstas para la ejecución de las Unidades Funcionales en dichas áreas, de acuerdo con el alcance del Proyecto y las Especificaciones Técnicas, en los tiempos previstos en el
 
@@ -4201,7 +4145,6 @@ fecha de la consulta. (x) Atender oportunamente y de manera completa los
 
 requerimientos de las Autoridades Estatales, incluyendo los
 
-requerimientos de cualquier Autoridad Ambiental, e informar Página 71 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura inmediatamente a la ANI sobre cualquier decisión de Autoridad
 
@@ -4257,7 +4200,6 @@ Contrato de Concesión, colaborar con el Interventor en la medición de los Indi
 
 dentro de los diez (1 O) Días siguientes a que haya modificaciones en la composición de su capital social, si pertenece o no a un grupo económico empresarial, así como toda la información relevante de índole jurídico, comercial o
 
-financiero de la Página 72 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -4341,7 +4283,6 @@ perjuicio de las demás obligaciones previstas en otros
 
 apartes de este Contrato o en sus Apéndices, incluyendo las obligaciones
 
-principales de cada Etapa señaladas en las Secciones Página 73 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chíriguaná Agencia
 
 Nacional de Infraestructura 9.l(c), 9.5(c) y 14.3 del
 
@@ -4383,7 +4324,6 @@ medio de la Interventoría, en la revisión del
 
 cumplimiento de Indicadores. La ANI podrá realizar directamente las verificaciones que considere necesarias sobre el
 
-cumplimiento de los Indicadores. Página 74 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) Coordinar y liderar todas las interacciones y trámites con el
 
@@ -4393,7 +4333,6 @@ Contrato de Concesión. (m) Recibir, dentro del periodo correspondiente a la
 
 Etapa de Reversión, la
 
-totalidad de los bienes muebles o inmuebles por destinación o adhesión, con todas sus anexidades, y los demás activos que hacen parte del Proyecto y que se definan como sujetos a Reversión en el Contrato. (n) En general, cumplir con lo previsto en el Contrato y sus Apéndices. Página 75 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO N RETRIBUCIÓN Y OTROS ASPECTOS ECONÓMICOS DEL CONTRATO
 
@@ -4441,7 +4380,6 @@ Recaudo de la Tarifa por
 
 Uso de la Infraestructura Férrea por Terceros
 
-Operadores de la Retribución mensual Página 76 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura causado para el Mes j, expresado en Pesos del Mes j. El
 
@@ -4521,7 +4459,6 @@ Especial de UFVF yo Compensación Especial (de ser aplicable), remunera todos lo
 
 costos de financiación, el retomo del capital, las utilidades del Concesionario, los impuestos, tasas y contribuciones que resulten aplicables. (h) Así mismo, se entiende que la Retribución, incluida la Compensación
 
-Especial de UFVF yo la Compensación Especial (de ser aplicable), remunera todas las labores complementarias necesarias para el cumplimiento del objeto contractual, sea que Página 77 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura aparezcan o
 
@@ -4551,13 +4488,13 @@ apartes de este Contrato y sus Apéndices, le hayan sido asignados al Concesiona
 
 desprendan de las obligaciones del Concesionario, o que
 
-surjan de las estipulaciones o de la
+surPlan de las estipulaciones o de la
 
 naturaleza de este Contrato. G) La Retribución yo la Compensación Especial yo Compensación
 
 Especial de UFVF, de ser aplicable, no remuneran ni las Obras Menores, Obras Sociales, ni las Obras y Equipos Complementarios, en el caso en que sea necesaria su ejecución. El régimen aplicable a dichas Obras Menores, Obras Sociales y a las Obras y Equipos Complementarios, incluida la
 
-forma de determinar su remuneración, es el previsto, respectivamente, en las Secciones 25.2, 25.3 y 25.4 de este Contrato. (k) Son fuentes para el
+forma de determinar su remuneración, es el previsto, respectivamente, en las Secciones 25.2, 25.3 y 25.4 de este Contrato. (k) Son fpuentes para el
 
 pago de la Retribución: (i) Los recursos del presupuesto
 
@@ -4585,7 +4522,6 @@ resulten de la aplicación de la
 
 forma de pago y en los términos, condiciones y plazos que se establecen en las Secciones siguientes, será hecha al Concesionario mediante traslado -por
 
-orden de la ANI a la Fiduciaria- desde la Subcuenta Aportes ANI, la Subcuenta Ingresos por Explotación Comercial, la Subcuenta Servicios Logísticos, Subcuenta Ingresos por Página 78 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Prestación del Servicio Público de Transporte
 
@@ -4637,7 +4573,6 @@ Acta de Cálculo de la Retribución semestral, deberá objetar su pago, indicand
 
 pago de la parte no sujeta a controversia en el plazo previsto en la Sección 4.2(c)(iv), quedando facultado el Concesionario para acudir al Amigable Componedor para que este dirima lo atinente a la
 
-parte de la Retribución que fuera objetada. Página 79 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) El monto objetado por la ANI permanecerá en la subcuenta
 
@@ -4665,7 +4600,6 @@ estar de acuerdo con el Concesionario, pero sí con el Interventor, o cuando la 
 
 estar de acuerdo ni con el Concesionario ni con el Interventor, la Retribución se reconocerá conforme al cálculo efectuado por la ANI. (g) En los
 
-casos de los Secciones 4.2(e) y 4.2(t) anteriores: Página 80 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i) La diferencia entre el valor calculado por el Concesionario y el calculado por el Interventor o la ANI según corresponda, permanecerá en la Subcuenta o Subcuentas
 
@@ -4729,7 +4663,6 @@ contenido de las actas, al término de los cuales deberá suscribirla u objetarl
 
 Acta de Cálculo de la Retribución mensual, deberá suscribir el acta dentro del
 
-plazo de doce (12) Días desde su recepción y proceder a su pago en el plazo previsto en la Sección 4.2(c)(iv). En Página 81 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura este caso, el
 
@@ -4761,7 +4694,6 @@ Cualquiera de las Partes podrá remitir la decisión del Amigable Componedor a l
 
 perjuicio de que, si con posterioridad se identifican errores en el cálculo de la Retribución, cualquiera de las Partes podrá solicitar la corrección correspondiente, la cual se reconocerá -actualizada con la variación del IPC- en la Retribución del mes inmediatamente siguiente a la fecha en que se haya identificado el error. (d) De no existir acuerdo entre el Concesionario y el Interventor, el Interventor deberá, dentro del Día siguiente al vencimiento del plazo mencionado en la Sección 4.3(b) anterior, enviar a la ANI un documento que contenga el cálculo propuesto por el Concesionario y el que propone el Interventor, y que identifique los puntos en los que no se han
 
-puesto de acuerdo. LaANI contará con díez(lO) Días para pronunciarse sobre dicho documento e indicar si está de acuerdo con el Concesionario, con la Interventoría o si considera que el cálculo debe ser distinto. En el evento en que la ANI esté de Página 82 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura acuerdo con el Concesionario, se procederá al pago del valor que resulte del cálculo propuesto por dicho Concesionario en el plazo señalado en la Sección 4.3(c)(iv), contado desde la fecha en la que ANI manifieste su acuerdo con el Concesionario, lo cual ANI deberá informar al Concesionario, el Interventor y la Fiduciaria mediante la correspondiente Notificación. (e) En el evento en que la ANI manifieste no
 
@@ -4803,7 +4735,6 @@ Fase de Construcción de la Etapa Preoperativa y, por lo tanto, sólo se fijará
 
 Actas de Cálculo de la Retribución
 
-semestral de dicha Fase. El Componente A Página 83 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura corresponde al pago asociado a las
 
@@ -4843,7 +4774,6 @@ uno de los Semestres Calendario a partir del
 
 inicio de la Etapa Preoperativa. (v) El Componente A se pagará mediante
 
-desembolso de recursos líquidos en Pesos, a través de los mecanismos previstos en las Secciones 4. l(k)(i) y 4.1 (k)(ii). Página 84 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Componente B (i) El Componente B se consignará en las
 
@@ -4901,7 +4831,6 @@ Acta de Terminación
 
 Parcial de Vía Férrea (Sección 20.1) además de la multiplicación por el
 
-porcentaje de avance, se deberá multiplicar por 85. IPC Corresponde al IPC del último Mes del Semestre Calendario í Página 85 de 332 I .
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -4975,7 +4904,6 @@ uno de los Semestres Calendario a partir del
 
 inicio de la
 
-Fase de Construcción hasta el semestre i Página 86 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura r 1 Mes de Referencia (iii) En ningún caso, el valor a pagar durante la Etapa Preoperativa para un Semestre Calendario, acumulado con los pagos del elemento
 
@@ -5023,7 +4951,6 @@ Acta de Cálculo de la Retribución de cada Semestre Calendario para cada Unidad
 
 Acta de Terminación de la Unidad Funcional correspondiente. (iii) El valor efectivo a pagar por concepto del Componente C corresponderá al
 
-resultado de la siguiente fórmula: 3 CRc kl [vMscf RCECk] IC(oper) - DICPk Donde, Página 87 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Corresponde al Componente C de la Retribución causado CRc para el Semestre Calendario i , expresado en Pesos del último Mes del Semestre Calendario i. Corresponde al valor del Aporte ANI desembolsado en la subcuenta del Componente C de la Subcuenta Aportes ANI, destinado al
 
@@ -5069,7 +4996,6 @@ uno de los Semestres Calendario que concluya con í posterioridad a la suscripci
 
 Acta de Terminación de Unidad Funcional
 
-respecto de cualquier Unidad Funcional Página 88 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iv) El Componente C se pagará mediante
 
@@ -5119,7 +5045,6 @@ Etapa de Operación y Mantenimiento, corresponden a los Días comprendidos entre
 
 fecha de terminación de la
 
-Etapa de Reversión. DTS Días Totales del Semestre Calendario i Página 89 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura i Cada
 
@@ -5177,7 +5102,6 @@ Cumplimiento de los Indicadores previstos para IC(TUIF)j el
 
 Recaudo de la Tarifa por
 
-Uso de la Infraestructura Férrea para el Mesj. Página 90 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura j Cada
 
@@ -5229,7 +5153,6 @@ concepto de ingresos por la Prestación del Servicio Público
 
 Ferroviario de Carga corresponderá al
 
-resultado de la siguiente fórmula: Página 91 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura IPSPFCj TPSPFCj TMCj Kmvor-SMR IC(sc) j Donde, Corresponde al ingreso por la Prestación del Servicio IPSPFCj Público
 
@@ -5273,7 +5196,6 @@ Fecha de Inicio hasta el Mes en el que ocurre la terminación de la
 
 Etapa de Reversión. (iv) Otros ingresos brutos efectivamente obtenidos como
 
-consecuencia de la prestación de los Servicios Adicionales. Página 92 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (v) Los Ingresos por Explotación Comercial se verán afectados por el Índice de
 
@@ -5327,7 +5249,6 @@ derechos de los Prestamistas. (g) El valor correspondiente a las Deducciones por
 
 Acta de Cálculo de la Retribución -o Compensación Especial-, deberá ser trasladado por la Fiduciaria -de la Subcuenta Aportes ANI, de la Subcuenta Ingresos por Explotación Comercial, de la Subcuenta Recaudo Tarifa por
 
-Uso de la Infraestructura Férrea, Subcuenta Ingreso por Prestación del Servicio Público de Página 93 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Transporte
 
@@ -5367,7 +5288,6 @@ caso de que exista controversia sobre los Descuentos a los que se refiere la Sec
 
 Uso de la Infraestructura Férrea, Derecho de Recaudo, Ingresos por Explotación Comercial, Ingresos por Prestación de Servicios Logísticos e Ingresos por Prestación del Servicio Público de Transporte
 
-Ferroviario de Carga Página 94 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (a) Se cederá al Concesionario el
 
@@ -5429,9 +5349,7 @@ porcentaje de participación para la Retribución de las Unidades
 
 Funcionales de Vía Férrea tal y como consta en la siguiente tabla: UFVF
 
-UFVFl de Participación UFVF 1,31 Página 95 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
-Nacional de Infraestructura UFVF2 2,77 UFVF3 1,54 UFVF4 1,84 UFVFS 1,54 UFVF6 1,52 UFVF7 1,54 UFVF8 1,54 UFVF9 1,60 UFVFlO 1,61 UFVFl 1 1,94 UFVF12 1,95 UFVF13 1,98 UFVF14 1,74 UFVF15 167 UFVF16 237 UFVF17 2,36 UFVF18 2,37 UFVF19 2,37 UFVF20 3,01 UFVF21 2,75 UFVF22 2,75 UFVF23 2,17 UFVF24 2.36 UFVF25 2,15 UFVF26 2,09 UFVF27 2,09 UFVF28 2,08 UFVF29 2,12 UFVF30 2,04 UFVF31 1,55 UFVF32 1,46 UFVF33 3,04 UFVF34 1,44 UFVF35 1,91 UFVF36 1,14 UFVF37 1,20 UFVF38 1,53 UFVF39 1,54 UFVF40 1,36 UFVF41 1,35 UFVF42 2,02 UFVF43 1,41 lJFVF44 1,33 Página 96 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura UFVF45 1,44 UFVF46 1,48 UFVF47 1,46 UFVF48 1,47 UFVF49 1,57 UFVF50 2,20 UFVF51 1,12 UFVF52 3,05 UFVF53 2,76 TOTAL 100,00 (b) Una vez suscritas todas las
 
@@ -5463,7 +5381,6 @@ valor de la Comisión de Éxito para el Estructurador Técnico
 
 es de CUATROCIENTOS CINCUENTA MILLONES (450.000.000) Pesos MCTE, el cual incluye todos los impuestos y retenciones que sean aplicables según la normatividad en Colombia. En
 
-caso de que la Comisión de Éxito que se cause a favor del Estructurador Técnico sea menor al valor anterior, el remanente deberá ser trasladado a la Subcuenta Excedentes ANI. (e) Las anteriores Comisiones de Éxito serán pagadas por el Concesionario al Estructurador Legal y Financiero y al Estructurador Técnico, así: Página 97 de 332 92D
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -5557,7 +5474,6 @@ Funcional de Vía Férrea, de ser aplicable), lo que suceda más tarde entre A) 
 
 vencimiento de ciento veinte (120) Días contados desde esa misma fecha. A partir del vencimiento del plazo anterior, se causarán
 
-intereses de mora. Página 98 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (g) Lo previsto en la presente Sección 4.12 se entiende sin
 
@@ -5579,7 +5495,6 @@ Mes de Referencia. En tal caso, el
 
 denominador de la fracción incluida en la fórmula corresponderá al
 
-IPC de la fecha en la que se encuentra expresado el valor a actualizar. Página 99 de 332 90Dv
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -5645,7 +5560,6 @@ mercado de capitales: El Concesionario deberá aportar una certificación emitid
 
 legal de los
 
-tenedores de los títulos en Página 100 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura la que se indique al menos lo siguiente: (a)
 
@@ -5709,7 +5623,6 @@ contratos de crédito deberán estar acompañadas de los documentos que soporten
 
 existencia de quien la emita y la condición de representante legal o funcionario
 
-autorizado de la persona que la suscribe. Los documentos que acrediten la existencia y representación legal no podrán tener una antigüedad superior a sesenta (60) Días. Página 101 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (f) Características de los Prestamistas. En cualquier caso, todo Prestamista del Concesionario deberá contar con las siguientes características: (i) Si los Prestamistas son entidades financieras colombianas deberán estar vigiladas por la Superintendencia
 
@@ -5765,7 +5678,6 @@ tenedores de títulos emitidos en el
 
 mercado de capitales para que sus aportes sean considerados
 
-Recursos de Deuda. Página 102 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (vii) También podrán ser Prestamistas (A) las entidades
 
@@ -5801,7 +5713,6 @@ Concesionario de procurar la
 
 totalidad de recursos necesarios para llevar a cabo todas las obligaciones del Contrato en los plazos y condiciones establecidos por el mismo, incluso si los
 
-Recursos de Deuda que el Proyecto exija deben ser mayores a los comprometidos a través del Cierre Financiero. Página 103 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) En consecuencia, la obligación del
 
@@ -5861,7 +5772,6 @@ Dentro de los 1080 días Giro 5 veintiún mil setecientos veintiséis siguientes
 
 Fecha de Inicio (49.929.321.726) en Pesos del
 
-Mes de Referencia. Página 104 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Treinta y ocho mil ochocientos cincuenta y seis millones ciento
 
@@ -5929,7 +5839,6 @@ Eximente de Responsabilidad, porcentaje que corresponde al mismo señalado en la
 
 Giros de Equity
 
-objeto de suspensión en los términos de las Secciones 5.3(c) y 5.3(d), corresponderán exclusivamente a los que deban pagarse durante el Período Página 105 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Especial, teniendo en cuenta los cronogramas y
 
@@ -5991,7 +5900,6 @@ documentos de crédito, con las características exigidas en la Sección 5.2(f).
 
 #### 5.5 Desarrollo de Estructuras Financieras (a) El Concesionario podrá estructurar o utilizar para su financiamiento las estructuras financieras que considere adecuadas, para lo cual podrá ceder cualquier derecho económico a su favor
 
-que de este Contrato se derive. Página 106 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) El Concesionario podrá estructurar
 
@@ -6031,7 +5939,6 @@ solicitud de cesión del Contrato a la persona que designen por escrito mediante
 
 Plan de Reactivación. (ii) Mediante el envío de una Notificación a la ANI anunciando la modificación de la composición accionaria del Concesionario, ya sea por
 
-cuenta de la compra que hagan directa o indirectamente los Prestamistas o por lacompra efectuada por una o varias persona(s) designada(s) por los Prestamistas. En este caso, deberán enviar una certificación suscrita por el revisor fiscal del Concesionario en la que conste la composición accionaria del Concesionario y donde se evidencie que los Página 107 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura accionistas iniciales del Concesionario no tienen participación accionaria alguna en el cesionario. Si los accionistas son personas jurídicas, además deberán adjuntar una declaración juramentada en la que conste que los accionistas iniciales del Concesionario no son Beneficiarios
 
@@ -6085,7 +5992,6 @@ Dentro de los treinta (30) Días siguientes a la
 
 entrega de la Notificación para Toma, la Interventoría hará entrega a la ANI y a los
 
-Prestamistas de Página 108 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura un informe sobre el estado del Proyecto, el cual incluirá, por lo menos, el
 
@@ -6153,7 +6059,6 @@ causal de Terminación Anticipada del presente
 
 Contrato de las señaladas en la Sección 23.2(a), excepto la señalada en la Sección 23.2(a)(iv), y procede la
 
-toma de posesión: (1) La ANI comunicará al(los) representante(s) de los Prestamistas y a la Interventoría mediante el envío de una Notificación en la que se indicará Página 109 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura que tienen derecho a ejercer la
 
@@ -6215,7 +6120,6 @@ condiciones de la
 
 modalidad de toma de posesión escogida e informar a la ANI
 
-acerca de la persona que continuará con la ejecución del Contrato Página 110 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (si es la cesión) o el
 
@@ -6279,7 +6183,6 @@ subcuentas de libre disposición del Concesionario o sus accionistas a atender l
 
 favor de los Contratistas, de los Prestamistas y demás contratistas y proveedores del Proyecto. Cualquier pago que haga el Patrimonio Autónomo al Concesionario o a sus accionistas, sin
 
-importar de qué subcuenta se haga, se considerará como un Página 111 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura incumplimiento del
 
@@ -6331,7 +6234,6 @@ fecha de suscripción del
 
 acta de entrega, y cualquier otro traslado efectuado desde la Cuenta ANI a la Cuenta Proyecto. (3) Estado técnico de cada
 
-una de las Unidades Funcionales. (4) Relación de las obras y actividades pendientes por ejecutar y que estarán a cargo del Concesionario entrante. (5) De ser necesaria, se formalizará la cesión -a favor del nuevo concesionario- de las Licencias y Permisos con que cuente el Concesionario. Página 112 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (6) Estado del Índice de Cumplimiento y del Índice de Cumplimiento Predial, señalando en cada caso el número de
 
@@ -6403,7 +6305,6 @@ parte de la ANI. Ocurrido
 
 cualquiera de estos eventos, se activarán los
 
-procedimientos de que tratan la Página 113 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Sección 16.8 de este Contrato dirigidos a la imposición de las Multas y Sanciones que tengan origen en incumplimientos anteriores o posteriores a: la Notificación para Toma o de la Notificación
 
@@ -6507,7 +6408,6 @@ momento de la ejecución de este Contrato, la ANI podrá solicitar la modificaci
 
 Contrato de Fiducia Mercantil, conforme lo previsto en la Sección 6.3(h) de este Contrato. (ii) En cualquier caso, el
 
-Contrato de Fiducia Mercantil deberá quedar suscrito y perfeccionado a más tardar a los cinco (5) Días Hábiles siguientes a la fecha en Página 115 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura que la ANI se haya pronunciado o en que haya vencido el
 
@@ -6533,7 +6433,6 @@ una de las subcuentas en que se divida la Cuenta Proyecto, designados por el Con
 
 previsiones de este Contrato. La ANI será beneficiaria de la Subcuenta Predios, la Subcuenta Compensaciones Socioambientales y la Subcuenta Redes, en los términos señalados en esta Sección 6.2. (c) El beneficiario único de la Cuenta ANI, junto con las respectivas
 
-subcuentas de esta cuenta, será la ANI. Página 116 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (d) La
 
@@ -6583,7 +6482,6 @@ cumplimiento de sus obligaciones bajo este Contrato. (2) Los
 
 Recursos de Deuda
 
-obtenidos de los Prestamistas. Página 117 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (3) Cualquier
 
@@ -6635,7 +6533,6 @@ Reconocimiento de utilidades y otros pagos a los socios del Concesionario, que s
 
 deriven de sus derechos como accionistas, siempre que no se desconozca ninguna estipulación de este Contrato, ni
 
-ninguna de las obligaciones adquiridas con los Prestamistas. Página 118 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (8) El
 
@@ -6697,7 +6594,6 @@ Fecha de Inicio de Referencia Veintisiete mil veintidós millones
 
 Dentro de los 720 Aporte 5 setecientos dos mil quinientos cuarenta y siete (27.022.702.547) en Pesos del
 
-Mes de Referencia Página 119 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Diecinueve mil doscientos veintiséis millones trescientos
 
@@ -6737,7 +6633,6 @@ actividades de depósito de materiales o para la explotación de canteras y mate
 
 recursos de la Subcuenta Predios. Así mismo, dichos predios no harán
 
-parte de los Bienes Revertibles. Página 120 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (6) El Concesionario tiene la obligación
 
@@ -6801,7 +6696,6 @@ Dentro de los Aporte 8 catorce mil doscientos sesenta y 1260 días uno (102.814.
 
 la de Referencia.
 
-Fecha de Inicio Página 121 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Ciento dos millones ochocientos
 
@@ -6849,7 +6743,6 @@ Contrato de Fiducia Mercantil y se fondeará con los
 
 recursos de la Cuenta Proyecto, en los montos y plazos que a continuación se señalan: Desembolso Valor (Pesos
 
-Mes de Referencia) Página 122 de 332 Plazo
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -6895,7 +6788,6 @@ Dentro de los 1800 Aporte 10 veintiséis mil quinientos sesenta y días siguient
 
 Fecha de Inicio
 
-Mes de Referencia. TOTAL VEINTINUEVE MIL CIENTO TREINTA Y NUEVE MILLONES QUINIENTOS NOVENTA Y DOS MIL Página 123 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura QUINIENTOS OCHENTA (29.139.592.580) Pesos del
 
@@ -6915,7 +6807,7 @@ conceptos de cobro para el
 
 desembolso de recursos los cuales deberán estar soportados con base en las actividades que cubre esta Subcuenta y en los actos administrativos que impone la obligación de compensación. (x) Subcuenta Cambio Climático: (1) La Subcuenta Cambio Climático se creará en el momento que el Concesionario obtenga
 
-fuentes de financiación diferentes a las descritas en la Sección 5.1 del presente Contrato para la inversión en vías adaptadas y resilientes al cambio climático por
+fpuentes de financiación diferentes a las descritas en la Sección 5.1 del presente Contrato para la inversión en vías adaptadas y resilientes al cambio climático por
 
 concepto de restauración ambiental e infraestructura verde aplicable al Proyecto, el
 
@@ -6941,7 +6833,6 @@ proyectos de cambio climático serán responsabilidad exclusiva del Concesionari
 
 marco de los
 
-acuerdos de cooperación no afectarán la distribución de riesgos contenida en el CAPÍTULO XIX, ni las obligaciones previstas para el Concesionario en este Contrato. (4) El Concesionario declara y reconoce que mantendrá indemne a la ANI por (i) la ejecución de las obligaciones que adquiera con la entidad Página 124 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chirigi.taná Agencia
 
 Nacional de Infraestructura cooperante, yo (ii) de cualquier sanción o reclamación por
 
@@ -6973,7 +6864,6 @@ Giros de Aseguradoras, por lo que deberá ejecutar tales
 
 actividades de manera completa, en los términos previstos en este Contrato y de conformidad con lo acordado con la ANI, en los términos de la Sección 20.3. De acuerdo con lo anterior, las
 
-actividades de reparación, reposición y reconstrucción no modifican las obligaciones pactadas en este Contrato ni la distribución de riesgos contenida en éste. (4) El Concesionario declara y reconoce que la inoperancia del seguro atribuible a su reclamación y trámite, incluyendo pero sin limitarse a Página 125 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura circunstancias tales como la prescripción, reticencia, incumplimiento de garantías, errores o faltas en los deberes a su cargo como tomador y asegurado en general, no constituirán Evento
 
@@ -7021,7 +6911,6 @@ Uso de la Infraestructura Férrea, Subcuenta Recaudo Tarifa por Prestación de S
 
 Subcuentas de la Cuenta ANI los recursos allí consignados, siempre y cuando a
 
-criterio de la ANI la subcuenta donde se origina el traslado se encuentre con los recursos suficientes para cumplir su finalidad. Página 126 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii) Los costos por concepto del Gravamen a los Movimientos Financieros (GMF) que sean generados en la Cuenta ANI y las subcuentas que la conforman deberán ser asumidos en su totalidad por el Concesionario. El Gravamen a los Movimientos Financieros (GMF) serán asumidos en su totalidad por la ANI en aquellas
 
@@ -7059,7 +6948,6 @@ Proyecto de cada
 
 pago de los
 
-Componentes de la Retribución semestral al Concesionario, de que trata la Sección 4.4, de acuerdo con lo señalado en las tablas contenidas en el Apéndice Financiero 3. Este valor debe ser desembolsado, a más tardar, en la fecha máxima establecida para el efecto en el Apéndice Financiero 3. (6) Aportes ANI para el Componente A Página 127 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura VMCA . (IPC-1) VMCAt IPCr Donde, VMCA VMCA Corresponde al valor del Aporte ANI que debe desembolsar la ANI en la subcuenta del Componente A, destinado al
 
@@ -7085,7 +6973,6 @@ uno de los Semestres Calendario a partir del
 
 inicio de la
 
-Fase de Construcción. Página 128 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Contador que se activa con el IPC del Mes inmediatamente anterior en el que la ANI consigne el Aporte en la subcuenta f Componente B en la Subcuenta Aportes ANI, que puede ser cualquier día anterior a la expiración de la fecha máxima establecida en el Apéndice Financiero 3. r
 
@@ -7103,7 +6990,6 @@ uno de los Semestres Calendario a partir del
 
 inicio de la Etapa Preoperativa. Contador que se activa con el IPC del Mes inmediatamente anterior en el que la ANI consigne el f Aporte en la subcuenta Componente c en la Subcuenta Aportes ANI, que puede ser cualquier día anterior a la expiración de la fecha máxima establecida en el Apéndice Financiero 3. r
 
-Mes de Referencia (9) Aportes ANI para el Componente D VMCD VMCDr IIPPCrC-1) r Página 129 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Donde, VMCDi VMCDr Corresponde al valor del Aporte ANI que debe desembolsar la ANI en la subcuenta del Componente D, destinado al
 
@@ -7161,7 +7047,6 @@ Contrato de Fiducia Mercantil, y se fondeará con el
 
 Recaudo de la Tarifa por
 
-Uso de la Infraestructura Férrea de Terceros Operadores y del Concesionario. Página 130 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) La Subcuenta Recaudo Tarifa por
 
@@ -7213,7 +7098,6 @@ esquemas de financiación destinados al Proyecto, de ser el caso), por haberse c
 
 Uso de la Infraestructura Férrea y serán administradas exclusivamente bajo
 
-instrucciones de la ANI. Página 131 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1 O) En el
 
@@ -7247,7 +7131,6 @@ dentro de los primeros (5) Días de cada Mes, en la Subcuenta Servicios Logísti
 
 periodo de recaudo corresponderá a los Días transcurridos desde el Día en que se efectuó la última consignación (incluido), hasta el Día anterior a la consignación siguiente. (6) Una vez suscrita el
 
-Acta de Cálculo de Retribución Mensual, el valor establecido a favor del Concesionario en dicha Acta le será girado a la Cuenta Proyecto. Por su parte, el valor correspondiente a la Contraprestación le será girado a laANI a la Subcuenta Contraprestación, Página 132 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura y el cien por ciento (100) de los Ingresos por Prestación de Servicios Logísticos del Concesionario serán girados a la Subcuenta Excedentes ANI. (7) En el caso en que la suma consignada por el Concesionario a la S ubcuenta Servicios Logísticos fuere inferior a la que
 
@@ -7287,7 +7170,6 @@ Contrato de Fiducia Mercantil, y se fondeará con el porcentaje definido en la S
 
 Subcuenta de Ingresos por Explotación Comercial estará a
 
-cargo de la ANI. Página 133 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (3) Los recursos correspondientes al quince por ciento (15) al que se refiere la Sección 4.8(d) de este Contrato deberán ser transferidos a la Subcuenta Excedentes ANI
 
@@ -7331,7 +7213,6 @@ periodo de recaudo corresponderá a los Días transcurridos desde el Día en que
 
 Acta de Cálculo de Retribución Mensual, el valor establecido a favor del Concesionario en dicha Acta le será girado a la Cuenta Proyecto. (5) Desde el momento en que se transfieran las sumas correspondientes al Recaudo por la Prestación del Servicio Público de Transporte
 
-Ferroviario de Carga hasta el momento en que se haga exigible el derecho a favor del Página 134 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Concesionario a que sean transferidos recursos a la Cuenta Proyecto, por haberse causado la Retribución, cuando sea aplicable, en los términos del presente Contrato, tales sumas deberán mantenerse disponibles en la Subcuenta Ingresos por Prestación del Servicio Público de Transporte
 
@@ -7389,7 +7270,6 @@ Tribunal de Arbitramento, incluida la práctica de pruebas, exclusivamente en la
 
 cargo de la ANI equivalente al cincuenta por ciento (50) de la suma correspondiente por dichos conceptos, así como a los gastos que demande cualquier otro mecanismo
 
-alternativo de solución de controversias al que las Partes acuerden acudir en el momento en que una controversia se Página 135 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura presente. Los costos y gastos en que incurra el Concesionario en la convocatoria del
 
@@ -7443,7 +7323,6 @@ operaciones de tesorería que se efectúen con cargo a los
 
 recursos de esta subcuenta acrecerán la misma. (4) En
 
-caso de liquidación, los recursos disponibles en esta subcuenta pertenecerán a la ANI. (xi) Subcuenta Interventoría y Coordinación: Página 136 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) La Subcuenta Interventoría y Coordinación se creará con la suscripción del
 
@@ -7493,7 +7372,6 @@ Inicio de Referencia. Once mil seiscientos tres millones novecientos cuatro mil
 
 Dentro de los 2520 días Aporte 9 cuatrocientos noventa y siete siguientes a la Fecha de (11.603.904.497) Pesos del Mes
 
-Inicio de Referencia. Página 137 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia Nacíonal de Infraestructura Once mil seiscientos tres millones novecientos cuatro mil
 
 Dentro de los 2880 días Aporte 10 cuatrocientos noventa y siete siguientes a la Fecha de (11.603 .904.497) Pesos del Mes
 
@@ -7539,7 +7417,6 @@ Fase de Construcción es atribuible al Concesionario o imputable a éste, dichos
 
 Fase de Preconstrucción o de la
 
-Fase de Página 138 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Construcción se estableciera que el valor adicional aportado por el Concesionario fue superior al mayor valor pagado a la Interventoría, habrá lugar al reembolso del excedente, en Pesos corrientes, sin incluir actualización o intereses. Este reembolso será efectuado mediante
 
@@ -7573,7 +7450,6 @@ Equipo de Coordinación y Seguimiento del Contrato, las sumas adicionales serán
 
 totalidad de los recursos adicionales aportados por el
 
-Concesionario de conformidad con lo previsto en la Sección anterior, serán pagados por la ANI para lo cual se aplicará el procedimiento previsto en la Sección 10.4(f) de este Contrato, en lo que resulte aplicable. (xii) Subcuenta Obras Sociales: Página 139 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) (2) (3) (4) (5) (6) La Subcuenta Obras
 
@@ -7623,7 +7499,6 @@ Subcuenta de Soporte Contractual los valores que se presentan en la siguiente ta
 
 Dentro de los primeros (30) siete millones días de cada año contados a Cuatrocientos cuarenta y
 
-partir de la constitución del siete millones Patrimonio Autónomo. Página 140 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (447.000.000) Pesos del 1 Mes de Referencia. CUATRO MIL CUATROCIENTOS SETENTA Total MILLONES (4.470.000.000) Pesos del
 
@@ -7665,7 +7540,6 @@ caso de liquidación los recursos disponibles en esta subcuenta pertenecerán a 
 
 remanentes de la Subcuenta Soporte Contractual que no fueron necesarios para los pagos
 
-derivados de la presente Sección Página 141 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura deberán ser transferidos a la Subcuenta Excedentes ANI, previa instrucción expresa y
 
@@ -7737,7 +7611,6 @@ Funcional de Vía Férrea, esta se depositará en la subcuenta para la Unidad Fu
 
 una de las .subcuentas por Unidad Funcional se consignará la sumaresultante de: (i) los valores
 
-objeto de Retención de la Retribución, en los eventos Página 142 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura descritos en la Sección 10.3(k) del presente Contrato; y (ii) las sumas
 
@@ -7787,7 +7660,6 @@ operaciones de tesorería que se efectúen con cargo a los
 
 recursos de la Subcuenta Contraprestación acrecerán la subcuenta. En
 
-caso de liquidación los recursos disponibles en esta subcuenta pertenecerán a la ANI. Página 143 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -7849,7 +7721,6 @@ Contrato de Fiducia Mercantil no podrá ser revocado por el Concesionario yo la 
 
 previa de la ANI serán aquellas que se relacionen con el
 
-valor de la Comisión Fiduciaria, siempre que se cumpla con lo previsto en este Contrato; Página 144 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii) El Concesionario y la Fiduciaria responderán frente a la ANI por el
 
@@ -7897,7 +7768,6 @@ servicios de auditoria en por lo menos dos países diferentes a Colombia y podr�
 
 antes de la presentación de los estados financieros auditados. Independientemente del
 
-derecho de auditoría que tienen la ANI y el Interventor y del derecho a solicitar directamente a la Fiduciaria información, reportes y certificaciones en la forma, formatos, protocolos y tiempos que defina la ANI para cada caso, la Página 145 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiríguaná Agencia
 
 Nacional de Infraestructura Fiduciaria deberá presentar al menos la información que se especifica a continuación, en la forma, plazos y los formatos que para cada caso disponga la ANI: (i) En los plazos señalados en el Contrato, deberá reportar a la ANI y al Interventor el
 
@@ -7963,7 +7833,6 @@ dentro de los primeros quince (15) Días presentar un informe general sobre la o
 
 dentro de los primeros quince (15) Días presentar un informe sobre los costos y gastos del Concesionario, debidamente discriminado por
 
-actividades de operación y mantenimiento e inversión. Página 146 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xíi) Sin
 
@@ -7995,7 +7864,6 @@ ejercicio de los
 
 derechos de la ANI yo del Interventor a auditar el Patrimonio Autónomo, o no cumpla con cualesquiera
 
-otras de sus obligaciones a su cargo descritas en el Contrato. Página 147 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -8029,7 +7897,6 @@ Contrato de Diseño para la ejecución de los Estudios y Diseños de
 
 Detalle de las Intervenciones. (b) El
 
-Contratista de Diseño deberá acreditar que él fue el responsable de: (i) Experiencia Tipo A: Página 148 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Deberá acreditar experiencia en la elaboración de rmrurno dos (2) proyectos (finalizados) de estudios y diseños detallados para construcción de infraestructura férrea de carga o de tráfico mixto, en los últimos veinte (20) años, que cumplan las siguientes condiciones: (1) La longitud
 
@@ -8037,9 +7904,9 @@ acumulada de vía
 
 principal de los proyectos debe
 
-ser de por lo menos doscientos cincuenta (250) km. (2) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y diseños de los siguientes componentes: trazado de diseño geométrico; estructuras hidráulicas; puentes ferroviarios nuevos o
+ser de por lo menos doscientos cincuenta (250) km. (2) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y diseños de los siguientes componentes: trazado de diseño geométrico; estructuras hidráulicas; ppuentes ferroviarios nuevos o
 
-reforzamiento de puentes (cimentación y superestructura) para cargas mínimas de 15 Ton por eje; plataforma, infraestructura y superestructura y
+reforzamiento de ppuentes (cimentación y superestructura) para cargas mínimas de 15 Ton por eje; plataforma, infraestructura y superestructura y
 
 armamento de vía; sistemas de Señalización, comunicaciones y control; estabilización y
 
@@ -8073,13 +7940,12 @@ responsable de la rehabilitación, construcción yo
 
 mejoramiento de proyectos férreos con trocha igual o superior a la trocha yárdica con plataforma en balasto. La experiencia debe incluir hasta cinco (5) proyectos ejecutados en los últimos veinte (20) años, que sumados sean más de doscientos cincuenta (250) kilómetros de línea férrea principal.
 
-Dentro de la Página 149 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura experiencia debe acreditar las
 
 obras de rehabilitación y reforzamiento o construcción
 
-nueva de tres (3) puentes férreos para trenes con carga mínima de 15 Toneje, y por lo menos uno (1) de
+nueva de tres (3) ppuentes férreos para trenes con carga mínima de 15 Toneje, y por lo menos uno (1) de
 
 ellos de más de sesenta (60)
 
@@ -8139,7 +8005,6 @@ remanufactura de al menos dos locomotoras electro-diésel con potencia iguales o
 
 remanufactura de al menos 20 vagones de Material Rodante férreo remolcado con
 
-capacidad de carga por vagón de al menos 34 toneladas. Página 150 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii) En
 
@@ -8169,7 +8034,6 @@ Contrato de Concesión de conformidad con la Sección 7.l(b), ni implicará la a
 
 alguno de los plazos establecidos en el mismo. (b) Reemplazo por
 
-Solicitud de la ANI Página 151 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i) La ANI podrá requerir al Concesionario el
 
@@ -8185,7 +8049,6 @@ cumplimiento de las obligaciones del Contrato. (b) El Concesionario es el único
 
 ANI de la celebración de subcontratos. (c) No habrá relación negocial alguna entre la ANI y los contratistas o proveedores del Concesionario. Por lo tanto, la ANI no se hace responsable por
 
-ninguna de las obligaciones contraídas por el Concesionario con sus contratistas. Página 152 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura CAPÍTULO VTII
 
@@ -8231,7 +8094,6 @@ plazo de quince (15) Días para pronunciarse sobre las modificaciones una vez pr
 
 respecto de los documentos
 
-objeto de revisión, como parte del mismo procedimiento. Página 153 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iv) En el evento en que el Concesionario no esté de acuerdo con las
 
@@ -8267,7 +8129,6 @@ objeto de revisión, el Concesionario deberá indicar esta situación a la ANI m
 
 recibo de la Notificación, la ANI tendrá quince (15) Días para pronunciarse sobre los documentos
 
-objeto de revisión, plazo durante el cual también podrá pronunciarse el Interventor. Página 154 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (g) Si vencido el término al que se refiere la Sección 8. l(f) no se han pronunciado ni el Interventor ni la ANI, se entenderá que hay objeción. En este caso, el Concesionario podrá acudir al Amigable Componedor para que dirima la controversia. Esto sin perjuicio que la ANI se reserva el
 
@@ -8311,7 +8172,6 @@ Interventor de la documentación correspondiente, en los siguientes eventos: (i)
 
 que de acuerdo con lo previsto en el Contrato, se introduzcan modificaciones a los documentos que ya han culminado el
 
-proceso de revisión o se efectúe una actualización de los mismos. Página 155 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) El Interventor analizará los documentos elaborados por el Concesionario, para lo cual contará con un plazo máximo de veinte (20) Días contados a partir del Día de la
 
@@ -8341,7 +8201,6 @@ respecto de las observaciones efectuadas por el Interventor. (iii) En el caso en
 
 estar de acuerdo con las observaciones del Interventor, y salvo que la ANI manifieste
 
-estar de acuerdo con el Concesionario, la controversia podrá someterse al Amigable Componedor. Si la ANI guarda silencio, se entenderá que está de acuerdo con el Interventor. (iv) En el evento en que el Concesionario presente los ajustes requeridos por el Interventor, éste tendrá un término de cinco (5) Días para revisarlos y presentar al Concesionario y a la ANI su concepto al respecto. Dicho concepto, que será comunicado mediante Notificación, sólo podrá referirse a los elementos observados inicialmente y no deberá incluir nuevas observaciones. Vencido este Página 156 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura plazo sin que el Interventor presente su concepto a la ANI, el Concesionario podrá acudir al Amigable Componedor. (i) En el evento en que la Notificación presentada por el Interventor tenga el contenido señalado en la Sección 8.2(d)(iii) del presente Contrato el Concesionario podrá: (i) Presentar nuevamente el documento objetado por el Interventor para lo cual contará con un
 
@@ -8369,7 +8228,6 @@ cualquiera de los mecanismos señalados en la presente Sección 8.2, no servirá
 
 cumplimiento de las
 
-obligaciones de resultado previstas en el Contrato y sus Apéndices. Página 157 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -8453,7 +8311,6 @@ inicio de la
 
 Fase de Construcción. Adicionalmente, el
 
-Cronograma de Adquisición de Predios y el Página 158 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -8507,7 +8364,6 @@ manejo de los riesgos asociados con el costo del traslado yo intervención de Re
 
 control de la utilización
 
-ilegal de la Vía Férrea. Con este fin deberá realizar a su costo, con el apoyo y bajo la coordinación de ANI, un convenio con las Autoridades Estatales competentes y, acordar con ellas Página 159 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura el soporte logístico requerido para prestar el servicio. Dicho convenio deberá sujetarse a las directrices impartidas por la
 
@@ -8557,7 +8413,6 @@ procedimientos de votación, la composición de los órganos de administración.
 
 conflictos de interés. Información sobre auditoría técnica, legal, financiera, ambiental, social, de seguridad y salud en el trabajo, y contable, así como el informe
 
-anual de gobierno corporativo. Página 160 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) Los anteriores documentos (excepto el informe
 
@@ -8601,7 +8456,6 @@ nivel de participación. (8) Indicar el procedimiento para la selección de
 
 miembros de junta directiva que incluya por lo menos un veinticinco por ciento (25) de miembros independientes. La independencia a que se refiere esta Sección se
 
-predica de las personas que no son empleados, directivos ni contratistas del Página 161 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Concesionario, de los accionistas del Concesionario
 
@@ -8639,7 +8493,6 @@ Fase de Preconstrucción, un
 
 Plan de Contingencia y Emergencia, el cual deberá servir para cumplir con los indicadores establecidos en el Apéndice Técnico 4. El
 
-Plan de Contingencia y Emergencia deberá contener por lo menos los siguientes elementos: Página 162 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1)
 
@@ -8703,7 +8556,6 @@ apartes de este Contrato, o en sus Apéndices, la ANI tendrá las siguientes obl
 
 Fase de Preconstrucción: (i) Pagar el Componente A de la Retribución de acuerdo con lo señalados en el 4.2 del presente Contrato. (ii) Efectuar los Aportes ANI al Patrimonio Autónomo, en los montos y plazos previstos en el Apéndice Financiero 3 del Contrato, y pagar los intereses remuneratorios yo moratorios en el caso que los mismos se
 
-causen de conformidad con lo previsto en la Sección 4.12 del presente Contrato. Página 163 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii) Cooperar con el Concesionario en la Gestión Predial, y otorgarle los poderes que requiera para el debido
 
@@ -8757,7 +8609,6 @@ Fecha de Inicio. Este plazo no se modificará o extenderá como
 
 consecuencia de la fecha en la que se inicie la
 
-Fase de Preconstrucción. Página 164 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Los Estudios y Diseños de Detalle se someterán al
 
@@ -8803,7 +8654,6 @@ necesidad de dichas adecuaciones sea identificada por el Concesionario con poste
 
 Procedimiento de Revisión Abreviado previsto en la Sección 8.2. (d) Cuando la
 
-necesidad de adecuación sea identificada por la ANI o el Interventor, se deberá seguir lo señalado en la Sección 8.2(h) o Sección 8.2(i) del presente Contrato. En cualquier caso, toda controversia presentada entre la ANI y el Concesionario en relación con estas adecuaciones será resuelta por el Amigable Componedor. Página 165 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) Cuando las modificaciones y adecuaciones a que se refiere la Sección 9.3(a) anterior, no supongan una modificación sustancial a los Estudios y Diseños de Detalle, el Interventor y el Concesionario podrán acordar
 
@@ -8857,7 +8707,6 @@ Plan de Obras del Proyecto. El Concesionario deberá informar de esta modificaci
 
 menos de treinta (30) Días de antelación a la primera actividad que haya sido modificada o complementada en
 
-alguno de estos instrumentos. Página 166 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -8925,7 +8774,6 @@ Aplicable de Licencias yo Permisos y, en general, dar aplicación a lo estableci
 
 Plan de Trámites
 
-Ambientales de conformidad con el Apéndice Técnico 6 y haber aceptado la Página 167 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura cesión del instrumento ambiental del Proyecto como lo indica el Capitulo IX del Apéndice Técnico 6 y el
 
@@ -8977,7 +8825,6 @@ obligaciones de administración de la Infraestructura Férrea y de la Infraestru
 
 obligaciones de Puesta a Punto, Operación y Mantenimiento del Material Rodante del Proyecto y Prestación del Servicio Público de Transporte
 
-Ferroviario de Carga de acuerdo con lo establecido en el CAPÍTULO XIII del Contrato. Página 168 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (vii) Ejecutar las
 
@@ -9049,7 +8896,6 @@ concepto de la Interventoría) con miras al seguimiento y monitoreo para la prev
 
 obras de prevención yo mitigación necesarias, sujeto a la verificación de la Interventoría. Esta obligación es también aplicable a la
 
-Etapa de Operación y Mantenimiento. Página 169 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xv) El Concesionario deberá levantar, previo al
 
@@ -9107,7 +8953,6 @@ presupuesto de la ANI los recursos necesarios para hacer los Aportes ANI al Patr
 
 caso de que se presenten omisiones en el trámite presupuesta! de la Nación que afecten el
 
-presupuesto de la ANI, la ANI debe Página 170 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura asegurarse que se sanee tal omisión, sin perjuicio del
 
@@ -9163,7 +9008,6 @@ Informe de Interventoría una medición del avance del
 
 Plan de Obras, discriminado por cada
 
-una de las Unidades Funcionales. Página 171 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Para cada
 
@@ -9241,7 +9085,6 @@ valores de avance para cada
 
 una de las Unidades Funcionales
 
-respecto de los que no hubo objeción o Página 172 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura existe acuerdo, indicando en cada caso los documentos en los que se soportan. (2) La diferencia
 
@@ -9309,7 +9152,6 @@ propuesta de modificación al
 
 Plan de Obras y del
 
-Plan de Adquisición de Predios, de ser necesario. En la misma Notificación deberá describir el evento y dar las razones por las cuales considera que tal causa le es imputable a la ANI. Página 173 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) .
 
@@ -9351,7 +9193,6 @@ necesidad de la extensión es por razones que no le son imputables, solicitud a 
 
 favor de la ANI por el 90 del valor máximo previsto en la Sección 16.8(c) del Contrato, sin que se entienda que se está generando una Multa. (ii) El pago a la ANI del cargo al que se refiere la Sección anterior podrá ser efectuado por el Concesionario: (1) Mediante la reducción del valor del Componente C asociado a la Unidad Funcional correspondiente, y se descontará del primer
 
-pago de la misma. Si este no fuere suficiente, se descontará del segundo pago y así sucesivamente. Página 174 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) Mediante pago en efectivo, el cual será trasladado a la
 
@@ -9377,7 +9218,6 @@ Fase de Construcción del Contrato. (h) En
 
 caso de no cumplirse con este fondeo adicional se entenderá no otorgado el plazo adicional solicitado por el Concesionario y se iniciarán los procesos sancionatorios que resulten pertinentes. (i) Cuando el monto del fondeo efectuado a la Subcuenta Interventoría y Coordinación fuere superior al plazo efectivamente utilizado para terminar la Unidad Funcional, el monto en exceso consignado será trasferido a la
 
-subcuenta de la Cuenta Proyecto que indique el Concesionario. Página 175 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura G) En ningún caso, el plazo adicional modifica la
 
@@ -9427,7 +9267,6 @@ vigencia de la póliza de estabilidad y calidad. (f) Si, durante la ejecución d
 
 cambio de la Ley Aplicable (incluyendo
 
-decisiones de la ANI o de Autoridades Estatales) que pudiese implicar a su vez un cambio en las Especificaciones Técnicas que implique mayores costos para el Concesionario, esa modificación no le será obligatoria al Concesionario, salvo que la ANI lo requiera mediante una Notificación, en la que se indique la forma en que la ANI cubrirá los mayores costos que conlleve la ejecución del cambio en las Página 176 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Especificaciones Técnicas. Para la determinación de dichos mayores costos, la ANI tendrá en cuenta tanto los costos asociados a la implementación del
 
@@ -9461,7 +9300,6 @@ causas de su incompatibilidad y las
 
 consecuencias de la misma En tal caso, el Concesionario deberá proponer el ajuste correspondiente, señalando de manera detallada las variaciones técnicas que serían introducidas. El riesgo por los mayores o menores costos derivados del
 
-ajuste de las Especificaciones Técnicas será enteramente del Concesionario. Página 177 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Contradicción entre Especificaciones Técnicas (i) Se entiende que existe contradicción entre dos Especificaciones Técnicas, cuando: (1) El
 
@@ -9501,7 +9339,6 @@ trata de obligaciones de resultado a cuyo cumplimiento se ha comprometido desde 
 
 cumplimiento de aquellas se deriva un acto o conducta prohibido por la Ley Aplicable vigente al
 
-momento de la presentación de la Oferta. Página 178 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (ii) No existe conflicto entre las Especificaciones Técnicas y la Ley Aplicable cuando las Especificaciones Técnicas exijan una mayor
 
@@ -9545,11 +9382,10 @@ consecuencias de la variación incorporada y, a
 
 falta de acuerdo
 
-dentro de los treinta (30) Días siguientes a que la misma sea ordenada Página 179 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
-Nacional de Infraestructura por la correspondiente Autoridad Estatal, cualquiera de las Partes podrá acudir al Amigable Componedor. 9 .13 Fuentes de Materiales (a) Correrán por cuenta y responsabilidad del Concesionario --directamente o a través de sus Contratistas o proveedores- la obtención y conservación, durante el término del Contrato, de las Licencias y Permisos, así como los costos del arrendamiento, servidumbres, o adquisición de predios, Construcción, Mejoramiento y conservación de las vías de acceso a las
+Nacional de Infraestructura por la correspondiente Autoridad Estatal, cualquiera de las Partes podrá acudir al Amigable Componedor. 9 .13 Fpuentes de Materiales (a) Correrán por cuenta y responsabilidad del Concesionario --directamente o a través de sus Contratistas o proveedores- la obtención y conservación, durante el término del Contrato, de las Licencias y Permisos, así como los costos del arrendamiento, servidumbres, o adquisición de predios, Construcción, Mejoramiento y conservación de las vías de acceso a las
 
-fuentes de materiales yo depósitos de residuos, y demás gastos necesarios para su realización y obtención (incluyendo, sin limitación, los impuestos, peajes o
+fpuentes de materiales yo depósitos de residuos, y demás gastos necesarios para su realización y obtención (incluyendo, sin limitación, los impuestos, peajes o
 
 cobros de salida de playa, etc.). Todo lo anterior, de conformidad con lo establecido en el presente Contrato y sus Apéndices. (b) Por otra parte, correrán por cuenta y responsabilidad del Concesionario el
 
@@ -9557,7 +9393,7 @@ pago de cualesquiera
 
 costos de explotación de las
 
-fuentes de materiales, las tasas por
+fpuentes de materiales, las tasas por
 
 uso de agua, inversiones forzosas, los
 
@@ -9607,7 +9443,6 @@ Actividades de Gestión Social ejecutadas y su avance (xi)
 
 Actividades de Gestión Ambiental y su avance. (xii)
 
-Actividades de Gestión Predial y su avance (xiii) Interferencia con Redes y su avance (xiv) Observaciones del Interventor. Página 180 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xv) Otras eventualidades en el
 
@@ -9647,7 +9482,6 @@ Plazo de Cura otorgado para subsanar el incumplimiento por la no terminación de
 
 Plazo de Cura del que trata esta Sección 9. l 5(a)(iii) podrá otorgarse hasta por la
 
-totalidad de dicho plazo.remanente, Página 181 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (3) Si el
 
@@ -9687,7 +9521,6 @@ Plazo de Cura, sin que se haya subsanado el incumplimiento, la ANI podrá dar ap
 
 dentro de los quince (15) Días Hábiles siguientes a la Notificación que envíe el Concesionario. (viii) Si el Concesionario no está de acuerdo con la segunda revisión, lo indicará a la ANI
 
-dentro de los dos (2) Días siguientes, vencidos los cuales podrá solicitar la intervención del Amigable Componedor. Página 182 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (ix) Se procederá a suscribir el
 
@@ -9715,7 +9548,7 @@ Acta de Terminación de Unidad Funcional, de conformidad con la Sección 9.15(a)
 
 totalidad de la Retribución, después de aplicado el Índice de Cumplimiento, calculado de conformidad como lo establece el Apéndice Técnico 4, hasta tanto dichas obligaciones se cumplan. Adicionalmente, de ser el caso, se causarán las Multas que correspondan por el incumplimiento en las Especificaciones Técnicas, salvo por las obligaciones contenidas en los Apéndices Técnicos 5, 6, 7 y 8. Las controversias que
 
-surjan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor. Se
+surPlan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor. Se
 
 excluye de esta Sección la obligación de acreditar la
 
@@ -9741,7 +9574,6 @@ Funcional de conformidad con la Sección 9.15(a)(ix)(2) anterior o (2) el
 
 Acta de Terminación
 
-Parcial de Unidad Funcional, el Concesionario no ha cumplido a cabalidad con las obligaciones contenidas en los Apéndices Técnicos 5, 6 y 8, se causarán las Multas que correspondan por su Página 183 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura incumplimiento, salvo que las obligaciones contenidas en dichos Apéndices no sean exigibles para el
 
@@ -9801,7 +9633,6 @@ Funcionales de Vía Férrea, haya sido otorgado por la totalidad del veinte por 
 
 Plan de Obras, el
 
-Plazo de Cura del que trata la presente Sección 9 .15 (b)(iii) podrá ser hasta por un término de sesenta (60) Días. Página 184 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) Si el
 
@@ -9861,7 +9692,6 @@ cumplimiento de los ajustes o
 
 correcciones de las Especificaciones Técnicas yo estándares de calidad señalados en el Contrato, se impondrán Multas al Concesionario, en los términos señalados en el Contrato, hasta que el Concesionario corrija o ajuste las Intervenciones a satisfacción del Interventor. Cuando transcurra el término señalado contado desde el vencimiento del
 
-Plazo de Página 185 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Cura, sin que se haya subsanado el incumplimiento, la ANI podrá dar aplicación de las Multas previstas en el Contrato. Durante este plazo el Interventor y la ANI deberán estar disponibles para hacer las verificaciones
 
@@ -9891,7 +9721,7 @@ restante de la retribución por la respectiva Unidad
 
 Funcional de Vía Férrea se pagará una vez se valide que el Concesionario ha cumplido a cabalidad con las obligaciones pendientes, salvo por lo previsto en los Apéndices Técnicos 5, 6, 7 y 8. Adicionalmente, de ser el caso, se causarán las Multas que correspondan por el incumplimiento en las Especificaciones Técnicas, salvo por las obligaciones contenidas en los Apéndices Técnicos 5, 6, 7 y 8. Las controversias que
 
-surjan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor. (x) Para
+surPlan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor. (x) Para
 
 efectos de la verificación de las Intervenciones en las Unidades
 
@@ -9923,7 +9753,6 @@ Acta de Terminación de Unidad Funcional o del
 
 Acta de Terminación de Unidad
 
-Funcional de Vía Férrea, el Interventor o la ANI advierten que cualquier obra o Página 186 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura actividad ejecutada no cumplió con
 
@@ -10001,7 +9830,6 @@ Respecto de las instituciones educativas (IE) Santo Domingo y San José Primaver
 
 Permiso de carácter ambiental que se requiera para estos efectos. (ii) Cumplir con las obligaciones
 
-derivadas de las Licencias y Permisos expedidos para la construcción de las nuevas IE, incluyendo cualquier Licencia y Permiso Página 187 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura de carácter ambiental, debiendo cumplir, entre otras obligaciones, los
 
@@ -10053,7 +9881,6 @@ necesidades de mobiliario presentadas por los
 
 rectores de las IE, el cual puede ser
 
-ajustado de conformidad con lo establecido en el Convenio Interadministrativo CI-007-2023. Página 188 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (ix) Realizar la Gestión Social y Ambiental y la Gestión Predial que se requiera para dar cumplimiento al objeto del Convenio lnteradministrativo CI-007-2023 y a la normativa vigente. Los predios que se adquieran para la construcción de las nuevas IE se deben adquirir a
 
@@ -10103,7 +9930,6 @@ cumplimiento de lo dispuesto en los Apéndices Técnicos 2, 3, 4 y 6. Esto inclu
 
 cumplimiento de los
 
-Niveles de Servicio aplicables al mismo. Página 189 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (viii) Entrega al
 
@@ -10161,7 +9987,6 @@ favor de la Gobernación de Santander, en los términos descritos en el Apéndic
 
 dentro de los quince (15) Días siguientes al periodo
 
-objeto de reporte, los Página 190 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Formatos ANI GCSP-F-0001 Informe mantenimiento
 
@@ -10223,7 +10048,6 @@ reconocimiento de compensaciones económicas cuando a ello haya lugar. (iii) La 
 
 Plan de Compensaciones Socioeconómicas de los Predios Requeridos, en los términos de la Sección 10.4 y el Apéndice Técnico 7, incluyendo el
 
-Plan de Reasentamientos. Página 192 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Los riesgos asociados a esta obligación serán
 
@@ -10285,7 +10109,6 @@ Acta de Terminación de la Unidad Funcional o del
 
 Acta de Terminación
 
-Parcial de Unidad Funcional, según corresponda, el Concesionario no Página 193 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura acredita la
 
@@ -10337,7 +10160,6 @@ una de las Unidades Funcionales del Proyecto que requieren adquisición de Predi
 
 Contador de los Semestres Calendarios. Inicia en el Semestre Calendario correspondiente a la
 
-Fecha de Inicio del Contrato Página 194 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Nota 1: En el evento en que el
 
@@ -10387,7 +10209,6 @@ totalidad de los Predios Requeridos para la Unidad Funcional, se aplicará una D
 
 Especial de la respectiva Unidad Funcional hasta doce (12) Meses, que se calculará así: DICPk (PRequeridos - Padquírídosf - PEl - PEZ - PE3f) 2 SMMLV Donde, DICPf Deducción por el Índice de Cumplimiento Predial aplicable a la Retribución de la Unidad Funcional k medido para el Semestre Calendario í correspondiente en el
 
-periodo de cálculo, expresado en pesos corrientes. Pkequerídosf Número de Predios Requeridos en dicha Unidad Funcional k hasta el Semestre Calendario i, excluyendo los Predios que hayan sido Página 195 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura afectados por los Eventos
 
@@ -10451,7 +10272,6 @@ fecha de ejecutoria de la providencia por la cual se decreta el desistimiento t�
 
 total de Meses resultante se multiplicará por dos (2) salarios mínimos mensuales legales vigentes (SMMLV). El valor que
 
-resulte de lo anterior será objeto de Página 196 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Deducción de la Retribución de la respectiva Unidad Funcional en el Mes inmediatamente siguiente al Mes en el que la providencia por la cual se decretó el desistimiento tácito ha quedado en firme. (viii) Adicionalmente, en el evento en que los Meses transcurridos desde la solicitud realizada por el Concesionario a la ANI para la emisión de la resolución de expropiación del Predio hasta la
 
@@ -10489,11 +10309,10 @@ de de Predio(s) Requerido(s), Solicitud de Cesión la Retribución o o Adjudicac
 
 caso de que la Unidad Funcional 1 tenga treinta (30) o menos Predios en las condiciones previstas en la Sección 10.3G)(ii) anterior, se aplicará la siguiente tabla: Predios sin Oferta(s) Formal(es) de
 
-Compra de Predio(s) Requerído(s), Solicitud de Cesión o Adjudicación de Predios en la UF Página 197 de 332 Porcentaje de Retención de la Retribución o Compensación Especial UF
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
-Nacional de Infraestructura Hasta el 60 Su erior al 60 6 10 (m) En
+Nacional de Infraestructura Hasta el 60 superior al 60 6 10 (m) En
 
 caso de que la Unidad Funcional tenga más de treinta (30) Predios en las condiciones previstas en la Sección 10.3G)(ii) anterior, se aplicará la siguiente tabla: de
 
@@ -10525,7 +10344,6 @@ dentro de los diez (10) Días siguientes a la fecha en la que la Interventoría 
 
 Compra de Predios y las
 
-solicitudes de Cesión de Predios o de Adjudicación de Predios o (2) adquisición, cesión o adjudicación de los Predios Requeridos, según el caso, sin incluir rendimientos financieros, en la proporción de avance del porcentaje () de Predios Faltantes en la Unidad Funcional. Una vez se demuestre que no hay porcentaje () Página 198 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura pendiente en los eventos (1) o (2) anteriores, la
 
@@ -10593,7 +10411,6 @@ Plan de Compensaciones Socioeconómícas y demás compensaciones definidas en el
 
 propietarios de los Predios, previa instrucción del Concesionario. (b) Una vez realizada y verificada la adquisición del cien por ciento (100) de los Predios el Proyecto y ejecutado en su totalidad el
 
-Plan de Compensaciones Socioeconómicas, Página 199 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura el
 
@@ -10643,7 +10460,6 @@ compromisos de pagos u ofertas (según aplique) a los
 
 propietarios de los Predios y de las Compensaciones Socioeconómicas en aplicación del
 
-Plan de Compensaciones Socioeconómicas, de tal manera que el cálculo del monto a aportar descuente dichos recursos disponibles. (f) Los recursos que fueron aportados bajo la aplicación de la Sección 10.4(e) anterior serán pagados por la ANI, conforme al siguiente procedimiento: Página 200 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i) El Concesionario deberá presentar, para aprobación de la Interventoría y de la ANI, una
 
@@ -10695,7 +10511,6 @@ cuenta de cobro serán resueltas por el Amigable Componedor a
 
 solicitud de cualquiera de las Partes. (g) El Concesionario deberá informar a la ANI y al Interventor inmediatamente se haya ejecutado el noventa por ciento (90) del Valor
 
-Estimado de Predios y Compensaciones Socioeconómicas. Lo anterior sin perjuicio que, como mínimo trimestralmente, el Concesionario presente a la Interventoria y a la ANI los informes Página 201 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura establecidos en la Sección 3.1 l(ij) del presente Contrato acerca del
 
@@ -10763,7 +10578,6 @@ solicitud de cesión de los predios, sin que la entidad pública competente hubi
 
 real de dominio a
 
-favor de laANI. Página 202 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Los términos señalados para la activación de los
 
@@ -10773,7 +10587,6 @@ requerimientos de las autoridades competentes. (c) Si la Fuerza Mayor Predial ge
 
 necesidad de adquirir Predios adicionales, dicha adquisición y el
 
-riesgo de los costos asociados a la misma se manejará de conformidad con lo previsto en la Sección 10.4 del presente Contrato. (d) Cuando ocurra una Fuerza Mayor Predial se aplicará lo previsto en la Sección 20.3 del presente Contrato. Página 203 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -10825,7 +10638,6 @@ remanente de los
 
 recursos de la Subcuenta Compensaciones Socioambientales, de haberlo, será distribuido entre el Concesionario y la ANI en una proporción cuarenta y cuatro (44) cincuenta y seis ( 56) respectivamente. Los remanentes a
 
-favor de la ANI serán transferidos a la Subcuenta Excedentes ANI. Página 204 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iii) Si el Valor
 
@@ -10877,7 +10689,6 @@ valor de los compromisos
 
 derivados de los acuerdos correspondiere a una cuantía superior al veinte por ciento (20) y hasta el cien por ciento (100) inclusive, del Valor
 
-Estimado de Nuevas Consultas Previas, el Concesionario Página 205 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura aportará el treinta por ciento (30) y la ANI el setenta por ciento (70), con relación a la fracción que exceda el veinte por ciento (20). Esta obligación se generará de manera simultánea para ambas Partes y conforme a las necesidades del Proyecto. (iii) Si el
 
@@ -10931,7 +10742,6 @@ cargo de la ANl. (h) Fuerza Mayor Ambiental Habrá Fuerza Mayor Ambiental si ocu
 
 cualquiera de los siguientes eventos: (i) Si transcurriere más del cincuenta por ciento (50) adicional del tiempo máximo establecido por la Ley Aplicable para la expedición o modificación de la Licencia Ambiental o para la modificación del
 
-Plan de Manejo Ambiental (en los términos Página 206 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura del artículo 2.2.2.3.8.9 del Decreto 1076 de 2015 o de la norma que lo modifique, sustituya o derogue), sin que la Autoridad Ambiental competente expida el acto administrativo que otorgue o niegue la solicitud. (ii) Si transcurriere más del cincuenta por ciento (50) adicional del tiempo máximo establecido por la Ley Aplicable para la expedición o modificación de permisos, concesiones y autorizaciones ambientales - PCAA -. Para los
 
@@ -10965,7 +10775,6 @@ Proceso de Selección del Proyecto y transcurrieren más de ciento ochenta (180)
 
 procedimiento de consulta previa. , (ii) Cuando con posterioridad a la expedición o modificación de la Licencia Ambiental, fuese reconocida por Autoridad Estatal competente una nueva comunidad étnica yo afrodescendiente, siempre y cuando la Autoridad Estatal competente señale que por el
 
-desarrollo de la consulta previa no se puede Página 207 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura continuar o se deban
 
@@ -11013,7 +10822,6 @@ perjuicio de que a
 
 solicitud de una de las Partes el Amigable Componedor realice el acompañamiento a la revisión de costos adicionales. (k) Si con posterioridad a la obtención de la Licencia Ambiental, la Autoridad Ambiental exige la ejecución de obras yo actividades no previstas en el Apéndice Técnico l o la Licencia Ambiental, se aplicará lo previsto en la Sección 11.1 (h) anterior, siempre y cuando el Concesionario demuestre su debida diligencia en la implementación de las obligaciones y
 
-medidas de manejo a su cargo. Página 208 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) Fuerza Mayor por el Hallazgo
 
@@ -11069,7 +10877,6 @@ titulares de dichas Redes, el Concesionario deberá realizar sondeos y adoptar o
 
 estado de latécnica, le permitan identificar la real
 
-existencia de Redes que puedan Página 209 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura ser afectadas por las Intervenciones o que puedan tener incidencia en la ejecución del Proyecto. (b) Al
 
@@ -11117,7 +10924,6 @@ totalidad de los montos a
 
 cargo de la ANI, de conformidad con lo previsto en las Secciones l 1.2(e)(ii) y l l.2(e)(iii) anteriores, serán aportados por el Concesionario y pagados por la ANI, para lo cual se aplicará mutatis mutandi el mismo procedimiento previsto en la Sección 10.4(f) del presente Contrato. (g) El Concesionario deberá informar a la ANI y al Interventor inmediatamente se haya ejecutado el noventa por ciento (90) del Valor
 
-Estimado de Redes. Lo anterior sin Página 210 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura perjuicio que, como mmuno trimestralmente, el Concesionario presente a la Interventoría y a la ANI los informes establecidos en las Sección 3 .11 (ii) del presente Contrato acerca del
 
@@ -11159,7 +10965,6 @@ constitutivo de Fuerza Mayor por Redes, siempre que la Interventorfa certifique 
 
 necesidad de incurrir en costos adicionales para el traslado yo intervención de las Redes, el
 
-riesgo de dichos costos, se manejará de conformidad con lo previsto en el CAPÍTULO XIX del presente Contrato. (V) Cualquier conflicto que surja con ocasión de la aplicación de la presente Sección podrá ser llevado al Amigable Componedor. Página 211 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -11185,7 +10990,6 @@ Disponible de la Vía Férrea, en los términos y de acuerdo con lo establecido 
 
 Disponible de la Vía Férrea debe ser
 
-publicada de forma periódica en la página web del Concesionario y de la ANI, tal como se estipula en el Apéndice Técnico 10. (c) El Concesionario no podrá disminuir la Capacidad
 
 Ferroviaria de la Vía Férrea durante la vigencia del Contrato.
 
@@ -11205,7 +11009,6 @@ Rodante de Terceros Operadores y la Infraestructura Férrea la Vía Férrea.
 
 sean de su competencia y prestar toda la colaboración requerida a la entidad competente durante el
 
-proceso de Asignación de Surcos a los Terceros Interesados, incluyendo, pero sin limitarse, a permitir las pruebas del Material Rodante Página 212 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura en la Vía Férrea, en los términos y de acuerdo con lo establecido en la Ley Aplicable, particularmente en la Resolución de Surcos. (b) El Concesionario estará obligado a acatar las
 
@@ -11249,7 +11052,6 @@ Acuerdo de Operación deberá establecer las condiciones que regularán la Circu
 
 tramo de la Infraestructura Férrea en la que el Tercero Operador debe operar. (ii) El plazo durante el cual el Tercero Operador operará en la Vía Férrea. (iii) Expresar acuerdo por parte del Tercero Operador a dar cumplimiento a la Ley Aplicable, específicamente a la normatividad ferroviaria emitidas por el
 
-Ministerio de Transporte, o cualquier otra Autoridad Estatal. Página 213 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (iv) El
 
@@ -11289,7 +11091,6 @@ control de tráfico sobre toda la Vía Férrea, con el
 
 objetivo de garantizar la seguridad en la Operación en los términos exigidos en el Apéndice Técnico 2. (e) El Concesionario deberá mantener y reponer el Equipamiento Fijo, el software y el hardware, que hayan sido aportados por el Concesionario, para lo cual se deberá cumplir con los términos señalados en el Apéndice Técnico 2. En ningún caso el
 
-cumplimiento de esta obligación estará sujeta a la previa entrega o recuperación de los bienes que deban ser sustituidos. Página 214 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura 12. 7 Tarifa por
 
@@ -11355,7 +11156,6 @@ Acuerdo de Operación que requerirá de la prestación de Servicios Logísticos
 
 dentro de la Infraestructura Logística, el Concesionario no podrá negarse a prestar estos servicios salvo que la
 
-capacidad de la Infraestructura Logística esté copada. Página 215 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Para este efecto, cuando el Concesionario proyecte que la Capacidad
 
@@ -11391,7 +11191,6 @@ bancaria de la Subcuenta Servicios Logísticos. (b) El
 
 pago de la Tarifa por Prestación de Servicios Logísticos le dará al Tercero Operador el derecho a acceder a la prestación de Servicios Logísticos en la Infraestructura Logística del Corredor del Proyecto durante la vigencia del
 
-Acuerdo de Operación o sus prórrogas o extensiones. Página 216 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Para el
 
@@ -11411,7 +11210,6 @@ total de las sumas a cargo del Tercero Operador. En
 
 caso de que posteriormente el Tercero Operador realice el pago pendiente, estos recursos se transferirán a la Cuenta Proyecto, sin ningún
 
-tipo de indexación ni intereses. Página 217 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -11461,7 +11259,6 @@ Ferroviario de Carga en otros corredores férreos nacionales, departamentales yo
 
 ANI de las condiciones financieras bajo las cuales se prestará el servicio. Los ingresos percibidos por esta actividad no harán
 
-parte de la Retribución Mensual del Concesionario. Página 218 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Los cambios en las condiciones para el acceso a corredores férreos
 
@@ -11503,7 +11300,6 @@ Concesionario de su obligación de estar disponible para la Prestación del Serv
 
 Ferroviario de Carga en los términos de la presente Sección 13.3. (k) Si el Concesionario decide reemplazar el Material Rodante del Proyecto con Material Rodante nuevo o reacondicionado en los términos del literal 13.3(j) anterior, no deberá realizar más
 
-actividades de Puesta a Punto sobre el Material Rodante que será reemplazado. Sin embargo, deberá custodiar el Material Rodante a ser reemplazado hasta que la ANI le indique el lugar para trasladarlo. Página 219 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (1) En todo caso, en
 
@@ -11561,7 +11357,6 @@ Fecha de Inicio, según corresponda, el Interventor verificará si en el afio an
 
 Uso de la Infraestructura Férrea efectuado por el Concesionario es menor a la multiplicación de la Tarifa por
 
-Uso de la Infraestructura Férrea por las toneladaskilómetro descritas en la tabla siguiente: Página 220 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Take or Pay Ton Ton-Km Año 1 75.600 39.387.600 Año2 105.840 55.142.640 Año3 202.500 105.502.500 Año4 351.000 182.871.000 Año5 351.000 182.871.000 Año 6 351.000 182.871.000 Año7 351.000 182.871.000 Año8 351.000 182.871.000 Año 9 351.000 182.871.000 Año 10 351.000 182.871.000 Se aclara que los años de la tabla anterior corresponde a anualidades contados desde la
 
@@ -11579,7 +11374,6 @@ dentro de los cinco (5) Días siguientes al vencimiento del plazo establecido en
 
 Uso de la Infraestructura Férrea fijada por la autoridad competente sea un máximo o un rango, la tarifa que deberá pagar el Concesionario mensualmente según lo previsto en la Sección 6.2(h)(v) será la máxima o el valor superior del rango según aplique. Para efectos del pago del Take or Pay, si en el afio
 
-objeto de cálculo no existen Terceros Operadores en el Proyecto, se aplicará la máxima o el valor superior del rango según aplique. Página 221 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -11643,7 +11437,6 @@ antes de que la ANI le haga
 
 entrega de los formatos correspondientes serán presentados con el formato que el Concesionario adopte para estos efectos. Implementar las acciones establecidas en los Apéndices Técnicos 6 y 8, así como las medidas ambientales y sociales definidas en el
 
-Plan de Manejo Ambiental y Social, la Página 222 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Licencia Ambiental y demás trámites, Licencias y Permisos, para la
 
@@ -11693,7 +11486,6 @@ cumplimiento de Indicadores para las
 
 actividades de Mantenimiento que se efectúen en los términos del Apéndice Técnico 4. La ANI podrá hacer directamente las verificaciones que considere necesarias sobre el
 
-cumplimiento de estos Indicadores. Página 223 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (b) Efectuar los
 
@@ -11753,7 +11545,6 @@ necesidad de reponer el equipo o sistema respectivo, siempre que tal reposición
 
 cumplimiento de las
 
-obligaciones de resultado a cargo del Concesionario. Página 224 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (f) Por estas
 
@@ -11827,7 +11618,6 @@ arreglo de daños, el Concesionario no tendrá derecho al
 
 reconocimiento de valor alguno, salvo en los casos expresamente regulados en el presente Contrato, ni aplicará el riesgo por
 
-cambio de especificaciones técnicas. Página 225 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -11877,7 +11667,6 @@ Inventario de Activos de la Concesión (b) Se entenderá que la ANI se hará pro
 
 momento de su ejecución incluyendo, pero sin limitarse a, las Intervenciones, el Material Rodante del Proyecto y la
 
-totalidad de los bienes muebles o inmuebles por destinación o adhesión que se encuentren en las mismas. El Concesionario conservará Página 226 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura la mera
 
@@ -11931,7 +11720,6 @@ equipo de acuerdo con el procedimiento contable para el reconocimiento y revelac
 
 entrega de los activos
 
-intangibles de acuerdo con el procedimiento contable para el reconocimiento y revelación de los activos intangibles, contemplado en el Régimen de Contabilidad Pública y en la doctrina contable pública. Página 227 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (k) El Concesionario deberá hacer la entrega del Corredor del Proyecto. Dicha entrega se hará de acuerdo con lo establecido en la Resolución 602 del 13 de diciembre de 2018 la Contaduría
 
@@ -11973,7 +11761,6 @@ Acta de Reversión. De esos incumplimientos se dejará constancia en dicha Acta.
 
 que de acuerdo con este Contrato y la Ley Aplicable tengan los incumplimientos serán incluidas en el
 
-Acta de Liquidación del Contrato. Página 228 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -12005,7 +11792,6 @@ trate de incumplimientos leves, la Multa o Sanción deberá ser menor al treinta
 
 trate de incumplimientos graves, la Multa o Sanción deberá ser mayor o igual al treinta y cinco por ciento (35) y menor o igual al setenta por ciento (70) de los SMLMV máximos establecidos en la Sección 16.8 para dicho incumplimiento. (3) Muy Graves: Si afectan la funcionalidad del Proyecto y además hay reincidencia. Cuando se
 
-trate de incumplimientos muy graves, la Multa o Sanción deberá ser mayor al setenta por ciento (70) de los SMLMV máximos establecidos en la Sección 16.8 para dicho incumplimiento. Página 229 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) En ningún caso la Multa podrá exceder del doble del valor del respectivo incumplimiento contractual que se sanciona. Por su parte, la Sanción no podrá exceder del valor del respectivo incumplimiento, siempre y cuando la obligación sea
 
@@ -12057,7 +11843,6 @@ Plazo de Cura, conforme a lo señalado en la Sección 16.2(a) anterior, no se im
 
 dentro de los Diez (10) Días siguientes a la firmeza del acto administrativo mediante el cual se imponen. (b) Vencido el
 
-plazo de diez (10) Días a que se refiere la Sección anterior, comenzarán a correr intereses moratorias a cargo del Concesionario en los términos de la Sección 4.12. Página 230 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Si las Multas y Sanciones se imponen durante la Etapa Preoperativa y el Concesionario no hace los pagos, los Descuentos se harán de los siguientes
 
@@ -12111,7 +11896,6 @@ monto de esta Cláusula Penal podrá ser deducido
 
 directamente de cualquier saldo adeudado al Concesionario. (c) La Cláusula Penal atenderá el
 
-principio de proporcionalidad de que trata el artículo 1596 del Código Civil. Página 231 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -12209,7 +11993,6 @@ efectos de esta Multa, entiéndase modificada la Sección 16.2(a) de este Contra
 
 Plazo de Cura para sanear el incumplimiento en la terminación de las Unidades
 
-Funcionales de Vía Férrea podrá ser hasta del veinte por Página 232 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura ciento (20) del plazo previsto en este Contrato para la terminación de la Unidad
 
@@ -12305,7 +12088,6 @@ es de treinta (30) Días. (i) Multa por incumplimiento en la
 
 entrega de los documentos sometidos al
 
-Procedimiento de Revisión General: Por no entregar los documentos que se indican a continuación en Página 233 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura los términos, tiempo y condiciones señalados en el Contrato, se aplicará una Multa equivalente
 
@@ -12373,7 +12155,6 @@ efectos de lo señalado en la Sección 16.2(c) de este Contrato, el término má
 
 Plazo de Cura
 
-es de cincuenta (50) Días. Página 234 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (m) Multa por incumplimiento en el
 
@@ -12485,7 +12266,6 @@ efectos de lo señalado en la Sección 16.2(c) de este Contrato, el término má
 
 Plazo de Cura
 
-es de veinte (20) Días. Página 235 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (s) Multa por no
 
@@ -12597,7 +12377,6 @@ susceptible de subsanar o superar y que, por tanto, no proceda la imposición de
 
 afecte de manera grave y directa la total ejecución del
 
-Contrato de Concesión, la ANI impondrá al Concesionario una Sanción de hasta mil (1.000) salarios mínimos mensuales legales Página 236 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura vigentes, teniendo en cuenta los
 
@@ -12605,7 +12384,6 @@ principios de razonabilidad y de
 
 proporcionalidad de las penas. (b) En estos casos, para dar inicio al respectivo procedimiento administrativo sancionatorio no será procedente el otorgamiento del
 
-Plazo de Cura previsto en este Contrato. Página 237 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -12651,7 +12429,6 @@ ocurrencia de la
 
 causal de caducidad, el Concesionario contará con un
 
-plazo de veinte (20) Días Hábiles para corregir el incumplimiento a satisfacción de la ANI o para entregar a la ANI el Plan Remedia!. Página 238 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) En el evento en que se presente el Plan Remedia! por parte del Concesionario, la ANI tendrá noventa (90) Días prorrogables por una sola vez por el término inicial, para pronunciarse sobre la
 
@@ -12679,7 +12456,6 @@ caso de que la ANI declare la caducidad del Contrato, mediante el respectivo act
 
 inventario de la obra realizada, los equipos y demás elementos dispuestos por el Concesionario, así como los demás aspectos que la ANI considere pertinentes. Esta acta estará suscrita por la ANI, por el Interventor y por un representante del Concesionario, si así lo quisiese. Si fuere del caso, una vez recibido o tomado el Proyecto, la ANI procederá a la liquidación del Contrato. (k) Una vez ejecutoriada la resolución de caducidad, la ANI hará efectivas las garantías a que hubiese lugar, las Multas y Sanciones
 
-pendientes de pago y la Cláusula Penal correspondiente. Página 239 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura 17 .2 Terminación Unilateral (a) La ANI podrá decretar la Terminación Anticipada unilateral del Contrato por las causales y en las condiciones previstas en el artículo 17 de la Ley 80 de 1993. La terminación unilateral podrá ser decretada por la ANI en
 
@@ -12701,7 +12477,6 @@ alguna de las estipulaciones del Contrato que puedan conducir a la paralización
 
 cumplimiento de los requisitos establecidos en la Ley Aplicable, podrá interpretar en acto administrativo debidamente motivado, las estipulaciones
 
-objeto de la diferencia. Página 240 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -12745,7 +12520,6 @@ extracontractual de la ANI
 
 derivada de las actuaciones, hechos u omisiones del Concesionario yo sus Contratistas, así como la
 
-cobertura de daños contra todo riesgo obras civiles requeridas en este Capítulo, sólo pueden ser cubiertas mediante póliza de seguro. (d) Las garantías y seguros deberán ser expedidas cumpliendo las condiciones y términos previstos en el presente Contrato. Página 241 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) De
 
@@ -12793,7 +12567,6 @@ mecanismo de cobertura y por lo tanto la ANI podrá imponer las Multas correspon
 
 caso de modificación del Contrato, el Concesionario se obliga a obtener una certificación de la compañía aseguradora o de la entidad
 
-emisora de la garantía yo seguros, en la que conste que dicha compañía conoce y acepta la modificación y la variación del estado del riesgo que la misma suponga, si ese es el caso. Si la modificación del presente Contrato implica la modificación de la garantía yo seguros, Página 242 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura el Concesionario deberá enviar a la ANI el
 
@@ -12841,7 +12614,6 @@ coberturas de la póliza, su límite valor asegurado o en general introducir alg
 
 condiciones de la misma cuyo efecto sea el
 
-incumplimiento de cualquiera de las condiciones mínimas que este Contrato establece para el efecto. Página 243 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (n) Las disposiciones expresamente referidas a las pólizas de seguros aplicarán mutatis mutandis a los demás
 
@@ -12879,7 +12651,6 @@ alguno de los requisitos exigidos en el Contrato o en las normas que regulen la 
 
 procedimiento de aprobación de aquellas garantías o seguros que, de acuerdo con el presente
 
-Contrato de Concesión, deban ser entregadas por el Concesionario con posterioridad al plazo establecido en la Sección 18.4(a) anterior. Página 244 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (h) La ANI devolverá al Concesionario la Garantía de
 
@@ -12925,7 +12696,6 @@ fecha de suscripción de la modificación del Contrato. (f) Lo anterior, sin
 
 perjuicio de las Multas y demás consecuencias que este Contrato establece respecto del incumplimiento del
 
-Concesionario de presentar las garantías y seguros a la ANI en los términos exigidos por el mismo, y de contar con garantías y seguros vigentes durante toda la ejecución contractual. Página 245 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (g) Para la revisión de las prórrogas de las garantías y seguros se seguirá mutatis mutandis lo señalado en la Sección 18.4 anterior. (h) Sin
 
@@ -12993,7 +12763,6 @@ Fase de la que trata la Sección 3.8(a)(i)(3) este Contrato y seis (6) meses má
 
 efectiva de esta Etapa sea mayor a la duración estimada, el Concesionario deberá prorrogar el
 
-plazo de este amparo por dicho plazo efectivo. Página 246 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (3)
 
@@ -13075,7 +12844,6 @@ efectiva de esta Etapa sea mayor a la duración estimada, el Concesionario deber
 
 vigencia de este amparo, de tal manera que la misma se extienda hasta el
 
-vencimiento de tres (3) Página 247 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura años adicionales contados a
 
@@ -13147,7 +12915,6 @@ Acta de Terminación de Unidad Funcional. (ii) El
 
 valor de este amparo será el que se establece en la siguiente tabla para cada Unidad Funcional, expresado en Pesos del
 
-Mes de Referencia. Unidad Funcional UFl Página 248 de 332 Valor del amnaro Cuarenta y cinco mil cuatrocientos sesenta y seis millones
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
@@ -13207,7 +12974,6 @@ seguro de responsabilidad extracontractual, conforme lo indicado en el artículo
 
 amparos de contaminación, transporte y
 
-almacenamiento de materias peligrosas, que no podrán ser inferiores por evento al cincuenta por ciento (50) del valor asegurado Página 249 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura mínimo, y
 
@@ -13271,7 +13037,6 @@ cobertura de la Responsabilidad civil por contaminación súbita, accidental e i
 
 gastos de limpieza. (7) Transporte y
 
-almacenamiento de materias peligrosas. (8) Responsabilidad que sea causada por contratistas y subcontratistas. Página 250 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (9) Responsabilidad civil cruzada entre asegurados y entre Contratistas y que se genere el deber
 
@@ -13305,7 +13070,6 @@ tipo de sublímites. (b) Este seguro estará vigente durante toda la duración d
 
 inicial de un (1) año y prorrogarla o renovarla por períodos
 
-sucesivos de un (1) año. Esta prórroga deberá hacerse con una anticipación no menor a los treinta (30) Días Hábiles anteriores a la fecha establecida para su expiración. (d) A esta póliza le serán aplicables las previsiones contenidas en el artículo 2.2.1.2.3.1.8 y siguientes del Decreto 1082 de 2015. Página 251 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -13357,7 +13121,6 @@ calidad de beneficiarios para que así sea realizado dicho depósito. (vi) Las
 
 coberturas de lucro cesante para la Sección I y ALOP para la Sección II y la Sección III maquinaria y equipos, de la póliza de
 
-seguro de obras civiles ANI, son opcionales. Las demás condiciones son mínimas obligatorias y admiten mejoras en sus condiciones, sin incumplir lo reglado en la Sección l 8.3(m) donde se Página 252 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura establece que no se podrá, mediante condición particular, reducir o modificar el alcance y las
 
@@ -13419,7 +13182,6 @@ cumplimiento de sus obligaciones.
 
 #### 18.11 Otros El Concesionario deberá obtener y mantener vigentes todos aquellos seguros, pólizas yo depósitos que se requieran bajo la Ley Aplicable para la ejecución de todas sus obligaciones bajo este Contrato, incluyendo pero sin limitación, las actividades aduaneras, seguros
 
-contractuales de transporte de mercancía, de ser el caso debiendo ser entregados a las Autoridades Estatales en cada caso para su aprobación. Página 253 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chíriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -13437,7 +13199,6 @@ anual de variación del IPC, se ajustará el
 
 valor de la
 
-totalidad de las garantías, para lo cual se aplicará la fórmula señalada en la Sección 4.13(a) de este Contrato. Página 254 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -13453,7 +13214,7 @@ alcance de las obligaciones derivadas del presente Contrato, así como que habí
 
 capacidad de asumirlos y administrarlos. El Concesionario, por consiguiente, reconoce que la Retribución incluye todos los costos y gastos, incluyendo el capital, costos financieros y de financiación, gastos de operación y mantenimiento, costos de administración, impuestos, tasas, contribuciones, imprevistos y utilidades del Concesionario, que
 
-surjan de la ejecución y liquidación del presente Contrato, del
+surPlan de la ejecución y liquidación del presente Contrato, del
 
 alcance de sus obligaciones como Concesionario, considerando las condiciones operacionales, sociales, políticas, económicas, hidrológicas, prediales, catastrales, topográficas, geotécnicas, geológicas, meteorológicas, ambientales, geográficas, de acceso y las
 
@@ -13471,7 +13232,6 @@ obligaciones de resultado del mismo es a cuenta y riesgo del Concesionario. (d) 
 
 alguno de aquellos que por la
 
-naturaleza de las obligaciones del Concesionario esté asignado a éste; Página 255 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) También procederá el restablecimiento del equilibrio económico del contrato por el
 
@@ -13529,7 +13289,6 @@ desfavorables de la variación en los costos por plazos adicionales que se requi
 
 disponibilidad de insumos, materiales o equipos necesarios para llevar a cabo las
 
-actividades de Construcción, Página 256 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura así como el costo y plazos para el
 
@@ -13537,7 +13296,7 @@ suministro de los elementos que se requieran para adelantar oportunamente las
 
 actividades de Construcción, y aquellos elementos que se requieran como
 
-fuentes de materiales o para la disposición de residuos producidos en la ejecución del Proyecto o que no sean utilizados por el Proyecto. (ix) Los efectos favorables yo desfavorables relacionados con la gestión y costos asociados a la obtención y
+fpuentes de materiales o para la disposición de residuos producidos en la ejecución del Proyecto o que no sean utilizados por el Proyecto. (ix) Los efectos favorables yo desfavorables relacionados con la gestión y costos asociados a la obtención y
 
 cumplimiento de licencias, permisos, planes o autorizaciones para llevar a cabo las
 
@@ -13585,7 +13344,6 @@ parte de los fabricantes yo vendedores yo proveedores y las afectaciones que est
 
 entregas de equipos generen en los
 
-tiempos de operación, . explotación comercial y otras etapas o fases del Proyecto. Página 257 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xvii)Los efectos favorables yo desfavorables sobre los costos y plazos para la provisión, instalación y puesta en
 
@@ -13613,7 +13371,7 @@ derivados de la vigilanciay
 
 tenencia de los Predios Requeridos, una vez se realice su Gestión Predial, (xxii)La gestión, compra y sobrecostos asociados a los predios que adquiera el Concesionario y que no sean
 
-objeto de Reversión a la entidad pública, como los utilizados como fuentes yo disposición de materiales. (xxiii)Los efectos favorables yo desfavorables por
+objeto de Reversión a la entidad pública, como los utilizados como fpuentes yo disposición de materiales. (xxiii)Los efectos favorables yo desfavorables por
 
 aumento de costos y tiempos asociados a la gestión ambiental para la obtención, modificación o cesión de las Licencias Ambientales, Planes de Manejo Ambiental, demás permisos, autorizaciones, planes o
 
@@ -13641,7 +13399,6 @@ derivados de las demoras y los
 
 costos de las socializaciones con la comunidad yo
 
-grupos de interés, y las demoras y los Página 258 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura costos en las gestiones
 
@@ -13713,7 +13470,6 @@ precios de los insumos, bien sea en moneda local o extranjera. (xxxv) Los efecto
 
 derivados de variaciones en los costos por plazos adicionales que se requieren para las
 
-actividades de Operación y Mantenimiento, así como sus efectos sobre la Retribución entre otros aspectos del Contrato. Página 259 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xxxvi) Los efectos favorables yo desfavorables
 
@@ -13723,7 +13479,7 @@ disponibilidad de insumos y
 
 suministro de equipos, así como
 
-disponibilidad de fuentes de materiales yo disposición de
+disponibilidad de fpuentes de materiales yo disposición de
 
 materiales de residuo para llevar a cabo las
 
@@ -13775,7 +13531,6 @@ Interna de Retorno (TIR), así como la obtención de las utilidades o el
 
 sufrimiento de pérdidas. (xlv) Los efectos desfavorables
 
-derivados de la no obtención del financiamiento para la ejecución del Proyecto. Página 260 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (xlvi)Los efectos favorables yo desfavorables
 
@@ -13787,7 +13542,7 @@ efectivos de la consecución de la financiación necesaria para el Proyecto en t
 
 derivados de la alteración de la composición de las
 
-fuentes de financiación del Concesionario. (xlviii) Los efectos favorables yo desfavorables
+fpuentes de financiación del Concesionario. (xlviii) Los efectos favorables yo desfavorables
 
 derivados de la variación del
 
@@ -13843,7 +13598,6 @@ Concesionario de acuerdo con lo establecido en la Sección 25.1 del Contrato. (l
 
 derivados de los cambios en la estructura tarifaria o aplicación de tarifas diferenciales o
 
-imposibilidad de reajuste en la Página 261 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Tarifa por
 
@@ -13915,7 +13669,6 @@ derivados de los cambios en las Especificaciones Técnicas
 
 derivados de cambios regulatorios que sean solicitados por la ANI, por
 
-fallos de orden judicial y por causas no imputables al Concesionario. Página 262 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (viii) Efectos favorables o desfavorables
 
@@ -13979,7 +13732,6 @@ Contrato de lo que corresponda al porcentaje en que la ANI asume dicho riesgo.
 
 #### 19.4 Atención de los Riesgos Asignados a la ANI (a) Siempre que, de acuerdo con lo previsto en este Contrato, la configuración de un riesgo asumido por la ANI genere una obligación de
 
-pago de dinero a favor del Concesionario, ésta deberá utilizar las fuentes previstas en este Contrato para atender dicha obligación, así: Página 263 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i) En el caso en que, de acuerdo con lo previsto en la Ley Aplicable, dicha obligación corresponda a una obligación contingente
 
@@ -14003,11 +13755,10 @@ tratara de la atención de una obligación contingente sujeta a aportes al
 
 Fondo de Contingencias, atenderá los pagos con cargo a la
 
-Subcuenta de Excedentes ANI. (b) En cualquier caso, si las fuentes anteriormente señaladas son insuficientes para atender el pago respectivo -sea una obligación contingente
+Subcuenta de Excedentes ANI. (b) En cualquier caso, si las fpuentes anteriormente señaladas son insuficientes para atender el pago respectivo -sea una obligación contingente
 
 susceptible de ser pagada a través del
 
-Fondo de Contingencias o no-, la ANI deberá incluir en su presupuesto los recursos correspondientes, cumpliendo con los requisitos previstos en la Ley Aplicable. Para los montos pendientes aplicarán los plazos e intereses previstos en la Sección 4.12 de este Contrato. Página 264 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -14103,7 +13854,6 @@ proceder de manera inmediata con la revisión y modificación del alcance del Pr
 
 Eximente de Responsabilidad o la causa imputable a la ANI que se presente
 
-sea de tal magnitud e Página 265 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura impacto que
 
@@ -14179,7 +13929,6 @@ causado de haberse completado totalmente la Unidad Funcional, de acuerdo con las
 
 valor de la Compensación Especial para una Unidad Funcional para la cual se ha suscrito un
 
-Acta de Terminación Parcial será el que se señala a continuación: CEw VMSC A 85 ICE(oper)w - DICPtw Donde, Página 266 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chíriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -14217,7 +13966,6 @@ Parcial de Unidad Funcional respectiva.
 
 Indice de Cumplimiento de los Indicadores previstos para la
 
-Etaoa de Ooeración aplicables a la Unidad Funcional k Página 267 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura DICPfw h durante la Compensación Especial para el Semestre Calendario h anterior al Semestre Calendario w. Deducción por el
 
@@ -14275,7 +14023,6 @@ Acta de Terminación
 
 Parcial de Unidad Funcional. (f) El Concesionario deberá conservar y mantener la Unidad Funcional
 
-pendiente de terminación, para evitar su deterioro, de acuerdo con las características de las obras, equipos o actividades correspondientes a dicha Unidad Funcional. Las Partes definirán Página 268 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura de mutuo acuerdo (o en
 
@@ -14367,7 +14114,6 @@ ocurrencia de un Evento
 
 Eximente de Responsabilidad que afecte una Unidad Funcional o Unidad
 
-Funcional de Vía Férrea con posterioridad a la suscripción del Acta Página 269 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura de Terminación de Unidad Funcional, del
 
@@ -14437,7 +14183,6 @@ representante de los Prestamistas y al Interventor. (iv) El plazo para que la Pa
 
 respecto de la Notificación efectuada por la Parte Afectada será de treinta (30) Días contados desde el
 
-recibo de la Notificación. Página 270 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (v) El plazo para que el Interventor se pronuncie
 
@@ -14475,7 +14220,6 @@ tratado de una
 
 solicitud de información efectuada por el Interventor y ésta fuere retirada por la Parte Receptora, el Interventor deberá presentar su informe dentro del plazo previsto en la Sección 20.3(d)(v) de este Contrato. Si la solicitud
 
-proviniera de la Parte Página 271 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Receptora, el Interventor deberá presentar su informe
 
@@ -14537,7 +14281,6 @@ dentro de los treinta (30) Días siguientes a la
 
 fecha de suscripción del
 
-Acta de Reconocimiento de EER. Este Página 272 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura mismo plazo se otorgará para la modificación del
 
@@ -14595,7 +14338,6 @@ Dentro de los cinco (5) Días siguientes a la cesación de un Evento
 
 Eximente de Responsabilidad, la Parte Afectada enviará una Notificación a la otra Parte indicando: (1) El cese del Evento
 
-Eximente de Responsabilidad; Página 273 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (2) Su consecuente capacidad para reanudar el
 
@@ -14649,7 +14391,6 @@ circunstancias de Evento
 
 Eximente de Responsabilidad y éstas impidan la ejecución total del objeto contratado, la ejecución del Contrato se suspenderá. En este caso se extenderá el plazo para la ejecución de las obligaciones pendientes para el momento en el que ocurre dicho Evento
 
-Eximente de Responsabilidad, así como el término previsto en la Sección 3.8(a)(ii)(l), por un periodo igual al del Período Especial. (b) Esta suspensión y la consecuente extensión del plazo no se considerará como una prórroga para los efectos previstos en la Ley 1508 de 2012. Página 274 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Si los hechos
 
@@ -14721,7 +14462,6 @@ uso de los
 
 recursos de la Subcuenta Excedentes ANI para atender dicha obligación o como último recurso atenderá los pagos con cargo a su presupuesto (previo
 
-agotamiento de los requisitos previstos en la Ley Aplicable), dentro de los plazos y en las condiciones previstas en la Sección 4.12 de este Contrato. Página 275 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Tales compensaciones, cuando a ellas hubiere lugar, se incluirán en los
 
@@ -14761,7 +14501,6 @@ Eximentes de Responsabilidad, según lo previsto en las Sección 20.3 de este Co
 
 ocurrencia de tales eventos en un plazo que no supere veinte (20) Días Hábiles desde su ocurrencia. La evaluación de tales hechos, las causas que los motivaron y la diligencia con que el Concesionario actuó ante ellos, se harán constar
 
-dentro de los Página 276 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura treinta (30) Días siguientes a la fecha en que cesen dichas causas, en actas suscritas por el Interventor y el Concesionario, que se someterán a la aprobación de la ANI. . (e) En el caso que la ANI concluya que el evento no tuvo origen en una
 
@@ -14815,7 +14554,6 @@ afecte de forma irremediable e insubsanable la ejecución del
 
 Plan de Obras inicialmente previsto para la Unidad Funcional o Unidad
 
-Funcional de Vía Férrea respectiva. 20. 7 Indemnidad Página 277 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (a) El Concesionario se obliga a mantener indemne a la
 
@@ -14859,7 +14597,6 @@ Concesionario de pagar será pospuesta hasta la fecha en que el recurso correspo
 
 perjuicio de la utilización de los instrumentos procesales que resulten aplicables, por
 
-cualquiera de las Partes. Página 278 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -14917,7 +14654,6 @@ alguna de las partes o sus apoderados en otros trámites de amigable composició
 
 miembro de la firma a la que pertenezca o haya pertenecido, intervenga o haya intervenido como amigable componedor, árbitro, apoderado, consultor, asesor, secretario ó auxiliar de lajusticia en el
 
-curso de los dos (2) últimos años. Igualmente deberá indicar cualquier relación de carácter familiar o personal que sostenga con las partes o sus apoderados. Dentro del mismo término y de manera simultánea comunicará su aceptación y a su vez hará Página 279 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura una declaración de independencia e imparcialidad
 
@@ -14973,7 +14709,6 @@ momento de aceptar su designación, los restantes miembros del Panel evaluarán 
 
 falta de unanimidad, el miembro respectivo será reemplazado conforme la Sección 21.l(c)(xv) siguiente. En todo caso, el impedimento o la recusación del integrante del Amigable Componedor no afectará la
 
-validez de las decisiones adoptadas con anterioridad. Página 280 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura En
 
@@ -15035,7 +14770,6 @@ Panel de Amigables Componedores. (xiii) Reunión inicial: Dentro de los cinco (5
 
 fecha de recepción .de la última comunicación de aceptación dirigida a las Partes, cualquiera de ellas (las Partes) remitirá comunicación a los integrantes del Panel y a la otra Parte, con el
 
-objeto de celebrar reunión inicial, la cual se tendrá como Página 281 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -15105,7 +14839,6 @@ Comercio de Bogotá regulada en la Sección 21.1 (c)(vi) deberá hacerse
 
 dentro de los veinte (20) Días siguientes al
 
-recibo de la comunicación de renuncia, no ratificación o falta absoluta. Página 282 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura El término de ratificación para quien sustituye al amigable componedor faltante no se contará de manera independiente o personal, sino que será institucional, esto es, corresponderá al mismo término contado a
 
@@ -15163,7 +14896,6 @@ concepto de honorarios se causará una vez concluido el trámite. (v) El Concesi
 
 procedimiento de amigable composición se iniciará y tramitará de conformidad con el reglamento del
 
-Centro de Arbitraje y Conciliación de la Cámara de Página 283 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -15217,7 +14949,6 @@ Alcance de las decisiones del Amigable Componedor (i) El alcance y
 
 contenido de las decisiones que adopte el
 
-Panel de Amigables Componedores se circunscribirá a lo expresamente previsto en la Ley Aplicable. (ii) El trámite por medio del cual el Amigable Componedor defina sobre la controversia deberá basarse en los principios propios del debido proceso. (iii) Al definir la controversia, el Amigable Componedor podrá interpretar el contenido del presente Contrato, pero en ningún caso podrá con su decisión, Página 284 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura subrogar, modificar, sustituir, aumentar, adicionar, complementar o derogar el contenido del presente Contrato. (iv) El
 
@@ -15285,7 +15016,6 @@ sorteo de acuerdo con su
 
 reglamento de profesionales en derecho que acrediten
 
-experiencia de mínimo diez (1 O) años en derecho administrativo yo contratación estatal. (d) Los árbitros decidirán en derecho. Página 285 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) Los
 
@@ -15353,7 +15083,6 @@ apoderados de las Partes sea a su vez coárbitro; tampoco podrá ser empleado, s
 
 contratista de ningún Concesionario o
 
-Interventor de la ANI. De ser el caso, se aplicarán las prohibiciones previstas en el artículo 3 de la Ley 1474 de 2011. Página 286 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (h) El término del proceso arbitral, así como las suspensiones del término del proceso arbitral se regirán por lo establecido en los artículos 10 y 11 de la Ley 1563 de 2012. En todo caso, las
 
@@ -15401,7 +15130,6 @@ Centro de Arbitraje y Conciliación de la Cámara de
 
 Comercio de Bogotá, quien tendrá en cuenta las
 
-observaciones de idoneidad y experiencia informadas por las Partes. En Página 287 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura el evento en que las Partes no lleguen a un acuerdo el Centro será el
 
@@ -15447,7 +15175,6 @@ Tribunal de Arbitramento no suspenderá la ejecución del Contrato, salvo
 
 respecto de aquellas obligaciones yo actividades
 
-que de mutuo acuerdo las Partes consideren necesario suspender su ejecución para garantizar el éxito del Proyecto, previa suscripción del acta yo documento respectivo. Página 288 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -15491,7 +15218,6 @@ sistema de seguridad social y aportes
 
 parafiscales de sus empleados. Esta obligación también será aplicable
 
-respecto de los contratistas independientes - personas naturales-, caso en el cual se acreditará Página 289 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura que dichos contratistas independientes han efectuado los
 
@@ -15527,7 +15253,6 @@ Ninguna de las disposiciones del Contrato podrá interpretarse en el
 
 sentido de crear una relación distinta entre las Partes a
 
-la de la vinculación negocial en los términos del Contrato y de la Ley Aplicable, en particular, lo reglado sobre asociaciones público privadas en la Ley 1508 de 2012. Las Partes no pretenden crear ningún derecho ni otorgar ninguna acción a ningún tercer beneficiario del Contrato. Página 290 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -15583,7 +15308,6 @@ ello de acuerdo con la Ley Aplicable, y tal decisión señale que la
 
 causa de la misma fue
 
-distinta de las señaladas en las Secciones 23.2(a)(iv) o 23.2(c)(ii) de este Contrato. Página 291 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Por las siguientes causas imputables a la ANI, en
 
@@ -15633,7 +15357,6 @@ Derecho de Toma a los Prestamistas e iniciará el procedimiento previsto en la S
 
 Etapa de Reversión al Día siguiente a la
 
-declaratoria de la Terminación Anticipada del Contrato. Página 292 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -15683,7 +15406,6 @@ Subcuenta de Soporte Contractual, pagos al Interventor y al
 
 Equipo de Coordinación y Seguimiento del contrato, o a terceros contratados por la ANI para los propósitos de dichas subcuentas. (iv) Con
 
-recursos de la Subcuenta Predios, Subcuenta Compensaciones Socioambientales y Subcuenta Redes, se podrán realizar pagos a terceros distintos de: (i) el Concesionario; (ii) sus socios; (iii) los Beneficiarios Reales del Página 293 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Concesionario; o (iv) cualquier otra persona en la cual el Concesionario, sus socios o los Beneficiarios Reales del Concesionario, tengan cualquier participación o
 
@@ -15737,7 +15459,6 @@ dentro de un término no mayor a noventa (90) Días contados desde la
 
 fecha de recibo del
 
-Acta de Liquidación del Contrato correspondiente. Página 294 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) Una vez la Fiduciaria haya realizado la
 
@@ -15783,7 +15504,7 @@ derivado de la Terminación Anticipada del Contrato, incluyendo, pero sin limita
 
 caso de Terminación Anticipada del Contrato procederá reclamación alguna entre las Partes por pretendidos o reales perjuicios por sumas superiores a los valores que
 
-surjan de la aplicación de las fórmulas de liquidación. (d) Terminación Anticipada durante la
+surPlan de la aplicación de las fórmulas de liquidación. (d) Terminación Anticipada durante la
 
 Fase de Preconstrucción Si se produce la Terminación Anticipada del Contrato a
 
@@ -15799,7 +15520,6 @@ Fase de Construcción, se procederá a establecer el
 
 valor de la liquidación del
 
-Contrato de Concesión mediante la aplicación de la siguiente fórmula: VL(ppc) PPCm ASRm - TPm TCCml OANlmL - CPml - OConmL Donde: Página 295 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura VL(ppc) PPCm Corresponde al
 
@@ -15833,7 +15553,6 @@ periodo de tiempo. Nota: En el evento en que esta fórmula se aplique en el terc
 
 Fase de Preconstrucción, el factor DAS tomará el valor 1 DTSm únicamente para el
 
-valor de VMCA:, descontando los pagos parciales o totales que se hubiesen realizado por este concepto. Página 296 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura VMCAt Valor Máximo Semestral del Componente A para el Semestre Calendario i expresado en Pesos del
 
@@ -15869,7 +15588,6 @@ totalidad de los Estudios y Diseños de Detalle, de conformidad con la Sección 
 
 totalidad de los Estudios y Diseños de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O). PEDDm 1,30 VCBr IPCml) ( IPCr Donde, VCBr Valor Total del Componente B expresado en Pesos del
 
-Mes de Referencia. IPCml""- Corresponde al IPC del Mes anterior al mes m l. Página 297 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura PIPm MRm IPCr Corresponde al IPC del
 
@@ -15889,7 +15607,6 @@ porcentaje de amortizado para la locomotora T a la
 
 fecha de la suscripción del
 
-Acta de Página 298 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Reversión del
 
@@ -15917,7 +15634,6 @@ uno de los meses transcurridos entre la suscripción del
 
 Contrato de Concesión y el mes m. TPm Corresponde a los gastos generados por el
 
-concepto de Take or Pay definidos en el Contrato y que hayan sido causados con anterioridad a la Terminación Anticipada del Contrato . .. Se calculará de acuerdo a la siguiente formula: Página 299 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura TPm TP -DAA- - TNm TUI Kmvor-Chi Nota: DAA Si 2 entonces será O DTA Donde, TP Tak:e or Paya pagar en el año i DAA Número de Días que transcurran entre: (i) la expiración del último Año Calendario culminado con posterioridad al
 
@@ -15953,7 +15669,6 @@ labores de custodia del Corredor del Proyecto que corresponde a Siete Millones Q
 
 Mes de Referencia. DACC Número de Días que transcurran, entre la Terminación Anticipada del Contrato y la suscripción del
 
-Acta de Reversión. Página 300 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura OANlml CPml OConml m IPCm l Corresponde al IPC del Mes anterior al mes m l. IPCr Corresponde al IPC del
 
@@ -16013,7 +15728,6 @@ valor de la liquidación del
 
 Contrato de Concesión cuando la Terminación Anticipada ocurra durante la
 
-Fase de Construcción, expresado en Pesos corrientes. Página 301 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Corresponde al
 
@@ -16059,7 +15773,6 @@ inicio de la
 
 Fase de Construcción, y la suscripción del
 
-Acta de Reversión del Contrato, de no haberse Página 302 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura culminado Semestre Calendario alguno con posterioridad al
 
@@ -16101,7 +15814,6 @@ Acta de Terminación de Unidad
 
 Funcional de Vía Férrea. IPCmi Corresponde al IPC del Mes anterior al mes m l IPCr IPC del
 
-Mes de Referencia Página 303 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura r
 
@@ -16139,7 +15851,6 @@ Parcial de la Unidad
 
 Funcional de Vía Férrea y. De no cumplir el supuesto anterior, esta variable será equivalente a cero (O) y Cada Unidad
 
-Funcional de Vía Férrea CCm Este valor se calculará de acuerdo a lo señalado en la siguiente formula: CCM 1 JPCm! VMSC; M3 TDI)n) ( IPCr ) PRIC(oper)ml) RCk] (1- 28,73) UFk Porcentaje del Componente C correspondiente a cada Unidad Funcional k, de acuerdo con los señalado en el Apéndice Financiero 3. Página 304 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura AUFk
 
@@ -16171,7 +15882,6 @@ Acta de Terminación Parcial o un
 
 Acta de Terminación de Unidad Funcional, el multiplicador será equivalente a uno (1) en todos los Semestres Calendario e que concluyan con posterioridad a la Terminación Anticipada del Contrato. En los anteriores eventos, el multiplicador seguirá siendo equivalente a uno (1) para cada Unidad Funcional k en tanto los Semestres Calendario e estén comprendidos dentro del número de semestres calendario durante el cual es pagado el Componente C de conformidad con el Apéndice Financiero 3. e Cada
 
-uno de los semestres calendario que concluya con posterioridad a la Terminación Anticipada del Contrato. SCM número de semestres calendario durante el cual es pagado el Componente C de conformidad con el Apéndice Financiero 3. Página 305 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura n Número de meses entre el mes m y el último Mes del Semestre Calendario e. PRIC(oper)ml Promedio aritmético de todos los Índices de
 
@@ -16211,7 +15921,6 @@ Porcentaje de avance de la Unidad Funcional k incluido en el
 
 Acta de Terminación
 
-Parcial de la Unidad Funcional k De no cumplir el supuesto anterior, esta variable será equivalente a cero (O) k Cada Unidad Funcional Página 306 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura MRm Esta variable remunera las inversiones realizadas en el Material Rodante del Proyecto ejecutadas con anterioridad a lo que ocurra primero entre la fecha prevista para la terminación de la Puesta a Punto y la Terminación Anticipada del Contrato. Se calculará de acuerdo con lo señalado en la siguiente fórmula: Donde: Ovhr,a Corresponde a las inversiones realizadas en el Material Rodante del Proyecto en la locomotora T durante el mes a que haya sido realizada hasta lo que ocurra primero entre la fecha prevista para la terminación de la Puesta a Punto y el mes m, que hayan sido registradas en la Subcuenta Material Rodante y que hayan sido certificadas por el Interventoría. lPCmi Corresponde al IPC del Mes anterior al mes m l. lPCa-i Corresponde al IPC del Mes anterior al mes a. AmtAcr Corresponde al
 
@@ -16233,7 +15942,6 @@ total de locomotoras del Material Rodante del Proyecto. PEDDm Esta variable apli
 
 totalidad de los Estudios y Diseños de Detalle, de conformidad con la Sección 8.1 del Contrato, y se calculará de acuerdo con lo señalado en la siguiente fórmula. De no haberse obtenido la no objeción a la
 
-totalidad de los Estudios y Diseños de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O). PEDDm [(VCBr UFVFy 1,30 Nly) y1 Página 307 de 332 ei:1 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Donde, VCBr Valor Total del Componente B expresado en Pesos del
 
@@ -16267,7 +15975,6 @@ uno de los meses transcurridos entre la suscripción del
 
 Contrato de Concesión y el mes m. TPm Corresponde a los gastos generados por el
 
-concepto de Take or Pay definidos en el Contrato y que hayan sido causados con anterioridad a la Terminación Anticinada del Contrato. Página 308 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Se calculará de acuerdo a la siguiente formula: TPm TPi DTAi - TNm T'Ul Kmoor-Chi Nota: Si TNm Tlll 2 TPi DAA entonces TPm será O DTAí Donde, TPi Take or Paya pagar en el año i DAA Número de Días que transcurran entre: (i) la expiración del último Año Calendario culminado con posterioridad al
 
@@ -16301,7 +16008,6 @@ labores de custodia del Corredor del Proyecto en los términos de la Sección 15
 
 labores de custodia del Corredor del proyecto que corresponde a siete millones quinientos veintiséis mil doscientos trece 7.526.213 Pesos del
 
-Mes de Referencia. Página 309 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura DACC Número de Días que transcurran entre la Terminación Anticipada del Contrato y la suscripción del
 
@@ -16363,7 +16069,6 @@ Contrato de Concesión cuando la Terminación Anticipada ocurra durante la
 
 Etapa de Operación y Mantenimiento, expresado en Pesos corrientes. POMm Corresponde al
 
-resultado de la fórmula indicada a continuación y que será reconocido en los términos de la Sección 24.4(b) de este Contrato Página 310 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura POMm CCm CDm MRm CCm Este valor se calculará de acuerdo a lo señalado en la siguiente formula: UFk Porcentaje del Componente C correspondiente a cada unidad funcional k, de acuerdo con los señalado en el Apéndice Financiero 3. VMSC.f Valor Máximo Semestral Ofertado del Componente C expresado en Pesos del
 
@@ -16387,7 +16092,6 @@ Parcial de Unidad Funcional con anterioridad a la Terminación Anticipada del Co
 
 Acta de Terminación de Unidad Funcional sobre la misma; o (ii) habiéndose suscrito dicha acta, el
 
-Acta de Cálculo de la Retribución asociada con el Página 311 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura semestre calendario en el que se suscribió dicha
 
@@ -16425,7 +16129,6 @@ Acta de Reversión del Contrato, de no haberse culminado Semestre Calendario alg
 
 inicio de la
 
-Etapa de Operación y Mantenimiento. DTSm Días totales del Semestre Calendario correspondiente al Mes m. Página 312 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura IPCmi Corresponde al IPC del Mes anterior al mes m l IPCr IPC del
 
@@ -16451,7 +16154,6 @@ Contrato de Concesión y la fecha prevista para la terminación de la Puesta a P
 
 una de las locomotoras del Material Rodante del Proyecto. P número
 
-total de locomotoras del Material Rodante del Proyecto. Página 313 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura TPm TCCmL Corresponde a los gastos generados por el
 
@@ -16483,7 +16185,6 @@ Etapa de Operación y Mantenimiento. TUl Tarifa por
 
 uso de infraestructura de la carga en el afio í Kmvor-Chi Corresponde a los kilómetros efectivamente recorridos por el Concesionario en el Corredor del Proyecto. í Año efectivo en el que se produjo la Terminación Anticipada del Contrato Corresponde a la tarifa que se le reconoce al Concesionario por las
 
-labores de custodia del Corredor del Proyecto en los términos de la Sección 15.3. Se calculará de acuerdo a la siguiente fórmula: TCCmL TCC DACC IPCml) JC(custodía)ml ( IPCr Donde, Página 314 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura TCC Tarifa diaria para las
 
@@ -16539,7 +16240,6 @@ etapa de ejecución del Contrato, se procederá a establecer el
 
 valor de la liquidación del
 
-Contrato de Concesión, mediante la aplicación de la siguiente fórmula: Página 315 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura VL(ANI) Ingresosml - Costos futurosml - OConml OANlml Donde, VL(ANI) lngresosml Es el
 
@@ -16591,7 +16291,6 @@ derivados de la prestación de los Servicios Adicionales. El modelo estadístico
 
 proceso de análisis
 
-retrospectivo de mínimo un año (backtesting); (ií) Que cumpla con las pruebas estadísticas de autocorrelación, multicolinealidad y Página 316 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura heterocedasticidad y (iii) Que sea estadísticamente significativo a un
 
@@ -16645,7 +16344,6 @@ cargo de la ANI prevista expresamente en este Contrato que se encuentre
 
 pendiente de pago y haya sido causada con anterioridad al
 
-momento de Terminación Anticipada del Contrato incluyendo cualquier interés previsto en este Contrato que dicho valor haya causado hasta la liquidación, exoresada en Pesos del mes m l. Página 317 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura m Mes en que ocurre la Terminación Anticipada del Contrato. l Número de Meses transcurridos desde el
 
@@ -16699,7 +16397,6 @@ resultado de la variable CC, si es aplicable tal
 
 variable de conformidad con lo establecido en la Sección 24.3 anterior. (iii) En caso que así lo hayan acordado el Concesionario con los Prestamistas, las sumas adeudadas por la ANI (o hasta el monto acordado entre el Concesionario y los Prestamistas) serán entregadas a los Prestamistas. La Fiduciaria tiene el
 
-deber de vigilar que esta destinación se cumpla, siempre que haya verificado la existencia del acuerdo entre el Concesionario y los Prestamistas. (c) Sumas a Cargo del Concesionario: Página 318 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (i)
 
@@ -16739,7 +16436,6 @@ montos de la liquidación del Contrato, se harán los
 
 pagos de los montos que no se encuentren en disputa. Sobre lo demás se podrá acudir al Amigable Componedor. Los pagos yo devoluciones
 
-producto de la decisión del Amigable Componedor serán cancelados en los mismos plazos y condiciones establecidos en la Sección 24.4 anterior. Página 319 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -16777,7 +16473,6 @@ Cambio de Ley Tributaria, los cambios que se presenten en impuestos que graven l
 
 diferencia de que trata la Sección 25.l(a)(ii) anterior deberá ser consignada por la ANI en la Cuenta Proyecto con los
 
-recursos de que trata la Sección 19.4. Página 320 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -16829,7 +16524,6 @@ clase de obras o a
 
 precios de mercado por actividades diferentes a obras. En caso en que las Partes no lleguen a un acuerdo, la Interventoría procederá a calcular el
 
-valor de las Obras Menores, así como su Operación y Mantenimiento, de acuerdo lo establecido en el Contrato. Si el Concesionario se encuentra en desacuerdo con el cálculo de la Interventoría se aplicará el procedimiento previsto en la Sección 25.2(c) de este Contrato. (v) Los precios unitarios serán indexados con el IPC desde el momento en que se hayan acordado, hasta el momento en que se acuerde la ejecución de una obra menor determinada. Página 321 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (vi) Una vez las Partes lleguen a un
 
@@ -16877,7 +16571,6 @@ actividades de Operación y Mantenimiento, en las condiciones dispuestas en el p
 
 Acta de Reversión. (viii) El Concesionario mantendrá en todo momento indemne a la ANI por cualquier reclamación del tercero contratista, en los términos señalados en la Sección 20.7 de este Contrato. (d) La ANI asumirá el
 
-pago de las Obras Menores financiadas yo realizadas por el Concesionario o por el tercero, en los plazos y montos establecidos en: i) el acuerdo con el Concesionario a que se refiere la Sección 25.2(b), o ii) en el contrato no objetado por la ANI a que se refiere la Sección 25.2(c) con los recursos disponibles en la Página 322 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura Subcuenta Excedentes ANI. En el
 
@@ -16923,7 +16616,6 @@ valor de las Obras y Equipos Complementarios y su
 
 forma de pago se determinarán por mutuo
 
-acuerdo de las Partes. Página 323 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (e) En todo caso, será la ANI quien determine la necesidad o
 
@@ -16977,7 +16669,6 @@ ni de ninguna otra obligación a cargo del Concesionario. En ningún caso la apr
 
 eximente de responsabilidad. (d) La ANI directamente o a través del Interventor, vigilará el
 
-cumplimiento de las condiciones técnicas de la Obra Voluntaria, de conformidad con el proyecto que fuera aprobado por ésta y, de ser el caso, impondrá las sanciones previstas en este Contrato Página 324 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura por el
 
@@ -17015,7 +16706,6 @@ cambio de accionista, autorización que en todo caso se dará cuando: (1) El ces
 
 Pliego de Condiciones y que fueron evaluados por la ANI, durante el
 
-Proceso de Selección para considerar hábil al cedente, (2) Las garantías del Contrato no se disminuyan con ocasión de la cesión, Página 325 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (3) Los cesionarios cumplan con la obligación de información establecida en el artículo 23 de la Ley 1508 de 2012 y las demás establecidas en la Ley Aplicable, (4) En caso en que el cedente sea el Líder que acreditó y obtuvo el puntaje adicional por el
 
@@ -17073,7 +16763,6 @@ Pliego de Condiciones o, en su defecto, de acuerdo con la normativa vigente y ap
 
 momento de la
 
-solicitud de autorización de cesión. Página 326 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (c) Los
 
@@ -17135,7 +16824,6 @@ la de la vinculación negocia! en los términos del Contrato y de la Ley Aplicab
 
 uso de las marcas yo
 
-logos de propiedad de la ANI, sin previa autorización de ésta. Página 327 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura
 
@@ -17205,13 +16893,12 @@ efectos de interpretación de
 
 cualquiera de los Capítulos o Secciones, prevalecerá el documento en idioma Castellano.
 
-#### 25.13 Impuestos Página 328 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (a) Cada Parte asumirá los impuestos que les sean aplicables conforme a la Ley Aplicable. Lo anterior sin
 
 perjuicio de las eventuales compensaciones entre las Partes, que
 
-surjan de la aplicación de lo previsto en la Sección 28.1 de este Contrato.
+surPlan de la aplicación de lo previsto en la Sección 28.1 de este Contrato.
 
 #### 25.14 Modificación del Contrato (a) El Contrato junto con sus Apéndices no podrán ser modificado sino por acuerdo escrito debidamente firmado por representantes
 
@@ -17253,7 +16940,6 @@ XI de este Contrato, el
 
 cumplimiento de las obligaciones del Concesionario debe ser consistentes con los estándares y directrices ambientales y sociales a los cuales se refieren los Principios del Ecuador (Exhibit III) en tanto no controviertan la Ley Aplicable. Los estándares y directrices se pueden consultar en el siguiente link: http:www.eguator- principles.comresourcesequator principies III.pdf.
 
-#### 25.19 Representación de la ANI Página 329 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura (a) Cuando el presente Contrato yo sus Apéndices prevean la participación o
 
@@ -17295,9 +16981,8 @@ efectos de las comunicaciones que el Interventor esté obligado a remitir al Con
 
 total de ejecución del Contrato, necesarios para la Gestión Predial, la Gestión Social y Ambiental, el
 
-manejo de Redes, la ejecución de Intervenciones, discriminando los costos e inversiones en grupos homogéneos de actividades (entre Página 330 de 332 Contrato de APP del Proyecto Corredor Férreo LaDorada - Chiriguaná Agencia
 
-Nacional de Infraestructura ellos puentes, viaductos y túneles) y los
+Nacional de Infraestructura ellos ppuentes, viaductos y túneles) y los
 
 costos de Operación y Mantenimiento. La información será presentada de acuerdo con las instrucciones que provea la ANI, con el
 
@@ -17353,7 +17038,6 @@ incumplimiento de esta obligación dará lugar al inicio del respectivo procedim
 
 XVI de este Contrato, sin que proceda el otorgamiento del
 
-Plazo de Cura. Página 331 de 332 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná Agencia
 
 Nacional de Infraestructura El presente contrato se firma a los ., l' Las partes ltt!:tosTA M;EDINA
 
@@ -17361,7 +17045,6 @@ Vicepresidente de Estructuración Agencia
 
 Nacional de Infraestructura días del
 
-mes de abril de 2025 CARLOS BUENO MORALES Representante Legal Concesión Línea Ferrea Central S.A.S VoBo. Ariel Lozano Gaitán - Vicepresidente Jurídico we. ,. Técnico: Adriana María Montañez Sáenz - Gerente Férrea VE ftCS t. Financiero , Jackeline Torres Angel - Gerente Financiera . Gisela Pupo Arabia - Experto G3 O 8 Gerencia i ciera VE Claudia Soto Cárdenas - Contratista Gerencia Financiera VE Jurídico: - Edna Rocío Valenzuela Jirnénez- Gerente (E) GIT Estructuración Leg Y César Augusto Pion Botero - Contratista GIT Estructuración Legal VJ . Juan Felipe Valencia Ramírez - Contratista GIT Estructuración Legal Suscripción y legalización del contrato: _ ).,. Edna Rocío Valenzuela Jiménez- Gerente Contratació Brenda Viviana Jiménez Díaz - Experto G3 07 Gerencia Contratación Página 332 de 332
 
 ---
 
@@ -17375,3 +17058,4 @@ antes de ser utilizada formalmente.
 **Versión:** 3.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 27/02/2025 
+

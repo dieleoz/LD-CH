@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 8
+# APÉNDICE TÉCNICO 8
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -6,9 +6,7 @@
 **Contrato:** Concesión No. 001 de 2025  
 **Apéndice:** AT8  
 
----
 
-## INFORMACIÓN DEL DOCUMENTO
 
 | Campo | Valor |
 |-------|-------|
@@ -20,17 +18,13 @@
 | **Número** | AT8 |
 | **Estado** | ✅ Contenido completo |
 
----
 
-## DESCRIPCIÓN DEL DOCUMENTO
 
 **Apéndice Técnico 8**
 
 Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 8 del proyecto Corredor Férreo La Dorada-Chiriguaná.
 
----
 
-## CONTROL DE VERSIONES
 
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
@@ -38,9 +32,7 @@ Este apéndice técnico contiene las especificaciones técnicas y procedimientos
 | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
 
----
 
-Libertad y Orden
 
 # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 ## AGENCIA NACIONAL DE INFRAESTRUCTURA
@@ -93,7 +85,6 @@ PLAN DE COMPENSACIONES SOCIOECONÓMICAS 13
 emprendimientos 42
 #### 7.17 Programa de Capacitación, Educación y Concientización de la Comunidad Aledaña al Proyecto.
 49
-Página 2 de 79
 
 #### 7.18 Programa de Arqueología Preventiva 51
 #### 7.19 Programa Cultura Vial Ferroviaria 57
@@ -119,7 +110,6 @@ Página 2 de 79
 13. 7 Atención de situaciones de crisis 79
 #### 13.8 Eventos 79
 
-Página 3 de 79
 
 ### CAPÍTULO I - INTRODUCCIÓN
 
@@ -127,7 +117,6 @@ Página 3 de 79
 
 1.2. La aplicación de este Apéndice deberá ser efectuada en concordancia con lo establecido en el Contrato. En todo caso, de presentarse alguna contradicción entre lo previsto en este Apéndice y los demás documentos contractuales, se atenderá a lo previsto en los términos señalados en el Contrato.
 
-Página 4 de 79
 
 ### CAPÍTULO II - OBJETIVOS DE GESTIÓN SOCIAL
 
@@ -151,7 +140,6 @@ A continuación, se establecen los objetivos de la Gestión Social del Proyecto.
 
 (i) Resaltar la importancia de los Usuarios para el desarrollo eficiente del Proyecto, concretando sus derechos y responsabilidades como ciudadanos, para el ejercicio democrático de la participación ciudadana.
 
-Página 5 de 79
 
 (í) Proveer la información que las comunidades o entidades soliciten, con base en las disposiciones legales aplicables, bajo las órdenes que para el efecto establezca la autoridad competente.
 
@@ -161,7 +149,6 @@ Página 5 de 79
 
 (m) Fomentar la incorporación de las mujeres a la fuerza laboral en condiciones de equidad, con el fin de contribuir al cierre de la brecha de la participación de las mujeres en la económica, en los proyectos a cargo de la ANI.
 
-Página 6 de 79
 
 CAPÍTULO ID DEFINICIONES
 
@@ -178,7 +165,6 @@ f) Plan de responsabilidad social y ambiental: Es un plan de responsabilidad apl
 
 g) Protocolo de Vinculación del Personal: se refiere al protocolo o metodología de vinculación adoptado por el Concesionario de acuerdo con lo establecido en la Sección del presente Apéndice.
 
-Página 7 de 79
 
 ### CAPÍTULO IV - 4.1 Obligaciones del Concesionario
 OBLIGACIONES GENERALES
@@ -194,7 +180,6 @@ Sin perjuicio de las demás obligaciones que de manera específica se establecen
 
 (v) Si por alguna decisión vinculante de una autoridad competente, llegare a exigir, durante la ejecución del Contrato, el proceso de consulta previa con comunidades que puedan verse afectadas por el Proyecto, el Concesionario adelantará los trámites relacionados con dicha consulta.
 
-Página 8 de 79
 
 (vi) Instalar las oficinas de atención al Usuario y prestar los servicios asociados a éstas, en los términos señalados en este Apéndice y en los demás documentos que forman parte del Contrato de Concesión.
 
@@ -215,7 +200,6 @@ ANI.
 
 (xv) El Concesionario dará estricto cumplimiento a los acuerdos que se protocolicen ante la Dirección de la Autoridad Nacional de Consulta Previa -DANCP- en el marco de los procesos de consultas previas que resulten procedente por efectos del Proyecto, obra o actividad. Los acuerdos que se protocolicen y sus modificaciones, sustituciones o adicciones, son obligaciones de resultados que hacen parte integral del presente Contrato.
 
-Página 9 de 79
 
 (xvi) El Concesionario atenderá los lineamientos que la ANI expida para dar cumplimiento al deber constitucional de garantizar la protección del derecho de los pueblos étnicos a la consulta previa.
 
@@ -235,7 +219,6 @@ información social y ambiental del Proyecto según corresponda.
 
 (xxvi) Dar cumplimiento a los lineamientos en cuanto a disposiciones sobre comunicaciones institucionales descritos en el CAPÍTULO XIII del presente Apéndice, con el fin de visibilizar el Proyecto en las diferentes regiones del país, para lograr una comunicación y la aplicación de mejores prácticas que garanticen un adecuado uso de la información.
 
-Página 10 de 79
 
 #### 4.2 Obligaciones de la ANI
 
@@ -254,7 +237,6 @@ Página 10 de 79
 
 (vii) La Gestión Social y Ambiental para adelantar la(s) consulta(s) previa(s) con las comunidades étnicas que sean certificadas por la Autoridad Estatal competente o reconocidas mediante fallo judicial, estará a cargo del Concesionario, bajo el liderazgo de la ANI. No obstante, los costos derivados de los compromisos adquiridos en los acuerdos protocolizados serán asumidos en su totalidad por las partes en los términos previstos en el Contrato.
 
-Página 11 de 79
 
 ### CAPÍTULO V - INSTRUMENTOS DE GESTIÓN SOCIAL
 
@@ -270,7 +252,6 @@ Página 11 de 79
 
 5.2. Los instrumentos de Gestión Social serán formulados, diseñados y ejecutados por el Concesionario con fundamento en lo señalado en la Ley Aplicable, en el Contrato y en el presente Apéndice, desarrollando e incorporando los estándares y directrices ambientales y sociales a los cuales se refieren los Principios del Ecuador, en los términos señalados en el Contrato, sin que estos contravengan el ordenamiento jurídico colombiano, y por lo tanto, de la aplicación de estos principios no podrá derivarse en ningún caso la obligación de la ANI o de cualquier otra entidad pública colombiana de actuar por fuera de las competencias que le son asignadas en la Ley Aplicable. En todo caso debe garantizar la implementación de todos los programas del medio socioeconómicos, establecidos en los instrumentos de control y manejo ambiental del proyecto
 
-Página 12 de 79
 
 ### CAPÍTULO VI - 6.1 Aspectos Generales
 PLAN DE COMPENSACIONES SOCIOECONÓMICAS
@@ -297,7 +278,6 @@ La estimación preliminar del Plan de Compensaciones Socioeconómicas tendrá el
 
 Para la elaboración del Plan de Compensaciones Socioeconómicas, el Concesionario deberá levantar una Ficha Social para cada uno de los Predios a adquirir, la cual deberá tener como mínimo el
 
-Página 13 de 79
 
 contenido descrito en el artículo 18 de la Resolución 545 de 2008, o las normas que la modifiquen o sustituyan, para lo cual desarrollará las actividades de campo requeridas por dicha resolución, e incorporará la información derivada de las Fichas Prediales y los Avalúos Comerciales y Corporativos.
 
@@ -311,7 +291,6 @@ Una vez completada la Ficha Social de un Predio, incluyendo su diagnóstico soci
 
 (c) Con base en la estimación del Plan de Compensaciones Socioeconómicas, previo a la elaboración del acuerdo de reconocimiento de Compensaciones Socioeconómicas, el Concesionario remitirá al Interventor, por cada unidad social, los formatos de ficha social diligenciados (caracterización general del inmueble, caracterización de unidad social residente, caracterización de la unidad social productiva, registro fotográfico) y la información aportada por cada unidad social. En un plazo no superior a los diez (1 O) Días Hábiles de recibida la información, el Interventor notificará al Concesionario sus observaciones. En caso en que no existiere pronunciamiento del Interventor en dicho plazo, se entenderá que no existe objeción. Si el Interventor efectuare observaciones a los documentos aportados, el Concesionario tendrá un plazo de cinco (5) Días Hábiles, contados desde la Notificación de las observaciones, para corregirlas.
 
-Página 14 de 79
 
 ( d) El reconocimiento de las Compensaciones Socioeconómicas y las condiciones que se establecen para otorgarlas será notificado al beneficiario; con el fin que manifieste su aceptación o renuncia a las mismas por escrito. Una vez manifestada la aceptación se procederá a suscribir el acuerdo de reconocimiento de Compensaciones Socioeconómicas en el que se establecen los términos y plazos de pago. En el caso en que el ciudadano no acepte la Compensación Socioeconómica, se procederá a la elaboración de un acta de renuncia voluntaria de la misma, la cual se incorporará en el expediente. El Concesionario garantizará el proceso informado del Plan de Compensaciones con cada unidad social antes de proceder con cualquier acción contra el afectado.
 
@@ -327,7 +306,6 @@ Página 14 de 79
 
 (b) En cada actualización mensual el Concesionario indicará las variaciones existentes respecto del mes anterior, indicando especialmente el valor estimado total por Compensaciones Socioeconómicas, el número de predios respecto de los cuales existe un Plan de Compensaciones Socioeconómicas definitivo, el valor de los acuerdos de compensaciones socioeconómicas logradas, el número de Predios faltantes y el valor estimado remanente.
 
-Página 15 de 79
 
 ### CAPÍTULO VII - 7. 1 Generalidades
 PLAN DE GESTIÓN SOCIAL CONTRACTUAL- PGSC
@@ -350,7 +328,6 @@ cual incorporará los programas establecidos en el Presente Apéndice Técnico, 
 
 (e) Vencido el plazo para que el Interventor realice objeciones al PGSC, o una vez atendidas las observaciones efectuadas por el Interventor, o habiéndose producido la decisión del
 
-Página 16 de 79
 
 Amigable Componedor, el Concesionario iniciará la ejecución de los programas del PGSC.
 (f) Cada doce (12) Meses el Concesionario deberá presentar una actualización del PGSC, incorporando mejoras al mismo basado en las situaciones que hayan acontecido en el Contrato de Concesión, evaluación de la eficacia del PGSC y las recomendaciones proporcionadas por el Interventor.
@@ -373,7 +350,6 @@ Amigable Componedor, el Concesionario iniciará la ejecución de los programas d
 
 (i) Crear yo mantener un Sistema de Atención al Usuario que permita de manera oportuna y eficaz recibir, atender, tramitar, resolver e informar las quejas, peticiones, solicitudes y sugerencias que se presenten de manera personal, vía web, correo electrónico, telefónicamente o mediante correspondencia, con el fin de dar cumplimiento a la Ley Aplicable.
 
-Página 17 de 79
 
 (ii) Atender las situaciones que se presentan por razón del Proyecto y mantener una adecuada relación del Proyecto con los vecinos y Usuarios y garantizar los derechos de los mismos.
 
@@ -402,7 +378,6 @@ Usuarios de la vía y comunidades del Corredor Férreo La Dorada- Chiriguaná; i
  Una (1) oficina de atención local por cada tramo del Proyecto, es decir tres (3), en una ubicación central definida por el Concesionario.
  Tres (3) oficinas móviles.
 
-Página 18 de 79
 
 (3) Serán medios electrónicos de atención al Usuario:
  Correo electrónico.
@@ -424,7 +399,6 @@ o Documentar la trazabilidad del proceso
 o Atender de fondo y en el menor tiempo posible, todas las afectaciones que por causa de la ejecución del proyecto pudieren causarse sobre particulares o comunidad.
 o Cuando situaciones particulares de los proyectos demanden adoptar medidas especiales en torno al sistema de atención al usuario, dichas medidas deberán ser propuestas a la
 
-Página 19 de 79
 
 Interventoría y concertadas con la ANI para su aprobación.
 
@@ -448,9 +422,7 @@ Interventoría y concertadas con la ANI para su aprobación.
 
 (f) Cada oficina de atención al Usuario deberá contar con un aviso visible al exterior de la oficina acogiendo las directrices de la Oficina de Comunicaciones de la ANI y que contenga: el nombre del Proyecto, logos institucionales, el nombre de "OFICINA DE ATENCION AL USUARIO", y de forma visible las diferentes líneas de atención al
 
-Página 20 de 79
 
-Usuario - celular, teléfono, página web, correo electrónico, así como el horario de atención.
 
 (g) Horario de atención: Las oficinas de atención al Usuario funcionarán de lunes a viernes de 8 a.m. a 6 p.m. y los sábados de 8 a.m. a 2 p.m. En todo caso se podrán presentar opciones de horarios considerando las condiciones particulares de los territorios, los cuales deberán ser validados por el Interventor del Proyecto. Cada oficina debe ser atendida por un por profesional social con experiencia en trabajo comunitario, cualificado en lo relacionado a servicio y atención al Cliente, y que preferiblemente, sea del área de influencia del proyecto.
 
@@ -468,7 +440,6 @@ Usuario - celular, teléfono, página web, correo electrónico, así como el hor
 
 (f) Las oficinas móviles deberán realizar actividades de tipo pedagógico y lúdico que permitan la interacción constante con las comunidades, de manera que el proyecto y sus particularidades llegue a las mismas de forma clara y amigable, su funcionamiento debe ser dinámico y no limitarse a establecerse en puntos específicos de atención. Estas oficinas deberán apoyar de manera integral el desarrollo del sistema de atención al Usuario y demás programas del PGSC
 
-Página 21 de 79
 
 #### 7.8 Registros
 
@@ -501,7 +472,6 @@ ala norma en la oficina de atención al Usuario.
 
 (xiii) Registros de asistencia en caso de que aplique.
 
-Página 22 de 79
 
 (xiv) Radicado de recibido y de respuesta, expedientes debidamente archivados conforme a la norma en la oficina de atención al usuario.
 
@@ -525,7 +495,6 @@ Nota: En todos los casos se debe cumplir con normas de tratamiento de datos pers
 
 (i) Capacitar al personal vinculado al Proyecto en sus características, alcance, tiempos de ejecución, Seguridad y salud en el trabajo, Gestión Social, manejo ambiental, marco de género e inclusión social, que contribuya a una cultura corporativa global orientada a la excelencia técnica, al servicio a la comunidad y Grupos de Interés, la sensibilidad y el sentido de responsabilidad y respeto por el entorno social y natural del Área de Influencia.
 
-Página 23 de 79
 
 (ii) Establecer una estrategia de comunicación con el personal vinculado al Proyecto que pueda tener contacto con la comunidad para evitar la desinformación y generación de falsas expectativas a la comunidad por información suministrada por el personal vinculado a las obras.
 
@@ -557,7 +526,6 @@ Página 23 de 79
 
 (7) Habilidades generales.
 
-Página 24 de 79
 
 (8) Prevención y manejo de conflictos.
 
@@ -585,7 +553,6 @@ Página 24 de 79
 
 (vii) En cuanto a los trabajadores de los proveedores del Concesionario y de los Contratistas, se deberá incluir como condición en sus subcontratos que todos los
 
-Página 25 de 79
 
 trabajadores que deban realizar actividades en el Área de Influencia tendrán que recibir esta capacitación.
 
@@ -614,7 +581,6 @@ trabajadores que deban realizar actividades en el Área de Influencia tendrán q
 (3) Registro de asistencia de participantes.
 (4) Registro fotográfico y fílmico
 
-Página 26 de 79
 
 (5) Registro mensual en el SICC de la siguiente información.
 (6) Matriz denominada registro consolidado de mano de obra vinculada al proyecto.
@@ -644,7 +610,6 @@ Página 26 de 79
 
 (i) Fomentar la vinculación laboral del personal del Área de Influencia del Proyecto.
 
-Página 27 de 79
 
 (ii) Contribuir al mejoramiento de las condiciones de vida de la población del Área de Influencia del Proyecto por medio de la vinculación de personal para la ejecución de las Intervenciones y el Proyecto en general.
 
@@ -670,7 +635,6 @@ Página 27 de 79
 
 (iv) La ANI y el Interventor validarán el cumplimiento de las obligaciones señaladas en este numeral a través del reporte enviado por el Concesionario de forma mensual a la Interventoría a través del SICC. En este caso la ANI y el Interventor podrán requerir al Concesionario la información que estimen conveniente para dicha validación. En
 
-Página 28 de 79
 
 el evento en que se identifique que el Concesionario incumple con alguna de las obligaciones de vinculación de personal identificado con el género femenino aquí establecidas, se aplicará lo dispuesto en los términos señalados en el Contrato.
 
@@ -690,7 +654,6 @@ el evento en que se identifique que el Concesionario incumple con alguna de las 
 
 (xii) El Concesionario deberá realizar la consulta de cifras e informes sobre niveles educativos en el Área de Influencia del Proyecto y oferta institucional educativa.
 
-Página 29 de 79
 
 (xiii) En los informes de cumplimiento del presente instrumento de Gestión Social se debe diligenciar la matriz denominada registro consolidado de mano de obra vinculada al Proyecto.
 (xiv) El Concesionario formulará un Protocolo de desvinculación del Personal para mano de obra calificada y no calificada que aplicará a lo largo de la ejecución del Contrato. Dicho Protocolo, será objeto de revisión y aprobación por parte de la Interventoría
@@ -711,7 +674,6 @@ necesidades de los territorios, con el fin de lograr el cumplimiento de las obli
 
 (i) El Concesionario deberá dar cumplimiento al marco jurídico colombiano sobre la generación de empleo garantizando la equidad de género y la igualdad de oportunidades para mujeres, tal como lo establecen las Leyes 823 de 2003 y 1496 de 2011, 1955 de 2019 y aquellas que las complementen, modifiquen o sustituyan.
 
-Página 30 de 79
 
 (ii) Con el fin de contribuir al cumplimiento al objetivo No. 5 de los Objetivos de Desarrollo Sostenible sobre la igualdad entre los géneros y empoderamiento de todas las mujeres y niñas, así como del Plan Nacional de Desarrollo 2018-2022 Pacto por Colombia, Pacto por la Equidad, específicamente en el Pacto por la Equidad de Género, el Concesionario deberá incluir dentro del protocolo de vinculación del personal, los lineamientos y condiciones necesarias que permitan garantizar la vinculación de personal identificado con el género femenino. Esta vinculación deberá darse en el equipo de trabajo del Concesionario de forma progresiva a lo largo de las diferentes Etapas o Fases del Proyecto y en su equipo gerencial a lo largo del Proyecto, de acuerdo con lo establecido a continuación:
 
@@ -726,7 +688,6 @@ Operación y Mantenimiento 30
 
 (vi) El Concesionario garantizará la difusión de la información sobre los empleos disponibles y contrataciones de proveedoresemprendimientos locales requeridos
 
-Página 31 de 79
 
 en el Proyecto por medios tradicionales (radio y periódicos locales y regionales, visitas a los municipios veredas o afiches informativos) y medios alternativos (colegios, tiendas de barrio, mercados municipales) para asegurar que las mujeres se pueden postular a trabajos para la obra.
 
@@ -749,7 +710,6 @@ El Concesionario mantendrá a disposición del Interventor y la ANI la totalidad
 (c) Los resultados de este reporte no darán lugar a la imposición de Sanciones o Multas, pero serán utilizados para el mejoramiento de procesos cuando a ello hubiere lugar. Lo anterior, sin perjuicio de la exigencia de obligaciones específicas en esta materia por parte de la Autoridad Ambiental o quien haga sus veces.
 7 .14 Programa de Información y Participación Comunitaria
 
-Página 32 de 79
 
 (a) Objetivos
 
@@ -774,7 +734,6 @@ Diseñar y desarrollar un sistema de comunicación para el Proyecto, que integre
 
 (x) Fortalecer el proceso comunicativo, entre los actores involucrados en el Proyecto.
 
-Página 33 de 79
 
 (xi) Definir, en conjunto con la comunidad y los Grupos de Interés, espacios de participación que le permitan expresar sus percepciones, posiciones y propuestas frente al Proyecto.
 
@@ -799,7 +758,6 @@ Esta medida deberá ser implementada con las comunidades pertenecientes al Área
 
 (4) La información relacionada con el programa deberá ser difundida de manera regular en espacios en los cuales las personas se desempeñan en su vida diaria (mercados municipales, puntos de atención al ciudadano, tiendas, iglesias, colegios, guarderías). 
 
-Página 34 de 79
 
 (ii) Reuniones de Información
 
@@ -822,7 +780,6 @@ El Concesionario adelantará para cada una de las Unidades Funcionales las sigui
 
  Elaborar presentación a través del uso de herramientas dinámicas en la presentación de la información, que faciliten su recepción y comprensión de la comunidad, enviarla oportunamente a la ANI y al Interventor para
 
-Página 3 5 de 79
 
 su respectiva revisión. En caso de que se requiera el Concesionario deberá realizar una presentación didáctica en los recursos o medios pertinentes para el público que asistirá a las reuniones, la cual debe enviarse previa y oportunamente a la ANI y a la Interventoría para su respectiva revisión, como mínimo ocho (8) día antes de la reunión.
 
@@ -843,7 +800,6 @@ su respectiva revisión. En caso de que se requiera el Concesionario deberá rea
 (iii) Reuniones de Inicio:
 (1) Por lo menos (30) Días antes de iniciar las obras de Rehabilitación en una Unidad Funcional, y en todo caso antes de la entrega al Interventor, el Concesionario debe realizar la reunión de inicio para informar a la autoridad municipal y a la comunidad del Área de Influencia del Proyecto, sobre las actividades que se van a realizar, cuándo y en dónde se van a iniciar; se informará también sobre las características técnicas del Proyecto, sobre las oficinas de Atención al Usuario fijas y móviles, sobre el procedimiento de vinculación de mano de obra para el Proyecto y la programación de las otras reuniones en las actividades de Rehabilitación y en la Etapa de Operación y Mantenimiento; lo anterior con el objeto de manejar la información desde el Proyecto y evitar que agentes externos al Concesionario divulguen información falsa o generen expectativas igualmente falsas en la comunidad.
 
-Página 3 6 de 79
 
 (2) Entre los temas a presentar están:
 
@@ -871,7 +827,6 @@ e Preguntas y sugerencias.
 (1) Al 50 de avance de las ejecuciones de Rehabilitación de cada Unidad Funcional, el Concesionario realizará estas reuniones para informar sobre el avance de las actividades de las Intervenciones, resultados de los programas de Gestión Social y Ambiental, entre otros. Se realizarán el mismo número de reuniones de avance tal como se formularon para las reuniones de inicio, considerando las características territoriales del Proyecto.
 (2) Para ello, se deberá recurrir a distintos instrumentos de recolección de información o generar el espacio abierto dentro de la reunión para que se permitan espacios de diálogo, conversación, comunicación y retroalimentación con la comunidad en general respecto a la percepción que tienen sobre el Proyecto. A su vez, se deberán presentar las acciones adelantadas por el Concesionario para dar solución a los inconvenientes que han sido presentados previamente por la comunidad y los Grupos de Interés. Lo anterior, teniendo en cuenta las rutas de acción y de acuerdos definidas en conjunto con la comunidad y los Grupos de Interés en los espacios de acción comunicativa
 
-Página 37 de 79
 
 participativa, para la solución de inconformidades, problemáticas o conflictos que se presenten.
 
@@ -893,13 +848,12 @@ participativa, para la solución de inconformidades, problemáticas o conflictos
 
 (3) El Concesionario deberá diseñar, realizar, publicar y distribuir un boletín mensual que incluya las ofertas laborales según los frentes de cada Intervención, los cierres programados de la Vía Férrea, las líneas de atención a la comunidad en caso de
 
-Página 3 8 de 79
 
 accidentes yo imprevistos, los cortes programados de servicios públicos y demás actividades que evidencien y contribuyan a su desarrollo social, y todas aquellas donde se pueda ver involucrada, beneficiada o afectada la comunidad.
 
 (e) Registros
 
-(i) De cada una de las actividades de socialización se deben diligenciar los registros o fuentes de verificación y relacionarlos en el informe trimestral de gestión que se presenta ante la ANI, incluyendo los siguientes registros:
+(i) De cada una de las actividades de socialización se deben diligenciar los registros o fpuentes de verificación y relacionarlos en el informe trimestral de gestión que se presenta ante la ANI, incluyendo los siguientes registros:
 
 (1 )Acta de reunión diligenciada en el formato ANI.
 (2) Registros fílmicos y fotográficos.
@@ -922,7 +876,6 @@ accidentes yo imprevistos, los cortes programados de servicios públicos y demá
 
 (ii) Mantener espacios de comunicación abiertos, claros y permanentes con los miembros de las comunidades que se verán directamente afectados por la ejecución de actividades en los diferentes frentes de Intervención.
 
-Página 39 de 79
 
 (iii) Diseñar una estrategia para la prevención y la adecuada gestión de los conflictos, especialmente aquellos que puedan afectar de manera significativa las relaciones sociales de la comunidad, así como el normal desarrollo del Proyecto.
 
@@ -946,9 +899,8 @@ Página 39 de 79
 
 (iv) Apoyar a través de asesorías técnicas la creación y fortalecimiento de organizaciones, asociaciones cívicas, comunitarias,juveniles, benéficas o de utilidad comunitarias que se puedan vincular con el Proyecto.
 
-(v) El Concesionario consultará en fuentes oficiales el tratamiento que se les ha dado a los conflictos desde las diferentes instancias del Estado, cómo ha sido la participación de las organizaciones sociales, gremios y academia; y cuál es el tratamiento que en la actualidad le están dando las administraciones municipales y regionales. Esto con el fin de establecer su posición frente a las diferentes dinámicas sociales que se presenten durante el desarrollo del Proyecto.
+(v) El Concesionario consultará en fpuentes oficiales el tratamiento que se les ha dado a los conflictos desde las diferentes instancias del Estado, cómo ha sido la participación de las organizaciones sociales, gremios y academia; y cuál es el tratamiento que en la actualidad le están dando las administraciones municipales y regionales. Esto con el fin de establecer su posición frente a las diferentes dinámicas sociales que se presenten durante el desarrollo del Proyecto.
 
-Página 40 de 79
 
 (vi) El Concesionario deberá realizar campañas de sensibilización sobre violencia sexual, mecanismos de denuncia, salud sexual y reproductiva, estereotipos de género, nuevas masculinidades, igualdad de género, trabajo de cuidado no remunerado dirigidas a la comunidad, incluidas las instituciones educativas. A su vez, estas campañas de sensibilización deberán ser realizadas de manera periódica con todo el personal, en particular, el que se encuentra asociada a la obra.
 
@@ -963,11 +915,10 @@ De igual forma, el Concesionario debe desarrollar dirigidos las actividades nece
 
 (f) Registros
 
-(i) De cada una de las actividades de socialización se deben diligenciar los registros o fuentes de verificación y relacionarlos en el informe trimestral de Gestión Social que se presenta ante la ANI, incluyendo los siguientes registros:
+(i) De cada una de las actividades de socialización se deben diligenciar los registros o fpuentes de verificación y relacionarlos en el informe trimestral de Gestión Social que se presenta ante la ANI, incluyendo los siguientes registros:
 
 (1) Acta.
 
-Página 41 de 79
 
 (2) Registros fílmicos.
 (3) Registros de asistencia.
@@ -998,7 +949,6 @@ Página 41 de 79
 El Concesionario deberá efectuar una identificación de las instituciones públicas y privadas y la oferta de proyectos y programas productivos que puedan contribuir al desarrollo y fortalecimiento de iniciativas yo emprendimientos comunitarios en el Área de Influencia.
 De la misma manera, el Concesionario trabajará con las comunidades del Área de Influencia del Proyecto, en la identificación de proyectos productivos e iniciativas a ser apoyados por parte del Concesionario, para lo cual desarrollará un plan de trabajo e identificación con las comunidades, así como una metodología para la identificación de programas y proyectos viables.
 
-Página 42 de 79
 
 (1) El Concesionario gestionará y promoverá la cooperación interinstitucional, para el desarrollo coordinado de actividades que permitan poner en marcha la iniciativa o proyecto propuesto. Así mismo, promoverá la existencia de convenios con instituciones públicas y privadas, organizaciones cívicas y comunitarias que tienen una presencia relevante en el Área de Influencia del Proyecto, para la capacitación de personas a quien se dirigirá la propuesta a ejecutar.
 (2) Se identificarán y promoverán iniciativas enfocadas a la recuperación de actividades económicas de las comunidades que se localizan sobre la Franja Operacional del Proyecto (unidades productivas) para mitigar los impactos generados por la liberación de dicha Franja Operacional para el adecuado funcionamiento y desarrollo del Proyecto. En caso de estimarse necesario, se podrá apoyar la construcción de infraestructura para reubicar actividades productivas impactadas por el desarrollo del Proyecto, en asociación con las administraciones municipales, entidades, organizaciones y actores sociales.
@@ -1010,7 +960,6 @@ Página 42 de 79
 
 (2) En ese orden, el Concesionario deberá disponer de los espacios de encuentro comunitario adecuados en las Áreas de Servicio (AS) del proyecto, tal y como se establece en el Apéndice Técnico 1 y los demás documentos que forman parte del contrato de Concesión, permitiendo a las comunidades del área de influencia espacios para el desarrollo de actividades culturales, pedagógicas y de promoción económica de productos locales, como mercados campesinos, fortaleciendo la participación comunitaria y los proyectos o iniciativas productivas.
 
-Página 43 de 79
 
 (3)Para tal fin, el concesionario deberá desarrollar un plan de trabajo, así como una metodología para la identificación de programas y proyectos viables que promueven la participación comunitaria en el proyecto y el arraigo de la región y la proyección regional, para lo cual deberá implementar las siguientes líneas de acción:
 
@@ -1029,7 +978,6 @@ En ese orden, deberá articular el plan de medios establecido en el programa de 
 
 (1) El Concesionario deberá asesorar a los mandatarios locales del Área de Influencia del proyecto en las responsabilidades que tienen a su cargo frente a la liberación y rehabilitación del Corredor del Proyecto en relación con la movilidad, el uso de la Vía Férrea y de las zonas aledañas.
 
-Página 44 de 79
 
 (2) Para tal fin, el Concesionario contará un grupo de profesionales con el conocimiento y experiencia para apoyar la actualización y la revisión de sus instrumentos de ordenamiento y planeación territorial, así como los planes de movilidad de nivel municipal que desarrollarán entre otras las siguientes actividades:
 
@@ -1051,7 +999,6 @@ Para el acompañamiento a comunidades:
 
 (4) Para el desarrollo de este programa, el Concesionario establecerá las necesidades de información y capacitación en los municipios del Área de Influencia del
 
-Página 45 de 79
 
 Proyecto; para ello, definirá una agenda con las autoridades municipales para concertar las temáticas del programa.
 
@@ -1075,7 +1022,6 @@ Proyecto; para ello, definirá una agenda con las autoridades municipales para c
 
 (3) Verificar que las implantaciones de las intervenciones sea protegida por las autoridades competentes. Así mismo, el Concesionario, de ser necesario, buscará el apoyo de las autoridades competentes, incluyendo, pero sin limitarse autoridades de Policía, con el fin de recuperar las áreas ocupadas de manera irregular en cumplimiento de las normas aplicables para este tipo de operativos. De igual manera, el Concesionario deberá emprender y presentar todas las acciones
 
-Página 46 de 79
 
 administrativas, judiciales y legales que corresponda con el fin de recuperar las áreas ocupadas ilegalmente.
 
@@ -1097,7 +1043,6 @@ administrativas, judiciales y legales que corresponda con el fin de recuperar la
 
  El Concesionario y el Interventor deberán evaluar y emitir concepto de las obras solicitadas por las autoridades territoriales, verificar que se cumpla con las condiciones de representatividad, de beneficio e interés general para una comunidad, que contribuyan al fortalecimiento del entorno social, cultural, económico, y mejoramiento del bienestar social y condiciones de vida de las mismas.
 
-Página 47 de 79
 
  Las obras que se encuentren debidamente justificadas se expondrán por parte del Concesionario e Interventor en "Comité de obras sociales de la ANI", en el cual participan como mínimo, los Vicepresidentes de Gestión Contractual o Ejecutiva, Vicepresidente de Planeación, Riegos y Entorno, Vicepresidente Jurídico, el Presidente de la ANI o su delegado y el Líder de Proyecto. En este comité se presentarán los conceptos del Concesionario y el Interventor con los argumentos técnicos, sociales, ambientales, financieros y jurídicos, así como mecanismos de ejecución y riesgos, con el fin de priorizar y aprobar aquellas obras que se estimen convenientes para la viabilidad del Proyecto a cargo de la ANI.
 
@@ -1114,7 +1059,6 @@ De todas estas actividades se deben dejar registros ya sean fotográficos, actas
 
 La realización de las actividades descritas en este programa, incluyendo la preparación de las actividades y la ejecución de las mismas es obligatoria, y su incumplimiento dará lugar a la imposición de las multas contenidas en los términos señalados en el Contrato.
 
-Página 48 de 79
 
 Adicionalmente y como parte del proceso de autoevaluación del sistema, el Concesionario deberá desarrollar metodologías que midan el avance en la identificación de iniciativas y proyectos y en su implementación, así como en cuanto a la preservación del espacio público. Los resultados de la medición de estas variables serán presentados semestralmente a la Interventoría, En ningún caso el resultado de la aplicación de la metodología de medición desarrollada por el Concesionario dará lugar a multas o sanciones, pero será utilizado como criterio para el ajuste y mejoramiento de los procedimientos implementados, de ser necesario.
 
@@ -1140,7 +1084,6 @@ Adicionalmente y como parte del proceso de autoevaluación del sistema, el Conce
 
 (i) Formulación del Programa
 
-Página 49 de 79
 
 (1) Para la formulación del Programa, el Concesionario debe adelantar y actualizar previamente un diagnóstico general de las condiciones de movilidad, sanitarias, sociales, económicas del entorno de la Vía Férrea y la infraestructura existente, a partir del cual se identifiquen las actividades que podrían afectar el Proyecto y que requieren del trabajo con la comunidad para controlar o minimizar la afectación. El diagnóstico debe realizarse con participación de la comunidad, así como la identificación de las necesidades específicas de capacitación.
 
@@ -1156,7 +1099,6 @@ Página 49 de 79
 
 (2) El Concesionario deberá realizar periódicamente campañas de sensibilización a las comunidades sobre prevención y atención de las violencias de género (sexual, física, psicológica y económica), salud sexual y reproductiva, nuevas masculinidades, igualdad de género y trabajo de cuidado no remunerado, así como para la prevención de consumo de sustancias psicoactivas. Así mismo, difundirá el protocolo para la prevención y atención de casos de violencias de género. Las campañas estarán dirigidas a la comunidad, incluidas las
 
-Página 50 de 79
 
 instituciones educativas y el personal el Concesionario En las campañas de sensibilización en salud sexual y reproductiva, el Concesionario deberá hacer especial énfasis en la prevención de embarazo temprano y salud en actividades sexuales pagas, teniendo en cuenta que estas dos situaciones fueron identificadas como problemáticas por la comunidad en la etapa de estructuración técnica del Proyecto. En relación con las campañas de prevención de sustancias psicoactivas, el Concesionario deberá enfocarse en hombres jóvenes, dado que la comunidad consideró que otra de las problemáticas es el consumo de sustancias psicoactivas en esta población, que usualmente se reúne en grupos en las cercanías a los rieles del tren. El Concesionario promoverá la participación o vinculación laboral de mujeres y jóvenes de la comunidad en la difusión de dichas campañas.
 
@@ -1179,7 +1121,6 @@ instituciones educativas y el personal el Concesionario En las campañas de sens
 
 7 .18 Programa de Arqueología Preventiva
 
-Página 51 de 79
 
 (a) Objetivo
 
@@ -1208,7 +1149,6 @@ _ʲ requeridas por medio del cumplimiento de las disposiciones legales vigentes 
 
 (i) De acuerdo con las obligaciones del Contrato, es responsabilidad del Concesionario adelantar los estudios y trámites definidos por el Instituto Colombiano de Antropología e Historia ICANH, y cumplir con la legislación vigente para la protección del patrimonio arqueológico de la Nación. Específicamente la ley 397 de 1997, modificada por la ley 1185 de 2008, el decreto 1080 de 2015, el decreto 138 de 2019 y demás
 
-Página 52 de 79
 
 normas que la complementen, modifiquen, adicionen o sustituyan. En este sentido, el Concesionario deberá cumplir como mínimo con las siguientes obligaciones:
 
@@ -1227,7 +1167,6 @@ El registro del programa de arqueología preventiva, la fase de diagnóstico y p
 
 (f) Protección de Monumentos
 
-Página 53 de 79
 
 (i) Los Bienes de Interés Cultural de la Nación, monumentos históricos, religiosos, esculturas, obras de arte, etc, deben ser objeto de protección por parte del Concesionario, por lo tanto, deberá contar con los permisos y autorizaciones correspondientes, emitidas por el Ministerio de Cultura o la autoridad local competente, para adelantar las actividades que permitan su conservación y restauración, en caso de requerirse..
 
@@ -1247,7 +1186,6 @@ Así mismo, el Concesionario deberá garantizar la realización del trámite de 
 
 Se considera como hallazgo fortuito el encuentro no proyectado de bienes constituyentes del patrimonio arqueológico de la Nación (muebles, inmuebles o contextos). En otras palabras, un hallazgo fortuito de bienes arqueológicos se puede dar únicamente en aquellos proyectos, obras o actividades que no cuentan con un Programa de Arqueología Preventiva, ya que no requieren de una
 
-Página 54 de 79
 
 Licencia Ambiental o de la aprobación de un Plan de Manejo Ambiental.
 
@@ -1264,7 +1202,6 @@ En caso de hallar bienes correspondientes al patrimonio paleontológico de la Na
 (i) El Concesionario deberá garantizar la protección de los BICN, departamentales, municipales o distritales, inmateriales y materiales, muebles e inmuebles, así como las áreas de paisajes culturales que se localicen en el Área de Influencia de las infraestructuras de transporte requeridas para el desarrollo del Proyecto, los cuales, por medio de su declaratoria, quedan sometidos al régimen especial de protección definido por la Ley Aplicable.
 (ii) En caso de ser necesaria su Intervención, el Concesionario deberá implementar las medidas pertinentes para garantizar su protección de acuerdo con lo establecido por la legislación correspondiente y previa autorización del Ministerio de Cultura
 
-Página 55 de 79
 
 (iii) competentes.
 
@@ -1276,7 +1213,7 @@ Página 55 de 79
 
 (1) Registros
 
-(i) Los registros o fuentes de verificación de cada una de las fases del Programa de Arqueología Preventiva, así como de las actividades de socialización y divulgación se presentarán de la siguiente manera:
+(i) Los registros o fpuentes de verificación de cada una de las fases del Programa de Arqueología Preventiva, así como de las actividades de socialización y divulgación se presentarán de la siguiente manera:
 
 (1) Un (1) día hábil después de emitida o recibida la comunicación:
 
@@ -1290,7 +1227,6 @@ Página 55 de 79
  Radicado de informe final del programa de arqueología preventiva ante el ICANH.
  Registro visual de los hallazgos arqueológicos más representativos, incluyendo
 bienes arqueológicos recuperados, perfiles estratigráficos, excavaciones en área y huellas de poste, entre otros.
- Listas de asistencia y registro visual de las actividades de capacitación y Página 56 de 79
 
 divulgación.
  Reporte de actividades y trámites realizados ante el ICANH en el marco de este programa.
@@ -1470,7 +1406,6 @@ f;;'111
 
 (iii) Contribuir en la formación de competencias ciudadanas para la construcción de aprendizajes y la formación de hábitos en cultura vial ferroviaria, de los niños, niñas
 
-Página 57 de 79
 
 yjóvenes que cursan educación básica y medias en las sedes educativas del Área de Influencia del Proyecto.
 (iv) Generar alianzas con entidades para fortalecer, por medio de actividades de identificación del territorio, la importancia de la valoración, conservación y transmisión del legado del patrimonio cultural, en el Área de Influencia del Proyecto por cada uno de los 25 municipios que conforman el Corredor del Proyecto.
@@ -1495,7 +1430,6 @@ Promover en los Usuarios y comunidades de la zona de influencia del proyecto, el
 
 (i) El Concesionario deberá formular y desarrollar un programa que incluya las estrategias y metodologías que, de manera complementaria a las normas y reglamentaciones existentes, procuren el uso y disfrute de la Vía Férrea y su corredor por parte de los vecinos y Usuarios, en condiciones de Seguridad y comodidad.
 
-Página 58 de 79
 
 (ií) Dentro del programa se deberá contemplar el desarrollo de actividades pedagógicas, informativas, de capacitación considerando las características culturales y sociales de la zona y todas las formas de comunicación, que permitan el cumplimiento de los objetivos del programa, considerando todos los Grupos de Interés que se identifiquen vecinos y Usuarios. La formulación del programa debe considerar las tradiciones y condiciones socioeconómicas y culturales del Área de Influencia del Proyecto.
 
@@ -1513,7 +1447,6 @@ herramientas definidas para realizar el diagnóstico deberán tener un enfoque d
  Se deberá realizar por los menos un (1) taller pedagógico cada dos (2) meses por municipio para el programa de cultura ferroviaria.
 
  Implementar la estrategia de apropiación social del patrimonio mediante el desarrollo de talleres y recorridos en las estaciones de tren con las comunidades interesadas, vinculando a los vigías del patrimonio de los municipios, si los hay. Se deberá realizar por lo menos dos (2) talleres anuales en cada una de las estaciones, excepto en las que se encuentran en
-Página 59 de 79
 
 estado de ruina, con las respectivas medidas de seguridad. La convocatoria de las reuniones se hará a través de medios locales y regionales que garanticen la participación de las comunidades. El Concesionario deberá entregar como soporte:
 
@@ -1533,7 +1466,6 @@ o Registros fotográficos.
 
 (8) Actividades con estudiantes: desde la fase de rehabilitación, se desarrollará un proyecto pedagógico en cultura vial y cultura patrimonial e histórica de las
 
-Página 60 de 79
 
 estaciones de tren para los niños, niñas y jóvenes de las instituciones educativas aledañas al corredor vial. Este proyecto pedagógico debe prever como mínimo el desarrollo de una actividad al mes en cada sede educativa.
 (9) Como parte del Programa de Cultura Vial Ferroviaria y con el objetivo de reducir la accidentalidad y el de lograr sentido de pertenencia de la comunidad del Área de Influencia del Proyecto, el Concesionario deberá implementar el servicio de transporte para la población estudiantil de dicha área, para lo cual deberá implementar acciones encaminadas a la adquisición a su costo y riesgo de los pasajes en tren para dicha población; para ello podrá establecer convenios con terceros operadores habilitados que presten el servicio de transporte de pasajeros en tren.
@@ -1556,7 +1488,6 @@ estaciones de tren para los niños, niñas y jóvenes de las instituciones educa
 
 (i) La realización de las actividades descritas en este programa, incluyendo la preparación de planes y la ejecución de las mismas es obligatoria, y su incumplimiento dará lugar a la imposición de las multas contenidas en los términos señalados en el Contrato.
 
-Página 61 de 79
 
 7 .20 Programa Acompañamiento a la Gestión Socio Predial
 
@@ -1586,7 +1517,6 @@ Página 61 de 79
 
  Definición de un portafolio de servicios inmobiliarios que contenga como mínimo lo siguiente: inmuebles identificados (lotes, áreas de terreno, viviendas o apartamentos identificados en el Área de Influencia del Proyecto), ubicación, características del inmueble, datos del propietario y
 
-Página 62 de 79
 
 costos.
 
@@ -1608,7 +1538,6 @@ costos.
 
 (4) En el evento en que, vencido el plazo para la adquisición de los Predios correspondientes a la Unidad Funcional correspondiente no se hubiere concertado con la comunidad en cuanto a las medidas a tomar para mitigar el impacto generado por el Proyecto, y siempre que el Concesionario hubiere cumplido con las obligaciones previstas en el Contrato y en la Ley Aplicable actuando con la
 
-Página 63 de 79
 
 mayor diligencia en el proceso de concertación, se aplicará los mecanismos establecidos en el Contrato.
 
@@ -1637,7 +1566,6 @@ I
 
 (i) La realización de las actividades descritas en este programa, incluyendo la preparación de las actividades y la ejecución de las mismas es obligatoria, y su incumplimiento dará lugar a la imposición de las multas contenidas en los términos señalados en el Contrato.
 
-Página 64 de 79
 
 (ii) El Concesionario deberá desarrollar metodologías que permitan hacer seguimiento y evaluar el impacto de la reubicación en las Unidades Sociales objeto del programa, así como los beneficios derivados de las acciones adoptadas por el Concesionario.
 
@@ -1645,7 +1573,6 @@ Página 64 de 79
 
 (IV) Teniendo en cuenta que el PGSC se compone de los programas establecidos en el Plan Social Básico, PAGA y PMA, el Concesionario, en todo caso debe garantizar la implementación de todos los programas requeridos por las autoridades ambientales competentes.
 
-Página 65 de 79
 
 CAPÍTULO VID PROGRAMA DE REASENTAMIENTO
 
@@ -1669,7 +1596,6 @@ El Plan de Reasentamiento para las unidades sociales identificadas, se debe form
 
 #### 8.5 Fuerza Mayor
 
-Página 66 de 79
 
 En el evento en que existiere un Evento Eximente de Responsabilidad que impidiera o retrasará el cumplimiento de las obligaciones relacionadas con el Plan de Reasentamiento, se procederá como se indica en el presente numeral.
 
@@ -1689,11 +1615,9 @@ En todo caso, la imposibilidad de efectuar una concertación con la comunidad en
 
 (g) Si para conjurar el Evento Eximente de Responsabilidad fuera necesario redefinir el trazado del proyecto y como consecuencia de ello adquirir nuevos Predios, éstos serán
 
-Página 67 de 79
 
 adquiridos de conformidad con lo previsto en el Contrato, aplicando en todo caso las previsiones para la Gestión Predial contenidas en el Apéndice Técnico 7.
 
-Página 68 de 79
 
 ### CAPÍTULO IX - HALLAZGOS DE POSIBLE INTERÉS FORENSE
 
@@ -1711,7 +1635,6 @@ En el evento en que, durante cualquiera de las Etapas o Fases del Proyecto, el C
 
 (f) El Concesionario registrará la información del hallazgo de posible interés forense en el formato establecido por la ANI.
 
-Página 69 de 79
 
 ### CAPÍTULO X - INTERACCIÓN CON OTRAS INSTITUCIONES
 -i
@@ -1726,7 +1649,6 @@ de diferente alcance con el propósito de dar viabilidad y coordinación en las 
 
 (d) Vecinos: Población propietaria y residente en las unidades sociales yo productivas requeridos para la ejecución del Proyecto; población habitante o que desarrolla algún tipo de actividad en el Área de Influencia del Proyecto.
 
-Página 70 de 79
 
 ### CAPÍTULO XI - MECANISMOS DE SEGUIMIENTO Y CONTROL
 
@@ -1748,14 +1670,13 @@ Página 70 de 79
 (h) Cronograma de actividades semestrales de acuerdo con el plan de acción anual presentado.
 (i) Personal profesional participante en la Gestión Social.
 (j) Matriz de avance de los programas del PGSC.
-(k) Registros y fuentes de verificación de los programas del PGSC.
+(k) Registros y fpuentes de verificación de los programas del PGSC.
 (1) Sábana de Compensaciones Socioeconómicas.
 (m) Informe de aplicación de Compensaciones Socioeconómicas.
 (n) Informe de Planes de Reasentamiento.
 
 11.3. El informe debe presentarse foliado y cumpliendo las normas de archivo de la ANI.
 
-Página 71 de 79
 
 ### CAPÍTULO XII - PERSONAL
 12.1. Para la ejecución de las obligaciones de Gestión Social a que se refiere este Apéndice, el Concesionario deberá contar como mínimo con el siguiente equipo social de profesionales:
@@ -1775,7 +1696,6 @@ _J
 (v) Una (1) persona profesional de las ciencias sociales experta en enfoque de género y diferencial, con el fin de brindar asesoría sobre la implementación del enfoque de género e inclusión del PGSC y garantice su cumplimiento de manera transversal en toda la fase. Profesional en ciencias sociales con experiencia general de cuatro (4) años en proyectos de desarrollo comunitario y dos (2) de ellos desarrollando temas de enfoque de género o diferencial.
 
 (vi) Tres (3) profesionales de las ciencias sociales para la implementación del programa de Acompañamiento a la Gestión Socio predial para cada uno de los tramos del corredor férreo. Cada profesional deberá contar con tres (3) años de experiencia en proyectos de Gestión Social o trabajo comunitario, dos (2) de los cuales deben ser de
-Página 72 de 79
 
 experiencia específica en obras de infraestructura vial o ferroviaria en el manejo de programas donde se haya aplicado la resolución 545 de 2008 de la ANI yo la resolución 077 de 2012 de la ANI.
 
@@ -1795,7 +1715,6 @@ experiencia específica en obras de infraestructura vial o ferroviaria en el man
 
 (i) Un (1) Director Social, responsable de la Gestión Social del Proyecto, la implementación de los instrumentos de Gestión Social y el relacionamiento comunitario, social y político con los diferentes actores sociales intervinientes en el proyecto. Profesional de las ciencias sociales, con especialización y experiencia general de seis (6) años en la formulación y ejecución de proyectos sociales y el desarrollo de proyectos comunitarios, tres (3) de ellos como coordinador de proyectos en el área de infraestructura vial.
 
-Página 73 de 79
 
 (ii) Dos (2) profesionales sociales, responsables de la atención en los centros de atención a la comunidad. Profesionales de las ciencias sociales con experiencia general de dos
 (2) años en proyectos de desarrollo comunitario.
@@ -1810,7 +1729,6 @@ Página 73 de 79
 
 (vi) No obstante, el equipo mínimo establecido para los instrumentos de Gestión Social, el Concesionario deberá contar con el personal necesario para el cumplimento de las obligaciones de Gestión Social establecidas en el presente Apéndice y en el Contrato.
 
-Página 74 de 79
 
 ### CAPÍTULO XIII - DISPOSICIONES SOBRE COMUNICACIONES INSTITUCIONALES
 
@@ -1835,7 +1753,6 @@ El plan de comunicaciones debe ser socializado y validado con la Oficina de Comu
 
 (c) Difundir constantemente de manera veraz y precisa, a través de medios masivos de comunicación y canales de comunicación propios, los avances de obra yo acciones alrededor del Proyecto en materia de tarifas, empleabilidad, productividad, educación, seguridad vial, conectividad, proyectos, iniciativas y acciones que contribuyan al desarrollo social de las comunidades, entre otras; mediante productos como boletines de
 
-Página 75 de 79
 
 prensa, comunicados, videos, mensajes en redes sociales, recorridos y otros que el Concesionario considere estratégicos para informar de manera eficaz.
 
@@ -1864,7 +1781,6 @@ Cada canal creado deberá ser relacionado en la base de datos que se determine p
 (3) Vallas.
 (4) Videos y fotografías del Proyecto que permitan visualizar los avances de las Intervenciones en el tiempo, así como los alcances e impactos del mismo, los cuales pueden ser solicitados a demanda por la Oficina de Comunicaciones de la ANI.
 (5) Para la publicación en la plataforma que establezca la ANI, el Concesionario deberá realizar un video mensual de 2 minutos de duración, en el que se mostrarán los
-Página 76 de 79
 
 avances del Proyecto. El video deberá ser entregado a más tardar dentro de los primeros diez (10) Días de cada Mes de conformidad con el procedimiento del sistema de gestión de calidad de la ANL
 (6) Publicaciones impresas para el caso de las comunidades que no tengan acceso a medios virtuales, de acuerdo con las particularidades de la población del Área de Influencia del Proyecto.
@@ -1882,7 +1798,6 @@ avances del Proyecto. El video deberá ser entregado a más tardar dentro de los
 (vii) Perifoneo
 (viii) Todos aquellos que consideren estratégicos.
 
-(d) Como mínimo, el Concesionario deberá hacer una publicación de manera trimestral en su página web y bajo los términos establecidos en el plan de comunicaciones (incluyendo otros canales y productos) de información relacionada con el desarrollo del Proyecto, la historia del Proyecto, el patrimonio arqueológico (de presentarse), proyectos, iniciativas yactividades que desde el Proyecto contribuyan al desarrollo social de las comunidades, y se promoverán también las actividades turísticas, culturales y recreativas del Área de Influencia del Proyecto. Se publicará además las experiencias de concertación con la comunidad, historias de vida de pobladores, historias de lugares con significado para la comunidad que han sido incorporados al Proyecto, así como cualquier otra información de la ANI que entregue la Oficina de Comunicaciones al Concesionario.
 
 (e) Los contenidos generados deben contar con los formatos de autorización de uso de imagen de conformidad con el procedimiento del sistema de gestión de calidad de la ANL
 
@@ -1890,7 +1805,6 @@ avances del Proyecto. El video deberá ser entregado a más tardar dentro de los
 
 (a) El Concesionario deberá desarrollar un programa de difusión en medios que permita informar de manera permanente sobre el desarrollo del Proyecto. Este programa de difusión en medios debe ser socializado y validado con la Oficina de Comunicaciones de la ANI en los términos del numeral 13.l(b).
 
-Página 77 de 79
 
 (b) Dentro del programa de difusión en medios elaborado por el Concesionario de conformidad con este numeral, se deberán incorporar recursos destinados a la divulgación de mensajes institucionales estratégicos, en el cual se deberán evidenciar los objetivos y los medios o canales más eficientes según las necesidades y población: prensa, radio, medios digitales, televisión, BTL, perifoneo, entre otros.
 
@@ -1914,7 +1828,6 @@ Página 77 de 79
 #### 13.6 Lenguaje
 (a) Cada producto de comunicación impreso, digital o audiovisual, elaborado por el Concesionario yo la información difundida por el vocero del Concesionario en el marco del Proyecto, debe conservar un lenguaje claro y sencillo para entendimiento por parte de la comunidad y los medios de comunicación.
 
-Página 78 de 79
 
 (b) El nombre del Proyecto debe ser escrito en cada uno de los productos de comunicaciones elaborados (impreso, digital o audiovisual) o comunicado de manera verbal, tal cual como aparece en el Contrato.
 
@@ -1934,19 +1847,15 @@ Página 78 de 79
 
 (a) Cuando se deban realizar eventos relacionados con el Proyecto y con la participación del Ministerio de Transporte yo Presidencia de la República, la ANI podrá requerir al Concesionario para que este ponga a disposición ciertos elementos necesarios para el adecuado desarrollo del mismo. La ANI deberá enviar una solicitud describiendo cada uno de los elementos requeridos.
 
-VoBo: liana Restrepo Brand - Gerente de proyectos VPRE
 
-Página 79 de 79
 
----
 
-## ADVERTENCIA LEGAL
 
-Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo técnico del proyecto antes de ser utilizada formalmente.
 
----
 
 **Estado del documento:** Formateado - 02/10/2025  
 **Versión:** 1.0  
 **Responsable:** Administrador Contractual EPC  
 **Próxima actualización:** 02/11/2025
+
+

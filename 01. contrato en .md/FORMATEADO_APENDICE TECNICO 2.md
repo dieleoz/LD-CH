@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO
+# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO
 
 ## Proyecto Corredor Férreo La Dorada - Chiriguaná 
 **Fecha de actualización:** 02 de octubre de 2025 
@@ -6,21 +6,7 @@
 **Contrato:** Concesión No. 001 de 2025 
 **Apéndice:** AT2
 
----
 
-## INFORMACIÓN DEL DOCUMENTO | Campo | Valor | |-------|-------| | **Fecha de actualización** | 02 de octubre de 2025 | | **Proyecto** | APP La Dorada - Chiriguaná | | **Contrato** | Concesión No. 001 de 2025 | | **Responsable** | Administrador Contractual EPC | | **Tipo** | Apéndice Técnico | | **Número** | AT2 | | **Estado** | ✅ Contenido completo |
-
----
-
-## DESCRIPCIÓN DEL DOCUMENTO **Condiciones para la Operación y el Mantenimiento** Este apéndice técnico establece las condiciones, procedimientos y estándares para la operación y mantenimiento del Corredor Férreo La Dorada-Chiriguaná durante el período de concesión.
-
----
-
-## CONTROL DE VERSIONES | Versión | Fecha | Responsable | Descripción | |:---:|:---:|:---|:---| | **v1.0** | Ene-2025 | Ing. Contractual | Conversión de PDF original | | **v2.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada | | **v3.0** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada |
-
----
-
- libertad y Orden
 
 # REPÚBLICA DE COLOMBIA
 
@@ -36,7 +22,6 @@ ESQUEMA DE APP No. 001 DE 2025 Entre: Concedente:
 
 ## AGENCIA
 
-NACIONAL DE INFRAESTRUCTURA Concesionario: CONCESIÓN LINEA FÉRREA CENTRAL S.A.S APÉNDICE TÉCNICO 2 CONDICIONES PARA LA OPERACIÓN Y EL MANTENIMIENTO Página ft]de 6(f1 TABLA DE CONTENIDO . CAPÍTULO! CAPÍTULO 11 INTRODUCCIÓN 5 OBLIGACIONES A CARGO DEL CONCESIONARIO 6
 
 #### 2.1 Servicios de carácter obligatorio ; 6
 
@@ -102,7 +87,7 @@ superior de los rieles en la
 
 zona de las uniones 48 6.4.6 Juntas de rieles 48 6.4.7 Fijación del riel 49 6.4.8 Balasto 49 6.4.9 Traviesas 49 6.4.10 Pasos a nivel: Barreras, semáforos, alarmas, señales verticales, defensas y
 
-elementos de contención 50 6.4.11 Señalización Vertical y Señalización Horizontal en pasos a nivel 51 Página :{1de i 6.4.12 Señales Verticales sobre la Vía Férrea y vías vehiculares 51 6.4.13 Demarcación Horizontal vías vehiculares 52 6.4.14 Iluminación 52 6.4.15 Drenajes 52 6.4.15.1 Limpieza de
+elementos de contención 50 6.4.11 Señalización Vertical y Señalización Horizontal en pasos a nivel 51  6.4.12 Señales Verticales sobre la Vía Férrea y vías vehiculares 51 6.4.13 Demarcación Horizontal vías vehiculares 52 6.4.14 Iluminación 52 6.4.15 Drenajes 52 6.4.15.1 Limpieza de
 
 obras de drenaje 53 6.4.15.2 Reconstrucción de cunetas y
 
@@ -226,7 +211,6 @@ Vigilancia de la Infraestructura que se menciona en el Apéndice Técnico 1, que
 
 parte de terceros de los
 
-activos de la Nación y de sus bienes muebles e inmuebles, que incluyen la prevención de invasión a los mismos. Página 7]de 66[1 r) Mantenimiento rutinario y periódico de los equipos que comprenden el material tractivo. s) Mantenimiento rutinario y periódico de los
 
 equipos de comunicación instalados en el Material Rodante tractivo. t) Mantenimiento rutinario y periódico de los equipos que comprenden el Material Rodante remolcado. u) Vigilancia del Material Rodante. v) El Concesionario deberá cumplir con el
 
@@ -256,7 +240,6 @@ proceso de reversión al INVIAS, y dicho ramal no será objeto de Operación y M
 
 perjuicio de lo anterior, el Concesionario se obliga a la
 
-vigilancia de este ramal, entendiendo vigilancia como salvaguardar que no sea vandalizada la infraestructura férrea, y Página !:de jJ} de que no se generen nuevas invasiones a lo
 
 largo de este ramal, cuyo ancho de 30 m (15 m a cada lado medidos desde el
 
@@ -474,7 +457,6 @@ continuidad de la Prestación del Servicio Público de Transporte
 
 Ferroviario de Carga. Este
 
-tipo de equipamiento debe permitir una rápida y Página f deIp eficiente respuesta ante circunstancias que puedan ocurrir sobre el Corredor del Proyecto, independientemente de su origen o de la causa del hecho. Para este fin, el Concesionario deberá tener en cuenta los siguientes aspectos: Tiempo de atención para la transitabilidad ante emergencias: El Concesionario deberá instalar y poner en servicio los elementos para la atención de la emergencia a más tardar en un
 
 plazo de siete (7) Días después de la adecuación de la subestructura requerida para su implantación. El Concesionario garantizará que todos los elementos para la atención de la emergencia y los equipos requeridos para el montaje se encuentren en el
 
@@ -564,7 +546,6 @@ memorias de cálculo indicarán las cargas provenientes del elemento modular par
 
 tipo de carga y combinación del código de diseño, con lo cual se permita un rápido dimensionamiento y posterior diseño del apoyo y, en
 
-caso de ser requerido, disponer de una solución atípica para la subestructura. Página tW de'; Estos documentos serán puestos a disposición de la Interventoría en un plazo no mayor a noventa (90) días contados a
 
 partir de la
 
@@ -612,7 +593,6 @@ respecto de cada
 
 uno de los servicios que debe prestar el Concesionario y serán evaluados en términos de los Indicadores a que hace referencia el Apéndice Técnico 4, para los servicios del literal (a) del CAPÍTULO II, yo de las obligaciones
 
-objeto de sanciones citadas en el numeral 3.1.1 de este Apéndice Técnico. Página i) des 3.1. 6 Calidad del Servicio Técnico y de la Atención al Operador Es la obligación que tiene el
 
 Concesionario de asegurar la Operación
 
@@ -658,7 +638,6 @@ integridad de la misma. La
 
 infraestructura de tecnología de información debe cubrir también, entre otros, el Corredor del Proyecto, todos los apartaderos en uso, las vías de desvío, las áreas de servicio, centros de transferencia y el
 
-centro de control de operación - CCO, así como todo el Material Rodante utilizado por el Concesionario. Página ( de" 3.1.9 Supervisión de las Obras El Interventor verificará el
 
 cumplimiento de la disponibilidad parcial en los términos del artículo 2.2.2.1.13.3 del Decreto 1278 de 2021 y los estándares de
 
@@ -746,7 +725,6 @@ permiso de operación), como para aquellas necesarias ante cualquier eventual em
 
 Reglamento de Operación de Trenes debe contener capítulos dedicados a las principales áreas de Operación: i.
 
-Control de Tráfico Férreo: Implantar una metodología para ejecutar la gestión de ocupación, control y regulación del tráfico férreo para una operación segura y eficiente. ii. Señalización ferroviaria: Se realiza para facilitar la operación de los trenes primando la Seguridad, tanto para el personal como para los bienes materiales. Página ]J deH, Todo el personal que intervenga en la operación de trenes deberá conocer, implementar e interpretar correctamente las señales y respetar las órdenes que por su intermedio se impartan. m.
 
 Sistemas de comunicación para el control y tráfico de trenes. b) El
 
@@ -854,7 +832,6 @@ superestructura de la Vía Férrea y las
 
 instalaciones de los diferentes sistemas, de acuerdo con los
 
-planes de Página deI:6 mantenimiento establecidos y aprobados y deberá contar con la no objeción de la Interventoría.
 
 Plan de Aseguramiento de la Calidad y Control, y de la
 
@@ -1046,7 +1023,6 @@ Conexiones de ramales férreos (ix) Estaciones o paradas para la prestación del
 
 servicio de transporte de pasajeros c) La ANI determinará cuáles de las intervenciones, por su naturaleza objeto del
 
-permiso de ocupación temporal, deberán quedar a cargo del Concesionario para su Operación y Mantenimiento. Página 27 de .6 3.3.8 Operación del puente vehicular y peatonal sobre el rio Sogamoso y respectivos
 
 ramales de conexión a) Durante un plazo mrrumo de 180 Días a
 
@@ -1140,7 +1116,6 @@ Planes de Contingencia y Emergencia. Las
 
 actualizaciones de este sistema tendrán en cuenta las sugerencias del Interventor y de la ANI. Adicionalmente, el sistema deberá estar en línea y la ANI, podrá consultarlo y contar con acceso a él en tiempo real a través de las
 
-credenciales de acceso respectivas (usuario y contraseña) desde cualquier lugar requerido. Página 2 deI El Concesionario deberá gestionar en todo momento el archivo en el software y Memoria Técnica de cada UFVF, estableciendo un procedimiento para actualizarlos cada vez que una
 
 Obra de Mantenimiento, Rehabilitación yo Mejoramiento los modifique.
 
@@ -1182,7 +1157,6 @@ desviaciones de cumplimiento de itinerarios, en
 
 caso de presentarse. Relación de eventos operacionales relevantes, incluyendo incidentes y accidentes. 4.2.2 Informes Mensuales A más tardar el quinto (5) Día de cada mes, el Concesionario deberá presentar dos (2) copias (una a la ANI y otra a la Interventoría) del "Informe Gerencial Mensual" en archivo editable y "PDF", que contendrá como mínimo la siguiente información: a) Información de los tráficos del mes, mallas operacionales, clasificados por Día y
 
-hora de inicio y finalización, tramo, sentido de Circulación y ficha del estado y tipo del Material Rodante. Página j de[ b) Información de accidentes, relacionando cada
 
 uno de ellos en una ficha que contendrá al menos los siguientes datos: 1. Localización del accidente o incidente (abscisa). n.
 
@@ -1370,7 +1344,6 @@ cumplimiento de los surcos.
 
 General de Archivo), Acuerdos reglamentarios y demás normatividad archivística en Colombia, y demás disposiciones vigentes, durante la ejecución del Contrato. Por lo anterior, en la
 
-Etapa de Reversión el Concesionario debe entregar su archivo bajo los Página 1, de[! siguientes criterios, excepto para el literal h que debe cumplirse durante todo el plazo del Contrato: Presentación de documentos, informes y estudios durante la ejecución del Contrato En el
 
 programa de gestión
 
@@ -1386,7 +1359,6 @@ mensaje de datos con un momento o
 
 periodo de tiempo concreto, el cualpermite establecer con unaprueba que estos datos existían en ese momento o
 
-periodo de tiempo y que no sufrieron ninguna modificación a partir del momento en que se realizó el estampado ". Por lo anterior, para radicar la documentación a través de la página web debe contar con firma digital y estampado cronológico. Se exceptúan los expedientes prediales que se tramitan únicamente en físico, una vez se finalicen los trámites de compra yo expropiación se deben entregar la
 
 totalidad de las carpetas digitalizadas en formato PDFA y en original, conforme lo indique el Grupo
 
@@ -1406,7 +1378,7 @@ Petri de agar Sabouraud con antibiótico, el chequeo deberá hacerse sobre una m
 
 captura de esporas para germinar enPDA Entregar el certificado que emite la empresa que realiza la fumigación para el
 
-control de microorganismos aplicar la desinfección T SANYTISER ULV mediante la técnica de aspersión y nebulización Control químico de roedores con
+control de microorganismos aplicar la desinfección SANITIZER ULV mediante la técnica de aspersión y nebulización Control químico de roedores con
 
 rodenticida de segunda generación mediante la instalación de cebos tóxicos y
 
@@ -1682,7 +1654,6 @@ Obras de Mantenimiento para asegurar la continuidad del
 
 servicio de la Infraestructura y del Material Rodante del Proyecto o cualquiera que se utilice para la Prestación del Servicio Público de Transporte
 
-Ferroviario de Carga y encaminados a mantenerlos en condiciones adecuadas. Página 4 de:;, Estas actividades también incluyen las relacionadas con la gestión de la conservación y su componente administrativo referido a la continuidad del servicio. Por ello, el Concesionario deberá apoyar a las Autoridades Estatales en temas como, la vigilancia, etc. Por último, también se incluyen
 
 actividades de uso y
 
@@ -1726,13 +1697,12 @@ naturaleza de estas actividades: a) Mantenimiento y reparación de terraplenes e
 
 Sistema de señalización, comunicación y
 
-control de tráfico (vii) Instalaciones (viii) Elementos electromecánicos (ix) Entre otros. Página 4 dl6 c) Mantenimiento preventivo y rutinario yo reparación (correctivo) de: (i) Vía Férrea (ii) Vía de servicio (iii) Vías
 
 internas de centro de
 
 transferencia de carga, talleres, edificios administrativos y en general toda edificación objeto del Contrato (iv) Box culvert (v)
 
-Red de drenaje: Cunetas, cajas (vi) Alcantarillas (vii) Puentes (viii)
+Red de drenaje: Cunetas, cajas (vi) Alcantarillas (vii) puentes (viii)
 
 Estructuras de contención o protección de la
 
@@ -1786,44 +1756,16 @@ Interventor de acuerdo con las normas aplicables listadas en el Apéndice Técni
 
 una de las operaciones necesarias para el remplazo yo corrección de defecto en los rieles. Las tareas incluidas en estas
 
-actividades de Mantenimiento se presentan a continuación: Tabla 3-Tareas reparación yo corrección de rieles - grietas. horizontal Aplicación de
+##### Tabla 3 - Tareas de reparación y/o corrección de rieles (Defectos)
 
-correctivos de acuerdo con el
-
-Plan de Se refiere a una grieta horizontal del riel Mantenimiento no objetado y
-
-debajo de las bridas. Puede verse un normas
-
-aplicables de acuerdo al agrietamiento
-
-debajo de la cabeza o una zona Apéndice Técnico 3. de em alme ru oso. Página 4- de'._6 Grieta vertical Se refiere a una grieta vertical a través de o
-
-cerca de la
-
-mitad de la cabeza, y que se . . , extiende dentro O a través de ella. Puede Aplicación de
-
-correctivos de verse una rajadura o una
-
-traza de herrumbre acuerdo_ . con el
-
-Jan de por
-
-debajo de la cabeza cerca al alma o Mantenimiento no objetado y algunos pedazos pueden estar normas
-
-aplicables de acuerdo al descompuestos en las caras
-
-laterales de la Apéndice Técnico 3. cabeza. Grieta en el alma Aplicación de
-
-correctivos de Es una rajadura a lo largo del costado del acuerdo con el
-
-Plan de alma que se extiende dentro o a través de Mantenimiento no objetado y ella. normas
-
-aplicables de acuerdo al Apéndice Técnico 3. Desgaste Ancho Hongo del Desgaste del ancho del hongo del riel en la del
-
-superficie de rodadura con la
-
-posibilidad de Cambio de riel. variación en la trocha. Aplastamiento. Disminución en la altura del riel y en la C b. d 1 re . , h d 1 , am 10 e ne . 1acron a1tura anc o e patm. Patinadura Defecto causado por la
-
+| Defecto | Descripción | Acción Correctiva |
+|:---|:---|:---|
+| **Grieta Horizontal** | Se refiere a una grieta horizontal del riel debajo de las bridas. Puede verse un agrietamiento cerca de la mitad de la cabeza, expandiéndose a través de ella. | Aplicación de correctivos según el Plan de Mantenimiento y normas técnicas del Apéndice Técnico 3. |
+| **Desgaste de Hongo** | Desgaste vertical o lateral del hongo del riel (H), altura (h) y ancho de patín. | Cambio de riel o aplicación de correctivos si supera los umbrales de la norma FRA Clase 3. |
+| **Aplastamiento** | Deformación plástica de la cabeza del riel por cargas excesivas o fatiga del material. | Esmerilado o cambio de riel según severidad. |
+| **Patinaduras (Engine Burns)** | Daño superficial causado por el patinaje de las ruedas de la locomotora. | Esmerilado de riel o soldadura de recargue según profundidad. |
+| **Grieta en el Alma** | Rajadura a lo largo del costado del alma del riel. Puede presentar trazas de herrumbre. | Cambio inmediato de riel si compromete la integridad estructural. |
+| **Empalme Dudoso/Rugoso** | Defecto en la zona de soldadura o unión de rieles que genera vibraciones excesivas. | Nivelación y esmerilado de la zona de empalme. |
 rueda de la locomotora al momento del arranque por Relle?o. con solda?ra dentro e deficiencias en la tracciónadherencia o los límites permitidos, cambio error humano durante el arranque del tren. de riel. 6.4. 3 Fisuras El Concesionario se obliga a mantener, en todo momento, el estado del riel
 
 libre de cualquier
@@ -1842,7 +1784,6 @@ disponibilidad de la Vía Férrea ni los Surcos para la operación y los Indicad
 
 una de las operaciones necesarias para el remplazo yo corrección de los rieles. Las tareas incluidas en estas
 
-actividades de Mantenimiento se presentan a continuación: Página 4 de!II'. Tabla 4-Tareas reparación yo corrección de rieles - fisuras. Fisura transversal Fisura compuesta Es una fractura transversal progresiva que comienza en un centro cristalino o núcleo al
 
 interior de la cabeza del riel desde donde se propaga al exterior como una superficie pulida, clara u oscura, redonda u ovalada, prácticamente en ángulo recto con la longitud del riel. Los rasgos que distinguen a una fisura
 
@@ -1852,7 +1793,7 @@ tipos de fisuras o defectos son el centro cristalino o núcleo y la superficie c
 
 abajo de la cabeza del riel con una superficie pareja, brillante u oscura, y sigue avanzando hasta formar un ángulo recto con la longitud del riel. Las fisuras compuestas requieren la inspección de ambos
 
-lados de la fractura para localizar la grieta horizontal su erior desde la cual inicia. Se refiere a una fractura progresiva que se origina en o
+lados de la fractura para localizar la grieta horizontal superior desde la cual inicia. Se refiere a una fractura progresiva que se origina en o
 
 cerca de la
 
@@ -2058,7 +1999,6 @@ tanto de la Vía Férrea
 
 como de aquellas señales sobre vías vehiculares, conforme al
 
-manual de señalización del Página ti) de{ Ministerio de Transporte.
 
 Mantenimiento de la Señalización horizontal, conforme a lo indicado en el
 
@@ -2108,7 +2048,6 @@ uno de los aspectos considerados en el
 
 sistema de control para la Señalización. El Concesionario deberá sustituir la Señalización yo los
 
-dispositivos de Señalización Página s;i del6 dañados de manera inmediata tan pronto como lo advierta o le sea comunicado por la Interventoría o la ANI, , así como cuando se advierta que la falta, avería o mala
 
 reflectividad de un dispositivo puedan generar
 
@@ -2194,7 +2133,6 @@ dentro de sus obligaciones y a petición de la Interventoría, por lo general de
 
 actividades de rocería para apreciar mejor la basura oculta entre la vegetación, y realizando recuentos
 
-visuales de los elementos que conforman la Infraestructura. Para respaldar estas inspecciones, el Concesionario controlará al menos semanalmente y de forma visual la condición de estas zonas, comprobando que no existan peligros para la operación o que disminuyan la Seguridad férrea. Página s]i det . 6.4.16.1 Rocería ypoda de árboles. Sin
 
 perjuicio de la obligación del
 
@@ -2350,9 +2288,8 @@ Tipos de obras para BIC inmuebles, el Concesionario, para el Mantenimiento y la 
 
 peligro de ruina o riesgo inminente, o que haya sufrido daños por agentes naturales opor la acción humana. Incluye accionesy obras
 
-provisionales de protección para detener o prevenir daños mayores". Por tal razón, el Concesionario deberá implementar sobrecubiertas y cerramientos en aquellas estaciones que se encuentran en ruinas y que se describen en el Apéndice Técnico 1. Página 1 deij Reparaciones locativas: según lo establecido en el Artículo 2.4.1.4.4 del Decreto 1080 de 2015 las reparaciones locativas consisten en "Obras puntuales para mantener el inmueble en las debidas
 
-condiciones de higiene y ornato sin afectar su materia original, suforma e integridad, su estructura portante, su distribución interior y sus característicasfuncionales, ornamentales, estéticas, formales yo volumétricas". Por tal razón, el Concesionario deberá implementar durante todo el plazo del Contrato las siguientes medidas en todas las estaciones que no se encuentren en
+condiciones de higiene y ornato sin afectar su materia original, su forma e integridad, su estructura portante, su distribución interior y sus características funcionales, ornamentales, estéticas, formales yo volumétricas". Por tal razón, el Concesionario deberá implementar durante todo el plazo del Contrato las siguientes medidas en todas las estaciones que no se encuentren en
 
 estado de ruina y que se describen en el Apéndice Técnico 1: Limpieza, desinfección y fumigación general del inmueble y
 
@@ -2580,7 +2517,6 @@ cimentaciones de estribos y pilas. Revisión de las estructuras en
 
 concreto de intercambio entre las estructuras metálicas de los puentes y los
 
-terraplenes de la vía. Página t de1 Presencia de fisuras. Se deberá revisar la
 
 presencia de fisuras, y si existen, medir su espesor y longitud; asimismo, se determinará si se
 
@@ -2666,7 +2602,7 @@ personal de mantenimiento. Mantenimiento Hard Time (HTMT): Revisión total del e
 
 consumo de energía. Mantenimiento normativo técnico - legal: Similar al mantenimiento preventivo y se hará sobre las instalaciones o elementos sometidos a ciclos preestablecidos con calendario planificado, al
 
-efecto de actuar de conformidad con la legislación del sector correspondiente. Página de Mantenimiento conductivo: Acciones
+efecto de actuar de conformidad con la legislación del sector correspondiente. 
 
 continuadas de control de las
 
@@ -2684,7 +2620,6 @@ tipo de instalaciones. Para este
 
 tipo de Mantenimiento se utilizarán
 
-instrumentos de diagnóstico, aparatos y pruebas no destructivas. VoBo: Adriana María Montañez Saenz - VE p.MS Fredy Leandro Espejo Fandiño - VE
 
 ---
 
@@ -2698,4 +2633,6 @@ antes de ser utilizada formalmente.
 **Versión:** 1.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 02/11/2025 
+
+
 
