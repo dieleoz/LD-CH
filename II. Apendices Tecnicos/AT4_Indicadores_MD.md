@@ -408,26 +408,52 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 
 ## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
 **Documento:** AT4_Indicadores_MD v4.1
-**Dictamen:** ✅ APROBADO CON ALERTAS DE RIESGO FINANCIERO
+**Dictamen:** 📊 APROBADO CON ALERTAS DE RIESGO FINANCIERO
 
 ### 📊 ANALISIS ESTRATÉGICO
 Este documento es el **"Motor Financiero"** del proyecto: define las reglas matemáticas para el pago de la Retribución y las Deducciones.
 
+---
+
 ### ✅ VALIDACIÓN DE CONTENIDO (LO QUE GOBIERNA EL PAGO)
-1. **El "Juez Digital" (SICC - Indicador E3):** Peso del 7.77% en UF1. Una caída del SICC puede declarar "Pérdida de Información", asumiendo el peor valor para todos los demás indicadores.
-2. **Pesos Ponderados:** DMR (40% carga), DVF (29.89%). El MD incorpora métricas de Ciberseguridad e Interoperabilidad FENOCO.
-3. **Tiempos de Corrección:** COM1 (1 hora), DMR (4 horas). Requiere SLAs de soporte más estrictos que estos plazos.
 
-### ⚠️ ACTUALIZACIÓN PUNTO 42
-- **Integración ITCS:** Captura de logs automáticos de locomotoras.
-- **Ciberseguridad NIST:** Los incidentes se consideran incumplimiento de disponibilidad, no fuerza mayor, si no hay debida diligencia.
-- **Interoperabilidad:** La detención de trenes FENOCO por fallas propias cuenta como indisponibilidad de vía (DVF).
+1. **El "Juez Digital": Sistema SICC (Indicador E3)**
+* **El Riesgo:** El SICC no es un simple software de reportes; es el mecanismo de facturación. Según la Sección 4.3 del MD y la Tabla 6 del PDF, el indicador E3 (Disponibilidad del SICC) tiene un peso del **7.77%** en la Unidad Funcional 1.
+* **Consecuencia:** Si el servidor del SICC se cae o el software falla (disponibilidad < 99.5%), no solo pierdes el 7.77% del pago, sino que la Interventoría puede declarar **"Pérdida de Información"** (Sección 5.4.4 MD / PDF 5.4.4), lo que conlleva a asumir el peor valor posible para todos los demás indicadores.
+* **Acción:** La exigencia del MD de "Redundancia N+1" en servidores no es un lujo, es una medida de protección financiera obligatoria para asegurar ese 99.5%.
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Sistemas (SICC):** Diseño en Alta Disponibilidad (HA). La caída es contractualmente inaceptable.
-2. **Mantenimiento:** Garantizar DMR ≥ 95% con paritarias en ventanas no operativas.
-3. **Defensa Contractual:** Documentar fallas de interoperabilidad ajenas como Eventos Eximentes inmediatamente.
+2. **Pesos Ponderados de Deducción (Tabla de la Verdad)**
+El documento refleja fielmente la estructura de pesos que impacta la caja del EPC, validada contra el PDF original (Tabla 6 y 9):
+* **DMR (Disponibilidad Material Rodante):** 40% del componente de carga. Si una locomotora falla, el impacto es masivo en la facturación.
+* **DVF (Disponibilidad Vía Férrea):** 29.89%.
+* **Indicadores Nuevos (v4.1):** El MD incorpora métricas para Ciberseguridad ("Cero incidentes exitosos") e Interoperabilidad FENOCO. Aunque no tienen un peso porcentual explícito en la tabla original del PDF, su incumplimiento afecta el indicador macro de "Disponibilidad de Sistemas" (COM1) o Seguridad (ST).
 
-**VEREDICTO FINAL:** Herramienta de gestión crítica. Los umbrales (99.5% - 99.95%) exigen equipos de respuesta rápida 24/7.
+3. **Tiempos de Corrección (Plazos Fatales)**
+* **Ejemplo:** Para una falla en comunicaciones (COM1), tienes **1 hora** para reparar. Si tardas 2 horas, aplica deducción.
+* **Ejemplo:** Para el indicador DMR (Material Rodante), el tiempo máximo es **4 horas**.
+* **Estrategia:** El equipo de O&M debe tener contratos de soporte con SLAs (Acuerdos de Nivel de Servicio) más estrictos que estos tiempos (ej. exigir al proveedor 30 min de respuesta).
 
-⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. La aplicación de deducciones es automática sobre la factura semestral y no requiere proceso sancionatorio previo.
+---
+
+### ⚠️ ACTUALIZACIÓN PUNTO 42 (LOS NUEVOS VECTORES DE RIESGO)
+La versión v4.1 introduce controles para mitigar los riesgos de la modernización tecnológica:
+1. **Integración ITCS ETCS L2:** Se exige que el SICC capture logs automáticos de las locomotoras. Si el sistema de señalización a bordo falla, el tren se detiene y afecta el indicador DMR.
+2. **Ciberseguridad NIST:** Se crea un "Indicador de Ciberseguridad". Un ataque de ransomware que bloquee el CTC se considerará un incumplimiento del indicador de disponibilidad, no un evento de fuerza mayor, a menos que se demuestre la debida diligencia (cumplimiento NIST/IEC 62443).
+3. **Interoperabilidad FENOCO:** Se establecen métricas de "handshake" en frontera. Si el tren de FENOCO se detiene por culpa de nuestros sistemas, cuenta como indisponibilidad de vía (DVF) o falla de coordinación.
+
+---
+
+### 🚀 INSTRUCCIONES AL EQUIPO (PLAN DE ACCIÓN)
+1. **Instrucción a Sistemas (SICC):** "El diseño del SICC debe incluir Alta Disponibilidad (HA) con replicación en tiempo real. No se acepta una arquitectura de servidor único. La caída del SICC es inaceptable contractualmente (Indicador E3, Peso 7.77%)".
+2. **Instrucción a Mantenimiento (Material Rodante):** "El Plan de Mantenimiento de Locomotoras debe garantizar un DMR ≥ 95%. Las paradas por mantenimiento preventivo deben programarse en ventanas no operativas para no afectar el numerador de la fórmula (DMR = Días Operativos / Días Programados)".
+3. **Defensa Contractual (FENOCO):** Utilizar la Sección 6 (Gestión de Riesgos) del documento para documentar cualquier falla de interoperabilidad. Si la falla es causada por sistemas de FENOCO, se debe radicar inmediatamente como Evento Eximente para proteger el indicador DVF.
+
+---
+
+### ✅ VEREDICTO FINAL
+El documento "AT4_Indicadores_MD v4.1" es una herramienta de gestión crítica.
+* **Estado:** Listo para implementación en el Plan de Gestión del Proyecto.
+* **Advertencia:** Los umbrales de disponibilidad (99.5% - 99.95%) son estrictos. El presupuesto de O&M debe reflejar los costos de los equipos de respuesta rápida necesarios para cumplir con los "Tiempos Máximos de Corrección" (1 hora / 4 horas).
+
+⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. La aplicación de deducciones es automática sobre la factura semestral (Sección 4.6 del Contrato) y no requiere un proceso sancionatorio previo, por lo que el monitoreo en tiempo real (SICC) es la única defensa efectiva.
+
