@@ -51,34 +51,34 @@ Este apéndice técnico contiene las especificaciones, procedimientos y criterio
 
 AT2_OPERACIÓN Y MANTENIMIENTO v3.0
 CONTINUIDAD DE SERVICIO, REGLAMENTO DE OPERACIÓN, SCADA FERROVIARIO
-
+ 
 📋 CONTROL DE VERSIONES PROFESIONAL
 Versión
-Fecha
-Autor
-Descripción de Cambios
-Estado
-
-v1.0
-Sep 11, 2025
-Equipo EPC
-Versión inicial con comentarios de ingeniería
-Borrador
-
-v2.0
-Sep 13, 2025
-Admin. Contractual
-Primera revisión, estructura básica
-Mejorado
-
-v3.0
-Sep 14, 2025
-Admin. Contractual
-Revisión exhaustiva Punto 42, control de versiones profesional, resolución observaciones críticas
-ACTUAL
-
-Distribución: Gerencia EPC, Ingeniería Conceptual, Área Contractual, InterventoríaPróxima revisión programada: Al completar AT3_Especificaciones.docx o resolver indefiniciones TETRA/fibraGestión documental: Coherente con Cl_I.2d_JerarquiaDocumental v2.0 y Cl_9.1_OM v2.0Acceso: Restringido - Equipo autorizado del proyecto
-
+ Fecha
+ Autor
+ Descripción de Cambios
+ Estado
+ 
+ v1.0
+ Sep 11, 2025
+ Equipo EPC
+ Versión inicial con comentarios de ingeniería
+ Borrador
+ 
+ v2.0
+ Sep 13, 2025
+ Admin. Contractual
+ Primera revisión, estructura básica
+ Mejorado
+ 
+ v3.0
+ Sep 14, 2025
+ Admin. Contractual
+ Revisión exhaustiva Punto 42, control de versiones profesional, resolución observaciones críticas
+ ACTUAL
+ 
+ Distribución: Gerencia EPC, Ingeniería Conceptual, Área Contractual, Interventoría Próxima revisión programada: Al completar AT3_Especificaciones.docx o resolver indefiniciones TETRA/fibra Gestión documental: Coherente con Cl_I.2d_JerarquiaDocumental v2.0 y Cl_9.1_OM v2.0 Acceso: Restringido - Equipo autorizado del proyecto
+ 
 🔄 PLAN DE ACCIÓN - OBSERVACIONES DE INGENIERÍA
 🟡 OBSERVACIÓN MEDIA: Especificaciones de sistemas de respaldo
 Comentario Ingeniería: "A revisar especificaciones de fibra y como se asumen los sistemas de respaldo en el contrato"
@@ -92,7 +92,7 @@ RESPUESTA CONTRACTUAL:
 Marco contractual: AT2 Cap. III, Num. 3.2.2 establece ROT obligatorio con CTC
 PLAN DE ACCIÓN: Detallar en Sistema_CTC_Integrado.docx (Doc #26 del roadmap)
 Estado: Bloqueado por indefinición ITCS (coherente con AT1 v3.0)
-
+ 
 1. MARCO CONTRACTUAL
 1.1 Cláusula Principal
 Apéndice Técnico 2 - Condiciones para la Operación y el Mantenimiento:
@@ -116,7 +116,7 @@ Contrato General (obligaciones generales de O&M)
 Apéndice Técnico 2 (procedimientos específicos de operación)
 Apéndices Técnicos 3 y 4 (especificaciones técnicas e indicadores)
 En caso de conflictos, aplicar Cláusula 1.2(d) del Contrato General.
-
+ 
 2. ALCANCE DE LA OBLIGACIÓN
 2.1 Etapas de Responsabilidad del EPC
 2.1.1 Etapa Preoperativa
@@ -145,7 +145,7 @@ Material Rodante de Terceros Operadores: Verificación trimestral de cumplimient
 Cumplimiento Contractual:
 Cumplimiento de indicadores contractuales: Continuidad, disponibilidad de vía, cumplimiento de surcos y seguridad operacional (AP. 4, Cap. 3, Tablas 1-4)
 Gestión ambiental en O&M: Mantener en operación equipos de mitigación ambiental y reportes de sostenibilidad (AP. 6, Cap. VII, Nums. 7.1 y 7.4)
-
+ 
 3. PRINCIPIOS OBLIGATORIOS DE OPERACIÓN
 Base contractual: AT2, Capítulo III, Numeral 3.1
 3.1 Continuidad del Servicio (AT2, Num. 3.1.1)
@@ -193,7 +193,7 @@ Monitoreo continuo con sensores y SCADA
 Inspecciones programadas según manuales O&M
 Mantenimiento predictivo basado en condición
 Registro y trazabilidad de intervenciones
-
+ 
 4. REGLAMENTO DE OPERACIÓN DE TRENES (ROT)
 Base contractual: AT2, Cap. III, Num. 3.2.2
 4.1 Contenido Obligatorio del ROT
@@ -228,7 +228,7 @@ SCADA ferroviario para monitoreo integral
 DESARROLLO FUTURO: El detalle específico del sistema de gestión de tráfico se desarrollará en:
 Sistema_CTC_Integrado.docx (Doc #26 del roadmap)
 AT3_Especificaciones.docx (Doc #13 del roadmap)
-
+ 
 5. OBLIGACIONES GENERALES DE OPERACIÓN
 Base contractual: AT2, Cap. III, Num. 3.2.3
 5.1 Obligaciones Fundamentales
@@ -255,7 +255,7 @@ Tiempo de respuesta según estándares contractuales
 Disponibilidad de sistemas según AT4
 Coordinación operativa eficiente
 Facturación transparente según tarifas establecidas
-
+ 
 6. MANTENIMIENTO INTEGRAL
 Base contractual: AT2, Capítulo VI
 6.1 Alcance del Mantenimiento (AT2, Cap. VI, Num. 6.1)
@@ -290,7 +290,7 @@ Memoria Técnica de la respectiva UF
 Trazabilidad completa de mantenimientos
 Coherencia con SICC para indicadores
 Disponibilidad para verificación por Interventoría/ANI
-
+ 
 7. INTEGRACIÓN CON SICC Y SISTEMAS TECNOLÓGICOS
 Base contractual: AT4, Capítulos 4-5-6
 7.1 Sistema SICC (AT4, Cap. 5.3)
@@ -318,7 +318,7 @@ Interoperabilidad entre sistemas
 Redundancia en comunicaciones críticas
 Sincronización de datos y eventos
 Respaldo y recuperación de información
-
+ 
 8. PROCEDIMIENTOS ANTE EVENTOS EXTRAORDINARIOS
 Base contractual: AT2, Cap. III, Nums. 3.3.4-3.3.5
 8.1 Procedimiento ante Ocurrencia de Eventos (AT2, Num. 3.3.4)
@@ -348,7 +348,7 @@ Empresas de servicios públicos y privadas
 Uso del área del Corredor del Proyecto
 Mantenimiento de condiciones operativas
 Compatibilidad con operación ferroviaria
-
+ 
 9. RIESGOS EPC IDENTIFICADOS
 9.1 Riesgos Operativos
 ⚠️ ALTO: Interrupción del servicio por fallas de sistemas críticos
@@ -368,7 +368,7 @@ Mitigación: Pruebas exhaustivas en fase preoperativa
 Mitigación: Actualización periódica del ROT
 ⚠️ BAJO: Requisitos adicionales de autoridades locales
 Mitigación: Coordinación temprana con autoridades competentes
-
+ 
 10. RECOMENDACIONES PRÁCTICAS PARA INGENIERÍA EPC
 10.1 Acciones Inmediatas (Ingeniería Conceptual)
 PENDIENTE: 🔄 Desarrollar especificaciones de redundancia
@@ -397,7 +397,7 @@ Sistemas de respaldo:
 Redundancia N+1 en sistemas críticos
 Planes de contingencia validados
 Protocolos de recuperación documentados
-
+ 
 11. INTERFACES DOCUMENTALES
 11.1 Documentos Base (Completados ✅)
 Cl_I.2d_JerarquiaDocumental v2.0 ✅ - Jerarquía establecida
@@ -411,7 +411,7 @@ Sistema_TETRA_Integrado.docx - ⚠️ BLOQUEADO - Comunicaciones integradas
 AT4_Indicadores.docx - 🔄 PARCIALMENTE DISPONIBLE - SICC y disponibilidad
 AT6_Ambiental.docx - 🔄 DISPONIBLE - Gestión ambiental en O&M
 AT9_PlanObras.docx - 🔄 DISPONIBLE - Cronograma de mantenimientos
-
+ 
 12. CONCLUSIONES Y PRÓXIMOS PASOS
 12.1 Estado del Documento v3.0
 Base contractual: ✅ Completa y exacta con trazabilidad perfecta
@@ -436,7 +436,7 @@ DOCUMENTOS DESBLOQUEADOS:
 AT6_Ambiental.docx (gestión ambiental en O&M)
 AT9_PlanObras.docx (cronograma de mantenimientos)
 Manuales O&M (desarrollo independiente)
-
+ 
 📌 GESTIÓN DOCUMENTAL PROFESIONAL
 Criterios de Actualización:
 Resolución de indefinición ITCS → v4.0
@@ -444,7 +444,7 @@ Completar AT3_Especificaciones.docx → v4.1
 Aprobación del ROT → v5.0
 Este documento es coherente con el sistema de gestión documental establecido y se actualiza según avance del roadmap. Las observaciones de ingeniería han sido respondidas sistemáticamente con planes de acción específicos.
 Próxima revisión: Al completar AT3_Especificaciones.docx o resolver indefiniciones tecnológicas críticas
-
+ 
 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
 
 ---
@@ -453,27 +453,39 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 **Documento:** AT2_Operacion_y_Mantenimiento_MD v4.1
 **Dictamen:** ✅ APROBADO CON OBSERVACIONES DE ALCANCE (SCOPE CREEP)
 
-### 📊 ANALISIS ESTRATÉGICO
-Este documento es la **"Biblia Operativa"** que regula la recuperación de la inversión (Retribución) a través de la disponibilidad de la vía y el cumplimiento de indicadores de servicio.
+### 📊 DICTAMEN ESTRATÉGICO
+El documento es técnicamente superior al original, ya que incorpora la Metodología Punto 42 para cubrir vacíos críticos en tecnología (Ciberseguridad, ITCS, Interoperabilidad). Sin embargo, al elevar los estándares (ej. Disponibilidad 99.95%), debemos tener cuidado de no convertir un objetivo interno de excelencia en una obligación contractual exigible por la ANI sin el reconocimiento del CAPEX adecuado.
 
-### ✅ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **Los "Tres Manuales":** Condición precedente crítica para el inicio de pagos de O&M (Sección 14.5 del Contrato).
-2. **ROT (Reglamento de Operación):** La versión v4.1 operacionaliza la interoperabilidad obligatoria con FENOCO para evitar detenciones en Chiriguaná.
-3. **Mantenimiento de Tecnología:** Traduce la obligación vaga de "Integridad" en requisitos técnicos concretos (**Redundancia N+1** y **Ciberseguridad**).
+### ✅ VALIDACIÓN DE CONTENIDO (OBLIGACIONES CRÍTICAS)
+1. **Los "Tres Manuales" (Condición Precedente):**
+   - **Fuente:** Contrato Principal (14.5) y AT2 PDF (2.145-2.147).
+   - **Veredicto:** CORRECTO Y CRÍTICO. Sin la aprobación ("No Objeción") de estos manuales, no inicia la etapa de O&M ni el pago asociado.
+   - **Riesgo:** Rechazo por Interventoría si son genéricos. Deben incluir protocolos de AT3 v5.0 (TETRA, CTC).
 
-### ⚠️ PUNTOS DE ATENCIÓN (PUNTO 42)
-1. **Disponibilidad 99.95%:** Mantener como KPI Interno. No ofertar contractualmente sin reconocimiento de CAPEX de redundancia.
-2. **Ciberseguridad NIST/IEC 62443:** Protección obligatoria para SCADA y CTC ante amenazas modernas.
-3. **Gestión FENOCO:** Vital para el tráfico de carga y facturación.
+2. **Reglamento de Operación de Trenes (ROT):**
+   - **Mejora Crítica (v4.1):** Exige explícitamente la integración con FENOCO y el uso del CTC/ITCS. Esto operacionaliza la interoperabilidad obligatoria para evitar detenciones en Chiriguaná (Interfaces FENOCO).
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Redacción de Manuales:** Capítulos específicos para ITCS, TETRA y Ciberseguridad.
-2. **Fronteras FENOCO:** Redactar el "Acuerdo de Interoperabilidad" para anexo del ROT.
-3. **Configuración SICC:** Trazabilidad automatizada para el cobro de la retribución.
+3. **Mantenimiento de Tecnología (La "Cláusula Invisible"):**
+   - **Fuente:** Obligación de "Información Permanente" (AT2 3.1.8).
+   - **Estrategia:** El documento traduce esta obligación vaga en requisitos técnicos concretos: **Redundancia N+1** y **Ciberseguridad NIST/IEC 62443**. Esto protege al EPC de multas por caídas del sistema SICC.
 
-**VEREDICTO FINAL:** Guía robusta y necesaria. Asegurar que el presupuesto contemple licencias de software y redundancias N+1.
+### ⚠️ PUNTOS DE ATENCIÓN (ACTUALIZACIÓN PUNTO 42)
+1. **Meta de Disponibilidad 99.95%:** Mantener como **KPI Interno** para asegurar el pago, pero no ofertarlo contractualmente sin la redundancia instalada, pues se volvería vinculante.
+2. **Ciberseguridad NIST/IEC 62443:** Única forma técnica de cumplir la obligación de "Integridad" (R-310).
+3. **Gestión de Interoperabilidad FENOCO:** Vital para el tráfico de carga y facturación.
 
-⚠️ **ADVERTENCIA LEGAL:** Esta validación se basa en la comparación del archivo de trabajo con el Contrato de Concesión No. 001 de 2025. El incumplimiento en la entrega de los Manuales de O&M (Sección 14.5 del Contrato) impide el inicio de la fase operativa y el cobro de la retribución asociada.
+### 🚀 INSTRUCCIONES AL EQUIPO (PLAN DE ACCIÓN)
+1. **Redacción de Manuales (Prioridad Alta):** Instruir a Gerencia O&M que incluyan capítulos específicos para ITCS, TETRA y Ciberseguridad.
+2. **Definición de Fronteras (FENOCO):** Redactar el "Acuerdo de Interoperabilidad" para anexo del ROT.
+3. **Configuración del SICC:** Configurar reporte automático según Sección 7.1 para garantizar la trazabilidad del cobro.
+
+### ✅ VEREDICTO FINAL
+El documento "AT2_Operacion_y_Mantenimiento_MD.md" es una guía robusta y necesaria.
+*   **Estado:** Listo para ser usado como base de los Manuales de O&M y el ROT.
+*   **Advertencia:** Asegurar que el presupuesto de O&M contemple los costos de licencias y redundancias N+1.
+
+⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en la entrega de los Manuales de O&M (Sección 14.5 del Contrato) impide el inicio de la fase operativa y el cobro de la retribución asociada.
+
 Respuesta a Observaciones de Ingeniería
 🔄 Plan de acción específico para especificaciones de fibra/respaldo
 🔄 Roadmap claro para sistema de gestión de tráfico
