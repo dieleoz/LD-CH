@@ -584,7 +584,7 @@ VIII. Documentos Maestros y Metodologia/
 │
 ├── 🏗️ ARQUITECTURA TÉCNICA (2):
 │   ├── PLAN_GESTION_RIESGOS_MAESTRO_v1.0.md ✅ **METODOLOGÍA RIESGOS**
-│   └── ARQUITECTURA_SISTEMA_COMPLETO_Integracion.md ✅ **ARQUITECTURA DT→TODO** ⭐ NUEVO
+│   └── ARCHITECTURE.md ✅ **ARQUITECTURA SISTEMA WBS** ⭐ MAESTRO
 │
 ├── 📁 Matrices_Dependencias/ (4):
 │   ├── MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ✅ **DT→Archivos**
