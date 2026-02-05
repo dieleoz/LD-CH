@@ -1,7 +1,7 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 05-Feb-2026 (v14.10.1)  
-**Estado:** ✅ Folder II Certificado v5.0 | ✅ Ahorro Validado -$50B COP | ✅ ITCS Definido (PTC)
+**Versión:** 05-Feb-2026 (v14.11.0)  
+**Estado:** ✅ Folder I & II Validado (Exactitud Forense) | 🚀 Fase Ofensiva: Oficio ANI (PTC)
 
 ---
 
