@@ -953,7 +953,8 @@ coberturas de este seguro mencionadas en la Sección 20.6{b){ii), el Concesionar
 
 Seguro de Obras
 
-Civiles de la ANI.Seguro de Vehículos, Equipos y Maquinaria 253
+Civiles de la ANI.Seguro de Vehículos
+, Equipos y Maquinaria 253
 
 #### 18.10 Seguro de
 
@@ -12944,7 +12945,8 @@ coberturas de este seguro mencionadas en la Sección 20.6(b)(ii), el Concesionar
 
 Seguro de Obras
 
-Civiles de la ANI.Seguro de Vehículos, Equipos y Maquinaria (a) Desde el
+Civiles de la ANI.Seguro de Vehículos
+, Equipos y Maquinaria (a) Desde el
 
 Inicio de la
 
@@ -16762,6 +16764,7 @@ antes de ser utilizada formalmente.
 **Versión:** 3.0 
 **Responsable:** Administrador Contractual EPC 
 **Próxima actualización:** 27/02/2025 
+
 
 
 
