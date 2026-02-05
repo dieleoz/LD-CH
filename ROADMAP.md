@@ -1,7 +1,7 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 05-Feb-2026 (v14.8.3)  
-**Estado:** ✅ Documentación EPC 100% | ✅ Punto 42 Certificado v6.1 | ✅ Baseline Técnico PTC/FRA
+**Versión:** 05-Feb-2026 (v14.8.4)  
+**Estado:** ✅ Documentación EPC 100% | ✅ Punto 42 Certificado v6.1 | ✅ Baseline Técnico Certificado (Folder I & II)
 
 ---
 
