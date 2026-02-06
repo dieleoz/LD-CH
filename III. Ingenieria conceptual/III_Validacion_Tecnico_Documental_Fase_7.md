@@ -15,7 +15,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 | **0_1_hoja_de_ruta_tecnica...** | ✅ Validado | Neutralidad Técnica (ITCS) y corrección KPI (99.5%). | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
-| **23_ListadoMaestro_Sistemas_v5.0** | ⭐ Crítico | Alineado con Criterios Maestros v1.0. Confirma la eliminación de eurobalises y señales físicas. | 100% |
+| **23_ListadoMaestro_Sistemas_v5.0** | ⚠️ Condicionado | Ahorro validado de $50kM COP. Alerta por GSM-R (Gold Plating) y viabilidad de 0 balizas. | 95% |
 | **24_Matriz_Trazabilidad...** | ✅ Validado | Establece la jerarquía: Contrato > Apéndices > Anexos. Trazabilidad total con AT1-AT10. | 100% |
 | **25_WBS_IngenieriaConceptual** | ✅ Validado | Organiza el trabajo en 5 paquetes principales cumpliendo la Cláusula 8.1. | 100% |
 | **29_Sistema_Senalizacion_v5.0** | ⭐ Crítico | Confirma la Filosofía de Señalización Virtual y los 5 enclavamientos electrónicos (ENCE). | 100% |
@@ -43,16 +43,27 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 - **Veredicto:** VIGENTE y MANDATORIO para justificar el WBS y la Matriz de Interfaces.
 
 ### 4. [23] Listado Maestro de Sistemas v5.0
-- **Estado:** Final - Coherencia Técnica Verificada.
-- **Cambio Crítico:** Documenta la optimización de costos y técnica: **Eurobalises y Señales LED físicas = 0 unidades** (reemplazadas por sistema virtual).
-- **Cantidades Clave:** 594 km de Fibra Óptica, 37 estaciones TETRA/GSM-R, 15 locomotoras con ATP embarcado y 15 dispositivos EOT.
+- **Dictamen:** **APROBADO CONDICIONADO (ALERTA DE GOLD PLATING)**.
+- **Contenido:** Cuantificación total del alcance físico (Phase 7).
+- **Ahorro Estratégico:** Valida la eliminación de 1.080 balizas y 270 señales LED (~$50.193 millones COP).
+- **Riesgo Tecnológico:** El esquema de "0 balizas" requiere una Decisión Técnica (DT) que avale el posicionamiento satelital (PTC) sobre el estándar ETCS L2.
+- **Gold Plating:** Se identifica el sistema **GSM-R** ($3.484M COP) como un sobrecosto no obligatorio por AT3 (solo exige TETRA).
+- **KPI Correction:** Se ajusta la disponibilidad al **99.5%** para evitar sobrecostos en infraestructura Tier IV.
+- **Veredicto:** VIGENTE como base de presupuesto, condicionado a la resolución de la DT de balizas y justificación de GSM-R.
 
-### 3. [25] WBS Ingeniería Conceptual v4.0
+### 5. [24] Matriz de Trazabilidad...
+- **Dictamen:** **APROBADO (TRAZABILIDAD CONTRACTUAL COMPLETA)**.
+- **Contenido:** Mapeo de los requisitos del Contrato 001 y sus Apéndices Técnicos (AT1-AT10) con los entregables de ingeniería.
+- **Validación Forense:** Confirma la jerarquía contractual: Contrato > Apéndices > Anexos.
+- **Alcance:** Asegura que cada entregable de ingeniería tiene un "Padre Contractual" definido.
+- **Veredicto:** VIGENTE y MANDATORIO para la gestión de alcance y la defensa de claims.
+
+### 6. [25] WBS Ingeniería Conceptual v4.0
 - **Fundamento:** Desarrollado bajo la Cláusula 8.1 (Estudios y Diseños).
 - **Estructura:** Divide el proyecto en 5 áreas: Control/Señalización, Telecomunicaciones, ITS/Seguridad, Infraestructura y Material Rodante.
 - **Dependencia:** Este archivo "gobierna" el desarrollo de los documentos 26 a 36.
 
-### 4. [29] Sistema de Señalización Integrado v5.0
+### 7. [29] Sistema de Señalización Integrado v5.0
 - **Filosofía:** Señalización Virtual (CTC + ATP).
 - **Infraestructura Física:** Se mantienen 5 estaciones con ENCE (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío, La Dorada) y la protección de 146 pasos a nivel.
 - **Interfaz:** Conexión directa con AT8 (Gestión Social) para cultura vial en pasos a nivel.

@@ -12,9 +12,11 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | Enero 2025 |
+| **Versión** | 7.0 (Phase 7 - Re-lineación) |
+| **Fecha** | Febrero 2026 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
-| **Contrato** | Concesión No. 001 de 2025 |
+| **Estado** | ⚠️ APROBADO CONDICIONADO (GOLD PLATING ALERT) |
+| **DICTAMEN** | [Validación Técnico-Documental v7.0](file:///d:/onedrive/OneDrive%20-%20Grupo%20Ortiz/LFC/02.%20Ingenieria/02.%20Ingenieria%20Conceptual/0.0%20Formatos%20para%20IA/III.%20Ingenieria%20conceptual/III_Validacion_Tecnico_Documental_Fase_7.md) |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
