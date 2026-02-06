@@ -1,4 +1,4 @@
-﻿# SISTEMA 03: ITS Y SEGURIDAD - Documento Master v1.0
+# SISTEMA 03: ITS Y SEGURIDAD - Documento Master v1.0
 ## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
@@ -87,7 +87,7 @@
 #### **Disponibilidad y Redundancia:**
 - **CCTV:** 99.5% disponibilidad con redundancia N+1
 - **ITS:** 99.5% disponibilidad con respaldos automáticos
-- **Seguridad:** 99.95% para sistemas críticos (SIL 4)
+- **Seguridad:** 99.5% para sistemas críticos (SIL 4)
 
 #### **Integración Social (AT8):**
 - **Diseño Participativo:** Consulta con comunidades para ubicación de cámaras
@@ -110,7 +110,7 @@
 #### **ITS - Componentes Principales:**
 - **Sensores de Tráfico:** Detección de trenes y ocupación de vías
 - **Paneles Informativos:** Sistemas de información al usuario
-- **Sistemas de Comunicación:** Integración con TETRA y GSM-R
+- **Sistemas de Comunicación:** Integración con TETRA y TETRA
 - **Plataforma de Datos:** Recolección y procesamiento de información
 - **Interfaces de Usuario:** Dashboards operacionales y gerenciales
 
@@ -125,7 +125,7 @@
 #### **Infraestructura de Comunicaciones:**
 - **Backbone Principal:** Fibra óptica 594 km con redundancia
 - **Red de Datos:** Ethernet industrial para sistemas ITS
-- **Comunicaciones Inalámbricas:** TETRA + GSM-R para sistemas móviles
+- **Comunicaciones Inalámbricas:** TETRA + TETRA para sistemas móviles
 - **Redes de Seguridad:** Redes dedicadas para sistemas críticos
 
 ---
@@ -285,7 +285,7 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/GSM-R:**
+#### **TETRA/TETRA:**
 - **CCTV:** Transmisión de alertas de seguridad por radio
 - **ITS:** Comunicación de datos de sensores remotos
 - **Seguridad:** Notificaciones de alarmas a personal de campo
@@ -334,7 +334,7 @@
 | **ITS** | **CTC** | Datos/Control | Modbus TCP/IP | ✅ Implementado |
 | **Seguridad** | **CTC** | Alarmas/Monitoreo | SNMP | ✅ Implementado |
 | **CCTV** | **TETRA** | Alertas | Mensajería | ✅ Implementado |
-| **ITS** | **GSM-R** | Datos | GPRS/4G | ✅ Implementado |
+| **ITS** | **TETRA** | Datos | GPRS/4G | ✅ Implementado |
 | **Seguridad** | **Fibra Óptica** | Comunicación | Ethernet | ✅ Implementado |
 | **CCTV** | **SICC** | Reportes | REST API | ✅ Implementado |
 | **ITS** | **SICC** | Indicadores | REST API | ✅ Implementado |
@@ -345,9 +345,9 @@
 |:--------|:----------------------:|:---:|:---------|:-------|
 | **CCTV** | 99.5% | 4 horas | Tiempo de respuesta, calidad video | ✅ Monitoreado |
 | **ITS** | 99.5% | 2 horas | Disponibilidad sensores, paneles | ✅ Monitoreado |
-| **Seguridad** | 99.95% | 1 hora | Tiempo de respuesta alarmas | ✅ Monitoreado |
+| **Seguridad** | 99.5% | 1 hora | Tiempo de respuesta alarmas | ✅ Monitoreado |
 | **VMS** | 99.9% | 2 horas | Disponibilidad sistema, almacenamiento | ✅ Monitoreado |
-| **Red Datos** | 99.95% | 1 hora | Latencia, throughput | ✅ Monitoreado |
+| **Red Datos** | 99.5% | 1 hora | Latencia, throughput | ✅ Monitoreado |
 
 ---
 

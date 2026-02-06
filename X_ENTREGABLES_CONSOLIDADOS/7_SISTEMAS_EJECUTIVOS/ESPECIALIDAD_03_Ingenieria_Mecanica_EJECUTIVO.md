@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 03: INGENIERÍA MECÁNICA
+# ESPECIALIDAD 03: INGENIERÍA MECÁNICA
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -15,7 +15,7 @@ La Ingeniería Mecánica es el **"sistema locomotor"** del ferrocarril que propo
 - **8 carromotores:** Equipos especializados para mantenimiento de vía
 - **3 talleres:** Principal La Dorada + secundario Chiriguaná + línea
 - **15 EOT:** Dispositivos End of Train para seguridad crítica
-- **99.95% disponibilidad:** Material rodante según AT4
+- **99.5% disponibilidad:** Material rodante según AT4
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -132,7 +132,7 @@ La Ingeniería Mecánica proporciona **material rodante** para la operación fer
 | Potencia locomotora | 3,000 HP | UIC 700 |
 | Carga por eje | 25 ton | UIC 700 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
-| Disponibilidad | 99.95% | AT4 |
+| Disponibilidad | 99.5% | AT4 |
 | Vida útil | 30 años | Especificaciones proyecto |
 
 ### Criterios de aceptación
@@ -140,7 +140,7 @@ La Ingeniería Mecánica proporciona **material rodante** para la operación fer
 - ✅ 51 vagones disponibles
 - ✅ 8 carromotores funcionando
 - ✅ 3 talleres operativos
-- ✅ Disponibilidad 99.95%
+- ✅ Disponibilidad 99.5%
 
 ---
 
@@ -206,7 +206,7 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Demanda de transporte** | 2,400 ton/día | Más material rodante si aumenta | Diseño escalable |
-| **Disponibilidad** | 99.95% | Penalizaciones si no cumple | Mantenimiento preventivo |
+| **Disponibilidad** | 99.5% | Penalizaciones si no cumple | Mantenimiento preventivo |
 | **Vida útil** | 30 años | Mayor mantenimiento si reduce | Materiales de calidad |
 | **Velocidad operativa** | 80 km/h | Menor eficiencia si reduce | Optimización de rutas |
 | **Carga por eje** | 25 ton | Limitaciones de vía si aumenta | Diseño conservador |
@@ -243,7 +243,7 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Alcance:** Material rodante integral - Cumplida
-- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.95% - Cumplida
+- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.5% - Cumplida
 - ⏳ **AT3 - Especificaciones:** Material rodante según estándares - En progreso
 - ⏳ **AT4 - Indicadores:** Disponibilidad material rodante - En progreso
 - ⏳ **AT10 - Capacidad:** Integración con asignación de surcos - En progreso
@@ -285,7 +285,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad material rodante | 99.95% | 99.8% | 🟡 Mejorable |
+| Disponibilidad material rodante | 99.5% | 99.8% | 🟡 Mejorable |
 | Capacidad de transporte | 2,400 ton/día | 2,200 ton/día | 🟡 En progreso |
 | Eficiencia de combustible | > 95% | 96% | 🟢 Excelente |
 | Tiempo de mantenimiento | < 4 horas | 3.5 horas | 🟢 Excelente |

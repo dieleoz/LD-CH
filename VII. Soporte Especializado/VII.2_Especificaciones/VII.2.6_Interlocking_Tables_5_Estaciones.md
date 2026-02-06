@@ -810,7 +810,7 @@ EQUIPOS REQUERIDOS:
 
 | Métrica | Objetivo | Medición | Frecuencia |
 |:---|:---:|:---:|:---:|
-| **Disponibilidad** | ≥ 99.95% | Uptime/Tiempo total | Diaria |
+| **Disponibilidad** | ≥ 99.5% | Uptime/Tiempo total | Diaria |
 | **Tiempo establecimiento** | ≤ 30s | Tiempo de establecimiento | Por ruta |
 | **Tiempo liberación** | ≤ 15s | Tiempo de liberación | Por ruta |
 | **Tasa de fallos** | ≤ 0.1% | Fallos/Total rutas | Mensual |

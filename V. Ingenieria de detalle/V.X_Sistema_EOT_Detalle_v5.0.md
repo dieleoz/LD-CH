@@ -11,7 +11,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 **Documentos Base ✅:**
 - CRITERIOS_TECNICOS_MAESTRO_v1.0.md ✅
 - V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md ✅
-- V.X_Sistema_GSM-R_Detalle_v5.0.md ✅
+- V.X_Sistema_TETRA_Detalle_v5.0.md ✅
 - V.X_Enclavamientos_ENCE_Detalle_v5.0.md ✅
 
 ---
@@ -23,7 +23,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
 | **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
 | **ATP Embarcado** | 15 locomotoras | 15 locomotoras | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 
 **✅ NINGUNA DESALINEACIÓN DETECTADA**
 
@@ -34,7 +34,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 ### 3.1 Dispositivos EOT
 - **15 Unidades EOT:** Una por locomotora
 - **Sensores de presión:** Frenos de aire
-- **Comunicaciones:** GSM-R + TETRA
+- **Comunicaciones:** TETRA + TETRA
 - **Interfaces:** ATP embarcado + CTC
 
 ### 3.2 Componentes EOT
@@ -50,7 +50,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 ### 4.1 Unidad Principal EOT
 - **Procesador:** ARM Cortex-A9, 1 GHz
 - **Memoria:** 4 GB RAM, 64 GB Flash
-- **Comunicaciones:** GSM-R + TETRA dual
+- **Comunicaciones:** TETRA + TETRA dual
 - **Alimentación:** 12/24 V DC + batería
 - **Temperatura:** -40°C a +85°C
 
@@ -62,7 +62,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 - **Protección:** IP67
 
 ### 4.3 Sistema de Comunicaciones
-- **GSM-R:** Frecuencia ferroviaria
+- **TETRA:** Frecuencia ferroviaria
 - **TETRA:** Redundancia operacional
 - **GPS:** Posicionamiento global
 - **Antena:** Omnidireccional, 3 dBi
@@ -128,7 +128,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 ### 8.1 Pruebas de Componentes
 - **Unidad principal:** Funcionalidad y rendimiento
 - **Sensor de presión:** Precisión y confiabilidad
-- **Comunicaciones:** Enlaces GSM-R + TETRA
+- **Comunicaciones:** Enlaces TETRA + TETRA
 - **Batería:** Autonomía y rendimiento
 
 ### 8.2 Pruebas de Sistema
@@ -198,7 +198,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 1. **V.4_Sistemas_Potencia_Detalle_v5.0.md** ✅
 2. **V.X_Enclavamientos_ENCE_Detalle_v5.0.md** ✅
 3. **V.X_Sistema_Desvios_Detalle_v5.0.md** ✅
-4. **V.X_Sistema_GSM-R_Detalle_v5.0.md** ✅
+4. **V.X_Sistema_TETRA_Detalle_v5.0.md** ✅
 5. **V.X_Sistema_EOT_Detalle_v5.0.md** ✅
 
 ### 12.3 Resumen Ejecutivo

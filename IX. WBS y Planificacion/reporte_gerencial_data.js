@@ -1,4 +1,4 @@
-﻿const reporteGerencialData = {
+const reporteGerencialData = {
     "fecha_generacion":  "2025-10-27 11:40:02",
     "cambios_sustanciales":  [
 

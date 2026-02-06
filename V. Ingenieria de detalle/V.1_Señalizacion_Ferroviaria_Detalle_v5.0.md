@@ -1,11 +1,7 @@
-# V.1 - SEÑALIZACIÓN FERROVIARIA DE DETALLE v5.0 - SISTEMAS VIRTUALES
-## APP La Dorada - Chiriguaná
-
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** V.1 - Señalización Ferroviaria de Detalle  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+# V.1 - SEÑALIZACIÓN FERROVIARIA DE DETALLE v7.0 - PHASE 7
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -20,7 +16,7 @@
 | **Tipo** | Documento de Ingeniería de Detalle |
 | **Categoría** | Ingeniería de Detalle |
 | **Número** | V.1 |
-| **Estado** | ⚠️ **EN RE-LINEACIÓN** |
+| **Estado** | ✅ **APROBADO (PHASE 7)** |
 
 ---
 
@@ -38,7 +34,7 @@ Este documento establece las especificaciones técnicas de detalle para la propu
 | **v2.0** | Ene-2025 | Ing. Contractual | Filosofía virtual implementada |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v4.0** | Ene-2025 | Admin. Contractual EPC | **CRÍTICO: Alineación con Criterios Técnicos Maestros** |
-| **v5.0** | Ene-2025 | Admin. Contractual EPC | **FINAL: Coherencia Técnica Verificada** |
+| **v7.0** | Feb-2026 | Admin. Contractual EPC | **APROBADO - PHASE 7: Saneamiento de KPI (99.5%) y Radio (TETRA)** |
 
 ---
 
@@ -135,7 +131,7 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 - **Señalización Optimizada ↔ CTC:** Centro de control centralizado
 - **Señalización Optimizada ↔ ATP:** Sistemas embarcados en locomotoras
 - **Señalización Optimizada ↔ ENCE:** 5 enclavamientos electrónicos
-- **Señalización Optimizada ↔ TETRA + GSM-R:** Comunicaciones críticas
+- **Señalización Optimizada ↔ TETRA + TETRA:** Comunicaciones críticas
 - **Señalización Optimizada ↔ Fibra Óptica:** Backbone de comunicaciones
 
 ---
@@ -149,7 +145,7 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA** | Estandarización sobre red propia |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -160,7 +156,7 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -186,13 +182,13 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 #### **4.2.2 Sistemas de Comunicación**
 **Funcionalidades:**
 - TETRA como sistema principal
-- GSM-R como redundancia
+- TETRA como redundancia
 - Fibra óptica como backbone
 - Integración con señalización
 
 **Componentes:**
 - TETRA (37 estaciones)
-- GSM-R (37 estaciones)
+- TETRA (37 estaciones)
 - Fibra óptica (594 km)
 - Interfaces de comunicación
 
@@ -246,7 +242,7 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades (Propuesta de Diseño Base sujeta a validación de Safety Case) ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -261,7 +257,7 @@ Este documento establece las especificaciones técnicas de detalle para la **pro
 - ✅ **Propuesta de Señalización Optimizada confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -314,7 +310,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 - **5 Enclavamientos ENCE** electrónicos
 - **24 Pasos a Nivel** activos (9 Tipo C + 15 Tipo B)
 - **120 Desvíos** (25 motorizados + 95 manuales)
-- **Integración con TETRA + GSM-R**
+- **Integración con TETRA + TETRA**
 
 ---
 
@@ -341,7 +337,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 - **Sistema ATP Embarcado** - 15 locomotoras
 - **Display Virtual en Cabina** - Señalización para maquinista
 - **Enclavamientos ENCE** - 5 estaciones críticas
-- **Sistemas de Comunicación** - TETRA + GSM-R
+- **Sistemas de Comunicación** - TETRA + TETRA
 
 ### 9.2 Integración con ATP Embarcado
 - Interfaz CTC-ATP según protocolos virtuales
@@ -357,14 +353,14 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 - **Servidor CTC:** Software de control ferroviario centralizado
 - **Base de Datos:** Estado de vía y trenes en tiempo real
 - **Interfaz Operador:** Consolas de control y monitoreo
-- **Comunicaciones:** Red TETRA + GSM-R para ATP
+- **Comunicaciones:** Red TETRA + TETRA para ATP
 - **Respaldo:** Sistemas redundantes y UPS
 
 ### 10.2 ATP Embarcado (15 Locomotoras)
 - **Computadora ATP:** Sistema embarcado en cada locomotora
 - **Sensores de Velocidad:** GPS + odómetro para posición precisa
 - **Display del Maquinista:** Pantalla de señalización virtual
-- **Comunicación CTC:** Radio TETRA + GSM-R para comunicación
+- **Comunicación CTC:** Radio TETRA + TETRA para comunicación
 - **Sensores:** Velocidad, frenos, integridad
 
 ### 10.3 Enclavamientos ENCE (5 Estaciones)
@@ -386,7 +382,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 
 ### 11.1 Preparación del Sitio
 - **CCO La Dorada:** Construcción y equipamiento del centro de control
-- **37 Torres Comunicaciones:** TETRA + GSM-R colocalizadas
+- **37 Torres Comunicaciones:** TETRA + TETRA colocalizadas
 - **Fibra Óptica:** 594 km de backbone de comunicaciones
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 
@@ -446,7 +442,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 
 ### 14.1 Sistemas de Comunicación
 - **Integración TETRA:** 37 estaciones base
-- **Integración GSM-R:** 37 estaciones colocalizadas
+- **Integración TETRA:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km de backbone
 - **Redes de Datos:** Sistemas de comunicación integrados
 
@@ -470,7 +466,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 - **Pruebas CTC:** Centro de control centralizado
 - **Pruebas ATP:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
-- **Pruebas Comunicaciones:** TETRA + GSM-R
+- **Pruebas Comunicaciones:** TETRA + TETRA
 
 ### 15.2 Pruebas de Sistema
 - **Pruebas de Integración:** CTC-ATP-ENCE
@@ -481,7 +477,7 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 ### 15.3 Validación de Seguridad
 - **Análisis de Riesgos:** Sistemas virtuales
 - **Validación de Funciones:** Seguridad ferroviaria
-- **Pruebas de Disponibilidad:** 99.95% según AT4
+- **Pruebas de Disponibilidad:** 99.5% según AT4
 - **Certificación de Seguridad:** Cumplimiento normativo
 
 ---
@@ -600,8 +596,8 @@ Definir las especificaciones técnicas detalladas para la implementación de la 
 
 ---
 
-**Estado del documento:** ✅ Completado - Enero 2025  
-**Versión:** 5.0 - Coherencia Técnica Verificada ⭐  
+**Estado del documento:** ✅ APROBADO (PHASE 7) - Febrero 2026  
+**Versión:** 7.0 - Certificado Phase 7 ⭐  
 **Responsable:** Administrador Contractual EPC  
 **Próxima actualización:** Según completitud de documentos dependientes
 

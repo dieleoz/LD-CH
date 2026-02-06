@@ -19,7 +19,7 @@ El STM embarcado cubrirá:
 - **Material rodante:** Locomotoras y trenes de pasajeros
 - **Funciones ETCS Level 2:** Control automático de velocidad
 - **Interfaces embarcadas:** DMI, odometría, frenado
-- **Comunicación GSM-R:** Con Radio Block Center
+- **Comunicación TETRA:** Con Radio Block Center
 - **Retrofit:** Adaptación a locomotoras existentes
 
 ### **1.3 REFERENCIAS NORMATIVAS**
@@ -53,7 +53,7 @@ ARQUITECTURA STM EMBARCADO
 │  │              COMMUNICATION LAYER                        │   │
 │  │                                                         │   │
 │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
-│  │  │ GSM-R   │  │Eurobalise│  │ Odometry│  │ DMI     │   │   │
+│  │  │ TETRA   │  │Eurobalise│  │ Odometry│  │ DMI     │   │   │
 │  │  │Manager  │  │Reader   │  │ System  │  │ Interface│   │   │
 │  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │   │
 │  └─────────────────────────────────────────────────────────┘   │
@@ -72,7 +72,7 @@ ARQUITECTURA STM EMBARCADO
 │                    INTERFACES EXTERNAS                         │
 │                                                                 │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
-│  │    GSM-R    │  │ Eurobalises │  │   DMI       │            │
+│  │    TETRA    │  │ Eurobalises │  │   DMI       │            │
 │  │   ANTENNA   │  │   ANTENNA   │  │  DISPLAY    │            │
 │  └─────────────┘  └─────────────┘  └─────────────┘            │
 │                                                                 │
@@ -100,7 +100,7 @@ COMPONENTES STM EMBARCADO:
    - Backup: 256KB FRAM
 
 3. COMMUNICATION MODULE:
-   - GSM-R: Quad-band 900/1800 MHz
+   - TETRA: Quad-band 900/1800 MHz
    - Eurobalise: 27.095 MHz
    - Ethernet: 100 Mbps
    - USB: 2.0 Host/Device
@@ -143,7 +143,7 @@ RED:
 - Ethernet: 100 Mbps
 - WiFi: 802.11n (opcional)
 - Bluetooth: 4.0 (opcional)
-- GSM-R: Quad-band
+- TETRA: Quad-band
 - Eurobalise: 27.095 MHz
 ```
 
@@ -302,7 +302,7 @@ MÓDULOS SOFTWARE STM:
    - Logging de eventos
 
 4. COMMUNICATION MODULE (COM):
-   - Gestión GSM-R
+   - Gestión TETRA
    - Lectura Eurobalise
    - Interface DMI
    - Comunicación RBC
@@ -337,7 +337,7 @@ ARQUITECTURA SOFTWARE STM:
 │  │              COMMUNICATION MODULE                   ││
 │  │                                                     ││
 │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐││
-│  │  │ GSM-R   │  │Eurobalise│  │   DMI   │  │   RBC   │││
+│  │  │ TETRA   │  │Eurobalise│  │   DMI   │  │   RBC   │││
 │  │  │Manager  │  │Reader   │  │Interface│  │Interface│││
 │  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘││
 │  └─────────────────────────────────────────────────────┘│
@@ -368,11 +368,11 @@ ARQUITECTURA SOFTWARE STM:
 
 ## 📡 **INTERFACES Y COMUNICACIONES**
 
-### **4.1 INTERFACE GSM-R**
+### **4.1 INTERFACE TETRA**
 
 #### **4.1.1 ESPECIFICACIONES DE COMUNICACIÓN**
 ```
-INTERFACE GSM-R:
+INTERFACE TETRA:
 
 Estándar: EIRENE (European Integrated Railway Radio Enhanced Network)
 Frecuencias: 876-880 MHz (uplink), 921-925 MHz (downlink)
@@ -396,7 +396,7 @@ ANTENA:
 
 #### **4.1.2 MENSAJES CRÍTICOS**
 ```
-MENSAJES GSM-R:
+MENSAJES TETRA:
 
 1. MOVEMENT AUTHORITY (MA):
    - Autorización de movimiento
@@ -841,7 +841,7 @@ SEMANA 18-19: Puesta en servicio
 ### **🎯 ESTADO ACTUAL**
 - ✅ **Especificaciones STM embarcadas desarrolladas** para ETCS Level 2
 - ✅ **Arquitectura hardware y software** detallada y especificada
-- ✅ **Interfaces de comunicación** GSM-R, Eurobalise y DMI definidas
+- ✅ **Interfaces de comunicación** TETRA, Eurobalise y DMI definidas
 - ✅ **Sistema de odometría** con precisión ±5 metros especificado
 
 ### **🔄 PRÓXIMOS PASOS INMEDIATOS**

@@ -1,4 +1,4 @@
-﻿# INGENIERÍA DE DETALLE - RESUMEN EJECUTIVO
+# INGENIERÍA DE DETALLE - RESUMEN EJECUTIVO
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -9,8 +9,8 @@
 - Contrato: Concesion No. 001 de 2025
 - Responsable: Administrador Contractual EPC
 - Tipo: Documento de Soporte
-- Categoria: Ingenieria de Detalle
-- Numero: 14
+- Numero: 14 - PHASE 7
+- Estado: ✅ APROBADO (PHASE 7)
 
 ---
 
@@ -45,7 +45,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3 en todos los sistemas
 - **FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-- **AT4:** Cumplimiento de disponibilidad 99.5% - 99.95% según indicadores contractuales
+- **AT4:** Cumplimiento de disponibilidad 99.5% (Obligación contractual)
 - **Redundancia:** Sistemas N+1 y 2N para máxima disponibilidad
 - **Ciberseguridad:** Protección de sistemas de control según estándares IEC 62443
 
@@ -124,7 +124,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **NFPA:** National Fire Protection Association
 
 ### 1.3 Indicadores de Cumplimiento
-- **Disponibilidad del sistema:** 99.5% - 99.95% según sistema crítico
+- **Disponibilidad del sistema:** 99.5% - 99.5% según sistema crítico
 - **Cobertura:** 100% del corredor ferroviario
 - **Redundancia:** N+1 y 2N para sistemas críticos
 - **Integración:** Interfaces completas entre todos los sistemas
@@ -143,7 +143,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 3. **Integración con Sistemas Ferroviarios ITCS:** Sistemas de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
-5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% - 99.95% según indicadores contractuales
+5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% - 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 1. **Falta de interfaces ITCS:** Agregados sistemas de control embarcado específicos ETCS Level 2 en todos los sistemas

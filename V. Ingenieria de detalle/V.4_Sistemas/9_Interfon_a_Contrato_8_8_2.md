@@ -1,4 +1,4 @@
-﻿# INTERFONÍA - CONTRATO 8.8.2
+# INTERFONÍA - CONTRATO 8.8.2
 ## APP La Dorada - Chiriguaná
 
 ---

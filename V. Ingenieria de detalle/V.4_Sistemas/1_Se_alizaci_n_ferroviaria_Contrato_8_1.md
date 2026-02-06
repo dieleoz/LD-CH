@@ -1,4 +1,4 @@
-﻿# SEÑALIZACIÓN FERROVIARIA - CONTRATO 8.1
+# SEÑALIZACIÓN FERROVIARIA - CONTRATO 8.1
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 19 de septiembre de 2025  
@@ -77,7 +77,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 #### **INTEGRACIÓN Y ESTÁNDARES**
 - **🚂 ITCS ETCS Level 2:** Interfaces preparadas para sistemas de control embarcados hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
-- **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
+- **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ---
 
@@ -87,7 +87,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-085** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en señalización | Desarrollar interfaces de señalización basadas en ETCS Level 2 hasta disponibilidad de AT3 |
 | **R-086** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de señalización compatibles con sistemas FENOCO existentes |
-| **R-087** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en señalización según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
+| **R-087** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en señalización según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-088** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
 | **R-089** | Técnico | Media | Medio | Integración de señalización con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de señalización |
 

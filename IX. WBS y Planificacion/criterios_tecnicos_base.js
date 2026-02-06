@@ -1,4 +1,4 @@
-﻿const criteriosTecnicosBase = {
+const criteriosTecnicosBase = {
   "version": "1.0",
   "fecha": "2025-10-07",
   "nota": "Base de conocimiento de criterios técnicos para ítems WBS",
@@ -141,7 +141,7 @@
       "criterio_tecnico": {
         "justificacion": "8 sistemas ATP embarcados completos (kit) para seguridad automática del tren - USD $165K c/u @ TRM 4,400",
         "calculo_detallado": "8 trenes × 1 kit ATP por tren = 8 unidades",
-        "desglose": ["Kit ATP incluye: Computadora, Display, Sensores velocidad, GPS, Software, Interfaces frenos, Redundancia", "Configuración embarcada en cabina", "Comunicación CCO vía TETRA/GSM-R", "Control velocidad según curva perfil vía"],
+        "desglose": ["Kit ATP incluye: Computadora, Display, Sensores velocidad, GPS, Software, Interfaces frenos, Redundancia", "Configuración embarcada en cabina", "Comunicación CCO vía TETRA/TETRA", "Control velocidad según curva perfil vía"],
         "fuente_normativa": "IEC 62290-1 (ATP), EN 50126 (RAMS)",
         "fuente_diseno": "Sistema seguridad tren - Requerimiento contractual",
         "documentos_referencia": ["II. Apendices Tecnicos/Decisiones_Tecnicas/DT-CTC-472-2025-10-25.md", "V.3.1_Material_Rodante_Detallado.md"],
@@ -163,13 +163,13 @@
     },
     "6.1.102": {
       "item": "6.1.102",
-      "nombre": "Radios GSM-R embarcados",
+      "nombre": "Radios TETRA embarcados",
       "criterio_tecnico": {
-        "justificacion": "16 radios GSM-R para comunicación tren-tierra (2 por tren con redundancia)",
+        "justificacion": "16 radios TETRA para comunicación tren-tierra (2 por tren con redundancia)",
         "calculo_detallado": "8 trenes × 2 radios = 16 unidades",
         "desglose": ["2 radios por tren (primaria + respaldo)", "Comunicación CTC/CCO", "Backup si TETRA falla", "Interoperabilidad red ferroviaria"],
-        "fuente_normativa": "IEC 62280 (GSM-R), EIRENE",
-        "fuente_diseno": "Plan comunicaciones GSM-R",
+        "fuente_normativa": "IEC 62280 (TETRA), EIRENE",
+        "fuente_diseno": "Plan comunicaciones TETRA",
         "documentos_referencia": ["V.3_Sistemas_Comunicacion_Detalle.md §3.3"]
       }
     },
@@ -189,11 +189,11 @@
       "item": "6.1.104",
       "nombre": "Sistemas redundancia",
       "criterio_tecnico": {
-        "justificacion": "8 sistemas redundancia ATP para alta disponibilidad 99.95%",
+        "justificacion": "8 sistemas redundancia ATP para alta disponibilidad 99.5%",
         "calculo_detallado": "8 trenes × 1 sistema = 8 unidades",
         "desglose": ["Redundancia N+1 ATP", "Failover <2s", "Duplicación procesador", "Sincronización tiempo real"],
         "fuente_normativa": "EN 50126 (RAMS), IEC 62290-1",
-        "fuente_diseno": "Requirement disponibilidad 99.95%",
+        "fuente_diseno": "Requirement disponibilidad 99.5%",
         "documentos_referencia": ["AT2 - Operación y Mantenimiento", "V.3.1_Material_Rodante_Detallado.md"]
       }
     },
@@ -227,7 +227,7 @@
       "criterio_tecnico": {
         "justificacion": "15 dispositivos EOT para señalización extremo tren",
         "calculo_detallado": "15 vagones cola × 1 EOT = 15 unidades",
-        "desglose": ["Señalización LED extremo", "Transmisor presión aire", "GPS integrado", "Comunicación TETRA/GSM-R"],
+        "desglose": ["Señalización LED extremo", "Transmisor presión aire", "GPS integrado", "Comunicación TETRA/TETRA"],
         "fuente_normativa": "UIC 569 (EOT)",
         "fuente_diseno": "Sistema seguridad trenes carga",
         "documentos_referencia": ["V.3.1_Material_Rodante_Detallado.md §5.3"]

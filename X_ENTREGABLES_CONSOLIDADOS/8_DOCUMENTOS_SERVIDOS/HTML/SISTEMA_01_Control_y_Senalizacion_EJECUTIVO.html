@@ -380,7 +380,7 @@ desvíos en vía principal</li>
 (DT-INTERFACES-001) para integración CTC-ITCS-FENOCO</li>
 <li><strong>Cobertura:</strong> 100% del corredor con filosofía virtual
 (sin señalización física)</li>
-<li><strong>Disponibilidad requerida:</strong> 99.95% (sistema crítico
+<li><strong>Disponibilidad requerida:</strong> 99.5% (sistema crítico
 según estándares EN 50126)</li>
 </ul>
 <h3 id="hitos-críticos">Hitos críticos</h3>
@@ -474,7 +474,7 @@ configuración desde CCO en tiempo real</p>
 Ventajas | Desventajas | Decisión | |:——|:————|:———|:————|:———| |
 <strong>Level 1</strong> | Balizas + ATP embarcado | Simplicidad |
 Limitaciones de capacidad | ❌ Rechazado | | <strong>Level 2</strong> |
-GSM-R + ATP embarcado | Óptimo costo/beneficio | Requiere GSM-R | ✅
+TETRA + ATP embarcado | Óptimo costo/beneficio | Requiere TETRA | ✅
 <strong>Seleccionado</strong> | | <strong>Level 3</strong> | Sin bloqueo
 fijo | Máxima capacidad | Complejidad alta | ❌ Rechazado |</p>
 <p><strong>Justificación de Level 2:</strong> - <strong>Balance
@@ -582,17 +582,17 @@ especificaciones</h3>
 <tbody>
 <tr>
 <td style="text-align: left;">Disponibilidad CTC</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">EN 50126</td>
 </tr>
 <tr>
 <td style="text-align: left;">Disponibilidad ATP</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">EN 50126</td>
 </tr>
 <tr>
 <td style="text-align: left;">Disponibilidad ENCE</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">EN 50126</td>
 </tr>
 <tr>
@@ -614,7 +614,7 @@ especificaciones</h3>
 </table>
 <h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
 <ul>
-<li>✅ Disponibilidad 99.95% del sistema completo</li>
+<li>✅ Disponibilidad 99.5% del sistema completo</li>
 <li>✅ Control centralizado desde CCO La Dorada</li>
 <li>✅ ATP embarcado en todas las locomotoras</li>
 <li>✅ Enclavamientos ENCE en 5 estaciones críticas</li>
@@ -729,7 +729,7 @@ SISTEMAS</h2>
 <tbody>
 <tr>
 <td style="text-align: left;">Telecomunicaciones</td>
-<td style="text-align: left;">TETRA + GSM-R</td>
+<td style="text-align: left;">TETRA + TETRA</td>
 <td style="text-align: left;">Alta</td>
 <td style="text-align: left;">EPC Telecomunicaciones</td>
 </tr>
@@ -820,12 +820,12 @@ Diseño</h3>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Disponibilidad CTC</strong></td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">Penalizaciones si no cumple</td>
 <td style="text-align: left;">Redundancia N+1</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cobertura GSM-R</strong></td>
+<td style="text-align: left;"><strong>Cobertura TETRA</strong></td>
 <td style="text-align: left;">100% del corredor</td>
 <td style="text-align: left;">Fallos de comunicación</td>
 <td style="text-align: left;">Respaldo TETRA</td>
@@ -853,7 +853,7 @@ Diseño</h3>
 <h3 id="limitaciones-del-diseño">Limitaciones del Diseño</h3>
 <ul>
 <li><strong>Dependencia de comunicaciones:</strong> Sistema requiere
-GSM-R/TETRA operativo</li>
+TETRA/TETRA operativo</li>
 <li><strong>Concentración de control:</strong> CCO único punto de falla
 (mitigado con redundancia)</li>
 <li><strong>Complejidad de ATP:</strong> Requiere personal especializado
@@ -865,7 +865,7 @@ restablecer servicio</li>
 </ul>
 <h3 id="dependencias-críticas">Dependencias Críticas</h3>
 <ul>
-<li><strong>GSM-R:</strong> Comunicaciones críticas para ATP</li>
+<li><strong>TETRA:</strong> Comunicaciones críticas para ATP</li>
 <li><strong>TETRA:</strong> Comunicaciones de respaldo</li>
 <li><strong>Fibra óptica:</strong> Backbone de datos</li>
 <li><strong>Material rodante:</strong> 15 locomotoras con ATP
@@ -904,7 +904,7 @@ capacitados</li>
 <td style="text-align: left;">Fallo de comunicación</td>
 <td style="text-align: left;">Media</td>
 <td style="text-align: left;">Alto</td>
-<td style="text-align: left;">TETRA + GSM-R dual</td>
+<td style="text-align: left;">TETRA + TETRA dual</td>
 <td style="text-align: left;">✅ Mitigado</td>
 </tr>
 <tr>
@@ -929,12 +929,12 @@ capacitados</li>
 contrato</h3>
 <ul>
 <li>✅ <strong>AT1 - CCO:</strong> Centro de Control Operacional con
-disponibilidad 99.95% - Cumplida</li>
+disponibilidad 99.5% - Cumplida</li>
 <li>✅ <strong>AT2 - Operación:</strong> Sistema de operación
 centralizada - Cumplida</li>
 <li>✅ <strong>AT3 - Especificaciones:</strong> ITCS ETCS Level 2 -
 Cumplida</li>
-<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.95% -
+<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.5% -
 Cumplida</li>
 <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos operacionales
 integrados - En progreso</li>
@@ -950,7 +950,7 @@ Sistema de operación centralizada</li>
 <li><strong>Apéndice Técnico 3:</strong> Especificaciones generales -
 ITCS ETCS Level 2</li>
 <li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
-Disponibilidad 99.95%</li>
+Disponibilidad 99.5%</li>
 </ul>
 <hr />
 <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
@@ -1048,19 +1048,19 @@ contactar al equipo de EPC Sistemas.</p>
 <tbody>
 <tr>
 <td style="text-align: left;">Disponibilidad CTC</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">99.98%</td>
 <td style="text-align: left;">🟢 Excelente</td>
 </tr>
 <tr>
 <td style="text-align: left;">Disponibilidad ATP</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">99.97%</td>
 <td style="text-align: left;">🟢 Excelente</td>
 </tr>
 <tr>
 <td style="text-align: left;">Disponibilidad ENCE</td>
-<td style="text-align: left;">99.95%</td>
+<td style="text-align: left;">99.5%</td>
 <td style="text-align: left;">99.96%</td>
 <td style="text-align: left;">🟢 Excelente</td>
 </tr>

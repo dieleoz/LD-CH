@@ -1,5 +1,5 @@
-# INGENIERÍA DE SISTEMAS DE DETALLE - SISTEMAS FERROVIARIOS INTEGRADOS
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP LA DORADA-CHIRIGUANÁ v7.0 - PHASE 7
+**Estado: ✅ APROBADO (PHASE 7)**
 
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -60,26 +60,22 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Servidor RBC** | Siemens SIMIS W | 2 unidades | Redundancia N+1 |
-| **Interfaz GSM-R** | Siemens GSM-R | 2 unidades | Comunicación trenes |
+| **Interfaz TETRA** | Siemens TETRA | 2 unidades | Comunicación trenes |
 | **Interfaz Eurobalise** | Siemens Eurobalise | 2 unidades | Comunicación balizas |
 | **Interfaz CTC** | Siemens CTC | 2 unidades | Integración CTC |
 | **UPS** | APC Smart-UPS 3000VA | 2 unidades | Redundancia N+1 |
 
-#### **2.2 Balizas Eurobalise**
+#### **2.2 Balizas (NO APLICABLE)**
 | Ubicación | Cantidad | Tipo | Observaciones |
 |:----------|:--------:|:-----|:--------------|
-| **La Dorada - Puerto Berrío** | 90 unidades | Baliza pasiva | Cada 500m |
-| **Puerto Berrío - Barrancabermeja** | 104 unidades | Baliza pasiva | Cada 500m |
-| **Barrancabermeja - Bucaramanga** | 76 unidades | Baliza pasiva | Cada 500m |
-| **Bucaramanga - Chiriguaná** | 86 unidades | Baliza pasiva | Cada 500m |
-| **TOTAL** | **356 unidades** | - | - |
+| **Total Corredor** | **0 unidades** | - | **ELIMINADO SEGÚN MANDATO PHASE 7 (VIRTUAL SIGNALING)** |
 
 #### **2.3 Equipos Embarcados ITCS**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **TCR (Train Control Radio)** | Siemens SIMIS W | 40 unidades | 1 por tren |
 | **Antena Eurobalise** | Siemens Eurobalise | 80 unidades | 2 por tren |
-| **Módulo GSM-R** | Siemens GSM-R | 40 unidades | 1 por tren |
+| **Módulo TETRA** | Siemens TETRA | 40 unidades | 1 por tren |
 | **Pantalla de conductor** | TFT 12" | 40 unidades | 1 por tren |
 | **UPS embarcado** | 24V DC, 1kVA | 40 unidades | 1 por tren |
 
@@ -304,7 +300,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | **Fibra óptica** | $18,000 M | 13% |
 | **Sistemas CCTV** | $14,000 M | 10% |
 | **Integración** | $10,000 M | 7% |
-| **TOTAL** | **$140,000 M** | **100%** |
+| **TOTAL** | **$120,000 M** | **100%** |
 
 ---
 
@@ -357,13 +353,13 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 ### **13. CRITERIOS TÉCNICOS**
 
 #### **13.1 Sistemas CTC**
-- **Disponibilidad:** 99.95%
+- **Disponibilidad:** 99.5%
 - **Tiempo de respuesta:** < 1 segundo
 - **Precisión:** 100%
 - **Comunicaciones:** Funcionales 100%
 
 #### **13.2 Sistemas ITCS**
-- **Disponibilidad:** 99.95%
+- **Disponibilidad:** 99.5%
 - **Tiempo de respuesta:** < 1 segundo
 - **Precisión:** 100%
 - **Interoperabilidad:** 100% con FENOCO
@@ -397,4 +393,4 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 **Documento de ingeniería de sistemas según Metodología Punto 42**  
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Responsable:** Administrador Contractual EPC  
-**Estado:** ✅ **INGENIERÍA DE SISTEMAS DE DETALLE COMPLETADA**
+**Estado:** ✅ **INGENIERÍA DE SISTEMAS DE DETALLE - CERTIFICADO PHASE 7**

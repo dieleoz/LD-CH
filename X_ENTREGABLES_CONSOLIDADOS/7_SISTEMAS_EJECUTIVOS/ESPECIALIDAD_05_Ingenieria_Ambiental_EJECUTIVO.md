@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 05: INGENIERÍA AMBIENTAL
+# ESPECIALIDAD 05: INGENIERÍA AMBIENTAL
 ## Documento Ejecutivo de Ingeniería
 
 ---

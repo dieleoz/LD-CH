@@ -132,7 +132,7 @@ Solar: 2 × 400W (respaldo)
 | | **6. EQUIPOS EN "ESTACIÓN"** (Torre) | | | | |
 | 6.1 | Caseta técnica | 15 m², climatizada | 1 | 4,300W | 4,300W |
 | 6.2 | Estación Base TETRA | 220V AC | 1 | 500W | 500W |
-| 6.3 | Estación Base GSM-R | Colocalizada | 1 | 300W | 300W |
+| 6.3 | Estación Base TETRA | Colocalizada | 1 | 300W | 300W |
 | 6.4 | Equipos transmisión | Switch + radios | 1 | 480W | 480W |
 | 6.5 | Climatización | 2 AC 3kW redundantes | 2 | 6,000W | 6,000W |
 | 6.6 | UPS 3 kVA | 4h autonomía | 1 | 500W | 500W |

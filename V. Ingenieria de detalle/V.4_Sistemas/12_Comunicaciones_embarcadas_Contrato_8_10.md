@@ -1,4 +1,4 @@
-﻿# COMUNICACIONES EMBARCADAS - CONTRATO 8.10
+# COMUNICACIONES EMBARCADAS - CONTRATO 8.10
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -38,7 +38,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Radio TETRA Embarcado:** Terminales móviles con GPS integrado para locomotoras
 - **Módems de Fibra:** Conectividad de alta velocidad para sistemas ITCS
 - **Sistemas ITCS:** Control embarcado ETCS Level 2 hasta especificaciones AT3
-- **Disponibilidad:** ≥ 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** ≥ 99.5% para sistemas críticos según AT4
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **CTC:** Comunicación bidireccional con centro de control de tráfico
@@ -55,7 +55,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-140** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en comunicaciones embarcadas | Desarrollar sistemas embarcados basados en ETCS Level 2 hasta disponibilidad de AT3 |
 | **R-141** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas embarcados incompatibles | Establecer sistemas embarcados compatibles con sistemas FENOCO existentes |
-| **R-142** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en comunicaciones embarcadas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
+| **R-142** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en comunicaciones embarcadas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-143** | Operacional | Alta | Medio | Complejidad en gestión de sistemas embarcados con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
 | **R-144** | Técnico | Media | Medio | Integración de comunicaciones embarcadas con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas embarcados ITCS y FENOCO |
 
@@ -125,7 +125,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **ETSI:** European Telecommunications Standards Institute
 
 ### 1.3 Indicadores de Cumplimiento
-- **Disponibilidad del sistema:** 99.95% para sistemas críticos
+- **Disponibilidad del sistema:** 99.5% para sistemas críticos
 - **Tiempo de respuesta:** < 1 segundo para comunicaciones críticas
 - **Cobertura GPS:** 100% del corredor ferroviario
 - **Redundancia:** Múltiples medios de comunicación
@@ -144,12 +144,12 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 3. **Integración con Sistemas Ferroviarios ITCS:** Sistemas de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
-5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
+5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 1. **Falta de interfaces ITCS:** Agregados sistemas de control embarcado específicos ETCS Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
-3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.95%
+3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
@@ -157,13 +157,13 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 |:---:|:---:|:---:|:---:|:---|
 | R-140 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en comunicaciones embarcadas |
 | R-141 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas embarcados incompatibles |
-| R-142 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en comunicaciones embarcadas según AT4 |
+| R-142 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en comunicaciones embarcadas según AT4 |
 | R-143 | Operacional | Alta | Medio | Complejidad en gestión de sistemas embarcados con ITCS |
 | R-144 | Técnico | Media | Medio | Integración de comunicaciones embarcadas con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 1. **Estrategia ITCS:** Desarrollar sistemas embarcados basados en ETCS Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas embarcados compatibles con sistemas FENOCO existentes
-3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
+3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Comunicaciones Embarcadas:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
 5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas embarcados ITCS y FENOCO

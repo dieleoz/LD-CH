@@ -1,4 +1,4 @@
-﻿# SISTEMA 01: CONTROL Y SEÑALIZACIÓN - Documento Master v1.0
+# SISTEMA 01: CONTROL Y SEÑALIZACIÓN - Documento Master v1.0
 
 **Proyecto:** APP La Dorada-Chiriguaná  
 **Contrato:** No. 001 de 2025  
@@ -44,10 +44,10 @@ Este documento consolida información de las siguientes fuentes:
 **Extraído de Contrato General + Apéndices Técnicos relevantes**
 
 **Obligaciones contractuales específicas:**
-- **AT1 (CCO):** Centro de Control Operacional con disponibilidad 99.95%
+- **AT1 (CCO):** Centro de Control Operacional con disponibilidad 99.5%
 - **AT2 (Operación):** Sistema de operación centralizada con ATP embarcado
 - **AT3 (Especificaciones):** ITCS ETCS Level 2 hasta AT3 según criterios
-- **AT4 (Indicadores):** Disponibilidad del sistema 99.95% con métricas en tiempo real
+- **AT4 (Indicadores):** Disponibilidad del sistema 99.5% con métricas en tiempo real
 - **AT8 (Operaciones):** Procedimientos operacionales integrados
 - **AT9 (Cronograma):** Plan de implementación por fases
 
@@ -55,11 +55,11 @@ Este documento consolida información de las siguientes fuentes:
 - Sistema virtual sin componentes físicos en vía
 - Control centralizado desde CCO
 - ATP embarcado en material rodante
-- Disponibilidad 99.95% del sistema
+- Disponibilidad 99.5% del sistema
 - Interoperabilidad con FENOCO
 
 **Indicadores de desempeño:**
-- Disponibilidad del sistema: 99.95%
+- Disponibilidad del sistema: 99.5%
 - Tiempo de respuesta: < 2 segundos
 - Tiempo de recuperación: < 5 minutos
 - Cobertura de comunicación: 100%
@@ -89,7 +89,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   GSM-R Network │    │   TETRA Network │    │   Fiber Optic   │
+│   TETRA Network │    │   TETRA Network │    │   Fiber Optic   │
 │   (37 Stations) │    │   (37 Stations) │    │   (594 km)      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -100,8 +100,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Filosofía Virtual:** Eliminación total de señalización física
 - **Control Centralizado:** CTC desde CCO con redundancia N+1
 - **ATP Embarcado:** Sistema de protección a bordo
-- **Comunicaciones Redundantes:** GSM-R + TETRA + Fibra óptica
-- **Disponibilidad Alta:** 99.95% con sistemas redundantes
+- **Comunicaciones Redundantes:** TETRA + TETRA + Fibra óptica
+- **Disponibilidad Alta:** 99.5% con sistemas redundantes
 
 ### 2.4 Alternativas Evaluadas
 **Análisis de alternativas**
@@ -124,13 +124,13 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Ubicación:** La Dorada (Km 0+000)
 - **Arquitectura:** Redundancia N+1
 - **Capacidad:** Control de 15 locomotoras simultáneas
-- **Interfaces:** CTC, ITCS, TETRA, GSM-R, CCTV
+- **Interfaces:** CTC, ITCS, TETRA, TETRA, CCTV
 
 **Sistema ATP Embarcado:**
 - **Tecnología:** ITCS ETCS Level 2
 - **Cantidad:** 15 locomotoras
 - **Funcionalidades:** Protección automática, supervisión, control
-- **Interfaces:** CTC, GSM-R, GPS, EOT
+- **Interfaces:** CTC, TETRA, GPS, EOT
 
 ### 3.2 Especificaciones Básicas
 **Especificaciones técnicas de IV/**
@@ -147,11 +147,11 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **Cálculos y dimensionamientos de IV/**
 
 **Cálculo de Disponibilidad:**
-- CTC Virtual: 99.95% (redundancia N+1)
+- CTC Virtual: 99.5% (redundancia N+1)
 - ATP Embarcado: 99.9% (sistema crítico)
-- Red GSM-R: 99.5% (redundancia satelital)
+- Red TETRA: 99.5% (redundancia satelital)
 - Red TETRA: 99.5% (37 estaciones)
-- **Disponibilidad Total:** 99.95%
+- **Disponibilidad Total:** 99.5%
 
 ### 3.4 Interfaces Identificadas
 **Interfaces con otros sistemas/especialidades**
@@ -159,7 +159,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema | Tipo Interface | Criticidad | Responsable |
 |:--------|:---------------|:-----------|:------------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones |
-| **GSM-R** | Comunicaciones | Alta | Telecomunicaciones |
+| **TETRA** | Comunicaciones | Alta | Telecomunicaciones |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones |
 | **CCTV** | Supervisión | Media | ITS y Seguridad |
 | **Material Rodante** | ATP Embarcado | Alta | Mecánica |
@@ -262,10 +262,10 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 | Parámetro | Especificación | Método de Medición |
 |:----------|:---------------|:-------------------|
-| **Disponibilidad** | 99.95% | Monitoreo continuo |
+| **Disponibilidad** | 99.5% | Monitoreo continuo |
 | **Tiempo de Respuesta** | < 2 segundos | Pruebas de carga |
 | **Tiempo de Recuperación** | < 5 minutos | Pruebas de fallo |
-| **Cobertura GSM-R** | 100% | Mediciones de campo |
+| **Cobertura TETRA** | 100% | Mediciones de campo |
 | **Cobertura TETRA** | 100% | Mediciones de campo |
 
 ### 5.3 Especificaciones de Calidad
@@ -375,7 +375,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema Relacionado | Tipo Interface | Criticidad | Responsable | Estado |
 |:--------------------|:---------------|:-----------|:------------|:-------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
-| **GSM-R** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
+| **TETRA** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones | ✅ |
 | **CCTV** | Supervisión | Media | ITS y Seguridad | ✅ |
 | **Material Rodante** | ATP Embarcado | Alta | Mecánica | ✅ |
@@ -390,8 +390,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Función: Comunicación voz y datos con trenes
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface CTC-GSM-R:**
-- Protocolo: GSM-R Data Protocol
+**Interface CTC-TETRA:**
+- Protocolo: TETRA Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo satelital
 
@@ -412,7 +412,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | **AT1 - CCO** | CTC Virtual | ✅ | Enero 2025 |
 | **AT2 - Operación** | Procedimientos OM | ✅ | Enero 2025 |
 | **AT3 - ITCS** | ATP Embarcado | ✅ | Enero 2025 |
-| **AT4 - Disponibilidad** | Sistema 99.95% | ✅ | Enero 2025 |
+| **AT4 - Disponibilidad** | Sistema 99.5% | ✅ | Enero 2025 |
 | **AT8 - Operaciones** | Manuales OM | ✅ | Enero 2025 |
 
 ### 8.2 Matriz de Riesgos Específicos

@@ -1,4 +1,4 @@
-﻿# SISTEMA 05: INFRAESTRUCTURA OPERATIVA - Documento Master v1.0
+# SISTEMA 05: INFRAESTRUCTURA OPERATIVA - Documento Master v1.0
 ## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
@@ -43,16 +43,16 @@
 
 #### **Obligaciones Contractuales Principales:**
 - **AT1 UF2 Tabla 16:** Centro de Control Operativo (CCO) en La Dorada con sala de control 250 m² y sala servidores 200 m²
-- **AT2 Cap. 4.1:** Operación y mantenimiento del CCO con disponibilidad 99.95%
-- **AT4:** Indicadores de desempeño para infraestructura operativa con disponibilidad 99.5% para estaciones y 99.95% para CCO
+- **AT2 Cap. 4.1:** Operación y mantenimiento del CCO con disponibilidad 99.5%
+- **AT4:** Indicadores de desempeño para infraestructura operativa con disponibilidad 99.5% para estaciones y 99.5% para CCO
 - **AT8:** Gestión social y accesibilidad para estaciones ferroviarias y apartaderos
 
 #### **Criterios Técnicos Maestros Consolidados:**
-- **CCO:** 1 centro en La Dorada con disponibilidad 99.95%
+- **CCO:** 1 centro en La Dorada con disponibilidad 99.5%
 - **Estaciones ENCE:** 5 estaciones (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México)
 - **Subestaciones:** 4 principales + 8 de distribución según especificaciones eléctricas
 - **Infraestructura Civil:** Edificaciones, puentes, pasos a nivel, drenaje
-- **Disponibilidad:** 99.95% para CCO, 99.5% para estaciones según AT4
+- **Disponibilidad:** 99.5% para CCO, 99.5% para estaciones según AT4
 
 ---
 
@@ -64,7 +64,7 @@
 - **Ubicación:** La Dorada, Caldas
 - **Funciones:** Monitoreo integral, despacho ferroviario, control centralizado
 - **Componentes:** Sala de control (250 m²), sala servidores (200 m²), sistemas SCADA
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Interoperabilidad:** Protocolos UIC para coordinación con FENOCO
 
 #### **Estaciones Ferroviarias y Apartaderos:**
@@ -78,7 +78,7 @@
 - **Subestaciones Principales:** 4 ubicaciones (La Dorada, Puerto Berrío, Barrancabermeja, Chiriguaná)
 - **Subestaciones Distribución:** 8 ubicaciones intermedias
 - **Funciones:** Transformación, distribución, respaldo de energía
-- **Disponibilidad:** 99.95% para críticas, 99.5% para auxiliares
+- **Disponibilidad:** 99.5% para críticas, 99.5% para auxiliares
 - **Redundancia:** N+1 para sistemas críticos
 
 #### **Infraestructura Civil:**
@@ -91,9 +91,9 @@
 ### **2.2 Criterios de Diseño**
 
 #### **Disponibilidad y Redundancia:**
-- **CCO:** 99.95% disponibilidad con sistemas redundantes
-- **Estaciones ENCE:** 99.95% para sistemas críticos, 99.5% para infraestructura
-- **Subestaciones:** 99.95% para principales, 99.5% para distribución
+- **CCO:** 99.5% disponibilidad con sistemas redundantes
+- **Estaciones ENCE:** 99.5% para sistemas críticos, 99.5% para infraestructura
+- **Subestaciones:** 99.5% para principales, 99.5% para distribución
 - **Infraestructura Civil:** 99.5% para edificaciones y estructuras
 
 #### **Interoperabilidad FENOCO:**
@@ -118,7 +118,7 @@
 #### **Componentes del CCO:**
 - **Servidores Virtuales:** Redundantes, virtualizados
 - **Estaciones de Trabajo:** Operadores y supervisores
-- **Sistemas de Comunicación:** TETRA + GSM-R + Fibra óptica
+- **Sistemas de Comunicación:** TETRA + TETRA + Fibra óptica
 - **Interfaces ATP:** Comunicación con 15 locomotoras
 - **Sistemas de Respaldo:** UPS + Generadores de emergencia
 
@@ -183,7 +183,7 @@
 | **Estaciones de Trabajo** | Dell OptiPlex 7090 | 8 unidades | Operadores + supervisores |
 | **Sistema SCADA** | Siemens WinCC OA | 1 sistema | Supervisión integral |
 | **Consolas de Operación** | 3 monitores 27" | 6 consolas | Operación 24/7 |
-| **Sistema de Comunicaciones** | TETRA + GSM-R | 1 sistema | Redundancia dual |
+| **Sistema de Comunicaciones** | TETRA + TETRA | 1 sistema | Redundancia dual |
 
 #### **Sistemas de Respaldo:**
 
@@ -271,7 +271,7 @@
 - **Servidores:** Dell PowerEdge R750 con virtualización
 - **Estaciones:** Dell OptiPlex 7090 con 3 monitores 27"
 - **SCADA:** Siemens WinCC OA con redundancia
-- **Comunicaciones:** Radio TETRA + GSM-R dual
+- **Comunicaciones:** Radio TETRA + TETRA dual
 - **Red:** Ethernet industrial con redundancia
 
 #### **Sistemas de Respaldo:**
@@ -299,7 +299,7 @@
 
 #### **Sistemas de Comunicación:**
 - **TETRA:** Sistema principal de comunicación
-- **GSM-R:** Sistema redundante de comunicación
+- **TETRA:** Sistema redundante de comunicación
 - **Fibra Óptica:** Backbone de datos
 - **Protocolos:** IP sobre radio + protocolos ferroviarios
 - **Interoperabilidad:** Compatible con sistemas FENOCO
@@ -388,12 +388,12 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/GSM-R:**
+#### **TETRA/TETRA:**
 - **CCO:** Comunicación con operadores y supervisores
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + GSM-R UIC
+- **Protocolo:** TETRA estándar + TETRA UIC
 
 #### **Fibra Óptica:**
 - **Datos de Control:** Transmisión de información de sistemas
@@ -425,7 +425,7 @@
 | Requisito | Fuente | Especificación | Estado | Evidencia |
 |:----------|:-------|:---------------|:-------|:----------|
 | **CCO La Dorada** | AT1 UF2 Tabla 16 | Sala control 250 m² + sala servidores 200 m² | ✅ Cumplido | V.2_Centro_Control_Trafico_CTC_v5.0 |
-| **Disponibilidad CCO 99.95%** | AT4 | Disponibilidad infraestructura crítica | ✅ Cumplido | Procedimientos mantenimiento |
+| **Disponibilidad CCO 99.5%** | AT4 | Disponibilidad infraestructura crítica | ✅ Cumplido | Procedimientos mantenimiento |
 | **Estaciones ENCE** | Criterios Maestros | 5 estaciones con enclavamientos | ✅ Cumplido | 23_ListadoMaestro_Sistemas_v5.0 |
 | **Disponibilidad Estaciones 99.5%** | AT4 | Disponibilidad infraestructura general | ✅ Cumplido | Procedimientos mantenimiento |
 | **Accesibilidad Estaciones** | AT8 | Gestión social y accesibilidad | ✅ Cumplido | V.1.1_Obras_Civiles_Infraestructura_DETALLADA |
@@ -439,7 +439,7 @@
 | **CCO** | **ENCE** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **Desvíos** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **CCO** | **GSM-R** | Comunicación | GSM-R UIC | ✅ Implementado |
+| **CCO** | **TETRA** | Comunicación | TETRA UIC | ✅ Implementado |
 | **CCO** | **Fibra Óptica** | Datos | Ethernet sobre fibra | ✅ Implementado |
 | **Estaciones** | **ENCE** | Control | Interfaces ferroviario | ✅ Implementado |
 | **Subestaciones** | **Sistemas Control** | Datos | Ethernet industrial | ✅ Implementado |
@@ -448,9 +448,9 @@
 
 | Sistema | Disponibilidad Objetivo | SLA | Métricas | Estado |
 |:--------|:----------------------:|:---:|:---------|:-------|
-| **CCO** | 99.95% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
-| **Estaciones ENCE** | 99.95% | 4 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
-| **Subestaciones Principales** | 99.95% | 4 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
+| **CCO** | 99.5% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
+| **Estaciones ENCE** | 99.5% | 4 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
+| **Subestaciones Principales** | 99.5% | 4 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
 | **Subestaciones Distribución** | 99.5% | 8 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
 | **Infraestructura Civil** | 99.5% | 24 horas | Disponibilidad edificios, tiempo respuesta | ✅ Monitoreado |
 

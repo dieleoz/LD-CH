@@ -290,7 +290,7 @@
 
 **Desglose consumo por caseta TETRA:**
 - Equipos TETRA: 0.5 kW
-- Equipos GSM-R: 0.3 kW
+- Equipos TETRA: 0.3 kW
 - Equipos transmisión: 0.5 kW
 - Climatización: 3.0 kW
 - Iluminación/auxiliares: 0.5 kW (promedio)

@@ -579,7 +579,7 @@ ROTACIÓN:
 
 | Métrica | Objetivo | Medición | Frecuencia |
 |:---|:---:|:---:|:---:|
-| **Disponibilidad** | ≥ 99.95% | Balizas operativas/Total | Diaria |
+| **Disponibilidad** | ≥ 99.5% | Balizas operativas/Total | Diaria |
 | **Precisión posición** | ±5m | Error de posicionamiento | Por viaje |
 | **Tiempo lectura** | ≤ 50ms | Tiempo de lectura | Continua |
 | **Tasa de fallos** | ≤ 0.1% | Fallos/Total balizas | Mensual |

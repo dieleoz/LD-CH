@@ -1,4 +1,4 @@
-﻿# V.2 - CENTRO DE CONTROL DE TRÁFICO (CTC) v5.20 - SISTEMA PRINCIPAL VIRTUAL
+# V.2 - CENTRO DE CONTROL DE TRÁFICO (CTC) v5.20 - SISTEMA PRINCIPAL VIRTUAL
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** Enero 2025  
@@ -83,7 +83,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -144,7 +144,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ### 3.3 Interfaces Críticas
 - **CTC Virtual ↔ ATP Embarcado:** Comunicación directa sin RBC
 - **CTC Virtual ↔ ENCE:** Control de 5 enclavamientos electrónicos
-- **CTC Virtual ↔ TETRA + GSM-R:** Comunicaciones críticas (37 estaciones cada uno)
+- **CTC Virtual ↔ TETRA + TETRA:** Comunicaciones críticas (37 estaciones cada uno)
 - **CTC Virtual ↔ Fibra Óptica:** Backbone de comunicaciones (594 km)
 - **CTC Virtual ↔ EOT:** Integración con 15 dispositivos End of Train
 
@@ -159,7 +159,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -170,7 +170,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -256,7 +256,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -271,7 +271,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -315,7 +315,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 7.1 Alcance del Sistema CTC Virtual
 - **Sistema principal:** Centro de Control de Tráfico Virtual
-- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces ATP, comunicaciones TETRA+GSM-R
+- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces ATP, comunicaciones TETRA+TETRA
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
 - **Capacidad:** Hasta 15 trenes simultáneos (sin limitación RBC)
 
@@ -323,7 +323,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Control centralizado:** Gestión unificada del tráfico ferroviario desde CCO La Dorada
 - **Supervisión en tiempo real:** Monitoreo continuo de operaciones sin eurobalises
 - **Integración ATP:** Comunicación directa CTC ↔ ATP embarcado
-- **Disponibilidad:** 99.95% de disponibilidad operacional
+- **Disponibilidad:** 99.5% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
 ---
@@ -350,7 +350,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
 │  │    ATP      │  │    ENCE     │  │  Comunicación│         │
-│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+GSM-R)│       │
+│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+TETRA)│       │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
@@ -362,7 +362,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Computadora │  │   Display   │  │   Radio     │         │
-│  │    ATP      │  │  Maquinista │  │ TETRA+GSM-R │         │
+│  │    ATP      │  │  Maquinista │  │ TETRA+TETRA │         │
 │  │  Embarcado  │  │  (Virtual)  │  │  (Comun.)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -385,7 +385,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 8.2.3 Interfaces de Comunicación Virtual
 - **Interface ATP:** Comunicación directa con ATP embarcado (sin RBC)
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
-- **Interface Comunicación:** Enlaces TETRA + GSM-R con trenes
+- **Interface Comunicación:** Enlaces TETRA + TETRA con trenes
 
 ---
 
@@ -432,7 +432,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 9.2.3 Interfaces Virtuales
 - **ATP Interface:** Protocolo directo CTC-ATP (sin FFFIS RBC)
 - **ENCE Interface:** Control directo de enclavamientos
-- **Comunicación:** TETRA + GSM-R v8.0 (37 estaciones)
+- **Comunicación:** TETRA + TETRA v8.0 (37 estaciones)
 
 ---
 
@@ -475,7 +475,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 10.3.1 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via ATP
 - **Evacuación:** Procedimientos de evacuación virtual
-- **Comunicación:** Enlaces TETRA + GSM-R de emergencia
+- **Comunicación:** Enlaces TETRA + TETRA de emergencia
 - **Coordinación:** Integración con servicios de emergencia
 
 #### 10.3.2 Modos de Operación Virtual
@@ -519,7 +519,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 12.1.1 Protocolo Directo CTC-ATP
 - **Comunicación Bidireccional:** CTC ↔ ATP (sin RBC)
 - **Tiempo Real:** Latencia < 100ms
-- **Redundancia:** TETRA + GSM-R (37 estaciones)
+- **Redundancia:** TETRA + TETRA (37 estaciones)
 - **Seguridad:** Cifrado end-to-end
 
 #### 12.1.2 Interfaces Virtuales
@@ -581,7 +581,7 @@ Este ítem representa un **bloque lógico de integración**, compuesto por un co
 4. **CTC ↔ Fibra Óptica**
    - Backbone redundante N+1 del corredor
    - Conexión de 526 km de infraestructura
-   - Alta disponibilidad 99.95%
+   - Alta disponibilidad 99.5%
 
 5. **CTC ↔ Sistemas ITS**
    - CCTV (73 cámaras)
@@ -590,7 +590,7 @@ Este ítem representa un **bloque lógico de integración**, compuesto por un co
 
 #### 12.4.3 Arquitectura de Redundancia N+1
 - **Redundancia de gateways:** 2 gateways activos + 1 standby
-- **Redundancia de comunicaciones:** TETRA primario + GSM-R respaldo
+- **Redundancia de comunicaciones:** TETRA primario + TETRA respaldo
 - **Failover automático:** <1 segundo en caso de falla
 - **Monitoreo continuo:** SCADA supervisa salud de interfaces
 
@@ -627,7 +627,7 @@ Este ítem representa un **bloque lógico de integración**, compuesto por un co
 #### 13.1.2 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via ATP
 - **Evacuación:** Procedimientos virtuales de evacuación
-- **Comunicación de Emergencia:** Enlaces TETRA + GSM-R
+- **Comunicación de Emergencia:** Enlaces TETRA + TETRA
 - **Coordinación:** Integración con servicios de emergencia
 
 ### 13.2 Mantenimiento Virtual
@@ -668,20 +668,20 @@ Este ítem representa un **bloque lógico de integración**, compuesto por un co
 - **CTC-ATP:** Integración directa sin RBC
 - **CTC-ENCE:** Integración con enclavamientos
 - **CTC-EOT:** Integración con End of Train
-- **Comunicaciones:** TETRA + GSM-R
+- **Comunicaciones:** TETRA + TETRA
 
 #### 14.2.2 Pruebas de Rendimiento Virtual
 - **Latencia:** < 100ms CTC-ATP
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Capacidad:** 15 trenes simultáneos
-- **Redundancia:** TETRA + GSM-R
+- **Redundancia:** TETRA + TETRA
 
 ### 14.3 Validación de Seguridad Virtual
 
 #### 14.3.1 Análisis de Riesgos Virtual
 - **Análisis de Riesgos:** Sistemas virtuales
 - **Validación de Funciones:** Seguridad ferroviaria virtual
-- **Pruebas de Disponibilidad:** 99.95% según AT4
+- **Pruebas de Disponibilidad:** 99.5% según AT4
 - **Certificación de Seguridad:** Cumplimiento normativo virtual
 
 ---

@@ -27,7 +27,7 @@
 
 | Documento | Por qué NO se actualizó | ¿Cuándo se actualizará? |
 |:----------|:------------------------|:------------------------|
-| SISTEMA_02 Telecomunicaciones | Sin DTs que afecten Cap. 2 | Cuando haya DT de TETRA/Fibra/GSM-R |
+| SISTEMA_02 Telecomunicaciones | Sin DTs que afecten Cap. 2 | Cuando haya DT de TETRA/Fibra/TETRA |
 | SISTEMA_03 ITS y Seguridad | Sin DTs que afecten Cap. 3 | Cuando haya DT de CCTV/ITS |
 | SISTEMA_04 Material Rodante | Sin DTs que afecten Cap. 4 | Cuando haya DT de Locomotoras/EOT |
 | SISTEMA_05 Infraestructura | Sin DTs que afecten Cap. 5 | Cuando haya DT de Energía/SCADA |
@@ -119,12 +119,12 @@ Cliente ve/descarga documentos
 
 **Capítulos WBS que cubre:**
 - Cap. 2.1: Red TETRA
-- Cap. 2.2: Sistema GSM-R
+- Cap. 2.2: Sistema TETRA
 - Cap. 2.3: Fibra Óptica
 
 **Fuentes en Cocina (I-VI):**
 - V.3_Sistemas_Comunicacion_Detalle
-- V.X_Sistema_GSM-R_Detalle
+- V.X_Sistema_TETRA_Detalle
 - III. Conceptual (26_Sistema_CTC, 27_Fibra)
 
 **Actualización:**
@@ -414,7 +414,7 @@ Cliente recibe paquete completo sincronizado
 
 **Relación por capítulo WBS:**
 - SISTEMA_01 ↔ Cap. 1 (CTC, ATP, ENCE) ✅ Actualizado hoy
-- SISTEMA_02 ↔ Cap. 2 (TETRA, GSM-R, Fibra) ⏸️ Sin DTs recientes
+- SISTEMA_02 ↔ Cap. 2 (TETRA, TETRA, Fibra) ⏸️ Sin DTs recientes
 - SISTEMA_03 ↔ Cap. 3 (CCTV, ITS) ⏸️ Sin DTs recientes
 - SISTEMA_04 ↔ Cap. 4 (Locomotoras, EOT) ⏸️ Sin DTs recientes
 - SISTEMA_05 ↔ Cap. 5 (SCADA, Energía) ⏸️ Sin DTs recientes

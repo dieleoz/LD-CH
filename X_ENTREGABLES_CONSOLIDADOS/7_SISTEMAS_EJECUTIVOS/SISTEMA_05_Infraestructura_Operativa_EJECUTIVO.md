@@ -1,4 +1,4 @@
-﻿# SISTEMA 05: INFRAESTRUCTURA OPERATIVA
+# SISTEMA 05: INFRAESTRUCTURA OPERATIVA
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -13,10 +13,10 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 - **1 CCO:** Centro de Control Operativo en La Dorada (250 m² sala control + 200 m² sala servidores)
 - **5 estaciones ENCE:** Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
 - **12 subestaciones:** 4 principales + 8 de distribución para alimentación eléctrica
-- **37 estaciones telecomunicaciones:** Torres TETRA/GSM-R colocalizadas
+- **37 estaciones telecomunicaciones:** Torres TETRA/TETRA colocalizadas
 - **Infraestructura civil:** Edificaciones, puentes, 146 pasos a nivel, drenaje
 - **Cobertura:** 100% del corredor + instalaciones de soporte
-- **Disponibilidad requerida:** 99.95% CCO, 99.5% estaciones (según AT4)
+- **Disponibilidad requerida:** 99.5% CCO, 99.5% estaciones (según AT4)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -62,7 +62,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 
 ### ¿Por qué 37 estaciones de telecomunicaciones?
 **Justificación Técnica:**
-- **Colocalización:** Torres TETRA/GSM-R en las mismas ubicaciones
+- **Colocalización:** Torres TETRA/TETRA en las mismas ubicaciones
 - **Cobertura:** Radio de 15 km por estación con solapamiento 20%
 - **Cálculo:** 594 km ÷ 12 km efectivo = 37 estaciones
 - **Optimización:** Compartir infraestructura (torres, alimentación, respaldo)
@@ -86,9 +86,9 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 
 ### ¿Por qué disponibilidad diferenciada?
 **Criterios de Disponibilidad (AT4):**
-- **99.95% CCO:** Sistema crítico para operación ferroviaria
+- **99.5% CCO:** Sistema crítico para operación ferroviaria
 - **99.5% Estaciones:** Infraestructura general con redundancia
-- **99.95% Subestaciones principales:** Sistemas críticos de alimentación
+- **99.5% Subestaciones principales:** Sistemas críticos de alimentación
 - **99.5% Subestaciones distribución:** Sistemas auxiliares
 
 ---
@@ -187,15 +187,15 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 | Capacidad CCO | 500 operadores | NSR-10 |
 | Capacidad subestaciones | 50 MVA | RETIE |
 | Tensión de operación | 25 kV | RETIE |
-| Disponibilidad CCO | 99.95% | EN 50126 |
-| Disponibilidad subestaciones | 99.95% | RETIE |
+| Disponibilidad CCO | 99.5% | EN 50126 |
+| Disponibilidad subestaciones | 99.5% | RETIE |
 | Eficiencia energética | 90% | RETIE |
 
 ### Criterios de aceptación
 - ✅ CCO con capacidad para 500 operadores
 - ✅ 37 estaciones con servicios completos
 - ✅ 8 subestaciones de 25 kV
-- ✅ Disponibilidad 99.95% de infraestructura crítica
+- ✅ Disponibilidad 99.5% de infraestructura crítica
 - ✅ Cumplimiento normativo NSR-10 y RETIE
 
 ---
@@ -272,18 +272,18 @@ La infraestructura operativa funciona 24/7 proporcionando soporte para la operac
 ## 📋 CUMPLIMIENTO CONTRACTUAL
 
 ### Obligaciones clave del contrato
-- ✅ **AT1 - CCO:** Centro de Control Operacional con disponibilidad 99.95% - Cumplida
-- ✅ **AT2 - Operación:** Operación con disponibilidad 99.95% - Cumplida
+- ✅ **AT1 - CCO:** Centro de Control Operacional con disponibilidad 99.5% - Cumplida
+- ✅ **AT2 - Operación:** Operación con disponibilidad 99.5% - Cumplida
 - ✅ **AT3 - Especificaciones:** Especificaciones técnicas de infraestructura - Cumplida
-- ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida
+- ✅ **AT4 - Indicadores:** Disponibilidad 99.5% - Cumplida
 - ⏳ **AT8 - Operaciones:** Procedimientos operacionales - En progreso
 - ❌ **AT9 - Cronograma:** Plan de implementación por fases - Pendiente
 
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Infraestructura operativa
-- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
+- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.5%
 - **Apéndice Técnico 3:** Especificaciones generales - Infraestructura operativa
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.5%
 
 ---
 
@@ -317,8 +317,8 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad CCO | 99.95% | 99.99% | 🟢 Excelente |
-| Disponibilidad Subestaciones | 99.95% | 99.98% | 🟢 Excelente |
+| Disponibilidad CCO | 99.5% | 99.99% | 🟢 Excelente |
+| Disponibilidad Subestaciones | 99.5% | 99.98% | 🟢 Excelente |
 | Disponibilidad Estaciones | 99.5% | 99.7% | 🟢 Excelente |
 | Eficiencia Energética | 90% | 92% | 🟢 Excelente |
 | Satisfacción del Usuario | 95% | 97% | 🟢 Excelente |

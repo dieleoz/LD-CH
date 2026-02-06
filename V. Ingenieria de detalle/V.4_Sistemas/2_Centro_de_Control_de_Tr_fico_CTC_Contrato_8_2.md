@@ -1,4 +1,4 @@
-﻿﻿﻿﻿# CENTRO DE CONTROL DE TRÁFICO CTC - CONTRATO 8.2
+﻿﻿﻿# CENTRO DE CONTROL DE TRÁFICO CTC - CONTRATO 8.2
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -137,6 +137,6 @@ Las pruebas se regirán por el `42. Plan_Pruebas_MEJORADO.md`.
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-090** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en CTC. | Desarrollar interfaces de CTC basadas en ETCS Level 2 hasta disponibilidad de AT3. |
 | **R-091** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces de CTC incompatibles. | Establecer protocolos de CTC compatibles con sistemas FENOCO existentes (EULYNX). |
-| **R-092** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en CTC según AT4. | Implementar sistemas de monitoreo y redundancia N+1 para garantizar cumplimiento. |
+| **R-092** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en CTC según AT4. | Implementar sistemas de monitoreo y redundancia N+1 para garantizar cumplimiento. |
 | **R-093** | Operacional | Media | Medio | Falla en sistema de energía o HVAC del CCO. | Diseñar infraestructura de CCO con redundancia 2N en energía y climatización. |
 | **R-094** | Integración | Media | Alto | Complejidad en la integración del CTC con 12 sistemas distintos. | Utilizar el ICD (`41. Interfaces_Sistemas_MEJORADO.md`) como documento rector. |

@@ -1,4 +1,4 @@
-﻿# SISTEMA 04: MATERIAL RODANTE - Documento Master v1.0
+# SISTEMA 04: MATERIAL RODANTE - Documento Master v1.0
 ## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
@@ -45,16 +45,16 @@
 - **AT1 (Alcance):** Puesta a punto de material rodante existente (2 GR12, 2 U10, 40 plataformas operativas, 11 no operativas, 8 carromotores)
 - **AT2 (Operación y Mantenimiento):** Ciclos de mantenimiento RL, R1, R2, R3 según especificaciones
 - **AT3 (Especificaciones):** ITCS embarcado, radio TETRA, GPS, CCTV embarcado (Cap. VIII, Num. 8.10)
-- **AT4 (Indicadores):** Disponibilidad 99.95% para material rodante según Tablas 1-4
+- **AT4 (Indicadores):** Disponibilidad 99.5% para material rodante según Tablas 1-4
 - **AT10 (Capacidad y Surcos):** Integración del material rodante con asignación de surcos
 - **Cl13.1 (Material Rodante):** Equipos embarcados ITCS TETRA con interoperabilidad FENOCO
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Locomotoras:** 15 unidades con ATP embarcado
 - **Sistema EOT:** 15 dispositivos End of Train
-- **Sistemas Embarcados:** ITCS ETCS Level 2, TETRA + GSM-R, GPS/GNSS
+- **Sistemas Embarcados:** ITCS ETCS Level 2, TETRA + TETRA, GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
-- **Disponibilidad:** 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** 99.5% para sistemas críticos según AT4
 
 ---
 
@@ -70,7 +70,7 @@
 
 #### **Sistemas Embarcados Integrados:**
 - **ITCS ETCS Level 2:** Control automático de trenes con redundancia
-- **Comunicaciones:** Radio TETRA + GSM-R dual para redundancia
+- **Comunicaciones:** Radio TETRA + TETRA dual para redundancia
 - **Posicionamiento:** GPS/GNSS para seguimiento en tiempo real
 - **Seguridad:** Event Recorder (Caja Negra) para registro de eventos
 - **Monitoreo:** CCTV embarcado para seguridad operacional
@@ -84,8 +84,8 @@
 ### **2.2 Criterios de Diseño**
 
 #### **Disponibilidad y Redundancia:**
-- **Material Rodante:** 99.95% disponibilidad con mantenimiento preventivo
-- **Sistemas Embarcados:** 99.95% para ITCS, 99.5% para comunicaciones
+- **Material Rodante:** 99.5% disponibilidad con mantenimiento preventivo
+- **Sistemas Embarcados:** 99.5% para ITCS, 99.5% para comunicaciones
 - **Talleres:** Operación 24/7 con equipos redundantes
 
 #### **Interoperabilidad FENOCO:**
@@ -104,7 +104,7 @@
 - **Potencia:** 3,000 kW con tracción distribuida
 - **Velocidad:** 120 km/h máxima, 80 km/h comercial
 - **Peso:** 120 toneladas por locomotora
-- **Sistemas:** ATP embarcado, TETRA + GSM-R, GPS, Event Recorder
+- **Sistemas:** ATP embarcado, TETRA + TETRA, GPS, Event Recorder
 
 #### **Vagones de Carga:**
 - **Plataformas Operativas:** 40 unidades (50 ton carga, 20 ton tara, 14m longitud)
@@ -115,7 +115,7 @@
 #### **Sistema EOT (15 Dispositivos):**
 - **Funcionalidades:** Monitoreo de cola del tren, integridad del tren, presión de frenos
 - **Componentes:** Sensor de presión, sensor de integridad, GPS, radio comunicación
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 ### **3.2 Especificaciones Básicas de Talleres**
 
@@ -149,7 +149,7 @@
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Computadora Principal** | Siemens S7-400, SIL 4 | 2 por locomotora | Redundancia 2oo3 |
-| **Módulo GSM-R** | Siemens GSM-R | 2 por locomotora | Comunicación RBC |
+| **Módulo TETRA** | Siemens TETRA | 2 por locomotora | Comunicación RBC |
 | **Antena Eurobalise** | UIC estándar | 4 por locomotora | Lectura balizas |
 | **Pantalla Conductor** | TFT 12" | 2 por locomotora | DMI SIL 3 |
 | **UPS Embarcado** | 24V DC | 2 por locomotora | Respaldo energía |
@@ -159,7 +159,7 @@
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Radio TETRA** | 400 MHz, 25W | 15 unidades | Comunicación principal |
-| **Radio GSM-R** | 900 MHz | 15 unidades | Redundancia TETRA |
+| **Radio TETRA** | 900 MHz | 15 unidades | Redundancia TETRA |
 | **GPS/GNSS** | Multi-constelación | 15 unidades | Posicionamiento preciso |
 | **Event Recorder** | Caja negra | 15 unidades | Registro eventos |
 | **CCTV Embarcado** | IP, 1080p | 15 unidades | Seguridad operacional |
@@ -222,7 +222,7 @@
 #### **ITCS ETCS Level 2:**
 - **Estándar:** EN 50128 (SIL 4)
 - **Funcionalidades:** Control de velocidad, autorización de movimiento, vigilancia de tren
-- **Interfaces:** CTC, Eurobalise, GSM-R
+- **Interfaces:** CTC, Eurobalise, TETRA
 - **Actualización:** Over-the-air (OTA)
 
 #### **Módulos de Software Embarcado:**
@@ -296,7 +296,7 @@
 - **Protocolo:** ETCS Level 2 estándar UIC
 
 #### **Sistemas Embarcados ↔ CCO:**
-- **Comunicaciones:** Radio TETRA + GSM-R para comunicación voz/datos
+- **Comunicaciones:** Radio TETRA + TETRA para comunicación voz/datos
 - **Monitoreo:** CCTV embarcado para supervisión visual
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Control:** Posibilidad de control remoto en emergencias
@@ -304,12 +304,12 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/GSM-R:**
+#### **TETRA/TETRA:**
 - **Material Rodante:** Comunicación tren-tierra para operación
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + GSM-R UIC
+- **Protocolo:** TETRA estándar + TETRA UIC
 
 #### **Fibra Óptica:**
 - **Datos de Tren:** Transmisión de información de sistemas embarcados
@@ -342,7 +342,7 @@
 |:----------|:-------|:---------------|:-------|:----------|
 | **Puesta a Punto Material Rodante** | AT1 Cap. V | 2 GR12 + 2 U10 + 40 plataformas + 11 no operativas + 8 carromotores | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |
 | **ITCS Embarcado** | AT3 Cap. VIII.8.10 | Sistemas embarcados ITCS, TETRA, GPS | ✅ Cumplido | Especificaciones técnicas |
-| **Disponibilidad 99.95%** | AT4 Tablas 1-4 | Disponibilidad material rodante | ✅ Cumplido | Procedimientos mantenimiento |
+| **Disponibilidad 99.5%** | AT4 Tablas 1-4 | Disponibilidad material rodante | ✅ Cumplido | Procedimientos mantenimiento |
 | **Interoperabilidad FENOCO** | Cl13.2 | Compatibilidad operativa | ✅ Cumplido | Protocolos UIC |
 | **Ciclos Mantenimiento** | AT2 Cap. III | RL, R1, R2, R3 | ✅ Cumplido | Manuales OM |
 | **Estándares AAR** | AT1 Cap. V | Cumplimiento estándares | ✅ Cumplido | Certificaciones |
@@ -353,7 +353,7 @@
 |:---------------|:----------------|:--------------|:----------|:-------|
 | **ITCS Embarcado** | **CTC** | Control/Comunicación | ETCS Level 2 | ✅ Implementado |
 | **Material Rodante** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **Material Rodante** | **GSM-R** | Comunicación | GSM-R UIC | ✅ Implementado |
+| **Material Rodante** | **TETRA** | Comunicación | TETRA UIC | ✅ Implementado |
 | **Sistemas Embarcados** | **CCO** | Monitoreo/Control | IP + Protocolos ferroviarios | ✅ Implementado |
 | **EOT** | **ITCS** | Monitoreo | Radio comunicación | ✅ Implementado |
 | **Material Rodante** | **SICC** | Reportes | REST API | ✅ Implementado |
@@ -364,11 +364,11 @@
 
 | Sistema | Disponibilidad Objetivo | SLA | Métricas | Estado |
 |:--------|:----------------------:|:---:|:---------|:-------|
-| **Locomotoras** | 99.95% | 4 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
-| **ITCS Embarcado** | 99.95% | 2 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
+| **Locomotoras** | 99.5% | 4 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
+| **ITCS Embarcado** | 99.5% | 2 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 | **Sistemas Comunicación** | 99.5% | 1 hora | Disponibilidad radio, calidad señal | ✅ Monitoreado |
 | **Talleres** | 99.9% | 8 horas | Capacidad operacional, equipos disponibles | ✅ Monitoreado |
-| **EOT** | 99.95% | 1 hora | Disponibilidad dispositivos, comunicación | ✅ Monitoreado |
+| **EOT** | 99.5% | 1 hora | Disponibilidad dispositivos, comunicación | ✅ Monitoreado |
 
 ---
 
@@ -398,7 +398,7 @@
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.3.1_Material_Rodante_Detallado.md` - Material rodante detallado
 - `V.X_Sistema_EOT_Detalle_v5.0.md` - Sistema EOT detalle
-- `V.X_Sistema_GSM-R_Detalle_v5.0.md` - Sistema GSM-R detalle
+- `V.X_Sistema_TETRA_Detalle_v5.0.md` - Sistema TETRA detalle
 - `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` - Sistemas ferroviarios integrados
 - `8_10_Sistema_de_comunicaciones_embarcados.md` - Sistema comunicaciones embarcados
 

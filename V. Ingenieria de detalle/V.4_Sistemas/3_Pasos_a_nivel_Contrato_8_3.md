@@ -211,7 +211,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Protocolo:** SCI-CC-A (NAS 830)
 - **Medio:** Fibra óptica (PN Tipo B + C)
 - **Redundancia:** N+1 para sistemas críticos
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 ### 4.2 Detección de Trenes
 - **Tecnología:** Contadores de ejes ADIF ET 03.365.310.6
@@ -277,7 +277,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 ### 7.2 Mantenimiento Correctivo
 - **Tiempo de Respuesta:** < 4 horas
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Repuestos:** Stock mínimo 6 meses
 - **Costo Anual:** $120,000 USD
 
@@ -289,7 +289,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-095** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en pasos a nivel | Desarrollar interfaces de pasos a nivel basadas en ETCS Level 2 hasta disponibilidad de AT3 |
 | **R-096** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de pasos a nivel compatibles con sistemas FENOCO existentes |
-| **R-097** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en pasos a nivel según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
+| **R-097** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en pasos a nivel según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-098** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
 | **R-099** | Técnico | Media | Medio | Integración de pasos a nivel con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de pasos a nivel ITCS y FENOCO |
 
@@ -309,7 +309,7 @@ Este documento ha sido completamente reescrito con especificaciones técnicas de
 - **AT1:** Alcance de 146 pasos a nivel ✅
 - **AT2:** Operación y mantenimiento ✅
 - **AT3:** Especificaciones técnicas (pendiente) ⏳
-- **AT4:** Indicadores de disponibilidad 99.95% ✅
+- **AT4:** Indicadores de disponibilidad 99.5% ✅
 
 ### 9.3 Próximos Pasos
 1. **Aprobación** de especificaciones técnicas

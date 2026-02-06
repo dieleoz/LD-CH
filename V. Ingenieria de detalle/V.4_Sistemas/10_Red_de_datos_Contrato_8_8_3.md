@@ -1,4 +1,4 @@
-﻿# RED DE DATOS - CONTRATO 8.8.3
+# RED DE DATOS - CONTRATO 8.8.3
 ## APP La Dorada - Chiriguaná
 
 ---

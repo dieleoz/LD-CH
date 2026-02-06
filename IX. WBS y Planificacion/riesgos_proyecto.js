@@ -1,4 +1,4 @@
-﻿// Riesgos del Proyecto - Generado automÃ¡ticamente desde MATRIZ_RIESGOS_PMO_AMPLIADA
+// Riesgos del Proyecto - Generado automÃ¡ticamente desde MATRIZ_RIESGOS_PMO_AMPLIADA
 // Fecha: 2025-10-07 11:01:43
 // Total: 0 riesgos
 

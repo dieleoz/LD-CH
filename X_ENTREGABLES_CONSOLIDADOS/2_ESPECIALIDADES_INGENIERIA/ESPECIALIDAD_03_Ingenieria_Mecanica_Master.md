@@ -43,7 +43,7 @@
 
 #### **Obligaciones Contractuales Principales:**
 - **AT1:** Material rodante con equipos embarcados ITCS TETRA según alcance del proyecto
-- **AT2:** Operación y mantenimiento de material rodante con disponibilidad 99.95%
+- **AT2:** Operación y mantenimiento de material rodante con disponibilidad 99.5%
 - **AT3:** Especificaciones técnicas de material rodante y equipos embarcados
 - **AT4:** Indicadores de disponibilidad para material rodante según Tablas 1-4
 - **Cl13.1:** Material rodante con equipos embarcados ITCS TETRA con interoperabilidad FENOCO
@@ -53,7 +53,7 @@
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Sistema EOT:** 15 dispositivos End of Train
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
-- **Disponibilidad:** 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** 99.5% para sistemas críticos según AT4
 
 ---
 
@@ -85,13 +85,13 @@
 - **Locomotoras:** 15 unidades con ATP embarcado ETCS Level 2
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Equipos Especializados:** 8 carromotores, 2 bateadoras, 3 retroexcavadoras
-- **Sistemas Embarcados:** ITCS ETCS Level 2, TETRA + GSM-R, GPS/GNSS
+- **Sistemas Embarcados:** ITCS ETCS Level 2, TETRA + TETRA, GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 
 ### **2.2 Criterios de Diseño Mecánico**
 
 #### **Principios de Diseño:**
-- **Disponibilidad:** 99.95% para locomotoras con mantenimiento preventivo
+- **Disponibilidad:** 99.5% para locomotoras con mantenimiento preventivo
 - **Interoperabilidad:** Compatibilidad con estándares UIC y FENOCO
 - **Seguridad:** Sistemas de seguridad SIL 3-4 según EN 50126/50128/50129
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
@@ -127,7 +127,7 @@
 |:--------|:---------------|:---------|
 | **ATP Embarcado** | ETCS Level 2 | Control automático de trenes |
 | **TETRA** | Radio digital | Comunicación tren-tierra |
-| **GSM-R** | Red de datos | Comunicación redundante |
+| **TETRA** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento | Seguimiento en tiempo real |
 | **Event Recorder** | Caja negra | Registro de eventos |
 | **CCTV Embarcado** | Video surveillance | Seguridad operacional |
@@ -150,8 +150,8 @@
 | **Monitoreo de cola** | Sensor de presión | Integridad del tren |
 | **Sensor de integridad** | Detección de separación | Seguridad del tren |
 | **GPS** | Posicionamiento | Ubicación del tren |
-| **Radio comunicación** | TETRA/GSM-R | Comunicación con locomotora |
-| **Disponibilidad** | 99.95% | Sistema crítico |
+| **Radio comunicación** | TETRA/TETRA | Comunicación con locomotora |
+| **Disponibilidad** | 99.5% | Sistema crítico |
 
 ### **3.3 Especificaciones Básicas de Talleres**
 
@@ -210,7 +210,7 @@
 |:--------|:---------------|:---------|
 | **ATP Embarcado** | ETCS Level 2 | Control automático |
 | **TETRA Embarcado** | Radio digital | Comunicación principal |
-| **GSM-R Embarcado** | Red de datos | Comunicación redundante |
+| **TETRA Embarcado** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
 | **Event Recorder** | Registro de eventos | Caja negra |
 
@@ -276,7 +276,7 @@
 |:--------|:---------|:---------|:---------|
 | **ATP Embarcado** | Controlador ETCS Level 2 | Software ETCS | Control automático |
 | **TETRA** | Radio digital | Protocolo TETRA | Comunicación |
-| **GSM-R** | Radio GSM-R | Protocolo GSM-R | Comunicación |
+| **TETRA** | Radio TETRA | Protocolo TETRA | Comunicación |
 | **GPS/GNSS** | Receptor GPS | Software navegación | Posicionamiento |
 | **Event Recorder** | Grabador de eventos | Software registro | Registro |
 
@@ -295,7 +295,7 @@
 |:--------|:---------|:---------|:---------------|
 | **ATP Embarcado** | Software ETCS Level 2 | Control automático | Over-the-air (OTA) |
 | **TETRA** | Protocolo TETRA | Comunicación | OTA |
-| **GSM-R** | Protocolo GSM-R | Comunicación | OTA |
+| **TETRA** | Protocolo TETRA | Comunicación | OTA |
 | **GPS/GNSS** | Software navegación | Posicionamiento | OTA |
 | **Event Recorder** | Software registro | Registro de eventos | Manual |
 
@@ -316,7 +316,7 @@
 #### **Operación Normal:**
 1. **Inicio de Operación:**
    - Verificación de sistemas embarcados
-   - Pruebas de comunicación TETRA/GSM-R
+   - Pruebas de comunicación TETRA/TETRA
    - Verificación de GPS/GNSS
    - Activación de ATP embarcado
 
@@ -336,7 +336,7 @@
 1. **Planificación:** Asignación de locomotoras y vagones
 2. **Operación:** Monitoreo de flota en tiempo real
 3. **Mantenimiento:** Programación de mantenimiento preventivo
-4. **Disponibilidad:** Gestión de disponibilidad 99.95%
+4. **Disponibilidad:** Gestión de disponibilidad 99.5%
 5. **Documentación:** Registro de operación y mantenimiento
 
 ### **6.2 Procedimientos de Mantenimiento**
@@ -388,7 +388,7 @@
 | **Locomotoras** | 25 kV AC, 50 Hz | Tracción eléctrica |
 | **Sistemas Embarcados** | 24 V DC | Sistemas auxiliares |
 | **TETRA Embarcado** | 24 V DC | Comunicación |
-| **GSM-R Embarcado** | 24 V DC | Comunicación |
+| **TETRA Embarcado** | 24 V DC | Comunicación |
 | **GPS/GNSS** | 24 V DC | Posicionamiento |
 
 ### **7.2 Interfaces con Sistemas de Telecomunicaciones**
@@ -397,7 +397,7 @@
 | Sistema | Protocolo | Función |
 |:--------|:----------|:---------|
 | **TETRA** | EN 300 392 | Comunicación principal |
-| **GSM-R** | UIC 920-2 | Comunicación redundante |
+| **TETRA** | UIC 920-2 | Comunicación redundante |
 | **GPS/GNSS** | NMEA 0183 | Posicionamiento |
 | **Event Recorder** | Protocolo propietario | Registro de eventos |
 
@@ -433,7 +433,7 @@
 | **Vagones de Carga** | AT1 | 40 plataformas operativas | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |
 | **Sistema EOT** | AT1 | 15 dispositivos End of Train | ✅ Cumplido | SISTEMA_04_Material_Rodante_Master |
 | **Talleres** | AT1 | Principal + secundario + línea | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |
-| **Disponibilidad** | AT4 | 99.95% para sistemas críticos | ✅ Cumplido | AT4_IndicadoresDesempeno |
+| **Disponibilidad** | AT4 | 99.5% para sistemas críticos | ✅ Cumplido | AT4_IndicadoresDesempeno |
 | **Interoperabilidad FENOCO** | Cl13.1 | Equipos embarcados compatibles | ✅ Cumplido | Cl13.1_MaterialRodante |
 
 ### **8.2 Matriz de Normatividad**

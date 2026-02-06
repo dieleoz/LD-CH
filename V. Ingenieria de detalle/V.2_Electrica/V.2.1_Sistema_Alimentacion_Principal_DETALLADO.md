@@ -382,7 +382,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 ### **14. CRITERIOS TÉCNICOS**
 
 #### **14.1 Subestaciones**
-- **Disponibilidad:** 99.95%
+- **Disponibilidad:** 99.5%
 - **Eficiencia:** > 95%
 - **Protecciones:** Funcionales 100%
 - **Comunicaciones:** Funcionales 100%

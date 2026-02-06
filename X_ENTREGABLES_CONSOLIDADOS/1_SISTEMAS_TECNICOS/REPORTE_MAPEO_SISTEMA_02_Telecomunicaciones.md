@@ -34,7 +34,7 @@
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Especificaciones para gestión de interferencias de redes, incluyendo criterios para TETRA, GSM-R y fibra óptica. Define protocolos de coordinación con otros operadores.
+Especificaciones para gestión de interferencias de redes, incluyendo criterios para TETRA, TETRA y fibra óptica. Define protocolos de coordinación con otros operadores.
 
 **Secciones clave a extraer:**
 - Criterios de interferencia: Gestión de frecuencias y espectro
@@ -54,7 +54,7 @@ Especificaciones para gestión de interferencias de redes, incluyendo criterios 
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Gestión de predios para ubicación de torres TETRA y GSM-R, incluyendo 37 estaciones base con criterios de ubicación y adquisición de terrenos.
+Gestión de predios para ubicación de torres TETRA y TETRA, incluyendo 37 estaciones base con criterios de ubicación y adquisición de terrenos.
 
 **Secciones clave a extraer:**
 - Ubicación de torres: Criterios técnicos y prediales
@@ -94,12 +94,12 @@ Versión mejorada con criterios técnicos actualizados para gestión de interfer
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Gestión predial actualizada para 37 estaciones TETRA/GSM-R con criterios técnicos de ubicación, procedimientos de adquisición y coordinación.
+Gestión predial actualizada para 37 estaciones TETRA/TETRA con criterios técnicos de ubicación, procedimientos de adquisición y coordinación.
 
 **Secciones clave a extraer:**
 - Criterios de ubicación: Optimización técnica
 - Procedimientos actualizados: Gestión predial
-- Coordinación sistemas: TETRA + GSM-R colocalizados
+- Coordinación sistemas: TETRA + TETRA colocalizados
 
 **Prioridad para consolidación:** 🔴 Alta
 
@@ -140,7 +140,7 @@ Gestión predial actualizada para 37 estaciones TETRA/GSM-R con criterios técni
 
 **Secciones clave a extraer:**
 - Estructura documental: Organización por fases
-- Referencias TETRA/GSM-R: Ubicación documentos
+- Referencias TETRA/TETRA: Ubicación documentos
 - Estado de documentos: Completitud por fase
 
 **Prioridad para consolidación:** 🔴 Alta
@@ -224,7 +224,7 @@ Inventario consolidado de todos los sistemas de telecomunicaciones con códigos,
 
 **Secciones clave a extraer:**
 - Inventario TETRA: Sistemas y equipos
-- Inventario GSM-R: Sistemas y equipos
+- Inventario TETRA: Sistemas y equipos
 - Inventario fibra óptica: Redes y componentes
 - Códigos sistemas: Nomenclatura unificada
 
@@ -241,11 +241,11 @@ Inventario consolidado de todos los sistemas de telecomunicaciones con códigos,
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estaciones TETRA, 37 GSM-R y 594 km fibra óptica.
+Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estaciones TETRA, 37 TETRA y 594 km fibra óptica.
 
 **Secciones clave a extraer:**
 - WBS TETRA: 37 estaciones base
-- WBS GSM-R: 37 estaciones colocalizadas
+- WBS TETRA: 37 estaciones colocalizadas
 - WBS fibra óptica: 594 km backbone
 - Responsabilidades: EPC Telecomunicaciones
 
@@ -262,7 +262,7 @@ Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estacio
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Planos de ubicación de las 37 torres TETRA/GSM-R con coordenadas, alturas y criterios de ubicación técnica.
+Planos de ubicación de las 37 torres TETRA/TETRA con coordenadas, alturas y criterios de ubicación técnica.
 
 **Secciones clave a extraer:**
 - Ubicaciones torres: 37 estaciones base
@@ -303,7 +303,7 @@ Documento educativo sobre tecnología TETRA, aplicaciones ferroviarias y ventaja
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Criterios de interoperabilidad para comunicaciones con FENOCO y ANE, incluyendo protocolos TETRA y GSM-R.
+Criterios de interoperabilidad para comunicaciones con FENOCO y ANE, incluyendo protocolos TETRA y TETRA.
 
 **Secciones clave a extraer:**
 - Interoperabilidad FENOCO: Protocolos comunicación
@@ -327,7 +327,7 @@ Criterios de ciberseguridad para sistemas de comunicaciones ferroviarias según 
 
 **Secciones clave a extraer:**
 - Seguridad TETRA: Protección comunicaciones
-- Seguridad GSM-R: Encriptación y autenticación
+- Seguridad TETRA: Encriptación y autenticación
 - Seguridad fibra óptica: Protección backbone
 
 **Prioridad para consolidación:** 🟡 Media
@@ -345,11 +345,11 @@ Criterios de ciberseguridad para sistemas de comunicaciones ferroviarias según 
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Especificaciones técnicas básicas para sistemas de comunicaciones incluyendo TETRA, GSM-R y fibra óptica.
+Especificaciones técnicas básicas para sistemas de comunicaciones incluyendo TETRA, TETRA y fibra óptica.
 
 **Secciones clave a extraer:**
 - Especificaciones TETRA: Técnicas básicas
-- Especificaciones GSM-R: Técnicas básicas
+- Especificaciones TETRA: Técnicas básicas
 - Especificaciones fibra óptica: Técnicas básicas
 - Interfaces sistemas: Definiciones básicas
 
@@ -370,7 +370,7 @@ Memorias de cálculo y diseño básico para sistemas de comunicaciones con anál
 
 **Secciones clave a extraer:**
 - Cálculos TETRA: Dimensionamiento red
-- Cálculos GSM-R: Dimensionamiento red
+- Cálculos TETRA: Dimensionamiento red
 - Cálculos fibra óptica: Dimensionamiento backbone
 - Análisis cobertura: Radioeléctrico
 
@@ -391,7 +391,7 @@ Diagramas de arquitectura mostrando integración entre CTC y sistemas de telecom
 
 **Secciones clave a extraer:**
 - Arquitectura integrada: CTC + Telecom
-- Interfaces críticas: TETRA, GSM-R, fibra
+- Interfaces críticas: TETRA, TETRA, fibra
 - Flujos de información: Comunicaciones
 - Redundancias: Sistemas de respaldo
 
@@ -433,7 +433,7 @@ Definición de interfaces entre sistemas de telecomunicaciones y otros sistemas 
 
 **Secciones clave a extraer:**
 - Interfaces TETRA: Con CTC, ATP, Material Rodante
-- Interfaces GSM-R: Con CTC, ATP, Material Rodante
+- Interfaces TETRA: Con CTC, ATP, Material Rodante
 - Interfaces fibra óptica: Backbone comunicaciones
 - Protocolos comunicación: Estándares aplicables
 
@@ -450,7 +450,7 @@ Definición de interfaces entre sistemas de telecomunicaciones y otros sistemas 
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Plan de gestión de permisos para instalación de torres TETRA/GSM-R y fibra óptica.
+Plan de gestión de permisos para instalación de torres TETRA/TETRA y fibra óptica.
 
 **Secciones clave a extraer:**
 - Permisos ANE: Gestión de espectro
@@ -473,11 +473,11 @@ Plan de gestión de permisos para instalación de torres TETRA/GSM-R y fibra óp
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Documento principal de detalle consolidando TETRA, GSM-R y fibra óptica con especificaciones técnicas completas.
+Documento principal de detalle consolidando TETRA, TETRA y fibra óptica con especificaciones técnicas completas.
 
 **Secciones clave a extraer:**
 - Especificaciones TETRA: Detalle técnico completo
-- Especificaciones GSM-R: Detalle técnico completo
+- Especificaciones TETRA: Detalle técnico completo
 - Especificaciones fibra óptica: Detalle técnico completo
 - Procedimientos instalación: Constructivos
 - Pruebas y comisionamiento: FAT/SAT
@@ -487,18 +487,18 @@ Documento principal de detalle consolidando TETRA, GSM-R y fibra óptica con esp
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #23
-**Ruta:** `V. Ingenieria de detalle/V.X_Sistema_GSM-R_Detalle_v5.0.md`  
-**Nombre:** Sistema GSM-R Detalle  
+**Ruta:** `V. Ingenieria de detalle/V.X_Sistema_TETRA_Detalle_v5.0.md`  
+**Nombre:** Sistema TETRA Detalle  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
 **Versión:** v5.0  
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Especificaciones detalladas del sistema GSM-R con 37 estaciones colocalizadas con TETRA.
+Especificaciones detalladas del sistema TETRA con 37 estaciones colocalizadas con TETRA.
 
 **Secciones clave a extraer:**
-- Arquitectura GSM-R: 37 estaciones
+- Arquitectura TETRA: 37 estaciones
 - Colocalización TETRA: Misma torre
 - Especificaciones equipos: Embarcados y fijos
 - Interfaces críticas: CTC y ATP
@@ -558,7 +558,7 @@ Especificaciones contractuales detalladas para sistema de fibra óptica según c
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Especificaciones generales de comunicaciones incluyendo TETRA, GSM-R y sistemas auxiliares.
+Especificaciones generales de comunicaciones incluyendo TETRA, TETRA y sistemas auxiliares.
 
 **Secciones clave a extraer:**
 - Especificaciones generales: Comunicaciones
@@ -579,10 +579,10 @@ Especificaciones generales de comunicaciones incluyendo TETRA, GSM-R y sistemas 
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Sistemas de comunicaciones embarcados en locomotoras incluyendo TETRA y GSM-R.
+Sistemas de comunicaciones embarcados en locomotoras incluyendo TETRA y TETRA.
 
 **Secciones clave a extraer:**
-- Comunicaciones embarcadas: TETRA y GSM-R
+- Comunicaciones embarcadas: TETRA y TETRA
 - Equipos locomotora: Radios embarcados
 - Interfaces embarcadas: Con sistemas a bordo
 - Procedimientos embarcados: Operación
@@ -642,11 +642,11 @@ Especificaciones para red de datos ferroviaria que utiliza la fibra óptica como
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Sistema de interfonía que utiliza las redes TETRA y GSM-R para comunicaciones internas.
+Sistema de interfonía que utiliza las redes TETRA y TETRA para comunicaciones internas.
 
 **Secciones clave a extraer:**
 - Sistema interfonía: Especificaciones técnicas
-- Integración TETRA/GSM-R: Uso comunicaciones
+- Integración TETRA/TETRA: Uso comunicaciones
 - Procedimientos interfonía: Operación
 - Equipos interfonía: Especificaciones
 
@@ -665,10 +665,10 @@ Sistema de interfonía que utiliza las redes TETRA y GSM-R para comunicaciones i
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Manual de operación y mantenimiento para sistemas de telecomunicaciones incluyendo TETRA, GSM-R y fibra óptica.
+Manual de operación y mantenimiento para sistemas de telecomunicaciones incluyendo TETRA, TETRA y fibra óptica.
 
 **Secciones clave a extraer:**
-- Procedimientos operación: TETRA, GSM-R, fibra
+- Procedimientos operación: TETRA, TETRA, fibra
 - Mantenimiento preventivo: Programas mantenimiento
 - Mantenimiento correctivo: Procedimientos fallas
 - Repuestos críticos: Inventario repuestos
@@ -713,7 +713,7 @@ Matriz de responsabilidades para sistemas de telecomunicaciones definiendo roles
 
 **Secciones clave a extraer:**
 - Responsabilidades TETRA: Roles y responsabilidades
-- Responsabilidades GSM-R: Roles y responsabilidades
+- Responsabilidades TETRA: Roles y responsabilidades
 - Responsabilidades fibra óptica: Roles y responsabilidades
 - Coordinación PMO: Gestión integrada
 
@@ -724,17 +724,17 @@ Matriz de responsabilidades para sistemas de telecomunicaciones definiendo roles
 ## ⚠️ HALLAZGOS CRÍTICOS
 
 ### 🔴 Brechas Identificadas:
-1. **Falta documento GSM-R conceptual:** No existe documento específico de arquitectura GSM-R en fase conceptual
+1. **Falta documento TETRA conceptual:** No existe documento específico de arquitectura TETRA en fase conceptual
 2. **Falta documento fibra óptica detalle:** No existe documento específico de fibra óptica en fase detalle
-3. **Falta documento integración telecom:** No existe documento específico de integración entre TETRA, GSM-R y fibra óptica
+3. **Falta documento integración telecom:** No existe documento específico de integración entre TETRA, TETRA y fibra óptica
 
 ### ⚠️ Inconsistencias Detectadas:
 1. **Cantidades TETRA:** Algunos documentos mencionan 37 estaciones, otros 30 estaciones
-2. **Colocalización:** Algunos documentos mencionan colocalización TETRA+GSM-R, otros no
+2. **Colocalización:** Algunos documentos mencionan colocalización TETRA+TETRA, otros no
 3. **Fibra óptica:** Algunos documentos mencionan 594 km, otros 600 km
 
 ### ⏳ Información Pendiente de Desarrollo:
-1. **Especificaciones GSM-R detalladas:** Faltan especificaciones técnicas completas
+1. **Especificaciones TETRA detalladas:** Faltan especificaciones técnicas completas
 2. **Procedimientos integración:** Faltan procedimientos de integración entre sistemas
 3. **Plan de pruebas integrado:** Falta plan de pruebas para sistemas integrados
 
@@ -748,7 +748,7 @@ Matriz de responsabilidades para sistemas de telecomunicaciones definiendo roles
 1. V.3_Sistemas_Comunicacion_Detalle_v5.0.md (Documento principal)
 2. 27_Sistema_TETRA_Integrado_v5.0.md (Arquitectura TETRA)
 3. 28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md (Arquitectura fibra)
-4. V.X_Sistema_GSM-R_Detalle_v5.0.md (Detalle GSM-R)
+4. V.X_Sistema_TETRA_Detalle_v5.0.md (Detalle TETRA)
 5. Documentos contractuales AT5 y AT7 (Base legal)
 
 ---

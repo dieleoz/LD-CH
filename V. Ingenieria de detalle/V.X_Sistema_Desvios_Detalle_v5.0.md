@@ -184,7 +184,7 @@ Documento de ingeniería de detalle para **120 desvíos automatizados** en el co
 - **Documento completo:** ✅ Listo para implementación
 
 ### 12.2 Próximos Pasos
-1. **V.X_Sistema_GSM-R_Detalle.md** (GSM-R detalle)
+1. **V.X_Sistema_TETRA_Detalle.md** (TETRA detalle)
 2. **V.X_Sistema_EOT_Detalle.md** (EOT detalle)
 
 ---

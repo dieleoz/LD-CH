@@ -71,12 +71,12 @@ RF-009: El sistema debe implementar odometría para seguimiento continuo
 
 ### **2.2 REQUISITOS DE COMUNICACIÓN**
 
-#### **2.2.1 COMUNICACIÓN RADIO (GSM-R)**
+#### **2.2.1 COMUNICACIÓN RADIO (TETRA)**
 ```
 RF-010: El sistema debe mantener comunicación continua con el RBC
-        a través de la red GSM-R.
+        a través de la red TETRA.
 
-RF-011: El sistema debe implementar handover automático entre células GSM-R
+RF-011: El sistema debe implementar handover automático entre células TETRA
         sin pérdida de comunicación crítica.
 
 RF-012: El sistema debe gestionar la degradación de comunicación
@@ -140,7 +140,7 @@ RS-004: El sistema debe implementar medidas de mitigación para:
 
 #### **3.2.1 DISPONIBILIDAD**
 ```
-RC-001: El sistema debe mantener disponibilidad ≥ 99.95%
+RC-001: El sistema debe mantener disponibilidad ≥ 99.5%
         durante operación normal.
 
 RC-002: El tiempo de recuperación ante fallos debe ser ≤ 4 horas
@@ -175,7 +175,7 @@ Radio Block Center (RBC)      Control centralizado           Centro de Control
 Eurobalises                   Referencias de posición        Vía (cada 150m)
 STM Embarcado                 Control automático tren        Locomotora
 DMI                           Interfaz conductor-sistema     Cabina conductor
-GSM-R                         Comunicación radio             Red celular
+TETRA                         Comunicación radio             Red celular
 ```
 
 #### **4.1.2 ARQUITECTURA RBC**
@@ -206,7 +206,7 @@ FUNCIONES STM:
 - Cálculo de velocidad y posición
 - Gestión de autorizaciones de movimiento
 - Control de frenado automático
-- Comunicación con RBC via GSM-R
+- Comunicación con RBC via TETRA
 ```
 
 #### **4.2.2 DMI (Driver Machine Interface)**
@@ -280,7 +280,7 @@ ESPECIFICACIONES RBC:
 ESPECIFICACIONES STM:
 - Procesador: ARM Cortex-A9 dual-core
 - Memoria: 4GB RAM, 32GB Flash
-- Interfaces: GSM-R, Eurobalise, DMI, Odometría
+- Interfaces: TETRA, Eurobalise, DMI, Odometría
 - Alimentación: 24V DC (12V-36V rango)
 - Temperatura: -25°C a +70°C
 - Humedad: 0-95% sin condensación
@@ -313,7 +313,7 @@ REQUISITOS SOFTWARE:
 APLICACIONES RBC:
 - Sistema de gestión de movimientos
 - Algoritmo de autorización de movimientos
-- Sistema de comunicación GSM-R
+- Sistema de comunicación TETRA
 - Interface con CTC
 - Sistema de logging y auditoría
 ```
@@ -409,7 +409,7 @@ SEMANA 23-24: Puesta en servicio
 
 | Métrica | Objetivo | Medición | Frecuencia |
 |:---|:---:|:---:|:---:|
-| **Disponibilidad** | ≥ 99.95% | Uptime/Tiempo total | Diaria |
+| **Disponibilidad** | ≥ 99.5% | Uptime/Tiempo total | Diaria |
 | **Latencia RBC** | ≤ 500ms | Tiempo respuesta | Continua |
 | **Precisión posición** | ±5m | Error de posicionamiento | Por viaje |
 | **Comunicación** | ≥ 99.9% | Mensajes exitosos | Continua |

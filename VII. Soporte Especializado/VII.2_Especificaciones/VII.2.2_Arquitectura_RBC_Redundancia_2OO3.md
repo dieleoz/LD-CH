@@ -10,13 +10,13 @@
 ## 🎯 **PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento define la **arquitectura del Radio Block Center (RBC)** con **redundancia 2oo3** para el sistema ITCS ETCS Level 2 del proyecto APP La Dorada-Chiriguaná, garantizando disponibilidad ≥ 99.95% y cumplimiento SIL 4.
+Este documento define la **arquitectura del Radio Block Center (RBC)** con **redundancia 2oo3** para el sistema ITCS ETCS Level 2 del proyecto APP La Dorada-Chiriguaná, garantizando disponibilidad ≥ 99.5% y cumplimiento SIL 4.
 
 ### **1.2 ALCANCE**
 La arquitectura RBC cubrirá:
 - **Control centralizado** de movimientos de trenes
 - **Gestión de autorizaciones** de movimiento (MA)
-- **Comunicación GSM-R** con material rodante
+- **Comunicación TETRA** con material rodante
 - **Integración con CTC** para coordinación operacional
 - **Redundancia 2oo3** para funciones críticas de seguridad
 
@@ -75,7 +75,7 @@ ARQUITECTURA RBC - REDUNDANCIA 2OO3
 │                    INTERFACES EXTERNAS                          │
 │                                                                 │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
-│  │    GSM-R    │  │     CTC     │  │   FENOCO    │            │
+│  │    TETRA    │  │     CTC     │  │   FENOCO    │            │
 │  │   NETWORK   │  │  INTERFACE  │  │ INTERFACE   │            │
 │  └─────────────┘  └─────────────┘  └─────────────┘            │
 └─────────────────────────────────────────────────────────────────┘
@@ -182,9 +182,9 @@ CONFIGURACIÓN:
 - Port Security habilitado
 ```
 
-#### **3.2.2 ROUTERS GSM-R**
+#### **3.2.2 ROUTERS TETRA**
 ```
-ESPECIFICACIONES ROUTER GSM-R:
+ESPECIFICACIONES ROUTER TETRA:
 
 Modelo: Nokia Flexi NS
 Capacidad: 10,000 conexiones simultáneas
@@ -194,7 +194,7 @@ Redundancia: N+1 hot standby
 
 CONFIGURACIÓN:
 - 2 routers en configuración N+1
-- Conexión redundante a red GSM-R
+- Conexión redundante a red TETRA
 - Load balancing automático
 - Failover en < 5 segundos
 ```
@@ -250,7 +250,7 @@ MÓDULOS SOFTWARE RBC:
    - Alertas de seguridad
 
 3. COMMUNICATION MANAGER (CM)
-   - Gestión de comunicación GSM-R
+   - Gestión de comunicación TETRA
    - Handover entre células
    - Retransmisión de mensajes
    - Monitoreo de calidad de enlace
@@ -382,7 +382,7 @@ A_sistema = 3A² - 2A³
 A_sistema = 3(0.99954)² - 2(0.99954)³
 A_sistema = 0.99962 = 99.962%
 
-RESULTADO: Disponibilidad ≥ 99.95% ✅ CUMPLE
+RESULTADO: Disponibilidad ≥ 99.5% ✅ CUMPLE
 ```
 
 #### **5.2.2 MTBF Y MTTR**
@@ -400,7 +400,7 @@ MTTR (Mean Time To Repair):
 - Recuperación completa: < 30 segundos
 
 AVAILABILITY TARGET:
-- Objetivo: ≥ 99.95%
+- Objetivo: ≥ 99.5%
 - Calculado: 99.962%
 - Margen de seguridad: 0.012%
 ```
@@ -409,11 +409,11 @@ AVAILABILITY TARGET:
 
 ## 📡 **INTERFACES Y COMUNICACIONES**
 
-### **6.1 INTERFACE GSM-R**
+### **6.1 INTERFACE TETRA**
 
 #### **6.1.1 ESPECIFICACIONES DE COMUNICACIÓN**
 ```
-PROTOCOLO GSM-R:
+PROTOCOLO TETRA:
 
 Estándar: EIRENE (European Integrated Railway Radio Enhanced Network)
 Frecuencias: 876-880 MHz (uplink), 921-925 MHz (downlink)
@@ -541,7 +541,7 @@ SEMANA 23-24: Puesta en servicio
 
 | Métrica | Objetivo | Medición | Frecuencia |
 |:---|:---:|:---:|:---:|
-| **Disponibilidad** | ≥ 99.95% | Uptime/Tiempo total | Diaria |
+| **Disponibilidad** | ≥ 99.5% | Uptime/Tiempo total | Diaria |
 | **Latencia RBC** | ≤ 500ms | Tiempo respuesta MA | Continua |
 | **Throughput** | ≥ 1000 trenes/h | Trenes procesados | Por hora |
 | **CPU Usage** | ≤ 70% | Uso promedio CPU | Continua |
@@ -587,7 +587,7 @@ CONFIGURACIÓN DE ALERTAS:
 
 CRÍTICAS (INMEDIATAS):
 - Fallo de módulo RBC
-- Pérdida de comunicación GSM-R
+- Pérdida de comunicación TETRA
 - Fallo de sistema de votación
 - Pérdida de sincronización
 
@@ -599,7 +599,7 @@ ALTAS (5 MINUTOS):
 
 MEDIAS (15 MINUTOS):
 - Uso disco > 90%
-- Conexiones GSM-R > 90%
+- Conexiones TETRA > 90%
 - Temperatura > 35°C
 - Fallos de red > 5%
 ```
@@ -627,7 +627,7 @@ MEDIAS (15 MINUTOS):
 ### **🔄 PRÓXIMOS PASOS INMEDIATOS**
 1. **Validación técnica** de la arquitectura con especialistas
 2. **Desarrollo de especificaciones detalladas** de hardware
-3. **Definición de interfaces** GSM-R, CTC y FENOCO
+3. **Definición de interfaces** TETRA, CTC y FENOCO
 4. **Plan de pruebas** para validar redundancia 2OO3
 
 ### **📞 CONTACTOS**

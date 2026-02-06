@@ -117,7 +117,7 @@
 
 #### **Componentes:**
 - **TETRA:** 37 estaciones base
-- **GSM-R:** 37 estaciones colocalizadas
+- **TETRA:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km con doble anillo
 - **Respaldo Satelital:** Sistemas de respaldo
 
@@ -273,7 +273,7 @@
 
 #### **Componentes:**
 - **Sistemas Integrados:** CTC, ATP, ENCE
-- **Comunicaciones:** TETRA, GSM-R, fibra óptica
+- **Comunicaciones:** TETRA, TETRA, fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
 

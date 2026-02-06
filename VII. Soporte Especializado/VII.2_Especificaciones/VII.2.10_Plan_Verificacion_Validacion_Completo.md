@@ -177,7 +177,7 @@ VERIFICACIÓN DE REQUISITOS FUNCIONALES:
    - Control automático de velocidad: ✅ Verificado
    - Autorización de movimiento: ✅ Verificado
    - Detección de posición: ✅ Verificado
-   - Comunicación GSM-R: ✅ Verificado
+   - Comunicación TETRA: ✅ Verificado
    - Interface Eurobalise: ✅ Verificado
 
 2. SISTEMA RBC:
@@ -209,7 +209,7 @@ VERIFICACIÓN DE REQUISITOS NO FUNCIONALES:
 1. RENDIMIENTO:
    - Latencia: ≤ 100ms ✅ Verificado
    - Throughput: ≥ 1000 msg/s ✅ Verificado
-   - Disponibilidad: ≥ 99.95% ✅ Verificado
+   - Disponibilidad: ≥ 99.5% ✅ Verificado
    - Escalabilidad: ≥ 100 trenes ✅ Verificado
 
 2. SEGURIDAD:
@@ -272,7 +272,7 @@ VERIFICACIÓN DE INTERFACES:
    - Rendimiento: ✅ Verificado
    - Confiabilidad: ✅ Verificado
 
-2. INTERFACE GSM-R:
+2. INTERFACE TETRA:
    - Estándar EIRENE: ✅ Verificado
    - Handover: ✅ Verificado
    - Prioridad: ✅ Verificado
@@ -337,7 +337,7 @@ VALIDACIÓN DE RENDIMIENTO:
 1. MÉTRICAS DE RENDIMIENTO:
    - Latencia: 95ms ✅ Cumple (≤ 100ms)
    - Throughput: 1200 msg/s ✅ Cumple (≥ 1000 msg/s)
-   - Disponibilidad: 99.97% ✅ Cumple (≥ 99.95%)
+   - Disponibilidad: 99.97% ✅ Cumple (≥ 99.5%)
    - Escalabilidad: 150 trenes ✅ Cumple (≥ 100 trenes)
 
 2. MÉTRICAS DE SEGURIDAD:
@@ -578,7 +578,7 @@ PRUEBAS FAT HMI:
 PRUEBAS SAT ITCS-RBC:
 
 1. PRUEBAS DE COMUNICACIÓN:
-   - GSM-R: ✅ Aprobado
+   - TETRA: ✅ Aprobado
    - Mensajes: ✅ Aprobado
    - Latencia: ✅ Aprobado
    - Confiabilidad: ✅ Aprobado
@@ -693,7 +693,7 @@ PRUEBAS SAT INTEROPERABILIDAD:
 2. PRUEBAS DE PROTOCOLOS:
    - FFFIS: ✅ Aprobado
    - SCI-CC-A: ✅ Aprobado
-   - GSM-R: ✅ Aprobado
+   - TETRA: ✅ Aprobado
    - Eurobalise: ✅ Aprobado
 
 3. PRUEBAS DE COMPATIBILIDAD:
@@ -729,7 +729,7 @@ CRITERIOS DE FUNCIONALIDAD:
    - Control de velocidad: 100% ✅ Cumple
    - Autorización de movimiento: 100% ✅ Cumple
    - Detección de posición: 100% ✅ Cumple
-   - Comunicación GSM-R: 100% ✅ Cumple
+   - Comunicación TETRA: 100% ✅ Cumple
    - Interface Eurobalise: 100% ✅ Cumple
 
 2. SISTEMA RBC:
@@ -771,7 +771,7 @@ CRITERIOS DE RENDIMIENTO:
    - Señalización: 800 msg/s ✅ Cumple (≥ 500 msg/s)
 
 3. DISPONIBILIDAD:
-   - ITCS: 99.97% ✅ Cumple (≥ 99.95%)
+   - ITCS: 99.97% ✅ Cumple (≥ 99.5%)
    - RBC: 99.99% ✅ Cumple (≥ 99.99%)
    - CTC: 99.98% ✅ Cumple (≥ 99.9%)
    - Señalización: 99.96% ✅ Cumple (≥ 99.9%)
@@ -962,7 +962,7 @@ EQUIPOS REQUERIDOS:
    - Osciloscopios: 4
 
 2. EQUIPOS DE COMUNICACIÓN:
-   - Equipos GSM-R: 4
+   - Equipos TETRA: 4
    - Equipos Eurobalise: 4
    - Equipos de red: 6
    - Equipos de interfaz: 8

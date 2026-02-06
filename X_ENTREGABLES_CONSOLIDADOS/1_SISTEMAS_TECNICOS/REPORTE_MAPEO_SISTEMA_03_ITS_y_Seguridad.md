@@ -143,7 +143,7 @@
 #### **1. Disponibilidad de Sistemas:**
 - **CCTV:** 99.5% en algunos documentos, 99.9% en otros
 - **ITS:** 99.5% según AT4
-- **Seguridad:** 99.95% para sistemas críticos
+- **Seguridad:** 99.5% para sistemas críticos
 - **Inconsistencia:** Diferentes niveles de disponibilidad sin justificación
 
 #### **2. Cobertura Geográfica:**

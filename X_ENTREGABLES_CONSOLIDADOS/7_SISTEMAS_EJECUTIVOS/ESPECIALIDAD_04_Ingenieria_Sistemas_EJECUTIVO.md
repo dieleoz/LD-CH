@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 04: INGENIERÍA DE SISTEMAS
+# ESPECIALIDAD 04: INGENIERÍA DE SISTEMAS
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -14,7 +14,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 - **25 interfaces críticas:** Comunicación entre sistemas
 - **15 protocolos:** Estándares de interoperabilidad
 - **12 APIs:** Comunicación con sistemas externos
-- **99.95% disponibilidad:** Sistemas críticos integrados
+- **99.5% disponibilidad:** Sistemas críticos integrados
 
 ---
 
@@ -34,7 +34,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 ### ¿Por qué 25 interfaces críticas?
 **Justificación de Interfaces:**
 - **CTC-ITCS:** 5 interfaces para control automático de trenes
-- **TETRA-GSM-R:** 4 interfaces para comunicaciones redundantes
+- **TETRA-TETRA:** 4 interfaces para comunicaciones redundantes
 - **ITS-Seguridad:** 3 interfaces para monitoreo y control
 - **Material Rodante-ATP:** 4 interfaces para control embarcado
 - **Infraestructura:** 6 interfaces para coordinación
@@ -42,7 +42,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
-- **UIC 920-2:** Comunicaciones GSM-R estándar internacional
+- **UIC 920-2:** Comunicaciones TETRA estándar internacional
 - **UIC 438:** Señalización ferroviaria compatible con FENOCO
 - **UIC 930:** Sistemas de señalización interoperables
 - **UIC 950:** Control de tráfico coordinado
@@ -80,7 +80,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 | **Interfaces** | 25 críticas | Comunicación entre sistemas |
 | **Protocolos** | 15 estándares | Interoperabilidad |
 | **APIs** | 12 externas | Comunicación con FENOCO |
-| **Disponibilidad** | 99.95% | Sistemas críticos |
+| **Disponibilidad** | 99.5% | Sistemas críticos |
 
 ### 2. Gateway de Integración
 **Propósito:** Conversión de protocolos entre sistemas
@@ -102,7 +102,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 | Interfaces críticas | 25 | Especificaciones proyecto |
 | Protocolos | 15 | UIC + FFFIS |
 | APIs externas | 12 | Especificaciones proyecto |
-| Disponibilidad | 99.95% | AT4 |
+| Disponibilidad | 99.5% | AT4 |
 | Tiempo de respuesta | < 2 seg | Especificaciones proyecto |
 
 ### Criterios de aceptación
@@ -110,7 +110,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 - ✅ 15 protocolos implementados
 - ✅ 12 APIs funcionando
 - ✅ Gateway de integración operativo
-- ✅ Disponibilidad 99.95%
+- ✅ Disponibilidad 99.5%
 
 ---
 
@@ -174,7 +174,7 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 ### Supuestos Críticos del Diseño
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Disponibilidad sistemas** | 99.95% | Fallo en integración | Sistemas redundantes |
+| **Disponibilidad sistemas** | 99.5% | Fallo en integración | Sistemas redundantes |
 | **Protocolos estándar** | UIC + FFFIS | Incompatibilidad | Gateway de conversión |
 | **Interoperabilidad FENOCO** | Protocolos UIC | Limitaciones operativas | Compatibilidad dual |
 | **Tiempo de respuesta** | < 2 seg | Degradación servicio | Optimización de red |
@@ -250,7 +250,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad integración | 99.95% | 99.8% | 🟡 Mejorable |
+| Disponibilidad integración | 99.5% | 99.8% | 🟡 Mejorable |
 | Tiempo de respuesta | < 2 seg | 1.8 seg | 🟢 Excelente |
 | Interfaces operativas | 100% | 98% | 🟡 En progreso |
 | Protocolos implementados | 100% | 95% | 🟡 En progreso |

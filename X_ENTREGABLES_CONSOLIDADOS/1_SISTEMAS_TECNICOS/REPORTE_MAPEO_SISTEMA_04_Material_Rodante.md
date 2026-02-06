@@ -64,7 +64,7 @@
 #### **Ingeniería de Detalle:**
 23. **V.3.1_Material_Rodante_Detallado.md** - Material rodante detallado
 24. **V.X_Sistema_EOT_Detalle_v5.0.md** - Sistema EOT detalle
-25. **V.X_Sistema_GSM-R_Detalle_v5.0.md** - Sistema GSM-R detalle
+25. **V.X_Sistema_TETRA_Detalle_v5.0.md** - Sistema TETRA detalle
 26. **V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md** - Sistemas ferroviarios integrados
 27. **V.5.1_Plan_Integracion_Sistemas_COMPLETO.md** - Plan integración sistemas
 28. **8_10_Sistema_de_comunicaciones_embarcados.md** - Sistema comunicaciones embarcados
@@ -144,7 +144,7 @@
 ### **⚠️ INCONSISTENCIAS DETECTADAS:**
 
 #### **1. Disponibilidad de Material Rodante:**
-- **AT4:** 99.95% disponibilidad para material rodante
+- **AT4:** 99.5% disponibilidad para material rodante
 - **Documentos técnicos:** 99.5% para equipos embarcados
 - **Inconsistencia:** Diferentes niveles de disponibilidad sin justificación
 
@@ -189,7 +189,7 @@
 
 ### **2. Definir Sistemas Embarcados Integrados:**
 - Consolidar especificaciones ITCS embarcado
-- Definir interfaces con TETRA, GSM-R y GPS
+- Definir interfaces con TETRA, TETRA y GPS
 - Establecer protocolos de interoperabilidad FENOCO
 
 ### **3. Consolidar Talleres de Mantenimiento:**

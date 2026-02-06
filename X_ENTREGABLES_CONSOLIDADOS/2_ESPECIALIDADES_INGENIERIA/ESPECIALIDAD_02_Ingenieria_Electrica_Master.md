@@ -42,7 +42,7 @@
 ### **1.1 Base Legal y Contractual**
 
 #### **Obligaciones Contractuales Principales:**
-- **AT1:** Sistemas eléctricos con disponibilidad 99.95% según AT4
+- **AT1:** Sistemas eléctricos con disponibilidad 99.5% según AT4
 - **AT2:** Operación y mantenimiento de sistemas eléctricos críticos
 - **AT3:** Especificaciones técnicas de sistemas eléctricos y de potencia
 - **AT4:** Indicadores de disponibilidad para sistemas eléctricos críticos
@@ -52,7 +52,7 @@
 - **Alimentación Principal:** 480 V AC, 3 fases, 4 hilos, 800 kVA total
 - **Sistemas Críticos:** CTC (50 kVA), ATP Embarcado (30 kVA), ENCE (25 kVA)
 - **Sistemas de Respaldo:** UPS 400 kVA, Generador 600 kVA, Baterías 200 kVA
-- **Disponibilidad:** 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** 99.5% para sistemas críticos según AT4
 - **Eficiencia Energética:** Factor de potencia > 0.95, THD < 5%
 
 ---
@@ -80,7 +80,7 @@
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │   TETRA     │  │   GSM-R     │  │   FIBRA     │             │
+│  │   TETRA     │  │   TETRA     │  │   FIBRA     │             │
 │  │   40kVA     │  │   40kVA     │  │   15kVA     │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -91,13 +91,13 @@
 - **Alimentación Principal:** Red eléctrica 800 kVA con redundancia
 - **Sistemas de Respaldo:** UPS 400 kVA + Generador 600 kVA + Baterías 200 kVA
 - **Distribución:** Tableros principales y secundarios con protecciones
-- **Cargas Críticas:** CTC, ATP, ENCE, TETRA, GSM-R, Fibra óptica
+- **Cargas Críticas:** CTC, ATP, ENCE, TETRA, TETRA, Fibra óptica
 - **Puesta a Tierra:** Sistema de tierra con resistencia < 5 Ω
 
 ### **2.2 Criterios de Diseño Eléctrico**
 
 #### **Principios de Diseño:**
-- **Disponibilidad:** 99.95% para sistemas críticos con redundancia N+1
+- **Disponibilidad:** 99.5% para sistemas críticos con redundancia N+1
 - **Calidad de Energía:** THD < 5%, regulación de voltaje ±2%
 - **Eficiencia:** Factor de potencia > 0.95, pérdidas < 3%
 - **Seguridad:** Cumplimiento RETIE, IEC, IEEE
@@ -128,20 +128,20 @@
 #### **Fuentes de Alimentación:**
 | Fuente | Capacidad | Tipo | Disponibilidad |
 |:-------|:----------|:-----|:---------------|
-| **Alimentación principal** | 800 kVA | Red eléctrica | 99.95% |
-| **UPS** | 400 kVA | Sistema ininterrumpida | 99.95% |
-| **Generador** | 600 kVA | Diesel | 99.95% |
-| **Baterías** | 200 kVA | Plomo-ácido | 99.95% |
+| **Alimentación principal** | 800 kVA | Red eléctrica | 99.5% |
+| **UPS** | 400 kVA | Sistema ininterrumpida | 99.5% |
+| **Generador** | 600 kVA | Diesel | 99.5% |
+| **Baterías** | 200 kVA | Plomo-ácido | 99.5% |
 
 #### **Sistemas con Requerimientos Eléctricos:**
 | Sistema | Componente Eléctrico | Requerimiento | Disponibilidad AT4 | Observaciones |
 |:--------|:---------------------|:---------------|:-------------------|:---------------|
-| **CTC** | Centro de Control de Tráfico | Alimentación 480V/60Hz, UPS N+1 (4h), A/C 24/7 | 99.95% | Sistema crítico |
+| **CTC** | Centro de Control de Tráfico | Alimentación 480V/60Hz, UPS N+1 (4h), A/C 24/7 | 99.5% | Sistema crítico |
 | **TETRA** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
-| **GSM-R** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
-| **ATP Embarcado** | Locomotoras | Alimentación 480V/60Hz, UPS embarcado | 99.95% | 15 locomotoras |
-| **ENCE** | Enclavamientos | Alimentación 480V/60Hz, UPS N+1 | 99.95% | 5 estaciones |
-| **Fibra Óptica** | Equipos de red | Alimentación 480V/60Hz, UPS N+1 | 99.95% | Equipos críticos |
+| **TETRA** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
+| **ATP Embarcado** | Locomotoras | Alimentación 480V/60Hz, UPS embarcado | 99.5% | 15 locomotoras |
+| **ENCE** | Enclavamientos | Alimentación 480V/60Hz, UPS N+1 | 99.5% | 5 estaciones |
+| **Fibra Óptica** | Equipos de red | Alimentación 480V/60Hz, UPS N+1 | 99.5% | Equipos críticos |
 | **CCTV** | Cámaras y servidores | Alimentación 480V/60Hz, UPS N+1 | 99.5% | 73 cámaras |
 | **ITS** | Sistemas de información | Alimentación 480V/60Hz, UPS N+1 | 99.5% | Sistemas críticos |
 
@@ -190,7 +190,7 @@
 | **Tablero Principal** | 800 kVA | Distribución general | CCO La Dorada |
 | **Tablero CTC** | 100 kVA | Centro de control | Sala de control |
 | **Tablero TETRA** | 80 kVA | Estaciones TETRA | Sala de telecom |
-| **Tablero GSM-R** | 80 kVA | Estaciones GSM-R | Sala de telecom |
+| **Tablero TETRA** | 80 kVA | Estaciones TETRA | Sala de telecom |
 | **Tablero ENCE** | 50 kVA | Enclavamientos | Sala de sistemas |
 | **Tablero Auxiliares** | 60 kVA | Iluminación, A/C | Sala auxiliar |
 
@@ -201,7 +201,7 @@
 | **Distribución** | XLPE, 0.6/1 kV | 240 mm² | Tableros secundarios |
 | **Circuito CTC** | XLPE, 0.6/1 kV | 95 mm² | Centro de control |
 | **Circuito TETRA** | XLPE, 0.6/1 kV | 70 mm² | Estaciones TETRA |
-| **Circuito GSM-R** | XLPE, 0.6/1 kV | 70 mm² | Estaciones GSM-R |
+| **Circuito TETRA** | XLPE, 0.6/1 kV | 70 mm² | Estaciones TETRA |
 | **Circuito ENCE** | XLPE, 0.6/1 kV | 50 mm² | Enclavamientos |
 | **Control** | XLPE, 0.6/1 kV | 10 mm² | Señales de control |
 
@@ -399,7 +399,7 @@
 | Sistema | Alimentación Eléctrica | Función |
 |:--------|:----------------------|:---------|
 | **TETRA** | 480V/60Hz, UPS N+1 | Estaciones base TETRA |
-| **GSM-R** | 480V/60Hz, UPS N+1 | Estaciones base GSM-R |
+| **TETRA** | 480V/60Hz, UPS N+1 | Estaciones base TETRA |
 | **Fibra óptica** | 480V/60Hz, UPS N+1 | Equipos de red |
 | **Antenas** | 220V/60Hz, UPS | Equipos de comunicación |
 
@@ -431,7 +431,7 @@
 
 | Requisito | Fuente | Especificación | Estado | Evidencia |
 |:----------|:-------|:---------------|:-------|:----------|
-| **Disponibilidad 99.95%** | AT4 | Sistemas críticos | ✅ Cumplido | IV.2_Especificaciones_Basicas_Electrica_v5.0 |
+| **Disponibilidad 99.5%** | AT4 | Sistemas críticos | ✅ Cumplido | IV.2_Especificaciones_Basicas_Electrica_v5.0 |
 | **Alimentación principal** | AT1 | 800 kVA, 480V/60Hz | ✅ Cumplido | V.2.1_Sistema_Alimentacion_Principal_DETALLADO |
 | **Sistemas de respaldo** | AT2 | UPS + Generador + Baterías | ✅ Cumplido | V.4_Sistemas_Potencia_Detalle_v5.0 |
 | **Eficiencia energética** | AT6 | Factor potencia > 0.95 | ✅ Cumplido | AT6_Gestion_Ambiental_MEJORADO |

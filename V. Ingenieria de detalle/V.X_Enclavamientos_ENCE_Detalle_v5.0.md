@@ -51,7 +51,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 ### 4.1 Controlador ENCE
 - **Procesador:** Redundante, SIL 4
 - **Memoria:** 8 GB RAM, 256 GB SSD
-- **Comunicaciones:** TETRA + GSM-R, Fibra óptica
+- **Comunicaciones:** TETRA + TETRA, Fibra óptica
 - **Alimentación:** 480 V AC + UPS 30 min
 
 ### 4.2 Interfaces ATP Embarcado
@@ -87,7 +87,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 - **Aislamiento:** Separación física/eléctrica
 
 ### 6.2 Disponibilidad
-- **Objetivo:** 99.95% (4.38 horas/año)
+- **Objetivo:** 99.5% (4.38 horas/año)
 - **Estrategia:** Redundancia N+1
 - **Mantenimiento:** Predictivo + correctivo
 - **Recuperación:** < 4 horas
@@ -120,7 +120,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 
 ### 8.2 Pruebas de Sistema
 - **Integración:** ATP + CTC + ENCE
-- **Rendimiento:** Disponibilidad 99.95%
+- **Rendimiento:** Disponibilidad 99.5%
 - **Seguridad:** Análisis de riesgos
 - **Certificación:** Cumplimiento normativo
 
@@ -174,7 +174,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 
 ### 12.2 Próximos Pasos
 1. **V.X_Sistema_Desvios_Detalle.md** (Desvíos detalle)
-2. **V.X_Sistema_GSM-R_Detalle.md** (GSM-R detalle)  
+2. **V.X_Sistema_TETRA_Detalle.md** (TETRA detalle)  
 3. **V.X_Sistema_EOT_Detalle.md** (EOT detalle)
 
 ---

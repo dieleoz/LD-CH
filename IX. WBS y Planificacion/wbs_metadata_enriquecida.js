@@ -1,4 +1,4 @@
-﻿const wbsMetadata = {
+const wbsMetadata = {
   "version": "1.0",
   "fecha_creacion": "2025-10-08",
   "descripcion": "Metadata enriquecida de la WBS con criterios tÃ©cnicos, justificaciones y trazabilidad completa",
@@ -9,7 +9,7 @@
       "criterios_diseno": [
         "Arquitectura centralizada con redundancia activa N+1",
         "Hot-standby principal/respaldo con failover automático <5 segundos",
-        "Disponibilidad contractual 99.95% para sistemas vitales (AT2/AT4)",
+        "Disponibilidad contractual 99.5% para sistemas vitales (AT2/AT4)",
         "Integración directa con ETCS L2 y protocolos FENOCO definidos en AT1"
       ],
       "supuestos": [
@@ -34,7 +34,7 @@
         "AT1 - Control de Tráfico (Arquitectura CTC)",
         "AT2 - Operación y Mantenimiento (Disponibilidad 24/7)",
         "AT3 - Especificaciones Generales (Redundancia activa)",
-        "AT4 - Disponibilidad 99.95%"
+        "AT4 - Disponibilidad 99.5%"
       ],
       "ultima_actualizacion": "2025-11-11",
       "actualizado_por": "DT-FIBRA-011-2025-11-06"
@@ -60,20 +60,20 @@
         "DT-CTC-003-2025-10-08",
         "DT-FIBRA-160-2025-11-06"
       ],
-      "feedback_especialista": "Configuración virtual enterprise con redundancia lógica, interoperabilidad FENOCO y módulos ETCS L2 asegurando disponibilidad contractual 99.95%.",
+      "feedback_especialista": "Configuración virtual enterprise con redundancia lógica, interoperabilidad FENOCO y módulos ETCS L2 asegurando disponibilidad contractual 99.5%.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
         "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md",
         "AT1 - Control de Tráfico",
         "AT3 - Especificaciones Generales",
-        "AT4 - Disponibilidad 99.95%",
+        "AT4 - Disponibilidad 99.5%",
         "AT10 - Interoperabilidad FENOCO"
       ],
       "referencias_contractuales": [
         "AT1 - Control de Tráfico (Arquitectura CTC virtual)",
         "AT3 - Especificaciones Generales (ETCS L2)",
-        "AT4 - Disponibilidad 99.95%",
+        "AT4 - Disponibilidad 99.5%",
         "AT10 - Interoperabilidad FENOCO",
         "UIC 950-7/554 - Protocolos FENOCO",
         "CENELEC EN 50126/128/129"
@@ -262,7 +262,7 @@
   },
   "1.1.101": {
     "descripcion": "Servidores CTC respaldo",
-    "justificacion_tecnica": "Fundamentado en AT2 (Operación y Mantenimiento), que establece redundancia hot-standby para sistemas críticos con disponibilidad 99.95%. Según AT4, el sistema CTC debe mantener operación continua 24/7 sin interrupciones. Cantidad: 2 UND (configuración N+1 con conmutación automática <5 segundos). El servidor respaldo sincroniza datos en tiempo real y toma control automáticamente ante falla del principal. Referencias: AT2 Operación y Mantenimiento, AT4 Disponibilidad (99.95%), AT3 Especificaciones Generales (redundancia CTC)",
+    "justificacion_tecnica": "Fundamentado en AT2 (Operación y Mantenimiento), que establece redundancia hot-standby para sistemas críticos con disponibilidad 99.5%. Según AT4, el sistema CTC debe mantener operación continua 24/7 sin interrupciones. Cantidad: 2 UND (configuración N+1 con conmutación automática <5 segundos). El servidor respaldo sincroniza datos en tiempo real y toma control automáticamente ante falla del principal. Referencias: AT2 Operación y Mantenimiento, AT4 Disponibilidad (99.5%), AT3 Especificaciones Generales (redundancia CTC)",
     "criterios_diseno": [
       "Configuración activo-pasivo (hot-standby según AT2)",
       "Sincronización datos en tiempo real < 1 segundo",
@@ -276,17 +276,17 @@
       "Monitoreo continuo 24/7 según AT2"
     ],
     "decisiones_tecnicas": ["DT-CTC-005-2025-10-24"],
-    "feedback_especialista": "Servidor respaldo configuración hot-standby para garantizar disponibilidad 99.95% requerida por AT2. Failover automático <5 segundos para mantenimiento continuidad operativa CTC.",
+    "feedback_especialista": "Servidor respaldo configuración hot-standby para garantizar disponibilidad 99.5% requerida por AT2. Failover automático <5 segundos para mantenimiento continuidad operativa CTC.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
       "IV.1_CTC_Basica_v2.0.md",
       "AT2 - Operación y Mantenimiento",
-      "AT4 - Disponibilidad 99.95%",
+      "AT4 - Disponibilidad 99.5%",
       "AT3 - Especificaciones Generales (redundancia)"
     ],
     "referencias_contractuales": [
       "AT2 - Operación y Mantenimiento (redundancia hot-standby)",
-      "AT4 - Disponibilidad 99.95% sistemas críticos",
+      "AT4 - Disponibilidad 99.5% sistemas críticos",
       "AT3 - Especificaciones Generales (Sistema CTC)",
       "IEC 62290-1 - Sistemas de control ferroviario"
     ],
@@ -295,7 +295,7 @@
   },
   "1.3.100": {
     "descripcion": "Controlador ENCE Zapatosa",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado con comportamiento fail-safe y AT4 exige disponibilidad 99.95% mediante redundancia N+1. Se mantiene 1 UND para la estación Zapatosa con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado con comportamiento fail-safe y AT4 exige disponibilidad 99.5% mediante redundancia N+1. Se mantiene 1 UND para la estación Zapatosa con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
@@ -319,12 +319,12 @@
       "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
       "AT1 - Enclavamientos",
       "AT3 - Especificaciones Técnicas ENCE",
-      "AT4 - Disponibilidad 99.95%"
+      "AT4 - Disponibilidad 99.5%"
     ],
     "referencias_contractuales": [
       "AT1 - Enclavamientos (Control centralizado por estación)",
       "AT3 - NAS 818/819 y ET 03.365.401.3",
-      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "AT4 - Disponibilidad 99.5% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
     "ultima_actualizacion": "2025-11-11",
@@ -332,7 +332,7 @@
   },
   "1.3.101": {
     "descripcion": "Controlador ENCE García Cadena",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación García Cadena con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.5% con redundancia N+1. Se mantiene 1 UND para la estación García Cadena con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
@@ -356,12 +356,12 @@
       "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
       "AT1 - Enclavamientos",
       "AT3 - Especificaciones Técnicas ENCE",
-      "AT4 - Disponibilidad 99.95%"
+      "AT4 - Disponibilidad 99.5%"
     ],
     "referencias_contractuales": [
       "AT1 - Enclavamientos (Control centralizado por estación)",
       "AT3 - NAS 818/819 y ET 03.365.401.3",
-      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "AT4 - Disponibilidad 99.5% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
     "ultima_actualizacion": "2025-11-11",
@@ -369,7 +369,7 @@
   },
   "1.3.102": {
     "descripcion": "Controlador ENCE Barrancabermeja",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Barrancabermeja con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.5% con redundancia N+1. Se mantiene 1 UND para la estación Barrancabermeja con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
@@ -393,12 +393,12 @@
       "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
       "AT1 - Enclavamientos",
       "AT3 - Especificaciones Técnicas ENCE",
-      "AT4 - Disponibilidad 99.95%"
+      "AT4 - Disponibilidad 99.5%"
     ],
     "referencias_contractuales": [
       "AT1 - Enclavamientos (Control centralizado por estación)",
       "AT3 - NAS 818/819 y ET 03.365.401.3",
-      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "AT4 - Disponibilidad 99.5% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
     "ultima_actualizacion": "2025-11-11",
@@ -406,7 +406,7 @@
   },
   "1.3.103": {
     "descripcion": "Controlador ENCE Puerto Berrío-Grecia",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación Puerto Berrío-Grecia con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.5% con redundancia N+1. Se mantiene 1 UND para la estación Puerto Berrío-Grecia con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
@@ -430,12 +430,12 @@
       "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
       "AT1 - Enclavamientos",
       "AT3 - Especificaciones Técnicas ENCE",
-      "AT4 - Disponibilidad 99.95%"
+      "AT4 - Disponibilidad 99.5%"
     ],
     "referencias_contractuales": [
       "AT1 - Enclavamientos (Control centralizado por estación)",
       "AT3 - NAS 818/819 y ET 03.365.401.3",
-      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "AT4 - Disponibilidad 99.5% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
     "ultima_actualizacion": "2025-11-11",
@@ -443,7 +443,7 @@
   },
   "1.3.104": {
     "descripcion": "Controlador ENCE La Dorada-México",
-    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.95% con redundancia N+1. Se mantiene 1 UND para la estación La Dorada-México con integración redundante al CTC y al sistema ETCS L2.",
+    "justificacion_tecnica": "Fundamentado en AT1 (Enclavamientos) que exige un controlador ENCE por estación operativa para gobernar señales y agujas. AT3 (Especificaciones Técnicas, normas NAS 818/819 y ET 03.365.401.3) define el enclavamiento electrónico estructurado fail-safe y AT4 demanda disponibilidad 99.5% con redundancia N+1. Se mantiene 1 UND para la estación La Dorada-México con integración redundante al CTC y al sistema ETCS L2.",
     "criterios_diseno": [
       "Gobierno fail-safe de señales y agujas conforme NAS 818/819",
       "Redundancia activa N+1 para continuidad operativa (AT4)",
@@ -467,12 +467,12 @@
       "26. Sistem_CTC_Int  AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md",
       "AT1 - Enclavamientos",
       "AT3 - Especificaciones Técnicas ENCE",
-      "AT4 - Disponibilidad 99.95%"
+      "AT4 - Disponibilidad 99.5%"
     ],
     "referencias_contractuales": [
       "AT1 - Enclavamientos (Control centralizado por estación)",
       "AT3 - NAS 818/819 y ET 03.365.401.3",
-      "AT4 - Disponibilidad 99.95% y redundancia N+1",
+      "AT4 - Disponibilidad 99.5% y redundancia N+1",
       "ET 03.365.401.3 - Enclavamientos electrónicos estructurados"
     ],
     "ultima_actualizacion": "2025-11-11",
@@ -550,10 +550,10 @@
   },
   "3.1.100": {
     "descripcion": "Cable FO LPOC03120484ZC",
-    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece backbone de fibra óptica en doble anillo redundante para soporte de CTC, TETRA, GSM-R, CCTV y sistemas ITS. Según AT1, el corredor mide 526.133 km. AT4 exige disponibilidad 99.9% para telecomunicaciones. Cálculo: 526 km corredor + 10% reserva para enrollado en cajas (AT5) + 3% contingencia operativa = 594 km total. Cantidad: 594 km de cable con 120 fibras ópticas. Referencias: AT5 Telecomunicaciones (backbone doble anillo), AT4 Disponibilidad (99.9%), AT1 Longitud corredor",
+    "justificacion_tecnica": "Fundamentado en AT5 (Telecomunicaciones), que establece backbone de fibra óptica en doble anillo redundante para soporte de CTC, TETRA, TETRA, CCTV y sistemas ITS. Según AT1, el corredor mide 526.133 km. AT4 exige disponibilidad 99.9% para telecomunicaciones. Cálculo: 526 km corredor + 10% reserva para enrollado en cajas (AT5) + 3% contingencia operativa = 594 km total. Cantidad: 594 km de cable con 120 fibras ópticas. Referencias: AT5 Telecomunicaciones (backbone doble anillo), AT4 Disponibilidad (99.9%), AT1 Longitud corredor",
     "criterios_diseno": [
       "Backbone en doble anillo redundante (AT5 Telecomunicaciones)",
-      "120 fibras ópticas para segregación por sistemas: 40 CTC, 40 TETRA/GSM-R, 20 CCTV, 20 reserva",
+      "120 fibras ópticas para segregación por sistemas: 40 CTC, 40 TETRA/TETRA, 20 CCTV, 20 reserva",
       "Tipo LPOC (Low Profile Optical Cable) para instalación aérea en postes",
       "Cumplimiento ITU-T G.652.D (monomodo estándar)",
       "10% reserva para enrollado en cajas cada 300m (AT5)",
@@ -566,7 +566,7 @@
       "Longitud total: 594 km (526 corredor + 53.37 reserva + 14.78 contingencia)"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "120 fibras ópticas permiten segregación completa de sistemas: CTC (40), TETRA/GSM-R (40), CCTV/accesos (20), reserva para expansión futura (20). Cable LPOC tipo aéreo según AT5.",
+    "feedback_especialista": "120 fibras ópticas permiten segregación completa de sistemas: CTC (40), TETRA/TETRA (40), CCTV/accesos (20), reserva para expansión futura (20). Cable LPOC tipo aéreo según AT5.",
     "documentos_ingenieria": [
       "V.3_Comunicacion_Detalle_v3.0.md",
       "AT5 - Telecomunicaciones (backbone doble anillo)",
@@ -712,7 +712,7 @@
   },
   "1.1.105": {
     "descripcion": "Sistema redundancia",
-    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas críticos del CTC con disponibilidad 99.95%. Según AT2, todos los sistemas críticos deben tener redundancia activa. AT3 especifica arquitectura N+1 full-active para alta disponibilidad. Cantidad: 1 UND (sistema completo de redundancia). Sistema incluye: mecanismo failover automático <5 segundos, sincronización datos tiempo real, detección fallos <100ms. Referencias: AT4 Redundancia N+1 (disponibilidad 99.95%), AT2 Arquitectura redundante, AT3 Failover automático <5seg",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas críticos del CTC con disponibilidad 99.5%. Según AT2, todos los sistemas críticos deben tener redundancia activa. AT3 especifica arquitectura N+1 full-active para alta disponibilidad. Cantidad: 1 UND (sistema completo de redundancia). Sistema incluye: mecanismo failover automático <5 segundos, sincronización datos tiempo real, detección fallos <100ms. Referencias: AT4 Redundancia N+1 (disponibilidad 99.5%), AT2 Arquitectura redundante, AT3 Failover automático <5seg",
     "criterios_diseno": [
       "Redundancia N+1 full-active según AT4",
       "Failover automático <5 segundos (AT3)",
@@ -726,15 +726,15 @@
       "Detección fallos <100ms según AT4"
     ],
     "decisiones_tecnicas": [],
-    "feedback_especialista": "Sistema redundancia configuración N+1 full-active para disponibilidad 99.95% requerida por AT4. Failover automático <5 segundos según AT3.",
+    "feedback_especialista": "Sistema redundancia configuración N+1 full-active para disponibilidad 99.5% requerida por AT4. Failover automático <5 segundos según AT3.",
     "documentos_ingenieria": [
       "V.1_CTC_Detalle_v1.0.md",
-      "AT4 - Redundancia N+1 (99.95%)",
+      "AT4 - Redundancia N+1 (99.5%)",
       "AT2 - Arquitectura redundante",
       "AT3 - Failover automático <5seg"
     ],
     "referencias_contractuales": [
-      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT4 - Redundancia N+1 disponibilidad 99.5%",
       "AT2 - Arquitectura redundante críticos",
       "AT3 - Failover automático <5 segundos",
       "AT4 - Detección fallos <100ms"
@@ -744,12 +744,12 @@
   },
   "6.1.200": {
     "descripcion": "Computadora ATP embarcada",
-    "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), que define sistema ATP embarcado para protección automática de trenes con ATP (Automatic Train Protection) compatible ETCS Level 2. Según AT3, se requiere certificación SIL-4 (CENELEC EN 50126/128/129) para funciones vitales. AT4 exige disponibilidad 99.95% para sistemas ATP. Cantidad: 8 UND (5 locomotoras contractuales según AT1 Apéndice Financiero pág. 3 + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto). Computadora ATP embarcada es el núcleo del sistema de protección automática que integra: Eurobaliza, odómetro, interfaces frenos, display maquinista. Referencias: AT1 Material Rodante (ATP embarcado), AT3 Especificaciones ETCS L2, AT4 Disponibilidad (99.95%), CENELEC EN 50126/128/129",
+    "justificacion_tecnica": "Fundamentado en AT1 (Material Rodante), que define sistema ATP embarcado para protección automática de trenes con ATP (Automatic Train Protection) compatible ETCS Level 2. Según AT3, se requiere certificación SIL-4 (CENELEC EN 50126/128/129) para funciones vitales. AT4 exige disponibilidad 99.5% para sistemas ATP. Cantidad: 8 UND (5 locomotoras contractuales según AT1 Apéndice Financiero pág. 3 + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto). Computadora ATP embarcada es el núcleo del sistema de protección automática que integra: Eurobaliza, odómetro, interfaces frenos, display maquinista. Referencias: AT1 Material Rodante (ATP embarcado), AT3 Especificaciones ETCS L2, AT4 Disponibilidad (99.5%), CENELEC EN 50126/128/129",
     "criterios_diseno": [
       "Certificación SIL-4 para funciones vitales (AT3 ETCS L2)",
       "Compatible ETCS Level 2 según AT3",
       "Interfaz con eurobaliza y odómetro (AT3)",
-      "Disponibilidad 99.95% (AT4)"
+      "Disponibilidad 99.5% (AT4)"
     ],
     "supuestos": [
       "8 computadoras ATP embarcadas (5 locomotoras + 2 FAT/SAT + 1 contingencia)",
@@ -765,13 +765,13 @@
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
       "AT1 - Material Rodante (ATP embarcado)",
       "AT3 - Especificaciones ETCS L2",
-      "AT4 - Disponibilidad 99.95%",
+      "AT4 - Disponibilidad 99.5%",
       "DT-ELIMINACION-001-2025-10-24"
     ],
     "referencias_contractuales": [
       "AT1 - Material Rodante (5 locomotoras)",
       "AT3 - ATP compatible ETCS L2",
-      "AT4 - Disponibilidad 99.95%",
+      "AT4 - Disponibilidad 99.5%",
       "CENELEC EN 50126/128/129 - Certificación SIL-4"
     ],
     "ultima_actualizacion": "2025-10-24",
@@ -812,7 +812,7 @@
   },
   "6.1.206": {
     "descripcion": "Sistema redundancia ATP",
-    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas ATP embarcados críticos con disponibilidad 99.95%. Según AT3, el sistema ATP debe tener dos canales independientes para funciones vitales. Cantidad: 8 UND (1 por sistema ATP embarcado). Sistema incluye: votación 2oo3 (2 out of 3) para decisión segura, detección fallos <100ms, fail-safe ante fallo canal. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Dos canales ATP independientes, CENELEC EN 50129",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas ATP embarcados críticos con disponibilidad 99.5%. Según AT3, el sistema ATP debe tener dos canales independientes para funciones vitales. Cantidad: 8 UND (1 por sistema ATP embarcado). Sistema incluye: votación 2oo3 (2 out of 3) para decisión segura, detección fallos <100ms, fail-safe ante fallo canal. Referencias: AT4 Redundancia N+1 (99.5%), AT3 Dos canales ATP independientes, CENELEC EN 50129",
     "criterios_diseno": [
       "Dos canales independientes (AT3 ETCS L2)",
       "Voting 2oo3 para decisión segura (AT4)",
@@ -828,15 +828,15 @@
     "decisiones_tecnicas": [
       "DT-ELIMINACION-001-2025-10-24"
     ],
-    "feedback_especialista": "Sistema redundancia ATP consolidado en CAP 6 según DT-ELIMINACION-001. Dos canales independientes con votación 2oo3 para disponibilidad 99.95% según AT4.",
+    "feedback_especialista": "Sistema redundancia ATP consolidado en CAP 6 según DT-ELIMINACION-001. Dos canales independientes con votación 2oo3 para disponibilidad 99.5% según AT4.",
     "documentos_ingenieria": [
       "V.4_ATP_Embarcado_Detalle_v1.0.md",
-      "AT4 - Redundancia N+1 (99.95%)",
+      "AT4 - Redundancia N+1 (99.5%)",
       "AT3 - Dos canales ATP independientes",
       "CENELEC EN 50129 - Certificación redundancia"
     ],
     "referencias_contractuales": [
-      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT4 - Redundancia N+1 disponibilidad 99.5%",
       "AT3 - Dos canales ATP independientes",
       "CENELEC EN 50129 - Certificación redundancia"
     ],
@@ -1011,11 +1011,11 @@
   },
   "1.4.100": {
     "descripcion": "Desvíos motorizados CTC",
-    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece aparatos de vía motorizados y telemandados desde el CTC para control automático del tráfico. Según AT1, hay 25 desvíos motorizados en puntos críticos del corredor. AT4 exige disponibilidad 99.95% para sistemas de desvíos motorizados. Cantidad: 25 UND según inventario corredor (puntos críticos seleccionados según AT1). Desvíos motorizados permiten operación remota desde CTC según AT3. Referencias: AT3 Especificaciones Generales (desvíos motorizados), AT4 Disponibilidad (99.95%), AT1 Inventario 25 desvíos críticos",
+    "justificacion_tecnica": "Fundamentado en AT3 (Especificaciones Generales), que establece aparatos de vía motorizados y telemandados desde el CTC para control automático del tráfico. Según AT1, hay 25 desvíos motorizados en puntos críticos del corredor. AT4 exige disponibilidad 99.5% para sistemas de desvíos motorizados. Cantidad: 25 UND según inventario corredor (puntos críticos seleccionados según AT1). Desvíos motorizados permiten operación remota desde CTC según AT3. Referencias: AT3 Especificaciones Generales (desvíos motorizados), AT4 Disponibilidad (99.5%), AT1 Inventario 25 desvíos críticos",
     "criterios_diseno": [
       "Desvíos motorizados telemandados desde CTC (AT3)",
       "Control remoto automático según AT3",
-      "Disponibilidad 99.95% según AT4",
+      "Disponibilidad 99.5% según AT4",
       "Interfaz con CTC para operación centralizada"
     ],
     "supuestos": [
@@ -1027,16 +1027,16 @@
     "decisiones_tecnicas": [
       "DT-ENCE-003-2025-10-07"
     ],
-    "feedback_especialista": "25 desvíos motorizados según inventario corredor AT1. Control remoto CTC para operación automática según AT3. Disponibilidad 99.95% según AT4.",
+    "feedback_especialista": "25 desvíos motorizados según inventario corredor AT1. Control remoto CTC para operación automática según AT3. Disponibilidad 99.5% según AT4.",
     "documentos_ingenieria": [
       "V.2_Enclavamientos_Detalle_v1.0.md",
       "AT3 - Especificaciones Generales (desvíos motorizados)",
-      "AT4 - Disponibilidad 99.95%",
+      "AT4 - Disponibilidad 99.5%",
       "AT1 - Inventario 25 desvíos críticos"
     ],
     "referencias_contractuales": [
       "AT3 - Desvíos motorizados telemandados",
-      "AT4 - Disponibilidad 99.95%",
+      "AT4 - Disponibilidad 99.5%",
       "AT1 - Inventario 25 desvíos críticos"
     ],
     "ultima_actualizacion": "2025-10-24",
@@ -1044,7 +1044,7 @@
   },
   "1.4.101": {
     "descripcion": "Sistemas control remoto + redundancia N+1",
-    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas de control remoto de desvíos motorizados. Según AT3, el control remoto debe operar con failover automático <5 segundos. AT2 requiere mantenimiento predictivo de señales desvío. Cantidad: 25 UND (1 sistema por desvío según configuración redundante N+1). Sistema incluye: control remoto CTC, redundancia N+1, failover <5seg, interfaces. Referencias: AT4 Redundancia N+1 (99.95%), AT3 Failover automático <5seg, AT2 Mantenimiento predictivo",
+    "justificacion_tecnica": "Fundamentado en AT4 (Disponibilidad), que establece redundancia N+1 para sistemas de control remoto de desvíos motorizados. Según AT3, el control remoto debe operar con failover automático <5 segundos. AT2 requiere mantenimiento predictivo de señales desvío. Cantidad: 25 UND (1 sistema por desvío según configuración redundante N+1). Sistema incluye: control remoto CTC, redundancia N+1, failover <5seg, interfaces. Referencias: AT4 Redundancia N+1 (99.5%), AT3 Failover automático <5seg, AT2 Mantenimiento predictivo",
     "criterios_diseno": [
       "Sistemas control remoto redundante N+1 (AT4)",
       "Failover automático <5 segundos (AT3)",
@@ -1060,15 +1060,15 @@
     "decisiones_tecnicas": [
       "DT-ENCE-003-2025-10-07"
     ],
-    "feedback_especialista": "Sistemas control remoto con redundancia N+1 para disponibilidad 99.95% según AT4. Failover <5seg según AT3.",
+    "feedback_especialista": "Sistemas control remoto con redundancia N+1 para disponibilidad 99.5% según AT4. Failover <5seg según AT3.",
     "documentos_ingenieria": [
       "V.2_Enclavamientos_Detalle_v1.0.md",
-      "AT4 - Redundancia N+1 (99.95%)",
+      "AT4 - Redundancia N+1 (99.5%)",
       "AT3 - Failover automático <5seg",
       "AT2 - Mantenimiento predictivo"
     ],
     "referencias_contractuales": [
-      "AT4 - Redundancia N+1 disponibilidad 99.95%",
+      "AT4 - Redundancia N+1 disponibilidad 99.5%",
       "AT3 - Failover automático <5 segundos",
       "AT2 - Mantenimiento predictivo"
     ],

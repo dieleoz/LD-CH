@@ -51,7 +51,7 @@
 
 #### **Obligaciones Contractuales Principales:**
 - **AT1:** Alcance del proyecto - Sistemas ferroviarios integrales
-- **AT2:** Operación y mantenimiento - Disponibilidad 99.95%
+- **AT2:** Operación y mantenimiento - Disponibilidad 99.5%
 - **AT3:** Especificaciones generales - Estándares UIC, EN, RETIE
 - **AT4:** Indicadores de desempeño - KPIs contractuales
 - **AT5:** Gestión de interferencias - Coordinación con ANE
@@ -65,17 +65,17 @@
 #### **Sistemas Críticos:**
 | Sistema | Disponibilidad | Criterio de Aceptación |
 |:--------|:---------------|:----------------------|
-| **CTC Virtual** | 99.95% | Control centralizado operativo |
-| **ATP Embarcado** | 99.95% | 15 locomotoras con ETCS Level 2 |
+| **CTC Virtual** | 99.5% | Control centralizado operativo |
+| **ATP Embarcado** | 99.5% | 15 locomotoras con ETCS Level 2 |
 | **TETRA** | 99.5% | 37 estaciones con cobertura 100% |
-| **GSM-R** | 99.95% | 37 estaciones colocalizadas |
-| **Fibra Óptica** | 99.95% | 594 km con doble anillo |
-| **Material Rodante** | 99.95% | 15 locomotoras + 51 vagones operativos |
+| **TETRA** | 99.5% | 37 estaciones colocalizadas |
+| **Fibra Óptica** | 99.5% | 594 km con doble anillo |
+| **Material Rodante** | 99.5% | 15 locomotoras + 51 vagones operativos |
 
 #### **Indicadores de Desempeño (AT4):**
 | Indicador | Meta | Medición | Penalización |
 |:----------|:-----|:---------|:-------------|
-| **Disponibilidad Global** | 99.95% | Mensual | $50M COP/día |
+| **Disponibilidad Global** | 99.5% | Mensual | $50M COP/día |
 | **Tiempo de Respuesta** | < 500ms | Continuo | $10M COP/incidente |
 | **Cobertura de Comunicaciones** | 100% | Continuo | $25M COP/incidente |
 | **Cumplimiento Ambiental** | 100% | Trimestral | $100M COP/incidente |
@@ -108,7 +108,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Sistemas Técnicos:**
 - **Control y Señalización:** CTC Virtual, ATP Embarcado, ENCE, Desvíos
-- **Telecomunicaciones:** TETRA, GSM-R, Fibra óptica
+- **Telecomunicaciones:** TETRA, TETRA, Fibra óptica
 - **ITS y Seguridad:** CCTV, control de accesos, monitoreo
 - **Material Rodante:** 15 locomotoras, 51 vagones, talleres
 - **Infraestructura Operativa:** CCO, subestaciones, sistemas de respaldo
@@ -136,7 +136,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 #### **Objetivo 2: Mejora de la Seguridad**
 - **Meta:** Reducir incidentes ferroviarios en 95%
 - **Indicadores:**
-  - Disponibilidad 99.95% de sistemas críticos
+  - Disponibilidad 99.5% de sistemas críticos
   - Tiempo de respuesta < 500ms
   - Cobertura 100% de comunicaciones
 
@@ -164,7 +164,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 #### **Sistema de Telecomunicaciones:**
 - **Objetivo:** Comunicación redundante confiable
 - **Resultado:** Cobertura 100% con redundancia N+1
-- **Beneficio:** Disponibilidad 99.95% comunicaciones
+- **Beneficio:** Disponibilidad 99.5% comunicaciones
 
 #### **Sistema de Material Rodante:**
 - **Objetivo:** Flota moderna y eficiente
@@ -195,7 +195,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │   TETRA     │  │   GSM-R     │  │   FIBRA     │             │
+│  │   TETRA     │  │   TETRA     │  │   FIBRA     │             │
 │  │   (37)      │  │   (37)      │  │   (594km)   │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -213,7 +213,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Sistema | Componentes Principales | Cantidad | Estado |
 |:--------|:------------------------|:---------|:-------|
 | **Control y Señalización** | CTC Virtual, ATP Embarcado, ENCE | 1+15+5 | ✅ Completado |
-| **Telecomunicaciones** | TETRA, GSM-R, Fibra óptica | 37+37+594km | ✅ Completado |
+| **Telecomunicaciones** | TETRA, TETRA, Fibra óptica | 37+37+594km | ✅ Completado |
 | **ITS y Seguridad** | CCTV, Control accesos, Monitoreo | 73+15+8 | ✅ Completado |
 | **Material Rodante** | Locomotoras, Vagones, Talleres | 15+51+3 | ✅ Completado |
 | **Infraestructura Operativa** | CCO, Estaciones, Subestaciones | 1+37+8 | ✅ Completado |
@@ -241,7 +241,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Ingeniería de Sistemas:**
 - **Sistemas integrados:** CTC, ATP, ENCE
-- **Comunicaciones:** TETRA, GSM-R, fibra óptica
+- **Comunicaciones:** TETRA, TETRA, fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
 
@@ -348,7 +348,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 ### **7.1 Criterios Técnicos**
 
 #### **Disponibilidad de Sistemas:**
-- **Sistemas críticos:** 99.95% de disponibilidad
+- **Sistemas críticos:** 99.5% de disponibilidad
 - **Sistemas no críticos:** 99.5% de disponibilidad
 - **Medición:** Monitoreo continuo 24/7
 - **Período de evaluación:** Mensual
@@ -361,7 +361,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Calidad de Servicio:**
 - **Interrupciones:** Máximo 4.38 horas/mes
-- **Disponibilidad de datos:** 99.95%
+- **Disponibilidad de datos:** 99.5%
 - **Tiempo de recuperación:** < 4 horas
 - **Satisfacción del usuario:** > 95%
 
@@ -388,11 +388,11 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 #### **Indicadores de Disponibilidad:**
 | Sistema | Meta | Actual | Estado |
 |:--------|:-----|:-------|:-------|
-| **CTC Virtual** | 99.95% | 99.98% | 🟢 Excelente |
-| **ATP Embarcado** | 99.95% | 99.97% | 🟢 Excelente |
+| **CTC Virtual** | 99.5% | 99.98% | 🟢 Excelente |
+| **ATP Embarcado** | 99.5% | 99.97% | 🟢 Excelente |
 | **TETRA** | 99.5% | 99.2% | 🟡 Mejorable |
-| **GSM-R** | 99.95% | 99.98% | 🟢 Excelente |
-| **Fibra Óptica** | 99.95% | 99.99% | 🟢 Excelente |
+| **TETRA** | 99.5% | 99.98% | 🟢 Excelente |
+| **Fibra Óptica** | 99.5% | 99.99% | 🟢 Excelente |
 
 #### **Indicadores Operacionales:**
 | Indicador | Meta | Actual | Estado |
@@ -408,7 +408,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
 | **Interrupciones mensuales** | < 4.38 horas | 2.1 horas | 🟢 Excelente |
-| **Disponibilidad de datos** | 99.95% | 99.97% | 🟢 Excelente |
+| **Disponibilidad de datos** | 99.5% | 99.97% | 🟢 Excelente |
 | **Tiempo de recuperación** | < 4 horas | 2.5 horas | 🟢 Excelente |
 | **Satisfacción del usuario** | > 95% | 97% | 🟢 Excelente |
 

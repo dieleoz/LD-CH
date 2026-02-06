@@ -1,4 +1,4 @@
-﻿// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
+// Exportar con ambos nombres para compatibilidad con todas las interfaces HTML
 // Generado automÃ¡ticamente desde WBS_Presupuestal_v2.0.md
 // Fecha: 2025-10-14 18:11:17
 // Total items: 159
@@ -989,7 +989,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Sistema GSM-R",
+                      "descripcion":  "Sistema TETRA",
                       "total_cop":  0,
                       "archivos_relacionados":  [
 
@@ -1008,7 +1008,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Estaciones base GSM-R",
+                      "descripcion":  "Estaciones base TETRA",
                       "total_cop":  1665000000,
                       "archivos_relacionados":  [
 
@@ -1027,7 +1027,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Antenas GSM-R",
+                      "descripcion":  "Antenas TETRA",
                       "total_cop":  296000000,
                       "archivos_relacionados":  [
 
@@ -1046,7 +1046,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Radios embarcados GSM-R",
+                      "descripcion":  "Radios embarcados TETRA",
                       "total_cop":  750000000,
                       "archivos_relacionados":  [
 
@@ -1065,7 +1065,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Sistema control GSM-R",
+                      "descripcion":  "Sistema control TETRA",
                       "total_cop":  80000000,
                       "archivos_relacionados":  [
 
@@ -1084,7 +1084,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "2",
-                      "descripcion":  "Interfaces TETRA-GSM-R",
+                      "descripcion":  "Interfaces TETRA-TETRA",
                       "total_cop":  185000000,
                       "archivos_relacionados":  [
 
@@ -2851,7 +2851,7 @@ window.wbsDataGlobal = window.datos_wbs = {
 
                                             ],
                       "capitulo":  "6",
-                      "descripcion":  "Radios GSM-R embarcados",
+                      "descripcion":  "Radios TETRA embarcados",
                       "total_cop":  400000000,
                       "archivos_relacionados":  [
 

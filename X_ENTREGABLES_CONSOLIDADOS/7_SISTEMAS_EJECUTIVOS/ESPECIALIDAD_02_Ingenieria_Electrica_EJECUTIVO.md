@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 02: INGENIERÍA ELÉCTRICA
+# ESPECIALIDAD 02: INGENIERÍA ELÉCTRICA
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -14,7 +14,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 - **480 V AC, 3 fases:** Sistema de distribución principal según RETIE
 - **400 kVA UPS:** Sistema de respaldo ininterrumpido para sistemas críticos
 - **600 kVA generador:** Respaldo diésel para emergencias
-- **99.95% disponibilidad:** Sistemas críticos según AT4
+- **99.5% disponibilidad:** Sistemas críticos según AT4
 - **Factor de potencia > 0.95:** Eficiencia energética según RETIE
 
 ### Hitos críticos
@@ -60,7 +60,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 - **Tiempo de transferencia:** < 10 segundos para sistemas críticos
 - **Autonomía:** 8 horas para sistemas críticos
 
-### ¿Por qué disponibilidad 99.95%?
+### ¿Por qué disponibilidad 99.5%?
 **Justificación Contractual (AT4):**
 - **Sistemas críticos:** CTC, ATP, ENCE requieren alta disponibilidad
 - **Redundancia N+1:** Sistemas de respaldo automático
@@ -152,7 +152,7 @@ La Ingeniería Eléctrica proporciona **energía eléctrica** para todos los sis
 | Frecuencia | 60 Hz | RETIE |
 | Factor de potencia | > 0.95 | RETIE |
 | THD | < 5% | IEEE 519 |
-| Disponibilidad | 99.95% | AT4 |
+| Disponibilidad | 99.5% | AT4 |
 | Tiempo de transferencia | < 10 seg | RETIE |
 
 ### Criterios de aceptación
@@ -160,7 +160,7 @@ La Ingeniería Eléctrica proporciona **energía eléctrica** para todos los sis
 - ✅ UPS 400 kVA funcionando
 - ✅ Generador 600 kVA operativo
 - ✅ Factor de potencia > 0.95
-- ✅ Disponibilidad 99.95%
+- ✅ Disponibilidad 99.5%
 
 ---
 
@@ -264,7 +264,7 @@ Los sistemas eléctricos operan 24/7 proporcionando energía eléctrica confiabl
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Alcance:** Sistemas eléctricos integrales - Cumplida
-- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.95% - Cumplida
+- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.5% - Cumplida
 - ⏳ **AT3 - Especificaciones:** Sistemas eléctricos según estándares - En progreso
 - ⏳ **AT4 - Indicadores:** Disponibilidad sistemas críticos - En progreso
 - ⏳ **AT6 - Ambiental:** Eficiencia energética - En progreso
@@ -307,7 +307,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad eléctrica | 99.95% | 99.8% | 🟡 Mejorable |
+| Disponibilidad eléctrica | 99.5% | 99.8% | 🟡 Mejorable |
 | Factor de potencia | > 0.95 | 0.97 | 🟢 Excelente |
 | THD | < 5% | 3.2% | 🟢 Excelente |
 | Tiempo de transferencia | < 10 seg | 8 seg | 🟢 Excelente |

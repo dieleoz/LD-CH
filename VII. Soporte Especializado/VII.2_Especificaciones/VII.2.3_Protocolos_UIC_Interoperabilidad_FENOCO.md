@@ -50,12 +50,12 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 
 ## 📡 PROTOCOLOS DE COMUNICACIÓN
 
-### **2. GSM-R CONFORME UIC 920-2**
+### **2. TETRA CONFORME UIC 920-2**
 
 #### **2.1 Especificaciones Técnicas**
 | Parámetro | Especificación | Estándar |
 |:----------|:---------------|:---------|
-| **Estándar** | GSM-R | UIC 920-2 |
+| **Estándar** | TETRA | UIC 920-2 |
 | **Frecuencias** | 900 MHz (uplink/downlink) | UIC 920-2 |
 | **Cobertura** | 100% corredor + 20 km FENOCO | UIC 920-2 |
 | **Capacidad** | 100 canales simultáneos | UIC 920-2 |
@@ -66,7 +66,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Estación Base │    │   Estación Base │    │   Estación Base │
 │   La Dorada     │◄──►│   Puerto Berrío │◄──►│  Barrancabermeja│
-│   (GSM-R)       │    │   (GSM-R)       │    │   (GSM-R)       │
+│   (TETRA)       │    │   (TETRA)       │    │   (TETRA)       │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          ▼                       ▼                       ▼
@@ -206,7 +206,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 | **Memoria** | 128 GB RAM DDR4 | Cache de datos |
 | **Almacenamiento** | 2x 1TB SSD RAID1 | Redundancia |
 | **Red** | 4x 10 Gbps Ethernet | Alta velocidad |
-| **Redundancia** | Sistema dual N+1 | 99.95% disponibilidad |
+| **Redundancia** | Sistema dual N+1 | 99.5% disponibilidad |
 
 #### **7.2 Funcionalidades del Gateway**
 - **Conversión de protocolos:** FENOCO ↔ APP
@@ -234,7 +234,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 |:-------|:---------|:----------|:----------|
 | **Ping básico** | Conectividad red | < 10 ms | 1 hora |
 | **Transferencia datos** | Ancho de banda | > 100 Mbps | 2 horas |
-| **Handover GSM-R** | Movilidad | < 2 segundos | 4 horas |
+| **Handover TETRA** | Movilidad | < 2 segundos | 4 horas |
 | **Failover gateway** | Redundancia | < 30 segundos | 2 horas |
 
 #### **8.2 Pruebas Funcionales**
@@ -249,7 +249,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 | Prueba | Objetivo | Criterio | Duración |
 |:-------|:---------|:----------|:----------|
 | **50 trenes simultáneos** | Capacidad máxima | Sin degradación | 4 horas |
-| **100 canales GSM-R** | Comunicaciones | Sin pérdidas | 2 horas |
+| **100 canales TETRA** | Comunicaciones | Sin pérdidas | 2 horas |
 | **1000 mensajes/segundo** | Procesamiento | Latencia < 1s | 1 hora |
 
 ---
@@ -261,7 +261,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 #### **9.1 Certificaciones de Sistemas**
 | Sistema | Certificación | Estándar | Validez |
 |:--------|:--------------|:---------|:--------|
-| **GSM-R** | UIC 920-2 | UIC 920-2 | 5 años |
+| **TETRA** | UIC 920-2 | UIC 920-2 | 5 años |
 | **ETCS Level 2** | UIC 438 | UIC 438 | 5 años |
 | **Interfaces** | UIC 950 | UIC 950 | 3 años |
 | **Interoperabilidad** | UIC 930 | UIC 930 | 3 años |
@@ -297,10 +297,10 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 #### **11.1 Métricas Técnicas**
 | Métrica | Objetivo | Método de Medición |
 |:--------|:---------|:-------------------|
-| **Disponibilidad interoperabilidad** | 99.95% | Tiempo operativo vs total |
+| **Disponibilidad interoperabilidad** | 99.5% | Tiempo operativo vs total |
 | **Latencia comunicaciones** | < 1 segundo | Tiempo respuesta end-to-end |
 | **Éxito handover** | > 99% | Transiciones exitosas |
-| **Disponibilidad gateway** | 99.95% | Tiempo operativo vs total |
+| **Disponibilidad gateway** | 99.5% | Tiempo operativo vs total |
 
 #### **11.2 Métricas Operacionales**
 | Métrica | Objetivo | Método de Medición |
@@ -365,13 +365,13 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 #### **14.1 Especialistas Requeridos**
 | Especialidad | Cantidad | Duración | Responsabilidades |
 |:-------------|:--------:|:--------:|:------------------|
-| **Ingenieros GSM-R** | 3 | 12 semanas | Implementación y pruebas |
+| **Ingenieros TETRA** | 3 | 12 semanas | Implementación y pruebas |
 | **Ingenieros ETCS** | 2 | 10 semanas | Sistemas de señalización |
 | **Especialistas UIC** | 2 | 8 semanas | Certificaciones |
 | **Técnicos gateway** | 4 | 12 semanas | Instalación y configuración |
 
 #### **14.2 Equipamiento Especializado**
-- **Equipos de prueba** GSM-R y ETCS
+- **Equipos de prueba** TETRA y ETCS
 - **Herramientas de certificación** UIC
 - **Software de simulación** de interoperabilidad
 - **Equipos de medición** y diagnóstico
@@ -390,7 +390,7 @@ Este documento establece los **protocolos UIC estándar** para garantizar la int
 
 #### **15.2 Rendimiento**
 - ✅ **Latencia:** < 1 segundo end-to-end
-- ✅ **Disponibilidad:** > 99.95%
+- ✅ **Disponibilidad:** > 99.5%
 - ✅ **Capacidad:** 50 trenes simultáneos
 - ✅ **Handover:** < 2 segundos
 

@@ -1,4 +1,4 @@
-﻿# INSTALACIONES ELÉCTRICAS - CONTRATO 8.7
+# INSTALACIONES ELÉCTRICAS - CONTRATO 8.7
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -36,7 +36,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **ESPECIFICACIONES TÉCNICAS**
 - **Voltajes:** 13.2 kV (media tensión), 480V/220V (baja tensión)
-- **Disponibilidad:** ≥ 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** ≥ 99.5% para sistemas críticos según AT4
 - **Tiempo de respaldo:** Mínimo 4 horas con sistemas UPS y baterías
 - **Redundancia:** Doble alimentación independiente para sistemas vitales
 
@@ -55,7 +55,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-115** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en instalaciones eléctricas | Desarrollar sistemas de respaldo basados en ETCS Level 2 hasta disponibilidad de AT3 |
 | **R-116** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de alimentación incompatibles | Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes |
-| **R-117** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en instalaciones eléctricas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
+| **R-117** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en instalaciones eléctricas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-118** | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
 | **R-119** | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de alimentación ITCS y FENOCO |
 
@@ -125,7 +125,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **NFPA:** National Fire Protection Association
 
 ### 1.3 Indicadores de Cumplimiento
-- **Disponibilidad del sistema:** 99.95% para sistemas críticos
+- **Disponibilidad del sistema:** 99.5% para sistemas críticos
 - **Tiempo de respaldo:** Mínimo 4 horas
 - **Redundancia:** Doble alimentación independiente
 - **Calidad de energía:** THD < 5%, regulación de voltaje ±2%
@@ -177,7 +177,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 1. **Redundancia N+1 para Sistemas Críticos:**
    - **Problema identificado:** Necesidad de continuidad operacional en sistemas ferroviarios
    - **Optimización EPC:** Doble alimentación independiente para CTC, señalización, ITCS
-   - **Beneficio:** Disponibilidad ≥ 99.95% según AT4
+   - **Beneficio:** Disponibilidad ≥ 99.5% según AT4
    - **Implementación:** Alimentación desde subestaciones diferentes
 
 2. **Sistemas UPS y Baterías:**
@@ -222,7 +222,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | Métrica | Objetivo | Frecuencia | Responsable |
 |:---:|:---:|:---:|:---|
 | **Cumplimiento de instalaciones eléctricas** | 100% | Semanal | Supervisor Técnico |
-| **Disponibilidad de sistemas críticos** | ≥ 99.95% | Diaria | Jefe de Proyecto |
+| **Disponibilidad de sistemas críticos** | ≥ 99.5% | Diaria | Jefe de Proyecto |
 | **Calidad de instalaciones eléctricas** | Excelente | Quincenal | Auditoría Técnica |
 | **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
 
@@ -281,12 +281,12 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 3. **Integración con Sistemas Ferroviarios ITCS:** Sistemas de respaldo para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
-5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
+5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 1. **Falta de interfaces ITCS:** Agregados sistemas de respaldo específicos para control embarcado ETCS Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
-3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.95%
+3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
@@ -294,13 +294,13 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 |:---:|:---:|:---:|:---:|:---|
 | R-115 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en instalaciones eléctricas |
 | R-116 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de alimentación incompatibles |
-| R-117 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en instalaciones eléctricas según AT4 |
+| R-117 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en instalaciones eléctricas según AT4 |
 | R-118 | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con ITCS |
 | R-119 | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 1. **Estrategia ITCS:** Desarrollar sistemas de respaldo basados en ETCS Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes
-3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
+3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Instalaciones Eléctricas:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
 5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de alimentación ITCS y FENOCO

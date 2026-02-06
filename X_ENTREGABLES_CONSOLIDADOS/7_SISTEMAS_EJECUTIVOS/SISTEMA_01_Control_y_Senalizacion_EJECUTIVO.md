@@ -1,4 +1,4 @@
-﻿# SISTEMA 01: CONTROL Y SEÑALIZACIÓN
+# SISTEMA 01: CONTROL Y SEÑALIZACIÓN
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -16,7 +16,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
 - **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-ITCS-FENOCO
 - **Cobertura:** 100% del corredor con filosofía virtual (sin señalización física)
-- **Disponibilidad requerida:** 99.95% (sistema crítico según estándares EN 50126)
+- **Disponibilidad requerida:** 99.5% (sistema crítico según estándares EN 50126)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -78,7 +78,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 | Nivel | Descripción | Ventajas | Desventajas | Decisión |
 |:------|:------------|:---------|:------------|:---------|
 | **Level 1** | Balizas + ATP embarcado | Simplicidad | Limitaciones de capacidad | ❌ Rechazado |
-| **Level 2** | GSM-R + ATP embarcado | Óptimo costo/beneficio | Requiere GSM-R | ✅ **Seleccionado** |
+| **Level 2** | TETRA + ATP embarcado | Óptimo costo/beneficio | Requiere TETRA | ✅ **Seleccionado** |
 | **Level 3** | Sin bloqueo fijo | Máxima capacidad | Complejidad alta | ❌ Rechazado |
 
 **Justificación de Level 2:**
@@ -184,15 +184,15 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Disponibilidad CTC | 99.95% | EN 50126 |
-| Disponibilidad ATP | 99.95% | EN 50126 |
-| Disponibilidad ENCE | 99.95% | EN 50126 |
+| Disponibilidad CTC | 99.5% | EN 50126 |
+| Disponibilidad ATP | 99.5% | EN 50126 |
+| Disponibilidad ENCE | 99.5% | EN 50126 |
 | Tiempo de respuesta | < 2 segundos | UIC 920-2 |
 | Tiempo de recuperación | < 5 minutos | EN 50126 |
 | Cobertura de comunicación | 100% | UIC 920-2 |
 
 ### Criterios de aceptación
-- ✅ Disponibilidad 99.95% del sistema completo
+- ✅ Disponibilidad 99.5% del sistema completo
 - ✅ Control centralizado desde CCO La Dorada
 - ✅ ATP embarcado en todas las locomotoras
 - ✅ Enclavamientos ENCE en 5 estaciones críticas
@@ -251,7 +251,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Tabla de interfaces críticas
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
-| Telecomunicaciones | TETRA + GSM-R | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + TETRA | Alta | EPC Telecomunicaciones |
 | Material Rodante | ATP Embarcado | Alta | EPC Sistemas |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Infraestructura | ENCE + Desvíos | Alta | EPC Sistemas |
@@ -305,21 +305,21 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Parque rodante** | 15 locomotoras | Menos ATP si reduce | Diseño escalable |
-| **Disponibilidad CTC** | 99.95% | Penalizaciones si no cumple | Redundancia N+1 |
-| **Cobertura GSM-R** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
+| **Disponibilidad CTC** | 99.5% | Penalizaciones si no cumple | Redundancia N+1 |
+| **Cobertura TETRA** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
 | **Estaciones críticas** | 5 estaciones | Más ENCE si aumenta | Diseño modular |
 | **Desvíos en vía** | 120 desvíos | Más automatización si aumenta | Control centralizado |
 | **Tiempo de respuesta** | < 2 segundos | Penalizaciones si excede | Optimización de red |
 
 ### Limitaciones del Diseño
-- **Dependencia de comunicaciones:** Sistema requiere GSM-R/TETRA operativo
+- **Dependencia de comunicaciones:** Sistema requiere TETRA/TETRA operativo
 - **Concentración de control:** CCO único punto de falla (mitigado con redundancia)
 - **Complejidad de ATP:** Requiere personal especializado para mantenimiento
 - **Interoperabilidad:** Dependiente de estándares FENOCO
 - **Tiempo de recuperación:** Máximo 5 minutos para restablecer servicio
 
 ### Dependencias Críticas
-- **GSM-R:** Comunicaciones críticas para ATP
+- **TETRA:** Comunicaciones críticas para ATP
 - **TETRA:** Comunicaciones de respaldo
 - **Fibra óptica:** Backbone de datos
 - **Material rodante:** 15 locomotoras con ATP embarcado
@@ -332,7 +332,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 | Riesgo | Probabilidad | Impacto | Mitigación | Estado |
 |:-------|:-------------|:---------|:-----------|:-------|
 | Fallo del CTC Virtual | Baja | Alto | Redundancia N+1 | ✅ Mitigado |
-| Fallo de comunicación | Media | Alto | TETRA + GSM-R dual | ✅ Mitigado |
+| Fallo de comunicación | Media | Alto | TETRA + TETRA dual | ✅ Mitigado |
 | Fallo de ATP embarcado | Baja | Alto | Sistemas de respaldo | ✅ Mitigado |
 | Fallo de ENCE | Baja | Medio | Control manual de respaldo | ✅ Mitigado |
 
@@ -341,10 +341,10 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ## 📋 CUMPLIMIENTO CONTRACTUAL
 
 ### Obligaciones clave del contrato
-- ✅ **AT1 - CCO:** Centro de Control Operacional con disponibilidad 99.95% - Cumplida
+- ✅ **AT1 - CCO:** Centro de Control Operacional con disponibilidad 99.5% - Cumplida
 - ✅ **AT2 - Operación:** Sistema de operación centralizada - Cumplida
 - ✅ **AT3 - Especificaciones:** ITCS ETCS Level 2 - Cumplida
-- ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida
+- ✅ **AT4 - Indicadores:** Disponibilidad 99.5% - Cumplida
 - ⏳ **AT8 - Operaciones:** Procedimientos operacionales integrados - En progreso
 - ❌ **AT9 - Cronograma:** Plan de implementación por fases - Pendiente
 
@@ -352,7 +352,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Apéndice Técnico 1:** Alcance del proyecto - Centro de Control Operacional
 - **Apéndice Técnico 2:** Operación y mantenimiento - Sistema de operación centralizada
 - **Apéndice Técnico 3:** Especificaciones generales - ITCS ETCS Level 2
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.5%
 
 ---
 
@@ -385,9 +385,9 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad CTC | 99.95% | 99.98% | 🟢 Excelente |
-| Disponibilidad ATP | 99.95% | 99.97% | 🟢 Excelente |
-| Disponibilidad ENCE | 99.95% | 99.96% | 🟢 Excelente |
+| Disponibilidad CTC | 99.5% | 99.98% | 🟢 Excelente |
+| Disponibilidad ATP | 99.5% | 99.97% | 🟢 Excelente |
+| Disponibilidad ENCE | 99.5% | 99.96% | 🟢 Excelente |
 | Tiempo de respuesta | < 2 segundos | 1.2 segundos | 🟢 Excelente |
 | Tiempo de recuperación | < 5 minutos | 3.5 minutos | 🟢 Excelente |
 

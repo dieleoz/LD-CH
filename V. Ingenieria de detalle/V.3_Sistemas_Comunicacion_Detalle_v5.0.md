@@ -1,4 +1,4 @@
-﻿- Aprobación formal de cambios
+- Aprobación formal de cambios
 
 ---
 

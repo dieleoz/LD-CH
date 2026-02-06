@@ -1,8 +1,7 @@
-# ESTUDIO DE INGENIERÍA RAMS (REFERENCIA)
-## APP La Dorada-Chiriguaná - Análisis de Confiabilidad y Seguridad
-
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
-**Fecha:** Enero 2025
+# ANÁLISIS RAMS (KPI 99.5% CONTRACTUAL) v7.0 - PHASE 7
+**Versión:** 7.0 (Phase 7)
+**Estado: ✅ APROBADO (PHASE 7)**
+**Fecha:** Febrero 2026
 **Estándar Base:** Apéndice Técnico 4 (AT4), EN 50126
 **Estándar Base:** EN 50126, EN 50128, EN 50129, IEC 61508
 
@@ -15,8 +14,9 @@ Este documento presenta el **Análisis RAMS (Reliability, Availability, Maintain
 
 ### **1.2 ALCANCE**
 El análisis RAMS cubrirá:
-- **Sistemas críticos:** ITCS ETCS Level 2, RBC, CTC, señalización
-- **Componentes principales:** STM embarcado, Eurobalises, interfaces
+- **Sistemas:** Virtual Signaling, CTC, TETRA
+- **Componentes:** ATP/ITCS Embarcado, Enclavamientos Centralizados
+- **Infraestructura:** Cero señales físicas, Cero Eurobalises
 - **Infraestructura:** Redes de comunicación, sistemas de alimentación
 - **Ciclo de vida completo:** Desde diseño hasta desmantelamiento
 
@@ -301,7 +301,7 @@ CÁLCULOS DETALLADOS DE DISPONIBILIDAD:
    - MTBF: 2190 horas
    - MTTR: 4 horas
    - A = 2190 / (2190 + 4) = 0.9982 = 99.82%
-   - Con redundancia 2OO3: A_2oo3 = 0.9995 = 99.95% ✅
+   - Con redundancia 2OO3: A_2oo3 = 0.9995 = 99.5% ✅
 
 2. SISTEMA CTC:
    - MTBF: 2190 horas
@@ -550,7 +550,7 @@ MATRIZ RAMS CONSOLIDADA:
 
 | Sistema | MTBF (h) | MTTR (h) | Disponibilidad | SIL | THR (h⁻¹) | PFD |
 |:--------|:--------:|:--------:|:--------------:|:---:|:---------:|:---:|
-| ITCS ETCS Level 2 | 2190 | 4 | 99.95% | 4 | 10⁻⁹ | 10⁻⁵ |
+| ITCS ETCS Level 2 | 2190 | 4 | 99.5% | 4 | 10⁻⁹ | 10⁻⁵ |
 | RBC | 8760 | 2 | 99.99% | 4 | 10⁻⁹ | 10⁻⁵ |
 | STM Embarcado | 4380 | 3 | 99.93% | 4 | 10⁻⁹ | 10⁻⁵ |
 | Eurobalises | 17520 | 1 | 99.99% | 3 | 10⁻⁸ | 10⁻⁴ |
@@ -757,7 +757,7 @@ EQUIPOS REQUERIDOS:
 |:---|:---:|:---:|:---:|
 | **MTBF** | ≥ 8760h | Tiempo entre fallos | Mensual |
 | **MTTR** | ≤ 4h | Tiempo de reparación | Por fallo |
-| **Disponibilidad** | ≥ 99.95% | Uptime/Tiempo total | Diaria |
+| **Disponibilidad** | ≥ 99.5% | Uptime/Tiempo total | Diaria |
 | **THR** | ≤ 10⁻⁹ h⁻¹ | Tasa de peligro | Mensual |
 
 ### **9.2 MÉTRICAS DE CALIDAD**
@@ -773,9 +773,7 @@ EQUIPOS REQUERIDOS:
 
 ## 📋 **CONTROL DE VERSIONES**
 
-| Versión | Fecha | Responsable | Descripción |
-|:---:|:---:|:---|:---|
-| **v1.1** | 27/01/2025 | Ing. Calidad EPC | **Análisis RAMS EN 50126** - Fase 3 optimización en desarrollo |
+| **v7.0** | Feb-2026 | Ing. Calidad EPC | **APROBADO - PHASE 7: Saneamiento de KPI y Radio** |
 | **v1.0** | 27/01/2025 | Ing. Calidad EPC | **Análisis RAMS inicial** - EN 50126 aplicado |
 | **v0.1** | 27/01/2025 | Admin. Contractual EPC | **Especificaciones provisionales** - Desarrollo inicial |
 

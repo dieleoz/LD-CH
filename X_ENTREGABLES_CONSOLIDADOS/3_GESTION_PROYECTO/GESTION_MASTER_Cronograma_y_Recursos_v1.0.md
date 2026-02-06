@@ -43,7 +43,7 @@
 
 #### **Obligaciones Contractuales Principales:**
 - **AT9:** Gestión de cronograma con fechas críticas del proyecto
-- **AT2:** Operación y mantenimiento con disponibilidad 99.95%
+- **AT2:** Operación y mantenimiento con disponibilidad 99.5%
 - **AT4:** Indicadores de desempeño con KPIs contractuales
 - **Criterios Técnicos Maestros:** Gestión integral de cronograma y recursos
 
@@ -217,7 +217,7 @@
 |:------------|:------|:--------------|:---------|
 | **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 años |
 | **Sistemas Ferroviarios** | Experto | UIC, EN 50126 | 2 años |
-| **Telecomunicaciones** | Experto | TETRA, GSM-R | 2 años |
+| **Telecomunicaciones** | Experto | TETRA, TETRA | 2 años |
 | **Control y Señalización** | Experto | ETCS Level 2 | 2 años |
 | **Material Rodante** | Experto | UIC, AAR | 2 años |
 | **Gestión Ambiental** | Avanzado | ISO 14001 | 2 años |
@@ -242,7 +242,7 @@
 | Material | Cantidad | Especificación | Proveedor | Estado |
 |:---------|:---------|:---------------|:----------|:-------|
 | Estaciones TETRA | 37 unidades | Radio digital | Motorola | ✅ Entregado |
-| Estaciones GSM-R | 37 unidades | Red de datos | Nokia | ✅ Entregado |
+| Estaciones TETRA | 37 unidades | Red de datos | Nokia | ✅ Entregado |
 | Cable fibra óptica | 594 km | 48 fibras G.652D | Prysmian | ⏳ En entrega |
 | Equipos DWDM | 8 unidades | Multiplexación | Cisco | ✅ Entregado |
 | Torres de comunicación | 37 unidades | 40m altura | [Proveedor] | ✅ Entregado |

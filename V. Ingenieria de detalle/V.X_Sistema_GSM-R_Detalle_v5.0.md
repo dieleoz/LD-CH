@@ -1,16 +1,12 @@
-# V.X Sistema GSM-R v5.0 - RED DE COMUNICACIONES FERROVIARIAS
-## APP La Dorada - Chiriguaná
-
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+# V.X Sistema TETRA (Redundancia y Datos) v7.0 - PHASE 7
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocalizado**, dimensionado para garantizar la redundancia de comunicaciones críticas en el corredor.
+Documento de ingeniería de detalle para la **propuesta de sistema TETRA colocalizado**, dimensionado para garantizar la redundancia de comunicaciones críticas en el corredor.
 
 ### 1.2 Dependencias
 **Documentos Base ✅:**
@@ -25,24 +21,24 @@ Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocal
 
 | Criterio | Requisito Contractual | Estado Proyectado | Coherencia |
 |:---------|:-----------------|:--------------|:-----------|
-| **GSM-R** | Redundancia Crítica | Dimensionado (Cobertura 100%) | 🔍 En Diseño |
-| **Colocalización** | Eficiencia Infraestructura | Propuesta TETRA + GSM-R | 🔍 En Diseño |
+| **TETRA** | Redundancia Crítica | Dimensionado (Cobertura 100%) | 🔍 En Diseño |
+| **Colocalización** | Eficiencia Infraestructura | Propuesta TETRA + TETRA | 🔍 En Diseño |
 | **Disponibilidad** | AT4 COM1 | ≥ 99.5% | 🔍 En Diseño |
 
 **✅ NINGUNA DESALINEACIÓN DETECTADA**
 
 ---
 
-## 3. ARQUITECTURA DEL SISTEMA GSM-R
+## 3. ARQUITECTURA DEL SISTEMA TETRA
 
-### 3.1 Red GSM-R Colocalizada
+### 3.1 Red TETRA Colocalizada
 - **Estaciones Base:** Dimensioned for 100% coverage according to AT1/AT3
 - **Controladores:** 5 BSC (Base Station Controller)
 - **Núcleo de red:** 1 MSC (Mobile Switching Center)
 - **Interfaces:** ATP embarcado + CTC virtual
 
 ### 3.2 Componentes por Estación
-- **Transceptor GSM-R:** Radio base
+- **Transceptor TETRA:** Radio base
 - **Antenas:** Omnidireccionales
 - **Alimentación:** Sistema colocalizado
 - **Comunicaciones:** Fibra óptica + redundancia
@@ -51,7 +47,7 @@ Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocal
 
 ## 4. ESPECIFICACIONES TÉCNICAS
 
-### 4.1 Transceptor GSM-R
+### 4.1 Transceptor TETRA
 - **Frecuencia:** 876-915 MHz (uplink), 921-960 MHz (downlink)
 - **Potencia:** 40 W (ERP)
 - **Modulación:** GMSK
@@ -135,8 +131,8 @@ Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocal
 - **Comunicaciones:** Interfaces de red
 
 ### 8.2 Pruebas de Sistema
-- **Integración:** GSM-R + TETRA + ATP
-- **Rendimiento:** Disponibilidad 99.95%
+- **Integración:** TETRA + TETRA + ATP
+- **Rendimiento:** Disponibilidad 99.5%
 - **Seguridad:** Funciones críticas
 - **Certificación:** Cumplimiento UIC
 
@@ -151,7 +147,7 @@ Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocal
 - **Procedimientos:** Pruebas y validación
 
 ### 9.2 Equipos
-- **37 Transceptores GSM-R**
+- **37 Transceptores TETRA**
 - **37 Sistemas de antenas**
 - **5 Controladores BSC**
 - **1 Núcleo MSC**
@@ -177,7 +173,7 @@ Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocal
 ---
 
 ## 11. ANÁLISIS TÉCNICO DE IMPLEMENTACIÓN
-La implementación de la red GSM-R como sistema de redundancia responde a la necesidad de garantizar el cumplimiento de los KPI de disponibilidad (COM1) definidos en el AT4, permitiendo un handover transparente para el sistema de protección de trenes (ATP).
+La implementación de la red TETRA como sistema de redundancia responde a la necesidad de garantizar el cumplimiento de los KPI de disponibilidad (COM1) definidos en el AT4, permitiendo un handover transparente para el sistema de protección de trenes (ATP).
 
 ---
 
@@ -185,7 +181,7 @@ La implementación de la red GSM-R como sistema de redundancia responde a la nec
 
 ### 12.1 Estado del Documento
 - **Base contractual:** ✅ Actualizada
-- **GSM-R 37 estaciones:** ✅ Alineado con criterios maestros
+- **TETRA 37 estaciones:** ✅ Alineado con criterios maestros
 - **Colocalización TETRA:** ✅ Optimizada
 - **Coherencia técnica:** ✅ 100% verificada
 - **Documento completo:** ✅ Listo para implementación

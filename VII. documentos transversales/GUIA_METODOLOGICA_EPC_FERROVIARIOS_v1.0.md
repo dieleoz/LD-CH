@@ -65,9 +65,7 @@ graph TD
 
 ---
 
-## 📋 SECCIÓN 2: ROADMAP DE EJECUCIÓN (11 SEMANAS)
-
-### FASE 0: PREPARACIÓN Y SETUP (Semana 1)
+   - [ ] Validar con Proyecto La Dorada-Chiriguaná: **Cero señales físicas (Virtual Signaling)**.
 
 **Objetivos:**
 - Configurar estructura de carpetas
@@ -139,13 +137,12 @@ mkdir -p METODOLOGIA/{Guia,Templates,Lecciones,Checklists}
       1.1.1.1 Centro de Control
       1.1.1.2 Enclavamientos
       1.1.1.3 Software CTC
-    1.1.2 ITCS/ETCS
+    1.1.2 ITCS/ETCS (Virtual Signaling)
       1.1.2.1 Sistema embarcado
-      1.1.2.2 Sistema en tierra (RBC)
-    1.1.3 Señalización
-      1.1.3.1 Señales luminosas
-      1.1.3.2 Señales mecánicas
-  1.2 SISTEMAS DE TELECOMUNICACIONES
+      1.1.2.2 Backend de vía (RBC/Virtual)
+    1.1.3 Pasos a Nivel (Barreras)
+      1.1.3.1 Interfaces lógicas
+  1.2 SISTEMAS DE TELECOMUNICACIONES (TETRA)
     [...]
 ```
 
@@ -524,7 +521,8 @@ Esta Guía Metodológica representa el conocimiento consolidado del Proyecto APP
 - ✅ Estimación de 45% ahorro de tiempo en proyectos futuros
 
 **PRÓXIMO PASO:**
-Aplicar esta guía en el siguiente proyecto EPC ferroviario, documentando lecciones aprendidas y actualizando la metodología para lograr una mejora continua.
+- Aplicar esta guía en el siguiente proyecto EPC ferroviario.
+- **Auditoría Phase 7:** Todo sistema debe ser validado contra la matriz de "Cero Infraestructura Innecesaria".
 
 ---
 

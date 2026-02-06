@@ -136,7 +136,7 @@
 #### 4.5.1 Métricas de Confiabilidad
 - **MTBF:** ≥50,000 horas
 - **MTTR:** ≤4 horas
-- **Disponibilidad requerida:** 99.95%
+- **Disponibilidad requerida:** 99.5%
 - **Garantía mínima:** 3 años
 
 #### 4.5.2 Estrategia de Redundancia

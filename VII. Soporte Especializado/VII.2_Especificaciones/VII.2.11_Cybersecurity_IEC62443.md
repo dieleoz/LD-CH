@@ -362,7 +362,7 @@ ZONA 4: SISTEMAS EXTERNOS (SL 0)
 ```
 PROTOCOLOS DE COMUNICACIÓN SEGURA:
 
-1. GSM-R:
+1. TETRA:
    - Cifrado: A5/1, A5/3
    - Autenticación: A3, A8
    - Integridad: A5/1

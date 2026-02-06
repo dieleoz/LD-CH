@@ -1,4 +1,4 @@
-﻿# SISTEMA 04: MATERIAL RODANTE
+# SISTEMA 04: MATERIAL RODANTE
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -15,9 +15,9 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **8 carromotores:** Equipos especializados para mantenimiento de vía
 - **15 dispositivos EOT:** 1 por locomotora para seguridad crítica (End of Train)
 - **3 talleres:** Principal La Dorada + secundario Chiriguaná + taller de línea
-- **Sistemas embarcados:** ITCS ETCS Level 2, TETRA + GSM-R, GPS/GNSS, CCTV
+- **Sistemas embarcados:** ITCS ETCS Level 2, TETRA + TETRA, GPS/GNSS, CCTV
 - **Cobertura:** 100% del corredor La Dorada-Chiriguaná
-- **Disponibilidad requerida:** 99.95% (sistema crítico según AT4)
+- **Disponibilidad requerida:** 99.5% (sistema crítico según AT4)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -72,14 +72,14 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 | Sistema | Justificación | Cantidad | Ubicación |
 |:--------|:--------------|:---------|:----------|
 | **ITCS ETCS Level 2** | Control automático de trenes | 15 | Locomotoras |
-| **TETRA + GSM-R** | Comunicaciones redundantes | 15 | Locomotoras |
+| **TETRA + TETRA** | Comunicaciones redundantes | 15 | Locomotoras |
 | **GPS/GNSS** | Posicionamiento en tiempo real | 15 | Locomotoras |
 | **CCTV Embarcado** | Seguridad operacional | 15 | Locomotoras |
 | **Event Recorder** | Caja negra para eventos | 15 | Locomotoras |
 
-### ¿Por qué disponibilidad 99.95%?
+### ¿Por qué disponibilidad 99.5%?
 **Justificación Contractual:**
-- **AT4 Tablas 1-4:** Disponibilidad material rodante 99.95%
+- **AT4 Tablas 1-4:** Disponibilidad material rodante 99.5%
 - **Sistema crítico:** Material rodante es crítico para operación
 - **Estándares:** Cumplimiento con normas ferroviarias internacionales
 - **Mantenimiento:** Ciclos RL, R1, R2, R3 según AT2
@@ -123,7 +123,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 | Locomotoras principales | 15 unidades | 3,000 kW, ETCS Level 2 | ⏳ En adquisición |
 | Sistemas ATP embarcados | 15 unidades | Control automático | ⏳ En adquisición |
 | Sistemas TETRA embarcados | 15 unidades | Comunicación principal | ⏳ En adquisición |
-| Sistemas GSM-R embarcados | 15 unidades | Comunicación redundante | ⏳ En adquisición |
+| Sistemas TETRA embarcados | 15 unidades | Comunicación redundante | ⏳ En adquisición |
 | Sistemas GPS/GNSS | 15 unidades | Posicionamiento | ⏳ En adquisición |
 
 **Estado general:** 🟡 En progreso
@@ -180,7 +180,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 | Velocidad máxima | 120 km/h | UIC |
 | Velocidad comercial | 80 km/h | UIC |
 | Capacidad de carga | 50 toneladas | UIC |
-| Disponibilidad flota | 99.95% | EN 50126 |
+| Disponibilidad flota | 99.5% | EN 50126 |
 | Peso por locomotora | 120 toneladas | UIC |
 
 ### Criterios de aceptación
@@ -188,7 +188,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 - ✅ 51 vagones con capacidad total de 2,550 toneladas
 - ✅ 15 dispositivos EOT para monitoreo de trenes
 - ✅ 3 talleres operativos para mantenimiento
-- ✅ Disponibilidad 99.95% de la flota
+- ✅ Disponibilidad 99.5% de la flota
 
 ---
 
@@ -243,7 +243,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control y Señalización | ATP Embarcado | Alta | EPC Sistemas |
-| Telecomunicaciones | TETRA + GSM-R Embarcado | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + TETRA Embarcado | Alta | EPC Telecomunicaciones |
 | Infraestructura | Vías y estaciones | Alta | EPC Civil |
 | Talleres | Equipos de mantenimiento | Media | EPC Mecánico |
 
@@ -264,17 +264,17 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Material Rodante:** 15 locomotoras con ATP embarcado - Cumplida
-- ✅ **AT2 - Operación:** Operación con disponibilidad 99.95% - Cumplida
+- ✅ **AT2 - Operación:** Operación con disponibilidad 99.5% - Cumplida
 - ✅ **AT3 - Especificaciones:** Especificaciones técnicas de material rodante - Cumplida
-- ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida
+- ✅ **AT4 - Indicadores:** Disponibilidad 99.5% - Cumplida
 - ⏳ **AT8 - Operaciones:** Procedimientos operacionales - En progreso
 - ❌ **AT9 - Cronograma:** Plan de implementación por fases - Pendiente
 
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Material rodante
-- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
+- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.5%
 - **Apéndice Técnico 3:** Especificaciones generales - Material rodante
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.5%
 
 ---
 
@@ -308,9 +308,9 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad Locomotoras | 99.95% | 99.96% | 🟢 Excelente |
-| Disponibilidad Vagones | 99.95% | 99.97% | 🟢 Excelente |
-| Disponibilidad EOT | 99.95% | 99.98% | 🟢 Excelente |
+| Disponibilidad Locomotoras | 99.5% | 99.96% | 🟢 Excelente |
+| Disponibilidad Vagones | 99.5% | 99.97% | 🟢 Excelente |
+| Disponibilidad EOT | 99.5% | 99.98% | 🟢 Excelente |
 | Capacidad de Transporte | 2,550 toneladas | 2,000 toneladas | 🟡 En progreso |
 | Velocidad Comercial | 80 km/h | 75 km/h | 🟡 En progreso |
 

@@ -33,7 +33,7 @@
 
 ### 2.2 Sistemas de Comunicación
 - **TETRA:** Pruebas de radio
-- **GSM-R:** Pruebas de conectividad
+- **TETRA:** Pruebas de conectividad
 - **Fibra óptica:** Pruebas de transmisión
 - **Interfaces:** Pruebas de comunicación
 
@@ -49,7 +49,7 @@
 
 ### 3.1 Sistemas Integrados
 - **ATP + CTC:** Pruebas de integración
-- **TETRA + GSM-R:** Pruebas de colocalización
+- **TETRA + TETRA:** Pruebas de colocalización
 - **ENCE + Desvíos:** Pruebas de coordinación
 - **EOT + ATP:** Pruebas de comunicación
 
@@ -70,7 +70,7 @@
 - **Recuperación:** Pruebas de recuperación
 
 ### 4.2 Pruebas de Rendimiento
-- **Disponibilidad:** Pruebas de 99.95%
+- **Disponibilidad:** Pruebas de 99.5%
 - **Latencia:** Pruebas de tiempo de respuesta
 - **Capacidad:** Pruebas de carga
 - **Estabilidad:** Pruebas de estabilidad
@@ -136,7 +136,7 @@
 ### 8.2 Sistemas Comisionados
 - **CTC Virtual:** Sistema de control
 - **ATP Embarcado:** 15 locomotoras
-- **TETRA + GSM-R:** 37 estaciones
+- **TETRA + TETRA:** 37 estaciones
 - **ENCE:** 5 enclavamientos
 - **Desvíos:** 120 desvíos
 - **EOT:** 15 dispositivos

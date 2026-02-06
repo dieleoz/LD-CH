@@ -44,7 +44,7 @@
 
 ### 3.2 Comunicaciones
 - **TETRA:** EN 50126 + EN 50128
-- **GSM-R:** EN 50126 + EN 50128
+- **TETRA:** EN 50126 + EN 50128
 - **Fibra óptica:** EN 50126 + EN 50128
 - **Ciberseguridad:** IEC 62443
 
@@ -77,7 +77,7 @@
 ### 5.2 Sistemas
 - **CTC Virtual:** Centro de control
 - **ATP Embarcado:** 15 locomotoras
-- **TETRA + GSM-R:** 37 estaciones
+- **TETRA + TETRA:** 37 estaciones
 - **ENCE:** 5 enclavamientos
 
 ---

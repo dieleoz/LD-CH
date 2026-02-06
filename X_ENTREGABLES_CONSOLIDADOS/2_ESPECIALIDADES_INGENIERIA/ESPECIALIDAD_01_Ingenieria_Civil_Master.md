@@ -43,7 +43,7 @@
 
 #### **Obligaciones Contractuales Principales:**
 - **AT1:** Infraestructura ferroviaria, edificaciones y obras de arte según alcance del proyecto
-- **AT2:** Operación y mantenimiento de infraestructura civil con disponibilidad 99.95%
+- **AT2:** Operación y mantenimiento de infraestructura civil con disponibilidad 99.5%
 - **AT3:** Especificaciones técnicas de obra civil y estructuras
 - **AT6:** Gestión ambiental de obras civiles con medidas de mitigación
 - **AT7:** Gestión predial para ubicación de infraestructura civil
@@ -374,7 +374,7 @@
 #### **Infraestructura para Telecomunicaciones:**
 | Sistema | Infraestructura Civil | Función |
 |:--------|:---------------------|:---------|
-| **Torres TETRA/GSM-R** | Fundaciones de concreto | Soporte de antenas |
+| **Torres TETRA/TETRA** | Fundaciones de concreto | Soporte de antenas |
 | **Fibra óptica** | Ductos de PVC | Protección de fibras |
 | **Cajas de empalme** | Cámaras de concreto | Protección de empalmes |
 | **Equipos de red** | Edificios de concreto | Alojamiento de equipos |

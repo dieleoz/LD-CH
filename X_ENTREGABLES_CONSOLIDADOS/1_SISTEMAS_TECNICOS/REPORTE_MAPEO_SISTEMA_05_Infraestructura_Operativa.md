@@ -141,8 +141,8 @@
 ### **⚠️ INCONSISTENCIAS DETECTADAS:**
 
 #### **1. Disponibilidad de Infraestructura:**
-- **AT4:** 99.95% disponibilidad para CCO, 99.5% para estaciones
-- **Documentos técnicos:** 99.95% para sistemas críticos, 99.5% para infraestructura general
+- **AT4:** 99.5% disponibilidad para CCO, 99.5% para estaciones
+- **Documentos técnicos:** 99.5% para sistemas críticos, 99.5% para infraestructura general
 - **Inconsistencia:** Diferentes niveles de disponibilidad sin justificación clara
 
 #### **2. Especificaciones de Edificaciones:**

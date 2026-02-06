@@ -1,4 +1,4 @@
-﻿# SISTEMA 02: TELECOMUNICACIONES - Documento Master v1.0
+# SISTEMA 02: TELECOMUNICACIONES - Documento Master v1.0
 
 **Proyecto:** APP La Dorada-Chiriguaná  
 **Contrato:** No. 001 de 2025  
@@ -17,7 +17,7 @@ Este documento consolida información de las siguientes fuentes:
 | **I. Base Contractual** | AT5, AT7, AT1, AT3 | Enero 2025 | ✅ |
 | **III. Ing. Conceptual** | 27, 27.1, 28, 23, 25.1 | Enero 2025 | ✅ |
 | **IV. Ing. Básica** | IV.4, 37, 38, 39, 41 | Enero 2025 | ✅ |
-| **V. Ing. Detalle** | V.3, V.X_GSM-R, Contratos 8.4-8.6 | Enero 2025 | ✅ |
+| **V. Ing. Detalle** | V.3, V.X_TETRA, Contratos 8.4-8.6 | Enero 2025 | ✅ |
 | **VI. Operación** | 6.3_Manual_OM_Telecom | Enero 2025 | ✅ |
 
 **Próxima revisión programada:** Febrero 2025
@@ -45,22 +45,22 @@ Este documento consolida información de las siguientes fuentes:
 
 **Obligaciones contractuales específicas:**
 - **AT1 (Alcance):** Sistemas de telecomunicaciones integrales con redundancia
-- **AT3 (Especificaciones):** TETRA + GSM-R + Fibra óptica según estándares
+- **AT3 (Especificaciones):** TETRA + TETRA + Fibra óptica según estándares
 - **AT5 (Interferencias):** Gestión de interferencias y coordinación con ANE
-- **AT7 (Predial):** Ubicación de 37 torres TETRA/GSM-R colocalizadas
+- **AT7 (Predial):** Ubicación de 37 torres TETRA/TETRA colocalizadas
 - **AT8 (Operaciones):** Procedimientos operacionales integrados
 
 **Criterios de aceptación:**
 - Sistema TETRA con 37 estaciones base
-- Sistema GSM-R con 37 estaciones colocalizadas
+- Sistema TETRA con 37 estaciones colocalizadas
 - Red de fibra óptica de 594 km con topología de anillo
 - Redundancia de comunicaciones con respaldo satelital
-- Disponibilidad 99.5% para TETRA y 99.95% para GSM-R
+- Disponibilidad 99.5% para TETRA y 99.5% para TETRA
 
 **Indicadores de desempeño:**
 - Cobertura TETRA: 100% del corredor
-- Cobertura GSM-R: 100% del corredor
-- Disponibilidad fibra óptica: 99.95%
+- Cobertura TETRA: 100% del corredor
+- Disponibilidad fibra óptica: 99.5%
 - Tiempo de respuesta: < 500ms
 - Capacidad de datos: 1 Gbps por estación
 
@@ -73,9 +73,9 @@ Este documento consolida información de las siguientes fuentes:
 
 El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basada en:
 - **TETRA:** Radio digital troncalizado para operaciones ferroviarias
-- **GSM-R:** Comunicaciones de datos críticos para ATP
+- **TETRA:** Comunicaciones de datos críticos para ATP
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
-- **Colocalización:** TETRA y GSM-R en las mismas 37 torres
+- **Colocalización:** TETRA y TETRA en las mismas 37 torres
 - **Redundancia:** Sistemas de respaldo y respaldo satelital
 
 ### 2.2 Arquitectura Conceptual
@@ -90,7 +90,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   TETRA Network │    │   GSM-R Network │    │   ANE/FENOCO    │
+│   TETRA Network │    │   TETRA Network │    │   ANE/FENOCO    │
 │   37 Stations   │    │   37 Stations   │    │   Coordination  │
 │   (Colocated)   │    │   (Colocated)   │    │   Spectrum      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
@@ -98,7 +98,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Locomotives   │    │   Material      │    │   EOT Devices   │
-│   TETRA+GSM-R   │    │   Rodante       │    │   TETRA Radio   │
+│   TETRA+TETRA   │    │   Rodante       │    │   TETRA Radio   │
 │   Embarcados    │    │   Comms         │    │   Integration   │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -106,7 +106,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ### 2.3 Criterios de Diseño Iniciales
 **Criterios establecidos en fase conceptual**
 
-- **Redundancia Dual:** TETRA + GSM-R para máxima confiabilidad
+- **Redundancia Dual:** TETRA + TETRA para máxima confiabilidad
 - **Colocalización:** Mismas torres para optimización de costos
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
 - **Cobertura 100%:** Garantizada en todo el corredor ferroviario
@@ -118,8 +118,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Alternativa | Descripción | Decisión | Justificación |
 |:------------|:------------|:---------|:--------------|
 | **Solo TETRA** | Sistema único TETRA | ❌ Rechazada | Falta redundancia crítica |
-| **TETRA + GSM-R** | Sistemas redundantes | ✅ Seleccionada | Redundancia y especialización |
-| **Solo GSM-R** | Sistema único GSM-R | ❌ Rechazada | Limitaciones operacionales |
+| **TETRA + TETRA** | Sistemas redundantes | ✅ Seleccionada | Redundancia y especialización |
+| **Solo TETRA** | Sistema único TETRA | ❌ Rechazada | Limitaciones operacionales |
 | **Fibra + Radio** | Híbrido fibra/radio | ✅ Seleccionada | Óptimo costo/beneficio |
 
 ---
@@ -136,7 +136,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - **Radios Portátiles:** 80 unidades para personal
 - **Consolas Despacho:** 3 unidades en CCO
 
-**Sistema GSM-R:**
+**Sistema TETRA:**
 - **37 Estaciones Base:** Colocalizadas con TETRA
 - **Redundancia:** Sistema de respaldo automático
 - **Capacidad:** 1 Gbps por estación
@@ -154,10 +154,10 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Componente | Especificación | Cantidad | Ubicación |
 |:-----------|:---------------|:---------|:----------|
 | **TETRA** | Radio digital troncalizado | 37 estaciones | Torres colocalizadas |
-| **GSM-R** | Red de datos críticos | 37 estaciones | Torres colocalizadas |
+| **TETRA** | Red de datos críticos | 37 estaciones | Torres colocalizadas |
 | **Fibra Óptica** | Backbone de alta capacidad | 594 km | Corredor ferroviario |
 | **Torres** | Estructuras 40m altura | 37 torres | Ubicaciones estratégicas |
-| **Radios Embarcados** | TETRA + GSM-R | 30 unidades | Locomotoras |
+| **Radios Embarcados** | TETRA + TETRA | 30 unidades | Locomotoras |
 
 ### 3.3 Memorias de Cálculo
 **Cálculos y dimensionamientos de IV/**
@@ -166,7 +166,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Radio de cobertura: 15 km por estación
 - Solapamiento: 20% entre estaciones
 - Cobertura total: 100% del corredor
-- **Cobertura GSM-R:** Idéntica a TETRA (colocalización)
+- **Cobertura TETRA:** Idéntica a TETRA (colocalización)
 
 **Cálculo de Capacidad Fibra Óptica:**
 - Capacidad por fibra: 100 Gbps
@@ -199,8 +199,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Pruebas de integración
 - Manuales de operación
 
-**V.X - Sistema GSM-R Detalle v5.0:**
-- 37 estaciones GSM-R colocalizadas
+**V.X - Sistema TETRA Detalle v5.0:**
+- 37 estaciones TETRA colocalizadas
 - Interfaces con CTC y ATP
 - Protocolos de comunicación
 - Sistemas de redundancia
@@ -215,7 +215,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ### 4.2 Planos y Esquemas
 **Referencia a planos si existen**
 
-- **Planos de Ubicación:** 37 torres TETRA/GSM-R
+- **Planos de Ubicación:** 37 torres TETRA/TETRA
 - **Planos de Fibra Óptica:** Recorrido 594 km
 - **Esquemas de Red:** Topología de anillo
 - **Planos de Instalación:** Equipos y cableado
@@ -229,7 +229,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Sistemas de alimentación UPS
 - Equipos de climatización
 
-**Hardware GSM-R:**
+**Hardware TETRA:**
 - Estaciones base colocalizadas
 - Sistemas de control centralizado
 - Interfaces de red
@@ -278,7 +278,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Interfaces con CTC y sistemas embarcados
 - Funciones de prioridad y emergencia
 
-**GSM-R:**
+**TETRA:**
 - Comunicación de datos críticos para ATP
 - Latencia < 500ms para aplicaciones críticas
 - Capacidad 1 Gbps por estación
@@ -298,35 +298,35 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Parámetro | Especificación | Método de Medición |
 |:----------|:---------------|:-------------------|
 | **Disponibilidad TETRA** | 99.5% | Monitoreo continuo |
-| **Disponibilidad GSM-R** | 99.95% | Monitoreo continuo |
-| **Disponibilidad Fibra** | 99.95% | Monitoreo continuo |
+| **Disponibilidad TETRA** | 99.5% | Monitoreo continuo |
+| **Disponibilidad Fibra** | 99.5% | Monitoreo continuo |
 | **Cobertura TETRA** | 100% | Mediciones de campo |
-| **Cobertura GSM-R** | 100% | Mediciones de campo |
-| **Latencia GSM-R** | < 500ms | Pruebas de red |
+| **Cobertura TETRA** | 100% | Mediciones de campo |
+| **Latencia TETRA** | < 500ms | Pruebas de red |
 | **Capacidad Fibra** | 100 Gbps | Pruebas de throughput |
 
 ### 5.3 Especificaciones de Calidad
 **Estándares y normativa aplicable**
 
 - **UIC 751-4:** Comunicaciones ferroviarias
-- **UIC 751-5:** GSM-R para ferrocarriles
+- **UIC 751-5:** TETRA para ferrocarriles
 - **IEC 61334:** Sistemas de telecomunicaciones
 - **ITU-T G.652:** Fibra óptica monomodo
 - **ETSI EN 300 392:** TETRA
-- **ETSI EN 301 515:** GSM-R
+- **ETSI EN 301 515:** TETRA
 
 ### 5.4 Pruebas y Comisionamiento
 **FAT, SAT, procedimientos de prueba**
 
 **FAT (Factory Acceptance Test):**
 - Pruebas de funcionalidad TETRA
-- Pruebas de funcionalidad GSM-R
+- Pruebas de funcionalidad TETRA
 - Pruebas de capacidad fibra óptica
 - Pruebas de integración
 
 **SAT (Site Acceptance Test):**
 - Pruebas de cobertura TETRA
-- Pruebas de cobertura GSM-R
+- Pruebas de cobertura TETRA
 - Pruebas de continuidad fibra
 - Pruebas de integración con CTC
 
@@ -338,7 +338,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 **Operación en condiciones normales**
 
 **Inicio de Operación Diaria:**
-1. Verificación del estado de redes TETRA/GSM-R
+1. Verificación del estado de redes TETRA/TETRA
 2. Monitoreo de la red de fibra óptica
 3. Verificación de cobertura
 4. Activación de sistemas de respaldo
@@ -353,7 +353,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 **Operación en condiciones anormales**
 
 **Fallo de Red TETRA:**
-1. Activación automática de GSM-R
+1. Activación automática de TETRA
 2. Notificación a operadores
 3. Procedimientos de respaldo
 4. Recuperación del sistema principal
@@ -427,8 +427,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Función: Comunicación voz y datos con CTC
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface GSM-R-ATP:**
-- Protocolo: GSM-R Data Protocol
+**Interface TETRA-ATP:**
+- Protocolo: TETRA Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo automático
 
@@ -446,7 +446,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 | Obligación Contractual | Entregable | Estado | Fecha |
 |:----------------------|:-----------|:-------|:------|
-| **AT1 - Telecomunicaciones** | TETRA + GSM-R + Fibra | ✅ | Enero 2025 |
+| **AT1 - Telecomunicaciones** | TETRA + TETRA + Fibra | ✅ | Enero 2025 |
 | **AT3 - Especificaciones** | Especificaciones técnicas | ✅ | Enero 2025 |
 | **AT5 - Interferencias** | Gestión de espectro | ✅ | Enero 2025 |
 | **AT7 - Predial** | 37 torres ubicadas | ✅ | Enero 2025 |
@@ -457,8 +457,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 | Riesgo | Probabilidad | Impacto | Mitigación | Responsable |
 |:-------|:-------------|:---------|:-----------|:------------|
-| **Fallo TETRA** | Media | Alto | Redundancia GSM-R | Telecomunicaciones |
-| **Fallo GSM-R** | Baja | Crítico | Redundancia TETRA | Telecomunicaciones |
+| **Fallo TETRA** | Media | Alto | Redundancia TETRA | Telecomunicaciones |
+| **Fallo TETRA** | Baja | Crítico | Redundancia TETRA | Telecomunicaciones |
 | **Fallo Fibra** | Baja | Alto | Anillo de respaldo | Telecomunicaciones |
 | **Interferencias** | Media | Medio | Coordinación ANE | Telecomunicaciones |
 
@@ -503,21 +503,21 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 **V. Ingeniería Detalle:**
 - V.3. Sistemas de Comunicación Detalle v5.0
-- V.X. Sistema GSM-R Detalle v5.0
+- V.X. Sistema TETRA Detalle v5.0
 - Contratos 8.4, 8.5, 8.6 (Telecomunicaciones)
 
 ### 9.3 Normativa Aplicable
 - UIC 751-4 - Comunicaciones ferroviarias
-- UIC 751-5 - GSM-R para ferrocarriles
+- UIC 751-5 - TETRA para ferrocarriles
 - IEC 61334 - Sistemas de telecomunicaciones
 - ITU-T G.652 - Fibra óptica monomodo
 - ETSI EN 300 392 - TETRA
-- ETSI EN 301 515 - GSM-R
+- ETSI EN 301 515 - TETRA
 
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
 - Especificaciones de ANE (gestión de espectro)
-- Manuales de equipos TETRA/GSM-R
+- Manuales de equipos TETRA/TETRA
 - Estándares UIC aplicables
 
 ---
@@ -531,7 +531,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | I/ Contractual | AT1, AT3, AT5, AT7, AT8 | Enero 2025 | ✅ Inmutable |
 | III/ Conceptual | Doc 27, 27.1, 28, 23, 25.1 | Enero 2025 | ✅ Sincronizado |
 | IV/ Básica | IV.4, 37, 38, 39, 41 | Enero 2025 | ✅ Sincronizado |
-| V/ Detalle | V.3, V.X_GSM-R, Contratos 8.4-8.6 | Enero 2025 | ✅ Sincronizado |
+| V/ Detalle | V.3, V.X_TETRA, Contratos 8.4-8.6 | Enero 2025 | ✅ Sincronizado |
 | VI/ Operación | 6.3_Manual_OM_Telecom | Enero 2025 | ✅ Sincronizado |
 
 **Próxima sincronización recomendada:** Febrero 2025
@@ -566,38 +566,38 @@ Esta información es únicamente de carácter informativo y técnico. Se recomie
 - V.3_Sistemas_Comunicacion_Detalle_v5.0.md sincronizado el 2025-10-09 09:41:43
 
 
-<!-- Sincronizado con V.X_Sistema_GSM-R_Detalle_v5.0.md el 2025-10-09 09:41:43 -->
-- V.X_Sistema_GSM-R_Detalle_v5.0.md sincronizado el 2025-10-09 09:41:43
+<!-- Sincronizado con V.X_Sistema_TETRA_Detalle_v5.0.md el 2025-10-09 09:41:43 -->
+- V.X_Sistema_TETRA_Detalle_v5.0.md sincronizado el 2025-10-09 09:41:43
 
 
 <!-- Sincronizado con V.3_Sistemas_Comunicacion_Detalle_v5.0.md el 2025-10-09 09:43:00 -->
 - V.3_Sistemas_Comunicacion_Detalle_v5.0.md sincronizado el 2025-10-09 09:43:00
 
 
-<!-- Sincronizado con V.X_Sistema_GSM-R_Detalle_v5.0.md el 2025-10-09 09:43:00 -->
-- V.X_Sistema_GSM-R_Detalle_v5.0.md sincronizado el 2025-10-09 09:43:00
+<!-- Sincronizado con V.X_Sistema_TETRA_Detalle_v5.0.md el 2025-10-09 09:43:00 -->
+- V.X_Sistema_TETRA_Detalle_v5.0.md sincronizado el 2025-10-09 09:43:00
 
 
 <!-- Sincronizado con V.3_Sistemas_Comunicacion_Detalle_v5.0.md el 2025-10-09 10:04:05 -->
 - V.3_Sistemas_Comunicacion_Detalle_v5.0.md sincronizado el 2025-10-09 10:04:05
 
 
-<!-- Sincronizado con V.X_Sistema_GSM-R_Detalle_v5.0.md el 2025-10-09 10:04:05 -->
-- V.X_Sistema_GSM-R_Detalle_v5.0.md sincronizado el 2025-10-09 10:04:05
+<!-- Sincronizado con V.X_Sistema_TETRA_Detalle_v5.0.md el 2025-10-09 10:04:05 -->
+- V.X_Sistema_TETRA_Detalle_v5.0.md sincronizado el 2025-10-09 10:04:05
 
 
 <!-- Sincronizado con V.3_Sistemas_Comunicacion_Detalle_v5.0.md el 2025-10-09 10:07:14 -->
 - V.3_Sistemas_Comunicacion_Detalle_v5.0.md sincronizado el 2025-10-09 10:07:14
 
 
-<!-- Sincronizado con V.X_Sistema_GSM-R_Detalle_v5.0.md el 2025-10-09 10:07:14 -->
-- V.X_Sistema_GSM-R_Detalle_v5.0.md sincronizado el 2025-10-09 10:07:14
+<!-- Sincronizado con V.X_Sistema_TETRA_Detalle_v5.0.md el 2025-10-09 10:07:14 -->
+- V.X_Sistema_TETRA_Detalle_v5.0.md sincronizado el 2025-10-09 10:07:14
 
 
 <!-- Sincronizado con V.3_Sistemas_Comunicacion_Detalle_v5.0.md el 2025-10-09 10:46:06 -->
 - V.3_Sistemas_Comunicacion_Detalle_v5.0.md sincronizado el 2025-10-09 10:46:06
 
 
-<!-- Sincronizado con V.X_Sistema_GSM-R_Detalle_v5.0.md el 2025-10-09 10:46:07 -->
-- V.X_Sistema_GSM-R_Detalle_v5.0.md sincronizado el 2025-10-09 10:46:07
+<!-- Sincronizado con V.X_Sistema_TETRA_Detalle_v5.0.md el 2025-10-09 10:46:07 -->
+- V.X_Sistema_TETRA_Detalle_v5.0.md sincronizado el 2025-10-09 10:46:07
 

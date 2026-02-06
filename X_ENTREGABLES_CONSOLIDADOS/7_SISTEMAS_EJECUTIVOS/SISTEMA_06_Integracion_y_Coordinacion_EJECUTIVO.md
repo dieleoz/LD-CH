@@ -1,4 +1,4 @@
-﻿# SISTEMA 06: INTEGRACIÓN Y COORDINACIÓN
+# SISTEMA 06: INTEGRACIÓN Y COORDINACIÓN
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -10,13 +10,13 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
-- **25 interfaces críticas:** CTC-ITCS (FFFIS), TETRA-GSM-R, ITS-Seguridad, Material Rodante-ATP
+- **25 interfaces críticas:** CTC-ITCS (FFFIS), TETRA-TETRA, ITS-Seguridad, Material Rodante-ATP
 - **15 protocolos de interoperabilidad:** UIC 920-2, UIC 438, UIC 930, UIC 950, FFFIS, EN 50159
 - **12 APIs de integración:** Comunicación entre sistemas y FENOCO
 - **Gateway de integración:** Conversión de protocolos entre sistemas y red nacional
 - **Cronograma de integración:** 9 meses por fases (civil-eléctrica-mecánica-sistemas)
 - **Cobertura:** 100% de integración entre sistemas
-- **Disponibilidad requerida:** 99.95% (sistema crítico para operación)
+- **Disponibilidad requerida:** 99.5% (sistema crítico para operación)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -35,7 +35,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 | Sistema | Interfaces | Justificación |
 |:--------|:-----------|:--------------|
 | **CTC-ITCS** | 5 interfaces | Control automático de trenes (FFFIS) |
-| **TETRA-GSM-R** | 4 interfaces | Comunicaciones redundantes |
+| **TETRA-TETRA** | 4 interfaces | Comunicaciones redundantes |
 | **ITS-Seguridad** | 3 interfaces | Monitoreo y control de seguridad |
 | **Material Rodante-ATP** | 4 interfaces | Control embarcado |
 | **Infraestructura** | 6 interfaces | Coordinación de infraestructura |
@@ -47,7 +47,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Justificación de Protocolos:**
 | Protocolo | Función | Justificación |
 |:----------|:--------|:--------------|
-| **UIC 920-2** | Comunicaciones GSM-R | Estándar internacional ferroviario |
+| **UIC 920-2** | Comunicaciones TETRA | Estándar internacional ferroviario |
 | **UIC 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
 | **UIC 930** | Sistemas de señalización | Interoperabilidad de sistemas |
 | **UIC 950** | Control de tráfico | Coordinación entre centros |
@@ -92,7 +92,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 - **Coordinación:** Gestión integrada de tráfico
 - **Eficiencia:** Optimización de recursos nacionales
 
-### ¿Por qué disponibilidad 99.95%?
+### ¿Por qué disponibilidad 99.5%?
 **Justificación Técnica:**
 - **Sistema crítico:** Fallo afecta operación completa
 - **Dependencias:** Múltiples sistemas dependen de integración
@@ -155,7 +155,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 | Protocolo UIC | 1 unidad | Comunicación ferroviaria | ✅ Disponible |
 | Protocolo IEC 61850 | 1 unidad | Comunicación eléctrica | ✅ Disponible |
 | Protocolo TETRA | 1 unidad | Comunicación radio | ✅ Disponible |
-| Protocolo GSM-R | 1 unidad | Comunicación móvil | ✅ Disponible |
+| Protocolo TETRA | 1 unidad | Comunicación móvil | ✅ Disponible |
 | Protocolo CAN Bus | 1 unidad | Comunicación embarcada | ✅ Disponible |
 
 **Estado general:** 🟢 En cronograma
@@ -196,18 +196,18 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Disponibilidad interfaces | 99.95% | EN 50126 |
+| Disponibilidad interfaces | 99.5% | EN 50126 |
 | Tiempo de respuesta | < 100ms | EN 50126 |
 | Ancho de banda | 1 Gbps | EN 50126 |
 | Latencia máxima | 50ms | EN 50126 |
-| Disponibilidad coordinación | 99.95% | EN 50126 |
+| Disponibilidad coordinación | 99.5% | EN 50126 |
 | Sincronización temporal | < 1ms | EN 50126 |
 
 ### Criterios de aceptación
 - ✅ 25 interfaces operativas entre sistemas
 - ✅ 15 protocolos de comunicación implementados
 - ✅ 12 APIs de integración funcionales
-- ✅ Disponibilidad 99.95% de coordinación
+- ✅ Disponibilidad 99.5% de coordinación
 - ✅ Tiempo de respuesta < 100ms
 
 ---
@@ -262,7 +262,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control y Señalización | CTC Virtual | Alta | EPC Sistemas |
-| Telecomunicaciones | TETRA + GSM-R | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + TETRA | Alta | EPC Telecomunicaciones |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Material Rodante | ATP Embarcado | Alta | EPC Sistemas |
 
@@ -283,17 +283,17 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Integración:** Integración completa entre sistemas - Cumplida
-- ✅ **AT2 - Operación:** Operación integrada con disponibilidad 99.95% - Cumplida
+- ✅ **AT2 - Operación:** Operación integrada con disponibilidad 99.5% - Cumplida
 - ✅ **AT3 - Especificaciones:** Especificaciones técnicas de integración - Cumplida
-- ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida
+- ✅ **AT4 - Indicadores:** Disponibilidad 99.5% - Cumplida
 - ⏳ **AT8 - Operaciones:** Procedimientos operacionales integrados - En progreso
 - ❌ **AT9 - Cronograma:** Plan de implementación por fases - Pendiente
 
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Integración y coordinación
-- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
+- **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.5%
 - **Apéndice Técnico 3:** Especificaciones generales - Integración y coordinación
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.5%
 
 ---
 
@@ -327,9 +327,9 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad Interfaces | 99.95% | 99.98% | 🟢 Excelente |
-| Disponibilidad Protocolos | 99.95% | 99.97% | 🟢 Excelente |
-| Disponibilidad APIs | 99.95% | 99.96% | 🟢 Excelente |
+| Disponibilidad Interfaces | 99.5% | 99.98% | 🟢 Excelente |
+| Disponibilidad Protocolos | 99.5% | 99.97% | 🟢 Excelente |
+| Disponibilidad APIs | 99.5% | 99.96% | 🟢 Excelente |
 | Tiempo de Respuesta | < 100ms | 75ms | 🟢 Excelente |
 | Sincronización Temporal | < 1ms | 0.8ms | 🟢 Excelente |
 

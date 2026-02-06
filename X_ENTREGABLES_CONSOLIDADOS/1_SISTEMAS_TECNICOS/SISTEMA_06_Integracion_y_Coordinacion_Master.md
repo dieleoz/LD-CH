@@ -49,7 +49,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Interoperabilidad FENOCO:** Protocolos UIC estándar para compatibilidad total con red ferroviaria nacional
-- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, GSM-R, ITS, Material Rodante
+- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, TETRA, ITS, Material Rodante
 - **Coordinación Operacional:** Gestión integrada de tráfico, emergencias y mantenimiento
 - **Gestión de Dependencias:** Matriz de dependencias críticas con cronograma de integración por fases
 - **Protocolos de Integración:** FFFIS, UIC 920-2, UIC 438, UIC 930, UIC 950
@@ -86,7 +86,7 @@
 - **Gateway de Integración:** Conversión de protocolos entre sistemas
 - **Sistema de Monitoreo:** Supervisión integral de todos los sistemas
 - **Sistema de Control:** Coordinación centralizada desde CTC
-- **Interfaces de Comunicación:** TETRA + GSM-R + Fibra óptica
+- **Interfaces de Comunicación:** TETRA + TETRA + Fibra óptica
 - **Protocolos de Interoperabilidad:** UIC estándar + FFFIS
 
 #### **Arquitectura de Interoperabilidad FENOCO:**
@@ -107,7 +107,7 @@
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Interoperabilidad:**
-- **UIC 920-2:** GSM-R para comunicaciones ferroviarias
+- **UIC 920-2:** TETRA para comunicaciones ferroviarias
 - **UIC 438:** ETCS Level 2 para control de trenes
 - **UIC 930:** Interoperabilidad de sistemas de señalización
 - **UIC 950:** Interoperabilidad de sistemas de control de tráfico
@@ -210,7 +210,7 @@
 
 | Protocolo | Estándar | Función | Estado |
 |:----------|:----------|:---------|:-------|
-| **UIC 920-2** | GSM-R | Comunicaciones ferroviarias | ✅ Implementado |
+| **UIC 920-2** | TETRA | Comunicaciones ferroviarias | ✅ Implementado |
 | **UIC 438** | ETCS Level 2 | Control de trenes | ✅ Implementado |
 | **UIC 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
 | **UIC 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
@@ -218,7 +218,7 @@
 #### **Especificaciones de Interoperabilidad:**
 - **Conectividad:** 100% entre redes APP-FENOCO
 - **Latencia:** < 1 segundo end-to-end
-- **Disponibilidad:** > 99.95%
+- **Disponibilidad:** > 99.5%
 - **Capacidad:** 50 trenes simultáneos
 - **Handover:** < 2 segundos
 
@@ -233,11 +233,11 @@
 - **Redundancia:** Sistema dual con conmutación automática
 - **Protocolos:** Soporte completo UIC 920-2, 438, 930, 950
 - **Seguridad:** Cifrado AES-256 y autenticación mutua
-- **Disponibilidad:** 99.95% con sistemas redundantes
+- **Disponibilidad:** 99.5% con sistemas redundantes
 
 #### **Sistemas de Comunicación Integrados:**
 - **TETRA Principal:** 37 estaciones con cobertura 100%
-- **GSM-R Redundante:** 37 estaciones colocalizadas
+- **TETRA Redundante:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km con doble anillo DWDM
 - **Interfaces:** Ethernet industrial con redundancia
 
@@ -253,7 +253,7 @@
 #### **Protocolos de Comunicación:**
 - **CTC-ITCS:** FFFIS con seguridad EN 50159
 - **TETRA:** EN 300 392 estándar
-- **GSM-R:** UIC 920-2 estándar
+- **TETRA:** UIC 920-2 estándar
 - **Fibra:** Ethernet Gigabit con redundancia
 - **FENOCO:** Protocolos UIC para interoperabilidad
 
@@ -335,7 +335,7 @@
 
 #### **Sistemas de Comunicación ↔ Material Rodante:**
 - **TETRA:** Comunicación tren-tierra principal
-- **GSM-R:** Comunicación tren-tierra redundante
+- **TETRA:** Comunicación tren-tierra redundante
 - **GPS/GNSS:** Posicionamiento preciso
 - **Event Recorder:** Registro de eventos
 - **Protocolo:** EN 300 392 + UIC 920-2
@@ -403,9 +403,9 @@
 
 | Sistema | Disponibilidad Objetivo | SLA | Métricas | Estado |
 |:--------|:----------------------:|:---:|:---------|:-------|
-| **Interfaces CTC** | 99.95% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
-| **Interoperabilidad FENOCO** | 99.95% | 1 hora | Latencia < 1s, handover < 2s | ✅ Monitoreado |
-| **Protocolos UIC** | 99.95% | 4 horas | Disponibilidad protocolos, tiempo respuesta | ✅ Monitoreado |
+| **Interfaces CTC** | 99.5% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
+| **Interoperabilidad FENOCO** | 99.5% | 1 hora | Latencia < 1s, handover < 2s | ✅ Monitoreado |
+| **Protocolos UIC** | 99.5% | 4 horas | Disponibilidad protocolos, tiempo respuesta | ✅ Monitoreado |
 | **Sistemas Integrados** | 99.5% | 8 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 
 ---

@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 01: INGENIERÍA CIVIL
+# ESPECIALIDAD 01: INGENIERÍA CIVIL
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -268,7 +268,7 @@ La infraestructura civil opera 24/7 proporcionando base física para circulació
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Alcance:** Infraestructura ferroviaria completa - Cumplida
-- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.95% - Cumplida
+- ✅ **AT2 - Operación:** Mantenimiento con disponibilidad 99.5% - Cumplida
 - ⏳ **AT3 - Especificaciones:** Obra civil según estándares - En progreso
 - ⏳ **AT6 - Ambiental:** Gestión ambiental de obras - En progreso
 - ⏳ **AT7 - Predial:** Gestión predial para infraestructura - En progreso
@@ -311,7 +311,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad infraestructura | 99.95% | 99.8% | 🟡 Mejorable |
+| Disponibilidad infraestructura | 99.5% | 99.8% | 🟡 Mejorable |
 | Cumplimiento cronograma | 100% | 95% | 🟡 En progreso |
 | Calidad de obra | 100% | 98% | 🟢 Excelente |
 | Cumplimiento ambiental | 100% | 100% | 🟢 Excelente |

@@ -175,7 +175,7 @@ Transforma el documento técnico en esta nueva estructura:
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| Disponibilidad | 99.95% | [Actual] | 🟢/🟡/🔴 |
+| Disponibilidad | 99.5% | [Actual] | 🟢/🟡/🔴 |
 | Cobertura | 100% | [Actual] | 🟢/🟡/🔴 |
 
 ---

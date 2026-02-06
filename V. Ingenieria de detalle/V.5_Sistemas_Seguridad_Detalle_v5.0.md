@@ -23,7 +23,7 @@ Documento de ingeniería de detalle para **sistemas de seguridad ferroviaria int
 |:---------|:-----------------|:--------------|:-----------|
 | **ATP Embarcado** | 15 locomotoras | 15 locomotoras | ✅ 100% |
 | **CTC Virtual** | 1 centro | 1 centro | ✅ 100% |
-| **TETRA + GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA + TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
 | **Desvíos** | 120 total | 120 total | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
@@ -55,9 +55,9 @@ Los niveles SIL finales serán determinados por el **Safety Case** del proyecto.
 ### 4.1 ATP Embarcado (SIL 4)
 - **Procesador:** Redundante, ARM Cortex-A9
 - **Memoria:** 8 GB RAM, 256 GB SSD
-- **Comunicaciones:** TETRA + GSM-R dual
+- **Comunicaciones:** TETRA + TETRA dual
 - **Interfaces:** DMI, odometría, frenado
-- **Disponibilidad:** 99.95%
+- **Disponibilidad:** 99.5%
 
 ### 4.2 CTC Virtual (SIL 3)
 - **Servidores:** Redundantes, virtualizados
@@ -69,9 +69,9 @@ Los niveles SIL finales serán determinados por el **Safety Case** del proyecto.
 ### 4.3 ENCE (SIL 2)
 - **Controladores:** 5 unidades redundantes
 - **Interfaces:** ATP, CTC, desvíos
-- **Comunicaciones:** TETRA + GSM-R
+- **Comunicaciones:** TETRA + TETRA
 - **Protecciones:** Sistemas de seguridad
-- **Disponibilidad:** 99.95%
+- **Disponibilidad:** 99.5%
 
 ---
 
@@ -92,7 +92,7 @@ Los niveles SIL finales serán determinados por el **Safety Case** del proyecto.
 ### 5.3 Gestión de Emergencias
 - **Detección automática:** Sensores y sistemas
 - **Procedimientos de emergencia:** Automatizados
-- **Comunicaciones de emergencia:** TETRA + GSM-R
+- **Comunicaciones de emergencia:** TETRA + TETRA
 - **Respuesta rápida:** < 30 segundos
 
 ---
@@ -181,7 +181,7 @@ Los niveles SIL finales serán determinados por el **Safety Case** del proyecto.
 ### 9.3 Validación de Seguridad
 - **Análisis de riesgos:** Sistemático y completo
 - **Validación de funciones:** Seguridad crítica
-- **Pruebas de disponibilidad:** 99.95% según AT4
+- **Pruebas de disponibilidad:** 99.5% según AT4
 - **Certificación de seguridad:** Normativa aplicable
 
 ---
@@ -238,7 +238,7 @@ Los niveles SIL finales serán determinados por el **Safety Case** del proyecto.
 1. **V.4_Sistemas_Potencia_Detalle_v5.0.md** ✅
 2. **V.X_Enclavamientos_ENCE_Detalle_v5.0.md** ✅
 3. **V.X_Sistema_Desvios_Detalle_v5.0.md** ✅
-4. **V.X_Sistema_GSM-R_Detalle_v5.0.md** ✅
+4. **V.X_Sistema_TETRA_Detalle_v5.0.md** ✅
 5. **V.X_Sistema_EOT_Detalle_v5.0.md** ✅
 6. **V.5_Sistemas_Seguridad_Detalle_v5.0.md** ✅
 

@@ -12,10 +12,10 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 - **Inversión total:** $450,000 millones COP
 - **526.133 km corredor:** Longitud total del corredor ferroviario
 - **15 locomotoras:** Parque rodante para operación
-- **37 estaciones:** Telecomunicaciones TETRA/GSM-R
+- **37 estaciones:** Telecomunicaciones TETRA/TETRA
 - **5 estaciones ENCE:** Estaciones con enclavamientos
 - **30 años operación:** Vida útil del proyecto
-- **99.95% disponibilidad:** Sistemas críticos
+- **99.5% disponibilidad:** Sistemas críticos
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -145,14 +145,14 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 | Longitud del corredor | 526.133 km | Especificaciones proyecto |
 | Trocha ferroviaria | 1,435 mm | UIC 600 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
-| Disponibilidad | 99.95% | AT4 |
+| Disponibilidad | 99.5% | AT4 |
 | Vida útil | 30 años | Especificaciones proyecto |
 
 ### Criterios de aceptación
 - ✅ Corredor 526.133 km operativo
 - ✅ Sistemas técnicos funcionando
 - ✅ Material rodante operativo
-- ✅ Disponibilidad 99.95%
+- ✅ Disponibilidad 99.5%
 - ✅ Cumplimiento contractual
 
 ---
@@ -218,7 +218,7 @@ El proyecto opera 24/7 proporcionando transporte ferroviario de carga, con mante
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Demanda de transporte** | 2,400 ton/día | Menor rentabilidad si reduce | Análisis de sensibilidad |
-| **Disponibilidad** | 99.95% | Penalizaciones si no cumple | Sistemas redundantes |
+| **Disponibilidad** | 99.5% | Penalizaciones si no cumple | Sistemas redundantes |
 | **Vida útil** | 30 años | Mayor mantenimiento si reduce | Plan de renovación |
 | **Condiciones ambientales** | Estables | Mayor impacto si cambian | Monitoreo continuo |
 

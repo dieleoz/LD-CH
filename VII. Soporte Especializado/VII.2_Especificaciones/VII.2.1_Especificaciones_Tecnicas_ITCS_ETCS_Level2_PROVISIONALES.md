@@ -15,7 +15,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 ### **Base Técnica:**
 - **Estándar:** UIC 438 (ETCS Level 2)
 - **Normas:** EN 50126/50128/50129 (SIL 4)
-- **Protocolo:** GSM-R conforme UIC 920-2
+- **Protocolo:** TETRA conforme UIC 920-2
 - **Cobertura:** 178 km La Dorada-Chiriguaná
 
 ---
@@ -34,7 +34,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
          │                       │                       │
          ▼                       ▼                       ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Red GSM-R     │    │   Infraestructura│   │   Interfaces    │
+│   Red TETRA     │    │   Infraestructura│   │   Interfaces    │
 │   (UIC 920-2)   │    │   Terrestre     │    │   CTC/Sistemas  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -43,7 +43,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 | Parámetro | Especificación | Estándar |
 |:----------|:---------------|:---------|
 | **Nivel ETCS** | Level 2 | UIC 438 |
-| **Comunicación** | GSM-R + Eurobalise | UIC 920-2 |
+| **Comunicación** | TETRA + Eurobalise | UIC 920-2 |
 | **Redundancia** | N+1 | EN 50126 |
 | **SIL** | SIL 4 | EN 50128 |
 | **Cobertura** | 178 km | Corredor completo |
@@ -59,7 +59,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 - **Ubicación:** Centro de Control La Dorada
 - **Capacidad:** 50 trenes simultáneos
 - **Redundancia:** Sistema dual con conmutación automática
-- **Comunicaciones:** GSM-R según UIC 920-2
+- **Comunicaciones:** TETRA según UIC 920-2
 - **Interfaces:** CTC, TETRA, Fibra Óptica
 
 #### **Equipamiento:**
@@ -87,10 +87,10 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 | **Barrancabermeja - Bucaramanga** | 38 km | 76 | Vía principal |
 | **Bucaramanga - Chiriguaná** | 43 km | 86 | Vía principal |
 
-### **2.3 Red GSM-R**
+### **2.3 Red TETRA**
 
 #### **Especificaciones Técnicas:**
-- **Estándar:** UIC 920-2 (GSM-R)
+- **Estándar:** UIC 920-2 (TETRA)
 - **Frecuencias:** 900 MHz (uplink/downlink)
 - **Cobertura:** 100% del corredor
 - **Capacidad:** 100 canales simultáneos
@@ -101,7 +101,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 |:-----------|:---------------|:--------:|
 | **Estaciones base** | Ericsson RBS 6000 | 8 estaciones |
 | **Antenas** | Sectoriales 900 MHz | 24 antenas |
-| **Repetidores** | GSM-R específicos | 4 repetidores |
+| **Repetidores** | TETRA específicos | 4 repetidores |
 | **Cableado** | Fibra óptica | 178 km |
 
 ---
@@ -113,14 +113,14 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 #### **Especificaciones Técnicas:**
 - **Estándar:** UIC 438 (ETCS Level 2)
 - **SIL:** SIL 4 conforme EN 50128
-- **Interfaces:** Eurobalise, GSM-R, CTC
+- **Interfaces:** Eurobalise, TETRA, CTC
 - **Redundancia:** Sistema dual
 
 #### **Componentes:**
 | Componente | Especificación | Cantidad |
 |:-----------|:---------------|:--------:|
 | **Computadora principal** | Siemens S7-400 | 2 unidades |
-| **Módulo GSM-R** | Siemens GSM-R | 2 unidades |
+| **Módulo TETRA** | Siemens TETRA | 2 unidades |
 | **Antena Eurobalise** | UIC estándar | 4 antenas |
 | **Pantalla de conductor** | TFT 12" | 2 pantallas |
 | **UPS embarcado** | 24V DC | 2 unidades |
@@ -130,7 +130,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 #### **Especificaciones Técnicas:**
 - **Estándar:** EN 50128 (SIL 4)
 - **Funcionalidades:** Control de velocidad, Autorización de movimiento, Vigilancia de tren
-- **Interfaces:** CTC, Eurobalise, GSM-R
+- **Interfaces:** CTC, Eurobalise, TETRA
 - **Actualización:** Over-the-air (OTA)
 
 #### **Módulos de Software:**
@@ -166,7 +166,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 #### **Esunicaciones de Emergencia:**
 - **Protocolo:** TETRA con ITCS
 - **Funcionalidad:** Comunicación voz/datos en emergencias
-- **Redundancia:** Backup para GSM-R
+- **Redundancia:** Backup para TETRA
 - **Cobertura:** 100% del corredor
 
 ---
@@ -181,7 +181,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 | **RBC** | Funcionalidad completa | 100% casos de prueba | 2 semanas |
 | **TCR** | Comportamiento SIL 4 | EN 50128 | 1 semana |
 | **Eurobalise** | Transmisión/recepción | UIC 438 | 3 días |
-| **GSM-R** | Comunicación RBC-Tren | UIC 920-2 | 1 semana |
+| **TETRA** | Comunicación RBC-Tren | UIC 920-2 | 1 semana |
 
 ### **5.2 Pruebas SAT (Site Acceptance Test)**
 
@@ -200,7 +200,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 
 #### **Fase 1: Infraestructura Terrestre (8 semanas)**
 - **Semanas 1-2:** Instalación RBC y equipamiento
-- **Semanas 3-4:** Instalación estaciones base GSM-R
+- **Semanas 3-4:** Instalación estaciones base TETRA
 - **Semanas 5-6:** Instalación balizas Eurobalise
 - **Semanas 7-8:** Cableado y conexiones
 
@@ -221,12 +221,12 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 | Especialidad | Cantidad | Duración |
 |:-------------|:--------:|:--------:|
 | **Ingenieros ITCS** | 4 | 22 semanas |
-| **Técnicos GSM-R** | 6 | 16 semanas |
+| **Técnicos TETRA** | 6 | 16 semanas |
 | **Técnicos embarcados** | 4 | 14 semanas |
 | **Especialistas pruebas** | 3 | 8 semanas |
 
 #### **Equipamiento y Herramientas:**
-- **Equipos de prueba** GSM-R y ETCS
+- **Equipos de prueba** TETRA y ETCS
 - **Herramientas de diagnóstico** especializadas
 - **Software de simulación** y pruebas
 - **Equipos de medición** y calibración
@@ -239,13 +239,13 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |:-------|:------------:|:-------:|:-----------|
 | **Incompatibilidad equipos** | Media | Alto | Certificación UIC previa |
-| **Fallas GSM-R** | Baja | Alto | Redundancia N+1 |
+| **Fallas TETRA** | Baja | Alto | Redundancia N+1 |
 | **Problemas integración CTC** | Media | Medio | Interfaces estándar UIC |
 | **Retrasos en pruebas** | Media | Medio | Cronograma con reservas |
 
 ### **Plan de Contingencia:**
 1. **Si ITCS Level 2 falla:** Implementar ETCS Level 1 como respaldo
-2. **Si GSM-R falla:** Usar TETRA como sistema de respaldo
+2. **Si TETRA falla:** Usar TETRA como sistema de respaldo
 3. **Si integración falla:** Operación manual con supervisión CTC
 
 ---
@@ -254,7 +254,7 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 
 ### **Criterios Técnicos:**
 - ✅ **Funcionalidad:** 100% de casos de prueba aprobados
-- ✅ **Disponibilidad:** 99.95% (conforme AT4)
+- ✅ **Disponibilidad:** 99.5% (conforme AT4)
 - ✅ **SIL:** Nivel 4 conforme EN 50128
 - ✅ **Interoperabilidad:** Certificación UIC
 
@@ -271,9 +271,9 @@ Este documento establece las **especificaciones técnicas provisionales** para e
 ### **Métricas Técnicas:**
 | Métrica | Objetivo | Frecuencia | Responsable |
 |:--------|:---------|:-----------|:------------|
-| **Disponibilidad ITCS** | 99.95% | Diaria | Ing. Sistemas |
+| **Disponibilidad ITCS** | 99.5% | Diaria | Ing. Sistemas |
 | **Tiempo respuesta RBC** | < 1 seg | Continua | Ing. ITCS |
-| **Cobertura GSM-R** | 100% | Semanal | Ing. Telecom |
+| **Cobertura TETRA** | 100% | Semanal | Ing. Telecom |
 | **Disponibilidad embarcados** | 99.9% | Diaria | Ing. Embarcados |
 
 ---

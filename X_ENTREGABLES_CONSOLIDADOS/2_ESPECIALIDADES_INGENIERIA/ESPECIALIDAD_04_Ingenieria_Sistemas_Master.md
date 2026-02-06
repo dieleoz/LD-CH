@@ -42,7 +42,7 @@
 ### **1.1 Base Legal y Contractual**
 
 #### **Obligaciones Contractuales Principales:**
-- **AT1:** Sistemas ferroviarios integrados con disponibilidad 99.95% según AT4
+- **AT1:** Sistemas ferroviarios integrados con disponibilidad 99.5% según AT4
 - **AT2:** Operación y mantenimiento de sistemas integrados críticos
 - **AT3:** Especificaciones técnicas de sistemas ferroviarios integrados
 - **AT4:** Indicadores de disponibilidad para sistemas críticos según Tablas 1-4
@@ -52,9 +52,9 @@
 - **CTC Virtual:** Centro de control centralizado con redundancia N+1
 - **ATP Embarcado:** 15 locomotoras con control automático ETCS Level 2
 - **ENCE:** 5 enclavamientos electrónicos en estaciones críticas
-- **TETRA + GSM-R:** 37 estaciones colocalizadas con redundancia
+- **TETRA + TETRA:** 37 estaciones colocalizadas con redundancia
 - **Fibra Óptica:** 594 km con doble anillo DWDM
-- **Disponibilidad:** 99.95% para sistemas críticos según AT4
+- **Disponibilidad:** 99.5% para sistemas críticos según AT4
 
 ---
 
@@ -75,7 +75,7 @@
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │   TETRA     │  │   GSM-R     │  │   FIBRA     │             │
+│  │   TETRA     │  │   TETRA     │  │   FIBRA     │             │
 │  │   (37)      │  │   (37)      │  │   (594km)   │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -90,7 +90,7 @@
 
 #### **Componentes de Sistemas Integrados:**
 - **Sistemas de Control:** CTC Virtual, ATP Embarcado, ENCE, Desvíos
-- **Sistemas de Comunicación:** TETRA, GSM-R, Fibra óptica
+- **Sistemas de Comunicación:** TETRA, TETRA, Fibra óptica
 - **Sistemas de Seguridad:** ITS, CCTV, Control de accesos
 - **Sistemas de Integración:** Interfaces, protocolos, interoperabilidad
 - **Sistemas de Monitoreo:** SCADA, HMI, alarmas, históricos
@@ -123,8 +123,8 @@
 | **Tipo** | Centro de control virtual | Centralizado |
 | **Ubicación** | CCO La Dorada | Centro principal |
 | **Redundancia** | N+1 | Sistemas redundantes |
-| **Disponibilidad** | 99.95% | Sistema crítico |
-| **Interfaces** | ATP, ENCE, TETRA, GSM-R | Comunicación integrada |
+| **Disponibilidad** | 99.5% | Sistema crítico |
+| **Interfaces** | ATP, ENCE, TETRA, TETRA | Comunicación integrada |
 
 #### **Sistema ATP Embarcado:**
 | Parámetro | Especificación | Observaciones |
@@ -132,8 +132,8 @@
 | **Tipo** | ETCS Level 2 | Control automático |
 | **Cantidad** | 15 locomotoras | Flota completa |
 | **Redundancia** | N+1 | Sistemas redundantes |
-| **Disponibilidad** | 99.95% | Sistema crítico |
-| **Interfaces** | CTC, GPS, TETRA, GSM-R | Comunicación integrada |
+| **Disponibilidad** | 99.5% | Sistema crítico |
+| **Interfaces** | CTC, GPS, TETRA, TETRA | Comunicación integrada |
 
 #### **Sistema ENCE:**
 | Parámetro | Especificación | Observaciones |
@@ -141,7 +141,7 @@
 | **Tipo** | Enclavamientos electrónicos | Control de estaciones |
 | **Cantidad** | 5 estaciones | Estaciones críticas |
 | **Redundancia** | N+1 | Sistemas redundantes |
-| **Disponibilidad** | 99.95% | Sistema crítico |
+| **Disponibilidad** | 99.5% | Sistema crítico |
 | **Interfaces** | CTC, Señalización, TETRA | Comunicación integrada |
 
 ### **3.2 Especificaciones Básicas de Comunicaciones**
@@ -155,7 +155,7 @@
 | **Disponibilidad** | 99.5% | Sistema crítico |
 | **Interfaces** | CTC, ATP, Material Rodante | Comunicación integrada |
 
-#### **Sistema GSM-R:**
+#### **Sistema TETRA:**
 | Parámetro | Especificación | Observaciones |
 |:----------|:---------------|:--------------|
 | **Tipo** | Red de datos críticos | Comunicación redundante |
@@ -170,7 +170,7 @@
 | **Tipo** | Backbone de alta capacidad | Red de datos |
 | **Longitud** | 594 km | Corredor + 10% reserva |
 | **Redundancia** | Doble anillo DWDM | Protección automática |
-| **Disponibilidad** | 99.95% | Sistema crítico |
+| **Disponibilidad** | 99.5% | Sistema crítico |
 | **Interfaces** | Todos los sistemas | Backbone integrado |
 
 ### **3.3 Especificaciones Básicas de Seguridad**
@@ -198,7 +198,7 @@
 | **Tipo** | Control automatizado | Desvíos motorizados |
 | **Cantidad** | 120 unidades | 25 motorizados + 95 manuales |
 | **Control** | Centralizado desde CTC | Control integrado |
-| **Disponibilidad** | 99.95% | Sistema crítico |
+| **Disponibilidad** | 99.5% | Sistema crítico |
 | **Interfaces** | CTC, ENCE, Señalización | Control integrado |
 
 ---
@@ -237,12 +237,12 @@
 | **Radio portátil** | TETRA portátil | 80 unidades | Personal |
 | **Consola despacho** | TETRA fija | 3 unidades | En CCO |
 
-#### **Estaciones GSM-R (37 estaciones):**
+#### **Estaciones TETRA (37 estaciones):**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Estación base** | GSM-R digital | 37 unidades | Colocalizada con TETRA |
+| **Estación base** | TETRA digital | 37 unidades | Colocalizada con TETRA |
 | **Antena** | Omni-direccional | 37 unidades | 40m altura |
-| **Radio embarcado** | GSM-R móvil | 30 unidades | En locomotoras |
+| **Radio embarcado** | TETRA móvil | 30 unidades | En locomotoras |
 | **Interfaces** | CTC, ATP | 37 unidades | Comunicación integrada |
 
 #### **Red Fibra Óptica (594 km):**
@@ -292,8 +292,8 @@
 | Componente | Especificación | Cantidad | Aplicación |
 |:-----------|:---------------|:---------|:-----------|
 | **Estación base TETRA** | TETRA digital | 37 unidades | Comunicación |
-| **Estación base GSM-R** | GSM-R digital | 37 unidades | Comunicación |
-| **Radio embarcado** | TETRA + GSM-R | 30 unidades | Locomotoras |
+| **Estación base TETRA** | TETRA digital | 37 unidades | Comunicación |
+| **Radio embarcado** | TETRA + TETRA | 30 unidades | Locomotoras |
 | **Radio portátil** | TETRA portátil | 80 unidades | Personal |
 | **Consola despacho** | TETRA fija | 3 unidades | CCO |
 
@@ -319,7 +319,7 @@
 | Sistema | Software | Función | Actualización |
 |:--------|:---------|:---------|:---------------|
 | **TETRA** | Protocolo TETRA | Comunicación principal | OTA |
-| **GSM-R** | Protocolo GSM-R | Comunicación redundante | OTA |
+| **TETRA** | Protocolo TETRA | Comunicación redundante | OTA |
 | **Fibra óptica** | Protocolo Ethernet | Backbone de datos | Manual |
 | **Interfaces** | Protocolo FFFIS | Comunicación entre sistemas | Manual |
 
@@ -360,7 +360,7 @@
 1. **Planificación:** Coordinación entre sistemas
 2. **Operación:** Monitoreo integrado en tiempo real
 3. **Mantenimiento:** Programación coordinada
-4. **Disponibilidad:** Gestión de disponibilidad 99.95%
+4. **Disponibilidad:** Gestión de disponibilidad 99.5%
 5. **Documentación:** Registro de operación integrada
 
 ### **6.2 Procedimientos de Emergencia**
@@ -404,7 +404,7 @@
 | Sistema | Infraestructura Civil | Función |
 |:--------|:---------------------|:---------|
 | **CTC Virtual** | Edificio CCO | Alojamiento de sistemas |
-| **TETRA/GSM-R** | Torres de acero | Soporte de antenas |
+| **TETRA/TETRA** | Torres de acero | Soporte de antenas |
 | **Fibra óptica** | Ductos de concreto | Protección de fibras |
 | **CCTV** | Postes y estructuras | Soporte de cámaras |
 
@@ -414,7 +414,7 @@
 | Sistema | Alimentación Eléctrica | Función |
 |:--------|:----------------------|:---------|
 | **CTC Virtual** | 480V/60Hz, UPS N+1 | Alimentación principal |
-| **TETRA/GSM-R** | 480V/60Hz, UPS N+1 | Estaciones base |
+| **TETRA/TETRA** | 480V/60Hz, UPS N+1 | Estaciones base |
 | **CCTV** | 220V/60Hz, UPS N+1 | Cámaras y servidores |
 | **ITS** | 220V/60Hz, UPS N+1 | Sistemas de información |
 
@@ -425,7 +425,7 @@
 |:--------|:-------------------|:---------|
 | **ATP Embarcado** | Locomotoras | Control automático |
 | **TETRA Embarcado** | Locomotoras | Comunicación |
-| **GSM-R Embarcado** | Locomotoras | Comunicación |
+| **TETRA Embarcado** | Locomotoras | Comunicación |
 | **GPS/GNSS** | Locomotoras | Posicionamiento |
 
 ### **7.4 Interfaces con Sistemas Externos**
@@ -449,10 +449,10 @@
 | **CTC Virtual** | AT1 | Centro de control centralizado | ✅ Cumplido | V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO |
 | **ATP Embarcado** | AT1 | 15 locomotoras con ETCS Level 2 | ✅ Cumplido | SISTEMA_01_Control_y_Senalizacion_Master |
 | **ENCE** | AT1 | 5 enclavamientos electrónicos | ✅ Cumplido | SISTEMA_01_Control_y_Senalizacion_Master |
-| **TETRA + GSM-R** | AT1 | 37 estaciones colocalizadas | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
+| **TETRA + TETRA** | AT1 | 37 estaciones colocalizadas | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
 | **Fibra Óptica** | AT1 | 594 km con doble anillo | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
 | **CCTV** | AT1 | 73 cámaras con 1080p | ✅ Cumplido | SISTEMA_03_ITS_y_Seguridad_Master |
-| **Disponibilidad** | AT4 | 99.95% para sistemas críticos | ✅ Cumplido | AT4_IndicadoresDesempeno |
+| **Disponibilidad** | AT4 | 99.5% para sistemas críticos | ✅ Cumplido | AT4_IndicadoresDesempeno |
 
 ### **8.2 Matriz de Normatividad**
 
@@ -470,7 +470,7 @@
 | **Pruebas de integración** | 100% de sistemas | Pruebas SIT | Cada sistema |
 | **Pruebas de interfaces** | 100% de interfaces | Pruebas de comunicación | Cada interfaz |
 | **Pruebas de redundancia** | 100% de sistemas críticos | Pruebas de fallover | Mensual |
-| **Pruebas de disponibilidad** | 99.95% sistemas críticos | Monitoreo continuo | Continuo |
+| **Pruebas de disponibilidad** | 99.5% sistemas críticos | Monitoreo continuo | Continuo |
 
 ---
 

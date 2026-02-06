@@ -1,4 +1,4 @@
-﻿# RADIO TETRA - CONTRATO 8.5
+# RADIO TETRA - CONTRATO 8.5
 ## APP La Dorada - Chiriguaná
 
 ---

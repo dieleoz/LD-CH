@@ -1,4 +1,4 @@
-﻿# SISTEMA 03: ITS Y SEGURIDAD
+# SISTEMA 03: ITS Y SEGURIDAD
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -18,7 +18,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 - **15 sistemas ITS:** Gestión de tráfico, información al usuario, monitoreo ambiental
 - **8 sistemas de control de accesos:** CCO, talleres, estaciones principales
 - **Cobertura:** 100% del corredor + instalaciones críticas
-- **Disponibilidad requerida:** 99.5% CCTV, 99.5% ITS, 99.95% seguridad física (SIL 4)
+- **Disponibilidad requerida:** 99.5% CCTV, 99.5% ITS, 99.5% seguridad física (SIL 4)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -80,7 +80,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 **Criterios de Disponibilidad:**
 - **99.5% CCTV:** Sistema de monitoreo (no crítico para operación)
 - **99.5% ITS:** Sistema de información (no crítico para operación)
-- **99.95% Seguridad Física:** Sistema crítico (SIL 4 según EN 50126)
+- **99.5% Seguridad Física:** Sistema crítico (SIL 4 según EN 50126)
 
 ---
 
