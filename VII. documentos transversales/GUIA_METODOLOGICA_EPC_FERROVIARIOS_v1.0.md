@@ -158,6 +158,20 @@ mkdir -p METODOLOGIA/{Guia,Templates,Lecciones,Checklists}
 
 ---
 
+## 4. GOBERNANZA DE ARCHIVOS Y REPOSITORIO
+
+### 4.1 Certificación de Carpetas (Phase 7)
+
+| Carpeta | Estado | Dictamen | Fecha |
+| :--- | :--- | :--- | :--- |
+| **I. Contrato General** | ✅ Certificado | Blindaje contractual Tier 1. | Ene-2025 |
+| **II. Apéndices Técnicos** | ✅ Certificado | Leído y validado estructuralmente. | Ene-2025 |
+| **III. Ingeniería Conceptual** | ✅ Certificado | Validado 100% Phase 7 (Ahorro $44B+ COP). | Feb-2026 |
+| **IV. Ingeniería Básica** | ⏳ Pendiente | Pendiente alineación con conceptual. | - |
+| **V. Ingeniería Detalle** | ⏳ Pendiente | Pendiente de inicio oficial. | - |
+
+---
+
 ## 📋 SECCIÓN 3: METODOLOGÍA PUNTO 42 APLICADA
 
 ### 3.1 Los 5 Pilares Evolucionados (Phase 7)
