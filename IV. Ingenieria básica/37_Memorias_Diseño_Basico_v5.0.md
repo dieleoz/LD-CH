@@ -1,11 +1,7 @@
-# MEMORIAS DE DISEÑO BÁSICO v5.0 - CRITERIOS Y ARQUITECTURA DE SISTEMAS
-## APP La Dorada - Chiriguaná
-
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** 37 - Memorias de Diseño Básico  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+# MEMORIAS DE DISEÑO BÁSICO v7.0 - PHASE 7
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -20,7 +16,7 @@
 | **Tipo** | Memoria de Diseño Básico |
 | **Categoría** | Ingeniería Básica |
 | **Número** | 37 |
-| **Estado** | ⚠️ **DISEÑO BÁSICO EN SANEAMIENTO (RE-LINEACIÓN APC)** |
+| **Estado** | ✅ **APROBADO (PHASE 7)** |
 
 ---
 
@@ -80,8 +76,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 | Requisito Contractual | Fuente | Parámetro de Diseño Propuesto | Estado |
 |:----------------------|:-------|:-----------------------------|:---:|
 | **Backbone FO** | AT1 | Longitud corredor + 10% (Est.) | 🔍 En Diseño |
-| **Radio TETRA** | AT4 | Cobertura 100% (Cant. sitios TBD) | 🔍 En Diseño |
-| **Radio GSM-R** | AT3/Prop. | Redundancia crítica | 🔍 En Diseño |
+| **Radio TETRA** | AT4 | Cobertura 100% | ✅ Alineado |
 | **Señalización** | AT3 | Virtual (SICC compatible) | 🔍 En Diseño |
 | **Disponibilidad** | AT4 | ≥ 99.5% (COM1) | 🔍 En Diseño |
 | **Flota** | AT1 | 15 Locomotoras | ✅ Alineado |
@@ -382,7 +377,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 ### 10.1 Sistemas de Señalización (Virtuales)
 - **Tipo:** CTC + ATP embarcado
 - **Balizas:** 0 (Sistema virtual)
-- **Radio:** TETRA + GSM-R
+- **Radio:** TETRA
 - **Control:** CTC centralizado
 - **Redundancia:** 2oo3
 - **Enclavamientos:** ENCE (Dimensionado según AT1/AT4)
@@ -411,7 +406,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 
 ### 11.2 Interfaz CTC-ATP Embarcado
 - **Protocolo:** ETCS Level 2
-- **Medio:** TETRA + GSM-R
+- **Medio:** TETRA
 - **Redundancia:** N+1
 - **Seguridad:** Cifrado A5/1
 
@@ -419,7 +414,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Protocolo:** Conmutación automática
 - **Medio:** Radio
 - **Redundancia:** Cruzada
-- **Seguridad:** Cifrado TETRA + GSM-R
+- **Seguridad:** Cifrado TETRA
 
 ### 11.4 Interfaz Potencia-Control
 - **Protocolo:** Modbus TCP
@@ -462,7 +457,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 ### 13.1 Análisis de Riesgos (Sistemas Virtuales)
 - **Identificación de Peligros:** Sistemas embarcados vs físicos
 - **Evaluación de Riesgos:** Disponibilidad de comunicaciones
-- **Medidas de Mitigación:** Redundancia TETRA + GSM-R
+- **Medidas de Mitigación:** Redundancia TETRA
 - **Plan de Contingencia:** Procedimientos de fallback
 
 ### 13.2 Gestión de Seguridad (Actualizada)
