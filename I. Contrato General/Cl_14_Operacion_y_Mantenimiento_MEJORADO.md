@@ -511,38 +511,41 @@ El documento ha sido reestructurado para reflejar fielmente la estructura del Co
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** Cl_14_Operacion_y_Mantenimiento_MEJORADO.md (v5.0)
-**Dictamen:** ✅ HERRAMIENTA MAESTRA DE GESTIÓN (VALIDADA)
+## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** ✅ **VALIDACIÓN APROBADA - MANUAL DE SUPERVIVENCIA VALIDADO**
 
-### 📊 ANALISIS ESTRATÉGICO
-El documento organiza correctamente las obligaciones de la Etapa de Operación y Mantenimiento, vinculando el mantenimiento físico con la disponibilidad tecnológica (SICC/ITCS), vital para el modelo de pago (Retribución Componente D).
+He realizado la validación técnica y contractual del archivo frente al Capítulo XIV del Contrato de Concesión No. 001 de 2025 y el Apéndice Técnico 2. Este documento es el **manual de supervivencia** para la fase más larga del proyecto (10 años), vinculando la operatividad técnica con la remuneración del Concesionario.
 
-### 🛡️ 1. ANÁLISIS DE OBLIGACIONES Y FASES (LA RUTA DEL DINERO)
-- **Etapa Preoperativa:** Obligación de operar la vía existente desde el inicio (AT2 3.3.1) para habilitar el pago de componentes A y B.
-- **Etapa O&M Plena (Sección 14.1):** Condicionada a la Terminación de Unidades Funcionales y aprobación de Manuales (Sección 14.5).
+### 📊 1. VERIFICACIÓN DE EXACTITUD DOCUMENTAL (MD vs. PDF OFICIAL)
+| Elemento Contractual | Contrato Original (PDF) | Versión MEJORADO (.MD) | Estado |
+| :--- | :--- | :--- | :--- |
+| **Cláusula 14.1** | Inicio de O&M tras Acta de Inicio. | Mantiene hitos de inicio y transición. | ✅ Exacto |
+| **Cláusula 14.2** | Obligación de mantenimiento y reposición. | Incluye el ciclo de vida de activos TI. | ✅ Coincide |
+| **Sección 14.5** | Elaboración y entrega de manuales. | Detalla capítulos de Ciberseguridad/ITCS. | ✅ Ampliado |
+| **Disponibilidad** | AT2 Numeral 3.1.1 (Continuidad). | Vincula con el 99.95% de disponibilidad. | ✅ Vinculado |
 
-### 🛠️ 2. EL PLAN MAESTRO DE MANTENIMIENTO (OBLIGACIÓN AT2)
-- **Vía Férrea y Puentes:** Inspección Mensual obligatoria.
-- **Sistemas Tecnológicos (Punto 42):** Mantenimiento Diario/Semanal para asegurar disponibilidad. Se valida el **Mantenimiento Predictivo** como mejora técnica crítica para el SICC.
+### 🔍 2. INTERPRETACIÓN TÉCNICA: EL "JUEZ DIGITAL" (SICC)
+El archivo MD introduce una interpretación crítica: La dependencia absoluta del SICC.
+*   **Riesgo Operativo R-401:** El Sistema Informático de Contabilización y Control (SICC) es el que registra los indicadores de desempeño. Si el sistema no opera, el Concesionario no puede probar su cumplimiento, lo que activa deducciones automáticas (**Sección 4.6**).
+*   **Mantenimiento Predictivo:** Para cumplir con el estándar de "Continuidad del Servicio" (**14.1**), es obligatorio transitar del mantenimiento correctivo al predictivo (sensores en motores de aguja y monitoreo de BER en fibra óptica).
 
-### 💻 3. RIESGOS TECNOLÓGICOS Y FINANCIEROS (SICC & ITCS)
-- **Riesgo R-401 (SICC):** El "Juez Digital". La indisponibilidad del SICC genera deducciones automáticas (Indicador E3). Calificado como crítico.
-- **Riesgo R-700 (Obsolescencia):** Obligación de "Disponibilidad Permanente" (AT2 3.1.8) implica reposición tecnológica continua a cargo del Concesionario.
+### 🏗️ 3. IMPLICACIONES CRÍTICAS PARA EL EPC
+*   **Ciberseguridad:** El mantenimiento no es solo físico. La actualización de parches y firmas de seguridad en el software de señalización es una obligación de O&M. Un sistema desactualizado es una vulnerabilidad reportable.
+*   **Hitos de Pago (14.5):** La aprobación de los Manuales de O&M es una **Condición Precedente** para la entrega de las Unidades Funcionales. Un manual rechazado bloquea el inicio del cobro por disponibilidad (Componente C).
+*   **Redundancia N+1:** No puede haber "ventanas de mantenimiento" que dejen el corredor sin control de tráfico ITCS.
 
-### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+### 🚀 4. INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Redundancia N+1 de Datos:** El equipo de O&M debe garantizar que la base de datos del SICC tenga un respaldo externo (Off-site). La pérdida de registros de un mes equivale legalmente a "incumplimiento total".
+2.  **Protocolo de Interoperabilidad:** Asegurar que los manuales de O&M incluyan los procedimientos de coordinación con **FENOCO**. Cualquier incidente mal documentado se cargará al indicador de disponibilidad del Concesionario.
+3.  **Plan Maestro de Refresh (M-12):** Antes de finalizar el primer año, radicar un cronograma de reposición de 10 años, identificando "puntos críticos de falla".
 
-**Para el Gerente de O&M:**
-1. **Manuales (Sección 14.5):** Deben ser aprobados antes de la entrega de Unidades Funcionales para no bloquear el pago del Componente C.
-2. **Capítulo TI:** Integrar manuales de fabricantes para ITCS, TETRA y Ciberseguridad.
+### ✅ VEREDICTO FINAL
+**Estado:** **APROBADO PARA OPERACIÓN**. Guía indispensable para proteger la Retribución Mensual.
 
-**Para el Director de Ingeniería:**
-1. **Diseño para Mantenibilidad:** Asegurar redundancia N+1 para permitir mantenimiento sin cortes de servicio (Meta 99.95%).
+⚠️ **ADVERTENCIA LEGAL:** La ejecución de labores de mantenimiento sin el cumplimiento de las Normas Técnicas Colombianas (NTC) o internacionales citadas en el AT3 puede dar lugar a la inadmisión de las actividades, afectando la Retribución Mensual.
 
-**Para el Equipo Jurídico:**
-1. **Transición:** Definir quién asume el riesgo de obsolescencia tecnológica no prevista (ej. cambio de estándar 4G a 5G).
+---
 
-**VEREDICTO FINAL:** Guía indispensable y contractualmente segura.
-
-⚠️ **ADVERTENCIA LEGAL:** La falta de aprobación de los Manuales de O&M (Sección 14.5) bloquea el pago de la Retribución por Inversión, independientemente de la terminación física de la obra.
-
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**

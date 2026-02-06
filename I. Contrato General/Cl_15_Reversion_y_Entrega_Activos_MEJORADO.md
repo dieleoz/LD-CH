@@ -307,3 +307,38 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 - **Redundancia N+1** en verificación de estado
 
 **5 riesgos identificados** para análisis PMI y gestión integrada en reversión.
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** ✅ **VALIDACIÓN APROBADA - REVERSIÓN ESPECIAL BLINDADA**
+
+He identificado en la documentación contractual los requisitos específicos para la **Reversión Especial del Puente Vehicular sobre el Río Sogamoso**. A diferencia de la reversión general (Año 10), este activo tiene un ciclo de vida corto y su entrega oportuna es crítica para liberar al EPC de costos operativos.
+
+### 🌉 1. DEFINICIÓN Y PLAZOS (EL "RELOJ" DE LA REVERSIÓN)
+*   **Hito Inicial:** Acta de Terminación de Construcción del Puente.
+*   **Permanencia (180 Días):** El Concesionario debe operar y mantener el puente por **180 días calendario** contados a partir del Acta (**Sección 9.16a**).
+*   **Ventana de Entrega:** La reversión formal al Departamento de Santander debe ocurrir dentro de los **60 días** siguientes a la finalización de los 180 días.
+*   **Riesgo:** Si al día 181 no se gestiona la entrega, el EPC sigue asumiendo costos y responsabilidad civil de manera innecesaria.
+
+### 🛠️ 2. REQUISITOS TÉCNICOS Y DOCUMENTALES (SECCIÓN 9.16d)
+*   **Mantenimiento (AT2 2.5):** Limpieza de estructuras hidráulicas, rocería de taludes, reparación de pavimentos e iluminación.
+*   **Inventario:** Actualización inmediata de activos fijos.
+*   **Memoria Técnica:** Entregable obligatorio dentro de los **30 días** siguientes al inicio de la Reversión Especial.
+*   **Licencia Ambiental:** Trámite de cesión de Licencias y Permisos para el traslado del puente y las instituciones educativas (Santo Domingo/San José).
+
+### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Plan de 180 Días:** Programar mantenimiento intensivo en el **Día 170** (estética, limpieza, señalización) para evitar objeciones de la Gobernación de Santander.
+2.  **Gestión con Gobernación (Día 90):** Iniciar acercamientos con la Secretaría de Infraestructura. El objetivo es tener el borrador del Acta de Recibo listo en el Día 181.
+3.  **Cierre de Punch List:** Asegurar que no queden pendientes constructivos (drenajes, acabados) al firmar el Acta de Terminación.
+
+### ✅ VEREDICTO FINAL
+**Estado:** **APROBADO PARA PLAN DE CIERRE ANTICIPADO**.
+
+⚠️ **ADVERTENCIA LEGAL:** El EPC sigue siendo custodio y responsable civil del puente hasta que se formalice la entrega al Departamento de Santander. La falta de gestión administrativa es un riesgo de costo operativo puro.
+
+---
+
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
