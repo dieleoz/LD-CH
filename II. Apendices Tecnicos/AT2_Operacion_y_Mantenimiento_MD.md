@@ -431,83 +431,63 @@ BAJO - Actualizar interfaces con documentos completados
 🔄 Manuales O&M en desarrollo
 🔄 Protocolos de redundancia establecidos
 12.4 Impacto en Roadmap del Proyecto
-COHERENCIA CON BLOQUEO ITCS: Este documento es coherente con la indefinición ITCS identificada en AT1 v3.0. Las especificaciones detalladas de sistemas de respaldo y gestión de tráfico requieren resolver primero la tecnología ITCS.
-DOCUMENTOS DESBLOQUEADOS:
-AT6_Ambiental.docx (gestión ambiental en O&M)
-AT9_PlanObras.docx (cronograma de mantenimientos)
-Manuales O&M (desarrollo independiente)
- 
-📌 GESTIÓN DOCUMENTAL PROFESIONAL
-Criterios de Actualización:
-Resolución de indefinición ITCS → v4.0
-Completar AT3_Especificaciones.docx → v4.1
-Aprobación del ROT → v5.0
-Este documento es coherente con el sistema de gestión documental establecido y se actualiza según avance del roadmap. Las observaciones de ingeniería han sido respondidas sistemáticamente con planes de acción específicos.
-Próxima revisión: Al completar AT3_Especificaciones.docx o resolver indefiniciones tecnológicas críticas
- 
-Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
+COHERENCIA CON BLOQUEO ITCS: Este documento es coherente con la indefinición ITCS identificada en AT1 v3.0. Las especificaciones detalladas de sistemas de respaldo y gestión de tráfico requieren resolver primero la tecnología# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO (v5.0)
+## APP La Dorada - Chiriguaná
+
+**Fecha de actualización:** 06 de febrero de 2026  
+**Proyecto:** APP La Dorada - Chiriguaná  
+**Contrato:** Concesión No. 001 de 2025  
+**Apéndice:** AT2 - Operación y Mantenimiento  
+**Estado:** ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA**
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** AT2_Operacion_y_Mantenimiento_MD v4.1
-**Dictamen:** ✅ APROBADO CON OBSERVACIONES DE ALCANCE (SCOPE CREEP)
+## ⚖️ VALIDACIÓN FORENSE CRUZADA FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** ✅ **HERRAMIENTA DE EJECUCIÓN SUPERIOR (VALIDADA CON OBSERVACIONES DE ALCANCE)**
 
-### 📊 DICTAMEN ESTRATÉGICO
-El documento es técnicamente superior al original, ya que incorpora la Metodología Punto 42 para cubrir vacíos críticos en tecnología (Ciberseguridad, ITCS, Interoperabilidad). Sin embargo, al elevar los estándares (ej. Disponibilidad 99.95%), debemos tener cuidado de no convertir un objetivo interno de excelencia en una obligación contractual exigible por la ANI sin el reconocimiento del CAPEX adecuado.
+He realizado la validación forense cruzada del Apéndice Técnico 2 frente al **PDF Oficial (Source 300)**, el Apéndice Técnico 4 (Indicadores) y la Metodología Punto 42.
 
-### ✅ VALIDACIÓN DE CONTENIDO (OBLIGACIONES CRÍTICAS)
-1. **Los "Tres Manuales" (Condición Precedente):**
-   - **Fuente:** Contrato Principal (14.5) y AT2 PDF (2.145-2.147).
-   - **Veredicto:** CORRECTO Y CRÍTICO. Sin la aprobación ("No Objeción") de estos manuales, no inicia la etapa de O&M ni el pago asociado.
-   - **Riesgo:** Rechazo por Interventoría si son genéricos. Deben incluir protocolos de AT3 v5.0 (TETRA, CTC).
+### 📉 1. VALIDACIÓN DE PRECISIÓN: DEL PAPEL A LA REALIDAD DIGITAL
+La versión v5.0 instrumenta el cumplimiento operacional para blindar la remuneración del Concesionario:
 
-2. **Reglamento de Operación de Trenes (ROT):**
-   - **Mejora Crítica (v4.1):** Exige explícitamente la integración con FENOCO y el uso del CTC/ITCS. Esto operacionaliza la interoperabilidad obligatoria para evitar detenciones en Chiriguaná (Interfaces FENOCO).
+| Elemento | Fuente PDF Original (AT2/AT4) | Fuente MD v5.0 (Punto 42) | Veredicto |
+| :--- | :--- | :--- | :--- |
+| **Continuidad** | AT2, 3.1.1: Disponibilidad general. | **Redundancia N+1 Activa:** Failover < 5 s. | ✅ Operativo. |
+| **SICC / SCADA** | AT4, 5.4.2: Disponibilidad 99.0%. | **Target 99.95%:** Buffer de seguridad. | ⚠️ Estratégico. |
+| **Predictivo** | AT2, 4.2.4(a): Mantenimiento predictivo. | **IoT / Sensores:** Monitoreo de fibra y agujas. | ✅ Contractual. |
+| **Ciberseguridad** | AT3, 8.8: Referencia general. | **NIST/IEC 62443:** Defensa activa y parches. | ➕ Necesario. |
 
-3. **Mantenimiento de Tecnología (La "Cláusula Invisible"):**
-   - **Fuente:** Obligación de "Información Permanente" (AT2 3.1.8).
-   - **Estrategia:** El documento traduce esta obligación vaga en requisitos técnicos concretos: **Redundancia N+1** y **Ciberseguridad NIST/IEC 62443**. Esto protege al EPC de multas por caídas del sistema SICC.
+⚖️ **Interpretación del 99.95%:** Se aclara que el **99.95% es una meta de diseño interna (Target)** para garantizar que nunca se baje del **99.0% contractual (Limit)**, evitando deducciones automáticas (Sec. 4.6).
 
-### ⚠️ PUNTOS DE ATENCIÓN (ACTUALIZACIÓN PUNTO 42)
-1. **Meta de Disponibilidad 99.95%:** Mantener como **KPI Interno** para asegurar el pago, pero no ofertarlo contractualmente sin la redundancia instalada, pues se volvería vinculante.
-2. **Ciberseguridad NIST/IEC 62443:** Única forma técnica de cumplir la obligación de "Integridad" (R-310).
-3. **Gestión de Interoperabilidad FENOCO:** Vital para el tráfico de carga y facturación.
+### 💻 2. EL "MANTENIMIENTO DIGITAL" (LA TRAZA DE PAGO)
+*   **Gestión del SCADA:** El SCADA es la base de auditoría para la remuneración. La caída del SCADA se interpreta como falta de información, lo que habilita a la ANI para aplicar el escenario de cumplimiento más bajo.
+*   **Predictivo en Motores de Aguja:** Mandatorio para ITCS para prevenir fallos en la capa física que afecten la seguridad operativa.
 
-### 🚀 INSTRUCCIONES AL EQUIPO (PLAN DE ACCIÓN)
-1. **Redacción de Manuales (Prioridad Alta):** Instruir a Gerencia O&M que incluyan capítulos específicos para ITCS, TETRA y Ciberseguridad.
-2. **Definición de Fronteras (FENOCO):** Redactar el "Acuerdo de Interoperabilidad" para anexo del ROT.
-3. **Configuración del SICC:** Configurar reporte automático según Sección 7.1 para garantizar la trazabilidad del cobro.
+### 🛡️ 3. REPOSICIÓN Y OBSOLESCENCIA (REPEX)
+*   **Fundamento:** El AT2 exige mantener las características operacionales durante los 10 años de concesión.
+*   **Acción:** El EPC debe presupuestar un **Tech Refresh** completo (servidores, radios, UPS) entre los Años 5 y 7. El modelo financiero debe incluir provisión de REPEX.
+
+### 🚀 INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Manuales de O&M (Condición Precedente):** La aprobación de los manuales por la Interventoría es necesaria para el inicio del cobro por disponibilidad. Sin manuales, no hay flujo de caja.
+2.  **Redundancia N+1 Activa:** Realizar pruebas de conmutación mensuales. No se aceptan respaldos pasivos que requieran intervención manual.
+3.  **Interoperabilidad FENOCO:** El Reglamento de Operación de Trenes (ROT) debe incluir procedimientos para **"Operación Degradada"** (caída de ITCS) en frontera con FENOCO.
+4.  **Auditoría de Firmware:** Mantener inventario de versiones para asegurar cumplimiento con el estándar ETCS Level 2 / PTC.
 
 ### ✅ VEREDICTO FINAL
-El documento "AT2_Operacion_y_Mantenimiento_MD.md" es una guía robusta y necesaria.
-*   **Estado:** Listo para ser usado como base de los Manuales de O&M y el ROT.
-*   **Advertencia:** Asegurar que el presupuesto de O&M contemple los costos de licencias y redundancias N+1.
+**Estado:** **APROBADO COMO BASE DE MANUALES CONTRACTUALES**. 
 
-⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en la entrega de los Manuales de O&M (Sección 14.5 del Contrato) impide el inicio de la fase operativa y el cobro de la retribución asociada.
-
-Respuesta a Observaciones de Ingeniería
-🔄 Plan de acción específico para especificaciones de fibra/respaldo
-🔄 Roadmap claro para sistema de gestión de tráfico
-✅ Coherencia con bloqueo ITCS identificado en AT1 v3.0
-3. Completitud Contractual Mejorada
-✅ Trazabilidad perfecta con AT2 completo (6 capítulos)
-✅ Principios obligatorios claramente definidos
-✅ ROT detallado según numerales específicos
-✅ Integración SICC con requisitos exactos
-
-
+⚠️ **ADVERTENCIA LEGAL:** Operar sin manuales aprobados o con personal no certificado en tecnología ITCS invalida los reportes de cumplimiento, activando las deducciones automáticas de la Sección 4.6.
 
 ---
 
-
-
-Esta informacion es unicamente de caracter informativo. Se recomienda su revision y validacion por el equipo juridico del proyecto antes de ser utilizada formalmente.
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
 
 ---
 
 Estado del documento: Convertido - 17/09/2025  
-Version: 1.0  
+Version: 5.0  
 Responsable: Administrador Contractual EPC
 ---
 
@@ -546,7 +526,7 @@ Responsable: Administrador Contractual EPC
 ### METRICAS DE SEGUIMIENTO
 
 | Metrica | Objetivo | Frecuencia | Responsable |
-|:---|:---:|:---:|:---|
+|:---|:---:|:---|:---|
 | Cumplimiento tecnico | 100% | Semanal | Supervisor Tecnico |
 | Cumplimiento de cronograma | 95% | Diaria | Jefe de Proyecto |
 | Calidad de implementacion | Excelente | Quincenal | Auditoria Tecnica |
@@ -560,7 +540,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ---
 
 Estado del documento: Completado - 27/01/2025  
-Version: 4.1  
+Version: 5.0  
 Responsable: Administrador Contractual EPC  
 Proxima actualizacion: 27/02/2025
 
@@ -620,7 +600,7 @@ Proxima actualizacion: 27/02/2025
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
+|:---|:---|:---:|:---|:---|:---|
 | R-307 | Dependencia AT3 para ITCS en OM | Técnico | Alta | Alto | Operación ITCS sin especificaciones AT3 |
 | R-308 | Interoperabilidad FENOCO en OM | Técnico | Media | Alto | Mantenimiento de compatibilidad con FENOCO |
 | R-309 | Disponibilidad AT4 en OM | Contractual | Media | Alto | Mantenimiento de cumplimiento de indicadores |
