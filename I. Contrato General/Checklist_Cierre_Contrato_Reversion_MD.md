@@ -89,36 +89,35 @@ __________________________
 
 ## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
 **Auditor:** Administrador Contractual EPC
-**Dictamen:** ✅ **ANÁLISIS CORRECTO Y ESTRATÉGICAMENTE VITAL**
+**Dictamen:** ✅ **VALIDACIÓN APROBADA - ANÁLISIS CORRECTO Y ESTRATÉGICAMENTE VITAL**
 
-Se ha realizado la validación forense cruzada del análisis sobre el archivo (v5.0) contrastándolo con el Contrato (PDF), AT2 y AT4.
-**Conclusión:** Interpretación contractualmente sólida. Identifica correctamente la Reversión no como acto protocolario, sino como una Obligación de Resultado compleja. El análisis sobre la **Dimensión Lógica (Software/IP)** es particularmente acertado bajo la Metodología Punto 42.
+He realizado la validación forense cruzada del análisis integral sobre el paquete de cierre y reversión frente al Contrato (PDF) y los Apéndices Técnicos.
+**Conclusión:** Interpretación contractualmente sólida. Identifica la Reversión no como acto protocolario, sino como una **Obligación de Resultado** compleja. El análisis sobre la **Dimensión Lógica (Software/IP)** es particularmente acertado.
 
-### 📉 1. VALIDACIÓN DE PRECISIÓN (LO QUE DICE EL PDF EXACTAMENTE)
-Confirmo su matriz de verificación con datos duros para el equipo técnico:
+### 📉 1. VALIDACIÓN DE PRECISIÓN (DATOS DUROS PDF)
+*   **Vida Útil Remanente (3 Años):** **AT2, Cap. V, Num 5.4** exige que los equipos entregados cuenten con una vida residual de por lo menos **tres (3) años**. Esto obliga al EPC a auditar el REPEX antes del cierre.
+*   **Licencias Software (12 Meses):** La **Sección 3.3(e)** exige transferencia de licencias vigentes por 12 meses post-reversión.
+*   **Plazo Inventario:** Confirmado **6 meses antes** según Sección 15.5(b).
 
-| Elemento | Tu Análisis | Fuente Contrato PDF | Veredicto |
-| :--- | :--- | :--- | :--- |
-| **Plazo Inventario** | 6 meses antes | Sección 15.5(b): "Actualizar inventario... seis (6) meses antes". | ✅ Exacto |
-| **Vida Útil Remanente** | Buen estado | **AT2, Cap. V, Num 5.4**: "Equipos entregados... deberán contar con una vida residual de por lo menos **tres (3) años** como mínimo". | ⚠️ **PRECISIÓN REQUERIDA** |
-| **Licencias Software** | Vigencia post-reversión | Sección 3.3(e): Transferencia por periodo mínimo de **12 meses**. | ✅ Exacto |
-| **Estado Material Rodante** | Cumplimiento DMR | AT2, Cap. V, Num 5.1: Cumplir con Valores de Aceptación (DMR ≥ 95%). | ✅ Crítico |
+### 📦 2. REVERSIÓN ESPECIAL (EL HITO ANTICIPADO)
+*   **Objetos:** Instituciones Educativas (Santo Domingo/San José) y Puente Vehicular Río Sogamoso (**Sección 9.16**).
+*   **Plazo:** Se entregan 60 días tras el Acta de Terminación de Construcción de los mismos (Reversión Anticipada). No esperan al año 10. Se requiere un "Mini-Kit de Reversión" inmediato.
 
-### 💻 2. LA DIMENSIÓN LÓGICA (EL RIESGO INVISIBLE)
-*   **Riesgo "Caja Negra":** Sección 3.3(e) exige "códigos fuente, manuales, licencias". Si el proveedor ITCS retiene la IP, el Concesionario incumple.
-*   **Acción:** Cláusulas espejo en subcontratos tecnológicos obligando a ceder derechos a la ANI.
-
-### 🛡️ 3. GESTIÓN DEL RIESGO FINANCIERO (FONDO DE REVERSIÓN)
-*   **Mecanismo:** Si los bienes no cumplen (Sección 15.4), la ANI aplica multas o ejecuta la **Garantía de Reversión** (Sección 18.6).
-*   **Impacto:** El costo de reposición para cumplir la "Vida Útil de 3 años" será descontado de la retribución final.
+### 🛡️ 3. PROPIEDAD INTELECTUAL Y SOPORTE
+*   **Riesgo "Caja Negra":** La Sección 3.3(e) exige códigos fuente y manuales. Si el subcontratista técnico retiene la IP, el Concesionario incumple.
+*   **Garantía de Reversión:** La Sección 18.6 permite a la ANI descontar de la retribución final el costo de reposición para cumplir con la operatividad exigida.
 
 ### 🚀 4. INSTRUCCIONES REFORZADAS AL EQUIPO
-1.  **Auditoría de Vida Útil (M-36):** Director de Mantenimiento debe presentar "Informe de Vida Residual" 36 meses antes del cierre para presupuestar REPEX (Renovación).
-2.  **Carpeta de Interoperabilidad:** Entregar certificados de homologación vigentes para FENOCO (Sección 12.5). Sin esto, el tren no es "operativo".
-3.  **Saneamiento Predial:** Fichas prediales deben tener matricula a nombre de la ANI antes del Mes 6.
+1.  **Auditoría de Vida Útil (M-36):** Presentar "Informe de Vida Residual" 36 meses antes del cierre para presupuestar renovaciones.
+2.  **Task Force Sogamoso:** Equipo específico para cerrar administrativa y legalmente el puente y las escuelas en fase de construcción.
+3.  **Cláusulas Espejo:** Asegurar que licencias de ITCS/TETRA sean transferibles a la ANI con "Usuario Final" dual (Concesionario/ANI).
 
 ### ✅ VEREDICTO FINAL
-**Estado:** **APROBADO**. Utilizar como documento base para el Plan de Cierre.
-**Ajuste:** Se agrega explícitamente el requisito de "3 años de vida útil remanente" en equipos tecnológicos.
+**Estado:** **APROBADO PARA PLAN DE CIERRE**.
 
-⚠️ **ADVERTENCIA LEGAL:** La aceptación del Acta de Reversión por parte de la ANI **NO** libera al Concesionario de responsabilidad por vicios ocultos posteriores.
+⚠️ **ADVERTENCIA LEGAL:** La aceptación del Acta de Reversión **NO** libera al Concesionario de responsabilidad por vicios ocultos posteriores.
+
+---
+
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
