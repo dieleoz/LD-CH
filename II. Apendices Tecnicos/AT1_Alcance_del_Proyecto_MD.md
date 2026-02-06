@@ -427,57 +427,38 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 | UFVF53 | Santa Lucía - Gamarra | 1.043.363,16 | 1.397.168,8 | 587+033 | 1.040.059,13 | 1.407.248,13 | 604+265 | 17,232 | La Pradera, Tumbachicha, C. Cabezas, Peralonso, Buturama |
 ---
 
-## ⚖️ DICTAMEN DE VALIDACIÓN FORENSE (ADMINISTRADOR CONTRACTUAL EPC)
-**Documento:** AT1_Alcance_del_Proyecto_MD.md (v5.0)
-**Estado:** 🚨 ALERTA CRÍTICA DE RIESGO CONTRACTUAL / ✅ TÉCNICAMENTE VALIDADO (A FUTURO)
+## ⚖️ VALIDACIÓN FORENSE CRUZADA FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** 🚨 **DICTAMEN DE VALIDACIÓN: ALERTA CRÍTICA DE DESVIACIÓN (PROPUESTA DE VALOR vs. CONTRATO)**
 
-### 📊 1. ANÁLISIS DE CAMBIOS SUSTANCIALES (MD v5.0 vs. CONTRATO ORIGINAL)
-El documento MD redefine el alcance para lograr una modernización tecnológica y ahorros financieros, pero altera las obligaciones físicas descritas en el PDF original.
+Este documento (v5.0) **NO es un reflejo literal del contrato firmado**. Es una propuesta de reingeniería (**Ingeniería de Valor**) que altera sustancialmente el alcance físico descrito en el PDF original para lograr ahorros financieros y modernización tecnológica.
 
-#### A. Infraestructura ELIMINADA (El Ahorro Propuesto)
-El documento MD confirma la eliminación de activos que se asumen requeridos en el diseño base convencional:
-*   ❌ **0 Eurobalizas:** Se eliminan 1,080 unidades.
-*   ❌ **0 Señales LED de vía:** Se eliminan 270 unidades.
-*   ❌ **0 RBC (Radio Block Centers):** Se eliminan 2 unidades físicas.
-*   **Justificación:** Se migra a una filosofía de "Señalización Virtual" basada en CTC + ATP Embarcado.
+### 📉 1. ANÁLISIS DE BRECHAS (LO QUE FIRMAMOS VS. VIRTUALIDAD)
+La transición a la "Señalización Virtual" bajo la Metodología Punto 42 choca con la interpretación tradicional del contrato base:
 
-#### B. Infraestructura AGREGADA (La Compensación Tecnológica)
-Para que la operación sea segura sin señales físicas, el MD exige implementar sistemas que no están detallados con esa especificidad en el PDF original:
-*   ✅ **GSM-R:** 37 estaciones base (además de TETRA) para redundancia de comunicaciones.
-*   ✅ **EOT (End of Train):** 15 dispositivos para monitorear la integridad del tren.
-*   ✅ **Desvíos:** 120 unidades (25 motorizados + 95 manuales).
-*   ✅ **ENCE (Enclavamientos Electrónicos):** 5 estaciones fijas.
+| Elemento | Fuente PDF Original (AT1/Contrato) | Propuesta MD v5.0 (Optimización) | Estado / Riesgo |
+| :--- | :--- | :--- | :--- |
+| **Señalización** | Sistemas físicos genéricos (Cap. IV). | **Virtual (PTC/FRA):** 0 señales laterales. | ⚠️ Desviación Mayor. |
+| **Obra Civil** | Bases de concreto y cableado de cobre. | **Eliminación Masiva:** Ahorro $50.193M. | 💰 Riesgo de Glosa Fiscal. |
+| **Control** | Señalización estándar. | **PTC (FRA 49 CFR 236):** Inteligencia ATP. | ✅ Mejora Tecnológica. |
+| **Interoperabilidad** | Acceso a red genérico. | **Criterio FENOCO:** Gateway API / Dual. | 🔗 Riesgo de Bloqueo Norte. |
 
-### ⚖️ 2. RIESGOS CONTRACTUALES Y FINANCIEROS
-**R-1: Incumplimiento de Alcance Físico**
-*   **Fuente:** Apéndice Técnico 1 original (PDF).
-*   **Riesgo:** La Interventoría puede rechazar la Unidad Funcional si se entrega una vía "vacía" de señales sin la modificación contractual previa.
-*   **Impacto:** El ahorro neto de **$50,193,000,000 COP** debe gestionarse transparentemente para evitar interpretaciones de "menor alcance".
+### 🔍 2. LA ESTRATEGIA "VIRTUAL BLOCK"
+El cambio de paradigma de bloques fijos físicos a **Bloqueo Virtual** gestionado por software centralizado genera un blindaje contra el vandalismo (menos cobre en vía) pero centraliza el riesgo en la disponibilidad de comunicaciones (AT4).
 
-**R-2: Interoperabilidad con FENOCO**
-*   **Riesgo:** Si FENOCO no acepta operar bajo "Señalización Virtual" o sus locomotoras no son compatibles, se viola la obligación de Acceso a Terceros.
-*   **Requisito:** Acuerdo técnico firmado con FENOCO.
-
-### 🛠️ 3. COHERENCIA TÉCNICA (METODOLOGÍA PUNTO 42)
-Técnicamente coherente bajo su propia lógica (v5.0):
-1.  **Conectividad:** 594 km de Fibra y Redundancia TETRA+GSM-R soportan la seguridad.
-2.  **CCTV:** 73 cámaras mitigan la falta de supervisión física en vía.
-
-### 🚀 4. INSTRUCCIONES AL EQUIPO (ESTRATEGIA DE EJECUCIÓN)
-**Para Gerencia Jurídica y Comercial:**
-*   **NO CONSTRUIR AÚN:** Usar como insumo para el **Otrosí** ante la ANI.
-*   **Negociación:** Preparar estrategia para el manejo del ahorro de ~$50 mil millones.
-
-**Para Director de Ingeniería:**
-*   **Diseño Dual (Congelado):** Detener diseño de obras civiles para señales laterales.
-*   **Prioridad Telecom:** Avanzar con Fibra y Torres (requeridos en ambos escenarios).
-
-**Para Control de Proyectos:**
-*   **WBS:** Crear "Presupuesto Meta" (Target Budget) con este alcance.
+### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO (HOLD POINTS)
+1.  **NO CONSTRUIR (Hold Point):** Detener cualquier ingeniería de detalle o compra de materiales para señales laterales (semáforos, postes) hasta formalizar el cambio.
+2.  **Gestión del Otrosí (Ingeniería de Valor):** Radicar ante la ANI una propuesta de Modificación Contractual sustentada en este MD v5.0. Se debe negociar el destino del ahorro de **$50.193.000.000 COP**.
+3.  **Alineación Ardanuy:** Instruir al diseñador para que los Estudios Fase III sigan la norma **FRA 49 CFR Part 236** (PTC) y no normas europeas genéricas.
+4.  **Confirmación FENOCO:** Mesa técnica urgente para validar que sus locomotoras aceptan el protocolo "Gateway" de frontera.
 
 ### ✅ VEREDICTO FINAL
-Documento validado como propuesta de **Ingeniería de Valor**.
-*   **Uso Aprobado:** Negociación ANI, Compras Telecom.
-*   **Uso Restringido:** No apto para construcción de señalización hasta firma de Otrosí.
+**Estado:** **HOJA DE RUTA ESTRATÉGICA VALIDADA.**
+Este documento es la herramienta para negociar la modernización del sistema, pero **NO ES CONTRACTUAL** hasta que se firme el Otrosí correspondiente.
 
-⚠️ **ADVERTENCIA LEGAL:** La ejecución sin Otrosí constituye incumplimiento contractual.
+⚠️ **ADVERTENCIA LEGAL:** Cualquier desviación de las especificaciones originales sin un Otrosí puede ser interpretada por la Contraloría como **Detrimento Patrimonial** o incumplimiento grave, inhabilitando el pago de las Unidades Funcionales afectadas.
+
+---
+
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
