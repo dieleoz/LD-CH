@@ -9,13 +9,13 @@
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE CRUZADA FINAL - ADMINISTRADOR CONTRACTUAL EPC
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
 **Dictamen:** ✅ **DICTAMEN DE VALIDACIÓN: HERRAMIENTA COMERCIAL Y OPERATIVA (APROBADO)**
 
-He realizado la validación forense cruzada del archivo "AT10_Capacidad_Surcos_MD.md" (v5.0) contrastándolo con el Apéndice Técnico 10 (PDF Oficial) [Fuente 102-108] y el Contrato de Concesión.
+He realizado la validación forense cruzada del archivo "AT10_Capacidad_Surcos_MD.md" (v5.0) contrastándolo con el Apéndice Técnico 10 (PDF Oficial) [Source 102-108] y el Contrato de Concesión.
 
 🚨 **DICTAMEN DE VALIDACIÓN: HERRAMIENTA COMERCIAL Y OPERATIVA (ESTRATÉGICAMENTE SUPERIOR)**
-El documento transforma una obligación técnica (cálculo de capacidad) en la base del modelo de negocio del Concesionario. Instrumenta la simulación bajo lógica PTC, vital para justificar una mayor capacidad de transporte y defender los surcos propios frente a terceros.
+El documento transforma una obligación técnica (cálculo de capacidad) en la base del modelo de negocio del Concesionario. Instrumenta la simulación bajo lógica PTC (Positive Train Control), vital para justificar una mayor capacidad de transporte y defender los surcos propios frente a terceros.
 
 ### 🚄 1. LA FÓRMULA DE LA CAPACIDAD (EL ALGORITMO DEL DINERO)
 | Elemento | Fuente: PDF Oficial (AT10) | Fuente: MD v5.0 (Punto 42) | Veredicto |
@@ -34,7 +34,7 @@ El documento transforma una obligación técnica (cálculo de capacidad) en la b
 ### 🔗 3. INTEROPERABILIDAD Y EL FACTOR FENOCO
 *   **Problema:** El Apéndice 10 exige considerar las características del Material Rodante admitido.
 *   **Riesgo:** Si las locomotoras de FENOCO no tienen equipos compatibles, el sistema se degrada a "Bloque Fijo", reduciendo la capacidad real.
-*   **Defensa:** El MD exige validar el protocolo de comunicación (Handshake) en la frontera Chiriguaná para asegurar visibilidad mutua de trenes.
+*   **Solución MD:** Introduce la simulación de Interoperabilidad FENOCO y el uso de Gateways en la asignación de surcos.
 
 ### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
 1.  **Gerente de Operaciones:** Adquirir y calibrar el software (RailSys/OpenTrack) bajo lógica FRA/PTC. Iniciar con trenes reales en el Mes 1 para ajustar tiempos de frenado.

@@ -1,4 +1,4 @@
-﻿# 21. APÉNDICE TÉCNICO 13 - FINANCIEROS (v5.0)
+﻿# APÉNDICE TÉCNICO 13 - FINANCIEROS (v5.0)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 06 de febrero de 2026  
@@ -9,27 +9,35 @@
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE CRUZADA FINAL (06-Feb-2026)
-**Auditor:** Administrador Contractual EPC
-**Dictamen:** ✅ **DICTAMEN DE VALIDACIÓN: BLINDAJE FINANCIERO 4.0 (APROBADO)**
+## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
+**Dictamen:** ✅ **DICTAMEN DE VALIDACIÓN: HERRAMIENTA DE BLINDAJE CORPORATIVO (APROBADO)**
 
-He realizado la validación forense del AT13. El documento ya no está "Bloqueado" por la incertidumbre tecnológica. Con la arquitectura PTC/FRA y los 37 nodos TETRA definidos, se ha procedido a blindar el esquema de seguros bajo la Metodología Punto 42.
+He realizado la validación forense cruzada del archivo "AT13_Financieros_MD.md" (v5.0) contrastándolo con el Apéndice Financiero (PDF Oficial) [Source 53-63], el Capítulo XVIII (Garantías) y el Capítulo VI (Patrimonio Autónomo) del Contrato Principal.
 
-### 🛡️ 1. GARANTÍA ÚNICA Y RESPONSABILIDAD (VALORES DEFINIDOS)
-*   **Ajuste ITCS:** La suma asegurada para "Todo Riesgo Construcción" ha sido desbloqueada. Se integra el valor de los equipos **PTC (FRA 49 CFR 236)** y balizas, evitando el riesgo de infraseguro detectado en versiones anteriores.
-*   **Responsabilidad Civil (RCE):** Cobertura extendida para los frentes urbanos de La Dorada y Barrancabermeja, donde el riesgo social es máximo.
+🚨 **DICTAMEN DE VALIDACIÓN: HERRAMIENTA DE BLINDAJE CORPORATIVO (VALIDADA CON ALERTA DE COBERTURA)**
+El documento es contractualmente consistente y vital para la protección del patrimonio del Concesionario. La versión MD integra la Metodología Punto 42 para conectar los riesgos técnicos (tecnología no definida) con los riesgos financieros (seguros).
 
-### 📡 2. SEGUROS PARA INFRAESTRUCTURA CRÍTICA (TETRA/PTC)
-*   **Cyber-Sabotaje:** Se valida la inclusión de amparos específicos contra ciberataques al Centro de Control (CCO) y sabotaje de las **37 torres TETRA**. Sin esta cobertura, el riesgo residual para el EPC sería inaceptable bajo estándares NIST.
-*   **Back-to-Back Tier-1:** Se instruye que las garantías de los proveedores tecnológicos (Alstom, Siemens o similares) deben ser endosables a la ANI, protegiendo el flujo de caja ante fallas de integración.
+### 💰 1. LA TRAMPA DEL "SEGURO INSUFICIENTE" (EL RIESGO OCULTO)
+*   **El Riesgo:** La cláusula de **Seguro Insuficiente [Source 54]** establece que si el valor asegurado es inferior al valor real de reposición, el Concesionario soporta la pérdida en coaseguro sanción.
+*   **Impacto ITCS:** Si compramos pólizas basándonos en presupuesto de obra civil pero instalamos equipos PTC/ITCS (más costosos), estamos infra-asegurados. Se exige recalcular Sumas Aseguradas una vez definidos los equipos del AT3 v5.0.
 
-### 💰 3. CIERRE FINANCIERO Y EQUITY
-*   **Equity Early Works:** Dado que la UF3 (12 meses) requiere compras anticipadas, los aportes de capital (Equity) deben estar sincronizados para cubrir los anticipos de equipos de largo lead-time antes del primer desembolso de deuda pública.
+### 🛡️ 2. GARANTÍAS Y HITOS DE COBERTURA
+| Póliza / Amparo | Fuente PDF Oficial (AP Fin) | Fuente MD (v5.0) | Veredicto |
+| :--- | :--- | :--- | :--- |
+| **Cumplimiento** | Hasta Liquidación [Source 53]. | Mapeado en matriz. | ✅ Exacto |
+| **Calidad Bienes** | Inicia con Acta de Terminación UF. | Vinculado a Hitos AT9. | ✅ Crítico |
+| **R. Civil** | Perjuicios a terceros [Source 49]. | Cubre predios Torres TETRA. | ➕ Mejorado |
 
-### 🚀 INSTRUCCIONES REFORZADAS AL EQUIPO
-1.  **Risk Manager:** Actualizar la póliza de saboteje para incluir los nodos WIU (Waysid Interface Units) a lo largo de los 526 km.
-2.  **Tesorería:** Verificar que los endosos de la Garantía Única reflejen fielmente el valor de las **53 UFVF** actualizadas en el AT9 v5.0.
-3.  **Auditoría:** Realizar el control mensual de "Plazo de Cura" de pólizas para evitar la causal de caducidad por vencimiento (Sección 17.1).
+⚖️ **Interpretación:** El inicio del amparo de Calidad está atado a la firma de la Terminación UF. Si demoran las pruebas SAT del AT3, la póliza de construcción debe extenderse con sobrecosto porque la UF no se ha cerrado.
+
+### 🏦 3. PATRIMONIO AUTÓNOMO Y SUBCUENTAS (CAPÍTULO VI)
+*   **Estructura:** Refleja las subcuentas (Predial, Ambiental, Redes, Aportes ANI) exigidas en el Contrato [Source 30].
+*   **Alerta de Fondeo:** Los recursos de la Subcuenta de Redes ($29.139 millones [Source 6]) son finitos. Costos excedentes salen del Equity si no se gestionan como riesgo compartido.
+
+### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+1.  **Director de Riesgos:** Actualizar Póliza TRC con el CAPEX Real de tecnología PTC. Asegurar "Bienes en Tránsito" desde fábrica (Ex-Works/FOB).
+2.  **Gerente Financiero:** Implementar "Semáforo de Fondos" para la Subcuenta de Redes (AT5).
+3.  **Director Jurídico:** Asegurar que las pólizas de Cyber-Sabotaje cubran el CCO ante Ransomware bajo estándares NIST.
 
 ### ✅ VEREDICTO FINAL
 **Estado:** **APROBADO COMO ESCUDO FINANCIERO DEL PROYECTO.**
@@ -37,4 +45,4 @@ He realizado la validación forense del AT13. El documento ya no está "Bloquead
 ---
 
 ⚠️ **ADVERTENCIA LEGAL**
-> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
+> **📋 El incumplimiento en la renovación o suficiencia de las garantías es causal de Caducidad del Contrato y multas diarias (Cláusula 18.6 y 16.1).**
