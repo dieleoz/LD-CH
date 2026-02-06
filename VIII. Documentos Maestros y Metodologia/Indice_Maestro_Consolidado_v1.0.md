@@ -1,10 +1,10 @@
 # ÍNDICE MAESTRO CONSOLIDADO v1.0
 ## APP LA DORADA - CHIRIGUANÁ - DOCUMENTACIÓN COMPLETA
 
-**Fecha de consolidación:** 11 de Octubre 2025  
+**Fecha de consolidación:** 06 de Febrero 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Estado:** ✅ **FASE DE VALIDACIÓN - PMO ACTIVO (v14.7.3 - Proyecto Limpio + Seguridad Mejorada)**
+**Estado:** ✅ **CERTIFICADO (PHASE 7 - FULL ALIGNMENT)**
 
 ---
 
@@ -188,6 +188,19 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 ---
 
+### **📁 FASE F: DETALLE CONSTRUCTIVO (PHASE 8)**
+
+#### **T06. PLANOS CONSTRUCTIVOS (4 documentos)**
+| Documento | Archivo | Estado | Fecha |
+|:---|:---|:---:|:---:|
+| **Índice T06** | `T06. Planos Constructivos/T06.0_Indice_Planos_Constructivos_v1.0.md` | ✅ | Feb-2026 |
+| **T06.1 Señalización (Virtual)** | `T06. Planos Constructivos/T06.1_Planos_Señalizacion_CTC_v1.0.md` | ✅ | Feb-2026 |
+| **T06.2 Comunicaciones (TETRA)** | `T06. Planos Constructivos/T06.2_Planos_Comunicaciones_TETRA_v1.0.md` | ✅ | Feb-2026 |
+| **T06.3 Potencia (99.5%)** | `T06. Planos Constructivos/T06.3_Planos_Potencia_Colocalizada_v1.0.md` | ✅ | Feb-2026 |
+| **T06.4 Interfaz SICC** | `T06. Planos Constructivos/T06.4_Definicion_Interfaz_SICC_v1.0.md` | ✅ | Feb-2026 |
+
+---
+
 ## 📁 DOCUMENTOS TRANSVERSALES Y ESPECIALIZADOS
 
 ### **VII. DOCUMENTOS TRANSVERSALES (1 documento)**
@@ -260,6 +273,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 | **Estados** | 5 documentos | ✅ | 02/10/2025 |
 | **Metodología Punto 42** | 4 documentos | ✅ | 02/10/2025 |
 | **Referencias** | 1 documento consolidado | ✅ | 02/10/2025 |
+| **Reporte ANI Fase 7** | `Reportes/REPORTE_OFICIAL_DESCONTAMINACION_TECNICA_PHASE_7.md` | ✅ | Feb-2026 |
 
 ---
 

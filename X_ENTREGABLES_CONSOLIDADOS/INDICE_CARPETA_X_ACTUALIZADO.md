@@ -1,8 +1,8 @@
 # ÍNDICE CARPETA X - ENTREGABLES CONSOLIDADOS
 ## Proyecto APP La Dorada-Chiriguaná
 
-**Versión:** 2.0 (Actualizada - Enero 2025)  
-**Estado:** ✅ 100% COMPLETADA  
+**Versión:** 3.0 (PHASE 7 - Feb 2026)  
+**Estado:** ✅ 100% COMPLETADA | CERTIFICADA  
 **Metodología:** Punto 42 v5.0  
 
 ---
@@ -149,6 +149,21 @@
 
 ---
 
+### **9️⃣ PLANOS_CONSTRUCTIVOS** - Definiciones Técnicas T06 ⭐ **NUEVO**
+📁 `T06. Planos Constructivos/`
+
+**Contenido:** 5 documentos de definición constructiva
+- ✅ T06.0_Indice_Planos_Constructivos_v1.0.md
+- ✅ T06.1_Planos_Señalizacion_CTC_v1.0.md
+- ✅ T06.2_Planos_Comunicaciones_TETRA_v1.0.md
+- ✅ T06.3_Planos_Potencia_Colocalizada_v1.0.md
+- ✅ T06.4_Definicion_Interfaz_SICC_v1.0.md
+
+**Propósito:** Especificaciones "Ready for CAD"
+**Usuarios:** Proyectistas, Dibujantes, Construcción
+
+---
+
 ## 📊 **ESTADÍSTICAS TOTALES**
 
 ### **Inventario Completo:**
@@ -160,9 +175,10 @@
 | Documentos HTML | 13 | .html | ✅ |
 | Metodologías | 3 | .md | ✅ |
 | Matrices | 1 | .md | ✅ |
-| Índices | 1 | .md | ✅ |
+| Índices | 2 | .md | ✅ |
 | READMEs | 4 | .md | ✅ |
-| **TOTAL** | **61** | **-** | **✅** |
+| Planos (T06) | 5 | .md | ✅ |
+| **TOTAL** | **66** | **-** | **✅** |
 
 ### **Por Carpeta:**
 | # | Carpeta | Documentos | Estado |
