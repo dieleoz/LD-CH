@@ -1,10 +1,9 @@
-# ANÁLISIS RAMS SEGÚN EN 50126 - CONFIABILIDAD, DISPONIBILIDAD, MANTENIBILIDAD Y SEGURIDAD
-## APP La Dorada-Chiriguaná - Análisis Integral de Sistemas
+# ESTUDIO DE INGENIERÍA RAMS (REFERENCIA)
+## APP La Dorada-Chiriguaná - Análisis de Confiabilidad y Seguridad
 
-**Estado:** 🔄 **EN DESARROLLO - FASE 3 OPTIMIZACIÓN**  
-**Fecha:** 27 de Enero, 2025  
-**Responsable:** Ing. Calidad - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Estándar Base:** Apéndice Técnico 4 (AT4), EN 50126
 **Estándar Base:** EN 50126, EN 50128, EN 50129, IEC 61508
 
 ---

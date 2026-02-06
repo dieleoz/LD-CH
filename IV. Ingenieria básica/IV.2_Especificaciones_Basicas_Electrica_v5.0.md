@@ -187,7 +187,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 #### **4.2.2 Sistemas de Respaldo**
 **Funcionalidades:**
 - Continuidad de operación
-- Disponibilidad 99.95%
+- Disponibilidad 99.5%
 - Redundancia crítica
 
 **Componentes:**

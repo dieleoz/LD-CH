@@ -996,7 +996,7 @@ Para avanzar con la cotización preliminar de JOVEGA, proponemos:
 
 **Contenido:**
 1. Sistemas principales (CTC, ATP embarcado, ENCE, TETRA, GSM-R, fibra óptica)
-2. Criterios de disponibilidad (99.95%)
+2. Criterios de disponibilidad (99.5%)
 3. Estándares técnicos aplicables (AREMA, UIC, RETIE, IEC, ETSI)
 4. Interfaces con FENOCO (protocolos UIC)
 5. Filosofía de señalización virtual

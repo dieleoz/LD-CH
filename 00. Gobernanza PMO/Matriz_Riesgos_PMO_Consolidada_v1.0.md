@@ -37,7 +37,7 @@
 | KPI | Objetivo | Frecuencia | Responsable |
 |:---|:---:|:---:|:---|
 | Riesgos críticos abiertos | 0 | Semanal | PMO |
-| Cumplimiento AT4 | 99.95% | Diario | Ing. Sistemas |
+| Cumplimiento AT4 | 99.5% | Diario | Ing. Sistemas |
 | Interoperabilidad UIC | 100% | Mensual | Comunicaciones |
 | Incidentes ciberseguridad | 0 | Diario | Ciberseguridad |
 

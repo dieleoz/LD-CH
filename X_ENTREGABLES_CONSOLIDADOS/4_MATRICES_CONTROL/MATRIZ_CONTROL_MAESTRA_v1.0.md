@@ -1,6 +1,9 @@
-# MATRIZ DE CONTROL MAESTRA - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+# MATRIZ DE CONTROL MAESTRA - v1.0
+## APP La Dorada-Chiriguaná - Estado de Ingeniería
 
+**Estado:** ⚠️ **REFERENCIA - EN RE-LINEACIÓN (PHASE 7)**
+**Fecha:** Enero 2025
+**ADVERTENCIA:** Este documento contiene "Ingeniería de Valor" que se encuentra en proceso de re-lineación contractual. Los indicadores de disponibilidad están siendo revertidos al 99.5% (AT4).
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
