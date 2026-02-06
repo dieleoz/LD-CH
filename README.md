@@ -1,10 +1,10 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v1.0
 ## Marco de Gestión de Proyectos (PMI) - EPC INTEGRAL
 
-**Fecha de actualización:** 15 de Octubre 2025  
-**Estado del proyecto:** ✅ **SISTEMA v14.7.7 - LAYOUT GEOREFERENCIADO + KML REAL**  
-**Responsable:** PMO / Gestión de Riesgos  
-**Hallazgos:** 4 Blockers críticos, 17 riesgos validados, Cronograma 60m, **WBS Presupuestal 100% dinámico (159 ítems, 0% hardcode)**, **Layout 2,182 equipos (9 tipos)**, **Encoding UTF-8 corregido**, **Visualización completa en interfaces**, Portal web publicado 
+**Fecha de actualización:** Febrero 2026 (Phase 7)
+**Estado del proyecto:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Responsable:** Administrador Contractual EPC / PMO
+**Hallazgos:** Auditoría Phase 7 completa. KPIs revertidos a base contractual literal (99.5% AT4). 
 
 ---
 
@@ -36,17 +36,12 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 | **Commits Git** | ✅ Actualizados | 28+ commits v14.7.6 |
 | **Bugs Corregidos** | ✅ v14.7.6 | WBS_COMPLETA lista 134 items, Layout muestra 9 tipos de equipos |
 
-### ✅ **ESTADO DE LA INGENIERÍA (OCTUBRE 2025)**
-- **Fases de Ingeniería Completadas:** 6/6 fases (100%)
-- **Documentos de Ingeniería Entregados:** 181/181 documentos (100%)
-- **Metodología v5.0 aplicada:** En todos los documentos críticos
-- **Coherencia técnica verificada:** 100% de criterios aplicados
-- **Referencias cruzadas validadas:** 175+ enlaces verificados
-- **Presupuesto final cuantificado:** $307,533,941,332 COP
-- **Manuales de operación completados:** 5 manuales v5.0
-- **Soporte especializado:** 8 documentos de normatividad y procedimientos
-- **Templates metodológicos creados:** 5 templates para replicación
-- **Validación final:** 🔴 **EN PROGRESO - NO APTO PARA CONSTRUCCIÓN**
+### ✅ **ESTADO DE LA INGENIERÍA (PHASE 7 - FEBRERO 2026)**
+- **Saneamiento Forense:** Completado (KPIs, Eurobalistas, RBC prescriptive eliminados).
+- **Alineación Contractual:** Revertida a base literal (AT4 = 99.5%).
+- **Manuales O&M:** Reseteados a "EN RE-LINEACIÓN".
+- **Metodología:** Evolucionada a v7.0 (Enfoque en Neutralidad y Defensa Contractual).
+- **Validación final:** ⚠️ **NO APTO PARA CONSTRUCCIÓN - EN EVALUACIÓN DE RE-LINEACIÓN**
 
 ### 🔴 **ESTADO ACTUAL: 4 BLOCKERS CRÍTICOS**
 

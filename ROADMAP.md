@@ -1,16 +1,16 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 06-Feb-2026 (v5.0.0 - Forensic Sanitized)
-**Estado:** ✅ Suite Contractual v5.0 Saneada | 🛡️ Blindaje 100% (Literal) | 🚀 Fase 7: Re-lineación de Ingeniería
+**Versión:** 06-Feb-2026 (Phase 7 - Forensic Sanitized)
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7)** | 🛡️ Blindaje Contractual Literal | 🚀 Descontaminación Técnica Activa
 
 ---
 
 ## 📅 HITOS ALCANZADOS
 
-### **FASE 6 - SANEAMIENTO FORENSE (06 FEB 2026)**
-- ✅ **Master Index v5.0:** Certificado como Hub de Navegación Contractual.
-- ✅ **Analisis A.1, A.2, A.3 Saneados:** Eliminación de "inventos técnicos" (Eurobalizas, 10Gbps, N+1 prescriptive).
-- ✅ **Separación Obligación vs Solución:** Clarificación de que el SICC debe ser "automático" (AT4) sin prescribir protocolos (MQTT/SNMP).
+### **FASE 7 - RE-LINEACIÓN DE INGENIERÍA (ACTUAL)**
+- ✅ **Saneamiento Forense Transversal:** KPIs revertidos a 99.5% (AT4) en todos los folders (00-VII).
+- ✅ **Descontaminación de Manuales O&M:** Reset de estados a "EN RE-LINEACIÓN".
+- ✅ **Alineación de Gobernanza:** Riesgos y Respuestas corregidos contra el Contrato Literal.
 
 ### **FASE 5 - INTEGRIDAD CONTRACTUAL (CERTIFICADA)**
 - ✅ **Versiones MEJORADO:** Sincronización de los 13 Apéndices Técnicos con el texto literal del contrato.

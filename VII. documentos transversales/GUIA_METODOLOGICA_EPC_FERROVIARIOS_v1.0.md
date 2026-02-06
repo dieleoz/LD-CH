@@ -222,7 +222,7 @@ mkdir -p METODOLOGIA/{Guia,Templates,Lecciones,Checklists}
 1. [Requisito técnico 1]
    - Fuente: [AT4, Cap Y]
    - Descripción: [...]
-   - Métrica: [ej: Disponibilidad 99.95%]
+   - Métrica: [ej: Disponibilidad según Apéndice Técnico]
 
 ## 5. NORMATIVAS APLICABLES
 - [Normativa 1]: [Descripción]
@@ -547,6 +547,6 @@ Aplicar esta guía en el siguiente proyecto EPC ferroviario, documentando leccio
 ---
 
 **Documento elaborado según Metodología Punto 42**  
-**Fecha:** Enero 2025  
-**Estado:** ✅ **GUÍA METODOLÓGICA v1.0 COMPLETADA**  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7)**  
 **Responsable:** Administrador Contractual EPC
