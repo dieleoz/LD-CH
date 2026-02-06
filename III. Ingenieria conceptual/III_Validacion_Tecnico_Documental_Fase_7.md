@@ -25,9 +25,12 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 ## 2. ANÁLISIS DETALLADO POR ARCHIVO
 
 ### 1. [0_0] Relación de Apéndices Técnicos con Ingeniería
+- **Dictamen:** **APROBADO (PIEDRA ROSETTA DEL PROYECTO)**.
 - **Contenido:** Vincula cada numeral del AT1 con los equipos a desarrollar.
-- **Implicación EPC:** Asegura que no se omita ningún componente del alcance físico (ej. Tablas 12-15 para Talleres, Tabla 16 para CCO).
-- **Validación:** Cumple con la estructura de desglose del Apéndice Técnico 1.
+- **Validación Forense:** Confirma trazabilidad con Cl. 13.1 (Material Rodante), AT1 Tabla 16 (CCO), AT4 Sec 5.3 (SICC) y AT5 (Interferencias).
+- **Estrategia RAMS:** Se valida el uso del **99.5% de disponibilidad** como buffer contractual estratégico para proteger la Retribución Mensual.
+- **Neutralidad:** Alineado con el Anexo VIII de Ardanuy (prohibición de marcas).
+- **Veredicto:** Documento VIGENTE y MANDATORIO para justificar el alcance ante Interventoría.
 
 ### 2. [23] Listado Maestro de Sistemas v5.0
 - **Estado:** Final - Coherencia Técnica Verificada.
@@ -55,6 +58,17 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 
 - **Bloqueo de Avance:** Los análisis detallados de los sistemas (docs 26-32) están supeditados a la aprobación final de la WBS (doc 25) para evitar reprocesos.
 - **Interoperabilidad:** Se debe garantizar que todos los sistemas (TETRA, Señalización, ITCS) sean compatibles con la red de FENOCO según los estándares UIC definidos en el doc 33.
+
+---
+
+## 4. INSTRUCCIONES ESTRATÉGICAS (DICTAMEN EPC)
+
+Basado en la validación forense de la Carpeta III, se emiten las siguientes instrucciones:
+
+1.  **Gobernancia de Diseño:** Cada memoria de cálculo y plano debe citar el "Padre Contractual" definido en el documento `0_0`. Si un diseño no tiene referencia contractual, no será aprobado.
+2.  **Blindaje de TDRs:** Las licitaciones de sistemas (Señalización, TETRA, CTC) deben adjuntar la relación de apéndices para que los proveedores coticen **cumplimiento de indicadores**, no solo equipos.
+3.  **Gestión de Claims:** Cualquier requerimiento de Interventoría que no esté mapeado en la columna de "Referencia Contractual" de la carpeta III debe ser tratado como un **Cambio de Alcance (Claim Potential)**.
+4.  **Optimización CAPEX:** Mantener estrictamente el target del **99.5% de disponibilidad** (Buffer AT4) para evitar sobrecostos innecesarios de infraestructura Tier IV.
 
 ---
 
