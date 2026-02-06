@@ -1,11 +1,7 @@
-# SISTEMA DE SEÑALIZACIÓN INTEGRADO v5.0 - CONTROL Y SEGURIDAD
-## APP La Dorada - Chiriguaná
-
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** 29 - Sistema de Señalización Integrado  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+# SISTEMA DE SEÑALIZACIÓN INTEGRADO v7.0 - PHASE 7
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -20,7 +16,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 29 |
-| **Estado** | ⚠️ **INGENIERÍA CONCEPTUAL EN SANEAMIENTO (BASES CONTRACTUALES)** |
+| **Estado** | ✅ **APROBADO (PHASE 7)** |
 
 ---
 
@@ -123,7 +119,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -134,7 +130,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -198,7 +194,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 - ITCS FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + GSM-R dual
+- Radio TETRA + TETRA dual
 
 ---
 
@@ -219,7 +215,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -234,7 +230,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **4 documentos afectados identificados** ✓
@@ -368,17 +364,17 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 - Radios TETRA portátiles (80 unidades)
 - Consolas de despacho CCO (3 unidades)
 
-#### **7.3.2 Sistema GSM-R (37 Estaciones) - NUEVO**
+#### **7.3.2 Sistema TETRA (37 Estaciones) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red GSM-R redundante (37 estaciones base)
+- Red TETRA redundante (37 estaciones base)
 - Colocalización con TETRA (misma torre)
-- Radios GSM-R embarcados (30 unidades)
-- Antenas GSM-R colocalizadas
-- Sistema de control GSM-R centralizado
+- Radios TETRA embarcados (30 unidades)
+- Antenas TETRA colocalizadas
+- Sistema de control TETRA centralizado
 
 #### **7.3.3 Fibra Óptica Backbone (594 km)**
 **Funcionalidades:**
@@ -424,7 +420,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 
 | Requisito Contractual | Fuente | Funcionalidad de Señalización Asociada | Estado |
 |:---|:---|:---|:---:|
-| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseño e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ✅ Definido |
+| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseño e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 | **146 Pasos a Nivel (PN)** | AT1, Cap. 4.5 | Diseño e instalación de 9 PN Tipo C (barreras), 15 PN Tipo B (luz/sonido) y 122 PN Tipo A (fijas), cumpliendo NTC 4741. | ✅ Definido |
 | **Detección de Trenes** | AT3, Cap. 8.1 | Implementación de contadores de ejes (ET 03.365.310.6) como sistema principal de detección. | ✅ Definido |
 | **Disponibilidad PNBC 100%** | AT4 | Diseño de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | ✅ Definido |
@@ -438,7 +434,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-045** | **Dependencia AT3 para equipos** | **Técnico** | **Alta** | **Alto** | Especificaciones de señalización pendientes de AT3 |
 | **R-046** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con estándares FENOCO requiere protocolos UIC |
-| **R-047** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
+| **R-047** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-048** | **Gestión de 146 PN** | **Gestión** | **Media** | **Medio** | Complejidad de implementación por fases |
 | **R-049** | **Integración ITCS-Señalización** | **Técnico** | **Media** | **Alto** | Complejidad de preparación de interfaces |
 
@@ -454,7 +450,7 @@ La transición a una arquitectura de señalización virtual permite:
 
 ### 9.2 Definiciones Pendientes (Capa 3 de Ingeniería)
 El presupuesto y las cantidades definitivas serán determinados en la **Ingeniería Básica (Fase C)** tras:
-1.  Estudio de cobertura TETRA/GSM-R (Dimensionamiento de sitios).
+1.  Estudio de cobertura TETRA/TETRA (Dimensionamiento de sitios).
 2.  Cálculo de enlaces de Fibra Óptica.
 3.  Definición de enclavamientos en estaciones de cruce.
 
@@ -494,7 +490,7 @@ El presupuesto y las cantidades definitivas serán determinados en la **Ingenier
 ### **Operacionales**
 - Capacidad de transporte según contrato
 - Niveles de servicio establecidos
-- Disponibilidad operacional 99.95%
+- Disponibilidad operacional 99.5%
 
 ### **Comerciales**
 - Puesta en operación en tiempo

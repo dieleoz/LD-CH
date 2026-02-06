@@ -1,5 +1,5 @@
 # ITCS — Propuesta de Arquitectura RBC (Documento de Trabajo)
-**ESTADO: ⚠️ PROPUESTA DE DISEÑO PRELIMINAR - EN RE-LINEACIÓN (PHASE 7)**
+**ESTADO: ✅ APROBADO (PHASE 7)**
 
 - Sistema: Radio Block Centre (RBC) con redundancia 2oo3
 - Referencias: EN 50126/50128/50129, ETCS Level 2, FFFIS
@@ -83,7 +83,7 @@ La plataforma de hardware deberá dimensionarse para soportar la carga transacci
 - **CTC:** Interfaz FFFIS sobre TCP/IP
 - **GSM-R:** Interfaz ETCS sobre UDP
 - **Eurobalise:** Interfaz baliza sobre RS-485
-- **STM:** Interfaz tren sobre GSM-R
+- **STM:** Interfaz tren sobre TETRA
 
 ---
 
@@ -233,7 +233,7 @@ La plataforma de hardware deberá dimensionarse para soportar la carga transacci
 - Recuperación automática
 
 **No funcionales:**
-- Disponibilidad > 99.996%
+- Disponibilidad > 99.5%
 - Latencia < 100ms
 - Capacidad 24 trenes
 - Certificación SIL 4

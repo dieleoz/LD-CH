@@ -285,14 +285,14 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 #### **1.1 Centro de Control de Tráfico (CTC)**
 - **Referencias:** AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma)
 - **Funciones:** Control centralizado, asignación de surcos, coordinación con FENOCO
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Ubicación:** La Dorada, Caldas
 - **Interoperabilidad:** Protocolos UIC para coordinación con FENOCO
 
 #### **1.2 Sistema ATP Embarcado (15 Locomotoras)**
 - **Referencias:** AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato
 - **Funciones:** Control automático de velocidad, autorización de movimiento, protección contra colisiones
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Componentes:** Computadora ATP, sensores, display maquinista, radio TETRA+GSM-R
 - **Interoperabilidad:** Compatible con sistemas FENOCO según estándares UIC
 
@@ -301,14 +301,14 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Funciones:** Control de desvíos y señales en estaciones críticas
 - **Estaciones:** Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
 - **Componentes:** Interlocking Controller, panel control local, módulos I/O, switch machines
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 #### **1.4 Desvíos (120 UNIDADES)**
 - **Referencias:** AT1 (Cap. 4.3.2), AT3 (Cap. 8.1)
 - **Funciones:** Control de flujo de tráfico, cruces y apartaderos
 - **Desvíos motorizados:** 25 unidades (control automático desde CTC)
 - **Desvíos manuales:** 95 unidades (operación manual)
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 #### **❌ ELIMINADO: Señalización Física en Vía**
 - **Eurobalises:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
@@ -334,12 +334,12 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Funciones:** Backbone redundante de comunicaciones
 - **Longitud:** 594 km (corredor + 10% reserva)
 - **Componentes:** Cables 48 fibras G.652D, cajas 80x80, tritubo 40mm
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 #### **2.4 Red de Datos Ferroviaria**
 - **Referencias:** AT3 (Cap. 8.8.3), AT1 (UF2 – Tabla 16)
 - **Funciones:** Integración de sistemas ITS, CCTV, señalización y CTC
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 ---
 
@@ -382,7 +382,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Funciones:** Monitoreo integral, despacho ferroviario
 - **Ubicación:** La Dorada, Caldas
 - **Componentes:** Sala de control (250 m²), sala servidores (200 m²)
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 #### **4.3 Estaciones Ferroviarias y Apartaderos**
 - **Referencias:** AT2 (Cap. 2.4), AT8 (gestión social – accesibilidad)
@@ -402,14 +402,14 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Referencias:** AT1 (Cap. 5.1), Cl. 13.1 del Contrato
 - **Funciones:** Transporte de carga bajo estándares de seguridad
 - **Componentes:** Sistema ATP embarcado, radio TETRA, display maquinista
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 - **Interoperabilidad:** ATP embarcado compatible con FENOCO
 
 #### **5.2 Sistema EOT - End of Train (15 DISPOSITIVOS) - NUEVO**
 - **Referencias:** Criterios Técnicos Maestros v1.0
 - **Funciones:** Monitoreo de integridad del tren, presión de frenos, posición GPS
 - **Componentes:** Sensor presión frenos, sensor integridad tren, GPS, radio comunicación
-- **Disponibilidad:** 99.95% según AT4
+- **Disponibilidad:** 99.5% según AT4
 
 #### **5.3 Equipos de Mantenimiento de Vía**
 - **Referencias:** AT1 (Cap. 5.2)
@@ -521,7 +521,7 @@ Cada sistema listado cumple con los siguientes criterios:
 ## 🔄 **ACTUALIZACIÓN v7.0 - PHASE 7**
 ### ✅ **RE-LINEACIÓN EJECUTADA:**
 1. **Reset Global:** Revisión de todos los sistemas contra AT1 literal.
-2. **KPI Correction:** Reversión de 99.95% a **99.5%** contractual.
+2. **KPI Correction:** Reversión de 99.5% a **99.5%** contractual.
 3. **Descontaminación:** Eliminación de "Criterios Maestros v1.0" por ser fuente de invenciones técnicas. 
 
 **Estado:** ⚠️ DOCUMENTO EN RE-LINEACIÓN - NO USAR PARA COMPRAS.

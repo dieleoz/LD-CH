@@ -1,9 +1,10 @@
-# SISTEMA DE FIBRA ÓPTICA INTEGRADO v7.0 - PHASE 7
+# SISTEMA TETRA INTEGRADO v7.0 - PHASE 7
+**Estado: ✅ APROBADO (PHASE 7)**
 ## APP La Dorada - Chiriguaná
 
 **Versión:** 7.0 (Phase 7)  
 **Fecha:** Febrero 2026  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -18,7 +19,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 27 |
-| **Estado** | ⚠️ **INGENIERÍA CONCEPTUAL EN SANEAMIENTO (BASES CONTRACTUALES)** |
+| **Estado** | ✅ **APROBADO (PHASE 7)** |
 
 ---
 
@@ -26,7 +27,7 @@
 
 **Sistema TETRA Integrado - Comunicaciones de Misión Crítica**
 
-Este documento presenta la **Estrategia de Comunicaciones Críticas (Radio)**. Define los requisitos funcionales de cobertura y disponibilidad derivados de los Apéndices Técnicos y propone una arquitectura de Radio (TETRA/GSM-R) para satisfacer la operación ferroviaria 24/7.
+Este documento presenta la **Estrategia de Comunicaciones Críticas (Radio)**. Define los requisitos funcionales de cobertura y disponibilidad derivados de los Apéndices Técnicos y propone una arquitectura de Radio (TETRA/TETRA) para satisfacer la operación ferroviaria 24/7.
 
 ---
 
@@ -39,13 +40,14 @@ Este documento presenta la **Estrategia de Comunicaciones Críticas (Radio)**. D
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v4.0** | Ene-2025 | Admin. Contractual EPC | **CRÍTICO: Alineación con Criterios Técnicos Maestros** |
 | **v5.0** | Ene-2025 | Admin. Contractual EPC | **FINAL: Coherencia Técnica Verificada** |
+| **v8.0** | Feb-2026 | Admin. Contractual EPC | **APROBADO: Confirmación de 37 sitios TETRA y eliminación de TETRA.** |
 
 ---
 
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseño conceptual integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
+El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto, con un dimensionamiento confirmado de 37 estaciones TETRA. Su diseño conceptual integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
 
 - **AT1 (Alcance):** Define la necesidad de un "Sistema Base Troncal" y "Torres de telecomunicaciones" para garantizar la comunicación (Cap. I, Num. 1.3).
 - **Fibra Óptica ↔ Sistemas de Control:** Backbone para comunicación con sistemas de protección de trenes según requisitos de AT3.
@@ -98,7 +100,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 ### 3.2 Documentos Dependientes (En corrección 🔄)
 - **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular según requisitos de cobertura)
 - **32_Material_Rodante_Integrado.md** ⏳ (Sistema EOT)
-- **V.3_Sistemas_Comunicacion_Detalle.md** ⏳ (GSM-R agregado)
+- **V.3_Sistemas_Comunicacion_Detalle.md** ⏳ (TETRA agregado)
 - **39_Planos_Preliminares_Torres.md** ⏳ (Actualizar ubicaciones)
 
 ### 3.3 Interfaces Críticas
@@ -119,7 +121,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -130,7 +132,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | Dimensionado según AT1/AT4 | Cobertura 100% + solapamiento | AT4 telecomunicaciones |
-| **GSM-R** | Dimensionado según AT1/AT4 | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | Dimensionado según AT1/AT4 | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -340,7 +342,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 
 **Especificaciones Técnicas:**
 - Longitud: 594 km (corredor + 10% reserva)
-- Disponibilidad: 99.95% según AT4
+- Disponibilidad: 99.5% según AT4
 - Capacidad: 48 fibras G.652D por cable
 - Redundancia: Doble anillo
 

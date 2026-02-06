@@ -19,7 +19,7 @@ Este documento especifica las tablas de enclavamiento (interlocking tables) para
 
 ### 1.2 Objetivos del interlocking
 - **Seguridad:** Prevención de conflictos de rutas
-- **Disponibilidad:** 99.95% de disponibilidad del sistema
+- **Disponibilidad:** 99.5% de disponibilidad del sistema
 - **Automatización:** Gestión automática de rutas
 - **Integración:** Coordinación con ITCS y CTC
 - **Mantenibilidad:** Acceso fácil para mantenimiento
@@ -338,7 +338,7 @@ Ruta R001: Vía 1 → Vía 2
 ### 8.1 Métricas de rendimiento
 | Métrica | Objetivo | Medición | Estado |
 |:---|:---:|:---|:---:|
-| **Disponibilidad** | 99.95% | MTBF/MTTR | 🟠 |
+| **Disponibilidad** | 99.5% | MTBF/MTTR | 🟠 |
 | **Latencia** | < 100ms | Tiempo de respuesta | 🟠 |
 | **Throughput** | 100 rutas/s | Rutas por segundo | 🟠 |
 | **Precisión** | 100% | Exactitud de rutas | 🟠 |
@@ -352,7 +352,7 @@ Ruta R001: Vía 1 → Vía 2
 - Integración con CTC
 
 **No funcionales:**
-- Disponibilidad > 99.95%
+- Disponibilidad > 99.5%
 - Latencia < 100ms
 - Throughput > 100 rutas/s
 - Certificación SIL 4

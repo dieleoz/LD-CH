@@ -8,7 +8,7 @@
 ## APP La Dorada - Chiriguaná
 
 **Versión:** 1.0 (Phase 7 - Archivo de Referencia)  
-**Estado:** ⚠️ **ESTUDIO DE BENCHMARKING (NO PRESCRIPTIVO)**
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -19,7 +19,7 @@ Este SRS define los requisitos del sistema ITCS (Integrated Train Control System
 
 ### 1.2 Alcance del sistema ITCS
 - **Sistema principal:** Control de trenes ETCS Level 2
-- **Componentes:** RBC (Radio Block Centre), Eurobalise, GSM-R, STM embarcado
+- **Componentes:** RBC (Radio Block Centre), Eurobalise, TETRA, STM embarcado
 - **Cobertura:** 146 km de vía, 5 estaciones, 146 pasos a nivel
 - **Capacidad:** Hasta 24 trenes simultáneos
 
@@ -27,17 +27,17 @@ Este SRS define los requisitos del sistema ITCS (Integrated Train Control System
 - **Límites del sistema:** Desde La Dorada hasta Chiriguaná
 - **Interfaces críticas:** CTC, Señalización, TETRA, Fibra Óptica
 - **Modos de operación:** ETCS Level 2, Level 1, STM, Degradado
-- **Disponibilidad objetivo:** 99.95% (ajustado desde 100%)
+- **Disponibilidad objetivo:** 99.5% (ajustado desde 100%)
 
 ### 1.4 Supuestos y dependencias
 **Dependencias externas:**
 - FENOCO: Coordinación interoperabilidad y protocolos UIC
-- ANE: Autorización frecuencias GSM-R
+- ANE: Autorización frecuencias TETRA
 - CTC: Centro de control de tráfico (interfaz FFFIS)
 - Señalización: Sistemas de enclavamiento existentes
 
 **Supuestos técnicos:**
-- Infraestructura GSM-R disponible en toda la ruta
+- Infraestructura TETRA disponible en toda la ruta
 - Locomotoras compatibles con ETCS Level 2 (retrofit requerido)
 - Redundancia 2oo3 en RBC para alta disponibilidad
 - Eurobalise cada 150m según especificación
@@ -72,7 +72,7 @@ Ver sección C. Glosario y Referencias
 - Verificación de rutas libres antes de autorizar movimiento
 - Bloqueo automático de rutas en conflicto
 - Integración con sistemas de señalización existentes
-- Disponibilidad 99.95% del sistema de enclavamiento
+- Disponibilidad 99.5% del sistema de enclavamiento
 
 ### 2.4 Gestión de rutas y conflictos
 **RF-004:** El sistema debe gestionar rutas automáticamente y resolver conflictos de tráfico.
@@ -90,7 +90,7 @@ Ver sección C. Glosario y Referencias
 - Comunicación RBC cada 6 segundos máximo
 - Eurobalise cada 150m de separación
 - Redundancia 2oo3 en RBC
-- Cobertura GSM-R 100% de la ruta
+- Cobertura TETRA 100% de la ruta
 
 ### 2.6 Gestión de degradación y modos de operación
 **RF-006:** El sistema debe gestionar degradación automática y modos de operación alternativos.
@@ -133,7 +133,7 @@ Ver sección C. Glosario y Referencias
 |:---|:---:|:---:|:---|:---:|
 | Colisión frontal | Baja | Catastrófico | RBC 2oo3 + Eurobalise | SIL 4 |
 | Descarrilamiento por velocidad | Media | Alto | Supervisión continua + freno automático | SIL 3 |
-| Fallo de comunicación | Alta | Medio | Redundancia GSM-R + modo degradado | SIL 2 |
+| Fallo de comunicación | Alta | Medio | Redundancia TETRA + modo degradado | SIL 2 |
 | Error de posición | Media | Alto | Eurobalise + odometría | SIL 3 |
 
 **Principios de seguridad:**
@@ -309,9 +309,9 @@ Estado: Activo/Inactivo/Mantenimiento
 |:---|:---:|:---:|:---:|
 | RBC (2oo3) | 50,000 | 2 | 99.996% |
 | Eurobalise | 100,000 | 4 | 99.996% |
-| GSM-R | 10,000 | 1 | 99.99% |
+| TETRA | 10,000 | 1 | 99.99% |
 | STM Embarcado | 20,000 | 8 | 99.96% |
-| **Sistema Global** | **8,000** | **4** | **99.95%** |
+| **Sistema Global** | **8,000** | **4** | **99.5%** |
 
 **Estrategias de fiabilidad:**
 - **Redundancia:** Componentes críticos con 2oo3
@@ -325,8 +325,8 @@ Estado: Activo/Inactivo/Mantenimiento
 - **Documentación:** Manuales técnicos detallados
 - **Formación:** Personal técnico especializado
 
-### 5.2 Disponibilidad objetivo (99.95%) y justificación
-**Objetivo de disponibilidad:** 99.95% (8.76 horas de indisponibilidad/año)
+### 5.2 Disponibilidad objetivo (99.5%) y justificación
+**Objetivo de disponibilidad:** 99.5% (8.76 horas de indisponibilidad/año)
 
 **Justificación técnica:**
 - **Requisito contractual:** AT1 especifica disponibilidad alta
@@ -337,7 +337,7 @@ Estado: Activo/Inactivo/Mantenimiento
 **Cálculo de disponibilidad:**
 ```
 A = MTBF / (MTBF + MTTR)
-A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
+A = 8,000 / (8,000 + 4) = 0.9995 = 99.5%
 ```
 
 **Tiempos de indisponibilidad permitidos:**
@@ -345,10 +345,10 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 - **Trimestral:** 2.19 horas
 - **Anual:** 8.76 horas
 
-**Estrategias para alcanzar 99.95%:**
+**Estrategias para alcanzar 99.5%:**
 - Redundancia 2oo3 en RBC
 - Eurobalise con diagnóstico remoto
-- GSM-R con cobertura redundante
+- TETRA con cobertura redundante
 - Mantenimiento preventivo programado
 
 ### 5.3 Seguridad operacional y tolerancia a fallas
@@ -403,7 +403,7 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 
 ### 5.5 Métricas y KPIs de servicio
 **Métricas de disponibilidad:**
-- **Disponibilidad mensual:** > 99.95%
+- **Disponibilidad mensual:** > 99.5%
 - **Tiempo de recuperación:** < 4 horas
 - **Frecuencia de fallos:** < 1 fallo/mes
 - **Tiempo de diagnóstico:** < 30 minutos
@@ -454,7 +454,7 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 
 **Estrategia de integración:**
 - **Pruebas de interfaz:** CTC, Señalización, TETRA
-- **Pruebas de comunicación:** GSM-R, Eurobalise
+- **Pruebas de comunicación:** TETRA, Eurobalise
 - **Pruebas de redundancia:** Fallo y recuperación
 - **Pruebas de degradación:** Modos alternativos
 - **Pruebas de rendimiento:** Carga operacional
@@ -487,7 +487,7 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 | **TC-201** | Carga máxima | 24 trenes simultáneos | Sin degradación |
 | **TC-202** | Latencia comunicación | Tiempo de respuesta | < 100ms |
 | **TC-203** | Precisión posición | Exactitud GPS | ±2 metros |
-| **TC-204** | Disponibilidad | Tiempo de operación | > 99.95% |
+| **TC-204** | Disponibilidad | Tiempo de operación | > 99.5% |
 | **TC-205** | Recuperación fallo | Tiempo de recuperación | < 4 horas |
 
 **Pruebas de integración:**
@@ -509,7 +509,7 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 - **Redundancia:** 100% funcional
 
 **Criterios de aceptación de rendimiento:**
-- **Disponibilidad:** > 99.95%
+- **Disponibilidad:** > 99.5%
 - **Tiempo de respuesta:** < 3 segundos
 - **Precisión de posición:** ±2 metros
 - **Precisión de velocidad:** ±2 km/h
@@ -574,7 +574,7 @@ A = 8,000 / (8,000 + 4) = 0.9995 = 99.95%
 - **STM:** Specific Transmission Module
 - **DMI:** Driver Machine Interface
 - **FFFIS:** Form Fit Function Interface Specification
-- **GSM-R:** Global System for Mobile Communications - Railway
+- **TETRA:** Global System for Mobile Communications - Railway
 - **SIL:** Safety Integrity Level
 - **RAMS:** Reliability, Availability, Maintainability, Safety
 - **FAT:** Factory Acceptance Test

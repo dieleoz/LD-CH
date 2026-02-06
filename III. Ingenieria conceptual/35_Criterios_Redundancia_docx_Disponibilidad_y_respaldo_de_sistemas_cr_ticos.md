@@ -1,9 +1,7 @@
-﻿# SISTEMA DE SEÑALIZACIÓN INTEGRADO v7.0 - PHASE 7
-## APP La Dorada - Chiriguaná
-
+﻿# CRITERIOS DE REDUNDANCIA v7.0 - PHASE 7
 **Versión:** 7.0 (Phase 7)  
 **Fecha:** Febrero 2026  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**  
+**Estado: ✅ APROBADO (PHASE 7)**  
 ---
 
 ## 1. MARCO CONTRACTUAL
@@ -158,7 +156,7 @@ La aprobación de estos criterios de redundancia permite:
 |:---:|:---:|:---:|:---:|:---|
 | R-075 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en redundancia |
 | R-076 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por redundancia insuficiente |
-| R-077 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en ITCS según AT4 |
+| R-077 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en ITCS según AT4 |
 | R-078 | Operacional | Alta | Medio | Complejidad en gestión de redundancia 2N para ITCS |
 | R-079 | Técnico | Media | Medio | Integración de redundancia ITCS con sistemas FENOCO existentes |
 

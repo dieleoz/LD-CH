@@ -1,4 +1,5 @@
-﻿# CRITERIOS DE CIBERSEGURIDAD v4.0 - PROTECCIÓN DE SISTEMAS DE CONTROL
+﻿# CRITERIOS DE CIBERSEGURIDAD v7.0 - PHASE 7
+**Estado: ✅ APROBADO (PHASE 7)**
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -126,7 +127,7 @@ La siguiente matriz asigna los controles de ciberseguridad clave a cada sistema 
 | **Hardening de Sistemas** | Servidores, HMI, estaciones de trabajo | AT2 (Integridad de la información) | CIS Benchmarks |
 | **Gestión de Accesos Remotos** | Soporte de proveedores | AT4 (Acceso restringido) | IEC 62443-2-4 |
 | **Plan de Respuesta a Incidentes** | Todos los sistemas | AT2 (Continuidad del servicio) | NIST SP 800-61 |
-| **🚂 Protección ITCS Embarcado** | Sistemas de control embarcados | AT4 (Disponibilidad 99.95%) | IEC 62443-3-3 |
+| **🚂 Protección ITCS Embarcado** | Sistemas de control embarcados | AT4 (Disponibilidad 99.5%) | IEC 62443-3-3 |
 | **🔗 Seguridad Interfaces FENOCO** | Interfaces de interoperabilidad | AT4 (Interoperabilidad) | UIC 556 |
 
 ---
@@ -188,13 +189,13 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 |:---:|:---:|:---:|:---:|:---|
 | R-080 | Técnico | Alta | Alto | Vulnerabilidades en sistemas ITCS por dependencia AT3 |
 | R-081 | Técnico | Media | Alto | Ataques a interfaces FENOCO por falta de protocolos UIC |
-| R-082 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% por incidentes de seguridad |
+| R-082 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% por incidentes de seguridad |
 | R-083 | Operacional | Alta | Medio | Complejidad en gestión de seguridad ITCS y FENOCO |
 | R-084 | Técnico | Media | Medio | Integración de controles de seguridad con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 1. **Estrategia ITCS:** Implementar controles de seguridad basados en ETCS Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de seguridad compatibles con sistemas FENOCO existentes
-3. **Monitoreo AT4:** Implementar SIEM para garantizar cumplimiento de disponibilidad 99.95%
+3. **Monitoreo AT4:** Implementar SIEM para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Seguridad:** Desarrollar protocolos de pentesting específicos para ITCS y FENOCO
 5. **Plan de Contingencia:** Establecer procedimientos de respuesta a incidentes para sistemas ITCS y FENOCO

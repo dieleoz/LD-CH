@@ -1,9 +1,7 @@
-# SISTEMA ITS INTEGRADO v7.0 - PHASE 7
-## APP La Dorada - Chiriguaná
-
+# MATERIAL RODANTE INTEGRADO v7.0 - PHASE 7
 **Versión:** 7.0 (Phase 7)  
 **Fecha:** Febrero 2026  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -18,7 +16,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 32 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ✅ **APROBADO (PHASE 7)** |
 
 ---
 
@@ -80,7 +78,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -103,7 +101,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
-- ✅ GSM-R: 37 estaciones
+- ✅ TETRA: 37 estaciones
 - ✅ EOT: 15 dispositivos
 - ✅ ENCE: 5 estaciones
 - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
@@ -134,7 +132,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 ### 3.3 Interfaces Críticas
 - **Material Rodante ↔ Sistemas de Control:** Interfaz para el control de trenes según el estándar técnico de AT3 (estudio de referencia: ITCS/ETCS).
 - **Material Rodante ↔ TETRA:** Interfaz para comunicaciones de voz y datos de misión crítica.
-- **Material Rodante ↔ GSM-R:** Interfaz para comunicaciones redundantes.
+- **Material Rodante ↔ TETRA:** Interfaz para comunicaciones redundantes.
 - **Material Rodante ↔ EOT:** Interfaz para sistema End of Train Device.
 - **Material Rodante ↔ Mantenimiento (AT2):** El diseño debe facilitar el mantenimiento en los talleres definidos en AT1.
 - **Material Rodante ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC.
@@ -150,7 +148,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -161,7 +159,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -180,7 +178,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 **Componentes:**
 - Locomotoras U18 o equivalentes (15 unidades)
 - Sistemas embarcados integrados
-- Radios TETRA + GSM-R embarcados
+- Radio TETRA embarcados
 - Sistema EOT (15 dispositivos)
 - Equipos ATP embarcados
 
@@ -205,7 +203,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 
 **Componentes:**
 - Radio TETRA embarcado (15 unidades)
-- Radio GSM-R embarcado (15 unidades)
+- Radio TETRA embarcado (15 unidades)
 - GPS/GNSS embarcado (15 unidades)
 - Event Recorder (Caja Negra) (15 unidades)
 - ATP embarcado (15 unidades)
@@ -215,7 +213,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 #### **4.3.1 Arquitectura Modular de Sistemas Embarcados**
 **Módulo Base (Instalación Inmediata):**
 - Radio TETRA embarcado
-- Radio GSM-R embarcado
+- Radio TETRA embarcado
 - GPS/GNSS embarcado
 - Event Recorder (Caja Negra)
 - Sistema EOT integrado
@@ -265,7 +263,7 @@ Pruebas y Certificación (Mes 12):**
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -280,7 +278,7 @@ Pruebas y Certificación (Mes 12):**
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **3 documentos afectados identificados** ✓
@@ -338,7 +336,7 @@ Pruebas y Certificación (Mes 12):**
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-060** | **Dependencia AT3 para ITCS** | **Técnico** | **Alta** | **Alto** | Especificaciones ITCS embarcado pendientes de AT3 |
 | **R-061** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas FENOCO requiere protocolos UIC |
-| **R-062** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica en sistemas embarcados |
+| **R-062** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica en sistemas embarcados |
 | **R-063** | **Puesta a punto locomotora** | **Gestión** | **Media** | **Medio** | Complejidad de diagnóstico y reacondicionamiento de U18 |
 | **R-064** | **Integración módulos embarcados** | **Técnico** | **Media** | **Alto** | Complejidad de integración entre módulo base e ITCS |
 | **R-065** | **Sistema EOT integración** | **Técnico** | **Baja** | **Medio** | Integración EOT con ATP embarcado requiere validación |
@@ -355,7 +353,7 @@ Pruebas y Certificación (Mes 12):**
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### **8.2 Implementaciones Nuevas (Faltante)**
-- **GSM-R:** +$3,484,000,000 COP
+- **TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP

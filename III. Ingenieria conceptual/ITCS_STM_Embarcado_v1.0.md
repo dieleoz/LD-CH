@@ -15,7 +15,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 ### 1.2 Objetivos del STM
 - **Compatibilidad ETCS:** Nivel 2 completo con degradación a Level 1
 - **Interfaz conductor:** DMI (Driver Machine Interface) conforme a UIC EIRENE
-- **Comunicación tren-tierra:** GSM-R con RBC
+- **Comunicación tren-tierra:** TETRA con RBC
 - **Detección de posición:** Eurobalise + odometría
 - **Seguridad funcional:** SIL 4 para funciones críticas
 
@@ -77,7 +77,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 - **Frecuencia:** 876-880 MHz (uplink), 921-925 MHz (downlink)
 - **Potencia:** 2W máximo
 - **Antena:** Omnidireccional, ganancia 3 dBi
-- **Protocolo:** ETCS sobre GSM-R
+- **Protocolo:** ETCS sobre TETRA
 - **Velocidad:** 9.6 kbps
 
 **Eurobalise:**
@@ -153,7 +153,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 ### 4.3 Gestión de modos
 **Modos de operación:**
 1. **ETCS Level 2:** Modo normal
-2. **ETCS Level 1:** Degradación por fallo GSM-R
+2. **ETCS Level 1:** Degradación por fallo TETRA
 3. **STM:** Modo para locomotoras no compatibles
 4. **Degradado:** Señalización convencional
 5. **Seguro:** Parada controlada
@@ -225,7 +225,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 
 ## 6. Comunicación Tren-Tierra
 
-### 6.1 Protocolo ETCS sobre GSM-R
+### 6.1 Protocolo ETCS sobre TETRA
 **Estructura de mensaje:**
 ```
 ┌─────────────────────────────────────┐
