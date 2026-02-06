@@ -24,15 +24,15 @@
 | **BLOCKER-001** | Indefinición ITCS | Diseño | 🔍 PENDIENTE | Identificado como riesgo a resolver por Ingeniería (FRA vs UIC). |
 | **BLOCKER-002** | Protocolos FENOCO | Interop. | 🔍 EN DISEÑO | Obligación de interoperabilidad (AT10). |
 | **BLOCKER-003** | Cantidades CCTV/Red | Presupuesto | 🔍 POR DEFINIR | No son 200 cámaras; es según diseño de seguridad. |
-| **BLOCKER-006** | Contaminación Técnica | Desviación | 🚨 ACTIVO | Documentos Transversales y Folder III contienen soluciones no contractuales. |
+| **BLOCKER-006** | Contaminación Técnica | Desviación | 🔍 EN LIMPIEZA | Folder III saneado. Pendiente Folder V y VII. |
 
 ---
 
 ## 🚀 PRÓXIMOS PASOS (Q1 2026)
 
 ### **FASE 7 - RE-LINEACIÓN Y DESCONTAMINACIÓN (FASE 42)**
+- ✅ **Auditoría Folder III (Básica):** Folder III sanitizado al 100% (v7.0). Validado bajo Phase 7.
 - [ ] **Sanitizar README y Guía Metodológica:** Eliminar referencias a "Señalización Virtual" como requisito y dejarlo como propuesta.
-- [ ] **Auditoría Folder III (Básica):** Eliminar esquemas de "Eurobalizas" y "Zero Balises" que no sean derivación directa de una DT aprobada.
 - [ ] **Re-diseño SICC:** Enfocar en "Interfaz Web" y "Registro Automático" sin casarse con servicios AWS/Nube específicos en esta fase.
 
 ### **GESTIÓN OFICIAL**
