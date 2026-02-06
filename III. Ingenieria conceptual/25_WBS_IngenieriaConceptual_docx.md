@@ -1,4 +1,4 @@
-﻿﻿# WBS INGENIERÍA CONCEPTUAL v7.0 - PHASE 7
+﻿# WBS INGENIERÍA CONCEPTUAL v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -128,7 +128,7 @@ Con la aprobación de esta WBS, se da por finalizada la fase de "Documentos Base
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-025** | **Dependencia AT3 en WBS** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, paquetes afectados |
 | **R-026** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO |
-| **R-027** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
+| **R-027** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-028** | **Gestión de paquetes WBS** | **Gestión** | **Media** | **Medio** | Complejidad de seguimiento de paquetes |
 | **R-029** | **Integración entre paquetes** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA |
 

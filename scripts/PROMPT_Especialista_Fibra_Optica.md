@@ -38,7 +38,7 @@ Lee COMPLETO estos documentos:
 
 ```markdown
 # SISTEMA 02: TELECOMUNICACIONES
-## Fibra Óptica, TETRA y GSM-R
+## Fibra Óptica, TETRA y TETRA
 
 ### 1. RESUMEN EJECUTIVO
 [Párrafo de alto nivel para gerencia]
@@ -60,7 +60,7 @@ Lee COMPLETO estos documentos:
 #### ¿Por qué 2,068 cajas de empalme?
 [LEER DE 28_Sistema_FibraOptica]
 
-#### ¿Por qué 37 estaciones TETRA/GSM-R?
+#### ¿Por qué 37 estaciones TETRA/TETRA?
 [LEER DE 27_Sistema_TETRA]
 
 ### 3. DECISIONES TÉCNICAS APLICADAS

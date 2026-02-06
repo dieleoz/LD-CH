@@ -1,4 +1,4 @@
-﻿# OBLIGACIÓN 3.11(l) y DEFINICIÓN 2.141 - GESTIÓN DE LICENCIAS Y PERMISOS
+# OBLIGACIÓN 3.11(l) y DEFINICIÓN 2.141 - GESTIÓN DE LICENCIAS Y PERMISOS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -93,7 +93,7 @@ Este documento contractual establece las obligaciones específicas para la gesti
 > - **🔴 Modificaciones menores:** Según Decreto 1076/2015
 > - **🔴 Nuevos permisos:** Para intervenciones no cubiertas
 > - **🔴 Seguimiento y reportes:** Según actos administrativos vigentes
-> - **📊 Disponibilidad AT4:** Permisos para sistemas críticos con disponibilidad 99.95%
+> - **📊 Disponibilidad AT4:** Permisos para sistemas críticos con disponibilidad 99.5%
 
 #### **🏛️ 2.3 Permisos Municipales**
 > **📋 RESPONSABILIDADES:**

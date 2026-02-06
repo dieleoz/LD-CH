@@ -132,7 +132,7 @@
 | 27-32 | ITS (Barreras, PAN) | Llegada M26 | 6 meses | Red + Energía |
 | 28-34 | ATP Embarcado | Material Rodante M20 | 7 meses | **EXT-02** + Taller |
 | 29-34 | TETRA Embarcado | MR disponible | 6 meses | **EXT-02** |
-| 30-34 | GSM-R Embarcado | MR disponible | 5 meses | **EXT-02** |
+| 30-34 | TETRA Embarcado | MR disponible | 5 meses | **EXT-02** |
 
 **HITO Mes 34:** ✅ Todos los sistemas instalados (Terrestre + Embarcado)
 

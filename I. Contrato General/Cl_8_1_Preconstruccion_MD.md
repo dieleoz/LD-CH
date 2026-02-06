@@ -1,4 +1,4 @@
-﻿﻿﻿﻿# CAPÍTULO IX (PRECONSTRUCCIÓN) y CLÁUSULA 8.1 (REVISIÓN) - GESTIÓN DE ESTUDIOS Y DISEÑOS
+﻿﻿﻿# CAPÍTULO IX (PRECONSTRUCCIÓN) y CLÁUSULA 8.1 (REVISIÓN) - GESTIÓN DE ESTUDIOS Y DISEÑOS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025

@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 7 - GESTIÓN PREDIAL (v5.0)
+# APÉNDICE TÉCNICO 7 - GESTIÓN PREDIAL (v5.0)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 06 de febrero de 2026  
@@ -24,7 +24,7 @@ He realizado la validación forense del AT7 contrastando el **PDF Oficial [Fuent
 
 ### 📡 2. GESTIÓN PREDIAL 4.0: EL APORTE TÉCNICO (PUNTO 42)
 *   **Nodos Tecnológicos (Riesgo Oculto):** El PDF original se centra en la franja lineal. El v5.0 integra los predios para las **37 Estaciones Base TETRA** y el **CCO** (La Dorada).
-*   **Servidumbres vs. Adquisición:** Se definen "Servidumbre de Torre", "De Acceso" (vital para mantenimiento AT4) y "De Protección". Sin acceso legal, la disponibilidad del 99.95% es inalcanzable.
+*   **Servidumbres vs. Adquisición:** Se definen "Servidumbre de Torre", "De Acceso" (vital para mantenimiento AT4) y "De Protección". Sin acceso legal, la disponibilidad del 99.5% es inalcanzable.
 *   **Redundancia de Fibra:** Se instrumenta la gestión de servidumbres para el anillo de fibra óptica fuera de la franja férrea, garantizando la resiliencia del sistema.
 
 ### 🛡️ 3. GESTIÓN FINANCIERA Y RIESGOS (Diligencia Debida)

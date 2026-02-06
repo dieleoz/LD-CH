@@ -74,7 +74,7 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 > 
 > - **⏰ Duración total:** 10 meses
 > - **📋 Memorias técnicas:** 7 documentos (MD-01 a MD-07)
-> - **🎯 Disponibilidad objetivo:** 99.95% según AT4
+> - **🎯 Disponibilidad objetivo:** 99.5% según AT4
 > - **🚂 ITCS:** ETCS Level 2 como estándar hasta AT3
 > - **🔗 Interoperabilidad FENOCO:** Protocolos UIC
 > - **🏗️ Metodología BIM:** Obligatoria según ATB-F3
@@ -185,7 +185,7 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 > **📈 INDICADORES:**
 > 
 > - **⏰ Latencia CTC-enclavamiento:** < 50 ms
-> - **📊 Disponibilidad interfaces:** 99.95% anual
+> - **📊 Disponibilidad interfaces:** 99.5% anual
 > - **🔄 Redundancia:** Activa/pasiva con conmutación automática
 > - **📅 Duración implementación:** 18 meses
 > - **🚂 ITCS:** Interfaces ETCS Level 2 especificadas

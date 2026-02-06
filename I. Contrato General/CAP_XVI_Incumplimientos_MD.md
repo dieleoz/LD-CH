@@ -1,4 +1,4 @@
-﻿# CAPÍTULO XVI y SECCIÓN 4.6 - RÉGIMEN DE MULTAS, SANCIONES Y DEDUCCIONES
+# CAPÍTULO XVI y SECCIÓN 4.6 - RÉGIMEN DE MULTAS, SANCIONES Y DEDUCCIONES
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -216,7 +216,7 @@ Proxima actualizacion: 27/02/2025
 3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN PENALIDADES:**
    - **Penalidades por AT4:** Multas por incumplimiento de indicadores de disponibilidad
    - **Retrasos en AT4:** Penalidades por demoras en cumplimiento de AT4
-   - **Disponibilidad 99.95%:** Multas por incumplimiento de disponibilidad contractual
+   - **Disponibilidad 99.5%:** Multas por incumplimiento de disponibilidad contractual
    - **SICC:** Penalidades por fallas en sistemas de monitoreo
 
 4. **🔒 CIBERSEGURIDAD EN PENALIDADES:**
@@ -255,7 +255,7 @@ Proxima actualizacion: 27/02/2025
 |:---|:---|:---|:---|:---:|
 | **ITCS Penalidades** | 16.1 | AT3 | ETCS Level 2 | ✅ Implementado |
 | **FENOCO Penalidades** | 16.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 Penalidades** | 16.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
+| **AT4 Penalidades** | 16.1 | AT4 | Disponibilidad 99.5% | ✅ Implementado |
 | **Ciberseguridad Penalidades** | 16.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia Penalidades** | 16.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
 
@@ -339,7 +339,7 @@ El documento MD v5.0 conecta obligaciones generales del contrato con estándares
 
 3.  **Redundancia N+1:**
     *   **Hallazgo:** Operar sin respaldo es sancionable.
-    *   **Soporte MD:** Riesgo **R-289** protege la meta de disponibilidad del 99.95%.
+    *   **Soporte MD:** Riesgo **R-289** protege la meta de disponibilidad del 99.5%.
 
 ### 🛡️ 3. ESTRATEGIA DE DEFENSA (REFUERZO)
 **A. Gestión del "Botón Rojo" del SICC (Pérdida de Información)**

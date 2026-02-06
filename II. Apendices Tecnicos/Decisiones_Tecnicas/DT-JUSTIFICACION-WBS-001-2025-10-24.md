@@ -34,7 +34,7 @@
 {
   "1.1.100": {
     "descripcion": "Servidores CTC principales",
-    "justificacion_tecnica": "Sustentado en AT3, numeral 2.1.2, que define arquitectura tecnológica del CTC, requiriendo servidores dedicados para procesamiento principal. AT4, numeral 3.2.3, impone redundancia N+1 y disponibilidad 99.95%. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby según AT4 §3.2.3)",
+    "justificacion_tecnica": "Sustentado en AT3, numeral 2.1.2, que define arquitectura tecnológica del CTC, requiriendo servidores dedicados para procesamiento principal. AT4, numeral 3.2.3, impone redundancia N+1 y disponibilidad 99.5%. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby según AT4 §3.2.3)",
     "criterios_diseno": [
       "Redundancia N+1 para alta disponibilidad (AT4 §3.2.3)",
       "Capacidad procesamiento: 100 trenes simultáneos (AT3 §2.1.1)",
@@ -91,8 +91,8 @@
 - [ ] **2.1.101** - Estaciones TETRA colocalizadas (REF: AT5 §2.1.2)
 - [ ] **2.1.102** - Infraestructura soporte (REF: AT5 §2.1.3)
 
-#### **2.2 - Sistema GSM-R (3 items):**
-- [ ] **2.2.100** - Estaciones base GSM-R (REF: AT5 §2.2.1, cobertura corredor)
+#### **2.2 - Sistema TETRA (3 items):**
+- [ ] **2.2.100** - Estaciones base TETRA (REF: AT5 §2.2.1, cobertura corredor)
 - [ ] **2.2.101** - Equipos control (REF: AT5 §2.2.2)
 - [ ] **2.2.102** - Infraestructura soporte (REF: AT5 §2.2.3)
 
@@ -115,7 +115,7 @@
 - [ ] **6.1.203** - Sistema GPS (REF: AT3 §2.1.6, posicionamiento absoluto)
 - [ ] **6.1.204** - Software ATP (REF: AT3 §2.1.1, licencias ETCS L2)
 - [ ] **6.1.205** - Interfaces frenos (REF: AT3 §2.1.7, control vital)
-- [ ] **6.1.206** - Sistema redundancia (REF: AT4 §3.2.3, disponibilidad 99.95%)
+- [ ] **6.1.206** - Sistema redundancia (REF: AT4 §3.2.3, disponibilidad 99.5%)
 
 ---
 
@@ -153,7 +153,7 @@ archivos_actualizar:
     items_mejorar:
       # CAP 1.1 (7 items)
       - codigo: "1.1.100"
-        justificacion_nueva: "Sustentado en AT3, numeral 2.1.2, que define arquitectura tecnológica del CTC, requiriendo servidores dedicados para procesamiento principal. AT4, numeral 3.2.3, impone redundancia N+1 y disponibilidad 99.95%. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby según AT4 §3.2.3)"
+        justificacion_nueva: "Sustentado en AT3, numeral 2.1.2, que define arquitectura tecnológica del CTC, requiriendo servidores dedicados para procesamiento principal. AT4, numeral 3.2.3, impone redundancia N+1 y disponibilidad 99.5%. Cantidad mínima: 2 UND (1 principal + 1 respaldo en hot-standby según AT4 §3.2.3)"
         referencias_contractuales_nuevas:
           - "AT3, Capítulo II, §2.1.2 - Arquitectura CTC"
           - "AT4, Capítulo III, §3.2.3 - Redundancia N+1"
@@ -166,7 +166,7 @@ archivos_actualizar:
           - "Failover <5 segundos (AT4 §3.2.2)"
       
       - codigo: "1.1.101"
-        justificacion_nueva: "Basado en AT3, numeral 2.1.3, que establece sistemas de respaldo en configuración hot-standby. AT4, numeral 3.2.4, refuerza obligación de failover <5 segundos para mantener disponibilidad contractual 99.95%. Cantidad: 2 UND como respaldo activo."
+        justificacion_nueva: "Basado en AT3, numeral 2.1.3, que establece sistemas de respaldo en configuración hot-standby. AT4, numeral 3.2.4, refuerza obligación de failover <5 segundos para mantener disponibilidad contractual 99.5%. Cantidad: 2 UND como respaldo activo."
         referencias_contractuales_nuevas:
           - "AT3, Capítulo II, §2.1.3 - Respaldo hot-standby"
           - "AT4, Capítulo III, §3.2.4 - Failover <5seg"
@@ -219,18 +219,18 @@ archivos_actualizar:
       
       # CAP 6.1.200-206 (ATP Embarcado consolidado)
       - codigo: "6.1.200"
-        justificacion_nueva: "Sustentado en AT1, Capítulo V (Material Rodante), que define equipos embarcados para control de tráfico. AT3, numeral 2.1.1, establece ATP embarcado compatible ETCS Level 2. AT4, numeral 3.2.1, exige disponibilidad 99.95%. Cantidad: 8 UND = 5 locomotoras contractuales (2 GR12 + 2 U10 + 1 U18 según Apéndice Financiero pág. 3) + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto estratégico."
+        justificacion_nueva: "Sustentado en AT1, Capítulo V (Material Rodante), que define equipos embarcados para control de tráfico. AT3, numeral 2.1.1, establece ATP embarcado compatible ETCS Level 2. AT4, numeral 3.2.1, exige disponibilidad 99.5%. Cantidad: 8 UND = 5 locomotoras contractuales (2 GR12 + 2 U10 + 1 U18 según Apéndice Financiero pág. 3) + 2 para diseño/pruebas FAT/SAT + 1 contingencia/repuesto estratégico."
         referencias_contractuales_nuevas:
           - "AT1, Capítulo V - Equipos embarcados"
           - "AT3, Capítulo II, §2.1.1 - ATP compatible ETCS L2"
-          - "AT4, Capítulo III, §3.2.1 - Disponibilidad 99.95%"
+          - "AT4, Capítulo III, §3.2.1 - Disponibilidad 99.5%"
           - "Apéndice Financiero pág. 3 - Material rodante base (5 locomotoras)"
           - "CENELEC EN 50126/128/129 - Certificación SIL-4"
         criterios_diseno_nuevos:
           - "Certificación SIL-4 para funciones vitales (AT3 §2.1.1)"
           - "ETCS Level 2 compatible (AT3 §2.1.1)"
           - "Interfaz con eurobaliza y odómetro"
-          - "Disponibilidad 99.95% (AT4 §3.2.1)"
+          - "Disponibilidad 99.5% (AT4 §3.2.1)"
       
       - codigo: "6.1.201"
         justificacion_nueva: "Según AT3, numeral 2.1.4, se requiere Driver Machine Interface (DMI) en cada cabina para visualización de información crítica. AT4, numeral 3.2.1, exige que el DMI muestre Movement Authority, velocidad objetivo y alarmas. Cantidad: 8 UND (1 por ATP embarcado)."

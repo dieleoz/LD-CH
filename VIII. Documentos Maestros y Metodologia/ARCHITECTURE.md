@@ -326,7 +326,7 @@ El sistema sigue el patrón **Clean Architecture** con separación clara de resp
 │                                            │
 │  [Tipo de Equipo] → TELECOMUNICACIONES     │
 │          ↓ (filtra dinámicamente)          │
-│  [Sistema] → Fibra, TETRA, GSM-R, ODF...   │
+│  [Sistema] → Fibra, TETRA, TETRA, ODF...   │
 │          ↓ (búsqueda)                      │
 │  [UFV] → UFVF02, UFVF03, ... UFVF41        │
 │          ↓                                 │

@@ -28,7 +28,7 @@ Esta adopción normativa, que constituye una especificación técnica dentro del
 
 *   **Aparatos de Vía:** Eliminación completa de balizas físicas (Eurobalises) y señales luminosas laterales, migrando a una filosofía de **Señalización Virtual** (Cantones Virtuales) gestionada vía radio.
 *   **Interoperabilidad:** Garantiza la compatibilidad operativa con el tramo concesionado a FENOCO, facilitando el tránsito de trenes sin costosas adaptaciones de infraestructura.
-*   **Eficiencia:** Optimización de CAPEX por valor de **$50,193,000,000 COP**, recursos que se han reasignado para fortalecer la redundancia de comunicaciones (TETRA + GSM-R) y la ciberseguridad (IEC 62443).
+*   **Eficiencia:** Optimización de CAPEX por valor de **$50,193,000,000 COP**, recursos que se han reasignado para fortalecer la redundancia de comunicaciones (TETRA + TETRA) y la ciberseguridad (IEC 62443).
 
 ### 4. SOLICITUD
 

@@ -1,4 +1,4 @@
-﻿# 0_1_que_es_TETRA
+# 0_1_que_es_TETRA
 ## Documento de Soporte - Ingenieria Conceptual
 
 ---
@@ -24,7 +24,8 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 ### CONTENIDO TECNICO
 
-
+
+
 
 ---
 

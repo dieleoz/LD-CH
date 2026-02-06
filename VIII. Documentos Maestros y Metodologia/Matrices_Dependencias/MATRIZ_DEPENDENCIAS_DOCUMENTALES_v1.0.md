@@ -82,12 +82,12 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Estaciones TETRA | DT-TETRA-001 | IV/39_Planos_Preliminares.md | Ubicaciones | Mapa torres |
 | Torres TETRA altura | DT-TETRA-002 | V.4_Sistemas_Potencia_Detalle.md | Requerimientos | Sección 2.1 |
 
-#### **GSM-R - Comunicaciones Ferroviarias**
+#### **TETRA - Comunicaciones Ferroviarias**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
-| Estaciones GSM-R | DT-GSMR-001 | III/27_Sistema_TETRA_Integrado.md | Colocalización | Sección 3.3 |
-| Estaciones GSM-R | DT-GSMR-001 | V.3_Sistemas_Comunicacion_Detalle.md | Especificaciones | Sección 4.2 |
-| Estaciones GSM-R | DT-GSMR-001 | WBS_Presupuestal_v2.0.md | Costos | Item 3.3 |
+| Estaciones TETRA | DT-GSMR-001 | III/27_Sistema_TETRA_Integrado.md | Colocalización | Sección 3.3 |
+| Estaciones TETRA | DT-GSMR-001 | V.3_Sistemas_Comunicacion_Detalle.md | Especificaciones | Sección 4.2 |
+| Estaciones TETRA | DT-GSMR-001 | WBS_Presupuestal_v2.0.md | Costos | Item 3.3 |
 
 ---
 

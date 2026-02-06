@@ -19,7 +19,7 @@ Este documento especifica la arquitectura del Radio Block Centre (RBC) con redun
 ### 1.3 Contexto operacional
 - **Cobertura:** 146 km de vía, 5 estaciones, 146 pasos a nivel
 - **Capacidad:** Hasta 24 trenes simultáneos
-- **Interfaces:** CTC, Eurobalise, GSM-R, STM embarcado
+- **Interfaces:** CTC, Eurobalise, TETRA, STM embarcado
 - **Modos de operación:** ETCS Level 2, Level 1, STM, Degradado
 
 ---
@@ -81,7 +81,7 @@ La plataforma de hardware deberá dimensionarse para soportar la carga transacci
 
 **Interfaces externas:**
 - **CTC:** Interfaz FFFIS sobre TCP/IP
-- **GSM-R:** Interfaz ETCS sobre UDP
+- **TETRA:** Interfaz ETCS sobre UDP
 - **Eurobalise:** Interfaz baliza sobre RS-485
 - **STM:** Interfaz tren sobre TETRA
 

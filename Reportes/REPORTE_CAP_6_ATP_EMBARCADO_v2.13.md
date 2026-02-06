@@ -33,7 +33,7 @@
 |:---|:---|:---:|:---:|:---:|
 | **6.1.100** | Sistemas ATP embarcados (KIT) | 8 | $726,000,000 | $5,808,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
-| **6.1.102** | Radios GSM-R embarcados | 16 | $25,000,000 | $400,000,000 |
+| **6.1.102** | Radios TETRA embarcados | 16 | $25,000,000 | $400,000,000 |
 | **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
 | **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
 | **6.1.105** | Instalación y configuración | 8 | $100,000,000 | $800,000,000 |
@@ -101,7 +101,7 @@
 ### **Cantidades:**
 - ✅ 8 unidades ATP embarcado verificadas
 - ✅ 16 radios TETRA embarcados (8 unidades × 2)
-- ✅ 16 radios GSM-R embarcados (8 unidades × 2)
+- ✅ 16 radios TETRA embarcados (8 unidades × 2)
 - ✅ 8 sistemas GPS embarcados
 - ✅ 8 sistemas redundancia
 - ✅ 15 dispositivos EOT verificados
@@ -109,7 +109,7 @@
 ### **Precios:**
 - ✅ Kit ATP embarcado: $726M c/u (USD $165K - KB)
 - ✅ Radios TETRA: $35M c/u
-- ✅ Radios GSM-R: $25M c/u
+- ✅ Radios TETRA: $25M c/u
 - ✅ Sistemas GPS: $35M c/u
 - ✅ Sistemas redundancia: $80M c/u
 - ✅ Instalación y configuración: $100M c/u
@@ -147,7 +147,7 @@
 ### **Para revisión:**
 1. ✅ **Cantidad de unidades ATP:** 8 unidades verificadas
 2. ✅ **Precio kit ATP:** USD $165K validado
-3. ⚠️ **Radios TETRA/GSM-R:** ¿Requieren ajuste de cantidad o precio?
+3. ⚠️ **Radios TETRA/TETRA:** ¿Requieren ajuste de cantidad o precio?
 4. ⚠️ **Sistemas GPS redundantes:** Verificar si son adicionales o incluidos en kit
 5. ⚠️ **Repuestos:** Verificar porcentaje 10%
 

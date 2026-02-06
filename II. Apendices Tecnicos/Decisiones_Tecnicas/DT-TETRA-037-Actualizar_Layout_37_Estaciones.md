@@ -1,4 +1,4 @@
-﻿# DECISIÓN TÉCNICA: DT-TETRA-037-2025-10-11
+# DECISIÓN TÉCNICA: DT-TETRA-037-2025-10-11
 
 **Sistema:** Telecomunicaciones - TETRA  
 **Fecha:** 11/10/2025  

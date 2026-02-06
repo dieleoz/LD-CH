@@ -1,4 +1,4 @@
-﻿# RELACIÓN DE APÉNDICES TÉCNICOS CON INGENIERÍA v7.0
+# RELACIÓN DE APÉNDICES TÉCNICOS CON INGENIERÍA v7.0
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -745,7 +745,7 @@ Proxima actualizacion: Febrero 2026
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-001** | **Dependencia AT3 para ITCS** | **Técnico** | **Alta** | **Alto** | Especificaciones ITCS pendientes de AT3, estrategia temporal con ETCS Level 2 |
 | **R-002** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO no completamente definida |
-| **R-003** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento de indicadores AT4 requiere redundancia crítica |
+| **R-003** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento de indicadores AT4 requiere redundancia crítica |
 | **R-004** | **Coordinación Apéndices** | **Gestión** | **Media** | **Medio** | Múltiples apéndices técnicos con interdependencias complejas |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**

@@ -155,17 +155,17 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - Radios TETRA portátiles (80 unidades)
 - Consolas de despacho CCO (3 unidades)
 
-#### **4.2.2 Sistema GSM-R (Propuesta para Alta Disponibilidad) - NUEVO**
+#### **4.2.2 Sistema TETRA (Propuesta para Alta Disponibilidad) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red GSM-R redundante (Estaciones base colocalizadas con TETRA)
+- Red TETRA redundante (Estaciones base colocalizadas con TETRA)
 - Colocalización con TETRA (misma torre)
-- Radios GSM-R embarcados (30 unidades)
-- Antenas GSM-R colocalizadas
-- Sistema de control GSM-R centralizado
+- Radios TETRA embarcados (30 unidades)
+- Antenas TETRA colocalizadas
+- Sistema de control TETRA centralizado
 
 #### **4.2.3 Fibra Óptica Backbone (594 km)**
 **Funcionalidades:**
@@ -192,7 +192,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - ITCS FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + GSM-R dual
+- Radio TETRA + TETRA dual
 
 ---
 
@@ -213,7 +213,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 #### **5.2.1 Verificación de Criterios Técnicos**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** Dimensionado según AT1/AT4 ✓
-- ✅ **GSM-R:** Propuesta para alta disponibilidad ✓
+- ✅ **TETRA:** Propuesta para alta disponibilidad ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -228,7 +228,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **4 documentos afectados identificados** ✓
@@ -278,7 +278,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 
 #### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
 - **✅ TETRA:** Dimensionado según AT1/AT4 (Cobertura 100% + solapamiento 15-20%)
-- **✅ GSM-R:** Propuesta para alta disponibilidad (Redundancia con TETRA)
+- **✅ TETRA:** Propuesta para alta disponibilidad (Redundancia con TETRA)
 - **✅ Fibra Óptica:** 526 → **594 km** (Corredor + 10% reserva)
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
@@ -310,23 +310,23 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - Normas: ETSI EN 300 392
 - Frecuencias: Asignadas por ANE
 
-#### **7.2.2 Sistema GSM-R (Propuesta para Alta Disponibilidad) - NUEVO**
+#### **7.2.2 Sistema TETRA (Propuesta para Alta Disponibilidad) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red GSM-R redundante (Estaciones base colocalizadas con TETRA)
+- Red TETRA redundante (Estaciones base colocalizadas con TETRA)
 - Colocalización con TETRA (misma torre)
-- Radios GSM-R embarcados (30 unidades)
-- Antenas GSM-R colocalizadas
-- Sistema de control GSM-R centralizado
+- Radios TETRA embarcados (30 unidades)
+- Antenas TETRA colocalizadas
+- Sistema de control TETRA centralizado
 
 **Especificaciones Técnicas:**
 - Cobertura: 100% del corredor (colocalizado con TETRA)
 - Disponibilidad: 99.5% según AT4
 - Protocolos: UIC para interoperabilidad FENOCO
-- Conmutación: Automática entre TETRA y GSM-R
+- Conmutación: Automática entre TETRA y TETRA
 
 #### **7.2.3 Fibra Óptica Backbone (594 km)**
 **Funcionalidades:**
@@ -364,12 +364,12 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 
 **Gestión de Permisos (ANE):**
 - Trámite de asignación de frecuencias TETRA
-- Trámite de asignación de frecuencias GSM-R
+- Trámite de asignación de frecuencias TETRA
 - Permisos de instalación ante ANE
 
 #### **7.3.3 Fase 3 - Instalación y Puesta en Servicio (Mes 13-18)**
 - Instalación de equipos TETRA en las estaciones
-- Instalación de equipos GSM-R colocalizados
+- Instalación de equipos TETRA colocalizados
 - Conexión a red de fibra óptica
 - Pruebas de cobertura y calidad de servicio
 
@@ -387,7 +387,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - ITCS FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + GSM-R dual
+- Radio TETRA + TETRA dual
 
 #### **7.4.3 Protocolos de Interoperabilidad**
 - **UIC:** Estándares internacionales para interoperabilidad
@@ -408,7 +408,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los predios necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
 | **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos UIC para interoperabilidad** | ✅ Definido |
-| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + GSM-R con GPS integrado para cada locomotora.<br>- **Interfaz ITCS ETCS Level 2 hasta AT3** | ✅ Definido |
+| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + TETRA con GPS integrado para cada locomotora.<br>- **Interfaz ITCS ETCS Level 2 hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 
 ### **8.2 Indicadores de Riesgo**
@@ -426,7 +426,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 ## 9. OBJETIVOS DE DISEÑO (ANÁLISIS DE VALOR)
 
 ### 9.1 Optimización de Infraestructura Compartida
-*   Colocación de estaciones base TETRA y GSM-R en la misma torre para minimizar huella ambiental y costos prediales.
+*   Colocación de estaciones base TETRA y TETRA en la misma torre para minimizar huella ambiental y costos prediales.
 *   Uso de estaciones repetidoras alimentadas por energía solar en puntos remotos para evitar redes eléctricas extensas.
 
 ### 9.2 Definiciones Críticas Pendientes
@@ -485,7 +485,7 @@ El dimensionamiento final de la red de radio se cerrará tras:
 ### 12.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Actualización de TETRA de 33 a 37 estaciones
-- ✅ Implementación de GSM-R como redundancia
+- ✅ Implementación de TETRA como redundancia
 - ✅ Ajuste de cobertura con solapamiento 15-20%
 - ✅ Actualización de fibra óptica a 594 km
 - ✅ Verificación de coherencia técnica 100%
@@ -495,7 +495,7 @@ El dimensionamiento final de la red de radio se cerrará tras:
 - **Auditoría base:** AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md
 - **Fecha de alineación:** Enero 2025
 - **Responsable:** Administrador Contractual EPC
-- **Impacto presupuestal:** +$8,314,000,000 COP (TETRA + GSM-R)
+- **Impacto presupuestal:** +$8,314,000,000 COP (TETRA + TETRA)
 - **Metodología aplicada:** v5.0 - Coherencia Técnica Verificada
 
 ### 12.3 Próxima Revisión

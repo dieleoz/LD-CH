@@ -34,7 +34,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 | Componente | Cantidad | Función | Redundancia |
 |:---|:---:|:---|:---:|
 | **Procesador STM** | 2 | Lógica de control principal | 1+1 |
-| **Módulo de comunicación** | 2 | GSM-R y Eurobalise | 1+1 |
+| **Módulo de comunicación** | 2 | TETRA y Eurobalise | 1+1 |
 | **DMI (Driver Machine Interface)** | 1 | Interfaz conductor | - |
 | **Sistema de posición** | 2 | GPS + odometría | 1+1 |
 | **Interfaz de freno** | 2 | Control de frenos | 1+1 |
@@ -73,7 +73,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 - **EMC:** EN 50121-3-2
 
 ### 3.2 Módulo de comunicación
-**GSM-R:**
+**TETRA:**
 - **Frecuencia:** 876-880 MHz (uplink), 921-925 MHz (downlink)
 - **Potencia:** 2W máximo
 - **Antena:** Omnidireccional, ganancia 3 dBi
@@ -375,7 +375,7 @@ Este documento especifica el sistema STM (Specific Transmission Module) embarcad
 ### 10.1 Pruebas de unidad
 **Componentes individuales:**
 - **Procesador STM:** Funcionalidad y rendimiento
-- **Módulo de comunicación:** GSM-R y Eurobalise
+- **Módulo de comunicación:** TETRA y Eurobalise
 - **DMI:** Interfaz y usabilidad
 - **Sistema de posición:** Precisión y confiabilidad
 - **Control de frenos:** Efectividad y seguridad

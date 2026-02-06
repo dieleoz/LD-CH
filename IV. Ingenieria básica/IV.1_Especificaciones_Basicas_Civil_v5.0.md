@@ -76,7 +76,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -102,7 +102,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 - ✅ Obra civil ENCE (5 estaciones)
 - ✅ Obra civil desvíos (120 total)
 - ✅ Obra civil sistemas virtuales
-- ✅ Obra civil GSM-R (37 estaciones)
+- ✅ Obra civil TETRA (37 estaciones)
 
 ### 2.5 Propagación Requerida
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
@@ -131,7 +131,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 ### 3.3 Interfaces Críticas
 - **Obra Civil ↔ Sistemas Virtuales:** Infraestructura para sistemas de señalización virtual
 - **Obra Civil ↔ ENCE:** Infraestructura para 5 enclavamientos electrónicos
-- **Obra Civil ↔ TETRA + GSM-R:** Infraestructura para 37 estaciones de cada sistema
+- **Obra Civil ↔ TETRA + TETRA:** Infraestructura para 37 estaciones de cada sistema
 - **Obra Civil ↔ Fibra Óptica:** Infraestructura para red de comunicaciones
 - **Obra Civil ↔ CTC:** Infraestructura para centro de control
 
@@ -146,7 +146,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -157,7 +157,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -188,7 +188,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 **Componentes:**
 - CCO La Dorada (850 m² + 250 m² sala control)
 - Estaciones ENCE (5 estaciones)
-- Torres TETRA + GSM-R (37 torres)
+- Torres TETRA + TETRA (37 torres)
 - Casetas de equipos
 
 #### **4.2.3 Obra Civil para Sistemas Virtuales**
@@ -239,7 +239,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -254,7 +254,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -356,7 +356,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 | Tipo | Cantidad | Especificación |
 |:-----|:---------|:---------------|
 | **Casetas TETRA** | 37 | 6m × 4m × 3m |
-| **Casetas GSM-R** | 37 | 6m × 4m × 3m |
+| **Casetas TETRA** | 37 | 6m × 4m × 3m |
 | **Casetas fibra óptica** | 34 | 4m × 3m × 2.8m |
 | **Material** | Prefabricado | Climatizado, seguro |
 
@@ -505,7 +505,7 @@ Este documento establece las especificaciones básicas de obra civil y estructur
 - **TOTAL AGREGAR:** +$2,600,000,000 COP
 
 ### **10.3 Ajustes de Cantidades**
-- **TETRA + GSM-R:** +$200,000,000 COP (74 torres total)
+- **TETRA + TETRA:** +$200,000,000 COP (74 torres total)
 - **Fibra Óptica:** +$100,000,000 COP (594 km)
 - **TOTAL AJUSTAR:** +$300,000,000 COP
 

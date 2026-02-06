@@ -68,7 +68,7 @@
 
 ### **RIESGO R-INFO-003: Material Rodante**
 
-**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (ATP, TETRA, GSM-R).
+**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (ATP, TETRA, TETRA).
 
 **Probabilidad:** MEDIA (40%)  
 **Impacto:** ALTO (4) - Retrasa embarcados  

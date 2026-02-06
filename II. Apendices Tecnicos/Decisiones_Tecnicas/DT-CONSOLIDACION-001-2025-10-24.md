@@ -19,7 +19,7 @@ El **ATP embarcado** está documentado en DOS lugares de la WBS:
 
 2. **CAPÍTULO 6.1** (Material Rodante):
    - Kit completo embarcado
-   - Items 6.1.100 a 6.1.106 (Sistema ATP, TETRA, GSM-R, GPS, Redundancia, Instalación, Repuestos)
+   - Items 6.1.100 a 6.1.106 (Sistema ATP, TETRA, TETRA, GPS, Redundancia, Instalación, Repuestos)
    - **Subtotal: $6,468,000,000 COP**
 
 ### **Causa raíz:**
@@ -76,7 +76,7 @@ PROPUESTA (CONSOLIDADO):
 2. **CAP 6.1 ya es COMPLETO** ($6,468M vs $3,520M del CAP 1.2)
 3. **Sin pérdida funcional:** CAP 6.1 incluye:
    - Sistema ATP embarcado ($3,200M) ← INCLUYE todos los componentes de 1.2.100-106
-   - Radios TETRA/GSM-R embarcados ($960M)
+   - Radios TETRA/TETRA embarcados ($960M)
    - GPS ($280M)
    - Redundancia ($640M)
    - Instalación y configuración ($800M)
@@ -151,7 +151,7 @@ PROPUESTA (CONSOLIDADO):
 **Según documentación técnica:**
 - **6.1.100 "Sistemas ATP embarcados" ($3,200M)** = Kit completo ATP por locomotora
 - **Incluye:** Computadora ATP + Display + Sensores + Software + Interfaces frenos
-- **6.1.101-102:** Radios TETRA/GSM-R (componentes ADICIONALES de comunicación)
+- **6.1.101-102:** Radios TETRA/TETRA (componentes ADICIONALES de comunicación)
 - **6.1.103:** GPS ($280M) ← **DUPLICADO** con 1.2.103
 - **6.1.104:** Redundancia ($640M) vs 1.2.106 ($400M) ← **DIFERENTE VALOR**
 

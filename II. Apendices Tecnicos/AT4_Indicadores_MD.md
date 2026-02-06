@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 4 - INDICADORES DE DESEMPEÑO
+# APÉNDICE TÉCNICO 4 - INDICADORES DE DESEMPEÑO
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -304,7 +304,7 @@ Proxima actualizacion: 27/02/2025
    - **Disponibilidad FENOCO:** Indicadores de disponibilidad de interoperabilidad
 
 3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN INDICADORES DE DESEMPEÑO:**
-   - **Disponibilidad 99.95%:** Indicadores específicos de cumplimiento de disponibilidad
+   - **Disponibilidad 99.5%:** Indicadores específicos de cumplimiento de disponibilidad
    - **SICC AT4:** Sistema de monitoreo continuo de indicadores AT4
    - **Métricas AT4:** Criterios de medición de disponibilidad por sistema
    - **Reportes AT4:** Evidencias de cumplimiento contractual
@@ -332,7 +332,7 @@ Proxima actualizacion: 27/02/2025
 
 1. **Falta de indicadores ITCS:** Agregados indicadores específicos para sistemas ITCS ETCS Level 2
 2. **Ausencia de indicadores FENOCO:** Incluidos indicadores de interoperabilidad con FENOCO
-3. **Criterios AT4 incompletos:** Ampliados indicadores de disponibilidad 99.95%
+3. **Criterios AT4 incompletos:** Ampliados indicadores de disponibilidad 99.5%
 4. **Ciberseguridad no especificada:** Agregados indicadores de seguridad
 5. **Redundancia no definida:** Establecidos indicadores de sistemas redundantes
 6. **SICC incompleto:** Ampliado sistema de monitoreo para todos los sistemas
@@ -341,7 +341,7 @@ Proxima actualizacion: 27/02/2025
 
 | R-319 | Alineación Técnica AT3 | Técnico | Baja | Alto | Garantizar que el SICC refleje el estándar PTC del AT3_MD v5.0. |
 | R-320 | Interoperabilidad FENOCO | Técnico | Media | Alto | Indicadores vinculados al procedimiento **Stop & Switch**. |
-| R-321 | Disponibilidad 99.95% | Contractual | Baja | Alto | Monitoreo estricto para evitar penalidades de la Cl. 16.1. |
+| R-321 | Disponibilidad 99.5% | Contractual | Baja | Alto | Monitoreo estricto para evitar penalidades de la Cl. 16.1. |
 | R-322 | Ciberseguridad (SL-3) | Técnico | Media | Alto | Indicadores de cumplimiento NIST/IEC 62443. |
 | R-323 | Redundancia N+1 | Técnico | Media | Alto | Verificación de conmutación automática en servidores críticos. |
 | R-324 | SICC 100% Operativo | Técnico | Media | Alto | Única fuente de verdad para la retribución mensual. |
@@ -352,7 +352,7 @@ Proxima actualizacion: 27/02/2025
 |:---|:---|:---|:---|:---:|
 | **ITCS Indicadores** | 9.1, 14.1 | AT3 | ETCS Level 2 | ✅ Implementado |
 | **FENOCO Indicadores** | 9.1, 14.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 Indicadores** | 9.1, 14.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
+| **AT4 Indicadores** | 9.1, 14.1 | AT4 | Disponibilidad 99.5% | ✅ Implementado |
 | **Ciberseguridad Indicadores** | 9.1, 14.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia Indicadores** | 9.1, 14.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
 | **SICC** | 9.1, 14.1 | AT4 | Sistema de monitoreo | ✅ Implementado |
@@ -368,9 +368,9 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
+| **ITCS ETCS Level 2** | 99.5% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 100% compatible | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad AT4** | 99.5% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
 | **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
 | **SICC** | 100% operativo | Diario | Ing. Sistemas | 🟢 En progreso |
@@ -397,7 +397,7 @@ Proxima actualizacion: 27/02/2025
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
 - **ITCS ETCS Level 2** en indicadores de desempeño
 - **Interoperabilidad FENOCO** en métricas de interoperabilidad
-- **Criterios AT4** con indicadores de disponibilidad 99.95%
+- **Criterios AT4** con indicadores de disponibilidad 99.5%
 - **Ciberseguridad** con indicadores de seguridad
 - **Redundancia N+1** en métricas de alta disponibilidad
 - **SICC** con sistema de monitoreo completo
@@ -410,7 +410,7 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 **Documento:** AT4_Indicadores_MD.md (v4.1)
 **Dictamen:** 📊 APROBADO CON ALERTAS DE RIESGO FINANCIERO
 
-Este documento es el "Motor Financiero" del proyecto. Define las reglas matemáticas para el pago de la Retribución y las Deducciones. Moderniza el esquema con Metodología Punto 42 (ITCS, Ciberseguridad) pero eleva la vara de cumplimiento (99.95%).
+Este documento es el "Motor Financiero" del proyecto. Define las reglas matemáticas para el pago de la Retribución y las Deducciones. Moderniza el esquema con Metodología Punto 42 (ITCS, Ciberseguridad) pero eleva la vara de cumplimiento (99.5%).
 
 ---
 
@@ -452,7 +452,7 @@ Este documento es el "Motor Financiero" del proyecto. Define las reglas matemát
 ### ✅ VEREDICTO FINAL
 **AT4_Indicadores_MD.md** es una herramienta de gestión crítica.
 *   **Estado:** Listo para implementación.
-*   **Advertencia:** Los umbrales (99.5% - 99.95%) requieren redundancia. Presupuesto O&M debe reflejar costos de respuesta rápida.
+*   **Advertencia:** Los umbrales (99.5% - 99.5%) requieren redundancia. Presupuesto O&M debe reflejar costos de respuesta rápida.
 
 ⚠️ **ADVERTENCIA LEGAL:** Las deducciones son automáticas sobre la factura semestral. El monitoreo en tiempo real (SICC) es la única defensa efectiva.
 

@@ -74,7 +74,7 @@ Beneficios:
 
 **Desglose:**
 - Cajas backbone: 1,980 unidades (cada 300m)
-- Cajas en estaciones: 37 unidades (Torres TETRA/GSM-R)
+- Cajas en estaciones: 37 unidades (Torres TETRA/TETRA)
 - Cajas en subestaciones: 15 unidades
 - Cajas en cruces críticos: 36 unidades
 

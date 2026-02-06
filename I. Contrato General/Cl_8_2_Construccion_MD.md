@@ -1,4 +1,4 @@
-﻿﻿﻿﻿# SECCIÓN 9.5 (CONSTRUCCIÓN) y SECCIÓN 8.2 (REVISIÓN ABREVIADA) - GESTIÓN DE OBRAS
+﻿﻿﻿# SECCIÓN 9.5 (CONSTRUCCIÓN) y SECCIÓN 8.2 (REVISIÓN ABREVIADA) - GESTIÓN DE OBRAS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -501,7 +501,7 @@ Proxima actualizacion: 27/02/2025
    - **SICC integrado:** Monitoreo y evidencia para disponibilidad desde construcción
    - **Telemetría:** Logs automáticos y reportes para indicadores contractuales
    - **Redundancia N+1:** Implementación de arquitectura redundante
-   - **Pruebas de disponibilidad:** Validación de 99.95% en pruebas SAT
+   - **Pruebas de disponibilidad:** Validación de 99.5% en pruebas SAT
 
 4. **🔒 CIBERSEGURIDAD EN CONSTRUCCIÓN:**
    - **Estándares NIST/IEC 62443:** Implementación durante instalación
@@ -562,7 +562,7 @@ Proxima actualizacion: 27/02/2025
 |:---|:---:|:---:|:---|:---:|
 | **ITCS ETCS Level 2** | 100% montado | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | Pruebas SAT | Mensual | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% SAT | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad AT4** | 99.5% SAT | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | NIST/IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
 | **Redundancia N+1** | 100% sistemas críticos | Semanal | Ing. Sistemas | 🟢 En progreso |
 

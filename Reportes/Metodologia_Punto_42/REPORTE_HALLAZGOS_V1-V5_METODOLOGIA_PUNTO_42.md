@@ -83,7 +83,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 ### **V.3 - Sistemas de Comunicación**
 
 #### **✅ FORTALEZAS**
-- **Contenido técnico completo:** GSM-R, fibra óptica, TETRA, VSAT
+- **Contenido técnico completo:** TETRA, fibra óptica, TETRA, VSAT
 - **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025

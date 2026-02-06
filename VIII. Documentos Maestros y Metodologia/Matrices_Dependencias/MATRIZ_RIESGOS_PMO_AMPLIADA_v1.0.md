@@ -200,7 +200,7 @@ SUP-FIBRA-001 (Supuesto crítico)
 | Riesgos críticos abiertos | 0 | Semanal | PMO | Estado=Activo, Impacto=Alto |
 | Riesgos de Decisiones Técnicas | < 5 activos | Mensual | Especialistas | Origen_Decisión != N/A |
 | Riesgos próximos a verificar | Todos | Semanal | PMO | Hito_Verificación = [próximo mes] |
-| Cumplimiento AT4 | 99.95% | Diario | Ing. Sistemas | Categoría=Contractual |
+| Cumplimiento AT4 | 99.5% | Diario | Ing. Sistemas | Categoría=Contractual |
 
 ---
 

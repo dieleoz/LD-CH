@@ -185,7 +185,7 @@
 - 🔴 **Menciona CTC protocolo Adif - español**
 - ❌ **NO menciona ITCS ni ETCS Level 2**
 - ✅ Normas TETRA (radio) - europeas EN 300 xxx
-- ✅ Normas GSM-R - no especificadas directamente
+- ✅ Normas TETRA - no especificadas directamente
 
 **BLOCKER CONFIRMADO:** Indefinición ITCS/ETCS L2
 
@@ -194,7 +194,7 @@
 ### **AT4 - INDICADORES** (141 KB)
 
 **Contenido:**
-- Indicadores de disponibilidad (AT4 - 99.95%)
+- Indicadores de disponibilidad (AT4 - 99.5%)
 - KPIs contractuales
 - Penalidades
 
@@ -416,12 +416,12 @@ FECHA LÍMITE RESPUESTA: 15-Nov-2025 (Mes 5)
 **AT3 §8.4-8.6:**
 - ✅ **TETRA:** Normas EN 300 xxx (europeas) - Sistema principal
 - ✅ **Fibra Óptica:** UIT-T G.652 (estándar internacional)
-- ⚠️ **GSM-R:** NO mencionado explícitamente
+- ⚠️ **TETRA:** NO mencionado explícitamente
 - ✅ **Radio:** Normas TETRA detalladas
 
 **HALLAZGO:**
-- Base datos menciona "GSM-R" pero AT3 NO lo especifica
-- ¿GSM-R es obligatorio o opcional?
+- Base datos menciona "TETRA" pero AT3 NO lo especifica
+- ¿TETRA es obligatorio o opcional?
 
 ---
 
@@ -453,7 +453,7 @@ FECHA LÍMITE RESPUESTA: 15-Nov-2025 (Mes 5)
    - Hitos de entrega
 
 3. **AT4 - Indicadores:**
-   - Disponibilidad 99.95%
+   - Disponibilidad 99.5%
    - Penalidades
    - Criterios de medición
 

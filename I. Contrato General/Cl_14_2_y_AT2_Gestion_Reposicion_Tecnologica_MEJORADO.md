@@ -1,4 +1,4 @@
-﻿# SECCIONES 14.2, 14.4 y APÉNDICE TÉCNICO 2 (3.1.8) - GESTIÓN DEL CICLO DE VIDA DE SISTEMAS TECNOLÓGICOS
+# SECCIONES 14.2, 14.4 y APÉNDICE TÉCNICO 2 (3.1.8) - GESTIÓN DEL CICLO DE VIDA DE SISTEMAS TECNOLÓGICOS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -494,7 +494,7 @@ He realizado la validación forense cruzada del análisis sobre el archivo (v5.0
 *   **Impacto Financiero:** El Concesionario debe presupuestar ciclos de **Tech Refresh** (Año 6 aprox). Fallar afecta el indicador E3 (Disponibilidad SICC) que pesa un 7.77% de la retribución (AT4).
 
 ### �️ 2. MANTENIMIENTO PREDICTIVO Y CIBERSEGURIDAD
-*   **Herramienta de Disponibilidad:** Se valida el uso de mantenimiento predictivo (vibración/temperatura) para asegurar el 99.95%.
+*   **Herramienta de Disponibilidad:** Se valida el uso de mantenimiento predictivo (vibración/temperatura) para asegurar el 99.5%.
 *   **Ciberseguridad:** El mantenimiento incluye actualizaciones de seguridad (parches) mensuales (IEC 62443). No es opcional.
 
 ### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO

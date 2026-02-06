@@ -43,7 +43,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | UIC 918-4 / Siemens Trainguard | ❌ FENOCO NO compartió | EPC + FENOCO |
-| **Medio físico** | GSM-R + Ethernet redundante | ✅ Estándar | EPC Telecomunicaciones |
+| **Medio físico** | TETRA + Ethernet redundante | ✅ Estándar | EPC Telecomunicaciones |
 | **Mensajes** | Posición, estado, comandos | ❌ Formato desconocido | **Requiere FENOCO** |
 | **Frecuencia** | 10 seg (según UIC) | ✅ Estándar | - |
 | **Seguridad** | Cifrado AES-256 + VPN | ✅ Definido | EPC Ciberseguridad |
@@ -55,14 +55,14 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ---
 
-### **IF-03: TETRA ↔ GSM-R (Gateway Dual)** 🟡 MEDIA
+### **IF-03: TETRA ↔ TETRA (Gateway Dual)** 🟡 MEDIA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | SIP (voz) + TETRA DMO | 🟡 Conceptual | EPC Telecomunicaciones |
 | **Medio físico** | Gateway embarcado dual | 🟡 Conceptual | EPC |
 | **Funcionalidad** | Conmutación automática voz | ✅ Definido | EPC |
-| **Cobertura** | Automática (TETRA zona + GSM-R corredor) | ✅ Definido | - |
+| **Cobertura** | Automática (TETRA zona + TETRA corredor) | ✅ Definido | - |
 | **Pruebas** | Zona sin cobertura → Conmutación | 🟡 Plan conceptual | EPC |
 
 **Criticidad:** 🟡 MEDIA (Mejora operativa, no crítica)  

@@ -264,7 +264,7 @@ Abrir: IX. WBS y Planificacion/WBS_Layout_Maestro.html
 ```javascript
 🎯 Tipo de Equipo (Categoría): TELECOMUNICACIONES
    ↓ (filtra automáticamente)
-🏗️ Sistema: Fibra, TETRA, ODF, Nodo, GSM-R
+🏗️ Sistema: Fibra, TETRA, ODF, Nodo, TETRA
    ↓ (búsqueda inteligente)
 📍 UFV: Todas las UFVs o específica
    ↓
@@ -421,7 +421,7 @@ Cable fibra óptica: 594 km
 // Cuando usuario selecciona "Tipo de Equipo"
 actualizarFiltrosSistema() {
   // Filtra opciones de "Sistema" según el tipo
-  TELECOMUNICACIONES → [TETRA, Fibra, ODF, Nodo, GSM-R, ...]
+  TELECOMUNICACIONES → [TETRA, Fibra, ODF, Nodo, TETRA, ...]
   CONTROL → [CTC, RBC, ENCE, Baliza, ...]
   EQUIPO ITS → [CCTV, HBD, WILD, Detector, ...]
 }

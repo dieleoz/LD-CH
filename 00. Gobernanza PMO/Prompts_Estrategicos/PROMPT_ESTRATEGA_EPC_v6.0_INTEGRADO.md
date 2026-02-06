@@ -35,7 +35,7 @@ Cualquier acción debe estar anclada a la **Fuente Única de Verdad (SSOT)**:
 - **Fibra:** 594 km (1 costado + 10% reserva).
 - **PN Equitados:** 24 (9 C + 15 B). Pasivos: 122 Tipo A (0 contadores).
 - **Señalización:** VIRTUAL (0 eurobalises, 0 señales vía LED, 0 RBC).
-- **Equipos:** 37 TETRA/GSM-R, 96 Contadores de Ejes, 15 Locomotoras, 73 Cámaras CCTV.
+- **Equipos:** 37 TETRA/TETRA, 96 Contadores de Ejes, 15 Locomotoras, 73 Cámaras CCTV.
 
 ---
 

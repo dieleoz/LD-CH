@@ -16,7 +16,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 | **25.1_WBS_ESPECIALIDADES** | ✅ Validado | Estructura de desglose final. Ahorro neto de $40.5B COP. KPI 99.5%. | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
-| **23_ListadoMaestro_Sistemas_v5.0** | ⚠️ Condicionado | Ahorro validado de $50kM COP. Alerta por GSM-R (Gold Plating) y viabilidad de 0 balizas. | 95% |
+| **23_ListadoMaestro_Sistemas_v5.0** | ⚠️ Condicionado | Ahorro validado de $50kM COP. Alerta por TETRA (Gold Plating) y viabilidad de 0 balizas. | 95% |
 | **24_Matriz_Trazabilidad...** | ✅ Validado | Establece la jerarquía: Contrato > Apéndices > Anexos. Trazabilidad total con AT1-AT10. | 100% |
 | **25_WBS_IngenieriaConceptual** | ✅ Validado | Organiza el trabajo en 5 paquetes principales cumpliendo la Cláusula 8.1. | 100% |
 | **29_Sistema_Senalizacion_v5.0** | ⭐ Crítico | Confirma la Filosofía de Señalización Virtual y los 5 enclavamientos electrónicos (ENCE). | 100% |
@@ -48,9 +48,9 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 - **Contenido:** Cuantificación total del alcance físico (Phase 7).
 - **Ahorro Estratégico:** Valida la eliminación de 1.080 balizas y 270 señales LED (~$50.193 millones COP).
 - **Riesgo Tecnológico:** El esquema de "0 balizas" requiere una Decisión Técnica (DT) que avale el posicionamiento satelital (PTC) sobre el estándar ETCS L2.
-- **Gold Plating:** Se ha **ELIMINADO el sistema GSM-R** ($3.484M COP) tras confirmar que es un sobrecosto no obligatorio por AT3 (solo exige TETRA).
+- **Gold Plating:** Se ha **ELIMINADO el sistema TETRA** ($3.484M COP) tras confirmar que es un sobrecosto no obligatorio por AT3 (solo exige TETRA).
 - **KPI Correction:** Se ajusta la disponibilidad al **99.5%** para evitar sobrecostos en infraestructura Tier IV.
-- **Veredicto:** VIGENTE como base de presupuesto, condicionado a la resolución de la DT de balizas y justificación de GSM-R.
+- **Veredicto:** VIGENTE como base de presupuesto, condicionado a la resolución de la DT de balizas y justificación de TETRA.
 
 ### 5. [24] Matriz de Trazabilidad...
 - **Dictamen:** **APROBADO (TRAZABILIDAD CONTRACTUAL COMPLETA)**.

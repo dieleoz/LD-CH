@@ -1,4 +1,4 @@
-﻿# OPERACIÓN, MANTENIMIENTO Y REVERSIÓN - FASE 4-5
+# OPERACIÓN, MANTENIMIENTO Y REVERSIÓN - FASE 4-5
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  

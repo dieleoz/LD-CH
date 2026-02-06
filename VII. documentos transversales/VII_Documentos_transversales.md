@@ -1,4 +1,4 @@
-﻿# DOCUMENTOS TRANSVERSALES - METODOLOGÍAS Y GESTIÓN v14.7
+# DOCUMENTOS TRANSVERSALES - METODOLOGÍAS Y GESTIÓN v14.7
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 11 de Octubre 2025 (v14.7.1)  

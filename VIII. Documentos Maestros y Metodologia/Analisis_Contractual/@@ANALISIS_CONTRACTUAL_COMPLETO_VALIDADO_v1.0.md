@@ -170,7 +170,7 @@
 2. **Telecomunicaciones:**
    - Red TETRA 100% cobertura (normas EN 300 xxx)
    - Fibra Óptica 10 Gbps (UIT-T G.652)
-   - ⚠️ GSM-R: NO mencionado explícitamente en AT3
+   - ⚠️ TETRA: NO mencionado explícitamente en AT3
 
 3. **ITS y Seguridad:**
    - 200 Cámaras CCTV
@@ -192,7 +192,7 @@
 ### **INDICADORES CONTRACTUALES (AT4):**
 
 **KPIs Obligatorios:**
-- Disponibilidad Sistemas Críticos (CTC, Señalización): ≥ **99.95%**
+- Disponibilidad Sistemas Críticos (CTC, Señalización): ≥ **99.5%**
 - Disponibilidad Sistemas No Críticos (TETRA, CCTV): ≥ **99.5%**
 - Disponibilidad SICC: ≥ **99.5%**
 - Calidad de Servicio (cobertura, latencia): Según especificaciones
@@ -291,15 +291,15 @@
 
 ---
 
-### **6. GSM-R: NO mencionado en AT3**
-- Base datos incluye GSM-R
+### **6. TETRA: NO mencionado en AT3**
+- Base datos incluye TETRA
 - AT3 solo menciona TETRA
-- **¿GSM-R es obligatorio?** ⏳
+- **¿TETRA es obligatorio?** ⏳
 - **Acción:** Clarificar con ANI
 
 ---
 
-### **7. Indicadores: AT4 - 99.95% disponibilidad**
+### **7. Indicadores: AT4 - 99.5% disponibilidad**
 - Sistemas críticos: CTC, Señalización
 - Requiere redundancia N+1 obligatoria
 - UPS 4h autonomía mínimo
@@ -364,11 +364,11 @@ CRITICIDAD: 🟠 ALTA - Gateway sin specs
 PLAZO RESPUESTA: Mes 6 (15-Dic-2025)
 ```
 
-### **Oficio 4 - Clarificación GSM-R:**
+### **Oficio 4 - Clarificación TETRA:**
 ```
-ASUNTO: Confirmación Sistema GSM-R (NO mencionado AT3)
+ASUNTO: Confirmación Sistema TETRA (NO mencionado AT3)
 REF: AT3 §8.4-8.5 - Solo menciona TETRA
-CRITICIDAD: 🟡 MEDIA - Base datos incluye GSM-R
+CRITICIDAD: 🟡 MEDIA - Base datos incluye TETRA
 PLAZO RESPUESTA: Mes 6
 ```
 

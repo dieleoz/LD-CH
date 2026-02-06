@@ -1,4 +1,4 @@
-﻿﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO v7.0 - PHASE 7
+﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 **Versión:** 7.0 (Phase 7)  

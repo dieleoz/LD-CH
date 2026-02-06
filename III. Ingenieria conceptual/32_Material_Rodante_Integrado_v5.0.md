@@ -419,7 +419,7 @@ Pruebas y Certificación (Mes 12):**
 **Cambios implementados:**
 - ✅ Implementación de sistema EOT (15 dispositivos)
 - ✅ Integración EOT con ATP embarcado
-- ✅ Radios GSM-R embarcados
+- ✅ Radios TETRA embarcados
 - ✅ Verificación de coherencia técnica 100%
 
 ### 11.2 Trazabilidad de Cambios

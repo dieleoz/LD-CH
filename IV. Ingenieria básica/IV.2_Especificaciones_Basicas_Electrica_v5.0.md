@@ -77,7 +77,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -101,7 +101,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
 - ✅ Alimentación ENCE (5 estaciones)
-- ✅ Alimentación GSM-R (37 estaciones)
+- ✅ Alimentación TETRA (37 estaciones)
 - ✅ Alimentación sistemas virtuales
 - ✅ Alimentación EOT (15 dispositivos)
 
@@ -133,7 +133,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 ### 3.3 Interfaces Críticas
 - **Sistemas Eléctricos ↔ Sistemas Virtuales:** Alimentación para sistemas de señalización virtual
 - **Sistemas Eléctricos ↔ ENCE:** Alimentación para 5 enclavamientos electrónicos
-- **Sistemas Eléctricos ↔ TETRA + GSM-R:** Alimentación para 37 estaciones de cada sistema
+- **Sistemas Eléctricos ↔ TETRA + TETRA:** Alimentación para 37 estaciones de cada sistema
 - **Sistemas Eléctricos ↔ Fibra Óptica:** Alimentación para red de comunicaciones
 - **Sistemas Eléctricos ↔ CTC:** Alimentación para centro de control
 
@@ -148,7 +148,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -159,7 +159,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -241,7 +241,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -256,7 +256,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -310,23 +310,23 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 #### **7.1.2 Fuentes de Alimentación**
 | Fuente | Capacidad | Tipo | Disponibilidad |
 |:-------|:----------|:-----|:---------------|
-| **Alimentación principal** | 800 kVA | Red eléctrica | 99.95% |
-| **UPS** | 400 kVA | Sistema ininterrumpida | 99.95% |
-| **Generador** | 600 kVA | Diesel | 99.95% |
-| **Baterías** | 200 kVA | Plomo-ácido | 99.95% |
+| **Alimentación principal** | 800 kVA | Red eléctrica | 99.5% |
+| **UPS** | 400 kVA | Sistema ininterrumpida | 99.5% |
+| **Generador** | 600 kVA | Diesel | 99.5% |
+| **Baterías** | 200 kVA | Plomo-ácido | 99.5% |
 
 ### **7.2 Sistemas con Requerimientos Eléctricos (Actualizados según Criterios Maestros)**
 
 | Sistema | Componente Eléctrico | Requerimiento | Base Contractual | Disponibilidad AT4 | Observaciones |
 |:--------|:---------------------|:---------------|:-----------------|:-------------------|:---------------|
-| **CTC** | Centro de Control de Tráfico | - Alimentación principal 480V/60Hz<br>- UPS N+1 (4 horas autonomía)<br>- Aire acondicionado 24/7<br>- Iluminación de emergencia | AT1, AT2, AT4 | 99.95% | Sistema crítico |
+| **CTC** | Centro de Control de Tráfico | - Alimentación principal 480V/60Hz<br>- UPS N+1 (4 horas autonomía)<br>- Aire acondicionado 24/7<br>- Iluminación de emergencia | AT1, AT2, AT4 | 99.5% | Sistema crítico |
 | **TETRA** | Estaciones Base | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT4 | 99.5% | **37 sitios** |
-| **GSM-R** | Estaciones Base | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT4 | 99.5% | **37 sitios** |
+| **TETRA** | Estaciones Base | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT4 | 99.5% | **37 sitios** |
 | **Fibra Óptica** | Nodos de Transmisión | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT5 | 99.5% | Backbone crítico |
-| **ENCE** | Enclavamientos | - Alimentación 24V DC<br>- UPS N+1 (4 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT3, AT4 | 99.95% | **5 enclavamientos** |
+| **ENCE** | Enclavamientos | - Alimentación 24V DC<br>- UPS N+1 (4 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT3, AT4 | 99.5% | **5 enclavamientos** |
 | **ITS** | Paneles y Sensores | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT6 | 99.5% | Sistemas distribuidos |
 | **CCTV** | Cámaras y VMS | - Alimentación 480V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT8 | 99.5% | **73 cámaras** |
-| **Material Rodante** | Equipos Embarcados | - Alimentación 24V DC<br>- UPS embarcado (1 hora autonomía)<br>- Protección contra rayos | AT1, AT2, AT4, Cl_13.1 | 99.95% | **15 locomotoras + EOT** |
+| **Material Rodante** | Equipos Embarcados | - Alimentación 24V DC<br>- UPS embarcado (1 hora autonomía)<br>- Protección contra rayos | AT1, AT2, AT4, Cl_13.1 | 99.5% | **15 locomotoras + EOT** |
 
 ### **7.3 Criterios de Diseño Eléctrico Unificados**
 
@@ -344,14 +344,14 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 
 | Sistema | Depende de | Tipo de Dependencia | Impacto en Disponibilidad |
 |:--------|:-----------|:-------------------|:-------------------------|
-| **CTC** | Alimentación Principal | Crítica | 99.95% AT4 |
+| **CTC** | Alimentación Principal | Crítica | 99.5% AT4 |
 | **TETRA** | Alimentación Principal | Crítica | 99.5% AT4 |
-| **GSM-R** | Alimentación Principal | Crítica | 99.5% AT4 |
+| **TETRA** | Alimentación Principal | Crítica | 99.5% AT4 |
 | **Fibra Óptica** | Alimentación Principal | Crítica | 99.5% AT4 |
-| **ENCE** | Alimentación Principal | Crítica | 99.95% AT4 |
+| **ENCE** | Alimentación Principal | Crítica | 99.5% AT4 |
 | **ITS** | Alimentación Principal | Crítica | 99.5% AT4 |
 | **CCTV** | Alimentación Principal | Crítica | 99.5% AT4 |
-| **Material Rodante** | Alimentación Embarcada | Crítica | 99.95% AT4 |
+| **Material Rodante** | Alimentación Embarcada | Crítica | 99.5% AT4 |
 
 ---
 
@@ -372,7 +372,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 |:--------|:----------|:-------|:----------|
 | **TS-1 (CTC Virtual)** | 100 kVA | CTC centralizado, ATP embarcado | Sala de equipos |
 | **TS-2 (ENCE)** | 80 kVA | 5 enclavamientos electrónicos | Sala de control |
-| **TS-3 (Comunicaciones)** | 120 kVA | TETRA, GSM-R, Fibra, VSAT | Sala de telecomunicaciones |
+| **TS-3 (Comunicaciones)** | 120 kVA | TETRA, TETRA, Fibra, VSAT | Sala de telecomunicaciones |
 | **TS-4 (Seguridad)** | 80 kVA | CCTV, iluminación, climatización | Distribuido |
 
 ### **8.3 Protecciones Eléctricas**
@@ -478,7 +478,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 
 ### **12.2 Implementaciones Nuevas (Faltante)**
 - **Alimentación ENCE (5 estaciones):** +$600,000,000 COP
-- **Alimentación GSM-R (37 estaciones):** +$1,200,000,000 COP
+- **Alimentación TETRA (37 estaciones):** +$1,200,000,000 COP
 - **Alimentación sistemas virtuales:** +$600,000,000 COP
 - **TOTAL AGREGAR:** +$2,400,000,000 COP
 
@@ -541,7 +541,7 @@ Este documento establece las especificaciones básicas de sistemas eléctricos y
 ### 14.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Actualización de TETRA de 33 a 37 estaciones
-- ✅ Implementación de GSM-R (37 estaciones)
+- ✅ Implementación de TETRA (37 estaciones)
 - ✅ Implementación de ENCE (5 estaciones)
 - ✅ Eliminación de alimentación señales físicas
 - ✅ Eliminación de alimentación eurobalises

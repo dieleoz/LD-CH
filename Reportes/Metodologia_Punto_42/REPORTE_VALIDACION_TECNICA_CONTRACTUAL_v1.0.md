@@ -44,11 +44,11 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 #### **✅ Centro de Control de Tráfico (V.2)**
 - **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS
 - **Capacidad:** 24 trenes simultáneos, 146 km de vía
-- **Disponibilidad:** 99.95% operacional
+- **Disponibilidad:** 99.5% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Comunicación (V.3)**
-- **Componentes:** GSM-R, fibra óptica, TETRA, VSAT
+- **Componentes:** TETRA, fibra óptica, TETRA, VSAT
 - **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
 - **Disponibilidad:** 99.9% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
@@ -144,7 +144,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 |:---:|:---:|:---:|:---:|:---:|
 | **V.1 Señalización** | ✅ Completa | ✅ 9 normas | ✅ ITCS | ✅ Validado |
 | **V.2 CTC** | ✅ Completa | ✅ 10 normas | ✅ FFFIS | ✅ Validado |
-| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ GSM-R/TETRA | ✅ Validado |
+| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ TETRA/TETRA | ✅ Validado |
 | **V.4 Potencia** | ✅ Completa | ✅ 9 normas | ✅ UPS/Gen | ✅ Validado |
 | **V.5 Seguridad** | ✅ Completa | ✅ 13 normas | ✅ CCTV/Incendios | ✅ Validado |
 

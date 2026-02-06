@@ -182,7 +182,7 @@ Filtrar Layout por:
 Nodo_ID: EBT-15
 Equipos:
 ├─ Estación TETRA: 500W
-├─ Estación GSM-R: 300W
+├─ Estación TETRA: 300W
 ├─ Switch: 100W
 ├─ Router: 80W
 ├─ 2 Radios microondas: 300W

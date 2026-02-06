@@ -23,7 +23,7 @@
 - ⚠️ `Plan_Pruebas.md` - Secuencia comisionamiento INDEFINIDA
 
 **Alcance afectado:**
-- 🟡 Sistemas embarcados (ATP, TETRA, GSM-R)
+- 🟡 Sistemas embarcados (ATP, TETRA, TETRA)
 - 🟡 Secuencia de pruebas (no se sabe cuándo habrá locomotoras)
 - 🟡 Cronograma instalación embarcados
 
@@ -51,7 +51,7 @@
 1. ✅ **Diseño estándar sistemas embarcados**
    - Especificaciones ATP embarcado
    - Especificaciones TETRA embarcado
-   - Especificaciones GSM-R embarcado
+   - Especificaciones TETRA embarcado
    - Manual instalación por locomotora
 
 2. ✅ **Secuencia de comisionamiento ADAPTABLE**
@@ -202,7 +202,7 @@ Plazo respuesta: 45 días
 
 SOLICITUD:
 Cronograma de entrega escalonada de 15 locomotoras para
-equipamiento con sistemas embarcados (ATP, TETRA, GSM-R).
+equipamiento con sistemas embarcados (ATP, TETRA, TETRA).
 
 INFORMACIÓN REQUERIDA:
 1. Fecha entrega locomotora piloto

@@ -1,4 +1,4 @@
-﻿{
+{
     "fecha_actualizacion":  "2025-10-09",
     "items_pareto_80":  [
                             "1.1.103",
@@ -238,7 +238,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  1665000000,
-                      "descripcion":  "Estaciones base GSM-R",
+                      "descripcion":  "Estaciones base TETRA",
                       "porcentaje_total":  0.63
                   },
                   {
@@ -458,7 +458,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  750000000,
-                      "descripcion":  "Radios embarcados GSM-R",
+                      "descripcion":  "Radios embarcados TETRA",
                       "porcentaje_total":  0.28
                   },
                   {
@@ -578,7 +578,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  400000000,
-                      "descripcion":  "Radios GSM-R embarcados",
+                      "descripcion":  "Radios TETRA embarcados",
                       "porcentaje_total":  0.15
                   },
                   {
@@ -738,7 +738,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  296000000,
-                      "descripcion":  "Antenas GSM-R",
+                      "descripcion":  "Antenas TETRA",
                       "porcentaje_total":  0.11
                   },
                   {
@@ -838,7 +838,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  185000000,
-                      "descripcion":  "Interfaces TETRA-GSM-R",
+                      "descripcion":  "Interfaces TETRA-TETRA",
                       "porcentaje_total":  0.07
                   },
                   {
@@ -1088,7 +1088,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  80000000,
-                      "descripcion":  "Sistema control GSM-R",
+                      "descripcion":  "Sistema control TETRA",
                       "porcentaje_total":  0.03
                   },
                   {

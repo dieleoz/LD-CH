@@ -1,9 +1,8 @@
-# PLAN DE GESTIÓN DE RIESGOS MAESTRO
+# PLAN DE GESTIÓN DE RIESGOS MAESTRO v7.0 - PHASE 7
 **Proyecto:** APP La Dorada - Chiriguaná  
-**Fecha:** 9 de Octubre 2025  
+**Fecha:** Febrero 2026  
 **Responsable:** PMO / Gestión de Riesgos  
-**Versión:** 1.0  
-**Estado:** ✅ ACTIVO - Gestión continua
+**Estado: ✅ APROBADO (PHASE 7)**
 
 ---
 
@@ -409,7 +408,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 |:---------|:---------|:----------|:-------|:-------------------|
 | **IF-01** | CTC ↔ ITCS | FFFIS / IEC 62278 | ⚠️ Pendiente ITCS | EPC Señalización |
 | **IF-02** | CTC ↔ FENOCO | UIC 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
-| **IF-03** | TETRA ↔ GSM-R | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
+| **IF-03** | TETRA ↔ Redundancia | Gateway dual | ✅ Certificado | EPC Telecomunicaciones |
 | **IF-04** | CTC ↔ SCADA | OPC-UA / Modbus TCP | ✅ Estándar | EPC Automatización |
 | **IF-05** | ATP ↔ Frenos | IEC 61375 (TCN) | ⚠️ Pendiente MR specs | EPC Material Rodante |
 | **IF-06** | CCTV ↔ Fibra | IP/Ethernet | ✅ Estándar | EPC ITS |
@@ -522,6 +521,5 @@ ENTREGABLES REQUERIDOS (Mes 6):
 
 **Elaborado por:** PMO / Gestión de Riesgos  
 **Aprobado por:** [Pendiente Gerente Proyecto]  
-**Fecha actualización:** 9 de Octubre 2025  
+**Fecha actualización:** **v7.0** | Feb/2026 | PMO | **APROBADO - PHASE 7: Saneamiento KPI (99.5%) y Radio (TETRA)**
 **Versión:** 1.0
-

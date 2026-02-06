@@ -193,7 +193,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 ---
 
-### **SOLICITUD 4: Clarificación Sistema GSM-R** 🟡 **MEDIA**
+### **SOLICITUD 4: Clarificación Sistema TETRA** 🟡 **MEDIA**
 
 **REF:** AT3 §8.4-8.5 (Comunicaciones y Radio)
 
@@ -201,20 +201,20 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 **AT3 §8.5 - Radio:**
 - Menciona normas **TETRA** (EN 300 xxx) detalladamente
-- ❌ **NO menciona GSM-R** (Global System for Mobile Communications - Railway)
+- ❌ **NO menciona TETRA** (Global System for Mobile Communications - Railway)
 
 **Base Datos WBS:**
-- Incluye ítems GSM-R (Capítulo 2 - Telecomunicaciones)
+- Incluye ítems TETRA (Capítulo 2 - Telecomunicaciones)
 
 **PROBLEMA:**
-- ⚠️ GSM-R en base datos pero NO en AT3
-- ¿GSM-R es obligatorio o es un error de la base datos?
+- ⚠️ TETRA en base datos pero NO en AT3
+- ¿TETRA es obligatorio o es un error de la base datos?
 
 **SOLICITUD FORMAL:**
 
-**¿Sistema GSM-R es parte del alcance contractual?**
-- Si SÍ → Actualizar AT3 con normas GSM-R
-- Si NO → Eliminar ítems GSM-R de WBS
+**¿Sistema TETRA es parte del alcance contractual?**
+- Si SÍ → Actualizar AT3 con normas TETRA
+- Si NO → Eliminar ítems TETRA de WBS
 
 **PLAZO RESPUESTA:** Mes 6 (15-Dic-2025)
 
@@ -264,7 +264,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 ### **Urgente (Respuesta Mes 6 - 60 días):**
 1. 🔴 Definir sistema control trenes (PTC/ETCS L2/CTC Adif/Híbrido)
 2. 🟠 Facilitar especificaciones FENOCO para doc compatibilidad
-3. 🟡 Clarificar si GSM-R es parte del alcance
+3. 🟡 Clarificar si TETRA es parte del alcance
 
 ### **Media (Respuesta Mes 5 - 45 días):**
 4. 🟡 Cronograma entrega Material Rodante (cantidad, fechas, responsable)

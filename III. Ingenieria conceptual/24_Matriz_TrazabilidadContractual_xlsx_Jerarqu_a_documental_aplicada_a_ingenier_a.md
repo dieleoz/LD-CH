@@ -1,4 +1,4 @@
-﻿**Versión:** 7.0 (Phase 7)  
+**Versión:** 7.0 (Phase 7)  
 **Fecha:** Febrero 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Estado: ✅ APROBADO (BLINDAJE CONTRACTUAL)**  

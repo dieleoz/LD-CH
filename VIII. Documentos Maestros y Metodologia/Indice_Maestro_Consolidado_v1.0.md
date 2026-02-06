@@ -51,7 +51,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 ### **🎯 CRITERIOS TÉCNICOS REFINADOS:**
 - **Señalización Virtual:** CTC + ATP embarcado (eliminada señalización física)
-- **Comunicaciones:** TETRA + GSM-R con redundancia satelital
+- **Comunicaciones:** TETRA + TETRA con redundancia satelital
 - **Fibra Óptica:** 594 km con cajas 80x80 cada 300m (costado derecho)
 - **Puentes:** 4 cajas 80x80 por puente
 - **Equipos:** 1 fusionadora, 1 OTDR, insumos para 200 equipos

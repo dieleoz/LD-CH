@@ -100,7 +100,7 @@
 **Ventajas:**
 - ✅ Tecnología avanzada (automática)
 - ✅ Alta capacidad de tráfico
-- ✅ Comunicación continua GSM-R
+- ✅ Comunicación continua TETRA
 
 **Desventajas:**
 - ❌ Diseñado para metros (no ferrocarril largo)

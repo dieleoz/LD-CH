@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "dispositivo":  "Caja Empalme",
         "nombre":  "CAJA_FO_0001",
@@ -29292,7 +29292,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 1 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -74.054071,
@@ -29304,7 +29304,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 2 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -74.039686,
@@ -29316,7 +29316,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 3 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -74.000507,
@@ -29328,7 +29328,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 4 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.967297,
@@ -29340,7 +29340,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 5 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.933868,
@@ -29352,7 +29352,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 6 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.917722,
@@ -29364,7 +29364,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 7 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.885789,
@@ -29376,7 +29376,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 8 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.866183,
@@ -29388,7 +29388,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 9 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.851981,
@@ -29400,7 +29400,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 10 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.845983,
@@ -29412,7 +29412,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 11 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.852812,
@@ -29424,7 +29424,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 12 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.832784,
@@ -29436,7 +29436,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 13 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.845846,
@@ -29448,7 +29448,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 14 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.846653,
@@ -29460,7 +29460,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 15 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.851576,
@@ -29472,7 +29472,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 16 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.825297,
@@ -29484,7 +29484,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 17 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.804492,
@@ -29496,7 +29496,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 18 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.787485,
@@ -29508,7 +29508,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 19 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.786722,
@@ -29520,7 +29520,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 20 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.796691,
@@ -29532,7 +29532,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 21 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.777725,
@@ -29544,7 +29544,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 22 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.754603,
@@ -29556,7 +29556,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 23 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.728204,
@@ -29568,7 +29568,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 24 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.720775,
@@ -29580,7 +29580,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 25 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.691344,
@@ -29592,7 +29592,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 26 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.660571,
@@ -29604,7 +29604,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 27 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.626691,
@@ -29616,7 +29616,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 28 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.599515,
@@ -29628,7 +29628,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 29 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.57919,
@@ -29640,7 +29640,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 30 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.55547,
@@ -29652,7 +29652,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 31 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.526929,
@@ -29664,7 +29664,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 32 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.518927,
@@ -29676,7 +29676,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 33 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.528196,
@@ -29688,7 +29688,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 34 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.539968,
@@ -29700,7 +29700,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 35 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.55183,
@@ -29712,7 +29712,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 36 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -73.563902,
@@ -29724,7 +29724,7 @@
         "descripcion":  "Item WBS: 2.2.100 - Elemento 37 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Estaciones base GSM-R"
+        "dispositivo":  "Estaciones base TETRA"
     },
     {
         "longitud":  -74.051726,
@@ -29736,7 +29736,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 1 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -74.054071,
@@ -29748,7 +29748,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 2 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -74.039686,
@@ -29760,7 +29760,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 3 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -74.000507,
@@ -29772,7 +29772,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 4 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.967297,
@@ -29784,7 +29784,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 5 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.933868,
@@ -29796,7 +29796,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 6 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.917722,
@@ -29808,7 +29808,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 7 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.885789,
@@ -29820,7 +29820,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 8 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.866183,
@@ -29832,7 +29832,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 9 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.851981,
@@ -29844,7 +29844,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 10 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.845983,
@@ -29856,7 +29856,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 11 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.852812,
@@ -29868,7 +29868,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 12 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.832784,
@@ -29880,7 +29880,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 13 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.845846,
@@ -29892,7 +29892,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 14 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.846653,
@@ -29904,7 +29904,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 15 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.851576,
@@ -29916,7 +29916,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 16 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.825297,
@@ -29928,7 +29928,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 17 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.804492,
@@ -29940,7 +29940,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 18 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.787485,
@@ -29952,7 +29952,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 19 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.786722,
@@ -29964,7 +29964,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 20 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.796691,
@@ -29976,7 +29976,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 21 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.777725,
@@ -29988,7 +29988,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 22 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.754603,
@@ -30000,7 +30000,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 23 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.728204,
@@ -30012,7 +30012,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 24 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.720775,
@@ -30024,7 +30024,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 25 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.691344,
@@ -30036,7 +30036,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 26 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.660571,
@@ -30048,7 +30048,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 27 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.626691,
@@ -30060,7 +30060,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 28 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.599515,
@@ -30072,7 +30072,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 29 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.57919,
@@ -30084,7 +30084,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 30 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.55547,
@@ -30096,7 +30096,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 31 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.526929,
@@ -30108,7 +30108,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 32 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.518927,
@@ -30120,7 +30120,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 33 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.528196,
@@ -30132,7 +30132,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 34 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.539968,
@@ -30144,7 +30144,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 35 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.55183,
@@ -30156,7 +30156,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 36 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -73.563902,
@@ -30168,7 +30168,7 @@
         "descripcion":  "Item WBS: 2.2.101 - Elemento 37 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Antenas GSM-R"
+        "dispositivo":  "Antenas TETRA"
     },
     {
         "longitud":  -74.051726,
@@ -30180,7 +30180,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 1 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -74.051848,
@@ -30192,7 +30192,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 2 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -74.023866,
@@ -30204,7 +30204,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 3 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.975623,
@@ -30216,7 +30216,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 4 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.933868,
@@ -30228,7 +30228,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 5 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.913686,
@@ -30240,7 +30240,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 6 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.874369,
@@ -30252,7 +30252,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 7 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.85452,
@@ -30264,7 +30264,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 8 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.845963,
@@ -30276,7 +30276,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 9 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.849325,
@@ -30288,7 +30288,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 10 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.82733,
@@ -30300,7 +30300,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 11 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.846718,
@@ -30312,7 +30312,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 12 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.851576,
@@ -30324,7 +30324,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 13 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.820993,
@@ -30336,7 +30336,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 14 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.796089,
@@ -30348,7 +30348,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 15 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.784979,
@@ -30360,7 +30360,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 16 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.793232,
@@ -30372,7 +30372,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 17 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.777725,
@@ -30384,7 +30384,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 18 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.747199,
@@ -30396,7 +30396,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 19 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.730884,
@@ -30408,7 +30408,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 20 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.70026,
@@ -30420,7 +30420,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 21 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.653903,
@@ -30432,7 +30432,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 22 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.62108,
@@ -30444,7 +30444,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 23 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.588727,
@@ -30456,7 +30456,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 24 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.561173,
@@ -30468,7 +30468,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 25 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.526929,
@@ -30480,7 +30480,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 26 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.521262,
@@ -30492,7 +30492,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 27 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.535231,
@@ -30504,7 +30504,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 28 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.549452,
@@ -30516,7 +30516,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 29 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -73.563902,
@@ -30528,7 +30528,7 @@
         "descripcion":  "Item WBS: 2.2.102 - Elemento 30 de 30",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Radios embarcados GSM-R"
+        "dispositivo":  "Radios embarcados TETRA"
     },
     {
         "longitud":  -74.051726,
@@ -30540,7 +30540,7 @@
         "descripcion":  "Item WBS: 2.2.103 - Elemento 1 de 1",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Sistema control GSM-R"
+        "dispositivo":  "Sistema control TETRA"
     },
     {
         "longitud":  -74.051726,
@@ -30552,7 +30552,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 1 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -74.054071,
@@ -30564,7 +30564,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 2 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -74.039686,
@@ -30576,7 +30576,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 3 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -74.000507,
@@ -30588,7 +30588,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 4 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.967297,
@@ -30600,7 +30600,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 5 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.933868,
@@ -30612,7 +30612,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 6 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.917722,
@@ -30624,7 +30624,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 7 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.885789,
@@ -30636,7 +30636,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 8 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.866183,
@@ -30648,7 +30648,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 9 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.851981,
@@ -30660,7 +30660,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 10 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.845983,
@@ -30672,7 +30672,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 11 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.852812,
@@ -30684,7 +30684,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 12 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.832784,
@@ -30696,7 +30696,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 13 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.845846,
@@ -30708,7 +30708,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 14 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.846653,
@@ -30720,7 +30720,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 15 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.851576,
@@ -30732,7 +30732,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 16 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.825297,
@@ -30744,7 +30744,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 17 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.804492,
@@ -30756,7 +30756,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 18 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.787485,
@@ -30768,7 +30768,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 19 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.786722,
@@ -30780,7 +30780,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 20 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.796691,
@@ -30792,7 +30792,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 21 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.777725,
@@ -30804,7 +30804,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 22 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.754603,
@@ -30816,7 +30816,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 23 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.728204,
@@ -30828,7 +30828,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 24 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.720775,
@@ -30840,7 +30840,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 25 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.691344,
@@ -30852,7 +30852,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 26 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.660571,
@@ -30864,7 +30864,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 27 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.626691,
@@ -30876,7 +30876,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 28 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.599515,
@@ -30888,7 +30888,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 29 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.57919,
@@ -30900,7 +30900,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 30 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.55547,
@@ -30912,7 +30912,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 31 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.526929,
@@ -30924,7 +30924,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 32 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.518927,
@@ -30936,7 +30936,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 33 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.528196,
@@ -30948,7 +30948,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 34 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.539968,
@@ -30960,7 +30960,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 35 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.55183,
@@ -30972,7 +30972,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 36 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -73.563902,
@@ -30984,7 +30984,7 @@
         "descripcion":  "Item WBS: 2.2.104 - Elemento 37 de 37",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "TELECOMUNICACIONES",
-        "dispositivo":  "Interfaces TETRA-GSM-R"
+        "dispositivo":  "Interfaces TETRA-TETRA"
     },
     {
         "longitud":  -74.051726,
@@ -89100,7 +89100,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 1 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -74.07892,
@@ -89112,7 +89112,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 2 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.965111,
@@ -89124,7 +89124,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 3 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.839917,
@@ -89136,7 +89136,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 4 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.854963,
@@ -89148,7 +89148,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 5 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.796691,
@@ -89160,7 +89160,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 6 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.691344,
@@ -89172,7 +89172,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 7 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.544052,
@@ -89184,7 +89184,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 8 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.559048,
@@ -89196,7 +89196,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 9 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.639775,
@@ -89208,7 +89208,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 10 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.715263,
@@ -89220,7 +89220,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 11 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.706284,
@@ -89232,7 +89232,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 12 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.689494,
@@ -89244,7 +89244,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 13 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.693772,
@@ -89256,7 +89256,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 14 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.658482,
@@ -89268,7 +89268,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 15 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -73.566393,
@@ -89280,7 +89280,7 @@
         "descripcion":  "Item WBS: 6.1.102 - Elemento 16 de 16",
         "ubicacion_lado":  "Centro",
         "tipo_equipo":  "OTROS",
-        "dispositivo":  "Radios GSM-R embarcados"
+        "dispositivo":  "Radios TETRA embarcados"
     },
     {
         "longitud":  -74.26235,

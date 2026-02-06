@@ -94,7 +94,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
 - ✅ Memorias ENCE (Dimensionado según AT1/AT4)
-- ✅ Memorias GSM-R (Dimensionado según AT1/AT4)
+- ✅ Memorias TETRA (Dimensionado según AT1/AT4)
 - ✅ Memorias sistemas virtuales
 - ✅ Memorias EOT (Dimensionado según AT1/AT4)
 
@@ -128,7 +128,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 ### 3.3 Interfaces Críticas
 - **Memorias Diseño ↔ Sistemas Virtuales:** Memorias para sistemas de señalización virtual
 - **Memorias Diseño ↔ ENCE:** Memorias para enclavamientos electrónicos (Dimensionado según AT1/AT4)
-- **Memorias Diseño ↔ TETRA + GSM-R:** Memorias para sistemas de comunicación (Dimensionado según AT1/AT4)
+- **Memorias Diseño ↔ TETRA + TETRA:** Memorias para sistemas de comunicación (Dimensionado según AT1/AT4)
 - **Memorias Diseño ↔ Fibra Óptica:** Memorias para red de comunicaciones (Dimensionado según AT1/AT4)
 - **Memorias Diseño ↔ CTC:** Memorias para centro de control
 
@@ -143,7 +143,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -154,7 +154,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base |
 | **Fibra Óptica** | Dimensionada | Corredor + Reserva técnica | AT1 |
 | **TETRA** | Dimensionada | Cobertura 100% según simulación | AT4 |
-| **GSM-R** | Dimensionada | Redundancia con TETRA | Propuesta EPC |
+| **TETRA** | Dimensionada | Redundancia con TETRA | Propuesta EPC |
 | **Locomotoras** | 15 | Flota según contrato | AT1 |
 | **EOT** | Dimensionado | End of Train Device | Propuesta EPC |
 | **ENCE** | Dimensionado | Localizaciones clave según operación | Propuesta EPC |
@@ -177,7 +177,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 **Market Benchmarks / Proposed Models:**
 - Servidores: Dell PowerEdge, HP ProLiant
 - Equipos de red: Cisco Catalyst, Huawei CloudEngine
-- Radios TETRA/GSM-R: Motorola Solutions, Huawei
+- Radios TETRA/TETRA: Motorola Solutions, Huawei
 
 #### **4.2.2 Memorias de Diseño de Software**
 **Funcionalidades:**
@@ -238,7 +238,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** Dimensionado según AT1/AT4 ✓
 - ✅ **TETRA:** Dimensionado según AT1/AT4 ✓
-- ✅ **GSM-R:** Dimensionado según AT1/AT4 ✓
+- ✅ **TETRA:** Dimensionado según AT1/AT4 ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -253,7 +253,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -297,12 +297,12 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - Establecer criterios de diseño unificados para sistemas virtuales
 - Definir arquitecturas de sistemas sin infraestructura física
 - Especificar interfaces entre sistemas virtuales
-- Establecer parámetros de diseño para ENCE y GSM-R
+- Establecer parámetros de diseño para ENCE y TETRA
 - Definir requisitos de seguridad y confiabilidad
 
 ### 7.2 Filosofía de Diseño Virtual
 - **Señalización Virtual:** CTC + ATP embarcado sin eurobalises
-- **Comunicaciones Redundantes:** TETRA + GSM-R (Dimensionado según AT1/AT4)
+- **Comunicaciones Redundantes:** TETRA + TETRA (Dimensionado según AT1/AT4)
 - **Control Centralizado:** CTC como sistema principal
 - **Enclavamientos Electrónicos:** ENCE en estaciones críticas (Dimensionado según AT1/AT4)
 
@@ -330,7 +330,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - **MTTR:** < 4 horas para equipos críticos
 - **Disponibilidad:** > 99.5% para sistemas de comunicaciones
 - **Redundancia:** N+1 para sistemas no críticos
-- **TETRA + GSM-R:** Redundancia operacional
+- **TETRA + TETRA:** Redundancia operacional
 
 ---
 
@@ -347,7 +347,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 
 #### 9.1.2 Sistemas de Comunicaciones (Redundantes)
 - **Sistema TETRA** - Dimensionado según AT1/AT4
-- **Sistema GSM-R** - Dimensionado según AT1/AT4 (redundancia)
+- **Sistema TETRA** - Dimensionado según AT1/AT4 (redundancia)
 - **Fibra Óptica** - Dimensionado según AT1/AT4
 - **Sistemas VSAT** - Emergencia
 
@@ -366,7 +366,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 ### 9.2 Arquitectura de Redes (Actualizada)
 - **Red Principal:** Fibra óptica con redundancia (Dimensionado según AT1/AT4)
 - **Red de Respaldo:** Radio TETRA (Dimensionado según AT1/AT4)
-- **Red de Redundancia:** GSM-R (Dimensionado según AT1/AT4)
+- **Red de Redundancia:** TETRA (Dimensionado según AT1/AT4)
 - **Red de Emergencia:** VSAT
 - **Red Local:** Ethernet industrial
 
@@ -383,7 +383,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Enclavamientos:** ENCE (Dimensionado según AT1/AT4)
 
 ### 10.2 Sistemas de Comunicaciones (Actualizados)
-- **GSM-R:** Dimensionado según AT1/AT4 (redundancia)
+- **TETRA:** Dimensionado según AT1/AT4 (redundancia)
 - **TETRA:** Dimensionado según AT1/AT4 (principal)
 - **Fibra Óptica:** Dimensionado según AT1/AT4 (monomodo)
 - **VSAT:** Banda Ku (emergencia)
@@ -410,7 +410,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Redundancia:** N+1
 - **Seguridad:** Cifrado A5/1
 
-### 11.3 Interfaz TETRA-GSM-R
+### 11.3 Interfaz TETRA-TETRA
 - **Protocolo:** Conmutación automática
 - **Medio:** Radio
 - **Redundancia:** Cruzada
@@ -446,7 +446,7 @@ El proyecto se estructura en los siguientes sistemas principales:
 
 ### 12.4 Parámetros de Comunicaciones (Nuevos)
 - **TETRA:** Dimensionado según AT1/AT4, cobertura 15-20 km
-- **GSM-R:** Dimensionado según AT1/AT4, redundancia operacional
+- **TETRA:** Dimensionado según AT1/AT4, redundancia operacional
 - **Fibra Óptica:** Dimensionado según AT1/AT4, anillo auto-sanante
 - **Disponibilidad:** 99.5% comunicaciones, 99.5% CTC
 
@@ -542,7 +542,7 @@ La ingeniería básica se desarrollará bajo escenarios de 'mínima infraestruct
 ### 18.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Actualización de TETRA de 33 a 37 estaciones
-- ✅ Implementación de GSM-R (37 estaciones)
+- ✅ Implementación de TETRA (37 estaciones)
 - ✅ Implementación de ENCE (5 estaciones)
 - ✅ Eliminación de memorias señales físicas
 - ✅ Eliminación de memorias eurobalises
@@ -572,7 +572,7 @@ La ingeniería básica se desarrollará bajo escenarios de 'mínima infraestruct
 - La arquitectura propuesta cumple con los requisitos de seguridad virtual
 - Las especificaciones técnicas son factibles de implementar sin infraestructura física
 - Los parámetros de diseño son realistas y alcanzables con sistemas embarcados
-- La redundancia TETRA + GSM-R garantiza la disponibilidad requerida
+- La redundancia TETRA + TETRA garantiza la disponibilidad requerida
 
 ### 19.2 Recomendaciones (Actualizadas)
 - Continuar con el diseño de detalle de sistemas virtuales

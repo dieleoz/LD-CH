@@ -28,7 +28,7 @@ Este documento establece los **criterios técnicos maestros** que deben mantener
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -206,7 +206,7 @@ REPUESTOS Y RESERVAS:
 ```
 CORREDOR 526.133 KM
 ├── 37 ESTACIONES TETRA (cada ~15-20km + 15-20% solapamiento)
-├── REDUNDANCIA GSM-R
+├── REDUNDANCIA TETRA
 ├── BACKBONE FIBRA ÓPTICA (594 km)
 └── COMUNICACIÓN IP
 ```
@@ -214,8 +214,8 @@ CORREDOR 526.133 KM
 #### 3.2 Criterios de Cobertura
 | Sistema | Cobertura | Redundancia | Criticidad |
 |---------|-----------|-------------|------------|
-| **TETRA** | 15-20 km/estación + 15-20% solapamiento | GSM-R | Alta |
-| **GSM-R** | 15-20 km/estación | TETRA | Alta |
+| **TETRA** | 15-20 km/estación + 15-20% solapamiento | TETRA | Alta |
+| **TETRA** | 15-20 km/estación | TETRA | Alta |
 | **Fibra Óptica** | 594 km | Satelital | Crítica |
 | **IP** | Todo el corredor | Múltiple | Media |
 
@@ -236,7 +236,7 @@ CENTRO DE CONTROL (CCO)
 ├── SCADA (Supervisión y Control)
 └── COMUNICACIÓN CON TRENES
     ├── TETRA (primario)
-    ├── GSM-R (secundario)
+    ├── TETRA (secundario)
     └── ATP/ITCS embarcado
 ```
 
@@ -365,7 +365,7 @@ Referencias cruzadas:
 | Métrica | Valor Objetivo | Estado Actual |
 |---------|----------------|---------------|
 | **Cobertura TETRA** | 100% corredor | ✅ 37 estaciones (15-20% solapamiento) |
-| **Redundancia** | TETRA + GSM-R | ✅ Implementado |
+| **Redundancia** | TETRA + TETRA | ✅ Implementado |
 | **Disponibilidad** | 99.9% | ✅ UPS + Generadores |
 | **Señalización** | 100% virtual | ✅ CTC + ATP |
 
@@ -395,27 +395,27 @@ Referencias cruzadas:
 
 ---
 
-## 📡 **SISTEMA GSM-R DETALLADO (ENERO 2025)**
+## 📡 **SISTEMA TETRA DETALLADO (ENERO 2025)**
 
-### **1. ARQUITECTURA GSM-R:**
+### **1. ARQUITECTURA TETRA:**
 ```yaml
 COBERTURA: 100% del corredor 526.133 km
-ESTACIONES: 37 estaciones base GSM-R (colocalizadas con TETRA)
+ESTACIONES: 37 estaciones base TETRA (colocalizadas con TETRA)
 CRITERIO: Redundancia completa con sistema TETRA
 SEPARACIÓN: 15-20 km promedio entre estaciones
 SOLAPAMIENTO: 15-20% (mismo criterio TETRA)
 ALTURA TORRES: 40 metros (colocalizadas con TETRA)
-REDUNDANCIA: TETRA + GSM-R (doble vía)
+REDUNDANCIA: TETRA + TETRA (doble vía)
 INTEROPERABILIDAD: Compatible con red FENOCO (246 km)
 TIERRAS: Propiedad del estado (colocalización con TETRA)
 ```
 
-### **2. COMPONENTES GSM-R POR ESTACIÓN:**
+### **2. COMPONENTES TETRA POR ESTACIÓN:**
 ```yaml
 INFRAESTRUCTURA POR ESTACIÓN (COLOCALIZADA CON TETRA):
 - Torre compartida 40m: 1 unidad (compartida con TETRA)
-- Estación base GSM-R: 1 unidad  
-- Antena GSM-R: 1 unidad
+- Estación base TETRA: 1 unidad  
+- Antena TETRA: 1 unidad
 - UPS/SAI compartido: 1 unidad (compartido con TETRA)
 - Baterías compartidas: 1 unidad (compartidas con TETRA)
 - Radio punto a punto: 2 unidades (compartidos con TETRA)
@@ -427,29 +427,29 @@ INFRAESTRUCTURA POR ESTACIÓN (COLOCALIZADA CON TETRA):
 - Sistema seguridad: 1 unidad (compartido con TETRA)
 ```
 
-### **3. COSTOS GSM-R (COLOCALIZACIÓN):**
+### **3. COSTOS TETRA (COLOCALIZACIÓN):**
 | Componente | Cantidad | Costo Unitario | Costo Total | Justificación |
 |------------|----------|----------------|-------------|---------------|
-| **Estaciones base GSM-R** | 37 | $45,000,000 | $1,665,000,000 | Equipos GSM-R estándar |
-| **Antenas GSM-R** | 37 | $8,000,000 | $296,000,000 | Antenas GSM-R estándar |
-| **Radios embarcados GSM-R** | 30 | $25,000,000 | $750,000,000 | Radios embarcados GSM-R |
-| **Antenas embarcadas GSM-R** | 30 | $4,000,000 | $120,000,000 | Antenas embarcadas GSM-R |
-| **Consolas despacho GSM-R** | 3 | $40,000,000 | $120,000,000 | Consolas despacho GSM-R |
-| **Sistema control GSM-R** | 1 | $80,000,000 | $80,000,000 | Sistema control GSM-R |
-| **Repuestos GSM-R (10%)** | - | - | $303,000,000 | 10% sobre equipos GSM-R |
-| **SUBTOTAL GSM-R** | - | - | $3,334,000,000 | **$757,727 USD** |
-| **OBRA CIVIL GSM-R** | - | - | $0 | **COLOCALIZADA CON TETRA** |
-| **SERVICIOS GSM-R** | - | - | $150,000,000 | Configuración y pruebas |
-| **TOTAL GSM-R** | - | - | $3,484,000,000 | **$791,818 USD** |
+| **Estaciones base TETRA** | 37 | $45,000,000 | $1,665,000,000 | Equipos TETRA estándar |
+| **Antenas TETRA** | 37 | $8,000,000 | $296,000,000 | Antenas TETRA estándar |
+| **Radios embarcados TETRA** | 30 | $25,000,000 | $750,000,000 | Radios embarcados TETRA |
+| **Antenas embarcadas TETRA** | 30 | $4,000,000 | $120,000,000 | Antenas embarcadas TETRA |
+| **Consolas despacho TETRA** | 3 | $40,000,000 | $120,000,000 | Consolas despacho TETRA |
+| **Sistema control TETRA** | 1 | $80,000,000 | $80,000,000 | Sistema control TETRA |
+| **Repuestos TETRA (10%)** | - | - | $303,000,000 | 10% sobre equipos TETRA |
+| **SUBTOTAL TETRA** | - | - | $3,334,000,000 | **$757,727 USD** |
+| **OBRA CIVIL TETRA** | - | - | $0 | **COLOCALIZADA CON TETRA** |
+| **SERVICIOS TETRA** | - | - | $150,000,000 | Configuración y pruebas |
+| **TOTAL TETRA** | - | - | $3,484,000,000 | **$791,818 USD** |
 
-### **4. CRITERIOS TÉCNICOS GSM-R:**
+### **4. CRITERIOS TÉCNICOS TETRA:**
 ```yaml
 COBERTURA: 100% corredor con solapamiento 15-20%
-FRECUENCIA: Banda GSM-R estándar (900 MHz)
+FRECUENCIA: Banda TETRA estándar (900 MHz)
 POTENCIA: Máxima permitida por normativa
 INTERFERENCIAS: Análisis RF obligatorio con TETRA
 ANTENAS: Colocalizadas con TETRA (misma torre)
-REDUNDANCIA: Doble vía (TETRA + GSM-R)
+REDUNDANCIA: Doble vía (TETRA + TETRA)
 BACKUP: Satelital para enlaces críticos
 INTEROPERABILIDAD: Compatible FENOCO
 SEGURIDAD: Encriptación A5/1
@@ -633,7 +633,7 @@ COMUNICACIÓN:
 - Protocolo: Inalámbrico dedicado
 - Frecuencia: Banda ISM 2.4 GHz
 - Alcance: Hasta 2 km (trenes largos)
-- Redundancia: Doble vía (TETRA + GSM-R)
+- Redundancia: Doble vía (TETRA + TETRA)
 ```
 
 ---

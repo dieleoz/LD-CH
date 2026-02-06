@@ -1,4 +1,4 @@
-﻿{
+{
     "total_actividades":  0,
     "supuestos":  [
                       "Aprobación ANI Mes 12 sin observaciones mayores",
@@ -313,7 +313,7 @@
                               },
                               {
                                   "id":  "EXT-02",
-                                  "nota":  "SIN MATERIAL RODANTE NO SE PUEDE instalar sistemas embarcados (ATP, TETRA, GSM-R).",
+                                  "nota":  "SIN MATERIAL RODANTE NO SE PUEDE instalar sistemas embarcados (ATP, TETRA, TETRA).",
                                   "orden_en_mes":  11,
                                   "nombre":  "Material Rodante Certificado",
                                   "mes_requerido":  20,

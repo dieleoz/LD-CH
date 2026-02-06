@@ -74,7 +74,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -97,7 +97,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
-- ✅ GSM-R: 37 estaciones
+- ✅ TETRA: 37 estaciones
 - ✅ EOT: 15 dispositivos
 - ✅ ENCE: 5 estaciones
 - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
@@ -144,7 +144,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -155,7 +155,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -176,7 +176,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 - Computadora de abordo ATP
 - Sensores de velocidad y posición
 - Display del maquinista
-- Radio TETRA + GSM-R
+- Radio TETRA + TETRA
 - Sistema EOT integrado
 
 #### **4.2.2 Centro de Control de Tráfico (CCO La Dorada)**
@@ -219,7 +219,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 - PTC FENOCO (interoperabilidad AAR/AREMA)
 - Display integrado
 - GPS dual
-- Radio TETRA + GSM-R dual
+- Radio TETRA + TETRA dual
 
 #### **4.3.2 Costos de Interoperabilidad**
 - **Equipamiento locomotoras:** $6,210,000,000 COP
@@ -253,7 +253,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -268,7 +268,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **5 documentos afectados identificados** ✓
@@ -312,7 +312,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 **Cambios implementados:**
 - ✅ Eliminación masiva de infraestructura física de señalización
 - ✅ Implementación de filosofía virtual (CTC + ATP embarcado)
-- ✅ Agregación de sistemas faltantes (GSM-R, EOT, ENCE, Desvíos)
+- ✅ Agregación de sistemas faltantes (TETRA, EOT, ENCE, Desvíos)
 - ✅ Ajuste de cantidades según criterios maestros
 - ✅ Verificación de coherencia técnica 100%
 
@@ -343,7 +343,7 @@ Apéndice Técnico 1 - Alcance del Proyecto:
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 8.2 Implementaciones Nuevas (Faltante)
-- **GSM-R:** +$3,484,000,000 COP
+- **TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP

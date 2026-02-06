@@ -1,4 +1,4 @@
-﻿﻿# ÍNDICE DEL CONTRATO GENERAL
+﻿# ÍNDICE DEL CONTRATO GENERAL
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -51,7 +51,7 @@ Estos documentos rigen la interpretación, jerarquía y aseguramiento del proyec
 Regulación de la ejecución física de obras, montaje de sistemas e integración tecnológica.
 • 3. Cl_8.2_Construccion.docx (v4.1): Obligaciones de construcción, montaje e integración. Incluye pruebas SAT para validar la interoperabilidad con FENOCO y la implementación de estándares NIST/IEC 62443 durante la instalación,.
 • 11. AT1_Alcance_del_Proyecto.docx (v5.0): Alcance físico detallado: infraestructura férrea (UFVF), talleres, edificios administrativos y material rodante, alineado 100% con la filosofía de señalización virtual y criterios maestros,.
-• 19. AT9_Plan_de_Obras.docx (v4.1): Cronograma de frentes de trabajo por sistema. Integra la metodología de ejecución para infraestructura ITCS y la protección de disponibilidad (99.95%) durante las obras,.
+• 19. AT9_Plan_de_Obras.docx (v4.1): Cronograma de frentes de trabajo por sistema. Integra la metodología de ejecución para infraestructura ITCS y la protección de disponibilidad (99.5%) durante las obras,.
 
 ---
 
@@ -66,7 +66,7 @@ Especificaciones técnicas profundas para el "corazón digital" del proyecto.
 ## 5. FASE DE OPERACIÓN Y MANTENIMIENTO (O&M)
 *   **Capítulo XIV: Operación y Mantenimiento (Pág. 222):** Obligaciones de explotación comercial y sostenibilidad.
 *   **AT2 (O&M):** Manuales, reglamentos y reposición tecnológica.
-*   **AT4 (Indicadores):** El "Juez Digital" (SICC) que mide la disponibilidad del 99.95%.
+*   **AT4 (Indicadores):** El "Juez Digital" (SICC) que mide la disponibilidad del 99.5%.
 
 ---
 
@@ -81,7 +81,7 @@ Protocolos para la transferencia final de la concesión al Estado.
 Todos los documentos del índice han sido actualizados para incluir cinco pilares críticos de integridad tecnológica:
 1. Integración ITCS: Estrategias específicas para ETCS Level 2 en todas las fases.
 2. Interoperabilidad FENOCO: Protocolos UIC y coordinación operativa transversal.
-3. Disponibilidad AT4: Alineación de diseños y obras con la meta de 99.95% de disponibilidad.
+3. Disponibilidad AT4: Alineación de diseños y obras con la meta de 99.5% de disponibilidad.
 4. Ciberseguridad: Inclusión de estándares NIST/IEC 62443 en diseño, construcción y operación.
 5. Redundancia: Exigencia de arquitectura N+1 en sistemas críticos.
 

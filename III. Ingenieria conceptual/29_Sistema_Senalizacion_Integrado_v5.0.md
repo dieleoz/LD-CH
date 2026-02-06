@@ -505,7 +505,7 @@ El presupuesto y las cantidades definitivas serán determinados en la **Ingenier
 **Cambios implementados:**
 - ✅ Eliminación masiva de infraestructura física de señalización
 - ✅ Implementación de filosofía virtual (CTC + ATP embarcado)
-- ✅ Agregación de sistemas faltantes (GSM-R, EOT, ENCE, Desvíos)
+- ✅ Agregación de sistemas faltantes (TETRA, EOT, ENCE, Desvíos)
 - ✅ Ajuste de cantidades según criterios maestros
 - ✅ Verificación de coherencia técnica 100%
 

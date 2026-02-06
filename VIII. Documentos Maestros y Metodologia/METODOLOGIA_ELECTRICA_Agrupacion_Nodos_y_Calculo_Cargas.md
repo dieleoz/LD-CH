@@ -297,12 +297,12 @@ Configuración:
 │ • Duplexers y combinadores                    30W          │
 │ • Subtotal TETRA:                            580W          │
 ├─────────────────────────────────────────────────────────────┤
-│ CIRCUITO 2: EQUIPOS GSM-R                                 │
+│ CIRCUITO 2: EQUIPOS TETRA                                 │
 ├─────────────────────────────────────────────────────────────┤
-│ • Estación Base GSM-R (220V AC)              300W          │
-│ • Antenas GSM-R (3 sectores)                  30W          │
-│ • Combinadores GSM-R                          20W          │
-│ • Subtotal GSM-R:                            350W          │
+│ • Estación Base TETRA (220V AC)              300W          │
+│ • Antenas TETRA (3 sectores)                  30W          │
+│ • Combinadores TETRA                          20W          │
+│ • Subtotal TETRA:                            350W          │
 ├─────────────────────────────────────────────────────────────┤
 │ CIRCUITO 3: TRANSMISIÓN (FIBRA/MICROONDAS)                │
 ├─────────────────────────────────────────────────────────────┤
@@ -334,7 +334,7 @@ Configuración:
 
 Carga Instalada Total:
 ├─ TETRA:              580W
-├─ GSM-R:              350W
+├─ TETRA:              350W
 ├─ Transmisión:        480W
 ├─ Climatización:    6,200W
 ├─ Auxiliares:         780W
@@ -411,7 +411,7 @@ Diseño Acometida:
 │ ID │ Equipo                    │ Consumo │ Tensión │ Circuito │
 ├────┼───────────────────────────┼─────────┼─────────┼──────────┤
 │ 01 │ Estación Base TETRA       │ 500W    │ 220V AC │ C1       │
-│ 02 │ Estación Base GSM-R       │ 300W    │ 220V AC │ C2       │
+│ 02 │ Estación Base TETRA       │ 300W    │ 220V AC │ C2       │
 │ 03 │ Switch Ethernet           │ 100W    │ 220V AC │ C3       │
 │ 04 │ Router                    │  80W    │ 220V AC │ C3       │
 │ 05 │ Radio microondas 1        │ 150W    │ 220V AC │ C3       │
@@ -968,7 +968,7 @@ La Dorada   | 201+500 | EBT-01, ENCE-1, PN-001, PN-010 | 70 kVA | 100 kVA
 ✅ **MT si:**
 - Demanda > 15 kVA
 - Distancia a red > 100m
-- Carga crítica (SIL-4, disponibilidad 99.95%)
+- Carga crítica (SIL-4, disponibilidad 99.5%)
 - Necesita transformador dedicado
 - Ejemplos: Estaciones ENCE, CCO, Talleres
 

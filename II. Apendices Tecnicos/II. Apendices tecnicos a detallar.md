@@ -20,7 +20,7 @@ Este documento no es un simple listado; funciona como la **Matriz de Interdepend
 | Eje | Fuente PDF Oficial (Riesgo) | Solución MD v5.0 (Punto 42) | Veredicto |
 | :--- | :--- | :--- | :--- |
 | **Infraestructura** | Cumplimiento AREMA/FRA sin arquitectura específica. | Define PTC (Positive Train Control) y elimina activos físicos. | ✅ Optimización CAPEX. |
-| **Operación** | Disponibilidad SICC al 99.0%. | Eleva meta a 99.95% para asegurar el cobro completo. | ✅ Blindaje Financiero. |
+| **Operación** | Disponibilidad SICC al 99.0%. | Eleva meta a 99.5% para asegurar el cobro completo. | ✅ Blindaje Financiero. |
 | **Cronograma** | 12 meses para la UF3 (Logística/CCO). | Identifica UF3 como Ruta Crítica absoluta. | 🚨 Alerta Roja: Fast-Track. |
 | **Predial** | Entrega de predios condiciona la obra. | Vincula tierra con tecnología (Torres TETRA). | ✅ Vital. |
 
@@ -42,7 +42,7 @@ La Sección 9.4 exige terminar el CCO en 12 meses. El CCO es el cerebro del PTC;
 | No. | Apéndice | Estado | Dictamen Estratégico |
 | :---: | :--- | :---: | :--- |
 | **AT1** | `AT1_AlcanceProyecto_MD` | ✅ v5.0 | Nivel de Servicio PTC/I-ETMS |
-| **AT2** | `AT2_OperacionMantenimiento_MD` | ✅ v5.0 | Disponibilidad 99.95% (SICC) |
+| **AT2** | `AT2_OperacionMantenimiento_MD` | ✅ v5.0 | Disponibilidad 99.5% (SICC) |
 | **AT3** | `AT3_EspecificacionesGenerales_MD` | ✅ v5.0 | Arquitectura Vital NIST/IEC 62443 |
 | **AT4** | `AT4_Indicadores_MD` | ✅ v5.0 | Penas por Indisponibilidad (DVF) |
 | **AT5** | `AT5_InterferenciasRedes_MD` | ✅ v5.0 | Estrategia Dual (Físico vs EMI) |

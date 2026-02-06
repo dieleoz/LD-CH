@@ -149,7 +149,7 @@
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
 - **✅ CTC Virtual:** Centro de control centralizado
-- **✅ TETRA + GSM-R:** 37 estaciones colocalizadas
+- **✅ TETRA + TETRA:** 37 estaciones colocalizadas
 - **✅ EOT:** 15 dispositivos End of Train
 - **✅ ENCE:** 5 estaciones con enclavamientos
 - **✅ Desvíos:** 120 unidades (25 motorizados + 95 manuales)
@@ -171,7 +171,7 @@
 | **RBC** | 2 | 0 | -$2,000,000,000 |
 | **LEU** | 1,080 | 0 | -$10,000,000,000 |
 | **TETRA** | 33 | 37 | +$8,014,000,000 |
-| **GSM-R** | 0 | 37 | +$3,484,000,000 |
+| **TETRA** | 0 | 37 | +$3,484,000,000 |
 | **EOT** | 0 | 15 | +$520,000,000 |
 | **ENCE** | 0 | 5 | +$6,020,000,000 |
 | **Desvíos** | 0 | 145 (25 motor + 120 manual) | +$34,833,030,000 |
@@ -249,19 +249,19 @@
 | **2.1.115** | Repuestos (10%) | - | - | $2,061,830,000 |
 | **SUBTOTAL TETRA** | | | | **$22,518,300,000** |
 
-#### **2.2 Sistema GSM-R (37 Estaciones Colocalizadas)**
+#### **2.2 Sistema TETRA (37 Estaciones Colocalizadas)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **2.2.100** | Estaciones base GSM-R | 37 | $45,000,000 | $1,665,000,000 |
-| **2.2.101** | Antenas GSM-R | 37 | $8,000,000 | $296,000,000 |
-| **2.2.102** | Radios embarcados GSM-R | 30 | $25,000,000 | $750,000,000 |
-| **2.2.103** | Sistema control GSM-R | 1 | $80,000,000 | $80,000,000 |
-| **2.2.104** | Interfaces TETRA-GSM-R | 37 | $5,000,000 | $185,000,000 |
+| **2.2.100** | Estaciones base TETRA | 37 | $45,000,000 | $1,665,000,000 |
+| **2.2.101** | Antenas TETRA | 37 | $8,000,000 | $296,000,000 |
+| **2.2.102** | Radios embarcados TETRA | 30 | $25,000,000 | $750,000,000 |
+| **2.2.103** | Sistema control TETRA | 1 | $80,000,000 | $80,000,000 |
+| **2.2.104** | Interfaces TETRA-TETRA | 37 | $5,000,000 | $185,000,000 |
 | **2.2.105** | Sistema redundancia | 1 | $150,000,000 | $150,000,000 |
 | **2.2.106** | Configuración dual | 1 | $100,000,000 | $100,000,000 |
 | **2.2.107** | Pruebas integración | 1 | $80,000,000 | $80,000,000 |
 | **2.2.108** | Repuestos (10%) | - | - | $312,000,000 |
-| **SUBTOTAL GSM-R** | | | | **$3,618,000,000** |
+| **SUBTOTAL TETRA** | | | | **$3,618,000,000** |
 
 #### **2.3 Fibra Óptica (594 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -409,7 +409,7 @@
 |:---|:---|:---:|:---:|:---:|
 | **6.1.100** | Sistemas ATP embarcados | 8 | $726,000,000 | $5,808,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
-| **6.1.102** | Radios GSM-R embarcados | 16 | $25,000,000 | $400,000,000 |
+| **6.1.102** | Radios TETRA embarcados | 16 | $25,000,000 | $400,000,000 |
 | **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
 | **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
 | **6.1.105** | Instalación y configuración | 8 | $100,000,000 | $800,000,000 |
@@ -485,7 +485,7 @@
 ### **📊 CANTIDADES VALIDADAS:**
 - ✅ **Corredor:** 526.133 km (coherente en todos los documentos)
 - ✅ **TETRA:** 37 estaciones (coherente en todos los documentos)
-- ✅ **GSM-R:** 37 estaciones (coherente en todos los documentos)
+- ✅ **TETRA:** 37 estaciones (coherente en todos los documentos)
 - ✅ **EOT:** 15 dispositivos (coherente en todos los documentos)
 - ✅ **ENCE:** 5 estaciones (coherente en todos los documentos)
 - ✅ **CCTV:** 73 cámaras (coherente en todos los documentos)

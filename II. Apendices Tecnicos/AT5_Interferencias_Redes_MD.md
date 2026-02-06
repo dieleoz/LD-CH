@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 5 - INTERFERENCIAS DE REDES (v5.0)
+# APÉNDICE TÉCNICO 5 - INTERFERENCIAS DE REDES (v5.0)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 06 de febrero de 2026  
@@ -25,7 +25,7 @@ He realizado la validación forense del AT5 contrastando el **PDF Oficial [Sourc
 
 ### 🛡️ 2. LA ESTRATEGIA DUAL (REGLA DE ORO)
 1.  **Terceros (External):** La negociación con empresas de servicios públicos (ESP) se rige **estrictamente por el PDF**. Solo se exige cumplimiento físico (Profundidad, Distancia). No se exige blindaje EMI a terceros para evitar cobros por mejora tecnológica.
-2.  **Activos EPC (Internal):** Para la red propia de fibra y energía del PTC, se exige el **estándar MD v5.0**. Inmunidad EMI, Ciberseguridad industrial y Redundancia N+1 son obligatorios para proteger el indicador AT4 (99.95%).
+2.  **Activos EPC (Internal):** Para la red propia de fibra y energía del PTC, se exige el **estándar MD v5.0**. Inmunidad EMI, Ciberseguridad industrial y Redundancia N+1 son obligatorios para proteger el indicador AT4 (99.5%).
 
 ### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO
 *   **Inventario Enriquecido:** El inventario de redes (Sección 3.2.2 PDF) debe incluir obligatoriamente el campo **"Nivel de Tensión (kV) / Amperaje"**. Sin este dato, el equipo de sistemas no puede diseñar el blindaje EMI necesario.

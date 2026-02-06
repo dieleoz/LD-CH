@@ -80,7 +80,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | Sistema | Especificación Contractual | Propuesta de Ingeniería | Estado |
 |:--------|:--------------------------|:-----------------------|:---:|
 | **Backbone FO** | Redundancia física | FO Monomodo (Propuesta) | 🔍 En Diseño |
-| **Radio** | Cobertura 100% | TETRA + GSM-R (Benchmarking) | 🔍 En Diseño |
+| **Radio** | Cobertura 100% | TETRA + TETRA (Benchmarking) | 🔍 En Diseño |
 | **Señalización** | SICC ≥ 99.5% | Virtual (Benchmarking) | 🔍 En Diseño |
 | **Servidores** | Alta disponibilidad | Cluster Proyectado | 🔍 En Diseño |
 
@@ -97,7 +97,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
 - ✅ Especificaciones ENCE (5 estaciones)
-- ✅ Especificaciones GSM-R (37 estaciones)
+- ✅ Especificaciones TETRA (37 estaciones)
 - ✅ Especificaciones sistemas virtuales
 - ✅ Especificaciones EOT (15 dispositivos)
 
@@ -130,7 +130,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 ### 3.3 Interfaces Críticas
 - **Especificaciones Sistemas ↔ Sistemas Virtuales:** Especificaciones para sistemas de señalización virtual
 - **Especificaciones Sistemas ↔ ENCE:** Especificaciones para 5 enclavamientos electrónicos
-- **Especificaciones Sistemas ↔ TETRA + GSM-R:** Especificaciones para 37 estaciones de cada sistema
+- **Especificaciones Sistemas ↔ TETRA + TETRA:** Especificaciones para 37 estaciones de cada sistema
 - **Especificaciones Sistemas ↔ Fibra Óptica:** Especificaciones para red de comunicaciones
 - **Especificaciones Sistemas ↔ CTC:** Especificaciones para centro de control
 
@@ -145,7 +145,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -156,7 +156,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -236,7 +236,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -251,7 +251,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **Redundancia TETRA + TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **2 documentos afectados identificados** ✓
@@ -317,7 +317,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **ATP Embarcado** | 15 locomotoras |
 | **EOT** | 15 dispositivos |
 | **Radios TETRA** | 15 locomotoras |
-| **Radios GSM-R** | 15 locomotoras |
+| **Radios TETRA** | 15 locomotoras |
 | **Disponibilidad** | 99.5% |
 
 ### **7.2 Especificaciones de Software (Actualizadas según Criterios Maestros)**
@@ -336,7 +336,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **CTC** | Software de control de tráfico |
 | **ATP** | Software de protección automática |
 | **TETRA** | Software de radio digital |
-| **GSM-R** | Software de radio GSM |
+| **TETRA** | Software de radio GSM |
 | **ENCE** | Software de enclavamiento |
 
 #### **7.2.3 Protocolos de Comunicación**
@@ -345,7 +345,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **CTC-ENCE** | SCI-CC-A (NAS 830) |
 | **CTC-ATP** | ETCS Level 2 |
 | **TETRA** | TETRA Standard |
-| **GSM-R** | GSM-R Standard |
+| **TETRA** | TETRA Standard |
 | **Fibra Óptica** | IP/MPLS |
 
 ### **7.3 Especificaciones de Interfaces (Actualizadas según Criterios Maestros)**
@@ -362,9 +362,9 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | Interfaz | Especificación |
 |:---------|:---------------|
 | **CTC-ENCE** | SCI-CC-A sobre TCP/IP |
-| **CTC-ATP** | ETCS Level 2 sobre TETRA/GSM-R |
+| **CTC-ATP** | ETCS Level 2 sobre TETRA/TETRA |
 | **TETRA** | TETRA Protocol |
-| **GSM-R** | GSM-R Protocol |
+| **TETRA** | TETRA Protocol |
 
 #### **7.3.3 Interfaces de Datos**
 | Interfaz | Especificación |
@@ -414,9 +414,9 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Software de gestión** | Motorola Dimetra Manager |
 | **Protocolo** | TETRA Standard |
 
-### **8.3 Sistema GSM-R (37 Estaciones)**
+### **8.3 Sistema TETRA (37 Estaciones)**
 
-#### **8.3.1 Hardware GSM-R**
+#### **8.3.1 Hardware TETRA**
 | Componente | Especificación |
 |:-----------|:---------------|
 | **Estaciones base** | Huawei BTS3900 |
@@ -424,12 +424,12 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Casetas** | 37 casetas climatizadas |
 | **Disponibilidad** | 99.5% |
 
-#### **8.3.2 Software GSM-R**
+#### **8.3.2 Software TETRA**
 | Componente | Especificación |
 |:-----------|:---------------|
-| **Software de red** | Huawei GSM-R |
+| **Software de red** | Huawei TETRA |
 | **Software de gestión** | Huawei U2000 |
-| **Protocolo** | GSM-R Standard |
+| **Protocolo** | TETRA Standard |
 
 ### **8.4 Sistema ENCE (5 Estaciones)**
 
@@ -535,7 +535,7 @@ Los modelos mencionados en versiones previas (Siemens, Motorola, Cisco, Huawei) 
 ### 12.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Actualización de TETRA de 33 a 37 estaciones
-- ✅ Implementación de GSM-R (37 estaciones)
+- ✅ Implementación de TETRA (37 estaciones)
 - ✅ Implementación de ENCE (5 estaciones)
 - ✅ Eliminación de especificaciones señales físicas
 - ✅ Eliminación de especificaciones eurobalises

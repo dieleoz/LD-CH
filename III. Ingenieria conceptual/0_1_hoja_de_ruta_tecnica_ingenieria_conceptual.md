@@ -1,4 +1,4 @@
-﻿**Versión:** 7.0 (Phase 7 - Re-lineación)  
+**Versión:** 7.0 (Phase 7 - Re-lineación)  
 **Fecha:** Febrero 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Estado: ✅ APROBADO (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**  

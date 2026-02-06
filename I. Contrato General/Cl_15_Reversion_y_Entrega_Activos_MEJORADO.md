@@ -1,4 +1,4 @@
-﻿﻿# CAPÍTULO XV (CLÁUSULAS 15.1-15.5) - REVERSIÓN Y ENTREGA DE BIENES
+﻿# CAPÍTULO XV (CLÁUSULAS 15.1-15.5) - REVERSIÓN Y ENTREGA DE BIENES
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -215,7 +215,7 @@ Proxima actualizacion: 27/02/2025
    - **SICC en reversión:** Transferencia de sistemas de monitoreo
    - **Histórico de indicadores:** Evidencias de cumplimiento AT4 durante operación
    - **Estado de redundancia:** Verificación de arquitectura N+1
-   - **Certificación de disponibilidad:** Cumplimiento de 99.95% al momento de reversión
+   - **Certificación de disponibilidad:** Cumplimiento de 99.5% al momento de reversión
 
 4. **🔒 CIBERSEGURIDAD EN REVERSIÓN:**
    - **Estándares NIST/IEC 62443:** Documentación de seguridad implementada
@@ -276,7 +276,7 @@ Proxima actualizacion: 27/02/2025
 |:---|:---:|:---:|:---|:---:|
 | **ITCS ETCS Level 2** | 100% inventariado | Mensual | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 100% certificado | Trimestral | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% al momento reversión | Mensual | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad AT4** | 99.5% al momento reversión | Mensual | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 100% transferido | Trimestral | Ciberseguridad | 🟡 Pendiente |
 | **Redundancia N+1** | 100% verificado | Mensual | Ing. Sistemas | 🟢 En progreso |
 
@@ -323,7 +323,7 @@ Bajo la óptica de la Metodología Punto 42, la "inteligencia" operativa es el a
 *   **Redundancia N+1:** El estado de los bienes (Sec. 15.4) implica que los sistemas de respaldo (UPS, servidores redundantes) deben estar al **100% operativos**. Entregar un sistema con la redundancia degradada habilita a la ANI para descontar su valor total.
 
 ### 🛡️ 2. GESTIÓN DEL RIESGO OPERACIONAL Y CIBERSEGURIDAD
-*   **Disponibilidad AT4:** El indicador del **99.95%** debe mantenerse hasta el último segundo. El "Dossier de Seguridad" debe incluir actualizaciones de firmware y parches aplicados bajo la **norma IEC 62443**.
+*   **Disponibilidad AT4:** El indicador del **99.5%** debe mantenerse hasta el último segundo. El "Dossier de Seguridad" debe incluir actualizaciones de firmware y parches aplicados bajo la **norma IEC 62443**.
 *   **Dossier de Interoperabilidad:** Es mandatorio iniciar la recopilación de logs del SICC desde el Año 9 para certificar la funcionalidad del sistema de frontera con FENOCO.
 
 ### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO

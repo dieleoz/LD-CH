@@ -1,4 +1,4 @@
-﻿{
+{
     "infraestructura_fisica":  {
                                    "pasos_nivel":  {
                                                        "descripcion":  "Pasos a nivel (Tabla 24 AT1)",
@@ -1294,7 +1294,7 @@
                                                                        "tipos":  [
                                                                                      "VHF",
                                                                                      "UHF",
-                                                                                     "GSM-R"
+                                                                                     "TETRA"
                                                                                  ]
                                                                    },
                                                          "tetra":  {

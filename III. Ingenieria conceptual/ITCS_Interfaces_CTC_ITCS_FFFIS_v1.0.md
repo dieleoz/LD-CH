@@ -348,7 +348,7 @@ RBC (Radio Block Centre)
 - **RBC Status:** Estado general del RBC
 - **Channels:** Estado de canales 2oo3
 - **Performance:** Métricas de rendimiento
-- **GSM-R:** Estado de comunicación
+- **TETRA:** Estado de comunicación
 - **Eurobalise:** Estado de balizas
 
 **Criterios de aceptación:**

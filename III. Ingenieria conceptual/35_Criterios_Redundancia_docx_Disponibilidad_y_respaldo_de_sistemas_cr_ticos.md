@@ -1,4 +1,4 @@
-﻿# CRITERIOS DE REDUNDANCIA v7.0 - PHASE 7
+# CRITERIOS DE REDUNDANCIA v7.0 - PHASE 7
 **Versión:** 7.0 (Phase 7)  
 **Fecha:** Febrero 2026  
 **Estado: ✅ APROBADO (PHASE 7)**  

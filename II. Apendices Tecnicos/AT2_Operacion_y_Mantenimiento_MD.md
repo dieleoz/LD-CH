@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO
+# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -454,11 +454,11 @@ La versión v5.0 instrumenta el cumplimiento operacional para blindar la remuner
 | Elemento | Fuente PDF Original (AT2/AT4) | Fuente MD v5.0 (Punto 42) | Veredicto |
 | :--- | :--- | :--- | :--- |
 | **Continuidad** | AT2, 3.1.1: Disponibilidad general. | **Redundancia N+1 Activa:** Failover < 5 s. | ✅ Operativo. |
-| **SICC / SCADA** | AT4, 5.4.2: Disponibilidad 99.0%. | **Target 99.95%:** Buffer de seguridad. | ⚠️ Estratégico. |
+| **SICC / SCADA** | AT4, 5.4.2: Disponibilidad 99.0%. | **Target 99.5%:** Buffer de seguridad. | ⚠️ Estratégico. |
 | **Predictivo** | AT2, 4.2.4(a): Mantenimiento predictivo. | **IoT / Sensores:** Monitoreo de fibra y agujas. | ✅ Contractual. |
 | **Ciberseguridad** | AT3, 8.8: Referencia general. | **NIST/IEC 62443:** Defensa activa y parches. | ➕ Necesario. |
 
-⚖️ **Interpretación del 99.95%:** Se aclara que el **99.95% es una meta de diseño interna (Target)** para garantizar que nunca se baje del **99.0% contractual (Limit)**, evitando deducciones automáticas (Sec. 4.6).
+⚖️ **Interpretación del 99.5%:** Se aclara que el **99.5% es una meta de diseño interna (Target)** para garantizar que nunca se baje del **99.0% contractual (Limit)**, evitando deducciones automáticas (Sec. 4.6).
 
 ### 💻 2. EL "MANTENIMIENTO DIGITAL" (LA TRAZA DE PAGO)
 *   **Gestión del SCADA:** El SCADA es la base de auditoría para la remuneración. La caída del SCADA se interpreta como falta de información, lo que habilita a la ANI para aplicar el escenario de cumplimiento más bajo.
@@ -565,7 +565,7 @@ Proxima actualizacion: 27/02/2025
    - **Resolución FENOCO:** Procedimientos para problemas de interoperabilidad
 
 3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Continuidad AT4:** Mantenimiento de 99.95% de disponibilidad
+   - **Continuidad AT4:** Mantenimiento de 99.5% de disponibilidad
    - **Monitoreo AT4:** Supervisión continua de indicadores de rendimiento
    - **SCADA AT4:** Integración de criterios AT4 en sistema SCADA
    - **Reportes AT4:** Evidencias de cumplimiento contractual
@@ -614,7 +614,7 @@ Proxima actualizacion: 27/02/2025
 |:---|:---|:---|:---|:---:|
 | **ITCS OM** | 9.1, 14.1 | AT3 | ETCS Level 2 | ✅ Implementado |
 | **FENOCO OM** | 9.1, 14.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 OM** | 9.1, 14.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
+| **AT4 OM** | 9.1, 14.1 | AT4 | Disponibilidad 99.5% | ✅ Implementado |
 | **SCADA** | 9.1, 14.1 | AT2 | Sistema SCADA ferroviario | ✅ Implementado |
 | **Ciberseguridad OM** | 9.1, 14.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia OM** | 9.1, 14.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
@@ -636,10 +636,10 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
+| **ITCS ETCS Level 2** | 99.5% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 100% compatible | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
-| **SCADA Ferroviario** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad AT4** | 99.5% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
+| **SCADA Ferroviario** | 99.5% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
 | **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
 

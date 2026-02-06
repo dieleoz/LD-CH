@@ -293,7 +293,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Referencias:** AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato
 - **Funciones:** Control automático de velocidad, autorización de movimiento, protección contra colisiones
 - **Disponibilidad:** 99.5% según AT4
-- **Componentes:** Computadora ATP, sensores, display maquinista, radio TETRA+GSM-R
+- **Componentes:** Computadora ATP, sensores, display maquinista, radio TETRA+TETRA
 - **Interoperabilidad:** Compatible con sistemas FENOCO según estándares UIC
 
 #### **1.3 Enclavamientos Electrónicos (ENCE) - 5 ESTACIONES**

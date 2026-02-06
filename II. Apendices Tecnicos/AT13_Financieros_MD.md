@@ -1,4 +1,4 @@
-﻿# APÉNDICE TÉCNICO 13 - FINANCIEROS (v5.0)
+# APÉNDICE TÉCNICO 13 - FINANCIEROS (v5.0)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 06 de febrero de 2026  

@@ -1,4 +1,4 @@
-﻿﻿# CAPÍTULO XIV (CLÁUSULAS 14.1-14.6) - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
+﻿# CAPÍTULO XIV (CLÁUSULAS 14.1-14.6) - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 02 de octubre de 2025  
@@ -523,7 +523,7 @@ He realizado la validación técnica y contractual del archivo frente al Capítu
 | **Cláusula 14.1** | Inicio de O&M tras Acta de Inicio. | Mantiene hitos de inicio y transición. | ✅ Exacto |
 | **Cláusula 14.2** | Obligación de mantenimiento y reposición. | Incluye el ciclo de vida de activos TI. | ✅ Coincide |
 | **Sección 14.5** | Elaboración y entrega de manuales. | Detalla capítulos de Ciberseguridad/ITCS. | ✅ Ampliado |
-| **Disponibilidad** | AT2 Numeral 3.1.1 (Continuidad). | Vincula con el 99.95% de disponibilidad. | ✅ Vinculado |
+| **Disponibilidad** | AT2 Numeral 3.1.1 (Continuidad). | Vincula con el 99.5% de disponibilidad. | ✅ Vinculado |
 
 ### 🔍 2. INTERPRETACIÓN TÉCNICA: EL "JUEZ DIGITAL" (SICC)
 El archivo MD introduce una interpretación crítica: La dependencia absoluta del SICC.

@@ -107,7 +107,7 @@ El proyecto adopta una **filosofía de señalización VIRTUAL**, eliminando infr
 |:---|:---|:---|
 | **Ubicación CCO** | Barrancabermeja (PK 441+932) | AT1 |
 | **Arquitectura** | Centralizada con respaldo | AT1, AT3 |
-| **Disponibilidad** | **99.95%** | AT4 |
+| **Disponibilidad** | **99.5%** | AT4 |
 | **Protocolos** | UIC (interoperabilidad FENOCO) | AT1, AT3 |
 | **Funciones** | Asignación surcos, control desvíos, monitoreo trenes | AT1, AT10 |
 | **Redundancia** | Servidor principal + backup (2OO3) | AT3 |
@@ -122,7 +122,7 @@ CCO Principal (Barrancabermeja):
 ├─ Pantallas de visualización (mural de control)
 ├─ Sistema SCADA
 ├─ Interfaces con FENOCO (protocolo UIC)
-├─ Sistemas de comunicación redundante (TETRA + GSM-R + fibra óptica)
+├─ Sistemas de comunicación redundante (TETRA + TETRA + fibra óptica)
 └─ Sistemas de energía y respaldo (UPS 8 horas + generador)
 ```
 
@@ -136,8 +136,8 @@ CCO Principal (Barrancabermeja):
 | **Estándar** | Compatible ETCS Level 2* | AT3 |
 | **Locomotoras equipadas** | **15 unidades** | AT6, Cl. 13.1 |
 | **Funciones** | Control velocidad, autorización movimiento, protección colisiones | AT1 |
-| **Comunicación** | TETRA + GSM-R (redundante) | AT1, AT3 |
-| **Disponibilidad** | **99.95%** | AT4 |
+| **Comunicación** | TETRA + TETRA (redundante) | AT1, AT3 |
+| **Disponibilidad** | **99.5%** | AT4 |
 | **Interfaces** | CTC, FENOCO (protocolo UIC) | AT1, AT3 |
 
 *Nota: "Compatible ETCS Level 2" significa preparado para interoperabilidad futura, no necesariamente certificación ETCS completa en esta fase.
@@ -147,9 +147,9 @@ CCO Principal (Barrancabermeja):
 Sistema ATP Embarcado:
 ├─ Computadora ATP (DMI - Driver Machine Interface)
 ├─ Radio TETRA embarcado
-├─ Radio GSM-R embarcado (redundancia)
+├─ Radio TETRA embarcado (redundancia)
 ├─ Antenas TETRA (2 por locomotora)
-├─ Antenas GSM-R (2 por locomotora)
+├─ Antenas TETRA (2 por locomotora)
 ├─ Display de maquinista (pantalla táctil)
 ├─ Sensores de velocidad y posición
 ├─ Módulo GPS/GNSS
@@ -165,7 +165,7 @@ Sistema ATP Embarcado:
 | **Cantidad de estaciones ENCE** | **5 estaciones** | AT1 |
 | **Tipo** | Enclavamiento electrónico (EI - Electronic Interlocking) | AT1, AT3 |
 | **Integración** | CTC centralizado | AT1 |
-| **Disponibilidad** | **99.95%** | AT4 |
+| **Disponibilidad** | **99.5%** | AT4 |
 | **Nivel de seguridad** | SIL-4 (Safety Integrity Level 4) | AT3 |
 
 #### **Estaciones con ENCE:**
@@ -291,7 +291,7 @@ Caseta Técnica ENCE:
 | **Radio de cobertura** | **15 km** por estación | Cálculo de radio enlace |
 | **Solapamiento** | **20%** mínimo | Criterio de redundancia |
 | **Espaciamiento promedio** | **~14.47 km** entre torres | 520.78 km ÷ 36 intervalos |
-| **Colocalización GSM-R** | **Sí** (misma torre) | Optimización EPC |
+| **Colocalización TETRA** | **Sí** (misma torre) | Optimización EPC |
 
 #### **Justificación Técnica 37 Estaciones:**
 ```
@@ -341,9 +341,9 @@ Torre de Comunicaciones (37 unidades):
 │   ├─ Cables coaxiales (7/8" + conectores)
 │   └─ Sistema de monitoreo y alarmas
 │
-├─ Equipos GSM-R (colocalizado):
-│   ├─ Estación base GSM-R (BTS)
-│   ├─ Antenas GSM-R (3 sectores 120°)
+├─ Equipos TETRA (colocalizado):
+│   ├─ Estación base TETRA (BTS)
+│   ├─ Antenas TETRA (3 sectores 120°)
 │   ├─ Combinadores y diplexores
 │   └─ Cables coaxiales
 │
@@ -387,16 +387,16 @@ Torre de Comunicaciones (37 unidades):
 | **Sistema de control TETRA** | 1 sistema | CCO Barrancabermeja | Gestión de red |
 | **Gateway TETRA-FENOCO** | 1 sistema | CCO Barrancabermeja | Integración protocolos UIC |
 
-#### **Sistema GSM-R (Redundancia con TETRA):**
+#### **Sistema TETRA (Redundancia con TETRA):**
 
 **Filosofía:** Colocalización en las mismas 37 torres para redundancia de comunicaciones críticas.
 
 | Componente | Cantidad | Especificación |
 |:---|:---:|:---|
-| **Estaciones base GSM-R** | 37 unidades | Colocalización con TETRA |
-| **Antenas GSM-R** | 111 unidades | 3 sectores × 37 sitios |
-| **Radios embarcados GSM-R** | 30 unidades | 15 locomotoras × 2 |
-| **Sistema control GSM-R** | 1 sistema | CCO centralizado |
+| **Estaciones base TETRA** | 37 unidades | Colocalización con TETRA |
+| **Antenas TETRA** | 111 unidades | 3 sectores × 37 sitios |
+| **Radios embarcados TETRA** | 30 unidades | 15 locomotoras × 2 |
+| **Sistema control TETRA** | 1 sistema | CCO centralizado |
 
 ### **3.2 Fibra Óptica - Red Backbone del Proyecto**
 
@@ -882,7 +882,7 @@ Dado el estado preliminar del proyecto, proponemos el siguiente enfoque:
 | Restricción | Especificación | Fuente |
 |:---|:---|:---|
 | **Interoperabilidad FENOCO** | Todas las soluciones deben ser compatibles con red existente | AT1, AT3 |
-| **Disponibilidad de sistemas** | 99.95% mínimo (señalización, CTC, comunicaciones) | AT4 |
+| **Disponibilidad de sistemas** | 99.5% mínimo (señalización, CTC, comunicaciones) | AT4 |
 | **Mantenimiento predictivo** | Sistema debe permitir monitoreo remoto | AT2 |
 | **Ciberseguridad** | Cumplimiento NIST/IEC 62443 | AT3, VII.2.11 |
 | **Estándares ferroviarios** | AREMA, UIC, RETIE, IEC, ETSI | AT3 |
@@ -949,7 +949,7 @@ Para avanzar con la cotización preliminar de JOVEGA, proponemos:
 - **Agenda:**
   - Presentación del proyecto (30 min)
   - Filosofía de señalización virtual (30 min)
-  - Sistemas de comunicación TETRA + GSM-R (30 min)
+  - Sistemas de comunicación TETRA + TETRA (30 min)
   - Pasos a nivel y seguridad (20 min)
   - Sesión de preguntas y respuestas (2 horas)
 
@@ -995,7 +995,7 @@ Para avanzar con la cotización preliminar de JOVEGA, proponemos:
 (Documento adjunto - 3 páginas)
 
 **Contenido:**
-1. Sistemas principales (CTC, ATP embarcado, ENCE, TETRA, GSM-R, fibra óptica)
+1. Sistemas principales (CTC, ATP embarcado, ENCE, TETRA, TETRA, fibra óptica)
 2. Criterios de disponibilidad (99.5%)
 3. Estándares técnicos aplicables (AREMA, UIC, RETIE, IEC, ETSI)
 4. Interfaces con FENOCO (protocolos UIC)
@@ -1022,13 +1022,13 @@ Para avanzar con la cotización preliminar de JOVEGA, proponemos:
 
 | Sistema/Subsistema | Especificación Técnica Mínima | Cantidad | Disponibilidad Requerida | Normativa Aplicable |
 |:---|:---|:---:|:---:|:---|
-| **CTC** | Control centralizado, protocolo UIC | 1 sistema | 99.95% | AREMA, UIC, IEC 62278 |
-| **ATP Embarcado** | Compatible ETCS Level 2, radio redundante | 15 locomotoras | 99.95% | EN 50126/128/129 |
-| **ENCE** | Enclavamiento electrónico SIL-4 | 5 estaciones | 99.95% | IEC 62278, EN 50129 |
-| **TETRA** | 37 estaciones, 15 km cobertura, redundancia | 37 torres | 99.95% | ETSI EN 300 392 |
-| **GSM-R** | Colocalización TETRA, redundancia | 37 estaciones | 99.95% | ETSI GSM-R |
+| **CTC** | Control centralizado, protocolo UIC | 1 sistema | 99.5% | AREMA, UIC, IEC 62278 |
+| **ATP Embarcado** | Compatible ETCS Level 2, radio redundante | 15 locomotoras | 99.5% | EN 50126/128/129 |
+| **ENCE** | Enclavamiento electrónico SIL-4 | 5 estaciones | 99.5% | IEC 62278, EN 50129 |
+| **TETRA** | 37 estaciones, 15 km cobertura, redundancia | 37 torres | 99.5% | ETSI EN 300 392 |
+| **TETRA** | Colocalización TETRA, redundancia | 37 estaciones | 99.5% | ETSI TETRA |
 | **Fibra Óptica** | 594 km, 48 hilos, monomodo OS2, redundancia | 594 km | 99.9% | ITU-T G.652D |
-| **Desvíos Motorizados** | Control automático CTC, SIL-4 | 25 unidades | 99.95% | AREMA, UIC |
+| **Desvíos Motorizados** | Control automático CTC, SIL-4 | 25 unidades | 99.5% | AREMA, UIC |
 | **Desvíos Manuales** | Autotalonables, comprobadores de punta | 95 unidades | Manual | AREMA |
 | **PN Tipo C** | Barreras automáticas, detección, CTC | 9 PN | 99.5% | Norma colombiana PN |
 | **PN Tipo B** | Señales luminosas/acústicas, CTC | 15 PN | 99.5% | Norma colombiana PN |
@@ -1044,7 +1044,7 @@ Para avanzar con la cotización preliminar de JOVEGA, proponemos:
   - 1.6: Pasos a nivel
 - Capítulo 2: Telecomunicaciones
   - 2.1: Sistema TETRA
-  - 2.2: Sistema GSM-R
+  - 2.2: Sistema TETRA
   - 2.3: Fibra Óptica
 - Capítulo 3: Sistemas Eléctricos
   - 3.1: Subestaciones

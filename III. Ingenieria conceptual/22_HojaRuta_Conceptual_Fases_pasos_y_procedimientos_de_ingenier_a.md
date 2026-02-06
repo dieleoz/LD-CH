@@ -1,4 +1,4 @@
-﻿# HOJA DE RUTA CONCEPTUAL v7.0 - PHASE 7
+# HOJA DE RUTA CONCEPTUAL v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
