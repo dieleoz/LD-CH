@@ -460,3 +460,36 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
 - ✅ **AT4:** Criterios de disponibilidad integrados en métricas
 - ✅ **Consistencia:** Resumen alineado con documentos individuales mejorados
+
+---
+
+## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** ✅ **VALIDACIÓN APROBADA - ESTRATEGIA "VIRTUAL" CON ALERTAS TÉCNICAS**
+
+He realizado la validación forense de la Ingeniería Básica (Folder III) contrastándola con los Criterios Técnicos Maestros v1.0 y el Contrato (PDF). 
+
+### 📊 1. ANÁLISIS DE BLINDAJE TÉCNICO-FINANCIERO
+La reestructuración del Folder III bajo la metodología "Punto 42" ha permitido una optimización masiva de costos sin violar el alcance del AT1:
+*   **Ahorro Consolidado:** Se identifica un ahorro estimado de **$3,100,000,000 COP** al eliminar la obra civil y el hardware de señales físicas y eurobalises.
+*   **Sustitución Tecnológica:** El presupuesto se ha redirigido correctamente a la implementación de **GSM-R (37 estaciones)** y **ENCE (5 estaciones)**, garantizando la interoperabilidad con FENOCO.
+
+### 🚦 2. ALERTA CRÍTICA: ESTRATEGIA "ZERO BALISES"
+El documento MD establece un conteo de **Eurobalises = 0**. Esta es una decisión agresiva que requiere validación en Ingeniería de Detalle:
+*   **Riesgo T-501 (Deriva de Odometría):** El sistema ITCS depende de GPS + Odómetros. Sin balisas de relocalización física (Puntos de Referencia), el error acumulado en el odómetro puede comprometer el nivel de seguridad **SIL 4** en zonas de baja cobertura satelital (cortes profundos).
+*   **Acción Requerida:** Confirmar si el estándar PTC adoptado permite la recalibración exclusivamente via GSM-R/TETRA o si se requieren al menos balisas fijas de "Location Index" en los enclavamientos (ENCE).
+
+### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Director de Ingeniería:** Iniciar el estudio de "Vulnerabilidad GPS" en el corredor. Si hay zonas con Dilución de Precisión (DOP) alta, se debe presupuestar la reinstalación de balisas fijas mínimas.
+2.  **Jefe de Sistemas:** Verificar la latencia de la red de fibra óptica (594 km) para asegurar que el enclavamiento virtual (ENCE) responda en tiempo real a las solicitudes del CTC.
+3.  **Procurement:** Asegurar que las 15 locomotoras vengan equipadas con el **Hardware ATP** compatible con señalización virtual desde fábrica.
+
+### ✅ VEREDICTO FINAL
+**Estado:** **APROBADO PARA INICIO DE INGENIERÍA DE DETALLE**. 
+
+⚠️ **ADVERTENCIA LEGAL:** La adopción de una arquitectura "Zero Balises" debe estar respaldada por un análisis de seguridad (Safety Case) que demuestre que el riesgo de colisión por error de posicionamiento es menor al umbral tolerado por la regulación internacional y el AT3.
+
+---
+
+⚠️ **ADVERTENCIA LEGAL**
+> **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
