@@ -32,22 +32,18 @@ Este documento proporciona la estructura completa y navegación del contrato gen
 
 ## 1. DOCUMENTOS TRANSVERSALES Y ESTRATÉGICOS
 Estos documentos rigen la interpretación, jerarquía y aseguramiento del proyecto durante todas sus fases.
-• 10. Cl_I.2d_JerarquiaDocumental.docx (v4.1): Define la prioridad contractual (Contrato > AT1 > AT2...), gestión de conflictos documentales y obligaciones implícitas. Incluye ahora la gestión de licencias como obligación de resultado,.
-• 9. Cl_16.1_Penalidades.docx (v4.1): Régimen de multas por incumplimiento, integrado con los criterios de disponibilidad del AT4 y fallas en ciberseguridad o interoperabilidad,.
-• 21. AT_Financieros.docx (v3.0): Gestión de Seguros, Pólizas y Garantías, con matriz de riesgos detallada y cronograma de implementación de coberturas,.
-
----
+*   **Capítulo I: Reglas de Interpretación (Pág. 18):** Define la prioridad contractual (Constitución del Proyecto).
+*   **Sección 1.2(d):** Jerarquía de 16 niveles (JerarquiaDocumental_MD.docx v4.1).
+*   **Sección 4.6: Deducciones (Pág. 93):** **CRÍTICO:** Régimen de deducciones automáticas por disponibilidad (AT4). Se diferencia del régimen de multas al ser de ejecución directa en la facturación mensual.
+*   **Capítulo XVI: Sanciones y Multas (Pág. 229):** Procedimiento administrativo sancionatorio para incumplimientos graves, coordinado pero independiente de las deducciones de la Sec. 4.6.
 
 ---
 
 ## 2. FASE DE PRECONSTRUCCIÓN Y DISEÑO
-Documentos que regulan los estudios, permisos y la preparación técnica antes de iniciar obras.
-• 2. Cl_8.1_Preconstruccion.docx (v4.1): Obligaciones de estudios y diseños. Define la estrategia de avance con bloqueos ITCS (ETCS Level 2) y la integración de protocolos UIC para interoperabilidad con FENOCO en los diseños preliminares,.
-• 1. Cl_2.14_LicenciasPermisos.docx (v3.0): Gestión integral de licencias ambientales (ANLA), permisos de espectro (ANE) y trámites prediales/municipales necesarios para la ejecución,.
-• 16. AT6_Gestion_Ambiental.docx (v4.1): Permisos, medidas de mitigación y eficiencia energética, incluyendo monitoreo ambiental de sistemas ITCS y ciberseguridad ambiental,.
-• 17. AT7_Gestion_Predial.docx (v4.1): Adquisición de predios para talleres, CCO y torres de telecomunicaciones, incluyendo servidumbres para sistemas tecnológicos y redundancia,.
-• 18. AT8_Gestion_Social.docx (v4.1): Gestión con comunidades, arqueología preventiva y cultura vial ferroviaria, integrando el impacto social de la implementación tecnológica,.
-• 15. AT5_InterferenciasRedes.docx (v4.1): Cruces con servicios públicos y protección de redes, incluyendo protección contra interferencias electromagnéticas para ITCS y ciberseguridad,.
+*   **Capítulo IX: Etapa de Preconstrucción (Pág. 158):** Obligaciones de estudios, diseños y obtención de licencias.
+*   **Sección 8.1:** Procedimiento de revisión de diseños (Protocolo Día 25).
+*   **AT1 (Alcance):** Infraestructura y material rodante (Señalización Virtual).
+*   **AT3 (Especificaciones):** El estándar FRA (PTC) y la interoperabilidad UIC.
 
 ---
 
@@ -68,11 +64,9 @@ Especificaciones técnicas profundas para el "corazón digital" del proyecto.
 ---
 
 ## 5. FASE DE OPERACIÓN Y MANTENIMIENTO (O&M)
-Documentos rectores para la explotación comercial y sostenibilidad del activo.
-• 4. Cl_9.1_OM.docx (v4.1): Obligaciones generales de O&M. Estrategia de mantenimiento para ITCS, protocolos de coordinación operativa con FENOCO y preservación de redundancia,.
-• 12. AT2_Operacion_y_Mantenimiento.docx (v4.1): Continuidad de servicio, reglamento de operación y SCADA ferroviario. Incorpora ciberseguridad en la operación y protocolos de respuesta a incidentes,.
-• 7. Cl_14.1_OM_Sistemas.docx (v4.1): Reposición y mantenimiento específico de hardware/software. Garantiza actualizaciones de seguridad y gestión de obsolescencia para mantener la disponibilidad del 99.95%,.
-• 14. AT4_Indicadores.docx (v4.1): Sistema de Información de Control y Calidad (SICC). Define las métricas de disponibilidad (incluyendo ITCS y Ciberseguridad) que activan el régimen de penalidades,.
+*   **Capítulo XIV: Operación y Mantenimiento (Pág. 222):** Obligaciones de explotación comercial y sostenibilidad.
+*   **AT2 (O&M):** Manuales, reglamentos y reposición tecnológica.
+*   **AT4 (Indicadores):** El "Juez Digital" (SICC) que mide la disponibilidad del 99.95%.
 
 ---
 
@@ -95,28 +89,26 @@ Todos los documentos del índice han sido actualizados para incluir cinco pilare
 
 ## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
 **Auditor:** Administrador Contractual EPC
-**Dictamen:** ✅ **VALIDACIÓN APROBADA - ANÁLISIS ESTRATÉGICAMENTE VITAL**
+**Dictamen:** ✅ **HERRAMIENTA ESTRATÉGICA VALIDADA (ADJUSTED PAGINATION)**
 
-He realizado la validación final del Índice General, asegurando que actúe como la columna vertebral de la **Metodología Punto 42** para el contrato 001-2025.
-**Conclusión:** El índice organiza correctamente la jerarquía documental y vincula los riesgos de operación, construcción y reversión en un solo mapa de navegación técnica.
+He realizado la validación forense cruzada sobre el Índice Maestro contrastándolo con el **PDF Oficial (Source 298)** y los pilares de la Metodología Punto 42.
 
-### 🗺️ 1. ESTRUCTURA MAESTRA Y JERARQUÍA
-*   **Alineación Cl. 1.2(d):** El índice prioriza la Jerarquía Documental (Nivel 1 al 16) como el mecanismo rector para resolver discrepancias técnicas y financieras.
-*   **Blindaje:** Vincula el Régimen de Penalidades (Cl. 16.1) con los criterios de disponibilidad del AT4.
+### 🛡️ 1. EL "ESCUDO" DE NAVEGACIÓN
+Se han corregido las coordenadas de paginación para asegurar que el equipo jurídico y técnico ubique de inmediato las fuentes de verdad:
+*   **Capítulo IX (Preconstrucción):** Página 158.
+*   **Capítulo XIV (O&M):** Página 222.
+*   **Capítulo XVI (Sanciones):** Página 229.
+*   **Sección 4.6 (Deducciones):** Página 93.
 
-### 🛡️ 2. PUNTOS CRÍTICOS VALIDADOS
-*   **O&M (Cl. 14):** Integra la gestión de obsolescencia tecnológica (EOL) como obligación de disponibilidad permanente.
-*   **Reversión (Cl. 15):** Incluye los hitos de la Reversión Especial (Puente Sogamoso/Escuelas) y la transferencia de IP/Licencias por 12 meses.
-*   **Preconstrucción/Construcción:** Sincronizado con el **Protocolo Día 25** (Silencio es Objeción) y la **Matriz de Readiness**.
+### 📊 2. LA MURALLA CHINA (DEDUCCIONES VS. MULTAS)
+Se valida la separación de carriles legales: las **Deducciones (Sec. 4.6)** son automáticas y operativas (ligadas al AT4), mientras que las **Multas (Cap. XVI)** requieren un debido proceso administrativo. Confundirlos es un riesgo de flujo de caja crítico.
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1.  **Auditoría de Trazabilidad:** Usar este índice para asegurar que cada Gerencia referencie correctamente los numerales del contrato original en su correspondencia oficial.
-2.  **Control Documental:** Todos los entregables deben ser cargados en el CDE siguiendo esta codificación maestra para evitar el "caos documental" al cierre de las UF.
+### 🚀 INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Metadatos Obligatorios (CDE/BIM):** Todo entregable técnico debe incluir la etiqueta de referencia contractual: `Ref_Contractual: Cap_[Romano]_Sec_[Numero]`.
+2.  **Protocolo Día 25:** Las alarmas de ingeniería deben estar ancladas a los plazos del Capítulo VIII (Pág. 153).
+3.  **Hitos Tecnológicos:** Los capítulos operativos deben leerse bajo la óptica de **ETCS Level 2** y normas de **Ciberseguridad NIST/IEC 62443**.
 
 ### ✅ VEREDICTO FINAL
-**Estado:** **VALIDADO Y SINCRONIZADO**. Columna vertebral del blindaje contractual completada.
+**Estado:** **APROBADO COMO MAPA DE NAVEGACIÓN MAESTRO**. 
 
----
-
-⚠️ **ADVERTENCIA LEGAL**
-> **📋 Este índice es una herramienta de gestión interna. Para correspondencia oficial con la ANI, citar siempre el Numeral y Capítulo del Contrato Original (PDF).**
+⚠️ **ADVERTENCIA LEGAL:** Este Índice MD es una herramienta de interpretación. En caso de discrepancia, prevalece estrictamente el texto del **Documento PDF Oficial Firmado (Fuente 298)**.

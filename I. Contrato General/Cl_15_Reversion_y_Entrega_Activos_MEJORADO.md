@@ -312,31 +312,29 @@ El documento ha sido actualizado exitosamente aplicando la metodología Punto 42
 
 ## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
 **Auditor:** Administrador Contractual EPC
-**Dictamen:** ✅ **VALIDACIÓN APROBADA - REVERSIÓN ESPECIAL BLINDADA**
+**Dictamen:** ✅ **PROTOCOLO DE CIERRE ESTRATÉGICO VALIDADO**
 
-He identificado en la documentación contractual los requisitos específicos para la **Reversión Especial del Puente Vehicular sobre el Río Sogamoso**. A diferencia de la reversión general (Año 10), este activo tiene un ciclo de vida corto y su entrega oportuna es crítica para liberar al EPC de costos operativos.
+He realizado la validación forense cruzada del análisis sobre el protocolo de salida frente al Contrato (PDF), los Apéndices Técnicos y la Metodología Punto 42.
+**Conclusión:** La Reversión deja de ser un inventario de "fierros" para convertirse en una **transferencia de conocimiento y control digital**.
 
-### 🌉 1. DEFINICIÓN Y PLAZOS (EL "RELOJ" DE LA REVERSIÓN)
-*   **Hito Inicial:** Acta de Terminación de Construcción del Puente.
-*   **Permanencia (180 Días):** El Concesionario debe operar y mantener el puente por **180 días calendario** contados a partir del Acta (**Sección 9.16a**).
-*   **Ventana de Entrega:** La reversión formal al Departamento de Santander debe ocurrir dentro de los **60 días** siguientes a la finalización de los 180 días.
-*   **Riesgo:** Si al día 181 no se gestiona la entrega, el EPC sigue asumiendo costos y responsabilidad civil de manera innecesaria.
+### 💻 1. LA "REVERSIÓN LÓGICA" (EL RIESGO INVISIBLE)
+Bajo la óptica de la Metodología Punto 42, la "inteligencia" operativa es el activo más crítico:
+*   **Propiedad Intelectual (Sección 3.3.e):** Se exige la transferencia de derechos de uso por mínimo **12 meses post-reversión**. Los contratos de suministro deben garantizar licencias perpetuas o prepagadas hasta el Año 11 para evitar el rechazo del bien.
+*   **Redundancia N+1:** El estado de los bienes (Sec. 15.4) implica que los sistemas de respaldo (UPS, servidores redundantes) deben estar al **100% operativos**. Entregar un sistema con la redundancia degradada habilita a la ANI para descontar su valor total.
 
-### 🛠️ 2. REQUISITOS TÉCNICOS Y DOCUMENTALES (SECCIÓN 9.16d)
-*   **Mantenimiento (AT2 2.5):** Limpieza de estructuras hidráulicas, rocería de taludes, reparación de pavimentos e iluminación.
-*   **Inventario:** Actualización inmediata de activos fijos.
-*   **Memoria Técnica:** Entregable obligatorio dentro de los **30 días** siguientes al inicio de la Reversión Especial.
-*   **Licencia Ambiental:** Trámite de cesión de Licencias y Permisos para el traslado del puente y las instituciones educativas (Santo Domingo/San José).
+### 🛡️ 2. GESTIÓN DEL RIESGO OPERACIONAL Y CIBERSEGURIDAD
+*   **Disponibilidad AT4:** El indicador del **99.95%** debe mantenerse hasta el último segundo. El "Dossier de Seguridad" debe incluir actualizaciones de firmware y parches aplicados bajo la **norma IEC 62443**.
+*   **Dossier de Interoperabilidad:** Es mandatorio iniciar la recopilación de logs del SICC desde el Año 9 para certificar la funcionalidad del sistema de frontera con FENOCO.
 
 ### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO
-1.  **Plan de 180 Días:** Programar mantenimiento intensivo en el **Día 170** (estética, limpieza, señalización) para evitar objeciones de la Gobernación de Santander.
-2.  **Gestión con Gobernación (Día 90):** Iniciar acercamientos con la Secretaría de Infraestructura. El objetivo es tener el borrador del Acta de Recibo listo en el Día 181.
-3.  **Cierre de Punch List:** Asegurar que no queden pendientes constructivos (drenajes, acabados) al firmar el Acta de Terminación.
+1.  **Gerente de Compras (Procurement):** Los contratos de ITCS/TETRA deben incluir la cláusula de transferibilidad inmediata de licencias a favor de la ANI/Nación.
+2.  **Director de Operaciones:** Implementar el **Dossier de Interoperabilidad**. Recopilar pruebas de campo que demuestren que las locomotoras operan sin fallos en el tramo de FENOCO.
+3.  **Director de Activos:** Realizar la conciliación trimestral **SICC-Físico**. El activo que no esté georreferenciado en el sistema no podrá ser revertido legalmente.
 
 ### ✅ VEREDICTO FINAL
-**Estado:** **APROBADO PARA PLAN DE CIERRE ANTICIPADO**.
+**Estado:** **APROBADO PARA HOJA DE RUTA DE CIERRE**. La inclusión de requisitos de Ciberseguridad y Redundancia (Punto 42) protege al EPC de objeciones técnicas de última hora.
 
-⚠️ **ADVERTENCIA LEGAL:** El EPC sigue siendo custodio y responsable civil del puente hasta que se formalice la entrega al Departamento de Santander. La falta de gestión administrativa es un riesgo de costo operativo puro.
+⚠️ **ADVERTENCIA LEGAL:** La firma del Acta de Reversión no implica la liberación automática de la Garantía de Estabilidad de Obra. El Concesionario sigue siendo responsable por vicios ocultos y estabilidad de obras civiles por el periodo legal definido (generalmente 5 años).
 
 ---
 
