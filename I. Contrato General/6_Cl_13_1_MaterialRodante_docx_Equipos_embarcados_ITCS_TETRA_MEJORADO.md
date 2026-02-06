@@ -1,7 +1,7 @@
 ﻿﻿# SECCIONES 13.1 y 13.2 (CONTRATO) y APÉNDICE TÉCNICO 1 - GESTIÓN Y PUESTA A PUNTO DE MATERIAL RODANTE
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 02 de octubre de 2025  
+**Fecha de actualización:** 06 de febrero de 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Cláusula:** 13.1, 13.2 y AT1 - Gestión y Puesta a Punto  
@@ -12,7 +12,7 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 02 de octubre de 2025 |
+| **Fecha de actualización** | 06 de febrero de 2026 |
 | **Proyecto** | APP La Dorada - Chiriguaná |
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
@@ -38,6 +38,7 @@ Este documento contractual establece las obligaciones para la recepción del mat
 | **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v5.0** | Oct-2025 | Ing. Contractual | Corrección crítica de indexación (13.1 vs 13.2) y alcance técnico |
+| **v6.0** | Feb-2026 | Adm. Contractual EPC | Validación Forense (Conflict Normativo FRA vs EN) |
 
 ---
 
@@ -179,78 +180,67 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: Completado - 27/01/2025  
-Version: 4.1  
+Estado del documento: Validado con Alerta - 06/02/2026
+Version: 6.0
 Responsable: Administrador Contractual EPC
-Proxima actualizacion: 02/11/2025
+Proxima actualizacion: Q1 2026 (Cierre Protocolos FENOCO)
 
 ---
 
-## ACTUALIZACIÓN v5.0 - CORRECCIÓN INDEXACIÓN CONTRACTUAL
+## ACTUALIZACIÓN v6.0 - VALIDACIÓN FORENSE Y CONFLICTO NORMATIVO (06-Feb-2026)
 
-### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
+### � DICTAMEN: VALIDADO CON ALERTA DE HOMOLOGACIÓN NORMATIVA
 
-#### **✅ MEJORAS IMPLEMENTADAS:**
+**Dictamen:** El documento MD estructura correctamente la distinción contractual entre la Recepción ("As-Is") y la Modernización (Inversión). Sin embargo, existe una discrepancia técnica entre la normativa propuesta en el MD (FRA/AREMA - Americana) y las normas citadas en el Apéndice Técnico 3 del PDF (EN/UNE - Europeas) para los equipos embarcados, lo cual requiere una gestión de ingeniería inmediata.
 
-1. **CORRECCIÓN DE CLÁUSULAS:**
-   - **Sección 13.1:** Identificada correctamente como "Entrega del Material Rodante" (Recepción).
-   - **Sección 13.2:** Identificada como "Puesta a Punto" (Obligación de Modernización).
-   - **AT1 Num. 5.3:** Referencia específica para instalación de ITCS y TETRA.
+### 🛡️ 1. VALIDACIÓN DE OBLIGACIONES CONTRACTUALES
 
-2. **REESTRUCTURACIÓN DE CONTENIDO:**
-   - Separación clara entre recepción de bienes y obligación de inversión tecnológica.
-   - Inclusión de obligaciones de mantenimiento según AT2.
+#### **A. Recepción del Material Rodante (La Trampa del "As-Is")**
+- **📄 Fuente MD:** Sección 2.1 "Condiciones de Entrega".
+- **📄 Fuente PDF:** Contrato Principal, Sección 13.1 y 2.87.
+- **⚖️ Validación:** **CORRECTO.** El contrato establece que la entrega se realiza "en el estado en que se encuentre" y el Concesionario no puede presentar objeciones al momento de la entrega.
+- **🚨 Riesgo:** Una vez firmada el Acta de Entrega, cualquier falla del material rodante afectará el indicador DMR (Disponibilidad Material Rodante) del AT4. El EPC asume el riesgo total de rehabilitación.
 
-#### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-
-1. **Confusión Cláusula 13.1 vs 13.2:** Corregida la atribución de la obligación de modernización.
-2. **Omisión de AT1:** Detallada la obligación de instalar equipos en locomotoras U18.
-
-#### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
-
-| ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
-| R-600 | Estado de Recepción | Técnico | Alta | Medio | Material rodante recibido en mal estado (sin objeción 13.1) |
-| R-601 | Retraso Puesta a Punto | Cronograma | Alta | Alto | Incumplimiento de Sección 13.2 afecta inicio operación |
-| R-602 | Penalidades DMR | Operacional | Media | Alto | Baja disponibilidad por fallas en equipos nuevos |
-
-#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
-
-| Sistema | Cláusula | AT | Especificación | Estado |
-|:---|:---|:---|:---|:---:|
-| **Entrega** | 13.1 | AT1 | Recepción "As-Is" | ✅ Corregido |
-| **Puesta a Punto** | 13.2 | AT1 | Instalación ITCS/TETRA | ✅ Corregido |
-| **Mantenimiento** | 14.6 | AT2 | Preventivo/Correctivo | ✅ Corregido |
-| **Especificaciones** | N/A | AT3 | Detalles Técnicos | ✅ Corregido |
-
-#### **✅ CONCLUSIONES:**
-
-El documento ha sido reestructurado para reflejar fielmente la estructura del Contrato de Concesión No. 001 de 2025. Se han corregido las referencias a la Cláusula 13.1 (Entrega) y se han asignado correctamente las obligaciones de modernización a la Sección 13.2 y al Apéndice Técnico 1.
+#### **B. Obligación de Equipamiento Tecnológico (ITCS y TETRA)**
+- **📄 Fuente MD:** Sección 3.2 y 5.1.
+- **📄 Fuente PDF:** Apéndice Técnico 1, Numeral 5.3 y Apéndice Técnico 3, Numeral 8.10.
+- **⚖️ Validación:** **CORRECTO.** El AT1 exige explícitamente para la locomotora U18 (y equivalentes) el "suministro e instalación de equipo a bordo ITCS que permita la interoperabilidad con el corredor férreo Chiriguaná Santa Marta". Esto confirma que la instalación de tecnología es una obligación contractual de la fase de Puesta a Punto.
 
 ---
 
-## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md (v5.0)
-**Dictamen:** 📊 APROBADO TÉCNICAMENTE / ALERTA DE COHERENCIA TECNOLÓGICA
+### ⚠️ 2. EL CONFLICTO NORMATIVO (ALERTA TÉCNICA)
 
-### 📊 ANALISIS ESTRATÉGICO
-El documento corrige un error histórico crítico: la confusión entre la Recepción (13.1) y la Puesta a Punto (13.2). Sin embargo, persiste una incoherencia tecnológica respecto al estándar de señalización (PTC vs. ETCS) que debe resolverse antes de comprar los equipos embarcados.
+**Aquí radica el punto crítico para el Director de Ingeniería:**
 
-### 🛡️ VALIDACIÓN DE OBLIGACIONES CRÍTICAS
-1. **La Trampa de la "Entrega As-Is" (Cláusula 13.1):** El EPC asume el riesgo técnico total desde el Acta de Entrega. No se admiten reservas sobre el estado de las locomotoras (GR12, U10).
-2. **Obligación de Inversión Tecnológica (Cláusula 13.2):** Suministro e instalación de ITCS y TETRA es un CAPEX de modernización, no mantenimiento.
-3. **Conflicto Tecnológico (PTC vs ETCS):** El documento v5.0 apuesta por **FRA-PTC** para interoperabilidad con FENOCO, alineado con el AT1 y AT3 mejorados.
+1.  **Propuesta MD (Punto 42):** Instruye usar el estándar **PTC (Positive Train Control)** bajo norma **FRA 49 CFR 236** para garantizar la interoperabilidad con FENOCO (que usa normas americanas).
+2.  **Texto Contrato PDF (AT3):** El Numeral 8.10 "Sistemas de comunicaciones embarcados" lista normas **EUROPEAS** como referencia obligatoria: **EN 50155, EN 50121, UNE-EN 50159**.
 
-### ⚠️ RIESGOS GESTIONADOS (PMI)
-- **R-600 Estado de Recepción:** Riesgo de multas por disponibilidad (DMR < 95%) si el material recibido requiere mantenimiento mayor inmediato.
-- **R-601 Retraso Puesta a Punto:** Plazo de 12 meses (AT1) para equipos de interoperabilidad.
-- **Dependencia FENOCO:** La funcionalidad depende de la revelación de protocolos cerrados.
+**⚖️ Impacto:** Si instalamos equipos PTC (Americanos) para cumplir con FENOCO, podríamos estar incumpliendo el listado de normas europeas del AT3.
 
-### 🚀 INSTRUCCIONES AL EQUIPO
-1. **Unificación de Estándar:** Mantener **FRA-PTC** (Norma Americana) como baseline actual. No comprar equipos hasta cierre total de protocolos.
-2. **Auditoría de Recepción:** Inspección profunda pre-firma para establecer línea base de motores y bogies (aunque sea "sin objeción").
-3. **Plataformas:** Análisis costo-beneficio entre "Suministro Nuevo" vs "Conversión de Góndolas".
+**🎯 Solución:** Se debe radicar un **Dossier Técnico de Homologación** demostrando que el estándar FRA/AREMA es equivalente o superior al EN/UNE para el contexto operacional específico (material rodante americano en vía americana), o solicitar una aclaración a la ANI amparados en la necesidad de interoperabilidad (Obligación Funcional Superior).
 
-**VEREDICTO FINAL:** Documento contractualmente seguro en responsabilidades. Téhnicamente condicionado a la resolución del Blocker-001 de Señalización.
+---
 
-⚠️ **ADVERTENCIA LEGAL:** La instalación de ITCS/TETRA es una obligación de resultado. Si se instalan equipos que cumplen la norma pero no logran comunicarse con FENOCO, se considerará un incumplimiento de la funcionalidad operativa exigida.
+### 🚀 3. INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+
+#### **Para el Gerente de Material Rodante:**
+-   **Auditoría Previa (Mes 0):** Antes de firmar el Acta de la Sección 13.1, ejecutar una inspección técnica profunda (motores, bogies, sistemas de freno) aunque el contrato diga "sin objeción". El objetivo no es rechazar, sino crear una **Línea Base de Estado** para protegerse de multas tempranas del AT4 (DMR).
+-   **Kits de Instalación:** Los diseños de los soportes para las antenas TETRA y pantallas ITCS en cabina deben validarse estructuralmente para no afectar la integridad de las locomotoras antiguas (GR12/U10).
+
+#### **Para el Director de Ingeniería de Sistemas:**
+-   **Definición de Interfaz FENOCO:** La obligación de ITCS es funcional ("permitir interoperabilidad"). No se puede comprar el hardware embarcado hasta que FENOCO revele sus protocolos de vía (**Blocker-002**).
+-   **Certificación EN 50155:** Asegurar que, aunque el sistema sea lógico americano (PTC), el hardware físico (radios, computadoras) tenga certificación **EN 50155** (resistencia a vibraciones y temperatura) como exige el AT3. Esto cumple la norma europea de hardware mientras se usa lógica americana.
+
+#### **Para Control de Proyectos:**
+-   **Presupuesto Componente B:** La instalación de estos equipos es CAPEX recuperable vía Componente B (Inversión en Material Rodante). Asegurar que cada kit instalado se reporte en las Actas de Avance para cobro semestral.
+
+---
+
+### ✅ VEREDICTO FINAL
+
+El documento "6_Cl_13_1_MaterialRodante...MEJORADO.md" es una guía de gestión válida, pero requiere una **Nota Aclaratoria** sobre la estrategia de cumplimiento normativo (FRA vs EN).
+
+-   **Uso:** Base para los Términos de Referencia (TDR) de compra de equipos embarcados.
+-   **Advertencia:** No iniciar compras de equipos ITCS hasta cerrar el acuerdo técnico con FENOCO (Sección 12.3 del Contrato).
+
+⚠️ **ADVERTENCIA LEGAL:** La falta de certificación de interoperabilidad de los equipos embarcados impedirá el ingreso a la red de FENOCO. Si esto ocurre, el Concesionario podría incurrir en incumplimiento de la obligación de prestación del servicio de transporte (Sección 13.3) y perder el derecho al cobro de tarifas asociadas a la carga pasante.
