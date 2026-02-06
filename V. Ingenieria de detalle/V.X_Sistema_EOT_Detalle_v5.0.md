@@ -1,9 +1,4 @@
-# V.X Sistema EOT v5.0 - DISPOSITIVOS END OF TRAIN
-## APP La Dorada - Chiriguaná
-
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -218,10 +213,10 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
+| v5.0 | Ene-2025 | Metodología v5.0 aplicada |
 
 ---
 
 **Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
 
-**✅ MISIÓN CUMPLIDA - TODOS LOS DOCUMENTOS PENDIENTES COMPLETADOS**
+**Estado del documento:** ⚠️ **EN RE-LINEACIÓN**

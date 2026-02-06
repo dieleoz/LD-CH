@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** IV.4 - Especificaciones Básicas Sistemas  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,7 +20,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Básica |
 | **Número** | IV.4 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **ESPECIFICACIONES BÁSICAS EN SANEAMIENTO (RE-LINEACIÓN APC)** |
 
 ---
 
@@ -76,22 +76,14 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 
 ## 2. ✅ VERIFICACIÓN DE COHERENCIA TÉCNICA ⭐ NUEVO
 
-### 2.1 Estado Actual vs Criterios Maestros
+### 2.1 Alineación de Especificaciones vs Apéndices
 
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
-| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
-| **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
-| **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **Desvíos** | 120 total | 120 total | ✅ 100% |
-| **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
-| **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
+| Sistema | Especificación Contractual | Propuesta de Ingeniería | Estado |
+|:--------|:--------------------------|:-----------------------|:---:|
+| **Backbone FO** | Redundancia física | FO Monomodo (Propuesta) | 🔍 En Diseño |
+| **Radio** | Cobertura 100% | TETRA + GSM-R (Benchmarking) | 🔍 En Diseño |
+| **Señalización** | SICC ≥ 99.5% | Virtual (Benchmarking) | 🔍 En Diseño |
+| **Servidores** | Alta disponibilidad | Cluster Proyectado | 🔍 En Diseño |
 
 ### 2.2 Desalineaciones Detectadas
 **✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
@@ -301,15 +293,15 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 
 ### **7.1 Especificaciones de Hardware (Actualizadas según Criterios Maestros)**
 
-#### **7.1.1 Especificaciones de Servidores**
-| Parámetro | Especificación |
-|:----------|:---------------|
-| **Procesador** | Intel Xeon Gold 6342 (24 núcleos) |
-| **Memoria RAM** | 256 GB DDR4 ECC |
-| **Almacenamiento** | 2 TB SSD NVMe |
-| **Red** | 2 x 10 Gbps Ethernet |
-| **Sistema operativo** | Windows Server 2019/2022 |
-| **Disponibilidad** | 99.95% |
+#### 7.1.1 Benchmarking de Servidores (Referencial)
+| Parámetro | Especificación de Referencia |
+|:----------|:-----------------------------|
+| **Procesador** | Arquitectura x64 (Multi-core) |
+| **Memoria RAM** | Escalable según carga (Est. 256GB) |
+| **Almacenamiento** | SSD Nivel Empresarial |
+| **Red** | Redundante ≥ 10 Gbps |
+| **Sistema operativo** | Nivel Servidor (Compatible SICC) |
+| **Disponibilidad** | ≥ 99.5% (Según AT4) |
 
 #### **7.1.2 Especificaciones de Equipos de Red**
 | Parámetro | Especificación |
@@ -318,7 +310,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Puertos** | 48 x 1 Gbps + 4 x 10 Gbps |
 | **Redundancia** | Stack virtual |
 | **Protocolos** | OSPF, BGP, MPLS |
-| **Disponibilidad** | 99.95% |
+| **Disponibilidad** | 99.5% |
 
 #### **7.1.3 Especificaciones de Equipos Embarcados**
 | Parámetro | Especificación |
@@ -327,7 +319,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **EOT** | 15 dispositivos |
 | **Radios TETRA** | 15 locomotoras |
 | **Radios GSM-R** | 15 locomotoras |
-| **Disponibilidad** | 99.95% |
+| **Disponibilidad** | 99.5% |
 
 ### **7.2 Especificaciones de Software (Actualizadas según Criterios Maestros)**
 
@@ -396,7 +388,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Servidor de respaldo** | Dell PowerEdge R750 |
 | **Estaciones de trabajo** | Dell OptiPlex 7090 |
 | **Monitores** | 24" Full HD |
-| **Disponibilidad** | 99.95% |
+| **Disponibilidad** | 99.5% |
 
 #### **8.1.2 Software CTC**
 | Componente | Especificación |
@@ -448,7 +440,7 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 | **Controladores** | Siemens SIMIS W |
 | **Paneles de control** | Paneles táctiles |
 | **Módulos I/O** | Módulos digitales/analógicos |
-| **Disponibilidad** | 99.95% |
+| **Disponibilidad** | 99.5% |
 
 #### **8.4.2 Software ENCE**
 | Componente | Especificación |
@@ -481,27 +473,17 @@ Este documento establece las especificaciones básicas de sistemas técnicos par
 
 ---
 
-## 10. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
+## 10. CRITERIOS DE SELECCIÓN DE TECNOLOGÍA (ANÁLISIS DE VALOR)
 
-### **10.1 Eliminaciones (Sobrepresupuesto)**
-- **Especificaciones señales físicas:** -$1,800,000,000 COP
-- **Especificaciones eurobalises:** -$1,200,000,000 COP
-- **Especificaciones RBC:** -$600,000,000 COP
-- **TOTAL ELIMINAR:** -$3,600,000,000 COP
+### 10.1 Criterios de Evaluación
+La selección final de hardware y software se realizará en la Fase D (Detalle) basándose en:
+1.  **Compatibilidad Contractual:** Alineación estricta con AT3.
+2.  **Disponibilidad Local:** Soporte técnico y repuestos en Colombia.
+3.  **Costo Total de Propiedad (TCO):** Evaluación LCCA a 10 años.
+4.  **Interoperabilidad:** Garantía de interfaz con red FENOCO.
 
-### **10.2 Implementaciones Nuevas (Faltante)**
-- **Especificaciones ENCE (5 estaciones):** +$900,000,000 COP
-- **Especificaciones GSM-R (37 estaciones):** +$1,800,000,000 COP
-- **Especificaciones sistemas virtuales:** +$900,000,000 COP
-- **TOTAL AGREGAR:** +$3,600,000,000 COP
-
-### **10.3 Ajustes de Cantidades**
-- **TETRA:** +$300,000,000 COP (4 estaciones adicionales)
-- **Fibra Óptica:** +$200,000,000 COP (594 km)
-- **TOTAL AJUSTAR:** +$500,000,000 COP
-
-### **10.4 Impacto Neto**
-**IMPACTO NETO TOTAL:** +$500,000,000 COP
+### 10.2 Notas sobre Hardware Proyectado
+Los modelos mencionados en versiones previas (Siemens, Motorola, Cisco, Huawei) se consideran **referencias de benchmarking** y no constituyen una camisa de fuerza técnica ni una obligación contractual para el EPC en esta etapa.
 
 ---
 

@@ -1,11 +1,12 @@
-# PLAN EUROBALISE - UBICACIÓN CADA 150M
-## APP La Dorada-Chiriguaná - Sistema de Referencias de Posición
+# ESTUDIO DE REFERENCIA - ESCENARIO EUROBALISE (BENCHMARK)
+## APP La Dorada-Chiriguaná - Documento de Consulta (No Vinculante)
 
-**Estado:** 🔄 **EN DESARROLLO - FASE 1 CRÍTICA**  
-**Fecha:** 27 de Enero, 2025  
-**Responsable:** Ing. Sistemas - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Responsable:** Ing. Sistemas - EPC
+**Especialista:** Especialista Senior en Control de Trenes
 **Estándar Base:** UIC 438, EN 50126, EN 50129
+**Nota:** Este documento analiza un escenario tradicional basado en 8,801 Eurobalises, presentado únicamente como benchmark comparativo. No representa el diseño base del proyecto.
 
 ---
 

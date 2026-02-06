@@ -1,11 +1,9 @@
-# CYBERSECURITY SEGÚN IEC 62443 - SEGURIDAD CIBERNÉTICA DE SISTEMAS INDUSTRIALES
-## APP La Dorada-Chiriguaná - Plan Integral de Ciberseguridad
+# PLAN DE CIBERSEGURIDAD (PROPUESTA TÉCNICA)
+## APP La Dorada-Chiriguaná - Gestión de Seguridad de la Información
 
-**Estado:** 🔄 **EN DESARROLLO - FASE 3 OPTIMIZACIÓN**  
-**Fecha:** 27 de Enero, 2025  
-**Responsable:** Ing. Ciberseguridad - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
-**Estándar Base:** IEC 62443, NIST Cybersecurity Framework, ISO 27001
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Estándar Base:** IEC 62443, NIST, ISO 27001
 
 ---
 

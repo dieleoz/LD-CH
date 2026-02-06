@@ -4,7 +4,8 @@
 **Fecha de actualización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Documento:** IV - Ingeniería Básica Resumen  
+**Documento:** IV - Resumen de Ingeniería Básica (Re-lineación APC)  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -19,7 +20,7 @@
 | **Tipo** | Resumen Ejecutivo |
 | **Categoría** | Ingeniería Básica |
 | **Fase** | Fase 2 - Desarrollo de Documentación Técnica |
-| **Estado** | ✅ Contenido completo |
+| **Estado** | ⚠️ **RESUMEN EN SANEAMIENTO (RE-LINEACIÓN APC)** |
 
 ---
 
@@ -47,10 +48,9 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 
 > **📝 La Fase de Ingeniería Básica del Proyecto APP La Dorada - Chiriguaná comprende el desarrollo de 6 documentos técnicos fundamentales que establecen los criterios de diseño, arquitecturas de sistemas, localizaciones, gestión de permisos, interfaces e integración, y estrategias de pruebas y validación.**
 
-### 📊 **ESTADO ACTUAL:**
-- **✅ Documentos revisados y mejorados:** 6/6 (v4.1)
-- **📅 Fecha de actualización:** 27 de enero de 2025
-- **📋 Versión:** 4.1 (Revisión real aplicada - ITCS, FENOCO, AT4)
+- **⚠️ Estado:** Documentación en proceso de re-lineación con Apéndices Técnicos.
+- **📅 Fecha de actualización:** Enero 2025
+- **📋 Alcance:** Ingeniería Básica (Fase C)
 
 ---
 
@@ -298,12 +298,9 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 | **🟡 Obsolescencia tecnológica** | **Baja** | **Medio** | **Tecnologías maduras y probadas** |
 
 ### 🛡️ **Estrategias de Mitigación:**
-> **🔧 ACCIONES:**
-> 
-> - **🤝 Gestión proactiva de stakeholders** desde fase de diseño
-> - **📋 Documentación exhaustiva** de todas las decisiones técnicas
-> - **🔄 Planes de contingencia** para cada riesgo identificado
-> - **👥 Equipo especializado** con experiencia internacional
+- **🤝 Gestión proactiva de stakeholders** para validación de interfaces.
+- **📋 Alineación estricta con AT3** una vez se formalicen las especificaciones finales.
+- **🔄 Enfoque de Diseño Modular:** Para absorber cambios en la definición de ITCS/ETCS.
 
 ---
 
@@ -461,33 +458,21 @@ Este documento proporciona un resumen ejecutivo de la Fase de Ingeniería Básic
 - ✅ **AT4:** Criterios de disponibilidad integrados en métricas
 - ✅ **Consistencia:** Resumen alineado con documentos individuales mejorados
 
+## ⚖️ DECLARACIÓN DE RE-LINEACIÓN TÉCNICA
+El presente resumen y los documentos que lo componen han sido sometidos a un proceso de **descontaminación técnica** para eliminar 'venciones' no contractuales.
+
+### 📊 1. PRINCIPIOS DE RE-LINEACIÓN
+- **Neutralidad de Costos:** Se eliminan proyecciones de ahorros financieros para centrar el diseño en el cumplimiento funcional del AT4.
+- **Escalabilidad:** Las cantidades (fibra, torres, cámaras) se definen como 'Dimensionadas', permitiendo su ajuste final en la Fase D (Detalle) sin comprometer el contrato.
+- **Independencia Tecnológica:** Se eliminan marcas y modelos específicos, tratándolos como 'Benchmarks' de mercado.
+
+### 🚀 2. ALERTAS PARA INGENIERÍA DE DETALLE
+1.  **Validación de Cobertura:** La cantidad final de sitios deberá ser el resultado de estudios de propagación RF en campo.
+2.  **Interfaz FENOCO:** La interoperabilidad final depende de la confirmación de protocolos en el AT3.
+3.  **Seguridad (SIL 4):** El diseño virtual debe ser validado mediante un Safety Case que garantice la integridad de la operación sin depender de infraestructura física de vía (señales/balisas) no mandatoria.
+
 ---
-
-## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
-**Auditor:** Administrador Contractual EPC
-**Dictamen:** ✅ **VALIDACIÓN APROBADA - ESTRATEGIA "VIRTUAL" CON ALERTAS TÉCNICAS**
-
-He realizado la validación forense de la Ingeniería Básica (Folder III) contrastándola con los Criterios Técnicos Maestros v1.0 y el Contrato (PDF). 
-
-### 📊 1. ANÁLISIS DE BLINDAJE TÉCNICO-FINANCIERO
-La reestructuración del Folder III bajo la metodología "Punto 42" ha permitido una optimización masiva de costos sin violar el alcance del AT1:
-*   **Ahorro Consolidado:** Se identifica un ahorro estimado de **$3,100,000,000 COP** al eliminar la obra civil y el hardware de señales físicas y eurobalises.
-*   **Sustitución Tecnológica:** El presupuesto se ha redirigido correctamente a la implementación de **GSM-R (37 estaciones)** y **ENCE (5 estaciones)**, garantizando la interoperabilidad con FENOCO.
-
-### 🚦 2. ALERTA CRÍTICA: ESTRATEGIA "ZERO BALISES"
-El documento MD establece un conteo de **Eurobalises = 0**. Esta es una decisión agresiva que requiere validación en Ingeniería de Detalle:
-*   **Riesgo T-501 (Deriva de Odometría):** El sistema ITCS depende de GPS + Odómetros. Sin balisas de relocalización física (Puntos de Referencia), el error acumulado en el odómetro puede comprometer el nivel de seguridad **SIL 4** en zonas de baja cobertura satelital (cortes profundos).
-*   **Acción Requerida:** Confirmar si el estándar PTC adoptado permite la recalibración exclusivamente via GSM-R/TETRA o si se requieren al menos balisas fijas de "Location Index" en los enclavamientos (ENCE).
-
-### 🚀 3. INSTRUCCIONES REFORZADAS AL EQUIPO
-1.  **Director de Ingeniería:** Iniciar el estudio de "Vulnerabilidad GPS" en el corredor. Si hay zonas con Dilución de Precisión (DOP) alta, se debe presupuestar la reinstalación de balisas fijas mínimas.
-2.  **Jefe de Sistemas:** Verificar la latencia de la red de fibra óptica (594 km) para asegurar que el enclavamiento virtual (ENCE) responda en tiempo real a las solicitudes del CTC.
-3.  **Procurement:** Asegurar que las 15 locomotoras vengan equipadas con el **Hardware ATP** compatible con señalización virtual desde fábrica.
-
-### ✅ VEREDICTO FINAL
-**Estado:** **APROBADO PARA INICIO DE INGENIERÍA DE DETALLE**. 
-
-⚠️ **ADVERTENCIA LEGAL:** La adopción de una arquitectura "Zero Balises" debe estar respaldada por un análisis de seguridad (Safety Case) que demuestre que el riesgo de colisión por error de posicionamiento es menor al umbral tolerado por la regulación internacional y el AT3.
+**Estado:** **⚠️ EN RE-LINEACIÓN - BASES CONTRACTUALES VERIFICADAS**. 
 
 ---
 

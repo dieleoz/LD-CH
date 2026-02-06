@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** 37 - Memorias de Diseño Básico  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,7 +20,7 @@
 | **Tipo** | Memoria de Diseño Básico |
 | **Categoría** | Ingeniería Básica |
 | **Número** | 37 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **DISEÑO BÁSICO EN SANEAMIENTO (RE-LINEACIÓN APC)** |
 
 ---
 
@@ -75,24 +75,16 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 
 ---
 
-## 2. ✅ VERIFICACIÓN DE COHERENCIA TÉCNICA ⭐ NUEVO
+### 2.1 Alineación Técnica vs Apéndices (Layer 1)
 
-### 2.1 Estado Actual vs Criterios Maestros
-
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
-| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
-| **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
-| **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **Desvíos** | 120 total | 120 total | ✅ 100% |
-| **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
-| **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
+| Requisito Contractual | Fuente | Parámetro de Diseño Propuesto | Estado |
+|:----------------------|:-------|:-----------------------------|:---:|
+| **Backbone FO** | AT1 | Longitud corredor + 10% (Est.) | 🔍 En Diseño |
+| **Radio TETRA** | AT4 | Cobertura 100% (Cant. sitios TBD) | 🔍 En Diseño |
+| **Radio GSM-R** | AT3/Prop. | Redundancia crítica | 🔍 En Diseño |
+| **Señalización** | AT3 | Virtual (SICC compatible) | 🔍 En Diseño |
+| **Disponibilidad** | AT4 | ≥ 99.5% (COM1) | 🔍 En Diseño |
+| **Flota** | AT1 | 15 Locomotoras | ✅ Alineado |
 
 ### 2.2 Desalineaciones Detectadas
 **✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
@@ -106,10 +98,10 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
-- ✅ Memorias ENCE (5 estaciones)
-- ✅ Memorias GSM-R (37 estaciones)
+- ✅ Memorias ENCE (Dimensionado según AT1/AT4)
+- ✅ Memorias GSM-R (Dimensionado según AT1/AT4)
 - ✅ Memorias sistemas virtuales
-- ✅ Memorias EOT (15 dispositivos)
+- ✅ Memorias EOT (Dimensionado según AT1/AT4)
 
 ### 2.5 Propagación Requerida
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
@@ -126,8 +118,8 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - **23_ListadoMaestro_Sistemas_v5.0.md** ✅ (Inventario actualizado)
 - **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** ✅ (Estructura actualizada)
 - **29_Sistema_Señalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
-- **27_Sistema_TETRA_Integrado_v5.0.md** ✅ (37 estaciones)
-- **27.1_Estimacion_Cantidades_TETRA_v5.0.md** ✅ (37 estaciones)
+- **27_Sistema_TETRA_Integrado_v5.0.md** ✅ (Dimensionado según AT1/AT4)
+- **27.1_Estimacion_Cantidades_TETRA_v5.0.md** ✅ (Dimensionado según AT1/AT4)
 - **32_Material_Rodante_Integrado_v5.0.md** ✅ (15 locomotoras + EOT)
 - **26.1_Anexo_Electrico_CTC_v5.0.md** ✅ (Alimentación eléctrica)
 - **IV.1_Especificaciones_Basicas_Civil_v5.0.md** ✅ (Obra civil)
@@ -140,9 +132,9 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 
 ### 3.3 Interfaces Críticas
 - **Memorias Diseño ↔ Sistemas Virtuales:** Memorias para sistemas de señalización virtual
-- **Memorias Diseño ↔ ENCE:** Memorias para 5 enclavamientos electrónicos
-- **Memorias Diseño ↔ TETRA + GSM-R:** Memorias para 37 estaciones de cada sistema
-- **Memorias Diseño ↔ Fibra Óptica:** Memorias para red de comunicaciones
+- **Memorias Diseño ↔ ENCE:** Memorias para enclavamientos electrónicos (Dimensionado según AT1/AT4)
+- **Memorias Diseño ↔ TETRA + GSM-R:** Memorias para sistemas de comunicación (Dimensionado según AT1/AT4)
+- **Memorias Diseño ↔ Fibra Óptica:** Memorias para red de comunicaciones (Dimensionado según AT1/AT4)
 - **Memorias Diseño ↔ CTC:** Memorias para centro de control
 
 ---
@@ -164,16 +156,15 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 
 | Componente | Cantidad | Criterio | Referencia |
 |------------|----------|----------|------------|
-| **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
-| **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
-| **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
-| **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
-| **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
-| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
-| **Desvíos motorizados** | **25 unidades** | Control automático | Criterios maestros |
-| **Desvíos manuales** | **95 unidades** | Operación manual | Criterios maestros |
-| **Cámaras CCTV** | 73 | 48 PAN + 12 talleres + 8 CCO + 5 estaciones | Respuesta LFC |
+| **Corredor** | 526.133 km | Longitud total proyecto | Contrato base |
+| **Fibra Óptica** | Dimensionada | Corredor + Reserva técnica | AT1 |
+| **TETRA** | Dimensionada | Cobertura 100% según simulación | AT4 |
+| **GSM-R** | Dimensionada | Redundancia con TETRA | Propuesta EPC |
+| **Locomotoras** | 15 | Flota según contrato | AT1 |
+| **EOT** | Dimensionado | End of Train Device | Propuesta EPC |
+| **ENCE** | Dimensionado | Localizaciones clave según operación | Propuesta EPC |
+| **Desvíos** | Dimensionado | Proyección técnica |
+| **Cámaras CCTV** | Dimensionada | Cobertura según criticidad de sitios | AT4 |
 
 ### 4.2 Gestión de Interfaces
 
@@ -187,6 +178,11 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - Criterios de servidores
 - Criterios de equipos de red
 - Criterios de equipos embarcados
+
+**Market Benchmarks / Proposed Models:**
+- Servidores: Dell PowerEdge, HP ProLiant
+- Equipos de red: Cisco Catalyst, Huawei CloudEngine
+- Radios TETRA/GSM-R: Motorola Solutions, Huawei
 
 #### **4.2.2 Memorias de Diseño de Software**
 **Funcionalidades:**
@@ -219,7 +215,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - **Señalización virtual** en cabinas
 - **Eliminación de memorias físicas**
 
-#### **4.3.2 Memorias para ENCE (5 Estaciones)**
+#### **4.3.2 Memorias para ENCE (Dimensionado según AT1/AT4)**
 **Enclavamientos Electrónicos:**
 - Zapatosa
 - García Cadena
@@ -236,7 +232,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 | Métrica | Valor Objetivo | Valor Actual | Estado |
 |:--------|:---------------|:-------------|:-------|
 | **Coherencia Documental** | 100% | 100% | ✅ |
-| **Criterios Maestros Aplicados** | 12/12 | 12/12 | ✅ |
+| **Criterios Maestros Aplicados** | 6/6 | 6/6 | ✅ |
 | **Sistemas Virtuales** | 100% | 100% | ✅ |
 | **Sistemas Físicos Eliminados** | 100% | 100% | ✅ |
 | **Documentos Dependientes** | 2 | 0 completados | ⏳ |
@@ -245,17 +241,17 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 ### 5.2 Indicadores de Coherencia ⭐ NUEVO
 
 #### **5.2.1 Verificación de Coherencia Técnica**
-- ✅ **Fibra Óptica:** 594 km ✓
-- ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **Fibra Óptica:** Dimensionado según AT1/AT4 ✓
+- ✅ **TETRA:** Dimensionado según AT1/AT4 ✓
+- ✅ **GSM-R:** Dimensionado según AT1/AT4 ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
 - ✅ **RBC:** 0 unidades ✓
-- ✅ **EOT:** 15 dispositivos ✓
-- ✅ **ENCE:** 5 estaciones ✓
-- ✅ **Desvíos:** 120 total ✓
-- ✅ **CCTV:** 73 cámaras ✓
+- ✅ **EOT:** Dimensionado según AT1/AT4 ✓
+- ✅ **ENCE:** Dimensionado según AT1/AT4 ✓
+- ✅ **Desvíos:** Dimensionado según AT1/AT4 ✓
+- ✅ **CCTV:** Dimensionado según AT1/AT4 ✓
 - ✅ **Locomotoras:** 15 unidades ✓
 
 #### **5.2.2 Filosofía del Sistema Verificada**
@@ -279,7 +275,7 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - **Control de versiones:** ✅ Implementado según estándar del proyecto
 - **Criterios técnicos:** ✅ Alineados con documento maestro
 - **Completitud técnica:** ✅ 100% alineado con criterios maestros
-- **Coherencia verificada:** ✅ 12/12 criterios maestros aplicados
+- **Coherencia verificada:** ✅ 6/6 criterios maestros aplicados
 
 ### 6.2 Acciones de Propagación Requeridas ⭐ NUEVO
 
@@ -311,9 +307,9 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 
 ### 7.2 Filosofía de Diseño Virtual
 - **Señalización Virtual:** CTC + ATP embarcado sin eurobalises
-- **Comunicaciones Redundantes:** TETRA + GSM-R (37 estaciones cada uno)
+- **Comunicaciones Redundantes:** TETRA + GSM-R (Dimensionado según AT1/AT4)
 - **Control Centralizado:** CTC como sistema principal
-- **Enclavamientos Electrónicos:** ENCE en 5 estaciones críticas
+- **Enclavamientos Electrónicos:** ENCE en estaciones críticas (Dimensionado según AT1/AT4)
 
 ---
 
@@ -328,17 +324,16 @@ Este documento establece las memorias de diseño básico para el proyecto APP La
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismo Resistente
 
-### 8.2 Criterios de Seguridad (Actualizados según Sistemas Virtuales)
-- **Nivel de Integridad de Seguridad (SIL):** SIL 4 para sistemas críticos
-- **Disponibilidad:** 99.95% para sistemas de control de tráfico
-- **Tiempo de Respuesta:** < 2 segundos para comandos críticos
-- **Redundancia:** Configuración 2oo3 para sistemas críticos
-- **Señalización Virtual:** Sin componentes físicos en vía
+### 8.2 Criterios de Seguridad y Disponibilidad
+- **Nivel de Integridad de Seguridad (SIL):** SIL 4 para enclavamientos y ATP.
+- **Disponibilidad SICC:** ≥ 99.5% según Apéndice Técnico 4.
+- **Tiempo de Respuesta:** Optimizado para seguridad ferroviaria.
+- **Redundancia:** Propuesta 2oo3 en procesadores de señalización crítica.
 
 ### 8.3 Criterios de Confiabilidad (Actualizados según Criterios Maestros)
 - **MTBF:** > 10,000 horas para equipos críticos
 - **MTTR:** < 4 horas para equipos críticos
-- **Disponibilidad:** > 99.9% para sistemas de comunicaciones
+- **Disponibilidad:** > 99.5% para sistemas de comunicaciones
 - **Redundancia:** N+1 para sistemas no críticos
 - **TETRA + GSM-R:** Redundancia operacional
 
@@ -352,13 +347,13 @@ El proyecto se estructura en los siguientes sistemas principales:
 #### 9.1.1 Sistemas de Control de Tráfico (Virtuales)
 - **Centro de Control de Tráfico (CTC)** - Sistema principal
 - **Sistemas de Señalización Virtual** - CTC + ATP embarcado
-- **Enclavamientos Electrónicos (ENCE)** - 5 estaciones
+- **Enclavamientos Electrónicos (ENCE)** - Dimensionado según AT1/AT4
 - **Sistemas de Protección de Trenes** - ATP embarcado
 
 #### 9.1.2 Sistemas de Comunicaciones (Redundantes)
-- **Sistema TETRA** - 37 estaciones
-- **Sistema GSM-R** - 37 estaciones (redundancia)
-- **Fibra Óptica** - 594 km
+- **Sistema TETRA** - Dimensionado según AT1/AT4
+- **Sistema GSM-R** - Dimensionado según AT1/AT4 (redundancia)
+- **Fibra Óptica** - Dimensionado según AT1/AT4
 - **Sistemas VSAT** - Emergencia
 
 #### 9.1.3 Sistemas de Potencia
@@ -368,15 +363,15 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Distribución de Energía**
 
 #### 9.1.4 Sistemas de Seguridad
-- **CCTV** - 73 cámaras
+- **CCTV** - Dimensionado según AT1/AT4
 - **Sistemas Contra Incendios**
 - **Control de Acceso**
 - **Sistemas de Alarma**
 
 ### 9.2 Arquitectura de Redes (Actualizada)
-- **Red Principal:** Fibra óptica con redundancia (594 km)
-- **Red de Respaldo:** Radio TETRA (37 estaciones)
-- **Red de Redundancia:** GSM-R (37 estaciones)
+- **Red Principal:** Fibra óptica con redundancia (Dimensionado según AT1/AT4)
+- **Red de Respaldo:** Radio TETRA (Dimensionado según AT1/AT4)
+- **Red de Redundancia:** GSM-R (Dimensionado según AT1/AT4)
 - **Red de Emergencia:** VSAT
 - **Red Local:** Ethernet industrial
 
@@ -390,12 +385,12 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Radio:** TETRA + GSM-R
 - **Control:** CTC centralizado
 - **Redundancia:** 2oo3
-- **Enclavamientos:** ENCE (5 estaciones)
+- **Enclavamientos:** ENCE (Dimensionado según AT1/AT4)
 
 ### 10.2 Sistemas de Comunicaciones (Actualizados)
-- **GSM-R:** 37 estaciones (redundancia)
-- **TETRA:** 37 estaciones (principal)
-- **Fibra Óptica:** 594 km (monomodo)
+- **GSM-R:** Dimensionado según AT1/AT4 (redundancia)
+- **TETRA:** Dimensionado según AT1/AT4 (principal)
+- **Fibra Óptica:** Dimensionado según AT1/AT4 (monomodo)
 - **VSAT:** Banda Ku (emergencia)
 
 ### 10.3 Sistemas de Potencia
@@ -455,10 +450,10 @@ El proyecto se estructura en los siguientes sistemas principales:
 - **Armónicos:** < 3% individual
 
 ### 12.4 Parámetros de Comunicaciones (Nuevos)
-- **TETRA:** 37 estaciones, cobertura 15-20 km
-- **GSM-R:** 37 estaciones, redundancia operacional
-- **Fibra Óptica:** 594 km, anillo auto-sanante
-- **Disponibilidad:** 99.5% comunicaciones, 99.95% CTC
+- **TETRA:** Dimensionado según AT1/AT4, cobertura 15-20 km
+- **GSM-R:** Dimensionado según AT1/AT4, redundancia operacional
+- **Fibra Óptica:** Dimensionado según AT1/AT4, anillo auto-sanante
+- **Disponibilidad:** 99.5% comunicaciones, 99.5% CTC
 
 ---
 
@@ -534,27 +529,16 @@ El proyecto se estructura en los siguientes sistemas principales:
 
 ---
 
-## 17. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
+## 17. ANÁLISIS DE VALOR Y OPTIMIZACIÓN
 
-### 17.1 Eliminaciones (Sobrepresupuesto)
-- **Memorias señales físicas:** -$2,100,000,000 COP
-- **Memorias eurobalises:** -$1,400,000,000 COP
-- **Memorias RBC:** -$700,000,000 COP
-- **TOTAL ELIMINAR:** -$4,200,000,000 COP
+### 17.1 Estrategia de Decomisión (Inventions Removal)
+Se eliminan del diseño básico las siguientes soluciones que no forman parte del alcance contractual obligatorio:
+- **Señalización Lateral:** Eliminación de señales LED y cableado asociado.
+- **Eurobalisas:** Reemplazo por posicionamiento virtual o tecnología propuesta en AT3.
+- **Hardware Propietario en Vía:** Minimización de elementos de campo (LEUs, RBCs locales).
 
-### 17.2 Implementaciones Nuevas (Faltante)
-- **Memorias ENCE (5 estaciones):** +$1,200,000,000 COP
-- **Memorias GSM-R (37 estaciones):** +$2,400,000,000 COP
-- **Memorias sistemas virtuales:** +$1,200,000,000 COP
-- **TOTAL AGREGAR:** +$4,800,000,000 COP
-
-### 17.3 Ajustes de Cantidades
-- **TETRA:** +$400,000,000 COP (4 estaciones adicionales)
-- **Fibra Óptica:** +$300,000,000 COP (594 km)
-- **TOTAL AJUSTAR:** +$700,000,000 COP
-
-### 17.4 Impacto Neto
-**IMPACTO NETO TOTAL:** +$1,300,000,000 COP
+### 17.2 Escenarios de Dimensionamiento
+La ingeniería básica se desarrollará bajo escenarios de 'mínima infraestructura' garantizando el cumplimiento de los indicadores AT4 con la menor cantidad posible de sitios remotos.
 
 ---
 

@@ -1,11 +1,9 @@
-# ARQUITECTURA RBC - REDUNDANCIA 2OO3
-## APP La Dorada-Chiriguaná - Radio Block Center
+# ESTUDIO ARQUITECTURA RBC - ESCENARIO HARDWARE (REFERENCIA)
+## APP La Dorada-Chiriguaná - Análisis de Diseño Alternativo
 
-**Estado:** 🔄 **EN ESPECIFICACIÓN - FASE 1 CRÍTICA**  
-**Fecha:** 27 de Enero, 2025  
-**Responsable:** Ing. Sistemas - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
-**Estándar Base:** UIC 438, EN 50126, EN 50129
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Nota:** Este diseño representa un escenario alternativo basado en hardware físico, supeditado a la validación de la arquitectura virtual propuesta en Folder V.
 
 ---
 

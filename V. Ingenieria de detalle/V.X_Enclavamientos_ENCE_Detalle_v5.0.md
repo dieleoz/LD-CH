@@ -1,9 +1,4 @@
-# V.X Enclavamientos ENCE v5.0 - SISTEMAS ELECTRÓNICOS DE CONTROL
-## APP La Dorada - Chiriguaná
-
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -165,14 +160,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 
 ---
 
-## 11. IMPACTO PRESUPUESTAL
-
-### 11.1 Componentes ENCE
-- **5 Controladores ENCE:** $1,500,000,000 COP
-- **Sistemas de alimentación:** $500,000,000 COP
-- **Instalación y pruebas:** $300,000,000 COP
-- **Documentación:** $100,000,000 COP
-- **TOTAL:** $2,400,000,000 COP
+## 11. GESTIÓN DE CAMBIOS
 
 ---
 
@@ -194,7 +182,7 @@ Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
+| v5.0 | Ene-2025 | Metodología v5.0 aplicada |
 
 ---
 

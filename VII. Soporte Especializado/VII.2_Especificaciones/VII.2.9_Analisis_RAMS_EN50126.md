@@ -270,9 +270,9 @@ CÁLCULOS DE DISPONIBILIDAD:
 DISPONIBILIDAD OBJETIVO POR SISTEMA:
 
 SISTEMAS CRÍTICOS (SIL 4):
-- ITCS ETCS Level 2: ≥ 99.95%
+- ITCS ETCS Level 2: ≥ 99.5%
 - Sistema de Frenado: ≥ 99.99%
-- Detectores de Tren: ≥ 99.95%
+- Detectores de Tren: ≥ 99.5%
 - Comunicaciones Críticas: ≥ 99.99%
 
 SISTEMAS IMPORTANTES (SIL 3):

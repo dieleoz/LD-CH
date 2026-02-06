@@ -1,11 +1,9 @@
-# REVISIÓN REQUISITO DISPONIBILIDAD 100% - PROPUESTA 99.95%
-## APP La Dorada-Chiriguaná - Análisis Crítico de Disponibilidad
+# ALINEACIÓN REQUISITO DISPONIBILIDAD AT4 (99.5%)
+## APP La Dorada-Chiriguaná - Estudio de Cumplimiento Contractual
 
-**Estado:** 🔄 **EN REVISIÓN - FASE 1 CRÍTICA**  
-**Fecha:** 27 de Enero, 2025  
-**Responsable:** Ing. Sistemas - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
-**Estándar Base:** EN 50126, IEC 61508, UIC 438
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Estándar Base:** Apéndice Técnico 4 (AT4), EN 50126
 
 ---
 
@@ -17,7 +15,7 @@ Este documento presenta el **análisis crítico del requisito de disponibilidad 
 ### **1.2 ALCANCE**
 La revisión cubrirá:
 - **Análisis técnico** de viabilidad de disponibilidad 100%
-- **Justificación económica** de la propuesta 99.95%
+- **Justificación económica** de la propuesta 99.5%
 - **Impacto en sistemas** críticos de señalización
 - **Alternativas técnicas** para maximizar disponibilidad
 - **Recomendaciones** para optimización de sistemas
@@ -109,7 +107,7 @@ ANÁLISIS TÉCNICO:
    Aún no alcanza 100%
 
 PROPUESTA TÉCNICA:
-- Disponibilidad objetivo: 99.95%
+- Disponibilidad objetivo: 99.5%
 - Redundancia: N+1 en componentes críticos
 - MTTR objetivo: ≤ 2 horas
 - Monitoreo continuo: 24/7
@@ -141,7 +139,7 @@ ANÁLISIS TÉCNICO:
    Aún no alcanza 100%
 
 PROPUESTA TÉCNICA:
-- Disponibilidad objetivo: 99.95%
+- Disponibilidad objetivo: 99.5%
 - Redundancia: 2OO3 en funciones críticas
 - MTTR objetivo: ≤ 1 hora
 - Monitoreo predictivo: IA/ML
@@ -274,7 +272,7 @@ ESTRATEGIA DE REDUNDANCIA 99.95%:
 
 2. SISTEMAS IMPORTANTES (SIL 3):
    - Redundancia: N+1 (1+1)
-   - Disponibilidad: 99.95%
+   - Disponibilidad: 99.5%
    - Aplicación: Señalización, comunicaciones
 
 3. SISTEMAS ESTÁNDAR (SIL 2):
@@ -440,7 +438,7 @@ RIESGOS DE DISPONIBILIDAD 99.95%:
 ```
 PROPUESTA OFICIAL:
 
-DISPONIBILIDAD OBJETIVO: 99.95%
+DISPONIBILIDAD OBJETIVO: 99.5%
 
 JUSTIFICACIÓN:
 1. TÉCNICA: Realista y alcanzable
@@ -550,7 +548,7 @@ PROCEDIMIENTOS DE EMERGENCIA:
 
 ### **🔄 PRÓXIMOS PASOS INMEDIATOS**
 1. **Validación técnica** de la propuesta con especialistas
-2. **Aprobación contractual** de disponibilidad 99.95%
+2. **Aprobación contractual** de disponibilidad 99.5%
 3. **Actualización de especificaciones** técnicas
 4. **Implementación de estrategia** de redundancia
 

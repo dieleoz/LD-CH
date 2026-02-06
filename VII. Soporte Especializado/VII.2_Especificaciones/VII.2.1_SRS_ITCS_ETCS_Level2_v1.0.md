@@ -1,11 +1,9 @@
-# SRS ITCS ETCS Level 2 - Especificaciones de Requisitos del Sistema
-## APP La Dorada-Chiriguaná - Sistema Provisional
+# ESTUDIO DE REFERENCIA - ESCENARIO ITCS (BENCHMARK)
+## APP La Dorada-Chiriguaná - Documento de Consulta (No Vinculante)
 
-**Estado:** ✅ **COMPLETADO**  
-**Fecha:** 02 de Octubre, 2025  
-**Responsable:** Ing. Sistemas - EPC  
-**Especialista:** Especialista Senior en Control de Trenes  
-**Estándar Base:** EN 50126/50128/50129, UIC 438
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Fecha:** Enero 2025
+**Nota:** Este documento constituye un estudio de referencia de mercado y no representa el diseño mandatorio del proyecto.
 
 ---
 

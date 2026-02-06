@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** V.2 - Centro de Control de Tráfico (CTC)  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,15 +20,13 @@
 | **Tipo** | Documento de Ingeniería de Detalle |
 | **Categoría** | Ingeniería de Detalle |
 | **Número** | V.2 |
-| **Estado** | ✅ **v5.20 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **EN RE-LINEACIÓN** |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**V.2 - Centro de Control de Tráfico (CTC) - Sistema Principal Virtual**
-
-Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) Virtual** para el proyecto APP La Dorada-Chiriguaná, basado en **control centralizado** y **ATP embarcado** sin componentes físicos en vía, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento detalla la ingeniería para el **sistema de control centralizado de tráfico (CTC)**, dimensionado para operar sobre el corredor ferroviario integrando funciones de protección ATP y enclavamientos.
 
 ---
 
@@ -330,7 +328,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ---
 
-## 8. ARQUITECTURA DEL SISTEMA VIRTUAL
+## 8. RAILWAY CONTROL SYSTEM (CTC) - PROPOSED ARCHITECTURE
 
 ### 8.1 Arquitectura General Virtual
 ```
@@ -425,11 +423,11 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Estaciones:** Windows 10 Enterprise LTSC
 - **Actualizaciones:** Automáticas con validación
 
-#### 9.2.2 Software de Control Virtual
-- **CTC Virtual Core:** Sistema propietario Grupo Ortiz (sin RBC)
-- **Base de Datos:** PostgreSQL 13
-- **Middleware:** RabbitMQ 3.9
-- **Monitoreo:** Zabbix 5.4
+#### 9.2.2 Software de Control Propuesto
+- **CTC Core:** Solución basada en estándares ferroviarios internacionales (UIC/EN).
+- **Base de Datos:** PostgreSQL / Oracle (según disponibilidad).
+- **Middleware:** Protocolos industriales redundantes.
+- **Monitoreo:** Diagnóstico centralizado de red.
 
 #### 9.2.3 Interfaces Virtuales
 - **ATP Interface:** Protocolo directo CTC-ATP (sin FFFIS RBC)
@@ -554,8 +552,8 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 12.4 Bloque Lógico de Integración Multi-sistema ⭐ **NUEVO (DT-INTERFACES-001)**
 
-#### 12.4.1 Descripción del Bloque (Ítem WBS 1.1.106 - $150M COP)
-Este ítem representa un **bloque lógico de integración**, NO un hardware físico único, sino un conjunto funcional que conecta el CTC virtual con todos los subsistemas del proyecto.
+#### 12.4.1 Descripción del Bloque (DT-INTERFACES-001)
+Este ítem representa un **bloque lógico de integración**, compuesto por un conjunto funcional que conecta el CTC con todos los subsistemas del proyecto.
 
 **Composición del bloque:**
 - **Gateways industriales:** Conversión de protocolos entre sistemas heterogéneos
@@ -596,7 +594,7 @@ Este ítem representa un **bloque lógico de integración**, NO un hardware fís
 - **Failover automático:** <1 segundo en caso de falla
 - **Monitoreo continuo:** SCADA supervisa salud de interfaces
 
-#### 12.4.4 Alcance del Presupuesto ($150.000.000 COP)
+#### 12.4.4 Alcance del Presupuesto
 **Incluye:**
 - Licencias de integración (protocolos, software middleware)
 - Configuración de interfaces y redundancia N+1
@@ -759,30 +757,9 @@ Este ítem representa un **bloque lógico de integración**, NO un hardware fís
 
 ---
 
-## 19. IMPACTO PRESUPUESTAL DE CTC VIRTUAL
+## 19. GESTIÓN DE CAMBIOS v5.20
 
-### 19.1 Eliminaciones (Sobrepresupuesto)
-- **RBC:** -$2,000,000,000 COP
-- **Eurobalises:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
-- **TOTAL ELIMINAR:** -$64,000,000,000 COP
-
-### 19.2 Implementaciones Nuevas (Faltante)
-- **GSM-R:** +$3,484,000,000 COP
-- **EOT:** +$520,000,000 COP
-- **ENCE:** +$6,020,000,000 COP
-- **Desvíos:** +$3,783,000,000 COP
-- **TOTAL AGREGAR:** +$13,807,000,000 COP
-
-### 19.3 Impacto Neto Total
-**IMPACTO NETO:** -$50,193,000,000 COP
-
----
-
-## 20. GESTIÓN DE CAMBIOS v5.20
-
-### 20.1 Control de Cambios Implementados
+### 19.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Eliminación completa de RBC (2 unidades)
 - ✅ Eliminación completa de interfaces eurobalises

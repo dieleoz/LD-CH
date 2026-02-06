@@ -1,9 +1,4 @@
-# V.X Sistema Desvíos v5.0 - CONTROL AUTOMATIZADO DE DESVÍOS
-## APP La Dorada - Chiriguaná
-
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -176,14 +171,7 @@ Documento de ingeniería de detalle para **120 desvíos automatizados** en el co
 
 ---
 
-## 11. IMPACTO PRESUPUESTAL
-
-### 11.1 Componentes Desvíos
-- **120 Motores:** $2,400,000,000 COP
-- **240 Detectores:** $600,000,000 COP
-- **120 Cerraduras:** $1,200,000,000 COP
-- **Instalación:** $800,000,000 COP
-- **TOTAL:** $5,000,000,000 COP
+## 11. GESTIÓN DE CAMBIOS
 
 ---
 
@@ -204,7 +192,7 @@ Documento de ingeniería de detalle para **120 desvíos automatizados** en el co
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
+| v5.0 | Ene-2025 | Metodología v5.0 aplicada |
 
 ---
 

@@ -1,27 +1,10 @@
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0 APLICADA**
+**Versión:** RE-LINEACIÓN FORENSE
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
-## 🚨 **ACTUALIZACIÓN CRÍTICA v5.0 - METODOLOGÍA CONSOLIDADA**
-
-### **📋 CAMBIO DE PARADIGMA COMPLETO:**
-
-#### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ ITCS ETCS Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
-- **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
-- **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + GSM-R)
-- **❌ Alimentación:** Sistema independiente → **Alimentación colocalizada**
-
-#### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
-- **✅ Torres Colocalizadas:** 37 torres para TETRA + GSM-R
-- **✅ Alimentación Colocalizada:** Sistema dual para torres compartidas
-- **✅ CTC Virtual:** Centro de control centralizado
-- **✅ Redundancia:** Doble sistema de alimentación
+### **📋 PROPUESTA TÉCNICA DE ALIMENTACIÓN:**
+El sistema de potencia se dimensionará para garantizar la autonomía de los subsistemas de comunicaciones y señalización, asegurando la disponibilidad requerida por el AT4.
 
 ---
 
@@ -667,12 +650,9 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 - **Eficiencia:** Factor de potencia > 0.95, pérdidas < 3%
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
-### 16.3 Impacto Presupuestal de Alimentación Torres Colocalizadas
-- **+4 Torres:** +$2,000,000,000 COP
-- **+3 MVA Potencia:** +$1,500,000,000 COP
-- **+500 kVA UPS:** +$800,000,000 COP
-- **+1 MVA Generadores:** +$1,200,000,000 COP
-- **IMPACTO NETO:** +$5,500,000,000 COP
+### 16.3 Trazabilidad de Re-lineación
+- **Alineación:** Apéndice Técnico 2 y 4.
+- **Estado:** Ingeniería de Detalle en saneamiento forense.
 
 ---
 
@@ -732,18 +712,18 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 |:---:|:---:|:---|:---|
 | v1.0 | 02/10/2025 | Ing. Potencia | Especificación inicial con ITCS tradicional |
 | v2.0 | Ene-2025 | Admin. Contractual EPC | CRÍTICO: Alimentación torres colocalizadas |
-| **v5.0** | **Ene-2025** | **Admin. Contractual EPC** | **COMPLETADO: Metodología v5.0 aplicada** |
+| **v5.0** | **Ene-2025** | **Admin. Contractual EPC** | **Metodología v5.0 aplicada** |
 
 ---
 
-**Estado del documento:** ✅ **COMPLETADO - METODOLOGÍA v5.0 APLICADA**  
-**Fecha de consolidación:** Enero 2025  
-**Responsable:** Administrador Contractual EPC  
+**Estado del documento:** ⚠️ **EN RE-LINEACIÓN**
+**Fecha de consolidación:** Enero 2025
+**Responsable:** Administrador Contractual EPC
 **Próxima revisión:** Febrero 2025
 
 ---
 
-**✅ DOCUMENTO COMPLETAMENTE FINALIZADO**
+**⚠️ DOCUMENTO EN RE-LINEACIÓN**
 
 **Todos los documentos pendientes de Capa 4 y Capa 5 han sido completados exitosamente con metodología v5.0.**
 

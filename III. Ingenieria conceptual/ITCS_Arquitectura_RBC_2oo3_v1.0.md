@@ -1,7 +1,6 @@
-# ITCS — Arquitectura RBC 2oo3 (Especificación v1.0)
+# ITCS — Propuesta de Arquitectura RBC (Documento de Trabajo)
+**ESTADO: ⚠️ PROPUESTA DE DISEÑO PRELIMINAR - EN RE-LINEACIÓN (PHASE 7)**
 
-- Versión: 1.0
-- Fecha: 02/10/2025
 - Sistema: Radio Block Centre (RBC) con redundancia 2oo3
 - Referencias: EN 50126/50128/50129, ETCS Level 2, FFFIS
 
@@ -12,12 +11,10 @@
 ### 1.1 Propósito
 Este documento especifica la arquitectura del Radio Block Centre (RBC) con redundancia 2oo3 para el sistema ITCS del proyecto APP La Dorada-Chiriguaná, conforme a ETCS Level 2.
 
-### 1.2 Objetivos de la arquitectura
-- **Alta disponibilidad:** 99.996% (MTBF 50,000h, MTTR 2h)
-- **Seguridad funcional:** SIL 4 para funciones críticas
-- **Tolerancia a fallos:** Operación continua con 1 fallo, degradación con 2 fallos
-- **Escalabilidad:** Soporte para 24 trenes simultáneos
-- **Mantenibilidad:** Componentes intercambiables en caliente
+### 1.2 Objetivos de la Propuesta
+*   **Cumplimiento de Disponibilidad:** Alcanzar los KPIs definidos en AT4 (ej. SICC ≥ 99.5%).
+*   **Seguridad:** Cumplimentar los niveles SIL requeridos por la norma técnica aplicable tras la resolución de la DT-001 (FRA vs UIC).
+*   **Tolerancia a fallos:** Establecer una arquitectura de redundancia que permita la continuidad del servicio ante fallas de componentes individuales.
 
 ### 1.3 Contexto operacional
 - **Cobertura:** 146 km de vía, 5 estaciones, 146 pasos a nivel
@@ -58,19 +55,8 @@ Este documento especifica la arquitectura del Radio Block Centre (RBC) con redun
 
 ## 3. Arquitectura de Hardware
 
-### 3.1 Procesadores RBC
-**Especificaciones técnicas:**
-- **Procesador:** ARM Cortex-A78 o equivalente
-- **Frecuencia:** 2.0 GHz mínimo
-- **Memoria RAM:** 16 GB DDR4
-- **Almacenamiento:** 512 GB SSD NVMe
-- **Interfaces:** 4x Gigabit Ethernet, 2x RS-485, 1x USB 3.0
-
-**Características de seguridad:**
-- **Certificación SIL 4:** Hardware certificado
-- **Detección de fallos:** Autodiagnóstico continuo
-- **Aislamiento:** Canales eléctricamente aislados
-- **Temperatura:** Operación -40°C a +70°C
+### 3.1 Requisitos de Procesamiento (Estimados)
+La plataforma de hardware deberá dimensionarse para soportar la carga transaccional de los trenes en operación, garantizando el determinismo requerido por las funciones de seguridad.
 
 ### 3.2 Sistema de votación
 **Algoritmo de votación:**

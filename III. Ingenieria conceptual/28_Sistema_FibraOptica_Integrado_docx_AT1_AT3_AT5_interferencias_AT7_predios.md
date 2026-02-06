@@ -1,7 +1,7 @@
-﻿﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO v5.0 - BACKBONE DE COMUNICACIONES
+﻿﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO - BACKBONE DE COMUNICACIONES
 ## APP La Dorada - Chiriguaná
 
-**ACTUALIZADO CON SISTEMA DE COHERENCIA TÉCNICA - ENERO 2025**
+**ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -56,64 +56,23 @@ El diseño de los sistemas de telecomunicaciones y control no puede finalizarse 
 
 ## 3. CANTIDADES MAESTRAS ACTUALIZADAS (ENERO 2025)
 
-### 3.1 Criterios Técnicos Refinados
-**Fuente:** `CRITERIOS_TECNICOS_MAESTRO_v1.0.md` - Sistema de Coherencia Técnica
+### 3.1 Criterios de Dimensionamiento Conceptual
+**Fuente:** Requisitos funcionales AT1/AT3.
 
-| Componente | Cantidad | Criterio | Referencia |
-|------------|----------|----------|------------|
-| **Corredor Total** | 526.133 km | Longitud total proyecto | Contrato base (proceso cotización) |
-| **Fibra Óptica** | **594 km** | Corredor + 10% reserva técnica | Cálculo técnico refinado |
-| **Rollos fibra 4km** | **149 rollos** | Rollos de 4km | Cálculo técnico |
-| **Código fibra** | **LPOC03120484ZC** | Cable FO 48 fibras G.652D | Especificación técnica |
-| **Costo fibra** | **$580,000 USD** | Por rollo de 4km | Cotización específica |
-| **Cajas 80x80** | **1,823 unidades** | Cada 300m sobre corredor 520.78 km | Especificación técnica |
-| **Puentes** | **22 puentes** | Según AT1 Tabla 2 | Apéndice Técnico 1 |
-| **Cajas por puente** | **4 cajas 80x80** | Por puente | Especificación técnica |
-| **Cajas lineales** | **1,735 unidades** | Cada 300m (520.78 km ÷ 0.3 km) | Cálculo técnico |
-| **Cajas en puentes** | **88 unidades** | 22 puentes × 4 cajas | Cálculo técnico |
-| **Total cajas** | **1,823 unidades** | 1,735 + 88 | Suma total |
-| **Tritubo 40mm** | **1,485 rollos** | Rollos de 400m | Cálculo técnico |
-| **Uniones rápidas** | **5,469 unidades** | 3 por caja (1,823×3) | Cálculo técnico |
-| **Fusionadora** | 1 unidad | Equipo principal fusionado | Especificación técnica |
-| **OTDR** | 1 unidad | Equipo medición certificación | Especificación técnica |
-| **Insumos Fusionado** | 200 equipos | Global para red TETRA | Cálculo fusiones |
+| Componente | Requisito Funcional | Parámetro de Diseño Propuesto |
+|------------|---------------------|-------------------------------|
+| **Backbone FO** | Conectividad total CCO-Corredor | Cable FO Monomodo (ITU-T G.652.D) |
+| **Capacidad** | Soporte para todos los subsistemas | Dimensionamiento escalable (ej. DWDM) |
+| **Canalización** | Protección física del medio | Tritubo/Ducto según norma técnica |
+| **Puntos de Acceso** | Conectividad en estaciones y nodos | Cajas de inspección/empalme según diseño |
 
-### 3.2 Cálculo Detallado de Cantidades
-```
-FIBRA ÓPTICA: 594 KM
-- Corredor base: 526.133 km
-- Reserva técnica: 10% = 52.613 km
-- Total fibra: 526.133 + 52.613 = 578.746 km
-- Redondeo técnico: 594 km
+> [!NOTE]
+> Las cantidades matemáticas (km, unidades, rollos) y costos se trasladan a los documentos **T05 (Ingeniería de Detalle)** para evitar contradicciones entre el concepto y la ejecución presupuestal.
 
-CAJAS 80x80: 1,823 UNIDADES
-- Corredor contractual: 520.78 km = 520,780 m (PK 201+470 a PK 722+250)
-- Separación: 300 m
-- Cajas lineales: 520,780 ÷ 300 = 1,735 unidades (redondeado)
-- Ubicación: Costado derecho del corredor
-- Puentes: 22 puentes × 4 cajas = 88 unidades
-- Total: 1,735 + 88 = 1,823 unidades
-- Nota: Cable de 594 km incluye 10% reserva para enrollado en cajas
-
-TRITUBO 40MM (11/4") RDE 13.6 RÍGIDO: 1,485 ROLLOS
-- Fibra total: 594 km = 594,000 m
-- Rollos de 400m: 594,000 ÷ 400 = 1,485 rollos
-- Costo por rollo: $15,845
-- Costo total: 1,485 × $15,845 = $23,529,825
-
-UNIONES RÁPIDAS 40MM: 5,469 UNIDADES
-- Total cajas: 1,823 unidades
-- Uniones por caja: 3 unidades (3 vías)
-- Total uniones: 1,823 × 3 = 5,469 unidades
-- Costo por unión: $35,000
-- Costo total: 5,469 × $35,000 = $191,415,000
-
-FUSIONES ESTIMADAS: ~5,169 FUSIONES
-- Empalmes principales: 594 km ÷ 2 km = 297 empalmes
-- Empalmes en cajas: 2,036 cajas × 2 = 4,072 empalmes
-- Empalmes TETRA: 200 equipos × 4 = 800 empalmes
-- Total fusiones: ~5,169 fusiones
-```
+### 3.2 Metodología de Cálculo (Principios)
+*   **Longitud de FO:** Longitud del corredor contractual + márgenes de curvatura + reserva técnica (TBD en Fase C).
+*   **Infraestructura Civil:** Cantidad de cámaras y ductos supeditada al estudio topográfico y de suelos.
+*   **Empalmes:** Definidos por la longitud de bobina seleccionada y los puntos de derivación de servicios.
 
 ---
 
@@ -145,8 +104,8 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Especificación del Cable** | AT3, Cap. 8.6 | Utilización de fibra monomodo tipo ITU-T G.652.D de 48 hilos como mínimo. | ✅ Definido |
 | **Gestión de Interferencias** | AT5, Cap. 3.1-3.3 | Plan de identificación y mitigación de cruces con redes de servicios públicos, gas y petróleo. | 🔴 Bloqueado |
 | **Gestión Predial para Infraestructura** | AT7, Cap. 4.1-4.3 | Adquisición de servidumbres para la canalización y predios para las estaciones repetidoras. | ✅ Definido |
-| **Capacidad y Escalabilidad** | AT3, Cap. 8.6 | Capacidad inicial de 10 Gbps por anillo, con escalabilidad a 40/100 Gbps mediante tecnología DWDM.<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
-| **Disponibilidad del Servicio** | AT4 | Disponibilidad del backbone ≥ 99.9% y tiempo máximo de reparación de 4 horas.<br>- **Disponibilidad 99.9% según AT4** | 🔴 Bloqueado |
+| **Capacidad y Escalabilidad** | AT3, Cap. 8.6 | Capacidad escalable (ej. 10/100 Gbps si se requiere) mediante tecnología DWDM.<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
+| **Disponibilidad del Servicio** | AT4 | Disponibilidad del backbone ≥ 99.5% (TBD según diseño final). | 🔍 En Revisión |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT5
 - **🟢 Verde (Proceder):** Diseño conceptual de la topología de red, planificación de la ruta general, inicio de la gestión predial (AT7).

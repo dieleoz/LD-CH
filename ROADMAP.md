@@ -1,48 +1,40 @@
 # ROADMAP: PROYECTO APP LA DORADA - CHIRIGUANÁ
 
-**Versión:** 06-Feb-2026 (v5.0.0 - Baseline Certified)
-**Estado:** ✅ Suite Técnica v5.0 Certificada | 🛡️ Blindaje Contractual 100% | 🚀 Fase 7: Ingeniería de Detalle
+**Versión:** 06-Feb-2026 (v5.0.0 - Forensic Sanitized)
+**Estado:** ✅ Suite Contractual v5.0 Saneada | 🛡️ Blindaje 100% (Literal) | 🚀 Fase 7: Re-lineación de Ingeniería
 
 ---
 
 ## 📅 HITOS ALCANZADOS
 
-### **FASE 6 - GESTIÓN OFICIAL Y CIERRE (06 FEB 2026)**
-- ✅ **Master Index v5.0:** Certificación del Índice Maestro de Navegación Técnica.
-- ✅ **Forensic Suite v5.0:** Apéndices AT1-AT10 y AT13 blindados con dictámenes del Administrador Contractual EPC.
-- ✅ **MEJORADO Versions:** Creación y consolidación de versiones optimizadas ("Punto 42") en Folder I.
-- ✅ **Git Deployment:** Sincronización completa del repositorio con base técnica v5.0.
+### **FASE 6 - SANEAMIENTO FORENSE (06 FEB 2026)**
+- ✅ **Master Index v5.0:** Certificado como Hub de Navegación Contractual.
+- ✅ **Analisis A.1, A.2, A.3 Saneados:** Eliminación de "inventos técnicos" (Eurobalizas, 10Gbps, N+1 prescriptive).
+- ✅ **Separación Obligación vs Solución:** Clarificación de que el SICC debe ser "automático" (AT4) sin prescribir protocolos (MQTT/SNMP).
 
-### **FASE 5 - INGENIERÍA CONCEPTUAL (CERTIFICADA)**
-- ✅ **Señalización Virtual:** Adopción de lógica PTC (FRA 49 CFR Part 236) y ahorro CAPEX de $50B+ COP.
-- ✅ **Blindaje Financiero:** Integración de coberturas Cyber y Garantías Back-to-Back en AT13.
-- ✅ **Fast-Track UF3:** Priorización del Centro de Control (CCO) para entrega en 12 meses.
+### **FASE 5 - INTEGRIDAD CONTRACTUAL (CERTIFICADA)**
+- ✅ **Versiones MEJORADO:** Sincronización de los 13 Apéndices Técnicos con el texto literal del contrato.
 
 ---
 
-### 🚨 Estado de Bloqueadores (Auditados v5.0)
+### 🚨 Estado de Bloqueadores (Auditados v5.0 Sanitized)
 
 | ID | Bloqueador | Impacto | Estado | Notas |
 |:---|:---|:---|:---:|:---|
-| **BLOCKER-001** | Indefinición ITCS | Diseño | ✅ RESUELTO | Adoptado PTC (FRA 236) |
-| **BLOCKER-002** | Protocolos FENOCO | Interoperabilidad | ✅ RESUELTO | Integrado en AT10 (Doble Radio) |
-| **BLOCKER-003** | Cantidades PANs | Layout | ✅ RESUELTO | Integrado en AT1 (Fase Detalle) |
-| **BLOCKER-004** | Material Rodante | Entrega | ✅ RESUELTO | Flota PTC Embarcada blindada |
-| **BLOCKER-005** | Gap ENCE | Presupuesto | ✅ RESUELTO | Virtualización ENCE en CCO |
+| **BLOCKER-001** | Indefinición ITCS | Diseño | 🔍 PENDIENTE | Identificado como riesgo a resolver por Ingeniería (FRA vs UIC). |
+| **BLOCKER-002** | Protocolos FENOCO | Interop. | 🔍 EN DISEÑO | Obligación de interoperabilidad (AT10). |
+| **BLOCKER-003** | Cantidades CCTV/Red | Presupuesto | 🔍 POR DEFINIR | No son 200 cámaras; es según diseño de seguridad. |
+| **BLOCKER-006** | Contaminación Técnica | Desviación | 🚨 ACTIVO | Documentos Transversales y Folder III contienen soluciones no contractuales. |
 
 ---
 
 ## 🚀 PRÓXIMOS PASOS (Q1 2026)
 
-### **FASE 7 - INGENIERÍA DE DETALLE (FASE 42)**
-- [ ] Desarrollo de Planos Constructivos (T06) basados en lógica PTC.
-- [ ] Licitación de Equipos de Larga Fabricación (CCO & TETRA).
-- [ ] Pruebas de Software (SICC) para Indicadores AT4.
+### **FASE 7 - RE-LINEACIÓN Y DESCONTAMINACIÓN (FASE 42)**
+- [ ] **Sanitizar README y Guía Metodológica:** Eliminar referencias a "Señalización Virtual" como requisito y dejarlo como propuesta.
+- [ ] **Auditoría Folder III (Básica):** Eliminar esquemas de "Eurobalizas" y "Zero Balises" que no sean derivación directa de una DT aprobada.
+- [ ] **Re-diseño SICC:** Enfocar en "Interfaz Web" y "Registro Automático" sin casarse con servicios AWS/Nube específicos en esta fase.
 
 ### **GESTIÓN OFICIAL**
-- [ ] Firma de Otrosí para formalización de "Señalización Virtual".
-- [ ] Acta de Inicio de Obras (Alineada con AT9 v5.0).
-
----
-
-*Este roadmap se actualiza automáticamente según las Decisiones Técnicas (DT) aprobadas.*
+- [ ] Presentar a la ANI la discrepancia normativa detectada en A.3 (FRA vs UIC).
+- [ ] Formalizar la "Envolvente de Diseño" para proteger la obra civil.

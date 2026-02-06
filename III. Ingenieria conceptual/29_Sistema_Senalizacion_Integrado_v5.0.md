@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** 29 - Sistema de Señalización Integrado  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,7 +20,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 29 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **INGENIERÍA CONCEPTUAL EN SANEAMIENTO (BASES CONTRACTUALES)** |
 
 ---
 
@@ -28,7 +28,7 @@
 
 **Sistema de Señalización Integrado - Control y Seguridad**
 
-Este documento presenta el **Sistema de Señalización Integrado v5.0** que establece la filosofía, arquitectura y especificaciones técnicas del sistema de señalización ferroviaria para el proyecto APP La Dorada-Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento presenta la **Estrategia de Señalización Ferroviaria (T01-T03)**. Define los requisitos funcionales derivados del bloque contractual (Capas 1) y propone una arquitectura técnica de Señalización Virtual (CTC + ATP) como solución de ingeniería para satisfacer dichos requisitos sin sobredimensionamiento físico.
 
 ---
 
@@ -74,48 +74,21 @@ El Sistema de Señalización es un componente de seguridad vital, cuyas especifi
 
 ---
 
-## 2. ✅ VERIFICACIÓN DE COHERENCIA TÉCNICA ⭐ NUEVO
+### 2.1 Alineación de Requisitos (AT1/AT3) vs Propuesta Técnica
+La ingeniería conceptual debe resolver la contradicción entre las normas propuestas (FRA vs UIC) y el alcance de AT1.
 
-### 2.1 Estado Actual vs Criterios Maestros
+| Requisito Contractual | Fuente | Solución de Ingeniería Propuesta | Estado |
+|:----------------------|:-------|:---------------------------------|:-------|
+| **Protección de Trenes** | AT1/AT3 | ATP Embarcado (Software-defined) | 🔍 En Diseño |
+| **Enclavamientos** | AT1 | 5 CBI (Enclavamiento Electrónico) | 🔍 En Diseño |
+| **Comunicaciones** | AT3 | Red Híbrida (TETRA/GSM-R) | 🔍 En Diseño |
+| **Posicionamiento** | AT3 | Odometría + Referencias Virtuales | 🔍 En Diseño |
 
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
-| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
-| **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
-| **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **Desvíos** | 120 total | 120 total | ✅ 100% |
-| **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
-| **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
+### 2.2 Notas sobre Tecnologías Prescriptivas
+Anteriormente se consideraron soluciones como "Eurobalizas" o "RBC Físico". Bajo la metodología de descontaminación, estas se consideran **Alternativas de Segundo Nivel** a ser descartadas si no son requeridas por el literal contractual o por la norma técnica final seleccionada (DT-001).
 
-### 2.2 Desalineaciones Detectadas
-**✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
-
-### 2.3 Componentes a Eliminar
-**✅ YA ELIMINADOS EN v4.0:**
-- ❌ Eurobalises: 1,080 → 0 unidades
-- ❌ Señales LED vía: 270 → 0 unidades  
-- ❌ RBC: 2 → 0 unidades
-- ❌ LEU: 1,080 → 0 unidades
-
-### 2.4 Componentes a Agregar
-**✅ YA AGREGADOS EN v4.0:**
-- ✅ GSM-R: 37 estaciones
-- ✅ EOT: 15 dispositivos
-- ✅ ENCE: 5 estaciones
-- ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
-
-### 2.5 Propagación Requerida
-**DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
-1. **27_Sistema_TETRA_Integrado.md** - 37 estaciones
-2. **32_Material_Rodante_Integrado.md** - Sistema EOT
-3. **V.1_Señalizacion_Ferroviaria_Detalle.md** - Eliminar eurobalises
-4. **V.2_Centro_Control_Trafico_CTC.md** - CTC virtual
+### 2.3 Eliminación de Buffers No Sustentados
+Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "200 cámaras" hasta que el dimensionamiento de Fase C (Básica) sea validado por cálculos de cobertura y tráfico.
 
 ---
 
@@ -473,30 +446,19 @@ El Sistema de Señalización es un componente de seguridad vital, cuyas especifi
 
 ---
 
-## 9. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
+## 9. IMPACTO EN EL DISEÑO (ANÁLISIS DE VALOR)
 
-### **9.1 Eliminaciones (Sobrepresupuesto)**
-- **Eurobalises:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
-- **TOTAL ELIMINAR:** -$64,000,000,000 COP
+### 9.1 Optimización de Infraestructura
+La transición a una arquitectura de señalización virtual permite:
+*   Reducción drástica de activos en vía (Mantenimiento OPEX reducido).
+*   Eliminación de riesgos de robo de cobre/cableado en vía.
+*   Flexibilidad total para cambios normativos futuros.
 
-### **9.2 Implementaciones Nuevas (Faltante)**
-- **GSM-R:** +$3,484,000,000 COP
-- **EOT:** +$520,000,000 COP
-- **ENCE:** +$6,020,000,000 COP
-- **Desvíos:** +$3,783,000,000 COP
-- **TOTAL AGREGAR:** +$13,807,000,000 COP
-
-### **9.3 Ajustes de Cantidades**
-- **TETRA:** +$4,830,000,000 COP
-- **CCTV:** -$2,000,000,000 COP
-- **Fibra Óptica:** +$6,800,000,000 COP
-- **TOTAL AJUSTAR:** +$9,630,000,000 COP
-
-### **9.4 Impacto Neto**
-**IMPACTO NETO TOTAL:** -$40,563,000,000 COP
+### 9.2 Definiciones Pendientes (Capa 3 de Ingeniería)
+El presupuesto y las cantidades definitivas serán determinados en la **Ingeniería Básica (Fase C)** tras:
+1.  Estudio de cobertura TETRA/GSM-R (Dimensionamiento de sitios).
+2.  Cálculo de enlaces de Fibra Óptica.
+3.  Definición de enclavamientos en estaciones de cruce.
 
 ---
 

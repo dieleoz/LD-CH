@@ -14,7 +14,7 @@
 | **Tipo** | Documento de Sistema Integrado |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 33 |
-| **Estado** | ✅ Contenido completo |
+| **Estado** | ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)** |
 
 ---
 
@@ -112,8 +112,8 @@ NTC-2050: Código eléctrico colombiano
 RAS-2000: Agua potable y saneamiento
 NTC específicas: Según sistema (señalización, comunicaciones, etc.)
 3.2 Normatividad Internacional (Técnicamente Obligatoria)
-3.2.1 AREMA - American Railway Engineering and Maintenance Association
-Referencia contractual: Ap. Téc. 3, Cap. II, Num. 2.1(i) - **PRELACIÓN PRIMERA**
+### 3.2.1 AREMA - American Railway Engineering and Maintenance Association
+Referencia contractual: Ap. Téc. 3, Cap. II, Num. 2.1(i) - **ESTÁNDAR BASE PROPUESTO PARA DISEÑO**
 Manual for Railway Engineering AREMA 2021:
 Aplicación específica según contrato:
 Track & Structures: Diseño de superestructura férrea (AT1, línea 516, 828)
@@ -482,10 +482,10 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Implementación:** Protocolos ISO TC-204 desde diseño conceptual
 
 3. **Criterios de Disponibilidad AT4:**
-   - **Problema identificado:** Sistemas críticos requieren disponibilidad 99.95% según AT4
-   - **Optimización EPC:** Diseño con redundancia crítica para cumplimiento AT4
-   - **Beneficio:** Cumplimiento contractual y alta confiabilidad
-   - **Implementación:** Criterios de disponibilidad AT4 en todos los sistemas críticos
+   - **Problema identificado:** Requisitos de continuidad del servicio según AT4.
+   - **Optimización EPC:** Diseño orientado al cumplimiento del indicador SICC (≥ 99.5%).
+   - **Beneficio:** Cumplimiento contractual y alta confiabilidad.
+   - **Implementación:** Criterios de disponibilidad AT4 en todos los sistemas críticos.
 
 ### 3.3 Estrategia de Avance con Bloqueos ITCS
 - **Normatividad base:** Desarrollo con AT1, AT2 y sistemas completados mientras se espera AT3
@@ -574,7 +574,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-065** | **Dependencia AT3 para normatividad** | **Técnico** | **Alta** | **Alto** | Especificaciones normativas ITCS pendientes de AT3 |
 | **R-066** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas FENOCO requiere protocolos UIC |
-| **R-067** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
+| **R-067** | **Disponibilidad AT4** | **Contractual** | **Media** | **Alto** | Cumplimiento de KPI SICC (≥ 99.5%) |
 | **R-068** | **Certificaciones múltiples** | **Gestión** | **Media** | **Medio** | Complejidad de certificaciones RETIE, ONAC, NFPA, ISO |
 | **R-069** | **Homologación equipos internacionales** | **Técnico** | **Media** | **Alto** | Equipos ferroviarios requieren homologación compleja |
 

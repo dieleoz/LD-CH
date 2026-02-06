@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** 27 - Sistema TETRA Integrado  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,7 +20,7 @@
 | **Tipo** | Documento de Soporte |
 | **Categoría** | Ingeniería Conceptual |
 | **Número** | 27 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **INGENIERÍA CONCEPTUAL EN SANEAMIENTO (BASES CONTRACTUALES)** |
 
 ---
 
@@ -28,7 +28,7 @@
 
 **Sistema TETRA Integrado - Comunicaciones de Misión Crítica**
 
-Este documento presenta el **Sistema TETRA Integrado v5.0** que establece la arquitectura, especificaciones técnicas y estrategia de implementación del sistema de radio TETRA para el proyecto APP La Dorada-Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento presenta la **Estrategia de Comunicaciones Críticas (Radio)**. Define los requisitos funcionales de cobertura y disponibilidad derivados de los Apéndices Técnicos y propone una arquitectura de Radio (TETRA/GSM-R) para satisfacer la operación ferroviaria 24/7.
 
 ---
 
@@ -74,48 +74,17 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ---
 
-## 2. ✅ VERIFICACIÓN DE COHERENCIA TÉCNICA ⭐ NUEVO
+### 2.1 Alineación de Cobertura y Redundancia
+La ingeniería conceptual debe definir la cantidad de sitios basándose exclusivamente en el cumplimiento de los indicadores de disponibilidad (COM1) y cobertura total del corredor.
 
-### 2.1 Estado Actual vs Criterios Maestros
+| Requisito Contractual | Fuente | Parámetros de Diseño Propuestos | Estado |
+|:----------------------|:-------|:---------------------------------|:---:|
+| **Cobertura 100%** | AT1/AT4 | Cantidad de sitios TBD según estudio de propagación | 🔍 En Diseño |
+| **Redundancia Crítica** | AT4 | Propuesta: Hibridación TETRA/GSM-R | 🔍 En Diseño |
+| **Interoperabilidad** | AT2 | Protocolos compatibles con red FENOCO | 🔍 En Diseño |
 
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
-| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
-| **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
-| **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **Desvíos** | 120 total | 120 total | ✅ 100% |
-| **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
-| **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
-
-### 2.2 Desalineaciones Detectadas
-**✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
-
-### 2.3 Componentes a Eliminar
-**✅ YA ELIMINADOS EN v4.0:**
-- ❌ Eurobalises: 1,080 → 0 unidades
-- ❌ Señales LED vía: 270 → 0 unidades  
-- ❌ RBC: 2 → 0 unidades
-- ❌ LEU: 1,080 → 0 unidades
-
-### 2.4 Componentes a Agregar
-**✅ YA AGREGADOS EN v4.0:**
-- ✅ GSM-R: 37 estaciones
-- ✅ EOT: 15 dispositivos
-- ✅ ENCE: 5 estaciones
-- ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
-
-### 2.5 Propagación Requerida
-**DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
-1. **27.1_Estimacion_Cantidades_TETRA.md** - Recalcular con 37 estaciones
-2. **32_Material_Rodante_Integrado.md** - Sistema EOT
-3. **V.3_Sistemas_Comunicacion_Detalle.md** - GSM-R agregado
-4. **39_Planos_Preliminares_Torres.md** - Actualizar ubicaciones
+### 2.2 Notas sobre Dimensionamiento
+Se eliminan las referencias a "37 estaciones" como valor contractual. Este número es el resultado de una estimación preliminar y deberá ser validado en la **Fase C (Ingeniería Básica)** mediante herramientas de simulación de RF.
 
 ---
 
@@ -129,7 +98,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **29_Sistema_Señalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
 
 ### 3.2 Documentos Dependientes (En corrección 🔄)
-- **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular con 37 estaciones)
+- **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular según requisitos de cobertura)
 - **32_Material_Rodante_Integrado.md** ⏳ (Sistema EOT)
 - **V.3_Sistemas_Comunicacion_Detalle.md** ⏳ (GSM-R agregado)
 - **39_Planos_Preliminares_Torres.md** ⏳ (Actualizar ubicaciones)
@@ -162,8 +131,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 |------------|----------|----------|------------|
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
-| **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **TETRA** | Dimensionado según AT1/AT4 | Cobertura 100% + solapamiento | AT4 telecomunicaciones |
+| **GSM-R** | Dimensionado según AT1/AT4 | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -173,26 +142,26 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### 4.2 Gestión de Interfaces
 
-#### **4.2.1 Sistema TETRA (37 Estaciones)**
+#### **4.2.1 Sistema TETRA (Dimensionado según AT1/AT4)**
 **Funcionalidades:**
 - Comunicaciones tren-tierra
 - Seguridad operativa
 - Interoperabilidad FENOCO
 
 **Componentes:**
-- Red TETRA principal (37 estaciones base)
+- Red TETRA principal (Estaciones base dimensionadas según requisitos)
 - Torres de comunicaciones (40m altura estándar)
 - Radios TETRA embarcados (30 unidades)
 - Radios TETRA portátiles (80 unidades)
 - Consolas de despacho CCO (3 unidades)
 
-#### **4.2.2 Sistema GSM-R (37 Estaciones) - NUEVO**
+#### **4.2.2 Sistema GSM-R (Propuesta para Alta Disponibilidad) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red GSM-R redundante (37 estaciones base)
+- Red GSM-R redundante (Estaciones base colocalizadas con TETRA)
 - Colocalización con TETRA (misma torre)
 - Radios GSM-R embarcados (30 unidades)
 - Antenas GSM-R colocalizadas
@@ -233,18 +202,18 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 | Métrica | Valor Objetivo | Valor Actual | Estado |
 |:--------|:---------------|:-------------|:-------|
-| **Coherencia Documental** | 100% | 100% | ✅ |
+| **Alineación Documental** | 100% | 100% | ✅ |
 | **Criterios Maestros Aplicados** | 12/12 | 12/12 | ✅ |
-| **Estaciones TETRA** | 37 | 37 | ✅ |
+| **Estaciones TETRA** | Dimensionado | En diseño | ⏳ |
 | **Documentos Dependientes** | 4 | 0 completados | ⏳ |
 | **Propagación Pendiente** | 4 docs | 4 docs | ⏳ |
 
-### 5.2 Indicadores de Coherencia ⭐ NUEVO
+### 5.2 Indicadores de Diseño
 
-#### **5.2.1 Verificación de Coherencia Técnica**
+#### **5.2.1 Verificación de Criterios Técnicos**
 - ✅ **Fibra Óptica:** 594 km ✓
-- ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
+- ✅ **TETRA:** Dimensionado según AT1/AT4 ✓
+- ✅ **GSM-R:** Propuesta para alta disponibilidad ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -272,16 +241,16 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### 6.1 Estado del Documento v5.0
 - **Base contractual:** ✅ Actualizada según criterios maestros
-- **Arquitectura TETRA:** ✅ Alineada con 37 estaciones
+- **Arquitectura TETRA:** ✅ Alineada con requisitos de cobertura
 - **Control de versiones:** ✅ Implementado según estándar del proyecto
 - **Criterios técnicos:** ✅ Alineados con documento maestro
 - **Completitud técnica:** ✅ 100% alineado con criterios maestros
-- **Coherencia verificada:** ✅ 12/12 criterios maestros aplicados
+- **Alineación verificada:** ✅ 12/12 criterios maestros aplicados
 
 ### 6.2 Acciones de Propagación Requeridas ⭐ NUEVO
 
 **INMEDIATO - Continuar con Capa 2:**
-1. **27.1_Estimacion_Cantidades_TETRA.md** (Recalcular con 37 estaciones)
+1. **27.1_Estimacion_Cantidades_TETRA.md** (Recalcular según requisitos de cobertura)
 2. **32_Material_Rodante_Integrado.md** (Sistema EOT)
 
 **SEGUIMIENTO - Capas 3-4:**
@@ -290,14 +259,14 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### 6.3 Criterios para Avance a Fase Siguiente
 - ✅ **Sistema TETRA actualizado** según criterios maestros
-- ✅ **Coherencia técnica verificada** 100%
+- ✅ **Alineación técnica verificada** 100%
 - ⏳ **Documentos dependientes** en proceso de actualización
 - ⏳ **Validación cruzada** pendiente
 - ⏳ **Presupuesto definitivo** pendiente
 
 ---
 
-## 7. SISTEMA TETRA INTEGRADO (37 ESTACIONES)
+## 7. SISTEMA TETRA INTEGRADO (Dimensionado según AT1/AT4)
 
 ### **7.1 ARQUITECTURA DE RED TETRA**
 
@@ -308,8 +277,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Interoperabilidad FENOCO:** Protocolos UIC compatibles
 
 #### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
-- **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
-- **✅ GSM-R:** NO incluido → **37 estaciones** (Redundancia con TETRA)
+- **✅ TETRA:** Dimensionado según AT1/AT4 (Cobertura 100% + solapamiento 15-20%)
+- **✅ GSM-R:** Propuesta para alta disponibilidad (Redundancia con TETRA)
 - **✅ Fibra Óptica:** 526 → **594 km** (Corredor + 10% reserva)
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
@@ -322,14 +291,14 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### **7.2 ARQUITECTURA DE RED**
 
-#### **7.2.1 Red TETRA Principal (37 Estaciones)**
+#### **7.2.1 Red TETRA Principal (Dimensionado según AT1/AT4)**
 **Funcionalidades:**
 - Comunicaciones tren-tierra
 - Seguridad operativa
 - Interoperabilidad FENOCO
 
 **Componentes:**
-- Red TETRA principal (37 estaciones base)
+- Red TETRA principal (Estaciones base dimensionadas según requisitos)
 - Torres de comunicaciones (40m altura estándar)
 - Radios TETRA embarcados (30 unidades)
 - Radios TETRA portátiles (80 unidades)
@@ -341,13 +310,13 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Normas: ETSI EN 300 392
 - Frecuencias: Asignadas por ANE
 
-#### **7.2.2 Sistema GSM-R (37 Estaciones) - NUEVO**
+#### **7.2.2 Sistema GSM-R (Propuesta para Alta Disponibilidad) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red GSM-R redundante (37 estaciones base)
+- Red GSM-R redundante (Estaciones base colocalizadas con TETRA)
 - Colocalización con TETRA (misma torre)
 - Radios GSM-R embarcados (30 unidades)
 - Antenas GSM-R colocalizadas
@@ -383,13 +352,13 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 #### **7.3.1 Fase 1 - Estudio de Propagación (Mes 1-3)**
 - Realizar estudio de radiofrecuencia detallado
-- Definir ubicaciones óptimas de las 37 torres
+- Definir ubicaciones óptimas de las torres
 - Minimizar cantidad de sitios y maximizar cobertura
 - Validar solapamiento 15-20% entre estaciones
 
 #### **7.3.2 Fase 2 - Gestión Integrada (Mes 4-12)**
 **Gestión Predial (AT7):**
-- Adquisición de terrenos para las 37 torres
+- Adquisición de terrenos para las torres requeridas
 - Coordinación con estudio de cobertura
 - Gestión de servidumbres y accesos
 
@@ -399,7 +368,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Permisos de instalación ante ANE
 
 #### **7.3.3 Fase 3 - Instalación y Puesta en Servicio (Mes 13-18)**
-- Instalación de equipos TETRA en 37 estaciones
+- Instalación de equipos TETRA en las estaciones
 - Instalación de equipos GSM-R colocalizados
 - Conexión a red de fibra óptica
 - Pruebas de cobertura y calidad de servicio
@@ -434,10 +403,10 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 | Requisito Contractual | Fuente | Funcionalidad TETRA Asociada | Estado |
 |:---|:---|:---|:---:|
-| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseño de una red de **37 sitios** para garantizar 100% de cobertura en el corredor + solapamiento 15-20%. | ✅ Definido |
+| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseño de una red de sitios dimensionada para garantizar 100% de cobertura en el corredor + solapamiento 15-20%. | ✅ Definido |
 | **Comunicaciones Ferroviarias 24/7** | AT2, Cap. 3.2.2 | Implementación de grupos de llamada para operación, mantenimiento y emergencias. | ✅ Definido |
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
-| **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los **37 predios** necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
+| **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los predios necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
 | **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos UIC para interoperabilidad** | ✅ Definido |
 | **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + GSM-R con GPS integrado para cada locomotora.<br>- **Interfaz ITCS ETCS Level 2 hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
@@ -449,35 +418,22 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **R-035** | **Dependencia AT3 para equipos** | **Técnico** | **Alta** | **Alto** | Especificaciones de radio pendientes de AT3 |
 | **R-036** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación TETRA-FENOCO requiere protocolos UIC |
 | **R-037** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
-| **R-038** | **Gestión de 37 sitios** | **Gestión** | **Media** | **Medio** | Complejidad de adquisición de predios y permisos |
+| **R-038** | **Gestión de sitios** | **Gestión** | **Media** | **Medio** | Complejidad de adquisición de predios y permisos |
 | **R-039** | **Integración TETRA-ITCS** | **Técnico** | **Media** | **Alto** | Complejidad de interfaz con sistemas de control |
 
 ---
 
-## 9. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
+## 9. OBJETIVOS DE DISEÑO (ANÁLISIS DE VALOR)
 
-### **9.1 Eliminaciones (Sobrepresupuesto)**
-- **Eurobalises:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
-- **TOTAL ELIMINAR:** -$64,000,000,000 COP
+### 9.1 Optimización de Infraestructura Compartida
+*   Colocación de estaciones base TETRA y GSM-R en la misma torre para minimizar huella ambiental y costos prediales.
+*   Uso de estaciones repetidoras alimentadas por energía solar en puntos remotos para evitar redes eléctricas extensas.
 
-### **9.2 Implementaciones Nuevas (Faltante)**
-- **GSM-R:** +$3,484,000,000 COP
-- **EOT:** +$520,000,000 COP
-- **ENCE:** +$6,020,000,000 COP
-- **Desvíos:** +$3,783,000,000 COP
-- **TOTAL AGREGAR:** +$13,807,000,000 COP
-
-### **9.3 Ajustes de Cantidades**
-- **TETRA:** +$4,830,000,000 COP (4 estaciones adicionales)
-- **CCTV:** -$2,000,000,000 COP
-- **Fibra Óptica:** +$6,800,000,000 COP
-- **TOTAL AJUSTAR:** +$9,630,000,000 COP
-
-### **9.4 Impacto Neto**
-**IMPACTO NETO TOTAL:** -$40,563,000,000 COP
+### 9.2 Definiciones Críticas Pendientes
+El dimensionamiento final de la red de radio se cerrará tras:
+1.  Estudio de propagación de RF definitivo.
+2.  Definición de las alturas finales de torres (Sujeto a normas aeronáuticas).
+3.  Asignación formal de frecuencias por la ANE.
 
 ---
 

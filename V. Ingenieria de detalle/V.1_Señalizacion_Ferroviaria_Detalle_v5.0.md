@@ -5,7 +5,7 @@
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Documento:** V.1 - Señalización Ferroviaria de Detalle  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -20,15 +20,13 @@
 | **Tipo** | Documento de Ingeniería de Detalle |
 | **Categoría** | Ingeniería de Detalle |
 | **Número** | V.1 |
-| **Estado** | ✅ **v5.0 - COHERENCIA TÉCNICA VERIFICADA** |
+| **Estado** | ⚠️ **EN RE-LINEACIÓN** |
 
 ---
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**V.1 - Señalización Ferroviaria de Detalle - Sistemas Virtuales**
-
-Este documento establece las especificaciones técnicas de detalle para el **sistema de señalización virtual** del proyecto APP La Dorada-Chiriguaná, basado en **CTC centralizado** y **ATP embarcado**, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento establece las especificaciones técnicas de detalle para la propuesta de **sistema de señalización optimizado**, basado en la centralización de control y tecnologías de protección embarcada. Representa la evolución del diseño conceptual hacia la implementación detallada.
 
 ---
 
@@ -47,7 +45,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Este documento establece las especificaciones técnicas de detalle para el **sistema de señalización virtual** del proyecto APP La Dorada-Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento establece las especificaciones técnicas de detalle para la **propuesta de sistema de señalización optimizado**, basado en la centralización de control y tecnologías de protección embarcada, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS
 **Documentos Base (Completados ✅):**
@@ -78,22 +76,14 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 
 ## 2. ✅ VERIFICACIÓN DE COHERENCIA TÉCNICA ⭐ NUEVO
 
-### 2.1 Estado Actual vs Criterios Maestros
+### 2.1 Alineación Técnica Proyectada
 
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
-| **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
-| **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
-| **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **Desvíos** | 120 total | 120 total | ✅ 100% |
-| **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
-| **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
+| Requisito Contractual | Fuente | Parámetro de Detalle Propuesto | Estado |
+|:----------------------|:-------|:-----------------------------|:---:|
+| **ATP / Signalización** | AT3 | Virtual / Radio-basado (Propuesta) | 🔍 En Diseño |
+| **Integración FENOCO** | AT2 | Estándares UIC (Referencial) | 🔍 En Diseño |
+| **Disponibilidad** | AT4 | ≥ 99.5% | 🔍 En Diseño |
+| **Balizas vía** | AT3 | Mínimo técnico por definir según Safety Case | 🔍 En Diseño |
 
 ### 2.2 Desalineaciones Detectadas
 **✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
@@ -142,11 +132,11 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 - **V.X_Enclavamientos_ENCE_Detalle.md** ⏳ (ENCE detalle)
 
 ### 3.3 Interfaces Críticas
-- **Señalización Virtual ↔ CTC:** Centro de control centralizado
-- **Señalización Virtual ↔ ATP:** Sistemas embarcados en locomotoras
-- **Señalización Virtual ↔ ENCE:** 5 enclavamientos electrónicos
-- **Señalización Virtual ↔ TETRA + GSM-R:** Comunicaciones críticas
-- **Señalización Virtual ↔ Fibra Óptica:** Backbone de comunicaciones
+- **Señalización Optimizada ↔ CTC:** Centro de control centralizado
+- **Señalización Optimizada ↔ ATP:** Sistemas embarcados en locomotoras
+- **Señalización Optimizada ↔ ENCE:** 5 enclavamientos electrónicos
+- **Señalización Optimizada ↔ TETRA + GSM-R:** Comunicaciones críticas
+- **Señalización Optimizada ↔ Fibra Óptica:** Backbone de comunicaciones
 
 ---
 
@@ -180,7 +170,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 
 ### 4.2 Gestión de Interfaces
 
-#### **4.2.1 Señalización Virtual**
+#### **4.2.1 Propuesta de Señalización Optimizada**
 **Funcionalidades:**
 - CTC centralizado como sistema principal
 - ATP embarcado en locomotoras
@@ -221,8 +211,8 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 
 ### 4.3 Estrategia de Implementación
 
-#### **4.3.1 Señalización Virtual**
-**Filosofía Virtual:**
+#### **4.3.1 Propuesta de Señalización Optimizada**
+**Filosofía Optimizada:**
 - **CTC centralizado** como sistema principal
 - **ATP embarcado** sin infraestructura física
 - **Señalización virtual** en cabinas
@@ -258,7 +248,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **GSM-R:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
-- ✅ **Eurobalises:** 0 unidades ✓
+- ✅ **Eurobalises:** 0 unidades (Propuesta de Diseño Base sujeta a validación de Safety Case) ✓
 - ✅ **Señales LED:** 0 unidades ✓
 - ✅ **RBC:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
@@ -268,7 +258,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 - ✅ **Locomotoras:** 15 unidades ✓
 
 #### **5.2.2 Filosofía del Sistema Verificada**
-- ✅ **Señalización virtual confirmada** ✓
+- ✅ **Propuesta de Señalización Optimizada confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
 - ✅ **Redundancia TETRA + GSM-R** ✓
@@ -284,7 +274,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 
 ### 6.1 Estado del Documento v5.0
 - **Base contractual:** ✅ Actualizada según criterios maestros
-- **Señalización virtual:** ✅ Alineada con sistemas virtuales
+- **Propuesta de Señalización Optimizada:** ✅ Alineada con sistemas virtuales
 - **Control de versiones:** ✅ Implementado según estándar del proyecto
 - **Criterios técnicos:** ✅ Alineados con documento maestro
 - **Completitud técnica:** ✅ 100% alineado con criterios maestros
@@ -301,7 +291,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 4. Documentos de especificaciones detalladas
 
 ### 6.3 Criterios para Avance a Fase Siguiente
-- ✅ **Señalización virtual actualizada** según criterios maestros
+- ✅ **Propuesta de Señalización Optimizada** según criterios maestros
 - ✅ **Coherencia técnica verificada** 100%
 - ⏳ **Documentos dependientes** en proceso de actualización
 - ⏳ **Validación cruzada** pendiente
@@ -312,7 +302,7 @@ Este documento establece las especificaciones técnicas de detalle para el **sis
 ## 7. ALCANCE Y OBJETIVO
 
 ### 7.1 Objetivo
-Definir las especificaciones técnicas detalladas para la implementación del **sistema de señalización virtual**, incluyendo:
+Definir las especificaciones técnicas detalladas para la implementación de la **propuesta de sistema de señalización optimizado**, incluyendo:
 - Arquitectura CTC virtual centralizada
 - Sistema ATP embarcado en locomotoras
 - Display virtual en cabina del maquinista
@@ -320,7 +310,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - Integración con sistemas de comunicación
 
 ### 7.2 Alcance
-- **Señalización virtual** (CTC + ATP embarcado)
+- **Propuesta de Señalización Optimizada** (CTC + ATP embarcado)
 - **5 Enclavamientos ENCE** electrónicos
 - **24 Pasos a Nivel** activos (9 Tipo C + 15 Tipo B)
 - **120 Desvíos** (25 motorizados + 95 manuales)
@@ -344,7 +334,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 9. ARQUITECTURA DEL SISTEMA VIRTUAL
+## 9. ARQUITECTURA DE LA PROPUESTA DE SISTEMA OPTIMIZADO
 
 ### 9.1 Componentes Principales
 - **Centro de Control de Tráfico (CTC) Virtual** - CCO La Dorada
@@ -361,7 +351,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 10. ESPECIFICACIONES TÉCNICAS VIRTUALES
+## 10. ESPECIFICACIONES TÉCNICAS DE LA PROPUESTA OPTIMIZADA
 
 ### 10.1 CTC Virtual Centralizado
 - **Servidor CTC:** Software de control ferroviario centralizado
@@ -392,7 +382,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 11. INSTALACIÓN Y MONTAJE VIRTUAL
+## 11. INSTALACIÓN Y MONTAJE DE LA PROPUESTA OPTIMIZADA
 
 ### 11.1 Preparación del Sitio
 - **CCO La Dorada:** Construcción y equipamiento del centro de control
@@ -400,13 +390,13 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Fibra Óptica:** 594 km de backbone de comunicaciones
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 
-### 11.2 Montaje de Equipos Virtuales
+### 11.2 Montaje de Equipos
 - **Instalación CTC:** Servidor central y consolas de control
 - **Montaje ATP:** Sistemas embarcados en 15 locomotoras
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 - **Conexión Virtual:** Sistemas de comunicación integrados
 
-### 11.3 Pruebas y Validación Virtual
+### 11.3 Pruebas y Validación
 - **Pruebas CTC:** Funcionamiento del centro de control
 - **Pruebas ATP:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
@@ -414,7 +404,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 12. OPERACIÓN Y MANTENIMIENTO VIRTUAL
+## 12. OPERACIÓN Y MANTENIMIENTO DE LA PROPUESTA OPTIMIZADA
 
 ### 12.1 Procedimientos de Operación
 - **Arranque CTC:** Inicio del sistema de control centralizado
@@ -436,7 +426,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 13. SEGURIDAD Y PROTECCIÓN VIRTUAL
+## 13. SEGURIDAD Y PROTECCIÓN DE LA PROPUESTA OPTIMIZADA
 
 ### 13.1 Medidas de Seguridad
 - **Redundancia CTC:** Sistemas de respaldo centralizados
@@ -474,7 +464,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 15. PRUEBAS Y VALIDACIÓN VIRTUAL
+## 15. PRUEBAS Y VALIDACIÓN DE LA PROPUESTA OPTIMIZADA
 
 ### 15.1 Pruebas de Componentes
 - **Pruebas CTC:** Centro de control centralizado
@@ -496,7 +486,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 16. ENTREGABLES VIRTUALES
+## 16. ENTREGABLES DE LA PROPUESTA OPTIMIZADA
 
 ### 16.1 Documentación Técnica
 - **Planos CTC:** Centro de control centralizado
@@ -518,7 +508,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 17. CRONOGRAMA DE IMPLEMENTACIÓN VIRTUAL
+## 17. CRONOGRAMA DE IMPLEMENTACIÓN DE LA PROPUESTA OPTIMIZADA
 
 ### 17.1 Fases del Proyecto
 - **Fase 1:** CTC Virtual (2 meses)
@@ -536,7 +526,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 18. GESTIÓN DE CALIDAD VIRTUAL
+## 18. GESTIÓN DE CALIDAD DE LA PROPUESTA OPTIMIZADA
 
 ### 18.1 Control de Calidad
 - **Inspecciones CTC:** Centro de control
@@ -568,45 +558,18 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ---
 
-## 20. IMPACTO PRESUPUESTAL DE FILOSOFÍA VIRTUAL
-
-### 20.1 Eliminaciones (Sobrepresupuesto)
-- **Eurobalises:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
-- **TOTAL ELIMINAR:** -$64,000,000,000 COP
-
-### 20.2 Implementaciones Nuevas (Faltante)
-- **GSM-R:** +$3,484,000,000 COP
-- **EOT:** +$520,000,000 COP
-- **ENCE:** +$6,020,000,000 COP
-- **Desvíos:** +$3,783,000,000 COP
-- **TOTAL AGREGAR:** +$13,807,000,000 COP
-
-### 20.3 Impacto Neto Total
-**IMPACTO NETO:** -$50,193,000,000 COP
-
----
-
 ## 21. GESTIÓN DE CAMBIOS v5.0
 
-### 21.1 Control de Cambios Implementados
-**Cambios implementados:**
-- ✅ Eliminación completa de eurobalises (1,080 unidades)
-- ✅ Eliminación completa de señales LED vía (270 unidades)
-- ✅ Eliminación completa de RBC (2 unidades)
-- ✅ Implementación de CTC centralizado
-- ✅ Implementación de ATP embarcado (15 locomotoras)
-- ✅ Implementación de ENCE (5 estaciones)
-- ✅ Verificación de coherencia técnica 100%
+### 21.1 Trazabilidad de Re-lineación
+- **Principio:** Alineación con Apéndices Técnicos (Layer 1).
+- **Enfoque:** Descontaminación de 'incurrencias' financieras en ingeniería.
+- **Validación:** Pendiente de Safety Case y disponibilidad SICC.
 
 ### 21.2 Trazabilidad de Cambios
 - **Documento origen:** CRITERIOS_TECNICOS_MAESTRO_v1.0.md
 - **Auditoría base:** AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md
 - **Fecha de alineación:** Enero 2025
 - **Responsable:** Administrador Contractual EPC
-- **Impacto presupuestal:** -$50,193,000,000 COP (Cambio de filosofía)
 - **Metodología aplicada:** v5.0 - Coherencia Técnica Verificada
 
 ### 21.3 Próxima Revisión

@@ -1,6 +1,6 @@
-﻿# CRITERIOS DE REDUNDANCIA v4.0 - DISPONIBILIDAD Y RESPALDO
+﻿# CRITERIOS DE REDUNDANCIA - DISPONIBILIDAD Y RESPALDO
 ## APP La Dorada - Chiriguaná
-
+**ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 ---
 
 ## 1. MARCO CONTRACTUAL
@@ -56,32 +56,15 @@ El diseño detallado de todos los sistemas está bloqueado hasta que estos crite
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS
 
-### 3.1 🚀 ARQUITECTURA DE ALTA DISPONIBILIDAD PARA EPC
-**Basado en análisis del contenido técnico detallado del documento:**
-
-1. **Minimización de Penalidades Contractuales:**
-   - **Problema identificado:** Incumplimiento de KPIs de disponibilidad AT4 genera multas
-   - **Optimización EPC:** Diseño robusto que cumple KPIs ≥ 99% desde inicio
-   - **Beneficio:** Evita aplicación de multas contractuales por disponibilidad
-   - **Implementación:** Matriz de redundancia por niveles de criticidad
-
-2. **Reducción de Riesgos Operativos:**
-   - **Problema identificado:** Interrupciones del servicio causan pérdidas económicas
-   - **Optimización EPC:** Prevención de fallas mediante redundancia geográfica
-   - **Beneficio:** Protección de reputación y continuidad operacional
-   - **Implementación:** Sistemas vitales con redundancia 2N (N+N)
-
-3. **Optimización del Mantenimiento:**
-   - **Problema identificado:** Mantenimientos programados interrumpen operación
-   - **Optimización EPC:** Mantenimientos en sistema sin afectar operación del otro
-   - **Beneficio:** Cumplimiento AT2 y disponibilidad continua
-   - **Implementación:** Configuración Hot-Standby para controladores críticos
+### 3.1 Estrategias de Alta Disponibilidad Sugeridas
+Para garantizar el cumplimiento de los KPIs del AT4 (≥ 99.5%), la ingeniería propone las siguientes estrategias:
+*   **Segmentación por Criticidad:** Asignar mayores niveles de redundancia a sistemas Vitales (ENCE, CTC).
+*   **Redundancia Geográfica:** Aplicada al backbone de FO para evitar cortes por eventos físicos.
+*   **Monitoreo SICC:** Integración proactiva para detectar fallas antes de que afecten el indicador de disponibilidad.
 
 ### 3.2 💼 ARQUITECTURA DE REDUNDANCIA POR NIVELES DE CRITICIDAD
 **Clasificación optimizada para inversión EPC:**
 
-1. **Nivel 1 - Vital (2N o N+N):**
-   - **Problema identificado:** Sistemas con riesgo de seguridad catastrófico
    - **Optimización EPC:** Duplicación completa y geográficamente separada
    - **Beneficio:** Eliminación de puntos únicos de falla críticos
    - **Sistemas:** Eléctrico CCO, CTC, Enclavamientos Electrónicos
@@ -105,17 +88,13 @@ El diseño detallado de todos los sistemas está bloqueado hasta que estos crite
 ### 4.1 Matriz de Aplicación de Redundancia por Sistema
 La siguiente matriz asigna un nivel de redundancia a cada sistema crítico del proyecto.
 
-| Sistema | Nivel de Criticidad | Nivel de Redundancia | Componentes Clave a Redundar | Justificación Contractual |
-|:---|:---|:---:|:---|:---|
-| **Sistema Eléctrico (CCO/Sitios Críticos)** | **Vital** | **2N** | - Doble acometida de media tensión<br>- Doble transformador<br>- Doble barra de distribución | AT2, Num. 3.1.1 |
-| **UPS (Sistemas Vitales)** | **Vital** | **N+1** | - Módulos de potencia UPS<br>- Bancos de baterías (autonomía 4h) | AT2, Num. 3.1.1 |
-| **Generadores de Emergencia** | **Crítico** | **N+1** | - Plantas de emergencia con transferencia automática (ATS) | AT2, Num. 3.1.1 |
-| **Backbone de Fibra Óptica** | **Vital** | **1+1** | - Doble anillo con diversidad geográfica | AT3, Cap. 8.6 |
-| **Controladores CTC** | **Vital** | **2N** | - Servidores de aplicación y base de datos en configuración Hot-Standby | AT4, Cap. 5.3 (Disp. SICC) |
-| **Enclavamientos Electrónicos** | **Vital** | **2N** | - Procesadores de seguridad duplicados (2oo2) | AT3, Cap. 8.1 |
-| **Controladores Red TETRA** | **Crítico** | **N+1** | - Controladores de sitio (SwMI) | AT4 (Indicador COM1) |
-| **🚂 ITCS Embarcado** | **Vital** | **2N** | - Sistemas de control embarcados ETCS Level 2 hasta AT3 | AT4 (Disponibilidad 99.95%) |
-| **🔗 Interfaces FENOCO** | **Crítico** | **N+1** | - Protocolos UIC para interoperabilidad | AT4 (Interoperabilidad) |
+| Sistema | Criticidad (Propuesta) | Nivel de Redundancia Sugerido | Justificación Contractual |
+|:---|:---|:---:|:---|
+| **Sistema Eléctrico (CCO)** | **Vital** | Redundancia de Acometida | AT2, Num. 3.1.1 |
+| **UPS (Vitales)** | **Vital** | N+1 / N+N | AT2 (Autonomía según diseño) |
+| **Generadores** | **Crítico** | N+1 | AT2, Num. 3.1.1 |
+| **Backbone FO** | **Vital** | Anillo Redundante | AT3, Cap. 8.6 |
+| **Sistemas de Control** | **Vital** | Failover Automático | AT4 (Límite de indisponibilidad) |
 
 ---
 

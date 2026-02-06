@@ -1,9 +1,4 @@
-# V.5 Sistemas de Seguridad v5.0 - SEGURIDAD FERROVIARIA INTEGRADA
-## APP La Dorada - Chiriguaná
-
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -47,11 +42,11 @@ Documento de ingeniería de detalle para **sistemas de seguridad ferroviaria int
 - **EOT:** 15 dispositivos End of Train
 - **CCTV:** 73 cámaras de monitoreo
 
-### 3.2 Niveles de Seguridad (SIL)
-- **SIL 4:** ATP embarcado, control crítico
-- **SIL 3:** CTC virtual, comunicaciones críticas
-- **SIL 2:** ENCE, desvíos, EOT
-- **SIL 1:** CCTV, sistemas auxiliares
+### 3.2 Objetivos de Integridad de Seguridad (SIL)
+Los niveles SIL finales serán determinados por el **Safety Case** del proyecto. Se establecen los siguientes objetivos preliminares para diseño:
+- **Nivel SIL 4 (Objetivo):** Funciones de control de tren y frenado.
+- **Nivel SIL 3 (Objetivo):** Funciones de supervisión y comunicaciones críticas.
+- **Nivel SIL 2 (Objetivo):** Funciones de soporte a la operación.
 
 ---
 
@@ -227,16 +222,7 @@ Documento de ingeniería de detalle para **sistemas de seguridad ferroviaria int
 
 ---
 
-## 12. IMPACTO PRESUPUESTAL
-
-### 12.1 Componentes de Seguridad
-- **ATP Embarcado:** $4,500,000,000 COP
-- **CTC Virtual:** $2,000,000,000 COP
-- **ENCE:** $1,200,000,000 COP
-- **Desvíos:** $3,000,000,000 COP
-- **EOT:** $800,000,000 COP
-- **CCTV:** $1,500,000,000 COP
-- **TOTAL:** $13,000,000,000 COP
+## 12. GESTIÓN DE CAMBIOS
 
 ---
 
@@ -257,7 +243,7 @@ Documento de ingeniería de detalle para **sistemas de seguridad ferroviaria int
 6. **V.5_Sistemas_Seguridad_Detalle_v5.0.md** ✅
 
 ### 13.3 Resumen Ejecutivo
-**TODOS LOS DOCUMENTOS DE INGENIERÍA DE DETALLE COMPLETADOS** ✅
+**DOCUMENTOS DE INGENIERÍA DE DETALLE EN REVISIÓN**
 - **Capa 4:** V.4 completado ✅
 - **Capa 5:** 5 documentos V.X y V.5 completados ✅
 - **Metodología v5.0:** Aplicada en todos ✅
@@ -268,10 +254,10 @@ Documento de ingeniería de detalle para **sistemas de seguridad ferroviaria int
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
+| v5.0 | Ene-2025 | Metodología v5.0 aplicada |
 
 ---
 
 **Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
 
-**✅ INGENIERÍA DE DETALLE 100% COMPLETADA**
+**Estado del documento:** ⚠️ **EN RE-LINEACIÓN**

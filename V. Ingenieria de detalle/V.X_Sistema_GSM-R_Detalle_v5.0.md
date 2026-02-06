@@ -3,14 +3,14 @@
 
 **Fecha:** Enero 2025  
 **Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Documento de ingeniería de detalle para **sistema GSM-R colocalizado** en 37 estaciones base, **100% ALINEADO CON CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Documento de ingeniería de detalle para la **propuesta de sistema GSM-R colocalizado**, dimensionado para garantizar la redundancia de comunicaciones críticas en el corredor.
 
 ### 1.2 Dependencias
 **Documentos Base ✅:**
@@ -23,12 +23,11 @@ Documento de ingeniería de detalle para **sistema GSM-R colocalizado** en 37 es
 
 ## 2. VERIFICACIÓN DE COHERENCIA TÉCNICA
 
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
+| Criterio | Requisito Contractual | Estado Proyectado | Coherencia |
 |:---------|:-----------------|:--------------|:-----------|
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Colocalización** | TETRA + GSM-R | TETRA + GSM-R | ✅ 100% |
-| **ATP Embarcado** | 15 locomotoras | 15 locomotoras | ✅ 100% |
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
+| **GSM-R** | Redundancia Crítica | Dimensionado (Cobertura 100%) | 🔍 En Diseño |
+| **Colocalización** | Eficiencia Infraestructura | Propuesta TETRA + GSM-R | 🔍 En Diseño |
+| **Disponibilidad** | AT4 COM1 | ≥ 99.5% | 🔍 En Diseño |
 
 **✅ NINGUNA DESALINEACIÓN DETECTADA**
 
@@ -37,7 +36,7 @@ Documento de ingeniería de detalle para **sistema GSM-R colocalizado** en 37 es
 ## 3. ARQUITECTURA DEL SISTEMA GSM-R
 
 ### 3.1 Red GSM-R Colocalizada
-- **37 Estaciones Base:** Colocalizadas con TETRA
+- **Estaciones Base:** Dimensioned for 100% coverage according to AT1/AT3
 - **Controladores:** 5 BSC (Base Station Controller)
 - **Núcleo de red:** 1 MSC (Mobile Switching Center)
 - **Interfaces:** ATP embarcado + CTC virtual
@@ -105,10 +104,9 @@ Documento de ingeniería de detalle para **sistema GSM-R colocalizado** en 37 es
 - **Redundancia:** Enlaces múltiples
 
 ### 6.2 Disponibilidad
-- **Objetivo:** 99.95% (4.38 horas/año)
-- **Estrategia:** Redundancia N+1
-- **Recuperación:** < 1 hora
-- **Respaldo:** TETRA colocalizado
+- **Objetivo:** ≥ 99.5% (Según Apéndice Técnico 4).
+- **Estrategia:** Redundancia N+1 en hardware crítico.
+- **Respaldo:** Hibridación operacional con TETRA.
 
 ---
 
@@ -178,15 +176,8 @@ Documento de ingeniería de detalle para **sistema GSM-R colocalizado** en 37 es
 
 ---
 
-## 11. IMPACTO PRESUPUESTAL
-
-### 11.1 Componentes GSM-R
-- **37 Transceptores:** $3,700,000,000 COP
-- **37 Sistemas antenas:** $1,850,000,000 COP
-- **5 Controladores BSC:** $1,500,000,000 COP
-- **1 Núcleo MSC:** $2,000,000,000 COP
-- **Instalación:** $950,000,000 COP
-- **TOTAL:** $10,000,000,000 COP
+## 11. ANÁLISIS TÉCNICO DE IMPLEMENTACIÓN
+La implementación de la red GSM-R como sistema de redundancia responde a la necesidad de garantizar el cumplimiento de los KPI de disponibilidad (COM1) definidos en el AT4, permitiendo un handover transparente para el sistema de protección de trenes (ATP).
 
 ---
 

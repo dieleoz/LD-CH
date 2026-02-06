@@ -1,6 +1,6 @@
-﻿﻿# SISTEMA CCTV INTEGRADO v4.0 - MONITOREO Y SEGURIDAD
+﻿﻿# SISTEMA CCTV INTEGRADO - MONITOREO Y SEGURIDAD
 ## APP La Dorada - Chiriguaná
-
+**ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
 ---
 
 ## 1. MARCO CONTRACTUAL
@@ -59,12 +59,11 @@ El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de 
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS
 
-### 3.1 Arquitectura de Videovigilancia para Proyectos EPC
-Se propone una arquitectura de CCTV por zonas, que optimiza la gestión y la escalabilidad:
-- **Zona 1 - Infraestructura Crítica:** Cobertura de alta seguridad en CCO, talleres, estaciones de enclavamiento y subestaciones eléctricas. Uso de cámaras PTZ, térmicas y con analítica de video para detección de intrusiones.
-- **Zona 2 - Corredor y Pasos a Nivel:** Cámaras fijas en los 146 pasos a nivel para monitoreo del tráfico y apoyo en la investigación de incidentes.
-- **Zona 3 - Áreas Públicas y Comunitarias:** Cámaras en estaciones y oficinas de atención al usuario, con un diseño que prioriza la seguridad de los usuarios y el respeto a la privacidad.
-- **Plataforma Centralizada:** Un único Video Management System (VMS) en el CCO para la gestión de todas las cámaras, con almacenamiento redundante (mínimo 30 días) y un videowall para monitoreo 24/7, garantizando disponibilidad 100% según AT4.
+### 3.1 Criterios de Arquitectura (Diseño Propuesto)
+Se propone una cobertura basada en riesgo y criticidad, sujeta a validación en Fase C:
+*   **Puntos de Cobertura:** Pasos a nivel (AT1), CCO, estaciones de enclavamiento, talleres y áreas de atención al usuario.
+*   **Capacidades Técnicas Recomendadas:** Cámaras de alta resolución, visión nocturna/térmica en áreas críticas, y analítica de video para detección de intrusiones.
+*   **Gestión Centralizada:** Integración en el VMS del CCO con capacidad de almacenamiento acorde a la normativa vigente.
 
 ### 3.2 Estrategia de Integración Social (AT8)
 El sistema CCTV no es solo técnico, es una herramienta social. Su implementación seguirá estos principios:
@@ -83,7 +82,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 |---|---|---|:---:|
 | **Seguridad en CCO y Talleres** | AT1, Tablas 12-16 | Implementación de cámaras perimetrales, de control de acceso y de supervisión de procesos en UF1 y UF2.<br>- **Disponibilidad 100% según AT4** | ✅ Definido |
 | **Normas Técnicas (UNE-EN, ONVIF)** | AT3, Cap. 6.12 | Selección de cámaras, VMS y NVR que cumplan con los estándares de interoperabilidad y calidad de video. | ⚠️ Condicionado |
-| **Indicador "Cerramiento y CCTV"** | AT4, Cap. 4 | El sistema debe tener una disponibilidad del 100%, con interrupciones mínimas. Se requiere un sistema de monitoreo de salud de los equipos. | 🔴 Bloqueado |
+| **Indicador "Cerramento y CCTV"** | AT4, Cap. 4 | El sistema debe reportar su estado al SICC. Los objetivos de disponibilidad se alinearán con los requisitos de continuidad del servicio ferroviario. | 🔍 En Diseño |
 | **Privacidad y Derechos Fundamentales** | AT8, Cap. 7 | Diseño de la cobertura en consulta con la comunidad y creación de un protocolo de uso de datos. | ✅ Definido |
 | **Integración con Control de Accesos** | AT3, Cap. 6.13 | Correlación de eventos de video con los registros del sistema de control de accesos.<br>- **Monitoreo ITCS ETCS Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
 

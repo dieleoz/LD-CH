@@ -19,7 +19,7 @@
 | **Tipo** | Documento de Operación y Mantenimiento |
 | **Categoría** | Operación, Mantenimiento y Reversión |
 | **Fase** | Fase 4-5 |
-| **Estado** | ✅ Contenido completo |
+| **Estado** | ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA) |
 
 ---
 
@@ -111,128 +111,9 @@ Proxima actualizacion: 27/02/2025
 
 ---
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
-
-### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
-
-#### **✅ MEJORAS IMPLEMENTADAS:**
-
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Operación ITCS:** Procedimientos de operación para sistemas ITCS ETCS Level 2
-   - **Mantenimiento ITCS:** Programas de mantenimiento preventivo y correctivo ITCS
-   - **Monitoreo ITCS:** Supervisión continua de sistemas ITCS embarcados
-   - **Actualizaciones ITCS:** Gestión de actualizaciones ITCS hasta disponibilidad de AT3
-
-2. **🔗 INTEROPERABILIDAD FENOCO EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Coordinación FENOCO:** Protocolos de coordinación operativa con FENOCO
-   - **Mantenimiento de interoperabilidad:** Preservación de protocolos UIC
-   - **Monitoreo de compatibilidad:** Supervisión continua de interoperabilidad
-   - **Resolución de incidencias:** Procedimientos para problemas de interoperabilidad
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Monitoreo de disponibilidad:** Supervisión continua de indicadores AT4
-   - **Mantenimiento de disponibilidad:** Preservación de 99.95% de disponibilidad
-   - **SICC operativo:** Sistemas de monitoreo y control en tiempo real
-   - **Reportes de disponibilidad:** Evidencias de cumplimiento contractual
-
-4. **🔒 CIBERSEGURIDAD EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Mantenimiento de seguridad:** Preservación de estándares NIST/IEC 62443
-   - **Monitoreo de amenazas:** Supervisión continua de amenazas cibernéticas
-   - **Actualizaciones de seguridad:** Gestión de parches y actualizaciones
-   - **Respuesta a incidentes:** Procedimientos para incidentes de ciberseguridad
-
-5. **🔄 REDUNDANCIA EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **Monitoreo de redundancia:** Supervisión de estado de sistemas redundantes
-   - **Gestión de fallas:** Procedimientos para fallas en sistemas redundantes
-   - **Reposición de redundancia:** Estrategias para mantener redundancia
-
-6. **🔄 REVERSIÓN EN OPERACIÓN Y MANTENIMIENTO:**
-   - **Preparación de reversión:** Inventario y documentación para reversión
-   - **Transferencia de activos:** Procedimientos de transferencia de sistemas
-   - **Documentación de reversión:** Manuales y documentación técnica
-   - **Certificación de reversión:** Validación de estado para reversión
-
-#### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-
-1. **Falta de especificaciones ITCS en OM:** Agregados procedimientos de operación y mantenimiento ITCS ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos de coordinación operativa
-3. **Criterios AT4 no integrados:** Incorporado monitoreo continuo de disponibilidad
-4. **Ciberseguridad no especificada:** Agregados procedimientos de mantenimiento de seguridad
-5. **Redundancia no definida:** Establecidos procedimientos de mantenimiento de redundancia
-6. **Reversión no especificada:** Agregados procedimientos de preparación y transferencia
-
-#### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
-
-| ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
-| R-295 | Dependencia AT3 para ITCS en OM | Técnico | Alta | Alto | Operación ITCS sin especificaciones AT3 |
-| R-296 | Interoperabilidad FENOCO en OM | Técnico | Media | Alto | Mantenimiento de compatibilidad con FENOCO |
-| R-297 | Disponibilidad AT4 en OM | Contractual | Media | Alto | Mantenimiento de cumplimiento de indicadores |
-| R-298 | Ciberseguridad en OM | Técnico | Media | Alto | Mantenimiento de protección de sistemas |
-| R-299 | Redundancia en OM | Técnico | Media | Alto | Mantenimiento de arquitectura N+1 |
-| R-300 | Reversión de sistemas | Técnico | Media | Alto | Transferencia de sistemas en buen estado |
-
-#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
-
-| Sistema | Cláusula | AT | Especificación | Estado |
-|:---|:---|:---|:---|:---:|
-| **ITCS OM** | 9.1, 14.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO OM** | 9.1, 14.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 OM** | 9.1, 14.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad OM** | 9.1, 14.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia OM** | 9.1, 14.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
-| **Reversión** | 12.1, 15.1 | AT4 | Transferencia de activos | ✅ Implementado |
-
-#### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
-
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Operación con ETCS Level 2 (0-12 meses)
-   - **Fase 2:** Mantenimiento y actualizaciones (12-24 meses)
-   - **Fase 3:** Integración con AT3 cuando esté disponible (24-36 meses)
-   - **Fase 4:** Preparación de reversión (36+ meses)
-
-2. **Gestión Integrada de Riesgos en OM:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo mensual:** Riesgos medios (gestión, operación, reversión)
-
-#### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% compatible | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Reversión** | 100% documentado | Mensual | Ing. Sistemas | 🟡 Pendiente |
-
-#### **🚀 PRÓXIMOS PASOS:**
-
-1. **Inmediato (0-3 meses):**
-   - Establecer operación ITCS ETCS Level 2
-   - Implementar coordinación FENOCO
-   - Activar monitoreo continuo AT4
-
-2. **Mediano plazo (3-24 meses):**
-   - Mantener operación ITCS con ETCS Level 2
-   - Coordinar mantenimiento con FENOCO
-   - Monitorear cumplimiento de AT4
-
-3. **Largo plazo (24+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar interoperabilidad con FENOCO
-   - Preparar reversión de sistemas
-
-#### **✅ CONCLUSIONES:**
-
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en operación y mantenimiento
-- **Interoperabilidad FENOCO** en coordinación operativa
-- **Criterios AT4** con monitoreo continuo de disponibilidad
-- **Ciberseguridad** con mantenimiento de estándares NIST/IEC 62443
-- **Redundancia N+1** en mantenimiento de arquitectura redundante
-- **Reversión** con procedimientos de transferencia de activos
-
-**6 riesgos identificados** para análisis PMI y gestión integrada en operación, mantenimiento y reversión.
+### **🔍 ESTADO DE RE-LINEACIÓN (PHASE 7)**
+ 
+ 1. **🚂 Operación de Sistemas de Señalización:**
+    - Procedimientos basados en el Seguro de Integración (Safety Case).
+    - Alineación con AT3 y AT4 (Disponibilidad 99.5%).
+- **Estado:** Documento en saneamiento técnico.
