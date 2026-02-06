@@ -1,4 +1,4 @@
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+# V.X Sistema EOT - Detalle v7.0 - PHASE 7
 
 ---
 
@@ -100,7 +100,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 - **Redundancia:** Comunicaciones duales
 
 ### 6.2 Disponibilidad
-- **Objetivo:** 99.9% (8.76 horas/año)
+- **Objetivo:** ≥ 99.5% (Según Apéndice Técnico 4).
 - **Estrategia:** Redundancia de comunicaciones
 - **Recuperación:** < 30 segundos
 - **Respaldo:** TETRA colocalizado
@@ -133,7 +133,7 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 
 ### 8.2 Pruebas de Sistema
 - **Integración:** EOT + ATP + CTC
-- **Rendimiento:** Disponibilidad 99.9%
+- **Rendimiento:** Disponibilidad 99.5%
 - **Seguridad:** Funciones críticas
 - **Certificación:** Cumplimiento normativo
 
@@ -213,10 +213,11 @@ Documento de ingeniería de detalle para **15 dispositivos EOT (End of Train)** 
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | Metodología v5.0 aplicada |
+| v7.0 | Feb-2026 | PMO | **APROBADO - PHASE 7: Saneamiento de KPI (99.5%)** |
+| v5.0 | Ene-2025 | PMO | Metodología v5.0 aplicada |
 
 ---
 
 **Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
 
-**Estado del documento:** ⚠️ **EN RE-LINEACIÓN**
+**Estado del documento:** ✅ **APROBADO (PHASE 7)**

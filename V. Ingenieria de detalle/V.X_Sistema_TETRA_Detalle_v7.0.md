@@ -194,7 +194,8 @@ La implementación de la red TETRA como sistema de redundancia responde a la nec
 **Control de versiones:**
 | Versión | Fecha | Descripción |
 |:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
+| v7.0 | Feb-2026 | PMO | **APROBADO - PHASE 7: Re-linealización KPI 99.5% y TETRA** |
+| v5.0 | Ene-2025 | PMO | **COMPLETADO - Metodología v5.0 aplicada** |
 
 ---
 
