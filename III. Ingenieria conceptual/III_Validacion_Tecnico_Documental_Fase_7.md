@@ -12,7 +12,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 | Archivo | Estado | Hallazgo Principal | Coherencia Contractual |
 | :--- | :---: | :--- | :---: |
 | **0_0_relacion_de_apendices...** | ✅ Validado | Mapea correctamente el Apéndice Técnico 1 con los entregables de ingeniería. | 100% |
-| **0_1_hoja_de_ruta_tecnica...** | ✅ Validado | Define las 3 fases de ingeniería: Análisis Contractual, Definición y Análisis Integrado. | 100% |
+| **0_1_hoja_de_ruta_tecnica...** | ✅ Validado | Plan de Ataque de 120 días validado. Incorpora la Neutralidad Técnica (ITCS) y corrección KPI (99.5%). | 100% |
 | **23_ListadoMaestro_Sistemas_v5.0** | ⭐ Crítico | Alineado con Criterios Maestros v1.0. Confirma la eliminación de eurobalises y señales físicas. | 100% |
 | **24_Matriz_Trazabilidad...** | ✅ Validado | Establece la jerarquía: Contrato > Apéndices > Anexos. Trazabilidad total con AT1-AT10. | 100% |
 | **25_WBS_IngenieriaConceptual** | ✅ Validado | Organiza el trabajo en 5 paquetes principales cumpliendo la Cláusula 8.1. | 100% |
