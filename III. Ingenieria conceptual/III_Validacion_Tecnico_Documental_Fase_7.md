@@ -14,6 +14,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 | **0_0_relacion_de_apendices...** | ✅ Validado | Mapea correctamente el Apéndice Técnico 1 con los entregables de ingeniería. | 100% |
 | **0_1_hoja_de_ruta_tecnica...** | ✅ Validado | Neutralidad Técnica (ITCS) y corrección KPI (99.5%). | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
+| **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
 | **23_ListadoMaestro_Sistemas_v5.0** | ⭐ Crítico | Alineado con Criterios Maestros v1.0. Confirma la eliminación de eurobalises y señales físicas. | 100% |
 | **24_Matriz_Trazabilidad...** | ✅ Validado | Establece la jerarquía: Contrato > Apéndices > Anexos. Trazabilidad total con AT1-AT10. | 100% |
 | **25_WBS_IngenieriaConceptual** | ✅ Validado | Organiza el trabajo en 5 paquetes principales cumpliendo la Cláusula 8.1. | 100% |
@@ -33,7 +34,15 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 - **Neutralidad:** Alineado con el Anexo VIII de Ardanuy (prohibición de marcas).
 - **Veredicto:** Documento VIGENTE y MANDATORIO para justificar el alcance ante Interventoría.
 
-### 2. [23] Listado Maestro de Sistemas v5.0
+### 3. [22] Hoja de Ruta Conceptual (Fases y Procedimientos)
+- **Dictamen:** **APROBADO (COLUMNA VERTEBRAL METODOLÓGICA)**.
+- **Contenido:** Guía técnica para los 120 días de ejecución de la Fase III.
+- **Validación Forense:** Confirma alineación total con la **Guía Metodológica VII.1** (Arquitectura de 5 Capas).
+- **KPI Correction:** Valida la disponibilidad del **99.5%** [Fuente 14] como optimización CAPEX estratégica.
+- **Interoperabilidad:** Establece la interoperabilidad con FENOCO como ruta crítica técnica (Fase 4).
+- **Veredicto:** VIGENTE y MANDATORIO para justificar el WBS y la Matriz de Interfaces.
+
+### 4. [23] Listado Maestro de Sistemas v5.0
 - **Estado:** Final - Coherencia Técnica Verificada.
 - **Cambio Crítico:** Documenta la optimización de costos y técnica: **Eurobalises y Señales LED físicas = 0 unidades** (reemplazadas por sistema virtual).
 - **Cantidades Clave:** 594 km de Fibra Óptica, 37 estaciones TETRA/GSM-R, 15 locomotoras con ATP embarcado y 15 dispositivos EOT.
