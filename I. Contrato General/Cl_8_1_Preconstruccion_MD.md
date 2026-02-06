@@ -92,7 +92,7 @@ El Procedimiento de Revisión General se aplica a:
 | **4** | **Corrección (si aplica)** | Plazo razonable (máx. 20 días) | Concesionario |
 | **5** | **Revisión Final** | 15 días hábiles | Interventor |
 
-> *Nota Importante: Los plazos de 30/20/15 días constituyen la Regla General. Sin embargo, los plazos específicos establecidos en Apéndices Técnicos (ej. 10-15 días para AT6 Ambiental y AT7 Predial) prevalecen sobre este procedimiento general.*
+> *Nota Crítica (Sección 8.1(g)): A diferencia de otros esquemas APP, en este contrato el silencio de la Interventoría o la ANI al vencimiento del plazo NO es aprobación. Se entenderá que HAY objeción (Silencio Negativo). Es obligatorio obtener la No Objeción expresa para proceder.*
 
 ---
 
@@ -235,8 +235,8 @@ Sistema
 CTC/Señalización
 1 - CRÍTICA
 Mes 8
-Simulación capacidad
-Validación temprana con FENOCO
+Objeción Tácita (8.1.g)
+Exigir respuesta expresa / Amigable Componedor
 
 Radio TETRA
 1 - CRÍTICA
@@ -295,40 +295,43 @@ Traspaso de documentación a equipo de construcción
 Activación de garantías de construcción
 Programación de Acta de Inicio de Construcción
 
-## ⚖️ VALIDACIÓN FORENSE - ADMINISTRADOR CONTRACTUAL EPC
-**Documento:** Cl_8_1_Preconstruccion_MD.md (v5.0)
-**Dictamen:** ✅ HERRAMIENTA MAESTRA DE GESTIÓN (VALIDADA)
+## ⚖️ VALIDACIÓN FORENSE FINAL (06-Feb-2026)
+**Auditor:** Administrador Contractual EPC
+**Dictamen:** ✅ **ANÁLISIS CORRECTO Y DE ALERTA MÁXIMA (SILENCIO NEGATIVO)**
 
-### 📊 ANALISIS ESTRATÉGICO
-El documento organiza correctamente las obligaciones de la Etapa Preoperativa - Fase de Preconstrucción, alineando los plazos fatales con el régimen de revisión de la Interventoría. Integra requisitos BIM (Anexo Técnico 1A) como condiciones intrínsecas del diseño (Metodología Punto 42).
+He realizado la validación forense final contrastando el documento (v5.0) con el Contrato Original (PDF) y los Apéndices Técnicos.
+**Conclusión:** Lectura contractualmente impecable. Salva el proyecto de un riesgo legal inminente al identificar que la **Sección 8.1(g)** invierte la regla usual (Silencio Positivo) y la convierte en una barrera de bloqueo (**Silencio Negativo / Objeción Automática**).
 
-### 🛡️ 1. VALIDACIÓN DE OBLIGACIONES Y PLAZOS FATALES
-- **Cronograma de Entregables:** Se validan los plazos de 30 días (Diseñador), 240 días (Construcción), 330 días (Plan de Obras AT9) y 365 días (Estudios de Detalle).
-- **Procedimiento de Revisión (Sección 8.1):** Validación de la "Regla del Silencio" (30 días para objeción). Si no hay objeción, se entiende como "No Objetado".
+### 📉 1. VALIDACIÓN DE LA "TRAMPA DEL SILENCIO" (CLÁUSULA 8.1.g)
+Confirmo que la interpretación es literal según el contrato firmado:
+*   **Fuente PDF:** Sección 8.1(g): "se entenderá que HAY objeción (there IS objection)".
+*   **Impacto Real:** Construir con diseños objetados por silencio faculta a la ANI para rechazar la obra y negar el pago del Componente B (Inversión).
+*   **Estrategia:** El **"Tablero de Alerta Temprana (M-0)"** es obligatorio. Al Día 25, se debe radicar carta exigiendo pronunciamiento para evitar el bloqueo automático.
 
-### 🏗️ 2. REQUISITOS TÉCNICOS Y BIM (METODOLOGÍA PUNTO 42)
-- **BIM Mandatorio (ATB-F3):** Exigencia de Plan de Ejecución BIM (BEP) y modelos IFC coordinados. El incumplimiento del estándar BIM es causal de rechazo del diseño.
-- **Gestión de Modificaciones (Sección 9.3):** Procedimiento abreviado de 15 días para cambios post-aprobación.
+### ⏳ 2. VALIDACIÓN DE PLAZOS FATALES (RUTA CRÍTICA)
+| Hito | Análisis | Fuente PDF | Veredicto |
+| :--- | :--- | :--- | :--- |
+| **Acreditación Diseñador** | 30 Días | Sección 7.2(a) | ✅ Exacto |
+| **Plan de Obras** | Día 330 | Sección 9.4(a) | ✅ Exacto |
+| **Estudios de Detalle** | Día 365 | Sección 9.2(b) | ✅ Exacto |
 
-### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
+⚠️ **Alerta Adicional:** El Plan de Obras (Día 330) se debe entregar antes que los Estudios de Detalle finales (Día 365). Riesgo de replanificación si los diseños finales sufren cambios drásticos en el último mes.
 
-**Para el Director de Ingeniería:**
-1. **Prioridad BIM:** Asegurar que el subcontratista cumpla con estándares IFC y TDI.
-2. **Entregas Parciales:** Implementar entregas escalonadas por Unidad Funcional (UF) para evitar saturación de la Interventoría.
+### 🏗️ 3. BIM Y GESTIÓN DOCUMENTAL (EL FILTRO TÉCNICO)
+*   **Fundamento:** Anexo Técnico 1A exige **ISO 19650** y gestión en un **CDE (Common Data Environment)**.
+*   **Riesgo:** Entregar planos sin el flujo WIP -> COMPARTIDO -> PUBLICADO será causal de devolución inmediata por forma, sin revisión técnica.
 
-**Para el Gerente Contractual:**
-1. **Día 30:** Radicar acreditación del Diseñador antes del vencimiento.
-2. **Control de Correspondencia:** Activar alertas al día 29 de cada radicación para asumir "No Objeción" tácita.
+### 🚀 4. INSTRUCCIONES REFORZADAS AL EQUIPO
+1.  **Protocolo "Día 25":** Plantilla de oficio estándar exigiendo pronunciamiento expreso bajo Cláusula 8.1.
+2.  **Entregas Escalonadas:** Priorizar la **UF3 (Taller y CCO)** por su alta complejidad civil y tecnológica.
+3.  **Traza de Auditoría:** Cada radicado debe tener un reloj de cuenta regresiva. Al llegar a cero sin respuesta, se activa el escalamiento legal inmediato.
 
-**Para la Gerencia de Construcción:**
-1. **Plan de Obras (AT9):** Participar en su elaboración para incluir holguras por lluvias y paros (Riesgos AT2).
+### ✅ VEREDICTO FINAL
+**Estado:** **VALIDADO Y BLINDADO**. Documento de defensa correcto para la Fase de Preconstrucción.
 
-**VEREDICTO FINAL:** Guía de ejecución sólida y contractualmente vinculante.
-
-⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en la entrega de Estudios de Detalle al Mes 12 puede activar sanciones (Cap. XVI) y retrasar la retribución por disponibilidad. La Licencia Ambiental es Condición Precedente para iniciar obras.
+⚠️ **ADVERTENCIA LEGAL:** El incumplimiento en hitos de preconstrucción faculta a la ANI para declarar el incumplimiento y ejecutar la Garantía Única antes de iniciar obra física. La gestión proactiva del silencio es supervivencia contractual.
 
 ---
 
 ⚠️ **ADVERTENCIA LEGAL**
 > **📋 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.**
-
