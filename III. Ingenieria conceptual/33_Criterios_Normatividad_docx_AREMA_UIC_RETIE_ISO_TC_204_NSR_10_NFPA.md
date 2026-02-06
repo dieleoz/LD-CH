@@ -1,4 +1,4 @@
-﻿# CRITERIOS DE NORMATIVIDAD - ESTÁNDARES Y REGULACIONES
+﻿# CRITERIOS DE CIBERSEGURIDAD v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -7,14 +7,9 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha de actualización** | 27 de enero de 2025 |
-| **Proyecto** | APP La Dorada - Chiriguaná |
-| **Contrato** | Concesión No. 001 de 2025 |
-| **Responsable** | Administrador Contractual EPC |
-| **Tipo** | Documento de Sistema Integrado |
-| **Categoría** | Ingeniería Conceptual |
-| **Número** | 33 |
-| **Estado** | ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)** |
+| **Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -374,7 +369,7 @@ Cronograma de 31 días alineado con la Fase 4 de ingeniería conceptual
 ### GESTION DE RIESGOS
 
 | Riesgo | Probabilidad | Impacto | Mitigacion |
-|:---|:---:|:---:|:---|
+|:---|:---:|:---|:---|
 | Cambios en especificaciones | Media | Alto | Validacion continua con stakeholders |
 | Retrasos en implementacion | Media | Medio | Seguimiento de cronograma detallado |
 | Desviaciones tecnicas | Baja | Medio | Revisiones tecnicas periodicas |
@@ -429,7 +424,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Normatividad ↔ Instalaciones Eléctricas:** RETIE para sistemas eléctricos
 - **Normatividad ↔ Edificaciones:** NSR-10 para construcción
 - **Normatividad ↔ Sistemas Contra Incendio:** NFPA para seguridad
-- **Normatividad ↔ ITCS:** ETCS Level 2 como estándar hasta AT3
+- **Normatividad ↔ ITCS:** Estándar internacional hasta AT3
 - **Normatividad ↔ FENOCO:** Protocolos UIC para interoperabilidad
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA NORMATIVIDAD
@@ -455,11 +450,11 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Beneficio:** Evitar rediseños costosos en fase de construcción
    - **Implementación:** Cálculos estructurales según NSR-10 desde diseño
 
-4. **Normatividad ITCS ETCS Level 2:**
+4. **Normatividad ITCS:**
    - **Problema identificado:** ITCS requiere estándar internacional hasta AT3
-   - **Optimización EPC:** ETCS Level 2 como estándar de referencia
+   - **Optimización EPC:** Estándar internacional de referencia
    - **Beneficio:** Compatibilidad internacional y preparación para AT3
-   - **Implementación:** Especificaciones ETCS Level 2 en diseños
+   - **Implementación:** Especificaciones de estándar internacional en diseños
 
 5. **Interoperabilidad FENOCO UIC:**
    - **Problema identificado:** Sistemas requieren compatibilidad con FENOCO
@@ -555,16 +550,16 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS ETCS Level 2:** Estrategia de avance especificada hasta AT3 para normatividad ITCS
+1. **🚂 ITCS:** Estrategia de avance especificada hasta AT3 para normatividad ITCS
 2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para compatibilidad con FENOCO
-3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para sistemas críticos
+3. **📊 Criterios de Disponibilidad AT4:** 99.5% especificado para sistemas críticos
 4. **🎯 Optimizaciones EPC:** Actualizadas con criterios ITCS, FENOCO y AT4
 5. **📋 CORRECCIÓN AREMA:** Referencias contractuales exactas con líneas específicas del contrato
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** ETCS Level 2 especificado como estándar hasta AT3
+- ✅ **ITCS:** Estándar internacional especificado como estándar hasta AT3
 - ✅ **FENOCO:** Protocolos UIC para interoperabilidad con FENOCO
-- ✅ **AT4:** Criterios de disponibilidad 99.95% para sistemas críticos
+- ✅ **AT4:** Criterios de disponibilidad 99.5% para sistemas críticos
 - ✅ **Interfaces:** Especificación de interfaces ITCS y FENOCO
 - ✅ **AREMA:** Referencias contractuales exactas con líneas específicas del contrato
 

@@ -1,4 +1,8 @@
-# ITCS — Interfaces CTC–ITCS FFFIS (Especificación v1.0)
+# ITCS —# ESTUDIO DE REFERENCIA - INTERFACES CTC-ITCS (REFERENCIA TÉCNICA NO PRESCRIPTIVA)
+## APP La Dorada - Chiriguaná
+
+**Versión:** 1.0 (Phase 7 - Archivo de Referencia)  
+**Estado:** ⚠️ **ESTUDIO DE BENCHMARKING (NO PRESCRIPTIVO)**
 
 - Versión: 1.0
 - Fecha: 02/10/2025

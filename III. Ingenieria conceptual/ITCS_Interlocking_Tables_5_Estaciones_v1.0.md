@@ -4,6 +4,11 @@
 - Fecha: 02/10/2025
 - Sistema: Tablas de enclavamiento para 5 estaciones
 - Referencias: EN 50126/50128/50129, ETCS Level 2, CENELEC
+# ESTUDIO DE REFERENCIA - TABLAS DE ENCLAVAMIENTO (REFERENCIA TÉCNICA NO PRESCRIPTIVA)
+## APP La Dorada - Chiriguaná
+
+**Versión:** 1.0 (Phase 7 - Archivo de Referencia)  
+**Estado:** ⚠️ **ESTUDIO DE BENCHMARKING (NO PRESCRIPTIVO)**
 
 ---
 

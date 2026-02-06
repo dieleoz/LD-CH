@@ -4,6 +4,11 @@
 - Fecha: 02/10/2025
 - Sistema: ITCS (ETCS Level 2)
 - Referencias: EN 50126/50128/50129, IEC 62290, FFFIS CTC–ITCS
+# ESTUDIO DE REFERENCIA - ÍNDICE SRS (REFERENCIA TÉCNICA NO PRESCRIPTIVA)
+## APP La Dorada - Chiriguaná
+
+**Versión:** 1.0 (Phase 7 - Archivo de Referencia)  
+**Estado:** ⚠️ **ESTUDIO DE BENCHMARKING (NO PRESCRIPTIVO)**
 
 ---
 

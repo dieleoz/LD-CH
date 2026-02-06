@@ -1,6 +1,9 @@
-﻿﻿# SISTEMA CCTV INTEGRADO - MONITOREO Y SEGURIDAD
+﻿﻿# MATERIAL RODANTE INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
-**ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
 ---
 
 ## 1. MARCO CONTRACTUAL
@@ -9,7 +12,7 @@
 El Sistema de Circuito Cerrado de Televisión (CCTV) es un componente clave para la seguridad operativa y comunitaria. Su diseño conceptual integra requisitos de:
 - **AT1 (Alcance):** Define la necesidad de CCTV en el CCO (UF2, Tabla 16) y en los talleres (UF1, Tablas 12-15).
 - **AT3 (Especificaciones):** Detalla los requisitos técnicos para el sistema CCTV, incluyendo el cumplimiento de normas UNE-EN 50132 y ONVIF (Cap. 6.12, 8.8).
-- **AT4 (Indicadores):** Exige el monitoreo del indicador "Cerramiento y CCTV", con una disponibilidad del 100% (Cap. 4).
+- **AT4 (Indicadores):** Define el indicador "Cerramiento y CCTV", con disponibilidad según AT4 (99.5% contractual).
 - **AT8 (Gestión Social):** Requiere que la videovigilancia respete la privacidad y los derechos fundamentales, y se coordine con los programas de atención al usuario (Cap. 7.4).
 
 ---
@@ -52,8 +55,7 @@ El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de 
 - **CCTV ↔ Gestión Social (AT8):** El diseño del plan de cobertura debe ser consultado con las comunidades para respetar la privacidad y potenciar la seguridad comunitaria.
 - **CCTV ↔ SICC (AT4):** El sistema debe reportar su estado de funcionamiento para el cálculo del indicador "Cerramiento y CCTV".
 - **CCTV ↔ Control de Accesos:** Integración para la verificación visual de eventos de acceso en áreas críticas.
-- **CCTV ↔ ITCS:** Monitoreo visual de sistemas de control embarcados usando ETCS Level 2 hasta AT3.
-- **CCTV ↔ FENOCO:** Coordinación con sistemas de videovigilancia FENOCO según protocolos UIC.
+- **CCTV ↔ Sistemas de Control:** Monitoreo visual de sistemas operativos según requerimiento técnico.
 
 ---
 
@@ -80,7 +82,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 
 | Requisito Contractual | Fuente | Funcionalidad CCTV Asociada | Estado AT3/AT4 |
 |---|---|---|:---:|
-| **Seguridad en CCO y Talleres** | AT1, Tablas 12-16 | Implementación de cámaras perimetrales, de control de acceso y de supervisión de procesos en UF1 y UF2.<br>- **Disponibilidad 100% según AT4** | ✅ Definido |
+| **Seguridad en CCO y Talleres** | AT1, Tablas 12-16 | Implementación de cámaras perimetrales, de control de acceso y de supervisión de procesos en UF1 y UF2.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 | **Normas Técnicas (UNE-EN, ONVIF)** | AT3, Cap. 6.12 | Selección de cámaras, VMS y NVR que cumplan con los estándares de interoperabilidad y calidad de video. | ⚠️ Condicionado |
 | **Indicador "Cerramento y CCTV"** | AT4, Cap. 4 | El sistema debe reportar su estado al SICC. Los objetivos de disponibilidad se alinearán con los requisitos de continuidad del servicio ferroviario. | 🔍 En Diseño |
 | **Privacidad y Derechos Fundamentales** | AT8, Cap. 7 | Diseño de la cobertura en consulta con la comunidad y creación de un protocolo de uso de datos. | ✅ Definido |
@@ -95,16 +97,16 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 
 ## 5. CONCLUSIONES Y PRÓXIMOS PASOS
 
-### 5.1 Estado del Documento v4.0
-Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan conceptual integrado para el Sistema CCTV**. Define una arquitectura por zonas, integra los requisitos técnicos (AT1, AT3) con los sociales (AT8) y de desempeño (AT4), y establece una estrategia clara para mitigar los riesgos derivados de los bloqueos documentales.
+### 5.1 Estado del Documento v7.0
+Este documento ha sido actualizado a la versión 7.0, estableciendo un **plan conceptual integrado para el Sistema CCTV**. Define una arquitectura por zonas, integra los requisitos técnicos (AT1, AT3) con los sociales (AT8) y de desempeño (AT4), y establece una estrategia clara para mitigar los riesgos derivados de los bloqueos documentales.
 
-### 5.2 Acciones Requeridas para Mantener v4.0
+### 5.2 Acciones Requeridas para Mantener v7.0
 - **Ejecución de Talleres Sociales:** Iniciar la coordinación con el equipo de Gestión Social para planificar los talleres de diseño participativo.
 - **Validación de Arquitectura:** El equipo de ingeniería debe validar la arquitectura de red y los requisitos de ancho de banda con el equipo de telecomunicaciones.
 
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
-- **Desbloquear el Paquete de Trabajo 4.0 (Material Rodante):** Al definir los sistemas de seguridad que podrían integrarse en el material rodante.
+- **Cláusula 13.1 (Material Rodante):** Exige que el material rodante cuente con el equipamiento técnico necesario para la operación y seguridad.
 - **Iniciar el Diseño Básico del CCTV:** Incluyendo la elaboración de los planos de ubicación de cámaras y el diseño del centro de monitoreo en el CCO.
 - **Avanzar en el Plan de Obras (AT9):** Detallar el cronograma de instalación de cámaras y canalizaciones.
 

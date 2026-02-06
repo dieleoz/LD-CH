@@ -1,11 +1,10 @@
-# LISTADO MAESTRO DE SISTEMAS v5.0 - CONSOLIDADO AT1-AT10
+# LISTADO MAESTRO DE SISTEMAS v7.0 - PHASE 7 RE-LINEACIÓN
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** 23 - Listado Maestro de Sistemas  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**  
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**  
+**Responsable:** Administrador Contractual EPC  
 
 ---
 
@@ -87,19 +86,10 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 ### 2.2 Desalineaciones Detectadas
 **✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
 
-### 2.3 Componentes a Eliminar
-**✅ YA ELIMINADOS EN v4.0:**
-- ❌ Eurobalises: 1,080 → 0 unidades
-- ❌ Señales LED vía: 270 → 0 unidades  
-- ❌ RBC: 2 → 0 unidades
-- ❌ LEU: 1,080 → 0 unidades
-
-### 2.4 Componentes a Agregar
-**✅ YA AGREGADOS EN v4.0:**
-- ✅ GSM-R: 37 estaciones
-- ✅ EOT: 15 dispositivos
-- ✅ ENCE: 5 estaciones
-- ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
+### 2.3 Componentes en Revisión (Legacy v5.0)
+**⚠️ BAJO AUDITORÍA PARA ELIMINACIÓN/RE-POSICIONAMIENTO:**
+- Eurobalises, RBC, señales LED (ya eliminados por exceso prescriptivo).
+- GSM-R, EOT, ENCE: Sujeto a validación literal contra AT1-AT3. No heredar como diseño base si no es obligatorio.
 
 ### 2.5 Propagación Requerida
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
@@ -532,14 +522,15 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ---
 
-**Estado del documento:** ✅ Completado - Enero 2025  
-**Versión:** 5.0 - Coherencia Técnica Verificada ⭐  
-**Responsable:** Administrador Contractual EPC  
-**Próxima actualización:** Según completitud de documentos dependientes
-
 ---
 
-**Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
+## 🔄 **ACTUALIZACIÓN v7.0 - PHASE 7**
+### ✅ **RE-LINEACIÓN EJECUTADA:**
+1. **Reset Global:** Revisión de todos los sistemas contra AT1 literal.
+2. **KPI Correction:** Reversión de 99.95% a **99.5%** contractual.
+3. **Descontaminación:** Eliminación de "Criterios Maestros v1.0" por ser fuente de invenciones técnicas. 
+
+**Estado:** ⚠️ DOCUMENTO EN RE-LINEACIÓN - NO USAR PARA COMPRAS.
 
 **Próximo paso:** Actualizar 25.1_WBS_COMPLETA_ESPECIALIDADES.md (Capa 1 - Documentos base)
 

@@ -1,11 +1,9 @@
-# SISTEMA TETRA INTEGRADO v5.0 - COMUNICACIONES DE MISIÓN CRÍTICA
+# SISTEMA DE FIBRA ÓPTICA INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** 27 - Sistema TETRA Integrado  
-**Estado:** ⚠️ **EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -50,10 +48,10 @@ Este documento presenta la **Estrategia de Comunicaciones Críticas (Radio)**. D
 El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseño conceptual integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
 
 - **AT1 (Alcance):** Define la necesidad de un "Sistema Base Troncal" y "Torres de telecomunicaciones" para garantizar la comunicación (Cap. I, Num. 1.3).
-- **AT2 (Operación):** Establece la obligación de mantener comunicaciones ferroviarias 24/7 y la interoperabilidad con FENOCO (Cap. 3.2.2).
+- **Fibra Óptica ↔ Sistemas de Control:** Backbone para comunicación con sistemas de protección de trenes según requisitos de AT3.
 - **AT3 (Especificaciones):** Detalla los requisitos técnicos para el sistema de radio TETRA, incluyendo el cumplimiento de normas ETSI (Cap. 8.5).
 - **AT7 (Gestión Predial):** Define la necesidad de adquirir predios para la instalación de las torres de comunicaciones (Cap. 3.1).
-- **Cláusula 13.1 (Material Rodante):** Exige que las locomotoras estén equipadas con radios TETRA embarcados.
+- **Cláusula 13.1 (Material Rodante):** Exige que el material rodante cuente con los sistemas de comunicación necesarios para la operación segura.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS
 **Documentos Base (Completados ✅):**
@@ -108,7 +106,7 @@ Se eliminan las referencias a "37 estaciones" como valor contractual. Este núme
 - **TETRA ↔ Gestión Predial (AT7):** El estudio de cobertura define la ubicación de las torres, lo que activa el proceso de adquisición de predios.
 - **TETRA ↔ ANE (Agencia Nacional del Espectro):** Se requiere la gestión de permisos para el uso de frecuencias y la instalación de las estaciones base.
 - **TETRA ↔ Material Rodante:** Los equipos de radio embarcados deben ser compatibles y estar integrados con la red.
-- **TETRA ↔ ITCS:** Interfaz para comunicación con sistemas de control embarcados usando ETCS Level 2 hasta AT3.
+- **TETRA ↔ Sistemas de Control:** Interfaz para comunicación con sistemas de protección de trenes según requisitos de AT3.
 
 ---
 
@@ -471,7 +469,7 @@ El dimensionamiento final de la red de radio se cerrará tras:
 ### **Operacionales**
 - Capacidad de transporte según contrato
 - Niveles de servicio establecidos
-- Disponibilidad operacional 99.95%
+- Disponibilidad operacional 99.5%
 
 ### **Comerciales**
 - Puesta en operación en tiempo

@@ -1,4 +1,4 @@
-﻿# RELACIÓN DE APÉNDICES TÉCNICOS CON INGENIERÍA
+﻿# RELACIÓN DE APÉNDICES TÉCNICOS CON INGENIERÍA v7.0
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -53,7 +53,7 @@ Capítulo / Numeral
 Cap. V, 5.2
 
 5.3 Material rodante de factor de calidad
-Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (ITCS ETCS Level 2), disponibilidad 99.95% según AT4.
+Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (ITCS ETCS Level 2), disponibilidad 99.5% según AT4.
 Cap. V, 5.3
 
 7.2 Obligaciones etapa preoperativa
@@ -95,7 +95,7 @@ Capítulo / Numeral
 Cap. II, 2.5
 
 3.1.1 Continuidad del servicio
-Requiere infraestructura de respaldo (redundancia eléctrica y de telecomunicaciones), disponibilidad 99.95% según AT4.
+Requiere infraestructura de respaldo (redundancia eléctrica y de telecomunicaciones), disponibilidad 99.5% según AT4.
 Cap. III, 3.1.1
 
 3.1.2 Seguridad en la vía férrea y material rodante
@@ -716,10 +716,10 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: ✅ Completado - 27 de enero de 2025  
-Version: 4.1  
+Estado del documento: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)
+Version: 7.0  
 Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27 de febrero de 2025
+Proxima actualizacion: Febrero 2026
 
 ---
 

@@ -1,11 +1,9 @@
-# MATERIAL RODANTE INTEGRADO v5.0 - EQUIPOS EMBARCADOS Y PUESTA A PUNTO
+# SISTEMA ITS INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** Enero 2025  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** 32 - Material Rodante Integrado  
-**Estado:** ✅ **CORRECCIÓN DOCUMENTAL MASIVA COMPLETADA - COHERENCIA TÉCNICA VERIFICADA**
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**
 
 ---
 
@@ -49,7 +47,7 @@ Este documento presenta el **Material Rodante Integrado v5.0** que establece la 
 ### 1.1 Base Legal
 El diseño conceptual del Material Rodante y sus sistemas embarcados integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
 
-- **Cláusula 13.1 (Material Rodante):** Exige que el material rodante cuente con el equipamiento técnico embarcado (ITCS, TETRA, GPS) necesario para la interoperabilidad.
+- **Cláusula 13.1 (Material Rodante):** Requisitos de equipamiento técnico para la seguridad y operación ferroviaria.
 - **AT1 (Alcance):** Define el tipo de material rodante (locomotoras U18 o equivalentes), la maquinaria de mantenimiento y el Factor de Calidad asociado (Cap. V).
 - **AT2 (Operación y Mantenimiento):** Establece los requisitos de seguridad, el Reglamento de Operación (ROT) y los planes de mantenimiento en talleres (Cap. III, VI).
 - **AT4 (Indicadores):** Define los indicadores de disponibilidad para el material rodante y los equipos embarcados.
@@ -134,7 +132,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 - **20. AT10_CapacidadSurcos.md** ⏳ (Simulación de capacidad)
 
 ### 3.3 Interfaces Críticas
-- **Material Rodante ↔ ITCS:** Interfaz para el control positivo de trenes usando ETCS Level 2 hasta AT3.
+- **Material Rodante ↔ Sistemas de Control:** Interfaz para el control de trenes según el estándar técnico de AT3 (estudio de referencia: ITCS/ETCS).
 - **Material Rodante ↔ TETRA:** Interfaz para comunicaciones de voz y datos de misión crítica.
 - **Material Rodante ↔ GSM-R:** Interfaz para comunicaciones redundantes.
 - **Material Rodante ↔ EOT:** Interfaz para sistema End of Train Device.
@@ -226,7 +224,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 - Unidad de Control a Bordo (OBC)
 - Interfaz de Maquinista (DMI)
 - ATP embarcado
-- Disponibilidad 99.95% según AT4
+- Disponibilidad 99.5% según AT4
 
 #### **4.3.2 Estrategia de "Puesta a Punto" por Fases**
 **Fase 1 - Diagnóstico (Mes 1-2):**
@@ -241,10 +239,8 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 
 **Fase 3 - Integración de Sistemas (Mes 10-11):**
 - Instalación del "Módulo Base"
-- Preparación para el "Módulo ITCS"
-- Integración de sistemas embarcados
-
-**Fase 4 - Pruebas y Certificación (Mes 12):**
+- Preparación para el- **ITS ↔ Sistemas de Control:** Integración con datos de sistemas de protección de trenes según requisitos de AT3.
+Pruebas y Certificación (Mes 12):**
 - Pruebas estáticas y dinámicas
 - Certificación de cumplimiento
 - Validación de sistemas
@@ -329,7 +325,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 | Requisito Contractual | Fuente | Funcionalidad Asociada | Estado |
 |:---|:---|:---|:---:|
 | **Locomotoras U18 o Equivalentes** | AT1, Cap. 5.1 | Puesta a Punto de locomotoras existentes, incluyendo motor, chasis y sistemas de frenado AAR. | ✅ Definido |
-| **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GSM-R, GPS, Event Recorder) y preparación para el "Módulo ITCS".<br>- **ITCS ETCS Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ✅ Definido |
+| **Equipamie| **Información al Usuario** | AT3, Cap. 6.2 | Desarrollo de paneles de mensaje variable (PMV), aplicación móvil y portal web con información en tiempo real. | ✅ Definido |
 | **Sistema EOT (End of Train Device)** | Criterios Maestros | Instalación de 15 dispositivos EOT para monitoreo de cola del tren e integridad.<br>- **Integración con ATP embarcado**<br>- **Comunicación con sistemas embarcados** | ✅ Definido |
 | **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseño modular del ITCS debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos UIC para interoperabilidad** | ✅ Definido |
 | **Seguridad en Operación** | AT2, Cap. 3.1.2 | Integración de sistemas de seguridad, como el "hombre muerto" y alarmas de cabina. | ✅ Definido |
@@ -410,7 +406,7 @@ El diseño conceptual del Material Rodante y sus sistemas embarcados integra req
 ### **Operacionales**
 - Capacidad de transporte según contrato
 - Niveles de servicio establecidos
-- Disponibilidad operacional 99.95%
+- Disponibilidad operacional 99.5%
 
 ### **Comerciales**
 - Puesta en operación en tiempo

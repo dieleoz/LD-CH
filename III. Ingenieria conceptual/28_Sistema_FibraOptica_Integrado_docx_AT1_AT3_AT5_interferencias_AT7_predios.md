@@ -1,4 +1,4 @@
-﻿﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO - BACKBONE DE COMUNICACIONES
+﻿﻿# SISTEMA DE FIBRA ÓPTICA INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 **ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
@@ -80,7 +80,7 @@ El diseño de los sistemas de telecomunicaciones y control no puede finalizarse 
 
 ### 3.1 Arquitectura de Red para Proyectos EPC
 Se propone una arquitectura de fibra óptica que garantiza la máxima disponibilidad y resiliencia, minimizando los riesgos operativos para el contratista EPC:
-- **Topología de Doble Anillo con Diversidad Geográfica:** Se instalarán dos anillos de fibra independientes a lo largo del corredor. Siempre que sea posible, seguirán rutas geográficamente diversas (ej. un anillo por cada lado de la vía férrea) para evitar que un único evento (ej. un derrumbe) afecte ambos enlaces y garantizar disponibilidad 99.9% según AT4.
+- **Topología de Doble Anillo con Diversidad Geográfica:** Se instalarán dos anillos de fibra independientes a lo largo del corredor. Siempre que sea posible, seguirán rutas geográficamente diversas (ej. un anillo por cada lado de la vía férrea) para evitar que un único evento (ej. un derrumbe) afecte ambos enlaces y garantizar disponibilidad 99.5% según AT4.
 - **Tecnología DWDM (Dense Wavelength Division Multiplexing):** Para maximizar la capacidad del cable de fibra, se utilizará tecnología DWDM. Esto permite transmitir múltiples canales de 10 Gbps o 100 Gbps sobre un único par de hilos, asegurando la escalabilidad futura sin necesidad de tender más cable.
 - **Canalización Robusta:** Se utilizarán ductos de PEAD (Polietileno de Alta Densidad) de 110 mm, con una profundidad mínima de 1.8 metros en cruces críticos, para proteger el cable contra daños mecánicos y sabotajes.
 
@@ -131,10 +131,10 @@ La aprobación de este documento conceptual permite:
 
 ---
 
-**Estado del documento:** ✅ Completado - 27 de enero de 2025
-**Versión:** 4.1
-**Responsable:** Administrador Contractual EPC
-**Próxima actualización:** 27 de febrero de 2025
+**Estado del documento: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)
+Versión: 7.0
+Responsable: Administrador Contractual EPC
+Próxima actualización: Febrero 2026
 
 ---
 

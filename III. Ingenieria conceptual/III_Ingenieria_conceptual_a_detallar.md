@@ -1,4 +1,4 @@
-﻿# INGENIERÍA CONCEPTUAL - DOCUMENTOS A DETALLAR
+﻿# INGENIERÍA CONCEPTUAL - DOCUMENTOS A DETALLAR v7.0
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -96,7 +96,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: Convertido - 17/09/2025  
-Version: 1.0  
+Estado del documento: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)
+Version: 7.0  
 Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 17/10/2025
+Proxima actualizacion: Febrero 2026

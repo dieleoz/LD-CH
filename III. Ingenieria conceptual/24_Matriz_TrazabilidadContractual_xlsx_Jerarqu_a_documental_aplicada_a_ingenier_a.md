@@ -1,4 +1,4 @@
-﻿# MATRIZ DE TRAZABILIDAD CONTRACTUAL - JERARQUÍA DOCUMENTAL
+﻿# MATRIZ DE TRAZABILIDAD CONTRACTUAL v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -50,7 +50,7 @@ A. Sistemas de Señalización y Control
 Centro de Control de Tráfico (CTC)
 Referencias: AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma).
 Funciones: control centralizado, asignación de surcos, coordinación con FENOCO.
-Disponibilidad: 99.95% según AT4.
+Disponibilidad: 99.5% según AT4.
 Interoperabilidad: Protocolos UIC para coordinación con FENOCO.
 Señalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
@@ -58,7 +58,7 @@ Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
 Sistema ITCS/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
 Funciones: seguridad tren-tierra, control automático de trenes (ETCS Level 2 hasta AT3).
-Disponibilidad: 99.95% según AT4.
+Disponibilidad: 99.5% según AT4.
 Interoperabilidad: Compatible con sistemas FENOCO según estándares UIC.
 
 B. Sistemas de Telecomunicaciones
@@ -106,7 +106,7 @@ E. Material Rodante y Equipos
 Locomotoras con ITCS Embarcado
 Referencias: AT1 (Cap. 5.1), Cl. 13.1 del Contrato.
 Funciones: transporte de carga bajo estándares de seguridad.
-Disponibilidad: 99.95% según AT4.
+Disponibilidad: 99.5% según AT4.
 Interoperabilidad: ITCS ETCS Level 2 compatible con FENOCO.
 Equipos de Mantenimiento de Vía
 Referencias: AT1 (Cap. 5.2).
@@ -125,13 +125,13 @@ Requiere definición de interfaces en la Ingeniería Básica.
 
 | **Sistema** | **Referencia Contractual** | **Apéndice Técnico** | **Disponibilidad AT4** | **Interoperabilidad FENOCO** | **ITCS** |
 |:---|:---|:---|:---:|:---:|:---:|
-| **CTC** | Cl. 8.1, 8.2, 9.1 | AT1, AT2, AT3, AT4, AT9 | 99.95% | Protocolos UIC | - |
-| **ITCS** | Cl. 13.1 | AT1, AT3 | 99.95% | ETCS Level 2 | ✅ |
+| **CTC** | Cl. 8.1, 8.2, 9.1 | AT1, AT2, AT3, AT4, AT9 | 99.5% | Protocolos UIC | - |
+| **ITCS** | Cl. 13.1 | AT1, AT3 | 99.5% | ETCS Level 2 | ✅ |
 | **TETRA** | Cl. 8.1, 8.2 | AT2, AT3, AT7 | 99.5% | Frecuencias UIC | - |
-| **Fibra Óptica** | Cl. 8.1, 8.2 | AT3, AT5, AT7 | 99.95% | Estándares UIC | - |
+| **Fibra Óptica** | Cl. 8.1, 8.2 | AT3, AT5, AT7 | 99.5% | Estándares UIC | - |
 | **CCTV** | Cl. 8.1, 8.2 | AT2, AT3 | 99.5% | Protocolos UIC | - |
 | **ITS** | Cl. 8.1, 8.2 | AT3, AT4 | 99.5% | Estándares UIC | - |
-| **Material Rodante** | Cl. 13.1 | AT1, AT3 | 99.95% | ITCS ETCS Level 2 | ✅ |
+| **Material Rodante** | Cl. 13.1 | AT1, AT3 | 99.5% | ITCS ETCS Level 2 | ✅ |
 
 4. Próximos pasos
 Validar trazabilidad contractual de cada sistema en la Matriz_TrazabilidadContractual.xlsx.
@@ -192,10 +192,10 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: ✅ Completado - 27 de enero de 2025  
-Version: 4.1  
+Estado del documento: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)
+Version: 7.0  
 Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27 de febrero de 2025
+Proxima actualizacion: Febrero 2026
 
 ---
 

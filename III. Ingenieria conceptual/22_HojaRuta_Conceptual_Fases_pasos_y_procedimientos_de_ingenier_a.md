@@ -1,4 +1,4 @@
-﻿# HOJA DE RUTA CONCEPTUAL - FASES Y PROCEDIMIENTOS
+﻿# HOJA DE RUTA CONCEPTUAL v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -84,7 +84,7 @@ Criterios:
 Normatividad Nacional: NSR-10, RETIE, RETILAP, NTC-2050.
 Normatividad Internacional: AREMA, UIC, ISO TC-204, IEC, IEEE.
 Interoperabilidad con FENOCO: ITCS (ETCS Level 2), CTC (protocolos UIC), TETRA (frecuencias UIC), señalización (estándares UIC).
-Redundancia y Disponibilidad: comunicaciones, energía, CCO espejo, SICC, criterios AT4 (99.95% sistemas críticos).
+Redundancia y Disponibilidad: comunicaciones, energía, CCO espejo, SICC, criterios AT4 (99.5% sistemas críticos).
 Ciberseguridad: segmentación de redes, autenticación, monitoreo, respaldo.
 Entregables:
 Criterios_Normatividad.docx
@@ -174,10 +174,10 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: ✅ Completado - 27 de enero de 2025  
-Version: 4.1  
+Estado del documento: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)
+Version: 7.0  
 Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27 de febrero de 2025
+Proxima actualizacion: Febrero 2026
 
 ---
 
@@ -202,7 +202,7 @@ Proxima actualizacion: 27 de febrero de 2025
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-010** | **Dependencia AT3 en fases** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, fases pueden extenderse |
 | **R-011** | **Coordinación FENOCO en fase 4** | **Técnico** | **Media** | **Alto** | Tiempo adicional requerido para interoperabilidad UIC |
-| **R-012** | **Disponibilidad 99.95% en fase 4** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
+| **R-012** | **Disponibilidad 99.5% en fase 4** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-013** | **38 documentos en 120 días** | **Gestión** | **Media** | **Medio** | Densidad alta de entregables puede generar retrasos |
 | **R-014** | **Interfaces entre sistemas en fase 5** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA-FENOCO |
 

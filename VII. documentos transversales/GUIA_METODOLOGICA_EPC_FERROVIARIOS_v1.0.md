@@ -22,21 +22,25 @@ Esta guía te permitirá:
 
 ## 📚 SECCIÓN 1: MARCO DE TRABAJO
 
-### 1.1 Conceptos Fundamentales
+### 1.1 Filosofía "Contract-First"
+La estructuración no es solo documentación; es un **Sistema de Defensa Contractual**. 
+> "El Contrato es la constitución. La Ingeniería es la ley. El Código es la ejecución."
 
 **¿Qué estás construyendo?**
-
+```mermaid
+graph TD
+    L1[NIVEL 1: CONTRATO] -->|Define Reglas| L2[NIVEL 2: INGENIERÍA]
+    L2 -->|T05 define Precios| L3[NIVEL 3: VALIDACIÓN]
+    L3 -->|Scripts sync_wbs| L4[NIVEL 4: VISUALIZACIÓN]
+    L2 -->|Scripts cocinar_*| L5[NIVEL 5: ENTREGABLES]
 ```
-ENTRADA: Contrato de Concesión + Apéndices Técnicos
-    ↓
-PROCESO: Metodología de Estructuración (este documento)
-    ↓
-SALIDA: Sistema documental operativo (Carpeta IX)
-```
 
-**Dos productos paralelos:**
-- **PRODUCTO PRIMARIO:** Documentación técnica del Proyecto 1 (I-VII → IX)
-- **PRODUCTO SECUNDARIO:** Guía Metodológica replicable (para Proyectos 2-3)
+**Arquitectura de 5 Capas (Data Pipeline):**
+1. **CAPA 1: CONTRATO (Inmutable):** Apéndices Técnicos (AT1-AT4). La verdad legal.
+2. **CAPA 2: INGENIERÍA (T01-T05):** De la Ficha al Precio. La verdad técnica.
+3. **CAPA 3: VALIDACIÓN:** Scripts y transformaciones JSON. La verdad del dato.
+4. **CAPA 4: VISUALIZACIÓN:** Interfaces Web / Dashboards. La verdad visual.
+5. **CAPA 5: SERVICIOS:** RFQs, Ejecutivos y entregables finales. El producto servido.
 
 ### 1.2 Principios Rectores
 
@@ -156,41 +160,50 @@ mkdir -p METODOLOGIA/{Guia,Templates,Lecciones,Checklists}
 
 ## 📋 SECCIÓN 3: METODOLOGÍA PUNTO 42 APLICADA
 
-### 3.1 Los 5 Pilares de la Metodología Punto 42
+### 3.1 Los 5 Pilares Evolucionados (Phase 7)
 
-#### 1️⃣ ANÁLISIS EXHAUSTIVO
-- Comparación rigurosa contra Contrato + Apéndices
-- Traducción requisitos contractuales → soluciones técnicas
-- Evaluación de opciones tecnológicas
+#### 1️⃣ INGENIERÍA DEFENSIVA (T04)
+- **"Una especificación sin causales de rechazo es solo una sugerencia."**
+- Cada parámetro técnico debe citar su Fuente de Obligación (Manual, Norma, Contrato).
 
-#### 2️⃣ IDENTIFICACIÓN DE BRECHAS
-- Detección de vacíos, inconsistencias, información faltante
-- Documentar indefiniciones con estrategia de avance
-- Identificar conflictos entre documentos
+#### 2️⃣ COHERENCIA NARRATIVA (Anti-Ghost Data)
+- Validación cruzada para eliminar contradicciones entre texto descriptivo y tablas de cantidades (T05).
+- El dato manda sobre el relato.
 
-#### 3️⃣ ESTANDARIZACIÓN
-- Formato profesional y uniforme
-- Nomenclatura consistente
-- Templates validados
+#### 3️⃣ SMART CAPEX OPTIMIZATION
+- **Zero Infrastructure:** Priorizar infraestructura propia.
+- **Zero Civil Works:** Preferir soluciones inalámbricas/superficiales.
+- **Unified Services:** Eliminar redundancias de integración.
 
-#### 4️⃣ CONTROL DE VERSIONES
-- Sistema de versionado claro
-- Tracking de cambios
-- Historial documentado
+#### 4️⃣ TRAZABILIDAD DINÁMICA
+- Cada ítem del WBS debe nacer en un T05 y visualizarse en el Dashboard.
+- Sincronización automática vía scripts (Layer 3).
 
-#### 5️⃣ TRAZABILIDAD
-- Mapeo y validación de dependencias
-- Cada requisito vinculado a fuente
-- Referencias cruzadas validadas
+#### 5️⃣ NEUTRALIDAD TÉCNICA
+- Especificaciones basadas en desempeño y cumplimiento contractual, no en marcas o tecnologías prescriptivas no acordadas.
 
 ### 3.2 Checklist de Validación Punto 42
 
-**CHECKLIST GENERAL:**
-- [ ] **Análisis Exhaustivo:** Documento analiza TODAS las fuentes relevantes
-- [ ] **Identificación de Brechas:** Indefiniciones documentadas con estrategia
-- [ ] **Estandarización:** Formato uniforme y profesional
-- [ ] **Control de Versiones:** Versión y fecha claramente identificadas
-- [ ] **Trazabilidad:** Cada requisito vinculado a fuente contractual
+**CHECKLIST GENERAL PARA CIERRE DE SISTEMA (PHASE 7):**
+- [ ] **Análisis Contractual (L1):** ¿El diseño es neutral o prescribe tecnologías no pactadas?
+- [ ] **Trazabilidad L1-L2:** ¿Cada parámetro de la Spec (T04) cita una cláusula del Contrato (AT)?
+- [ ] **Ingeniería Defensiva (T04):** ¿Contiene cláusulas de rechazo explícitas ante incumplimiento?
+- [ ] **Coherencia Narrativa:** ¿El relato del T01 coincide exactamente con las cantidades del T05?
+- [ ] **Hard Deck Check (L3):** ¿Los valores del T05 están sincronizados con el Dashboard Web?
+- [ ] **Smart CAPEX:** ¿Se agotaron las opciones de "Zero Civil Works" antes de proponer canalizaciones?
+
+---
+
+## 📋 SECCIÓN 3.3: PROTOCOLO DE VALIDACIÓN AGENTE 3 (CROSS-CHECK)
+
+Para certificar el despliegue a producción (Layer 4/5), se debe ejecutar una **Validación Cruzada de Coherencia**:
+
+1. **Coherencia de Arquitectura:** Verificar que README, Roadmap y Metodología mencionen "5 Capas".
+2. **Coherencia de Datos Hard Deck:** Verificar que los valores en T05 coincidan exactamente con el Dashboard Web y el Índice Maestro.
+3. **Coherencia Narrativa:** Escanear secciones manuales para eliminar "Ghost Data" (datos fantasmas en el texto que contradicen las tablas).
+4. **Criterio de Aprobación:** 
+   - ✅ **APROBADO:** Todos los valores coinciden entre documentos.
+   - ❌ **RECHAZADO:** Cualquier discrepancia bloquea el cierre del sistema.
 
 ---
 
@@ -199,106 +212,57 @@ mkdir -p METODOLOGIA/{Guia,Templates,Lecciones,Checklists}
 ### 4.1 Template: Ficha de Sistema
 
 ```markdown
-# FICHA DE SISTEMA: [NOMBRE DEL SISTEMA]
+# [CÓDIGO WBS] T01 - FICHA DE SISTEMA: [NOMBRE]
 
 ## 1. IDENTIFICACIÓN
-- **Código WBS:** [ej: 1.1.1]
-- **Nombre completo:** [ej: Control de Tráfico Centralizado]
-- **Sigla:** [ej: CTC]
-- **Categoría:** [Control, Telecomunicaciones, ITS, etc.]
+- **Código WBS:** [ej: 2.1.1]
+- **Categoría:** [Sistemas / Infraestructura / Gestión]
+- **Estado:** [Propuesta Técnica / Estudio de Referencia / En Re-lineación]
 
-## 2. REFERENCIAS CONTRACTUALES
-| Documento | Capítulo/Cláusula | Página | Contenido |
-|:----------|:------------------|:-------|:----------|
-| Contrato  | Cap. 5.2         | 45     | Obligación de implementar CTC |
-| AT4       | Cap. 3.1         | 12-18  | Especificaciones técnicas CTC |
+## 2. REFERENCIAS CONTRACTUALES (FUENTES DE VERDAD)
+| Apéndice | Título | Sección | Requisito Clave |
+|:---------|:-------|:--------|:----------------|
+| AT1      | Alcance| 4.2     | Cantidad de unidades |
+| AT4      | KPIs   | 3.1     | Disponibilidad 99.5%|
 
-## 3. REQUISITOS FUNCIONALES
-1. [Requisito funcional 1]
-   - Fuente: [Contrato, Cap X]
-   - Descripción: [...]
+## 3. RESUMEN EJECUTIVO (EL RELATO)
+[Descripción conceptual del sistema. DEBE ser coherente con el T05. Evitar datos "fantasmas"].
 
-## 4. REQUISITOS TÉCNICOS
-1. [Requisito técnico 1]
-   - Fuente: [AT4, Cap Y]
-   - Descripción: [...]
-   - Métrica: [ej: Disponibilidad según Apéndice Técnico]
+## 4. T02 - ANÁLISIS DE REQUISITOS
+- **Funcionales:** [Listado trazable]
+- **No Funcionales:** [Disponibilidad, Ciberseguridad, Mantenibilidad]
 
-## 5. NORMATIVAS APLICABLES
-- [Normativa 1]: [Descripción]
-- [Normativa 2]: [Descripción]
+## 5. T03 - ARQUITECTURA CONCEPTUAL
+[Diagramas de bloques y topología lógica].
 
-## 6. INTERFACES IDENTIFICADAS
-- **Con sistema X:** [Descripción de interface]
-- **Con sistema Y:** [Descripción de interface]
-
-## 7. INDEFINICIONES CRÍTICAS
-1. [Indefinición 1]
-   - Impacto: [ALTO/MEDIO/BAJO]
-   - Estrategia de avance: [...]
-
-## 8. SUPUESTOS INICIALES
-1. [Supuesto 1]
-2. [Supuesto 2]
-
-## 9. PRÓXIMOS PASOS
-- [ ] Definir arquitectura conceptual
-- [ ] Identificar proveedores potenciales
-- [ ] Estimar recursos necesarios
+## 6. PRÓXIMOS PASOS
+- [ ] Validar con T05 de Precios.
+- [ ] Ejecutar Sincronización Layer 3.
 ```
 
 ### 4.2 Template: Documento Master de Sistema
 
 ```markdown
-# SISTEMA [NOMBRE] - DOCUMENTO MASTER v1.0
+# [CÓDIGO WBS] T04 - ESPECIFICACIÓN TÉCNICA DEFENSIVA: [NOMBRE]
 
-**Proyecto:** APP La Dorada-Chiriguaná  
-**Sistema:** [Código WBS + Nombre]  
-**Fecha:** [DD/MM/AAAA]  
-**Estado:** Ingeniería Básica Completa
+> [!WARNING]
+> **AVISO AL OFERENTE:** El incumplimiento de cualquiera de los parámetros "Mandatorios" citados textualmente del Contrato será causa de rechazo inmediato de la propuesta sin lugar a subsanación técnica.
 
-## 📋 CONTROL DE DOCUMENTO
+## 1. PARÁMETROS TÉCNICOS BINDING (AT3/AT4)
+| Parámetro | Requisito | Fuente Contractual | Causal de Rechazo |
+|:----------|:----------|:-------------------|:------------------|
+| Disponibilidad | 99.5% | AT4, Sección 2.1.2| Inferior a 99.5% |
+| Protocolo | Abierto/Neutral | AT2, Cláusula 14.2| Protocolo Propietario|
 
-### Composición del Documento
-Este documento consolida información de las siguientes fuentes:
+## 2. T05 - INGENIERÍA DE DETALLE (PRECIOS Y CANTIDADES)
+| Ítem | Descripción | Unidad | Cantidad | Fuente de Cantidad |
+|:-----|:------------|:-------|:---------|:-------------------|
+| 1.01 | Hardware [X] | UN | [N] | AT1 / Diseño Opt. |
 
-| Fase | Documento Fuente | Fecha Sync | Estado |
-|:-----|:-----------------|:-----------|:-------|
-| Análisis Contractual | I/Analisis/FS_CTC_v0.1.md | 15/01/2025 | ✅ |
-| Conceptual | III/CTC_Analisis_Requisitos_v0.1.md | 20/01/2025 | ✅ |
-| Conceptual | III/CTC_Arquitectura_Conceptual_v0.1.md | 22/01/2025 | ✅ |
-| Básica | IV/CTC_Dimensionamiento_v0.1.md | 27/01/2025 | ✅ |
-| Básica | IV/CTC_Estimacion_Costos_v0.1.md | 27/01/2025 | ✅ |
-
-## 1. MARCO CONTRACTUAL
-[Copiar de Ficha de Sistema]
-
-## 2. REQUISITOS Y ANÁLISIS
-[Copiar de Análisis de Requisitos]
-
-## 3. INGENIERÍA CONCEPTUAL
-[Copiar de Arquitectura Conceptual]
-
-## 4. INGENIERÍA BÁSICA
-[Copiar de Dimensionamiento]
-
-## 5. ESPECIFICACIONES TÉCNICAS
-[Consolidar todas las especificaciones]
-
-## 6. ESTIMACIÓN DE COSTOS
-[Copiar estimación consolidada]
-
-## 7. INTERFACES Y DEPENDENCIAS
-[Consolidar interfaces]
-
-## 8. RIESGOS Y MITIGACIONES
-[Consolidar riesgos]
-
-## 9. CRONOGRAMA Y PRÓXIMOS PASOS
-[Definir próximos pasos]
-
-## 10. ANEXOS
-[Incluir anexos relevantes]
+## 3. CERTIFICACIÓN DE COHERENCIA
+- [ ] **Sincronizado con Dashboard:** Sí
+- [ ] **Validado contra AT Literal:** Sí
+- [ ] **Firma de Responsabilidad:** Ing. [Nombre]
 ```
 
 ---
@@ -463,10 +427,14 @@ Si Proyecto 1 tomó 11 semanas y reuso promedio es 60%:
 
 #### L3: Template de Ficha de Sistema como primer paso
 - **Categoría:** Herramientas
-- **Lección:** Usar template T01_Ficha_Sistema.md como primer documento acelera extracción de requisitos
-- **Evidencia:** Se usó en 8 sistemas con éxito
-- **Eficiencia:** Reduce 30% el tiempo vs. formato libre
-- **Estándar:** Adoptar como obligatorio en proyectos futuros
+- **Lección:** Usar template T01_Ficha_Sistema.md como primer documento acelera extracción de requisitos.
+- **Evidencia:** Se usó en 8 sistemas con éxito.
+- **Eficiencia:** Reduce 30% el tiempo vs. formato libre.
+
+#### L4: Saneamiento de "Ghost Data" (Audit 6.0)
+- **Categoría:** Integridad del Dato.
+- **Lección:** El texto descriptivo a menudo retiene cantidades obsoletas (ej. "30 cámaras") mientras la tabla T05 se actualiza (ej. "9 cámaras").
+- **Solución:** Implementar la **Validación Agente 3** (Cross-Check) como requisito de cierre. El dato de la tabla subyace a la narrativa.
 
 ### 7.2 Métricas de Eficiencia Alcanzadas
 

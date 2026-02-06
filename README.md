@@ -15,33 +15,18 @@ Este repositorio contiene la **documentación completa de ingeniería EPC** para
 ### 🎯 **OBJETIVO PRINCIPAL**
 Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de decisiones técnicas esté integrada con una gestión proactiva de riesgos, supuestos e indefiniciones, bajo la supervisión de la PMO, con **especialidades técnicas completas** y **base constructiva sólida**.
 
-### **📊 ESTADO DEL SISTEMA v14.7.7 (15-Oct-2025):**
-
-| Componente | Estado | Métricas |
-|:-----------|:-------|:---------|
-| **Interfaces WBS** | ✅ Operativas | 8 interfaces HTML dinámicas |
-| **WBS Presupuestal** | ✅ 100% Dinámico | 159 ítems (6 cap + 19 sub + 134 items), 0% hardcode |
-| **Extracción WBS** | ✅ 3 Niveles | Script extrae capítulos, subcapítulos e ítems automáticamente |
-| **Layout Maestro** | ✅ Completo | 2,182 equipos totales (1,982 telecom + 200 otros sistemas) - 9 tipos |
-| **Filtros Layout** | ✅ Funcionando | Todos los dropdowns operativos (Tipo, Sistema, UFV, PK) |
-| **Encoding UTF-8** | ✅ Corregido | Caracteres especiales (→, ÷, acentos) en criterios técnicos |
-| **Documentos Técnicos** | ✅ Actualizados | 181 documentos v5.0 |
-| **Decisiones Técnicas** | ✅ Sistema DT | 25 DTs ejecutadas (incluyendo FIBRA-641) |
-| **Workflow Cocinar/Servir** | ✅ Automático | Detección y ejecución automática de scripts |
-| **Documentos Servidos** | ✅ Actualizados | 28 archivos (14 Word + 14 HTML) |
-| **Presupuesto Total** | ✅ Validado | $287.83 B COP (CD) + AIU/IVA = $307.53 B COP |
-| **Coherencia Técnica** | ✅ 100% | WBS ↔ Ingeniería ↔ Layout sincronizados |
-| **Proyecto Organizado** | ✅ Limpio | 72% reducción archivos, 9 carpetas organizadas |
-| **Scripts** | ✅ Organizados | 59 activos + 23 legacy (nuevo: regenerar_criterios_tecnicos_js.ps1) |
-| **Commits Git** | ✅ Actualizados | 28+ commits v14.7.6 |
-| **Bugs Corregidos** | ✅ v14.7.6 | WBS_COMPLETA lista 134 items, Layout muestra 9 tipos de equipos |
+### **ESTRUCTURA DE 5 CAPAS (DATA PIPELINE):**
+1. **L1: CONTRATO (Inmutable):** Apéndices Técnicos (AT1-AT4).
+2. **L2: INGENIERÍA (T01-T05):** De la Ficha al Precio.
+3. **L3: VALIDACIÓN:** Scripts y transformaciones JSON.
+4. **L4: VISUALIZACIÓN:** Dashboards Web Dashboard.
+5. **L5: SERVICIOS:** RFQs y Ejecutivos "Cocinados".
 
 ### ✅ **ESTADO DE LA INGENIERÍA (PHASE 7 - FEBRERO 2026)**
-- **Saneamiento Forense:** Completado (KPIs, Eurobalistas, RBC prescriptive eliminados).
-- **Alineación Contractual:** Revertida a base literal (AT4 = 99.5%).
-- **Manuales O&M:** Reseteados a "EN RE-LINEACIÓN".
-- **Metodología:** Evolucionada a v7.0 (Enfoque en Neutralidad y Defensa Contractual).
-- **Validación final:** ⚠️ **NO APTO PARA CONSTRUCCIÓN - EN EVALUACIÓN DE RE-LINEACIÓN**
+- **L1: Base Contractual (I, II, II.A):** 🛡️ **SANEADO Y BLINDADO** (100% Literal).
+- **L2: Ingeniería (III, IV, V):** ⚠️ **EN RE-LINEACIÓN** (Sustituyendo inventos por T01-T05).
+- **L3-L5: Automatización y Servicios:** ✅ Operativos (v7.0 Logic).
+- **Validación final:** ⚠️ **NO APTO PARA CONSTRUCCIÓN - EN DESCONTAMINACIÓN TÉCNICA**
 
 ### 🔴 **ESTADO ACTUAL: 4 BLOCKERS CRÍTICOS**
 

@@ -1,6 +1,9 @@
-﻿# CRITERIOS DE REDUNDANCIA - DISPONIBILIDAD Y RESPALDO
+﻿# SISTEMA DE SEÑALIZACIÓN INTEGRADO v7.0 - PHASE 7
 ## APP La Dorada - Chiriguaná
-**ESTADO: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)**
+
+**Versión:** 7.0 (Phase 7)  
+**Fecha:** Febrero 2026  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**  
 ---
 
 ## 1. MARCO CONTRACTUAL
@@ -49,8 +52,7 @@ El diseño detallado de todos los sistemas está bloqueado hasta que estos crite
 ### 2.3 Interfaces Críticas
 - **Redundancia ↔ Sistemas Eléctricos:** La doble acometida, los UPS y los generadores son la base de la disponibilidad de todos los demás sistemas.
 - **Redundancia ↔ SICC (AT4):** El SICC debe monitorear el estado de los sistemas redundantes y registrar cualquier evento de conmutación para el cálculo de los KPIs de disponibilidad.
-- **🚂 Redundancia ↔ ITCS:** Sistemas de control embarcados con redundancia ETCS Level 2 hasta AT3
-- **🔗 Redundancia ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+- **Redundancia ↔ Estándar de Control:** Los sistemas de control deben garantizar la seguridad operativa según los requisitos de AT3, evaluando tecnologías de mercado (ej. ITCS o ETCS) como referencias no prescriptivas.
 
 ---
 
@@ -163,6 +165,6 @@ La aprobación de estos criterios de redundancia permite:
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 1. **Estrategia ITCS:** Desarrollar especificaciones de redundancia basadas en ETCS Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de redundancia compatibles con sistemas FENOCO existentes
-3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
+3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Redundancia:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
 5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas ITCS y FENOCO

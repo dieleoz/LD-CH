@@ -1,16 +1,8 @@
-﻿# HOJA DE RUTA TÉCNICA - INGENIERÍA CONCEPTUAL
-## APP La Dorada - Chiriguaná
-
----
-
-### INFORMACION DEL DOCUMENTO
-- Fecha de conversion: 17/09/2025 16:13
-- Proyecto: APP La Dorada - ChiriguanÃ¡
-- Contrato: Concesion No. 001 de 2025
-- Responsable: Administrador Contractual EPC
-- Tipo: Documento de Soporte
-- Categoria: Ingenieria Conceptual
-- Numero: 18
+﻿**Versión:** 7.0 (Phase 7 - Re-lineación)  
+**Fecha:** Febrero 2026  
+**Proyecto:** APP La Dorada - Chiriguaná  
+**Estado:** ⚠️ **EN RE-LINEACIÓN (DESCONTAMINACIÓN TÉCNICA)**  
+**Responsable:** Administrador Contractual EPC  
 
 ---
 
@@ -24,8 +16,8 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 ### CONTENIDO TECNICO
 
-HOJA DE RUTA TÉCNICA - INGENIERÍA CONCEPTUAL
-APP LA DORADA-CHIRIGUANÁ
+# HOJA DE RUTA TÉCNICA (INGENIERÍA CONCEPTUAL) v7.0
+## APP La Dorada - Chiriguaná
 
 FASE 1: ANÁLISIS CONTRACTUAL (Base Documental)
 1. Análisis de Jerarquía Documental
@@ -57,7 +49,7 @@ Sistemas Identificados:
 A. Sistemas de Señalización y Control
 CTC (Centro de Control de Tráfico): AT1 (Cap. 4.3.2) + AT2 (Cap. 3.2.1) + AT3 (Cap. 8.2)
 Señalización Ferroviaria: AT3 (Cap. 8.1) + AT2 (Cap. 3.1.2)
-Sistema PTC/ITCS: AT1 (Cap. 5.1) + AT3 (Cap. 8.10) + Cl. 13.1 (ETCS Level 2 hasta AT3)
+60. Estudio de Referencia: Señalización Avanzada (Benchmark): Análisis de tecnologías de mercado (ITCS/ETCS) como referencia técnica, sin carácter prescriptivo.
 B. Sistemas de Telecomunicaciones
 Radio TETRA: AT3 (Cap. 8.5) + AT2 (Cap. 3.2.2)
 Fibra Óptica: AT3 (Cap. 8.6) + AT5 (interferencias)
@@ -71,7 +63,7 @@ Talleres: AT1 (UF1 - Tablas 12-15) + AT2 (Cap. 6.1)
 CCO: AT1 (UF2 - Tabla 16) + AT2 (Cap. 4.1)
 Estaciones: AT2 (Cap. 2.4) + AT8 (accesibilidad)
 E. Material Rodante y Equipos
-Locomotoras con ITCS: AT1 (Cap. 5.1) + Cl. 13.1
+Locomotoras: AT1 (Cap. 5.1) + Cl. 13.1
 Equipos de Mantenimiento: AT1 (Cap. 5.2)
 Entregable: ListadoMaestro_Sistemas.docx
 Duración: 10 días
@@ -116,7 +108,7 @@ Estructura Propuesta:
 └── 4.4 Centro de Transferencia de Carga
 
 5.0 MATERIAL RODANTE Y EQUIPOS
-├── 5.1 Locomotoras con ITCS
+├── 5.1 Locomotoras
 ├── 5.2 Equipos de Mantenimiento
 └── 5.3 Sistemas Embarcados
 Entregable: WBS_IngenieriaConceptual.docx
@@ -171,13 +163,13 @@ Entregable: Criterios_Interoperabilidad.docx
 Duración: 10 días
 
 9. Redundancia y Disponibilidad
-Objetivo: Cumplir indicadores AT4 de disponibilidad (99.95% sistemas críticos)
+Objetivo: Cumplir indicadores AT4 de disponibilidad (99.5% según contrato)
 Estrategias:
 Doble alimentación eléctrica: UPS + generadores
 Comunicaciones redundantes: Fibra + radio
 Centros de control espejo: CCO principal + respaldo
 Sistemas de monitoreo 24/7: SICC + alarmas
-Criterios de disponibilidad AT4: CTC 99.95%, TETRA 99.5%, ITCS 99.95%
+Criterios de disponibilidad AT4: Críticos 99.5%, No críticos según AT4.
 Entregable: Criterios_Redundancia.docx
 Duración: 8 días
 
@@ -270,7 +262,8 @@ Plan_GestionPermisos_Licencias.docx - Estrategia de tramitología
 TOTAL: 17 documentos técnicos + 21 documentos contractuales = 38 documentos
 
 CRITERIOS DE SALIDA A INGENIERÍA BÁSICA
-✅ Todos los sistemas identificados y referenciados contractualmente ✅ WBS definido con paquetes de trabajo claros✅ Criterios de diseño establecidos ✅ Interfaces entre sistemas mapeadas ✅ Plan de permisos estructurado ✅ Matriz de riesgos técnicos identificada
+✅ Todos los sistemas identificados y referenciados contractualmente ✅ WBS definido con paquetes de trabajo claros
+✅ Criterios de diseño establecidos ✅ Interfaces entre sistemas mapeadas ✅ Plan de permisos estructurado ✅ Matriz de riesgos técnicos identificada
 
 ⚠️ ADVERTENCIA: Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.
 
@@ -326,41 +319,21 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ---
 
-Estado del documento: ✅ Completado - 27 de enero de 2025  
-Version: 4.1  
-Responsable: Administrador Contractual EPC  
+Estado: ⚠️ EN RE-LINEACIÓN (PHASE 7 - DESCONTAMINACIÓN TÉCNICA)  
+Versión: 7.0  
+Fecha: Febrero 2026
+Administrador Contractual EPC  
 Proxima actualizacion: 27 de febrero de 2025
 
 ---
 
-## 🔄 **ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42**
+## 🔄 **ACTUALIZACIÓN v7.0 - PHASE 7 RE-LINEACIÓN**
 
-### ✅ **MEJORAS IMPLEMENTADAS:**
+### ✅ **SANEAMIENTO IMPLEMENTADO:**
+1. **🚂 Neutralidad Técnica:** Eliminación de ETCS/ITCS como diseños prescriptivos. Re-posicionados como estudios de referencia.
+2. **📊 Corrección KPI AT4:** Reversión global al target contractual de **99.5%**.
+3. **5-Layer Architecture:** Alineación con el framework Punto 42 v7.0.
+4. **Estado:** Todos los documentos del Folder III entran en "RE-LINEACIÓN" para sustituir v5.0 por T01/T02/T03.
 
-1. **🚂 ITCS Especificado:** ETCS Level 2 como estándar hasta AT3 en cronograma
-2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados con tiempo adicional
-3. **📊 Criterios de Disponibilidad AT4:** Integrados en fase de redundancia
-4. **⏰ Cronograma Ajustado:** 116 → 120 días por dependencias críticas
-
-### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Estrategia de avance con ETCS Level 2 especificada
-- ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
-- ✅ **AT4:** Criterios de disponibilidad integrados en cronograma
-- ✅ **Tiempo:** Cronograma ajustado para dependencias críticas
-
-### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
-
-| **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
-|:---:|:---|:---:|:---:|:---|:---|
-| **R-005** | **Dependencia AT3 en cronograma** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, cronograma de 120 días puede extenderse |
-| **R-006** | **Coordinación FENOCO** | **Técnico** | **Media** | **Alto** | Tiempo adicional requerido para interoperabilidad UIC |
-| **R-007** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica en cronograma |
-| **R-008** | **38 documentos en 120 días** | **Gestión** | **Media** | **Medio** | Densidad alta de entregables puede generar retrasos |
-| **R-009** | **Interfaces entre sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA-FENOCO |
-
-### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-- **Análisis PMI requerido** para definir estrategias de mitigación
-- **Plan de contingencia** para dependencias AT3
-- **Protocolos de coordinación** con FENOCO
-- **Matriz de disponibilidad** para cumplimiento AT4
-- **Gestión de interfaces** crítica para integración
+**Aprobado por:** Administrador Contractual EPC  
+**Fecha:** Febrero 2026

@@ -47,14 +47,12 @@ Este documento presenta la **Estrategia de Señalización Ferroviaria (T01-T03)*
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Señalización es un componente de seguridad vital, cuyas especificaciones se derivan de múltiples fuentes contractuales, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
+El Sistema de Señalización es un componente de seguridad vital, cuyas especificaciones se derivan de las obligaciones contractuales vigentes (Capas 1-4):
 
-- **AT1 (Alcance):** Define el alcance físico, incluyendo **5 enclavamientos electrónicos** y **146 pasos a nivel** con su tipología (Tabla 17, Cap. 4.5).
-- **AT2 (Operación):** Establece los requisitos de seguridad en la operación y el mantenimiento de los sistemas de señalización (Cap. 3.1.2, 6.4).
-- **AT3 (Especificaciones):** Detalla las normas técnicas ADIF (ET, NAS, NRS) para enclavamientos, señales, detectores y pasos a nivel (Cap. 8.1, 8.3).
-- **AT4 (Indicadores):** Exige una disponibilidad del 100% para los Pasos a Nivel tipo B y C (PNBC) y define indicadores de seguridad operativa.
-- **AT8 (Gestión Social):** Requiere programas de cultura vial y capacitación en seguridad ferroviaria, directamente ligados a la señalización en pasos a nivel.
-- **Cláusula 8.2 (Construcción):** Obliga a la instalación y puesta en marcha de todos los sistemas de señalización.
+- **AT1 (Alcance):** Define el alcance físico contractual (Tabla 17, Cap. 4.5).
+- **AT2 (Operación):** Establece los requisitos de seguridad en la operación (Cap. 3.1.2).
+- **AT3 (Especificaciones):** Detalla las normas técnicas aplicables (Cap. 8.1).
+- **AT4 (Indicadores):** Exige una disponibilidad del **99.5%** para componentes críticos (PNBC).
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS
 **Documentos Base (Completados ✅):**
@@ -79,10 +77,10 @@ La ingeniería conceptual debe resolver la contradicción entre las normas propu
 
 | Requisito Contractual | Fuente | Solución de Ingeniería Propuesta | Estado |
 |:----------------------|:-------|:---------------------------------|:-------|
-| **Protección de Trenes** | AT1/AT3 | ATP Embarcado (Software-defined) | 🔍 En Diseño |
-| **Enclavamientos** | AT1 | 5 CBI (Enclavamiento Electrónico) | 🔍 En Diseño |
-| **Comunicaciones** | AT3 | Red Híbrida (TETRA/GSM-R) | 🔍 En Diseño |
-| **Posicionamiento** | AT3 | Odometría + Referencias Virtuales | 🔍 En Diseño |
+| **Protección de Trenes** | AT1/AT3 | Sistema de Protección Automática (ATP) | 🔍 En Diseño |
+| **Enclavamientos** | AT1 | Enclavamientos Electrónicos (CBI) | 🔍 En Diseño |
+| **Comunicaciones** | AT3 | Red de Comunicaciones Ferroviarias | 🔍 En Diseño |
+| **Posicionamiento** | AT3 | Sistema de Localización (según propuesta técnica) | 🔍 En Diseño |
 
 ### 2.2 Notas sobre Tecnologías Prescriptivas
 Anteriormente se consideraron soluciones como "Eurobalizas" o "RBC Físico". Bajo la metodología de descontaminación, estas se consideran **Alternativas de Segundo Nivel** a ser descartadas si no son requeridas por el literal contractual o por la norma técnica final seleccionada (DT-001).
@@ -432,7 +430,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 | **Disponibilidad PNBC 100%** | AT4 | Diseño de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | ✅ Definido |
 | **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseño de señalización en PN (especialmente Tipo A) coordinado con las campañas de capacitación y sensibilización comunitaria. | ✅ Definido |
 | **Integración con CTC** | AT3, Cap. 8.2 | Implementación de interfaz SCI-CC-A (NAS 830) en cada enclavamiento para la comunicación con el CTC. | ✅ Definido |
-| **Integración ITCS/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **ITCS ETCS Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
+| **Integración Sistemas Avanzados** | AT1 | Preparación de interfaces para integración con sistemas de control (estudio de referencia: ITCS/ETCS). | ✅ Definido |
 
 ### **8.2 Indicadores de Riesgo**
 
