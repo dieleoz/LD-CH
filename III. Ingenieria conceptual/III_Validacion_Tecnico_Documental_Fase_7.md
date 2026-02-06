@@ -13,6 +13,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 | :--- | :---: | :--- | :---: |
 | **0_0_relacion_de_apendices...** | ✅ Validado | Mapea correctamente el Apéndice Técnico 1 con los entregables de ingeniería. | 100% |
 | **0_1_hoja_de_ruta_tecnica...** | ✅ Validado | Neutralidad Técnica (ITCS) y corrección KPI (99.5%). | 100% |
+| **25.1_Matriz_Alcance_Electrico** | ⚠️ Condicionado | Aprobado con corrección de sitios TETRA (37) y eliminación de GSM-R. KPI 99.5%. | 90% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
 | **22_HojaRuta_Conceptual...** | ✅ Validado | Soporte técnico de la metodología Phase 7. Alineado con Guía VII.1 y KPI 99.5%. | 100% |
 | **23_ListadoMaestro_Sistemas_v5.0** | ⚠️ Condicionado | Ahorro validado de $50kM COP. Alerta por GSM-R (Gold Plating) y viabilidad de 0 balizas. | 95% |
