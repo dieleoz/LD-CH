@@ -47,7 +47,7 @@ Esta revisión asegura la coherencia entre los documentos de diseño y las oblig
 - **Contenido:** Cuantificación total del alcance físico (Phase 7).
 - **Ahorro Estratégico:** Valida la eliminación de 1.080 balizas y 270 señales LED (~$50.193 millones COP).
 - **Riesgo Tecnológico:** El esquema de "0 balizas" requiere una Decisión Técnica (DT) que avale el posicionamiento satelital (PTC) sobre el estándar ETCS L2.
-- **Gold Plating:** Se identifica el sistema **GSM-R** ($3.484M COP) como un sobrecosto no obligatorio por AT3 (solo exige TETRA).
+- **Gold Plating:** Se ha **ELIMINADO el sistema GSM-R** ($3.484M COP) tras confirmar que es un sobrecosto no obligatorio por AT3 (solo exige TETRA).
 - **KPI Correction:** Se ajusta la disponibilidad al **99.5%** para evitar sobrecostos en infraestructura Tier IV.
 - **Veredicto:** VIGENTE como base de presupuesto, condicionado a la resolución de la DT de balizas y justificación de GSM-R.
 

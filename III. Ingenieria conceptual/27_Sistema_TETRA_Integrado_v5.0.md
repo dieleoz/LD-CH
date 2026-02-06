@@ -49,7 +49,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 - **AT1 (Alcance):** Define la necesidad de un "Sistema Base Troncal" y "Torres de telecomunicaciones" para garantizar la comunicación (Cap. I, Num. 1.3).
 - **Fibra Óptica ↔ Sistemas de Control:** Backbone para comunicación con sistemas de protección de trenes según requisitos de AT3.
-- **AT3 (Especificaciones):** Detalla los requisitos técnicos para el sistema de radio TETRA, incluyendo el cumplimiento de normas ETSI (Cap. 8.5).
+- **AT3 (Especificaciones)::** Detalla los requisitos técnicos para el sistema de radio TETRA, incluyendo el cumplimiento de normas ETSI (Cap. 8.5).
 - **AT7 (Gestión Predial):** Define la necesidad de adquirir predios para la instalación de las torres de comunicaciones (Cap. 3.1).
 - **Cláusula 13.1 (Material Rodante):** Exige que el material rodante cuente con los sistemas de comunicación necesarios para la operación segura.
 
@@ -78,7 +78,7 @@ La ingeniería conceptual debe definir la cantidad de sitios basándose exclusiv
 | Requisito Contractual | Fuente | Parámetros de Diseño Propuestos | Estado |
 |:----------------------|:-------|:---------------------------------|:---:|
 | **Cobertura 100%** | AT1/AT4 | Cantidad de sitios TBD según estudio de propagación | 🔍 En Diseño |
-| **Redundancia Crítica** | AT4 | Propuesta: Hibridación TETRA/GSM-R | 🔍 En Diseño |
+| **Redundancia Crítica** | AT4 | Propuesta: Hibridestaciones TETRA | 🔍 En Diseño |
 | **Interoperabilidad** | AT2 | Protocolos compatibles con red FENOCO | 🔍 En Diseño |
 
 ### 2.2 Notas sobre Dimensionamiento

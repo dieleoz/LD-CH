@@ -74,7 +74,6 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **GSM-R** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
 | **Eurobalises** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
@@ -91,7 +90,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 ### 2.3 Componentes en Revisión (Legacy v5.0)
 **⚠️ BAJO AUDITORÍA PARA ELIMINACIÓN/RE-POSICIONAMIENTO:**
 - Eurobalises, RBC, señales LED (ya eliminados por exceso prescriptivo).
-- GSM-R, EOT, ENCE: Sujeto a validación literal contra AT1-AT3. No heredar como diseño base si no es obligatorio.
+- EOT, ENCE: Sujeto a validación literal contra AT1-AT3. No heredar como diseño base si no es obligatorio.
 
 ### 2.5 Propagación Requerida
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
@@ -133,7 +132,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA** | Redundancia según contrato (AT3) | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -144,7 +143,6 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **GSM-R** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -165,7 +163,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - Computadora de abordo ATP
 - Sensores de velocidad y posición
 - Display del maquinista
-- Radio TETRA + GSM-R
+- Radio TETRA
 - Sistema EOT integrado
 
 #### **4.2.2 Centro de Control de Tráfico (CCO La Dorada)**
@@ -208,7 +206,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - ITCS FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + GSM-R dual
+- Radio TETRA
 
 ---
 
@@ -229,7 +227,6 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 594 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **GSM-R:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + ATP) ✓
 - ✅ **Eurobalises:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
@@ -244,7 +241,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **ATP embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + GSM-R** ✓
+- ✅ **TETRA confirmada** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **4 documentos afectados identificados** ✓
@@ -321,7 +318,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 ---
 
-### **B. SISTEMAS DE TELECOMUNICACIONES (REDUNDANCIA DUAL)**
+### **B. SISTEMAS DE TELECOMUNICACIONES (TETRA)**
 
 #### **2.1 Radio TETRA (37 ESTACIONES)**
 - **Referencias:** AT3 (Cap. 8.5), AT2 (Cap. 3.2.2), AT7 (predios torres)
@@ -330,12 +327,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Disponibilidad:** 99.5% según AT4
 - **Interoperabilidad:** Frecuencias y protocolos UIC compatibles con FENOCO
 
-#### **2.2 Sistema GSM-R (37 ESTACIONES) - NUEVO**
-- **Referencias:** Criterios Técnicos Maestros v1.0
-- **Funciones:** Redundancia con TETRA, comunicaciones críticas
-- **Cobertura:** 100% del corredor (colocalizado con TETRA)
-- **Disponibilidad:** 99.5% según AT4
-- **Componentes:** Estaciones base GSM-R, radios embarcados, antenas
+
 
 #### **2.3 Red de Fibra Óptica (594 KM)**
 - **Referencias:** AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios)
@@ -409,7 +401,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 #### **5.1 Locomotoras con ATP Embarcado (15 UNIDADES)**
 - **Referencias:** AT1 (Cap. 5.1), Cl. 13.1 del Contrato
 - **Funciones:** Transporte de carga bajo estándares de seguridad
-- **Componentes:** Sistema ATP embarcado, radio TETRA+GSM-R, display maquinista
+- **Componentes:** Sistema ATP embarcado, radio TETRA, display maquinista
 - **Disponibilidad:** 99.95% según AT4
 - **Interoperabilidad:** ATP embarcado compatible con FENOCO
 
@@ -453,14 +445,14 @@ Cada sistema listado cumple con los siguientes criterios:
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### **9.2 Implementaciones Nuevas (Faltante)**
-- **GSM-R:** +$3,484,000,000 COP
+
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
-- **TOTAL AGREGAR:** +$13,807,000,000 COP
+- **TOTAL AGREGAR:** +$10,323,000,000 COP
 
 ### **9.3 Impacto Neto**
-**IMPACTO NETO:** -$50,193,000,000 COP
+**IMPACTO NETO:** -$53,677,000,000 COP
 
 ---
 
@@ -470,7 +462,7 @@ Cada sistema listado cumple con los siguientes criterios:
 **Cambios implementados:**
 - ✅ Eliminación masiva de infraestructura física de señalización
 - ✅ Implementación de filosofía virtual (CTC + ATP embarcado)
-- ✅ Agregación de sistemas faltantes (GSM-R, EOT, ENCE, Desvíos)
+- ✅ Agregación de sistemas faltantes (EOT, ENCE, Desvíos)
 - ✅ Ajuste de cantidades según criterios maestros
 - ✅ Verificación de coherencia técnica 100%
 
@@ -479,7 +471,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - **Auditoría base:** AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md
 - **Fecha de alineación:** Enero 2025
 - **Responsable:** Administrador Contractual EPC
-- **Impacto presupuestal:** -$50,193,000,000 COP
+- **Impacto presupuestal:** -$53,677,000,000 COP
 - **Metodología aplicada:** v5.0 - Coherencia Técnica Verificada
 
 ### 10.3 Próxima Revisión
@@ -506,7 +498,7 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ### 12.1 Personal
 - Personal técnico especializado en sistemas ferroviarios
-- Especialistas en telecomunicaciones (TETRA, GSM-R)
+- Especialistas en telecomunicaciones (TETRA)
 - Ingenieros de señalización y control
 - Especialistas en material rodante
 

@@ -155,7 +155,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 - Computadora de abordo ATP
 - Sensores de velocidad y posición
 - Display del maquinista
-- Radio TETRA + GSM-R
+- Radio TETRA
 - Sistema EOT integrado
 
 #### **4.2.2 Centro de Control de Tráfico (CCO La Dorada)**
@@ -323,7 +323,7 @@ Se eliminan del diseño conceptual las cantidades fijas de "37 estaciones" o "20
 - Computadora de abordo ATP
 - Sensores de velocidad y posición
 - Display del maquinista
-- Radio TETRA + GSM-R
+- Rradios TETRA
 - Sistema EOT integrado
 
 #### **7.2.3 Enclavamientos Electrónicos (ENCE - 5 Estaciones)**
