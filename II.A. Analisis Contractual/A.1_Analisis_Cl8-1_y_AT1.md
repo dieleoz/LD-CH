@@ -20,24 +20,24 @@ El documento traduce exitosamente las obligaciones legales abstractas de la "Eta
 | Concepto | Fuente: PDF Oficial (Contrato/AT1) | Fuente: A.1 MD v5.0 | Veredicto |
 | :--- | :--- | :--- | :--- |
 | **Fase Preconstrucción** | 15 Meses desde Acta de Inicio [Fuente 7]. | Identifica urgencia de gestión paralela. | ✅ Exacto |
-| **Metodología BIM** | ISO 19650-1 y 19650-2 [Fuente 150]. | Obligación contractual desde el inicio. | ✅ Validado |
-| **Intervenciones Prioritarias**| Plazo máximo de 12 meses (Puentes). | Foco de ingeniería inmediata. | ✅ Crítico |
-| **Alcance Geomático**| PK 0+000 (La Dorada) - PK 523+000. | Coincide con el alcance físico. | ✅ Exacto |
+| **Infraestructura** | Cumplimiento AREMA/FRA sin arquitectura específica. | Sistema de Control de Tráfico (AT1 Tabla 18). | ✅ Basado en AT1. |
+| **Operación** | Disponibilidad SICC al 99.0%. | Cumplimiento Indicador E3 (AT4). | ✅ Hito de Retribución. |
+| **Cronograma** | 12 meses para la UF3 (Logística/CCO). | Identifica UF3 como hito contractual fatal. | ✅ Según Sección 9.4. |
+| **Predial** | Entrega de predios condiciona la obra. | Liberación de áreas para infraestructura y soporte. | ✅ Según Apéndice 7. |
 
 ⚖️ **Interpretación:** La Fase de Preconstrucción (15 meses) no es solo documental. El Contrato exige entregar Estudios y Diseños de Detalle con "No Objeción". Si demoran por indefinición tecnológica, el reloj de la Concesión sigue corriendo sin generar ingresos.
 
-### 📡 2. EL "BLOQUEO ITCS" (RIESGO TÉCNICO N.º 1)
-*   **El Requisito:** El AT1 (Tabla 17) exige implementar un sistema tipo **PTC (Positive Train Control)** con cantonamiento virtual, bajo norma **FRA 49 CFR, Parte 236 [Fuente 78]**.
-*   **Riesgo Identificado:** La indefinición tecnológica bloquea el diseño del Material Rodante y la infraestructura de comunicaciones.
-*   **Acción MD:** Establece la estrategia de "Arquitectura Modular ITCS-Ready" para avanzar mientras se formaliza el Otrosí de señalización virtual.
+### 📡 2. SISTEMA DE SEÑALIZACIÓN (AT1)
+*   **El Requisito:** El AT1 (Tabla 17) exige implementar un sistema de señalización y control de tráfico que cumpla con normatividad internacional (FRA/AREMA/UIC).
+*   **Forense:** No se define una arquitectura física cerrada (balizas vs satelital). El diseño final debe garantizar la interoperabilidad y el cumplimiento del nivel de servicio.
 
 ### 💻 3. BIM COMO CONDICIÓN HABILITANTE
 BIM no es un entregable final, es la forma de validar el costo y la construcción. Sin modelos BIM aprobados (formato IFC y nativo), la Interventoría no puede otorgar "No Objeción" a los diseños civil (Cap. VIII AT1).
 
-### 🚀 INSTRUCCIONES AL EQUIPO (ESTRATEGIA EPC)
-1.  **Gerente de Ingeniería:** Desacoplar diseños de "Intervenciones Prioritarias" para iniciar obras en el Mes 7. Cerrar arquitectura PTC vs ETCS con Ardanuy.
-2.  **Gerente de Contratos:** Monitorear el hito del Mes 15. Usar el riesgo de indefinición tecnológica como base de Evento Eximente si la ANI demora aprobaciones.
-3.  **Coordinador BIM:** Configurar el CDE (Ambiente Común de Datos) antes de recibir el primer archivo de diseño.
+### 🚀 INSTRUCCIONES AL EQUIPO
+1.  **Gerente de Ingeniería:** Asegurar que los estudios de detalle cumplan con los plazos de la Sección 9.2 (Día 365).
+2.  **Equipo Contractual:** Monitorear la aprobación de diseños por parte de la Interventoría dentro de los plazos de la Sección 8.1.
+3.  **Document Controller:** Asegurar el registro de todos los entregables en el CDE según los requerimientos del Anexo BIM.
 
 ### ✅ VEREDICTO FINAL
 **Estado:** **APROBADO COMO HOJA DE RUTA OFICIAL DE PRECONSTRUCCIÓN.**
